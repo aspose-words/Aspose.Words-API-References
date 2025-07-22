@@ -67,6 +67,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getCompliance()](#getCompliance) | Specifies the OOXML version for the output document. |
 | [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
@@ -92,6 +93,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompliance(int value)](#setCompliance-int) | Specifies the OOXML version for the output document. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
@@ -409,6 +411,22 @@ Shows how to specify the compression level to use while saving an OOXML document
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -1628,6 +1646,19 @@ Shows how to specify the compression level to use while saving an OOXML document
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants. |
+
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```

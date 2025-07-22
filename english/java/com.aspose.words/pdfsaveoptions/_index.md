@@ -163,6 +163,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getCompliance()](#getCompliance) | Specifies the PDF standards compliance level for output documents. |
 | [getCreateNoteHyperlinks()](#getCreateNoteHyperlinks) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. |
 | [getCustomPropertiesExport()](#getCustomPropertiesExport) | Gets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets the details for signing the output PDF document. |
 | [getDisplayDocTitle()](#getDisplayDocTitle) | A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary. |
@@ -170,7 +171,6 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
 | [getDownsampleOptions()](#getDownsampleOptions) | Allows to specify downsample options. |
-| [getEmbedAttachments()](#getEmbedAttachments) | Gets a value determining whether or not to embed attachments to the PDF document. |
 | [getEmbedFullFonts()](#getEmbedFullFonts) | Controls how fonts are embedded into the resulting PDF documents. |
 | [getEncryptionDetails()](#getEncryptionDetails) | Gets the details for encrypting the output PDF document. |
 | [getExportDocumentStructure()](#getExportDocumentStructure) | Gets a value determining whether or not to export document structure. |
@@ -222,6 +222,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setCompliance(int value)](#setCompliance-int) | Specifies the PDF standards compliance level for output documents. |
 | [setCreateNoteHyperlinks(boolean value)](#setCreateNoteHyperlinks-boolean) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. |
 | [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int) | Sets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDigitalSignatureDetails(PdfDigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails) | Sets the details for signing the output PDF document. |
 | [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean) | A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary. |
@@ -229,7 +230,6 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
 | [setDownsampleOptions(DownsampleOptions value)](#setDownsampleOptions-com.aspose.words.DownsampleOptions) | Allows to specify downsample options. |
-| [setEmbedAttachments(boolean value)](#setEmbedAttachments-boolean) | Sets a value determining whether or not to embed attachments to the PDF document. |
 | [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean) | Controls how fonts are embedded into the resulting PDF documents. |
 | [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.words.PdfEncryptionDetails) | Sets the details for encrypting the output PDF document. |
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean) | Sets a value determining whether or not to export document structure. |
@@ -754,6 +754,22 @@ Shows how to export custom properties while converting a document to PDF.
 
 **Returns:**
 int - A value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. The returned value is one of [PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport/) constants.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -1058,26 +1074,6 @@ Shows how to change the resolution of images in the PDF document.
 
 **Returns:**
 [DownsampleOptions](../../com.aspose.words/downsampleoptions/) - The corresponding [DownsampleOptions](../../com.aspose.words/downsampleoptions/) value.
-### getEmbedAttachments() {#getEmbedAttachments}
-```
-public boolean getEmbedAttachments()
-```
-
-
-Gets a value determining whether or not to embed attachments to the PDF document.
-
- **Remarks:** 
-
-Default value is  false  and attachments are not embedded.
-
-When the value is  true  attachments are embedded to the PDF document.
-
-PDF/A-1, PDF/A-2 and PDF/A-4 (not level F) standards do not allow embedded files.  false  value will be used automatically.
-
-Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
-
-**Returns:**
-boolean - A value determining whether or not to embed attachments to the PDF document.
 ### getEmbedFullFonts() {#getEmbedFullFonts}
 ```
 public boolean getEmbedFullFonts()
@@ -3628,6 +3624,19 @@ Shows how to export custom properties while converting a document to PDF.
 | --- | --- | --- |
 | value | int | A value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) are exported to PDF file. The value must be one of [PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport/) constants. |
 
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
+
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```
 public void setDefaultTemplate(String value)
@@ -3952,29 +3961,6 @@ Shows how to change the resolution of images in the PDF document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DownsampleOptions](../../com.aspose.words/downsampleoptions/) | The corresponding [DownsampleOptions](../../com.aspose.words/downsampleoptions/) value. |
-
-### setEmbedAttachments(boolean value) {#setEmbedAttachments-boolean}
-```
-public void setEmbedAttachments(boolean value)
-```
-
-
-Sets a value determining whether or not to embed attachments to the PDF document.
-
- **Remarks:** 
-
-Default value is  false  and attachments are not embedded.
-
-When the value is  true  attachments are embedded to the PDF document.
-
-PDF/A-1, PDF/A-2 and PDF/A-4 (not level F) standards do not allow embedded files.  false  value will be used automatically.
-
-Embedding attachments is not supported when encryption is enabled.  false  value will be used automatically.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | A value determining whether or not to embed attachments to the PDF document. |
 
 ### setEmbedFullFonts(boolean value) {#setEmbedFullFonts-boolean}
 ```

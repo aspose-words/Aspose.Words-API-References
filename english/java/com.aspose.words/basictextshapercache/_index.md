@@ -27,7 +27,7 @@ Implements basic cache for [ITextShaper](../../com.aspose.words/itextshaper/) in
 
 | Method | Description |
 | --- | --- |
-| [dispose()](#dispose) |  |
+| [dispose()](#dispose) | Disposes cached [ITextShaper](../../com.aspose.words/itextshaper/) instances. |
 | [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int) |  |
 | [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int) |  |
 ### BasicTextShaperCache(ITextShaperFactory factory) {#BasicTextShaperCache-com.aspose.words.ITextShaperFactory}
@@ -49,7 +49,7 @@ public void dispose()
 ```
 
 
-
+Disposes cached [ITextShaper](../../com.aspose.words/itextshaper/) instances.
 
 ### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int}
 ```

@@ -441,8 +441,7 @@ Shows how to determine which direction a find-and-replace operation traverses th
      public ArrayList getMatches() {
          return mMatches;
      }
-
-     private final ArrayList mMatches = new ArrayList();
+     private ArrayList mMatches = new ArrayList<>();
  }
  
 ```
@@ -713,6 +712,26 @@ public boolean getIgnoreShapes()
 Gets or sets a boolean value indicating either to ignore shapes within a text.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to ignore shapes while replacing text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+ builder.insertShape(ShapeType.BALLOON, 200.0, 200.0);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+
+ FindReplaceOptions findReplaceOptions = new FindReplaceOptions(); { findReplaceOptions.setIgnoreShapes(true); }
+ builder.getDocument().getRange().replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
+ Assert.assertEquals("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.getDocument().getText().trim());
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1218,8 +1237,7 @@ Shows how to determine which direction a find-and-replace operation traverses th
      public ArrayList getMatches() {
          return mMatches;
      }
-
-     private final ArrayList mMatches = new ArrayList();
+     private ArrayList mMatches = new ArrayList<>();
  }
  
 ```
@@ -1511,6 +1529,26 @@ public void setIgnoreShapes(boolean value)
 Gets or sets a boolean value indicating either to ignore shapes within a text.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to ignore shapes while replacing text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+ builder.insertShape(ShapeType.BALLOON, 200.0, 200.0);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+
+ FindReplaceOptions findReplaceOptions = new FindReplaceOptions(); { findReplaceOptions.setIgnoreShapes(true); }
+ builder.getDocument().getRange().replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
+ Assert.assertEquals("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.getDocument().getText().trim());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -88,6 +88,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
@@ -123,6 +124,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
@@ -319,6 +321,22 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -1930,6 +1948,19 @@ Shows how to save the document with PostScript font.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```

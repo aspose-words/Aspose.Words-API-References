@@ -83,8 +83,7 @@ Shows how to determine which direction a find-and-replace operation traverses th
      public ArrayList getMatches() {
          return mMatches;
      }
-
-     private final ArrayList mMatches = new ArrayList();
+     private ArrayList mMatches = new ArrayList<>();
  }
  
 ```

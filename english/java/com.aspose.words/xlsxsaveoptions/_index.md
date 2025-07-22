@@ -44,6 +44,7 @@ Shows how to compress XLSX document.
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDateTimeParsingMode()](#getDateTimeParsingMode) | Gets the mode that specifies how document text is parsed to identify date and time values. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
@@ -66,6 +67,7 @@ Shows how to compress XLSX document.
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDateTimeParsingMode(int value)](#setDateTimeParsingMode-int) | Sets the mode that specifies how document text is parsed to identify date and time values. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
@@ -210,6 +212,22 @@ Shows how to compress XLSX document.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDateTimeParsingMode() {#getDateTimeParsingMode}
 ```
 public int getDateTimeParsingMode()
@@ -1199,6 +1217,19 @@ Shows how to compress XLSX document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants. |
+
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
 
 ### setDateTimeParsingMode(int value) {#setDateTimeParsingMode-int}
 ```

@@ -2,7 +2,7 @@
 title: VariationAxis
 linktitle: VariationAxis
 second_title: Aspose.Words for Java
-description:  in Java.
+description: Represents OpenType Design-Variation Axis Tag in Java.
 type: docs
 weight: 693
 url: /java/com.aspose.words/variationaxis/
@@ -13,15 +13,17 @@ java.lang.Object
 ```
 public class VariationAxis
 ```
+
+Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ITALIC](#ITALIC) |  |
-| [OPTICAL_SIZE](#OPTICAL-SIZE) |  |
-| [SLANT](#SLANT) |  |
-| [WEIGHT](#WEIGHT) |  |
-| [WIDTH](#WIDTH) |  |
+| [ITALIC](#ITALIC) | Registered tag for the roman/italic axis. |
+| [OPTICAL_SIZE](#OPTICAL-SIZE) | Registered tag for the optical-size axis. |
+| [SLANT](#SLANT) | Registered tag for the slant axis. |
+| [WEIGHT](#WEIGHT) | Registered tag for the weight axis. |
+| [WIDTH](#WIDTH) | Registered tag for the width axis. |
 | [length](#length) |  |
 ## Methods
 
@@ -37,11 +39,15 @@ public static int ITALIC
 ```
 
 
+Registered tag for the roman/italic axis.
+
 ### OPTICAL_SIZE {#OPTICAL-SIZE}
 ```
 public static int OPTICAL_SIZE
 ```
 
+
+Registered tag for the optical-size axis. Note: The optical-size axis supersedes the OpenType size feature.
 
 ### SLANT {#SLANT}
 ```
@@ -49,17 +55,23 @@ public static int SLANT
 ```
 
 
+Registered tag for the slant axis.
+
 ### WEIGHT {#WEIGHT}
 ```
 public static int WEIGHT
 ```
 
 
+Registered tag for the weight axis.
+
 ### WIDTH {#WIDTH}
 ```
 public static int WIDTH
 ```
 
+
+Registered tag for the width axis.
 
 ### length {#length}
 ```

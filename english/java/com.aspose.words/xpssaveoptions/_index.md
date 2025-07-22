@@ -77,6 +77,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
@@ -106,6 +107,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
@@ -344,6 +346,22 @@ Shows how to change image color with saving options property.
 
 **Returns:**
 int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -1823,6 +1841,19 @@ Shows how to change image color with saving options property.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode/) constants. |
+
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```

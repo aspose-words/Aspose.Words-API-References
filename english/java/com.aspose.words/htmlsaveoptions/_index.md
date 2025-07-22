@@ -197,6 +197,7 @@ Shows how to split a document into parts and save them.
 | [getCssSavingCallback()](#getCssSavingCallback) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
 | [getCssStyleSheetFileName()](#getCssStyleSheetFileName) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. |
 | [getCssStyleSheetType()](#getCssStyleSheetType) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. |
+| [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
@@ -262,6 +263,7 @@ Shows how to split a document into parts and save them.
 | [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.words.ICssSavingCallback) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
 | [setCssStyleSheetFileName(String value)](#setCssStyleSheetFileName-java.lang.String) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. |
 | [setCssStyleSheetType(int value)](#setCssStyleSheetType-int) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. |
+| [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
@@ -753,6 +755,22 @@ Shows how to work with CSS stylesheets that an HTML conversion creates.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CssStyleSheetType](../../com.aspose.words/cssstylesheettype/) constants.
+### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
+```
+public TimeZone getCustomTimeZoneInfo()
+```
+
+
+Gets custom local time zone used for date/time fields.
+
+ **Remarks:** 
+
+This option is available in either .Net framework starting from 3.5 version or .Net Standard.
+
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
+
+**Returns:**
+java.util.TimeZone - Custom local time zone used for date/time fields.
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -4345,6 +4363,19 @@ Shows how to work with CSS stylesheets that an HTML conversion creates.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [CssStyleSheetType](../../com.aspose.words/cssstylesheettype/) constants. |
+
+### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
+```
+public void setCustomTimeZoneInfo(TimeZone value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.TimeZone |  |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String}
 ```
