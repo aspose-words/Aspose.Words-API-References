@@ -5,7 +5,7 @@ articleTitle: AscenderOffset
 second_title: Aspose.Words for .NET
 description: Discover the Glyph AscenderOffset property for precise vertical positioning of diacritics on characters. Enhance your typography with expert accuracy!
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.shaping/glyph/ascenderoffset/
 ---
 ## Glyph.AscenderOffset property

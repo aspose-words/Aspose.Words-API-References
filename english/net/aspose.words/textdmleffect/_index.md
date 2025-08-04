@@ -5,7 +5,7 @@ articleTitle: TextDmlEffect
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TextDmlEffect enum for enhancing text runs with dynamic DML effects. Elevate your document presentation effortlessly!
 type: docs
-weight: 7260
+weight: 7280
 url: /net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration

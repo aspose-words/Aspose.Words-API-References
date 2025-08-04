@@ -26,13 +26,13 @@ Document doc = new Document();
 ListCollection lists = doc.Lists;
 Assert.That(lists.Document, Is.EqualTo(doc));
 
-List list = lists.Add(ListTemplate.BulletDefault);
-Assert.That(list.Document, Is.EqualTo(doc));
+List docList = lists.Add(ListTemplate.BulletDefault);
+Assert.That(docList.Document, Is.EqualTo(doc));
 
 Console.WriteLine("Current list count: " + lists.Count);
-Console.WriteLine("Is the first document list: " + (lists[0].Equals(list)));
-Console.WriteLine("ListId: " + list.ListId);
-Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
+Console.WriteLine("ListId: " + docList.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
 ```
 
 Shows how to apply list formatting of an existing list to a collection of paragraphs.
@@ -50,11 +50,11 @@ NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 

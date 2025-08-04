@@ -5,7 +5,7 @@ articleTitle: ScriptShapingLevel
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.Shaping.ScriptShapingLevel enum to understand script shaping levels, enhancing document formatting and text presentation.
 type: docs
-weight: 6900
+weight: 6920
 url: /net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration

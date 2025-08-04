@@ -32,10 +32,10 @@ public void MatchEndNode()
     builder.Writeln("3");
 
     ReplacingCallback replacingCallback = new ReplacingCallback();
-    FindReplaceOptions opts = new FindReplaceOptions();
-    opts.ReplacingCallback = replacingCallback;
+    FindReplaceOptions options = new FindReplaceOptions();
+    options.ReplacingCallback = replacingCallback;
 
-    doc.Range.Replace(new Regex("1[\\s\\S]*3"), "X", opts);
+    doc.Range.Replace(new Regex("1[\\s\\S]*3"), "X", options);
     Assert.That(replacingCallback.StartNodeText, Is.EqualTo("1"));
     Assert.That(replacingCallback.EndNodeText, Is.EqualTo("3"));
 }

@@ -5,7 +5,7 @@ articleTitle: LegacyMode
 second_title: Aspose.Words for .NET
 description: Discover the FindReplaceOptions LegacyMode property to easily toggle the classic find/replace algorithm for enhanced functionality and seamless user experience.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property

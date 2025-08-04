@@ -59,31 +59,31 @@ public void OutlineHeadingTemplates()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    List list = doc.Lists.Add(ListTemplate.OutlineHeadingsArticleSection);
-    AddOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Article Section\"");
+    List docList = doc.Lists.Add(ListTemplate.OutlineHeadingsArticleSection);
+    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
 
-    list = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
-    AddOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Legal\"");
+    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
+    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    list = doc.Lists.Add(ListTemplate.OutlineHeadingsNumbers);
-    AddOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Numbers\"");
+    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsNumbers);
+    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
 
-    list = doc.Lists.Add(ListTemplate.OutlineHeadingsChapter);
-    AddOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Chapters\"");
+    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsChapter);
+    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
 
     doc.Save(ArtifactsDir + "Lists.OutlineHeadingTemplates.docx");
 }
 
-private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List list, string title)
+private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List docList, string title)
 {
     builder.ParagraphFormat.ClearFormatting();
     builder.Writeln(title);
 
     for (int i = 0; i < 9; i++)
     {
-        builder.ListFormat.List = list;
+        builder.ListFormat.List = docList;
         builder.ListFormat.ListLevelNumber = i;
 
         string styleName = "Heading " + (i + 1);

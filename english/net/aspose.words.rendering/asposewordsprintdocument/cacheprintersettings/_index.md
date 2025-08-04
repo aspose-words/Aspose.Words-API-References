@@ -5,7 +5,7 @@ articleTitle: CachePrinterSettings
 second_title: Aspose.Words for .NET
 description: Enhance printing efficiency with Aspose.Words' CachePrinterSettings method, which optimizes PrinterSettings to minimize print delays and improve performance.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method

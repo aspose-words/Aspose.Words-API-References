@@ -5,7 +5,7 @@ articleTitle: Direction
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Shaping.Direction enum for flexible text direction control in your documents. Enhance readability and design with ease!
 type: docs
-weight: 6850
+weight: 6860
 url: /net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration

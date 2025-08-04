@@ -5,7 +5,7 @@ articleTitle: WarningType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningType enum, which categorizes warnings during document loading or saving, enhancing your document management experience.
 type: docs
-weight: 7510
+weight: 7540
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration

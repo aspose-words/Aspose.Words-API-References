@@ -126,7 +126,8 @@ public class Document : DocumentBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Returns the `Document` object representing specified range of pages. |
+| [ExtractPages](../../aspose.words/document/extractpages/#extractpages)(*int, int*) | Returns the `Document` object representing specified range of pages. |
+| [ExtractPages](../../aspose.words/document/extractpages/#extractpages_1)(*int, int, [PageExtractOptions](../pageextractoptions/)*) | Returns the `Document` object representing the specified range of pages and the given page extract options. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returns an Nth child node that matches the specified type. |

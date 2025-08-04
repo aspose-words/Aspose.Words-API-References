@@ -5,7 +5,7 @@ articleTitle: ThemeColors
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ThemeColors class, featuring a versatile 12-color scheme to enhance your document's visual appeal and consistency.
 type: docs
-weight: 7330
+weight: 7350
 url: /net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class

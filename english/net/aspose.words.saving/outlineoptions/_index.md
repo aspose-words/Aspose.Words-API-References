@@ -5,7 +5,7 @@ articleTitle: OutlineOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.OutlineOptions class to customize your document's outline settings for enhanced organization and clarity.
 type: docs
-weight: 6140
+weight: 6150
 url: /net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class

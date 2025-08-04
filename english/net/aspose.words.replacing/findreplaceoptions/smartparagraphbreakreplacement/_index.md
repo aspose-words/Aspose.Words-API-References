@@ -5,7 +5,7 @@ articleTitle: SmartParagraphBreakReplacement
 second_title: Aspose.Words for .NET
 description: Discover the SmartParagraphBreakReplacement property in FindReplaceOptions. Control paragraph breaks effortlessly for seamless text formatting.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
