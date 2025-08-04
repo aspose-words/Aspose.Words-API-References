@@ -5,7 +5,7 @@ articleTitle: UseLegacyOrder
 second_title: Aspose.Words for .NET
 description: Discover the UseLegacyOrder property in FindReplaceOptions. Enable sequential text searches for better accuracy. Default is false. Optimize your text processing!
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
@@ -50,9 +50,13 @@ public void UseLegacyOrder(bool useLegacyOrder)
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
 
-    Assert.That(callback.Matches, Is.EqualTo(useLegacyOrder ?
-        new List<string> { "[tag 1]", "[tag 3]", "[tag 2]" } :
-        new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" }));
+    List<string> expected;
+    if (useLegacyOrder)
+        expected = new List<string> { "[tag 1]", "[tag 3]", "[tag 2]" };
+    else
+        expected = new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" };
+    Assert.That(callback.Matches, Is.EqualTo(expected));
+
 }
 
 /// <summary>

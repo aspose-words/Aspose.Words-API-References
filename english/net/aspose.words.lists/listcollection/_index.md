@@ -78,11 +78,11 @@ public void PrintOutAllLists()
     dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
 }
 
-private static void AddListSample(DocumentBuilder builder, List list)
+private static void AddListSample(DocumentBuilder builder, List docList)
 {
-    builder.Writeln("Sample formatting of list with ListId:" + list.ListId);
-    builder.ListFormat.List = list;
-    for (int i = 0; i < list.ListLevels.Count; i++)
+    builder.Writeln("Sample formatting of list with ListId:" + docList.ListId);
+    builder.ListFormat.List = docList;
+    for (int i = 0; i < docList.ListLevels.Count; i++)
     {
         builder.ListFormat.ListLevelNumber = i;
         builder.Writeln("Level " + i);

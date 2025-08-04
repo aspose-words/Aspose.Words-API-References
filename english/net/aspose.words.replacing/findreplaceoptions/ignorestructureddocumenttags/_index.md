@@ -5,7 +5,7 @@ articleTitle: IgnoreStructuredDocumentTags
 second_title: Aspose.Words for .NET
 description: Discover the FindReplaceOptions IgnoreStructuredDocumentTags property. Control if StructuredDocumentTag content is ignored with this easy-to-use boolean setting.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
 ---
 ## FindReplaceOptions.IgnoreStructuredDocumentTags property

@@ -5,7 +5,7 @@ articleTitle: MarkdownExportAsHtml
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.MarkdownExportAsHtml enum to effortlessly convert Markdown elements to raw HTML, enhancing your document export options.
 type: docs
-weight: 6010
+weight: 6020
 url: /net/aspose.words.saving/markdownexportashtml/
 ---
 ## MarkdownExportAsHtml enumeration
@@ -23,8 +23,24 @@ public enum MarkdownExportAsHtml
 | --- | --- | --- |
 | None | `0` | Export all elements using Markdown syntax without any raw HTML. |
 | Tables | `1` | Export tables as raw HTML. |
+| NonCompatibleTables | `2` | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 
 ## Examples
+
+Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
+
+```csharp
+string outputPath = ArtifactsDir + "MarkdownSaveOptions.NonCompatibleTables.md";
+
+Document doc = new Document(MyDir + "Non compatible table.docx");
+
+// With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
+// or nested tables to raw HTML and leave simple tables in Markdown format.
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.ExportAsHtml = MarkdownExportAsHtml.NonCompatibleTables;
+
+doc.Save(outputPath, saveOptions);
+```
 
 Shows how to export a table to Markdown as raw HTML.
 

@@ -64,6 +64,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. |
 | [NodeImporter](./nodeimporter/) | Allows to efficiently perform repeated import of nodes from one document to another. |
 | [NodeList](./nodelist/) | Represents a collection of nodes matching an XPath query executed using the [`SelectNodes`](../aspose.words/compositenode/selectnodes/) method. |
+| [PageExtractOptions](./pageextractoptions/) | Allows to specify options for document page extracting. |
 | [PageSetup](./pagesetup/) | Represents the page setup properties of a section. |
 | [Paragraph](./paragraph/) | Represents a paragraph of text. |
 | [ParagraphCollection](./paragraphcollection/) | Provides typed access to a collection of [`Paragraph`](../aspose.words/paragraph/) nodes. |
@@ -92,6 +93,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [TextColumn](./textcolumn/) | Represents a single text column. [`TextColumn`](../aspose.words/textcolumn/) is a member of the [`TextColumnCollection`](../aspose.words/textcolumncollection/) collection. The [`TextColumn`](../aspose.words/textcolumn/) collection includes all the columns in a section of a document. |
 | [TextColumnCollection](./textcolumncollection/) | A collection of [`TextColumn`](../aspose.words/textcolumn/) objects that represent all the columns of text in a section of a document. |
 | [TextWatermarkOptions](./textwatermarkoptions/) | Contains options that can be specified when adding a watermark with text. |
+| [UnsupportedEncryptionException](./unsupportedencryptionexception/) | Thrown during document load, when the document is encrypted with an unsupported method. |
 | [UnsupportedFileFormatException](./unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
 | [VariableCollection](./variablecollection/) | A collection of document variables. |
 | [WarningInfo](./warninginfo/) | Contains information about a warning that Aspose.Words issued during document loading or saving. |

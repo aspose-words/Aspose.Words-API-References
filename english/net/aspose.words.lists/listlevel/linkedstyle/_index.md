@@ -32,36 +32,36 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // We can create nested lists by increasing the indent level. 
 // We can begin and end a list by using a document builder's "ListFormat" property. 
 // Each paragraph that we add between a list's start and the end will become an item in the list.
-List list = doc.Lists.Add(ListTemplate.NumberDefault);
+List docList = doc.Lists.Add(ListTemplate.NumberDefault);
 
 // Level 1 labels will be formatted according to the "Heading 1" paragraph style and will have a prefix.
 // These will look like "Appendix A", "Appendix B"...
-list.ListLevels[0].NumberFormat = "Appendix \x0000";
-list.ListLevels[0].NumberStyle = NumberStyle.UppercaseLetter;
-list.ListLevels[0].LinkedStyle = doc.Styles["Heading 1"];
+docList.ListLevels[0].NumberFormat = "Appendix \x0000";
+docList.ListLevels[0].NumberStyle = NumberStyle.UppercaseLetter;
+docList.ListLevels[0].LinkedStyle = doc.Styles["Heading 1"];
 
 // Level 2 labels will display the current numbers of the first and the second list levels and have leading zeroes.
 // If the first list level is at 1, then the list labels from these will look like "Section (1.01)", "Section (1.02)"...
-list.ListLevels[1].NumberFormat = "Section (\x0000.\x0001)";
-list.ListLevels[1].NumberStyle = NumberStyle.LeadingZero;
+docList.ListLevels[1].NumberFormat = "Section (\x0000.\x0001)";
+docList.ListLevels[1].NumberStyle = NumberStyle.LeadingZero;
 
 // Note that the higher-level uses UppercaseLetter numbering.
 // We can set the "IsLegal" property to use Arabic numbers for the higher list levels.
-list.ListLevels[1].IsLegal = true;
-list.ListLevels[1].RestartAfterLevel = 0;
+docList.ListLevels[1].IsLegal = true;
+docList.ListLevels[1].RestartAfterLevel = 0;
 
 // Level 3 labels will be upper case Roman numerals with a prefix and a suffix and will restart at each List level 1 item.
 // These list labels will look like "-I-", "-II-"...
-list.ListLevels[2].NumberFormat = "-\x0002-";
-list.ListLevels[2].NumberStyle = NumberStyle.UppercaseRoman;
-list.ListLevels[2].RestartAfterLevel = 1;
+docList.ListLevels[2].NumberFormat = "-\x0002-";
+docList.ListLevels[2].NumberStyle = NumberStyle.UppercaseRoman;
+docList.ListLevels[2].RestartAfterLevel = 1;
 
 // Make labels of all list levels bold.
-foreach (ListLevel level in list.ListLevels)
+foreach (ListLevel level in docList.ListLevels)
     level.Font.Bold = true;
 
 // Apply list formatting to the current paragraph.
-builder.ListFormat.List = list;
+builder.ListFormat.List = docList;
 
 // Create list items that will display all three of our list levels.
 for (int n = 0; n < 2; n++)

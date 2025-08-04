@@ -39,7 +39,7 @@ Document doc = new Document();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET461_OR_GREATER || JAVA
+#if NET461_OR_GREATER || JAVA || CPLUSPLUS
             // We have a different options to insert image.
             // Use on of the following methods to add image watermark.
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
@@ -48,7 +48,7 @@ Document doc = new Document();
 
             doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
 
-#elif NET5_0_OR_GREATER
+#elif NET6_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
 #endif
@@ -100,7 +100,7 @@ Document doc = new Document();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET461_OR_GREATER || JAVA
+#if NET461_OR_GREATER || JAVA || CPLUSPLUS
             // We have a different options to insert image.
             // Use on of the following methods to add image watermark.
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
@@ -109,7 +109,7 @@ Document doc = new Document();
 
             doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
 
-#elif NET5_0_OR_GREATER
+#elif NET6_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
 #endif
@@ -162,7 +162,7 @@ Document doc = new Document();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET461_OR_GREATER || JAVA
+#if NET461_OR_GREATER || JAVA || CPLUSPLUS
             // We have a different options to insert image.
             // Use on of the following methods to add image watermark.
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
@@ -171,7 +171,7 @@ Document doc = new Document();
 
             doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
 
-#elif NET5_0_OR_GREATER
+#elif NET6_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
 #endif

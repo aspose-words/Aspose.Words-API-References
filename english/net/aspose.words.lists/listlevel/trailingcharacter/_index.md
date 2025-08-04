@@ -28,9 +28,9 @@ Document doc = new Document();
 // We can begin and end a list by using a document builder's "ListFormat" property. 
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize the first two of its list levels.
-List list = doc.Lists.Add(ListTemplate.NumberDefault);
+List docList = doc.Lists.Add(ListTemplate.NumberDefault);
 
-ListLevel listLevel = list.ListLevels[0];
+ListLevel listLevel = docList.ListLevels[0];
 listLevel.Font.Color = Color.Red;
 listLevel.Font.Size = 24;
 listLevel.NumberStyle = NumberStyle.OrdinalText;
@@ -41,7 +41,7 @@ listLevel.NumberPosition = -36;
 listLevel.TextPosition = 144;
 listLevel.TabPosition = 144;
 
-listLevel = list.ListLevels[1];
+listLevel = docList.ListLevels[1];
 listLevel.Alignment = ListLevelAlignment.Right;
 listLevel.NumberStyle = NumberStyle.Bullet;
 listLevel.Font.Name = "Wingdings";
@@ -56,7 +56,7 @@ listLevel.NumberPosition = 144;
 // Create paragraphs and apply both list levels of our custom list formatting to them.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.ListFormat.List = list;
+builder.ListFormat.List = docList;
 builder.Writeln("The quick brown fox...");
 builder.Writeln("The quick brown fox...");
 

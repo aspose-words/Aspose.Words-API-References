@@ -47,33 +47,35 @@ Shows how to remove all borders from a table.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+            DocumentBuilder builder = new DocumentBuilder(doc);
 
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.Write("Hello world!");
-builder.EndTable();
+            Table table = builder.StartTable();
+            builder.InsertCell();
+            builder.Write("Hello world!");
+            builder.EndTable();
 
-// Modify the color and thickness of the top border.
-Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
-table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
+            // Modify the color and thickness of the top border.
+            Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
+            table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
 
-Assert.That(topBorder.LineWidth, Is.EqualTo(1.5d));
-Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
-Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.Double));
+            Assert.That(topBorder.LineWidth, Is.EqualTo(1.5d));
+            Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+            Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.Double));
 
-// Clear the borders of all cells in the table, and then save the document.
-table.ClearBorders();
-doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
+            // Clear the borders of all cells in the table, and then save the document.
+            table.ClearBorders();
+#if !CPLUSPLUS
+#endif
+            doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// Verify the values of the table's properties after re-opening the document.
-doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
-table = doc.FirstSection.Body.Tables[0];
-topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
+            // Verify the values of the table's properties after re-opening the document.
+            doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
+            table = doc.FirstSection.Body.Tables[0];
+            topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 
-Assert.That(topBorder.LineWidth, Is.EqualTo(0.0d));
-Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
-Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.None));
+            Assert.That(topBorder.LineWidth, Is.EqualTo(0.0d));
+            Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
+            Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.None));
 ```
 
 ### See Also

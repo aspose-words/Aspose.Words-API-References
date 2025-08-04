@@ -5,7 +5,7 @@ articleTitle: MatchCase
 second_title: Aspose.Words for .NET
 description: Discover the MatchCase property in FindReplaceOptions, enable case-sensitive or case-insensitive comparisons for precise text editing. Optimize your workflow!
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property

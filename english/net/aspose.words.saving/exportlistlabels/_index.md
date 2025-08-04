@@ -5,7 +5,7 @@ articleTitle: ExportListLabels
 second_title: Aspose.Words for .NET
 description: Discover how the Aspose.Words.Saving.ExportListLabels enum enhances your HTML, MHTML, and EPUB exports with customizable list label options.
 type: docs
-weight: 5750
+weight: 5760
 url: /net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
@@ -32,8 +32,8 @@ Shows how to configure list exporting to HTML.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Aspose.Words.Lists.List list = doc.Lists.Add(ListTemplate.NumberDefault);
-builder.ListFormat.List = list;
+Aspose.Words.Lists.List docList = doc.Lists.Add(ListTemplate.NumberDefault);
+builder.ListFormat.List = docList;
 
 builder.Writeln("Default numbered list item 1.");
 builder.Writeln("Default numbered list item 2.");
@@ -41,8 +41,8 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Default numbered list item 3.");
 builder.ListFormat.RemoveNumbers();
 
-list = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
-builder.ListFormat.List = list;
+docList = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
+builder.ListFormat.List = docList;
 
 builder.Writeln("Outline legal heading list item 1.");
 builder.Writeln("Outline legal heading list item 2.");
