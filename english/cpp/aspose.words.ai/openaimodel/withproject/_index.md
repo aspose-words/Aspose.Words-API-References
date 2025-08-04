@@ -28,7 +28,7 @@ auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Doc
 
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 // Use OpenAI or Google generative language models.
-System::SharedPtr<Aspose::Words::AI::IAiModelText> model = (System::ExplicitCast<Aspose::Words::AI::OpenAiModel>(Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey)))->WithOrganization(u"Organization")->WithProject(u"Project");
+System::SharedPtr<Aspose::Words::AI::AiModel> model = (System::ExplicitCast<Aspose::Words::AI::OpenAiModel>(Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey)))->WithOrganization(u"Organization")->WithProject(u"Project");
 
 auto options = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
 

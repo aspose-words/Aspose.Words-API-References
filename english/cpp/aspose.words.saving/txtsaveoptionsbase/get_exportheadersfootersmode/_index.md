@@ -60,18 +60,19 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.ExportHeadersFooters.txt", saveO
 
 System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.ExportHeadersFooters.txt");
 
+System::String newLine = System::Environment::get_NewLine();
 switch (txtExportHeadersFootersMode)
 {
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::AllAtEnd:
-        ASSERT_EQ(System::String(u"Page 1\r\n") + u"Page 2\r\n" + u"Page 3\r\n" + u"Even header\r\n\r\n" + u"Primary header\r\n\r\n" + u"Even footer\r\n\r\n" + u"Primary footer\r\n\r\n", docText);
+        ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Even header{0}{1}", newLine, newLine) + System::String::Format(u"Primary header{0}{1}", newLine, newLine) + System::String::Format(u"Even footer{0}{1}", newLine, newLine) + System::String::Format(u"Primary footer{0}{1}", newLine, newLine), docText);
         break;
 
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::PrimaryOnly:
-        ASSERT_EQ(System::String(u"Primary header\r\n") + u"Page 1\r\n" + u"Page 2\r\n" + u"Page 3\r\n" + u"Primary footer\r\n", docText);
+        ASSERT_EQ(System::String::Format(u"Primary header{0}", newLine) + System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Primary footer{0}", newLine), docText);
         break;
 
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::None:
-        ASSERT_EQ(System::String(u"Page 1\r\n") + u"Page 2\r\n" + u"Page 3\r\n", docText);
+        ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine), docText);
         break;
 
 }

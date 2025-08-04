@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldCitation::set_SuppressAuthor method
 linktitle: set_SuppressAuthor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldCitation::set_SuppressAuthor method. Sets whether the author information is suppressed from the citation in C++.'
+description: 'Aspose::Words::Fields::FieldCitation::set_SuppressAuthor method. Setter for Aspose::Words::Fields::FieldCitation::get_SuppressAuthor in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.fields/fieldcitation/set_suppressauthor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldcitation/set_suppressauthor/
 ## FieldCitation::set_SuppressAuthor method
 
 
-Sets whether the author information is suppressed from the citation.
+Setter for [Aspose::Words::Fields::FieldCitation::get_SuppressAuthor](../get_suppressauthor/).
 
 ```cpp
 void Aspose::Words::Fields::FieldCitation::set_SuppressAuthor(bool value)

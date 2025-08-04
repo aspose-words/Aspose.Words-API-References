@@ -35,6 +35,7 @@ class Row : public Aspose::Words::CompositeNode,
 | [get_FirstCell](./get_firstcell/)() | Returns the first [Cell](../cell/) in the row. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_Hidden](./get_hidden/)() | Gets or sets a flag indicating whether this row is hidden or not. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsFirstRow](./get_isfirstrow/)() | True if this is the first row in a table; false otherwise. |
 | [get_IsLastRow](./get_islastrow/)() | True if this is the last row in a table; false otherwise. |
@@ -75,6 +76,7 @@ class Row : public Aspose::Words::CompositeNode,
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
+| [set_Hidden](./set_hidden/)(bool) | Setter for [Aspose::Words::Tables::Row::get_Hidden](./get_hidden/). |
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |

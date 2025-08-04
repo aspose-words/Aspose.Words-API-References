@@ -23,12 +23,12 @@ class CheckGrammarOptions : public System::Object
 | [CheckGrammarOptions](./checkgrammaroptions/)() |  |
 | [get_ImproveStylistics](./get_improvestylistics/)() const | Allows to specify either [AI](../) will try to improve stylistics of the text being proofed. Default value is **false**. |
 | [get_MakeRevisions](./get_makerevisions/)() const | Allows to specify either final or revised document to be returned with proofed text. Default value is **false**. |
-| [get_PreserveFormatting](./get_preserveformatting/)() const | Allows to specify either [CheckGrammar()](../iaimodeltext/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
+| [get_PreserveFormatting](./get_preserveformatting/)() const | Allows to specify either [CheckGrammar()](../) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ImproveStylistics](./set_improvestylistics/)(bool) | Allows to specify either [AI](../) will try to improve stylistics of the text being proofed. Default value is **false**. |
 | [set_MakeRevisions](./set_makerevisions/)(bool) | Allows to specify either final or revised document to be returned with proofed text. Default value is **false**. |
-| [set_PreserveFormatting](./set_preserveformatting/)(bool) | Allows to specify either [CheckGrammar()](../iaimodeltext/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
+| [set_PreserveFormatting](./set_preserveformatting/)(bool) | Allows to specify either [CheckGrammar()](../) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -41,7 +41,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big docum
 
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 // Use OpenAI generative language models.
-System::SharedPtr<Aspose::Words::AI::IAiModelText> model = System::ExplicitCast<Aspose::Words::AI::OpenAiModel>(Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey));
+System::SharedPtr<Aspose::Words::AI::AiModel> model = Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey);
 
 auto grammarOptions = System::MakeObject<Aspose::Words::AI::CheckGrammarOptions>();
 grammarOptions->set_ImproveStylistics(true);

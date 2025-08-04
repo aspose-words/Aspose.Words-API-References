@@ -2,7 +2,7 @@
 title: Aspose::Words::AI::AiModel class
 linktitle: AiModel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::AI::AiModel class. Represents information about a Generative Language Model in C++.'
+description: 'Aspose::Words::AI::AiModel class. An abstract class representing the integration with various AI models within the Aspose.Words in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.ai/aimodel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/aimodel/
 ## AiModel class
 
 
-Represents information about a Generative Language Model.
+An abstract class representing the integration with various [AI](../) models within the [Aspose.Words](../../aspose.words/).
 
 ```cpp
 class AiModel : public virtual System::Object
@@ -20,9 +20,13 @@ class AiModel : public virtual System::Object
 
 | Method | Description |
 | --- | --- |
+| virtual [CheckGrammar](./checkgrammar/)(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::CheckGrammarOptions\>) | Checks grammar of the provided document. This operation leverages the connected [AI](../) model for checking grammar of document. |
 | static [Create](./create/)(Aspose::Words::AI::AiModelType) | Creates a new instance of [AiModel](./) class. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| virtual [Summarize](./summarize/)(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) | Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected [AI](../) model for content processing. |
+| virtual [Summarize](./summarize/)(System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) | Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected [AI](../) model for processing each document in the array. |
+| virtual [Translate](./translate/)(System::SharedPtr\<Aspose::Words::Document\>, Aspose::Words::AI::Language) | Translates the provided document into the specified target language. This operation leverages the connected [AI](../) model for content translating. |
 | static [Type](./type/)() |  |
 | [WithApiKey](./withapikey/)(const System::String\&) | Sets a specified API key to the model. |
 
@@ -37,7 +41,7 @@ auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Doc
 
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 // Use OpenAI or Google generative language models.
-System::SharedPtr<Aspose::Words::AI::IAiModelText> model = (System::ExplicitCast<Aspose::Words::AI::OpenAiModel>(Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey)))->WithOrganization(u"Organization")->WithProject(u"Project");
+System::SharedPtr<Aspose::Words::AI::AiModel> model = (System::ExplicitCast<Aspose::Words::AI::OpenAiModel>(Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey)))->WithOrganization(u"Organization")->WithProject(u"Project");
 
 auto options = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
 
