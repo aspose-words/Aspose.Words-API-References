@@ -5,7 +5,7 @@ articleTitle: AdvanceOffset
 second_title: Aspose.Words for .NET
 description: Discover the Glyph AdvanceOffset property, control horizontal x offsets for precise glyph positioning and enhance character design with diacritics.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.shaping/glyph/advanceoffset/
 ---
 ## Glyph.AdvanceOffset property

@@ -38,13 +38,13 @@ Document doc = new Document();
 ListCollection lists = doc.Lists;
 Assert.That(lists.Document, Is.EqualTo(doc));
 
-List list = lists.Add(ListTemplate.BulletDefault);
-Assert.That(list.Document, Is.EqualTo(doc));
+List docList = lists.Add(ListTemplate.BulletDefault);
+Assert.That(docList.Document, Is.EqualTo(doc));
 
 Console.WriteLine("Current list count: " + lists.Count);
-Console.WriteLine("Is the first document list: " + (lists[0].Equals(list)));
-Console.WriteLine("ListId: " + list.ListId);
-Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
+Console.WriteLine("ListId: " + docList.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
 ```
 
 ### See Also

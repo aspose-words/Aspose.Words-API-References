@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FindReplaceOptions class for advanced find and replace features, enhancing document editing with precision and flexibility.
 type: docs
-weight: 5340
+weight: 5350
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -40,6 +40,7 @@ public class FindReplaceOptions
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is `false`. |
 | [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | Gets or sets a boolean value indicating either to ignore footnotes. The default value is `false`. |
 | [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is `false`. |
+| [IgnoreOfficeMath](../../aspose.words.replacing/findreplaceoptions/ignoreofficemath/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside OfficeMath/&gt;. The default value is `true`. |
 | [IgnoreShapes](../../aspose.words.replacing/findreplaceoptions/ignoreshapes/) { get; set; } | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Gets or sets a boolean value indicating either to ignore content of [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/). The default value is `false`. |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |

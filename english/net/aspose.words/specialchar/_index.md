@@ -5,7 +5,7 @@ articleTitle: SpecialChar
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.SpecialChar class, your essential tool for managing special characters in documents. Enhance your document processing today!
 type: docs
-weight: 6950
+weight: 6970
 url: /net/aspose.words/specialchar/
 ---
 ## SpecialChar class

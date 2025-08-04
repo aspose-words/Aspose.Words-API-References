@@ -5,7 +5,7 @@ articleTitle: UseSubstitutions
 second_title: Aspose.Words for .NET
 description: Discover the UseSubstitutions property in FindReplaceOptions. Easily enable substitutions in replacement patterns for enhanced text editing flexibility.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property

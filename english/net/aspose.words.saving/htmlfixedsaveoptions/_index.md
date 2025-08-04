@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.HtmlFixedSaveOptions to enhance your document saving experience. Customize settings for optimal HtmlFixed format output.
 type: docs
-weight: 5820
+weight: 5830
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class

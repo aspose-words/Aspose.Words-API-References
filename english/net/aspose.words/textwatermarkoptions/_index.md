@@ -5,7 +5,7 @@ articleTitle: TextWatermarkOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TextWatermarkOptions for customizable text watermarks. Enhance your documents with unique, professional branding options!
 type: docs
-weight: 7290
+weight: 7310
 url: /net/aspose.words/textwatermarkoptions/
 ---
 ## TextWatermarkOptions class

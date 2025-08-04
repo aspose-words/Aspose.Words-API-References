@@ -5,7 +5,7 @@ articleTitle: MailMergeDestination
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMergeDestination enum, defining outcomes for seamless document mail merges. Optimize your document processing today!
 type: docs
-weight: 6660
+weight: 6670
 url: /net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
