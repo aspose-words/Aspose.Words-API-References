@@ -5,7 +5,7 @@ articleTitle: Watermark class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Watermark class. Adapts [Watermark](./) class public API for Node.js porting."
 type: docs
-weight: 1490
+weight: 1500
 url: /nodejs-net/aspose.words/watermark/
 ---
 

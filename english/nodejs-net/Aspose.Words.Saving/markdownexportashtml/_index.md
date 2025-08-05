@@ -20,6 +20,7 @@ Allows to specify the elements to be exported to Markdown as raw HTML.
 | --- | --- |
 | None | Export all elements using Markdown syntax without any raw HTML. |
 | Tables | Export tables as raw HTML. |
+| NonCompatibleTables | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 
 ### See Also
 

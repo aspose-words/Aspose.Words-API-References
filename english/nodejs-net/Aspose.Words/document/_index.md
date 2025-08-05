@@ -199,6 +199,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ copyStylesFromTemplate(template)](./copyStylesFromTemplate/#document) | Copies styles from the specified template to a document. |
 |[ ensureMinimum()](./ensureMinimum/#default) | If the document contains no sections, creates one section with one paragraph. |
 |[ expandTableStylesToDirectFormatting()](./expandTableStylesToDirectFormatting/#default) | Converts formatting specified in table styles into direct formatting on tables in the document. |
+|[ extractPages(index, count, options)](./extractPages/#number_number_pageextractoptions) | Returns the [Document](./) object representing the specified range of pages and the given page extract options. |
 |[ extractPages(index, count)](./extractPages/#number_number) | Returns the [Document](./) object representing specified range of pages. |
 |[ getAncestor(ancestorType)](../node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../buildingblock/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
