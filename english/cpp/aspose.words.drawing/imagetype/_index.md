@@ -46,6 +46,15 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> imgShape = builder->InsertImage
 ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, imgShape->get_ImageData()->get_ImageType());
 ```
 
+
+Shows how to read WebP image. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document with WebP image.docx");
+
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+ASSERT_EQ(Aspose::Words::Drawing::ImageType::WebP, shape->get_ImageData()->get_ImageType());
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

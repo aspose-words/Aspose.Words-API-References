@@ -50,8 +50,8 @@ auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspos
 options->set_PageLayout(Aspose::Words::Saving::MultiPageLayout::Grid(3, 10.0f, 10.0f));
 
 // Alternative layouts:
-// options.MultiPageLayout = MultiPageLayout.Horizontal(10);
-// options.MultiPageLayout = MultiPageLayout.Vertical(10);
+// options.PageLayout = MultiPageLayout.Horizontal(10);
+// options.PageLayout = MultiPageLayout.Vertical(10);
 
 // Customize the background and border.
 options->get_PageLayout()->set_BackColor(System::Drawing::Color::get_LightGray());

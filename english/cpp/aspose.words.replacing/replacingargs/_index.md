@@ -23,6 +23,7 @@ class ReplacingArgs : public System::Object
 | [get_GroupIndex](./get_groupindex/)() const | Identifies, by index, a captured group in the [Match](./get_match/) that is to be replaced with the [Replacement](./get_replacement/) string. |
 | [get_GroupName](./get_groupname/)() const | Identifies, by name, a captured group in the [Match](./get_match/) that is to be replaced with the [Replacement](./get_replacement/) string. |
 | [get_Match](./get_match/)() const | The **Match** resulting from a single regular expression match during a **Replace**. |
+| [get_MatchEndNode](./get_matchendnode/)() const | Gets the node that contains the end of the match. |
 | [get_MatchNode](./get_matchnode/)() const | Gets the node that contains the beginning of the match. |
 | [get_MatchOffset](./get_matchoffset/)() const | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [get_Replacement](./get_replacement/)() const | Gets the replacement string. |

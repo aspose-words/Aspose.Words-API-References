@@ -187,7 +187,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_SpellingChecked](./set_spellingchecked/)(bool) | Setter for [Aspose::Words::Document::get_SpellingChecked](./get_spellingchecked/). |
 | [set_TrackRevisions](./set_trackrevisions/)(bool) | Setter for [Aspose::Words::Document::get_TrackRevisions](./get_trackrevisions/). |
 | [set_VbaProject](./set_vbaproject/)(const System::SharedPtr\<Aspose::Words::Vba::VbaProject\>\&) | Setter for [Aspose::Words::Document::get_VbaProject](./get_vbaproject/). |
-| [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
+| [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../documentbase/get_warningcallback/). |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&, System::DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |

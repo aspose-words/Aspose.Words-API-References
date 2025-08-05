@@ -31,7 +31,7 @@ builder->Writeln(u"Hello World!");
 // The default encoding is UTF-8. If we want to represent our document using a different encoding,
 // we can use a SaveOptions object to set a specific encoding.
 auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
-htmlFixedSaveOptions->set_Encoding(System::Text::Encoding::GetEncoding(u"ASCII"));
+htmlFixedSaveOptions->set_Encoding(System::Text::Encoding::get_ASCII());
 
 ASSERT_EQ(u"US-ASCII", htmlFixedSaveOptions->get_Encoding()->get_EncodingName());
 

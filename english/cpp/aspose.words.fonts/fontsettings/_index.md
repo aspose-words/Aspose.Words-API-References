@@ -100,7 +100,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Amethysta" font is in a subfolder of the font directory.
 if (recursive)
 {
-    ASSERT_EQ(25, newFontSources[0]->GetAvailableFonts()->get_Count());
+    ASSERT_EQ(30, newFontSources[0]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -176,7 +176,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Junction" folder itself contains no font files, but has subfolders that do.
 if (recursive)
 {
-    ASSERT_EQ(6, newFontSources[1]->GetAvailableFonts()->get_Count());
+    ASSERT_EQ(11, newFontSources[1]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[1]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Junction Light";

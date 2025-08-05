@@ -116,29 +116,6 @@ Shows how to load a document using a stream.
 }
 ```
 
-
-Shows how to load a document from a URL. 
-```cpp
-// Create a URL that points to a Microsoft Word document.
-const System::String url = u"https://filesamples.com/samples/document/docx/sample3.docx";
-
-// Download the document into a byte array, then load that array into a document using a memory stream.
-{
-    auto webClient = System::MakeObject<System::Net::WebClient>();
-    System::ArrayPtr<uint8_t> dataBytes = webClient->DownloadData(url);
-
-    {
-        auto byteStream = System::MakeObject<System::IO::MemoryStream>(dataBytes);
-        auto doc = System::MakeObject<Aspose::Words::Document>(byteStream);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        ASSERT_EQ(System::String(u"There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. ") + u"The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " + u"The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.", doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(3)->GetText().Trim());
-
-        doc->Save(get_ArtifactsDir() + u"Document.LoadFromWeb.docx");
-    }
-}
-```
-
 ## See Also
 
 * Class [Document](../)
@@ -185,29 +162,6 @@ Shows how to open an HTML document with images from a stream using a base URI.
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
     ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
     ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
-}
-```
-
-
-Shows how save a web page as a .docx file. 
-```cpp
-const System::String url = u"https://products.aspose.com/words/";
-
-{
-    auto client = System::MakeObject<System::Net::WebClient>();
-    auto bytes = client->DownloadData(url);
-    {
-        auto stream = System::MakeObject<System::IO::MemoryStream>(bytes);
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(Aspose::Words::LoadFormat::Html, u"", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        auto doc = System::MakeObject<Aspose::Words::Document>(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-        doc->Save(get_ArtifactsDir() + u"Document.InsertHtmlFromWebPage.docx");
-    }
 }
 ```
 
