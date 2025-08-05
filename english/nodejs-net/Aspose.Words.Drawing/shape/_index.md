@@ -222,48 +222,6 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 
 ### Examples
 
-Shows how to delete all shapes from a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert two shapes along with a group shape with another shape inside it.
-builder.insertShape(aw.Drawing.ShapeType.Rectangle, 400, 200);
-builder.insertShape(aw.Drawing.ShapeType.Star, 300, 300);
-
-let group = new aw.Drawing.GroupShape(doc);
-group.bounds2 = new aw.JSRectangleF(100, 50, 200, 100);
-group.coordOrigin2 = new aw.JSPoint(-1000, -500);
-
-let subShape = new aw.Drawing.Shape(doc, aw.Drawing.ShapeType.Cube);
-subShape.width = 500;
-subShape.height = 700;
-subShape.left = 0;
-subShape.top = 0;
-
-group.appendChild(subShape);
-builder.insertNode(group);
-
-expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(3);
-expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(1);
-
-// Remove all Shape nodes from the document.
-let shapes = doc.getChildNodes(aw.NodeType.Shape, true);
-shapes.clear();
-
-// All shapes are gone, but the group shape is still in the document.
-expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(1);
-expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(0);
-
-// Remove all group shapes separately.
-let groupShapes = doc.getChildNodes(aw.NodeType.GroupShape, true);
-groupShapes.clear();
-
-expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(0);
-expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(0);
-```
-
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
 ```js
@@ -307,6 +265,48 @@ shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
 shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
 
 doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
+Shows how to delete all shapes from a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert two shapes along with a group shape with another shape inside it.
+builder.insertShape(aw.Drawing.ShapeType.Rectangle, 400, 200);
+builder.insertShape(aw.Drawing.ShapeType.Star, 300, 300);
+
+let group = new aw.Drawing.GroupShape(doc);
+group.bounds2 = new aw.JSRectangleF(100, 50, 200, 100);
+group.coordOrigin2 = new aw.JSPoint(-1000, -500);
+
+let subShape = new aw.Drawing.Shape(doc, aw.Drawing.ShapeType.Cube);
+subShape.width = 500;
+subShape.height = 700;
+subShape.left = 0;
+subShape.top = 0;
+
+group.appendChild(subShape);
+builder.insertNode(group);
+
+expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(3);
+expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(1);
+
+// Remove all Shape nodes from the document.
+let shapes = doc.getChildNodes(aw.NodeType.Shape, true);
+shapes.clear();
+
+// All shapes are gone, but the group shape is still in the document.
+expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(1);
+expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(0);
+
+// Remove all group shapes separately.
+let groupShapes = doc.getChildNodes(aw.NodeType.GroupShape, true);
+groupShapes.clear();
+
+expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(0);
+expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(0);
 ```
 
 ### See Also

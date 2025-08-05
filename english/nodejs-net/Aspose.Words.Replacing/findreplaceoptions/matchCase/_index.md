@@ -5,7 +5,7 @@ articleTitle: matchCase property
 second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.matchCase property. True indicates case-sensitive comparison, false indicates case-insensitive comparison."
 type: docs
-weight: 140
+weight: 150
 url: /nodejs-net/aspose.words.replacing/findreplaceoptions/matchCase/
 ---
 

@@ -38,6 +38,7 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/nodejs
 | [ignoreFields](./ignoreFields/) | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is ``false``. |
 | [ignoreFootnotes](./ignoreFootnotes/) | Gets or sets a boolean value indicating either to ignore footnotes. The default value is ``false``. |
 | [ignoreInserted](./ignoreInserted/) | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is ``false``. |
+| [ignoreOfficeMath](./ignoreOfficeMath/) | Gets or sets a boolean value indicating either to ignore text inside OfficeMath/\>. The default value is ``true``. |
 | [ignoreShapes](./ignoreShapes/) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [ignoreStructuredDocumentTags](./ignoreStructuredDocumentTags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is ``false``. |
 | [legacyMode](./legacyMode/) | Gets or sets a boolean value indicating that old find/replace algorithm is used. |

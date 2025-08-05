@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WarningInfoCollection class. Represents a typed collection of [WarningInfo](../warninginfo/) objects"
 type: docs
-weight: 1460
+weight: 1470
 url: /nodejs-net/aspose.words/warninginfocollection/
 ---
 
