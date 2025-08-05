@@ -5,7 +5,7 @@ articleTitle: useSubstitutions property
 second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.useSubstitutions property. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns"
 type: docs
-weight: 190
+weight: 200
 url: /nodejs-net/aspose.words.replacing/findreplaceoptions/useSubstitutions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: legacyMode property
 second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.legacyMode property. Gets or sets a boolean value indicating that old find/replace algorithm is used."
 type: docs
-weight: 130
+weight: 140
 url: /nodejs-net/aspose.words.replacing/findreplaceoptions/legacyMode/
 ---
 

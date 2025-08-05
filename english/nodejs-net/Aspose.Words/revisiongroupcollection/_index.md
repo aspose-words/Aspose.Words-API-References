@@ -5,7 +5,7 @@ articleTitle: RevisionGroupCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.RevisionGroupCollection class. A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document"
 type: docs
-weight: 1080
+weight: 1090
 url: /nodejs-net/aspose.words/revisiongroupcollection/
 ---
 
