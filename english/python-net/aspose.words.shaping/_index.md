@@ -31,6 +31,7 @@ support for OpenType features using external text shaping engines.
 | --- | --- |
 | [Direction](./direction/) | Text direction. |
 | [FontFeature](./fontfeature/) | Features provide information about how glyphs are used in a font to render a script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
+| [GlyphFlags](./glyphflags/) | Glyph flags. |
 | [ScriptShapingLevel](./scriptshapinglevel/) | Describes shaping levels required by a script. |
 | [UnicodeScript](./unicodescript/) | Unicode Character Database property: Script (sc). |
 | [VariationAxis](./variationaxis/) | Represents OpenType Design-Variation Axis Tag. https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg |

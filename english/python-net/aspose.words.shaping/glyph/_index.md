@@ -23,6 +23,7 @@ Represents a glyph
 
 | Name | Description |
 | --- | --- |
+| [additional_advance](./additional_advance/) | Additional advance width which may be used to adjust placement for the subsequent glyph. |
 | [advance](./advance/) | Advance width indicating placement for the subsequent glyph. |
 | [advance_offset](./advance_offset/) | Horizontal (x) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters. |
 | [ascender_offset](./ascender_offset/) | Vertical (y) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters. |

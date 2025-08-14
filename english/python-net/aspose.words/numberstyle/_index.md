@@ -92,8 +92,8 @@ doc = aw.Document()
 # We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
 # Create a list from a Microsoft Word template, and customize the first two of its list levels.
-list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
-list_level = list.list_levels[0]
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
+list_level = doc_list.list_levels[0]
 list_level.font.color = aspose.pydrawing.Color.red
 list_level.font.size = 24
 list_level.number_style = aw.NumberStyle.ORDINAL_TEXT
@@ -102,7 +102,7 @@ list_level.number_format = '\x00'
 list_level.number_position = -36
 list_level.text_position = 144
 list_level.tab_position = 144
-list_level = list.list_levels[1]
+list_level = doc_list.list_levels[1]
 list_level.alignment = aw.lists.ListLevelAlignment.RIGHT
 list_level.number_style = aw.NumberStyle.BULLET
 list_level.font.name = 'Wingdings'
@@ -114,7 +114,7 @@ list_level.trailing_character = aw.lists.ListTrailingCharacter.SPACE
 list_level.number_position = 144
 # Create paragraphs and apply both list levels of our custom list formatting to them.
 builder = aw.DocumentBuilder(doc=doc)
-builder.list_format.list = list
+builder.list_format.list = doc_list
 builder.writeln('The quick brown fox...')
 builder.writeln('The quick brown fox...')
 builder.list_format.list_indent()

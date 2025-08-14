@@ -5,7 +5,7 @@ articleTitle: TextColumn class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumn class. Represents a single text column"
 type: docs
-weight: 1260
+weight: 1270
 url: /python-net/aspose.words/textcolumn/
 ---
 

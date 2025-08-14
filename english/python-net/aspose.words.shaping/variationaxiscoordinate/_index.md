@@ -5,7 +5,7 @@ articleTitle: VariationAxisCoordinate class
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.VariationAxisCoordinate class. Represents an axis coordinate."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.shaping/variationaxiscoordinate/
 ---
 

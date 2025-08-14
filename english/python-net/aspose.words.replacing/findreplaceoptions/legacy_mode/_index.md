@@ -5,7 +5,7 @@ articleTitle: legacy_mode property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.legacy_mode property. Gets or sets a boolean value indicating that old find/replace algorithm is used."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.replacing/findreplaceoptions/legacy_mode/
 ---
 

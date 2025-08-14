@@ -5,7 +5,7 @@ articleTitle: ScriptShapingLevel enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.ScriptShapingLevel enumeration. Describes shaping levels required by a script."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.shaping/scriptshapinglevel/
 ---
 

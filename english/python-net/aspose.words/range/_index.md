@@ -5,7 +5,7 @@ articleTitle: Range class
 second_title: Aspose.Words for Python
 description: "aspose.words.Range class. Represents a contiguous area in a document"
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.words/range/
 ---
 

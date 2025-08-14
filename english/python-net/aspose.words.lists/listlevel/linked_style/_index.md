@@ -44,30 +44,30 @@ builder = aw.DocumentBuilder(doc=doc)
 # We can create nested lists by increasing the indent level.
 # We can begin and end a list by using a document builder's "ListFormat" property.
 # Each paragraph that we add between a list's start and the end will become an item in the list.
-list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
 # Level 1 labels will be formatted according to the "Heading 1" paragraph style and will have a prefix.
 # These will look like "Appendix A", "Appendix B"...
-list.list_levels[0].number_format = 'Appendix \x00'
-list.list_levels[0].number_style = aw.NumberStyle.UPPERCASE_LETTER
-list.list_levels[0].linked_style = doc.styles.get_by_name('Heading 1')
+doc_list.list_levels[0].number_format = 'Appendix \x00'
+doc_list.list_levels[0].number_style = aw.NumberStyle.UPPERCASE_LETTER
+doc_list.list_levels[0].linked_style = doc.styles.get_by_name('Heading 1')
 # Level 2 labels will display the current numbers of the first and the second list levels and have leading zeroes.
 # If the first list level is at 1, then the list labels from these will look like "Section (1.01)", "Section (1.02)"...
-list.list_levels[1].number_format = 'Section (\x00.\x01)'
-list.list_levels[1].number_style = aw.NumberStyle.LEADING_ZERO
+doc_list.list_levels[1].number_format = 'Section (\x00.\x01)'
+doc_list.list_levels[1].number_style = aw.NumberStyle.LEADING_ZERO
 # Note that the higher-level uses UppercaseLetter numbering.
 # We can set the "IsLegal" property to use Arabic numbers for the higher list levels.
-list.list_levels[1].is_legal = True
-list.list_levels[1].restart_after_level = 0
+doc_list.list_levels[1].is_legal = True
+doc_list.list_levels[1].restart_after_level = 0
 # Level 3 labels will be upper case Roman numerals with a prefix and a suffix and will restart at each List level 1 item.
 # These list labels will look like "-I-", "-II-"...
-list.list_levels[2].number_format = '-\x02-'
-list.list_levels[2].number_style = aw.NumberStyle.UPPERCASE_ROMAN
-list.list_levels[2].restart_after_level = 1
+doc_list.list_levels[2].number_format = '-\x02-'
+doc_list.list_levels[2].number_style = aw.NumberStyle.UPPERCASE_ROMAN
+doc_list.list_levels[2].restart_after_level = 1
 # Make labels of all list levels bold.
-for level in list.list_levels:
+for level in doc_list.list_levels:
     level.font.bold = True
 # Apply list formatting to the current paragraph.
-builder.list_format.list = list
+builder.list_format.list = doc_list
 # Create list items that will display all three of our list levels.
 n = 0
 while n < 2:
