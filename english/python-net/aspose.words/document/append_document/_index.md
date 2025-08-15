@@ -105,8 +105,8 @@ dst_doc = aw.Document()
 builder = aw.DocumentBuilder(doc=dst_doc)
 builder.insert_break(aw.BreakType.PARAGRAPH_BREAK)
 dst_doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
-list = dst_doc.lists[0]
-builder.list_format.list = list
+doc_list = dst_doc.lists[0]
+builder.list_format.list = doc_list
 i = 1
 while i <= 15:
     builder.write(f'List Item {i}\n')

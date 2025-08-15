@@ -172,6 +172,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ copy_styles_from_template(template)](./copy_styles_from_template/#document) | Copies styles from the specified template to a document. |
 |[ ensure_minimum()](./ensure_minimum/#default) | If the document contains no sections, creates one section with one paragraph. |
 |[ expand_table_styles_to_direct_formatting()](./expand_table_styles_to_direct_formatting/#default) | Converts formatting specified in table styles into direct formatting on tables in the document. |
+|[ extract_pages(index, count, options)](./extract_pages/#int_int_pageextractoptions) | Returns the [Document](./) object representing the specified range of pages and the given page extract options. |
 |[ extract_pages(index, count)](./extract_pages/#int_int) | Returns the [Document](./) object representing specified range of pages. |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../node/)) |
 |[ get_ancestor(ancestor_type)](../node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |

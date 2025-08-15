@@ -5,7 +5,7 @@ articleTitle: Style class
 second_title: Aspose.Words for Python
 description: "aspose.words.Style class. Represents a single built-in or user-defined style"
 type: docs
-weight: 1160
+weight: 1170
 url: /python-net/aspose.words/style/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: TextColumnCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumnCollection class. A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"
 type: docs
-weight: 1270
+weight: 1280
 url: /python-net/aspose.words/textcolumncollection/
 ---
 
@@ -62,7 +62,7 @@ Shows how to create multiple evenly spaced columns in a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 columns = builder.page_setup.text_columns
 columns.spacing = 100
 columns.set_count(2)

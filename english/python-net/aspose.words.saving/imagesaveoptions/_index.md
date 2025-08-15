@@ -79,28 +79,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 
 ### Examples
 
-Renders a page of a Word document into an image with transparent or colored background.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc=doc)
-builder.font.name = 'Times New Roman'
-builder.font.size = 24
-builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
-# Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-# to modify the way in which that method renders the document into an image.
-img_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set the "PaperColor" property to a transparent color to apply a transparent
-# background to the document while rendering it to an image.
-img_options.paper_color = aspose.pydrawing.Color.transparent
-doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.Transparent.png', save_options=img_options)
-# Set the "PaperColor" property to an opaque color to apply that color
-# as the background of the document as we render it to an image.
-img_options.paper_color = aspose.pydrawing.Color.light_coral
-doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.PaperColor.LightCoral.png', save_options=img_options)
-```
-
 Shows how to configure compression while saving a document as a JPEG.
 
 ```python

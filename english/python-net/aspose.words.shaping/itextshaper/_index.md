@@ -5,7 +5,7 @@ articleTitle: ITextShaper class
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.ITextShaper class. Provides methods for text shaping."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.shaping/itextshaper/
 ---
 
