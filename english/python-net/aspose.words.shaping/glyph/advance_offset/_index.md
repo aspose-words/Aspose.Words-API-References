@@ -5,7 +5,7 @@ articleTitle: advance_offset property
 second_title: Aspose.Words for Python
 description: "Glyph.advance_offset property. Horizontal (x) offset relative to glyph position"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.shaping/glyph/advance_offset/
 ---
 

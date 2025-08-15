@@ -5,7 +5,7 @@ articleTitle: Story class
 second_title: Aspose.Words for Python
 description: "aspose.words.Story class. Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
-weight: 1140
+weight: 1150
 url: /python-net/aspose.words/story/
 ---
 

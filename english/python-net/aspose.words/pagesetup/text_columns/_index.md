@@ -27,7 +27,7 @@ Shows how to create multiple evenly spaced columns in a section.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 columns = builder.page_setup.text_columns
 columns.spacing = 100
 columns.set_count(2)

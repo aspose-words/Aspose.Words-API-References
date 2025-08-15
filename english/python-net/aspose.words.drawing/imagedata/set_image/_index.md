@@ -33,28 +33,6 @@ def set_image(self, file_name: str):
 
 ## Examples
 
-Shows how to display images from the local file system in a document.
-
-```python
-doc = aw.Document()
-# To display an image in a document, we will need to create a shape
-# which will contain an image, and then append it to the document's body.
-img_shape = None
-# Below are two ways of getting an image from a file in the local file system.
-# 1 -  Create an image object from an image file:
-with drawing.Image.from_file(IMAGE_DIR + 'Logo.jpg') as src_image:
-    img_shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-    doc.first_section.body.first_paragraph.append_child(img_shape)
-    img_shape.image_data.set_image(src_image)
-# 2 -  Open an image file from the local file system using a stream:
-with open(IMAGE_DIR + 'Logo.jpg', 'rb') as stream:
-    img_shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.IMAGE)
-    doc.first_section.body.first_paragraph.append_child(img_shape)
-    img_shape.image_data.set_image(stream)
-    img_shape.left = 150.0
-doc.save(ARTIFACTS_DIR + 'Drawing.import_image.docx')
-```
-
 Shows how to insert a linked image into a document.
 
 ```python

@@ -56,7 +56,7 @@ txt_save_options.preserve_table_layout = preserve_table_layout
 doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.PreserveTableLayout.txt', save_options=txt_save_options)
 doc_text = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'TxtSaveOptions.PreserveTableLayout.txt')
 if preserve_table_layout:
-    self.assertEqual('Row 1, cell 1                                           Row 1, cell 2\r\n' + 'Row 2, cell 1                                           Row 2, cell 2\r\n\r\n', doc_text)
+    self.assertEqual('Row 1, cell 1                                            Row 1, cell 2\r\n' + 'Row 2, cell 1                                            Row 2, cell 2\r\n\r\n', doc_text)
 else:
     self.assertEqual('Row 1, cell 1\r' + 'Row 1, cell 2\r' + 'Row 2, cell 1\r' + 'Row 2, cell 2\r\r\n', doc_text)
 ```

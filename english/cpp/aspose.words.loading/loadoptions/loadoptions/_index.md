@@ -67,29 +67,6 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(Aspose::Words::LoadFormat loadF
 
 
 
-Shows how save a web page as a .docx file. 
-```cpp
-const System::String url = u"https://products.aspose.com/words/";
-
-{
-    auto client = System::MakeObject<System::Net::WebClient>();
-    auto bytes = client->DownloadData(url);
-    {
-        auto stream = System::MakeObject<System::IO::MemoryStream>(bytes);
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(Aspose::Words::LoadFormat::Html, u"", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        auto doc = System::MakeObject<Aspose::Words::Document>(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-        doc->Save(get_ArtifactsDir() + u"Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
-
 Shows how to specify a base URI when opening an html document. 
 ```cpp
 // Suppose we want to load an .html document that contains an image linked by a relative URI

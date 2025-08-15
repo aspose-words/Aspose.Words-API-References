@@ -79,7 +79,7 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [set_PageColor](./set_pagecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::DocumentBase::get_PageColor](./get_pagecolor/). |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_ResourceLoadingCallback](./set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources are loaded. |
-| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
+| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_WarningCallback](./get_warningcallback/). |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |

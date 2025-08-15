@@ -37,25 +37,6 @@ The default value is ``False``.
 
 
 
-### Examples
-
-Shows how to preblend images with transparent backgrounds while saving a document to PDF.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-img = drawing.Image.from_file(IMAGE_DIR + 'Transparent background logo.png')
-builder.insert_image(img)
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
-# to modify how that method converts the document to .PDF.
-options = aw.saving.PdfSaveOptions()
-# Set the "preblend_images" property to "True" to preblend transparent images
-# with a background, which may reduce artifacts.
-# Set the "preblend_images" property to "False" to render transparent images normally.
-options.preblend_images = preblend_images
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.preblend_images.pdf', options)
-```
-
 ### See Also
 
 * module [aspose.words.saving](../../)

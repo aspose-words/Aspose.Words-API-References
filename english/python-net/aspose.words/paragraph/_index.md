@@ -5,7 +5,7 @@ articleTitle: Paragraph class
 second_title: Aspose.Words for Python
 description: "aspose.words.Paragraph class. Represents a paragraph of text"
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.words/paragraph/
 ---
 

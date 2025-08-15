@@ -55,29 +55,6 @@ save_options.header_footer_bookmarks_export_mode = header_footer_bookmarks_expor
 doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf', save_options=save_options)
 ```
 
-Shows how to set instructions for some PDF readers to follow when opening an output document.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln('Hello world!')
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
-# to modify how that method converts the document to .PDF.
-options = aw.saving.PdfSaveOptions()
-# Set the "page_mode" property to "PdfPageMode.FULL_SCREEN" to get the PDF reader to open the saved
-# document in full-screen mode, which takes over the monitor's display and has no controls visible.
-# Set the "page_mode" property to "PdfPageMode.USE_THUMBS" to get the PDF reader to display a separate panel
-# with a thumbnail for each page in the document.
-# Set the "page_mode" property to "PdfPageMode.USE_OC" to get the PDF reader to display a separate panel
-# that allows us to work with any layers present in the document.
-# Set the "page_mode" property to "PdfPageMode.USE_OUTLINES" to get the PDF reader
-# also to display the outline, if possible.
-# Set the "page_mode" property to "PdfPageMode.USE_NONE" to get the PDF reader to display just the document itself.
-# Set the "page_mode" property to "PdfPageMode.USE_ATTACHMENTS" to make visible attachments panel.
-options.page_mode = page_mode
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.page_mode.pdf', options)
-```
-
 ### See Also
 
 * module [aspose.words.saving](../../)

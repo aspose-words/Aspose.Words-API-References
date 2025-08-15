@@ -41,10 +41,10 @@ options->set_PrettyFormat(prettyFormat);
 doc->Save(get_ArtifactsDir() + u"WordML2003SaveOptions.PrettyFormat.xml", options);
 
 System::String fileContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"WordML2003SaveOptions.PrettyFormat.xml");
-
+System::String newLine = System::Environment::get_NewLine();
 if (prettyFormat)
 {
-    ASSERT_TRUE(fileContents.Contains(System::String(u"<o:DocumentProperties>\r\n\t\t") + u"<o:Revision>1</o:Revision>\r\n\t\t" + u"<o:TotalTime>0</o:TotalTime>\r\n\t\t" + u"<o:Pages>1</o:Pages>\r\n\t\t" + u"<o:Words>0</o:Words>\r\n\t\t" + u"<o:Characters>0</o:Characters>\r\n\t\t" + u"<o:Lines>1</o:Lines>\r\n\t\t" + u"<o:Paragraphs>1</o:Paragraphs>\r\n\t\t" + u"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>\r\n\t\t" + u"<o:Version>11.5606</o:Version>\r\n\t" + u"</o:DocumentProperties>"));
+    ASSERT_TRUE(fileContents.Contains(System::String::Format(u"<o:DocumentProperties>{0}\t\t", newLine) + System::String::Format(u"<o:Revision>1</o:Revision>{0}\t\t", newLine) + System::String::Format(u"<o:TotalTime>0</o:TotalTime>{0}\t\t", newLine) + System::String::Format(u"<o:Pages>1</o:Pages>{0}\t\t", newLine) + System::String::Format(u"<o:Words>0</o:Words>{0}\t\t", newLine) + System::String::Format(u"<o:Characters>0</o:Characters>{0}\t\t", newLine) + System::String::Format(u"<o:Lines>1</o:Lines>{0}\t\t", newLine) + System::String::Format(u"<o:Paragraphs>1</o:Paragraphs>{0}\t\t", newLine) + System::String::Format(u"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>{0}\t\t", newLine) + System::String::Format(u"<o:Version>11.5606</o:Version>{0}\t", newLine) + u"</o:DocumentProperties>"));
 }
 else
 {

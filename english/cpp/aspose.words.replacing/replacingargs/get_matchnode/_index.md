@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/replacingargs/get_matchnode/
 Gets the node that contains the beginning of the match.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::Replacing::ReplacingArgs::get_MatchNode() const
+const System::SharedPtr<Aspose::Words::Node> & Aspose::Words::Replacing::ReplacingArgs::get_MatchNode() const
 ```
 
 ## See Also
