@@ -4,7 +4,7 @@ linktitle: ReportBuilderOptions
 second_title: Aspose.Words for Java
 description: Represents options for the LINQ Reporting Engine functionality in Java.
 type: docs
-weight: 565
+weight: 567
 url: /java/com.aspose.words/reportbuilderoptions/
 ---
 

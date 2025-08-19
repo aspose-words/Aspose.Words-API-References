@@ -90,6 +90,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [getIgnoreFields()](#getIgnoreFields) | Gets a boolean value indicating either to ignore text inside fields. |
 | [getIgnoreFootnotes()](#getIgnoreFootnotes) | Gets a boolean value indicating either to ignore footnotes. |
 | [getIgnoreInserted()](#getIgnoreInserted) | Gets a boolean value indicating either to ignore text inside insert revisions. |
+| [getIgnoreOfficeMath()](#getIgnoreOfficeMath) | Gets a boolean value indicating either to ignore text inside OfficeMath/>. |
 | [getIgnoreShapes()](#getIgnoreShapes) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [getLegacyMode()](#getLegacyMode) | Gets a boolean value indicating that old find/replace algorithm is used. |
@@ -106,6 +107,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [setIgnoreFields(boolean value)](#setIgnoreFields-boolean) | Sets a boolean value indicating either to ignore text inside fields. |
 | [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean) | Sets a boolean value indicating either to ignore footnotes. |
 | [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean) | Sets a boolean value indicating either to ignore text inside insert revisions. |
+| [setIgnoreOfficeMath(boolean value)](#setIgnoreOfficeMath-boolean) | Sets a boolean value indicating either to ignore text inside OfficeMath/>. |
 | [setIgnoreShapes(boolean value)](#setIgnoreShapes-boolean) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [setLegacyMode(boolean value)](#setLegacyMode-boolean) | Sets a boolean value indicating that old find/replace algorithm is used. |
@@ -703,6 +705,37 @@ Shows how to include or ignore text inside insert revisions during a find-and-re
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside insert revisions.
+### getIgnoreOfficeMath() {#getIgnoreOfficeMath}
+```
+public boolean getIgnoreOfficeMath()
+```
+
+
+Gets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is  true .
+
+ **Examples:** 
+
+Shows how to find and replace text within OfficeMath.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ Assert.assertEquals("i+b-c\u2265iM+bM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setIgnoreOfficeMath(isIgnoreOfficeMath);
+ doc.getRange().replace("b", "x", options);
+
+ if (isIgnoreOfficeMath)
+     Assert.assertEquals("i+b-c\u2265iM+bM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+ else
+     Assert.assertEquals("i+x-c\u2265iM+xM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+ 
+```
+
+**Returns:**
+boolean - A boolean value indicating either to ignore text inside OfficeMath/>.
 ### getIgnoreShapes() {#getIgnoreShapes}
 ```
 public boolean getIgnoreShapes()
@@ -1519,6 +1552,40 @@ Shows how to include or ignore text inside insert revisions during a find-and-re
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside insert revisions. |
+
+### setIgnoreOfficeMath(boolean value) {#setIgnoreOfficeMath-boolean}
+```
+public void setIgnoreOfficeMath(boolean value)
+```
+
+
+Sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is  true .
+
+ **Examples:** 
+
+Shows how to find and replace text within OfficeMath.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ Assert.assertEquals("i+b-c\u2265iM+bM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setIgnoreOfficeMath(isIgnoreOfficeMath);
+ doc.getRange().replace("b", "x", options);
+
+ if (isIgnoreOfficeMath)
+     Assert.assertEquals("i+b-c\u2265iM+bM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+ else
+     Assert.assertEquals("i+x-c\u2265iM+xM-cM", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating either to ignore text inside OfficeMath/>. |
 
 ### setIgnoreShapes(boolean value) {#setIgnoreShapes-boolean}
 ```

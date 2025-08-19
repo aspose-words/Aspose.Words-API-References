@@ -4,7 +4,7 @@ linktitle: NodeType
 second_title: Aspose.Words for Java
 description: Specifies the type of a Word document node in Java.
 type: docs
-weight: 477
+weight: 478
 url: /java/com.aspose.words/nodetype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Watermarker
 second_title: Aspose.Words for Java
 description: Provides methods intended to insert watermarks into the documents in Java.
 type: docs
-weight: 713
+weight: 716
 url: /java/com.aspose.words/watermarker/
 ---
 

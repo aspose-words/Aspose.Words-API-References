@@ -4,7 +4,7 @@ linktitle: TableStyle
 second_title: Aspose.Words for Java
 description: Represents a table style in Java.
 type: docs
-weight: 651
+weight: 653
 url: /java/com.aspose.words/tablestyle/
 ---
 

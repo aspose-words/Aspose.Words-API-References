@@ -4,7 +4,7 @@ linktitle: IDocumentConverterPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external converter plugin in Java.
 type: docs
-weight: 747
+weight: 750
 url: /java/com.aspose.words/idocumentconverterplugin/
 ---
 ```

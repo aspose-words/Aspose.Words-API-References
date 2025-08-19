@@ -120,6 +120,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [ensureMinimum()](#ensureMinimum) | If the document contains no sections, creates one section with one paragraph. |
 | [expandTableStylesToDirectFormatting()](#expandTableStylesToDirectFormatting) | Converts formatting specified in table styles into direct formatting on tables in the document. |
 | [extractPages(int index, int count)](#extractPages-int-int) | Returns the [Document](../../com.aspose.words/document/) object representing specified range of pages. |
+| [extractPages(int index, int count, PageExtractOptions options)](#extractPages-int-int-com.aspose.words.PageExtractOptions) | Returns the [Document](../../com.aspose.words/document/) object representing the specified range of pages and the given page extract options. |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int) |  |
 | [fetchSectionAttr(int key, int revisionsView)](#fetchSectionAttr-int-int) |  |
@@ -1750,11 +1751,58 @@ Shows how to get specified range of pages from the document.
  
 ```
 
+Show how to reset the initial page numbering and save the NUMPAGE field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Page fields.docx");
+
+ // Default behavior:
+ // The extracted page numbering is the same as in the original document, as if we had selected "Print 2 pages" in MS Word.
+ // The start page will be set to 2 and the field indicating the number of pages will be removed
+ // and replaced with a constant value equal to the number of pages.
+ Document extractedDoc1 = doc.extractPages(1, 1);
+ extractedDoc1.save(getArtifactsDir() + "Document.ExtractPagesWithOptions.Default.docx");
+
+ // Altered behavior:
+ // The extracted page numbering is reset and a new one begins,
+ // as if we had copied the contents of the second page and pasted it into a new document.
+ // The start page will be set to 1 and the field indicating the number of pages will be left unchanged
+ // and will show the current number of pages.
+ PageExtractOptions extractOptions = new PageExtractOptions();
+ extractOptions.setUpdatePageStartingNumber(false);
+ extractOptions.setUnlinkPagesNumberFields(false);
+ Document extractedDoc2 = doc.extractPages(1, 1, extractOptions);
+ extractedDoc2.save(getArtifactsDir() + "Document.ExtractPagesWithOptions.Options.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the first page to extract. |
 | count | int | Number of pages to be extracted. |
+
+**Returns:**
+[Document](../../com.aspose.words/document/)
+### extractPages(int index, int count, PageExtractOptions options) {#extractPages-int-int-com.aspose.words.PageExtractOptions}
+```
+public Document extractPages(int index, int count, PageExtractOptions options)
+```
+
+
+Returns the [Document](../../com.aspose.words/document/) object representing the specified range of pages and the given page extract options.
+
+ **Remarks:** 
+
+The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' \\u2013 the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the first page to extract. |
+| count | int | Number of pages to be extracted. |
+| options | [PageExtractOptions](../../com.aspose.words/pageextractoptions/) | Provides options for managing the page extracting process. |
 
 **Returns:**
 [Document](../../com.aspose.words/document/)

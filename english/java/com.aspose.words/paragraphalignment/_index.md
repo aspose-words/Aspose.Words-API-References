@@ -4,7 +4,7 @@ linktitle: ParagraphAlignment
 second_title: Aspose.Words for Java
 description: Specifies text alignment in a paragraph in Java.
 type: docs
-weight: 516
+weight: 518
 url: /java/com.aspose.words/paragraphalignment/
 ---
 

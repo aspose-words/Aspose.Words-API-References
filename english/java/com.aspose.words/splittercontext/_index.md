@@ -4,7 +4,7 @@ linktitle: SplitterContext
 second_title: Aspose.Words for Java
 description: Document splitter context in Java.
 type: docs
-weight: 624
+weight: 626
 url: /java/com.aspose.words/splittercontext/
 ---
 
