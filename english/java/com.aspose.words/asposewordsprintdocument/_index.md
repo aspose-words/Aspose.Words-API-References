@@ -29,6 +29,57 @@ A single Aspose.Words document can consist of multiple sections that specify pag
 
 On the other hand, if the document consists of a single section only, the developer can use [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) as **java.awt.print.Printable** to improve printing performance.
 
+ **Examples:** 
+
+Shows how to monitor printing progress.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a special Aspose.Words implementation of the Java PrintDocument class
+ AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+ // In Java, printer settings are handled through PrinterJob.
+ PrinterJob printerJob = PrinterJob.getPrinterJob();
+ printerJob.setPrintable(printDoc);
+
+ // Initialize the custom printing tracker.
+ PrintTracker printTracker = new PrintTracker(printDoc);
+
+ printerJob.print();
+
+ // Write the event log.
+ for (String eventString : printTracker.getEventLog()) {
+     System.out.println(eventString);
+ }
+ 
+```
+
+Shows an example class for monitoring the progress of printing.
+
+```
+{@code
+ /// 
+ /// Tracks printing progress of an Aspose.Words document and logs printing events.
+ /// 
+ /**
+ Tracks printing progress of an Aspose.Words document and logs printing events.
+ Note: Java version doesn't have the same event system as .NET, so this implementation
+ wraps the AsposeWordsPrintDocument to provide similar functionality.
+ /
+ class PrintTracker implements Printable {
+     private final AsposeWordsPrintDocument printDocument;
+     private int printingPage = -1;
+     private int totalPages = 0;
+     private final List eventLog = new ArrayList<>();
+     private boolean isPrinting = false;
+
+     /**
+ Initializes a new instance of the PrintTracker class
+ and wraps the specified Aspose.Words print document.
+```
+
 
 [Printing a Document Programmatically or Using Dialogs]: https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/
 ## Constructors
@@ -44,6 +95,7 @@ On the other hand, if the document consists of a single section only, the develo
 | [getColorPagesPrinted()](#getColorPagesPrinted) | Gets the number of pages printed in color (i.e. |
 | [getNumberOfPages()](#getNumberOfPages) |  |
 | [getPageFormat(int pageIndex)](#getPageFormat-int) |  |
+| [getPagesRemaining()](#getPagesRemaining) | Gets the number of pages remaining in the currently active print job. |
 | [getPrintable(int pageIndex)](#getPrintable-int) |  |
 | [print(Graphics graphics, PageFormat pageFormat, int pageIndex)](#print-java.awt.Graphics-java.awt.print.PageFormat-int) |  |
 | [setColorMode(int value)](#setColorMode-int) | Sets how non-colored pages are printed if the device supports color printing. |
@@ -109,6 +161,71 @@ public PageFormat getPageFormat(int pageIndex)
 
 **Returns:**
 java.awt.print.PageFormat
+### getPagesRemaining() {#getPagesRemaining}
+```
+public int getPagesRemaining()
+```
+
+
+Gets the number of pages remaining in the currently active print job.
+
+ **Remarks:** 
+
+This value is updated automatically as pages are printed, reflecting the current print job's progress. Outside of print time and in case of print job errors or interruptions, the value may not reflect the actual number of pages pending.
+
+ **Examples:** 
+
+Shows how to monitor printing progress.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a special Aspose.Words implementation of the Java PrintDocument class
+ AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+ // In Java, printer settings are handled through PrinterJob.
+ PrinterJob printerJob = PrinterJob.getPrinterJob();
+ printerJob.setPrintable(printDoc);
+
+ // Initialize the custom printing tracker.
+ PrintTracker printTracker = new PrintTracker(printDoc);
+
+ printerJob.print();
+
+ // Write the event log.
+ for (String eventString : printTracker.getEventLog()) {
+     System.out.println(eventString);
+ }
+ 
+```
+
+Shows an example class for monitoring the progress of printing.
+
+```
+{@code
+ /// 
+ /// Tracks printing progress of an Aspose.Words document and logs printing events.
+ /// 
+ /**
+ Tracks printing progress of an Aspose.Words document and logs printing events.
+ Note: Java version doesn't have the same event system as .NET, so this implementation
+ wraps the AsposeWordsPrintDocument to provide similar functionality.
+ /
+ class PrintTracker implements Printable {
+     private final AsposeWordsPrintDocument printDocument;
+     private int printingPage = -1;
+     private int totalPages = 0;
+     private final List eventLog = new ArrayList<>();
+     private boolean isPrinting = false;
+
+     /**
+ Initializes a new instance of the PrintTracker class
+ and wraps the specified Aspose.Words print document.
+```
+
+**Returns:**
+int - The current page number being printed. / public int getPrintingPage() \{ return printingPage; \} /\*\* Gets the total number of pages to print. Returns 0 when no printing is in progress.
 ### getPrintable(int pageIndex) {#getPrintable-int}
 ```
 public Printable getPrintable(int pageIndex)

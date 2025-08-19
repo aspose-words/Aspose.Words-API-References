@@ -4,7 +4,7 @@ linktitle: Language
 second_title: Aspose.Words for Java
 description: Specifies the language into which the text will be translated using AI. in Java.
 type: docs
-weight: 407
+weight: 408
 url: /java/com.aspose.words/language/
 ---
 

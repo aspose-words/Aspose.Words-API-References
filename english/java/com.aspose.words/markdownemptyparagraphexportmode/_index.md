@@ -4,7 +4,7 @@ linktitle: MarkdownEmptyParagraphExportMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports empty paragraphs to Markdown in Java.
 type: docs
-weight: 444
+weight: 445
 url: /java/com.aspose.words/markdownemptyparagraphexportmode/
 ---
 

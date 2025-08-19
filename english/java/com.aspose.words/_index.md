@@ -377,6 +377,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GlossaryDocument](../com.aspose.words/glossarydocument/) | Represents the root element for a glossary document within a Word document. |
 | [GlowFormat](../com.aspose.words/glowformat/) | Represents the glow formatting for an object. |
 | [Glyph](../com.aspose.words/glyph/) | Represents a glyph |
+| [GlyphFlags](../com.aspose.words/glyphflags/) |  |
 | [GoogleAiModel](../com.aspose.words/googleaimodel/) | An abstract class representing the integration with Google\\u2019s AI models within the Aspose.Words. |
 | [GradientStop](../com.aspose.words/gradientstop/) | Represents one gradient stop. |
 | [GradientStopCollection](../com.aspose.words/gradientstopcollection/) | Contains a collection of [GradientStop](../com.aspose.words/gradientstop/) objects. |
@@ -527,6 +528,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [OutlineOptions](../com.aspose.words/outlineoptions/) | Allows to specify outline options. |
 | [PageBorderAppliesTo](../com.aspose.words/pageborderappliesto/) | Specifies which pages the page border is printed on. |
 | [PageBorderDistanceFrom](../com.aspose.words/pageborderdistancefrom/) | Specifies the positioning of the page border relative to the page margin. |
+| [PageExtractOptions](../com.aspose.words/pageextractoptions/) | Allows to specify options for document page extracting. |
 | [PageInfo](../com.aspose.words/pageinfo/) | Represents information about a particular document page. |
 | [PageLayoutCallbackArgs](../com.aspose.words/pagelayoutcallbackargs/) | An argument passed into [IPageLayoutCallback.\#notify(com.aspose.words.PageLayoutCallbackArgs)](../com.aspose.words/ipagelayoutcallback/\#notify-com.aspose.words.PageLayoutCallbackArgs) |
 | [PageLayoutEvent](../com.aspose.words/pagelayoutevent/) | A code of event raised during page layout model build and rendering. |
@@ -711,6 +713,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [TxtTrailingSpacesOptions](../com.aspose.words/txttrailingspacesoptions/) | Specifies available options for trailing spaces handling during import from [LoadFormat.\#TEXT](../com.aspose.words/loadformat/\#TEXT) file. |
 | [Underline](../com.aspose.words/underline/) | Indicates type of the underline applied to a font. |
 | [UnicodeScript](../com.aspose.words/unicodescript/) | Unicode Character Database property: Script (sc). |
+| [UnsupportedEncryptionException](../com.aspose.words/unsupportedencryptionexception/) | Thrown during document load, when the document is encrypted with an unsupported method. |
 | [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
 | [UserInformation](../com.aspose.words/userinformation/) | Specifies information about the user. |
 | [VariableCollection](../com.aspose.words/variablecollection/) | A collection of document variables. |

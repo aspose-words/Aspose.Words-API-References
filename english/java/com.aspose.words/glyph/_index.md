@@ -25,12 +25,12 @@ Represents a glyph
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone) | Returns a clone of this instance. |
+| [getAdditionalAdvance()](#getAdditionalAdvance) |  |
 | [getAdvance()](#getAdvance) | Advance width indicating placement for the subsequent glyph. |
 | [getAdvanceOffset()](#getAdvanceOffset) | Horizontal (x) offset relative to glyph position. |
 | [getAscenderOffset()](#getAscenderOffset) | Vertical (y) offset relative to glyph position. |
 | [getGlyphIndex()](#getGlyphIndex) | Index of the glyph (GID) in the physical font. |
 | [getWidth(int em, float fontSize)](#getWidth-int-float) | Returns width (advance) of the glyph in points. |
-| [setAdvance(short value)](#setAdvance-short) | Advance width indicating placement for the subsequent glyph. |
 ### Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset) {#Glyph-int-short-short-short}
 ```
 public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)
@@ -57,6 +57,16 @@ Returns a clone of this instance.
 
 **Returns:**
 [Glyph](../../com.aspose.words/glyph/)
+### getAdditionalAdvance() {#getAdditionalAdvance}
+```
+public short getAdditionalAdvance()
+```
+
+
+
+
+**Returns:**
+short
 ### getAdvance() {#getAdvance}
 ```
 public short getAdvance()
@@ -113,16 +123,3 @@ Returns width (advance) of the glyph in points.
 
 **Returns:**
 float
-### setAdvance(short value) {#setAdvance-short}
-```
-public void setAdvance(short value)
-```
-
-
-Advance width indicating placement for the subsequent glyph.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | short | The corresponding  short  value. |
-

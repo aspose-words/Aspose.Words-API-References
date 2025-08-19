@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for Java
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 604
+weight: 606
 url: /java/com.aspose.words/shape/
 ---
 

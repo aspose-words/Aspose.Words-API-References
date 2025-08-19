@@ -4,7 +4,7 @@ linktitle: LayoutOptions
 second_title: Aspose.Words for Java
 description: Holds the options that allow controlling the document layout process in Java.
 type: docs
-weight: 413
+weight: 414
 url: /java/com.aspose.words/layoutoptions/
 ---
 

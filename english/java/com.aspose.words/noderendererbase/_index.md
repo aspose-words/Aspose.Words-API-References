@@ -4,7 +4,7 @@ linktitle: NodeRendererBase
 second_title: Aspose.Words for Java
 description: Base class for ShapeRenderer and OfficeMathRenderer in Java.
 type: docs
-weight: 476
+weight: 477
 url: /java/com.aspose.words/noderendererbase/
 ---
 

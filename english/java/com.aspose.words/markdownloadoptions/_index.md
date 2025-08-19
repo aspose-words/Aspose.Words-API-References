@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.MARKDOWN document into a Document object in Java.
 type: docs
-weight: 448
+weight: 449
 url: /java/com.aspose.words/markdownloadoptions/
 ---
 
@@ -56,6 +56,7 @@ Shows how to preserve empty line while load a document.
 | [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getSoftLineBreakCharacter()](#getSoftLineBreakCharacter) | Gets a character value representing soft line break. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
 | [getUseSystemLcid()](#getUseSystemLcid) | Gets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
@@ -74,6 +75,7 @@ Shows how to preserve empty line while load a document.
 | [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setSoftLineBreakCharacter(char value)](#setSoftLineBreakCharacter-char) | Sets a character value representing soft line break. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
 | [setUseSystemLcid(boolean value)](#setUseSystemLcid-boolean) | Sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
@@ -760,6 +762,37 @@ Shows how to handle external resources when loading Html documents.
 
 **Returns:**
 [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
+### getSoftLineBreakCharacter() {#getSoftLineBreakCharacter}
+```
+public char getSoftLineBreakCharacter()
+```
+
+
+Gets a character value representing soft line break. The default value is  SPACE (U+0020) .
+
+ **Remarks:** 
+
+Note, setting this option to [ControlChar.LINE\_BREAK\_CHAR](../../com.aspose.words/controlchar/\#LINE-BREAK-CHAR) allows you to load soft line breaks as hard line breaks.
+
+ **Examples:** 
+
+Shows how to set soft line break character.
+
+```
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream("line1\nline2".getBytes(StandardCharsets.UTF_8)))
+ {
+     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions();
+     loadOptions.setSoftLineBreakCharacter(ControlChar.LINE_BREAK_CHAR);
+     Document doc = new Document(stream, loadOptions);
+
+     Assert.assertEquals("line1line2", doc.getText().trim());
+ }
+ 
+```
+
+**Returns:**
+char - A character value representing soft line break.
 ### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
@@ -1591,6 +1624,40 @@ Shows how to handle external resources when loading Html documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value. |
+
+### setSoftLineBreakCharacter(char value) {#setSoftLineBreakCharacter-char}
+```
+public void setSoftLineBreakCharacter(char value)
+```
+
+
+Sets a character value representing soft line break. The default value is  SPACE (U+0020) .
+
+ **Remarks:** 
+
+Note, setting this option to [ControlChar.LINE\_BREAK\_CHAR](../../com.aspose.words/controlchar/\#LINE-BREAK-CHAR) allows you to load soft line breaks as hard line breaks.
+
+ **Examples:** 
+
+Shows how to set soft line break character.
+
+```
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream("line1\nline2".getBytes(StandardCharsets.UTF_8)))
+ {
+     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions();
+     loadOptions.setSoftLineBreakCharacter(ControlChar.LINE_BREAK_CHAR);
+     Document doc = new Document(stream, loadOptions);
+
+     Assert.assertEquals("line1line2", doc.getText().trim());
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | char | A character value representing soft line break. |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```

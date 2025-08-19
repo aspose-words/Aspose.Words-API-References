@@ -4,7 +4,7 @@ linktitle: MarkdownExportAsHtml
 second_title: Aspose.Words for Java
 description: Allows to specify the elements to be exported to Markdown as raw HTML in Java.
 type: docs
-weight: 445
+weight: 446
 url: /java/com.aspose.words/markdownexportashtml/
 ---
 
@@ -17,6 +17,23 @@ public class MarkdownExportAsHtml
 Allows to specify the elements to be exported to Markdown as raw HTML.
 
  **Examples:** 
+
+Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
+
+```
+
+ String outputPath = getArtifactsDir() + "MarkdownSaveOptions.NonCompatibleTables.md";
+
+ Document doc = new Document(getMyDir() + "Non compatible table.docx");
+
+ // With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
+ // or nested tables to raw HTML and leave simple tables in Markdown format.
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportAsHtml(MarkdownExportAsHtml.NON_COMPATIBLE_TABLES);
+
+ doc.save(outputPath, saveOptions);
+ 
+```
 
 Shows how to export a table to Markdown as raw HTML.
 
@@ -46,6 +63,7 @@ Shows how to export a table to Markdown as raw HTML.
 | Field | Description |
 | --- | --- |
 | [NONE](#NONE) | Export all elements using Markdown syntax without any raw HTML. |
+| [NON_COMPATIBLE_TABLES](#NON-COMPATIBLE-TABLES) | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 | [TABLES](#TABLES) | Export tables as raw HTML. |
 | [length](#length) |  |
 ## Methods
@@ -67,6 +85,20 @@ public static int NONE
 
 Export all elements using Markdown syntax without any raw HTML.
 
+### NON_COMPATIBLE_TABLES {#NON-COMPATIBLE-TABLES}
+```
+public static int NON_COMPATIBLE_TABLES
+```
+
+
+Export tables that cannot be correctly represented in pure Markdown as raw HTML.
+
+ **Remarks:** 
+
+When this option is enabled, Aspose.Words will only export tables that have merged cells or nested tables as raw HTML. And all other tables will be exported in Markdown format. Also note, this option will not preserve all formatting of the table, but only preserves corresponding spans of the cells.
+
+If related [TABLES](../../com.aspose.words/markdownexportashtml/\#TABLES) flag is set, then this flag will be ignored.
+
 ### TABLES {#TABLES}
 ```
 public static int TABLES
@@ -74,6 +106,12 @@ public static int TABLES
 
 
 Export tables as raw HTML.
+
+ **Remarks:** 
+
+When this option is enabled, every table will be exported as raw HTML. Aspose.Words will try to preserve all formatting of the tables in this case.
+
+If this flag is set, then related [NON\_COMPATIBLE\_TABLES](../../com.aspose.words/markdownexportashtml/\#NON-COMPATIBLE-TABLES) flag will be ignored.
 
 ### length {#length}
 ```
