@@ -33,6 +33,7 @@ class FindReplaceOptions : public System::Object
 | [get_IgnoreFields](./get_ignorefields/)() const | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is **false**. |
 | [get_IgnoreFootnotes](./get_ignorefootnotes/)() const | Gets or sets a boolean value indicating either to ignore footnotes. The default value is **false**. |
 | [get_IgnoreInserted](./get_ignoreinserted/)() const | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is **false**. |
+| [get_IgnoreOfficeMath](./get_ignoreofficemath/)() const | Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**. |
 | [get_IgnoreShapes](./get_ignoreshapes/)() const | Gets or sets a boolean value indicating either to ignore shapes within a text. The default value is **false**. |
 | [get_IgnoreStructuredDocumentTags](./get_ignorestructureddocumenttags/)() const | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is **false**. |
 | [get_LegacyMode](./get_legacymode/)() const | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
@@ -51,6 +52,7 @@ class FindReplaceOptions : public System::Object
 | [set_IgnoreFields](./set_ignorefields/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFields](./get_ignorefields/). |
 | [set_IgnoreFootnotes](./set_ignorefootnotes/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes](./get_ignorefootnotes/). |
 | [set_IgnoreInserted](./set_ignoreinserted/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted](./get_ignoreinserted/). |
+| [set_IgnoreOfficeMath](./set_ignoreofficemath/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath](./get_ignoreofficemath/). |
 | [set_IgnoreShapes](./set_ignoreshapes/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreShapes](./get_ignoreshapes/). |
 | [set_IgnoreStructuredDocumentTags](./set_ignorestructureddocumenttags/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreStructuredDocumentTags](./get_ignorestructureddocumenttags/). |
 | [set_LegacyMode](./set_legacymode/)(bool) | Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode](./get_legacymode/). |
