@@ -5,7 +5,7 @@ articleTitle: IHyphenationCallback
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.IHyphenationCallback interface to easily implement and register hyphenation dictionaries for enhanced document formatting.
 type: docs
-weight: 3620
+weight: 3640
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface

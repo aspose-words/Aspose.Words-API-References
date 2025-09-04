@@ -5,7 +5,7 @@ articleTitle: ShapeRenderer
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Rendering.ShapeRenderer to effortlessly convert Shapes and GroupShapes into high-quality raster or vector images for your projects.
 type: docs
-weight: 5320
+weight: 5350
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class

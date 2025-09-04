@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Loading.HtmlLoadOptions to enhance HTML document loading into a Document object with customizable options for optimal performance.
 type: docs
-weight: 4060
+weight: 4090
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -46,6 +46,7 @@ public class HtmlLoadOptions : LoadOptions
 | [PreferredControlType](../../aspose.words.loading/htmlloadoptions/preferredcontroltype/) { get; set; } | Gets or sets preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements. Default value is FormField. |
 | [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield/) { get; set; } | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is `false`. |
 | [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback/) { get; set; } | Called during loading a document and accepts data about loading progress. |
+| [RecoveryMode](../../aspose.words.loading/loadoptions/recoverymode/) { get; set; } | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is TryRecover. |
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback/) { get; set; } | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [SupportFontFaceRules](../../aspose.words.loading/htmlloadoptions/supportfontfacerules/) { get; set; } | Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is `false`. |
 | [SupportVml](../../aspose.words.loading/htmlloadoptions/supportvml/) { get; set; } | Gets or sets a value indicating whether to support VML images. |

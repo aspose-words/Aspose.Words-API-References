@@ -5,7 +5,7 @@ articleTitle: DmlRenderingMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.DmlRenderingMode enhances DrawingML shape rendering for high-quality fixed page formats. Optimize your document visuals!
 type: docs
-weight: 5670
+weight: 5700
 url: /net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration

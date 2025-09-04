@@ -5,7 +5,7 @@ articleTitle: WarningCallback
 second_title: Aspose.Words for .NET
 description: Discover the LoadOptions WarningCallback property, which alerts you during load operations to prevent data loss and ensure formatting integrity.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property

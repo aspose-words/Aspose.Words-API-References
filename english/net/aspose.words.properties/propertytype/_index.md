@@ -5,7 +5,7 @@ articleTitle: PropertyType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PropertyType enum to easily define document property data types for enhanced document management and customization.
 type: docs
-weight: 5230
+weight: 5260
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

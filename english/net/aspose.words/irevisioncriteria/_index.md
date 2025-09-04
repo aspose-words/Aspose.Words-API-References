@@ -5,7 +5,7 @@ articleTitle: IRevisionCriteria
 second_title: Aspose.Words for .NET
 description: Control document revisions effortlessly with Aspose.Words.IRevisionCriteria. Customize acceptance and rejection of changes for precise document management.
 type: docs
-weight: 3640
+weight: 3660
 url: /net/aspose.words/irevisioncriteria/
 ---
 ## IRevisionCriteria interface

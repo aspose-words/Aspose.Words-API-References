@@ -47,6 +47,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [FileFormatInfo](./fileformatinfo/) | Contains data returned by [`FileFormatUtil`](../aspose.words/fileformatutil/) document format detection methods. |
 | [FileFormatUtil](./fileformatutil/) | Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums. |
 | [Font](./font/) | Contains font attributes (font name, font size, color, and so on) for an object. |
+| [FontSubstitutionWarningInfo](./fontsubstitutionwarninginfo/) | Contains information about a font substitution warning that Aspose.Words issued during document loading or saving. |
 | [FrameFormat](./frameformat/) | Represents frame related formatting for a paragraph. |
 | [HeaderFooter](./headerfooter/) | Represents a container for the header or footer text of a section. |
 | [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [`HeaderFooter`](../aspose.words/headerfooter/) nodes of a [`Section`](../aspose.words/section/). |
@@ -125,6 +126,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [DropCapPosition](./dropcapposition/) | Specifies the position for a drop cap text. |
 | [EditorType](./editortype/) | Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
 | [EmphasisMark](./emphasismark/) | Specifies possible types of emphasis mark. |
+| [FontSubstitutionReason](./fontsubstitutionreason/) | Specifies the reason of font substitution. |
 | [HeaderFooterType](./headerfootertype/) | Identifies the type of header or footer found in a Word file. |
 | [HeightRule](./heightrule/) | Specifies the rule for determining the height of an object. |
 | [HtmlInsertOptions](./htmlinsertoptions/) | Specifies options for the [`InsertHtml`](../aspose.words/documentbuilder/inserthtml/) method. |

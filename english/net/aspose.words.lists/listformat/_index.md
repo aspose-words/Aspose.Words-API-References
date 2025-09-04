@@ -5,7 +5,7 @@ articleTitle: ListFormat
 second_title: Aspose.Words for .NET
 description: Master list formatting in your documents with Aspose.Words.Lists.ListFormat class. Effortlessly enhance paragraph styling for better readability.
 type: docs
-weight: 3920
+weight: 3940
 url: /net/aspose.words.lists/listformat/
 ---
 ## ListFormat class

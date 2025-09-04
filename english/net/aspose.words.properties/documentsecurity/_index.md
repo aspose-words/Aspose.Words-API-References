@@ -5,7 +5,7 @@ articleTitle: DocumentSecurity
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.DocumentSecurity enum to enhance your document's security. Easily specify and manage security levels for optimal protection.
 type: docs
-weight: 5220
+weight: 5250
 url: /net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration

@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Notes.FootnoteSeparator class, your key to managing footnote and endnote content seamlessly in any document.
 type: docs
-weight: 4980
+weight: 5010
 url: /net/aspose.words.notes/footnoteseparator/
 ---
 ## FootnoteSeparator class

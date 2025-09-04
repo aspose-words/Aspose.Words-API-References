@@ -5,7 +5,7 @@ articleTitle: MeasurementUnits
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MeasurementUnits enum for precise unit selection in document processing. Enhance your workflow with accurate measurement options!
 type: docs
-weight: 4830
+weight: 4860
 url: /net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -40,6 +40,9 @@ OdtSaveOptions saveOptions = new OdtSaveOptions
 };
 
 doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+
+doc = new Document(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt");
+Assert.That(doc.LayoutOptions.RevisionOptions.MeasurementUnit, Is.EqualTo(Aspose.Words.MeasurementUnits.Centimeters));
 ```
 
 ### See Also

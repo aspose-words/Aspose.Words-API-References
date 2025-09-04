@@ -36,6 +36,7 @@ The **Aspose.Words.Loading** namespace provides classes and enumerations that al
 | --- | --- |
 | [BlockImportMode](./blockimportmode/) | Specifies how properties of block-level elements are imported from HTML-based documents. |
 | [DocumentDirection](./documentdirection/) | Allows to specify the direction to flow the text in a document. |
+| [DocumentRecoveryMode](./documentrecoverymode/) | Specifies the available recovery options when a document encounters errors during loading. |
 | [EditingLanguage](./editinglanguage/) | Specifies the editing language. |
 | [HtmlControlType](./htmlcontroltype/) | Type of document nodes that represent &lt;input&gt; and &lt;select&gt; elements imported from HTML. |
 | [ResourceLoadingAction](./resourceloadingaction/) | Specifies the mode of resource loading. |
