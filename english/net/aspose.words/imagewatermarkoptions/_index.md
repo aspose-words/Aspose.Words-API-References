@@ -5,7 +5,7 @@ articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ImageWatermarkOptions. Customize your image watermarks effortlessly with versatile options for enhanced document presentation.
 type: docs
-weight: 3660
+weight: 3680
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class

@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtLoadOptions for enhanced text document loading. Customize your Document object with flexible options for optimal performance.
 type: docs
-weight: 4180
+weight: 4210
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -45,6 +45,7 @@ public class TxtLoadOptions : LoadOptions
 | [Password](../../aspose.words.loading/loadoptions/password/) { get; set; } | Gets or sets the password for opening an encrypted document. Can be `null` or empty string. Default is `null`. |
 | [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield/) { get; set; } | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is `false`. |
 | [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback/) { get; set; } | Called during loading a document and accepts data about loading progress. |
+| [RecoveryMode](../../aspose.words.loading/loadoptions/recoverymode/) { get; set; } | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is TryRecover. |
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback/) { get; set; } | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder/) { get; set; } | Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used. |
 | [TrailingSpacesOptions](../../aspose.words.loading/txtloadoptions/trailingspacesoptions/) { get; set; } | Gets or sets preferred option of a trailing space handling. Default value is Trim. |

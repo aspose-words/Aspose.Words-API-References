@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions
 second_title: Aspose.Words for .NET
 description: Optimize document saving with Aspose.Words.Saving.DocSaveOptions. Customize your Doc and Dot formats for enhanced quality and flexibility.
 type: docs
-weight: 5680
+weight: 5710
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class

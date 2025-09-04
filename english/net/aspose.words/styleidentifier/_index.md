@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.StyleIdentifier enum for flexible, locale-independent style management in your documents. Enhance your document processing today!
 type: docs
-weight: 7020
+weight: 7050
 url: /net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration

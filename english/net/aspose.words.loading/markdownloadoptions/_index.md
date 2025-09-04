@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MarkdownLoadOptions to enhance your Markdown document loading experience. Customize options for seamless integration into your projects.
 type: docs
-weight: 4110
+weight: 4140
 url: /net/aspose.words.loading/markdownloadoptions/
 ---
 ## MarkdownLoadOptions class
@@ -40,6 +40,7 @@ public class MarkdownLoadOptions : LoadOptions
 | [PreserveEmptyLines](../../aspose.words.loading/markdownloadoptions/preserveemptylines/) { get; set; } | Gets or sets a boolean value indicating whether to preserve empty lines while load a Markdown document. The default value is `false`. |
 | [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield/) { get; set; } | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is `false`. |
 | [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback/) { get; set; } | Called during loading a document and accepts data about loading progress. |
+| [RecoveryMode](../../aspose.words.loading/loadoptions/recoverymode/) { get; set; } | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is TryRecover. |
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback/) { get; set; } | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [SoftLineBreakCharacter](../../aspose.words.loading/markdownloadoptions/softlinebreakcharacter/) { get; set; } | Gets or sets a character value representing `soft line break`. The default value is `SPACE (U+0020)`. |
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder/) { get; set; } | Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used. |

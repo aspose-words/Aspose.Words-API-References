@@ -5,7 +5,7 @@ articleTitle: Type
 second_title: Aspose.Words for .NET
 description: Discover the StreamFontSource Type property to easily identify your font source type, enhancing your design flexibility and project efficiency.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.fonts/streamfontsource/type/
 ---
 ## StreamFontSource.Type property

@@ -16,22 +16,6 @@ Allows to specify the measurement units for revision comments. Default value is 
 public MeasurementUnits MeasurementUnit { get; set; }
 ```
 
-## Examples
-
-Shows how to make a saved document conform to an older ODT schema.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-OdtSaveOptions saveOptions = new OdtSaveOptions
-{
-    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
-    IsStrictSchema11 = exportToOdt11Specs
-};
-
-doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
-```
-
 ### See Also
 
 * enum [MeasurementUnits](../../../aspose.words/measurementunits/)

@@ -5,7 +5,7 @@ articleTitle: IWarningCallback
 second_title: Aspose.Words for .NET
 description: Implement the Aspose.Words.IWarningCallback interface to customize methods for capturing fidelity warnings during document loading and saving. Enhance document integrity!
 type: docs
-weight: 3650
+weight: 3670
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface

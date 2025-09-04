@@ -5,7 +5,7 @@ articleTitle: Odso
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Settings.Odso class for seamless mail merge integration. Optimize your ODSO settings for efficient data source management.
 type: docs
-weight: 6720
+weight: 6750
 url: /net/aspose.words.settings/odso/
 ---
 ## Odso class

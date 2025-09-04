@@ -5,7 +5,7 @@ articleTitle: FolderFontSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FolderFontSource class, your solution for managing TrueType fonts efficiently. Enhance your document's typography today!
 type: docs
-weight: 3280
+weight: 3300
 url: /net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class

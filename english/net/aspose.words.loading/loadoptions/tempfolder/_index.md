@@ -5,7 +5,7 @@ articleTitle: TempFolder
 second_title: Aspose.Words for .NET
 description: Optimize document reading with LoadOptions' TempFolder property. Easily manage temporary files for efficient processing and enhanced performance.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.loading/loadoptions/tempfolder/
 ---
 ## LoadOptions.TempFolder property

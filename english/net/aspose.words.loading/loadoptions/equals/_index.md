@@ -5,7 +5,7 @@ articleTitle: Equals
 second_title: Aspose.Words for .NET
 description: Discover how the LoadOptions Equals method checks object value equality, ensuring accurate comparisons for your programming needs. Enhance your coding efficiency!
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.loading/loadoptions/equals/
 ---
 ## LoadOptions.Equals method

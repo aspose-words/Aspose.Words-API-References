@@ -5,7 +5,7 @@ articleTitle: FrameFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FrameFormat class for advanced frame formatting in paragraphs. Enhance your document design with seamless integration and flexibility.
 type: docs
-weight: 3490
+weight: 3510
 url: /net/aspose.words/frameformat/
 ---
 ## FrameFormat class

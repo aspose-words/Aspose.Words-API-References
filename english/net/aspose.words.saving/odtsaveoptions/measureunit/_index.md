@@ -22,6 +22,23 @@ Open Office uses centimeters when specifying lengths, widths and other measurabl
 
 ## Examples
 
+Shows how to make a saved document conform to an older ODT schema.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+
+doc = new Document(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt");
+Assert.That(doc.LayoutOptions.RevisionOptions.MeasurementUnit, Is.EqualTo(Aspose.Words.MeasurementUnits.Centimeters));
+```
+
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 
 ```csharp

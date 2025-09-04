@@ -5,7 +5,7 @@ articleTitle: FileFontSource
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FileFontSource. Easily manage TrueType font files on your system for enhanced document formatting and design flexibility.
 type: docs
-weight: 3270
+weight: 3290
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class

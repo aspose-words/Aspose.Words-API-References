@@ -22,7 +22,8 @@ public class ShadowFormat
 
 | Name | Description |
 | --- | --- |
-| [Color](../../aspose.words.drawing/shadowformat/color/) { get; } | Gets a Color object that represents the color for the shadow. The default value is Black. |
+| [Color](../../aspose.words.drawing/shadowformat/color/) { get; set; } | Gets or sets a Color object that represents the color for the shadow. The default value is Black. |
+| [Transparency](../../aspose.words.drawing/shadowformat/transparency/) { get; set; } | Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [Type](../../aspose.words.drawing/shadowformat/type/) { get; set; } | Gets or sets the specified [`ShadowType`](../shadowtype/) for ShadowFormat. |
 | [Visible](../../aspose.words.drawing/shadowformat/visible/) { get; } | Returns `true` if the formatting applied to this instance is visible. |
 
