@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionSettings
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FontSubstitutionSettings for efficient font management. Optimize document rendering with customizable font substitution options.
 type: docs
-weight: 3430
+weight: 3450
 url: /net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class

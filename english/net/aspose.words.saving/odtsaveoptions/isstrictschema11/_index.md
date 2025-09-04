@@ -30,6 +30,9 @@ OdtSaveOptions saveOptions = new OdtSaveOptions
 };
 
 doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+
+doc = new Document(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt");
+Assert.That(doc.LayoutOptions.RevisionOptions.MeasurementUnit, Is.EqualTo(Aspose.Words.MeasurementUnits.Centimeters));
 ```
 
 ### See Also

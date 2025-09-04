@@ -5,7 +5,7 @@ articleTitle: TabLeader
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TabLeader enum, defining leader line styles for tabs, enhancing document formatting and readability in your projects.
 type: docs
-weight: 7060
+weight: 7090
 url: /net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

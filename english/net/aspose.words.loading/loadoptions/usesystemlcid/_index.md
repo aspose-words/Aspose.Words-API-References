@@ -5,7 +5,7 @@ articleTitle: UseSystemLcid
 second_title: Aspose.Words for .NET
 description: Discover how LoadOptions UseSystemLcid property enhances your page setup by leveraging Windows registry LCID values for optimal default margins.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.loading/loadoptions/usesystemlcid/
 ---
 ## LoadOptions.UseSystemLcid property

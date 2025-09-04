@@ -10,10 +10,10 @@ url: /net/aspose.words.drawing/shadowformat/color/
 ---
 ## ShadowFormat.Color property
 
-Gets a Color object that represents the color for the shadow. The default value is Black.
+Gets or sets a Color object that represents the color for the shadow. The default value is Black.
 
 ```csharp
-public Color Color { get; }
+public Color Color { get; set; }
 ```
 
 ## Examples
@@ -27,6 +27,20 @@ ShadowFormat shadowFormat = shape.ShadowFormat;
 
 Assert.That(shadowFormat.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
 Assert.That(shadowFormat.Type, Is.EqualTo(ShadowType.ShadowMixed));
+```
+
+Shows how to set a color with transparency.
+
+```csharp
+Document doc = new Document(MyDir + "Shadow color.docx");
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+ShadowFormat shadowFormat = shape.ShadowFormat;
+shadowFormat.Type = ShadowType.Shadow21;
+shadowFormat.Color = Color.Red;
+shadowFormat.Transparency = 0.8;
+
+doc.Save(ArtifactsDir + "Shape.ShadowFormatTransparency.docx");
 ```
 
 ### See Also

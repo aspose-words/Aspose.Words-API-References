@@ -5,7 +5,7 @@ articleTitle: PdfTextCompression
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfTextCompression enum for efficient PDF content compression, enhancing file size and performance while preserving quality.
 type: docs
-weight: 6340
+weight: 6370
 url: /net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

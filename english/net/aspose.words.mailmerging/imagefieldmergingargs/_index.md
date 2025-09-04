@@ -5,7 +5,7 @@ articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMerging.ImageFieldMergingArgs class, designed to enhance image merging in documents, ensuring seamless and efficient workflows.
 type: docs
-weight: 4510
+weight: 4540
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class

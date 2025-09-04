@@ -5,7 +5,7 @@ articleTitle: OpenFontDataStream
 second_title: Aspose.Words for .NET
 description: Discover the StreamFontSource OpenFontDataStream method to efficiently access font data streams on demand, enhancing your design workflow.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method

@@ -5,7 +5,7 @@ articleTitle: VbaReferenceCollection
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Vba.VbaReferenceCollection class, a powerful tool for managing VbaReference objects efficiently in your projects.
 type: docs
-weight: 7480
+weight: 7510
 url: /net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class

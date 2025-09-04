@@ -22,6 +22,7 @@ enum class MarkdownExportAsHtml
 | --- | --- | --- |
 | None | 0 | Export all elements using Markdown syntax without any raw HTML. |
 | Tables | 1 | Export tables as raw HTML. |
+| NonCompatibleTables | 2 | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 
 
 ## Examples
@@ -47,6 +48,21 @@ auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions
 saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::Tables);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+```
+
+
+Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML. 
+```cpp
+System::String outputPath = get_ArtifactsDir() + u"MarkdownSaveOptions.NonCompatibleTables.md";
+
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Non compatible table.docx");
+
+// With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
+// or nested tables to raw HTML and leave simple tables in Markdown format.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::NonCompatibleTables);
+
+doc->Save(outputPath, saveOptions);
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: StreamFontSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.StreamFontSource class, your go-to solution for custom stream font sources that enhance document flexibility and design.
 type: docs
-weight: 3460
+weight: 3480
 url: /net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
@@ -23,6 +23,7 @@ public abstract class StreamFontSource : FontSourceBase,   
 | Name | Description |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | The key of this source in the cache. |
+| [IsEmbedded](../../aspose.words.fonts/streamfontsource/isembedded/) { get; } |  |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returns the font source priority. |
 | [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Returns the type of the font source. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |

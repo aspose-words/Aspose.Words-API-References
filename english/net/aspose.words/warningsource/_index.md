@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningSource enum, identifying warning sources during document loading and saving for enhanced document management.
 type: docs
-weight: 7530
+weight: 7560
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -65,6 +65,32 @@ foreach (WarningInfo warningInfo in warnings)
     if (warningInfo.Source == WarningSource.Markdown)
         Assert.That(warningInfo.Description, Is.EqualTo("The (*, 0:11) cannot be properly written into Markdown."));
 }
+```
+
+Shows how to get additional information about font substitution.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+WarningInfoCollection callback = new WarningInfoCollection();
+doc.WarningCallback = callback;
+
+FontSettings fontSettings = new FontSettings();
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+fontSettings.SetFontsFolder(FontsDir, false);
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Arial", "Arvo", "Slab");
+
+doc.FontSettings = fontSettings;
+doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarnings.pdf");
+
+FontSubstitutionWarningInfo warningInfo = (FontSubstitutionWarningInfo)callback[0];
+Assert.That(warningInfo.Source, Is.EqualTo(WarningSource.Layout));
+Assert.That(warningInfo.WarningType, Is.EqualTo(WarningType.FontSubstitution));
+Assert.That(warningInfo.Reason, Is.EqualTo(FontSubstitutionReason.TableSubstitutionRule));
+Assert.That(warningInfo.Description, Is.EqualTo("Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution."));
+Assert.That(warningInfo.RequestedBold, Is.True);
+Assert.That(warningInfo.RequestedItalic, Is.False);
+Assert.That(warningInfo.RequestedFamilyName, Is.EqualTo("Arial"));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: WarningInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningInfo class, which provides crucial insights into warnings during document loading or saving, enhancing your workflow efficiency.
 type: docs
-weight: 7510
+weight: 7540
 url: /net/aspose.words/warninginfo/
 ---
 ## WarningInfo class

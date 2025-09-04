@@ -5,7 +5,7 @@ articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ExportHeadersFootersMode enum for seamless HTML, MHTML, or EPUB header and footer exports. Optimize your document conversion today!
 type: docs
-weight: 5750
+weight: 5780
 url: /net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration

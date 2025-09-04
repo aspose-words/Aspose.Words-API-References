@@ -5,7 +5,7 @@ articleTitle: ResourceLoadingCallback
 second_title: Aspose.Words for .NET
 description: Optimize your document imports with LoadOptions' ResourceLoadingCallback. Control loading of external resources like images and stylesheets seamlessly.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
