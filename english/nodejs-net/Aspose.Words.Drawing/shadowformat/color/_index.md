@@ -3,7 +3,7 @@ title: ShadowFormat.color property
 linktitle: color property
 articleTitle: color property
 second_title: Aspose.Words for Node.js
-description: "ShadowFormat.color property. Gets a string object that represents the color for the shadow"
+description: "ShadowFormat.color property. Gets or sets a string object that represents the color for the shadow"
 type: docs
 weight: 10
 url: /nodejs-net/aspose.words.drawing/shadowformat/color/
@@ -11,7 +11,7 @@ url: /nodejs-net/aspose.words.drawing/shadowformat/color/
 
 ## ShadowFormat.color property
 
-Gets a string object that represents the color for the shadow.
+Gets or sets a string object that represents the color for the shadow.
 The default value is black.
 
 

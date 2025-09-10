@@ -21,6 +21,7 @@ Specifies how Aspose.Words exports OfficeMath to Markdown.
 | Text | Export OfficeMath as plain text. |
 | Image | Export OfficeMath as image. |
 | MathML | Export OfficeMath as MathML. |
+| Latex | Export OfficeMath as LaTeX. |
 
 ### See Also
 

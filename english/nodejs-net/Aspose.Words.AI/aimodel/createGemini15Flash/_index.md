@@ -3,16 +3,13 @@ title: AiModel.createGemini15Flash method
 linktitle: createGemini15Flash method
 articleTitle: createGemini15Flash method
 second_title: Aspose.Words for Node.js
-description: "AiModel.createGemini15Flash method. Creates a new instance of Gemini 1.5 Flash generative model type."
+description: "AiModel.createGemini15Flash method. "
 type: docs
 weight: 110
 url: /nodejs-net/aspose.words.ai/aimodel/createGemini15Flash/
 ---
 
 ## createGemini15Flash() {#default}
-
-Creates a new instance of Gemini 1.5 Flash generative model type.
-
 
 ```js
 createGemini15Flash()

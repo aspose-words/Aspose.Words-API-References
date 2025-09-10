@@ -5,7 +5,7 @@ articleTitle: LanguagePreferences class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.LanguagePreferences class. Allows to set up language preferences"
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words.loading/languagepreferences/
 ---
 

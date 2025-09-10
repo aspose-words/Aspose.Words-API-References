@@ -3,7 +3,7 @@ title: ImageData class
 linktitle: ImageData class
 articleTitle: ImageData class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.Drawing.ImageData class. Adapts [ImageData](./) class public API for Node.js porting."
+description: "Aspose.Words.Drawing.ImageData class. Defines an image for a shape"
 type: docs
 weight: 210
 url: /nodejs-net/aspose.words.drawing/imagedata/
@@ -11,7 +11,9 @@ url: /nodejs-net/aspose.words.drawing/imagedata/
 
 ## ImageData class
 
-Adapts [ImageData](./) class public API for Node.js porting.
+Defines an image for a shape.
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/nodejs-net/working-with-images/) documentation article.
+
 
 
 
@@ -59,7 +61,7 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 | Name | Description |
 | --- | --- |
 |[ fitImageToShape()](./fitImageToShape/#default) | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
-|[ save(stream)](./save/#unknown) | Saves the image into the specified stream. |
+|[ save(stream)](./save/#unknown) |  |
 |[ save(fileName)](./save/#string) | Saves the image into a file. |
 |[ setImage(image)](./setImage/#jsimage) |  |
 |[ setImage(stream)](./setImage/#buffer) | Sets the image that the shape displays. |

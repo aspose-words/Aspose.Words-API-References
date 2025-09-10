@@ -20,6 +20,21 @@ get firstParagraph(): Aspose.Words.Paragraph
 
 ### Examples
 
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
+```
+
 Shows how to create and format a text box.
 
 ```js
@@ -46,21 +61,6 @@ para.appendChild(run);
 doc.firstSection.body.firstParagraph.appendChild(textBox);
 
 doc.save(base.artifactsDir + "Shape.CreateTextBox.docx");
-```
-
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also

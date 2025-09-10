@@ -5,7 +5,7 @@ articleTitle: SubDocument class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SubDocument class. Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
-weight: 1280
+weight: 1300
 url: /nodejs-net/aspose.words/subdocument/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Run class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Run class. Represents a run of characters with the same font formatting"
 type: docs
-weight: 1120
+weight: 1140
 url: /nodejs-net/aspose.words/run/
 ---
 

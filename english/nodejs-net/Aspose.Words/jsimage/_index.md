@@ -3,22 +3,18 @@ title: JSImage class
 linktitle: JSImage class
 articleTitle: JSImage class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.JSImage class. Represents pixel data for a graphics image and its attributes"
+description: "Aspose.Words.JSImage class. "
 type: docs
-weight: 660
+weight: 680
 url: /nodejs-net/aspose.words/jsimage/
 ---
 
 ## JSImage class
 
-Represents pixel data for a graphics image and its attributes.
-Supports loading the following file formats: BMP, GIF, EXIF, JPG, PNG, and TIFF.
-
-
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [JSImage(fileName)](./constructor/#string) | Constructs pixel data for a graphics image and its attributes. Supports the following file formats: BMP, GIF, EXIF, JPG, PNG, and TIFF. |
+| [JSImage(fileName)](./constructor/#string) |  |
 
 ### See Also
 

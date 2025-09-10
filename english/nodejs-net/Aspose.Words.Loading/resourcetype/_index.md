@@ -5,7 +5,7 @@ articleTitle: ResourceType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.ResourceType enumeration. Type of loaded resource."
 type: docs
-weight: 150
+weight: 160
 url: /nodejs-net/aspose.words.loading/resourcetype/
 ---
 
