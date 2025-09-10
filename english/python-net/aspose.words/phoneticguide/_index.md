@@ -5,7 +5,7 @@ articleTitle: PhoneticGuide class
 second_title: Aspose.Words for Python
 description: "aspose.words.PhoneticGuide class. Represents Phonetic Guide."
 type: docs
-weight: 950
+weight: 970
 url: /python-net/aspose.words/phoneticguide/
 ---
 

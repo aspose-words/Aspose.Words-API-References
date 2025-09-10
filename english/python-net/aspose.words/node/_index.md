@@ -5,7 +5,7 @@ articleTitle: Node class
 second_title: Aspose.Words for Python
 description: "aspose.words.Node class. Base class for all nodes of a Word document"
 type: docs
-weight: 740
+weight: 760
 url: /python-net/aspose.words/node/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: StyleType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.StyleType enumeration. Represents type of the style."
 type: docs
-weight: 1200
+weight: 1220
 url: /python-net/aspose.words/styletype/
 ---
 

@@ -31,7 +31,7 @@ The order of the rules is following:
 
 Note that font info substitution rule will always resolve the font if [FontInfo](../fontinfo/) is available
 and will override the default font rule. If you want to use the default font rule then you should disable the
-font info substitution rule. 
+font info substitution rule.
 
 
 Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules.

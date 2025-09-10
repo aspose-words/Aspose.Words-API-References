@@ -21,7 +21,7 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int |  |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: MeasurementUnits enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.MeasurementUnits enumeration. Specifies the unit of measurement."
 type: docs
-weight: 720
+weight: 740
 url: /python-net/aspose.words/measurementunits/
 ---
 
@@ -34,6 +34,8 @@ save_options = aw.saving.OdtSaveOptions()
 save_options.measure_unit = aw.saving.OdtSaveMeasureUnit.CENTIMETERS
 save_options.is_strict_schema11 = export_to_odt_11_specs
 doc.save(file_name=ARTIFACTS_DIR + 'OdtSaveOptions.Odt11Schema.odt', save_options=save_options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OdtSaveOptions.Odt11Schema.odt')
+self.assertEqual(aw.MeasurementUnits.CENTIMETERS, doc.layout_options.revision_options.measurement_unit)
 ```
 
 ### See Also

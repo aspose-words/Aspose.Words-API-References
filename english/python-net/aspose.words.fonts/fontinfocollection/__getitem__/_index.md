@@ -21,7 +21,7 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Zero-based index of the font. |
+| index | int |  |
 
 ### Examples
 

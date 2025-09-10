@@ -76,7 +76,6 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [is_multi_section](../istructureddocumenttag/is_multi_section/) | Returns true if this instance is a ranged (multi-section) structured document tag.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 | [is_showing_placeholder_text](./is_showing_placeholder_text/) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [is_temporary](./is_temporary/) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -86,7 +85,6 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | [lock_contents](./lock_contents/) | When set to ``True``, this property will prohibit a user from editing the contents of this **SDT**. |
 | [multiline](./multiline/) | Specifies whether this **SDT** allows multiple lines of text. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node](../istructureddocumenttag/node/) | Returns Node object that implements this interface.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |
 | [node_type](./node_type/) | Returns [NodeType.STRUCTURED_DOCUMENT_TAG](../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTag.is_showing_placeholder_text](./is_showing_placeholder_text/) element is ``True``. |

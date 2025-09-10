@@ -21,7 +21,7 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The index of a general format. |
+| index | int |  |
 
 ### Returns
 

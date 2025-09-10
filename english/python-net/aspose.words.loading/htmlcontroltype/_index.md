@@ -5,7 +5,7 @@ articleTitle: HtmlControlType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.HtmlControlType enumeration. Type of document nodes that represent <input> and <select> elements imported from HTML."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.loading/htmlcontroltype/
 ---
 

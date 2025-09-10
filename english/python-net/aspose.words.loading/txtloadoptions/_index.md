@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.TxtLoadOptions class. Allows to specify additional options when loading [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.loading/txtloadoptions/
 ---
 
@@ -45,6 +45,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserve_include_picture_field](../loadoptions/preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [progress_callback](../loadoptions/progress_callback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [recovery_mode](../loadoptions/recovery_mode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER).<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resource_loading_callback](../loadoptions/resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [trailing_spaces_options](./trailing_spaces_options/) | Gets or sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.TRIM](../txttrailingspacesoptions/#TRIM). |

@@ -5,7 +5,7 @@ articleTitle: LineStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LineStyle enumeration. Specifies line style of a [Border](../border/)."
 type: docs
-weight: 690
+weight: 710
 url: /python-net/aspose.words/linestyle/
 ---
 

@@ -30,6 +30,19 @@ def translate(self, source_document: aspose.words.Document, target_language: asp
 A new [Document](../../../aspose.words/document/) object containing the translated document.
 
 
+### Examples
+
+Shows how to translate text using Google models.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+api_key = system_helper.environment.Environment.get_environment_variable('API_KEY')
+# Use Google generative language models.
+model = aw.ai.AiModel.create(aw.ai.AiModelType.GEMINI_15_FLASH).with_api_key(api_key)
+translated_doc = model.translate(doc, aw.ai.Language.ARABIC)
+translated_doc.save(file_name=ARTIFACTS_DIR + 'AI.AiTranslate.docx')
+```
+
 ### See Also
 
 * module [aspose.words.ai](../../)

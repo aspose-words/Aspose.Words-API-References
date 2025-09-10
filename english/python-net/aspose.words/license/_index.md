@@ -5,7 +5,7 @@ articleTitle: License class
 second_title: Aspose.Words for Python
 description: "aspose.words.License class. Provides methods to license the component"
 type: docs
-weight: 660
+weight: 680
 url: /python-net/aspose.words/license/
 ---
 
