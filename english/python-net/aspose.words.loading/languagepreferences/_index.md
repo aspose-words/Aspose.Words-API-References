@@ -5,7 +5,7 @@ articleTitle: LanguagePreferences class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.LanguagePreferences class. Allows to set up language preferences"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.loading/languagepreferences/
 ---
 

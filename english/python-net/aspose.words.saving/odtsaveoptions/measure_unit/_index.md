@@ -35,6 +35,18 @@ content properties in documents whereas MS Office uses inches.
 
 ### Examples
 
+Shows how to make a saved document conform to an older ODT schema.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+save_options = aw.saving.OdtSaveOptions()
+save_options.measure_unit = aw.saving.OdtSaveMeasureUnit.CENTIMETERS
+save_options.is_strict_schema11 = export_to_odt_11_specs
+doc.save(file_name=ARTIFACTS_DIR + 'OdtSaveOptions.Odt11Schema.odt', save_options=save_options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OdtSaveOptions.Odt11Schema.odt')
+self.assertEqual(aw.MeasurementUnits.CENTIMETERS, doc.layout_options.revision_options.measurement_unit)
+```
+
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 
 ```python

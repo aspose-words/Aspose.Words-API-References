@@ -21,7 +21,8 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 | Name | Description |
 | --- | --- |
-| [color](./color/) | Gets a aspose.pydrawing.Color object that represents the color for the shadow. The default value is aspose.pydrawing.Color.black. |
+| [color](./color/) | Gets or sets a aspose.pydrawing.Color object that represents the color for the shadow. The default value is aspose.pydrawing.Color.black. |
+| [transparency](./transparency/) | Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [type](./type/) | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
 | [visible](./visible/) | Returns ``True`` if the formatting applied to this instance is visible. |
 

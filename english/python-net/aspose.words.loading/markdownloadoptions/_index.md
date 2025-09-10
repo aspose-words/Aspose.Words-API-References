@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../aspose.words/loadformat/#MARKDOWN) document into a [Document](../../aspose.words/document/) object."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.loading/markdownloadoptions/
 ---
 
@@ -40,6 +40,7 @@ Allows to specify additional options when loading [LoadFormat.MARKDOWN](../../as
 | [preserve_empty_lines](./preserve_empty_lines/) | Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.MARKDOWN](../../aspose.words/loadformat/#MARKDOWN) document. The default value is ``False``. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
 | [preserve_include_picture_field](../loadoptions/preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [progress_callback](../loadoptions/progress_callback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [recovery_mode](../loadoptions/recovery_mode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER).<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resource_loading_callback](../loadoptions/resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [soft_line_break_character](./soft_line_break_character/) | Gets or sets a character value representing `soft line break`. The default value is ``SPACE (U+0020)``. |
 | [temp_folder](../loadoptions/temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |

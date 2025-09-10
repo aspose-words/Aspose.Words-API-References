@@ -21,6 +21,7 @@ Specifies how Aspose.Words exports OfficeMath to Markdown.
 | TEXT | Export OfficeMath as plain text. |
 | IMAGE | Export OfficeMath as image. |
 | MATH_ML | Export OfficeMath as MathML. |
+| LATEX | Export OfficeMath as LaTeX. |
 
 ### Examples
 
@@ -31,6 +32,15 @@ doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
 save_options = aw.saving.MarkdownSaveOptions()
 save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.IMAGE
 doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.OfficeMathExportMode.md', save_options=save_options)
+```
+
+Shows how to export OfficeMath object as Latex.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
+save_options = aw.saving.MarkdownSaveOptions()
+save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.LATEX
+doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportOfficeMathAsLatex.md', save_options=save_options)
 ```
 
 ### See Also

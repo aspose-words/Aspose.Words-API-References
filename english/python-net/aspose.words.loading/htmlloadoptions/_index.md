@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.loading/htmlloadoptions/
 ---
 
@@ -46,6 +46,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [preferred_control_type](./preferred_control_type/) | Gets or sets preferred type of document nodes that will represent imported \<input\> and \<select\> elements. Default value is [HtmlControlType.FORM_FIELD](../htmlcontroltype/#FORM_FIELD). |
 | [preserve_include_picture_field](../loadoptions/preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [progress_callback](../loadoptions/progress_callback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [recovery_mode](../loadoptions/recovery_mode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER).<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resource_loading_callback](../loadoptions/resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [support_font_face_rules](./support_font_face_rules/) | Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is ``False``. |
 | [support_vml](./support_vml/) | Gets or sets a value indicating whether to support VML images. |

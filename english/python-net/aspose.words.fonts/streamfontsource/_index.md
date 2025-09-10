@@ -39,6 +39,7 @@ and not to store it in the memory for the [FontSettings](../fontsettings/) lifet
 | Name | Description |
 | --- | --- |
 | [cache_key](./cache_key/) | The key of this source in the cache. |
+| [is_embedded](./is_embedded/) |  |
 | [priority](../fontsourcebase/priority/) | Returns the font source priority.<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
 | [type](./type/) | Returns the type of the font source. |
 | [warning_callback](../fontsourcebase/warning_callback/) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss.<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |

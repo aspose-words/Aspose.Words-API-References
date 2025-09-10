@@ -5,7 +5,7 @@ articleTitle: update_dirty_fields property
 second_title: Aspose.Words for Python
 description: "LoadOptions.update_dirty_fields property. Specifies whether to update the fields with the ``dirty`` attribute."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.loading/loadoptions/update_dirty_fields/
 ---
 

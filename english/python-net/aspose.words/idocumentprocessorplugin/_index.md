@@ -5,7 +5,7 @@ articleTitle: IDocumentProcessorPlugin class
 second_title: Aspose.Words for Python
 description: "aspose.words.IDocumentProcessorPlugin class. Defines an interface for external document processor plugin."
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.words/idocumentprocessorplugin/
 ---
 

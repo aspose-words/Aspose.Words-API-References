@@ -5,7 +5,7 @@ articleTitle: use_system_lcid property
 second_title: Aspose.Words for Python
 description: "LoadOptions.use_system_lcid property. Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.loading/loadoptions/use_system_lcid/
 ---
 
