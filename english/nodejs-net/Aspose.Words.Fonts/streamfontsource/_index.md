@@ -39,6 +39,7 @@ and not to store it in the memory for the [FontSettings](../fontsettings/) lifet
 | Name | Description |
 | --- | --- |
 | [cacheKey](./cacheKey/) | The key of this source in the cache. |
+| [isEmbedded](./isEmbedded/) |  |
 | [priority](../fontsourcebase/priority/) | Returns the font source priority.<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
 | [type](./type/) | Returns the type of the font source. |
 

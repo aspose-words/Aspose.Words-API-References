@@ -21,18 +21,18 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/nod
 
 | Name | Description |
 | --- | --- |
-| [boundsInPoints2](./boundsInPoints2/) | Gets the actual bounds of the shape in points. |
-| [opaqueBoundsInPoints2](./opaqueBoundsInPoints2/) | Gets the opaque bounds of the shape in points. |
-| [sizeInPoints2](./sizeInPoints2/) | Gets the actual size of the shape in points. |
+| [boundsInPoints2](./boundsInPoints2/) |  |
+| [opaqueBoundsInPoints2](./opaqueBoundsInPoints2/) |  |
+| [sizeInPoints2](./sizeInPoints2/) |  |
 
 ### Methods
 
 | Name | Description |
 | --- | --- |
-|[ getBoundsInPixels2(scale, dpi)](./getBoundsInPixels2/#number_number) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-|[ getBoundsInPixels2(scale, horizontalDpi, verticalDpi)](./getBoundsInPixels2/#number_number_number) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-|[ getOpaqueBoundsInPixels2(scale, dpi)](./getOpaqueBoundsInPixels2/#number_number) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
-|[ getOpaqueBoundsInPixels2(scale, horizontalDpi, verticalDpi)](./getOpaqueBoundsInPixels2/#number_number_number) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+|[ getBoundsInPixels2(scale, dpi)](./getBoundsInPixels2/#number_number) |  |
+|[ getBoundsInPixels2(scale, horizontalDpi, verticalDpi)](./getBoundsInPixels2/#number_number_number) |  |
+|[ getOpaqueBoundsInPixels2(scale, dpi)](./getOpaqueBoundsInPixels2/#number_number) |  |
+|[ getOpaqueBoundsInPixels2(scale, horizontalDpi, verticalDpi)](./getOpaqueBoundsInPixels2/#number_number_number) |  |
 |[ save(fileName, saveOptions)](./save/#string_imagesaveoptions) | Renders the shape into an image and saves into a file. |
 |[ save(fileName, saveOptions)](./save/#string_svgsaveoptions) | Renders the shape into an SVG image and saves into a file. |
 |[ save(stream, saveOptions)](./save/#buffer_imagesaveoptions) | Renders the shape into an image and saves into a stream. |

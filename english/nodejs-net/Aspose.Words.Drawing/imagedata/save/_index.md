@@ -11,16 +11,13 @@ url: /nodejs-net/aspose.words.drawing/imagedata/save/
 
 ## save(stream) {#unknown}
 
-Saves the image into the specified stream.
-
-
 ```js
 save(stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream |  | The stream where to save the image to. |
+| stream |  |  |
 
 ## save(fileName) {#string}
 

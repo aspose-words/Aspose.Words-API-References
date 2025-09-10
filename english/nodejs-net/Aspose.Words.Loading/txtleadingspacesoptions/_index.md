@@ -5,7 +5,7 @@ articleTitle: TxtLeadingSpacesOptions enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.TxtLeadingSpacesOptions enumeration. Specifies available options for leading space handling during import from [LoadFormat.Text](../../aspose.words/loadformat/#Text) file."
 type: docs
-weight: 170
+weight: 180
 url: /nodejs-net/aspose.words.loading/txtleadingspacesoptions/
 ---
 
