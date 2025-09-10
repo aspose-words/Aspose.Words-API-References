@@ -5,7 +5,7 @@ articleTitle: resourceLoadingCallback property
 second_title: Aspose.Words for Node.js
 description: "LoadOptions.resourceLoadingCallback property. Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML."
 type: docs
-weight: 130
+weight: 140
 url: /nodejs-net/aspose.words.loading/loadoptions/resourceLoadingCallback/
 ---
 

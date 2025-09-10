@@ -58,12 +58,12 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 | [aspectRatioLocked](./aspectRatioLocked/) | Specifies whether the shape's aspect ratio is locked. |
 | [behindText](./behindText/) | Specifies whether the shape is below or above text. |
 | [bottom](./bottom/) | Gets the position of the bottom edge of the containing block of the shape. |
-| [bounds2](./bounds2/) | Gets or sets the location and size of the containing block of the shape. |
-| [boundsInPoints2](./boundsInPoints2/) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
-| [boundsWithEffects2](./boundsWithEffects2/) | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
+| [bounds2](./bounds2/) |  |
+| [boundsInPoints2](./boundsInPoints2/) |  |
+| [boundsWithEffects2](./boundsWithEffects2/) |  |
 | [canHaveImage](./canHaveImage/) | Returns ``true`` if the shape type allows the shape to have an image. |
-| [coordOrigin2](./coordOrigin2/) | The coordinates at the top-left corner of the containing block of this shape. |
-| [coordSize2](./coordSize2/) | The width and height of the coordinate space inside the containing block of this shape. |
+| [coordOrigin2](./coordOrigin2/) |  |
+| [coordSize2](./coordSize2/) |  |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [customNodeId](../../aspose.words/node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [distanceBottom](./distanceBottom/) | Returns or sets the distance (in points) between the document text and the bottom edge of the shape. |
@@ -117,7 +117,7 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 | [screenTip](./screenTip/) | Defines the text displayed when the mouse pointer moves over the shape. |
 | [shadowFormat](./shadowFormat/) | Gets shadow formatting for the shape. |
 | [shapeType](./shapeType/) | Gets the shape type. |
-| [sizeInPoints2](./sizeInPoints2/) | Gets the size of the shape in points. |
+| [sizeInPoints2](./sizeInPoints2/) |  |
 | [softEdge](./softEdge/) | Gets soft edge formatting for the shape. |
 | [target](./target/) | Gets or sets the target frame for the shape hyperlink. |
 | [title](./title/) | Gets or sets the title (caption) of the current shape object. |
@@ -134,7 +134,7 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 
 | Name | Description |
 | --- | --- |
-|[ adjustWithEffects(source)](./adjustWithEffects/#jsrectanglef) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
+|[ adjustWithEffects(source)](./adjustWithEffects/#jsrectanglef) |  |
 |[ appendChild(newChild)](../../aspose.words/compositenode/appendChild/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ asBody()](../../aspose.words/node/asBody/#default) | Cast node to [Body](../../aspose.words/body/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ asBookmarkEnd()](../../aspose.words/node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../../aspose.words/bookmarkend/).<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -171,28 +171,28 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 |[ asTable()](../../aspose.words/node/asTable/#default) | Cast node to [Table](../../aspose.words/table/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ clone(isCloneChildren)](../../aspose.words/node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ getAncestor(ancestorType)](../../aspose.words/node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ getBuildingBlock(index, isDeep)](../../aspose.words/compositenode/getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../../aspose.words/buildingblock/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getBuildingBlock(index, isDeep)](../../aspose.words/compositenode/getBuildingBlock/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getChild(nodeType, index, isDeep)](../../aspose.words/compositenode/getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getChildNodes(nodeType, isDeep)](../../aspose.words/compositenode/getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getComment(index, isDeep)](../../aspose.words/compositenode/getComment/#number_boolean) | Returns an Nth child [Comment](../../aspose.words/comment/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getEditableRangeStart(index, isDeep)](../../aspose.words/compositenode/getEditableRangeStart/#number_boolean) | Returns an Nth child [EditableRangeStart](../../aspose.words/editablerangestart/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getFootnote(index, isDeep)](../../aspose.words/compositenode/getFootnote/#number_boolean) | Returns an Nth child [Footnote](../../aspose.words.notes/footnote/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getGroupShape(index, isDeep)](../../aspose.words/compositenode/getGroupShape/#number_boolean) | Returns an Nth child [GroupShape](../groupshape/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getOfficeMath(index, isDeep)](../../aspose.words/compositenode/getOfficeMath/#number_boolean) | Returns an Nth child [OfficeMath](../../aspose.words.math/officemath/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getParagraph(index, isDeep)](../../aspose.words/compositenode/getParagraph/#number_boolean) | Returns an Nth child [Paragraph](../../aspose.words/paragraph/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getRun(index, isDeep)](../../aspose.words/compositenode/getRun/#number_boolean) | Returns an Nth child [Run](../../aspose.words/run/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdt(index, isDeep)](../../aspose.words/compositenode/getSdt/#number_boolean) | Returns an Nth child [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdtRangeEnd(index, isDeep)](../../aspose.words/compositenode/getSdtRangeEnd/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdtRangeStart(index, isDeep)](../../aspose.words/compositenode/getSdtRangeStart/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getShape(index, isDeep)](../../aspose.words/compositenode/getShape/#number_boolean) | Returns an Nth child [Shape](../shape/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getComment(index, isDeep)](../../aspose.words/compositenode/getComment/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getEditableRangeStart(index, isDeep)](../../aspose.words/compositenode/getEditableRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getFootnote(index, isDeep)](../../aspose.words/compositenode/getFootnote/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getGroupShape(index, isDeep)](../../aspose.words/compositenode/getGroupShape/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getOfficeMath(index, isDeep)](../../aspose.words/compositenode/getOfficeMath/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getParagraph(index, isDeep)](../../aspose.words/compositenode/getParagraph/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getRun(index, isDeep)](../../aspose.words/compositenode/getRun/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdt(index, isDeep)](../../aspose.words/compositenode/getSdt/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdtRangeEnd(index, isDeep)](../../aspose.words/compositenode/getSdtRangeEnd/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdtRangeStart(index, isDeep)](../../aspose.words/compositenode/getSdtRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getShape(index, isDeep)](../../aspose.words/compositenode/getShape/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getShapeRenderer()](./getShapeRenderer/#default) | Creates and returns an object that can be used to render this shape into an image. |
-|[ getSmartTag(index, isDeep)](../../aspose.words/compositenode/getSmartTag/#number_boolean) | Returns an Nth child [SmartTag](../../aspose.words.markup/smarttag/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getTable(index, isDeep)](../../aspose.words/compositenode/getTable/#number_boolean) | Returns an Nth child [Table](../../aspose.words/table/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSmartTag(index, isDeep)](../../aspose.words/compositenode/getSmartTag/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getTable(index, isDeep)](../../aspose.words/compositenode/getTable/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getText()](../../aspose.words/node/getText/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ indexOf(child)](../../aspose.words/compositenode/indexOf/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ insertAfter(newChild, refChild)](../../aspose.words/compositenode/insertAfter/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ insertBefore(newChild, refChild)](../../aspose.words/compositenode/insertBefore/#node_node) | Inserts the specified node immediately before the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ localToParent(value)](./localToParent/#jspointf) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
+|[ localToParent(value)](./localToParent/#jspointf) |  |
 |[ nextPreOrder(rootNode)](../../aspose.words/node/nextPreOrder/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ nodeTypeToString(nodeType)](../../aspose.words/node/nodeTypeToString/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ prependChild(newChild)](../../aspose.words/compositenode/prependChild/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |

@@ -5,7 +5,7 @@ articleTitle: NumberStyle enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NumberStyle enumeration. Specifies the number style for a list, footnotes and endnotes, page numbers."
 type: docs
-weight: 890
+weight: 910
 url: /nodejs-net/aspose.words/numberstyle/
 ---
 

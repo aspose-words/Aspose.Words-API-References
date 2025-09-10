@@ -94,22 +94,22 @@ The [CompositeNode](./) class:
 |[ asTable()](../node/asTable/#default) | Cast node to [Table](../table/).<br>(Inherited from [Node](../node/)) |
 |[ clone(isCloneChildren)](../node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
 |[ getAncestor(ancestorType)](../node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
-|[ getBuildingBlock(index, isDeep)](./getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../buildingblock/) node. |
+|[ getBuildingBlock(index, isDeep)](./getBuildingBlock/#number_boolean) |  |
 |[ getChild(nodeType, index, isDeep)](./getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type. |
 |[ getChildNodes(nodeType, isDeep)](./getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified type. |
-|[ getComment(index, isDeep)](./getComment/#number_boolean) | Returns an Nth child [Comment](../comment/) node. |
-|[ getEditableRangeStart(index, isDeep)](./getEditableRangeStart/#number_boolean) | Returns an Nth child [EditableRangeStart](../editablerangestart/) node. |
-|[ getFootnote(index, isDeep)](./getFootnote/#number_boolean) | Returns an Nth child [Footnote](../../aspose.words.notes/footnote/) node. |
-|[ getGroupShape(index, isDeep)](./getGroupShape/#number_boolean) | Returns an Nth child [GroupShape](../../aspose.words.drawing/groupshape/) node. |
-|[ getOfficeMath(index, isDeep)](./getOfficeMath/#number_boolean) | Returns an Nth child [OfficeMath](../../aspose.words.math/officemath/) node. |
-|[ getParagraph(index, isDeep)](./getParagraph/#number_boolean) | Returns an Nth child [Paragraph](../paragraph/) node. |
-|[ getRun(index, isDeep)](./getRun/#number_boolean) | Returns an Nth child [Run](../run/) node. |
-|[ getSdt(index, isDeep)](./getSdt/#number_boolean) | Returns an Nth child [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) node. |
-|[ getSdtRangeEnd(index, isDeep)](./getSdtRangeEnd/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) node. |
-|[ getSdtRangeStart(index, isDeep)](./getSdtRangeStart/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) node. |
-|[ getShape(index, isDeep)](./getShape/#number_boolean) | Returns an Nth child [Shape](../../aspose.words.drawing/shape/) node. |
-|[ getSmartTag(index, isDeep)](./getSmartTag/#number_boolean) | Returns an Nth child [SmartTag](../../aspose.words.markup/smarttag/) node. |
-|[ getTable(index, isDeep)](./getTable/#number_boolean) | Returns an Nth child [Table](../table/) node. |
+|[ getComment(index, isDeep)](./getComment/#number_boolean) |  |
+|[ getEditableRangeStart(index, isDeep)](./getEditableRangeStart/#number_boolean) |  |
+|[ getFootnote(index, isDeep)](./getFootnote/#number_boolean) |  |
+|[ getGroupShape(index, isDeep)](./getGroupShape/#number_boolean) |  |
+|[ getOfficeMath(index, isDeep)](./getOfficeMath/#number_boolean) |  |
+|[ getParagraph(index, isDeep)](./getParagraph/#number_boolean) |  |
+|[ getRun(index, isDeep)](./getRun/#number_boolean) |  |
+|[ getSdt(index, isDeep)](./getSdt/#number_boolean) |  |
+|[ getSdtRangeEnd(index, isDeep)](./getSdtRangeEnd/#number_boolean) |  |
+|[ getSdtRangeStart(index, isDeep)](./getSdtRangeStart/#number_boolean) |  |
+|[ getShape(index, isDeep)](./getShape/#number_boolean) |  |
+|[ getSmartTag(index, isDeep)](./getSmartTag/#number_boolean) |  |
+|[ getTable(index, isDeep)](./getTable/#number_boolean) |  |
 |[ getText()](./getText/#default) | Gets the text of this node and of all its children. |
 |[ indexOf(child)](./indexOf/#node) | Returns the index of the specified child node in the child node array. |
 |[ insertAfter(newChild, refChild)](./insertAfter/#node_node) | Inserts the specified node immediately after the specified reference node. |

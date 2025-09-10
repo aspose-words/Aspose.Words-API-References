@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 70
+weight: 80
 url: /nodejs-net/aspose.words.loading/htmlloadoptions/
 ---
 
@@ -45,6 +45,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preferredControlType](./preferredControlType/) | Gets or sets preferred type of document nodes that will represent imported \<input\> and \<select\> elements. Default value is [HtmlControlType.FormField](../htmlcontroltype/#FormField). |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [recoveryMode](../loadoptions/recoveryMode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TryRecover](../documentrecoverymode/#TryRecover).<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [supportFontFaceRules](./supportFontFaceRules/) | Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is ``false``. |
 | [supportVml](./supportVml/) | Gets or sets a value indicating whether to support VML images. |

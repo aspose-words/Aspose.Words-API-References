@@ -5,7 +5,7 @@ articleTitle: TableStyle class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TableStyle class. Represents a table style"
 type: docs
-weight: 1340
+weight: 1360
 url: /nodejs-net/aspose.words/tablestyle/
 ---
 

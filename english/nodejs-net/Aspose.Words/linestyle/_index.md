@@ -5,7 +5,7 @@ articleTitle: LineStyle enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LineStyle enumeration. Specifies line style of a [Border](../border/)."
 type: docs
-weight: 760
+weight: 780
 url: /nodejs-net/aspose.words/linestyle/
 ---
 

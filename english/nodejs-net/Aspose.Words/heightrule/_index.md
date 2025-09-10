@@ -5,7 +5,7 @@ articleTitle: HeightRule enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HeightRule enumeration. Specifies the rule for determining the height of an object."
 type: docs
-weight: 500
+weight: 520
 url: /nodejs-net/aspose.words/heightrule/
 ---
 

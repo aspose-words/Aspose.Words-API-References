@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 120
+weight: 130
 url: /nodejs-net/aspose.words.loading/pdfloadoptions/
 ---
 
@@ -41,6 +41,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [pageIndex](./pageIndex/) | Gets or sets the 0-based index of the first page to read. Default is 0. |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [recoveryMode](../loadoptions/recoveryMode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TryRecover](../documentrecoverymode/#TryRecover).<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [skipPdfImages](./skipPdfImages/) | Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is ``false``. |
 | [tempFolder](../loadoptions/tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |

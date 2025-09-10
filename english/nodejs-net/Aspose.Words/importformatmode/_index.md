@@ -5,7 +5,7 @@ articleTitle: ImportFormatMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ImportFormatMode enumeration. Specifies how formatting is merged when importing content from another document."
 type: docs
-weight: 610
+weight: 630
 url: /nodejs-net/aspose.words/importformatmode/
 ---
 
