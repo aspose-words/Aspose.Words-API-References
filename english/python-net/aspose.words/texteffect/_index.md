@@ -5,7 +5,7 @@ articleTitle: TextEffect enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextEffect enumeration. Animation effect for text runs."
 type: docs
-weight: 1300
+weight: 1320
 url: /python-net/aspose.words/texteffect/
 ---
 

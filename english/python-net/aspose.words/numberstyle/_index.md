@@ -5,7 +5,7 @@ articleTitle: NumberStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.NumberStyle enumeration. Specifies the number style for a list, footnotes and endnotes, page numbers."
 type: docs
-weight: 820
+weight: 840
 url: /python-net/aspose.words/numberstyle/
 ---
 

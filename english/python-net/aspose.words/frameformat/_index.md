@@ -5,7 +5,7 @@ articleTitle: FrameFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.FrameFormat class. Represents frame related formatting for a paragraph."
 type: docs
-weight: 440
+weight: 460
 url: /python-net/aspose.words/frameformat/
 ---
 

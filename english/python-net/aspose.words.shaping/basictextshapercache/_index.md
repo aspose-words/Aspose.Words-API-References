@@ -22,13 +22,6 @@ Implements basic cache for [ITextShaper](../itextshaper/) instances. This class 
 | --- | --- |
 | [BasicTextShaperCache(factory)](./__init__/#itextshaperfactory) | Wraps *factory* and caches[ITextShaperFactory.get_text_shaper()](../itextshaperfactory/get_text_shaper/#str_int) results. |
 
-### Methods
-
-| Name | Description |
-| --- | --- |
-|[ get_text_shaper(font_path, face_index)](../itextshaperfactory/get_text_shaper/#str_int) | Returns new instance of a text shaper for the font specified by *fontPath* and*faceIndex*.<br>(Inherited from [ITextShaperFactory](../itextshaperfactory/)) |
-|[ get_text_shaper(font_id, font_blob, face_index)](../itextshaperfactory/get_text_shaper/#str_bytes_int) | Returns new instance of a text shaper for the font represented by *fontBlob* and*faceIndex*.<br>(Inherited from [ITextShaperFactory](../itextshaperfactory/)) |
-
 ### See Also
 
 * module [aspose.words.shaping](../)

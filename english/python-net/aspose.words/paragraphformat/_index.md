@@ -5,7 +5,7 @@ articleTitle: ParagraphFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.ParagraphFormat class. Represents all the formatting for a paragraph"
 type: docs
-weight: 940
+weight: 960
 url: /python-net/aspose.words/paragraphformat/
 ---
 

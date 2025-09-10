@@ -39,6 +39,7 @@ allow to specify additional options when loading documents.
 | --- | --- |
 | [BlockImportMode](./blockimportmode/) | Specifies how properties of block-level elements are imported from HTML-based documents. |
 | [DocumentDirection](./documentdirection/) | Allows to specify the direction to flow the text in a document. |
+| [DocumentRecoveryMode](./documentrecoverymode/) | Specifies the available recovery options when a document encounters errors during loading. |
 | [EditingLanguage](./editinglanguage/) | Specifies the editing language. |
 | [HtmlControlType](./htmlcontroltype/) | Type of document nodes that represent \<input\> and \<select\> elements imported from HTML. |
 | [ResourceLoadingAction](./resourceloadingaction/) | Specifies the mode of resource loading. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article. |

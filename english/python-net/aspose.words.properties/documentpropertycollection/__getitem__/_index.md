@@ -22,7 +22,7 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../documentproperty/) to retrieve. |
+| index | int |  |
 
 ### Examples
 

@@ -22,7 +22,7 @@ def __getitem__(self, index: int):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the reference to get. |
+| index | int |  |
 
 ### See Also
 

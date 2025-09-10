@@ -5,7 +5,7 @@ articleTitle: Section class
 second_title: Aspose.Words for Python
 description: "aspose.words.Section class. Represents a single section in a document"
 type: docs
-weight: 1080
+weight: 1100
 url: /python-net/aspose.words/section/
 ---
 
