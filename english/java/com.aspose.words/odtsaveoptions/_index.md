@@ -4,7 +4,7 @@ linktitle: OdtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.ODT or SaveFormat.OTT format in Java.
 type: docs
-weight: 490
+weight: 493
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 
@@ -544,6 +544,22 @@ Allows to specify units of measure to apply to document content. The default val
 Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
 
  **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 
@@ -1657,6 +1673,22 @@ Allows to specify units of measure to apply to document content. The default val
 Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
 
  **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 

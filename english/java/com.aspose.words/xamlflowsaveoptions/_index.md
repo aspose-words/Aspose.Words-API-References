@@ -4,7 +4,7 @@ linktitle: XamlFlowSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XAML_FLOW or SaveFormat.XAML_FLOW_PACK format in Java.
 type: docs
-weight: 733
+weight: 736
 url: /java/com.aspose.words/xamlflowsaveoptions/
 ---
 

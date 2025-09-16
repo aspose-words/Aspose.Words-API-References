@@ -4,7 +4,7 @@ linktitle: LanguagePreferences
 second_title: Aspose.Words for Java
 description: Allows to set up language preferences in Java.
 type: docs
-weight: 409
+weight: 412
 url: /java/com.aspose.words/languagepreferences/
 ---
 

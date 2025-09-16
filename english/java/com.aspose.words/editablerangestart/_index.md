@@ -4,7 +4,7 @@ linktitle: EditableRangeStart
 second_title: Aspose.Words for Java
 description: Represents a start of an editable range in a Word document in Java.
 type: docs
-weight: 179
+weight: 180
 url: /java/com.aspose.words/editablerangestart/
 ---
 
@@ -1036,7 +1036,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (194825,6)
+Returns  true  if this node can contain other nodes. (195198,6)
 
  **Examples:** 
 

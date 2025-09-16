@@ -4,7 +4,7 @@ linktitle: HtmlVersion
 second_title: Aspose.Words for Java
 description: Indicates the version of HTML is used when saving the document to SaveFormat.HTML and SaveFormat.MHTML formats in Java.
 type: docs
-weight: 382
+weight: 385
 url: /java/com.aspose.words/htmlversion/
 ---
 

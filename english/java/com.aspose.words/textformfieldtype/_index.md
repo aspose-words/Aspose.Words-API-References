@@ -4,7 +4,7 @@ linktitle: TextFormFieldType
 second_title: Aspose.Words for Java
 description: Specifies the type of a text form field in Java.
 type: docs
-weight: 667
+weight: 670
 url: /java/com.aspose.words/textformfieldtype/
 ---
 

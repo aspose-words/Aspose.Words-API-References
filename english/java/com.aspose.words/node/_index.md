@@ -4,7 +4,7 @@ linktitle: Node
 second_title: Aspose.Words for Java
 description: Base class for all nodes of a Word document in Java.
 type: docs
-weight: 471
+weight: 474
 url: /java/com.aspose.words/node/
 ---
 
@@ -990,7 +990,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (194825,6)
+Returns  true  if this node can contain other nodes. (195198,6)
 
  **Examples:** 
 

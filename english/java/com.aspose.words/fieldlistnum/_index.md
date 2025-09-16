@@ -4,7 +4,7 @@ linktitle: FieldListNum
 second_title: Aspose.Words for Java
 description: Implements the LISTNUM field in Java.
 type: docs
-weight: 253
+weight: 254
 url: /java/com.aspose.words/fieldlistnum/
 ---
 
@@ -112,7 +112,7 @@ Shows how to number paragraphs with LISTNUM fields.
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [remove()](#remove) | Removes the field from the document. |
+| [remove()](#remove) |  |
 | [setListLevel(String value)](#setListLevel-java.lang.String) | Sets the level in the list, overriding the default behavior of the field. |
 | [setListName(String value)](#setListName-java.lang.String) | Sets the name of the abstract numbering definition used for the numbering. |
 | [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |

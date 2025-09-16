@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 451
+weight: 454
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -1155,6 +1155,19 @@ Shows how OfficeMath will be written to the document.
  saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.IMAGE);
 
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+ 
+```
+
+Shows how to export OfficeMath object as Latex.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.LATEX);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
  
 ```
 
@@ -2840,6 +2853,19 @@ Shows how OfficeMath will be written to the document.
  saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.IMAGE);
 
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+ 
+```
+
+Shows how to export OfficeMath object as Latex.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.LATEX);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
  
 ```
 

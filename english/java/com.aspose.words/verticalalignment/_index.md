@@ -4,7 +4,7 @@ linktitle: VerticalAlignment
 second_title: Aspose.Words for Java
 description: Specifies vertical alignment of a floating shape text frame or a floating table in Java.
 type: docs
-weight: 705
+weight: 708
 url: /java/com.aspose.words/verticalalignment/
 ---
 

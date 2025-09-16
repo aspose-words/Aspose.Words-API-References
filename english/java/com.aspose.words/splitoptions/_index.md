@@ -4,7 +4,7 @@ linktitle: SplitOptions
 second_title: Aspose.Words for Java
 description: Specifies options how the document is split into parts in Java.
 type: docs
-weight: 624
+weight: 627
 url: /java/com.aspose.words/splitoptions/
 ---
 

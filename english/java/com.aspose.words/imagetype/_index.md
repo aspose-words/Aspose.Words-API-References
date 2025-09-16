@@ -4,7 +4,7 @@ linktitle: ImageType
 second_title: Aspose.Words for Java
 description: Specifies the type format of an image in a Microsoft Word document in Java.
 type: docs
-weight: 393
+weight: 396
 url: /java/com.aspose.words/imagetype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldUserName
 second_title: Aspose.Words for Java
 description: Implements the USERNAME field in Java.
 type: docs
-weight: 303
+weight: 304
 url: /java/com.aspose.words/fieldusername/
 ---
 

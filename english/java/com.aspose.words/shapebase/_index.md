@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 607
+weight: 610
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -162,6 +162,7 @@ Shows how to insert a floating image to the center of a page.
 | [getScreenTip()](#getScreenTip) | Defines the text displayed when the mouse pointer moves over the shape. |
 | [getShadowColors()](#getShadowColors) |  |
 | [getShadowFormat()](#getShadowFormat) | Gets shadow formatting for the shape. |
+| [getShadowTransparency()](#getShadowTransparency) |  |
 | [getShadowType()](#getShadowType) |  |
 | [getShapeRenderer()](#getShapeRenderer) | Creates and returns an object that can be used to render this shape into an image. |
 | [getShapeType()](#getShapeType) | Gets the shape type. |
@@ -274,6 +275,8 @@ Shows how to insert a floating image to the center of a page.
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setScreenTip(String value)](#setScreenTip-java.lang.String) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [setShadowColors(Color value)](#setShadowColors-java.awt.Color) |  |
+| [setShadowTransparency(double value)](#setShadowTransparency-double) |  |
 | [setShadowType(int value)](#setShadowType-int) |  |
 | [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object) |  |
 | [setTarget(String value)](#setTarget-java.lang.String) | Sets the target frame for the shape hyperlink. |
@@ -4466,6 +4469,16 @@ Shows how to get shadow color.
 
 **Returns:**
 [ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
+### getShadowTransparency() {#getShadowTransparency}
+```
+public double getShadowTransparency()
+```
+
+
+
+
+**Returns:**
+double
 ### getShadowType() {#getShadowType}
 ```
 public int getShadowType()
@@ -9468,6 +9481,32 @@ Shows how to insert a shape which contains an image, and is also a hyperlink.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### setShadowColors(Color value) {#setShadowColors-java.awt.Color}
+```
+public void setShadowColors(Color value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
+
+### setShadowTransparency(double value) {#setShadowTransparency-double}
+```
+public void setShadowTransparency(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setShadowType(int value) {#setShadowType-int}
 ```

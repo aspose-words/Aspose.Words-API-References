@@ -4,7 +4,7 @@ linktitle: TableCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Table nodes in Java.
 type: docs
-weight: 651
+weight: 654
 url: /java/com.aspose.words/tablecollection/
 ---
 

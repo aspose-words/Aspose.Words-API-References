@@ -4,7 +4,7 @@ linktitle: SaveOptions
 second_title: Aspose.Words for Java
 description: This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format in Java.
 type: docs
-weight: 590
+weight: 593
 url: /java/com.aspose.words/saveoptions/
 ---
 

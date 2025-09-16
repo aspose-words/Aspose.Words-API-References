@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Words for Java
 description: Contains information about a warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 709
+weight: 712
 url: /java/com.aspose.words/warninginfo/
 ---
 
@@ -105,6 +105,34 @@ Shows how to set the property for finding the closest match for a missing font f
  
 ```
 
+Shows how to get additional information about font substitution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ WarningInfoCollection callback = new WarningInfoCollection();
+ doc.setWarningCallback(callback);
+
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Arial", "Arvo", "Slab");
+
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.SubstitutionWarnings.pdf");
+
+ FontSubstitutionWarningInfo warningInfo = (FontSubstitutionWarningInfo)callback.get(0);
+ Assert.assertEquals(WarningSource.LAYOUT, warningInfo.getSource());
+ Assert.assertEquals(WarningType.FONT_SUBSTITUTION, warningInfo.getWarningType());
+ Assert.assertEquals(FontSubstitutionReason.TABLE_SUBSTITUTION_RULE, warningInfo.getReason());
+ Assert.assertEquals("Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo.getDescription());
+ Assert.assertTrue(warningInfo.getRequestedBold());
+ Assert.assertFalse(warningInfo.getRequestedItalic());
+ Assert.assertEquals("Arial", warningInfo.getRequestedFamilyName());
+ 
+```
+
 **Returns:**
 java.lang.String - The description of the warning.
 ### getSource() {#getSource}
@@ -131,6 +159,34 @@ Shows how to work with the warning source.
      if (warningInfo.getSource() == WarningSource.MARKDOWN)
          Assert.assertEquals("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.getDescription());
  }
+ 
+```
+
+Shows how to get additional information about font substitution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ WarningInfoCollection callback = new WarningInfoCollection();
+ doc.setWarningCallback(callback);
+
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Arial", "Arvo", "Slab");
+
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.SubstitutionWarnings.pdf");
+
+ FontSubstitutionWarningInfo warningInfo = (FontSubstitutionWarningInfo)callback.get(0);
+ Assert.assertEquals(WarningSource.LAYOUT, warningInfo.getSource());
+ Assert.assertEquals(WarningType.FONT_SUBSTITUTION, warningInfo.getWarningType());
+ Assert.assertEquals(FontSubstitutionReason.TABLE_SUBSTITUTION_RULE, warningInfo.getReason());
+ Assert.assertEquals("Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo.getDescription());
+ Assert.assertTrue(warningInfo.getRequestedBold());
+ Assert.assertFalse(warningInfo.getRequestedItalic());
+ Assert.assertEquals("Arial", warningInfo.getRequestedFamilyName());
  
 ```
 
@@ -174,6 +230,34 @@ Shows how to set the property for finding the closest match for a missing font f
      if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
          System.out.println(info.getDescription());
  }
+ 
+```
+
+Shows how to get additional information about font substitution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ WarningInfoCollection callback = new WarningInfoCollection();
+ doc.setWarningCallback(callback);
+
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Arial", "Arvo", "Slab");
+
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.SubstitutionWarnings.pdf");
+
+ FontSubstitutionWarningInfo warningInfo = (FontSubstitutionWarningInfo)callback.get(0);
+ Assert.assertEquals(WarningSource.LAYOUT, warningInfo.getSource());
+ Assert.assertEquals(WarningType.FONT_SUBSTITUTION, warningInfo.getWarningType());
+ Assert.assertEquals(FontSubstitutionReason.TABLE_SUBSTITUTION_RULE, warningInfo.getReason());
+ Assert.assertEquals("Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo.getDescription());
+ Assert.assertTrue(warningInfo.getRequestedBold());
+ Assert.assertFalse(warningInfo.getRequestedItalic());
+ Assert.assertEquals("Arial", warningInfo.getRequestedFamilyName());
  
 ```
 

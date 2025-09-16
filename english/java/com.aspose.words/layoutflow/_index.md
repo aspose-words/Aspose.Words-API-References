@@ -4,7 +4,7 @@ linktitle: LayoutFlow
 second_title: Aspose.Words for Java
 description: Determines the flow of the text layout in a textbox in Java.
 type: docs
-weight: 413
+weight: 416
 url: /java/com.aspose.words/layoutflow/
 ---
 

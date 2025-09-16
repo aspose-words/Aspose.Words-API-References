@@ -4,7 +4,7 @@ linktitle: MailMergeOptions
 second_title: Aspose.Words for Java
 description: Represents options for the mail merge functionality in Java.
 type: docs
-weight: 438
+weight: 441
 url: /java/com.aspose.words/mailmergeoptions/
 ---
 
