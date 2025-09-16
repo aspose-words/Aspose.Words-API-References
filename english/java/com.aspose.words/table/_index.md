@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for Java
 description: Represents a table in a Word document in Java.
 type: docs
-weight: 649
+weight: 652
 url: /java/com.aspose.words/table/
 ---
 

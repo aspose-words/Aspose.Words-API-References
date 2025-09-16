@@ -191,6 +191,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [DocumentProperty](../com.aspose.words/documentproperty/) | Represents a custom or built-in document property. |
 | [DocumentPropertyCollection](../com.aspose.words/documentpropertycollection/) | Base class for [BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties/) and [CustomDocumentProperties](../com.aspose.words/customdocumentproperties/) collections. |
 | [DocumentReaderPluginLoadException](../com.aspose.words/documentreaderpluginloadexception/) | Thrown during document load, when the plugin required for reading the document format cannot be loaded. |
+| [DocumentRecoveryMode](../com.aspose.words/documentrecoverymode/) | Specifies the available recovery options when a document encounters errors during loading. |
 | [DocumentSavingArgs](../com.aspose.words/documentsavingargs/) | An argument passed into [IDocumentSavingCallback.\#notify(com.aspose.words.DocumentSavingArgs)](../com.aspose.words/idocumentsavingcallback/\#notify-com.aspose.words.DocumentSavingArgs). |
 | [DocumentSecurity](../com.aspose.words/documentsecurity/) | Used as a value for the [BuiltInDocumentProperties.\#getSecurity()](../com.aspose.words/builtindocumentproperties/\#getSecurity) / [BuiltInDocumentProperties.\#setSecurity(int)](../com.aspose.words/builtindocumentproperties/\#setSecurity-int) property. |
 | [DocumentSplitCriteria](../com.aspose.words/documentsplitcriteria/) | Specifies how the document is split into parts when saving to [SaveFormat.\#HTML](../com.aspose.words/saveformat/\#HTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.\#AZW\_3](../com.aspose.words/saveformat/\#AZW-3) format. |
@@ -354,8 +355,10 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [FontSettings](../com.aspose.words/fontsettings/) | Specifies font settings for a document. |
 | [FontSourceBase](../com.aspose.words/fontsourcebase/) | This is an abstract base class for the classes that allow the user to specify various font sources. |
 | [FontSourceType](../com.aspose.words/fontsourcetype/) | Specifies the type of font source. |
+| [FontSubstitutionReason](../com.aspose.words/fontsubstitutionreason/) | Specifies the reason of font substitution. |
 | [FontSubstitutionRule](../com.aspose.words/fontsubstitutionrule/) | This is an abstract base class for the font substitution rule. |
 | [FontSubstitutionSettings](../com.aspose.words/fontsubstitutionsettings/) | Specifies font substitution mechanism settings. |
+| [FontSubstitutionWarningInfo](../com.aspose.words/fontsubstitutionwarninginfo/) | Contains information about a font substitution warning that Aspose.Words issued during document loading or saving. |
 | [Footnote](../com.aspose.words/footnote/) | Represents a container for text of a footnote or endnote. |
 | [FootnoteNumberingRule](../com.aspose.words/footnotenumberingrule/) | Determines when automatic footnote or endnote numbering restarts. |
 | [FootnoteOptions](../com.aspose.words/footnoteoptions/) | Represents the footnote numbering options for a document or section. |

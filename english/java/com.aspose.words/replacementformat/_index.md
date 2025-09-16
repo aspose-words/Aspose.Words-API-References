@@ -4,7 +4,7 @@ linktitle: ReplacementFormat
 second_title: Aspose.Words for Java
 description: Specifies the replacement format in Java.
 type: docs
-weight: 560
+weight: 563
 url: /java/com.aspose.words/replacementformat/
 ---
 

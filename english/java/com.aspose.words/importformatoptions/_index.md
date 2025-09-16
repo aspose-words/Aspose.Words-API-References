@@ -4,7 +4,7 @@ linktitle: ImportFormatOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various import options to format output in Java.
 type: docs
-weight: 397
+weight: 400
 url: /java/com.aspose.words/importformatoptions/
 ---
 

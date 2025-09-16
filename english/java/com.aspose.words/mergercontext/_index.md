@@ -4,7 +4,7 @@ linktitle: MergerContext
 second_title: Aspose.Words for Java
 description: Document merger context in Java.
 type: docs
-weight: 461
+weight: 464
 url: /java/com.aspose.words/mergercontext/
 ---
 

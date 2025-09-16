@@ -4,7 +4,7 @@ linktitle: StreamFontSource
 second_title: Aspose.Words for Java
 description: Base class for user-defined stream font source in Java.
 type: docs
-weight: 629
+weight: 632
 url: /java/com.aspose.words/streamfontsource/
 ---
 
@@ -72,6 +72,7 @@ Shows how to load fonts from stream.
 | [getSize()](#getSize) |  |
 | [getType()](#getType) | Returns the type of the font source. |
 | [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [isEmbedded()](#isEmbedded) |  |
 | [openFontDataStream()](#openFontDataStream) | This method should open the stream with font data on demand. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 ### getAvailableFonts() {#getAvailableFonts}
@@ -320,6 +321,16 @@ Shows how to call warning callback when the font sources working with.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
+### isEmbedded() {#isEmbedded}
+```
+public boolean isEmbedded()
+```
+
+
+
+
+**Returns:**
+boolean
 ### openFontDataStream() {#openFontDataStream}
 ```
 public abstract InputStream openFontDataStream()

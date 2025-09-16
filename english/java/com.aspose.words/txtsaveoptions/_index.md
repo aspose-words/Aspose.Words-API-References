@@ -4,7 +4,7 @@ linktitle: TxtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.TEXT format in Java.
 type: docs
-weight: 687
+weight: 690
 url: /java/com.aspose.words/txtsaveoptions/
 ---
 

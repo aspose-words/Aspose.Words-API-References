@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 390
+weight: 393
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 

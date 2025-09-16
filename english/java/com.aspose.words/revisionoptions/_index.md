@@ -4,7 +4,7 @@ linktitle: RevisionOptions
 second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 578
+weight: 581
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -380,24 +380,6 @@ public int getMeasurementUnit()
 
 
 Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
-
- **Examples:** 
-
-Shows how to make a saved document conform to an older ODT schema.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- OdtSaveOptions saveOptions = new OdtSaveOptions();
- {
-     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
-     saveOptions.isStrictSchema11(exportToOdt11Specs);
- }
-
- doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
- 
-```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MeasurementUnits](../../com.aspose.words/measurementunits/) constants.
@@ -1334,24 +1316,6 @@ public void setMeasurementUnit(int value)
 
 
 Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
-
- **Examples:** 
-
-Shows how to make a saved document conform to an older ODT schema.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- OdtSaveOptions saveOptions = new OdtSaveOptions();
- {
-     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
-     saveOptions.isStrictSchema11(exportToOdt11Specs);
- }
-
- doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
- 
-```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: WarningSource
 second_title: Aspose.Words for Java
 description: Specifies the module that produces a warning during document loading or saving in Java.
 type: docs
-weight: 711
+weight: 714
 url: /java/com.aspose.words/warningsource/
 ---
 
@@ -32,6 +32,34 @@ Shows how to work with the warning source.
      if (warningInfo.getSource() == WarningSource.MARKDOWN)
          Assert.assertEquals("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.getDescription());
  }
+ 
+```
+
+Shows how to get additional information about font substitution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ WarningInfoCollection callback = new WarningInfoCollection();
+ doc.setWarningCallback(callback);
+
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Arial", "Arvo", "Slab");
+
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.SubstitutionWarnings.pdf");
+
+ FontSubstitutionWarningInfo warningInfo = (FontSubstitutionWarningInfo)callback.get(0);
+ Assert.assertEquals(WarningSource.LAYOUT, warningInfo.getSource());
+ Assert.assertEquals(WarningType.FONT_SUBSTITUTION, warningInfo.getWarningType());
+ Assert.assertEquals(FontSubstitutionReason.TABLE_SUBSTITUTION_RULE, warningInfo.getReason());
+ Assert.assertEquals("Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo.getDescription());
+ Assert.assertTrue(warningInfo.getRequestedBold());
+ Assert.assertFalse(warningInfo.getRequestedItalic());
+ Assert.assertEquals("Arial", warningInfo.getRequestedFamilyName());
  
 ```
 ## Fields

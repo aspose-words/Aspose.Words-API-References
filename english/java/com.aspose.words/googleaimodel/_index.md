@@ -4,7 +4,7 @@ linktitle: GoogleAiModel
 second_title: Aspose.Words for Java
 description: An abstract class representing the integration with Googleu2019s AI models within the Aspose.Words in Java.
 type: docs
-weight: 357
+weight: 360
 url: /java/com.aspose.words/googleaimodel/
 ---
 

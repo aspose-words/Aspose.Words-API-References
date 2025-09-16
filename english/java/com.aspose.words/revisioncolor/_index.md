@@ -4,7 +4,7 @@ linktitle: RevisionColor
 second_title: Aspose.Words for Java
 description: Allows to specify color of document revisions in Java.
 type: docs
-weight: 575
+weight: 578
 url: /java/com.aspose.words/revisioncolor/
 ---
 

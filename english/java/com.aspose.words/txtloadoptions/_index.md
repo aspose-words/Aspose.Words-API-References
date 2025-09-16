@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 686
+weight: 689
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -74,6 +74,7 @@ Shows how to read and display hyperlinks.
 | [getPassword()](#getPassword) | Gets the password for opening an encrypted document. |
 | [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
+| [getRecoveryMode()](#getRecoveryMode) | Defines how the document should be handled if errors occur during loading. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getTrailingSpacesOptions()](#getTrailingSpacesOptions) | Gets preferred option of a trailing space handling. |
@@ -96,6 +97,7 @@ Shows how to read and display hyperlinks.
 | [setPassword(String value)](#setPassword-java.lang.String) | Sets the password for opening an encrypted document. |
 | [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
+| [setRecoveryMode(int value)](#setRecoveryMode-int) | Defines how the document should be handled if errors occur during loading. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int) | Sets preferred option of a trailing space handling. |
@@ -927,6 +929,29 @@ Shows how to notify the user if document loading exceeded expected loading time.
 
 **Returns:**
 [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value.
+### getRecoveryMode() {#getRecoveryMode}
+```
+public int getRecoveryMode()
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
@@ -2035,6 +2060,32 @@ Shows how to notify the user if document loading exceeded expected loading time.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value. |
+
+### setRecoveryMode(int value) {#setRecoveryMode-int}
+```
+public void setRecoveryMode(int value)
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```

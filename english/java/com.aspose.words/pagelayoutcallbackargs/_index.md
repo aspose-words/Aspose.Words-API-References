@@ -4,7 +4,7 @@ linktitle: PageLayoutCallbackArgs
 second_title: Aspose.Words for Java
 description: An argument passed into IPageLayoutCallback.notifycom.aspose.words.PageLayoutCallbackArgs in Java.
 type: docs
-weight: 509
+weight: 512
 url: /java/com.aspose.words/pagelayoutcallbackargs/
 ---
 

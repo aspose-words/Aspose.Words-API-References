@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.MARKDOWN document into a Document object in Java.
 type: docs
-weight: 449
+weight: 452
 url: /java/com.aspose.words/markdownloadoptions/
 ---
 
@@ -55,6 +55,7 @@ Shows how to preserve empty line while load a document.
 | [getPreserveEmptyLines()](#getPreserveEmptyLines) | Gets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN) document. |
 | [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
+| [getRecoveryMode()](#getRecoveryMode) | Defines how the document should be handled if errors occur during loading. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [getSoftLineBreakCharacter()](#getSoftLineBreakCharacter) | Gets a character value representing soft line break. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
@@ -74,6 +75,7 @@ Shows how to preserve empty line while load a document.
 | [setPreserveEmptyLines(boolean value)](#setPreserveEmptyLines-boolean) | Sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN) document. |
 | [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
+| [setRecoveryMode(int value)](#setRecoveryMode-int) | Defines how the document should be handled if errors occur during loading. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [setSoftLineBreakCharacter(char value)](#setSoftLineBreakCharacter-char) | Sets a character value representing soft line break. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
@@ -710,6 +712,29 @@ Shows how to notify the user if document loading exceeded expected loading time.
 
 **Returns:**
 [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value.
+### getRecoveryMode() {#getRecoveryMode}
+```
+public int getRecoveryMode()
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
@@ -1569,6 +1594,32 @@ Shows how to notify the user if document loading exceeded expected loading time.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value. |
+
+### setRecoveryMode(int value) {#setRecoveryMode-int}
+```
+public void setRecoveryMode(int value)
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```

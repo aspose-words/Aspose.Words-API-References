@@ -4,7 +4,7 @@ linktitle: ReplaceAction
 second_title: Aspose.Words for Java
 description: Allows the user to specify what happens to the current match during a replace operation in Java.
 type: docs
-weight: 559
+weight: 562
 url: /java/com.aspose.words/replaceaction/
 ---
 

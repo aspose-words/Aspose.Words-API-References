@@ -4,7 +4,7 @@ linktitle: FontInfoCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of fonts used in a document in Java.
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.words/fontinfocollection/
 ---
 

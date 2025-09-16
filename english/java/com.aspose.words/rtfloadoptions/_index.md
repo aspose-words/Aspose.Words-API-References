@@ -4,7 +4,7 @@ linktitle: RtfLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.RTF document into a Document object in Java.
 type: docs
-weight: 585
+weight: 588
 url: /java/com.aspose.words/rtfloadoptions/
 ---
 
@@ -69,6 +69,7 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 | [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [getProgressCallback()](#getProgressCallback) | Called during loading a document and accepts data about loading progress. |
 | [getRecognizeUtf8Text()](#getRecognizeUtf8Text) | When set to  true , will try to detect UTF8 characters, they will be preserved during import. |
+| [getRecoveryMode()](#getRecoveryMode) | Defines how the document should be handled if errors occur during loading. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [getTempFolder()](#getTempFolder) | Allows to use temporary files when reading document. |
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
@@ -86,6 +87,7 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 | [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 | [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Called during loading a document and accepts data about loading progress. |
 | [setRecognizeUtf8Text(boolean value)](#setRecognizeUtf8Text-boolean) | When set to  true , will try to detect UTF8 characters, they will be preserved during import. |
+| [setRecoveryMode(int value)](#setRecoveryMode-int) | Defines how the document should be handled if errors occur during loading. |
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Allows to use temporary files when reading document. |
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
@@ -706,6 +708,29 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getRecoveryMode() {#getRecoveryMode}
+```
+public int getRecoveryMode()
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
@@ -1510,6 +1535,32 @@ Shows how to detect UTF-8 characters while loading an RTF document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setRecoveryMode(int value) {#setRecoveryMode-int}
+```
+public void setRecoveryMode(int value)
+```
+
+
+Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Shows how to try to recover a document if errors occurred during loading.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/) constants. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```

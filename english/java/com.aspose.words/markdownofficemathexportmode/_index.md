@@ -4,7 +4,7 @@ linktitle: MarkdownOfficeMathExportMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports OfficeMath to Markdown in Java.
 type: docs
-weight: 450
+weight: 453
 url: /java/com.aspose.words/markdownofficemathexportmode/
 ---
 
@@ -30,11 +30,25 @@ Shows how OfficeMath will be written to the document.
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
  
 ```
+
+Shows how to export OfficeMath object as Latex.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.LATEX);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [IMAGE](#IMAGE) | Export OfficeMath as image. |
+| [LATEX](#LATEX) | Export OfficeMath as LaTeX. |
 | [MATH_ML](#MATH-ML) | Export OfficeMath as MathML. |
 | [TEXT](#TEXT) | Export OfficeMath as plain text. |
 | [length](#length) |  |
@@ -53,6 +67,14 @@ public static int IMAGE
 
 
 Export OfficeMath as image.
+
+### LATEX {#LATEX}
+```
+public static int LATEX
+```
+
+
+Export OfficeMath as LaTeX.
 
 ### MATH_ML {#MATH-ML}
 ```

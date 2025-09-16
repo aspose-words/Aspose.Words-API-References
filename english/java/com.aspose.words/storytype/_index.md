@@ -4,7 +4,7 @@ linktitle: StoryType
 second_title: Aspose.Words for Java
 description: Text of a Word document is stored in stories in Java.
 type: docs
-weight: 628
+weight: 631
 url: /java/com.aspose.words/storytype/
 ---
 
