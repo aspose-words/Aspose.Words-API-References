@@ -50,21 +50,6 @@ saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::Table
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
 ```
 
-
-Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML. 
-```cpp
-System::String outputPath = get_ArtifactsDir() + u"MarkdownSaveOptions.NonCompatibleTables.md";
-
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Non compatible table.docx");
-
-// With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
-// or nested tables to raw HTML and leave simple tables in Markdown format.
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
-saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::NonCompatibleTables);
-
-doc->Save(outputPath, saveOptions);
-```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -16,24 +16,6 @@ Flag indicates whether it is required to optimize output. If this flag is set re
 bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_OptimizeOutput() override
 ```
 
-
-## Examples
-
-
-
-Shows how to simplify a document when saving it to HTML by removing various redundant objects. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
-
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
-saveOptions->set_OptimizeOutput(optimizeOutput);
-
-doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
-
-// The size of the optimized version of the document is almost a third of the size of the unoptimized document.
-ASSERT_NEAR(optimizeOutput ? 60385 : 191000, System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"HtmlFixedSaveOptions.OptimizeGraphicsOutput.html")->get_Length(), 200);
-```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)
