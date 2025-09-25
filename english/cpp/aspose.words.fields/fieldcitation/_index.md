@@ -47,7 +47,7 @@ class FieldCitation : public Aspose::Words::Fields::Field,
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AnotherSourceTag](./set_anothersourcetag/)(const System::String\&) | Sets a value that matches the **Tag** element's value of another source to be included in the citation. |
 | [set_FormatLanguageId](./set_formatlanguageid/)(const System::String\&) | Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
 | [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |

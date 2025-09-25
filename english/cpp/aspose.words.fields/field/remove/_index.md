@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/field/remove/
 Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::Fields::Field::Remove()
+virtual System::SharedPtr<Aspose::Words::Node> Aspose::Words::Fields::Field::Remove()
 ```
 
 

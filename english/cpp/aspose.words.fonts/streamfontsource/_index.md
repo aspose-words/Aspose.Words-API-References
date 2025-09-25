@@ -22,6 +22,7 @@ class StreamFontSource : public Aspose::Words::Fonts::FontSourceBase,
 | Method | Description |
 | --- | --- |
 | [get_CacheKey](./get_cachekey/)() const | The key of this source in the cache. |
+| [get_IsEmbedded](./get_isembedded/)() override |  |
 | [get_Priority](../fontsourcebase/get_priority/)() const | Returns the font source priority. |
 | [get_Type](./get_type/)() override | Returns the type of the font source. |
 | [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |

@@ -36,7 +36,7 @@ class Field : public virtual System::Object
 | [GetFieldCode](./getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](./remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_IsDirty](./set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](./get_isdirty/). |
 | [set_IsLocked](./set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](./get_islocked/). |
 | [set_LocaleId](./set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](./get_localeid/). |
