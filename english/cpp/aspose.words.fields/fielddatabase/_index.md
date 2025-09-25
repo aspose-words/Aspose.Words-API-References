@@ -47,7 +47,7 @@ class FieldDatabase : public Aspose::Words::Fields::Field,
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_Connection](./set_connection/)(const System::String\&) | Sets a connection to the data. |
 | [set_FileName](./set_filename/)(const System::String\&) | Sets the complete path and file name of the database. |
 | [set_FirstRecord](./set_firstrecord/)(const System::String\&) | Sets the integral record number of the first data record to insert. |

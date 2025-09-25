@@ -47,7 +47,7 @@ class FieldDdeAuto : public Aspose::Words::Fields::Field,
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_InsertAsBitmap](./set_insertasbitmap/)(bool) | Sets whether to insert the linked object as a bitmap. |
 | [set_InsertAsHtml](./set_insertashtml/)(bool) | Sets whether to insert the linked object as HTML format text. |
 | [set_InsertAsPicture](./set_insertaspicture/)(bool) | Sets whether to insert the linked object as a picture. |

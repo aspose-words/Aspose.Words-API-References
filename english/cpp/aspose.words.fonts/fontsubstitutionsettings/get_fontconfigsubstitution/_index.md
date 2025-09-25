@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontconfigsubstitution
 [Settings](../../../aspose.words.settings/) related to font config substitution rule.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> Aspose::Words::Fonts::FontSubstitutionSettings::get_FontConfigSubstitution() const
+const System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_FontConfigSubstitution() const
 ```
 
 
