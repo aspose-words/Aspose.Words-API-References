@@ -49,7 +49,7 @@ class FieldLink : public Aspose::Words::Fields::Field,
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AutoUpdate](./set_autoupdate/)(bool) | Sets whether to update this field automatically. |
 | [set_FormatUpdateType](./set_formatupdatetype/)(const System::String\&) | Sets a way the linked object updates its formatting. |
 | [set_InsertAsBitmap](./set_insertasbitmap/)(bool) | Sets whether to insert the linked object as a bitmap. |

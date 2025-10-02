@@ -30,13 +30,14 @@ class PdfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [get_LanguagePreferences](../loadoptions/get_languagepreferences/)() const | Gets language preferences that will be used when document is loading. |
 | [get_LoadFormat](../loadoptions/get_loadformat/)() const | Specifies the format of the document to be loaded. Default is [Auto](../../aspose.words/loadformat/). |
 | [get_MswVersion](../loadoptions/get_mswversion/)() const | Allows to specify that the document loading process should match a specific MS Word version. Default value is [Word2019](../../aspose.words.settings/mswordversion/) |
-| [get_PageCount](./get_pagecount/)() const | Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
-| [get_PageIndex](./get_pageindex/)() const | Gets or sets the 0-based index of the first page to read. Default is 0. |
+| [get_PageCount](./get_pagecount/)() const | Gets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
+| [get_PageIndex](./get_pageindex/)() const | Gets the 0-based index of the first page to read. Default is 0. |
 | [get_Password](../loadoptions/get_password/)() const | Gets or sets the password for opening an encrypted document. Can be **null** or empty string. Default is **null**. |
 | [get_PreserveIncludePictureField](../loadoptions/get_preserveincludepicturefield/)() const | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is **false**. |
 | [get_ProgressCallback](../loadoptions/get_progresscallback/)() const | Called during loading a document and accepts data about loading progress. |
+| [get_RecoveryMode](../loadoptions/get_recoverymode/)() const | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [TryRecover](../documentrecoverymode/). |
 | [get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/)() const | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [get_SkipPdfImages](./get_skippdfimages/)() const | Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
+| [get_SkipPdfImages](./get_skippdfimages/)() const | Gets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [get_TempFolder](../loadoptions/get_tempfolder/)() const | Allows to use temporary files when reading document. By default this property is **null** and no temporary files are used. |
 | [get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/)() const | Specifies whether to update the fields with the **dirty** attribute. |
 | [get_UseSystemLcid](../loadoptions/get_usesystemlcid/)() const | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
@@ -55,43 +56,19 @@ class PdfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_IgnoreOleData](../loadoptions/set_ignoreoledata/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_IgnoreOleData](../loadoptions/get_ignoreoledata/). |
 | [set_LoadFormat](../loadoptions/set_loadformat/)(Aspose::Words::LoadFormat) | Setter for [Aspose::Words::Loading::LoadOptions::get_LoadFormat](../loadoptions/get_loadformat/). |
 | [set_MswVersion](../loadoptions/set_mswversion/)(Aspose::Words::Settings::MsWordVersion) | Setter for [Aspose::Words::Loading::LoadOptions::get_MswVersion](../loadoptions/get_mswversion/). |
-| [set_PageCount](./set_pagecount/)(int32_t) | Setter for [Aspose::Words::Loading::PdfLoadOptions::get_PageCount](./get_pagecount/). |
-| [set_PageIndex](./set_pageindex/)(int32_t) | Setter for [Aspose::Words::Loading::PdfLoadOptions::get_PageIndex](./get_pageindex/). |
+| [set_PageCount](./set_pagecount/)(int32_t) | Sets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
+| [set_PageIndex](./set_pageindex/)(int32_t) | Sets the 0-based index of the first page to read. Default is 0. |
 | [set_Password](../loadoptions/set_password/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_Password](../loadoptions/get_password/). |
 | [set_PreserveIncludePictureField](../loadoptions/set_preserveincludepicturefield/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField](../loadoptions/get_preserveincludepicturefield/). |
 | [set_ProgressCallback](../loadoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Loading::IDocumentLoadingCallback\>\&) | Called during loading a document and accepts data about loading progress. |
+| [set_RecoveryMode](../loadoptions/set_recoverymode/)(Aspose::Words::Loading::DocumentRecoveryMode) | Setter for [Aspose::Words::Loading::LoadOptions::get_RecoveryMode](../loadoptions/get_recoverymode/). |
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [set_SkipPdfImages](./set_skippdfimages/)(bool) | Setter for [Aspose::Words::Loading::PdfLoadOptions::get_SkipPdfImages](./get_skippdfimages/). |
+| [set_SkipPdfImages](./set_skippdfimages/)(bool) | Sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
 | [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
 | [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UseSystemLcid](../loadoptions/get_usesystemlcid/). |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | static [Type](./type/)() |  |
-
-## Examples
-
-
-
-Shows how to skip images during loading PDF files. 
-```cpp
-auto options = System::MakeObject<Aspose::Words::Loading::PdfLoadOptions>();
-options->set_SkipPdfImages(isSkipPdfImages);
-options->set_PageIndex(0);
-options->set_PageCount(1);
-
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.pdf", options);
-System::SharedPtr<Aspose::Words::NodeCollection> shapeCollection = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
-
-if (isSkipPdfImages)
-{
-    ASSERT_EQ(shapeCollection->get_Count(), 0);
-}
-else
-{
-    ASSERT_NE(shapeCollection->get_Count(), 0);
-}
-```
-
 ## See Also
 
 * Class [LoadOptions](../loadoptions/)

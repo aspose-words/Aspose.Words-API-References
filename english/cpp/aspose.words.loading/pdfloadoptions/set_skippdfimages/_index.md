@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::PdfLoadOptions::set_SkipPdfImages method
 linktitle: set_SkipPdfImages
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::PdfLoadOptions::set_SkipPdfImages method. Setter for Aspose::Words::Loading::PdfLoadOptions::get_SkipPdfImages in C++.'
+description: 'Aspose::Words::Loading::PdfLoadOptions::set_SkipPdfImages method. Sets the flag indicating whether images must be skipped while loading PDF document. Default is false in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.loading/pdfloadoptions/set_skippdfimages/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.loading/pdfloadoptions/set_skippdfimages/
 ## PdfLoadOptions::set_SkipPdfImages method
 
 
-Setter for [Aspose::Words::Loading::PdfLoadOptions::get_SkipPdfImages](../get_skippdfimages/).
+Sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**.
 
 ```cpp
 void Aspose::Words::Loading::PdfLoadOptions::set_SkipPdfImages(bool value)

@@ -5,7 +5,7 @@ articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET
 description: Discover the PdfSaveOptions UseBookFoldPrintingSettings property to easily save documents in a booklet layout for enhanced printing efficiency.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property

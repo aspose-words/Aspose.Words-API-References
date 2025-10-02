@@ -53,7 +53,7 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AddStartStopChar](./set_addstartstopchar/)(bool) | Sets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [set_BackgroundColor](./set_backgroundcolor/)(const System::String\&) | Sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
 | [set_BarcodeType](./set_barcodetype/)(const System::String\&) | Sets the barcode type (QR, etc.) |

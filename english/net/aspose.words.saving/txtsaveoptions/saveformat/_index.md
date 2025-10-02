@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Discover how the TxtSaveOptions SaveFormat property defines document saving formats, ensuring your files are always in the preferred text format.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
 ## TxtSaveOptions.SaveFormat property

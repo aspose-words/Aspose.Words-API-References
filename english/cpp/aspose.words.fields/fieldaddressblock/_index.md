@@ -45,7 +45,7 @@ class FieldAddressBlock : public Aspose::Words::Fields::Field,
 | [GetFieldNames](./getfieldnames/)() override | Returns a collection of mail merge field names used by the field. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_ExcludedCountryOrRegionName](./set_excludedcountryorregionname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_ExcludedCountryOrRegionName](./get_excludedcountryorregionname/). |
 | [set_FormatAddressOnCountryOrRegion](./set_formataddressoncountryorregion/)(bool) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion](./get_formataddressoncountryorregion/). |
 | [set_IncludeCountryOrRegionName](./set_includecountryorregionname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_IncludeCountryOrRegionName](./get_includecountryorregionname/). |

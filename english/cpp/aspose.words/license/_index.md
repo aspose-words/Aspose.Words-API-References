@@ -34,7 +34,7 @@ class License : public System::Object
 
 Shows how to initialize a license for Aspose.Words using a license file in the local file system. 
 ```cpp
-System::String testLicenseFileName = u"Aspose.Total.C++.lic";
+System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
 
 // Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
 System::String licenseFileName = System::IO::Path::Combine(get_LicenseDir(), testLicenseFileName);

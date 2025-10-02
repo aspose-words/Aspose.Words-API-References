@@ -5,7 +5,7 @@ articleTitle: CellFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.CellFormat class for comprehensive table cell formatting. Enhance your document styling with easy-to-use features!
 type: docs
-weight: 7160
+weight: 7170
 url: /net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class

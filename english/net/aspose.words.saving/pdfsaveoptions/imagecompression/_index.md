@@ -5,7 +5,7 @@ articleTitle: ImageCompression
 second_title: Aspose.Words for .NET
 description: Optimize your PDF with PdfSaveOptions' ImageCompression property, allowing you to choose the best compression type for vibrant, high-quality images.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property

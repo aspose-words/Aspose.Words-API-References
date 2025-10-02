@@ -21,11 +21,14 @@ class ShadowFormat : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Clears shadow format. |
-| [get_Color](./get_color/)() | Gets a **Color** object that represents the color for the shadow. The default value is **Black**. |
+| [get_Color](./get_color/)() | Gets or sets a **Color** object that represents the color for the shadow. The default value is **Black**. |
+| [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [get_Type](./get_type/)() | Gets or sets the specified [ShadowType](../shadowtype/) for [ShadowFormat](./). |
 | [get_Visible](./get_visible/)() | Returns **true** if the formatting applied to this instance is visible. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::ShadowFormat::get_Color](./get_color/). |
+| [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::ShadowFormat::get_Transparency](./get_transparency/). |
 | [set_Type](./set_type/)(Aspose::Words::Drawing::ShadowType) | Setter for [Aspose::Words::Drawing::ShadowFormat::get_Type](./get_type/). |
 | static [Type](./type/)() |  |
 

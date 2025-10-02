@@ -5,7 +5,7 @@ articleTitle: SimplifyListLabels
 second_title: Aspose.Words for .NET
 description: Discover how TxtSaveOptions' SimplifyListLabels feature enhances clarity by streamlining complex list labels for improved text representation.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property

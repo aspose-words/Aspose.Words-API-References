@@ -5,7 +5,7 @@ articleTitle: PreserveFormFields
 second_title: Aspose.Words for .NET
 description: Discover how PdfSaveOptions' PreserveFormFields property retains Microsoft Word form fields in PDFs or converts them to text. Enhance your document quality!
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
 ## PdfSaveOptions.PreserveFormFields property

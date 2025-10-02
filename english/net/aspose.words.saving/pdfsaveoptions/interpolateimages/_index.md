@@ -5,7 +5,7 @@ articleTitle: InterpolateImages
 second_title: Aspose.Words for .NET
 description: Discover PdfSaveOptions' InterpolateImages property, a key feature that enhances image quality in your documents. Optimize your PDFs effortlessly!
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words.saving/pdfsaveoptions/interpolateimages/
 ---
 ## PdfSaveOptions.InterpolateImages property

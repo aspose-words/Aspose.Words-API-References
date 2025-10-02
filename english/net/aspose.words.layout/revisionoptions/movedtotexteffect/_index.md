@@ -20,7 +20,7 @@ public RevisionTextEffect MovedToTextEffect { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Values of Hidden and DoubleStrikeThrough are not allowed. |
+| ArgumentOutOfRangeException | Value of Hidden is not allowed. |
 
 ## Examples
 

@@ -47,26 +47,6 @@ If your online video is not displaying correctly, use [InsertOnlineVideo()](../)
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-## Examples
-
-
-
-Shows how to insert an online video into a document. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-System::String videoUrl = u"https://vimeo.com/52477838";
-
-// Insert a shape that plays a video from the web when clicked in Microsoft Word.
-// This rectangular shape will contain an image based on the first frame of the linked video
-// and a "play button" visual prompt. The video has an aspect ratio of 16:9.
-// We will set the shape's size to that ratio, so the image does not appear stretched.
-builder->InsertOnlineVideo(videoUrl, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 0, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 0, 320, 180, Aspose::Words::Drawing::WrapType::Square);
-
-doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOnlineVideo.docx");
-```
-
 ## See Also
 
 * Class [Shape](../../../aspose.words.drawing/shape/)

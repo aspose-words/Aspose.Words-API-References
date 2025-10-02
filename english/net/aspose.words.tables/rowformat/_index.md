@@ -5,7 +5,7 @@ articleTitle: RowFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.RowFormat class for comprehensive table row formatting. Enhance your document design with powerful, flexible features.
 type: docs
-weight: 7230
+weight: 7240
 url: /net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class

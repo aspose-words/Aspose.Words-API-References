@@ -81,9 +81,9 @@ To easily insert a new field into a document, use the [InsertField()](../) metho
 Shows how to find all hyperlinks in a Word document, and then change their URLs and display names. 
 ```cpp
 #include <system/text/regularexpressions/regex.h>
-#include <Model/Nodes/NodeType.h>
-#include <Model/Nodes/Node.h>
-#include <Model/Fields/Nodes/FieldStart.h>
+#include <Aspose.Words.Cpp/Model/Nodes/NodeType.h>
+#include <Aspose.Words.Cpp/Model/Nodes/Node.h>
+#include <Aspose.Words.Cpp/Model/Fields/Nodes/FieldStart.h>
 
 #include "ApiExampleBase.h"
 
