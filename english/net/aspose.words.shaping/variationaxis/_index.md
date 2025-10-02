@@ -5,7 +5,7 @@ articleTitle: VariationAxis
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Shaping.VariationAxis enum for seamless OpenType DesignVariation integration. Enhance typography with easy access to axis tags!
 type: docs
-weight: 6970
+weight: 6980
 url: /net/aspose.words.shaping/variationaxis/
 ---
 ## VariationAxis enumeration

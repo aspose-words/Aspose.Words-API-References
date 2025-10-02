@@ -5,7 +5,7 @@ articleTitle: OpenHyperlinksInNewWindow
 second_title: Aspose.Words for .NET
 description: Control hyperlink behavior in your PDF with PdfSaveOptions. Easily set links to open in a new window or tab for enhanced user experience.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property

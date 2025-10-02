@@ -5,7 +5,7 @@ articleTitle: PageMode
 second_title: Aspose.Words for .NET
 description: Discover how the PdfSaveOptions PageMode property enhances your PDF viewing experience by customizing document display in any PDF reader.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property

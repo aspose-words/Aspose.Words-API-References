@@ -5,7 +5,7 @@ articleTitle: UnsupportedEncryptionException
 second_title: Aspose.Words for .NET
 description: Handles errors when loading encrypted Word documents with unsupported methods using UnsupportedEncryptionException.
 type: docs
-weight: 7420
+weight: 7430
 url: /net/aspose.words/unsupportedencryptionexception/
 ---
 ## UnsupportedEncryptionException class

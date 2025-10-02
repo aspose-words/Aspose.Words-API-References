@@ -24,6 +24,35 @@ public interface IResourceSavingCallback
 
 ## Examples
 
+Shows how to use a callback to change the resource URI.
+
+```csharp
+public void ResourceSavingCallback()
+{
+    string outputPath = ArtifactsDir + "MarkdownSaveOptions.ResourceSavingCallback.md";
+
+    Document doc = new Document(MyDir + "Rendering.docx");
+
+    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+    saveOptions.ResourceSavingCallback = new ChangeUriPath();
+
+    doc.Save(outputPath, saveOptions);
+
+    DocumentHelper.FindTextInFile(outputPath, "/uri/for/");
+}
+
+/// <summary>
+/// Class implementing <see cref="IResourceSavingCallback"/>.
+/// </summary>
+private class ChangeUriPath : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        args.ResourceFileUri = string.Format("/uri/for/{0}", args.ResourceFileName);
+    }
+}
+```
+
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```csharp

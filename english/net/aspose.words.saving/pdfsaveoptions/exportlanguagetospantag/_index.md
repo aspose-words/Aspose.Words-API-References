@@ -5,7 +5,7 @@ articleTitle: ExportLanguageToSpanTag
 second_title: Aspose.Words for .NET
 description: Discover PdfSaveOptions' ExportLanguageToSpanTag property. Control text language export with Span tags for enhanced document structure and accessibility.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property

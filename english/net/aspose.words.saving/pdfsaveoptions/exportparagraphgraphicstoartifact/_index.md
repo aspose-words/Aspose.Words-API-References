@@ -5,7 +5,7 @@ articleTitle: ExportParagraphGraphicsToArtifact
 second_title: Aspose.Words for .NET
 description: Discover the PdfSaveOptions ExportParagraphGraphicsToArtifact property to control paragraph graphics as artifacts, enhancing your document's visual clarity.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
 ---
 ## PdfSaveOptions.ExportParagraphGraphicsToArtifact property

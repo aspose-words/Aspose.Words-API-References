@@ -5,7 +5,7 @@ articleTitle: ZoomFactor
 second_title: Aspose.Words for .NET
 description: Discover PdfSaveOptions' ZoomFactor property to easily adjust document zoom levels in percentages, enhancing your PDF viewing experience.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property
