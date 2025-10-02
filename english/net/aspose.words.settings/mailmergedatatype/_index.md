@@ -5,7 +5,7 @@ articleTitle: MailMergeDataType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMergeDataType enum for seamless integration of external data sources in your document automation projects.
 type: docs
-weight: 6690
+weight: 6700
 url: /net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration

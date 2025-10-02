@@ -5,7 +5,7 @@ articleTitle: OutlineOptions
 second_title: Aspose.Words for .NET
 description: Discover PdfSaveOptions' OutlineOptions property to customize your PDF outlines effortlessly. Enhance navigation and improve document usability!
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 ---
 ## PdfSaveOptions.OutlineOptions property

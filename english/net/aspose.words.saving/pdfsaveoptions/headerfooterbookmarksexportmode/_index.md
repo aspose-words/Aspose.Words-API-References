@@ -5,7 +5,7 @@ articleTitle: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET
 description: Discover how the PdfSaveOptions HeaderFooterBookmarksExportMode property optimizes bookmark export in headers and footers for enhanced PDF functionality.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property

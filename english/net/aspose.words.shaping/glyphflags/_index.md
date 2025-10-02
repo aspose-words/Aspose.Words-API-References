@@ -5,7 +5,7 @@ articleTitle: GlyphFlags
 second_title: Aspose.Words for .NET
 description: Use GlyphFlags enum to control how individual glyphs are rendered and displayed during text shaping.
 type: docs
-weight: 6920
+weight: 6930
 url: /net/aspose.words.shaping/glyphflags/
 ---
 ## GlyphFlags enumeration

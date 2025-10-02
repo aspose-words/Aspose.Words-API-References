@@ -5,7 +5,7 @@ articleTitle: Story
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Story class, your essential tool for managing block-level elements like Paragraphs and Tables efficiently.
 type: docs
-weight: 7010
+weight: 7020
 url: /net/aspose.words/story/
 ---
 ## Story class

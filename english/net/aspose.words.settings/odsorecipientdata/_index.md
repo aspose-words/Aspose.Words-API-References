@@ -5,7 +5,7 @@ articleTitle: OdsoRecipientData
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Settings.OdsoRecipientData class, designed to manage and exclude specific records in mail merges for efficient document processing.
 type: docs
-weight: 6800
+weight: 6810
 url: /net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class

@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtSaveOptions for enhanced document saving. Customize your text format with powerful options for optimal results.
 type: docs
-weight: 6500
+weight: 6510
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class
@@ -40,9 +40,10 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 | [ExportHeadersFootersMode](../../aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/) { get; set; } | Specifies the way headers and footers are exported to the text formats. Default value is PrimaryOnly. |
 | [ForcePageBreaks](../../aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/) { get; set; } | Allows to specify whether the page breaks should be preserved during export. |
 | [ImlRenderingMode](../../aspose.words.saving/saveoptions/imlrenderingmode/) { get; set; } | Gets or sets a value determining how ink (InkML) objects are rendered. |
-| [ListIndentation](../../aspose.words.saving/txtsaveoptions/listindentation/) { get; } | Gets a [`TxtListIndentation`](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation. |
+| [ListIndentation](../../aspose.words.saving/txtsaveoptions/listindentation/) { get; } | Gets a [`TxtListIndentation`](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default, it is zero count of character '\0', that means no indentation. |
 | [MaxCharactersPerLine](../../aspose.words.saving/txtsaveoptions/maxcharactersperline/) { get; set; } | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
 | [MemoryOptimization](../../aspose.words.saving/saveoptions/memoryoptimization/) { get; set; } | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`. |
+| [OfficeMathExportMode](../../aspose.words.saving/txtsaveoptions/officemathexportmode/) { get; set; } | Specifies how OfficeMath will be written to the output file. Default value is Text. |
 | [ParagraphBreak](../../aspose.words.saving/txtsaveoptionsbase/paragraphbreak/) { get; set; } | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [PreserveTableLayout](../../aspose.words.saving/txtsaveoptions/preservetablelayout/) { get; set; } | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is `false`. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |

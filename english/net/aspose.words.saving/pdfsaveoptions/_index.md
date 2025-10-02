@@ -47,6 +47,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [EmbedFullFonts](../../aspose.words.saving/pdfsaveoptions/embedfullfonts/) { get; set; } | Controls how fonts are embedded into the resulting PDF documents. |
 | [EncryptionDetails](../../aspose.words.saving/pdfsaveoptions/encryptiondetails/) { get; set; } | Gets or sets the details for encrypting the output PDF document. |
 | [ExportDocumentStructure](../../aspose.words.saving/pdfsaveoptions/exportdocumentstructure/) { get; set; } | Gets or sets a value determining whether or not to export document structure. |
+| [ExportFloatingShapesAsInlineTag](../../aspose.words.saving/pdfsaveoptions/exportfloatingshapesasinlinetag/) { get; set; } | Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |
 | [ExportLanguageToSpanTag](../../aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) { get; set; } | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [ExportParagraphGraphicsToArtifact](../../aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/) { get; set; } | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |

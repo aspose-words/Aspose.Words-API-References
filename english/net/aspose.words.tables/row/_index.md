@@ -5,7 +5,7 @@ articleTitle: Row
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.Row class for seamless table row management in your documents. Enhance your document processing with powerful features!
 type: docs
-weight: 7210
+weight: 7220
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
