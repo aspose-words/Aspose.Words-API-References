@@ -3,13 +3,17 @@ title: JSPointF class
 linktitle: JSPointF class
 articleTitle: JSPointF class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.JSPointF class. "
+description: "Aspose.Words.JSPointF class. Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane."
 type: docs
 weight: 700
 url: /nodejs-net/aspose.words/jspointf/
 ---
 
 ## JSPointF class
+
+Represents an ordered pair of floating-point x- and y-coordinates that defines
+a point in a two-dimensional plane.
+
 
 ### Constructors
 | Name | Description |
@@ -20,8 +24,8 @@ url: /nodejs-net/aspose.words/jspointf/
 
 | Name | Description |
 | --- | --- |
-| [X](./X/) |  |
-| [Y](./Y/) |  |
+| [X](./X/) | Gets the x-coordinate. |
+| [Y](./Y/) | Gets the y-coordinate. |
 
 ### See Also
 

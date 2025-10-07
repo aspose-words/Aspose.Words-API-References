@@ -39,7 +39,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [imageBrightness](./imageBrightness/) | Gets or sets the brightness for the generated images. |
 | [imageColorMode](./imageColorMode/) | Gets or sets the color mode for the generated images. |
 | [imageContrast](./imageContrast/) | Gets or sets the contrast for the generated images. |
-| [imageSize2](./imageSize2/) |  |
+| [imageSize2](./imageSize2/) | Gets or sets the size of a generated image in pixels. |
 | [imlRenderingMode](../saveoptions/imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpegQuality](./jpegQuality/) | Gets or sets a value determining the quality of the generated JPEG images. |
 | [memoryOptimization](../saveoptions/memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |

@@ -19,14 +19,14 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/nodejs-
 
 ### Remarks
 
-By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into 
+By default, when Aspose.Words saves a document to fixed page HTML, SVG or Markdown, it saves each resource into
 a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name
 for each resource found in the document.
 
-[ResourceSavingArgs](./) allows to redefine how resource file names are generated or to 
+[ResourceSavingArgs](./) allows to redefine how resource file names are generated or to
 completely circumvent saving of resources into files by providing your own stream objects.
 
-To apply your own logic for generating resource file names use the 
+To apply your own logic for generating resource file names use the
 [ResourceSavingArgs.resourceFileName](./resourceFileName/) property.
 
 To save resources into streams instead of files, use the Aspose.Words.Saving.ResourceSavingArgs.ResourceStream property.

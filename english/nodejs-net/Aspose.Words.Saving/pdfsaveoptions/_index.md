@@ -46,6 +46,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [embedFullFonts](./embedFullFonts/) | Controls how fonts are embedded into the resulting PDF documents. |
 | [encryptionDetails](./encryptionDetails/) | Gets or sets the details for encrypting the output PDF document. |
 | [exportDocumentStructure](./exportDocumentStructure/) | Gets or sets a value determining whether or not to export document structure. |
+| [exportFloatingShapesAsInlineTag](./exportFloatingShapesAsInlineTag/) | Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure. |
 | [exportGeneratorName](../saveoptions/exportGeneratorName/) | When ``true``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [exportLanguageToSpanTag](./exportLanguageToSpanTag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [exportParagraphGraphicsToArtifact](./exportParagraphGraphicsToArtifact/) | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |

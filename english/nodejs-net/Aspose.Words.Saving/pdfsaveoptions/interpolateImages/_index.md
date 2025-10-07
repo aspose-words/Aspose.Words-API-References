@@ -5,7 +5,7 @@ articleTitle: interpolateImages property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.interpolateImages property. A flag indicating whether image interpolation shall be performed by a conforming reader"
 type: docs
-weight: 210
+weight: 220
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/interpolateImages/
 ---
 

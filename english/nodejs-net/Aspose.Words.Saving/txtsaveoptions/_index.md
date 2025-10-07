@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../aspose.words/saveformat/#Text) format"
 type: docs
-weight: 860
+weight: 870
 url: /nodejs-net/aspose.words.saving/txtsaveoptions/
 ---
 
@@ -39,9 +39,10 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [exportHeadersFootersMode](../txtsaveoptionsbase/exportHeadersFootersMode/) | Specifies the way headers and footers are exported to the text formats. Default value is [TxtExportHeadersFootersMode.PrimaryOnly](../txtexportheadersfootersmode/#PrimaryOnly).<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [forcePageBreaks](../txtsaveoptionsbase/forcePageBreaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [imlRenderingMode](../saveoptions/imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [listIndentation](./listIndentation/) | Gets a [TxtListIndentation](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\\0', that means no indentation. |
+| [listIndentation](./listIndentation/) | Gets a [TxtListIndentation](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default, it is zero count of character '\\0', that means no indentation. |
 | [maxCharactersPerLine](./maxCharactersPerLine/) | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
 | [memoryOptimization](../saveoptions/memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [officeMathExportMode](./officeMathExportMode/) | Specifies how OfficeMath will be written to the output file. Default value is [TxtOfficeMathExportMode.Text](../txtofficemathexportmode/#Text). |
 | [paragraphBreak](../txtsaveoptionsbase/paragraphBreak/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [preserveTableLayout](./preserveTableLayout/) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is ``false``. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |

@@ -24,7 +24,7 @@ get insertedTextEffect(): Aspose.Words.Layout.RevisionTextEffect
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [RevisionTextEffect.Hidden](../../revisiontexteffect/#Hidden) and [RevisionTextEffect.DoubleStrikeThrough](../../revisiontexteffect/#DoubleStrikeThrough)  are not allowed. |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Value of [RevisionTextEffect.Hidden](../../revisiontexteffect/#Hidden) is not allowed. |
 
 ### See Also
 
