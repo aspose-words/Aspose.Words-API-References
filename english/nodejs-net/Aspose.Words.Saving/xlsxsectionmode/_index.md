@@ -5,7 +5,7 @@ articleTitle: XlsxSectionMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.XlsxSectionMode enumeration. Specifies how sections are handled when saving a document in the XLSX format."
 type: docs
-weight: 930
+weight: 940
 url: /nodejs-net/aspose.words.saving/xlsxsectionmode/
 ---
 

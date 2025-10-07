@@ -5,7 +5,7 @@ articleTitle: fontEmbeddingMode property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.fontEmbeddingMode property. Specifies the font embedding mode."
 type: docs
-weight: 170
+weight: 180
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/fontEmbeddingMode/
 ---
 

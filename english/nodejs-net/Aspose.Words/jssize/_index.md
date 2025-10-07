@@ -3,13 +3,16 @@ title: JSSize class
 linktitle: JSSize class
 articleTitle: JSSize class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.JSSize class. "
+description: "Aspose.Words.JSSize class. Stores an ordered pair of integers, which specify a Height and Width."
 type: docs
 weight: 730
 url: /nodejs-net/aspose.words/jssize/
 ---
 
 ## JSSize class
+
+Stores an ordered pair of integers, which specify a Height and Width.
+
 
 ### Constructors
 | Name | Description |
@@ -20,8 +23,8 @@ url: /nodejs-net/aspose.words/jssize/
 
 | Name | Description |
 | --- | --- |
-| [height](./height/) |  |
-| [width](./width/) |  |
+| [height](./height/) | Represents the vertical component. |
+| [width](./width/) | Represents the horizontal component. |
 
 ### See Also
 

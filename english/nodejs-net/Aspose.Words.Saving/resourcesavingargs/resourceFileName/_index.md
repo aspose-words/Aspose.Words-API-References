@@ -21,27 +21,28 @@ get resourceFileName(): string
 ### Remarks
 
 This property allows you to redefine how the resource file names are generated
-during export to fixed page HTML or SVG.
+during export to fixed page HTML, SVG or Markdown.
 
-When the event is fired, this property contains the file name that was generated 
-by Aspose.Words. You can change the value of this property to save the resource into a 
+When the event is fired, this property contains the file name that was generated
+by Aspose.Words. You can change the value of this property to save the resource into a
 different file. Note that file names must be unique.
 
-Aspose.Words automatically generates a unique file name for every resource when 
-exporting to fixed page HTML or SVG format. How the resource file name is generated 
+Aspose.Words automatically generates a unique file name for every resource when
+exporting to fixed page HTML, SVG or Markdown format. How the resource file name is generated
 depends on whether you save the document to a file or to a stream.
 
-When saving a document to a file, the generated resource file name looks like 
+When saving a document to a file, the generated resource file name looks like
 *\<document base file name\>.\<image number\>.\<extension\>*.
 
-When saving a document to a stream, the generated resource file name looks like 
+When saving a document to a stream, the generated resource file name looks like
 *Aspose.Words.\<document guid\>.\<image number\>.\<extension\>*.
 
 [ResourceSavingArgs.resourceFileName](./) must contain only the file name without the path.
-Aspose.Words determines the path for saving and the value of the ``src`` attribute for writing 
-to fixed page HTML or SVG using the document file name, the [HtmlFixedSaveOptions.resourcesFolder](../../htmlfixedsaveoptions/resourcesFolder/)
-or [SvgSaveOptions.resourcesFolder](../../svgsaveoptions/resourcesFolder/) and [HtmlFixedSaveOptions.resourcesFolderAlias](../../htmlfixedsaveoptions/resourcesFolderAlias/) 
-or [SvgSaveOptions.resourcesFolderAlias](../../svgsaveoptions/resourcesFolderAlias/) properties.
+Aspose.Words determines the path for saving and the value of the ``src`` attribute for writing
+to fixed page HTML, SVG or Markdown using the document file name, the [HtmlFixedSaveOptions.resourcesFolder](../../htmlfixedsaveoptions/resourcesFolder/)
+or [SvgSaveOptions.resourcesFolder](../../svgsaveoptions/resourcesFolder/) and [HtmlFixedSaveOptions.resourcesFolderAlias](../../htmlfixedsaveoptions/resourcesFolderAlias/)
+or [SvgSaveOptions.resourcesFolderAlias](../../svgsaveoptions/resourcesFolderAlias/) or [MarkdownSaveOptions.imagesFolder](../../markdownsaveoptions/imagesFolder/) or
+[MarkdownSaveOptions.imagesFolderAlias](../../markdownsaveoptions/imagesFolderAlias/) properties.
 
 [HtmlFixedSaveOptions.resourcesFolder](../../htmlfixedsaveoptions/resourcesFolder/)
 [SvgSaveOptions.resourcesFolder](../../svgsaveoptions/resourcesFolder/)

@@ -5,7 +5,7 @@ articleTitle: WordML2003SaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.WordML2003SaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.WordML](../../aspose.words/saveformat/#WordML) format"
 type: docs
-weight: 880
+weight: 890
 url: /nodejs-net/aspose.words.saving/wordml2003saveoptions/
 ---
 

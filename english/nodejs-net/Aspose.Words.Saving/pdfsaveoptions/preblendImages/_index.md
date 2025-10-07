@@ -5,7 +5,7 @@ articleTitle: preblendImages property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.preblendImages property. Gets or sets a value determining whether or not to preblend transparent images with black background color."
 type: docs
-weight: 270
+weight: 280
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/preblendImages/
 ---
 
