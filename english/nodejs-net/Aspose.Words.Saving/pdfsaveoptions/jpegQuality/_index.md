@@ -5,7 +5,7 @@ articleTitle: jpegQuality property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.jpegQuality property. Gets or sets a value determining the quality of the JPEG images inside PDF document."
 type: docs
-weight: 220
+weight: 230
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/jpegQuality/
 ---
 

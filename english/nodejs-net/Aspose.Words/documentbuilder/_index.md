@@ -3,7 +3,7 @@ title: DocumentBuilder class
 linktitle: DocumentBuilder class
 articleTitle: DocumentBuilder class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
+description: "Aspose.Words.DocumentBuilder class. Adapts [DocumentBuilder](./) class public API for Node.js porting."
 type: docs
 weight: 330
 url: /nodejs-net/aspose.words/documentbuilder/
@@ -11,9 +11,7 @@ url: /nodejs-net/aspose.words/documentbuilder/
 
 ## DocumentBuilder class
 
-Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
-To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/nodejs-net/document-builder-overview/) documentation article.
-
+Adapts [DocumentBuilder](./) class public API for Node.js porting.
 
 
 

@@ -107,21 +107,6 @@ All text of the document is stored in runs of text.
 
 ### Examples
 
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```js
@@ -215,6 +200,21 @@ para.appendChild(run);
 expect(doc.getText().trim()).toEqual("Hello World!");
 
 doc.save(base.artifactsDir + "Section.CreateManually.docx");
+```
+
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also

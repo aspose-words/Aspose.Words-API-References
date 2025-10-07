@@ -5,7 +5,7 @@ articleTitle: exportParagraphGraphicsToArtifact property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.exportParagraphGraphicsToArtifact property. Gets or sets a value determining whether a paragraph graphic should be marked as an artifact."
 type: docs
-weight: 160
+weight: 170
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/exportParagraphGraphicsToArtifact/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: useCoreFonts property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.useCoreFonts property. Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts."
 type: docs
-weight: 330
+weight: 340
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/useCoreFonts/
 ---
 

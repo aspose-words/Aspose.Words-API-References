@@ -5,7 +5,7 @@ articleTitle: exportLanguageToSpanTag property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.exportLanguageToSpanTag property. Gets or sets a value determining whether or not to create a Span tag in the document structure to export the text language."
 type: docs
-weight: 150
+weight: 160
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/exportLanguageToSpanTag/
 ---
 

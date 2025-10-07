@@ -5,7 +5,7 @@ articleTitle: useSdtTagAsFormFieldName property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.useSdtTagAsFormFieldName property. Specifies whether to use SDT control Tag or Id property as a name of form field in PDF."
 type: docs
-weight: 340
+weight: 350
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/useSdtTagAsFormFieldName/
 ---
 

@@ -40,6 +40,23 @@ The form field node that was just inserted.
 
 ### Examples
 
+Shows how to insert a text input form field.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.write("Please enter text here: ");
+
+// Insert a text input field, which will allow the user to click it and enter text.
+// Assign some placeholder text that the user may overwrite and pass
+// a maximum text length of 0 to apply no limit on the form field's contents.
+builder.insertTextInput("TextInput1", aw.Fields.TextFormFieldType.Regular, "", "Placeholder text", 0);
+
+// The form field will appear in the form of an "input" html tag, with a type of "text".
+doc.save(base.artifactsDir + "FormFields.textInput.html");
+```
+
 Shows how to create form fields.
 
 ```js
@@ -73,23 +90,6 @@ let builder = new aw.DocumentBuilder(doc);
 builder.insertTextInput("TextInput", aw.Fields.TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.save(base.artifactsDir + "DocumentBuilder.insertTextInput.docx");
-```
-
-Shows how to insert a text input form field.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.write("Please enter text here: ");
-
-// Insert a text input field, which will allow the user to click it and enter text.
-// Assign some placeholder text that the user may overwrite and pass
-// a maximum text length of 0 to apply no limit on the form field's contents.
-builder.insertTextInput("TextInput1", aw.Fields.TextFormFieldType.Regular, "", "Placeholder text", 0);
-
-// The form field will appear in the form of an "input" html tag, with a type of "text".
-doc.save(base.artifactsDir + "FormFields.textInput.html");
 ```
 
 ### See Also

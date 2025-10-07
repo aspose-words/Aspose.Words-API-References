@@ -188,24 +188,6 @@ expect(doc.getText().trim()).toEqual(
   findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville." );
 ```
 
-Shows how to replace text in a document's footer.
-
-```js
-let doc = new aw.Document(base.myDir + "Footer.docx");
-
-let headersFooters = doc.firstSection.headersFooters;
-let footer = headersFooters.getByHeaderFooterType(aw.HeaderFooterType.FooterPrimary);
-
-let options = new aw.Replacing.FindReplaceOptions();
-options.matchCase = false;
-options.findWholeWordsOnly = false;
-
-let currentYear = new Date().getYear();
-footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
-
-doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
-```
-
 Shows how to replace all instances of String of text in a table and cell.
 
 ```js
@@ -236,6 +218,24 @@ table.lastRow.lastCell.range.replace("50", "20", options);
 
 expect(table.getText().trim()).toEqual("Eggs\u000750\u0007\u0007" +
                         "Potatoes\u000720\u0007\u0007");
+```
+
+Shows how to replace text in a document's footer.
+
+```js
+let doc = new aw.Document(base.myDir + "Footer.docx");
+
+let headersFooters = doc.firstSection.headersFooters;
+let footer = headersFooters.getByHeaderFooterType(aw.HeaderFooterType.FooterPrimary);
+
+let options = new aw.Replacing.FindReplaceOptions();
+options.matchCase = false;
+options.findWholeWordsOnly = false;
+
+let currentYear = new Date().getYear();
+footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
+
+doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 ## See Also
