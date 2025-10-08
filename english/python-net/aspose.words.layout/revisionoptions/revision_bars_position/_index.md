@@ -31,7 +31,7 @@ def revision_bars_position(self, value: aspose.words.drawing.HorizontalAlignment
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [HorizontalAlignment.CENTER](../../../aspose.words.drawing/horizontalalignment/#CENTER) and [HorizontalAlignment.INSIDE](../../../aspose.words.drawing/horizontalalignment/#INSIDE)  are not allowed. |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [HorizontalAlignment.CENTER](../../../aspose.words.drawing/horizontalalignment/#CENTER) and [HorizontalAlignment.INSIDE](../../../aspose.words.drawing/horizontalalignment/#INSIDE) are not allowed. |
 
 ### Examples
 

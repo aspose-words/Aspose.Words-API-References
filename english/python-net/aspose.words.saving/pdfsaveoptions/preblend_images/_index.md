@@ -5,7 +5,7 @@ articleTitle: preblend_images property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.preblend_images property. Gets or sets a value determining whether or not to preblend transparent images with black background color."
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words.saving/pdfsaveoptions/preblend_images/
 ---
 

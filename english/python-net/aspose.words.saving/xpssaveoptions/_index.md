@@ -5,7 +5,7 @@ articleTitle: XpsSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.XpsSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XPS](../../aspose.words/saveformat/#XPS) format"
 type: docs
-weight: 960
+weight: 970
 url: /python-net/aspose.words.saving/xpssaveoptions/
 ---
 

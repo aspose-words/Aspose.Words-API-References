@@ -5,7 +5,7 @@ articleTitle: export_language_to_span_tag property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.export_language_to_span_tag property. Gets or sets a value determining whether or not to create a Span tag in the document structure to export the text language."
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/
 ---
 
