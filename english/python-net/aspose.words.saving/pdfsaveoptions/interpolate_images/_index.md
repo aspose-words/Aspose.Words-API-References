@@ -5,7 +5,7 @@ articleTitle: interpolate_images property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.interpolate_images property. A flag indicating whether image interpolation shall be performed by a conforming reader"
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.saving/pdfsaveoptions/interpolate_images/
 ---
 

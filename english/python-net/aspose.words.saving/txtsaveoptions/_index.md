@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT) format"
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words.saving/txtsaveoptions/
 ---
 
@@ -39,9 +39,10 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_headers_footers_mode](../txtsaveoptionsbase/export_headers_footers_mode/) | Specifies the way headers and footers are exported to the text formats. Default value is [TxtExportHeadersFootersMode.PRIMARY_ONLY](../txtexportheadersfootersmode/#PRIMARY_ONLY).<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [force_page_breaks](../txtsaveoptionsbase/force_page_breaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [list_indentation](./list_indentation/) | Gets a [TxtListIndentation](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\\0', that means no indentation. |
+| [list_indentation](./list_indentation/) | Gets a [TxtListIndentation](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default, it is zero count of character '\\0', that means no indentation. |
 | [max_characters_per_line](./max_characters_per_line/) | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
 | [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [office_math_export_mode](./office_math_export_mode/) | Specifies how OfficeMath will be written to the output file. Default value is [TxtOfficeMathExportMode.TEXT](../txtofficemathexportmode/#TEXT). |
 | [paragraph_break](../txtsaveoptionsbase/paragraph_break/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [preserve_table_layout](./preserve_table_layout/) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is ``False``. |
 | [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |

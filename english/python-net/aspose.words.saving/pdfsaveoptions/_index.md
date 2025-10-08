@@ -46,6 +46,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [embed_full_fonts](./embed_full_fonts/) | Controls how fonts are embedded into the resulting PDF documents. |
 | [encryption_details](./encryption_details/) | Gets or sets the details for encrypting the output PDF document. |
 | [export_document_structure](./export_document_structure/) | Gets or sets a value determining whether or not to export document structure. |
+| [export_floating_shapes_as_inline_tag](./export_floating_shapes_as_inline_tag/) | Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure. |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_language_to_span_tag](./export_language_to_span_tag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [export_paragraph_graphics_to_artifact](./export_paragraph_graphics_to_artifact/) | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |

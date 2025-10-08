@@ -5,7 +5,7 @@ articleTitle: jpeg_quality property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.jpeg_quality property. Gets or sets a value determining the quality of the JPEG images inside PDF document."
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.saving/pdfsaveoptions/jpeg_quality/
 ---
 
