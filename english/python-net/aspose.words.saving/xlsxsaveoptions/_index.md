@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XLSX](../../aspose.words/saveformat/#XLSX) format"
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.words.saving/xlsxsaveoptions/
 ---
 

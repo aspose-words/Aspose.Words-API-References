@@ -31,7 +31,7 @@ def inserted_text_effect(self, value: aspose.words.layout.RevisionTextEffect):
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Values of [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) and [RevisionTextEffect.DOUBLE_STRIKE_THROUGH](../../revisiontexteffect/#DOUBLE_STRIKE_THROUGH)  are not allowed. |
+| RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Value of [RevisionTextEffect.HIDDEN](../../revisiontexteffect/#HIDDEN) is not allowed. |
 
 ### Examples
 

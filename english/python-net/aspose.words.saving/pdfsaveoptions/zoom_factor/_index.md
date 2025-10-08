@@ -5,7 +5,7 @@ articleTitle: zoom_factor property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.zoom_factor property. Gets or sets a value determining zoom factor (in percentages) for a document."
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.words.saving/pdfsaveoptions/zoom_factor/
 ---
 

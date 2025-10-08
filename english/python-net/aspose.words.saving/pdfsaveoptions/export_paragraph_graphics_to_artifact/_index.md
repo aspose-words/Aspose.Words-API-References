@@ -5,7 +5,7 @@ articleTitle: export_paragraph_graphics_to_artifact property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.export_paragraph_graphics_to_artifact property. Gets or sets a value determining whether a paragraph graphic should be marked as an artifact."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.saving/pdfsaveoptions/export_paragraph_graphics_to_artifact/
 ---
 
