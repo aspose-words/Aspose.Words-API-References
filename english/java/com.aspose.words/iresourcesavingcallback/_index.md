@@ -4,7 +4,7 @@ linktitle: IResourceSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how Aspose.Words saves external resources images fonts and css when saving a document to fixed page HTML or SVG in Java.
 type: docs
-weight: 778
+weight: 779
 url: /java/com.aspose.words/iresourcesavingcallback/
 ---
 ```
@@ -14,6 +14,37 @@ public interface IResourceSavingCallback
 Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when saving a document to fixed page HTML or SVG.
 
  **Examples:** 
+
+Shows how to use a callback to change the resource URI.
+
+```
+
+ public void resourceSavingCallback() throws Exception
+ {
+     String outputPath = getArtifactsDir() + "MarkdownSaveOptions.ResourceSavingCallback.md";
+
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     saveOptions.setResourceSavingCallback(new ChangeUriPath());
+
+     doc.save(outputPath, saveOptions);
+
+     DocumentHelper.findTextInFile(outputPath, "/uri/for/");
+ }
+
+ /// 
+ /// Class implementing .
+ /// 
+ private static class ChangeUriPath implements IResourceSavingCallback
+ {
+     public void resourceSaving(ResourceSavingArgs args)
+     {
+         args.setResourceFileUri(MessageFormat.format("/uri/for/{0}", args.getResourceFileName()));
+     }
+ }
+ 
+```
 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 

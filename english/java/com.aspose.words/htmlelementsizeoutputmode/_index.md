@@ -65,7 +65,9 @@ Shows how to preserve negative indents in the output .html.
              " "));
      Assert.assertTrue(outDocContents.contains(
              " "));
- } else {
+ }
+ else
+ {
      Assert.assertTrue(outDocContents.contains(
              " "));
      Assert.assertTrue(outDocContents.contains(

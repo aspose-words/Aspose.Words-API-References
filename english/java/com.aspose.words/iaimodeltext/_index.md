@@ -4,7 +4,7 @@ linktitle: IAiModelText
 second_title: Aspose.Words for Java
 description: The common interface for AI models designed to generate a variety of text-based content in Java.
 type: docs
-weight: 747
+weight: 748
 url: /java/com.aspose.words/iaimodeltext/
 ---
 ```

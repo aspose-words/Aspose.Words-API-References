@@ -113,6 +113,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getParagraphBreak()](#getParagraphBreak) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
 | [getProgressCallback()](#getProgressCallback) | Called during saving a document and accepts data about saving progress. |
+| [getResourceSavingCallback()](#getResourceSavingCallback) | Allows to control how resources are saved when a document is exported to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getTableContentAlignment()](#getTableContentAlignment) | Gets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
@@ -149,6 +150,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setParagraphBreak(String value)](#setParagraphBreak-java.lang.String) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
 | [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback) | Called during saving a document and accepts data about saving progress. |
+| [setResourceSavingCallback(IResourceSavingCallback value)](#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) | Allows to control how resources are saved when a document is exported to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setTableContentAlignment(int value)](#setTableContentAlignment-int) | Sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
@@ -1520,6 +1522,53 @@ Shows how to manage a document while saving to docx.
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
+### getResourceSavingCallback() {#getResourceSavingCallback}
+```
+public IResourceSavingCallback getResourceSavingCallback()
+```
+
+
+Allows to control how resources are saved when a document is exported to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format.
+
+ **Remarks:** 
+
+Note, there is only one type of resources in Markdown. These are images. When you specify both [getImageSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getImageSavingCallback) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setImageSavingCallback-com.aspose.words.IImageSavingCallback) and [getResourceSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback), then first is called [getResourceSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback). However, note it is not necessary to have both implementations, as [ImageSavingArgs](../../com.aspose.words/imagesavingargs/) is actually a subset of [ResourceSavingArgs](../../com.aspose.words/resourcesavingargs/).
+
+ **Examples:** 
+
+Shows how to use a callback to change the resource URI.
+
+```
+
+ public void resourceSavingCallback() throws Exception
+ {
+     String outputPath = getArtifactsDir() + "MarkdownSaveOptions.ResourceSavingCallback.md";
+
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     saveOptions.setResourceSavingCallback(new ChangeUriPath());
+
+     doc.save(outputPath, saveOptions);
+
+     DocumentHelper.findTextInFile(outputPath, "/uri/for/");
+ }
+
+ /// 
+ /// Class implementing .
+ /// 
+ private static class ChangeUriPath implements IResourceSavingCallback
+ {
+     public void resourceSaving(ResourceSavingArgs args)
+     {
+         args.setResourceFileUri(MessageFormat.format("/uri/for/{0}", args.getResourceFileName()));
+     }
+ }
+ 
+```
+
+**Returns:**
+[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) - The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) value.
 ### getSaveFormat() {#getSaveFormat}
 ```
 public int getSaveFormat()
@@ -3229,6 +3278,56 @@ Shows how to manage a document while saving to docx.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
+
+### setResourceSavingCallback(IResourceSavingCallback value) {#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback}
+```
+public void setResourceSavingCallback(IResourceSavingCallback value)
+```
+
+
+Allows to control how resources are saved when a document is exported to [SaveFormat.MARKDOWN](../../com.aspose.words/saveformat/\#MARKDOWN) format.
+
+ **Remarks:** 
+
+Note, there is only one type of resources in Markdown. These are images. When you specify both [getImageSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getImageSavingCallback) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setImageSavingCallback-com.aspose.words.IImageSavingCallback) and [getResourceSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback), then first is called [getResourceSavingCallback()](../../com.aspose.words/markdownsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/markdownsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback). However, note it is not necessary to have both implementations, as [ImageSavingArgs](../../com.aspose.words/imagesavingargs/) is actually a subset of [ResourceSavingArgs](../../com.aspose.words/resourcesavingargs/).
+
+ **Examples:** 
+
+Shows how to use a callback to change the resource URI.
+
+```
+
+ public void resourceSavingCallback() throws Exception
+ {
+     String outputPath = getArtifactsDir() + "MarkdownSaveOptions.ResourceSavingCallback.md";
+
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     saveOptions.setResourceSavingCallback(new ChangeUriPath());
+
+     doc.save(outputPath, saveOptions);
+
+     DocumentHelper.findTextInFile(outputPath, "/uri/for/");
+ }
+
+ /// 
+ /// Class implementing .
+ /// 
+ private static class ChangeUriPath implements IResourceSavingCallback
+ {
+     public void resourceSaving(ResourceSavingArgs args)
+     {
+         args.setResourceFileUri(MessageFormat.format("/uri/for/{0}", args.getResourceFileName()));
+     }
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) | The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) value. |
 
 ### setSaveFormat(int value) {#setSaveFormat-int}
 ```

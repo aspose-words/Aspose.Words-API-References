@@ -4,7 +4,7 @@ linktitle: TxtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.TEXT format in Java.
 type: docs
-weight: 690
+weight: 691
 url: /java/com.aspose.words/txtsaveoptions/
 ---
 
@@ -73,6 +73,7 @@ Shows how to save a .txt document with a custom paragraph break.
 | [getListIndentation()](#getListIndentation) | Gets a [TxtListIndentation](../../com.aspose.words/txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. |
 | [getMaxCharactersPerLine()](#getMaxCharactersPerLine) | Gets an integer value that specifies the maximum number of characters per one line. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
+| [getOfficeMathExportMode()](#getOfficeMathExportMode) | Specifies how OfficeMath will be written to the output file. |
 | [getParagraphBreak()](#getParagraphBreak) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [getPreserveTableLayout()](#getPreserveTableLayout) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. |
 | [getPrettyFormat()](#getPrettyFormat) | When  true , pretty formats output where applicable. |
@@ -101,6 +102,7 @@ Shows how to save a .txt document with a custom paragraph break.
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setMaxCharactersPerLine(int value)](#setMaxCharactersPerLine-int) | Sets an integer value that specifies the maximum number of characters per one line. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
+| [setOfficeMathExportMode(int value)](#setOfficeMathExportMode-int) | Specifies how OfficeMath will be written to the output file. |
 | [setParagraphBreak(String value)](#setParagraphBreak-java.lang.String) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | [setPreserveTableLayout(boolean value)](#setPreserveTableLayout-boolean) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. |
 | [setPrettyFormat(boolean value)](#setPrettyFormat-boolean) | When  true , pretty formats output where applicable. |
@@ -659,7 +661,7 @@ public TxtListIndentation getListIndentation()
 ```
 
 
-Gets a [TxtListIndentation](../../com.aspose.words/txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\\0', that means no indentation.
+Gets a [TxtListIndentation](../../com.aspose.words/txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default, it is zero count of character '\\0', that means no indentation.
 
  **Examples:** 
 
@@ -766,6 +768,31 @@ Shows an option to optimize memory consumption when rendering large documents to
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
+### getOfficeMathExportMode() {#getOfficeMathExportMode}
+```
+public int getOfficeMathExportMode()
+```
+
+
+Specifies how OfficeMath will be written to the output file. Default value is [TxtOfficeMathExportMode.TEXT](../../com.aspose.words/txtofficemathexportmode/\#TEXT).
+
+ **Examples:** 
+
+Shows how to export OfficeMath object as Latex in TXT.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ TxtSaveOptions saveOptions = new TxtSaveOptions();
+ saveOptions.setOfficeMathExportMode(TxtOfficeMathExportMode.LATEX);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.ExportOfficeMathAsLatexToText.txt", saveOptions);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [TxtOfficeMathExportMode](../../com.aspose.words/txtofficemathexportmode/) constants.
 ### getParagraphBreak() {#getParagraphBreak}
 ```
 public String getParagraphBreak()
@@ -2122,6 +2149,34 @@ Shows an option to optimize memory consumption when rendering large documents to
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Value determining if memory optimization should be performed before saving the document. |
+
+### setOfficeMathExportMode(int value) {#setOfficeMathExportMode-int}
+```
+public void setOfficeMathExportMode(int value)
+```
+
+
+Specifies how OfficeMath will be written to the output file. Default value is [TxtOfficeMathExportMode.TEXT](../../com.aspose.words/txtofficemathexportmode/\#TEXT).
+
+ **Examples:** 
+
+Shows how to export OfficeMath object as Latex in TXT.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ TxtSaveOptions saveOptions = new TxtSaveOptions();
+ saveOptions.setOfficeMathExportMode(TxtOfficeMathExportMode.LATEX);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.ExportOfficeMathAsLatexToText.txt", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [TxtOfficeMathExportMode](../../com.aspose.words/txtofficemathexportmode/) constants. |
 
 ### setParagraphBreak(String value) {#setParagraphBreak-java.lang.String}
 ```

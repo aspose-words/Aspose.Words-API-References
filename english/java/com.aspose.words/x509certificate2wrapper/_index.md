@@ -4,7 +4,7 @@ linktitle: X509Certificate2Wrapper
 second_title: Aspose.Words for Java
 description: JAVA-added public wrapper around ours internal X509Certificate2 in Java.
 type: docs
-weight: 734
+weight: 735
 url: /java/com.aspose.words/x509certificate2wrapper/
 ---
 

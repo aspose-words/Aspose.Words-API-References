@@ -174,6 +174,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getEmbedFullFonts()](#getEmbedFullFonts) | Controls how fonts are embedded into the resulting PDF documents. |
 | [getEncryptionDetails()](#getEncryptionDetails) | Gets the details for encrypting the output PDF document. |
 | [getExportDocumentStructure()](#getExportDocumentStructure) | Gets a value determining whether or not to export document structure. |
+| [getExportFloatingShapesAsInlineTag()](#getExportFloatingShapesAsInlineTag) | Gets a value determining whether floating shapes are exported as inline tags in the document structure. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getExportLanguageToSpanTag()](#getExportLanguageToSpanTag) | Gets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [getExportParagraphGraphicsToArtifact()](#getExportParagraphGraphicsToArtifact) | Gets a value determining whether a paragraph graphic should be marked as an artifact. |
@@ -233,6 +234,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean) | Controls how fonts are embedded into the resulting PDF documents. |
 | [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.words.PdfEncryptionDetails) | Sets the details for encrypting the output PDF document. |
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean) | Sets a value determining whether or not to export document structure. |
+| [setExportFloatingShapesAsInlineTag(boolean value)](#setExportFloatingShapesAsInlineTag-boolean) | Sets a value determining whether floating shapes are exported as inline tags in the document structure. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setExportLanguageToSpanTag(boolean value)](#setExportLanguageToSpanTag-boolean) | Sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [setExportParagraphGraphicsToArtifact(boolean value)](#setExportParagraphGraphicsToArtifact-boolean) | Sets a value determining whether a paragraph graphic should be marked as an artifact. |
@@ -1231,6 +1233,39 @@ Shows how to preserve document structure elements, which can assist in programma
 
 **Returns:**
 boolean - A value determining whether or not to export document structure.
+### getExportFloatingShapesAsInlineTag() {#getExportFloatingShapesAsInlineTag}
+```
+public boolean getExportFloatingShapesAsInlineTag()
+```
+
+
+Gets a value determining whether floating shapes are exported as inline tags in the document structure.
+
+ **Remarks:** 
+
+Default value is  false  and floating shapes will be exported as block-level tags, placed after the paragraph in which they are anchored.
+
+When the value is  true  floating shapes will be exported as inline tags, placed within the paragraph where they are anchored.
+
+This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+ **Examples:** 
+
+Shows how to export floating shapes as inline tags.
+
+```
+
+ Document doc = new Document(getMyDir() + "Floating object.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setExportFloatingShapesAsInlineTag(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportFloatingShapesAsInlineTag.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - A value determining whether floating shapes are exported as inline tags in the document structure.
 ### getExportGeneratorName() {#getExportGeneratorName}
 ```
 public boolean getExportGeneratorName()
@@ -4127,6 +4162,42 @@ Shows how to preserve document structure elements, which can assist in programma
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to export document structure. |
+
+### setExportFloatingShapesAsInlineTag(boolean value) {#setExportFloatingShapesAsInlineTag-boolean}
+```
+public void setExportFloatingShapesAsInlineTag(boolean value)
+```
+
+
+Sets a value determining whether floating shapes are exported as inline tags in the document structure.
+
+ **Remarks:** 
+
+Default value is  false  and floating shapes will be exported as block-level tags, placed after the paragraph in which they are anchored.
+
+When the value is  true  floating shapes will be exported as inline tags, placed within the paragraph where they are anchored.
+
+This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+ **Examples:** 
+
+Shows how to export floating shapes as inline tags.
+
+```
+
+ Document doc = new Document(getMyDir() + "Floating object.docx");
+
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setExportFloatingShapesAsInlineTag(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ExportFloatingShapesAsInlineTag.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value determining whether floating shapes are exported as inline tags in the document structure. |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean}
 ```
