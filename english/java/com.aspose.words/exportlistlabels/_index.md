@@ -99,7 +99,6 @@ Shows how to configure list exporting to HTML.
                          "Default numbered list item 3." +
                          "" +
                          ""));
-
          break;
  }
  

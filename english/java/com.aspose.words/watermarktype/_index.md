@@ -4,7 +4,7 @@ linktitle: WatermarkType
 second_title: Aspose.Words for Java
 description: Specifies the watermark type in Java.
 type: docs
-weight: 718
+weight: 719
 url: /java/com.aspose.words/watermarktype/
 ---
 

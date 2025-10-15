@@ -711,6 +711,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [TxtLeadingSpacesOptions](../com.aspose.words/txtleadingspacesoptions/) | Specifies available options for leading space handling during import from [LoadFormat.\#TEXT](../com.aspose.words/loadformat/\#TEXT) file. |
 | [TxtListIndentation](../com.aspose.words/txtlistindentation/) | Specifies how list levels are indented when document is exporting to [SaveFormat.\#TEXT](../com.aspose.words/saveformat/\#TEXT) format. |
 | [TxtLoadOptions](../com.aspose.words/txtloadoptions/) | Allows to specify additional options when loading [LoadFormat.\#TEXT](../com.aspose.words/loadformat/\#TEXT) document into a [Document](../com.aspose.words/document/) object. |
+| [TxtOfficeMathExportMode](../com.aspose.words/txtofficemathexportmode/) | Specifies how Aspose.Words exports OfficeMath to [SaveFormat.\#TEXT](../com.aspose.words/saveformat/\#TEXT). |
 | [TxtSaveOptions](../com.aspose.words/txtsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#TEXT](../com.aspose.words/saveformat/\#TEXT) format. |
 | [TxtSaveOptionsBase](../com.aspose.words/txtsaveoptionsbase/) | The base class for specifying additional options when saving a document into a text based formats. |
 | [TxtTrailingSpacesOptions](../com.aspose.words/txttrailingspacesoptions/) | Specifies available options for trailing spaces handling during import from [LoadFormat.\#TEXT](../com.aspose.words/loadformat/\#TEXT) file. |

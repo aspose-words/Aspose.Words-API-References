@@ -1019,7 +1019,7 @@ public ImageSize getImageSize()
 ```
 
 
-Gets the information about image size and resolution. (53996,6)
+Gets the information about image size and resolution. (54120,6)
 
  **Remarks:** 
 
@@ -1077,7 +1077,7 @@ public int getImageType()
 ```
 
 
-Gets the type of the image. (54042,6)
+Gets the type of the image. (54166,6)
 
  **Examples:** 
 
@@ -1246,7 +1246,7 @@ public boolean hasImage()
 ```
 
 
-Returns  true  if the shape has image bytes or links an image. (53958,6)
+Returns  true  if the shape has image bytes or links an image. (54082,6)
 
  **Examples:** 
 
@@ -1295,7 +1295,7 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (54066,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (54190,6)
 
  **Examples:** 
 
@@ -1368,7 +1368,7 @@ public boolean isLinkOnly()
 ```
 
 
-Returns  true  if the image is linked and not stored in the document. (54128,6)
+Returns  true  if the image is linked and not stored in the document. (54252,6)
 
  **Examples:** 
 

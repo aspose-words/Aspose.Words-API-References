@@ -529,7 +529,9 @@ Shows how to preserve negative indents in the output .html.
              " "));
      Assert.assertTrue(outDocContents.contains(
              " "));
- } else {
+ }
+ else
+ {
      Assert.assertTrue(outDocContents.contains(
              " "));
      Assert.assertTrue(outDocContents.contains(
@@ -1747,7 +1749,6 @@ Shows how to configure list exporting to HTML.
                          "Default numbered list item 3." +
                          "" +
                          ""));
-
          break;
  }
  
@@ -2063,8 +2064,8 @@ Shows how to preserve hidden elements when converting to .html.
 
      Assert.assertTrue(outDocContents.contains(
              "td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
-                     "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
-                     "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+             "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single #000000; " +
+             "-aw-border-left:0.5pt single #000000; -aw-border-top:0.5pt single #000000\">"));
 
      Assert.assertTrue(outDocContents.contains(
              " "));
@@ -4123,7 +4124,9 @@ Shows how to preserve negative indents in the output .html.
              " "));
      Assert.assertTrue(outDocContents.contains(
              " "));
- } else {
+ }
+ else
+ {
      Assert.assertTrue(outDocContents.contains(
              " "));
      Assert.assertTrue(outDocContents.contains(
@@ -5404,7 +5407,6 @@ Shows how to configure list exporting to HTML.
                          "Default numbered list item 3." +
                          "" +
                          ""));
-
          break;
  }
  
@@ -5735,8 +5737,8 @@ Shows how to preserve hidden elements when converting to .html.
 
      Assert.assertTrue(outDocContents.contains(
              "td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
-                     "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
-                     "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+             "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single #000000; " +
+             "-aw-border-left:0.5pt single #000000; -aw-border-top:0.5pt single #000000\">"));
 
      Assert.assertTrue(outDocContents.contains(
              " "));
