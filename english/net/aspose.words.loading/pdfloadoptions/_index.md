@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfLoadOptions for enhanced PDF loading. Customize your document conversions with flexible options for optimal results.
 type: docs
-weight: 4150
+weight: 4160
 url: /net/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class

@@ -5,7 +5,7 @@ articleTitle: Summarize
 second_title: Aspose.Words for .NET
 description: Anthropic AI document summarizer with adjustable summary length. Create professional document summaries using Claude AI technology.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.ai/anthropicaimodel/summarize/
 ---
 ## Summarize(*[Document](../../../aspose.words/document/), [SummarizeOptions](../../summarizeoptions/)*) {#summarize}

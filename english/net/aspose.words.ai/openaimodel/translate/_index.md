@@ -5,7 +5,7 @@ articleTitle: Translate
 second_title: Aspose.Words for .NET
 description: OpenAI translation API for professional document conversion. Translate Word files to multiple languages using GPT language models.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.ai/openaimodel/translate/
 ---
 ## OpenAiModel.Translate method

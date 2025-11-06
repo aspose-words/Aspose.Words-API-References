@@ -5,7 +5,7 @@ articleTitle: PageVerticalAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PageVerticalAlignment enum for optimal text alignment on pages. Enhance your document's layout with precise vertical justification!
 type: docs
-weight: 5130
+weight: 5140
 url: /net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration

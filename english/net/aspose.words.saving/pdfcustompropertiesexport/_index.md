@@ -5,7 +5,7 @@ articleTitle: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET
 description: Discover how the Aspose.Words.PdfCustomPropertiesExport enum enhances PDF exports by customizing document properties for optimal results.
 type: docs
-weight: 6250
+weight: 6260
 url: /net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration

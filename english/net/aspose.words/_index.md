@@ -109,6 +109,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [IDocumentProcessorPlugin](./idocumentprocessorplugin/) | Defines an interface for external document processor plugin. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
+| [IIndexFilter](./iindexfilter/) | Defines a filter for skipping items based on their indices. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
 | [IRevisionCriteria](./irevisioncriteria/) | Implement this interface if you want to control when certain [`Revision`](../aspose.words/revision/) should be accepted/rejected or not by the [`Accept`](../aspose.words/revisioncollection/accept/)/[`Reject`](../aspose.words/revisioncollection/reject/) methods. |
 | [IWarningCallback](./iwarningcallback/) | Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving. |

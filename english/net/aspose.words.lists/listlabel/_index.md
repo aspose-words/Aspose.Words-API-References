@@ -5,7 +5,7 @@ articleTitle: ListLabel
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Lists.ListLabel class to enhance your document formatting with customizable list label properties for better control and presentation.
 type: docs
-weight: 3950
+weight: 3960
 url: /net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class

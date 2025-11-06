@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfSaveOptions to enhance your document saving experience. Customize settings for optimal PDF output quality and performance.
 type: docs
-weight: 6360
+weight: 6370
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

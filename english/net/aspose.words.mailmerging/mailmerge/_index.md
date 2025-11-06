@@ -5,7 +5,7 @@ articleTitle: MailMerge
 second_title: Aspose.Words for .NET
 description: Unlock powerful mail merge capabilities with Aspose.Words.MailMerging.MailMerge class. Streamline document creation and enhance productivity effortlessly!
 type: docs
-weight: 4550
+weight: 4560
 url: /net/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class

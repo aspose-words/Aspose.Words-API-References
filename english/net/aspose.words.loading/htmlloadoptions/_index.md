@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Loading.HtmlLoadOptions to enhance HTML document loading into a Document object with customizable options for optimal performance.
 type: docs
-weight: 4090
+weight: 4100
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

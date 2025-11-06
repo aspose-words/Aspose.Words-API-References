@@ -16,6 +16,13 @@ An abstract class representing the integration with Google’s AI models within 
 public abstract class GoogleAiModel : AiModel, IAiModelText
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Timeout](../../aspose.words.ai/aimodel/timeout/) { get; set; } | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds). |
+| override [Url](../../aspose.words.ai/googleaimodel/url/) { get; set; } | Gets or sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/". |
+
 ## Methods
 
 | Name | Description |

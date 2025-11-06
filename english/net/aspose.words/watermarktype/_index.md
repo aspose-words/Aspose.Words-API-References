@@ -5,7 +5,7 @@ articleTitle: WatermarkType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WatermarkType enum for easy watermark customization in documents. Enhance your projects with versatile watermark options!
 type: docs
-weight: 7610
+weight: 7620
 url: /net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration

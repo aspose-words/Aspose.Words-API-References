@@ -5,7 +5,7 @@ articleTitle: Summarize
 second_title: Aspose.Words for .NET
 description: OpenAI document summarization with customizable length control. Generate intelligent summaries using GPT technology for any document.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.ai/openaimodel/summarize/
 ---
 ## Summarize(*[Document](../../../aspose.words/document/), [SummarizeOptions](../../summarizeoptions/)*) {#summarize}

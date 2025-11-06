@@ -5,7 +5,7 @@ articleTitle: Splitter
 second_title: Aspose.Words for .NET
 description: Effortlessly split documents with Aspose.Words.LowCode.Splitter class. Utilize versatile methods for precise document management and enhanced workflow efficiency.
 type: docs
-weight: 4440
+weight: 4450
 url: /net/aspose.words.lowcode/splitter/
 ---
 ## Splitter class
@@ -22,8 +22,12 @@ public class Splitter : Processor
 | --- | --- |
 | static [Create](../../aspose.words.lowcode/splitter/create/)(*[SplitterContext](../splittercontext/)*) | Creates new instance of the splitter processor. |
 | [Execute](../../aspose.words.lowcode/processor/execute/)() | Execute the processor action. |
+| [Execute](../../aspose.words.lowcode/processor/execute/)(*CancellationToken*) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
+| [From](../../aspose.words.lowcode/processor/from/)(*Stream*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/)(*string*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [To](../../aspose.words.lowcode/processor/to/)(*string*) | Specifies output file for the processor. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output stream for the processor. |

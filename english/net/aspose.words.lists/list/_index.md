@@ -5,7 +5,7 @@ articleTitle: List
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Lists.List class for powerful list formatting. Enhance your documents with seamless organization and professional presentation.
 type: docs
-weight: 3920
+weight: 3930
 url: /net/aspose.words.lists/list/
 ---
 ## List class

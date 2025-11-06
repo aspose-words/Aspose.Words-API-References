@@ -5,7 +5,7 @@ articleTitle: License
 second_title: Aspose.Words for .NET
 description: Unlock the full potential of Aspose.Words with our License class. Easily manage licensing for seamless document processing and enhanced functionality.
 type: docs
-weight: 3880
+weight: 3890
 url: /net/aspose.words/license/
 ---
 ## License class

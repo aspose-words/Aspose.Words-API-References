@@ -5,7 +5,7 @@ articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XamlFlowSaveOptions for enhanced document saving in XamlFlow formats. Unlock advanced features for seamless integration!
 type: docs
-weight: 6550
+weight: 6560
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class

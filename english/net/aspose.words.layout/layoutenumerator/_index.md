@@ -5,7 +5,7 @@ articleTitle: LayoutEnumerator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Layout.LayoutEnumerator class for efficient document layout enumeration. Explore page geometry, text, and structure effortlessly!
 type: docs
-weight: 3800
+weight: 3810
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class

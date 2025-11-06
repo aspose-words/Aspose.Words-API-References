@@ -5,7 +5,7 @@ articleTitle: PageLayoutEvent
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Layout.PageLayoutEvent enum—essential for optimizing page layout events during document rendering and building. Enhance your workflow today!
 type: docs
-weight: 3830
+weight: 3840
 url: /net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration

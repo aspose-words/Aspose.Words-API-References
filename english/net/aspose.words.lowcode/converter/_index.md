@@ -5,7 +5,7 @@ articleTitle: Converter
 second_title: Aspose.Words for .NET
 description: Effortlessly convert various document types with Aspose.Words.LowCode.Converter. Simplify your workflow using just one line of code for seamless integration.
 type: docs
-weight: 4250
+weight: 4260
 url: /net/aspose.words.lowcode/converter/
 ---
 ## Converter class
@@ -23,8 +23,12 @@ public class Converter : Processor
 | static [Create](../../aspose.words.lowcode/converter/create/#create)() | Creates new instance of the converter processor. |
 | static [Create](../../aspose.words.lowcode/converter/create/#create_1)(*[ConverterContext](../convertercontext/)*) | Creates new instance of the converter processor. |
 | [Execute](../../aspose.words.lowcode/processor/execute/)() | Execute the processor action. |
+| [Execute](../../aspose.words.lowcode/processor/execute/)(*CancellationToken*) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
+| [From](../../aspose.words.lowcode/processor/from/)(*Stream*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/)(*string*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [To](../../aspose.words.lowcode/processor/to/)(*string*) | Specifies output file for the processor. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output stream for the processor. |

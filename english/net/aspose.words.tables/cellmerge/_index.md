@@ -5,7 +5,7 @@ articleTitle: CellMerge
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.CellMerge enum for efficient table cell merging. Enhance your document layouts with seamless integration and flexibility.
 type: docs
-weight: 7180
+weight: 7190
 url: /net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration

@@ -5,7 +5,7 @@ articleTitle: MultiPageLayout
 second_title: Aspose.Words for .NET
 description: Defines layout rules for rendering multiple pages into one image using grid, horizontal or vertical style.
 type: docs
-weight: 6120
+weight: 6130
 url: /net/aspose.words.saving/multipagelayout/
 ---
 ## MultiPageLayout class

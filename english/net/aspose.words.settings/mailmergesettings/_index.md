@@ -5,7 +5,7 @@ articleTitle: MailMergeSettings
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MailMergeSettings class to streamline document automation with powerful mail merge capabilities for enhanced efficiency.
 type: docs
-weight: 6730
+weight: 6740
 url: /net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class

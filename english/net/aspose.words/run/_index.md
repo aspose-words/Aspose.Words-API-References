@@ -5,7 +5,7 @@ articleTitle: Run
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Run, a powerful class for managing character runs with consistent font formatting, enhancing your document processing efficiency.
 type: docs
-weight: 5590
+weight: 5600
 url: /net/aspose.words/run/
 ---
 ## Run class

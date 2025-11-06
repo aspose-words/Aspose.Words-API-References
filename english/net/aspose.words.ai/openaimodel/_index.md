@@ -16,6 +16,13 @@ An abstract class representing the integration with OpenAI's large language mode
 public abstract class OpenAiModel : AiModel, IAiModelText
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Timeout](../../aspose.words.ai/aimodel/timeout/) { get; set; } | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds). |
+| override [Url](../../aspose.words.ai/openaimodel/url/) { get; set; } | Gets or sets a URL of the model. The default value is "https://api.openai.com/". |
+
 ## Methods
 
 | Name | Description |
@@ -29,6 +36,37 @@ public abstract class OpenAiModel : AiModel, IAiModelText
 | [WithProject](../../aspose.words.ai/openaimodel/withproject/)(*string*) | Sets a specified Project to the model. |
 
 ## Examples
+
+Shows how to use self-hosted AI model based on OpenAiModel.
+
+```csharp
+public void SelfHostedModel()
+{
+    Document doc = new Document(MyDir + "Big document.docx");
+
+    string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+    // Use OpenAI generative language models.
+    AiModel model = new CustomAiModel().WithApiKey(apiKey);
+    model.Url = "https://my.a.com/";
+
+    Document translatedDoc = model.Translate(doc, Language.Russian);
+    translatedDoc.Save(ArtifactsDir + "AI.SelfHostedModel.docx");
+}
+
+/// <summary>
+/// Custom self-hosted AI model.
+/// </summary>
+internal class CustomAiModel : OpenAiModel
+{
+    /// <summary>
+    /// Gets model name.
+    /// </summary>
+    protected override string Name
+    {
+        get { return "my-model-24b"; }
+    }
+}
+```
 
 Shows how to summarize text using OpenAI and Google models.
 
@@ -49,44 +87,6 @@ oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 options.SummaryLength = SummaryLength.Long;
 Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
-```
-
-Shows how to use self-hosted AI model based on OpenAiModel.
-
-```csharp
-public void SelfHostedModel()
-{
-    Document doc = new Document(MyDir + "Big document.docx");
-
-    string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-    // Use OpenAI generative language models.
-    AiModel model = new CustomAiModel().WithApiKey(apiKey);
-
-    Document translatedDoc = model.Translate(doc, Language.Russian);
-    translatedDoc.Save(ArtifactsDir + "AI.SelfHostedModel.docx");
-}
-
-/// <summary>
-/// Custom self-hosted AI model.
-/// </summary>
-internal class CustomAiModel : OpenAiModel
-{
-    /// <summary>
-    /// Gets custom URL of the model.
-    /// </summary>
-    protected override string Url
-    {
-        get { return "https://localhost/"; }
-    }
-
-    /// <summary>
-    /// Gets model name.
-    /// </summary>
-    protected override string Name
-    {
-        get { return "my-model-24b"; }
-    }
-}
 ```
 
 ### See Also

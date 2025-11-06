@@ -5,7 +5,7 @@ articleTitle: ReplacingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Replacing.ReplacingArgs class for efficient custom text replacement in your documents. Enhance your workflow today!
 type: docs
-weight: 5420
+weight: 5430
 url: /net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class

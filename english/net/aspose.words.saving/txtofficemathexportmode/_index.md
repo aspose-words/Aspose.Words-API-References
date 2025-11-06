@@ -5,7 +5,7 @@ articleTitle: TxtOfficeMathExportMode
 second_title: Aspose.Words for .NET
 description: TxtOfficeMathExportMode lets you choose how Word OfficeMath equations are exported to text for better accuracy and readability.
 type: docs
-weight: 6500
+weight: 6510
 url: /net/aspose.words.saving/txtofficemathexportmode/
 ---
 ## TxtOfficeMathExportMode enumeration

@@ -5,7 +5,7 @@ articleTitle: Revision
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Revision class to manage tracked changes in documents. Easily identify revision types for seamless document editing.
 type: docs
-weight: 5530
+weight: 5540
 url: /net/aspose.words/revision/
 ---
 ## Revision class

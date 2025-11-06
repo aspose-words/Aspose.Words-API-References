@@ -5,7 +5,7 @@ articleTitle: PagesRemaining
 second_title: Aspose.Words for .NET
 description: Track remaining pages in active print jobs with AsposeWordsPrintDocument PagesRemaining property for print control.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.rendering/asposewordsprintdocument/pagesremaining/
 ---
 ## AsposeWordsPrintDocument.PagesRemaining property

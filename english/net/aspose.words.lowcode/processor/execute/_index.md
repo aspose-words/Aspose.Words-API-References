@@ -8,7 +8,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lowcode/processor/execute/
 ---
-## Processor.Execute method
+## Execute() {#execute}
 
 Execute the processor action.
 
@@ -133,6 +133,28 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
     }
 }
 ```
+
+### See Also
+
+* class [Processor](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Execute(*CancellationToken*) {#execute_1}
+
+Execute the processor action allowing canceling document processing task using specified cancellation token.
+
+```csharp
+public void Execute(CancellationToken token)
+```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| OperationCanceledException | Thrown when a cancellation request is detected. |
 
 ### See Also
 

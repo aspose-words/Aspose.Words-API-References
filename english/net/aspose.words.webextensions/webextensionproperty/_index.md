@@ -5,7 +5,7 @@ articleTitle: WebExtensionProperty
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensionProperty class for defining custom web extension properties. Enhance your document management with ease!
 type: docs
-weight: 7700
+weight: 7710
 url: /net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class

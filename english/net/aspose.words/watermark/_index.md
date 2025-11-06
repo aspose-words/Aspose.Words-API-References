@@ -5,7 +5,7 @@ articleTitle: Watermark
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Watermark class to easily add and customize watermarks in your documents, enhancing professionalism and branding.
 type: docs
-weight: 7590
+weight: 7600
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class
