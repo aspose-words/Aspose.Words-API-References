@@ -5,7 +5,7 @@ articleTitle: PdfPageMode
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfPageMode enum for customizable PDF display options, enhancing user experience in any PDF reader. Optimize your documents today!
 type: docs
-weight: 6340
+weight: 6350
 url: /net/aspose.words.saving/pdfpagemode/
 ---
 ## PdfPageMode enumeration

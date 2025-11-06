@@ -5,7 +5,7 @@ articleTitle: ShowInBalloons
 second_title: Aspose.Words for .NET
 description: Discover how the Aspose.Words.Layout.ShowInBalloons enum enhances document editing by controlling visible revisions in balloons for clear collaboration.
 type: docs
-weight: 3870
+weight: 3880
 url: /net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration

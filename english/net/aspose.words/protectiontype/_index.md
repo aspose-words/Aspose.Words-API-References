@@ -5,7 +5,7 @@ articleTitle: ProtectionType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ProtectionType enum for robust document security. Enhance your documents with customizable protection options today!
 type: docs
-weight: 5270
+weight: 5280
 url: /net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration

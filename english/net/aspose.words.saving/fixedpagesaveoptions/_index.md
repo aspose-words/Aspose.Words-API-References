@@ -5,7 +5,7 @@ articleTitle: FixedPageSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.FixedPageSaveOptions for seamless document conversion to PDF, XPS, and images. Unlock flexible saving options today!
 type: docs
-weight: 5800
+weight: 5810
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class

@@ -5,7 +5,7 @@ articleTitle: ParagraphAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ParagraphAlignment enum for precise text alignment in your documents. Enhance readability and formatting with ease!
 type: docs
-weight: 5160
+weight: 5170
 url: /net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration

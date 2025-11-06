@@ -5,7 +5,7 @@ articleTitle: Paragraph
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Paragraph class to effortlessly manage and format text paragraphs, enhancing your document processing capabilities.
 type: docs
-weight: 5150
+weight: 5160
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class

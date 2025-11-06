@@ -5,7 +5,7 @@ articleTitle: Translate
 second_title: Aspose.Words for .NET
 description: Professional document translation API supporting multiple languages. Translate Word documents accurately with AI-powered language processing.
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.ai/aimodel/translate/
 ---
 ## AiModel.Translate method

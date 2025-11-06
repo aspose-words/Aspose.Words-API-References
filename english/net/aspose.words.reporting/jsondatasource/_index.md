@@ -5,7 +5,7 @@ articleTitle: JsonDataSource
 second_title: Aspose.Words for .NET
 description: Unlock powerful reporting with Aspose.Words.Reporting.JsonDataSource. Easily access JSON data for seamless integration into your reports.
 type: docs
-weight: 5460
+weight: 5470
 url: /net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class

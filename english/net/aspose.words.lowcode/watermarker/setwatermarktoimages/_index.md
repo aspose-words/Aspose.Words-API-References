@@ -8,13 +8,37 @@ type: docs
 weight: 40
 url: /net/aspose.words.lowcode/watermarker/setwatermarktoimages/
 ---
-## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#setwatermarktoimages_3}
+## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string*) {#setwatermarktoimages_6}
 
 Adds a text watermark into the document with options. Renders the output to images.
 
 ```csharp
 public static Stream[] SetWatermarkToImages(string inputFileName, ImageSaveOptions saveOptions, 
-    string watermarkText, TextWatermarkOptions options = null)
+    string watermarkText)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| saveOptions | ImageSaveOptions | The save options. |
+| watermarkText | String | Text that is displayed as a watermark. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#setwatermarktoimages_7}
+
+Adds a text watermark into the document with options. Renders the output to images.
+
+```csharp
+public static Stream[] SetWatermarkToImages(string inputFileName, ImageSaveOptions saveOptions, 
+    string watermarkText, TextWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -49,13 +73,37 @@ images = Watermarker.SetWatermarkToImages(doc, new ImageSaveOptions(SaveFormat.P
 
 ---
 
-## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#setwatermarktoimages_1}
+## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string*) {#setwatermarktoimages_2}
 
 Adds a text watermark into the document with options. Renders the output to images.
 
 ```csharp
 public static Stream[] SetWatermarkToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    string watermarkText, TextWatermarkOptions options = null)
+    string watermarkText)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| saveOptions | ImageSaveOptions | The save options. |
+| watermarkText | String | Text that is displayed as a watermark. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)*) {#setwatermarktoimages_3}
+
+Adds a text watermark into the document with options. Renders the output to images.
+
+```csharp
+public static Stream[] SetWatermarkToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    string watermarkText, TextWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -92,13 +140,37 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
 
 ---
 
-## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), byte[], [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setwatermarktoimages_2}
+## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), byte[]*) {#setwatermarktoimages_4}
 
 Adds an image watermark into the document with options. Renders the output to images.
 
 ```csharp
 public static Stream[] SetWatermarkToImages(string inputFileName, ImageSaveOptions saveOptions, 
-    byte[] watermarkImageBytes, ImageWatermarkOptions options = null)
+    byte[] watermarkImageBytes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| saveOptions | ImageSaveOptions | The save options. |
+| watermarkImageBytes | Byte[] | Image bytes that is displayed as a watermark. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetWatermarkToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), byte[], [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setwatermarktoimages_5}
+
+Adds an image watermark into the document with options. Renders the output to images.
+
+```csharp
+public static Stream[] SetWatermarkToImages(string inputFileName, ImageSaveOptions saveOptions, 
+    byte[] watermarkImageBytes, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -133,13 +205,37 @@ Watermarker.SetWatermarkToImages(doc, new ImageSaveOptions(SaveFormat.Png), File
 
 ---
 
-## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setwatermarktoimages}
+## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Stream*) {#setwatermarktoimages}
 
 Adds an image watermark into the document with options. Renders the output to images.
 
 ```csharp
 public static Stream[] SetWatermarkToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    Stream watermarkImageStream, ImageWatermarkOptions options = null)
+    Stream watermarkImageStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| saveOptions | ImageSaveOptions | The save options. |
+| watermarkImageStream | Stream | Image stream that is displayed as a watermark. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetWatermarkToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setwatermarktoimages_1}
+
+Adds an image watermark into the document with options. Renders the output to images.
+
+```csharp
+public static Stream[] SetWatermarkToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    Stream watermarkImageStream, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |

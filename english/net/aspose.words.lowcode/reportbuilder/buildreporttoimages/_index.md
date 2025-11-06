@@ -8,13 +8,38 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/reportbuilder/buildreporttoimages/
 ---
-## BuildReportToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreporttoimages_1}
+## BuildReportToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[]*) {#buildreporttoimages_2}
 
 Populates the template document with data from multiple sources. Renders the output to images.
 
 ```csharp
 public static Stream[] BuildReportToImages(string inputFileName, ImageSaveOptions saveOptions, 
-    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| saveOptions | ImageSaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReportToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreporttoimages_3}
+
+Populates the template document with data from multiple sources. Renders the output to images.
+
+```csharp
+public static Stream[] BuildReportToImages(string inputFileName, ImageSaveOptions saveOptions, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -81,13 +106,38 @@ public class MessageTestClass
 
 ---
 
-## BuildReportToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreporttoimages}
+## BuildReportToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[]*) {#buildreporttoimages}
 
 Populates the template document with data from multiple sources. Renders the output to images.
 
 ```csharp
 public static Stream[] BuildReportToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| saveOptions | ImageSaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReportToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreporttoimages_1}
+
+Populates the template document with data from multiple sources. Renders the output to images.
+
+```csharp
+public static Stream[] BuildReportToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |

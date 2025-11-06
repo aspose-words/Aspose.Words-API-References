@@ -5,7 +5,7 @@ articleTitle: MarkdownOfficeMathExportMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.MarkdownOfficeMathExportMode enhances OfficeMath export to Markdown, ensuring accurate and efficient document conversion.
 type: docs
-weight: 6080
+weight: 6090
 url: /net/aspose.words.saving/markdownofficemathexportmode/
 ---
 ## MarkdownOfficeMathExportMode enumeration
@@ -24,6 +24,7 @@ public enum MarkdownOfficeMathExportMode
 | Image | `1` | Export OfficeMath as image. |
 | MathML | `2` | Export OfficeMath as MathML. |
 | Latex | `3` | Export OfficeMath as LaTeX. |
+| MarkItDown | `4` | Export OfficeMath as LaTeX that is compatible with MarkItDown. |
 
 ## Examples
 
@@ -47,6 +48,17 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex;
 
 doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
+```
+
+Shows how to export OfficeMath object as MarkItDown.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.OfficeMathExportMode = MarkdownOfficeMathExportMode.MarkItDown;
+
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
 ```
 
 ### See Also

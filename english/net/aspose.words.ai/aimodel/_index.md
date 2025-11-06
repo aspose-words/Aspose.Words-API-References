@@ -16,6 +16,13 @@ An abstract class representing the integration with various AI models within the
 public abstract class AiModel
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Timeout](../../aspose.words.ai/aimodel/timeout/) { get; set; } | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds). |
+| abstract [Url](../../aspose.words.ai/aimodel/url/) { get; set; } | Gets or sets a URL of the model. The default value is specific for the model. |
+
 ## Methods
 
 | Name | Description |

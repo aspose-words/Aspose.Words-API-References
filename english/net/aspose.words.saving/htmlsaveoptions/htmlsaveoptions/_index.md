@@ -83,12 +83,12 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.That(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"), Is.True);
         Assert.That(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"), Is.True);
-        Assert.That(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"), Is.True);
+        Assert.That(outDocContents.Contains("<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"), Is.True);
         break;
     case HtmlVersion.Xhtml:
         Assert.That(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"), Is.True);
         Assert.That(outDocContents.Contains("<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"), Is.True);
-        Assert.That(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""), Is.True);
+        Assert.That(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""), Is.True);
         break;
 }
 ```

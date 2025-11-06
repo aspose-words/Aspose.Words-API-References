@@ -5,7 +5,7 @@ articleTitle: Shading
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Shading class, designed to enhance your documents with customizable shading attributes for a professional look.
 type: docs
-weight: 6870
+weight: 6880
 url: /net/aspose.words/shading/
 ---
 ## Shading class

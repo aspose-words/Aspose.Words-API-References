@@ -5,7 +5,7 @@ articleTitle: WithApiKey
 second_title: Aspose.Words for .NET
 description: Unlock the power of AiModel with the WithApiKey method. Effortlessly set your API key for enhanced functionality and seamless integration.
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.ai/aimodel/withapikey/
 ---
 ## AiModel.WithApiKey method

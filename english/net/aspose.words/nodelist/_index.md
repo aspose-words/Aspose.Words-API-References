@@ -5,7 +5,7 @@ articleTitle: NodeList
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.NodeList class, your go-to solution for efficiently managing XPath query results and enhancing document processing capabilities.
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class

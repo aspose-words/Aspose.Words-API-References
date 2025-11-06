@@ -40,6 +40,17 @@ saveOptions.OfficeMathExportMode = MarkdownOfficeMathExportMode.Latex;
 doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
 ```
 
+Shows how to export OfficeMath object as MarkItDown.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.OfficeMathExportMode = MarkdownOfficeMathExportMode.MarkItDown;
+
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
+```
+
 ### See Also
 
 * enum [MarkdownOfficeMathExportMode](../../markdownofficemathexportmode/)

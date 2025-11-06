@@ -5,7 +5,7 @@ articleTitle: CheckGrammar
 second_title: Aspose.Words for .NET
 description: AI-powered grammar checker API for documents. Automatically detect and fix grammar errors in Word files using advanced language models.
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.ai/aimodel/checkgrammar/
 ---
 ## AiModel.CheckGrammar method

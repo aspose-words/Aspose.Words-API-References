@@ -5,7 +5,7 @@ articleTitle: IFontSavingCallback
 second_title: Aspose.Words for .NET
 description: Control font saving in Aspose.Words with the IFontSavingCallback interface. Get notifications and customize HTML exports for optimal document quality.
 type: docs
-weight: 5940
+weight: 5950
 url: /net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface

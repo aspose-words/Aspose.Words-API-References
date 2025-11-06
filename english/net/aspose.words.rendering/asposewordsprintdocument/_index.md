@@ -5,7 +5,7 @@ articleTitle: AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET
 description: Streamline document printing with Aspose.Words.Rendering. Our AsposeWordsPrintDocument class offers seamless integration for .NET applications.
 type: docs
-weight: 5290
+weight: 5300
 url: /net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
@@ -30,7 +30,9 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [ColorMode](../../aspose.words.rendering/asposewordsprintdocument/colormode/) { get; set; } | Gets or sets how non-colored pages are printed if the device supports color printing. |
 | [ColorPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/) { get; } | Gets the number of pages printed in color (i.e. with Color set to true). |
+| [PageIndexFilter](../../aspose.words.rendering/asposewordsprintdocument/pageindexfilter/) { get; set; } | Gets or sets the zero-based index filter used to determine which pages to skip during printing. |
 | [PagesRemaining](../../aspose.words.rendering/asposewordsprintdocument/pagesremaining/) { get; } | Gets the number of pages remaining in the currently active print job. |
+| [TotalPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/totalpagesprinted/) { get; } | Gets the total number of pages actually printed during the print session. |
 
 ## Methods
 

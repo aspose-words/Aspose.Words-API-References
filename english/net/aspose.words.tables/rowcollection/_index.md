@@ -5,7 +5,7 @@ articleTitle: RowCollection
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.Tables.RowCollection for efficient access to Row nodes. Enhance document processing with our powerful, typed collection features.
 type: docs
-weight: 7230
+weight: 7240
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class

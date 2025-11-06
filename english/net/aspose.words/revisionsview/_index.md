@@ -5,7 +5,7 @@ articleTitle: RevisionsView
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.RevisionsView enum to easily choose between original and revised document versions for streamlined editing and collaboration.
 type: docs
-weight: 5580
+weight: 5590
 url: /net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration

@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/watermarker/setimage/
 ---
-## SetImage(*string, string, string*) {#setimage_6}
+## SetImage(*string, string, string*) {#setimage_12}
 
 Adds an image watermark into the document.
 
@@ -54,7 +54,7 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ---
 
-## SetImage(*string, string, string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_7}
+## SetImage(*string, string, string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_13}
 
 Adds an image watermark into the document with options.
 
@@ -102,13 +102,44 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ---
 
-## SetImage(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_4}
+## SetImage(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string*) {#setimage_8}
 
 Adds an image watermark into the document with options and specified save format.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    string watermarkImageFileName, ImageWatermarkOptions options = null)
+    string watermarkImageFileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveFormat | SaveFormat | The save format. |
+| watermarkImageFileName | String | Image that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_9}
+
+Adds an image watermark into the document with options and specified save format.
+
+```csharp
+public static void SetImage(string inputFileName, string outputFileName, SaveFormat saveFormat, 
+    string watermarkImageFileName, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -152,13 +183,44 @@ Watermarker.SetImage(doc, ArtifactsDir + "LowCode.SetWatermarkText.4.docx", Save
 
 ---
 
-## SetImage(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_5}
+## SetImage(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string*) {#setimage_10}
 
 Adds an image watermark into the document with options and specified save format.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, SaveOptions saveOptions, 
-    string watermarkImageFileName, ImageWatermarkOptions options = null)
+    string watermarkImageFileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+| watermarkImageFileName | String | Image that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_11}
+
+Adds an image watermark into the document with options and specified save format.
+
+```csharp
+public static void SetImage(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    string watermarkImageFileName, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -185,13 +247,44 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Image, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage}
+## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Image*) {#setimage}
 
 Adds an image watermark into the document from streams with options.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    Image watermarkImage, ImageWatermarkOptions options = null)
+    Image watermarkImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveFormat | SaveFormat | The save format. |
+| watermarkImage | Image | Image that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Image, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_1}
+
+Adds an image watermark into the document from streams with options.
+
+```csharp
+public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    Image watermarkImage, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -232,13 +325,44 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
 
 ---
 
-## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Image, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_2}
+## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Image*) {#setimage_4}
 
 Adds an image watermark into the document from streams with options.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    Image watermarkImage, ImageWatermarkOptions options = null)
+    Image watermarkImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+| watermarkImage | Image | Image that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Image, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_5}
+
+Adds an image watermark into the document from streams with options.
+
+```csharp
+public static void SetImage(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    Image watermarkImage, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -265,13 +389,44 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_1}
+## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Stream*) {#setimage_2}
 
 Adds an image watermark into the document from streams with options.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    Stream watermarkImageStream, ImageWatermarkOptions options = null)
+    Stream watermarkImageStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveFormat | SaveFormat | The save format. |
+| watermarkImageStream | Stream | Image stream that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_3}
+
+Adds an image watermark into the document from streams with options.
+
+```csharp
+public static void SetImage(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    Stream watermarkImageStream, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -298,13 +453,44 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_3}
+## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Stream*) {#setimage_6}
 
 Adds an image watermark into the document from streams with options.
 
 ```csharp
 public static void SetImage(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    Stream watermarkImageStream, ImageWatermarkOptions options = null)
+    Stream watermarkImageStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+| watermarkImageStream | Stream | Image stream that is displayed as a watermark. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Watermarker](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Stream, [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)*) {#setimage_7}
+
+Adds an image watermark into the document from streams with options.
+
+```csharp
+public static void SetImage(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    Stream watermarkImageStream, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |

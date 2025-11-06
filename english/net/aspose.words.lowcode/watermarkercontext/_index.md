@@ -5,7 +5,7 @@ articleTitle: WatermarkerContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LowCode.WatermarkerContext class for seamless document watermarking. Enhance your documents with ease and efficiency.
 type: docs
-weight: 4470
+weight: 4480
 url: /net/aspose.words.lowcode/watermarkercontext/
 ---
 ## WatermarkerContext class

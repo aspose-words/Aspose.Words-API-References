@@ -5,7 +5,7 @@ articleTitle: CellCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.CellCollection class for easy, typed access to Cell nodes, enhancing document manipulation and efficiency.
 type: docs
-weight: 7160
+weight: 7170
 url: /net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class

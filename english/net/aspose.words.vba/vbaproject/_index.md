@@ -5,7 +5,7 @@ articleTitle: VbaProject
 second_title: Aspose.Words for .NET
 description: Unlock the power of Aspose.Words.Vba.VbaProject class to effortlessly manage VBA project info and modules within your documents. Enhance your automation today!
 type: docs
-weight: 7500
+weight: 7510
 url: /net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class

@@ -5,7 +5,7 @@ articleTitle: WithProject
 second_title: Aspose.Words for .NET
 description: Enhance your AI capabilities with the OpenAiModel's WithProject method—easily assign projects to optimize performance and streamline your workflow.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.ai/openaimodel/withproject/
 ---
 ## OpenAiModel.WithProject method
