@@ -5,7 +5,7 @@ articleTitle: Merger
 second_title: Aspose.Words for .NET
 description: Effortlessly merge diverse document types into one with Aspose.Words.LowCode.Merger class. Streamline your workflow and enhance productivity today!
 type: docs
-weight: 4320
+weight: 4330
 url: /net/aspose.words.lowcode/merger/
 ---
 ## Merger class
@@ -23,8 +23,12 @@ public class Merger : Processor
 | static [Create](../../aspose.words.lowcode/merger/create/#create)() | Creates new instance of the mail merger processor. |
 | static [Create](../../aspose.words.lowcode/merger/create/#create_1)(*[MergerContext](../mergercontext/)*) | Creates new instance of the mail merger processor. |
 | [Execute](../../aspose.words.lowcode/processor/execute/)() | Execute the processor action. |
+| [Execute](../../aspose.words.lowcode/processor/execute/)(*CancellationToken*) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
+| [From](../../aspose.words.lowcode/processor/from/)(*Stream*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/)(*string*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
 | [From](../../aspose.words.lowcode/processor/from/)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [To](../../aspose.words.lowcode/processor/to/)(*string*) | Specifies output file for the processor. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*List&lt;Stream&gt;, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output stream for the processor. |

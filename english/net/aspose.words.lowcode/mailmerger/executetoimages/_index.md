@@ -8,13 +8,38 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/mailmerger/executetoimages/
 ---
-## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_5}
+## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[]*) {#executetoimages_6}
 
 Performs a mail merge operation for a single record and renders the result to images.
 
 ```csharp
 public static Stream[] ExecuteToImages(string inputFileName, ImageSaveOptions saveOptions, 
-    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
+    string[] fieldNames, object[] fieldValues)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| saveOptions | ImageSaveOptions | The output's save options. |
+| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_7}
+
+Performs a mail merge operation for a single record and renders the result to images.
+
+```csharp
+public static Stream[] ExecuteToImages(string inputFileName, ImageSaveOptions saveOptions, 
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions)
 ```
 
 | Parameter | Type | Description |
@@ -52,13 +77,38 @@ images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), f
 
 ---
 
-## ExecuteToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_2}
+## ExecuteToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[]*) {#executetoimages_2}
 
 Performs a mail merge operation for a single record and renders the result to images.
 
 ```csharp
 public static Stream[] ExecuteToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
+    string[] fieldNames, object[] fieldValues)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| saveOptions | ImageSaveOptions | The output's save options. |
+| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ExecuteToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_3}
+
+Performs a mail merge operation for a single record and renders the result to images.
+
+```csharp
+public static Stream[] ExecuteToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions)
 ```
 
 | Parameter | Type | Description |
@@ -98,7 +148,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_3}
+## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_4}
 
 Performs mail merge from a DataRow into the document and renders the result to images.
 
@@ -189,7 +239,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_4}
+## ExecuteToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#executetoimages_5}
 
 Performs mail merge from a DataRow into the document and renders the result to images.
 

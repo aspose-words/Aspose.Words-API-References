@@ -8,6 +8,64 @@ type: docs
 weight: 50
 url: /net/aspose.words.lowcode/mailmerger/executewithregionstoimages/
 ---
+## ExecuteWithRegionsToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataSet, [MailMergeOptions](../../mailmergeoptions/)*) {#executewithregionstoimages}
+
+Performs mail merge from a DataSet into the document with mail merge regions and renders the result to images.
+
+```csharp
+public static Stream[] ExecuteWithRegionsToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    DataSet dataSet, MailMergeOptions mailMergeOptions = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| saveOptions | ImageSaveOptions | The output's save options. |
+| dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Examples
+
+Shows how to do mail merge with regions operation from a DataSet using documents from the stream and save result to images.
+
+```csharp
+// There is a several ways to do mail merge with regions operation from a DataSet using documents from the stream:
+DataTable tableCustomers = new DataTable("Customers");
+tableCustomers.Columns.Add("CustomerID");
+tableCustomers.Columns.Add("CustomerName");
+tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
+tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
+
+DataTable tableOrders = new DataTable("Orders");
+tableOrders.Columns.Add("CustomerID");
+tableOrders.Columns.Add("ItemName");
+tableOrders.Columns.Add("Quantity");
+tableOrders.Rows.Add(new object[] { 1, "Hawaiian", 2 });
+tableOrders.Rows.Add(new object[] { 2, "Pepperoni", 1 });
+tableOrders.Rows.Add(new object[] { 2, "Chicago", 1 });
+
+DataSet dataSet = new DataSet();
+dataSet.Tables.Add(tableCustomers);
+dataSet.Tables.Add(tableOrders);
+dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns["CustomerID"]);
+
+using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
+{
+    Stream[] images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet);
+    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+}
+```
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [MailMergeOptions](../../mailmergeoptions/)
+* class [MailMerger](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
 ## ExecuteWithRegionsToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#executewithregionstoimages_3}
 
 Performs mail merge from a DataTable into the document with mail merge regions and renders the result to images.
@@ -144,64 +202,6 @@ dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns[
 
 Stream[] images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataSet);
 images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataSet, new MailMergeOptions() { TrimWhitespaces = true });
-```
-
-### See Also
-
-* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
-* class [MailMergeOptions](../../mailmergeoptions/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## ExecuteWithRegionsToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), DataSet, [MailMergeOptions](../../mailmergeoptions/)*) {#executewithregionstoimages}
-
-Performs mail merge from a DataSet into the document with mail merge regions and renders the result to images.
-
-```csharp
-public static Stream[] ExecuteWithRegionsToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    DataSet dataSet, MailMergeOptions mailMergeOptions = null)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | Stream | The input file stream. |
-| saveOptions | ImageSaveOptions | The output's save options. |
-| dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
-
-## Examples
-
-Shows how to do mail merge with regions operation from a DataSet using documents from the stream and save result to images.
-
-```csharp
-// There is a several ways to do mail merge with regions operation from a DataSet using documents from the stream:
-DataTable tableCustomers = new DataTable("Customers");
-tableCustomers.Columns.Add("CustomerID");
-tableCustomers.Columns.Add("CustomerName");
-tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
-tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
-
-DataTable tableOrders = new DataTable("Orders");
-tableOrders.Columns.Add("CustomerID");
-tableOrders.Columns.Add("ItemName");
-tableOrders.Columns.Add("Quantity");
-tableOrders.Rows.Add(new object[] { 1, "Hawaiian", 2 });
-tableOrders.Rows.Add(new object[] { 2, "Pepperoni", 1 });
-tableOrders.Rows.Add(new object[] { 2, "Chicago", 1 });
-
-DataSet dataSet = new DataSet();
-dataSet.Tables.Add(tableCustomers);
-dataSet.Tables.Add(tableOrders);
-dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns["CustomerID"]);
-
-using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
-{
-    Stream[] images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet);
-    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet, new MailMergeOptions() { TrimWhitespaces = true });
-}
 ```
 
 ### See Also

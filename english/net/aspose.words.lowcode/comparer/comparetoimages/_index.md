@@ -8,13 +8,39 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/comparer/comparetoimages/
 ---
-## CompareToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#comparetoimages_1}
+## CompareToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime*) {#comparetoimages_2}
 
 Compares two documents and saves the differences as images. Each item in the returned array represents a single page of the output rendered as an image.
 
 ```csharp
 public static Stream[] CompareToImages(string v1, string v2, ImageSaveOptions imageSaveOptions, 
-    string author, DateTime dateTime, CompareOptions compareOptions = null)
+    string author, DateTime dateTime)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | String | The original document. |
+| v2 | String | The modified document. |
+| imageSaveOptions | ImageSaveOptions | The output's image save options. |
+| author | String | Initials of the author to use for revisions. |
+| dateTime | DateTime | The date and time to use for revisions. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Comparer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## CompareToImages(*string, string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#comparetoimages_3}
+
+Compares two documents and saves the differences as images. Each item in the returned array represents a single page of the output rendered as an image.
+
+```csharp
+public static Stream[] CompareToImages(string v1, string v2, ImageSaveOptions imageSaveOptions, 
+    string author, DateTime dateTime, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +62,33 @@ public static Stream[] CompareToImages(string v1, string v2, ImageSaveOptions im
 
 ---
 
-## CompareToImages(*Stream, Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#comparetoimages}
+## CompareToImages(*Stream, Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime*) {#comparetoimages}
+
+Compares two documents and saves the differences as images. Each item in the returned array represents a single page of the output rendered as an image.
+
+```csharp
+public static Stream[] CompareToImages(Stream v1, Stream v2, ImageSaveOptions imageSaveOptions, 
+    string author, DateTime dateTime)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | Stream | The original document. |
+| v2 | Stream | The modified document. |
+| imageSaveOptions | ImageSaveOptions | The output's image save options. |
+| author | String | Initials of the author to use for revisions. |
+| dateTime | DateTime | The date and time to use for revisions. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Comparer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## CompareToImages(*Stream, Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#comparetoimages_1}
 
 Compares two documents and saves the differences as images. Each item in the returned array represents a single page of the output rendered as an image.
 

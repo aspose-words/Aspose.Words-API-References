@@ -5,7 +5,7 @@ articleTitle: ImagePixelFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.ImagePixelFormat enum for optimal pixel formats in document page images. Enhance your document visuals effortlessly!
 type: docs
-weight: 6000
+weight: 6010
 url: /net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration

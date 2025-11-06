@@ -5,7 +5,7 @@ articleTitle: WithOrganization
 second_title: Aspose.Words for .NET
 description: Discover how the OpenAiModel WithOrganization method enhances your AI experience by easily setting your organization for optimized performance.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.ai/openaimodel/withorganization/
 ---
 ## OpenAiModel.WithOrganization method

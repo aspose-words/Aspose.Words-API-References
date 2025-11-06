@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XlsxSaveOptions to enhance your document conversion to Xlsx. Unlock advanced saving options for optimal results!
 type: docs
-weight: 6570
+weight: 6580
 url: /net/aspose.words.saving/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions class

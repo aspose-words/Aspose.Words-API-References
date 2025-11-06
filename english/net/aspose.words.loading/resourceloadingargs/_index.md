@@ -5,7 +5,7 @@ articleTitle: ResourceLoadingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Loading.ResourceLoadingArgs class, designed to enhance resource loading efficiency in your applications. Unlock seamless integration today!
 type: docs
-weight: 4170
+weight: 4180
 url: /net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class

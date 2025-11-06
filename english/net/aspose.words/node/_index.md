@@ -5,7 +5,7 @@ articleTitle: Node
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Node class, the essential foundation for all Word document nodes, enabling seamless document manipulation and customization.
 type: docs
-weight: 4880
+weight: 4890
 url: /net/aspose.words/node/
 ---
 ## Node class

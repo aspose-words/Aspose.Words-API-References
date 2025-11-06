@@ -5,7 +5,7 @@ articleTitle: Processor
 second_title: Aspose.Words for .NET
 description: Enhance document processing with Aspose.Words.LowCode.Processor class, designed for seamless and efficient handling of various document tasks.
 type: docs
-weight: 4340
+weight: 4350
 url: /net/aspose.words.lowcode/processor/
 ---
 ## Processor class
@@ -20,15 +20,19 @@ public class Processor
 
 | Name | Description |
 | --- | --- |
-| [Execute](../../aspose.words.lowcode/processor/execute/)() | Execute the processor action. |
-| [From](../../aspose.words.lowcode/processor/from/#from)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
-| [From](../../aspose.words.lowcode/processor/from/#from_1)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [Execute](../../aspose.words.lowcode/processor/execute/#execute)() | Execute the processor action. |
+| [Execute](../../aspose.words.lowcode/processor/execute/#execute_1)(*CancellationToken*) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
+| [From](../../aspose.words.lowcode/processor/from/#from)(*Stream*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/#from_2)(*string*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/#from_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/#from_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [To](../../aspose.words.lowcode/processor/to/#to_4)(*string*) | Specifies output file for the processor. |
 | [To](../../aspose.words.lowcode/processor/to/#to)(*List&lt;Stream&gt;, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/#to_1)(*List&lt;Stream&gt;, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output Document streams list. |
 | [To](../../aspose.words.lowcode/processor/to/#to_2)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output stream for the processor. |
 | [To](../../aspose.words.lowcode/processor/to/#to_3)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output stream for the processor. |
-| [To](../../aspose.words.lowcode/processor/to/#to_4)(*string, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output file for the processor. |
-| [To](../../aspose.words.lowcode/processor/to/#to_5)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output file for the processor. |
+| [To](../../aspose.words.lowcode/processor/to/#to_5)(*string, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output file for the processor. |
+| [To](../../aspose.words.lowcode/processor/to/#to_6)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output file for the processor. |
 
 ## Examples
 

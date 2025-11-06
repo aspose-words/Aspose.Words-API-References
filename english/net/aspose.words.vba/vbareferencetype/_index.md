@@ -5,7 +5,7 @@ articleTitle: VbaReferenceType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Vba.VbaReferenceType enum to easily define VbaReference object types, enhancing your document automation and management.
 type: docs
-weight: 7530
+weight: 7540
 url: /net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration

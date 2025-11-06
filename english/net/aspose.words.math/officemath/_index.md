@@ -5,7 +5,7 @@ articleTitle: OfficeMath
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Math.OfficeMath class, designed for creating and managing Office Math objects like equations and matrices with ease.
 type: docs
-weight: 4830
+weight: 4840
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class

@@ -5,7 +5,7 @@ articleTitle: WebExtensionReference
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensionReference class, your key to managing web extensions with ease. Identify providers and versions effortlessly!
 type: docs
-weight: 7720
+weight: 7730
 url: /net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class

@@ -8,13 +8,41 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/reportbuilder/buildreport/
 ---
-## BuildReport(*string, string, object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_12}
+## BuildReport(*string, string, object*) {#buildreport_24}
+
+Populates the template document with data from the specified source, generating a completed report with additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, object data)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| data | Object | A data source object. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_25}
 
 Populates the template document with data from the specified source, generating a completed report with additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data, 
-    ReportBuilderOptions reportBuilderOptions = null)
+    ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -63,13 +91,44 @@ public class AsposeData
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_6}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport_12}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    object data, ReportBuilderOptions reportBuilderOptions = null)
+    object data)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object | A data source object. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_13}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
+    object data, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -120,13 +179,44 @@ public class AsposeData
 
 ---
 
-## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_9}
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object*) {#buildreport_18}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, 
-    SaveOptions saveOptions, object data, ReportBuilderOptions reportBuilderOptions = null)
+    SaveOptions saveOptions, object data)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_19}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object data, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -153,13 +243,44 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport}
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object*) {#buildreport}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    object data, ReportBuilderOptions reportBuilderOptions = null)
+    object data)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object | A data source object. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_1}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    object data, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -208,13 +329,44 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_3}
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object*) {#buildreport_6}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    object data, ReportBuilderOptions reportBuilderOptions = null)
+    object data)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_7}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options, from input and output streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object data, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -241,13 +393,43 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## BuildReport(*string, string, object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_13}
+## BuildReport(*string, string, object, string*) {#buildreport_26}
 
 Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object data, 
-    string dataSourceName, ReportBuilderOptions reportBuilderOptions = null)
+    string dataSourceName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_27}
+
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, object data, 
+    string dataSourceName, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -319,13 +501,45 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_7}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_14}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions = null)
+    object data, string dataSourceName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_15}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
+    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -399,14 +613,46 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_10}
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string*) {#buildreport_20}
+
+Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object data, string dataSourceName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_21}
 
 Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, 
     SaveOptions saveOptions, object data, string dataSourceName, 
-    ReportBuilderOptions reportBuilderOptions = null)
+    ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -434,13 +680,45 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_1}
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, string*) {#buildreport_2}
 
 Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions = null)
+    object data, string dataSourceName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_3}
+
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -501,13 +779,45 @@ using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", File
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_4}
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string*) {#buildreport_8}
 
 Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions = null)
+    object data, string dataSourceName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object | A data source object. |
+| dataSourceName | String | A name to reference the data source object in the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object, string, [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_9}
+
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object data, string dataSourceName, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -535,13 +845,43 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## BuildReport(*string, string, object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_14}
+## BuildReport(*string, string, object[], string[]*) {#buildreport_28}
 
 Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, object[] data, 
-    string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_29}
+
+Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, object[] data, 
+    string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -613,13 +953,45 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_8}
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_16}
 
 Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_17}
+
+Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, SaveFormat saveFormat, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -693,14 +1065,46 @@ public class MessageTestClass
 
 ---
 
-## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_11}
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[]*) {#buildreport_22}
+
+Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
+
+```csharp
+public static void BuildReport(string inputFileName, string outputFileName, 
+    SaveOptions saveOptions, object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_23}
 
 Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
 
 ```csharp
 public static void BuildReport(string inputFileName, string outputFileName, 
     SaveOptions saveOptions, object[] data, string[] dataSourceNames, 
-    ReportBuilderOptions reportBuilderOptions = null)
+    ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -728,13 +1132,45 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_2}
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object[], string[]*) {#buildreport_4}
 
 Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveFormat | SaveFormat | The output's save format. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_5}
+
+Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |
@@ -784,13 +1220,45 @@ using (FileStream streamIn = new FileStream(MyDir + "Reporting engine template -
 
 ---
 
-## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_5}
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[]*) {#buildreport_10}
 
 Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
 
 ```csharp
 public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions = null)
+    object[] data, string[] dataSourceNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| outputStream | Stream | The output file stream. |
+| saveOptions | SaveOptions | The output's save options. |
+| data | Object[] | An array of data source objects. |
+| dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [ReportBuilder](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## BuildReport(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), object[], string[], [ReportBuilderOptions](../../reportbuilderoptions/)*) {#buildreport_11}
+
+Populates the template document with data from multiple sources, generating a completed report with specified output format and additional options from the specified input and output file streams.
+
+```csharp
+public static void BuildReport(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    object[] data, string[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)
 ```
 
 | Parameter | Type | Description |

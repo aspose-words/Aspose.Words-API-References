@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/replacer/replace/
 ---
-## Replace(*string, string, string, string*) {#replace_8}
+## Replace(*string, string, string, string*) {#replace_12}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file.
 
@@ -59,13 +59,49 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_4}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace_6}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    string pattern, string replacement, FindReplaceOptions options = null)
+    string pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveFormat | SaveFormat | The save format. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### Return Value
+
+The number of replacements made.
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_7}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
+
+```csharp
+public static int Replace(string inputFileName, string outputFileName, SaveFormat saveFormat, 
+    string pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -114,13 +150,49 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.Replace.3.docx", SaveFormat.Docx, 
 
 ---
 
-## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_6}
+## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string*) {#replace_9}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(string inputFileName, string outputFileName, SaveOptions saveOptions, 
-    string pattern, string replacement, FindReplaceOptions options = null)
+    string pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| outputFileName | String | The output file name. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### Return Value
+
+The number of replacements made.
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_10}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
+
+```csharp
+public static int Replace(string inputFileName, string outputFileName, SaveOptions saveOptions, 
+    string pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -152,13 +224,49 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace}
+## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, string*) {#replace}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    string pattern, string replacement, FindReplaceOptions options = null)
+    string pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveFormat | SaveFormat | The save format. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### Return Value
+
+The number of replacements made.
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.words/saveformat/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
+
+```csharp
+public static int Replace(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
+    string pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -213,13 +321,49 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
 
 ---
 
-## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_2}
+## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string*) {#replace_3}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
 
 ```csharp
 public static int Replace(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    string pattern, string replacement, FindReplaceOptions options = null)
+    string pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input stream. |
+| outputStream | Stream | The output stream. |
+| saveOptions | SaveOptions | The save options. |
+| pattern | String | A string to be replaced. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### Return Value
+
+The number of replacements made.
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+### See Also
+
+* class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_4}
+
+Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options.
+
+```csharp
+public static int Replace(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
+    string pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -251,7 +395,7 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## Replace(*string, string, Regex, string*) {#replace_9}
+## Replace(*string, string, Regex, string*) {#replace_13}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression.
 
@@ -300,7 +444,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ---
 
-## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_5}
+## Replace(*string, string, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_8}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
@@ -353,7 +497,7 @@ Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.D
 
 ---
 
-## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_7}
+## Replace(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_11}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options.
 
@@ -391,7 +535,7 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 
 ---
 
-## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
+## Replace(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_2}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
 
@@ -448,7 +592,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMo
 
 ---
 
-## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
+## Replace(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_5}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options.
 

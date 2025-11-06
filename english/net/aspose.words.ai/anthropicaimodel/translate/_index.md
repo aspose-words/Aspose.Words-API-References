@@ -5,7 +5,7 @@ articleTitle: Translate
 second_title: Aspose.Words for .NET
 description: Anthropic AI translation service for documents. Translate files into any language using Claude's advanced natural language processing.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.ai/anthropicaimodel/translate/
 ---
 ## AnthropicAiModel.Translate method

@@ -8,12 +8,40 @@ type: docs
 weight: 20
 url: /net/aspose.words.lowcode/processor/from/
 ---
-## From(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#from_1}
+## From(*string*) {#from_2}
 
 Specifies input document for processing.
 
 ```csharp
-public Processor From(string input, LoadOptions loadOptions = null)
+public Processor From(string input)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input | String | Input document file name. |
+
+### Return Value
+
+Returns processor with specified input file.
+
+## Remarks
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [`Merger`](../../merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [`Converter`](../../converter/) processor accepts only one file as an input, so only the last specified file will be converted.
+
+### See Also
+
+* class [Processor](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## From(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#from_3}
+
+Specifies input document for processing.
+
+```csharp
+public Processor From(string input, LoadOptions loadOptions)
 ```
 
 | Parameter | Type | Description |
@@ -97,12 +125,40 @@ Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSource
 
 ---
 
-## From(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#from}
+## From(*Stream*) {#from}
 
 Specifies input document for processing.
 
 ```csharp
-public Processor From(Stream input, LoadOptions loadOptions = null)
+public Processor From(Stream input)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input | Stream | Input document stream. |
+
+### Return Value
+
+Returns processor with specified input file stream.
+
+## Remarks
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [`Merger`](../../merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [`Converter`](../../converter/) processor accepts only one file as an input, so only the last specified file will be converted.
+
+### See Also
+
+* class [Processor](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## From(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#from_1}
+
+Specifies input document for processing.
+
+```csharp
+public Processor From(Stream input, LoadOptions loadOptions)
 ```
 
 | Parameter | Type | Description |

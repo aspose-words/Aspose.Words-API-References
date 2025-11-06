@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.SvgSaveOptions to enhance your document conversion to SVG format with customizable features for optimal results.
 type: docs
-weight: 6440
+weight: 6450
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class

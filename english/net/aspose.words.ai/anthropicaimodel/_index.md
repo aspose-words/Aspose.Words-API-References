@@ -16,6 +16,13 @@ An abstract class representing the integration with Anthropic’s AI models with
 public abstract class AnthropicAiModel : AiModel, IAiModelText
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Timeout](../../aspose.words.ai/aimodel/timeout/) { get; set; } | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds). |
+| override [Url](../../aspose.words.ai/anthropicaimodel/url/) { get; set; } | Gets or sets a URL of the model. The default value is "https://api.anthropic.com/". |
+
 ## Methods
 
 | Name | Description |

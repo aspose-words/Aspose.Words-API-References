@@ -5,7 +5,7 @@ articleTitle: LoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.LoadOptions for enhanced document loading. Set passwords and base URIs effortlessly for seamless integration and security.
 type: docs
-weight: 4130
+weight: 4140
 url: /net/aspose.words.loading/loadoptions/
 ---
 ## LoadOptions class

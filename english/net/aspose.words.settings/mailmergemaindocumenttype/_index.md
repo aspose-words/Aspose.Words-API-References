@@ -5,7 +5,7 @@ articleTitle: MailMergeMainDocumentType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMergeMainDocumentType enum, defining various mail merge source document types for seamless document automation.
 type: docs
-weight: 6720
+weight: 6730
 url: /net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration

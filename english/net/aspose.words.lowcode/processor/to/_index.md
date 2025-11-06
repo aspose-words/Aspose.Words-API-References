@@ -8,7 +8,35 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/processor/to/
 ---
-## To(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#to_5}
+## To(*string*) {#to_4}
+
+Specifies output file for the processor.
+
+```csharp
+public Processor To(string output)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | String | Output file name. |
+
+### Return Value
+
+Returns processor with specified output file.
+
+## Remarks
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile_partIndex.extension'.
+
+### See Also
+
+* class [Processor](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## To(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#to_6}
 
 Specifies output file for the processor.
 
@@ -97,7 +125,7 @@ Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSource
 
 ---
 
-## To(*string, [SaveFormat](../../../aspose.words/saveformat/)*) {#to_4}
+## To(*string, [SaveFormat](../../../aspose.words/saveformat/)*) {#to_5}
 
 Specifies output file for the processor.
 
