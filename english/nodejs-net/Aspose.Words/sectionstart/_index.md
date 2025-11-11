@@ -5,7 +5,7 @@ articleTitle: SectionStart enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SectionStart enumeration. The type of break at the beginning of the section."
 type: docs
-weight: 1200
+weight: 1210
 url: /nodejs-net/aspose.words/sectionstart/
 ---
 

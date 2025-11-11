@@ -5,7 +5,7 @@ articleTitle: WebExtension class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtension class. Represents a web extension object"
 type: docs
-weight: 1550
+weight: 1560
 url: /nodejs-net/aspose.words/webextension/
 ---
 

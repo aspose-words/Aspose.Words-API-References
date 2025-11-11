@@ -150,6 +150,7 @@ The main classes in this module are:
 | [IDocumentProcessorPlugin](./idocumentprocessorplugin/) | Defines an interface for external document processor plugin. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
+| [IIndexFilter](./iindexfilter/) | Defines a filter for skipping items based on their indices. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
 | [IRevisionCriteria](./irevisioncriteria/) | Implement this interface if you want to control when certain [Revision](./revision/) should be accepted/rejected or not by the [RevisionCollection.accept()](./revisioncollection/accept/#irevisioncriteria)/[RevisionCollection.reject()](./revisioncollection/reject/#irevisioncriteria) methods. |
 

@@ -3,17 +3,13 @@ title: AiModel.asAnthropicAiModel method
 linktitle: asAnthropicAiModel method
 articleTitle: asAnthropicAiModel method
 second_title: Aspose.Words for Node.js
-description: "AiModel.asAnthropicAiModel method. Cast AiModel to [AnthropicAiModel](../../anthropicaimodel/)."
+description: "AiModel.asAnthropicAiModel method. "
 type: docs
-weight: 10
+weight: 30
 url: /nodejs-net/aspose.words.ai/aimodel/asAnthropicAiModel/
 ---
 
 ## asAnthropicAiModel() {#default}
-
-Cast AiModel to [AnthropicAiModel](../../anthropicaimodel/).
-
-
 
 ```js
 asAnthropicAiModel()

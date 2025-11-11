@@ -5,7 +5,7 @@ articleTitle: translate method
 second_title: Aspose.Words for Node.js
 description: "GoogleAiModel.translate method. Translates a specified document."
 type: docs
-weight: 20
+weight: 30
 url: /nodejs-net/aspose.words.ai/googleaimodel/translate/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: StoryType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.StoryType enumeration. Text of a Word document is stored in stories"
 type: docs
-weight: 1250
+weight: 1260
 url: /nodejs-net/aspose.words/storytype/
 ---
 

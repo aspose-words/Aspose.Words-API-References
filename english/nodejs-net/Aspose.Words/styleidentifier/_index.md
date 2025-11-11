@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.StyleIdentifier enumeration. Locale independent style identifier."
 type: docs
-weight: 1280
+weight: 1290
 url: /nodejs-net/aspose.words/styleidentifier/
 ---
 
