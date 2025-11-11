@@ -5,7 +5,7 @@ articleTitle: PlainTextDocument class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PlainTextDocument class. Allows to extract plain-text representation of the document's content"
 type: docs
-weight: 1050
+weight: 1060
 url: /nodejs-net/aspose.words/plaintextdocument/
 ---
 

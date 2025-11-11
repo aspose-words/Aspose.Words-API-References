@@ -5,7 +5,7 @@ articleTitle: setProject method
 second_title: Aspose.Words for Node.js
 description: "OpenAiModel.setProject method. Sets a specified Project to the model."
 type: docs
-weight: 20
+weight: 30
 url: /nodejs-net/aspose.words.ai/openaimodel/setProject/
 ---
 

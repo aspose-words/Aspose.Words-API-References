@@ -44,12 +44,12 @@ switch (htmlVersion)
   case aw.Saving.HtmlVersion.Html5:
     expect(outDocContents.includes("<a id=\"_Toc76372689\"></a>")).toEqual(true);
     expect(outDocContents.includes("<a id=\"_Toc76372689\"></a>")).toEqual(true);
-    expect(outDocContents.includes("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">")).toEqual(true);
+    expect(outDocContents.includes("<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">")).toEqual(true);
     break;
   case aw.Saving.HtmlVersion.Xhtml:
     expect(outDocContents.includes("<a name=\"_Toc76372689\"></a>")).toEqual(true);
     expect(outDocContents.includes("<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">")).toEqual(true);
-    expect(outDocContents.includes("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\"")).toEqual(true);
+    expect(outDocContents.includes("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\"")).toEqual(true);
     break;
 }
 ```

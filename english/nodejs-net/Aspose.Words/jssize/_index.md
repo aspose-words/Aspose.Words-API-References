@@ -5,7 +5,7 @@ articleTitle: JSSize class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSSize class. Stores an ordered pair of integers, which specify a Height and Width."
 type: docs
-weight: 730
+weight: 740
 url: /nodejs-net/aspose.words/jssize/
 ---
 

@@ -16,13 +16,18 @@ An abstract class representing the integration with OpenAI's large language mode
 
 **Inheritance:** [OpenAiModel](./) → [AiModel](../aimodel/)
 
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [timeout](../aimodel/timeout/) | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).<br>(Inherited from [AiModel](../aimodel/)) |
+| [url](./url/) | Gets or sets a URL of the model. The default value is "https://api.openai.com/". |
+
 ### Methods
 
 | Name | Description |
 | --- | --- |
-|[ asAnthropicAiModel()](../aimodel/asAnthropicAiModel/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/).<br>(Inherited from [AiModel](../aimodel/)) |
-|[ asGoogleAiModel()](../aimodel/asGoogleAiModel/#default) | Cast AiModel to [GoogleAiModel](../googleaimodel/).<br>(Inherited from [AiModel](../aimodel/)) |
-|[ asOpenAiModel()](../aimodel/asOpenAiModel/#default) | Cast AiModel to [OpenAiModel](./).<br>(Inherited from [AiModel](../aimodel/)) |
+|[ asAnthropicAiModel()](../aimodel/asAnthropicAiModel/#default) | <br>(Inherited from [AiModel](../aimodel/)) |
 |[ checkGrammar(sourceDocument, options)](../aimodel/checkGrammar/#document_checkgrammaroptions) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ create(modelType)](../aimodel/create/#aimodeltype) | Creates a new instance of [AiModel](../aimodel/) class.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createClaude35Haiku()](../aimodel/createClaude35Haiku/#default) | Creates a new instance of Claude 3.5 Haiku generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
