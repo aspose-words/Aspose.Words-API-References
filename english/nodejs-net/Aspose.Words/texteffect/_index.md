@@ -5,7 +5,7 @@ articleTitle: TextEffect enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TextEffect enumeration. Animation effect for text runs."
 type: docs
-weight: 1400
+weight: 1410
 url: /nodejs-net/aspose.words/texteffect/
 ---
 

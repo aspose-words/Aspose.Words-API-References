@@ -36,7 +36,7 @@ class ResourceSavingArgs : public System::Object
 ## Remarks
 
 
-By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each resource found in the document.
+By default, when Aspose.Words saves a document to fixed page HTML, SVG or Markdown, it saves each resource into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each resource found in the document.
 
 [ResourceSavingArgs](./) allows to redefine how resource file names are generated or to completely circumvent saving of resources into files by providing your own stream objects.
 

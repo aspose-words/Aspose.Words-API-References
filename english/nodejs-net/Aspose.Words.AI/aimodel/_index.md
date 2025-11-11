@@ -14,13 +14,18 @@ url: /nodejs-net/aspose.words.ai/aimodel/
 Represents information about a Generative Language Model.
 
 
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [timeout](./timeout/) | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds). |
+| [url](./url/) | Gets or sets a URL of the model. The default value is specific for the model. |
+
 ### Methods
 
 | Name | Description |
 | --- | --- |
-|[ asAnthropicAiModel()](./asAnthropicAiModel/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/). |
-|[ asGoogleAiModel()](./asGoogleAiModel/#default) | Cast AiModel to [GoogleAiModel](../googleaimodel/). |
-|[ asOpenAiModel()](./asOpenAiModel/#default) | Cast AiModel to [OpenAiModel](../openaimodel/). |
+|[ asAnthropicAiModel()](./asAnthropicAiModel/#default) |  |
 |[ checkGrammar(sourceDocument, options)](./checkGrammar/#document_checkgrammaroptions) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document. |
 |[ create(modelType)](./create/#aimodeltype) | Creates a new instance of [AiModel](./) class. |
 |[ createClaude35Haiku()](./createClaude35Haiku/#default) | Creates a new instance of Claude 3.5 Haiku generative model type. |

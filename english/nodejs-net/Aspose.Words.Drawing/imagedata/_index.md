@@ -20,13 +20,13 @@ Adapts [ImageData](./) class public API for Node.js porting.
 Use the [Shape.imageData](../shape/imageData/) property to access and modify the image inside a shape.
 You do not create instances of the [ImageData](./) class directly.
 
-An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
+An image can be stored inside a shape, linked to external file or both(linked and stored in the document).
 
 Regardless of whether the image is stored inside the shape or linked, you can always access the actual
 image using the [ImageData.toByteArray()](./toByteArray/#default),  or[ImageData.save()](./save/#string) methods.
 If the image is stored inside the shape, you can also directly access it using the [ImageData.imageBytes](./imageBytes/) property.
 
-To store an image inside a shape use the [ImageData.setImage()](./setImage/#string) method. To link an image to a shape, set the [ImageData.sourceFullName](./sourceFullName/) property.
+To store an image inside a shape use the[ImageData.setImage()](./setImage/#string) method.To link an image to a shape, set the[ImageData.sourceFullName](./sourceFullName/) property.
 
 
 
