@@ -22,6 +22,7 @@ Specifies how Aspose.Words exports OfficeMath to Markdown.
 | IMAGE | Export OfficeMath as image. |
 | MATH_ML | Export OfficeMath as MathML. |
 | LATEX | Export OfficeMath as LaTeX. |
+| MARK_IT_DOWN | Export OfficeMath as LaTeX that is compatible with MarkItDown. |
 
 ### Examples
 
@@ -41,6 +42,15 @@ doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
 save_options = aw.saving.MarkdownSaveOptions()
 save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.LATEX
 doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportOfficeMathAsLatex.md', save_options=save_options)
+```
+
+Shows how to export OfficeMath object as MarkItDown.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
+save_options = aw.saving.MarkdownSaveOptions()
+save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.MARK_IT_DOWN
+doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md', save_options=save_options)
 ```
 
 ### See Also

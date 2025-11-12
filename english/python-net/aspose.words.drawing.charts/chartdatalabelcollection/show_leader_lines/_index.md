@@ -49,7 +49,7 @@ chart = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PIE, width=5
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()
 # Insert a custom chart series with a category name for each of the sectors, and their frequency table.
-series = chart.series.add(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel'], values=[2.7, 3.2, 0.8])
+series = chart.series.add1(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel'], values=[2.7, 3.2, 0.8])
 # Enable data labels that will display both percentage and frequency of each sector, and modify their appearance.
 series.has_data_labels = True
 data_labels = series.data_labels

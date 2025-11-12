@@ -3,7 +3,7 @@ title: Node.as_cell method
 linktitle: as_cell method
 articleTitle: as_cell method
 second_title: Aspose.Words for Python
-description: "Node.as_cell method. Cast node to [Cell](../../../aspose.words.tables/cell/)."
+description: "Node.as_cell method. Cast Node to [Cell](../../../aspose.words.tables/cell/)."
 type: docs
 weight: 140
 url: /python-net/aspose.words/node/as_cell/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_cell/
 
 ## as_cell() {#default}
 
-Cast node to [Cell](../../../aspose.words.tables/cell/).
+Cast Node to [Cell](../../../aspose.words.tables/cell/).
 
 
 

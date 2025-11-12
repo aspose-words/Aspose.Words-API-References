@@ -45,8 +45,8 @@ chart = shape.chart
 series = chart.series
 series.clear()
 categories = ['Category 1', 'Category 2']
-series.add(series_name='Series 1', categories=categories, values=[1, 2])
-series.add(series_name='Series 2', categories=categories, values=[3, 4])
+series.add1(series_name='Series 1', categories=categories, values=[1, 2])
+series.add1(series_name='Series 2', categories=categories, values=[3, 4])
 # Format chart background.
 chart.format.fill.solid(aspose.pydrawing.Color.dark_slate_gray)
 # Hide axis tick labels.

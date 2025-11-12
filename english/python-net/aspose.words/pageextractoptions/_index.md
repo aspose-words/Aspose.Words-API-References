@@ -5,7 +5,7 @@ articleTitle: PageExtractOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.PageExtractOptions class. Allows to specify options for document page extracting."
 type: docs
-weight: 890
+weight: 900
 url: /python-net/aspose.words/pageextractoptions/
 ---
 

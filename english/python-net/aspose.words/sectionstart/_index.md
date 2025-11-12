@@ -5,7 +5,7 @@ articleTitle: SectionStart enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.SectionStart enumeration. The type of break at the beginning of the section."
 type: docs
-weight: 1130
+weight: 1140
 url: /python-net/aspose.words/sectionstart/
 ---
 

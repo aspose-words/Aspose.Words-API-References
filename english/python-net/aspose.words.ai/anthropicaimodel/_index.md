@@ -18,6 +18,13 @@ An abstract class representing the integration with Anthropic’s AI models with
 
 **Interfaces:** [IAiModelText](../iaimodeltext/)
 
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [timeout](../aimodel/timeout/) | Gets or sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).<br>(Inherited from [AiModel](../aimodel/)) |
+| [url](./url/) | Gets or sets a URL of the model. The default value is "https://api.anthropic.com/". |
+
 ### Methods
 
 | Name | Description |

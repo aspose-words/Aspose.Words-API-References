@@ -29,11 +29,11 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/pyth
 
 | Name | Description |
 | --- | --- |
-|[ as_file_font_source()](./as_file_font_source/#default) | Cast [FontSourceBase](./) object to [FileFontSource](../filefontsource/). |
-|[ as_folder_font_source()](./as_folder_font_source/#default) | Cast [FontSourceBase](./) object to [FolderFontSource](../folderfontsource/). |
-|[ as_memory_font_source()](./as_memory_font_source/#default) | Cast [FontSourceBase](./) object to [MemoryFontSource](../memoryfontsource/). |
-|[ as_stream_font_source()](./as_stream_font_source/#default) | Cast [FontSourceBase](./) object to [StreamFontSource](../streamfontsource/). |
-|[ as_system_font_source()](./as_system_font_source/#default) | Cast [FontSourceBase](./) object to [SystemFontSource](../systemfontsource/). |
+|[ as_file_font_source()](./as_file_font_source/#default) | Cast FontSourceBase to [FileFontSource](../filefontsource/). |
+|[ as_folder_font_source()](./as_folder_font_source/#default) | Cast FontSourceBase to [FolderFontSource](../folderfontsource/). |
+|[ as_memory_font_source()](./as_memory_font_source/#default) | Cast FontSourceBase to [MemoryFontSource](../memoryfontsource/). |
+|[ as_stream_font_source()](./as_stream_font_source/#default) | Cast FontSourceBase to [StreamFontSource](../streamfontsource/). |
+|[ as_system_font_source()](./as_system_font_source/#default) | Cast FontSourceBase to [SystemFontSource](../systemfontsource/). |
 |[ get_available_fonts()](./get_available_fonts/#default) | Returns list of fonts available via this source. |
 
 ### Examples

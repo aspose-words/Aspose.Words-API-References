@@ -5,7 +5,7 @@ articleTitle: Style class
 second_title: Aspose.Words for Python
 description: "aspose.words.Style class. Represents a single built-in or user-defined style"
 type: docs
-weight: 1190
+weight: 1200
 url: /python-net/aspose.words/style/
 ---
 
@@ -47,7 +47,7 @@ To learn more, visit the [Working with Styles and Themes](https://docs.aspose.co
 
 | Name | Description |
 | --- | --- |
-|[ as_table_style()](./as_table_style/#default) |  |
+|[ as_table_style()](./as_table_style/#default) | Cast Style to [TableStyle](../tablestyle/). |
 |[ equals(style)](./equals/#style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 |[ remove()](./remove/#default) | Removes the specified style from the document. |
 

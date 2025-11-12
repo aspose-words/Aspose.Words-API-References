@@ -48,9 +48,9 @@ chart = shape.chart
 series = chart.series
 series.clear()
 x_values = [2020, 2021, 2022, 2023]
-series.add(series_name='Series1', x_values=x_values, y_values=[5, 11, 2, 7])
-series.add(series_name='Series2', x_values=x_values, y_values=[6, 5.5, 7, 7.8])
-series.add(series_name='Series3', x_values=x_values, y_values=[10, 8, 7, 9])
+series.add_double(series_name='Series1', x_values=x_values, y_values=[5, 11, 2, 7])
+series.add_double(series_name='Series2', x_values=x_values, y_values=[6, 5.5, 7, 7.8])
+series.add_double(series_name='Series3', x_values=x_values, y_values=[10, 8, 7, 9])
 data_table = chart.data_table
 data_table.show = True
 data_table.has_legend_keys = False

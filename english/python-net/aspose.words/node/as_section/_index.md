@@ -3,7 +3,7 @@ title: Node.as_section method
 linktitle: as_section method
 articleTitle: as_section method
 second_title: Aspose.Words for Python
-description: "Node.as_section method. Cast node to [Section](../../section/)."
+description: "Node.as_section method. Cast Node to [Section](../../section/)."
 type: docs
 weight: 340
 url: /python-net/aspose.words/node/as_section/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_section/
 
 ## as_section() {#default}
 
-Cast node to [Section](../../section/).
+Cast Node to [Section](../../section/).
 
 
 

@@ -67,7 +67,7 @@ chart.series.clear()
 chart.title.text = 'Monthly sales report'
 # Insert a custom chart series with months as categories for the X-axis,
 # and respective decimal amounts for the Y-axis.
-series = chart.series.add(series_name='Revenue', categories=['January', 'February', 'March'], values=[25.611, 21.439, 33.75])
+series = chart.series.add1(series_name='Revenue', categories=['January', 'February', 'March'], values=[25.611, 21.439, 33.75])
 # Enable data labels, and then apply a custom number format for values displayed in the data labels.
 # This format will treat displayed decimal values as millions of US Dollars.
 series.has_data_labels = True
@@ -89,7 +89,7 @@ chart = shape.chart
 chart.series.clear()
 # Add a custom series to the chart with categories for the X-axis,
 # and large respective numeric values for the Y-axis.
-chart.series.add(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[1900000, 850000, 2100000, 600000, 1500000])
+chart.series.add1(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[1900000, 850000, 2100000, 600000, 1500000])
 # Set the number format of the Y-axis tick labels to not group digits with commas.
 chart.axis_y.number_format.format_code = '#,##0'
 # This flag can override the above value and draw the number format from the source cell.

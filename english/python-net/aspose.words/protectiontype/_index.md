@@ -5,7 +5,7 @@ articleTitle: ProtectionType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ProtectionType enumeration. Protection type for a document."
 type: docs
-weight: 990
+weight: 1000
 url: /python-net/aspose.words/protectiontype/
 ---
 

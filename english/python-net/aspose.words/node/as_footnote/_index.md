@@ -3,7 +3,7 @@ title: Node.as_footnote method
 linktitle: as_footnote method
 articleTitle: as_footnote method
 second_title: Aspose.Words for Python
-description: "Node.as_footnote method. Cast node to [Footnote](../../../aspose.words.notes/footnote/)."
+description: "Node.as_footnote method. Cast Node to [Footnote](../../../aspose.words.notes/footnote/)."
 type: docs
 weight: 250
 url: /python-net/aspose.words/node/as_footnote/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_footnote/
 
 ## as_footnote() {#default}
 
-Cast node to [Footnote](../../../aspose.words.notes/footnote/).
+Cast Node to [Footnote](../../../aspose.words.notes/footnote/).
 
 
 

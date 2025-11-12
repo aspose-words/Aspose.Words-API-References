@@ -3,7 +3,7 @@ title: Node.as_body method
 linktitle: as_body method
 articleTitle: as_body method
 second_title: Aspose.Words for Python
-description: "Node.as_body method. Cast node to [Body](../../body/)."
+description: "Node.as_body method. Cast Node to [Body](../../body/)."
 type: docs
 weight: 100
 url: /python-net/aspose.words/node/as_body/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_body/
 
 ## as_body() {#default}
 
-Cast node to [Body](../../body/).
+Cast Node to [Body](../../body/).
 
 
 

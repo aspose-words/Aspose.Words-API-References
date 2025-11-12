@@ -34,7 +34,7 @@ shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, wid
 chart = shape.chart
 # Delete default generated series.
 chart.series.clear()
-series = chart.series.add(series_name='AW Series 1', x_values=[0.7, 1.8, 2.6, 3.9], y_values=[2.7, 3.2, 0.8, 1.7])
+series = chart.series.add_double(series_name='AW Series 1', x_values=[0.7, 1.8, 2.6, 3.9], y_values=[2.7, 3.2, 0.8, 1.7])
 # Set marker formatting.
 series.marker.size = 40
 series.marker.symbol = aw.drawing.charts.MarkerSymbol.SQUARE

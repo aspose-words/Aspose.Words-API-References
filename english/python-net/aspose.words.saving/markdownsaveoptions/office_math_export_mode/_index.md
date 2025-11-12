@@ -47,6 +47,15 @@ save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.LA
 doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportOfficeMathAsLatex.md', save_options=save_options)
 ```
 
+Shows how to export OfficeMath object as MarkItDown.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
+save_options = aw.saving.MarkdownSaveOptions()
+save_options.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.MARK_IT_DOWN
+doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md', save_options=save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)
