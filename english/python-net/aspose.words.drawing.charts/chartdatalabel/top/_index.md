@@ -64,7 +64,7 @@ while i < data_length:
     values[i] = data_length - i
     total_value = total_value + values[i]
     i += 1
-series = series_coll.add(series_name='Series 1', categories=categories, values=values)
+series = series_coll.add1(series_name='Series 1', categories=categories, values=values)
 series.has_data_labels = True
 data_labels = series.data_labels
 data_labels.show_value = True

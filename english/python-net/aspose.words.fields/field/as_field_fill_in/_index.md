@@ -3,13 +3,17 @@ title: Field.as_field_fill_in method
 linktitle: as_field_fill_in method
 articleTitle: as_field_fill_in method
 second_title: Aspose.Words for Python
-description: "Field.as_field_fill_in method. "
+description: "Field.as_field_fill_in method. Cast Field to [FieldFillIn](../../fieldfillin/)."
 type: docs
 weight: 420
 url: /python-net/aspose.words.fields/field/as_field_fill_in/
 ---
 
 ## as_field_fill_in() {#default}
+
+Cast Field to [FieldFillIn](../../fieldfillin/).
+
+
 
 ```python
 def as_field_fill_in(self):

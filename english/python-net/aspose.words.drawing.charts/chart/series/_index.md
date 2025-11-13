@@ -36,8 +36,8 @@ def chart_series_collection():
     categories = ['Category 1', 'Category 2', 'Category 3']
     # Insert two series of decimal values containing a value for each respective category.
     # This column chart will have three groups, each with two columns.
-    chart.series.add('Series 1', categories, [76.6, 82.1, 91.6])
-    chart.series.add('Series 2', categories, [64.2, 79.5, 94.0])
+    chart.series.add1('Series 1', categories, [76.6, 82.1, 91.6])
+    chart.series.add1('Series 2', categories, [64.2, 79.5, 94.0])
     # Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     self.assertEqual(aw.drawing.charts.ChartAxisType.CATEGORY, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)
@@ -47,7 +47,7 @@ def chart_series_collection():
     # Insert a series with a decimal value for each respective date.
     # The dates will be distributed along a linear X-axis,
     # and the values added to this series will create data points.
-    chart.series.add('Series 1', dates=dates, values=[15.8, 21.5, 22.9, 28.7, 33.1])
+    chart.series.add_date('Series 1', dates=dates, values=[15.8, 21.5, 22.9, 28.7, 33.1])
     self.assertEqual(aw.drawing.charts.ChartAxisType.CATEGORY, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)
     # 3 -  2D scatter plot:
@@ -55,8 +55,8 @@ def chart_series_collection():
     # Each series will need two decimal arrays of equal length.
     # The first array contains X-values, and the second contains corresponding Y-values
     # of data points on the chart's graph.
-    chart.series.add('Series 1', x_values=[3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6], y_values=[3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9])
-    chart.series.add('Series 2', x_values=[2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3], y_values=[7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6])
+    chart.series.add_double('Series 1', x_values=[3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6], y_values=[3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9])
+    chart.series.add_double('Series 2', x_values=[2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3], y_values=[7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6])
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)
     # 4 -  Bubble chart:

@@ -3,7 +3,7 @@ title: FontSourceBase.as_folder_font_source method
 linktitle: as_folder_font_source method
 articleTitle: as_folder_font_source method
 second_title: Aspose.Words for Python
-description: "FontSourceBase.as_folder_font_source method. Cast [FontSourceBase](../) object to [FolderFontSource](../../folderfontsource/)."
+description: "FontSourceBase.as_folder_font_source method. Cast FontSourceBase to [FolderFontSource](../../folderfontsource/)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/fontsourcebase/as_folder_font_source/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.fonts/fontsourcebase/as_folder_font_source/
 
 ## as_folder_font_source() {#default}
 
-Cast [FontSourceBase](../) object to [FolderFontSource](../../folderfontsource/).
+Cast FontSourceBase to [FolderFontSource](../../folderfontsource/).
 
 
 

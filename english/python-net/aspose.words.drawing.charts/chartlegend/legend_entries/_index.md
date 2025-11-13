@@ -33,10 +33,10 @@ chart = shape.chart
 series = chart.series
 series.clear()
 categories = ['AW Category 1', 'AW Category 2']
-series1 = series.add(series_name='Series 1', categories=categories, values=[1, 2])
-series.add(series_name='Series 2', categories=categories, values=[3, 4])
-series.add(series_name='Series 3', categories=categories, values=[5, 6])
-series.add(series_name='Series 4', categories=categories, values=[0, 0])
+series1 = series.add1(series_name='Series 1', categories=categories, values=[1, 2])
+series.add1(series_name='Series 2', categories=categories, values=[3, 4])
+series.add1(series_name='Series 3', categories=categories, values=[5, 6])
+series.add1(series_name='Series 4', categories=categories, values=[0, 0])
 legend_entries = chart.legend.legend_entries
 legend_entries[3].is_hidden = True
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.LegendEntries.docx')

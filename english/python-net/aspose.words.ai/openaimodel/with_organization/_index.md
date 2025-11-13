@@ -5,7 +5,7 @@ articleTitle: with_organization method
 second_title: Aspose.Words for Python
 description: "OpenAiModel.with_organization method. Sets a specified Organization to the model."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.ai/openaimodel/with_organization/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ParagraphAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ParagraphAlignment enumeration. Specifies text alignment in a paragraph."
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.words/paragraphalignment/
 ---
 

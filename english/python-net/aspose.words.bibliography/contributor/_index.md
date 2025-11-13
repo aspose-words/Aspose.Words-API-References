@@ -18,8 +18,8 @@ Represents a bibliography source contributor. Can be either an corporate (an org
 
 | Name | Description |
 | --- | --- |
-|[ as_corporate()](./as_corporate/#default) | Casts contributor to [Corporate](../corporate/), otherwise returns null. |
-|[ as_person_collection()](./as_person_collection/#default) | Casts contributor to [PersonCollection](../personcollection/), otherwise returns null. |
+|[ as_corporate()](./as_corporate/#default) | Cast Contributor to [Corporate](../corporate/). |
+|[ as_person_collection()](./as_person_collection/#default) | Cast Contributor to [PersonCollection](../personcollection/). |
 
 ### See Also
 

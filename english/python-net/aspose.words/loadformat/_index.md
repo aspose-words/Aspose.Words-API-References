@@ -5,7 +5,7 @@ articleTitle: LoadFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
-weight: 720
+weight: 730
 url: /python-net/aspose.words/loadformat/
 ---
 

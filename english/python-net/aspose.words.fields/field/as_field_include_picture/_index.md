@@ -3,13 +3,17 @@ title: Field.as_field_include_picture method
 linktitle: as_field_include_picture method
 articleTitle: as_field_include_picture method
 second_title: Aspose.Words for Python
-description: "Field.as_field_include_picture method. "
+description: "Field.as_field_include_picture method. Cast Field to [FieldIncludePicture](../../fieldincludepicture/)."
 type: docs
 weight: 550
 url: /python-net/aspose.words.fields/field/as_field_include_picture/
 ---
 
 ## as_field_include_picture() {#default}
+
+Cast Field to [FieldIncludePicture](../../fieldincludepicture/).
+
+
 
 ```python
 def as_field_include_picture(self):

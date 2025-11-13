@@ -37,7 +37,7 @@ chart = shape.chart
 chart.series.clear()
 # Add a custom series containing date/time values for the X-axis, and respective decimal values for the Y-axis.
 dates = [date(2017, 11, 6), date(2017, 11, 9), date(2017, 11, 15), date(2017, 11, 21), date(2017, 11, 25), date(2017, 11, 29)]
-chart.series.add('Aspose Test Series', dates=dates, values=[1.2, 0.3, 2.1, 2.9, 4.2, 5.3])
+chart.series.add_date('Aspose Test Series', dates=dates, values=[1.2, 0.3, 2.1, 2.9, 4.2, 5.3])
 # Set lower and upper bounds for the X-axis.
 x_axis = chart.axis_x
 x_axis.scaling.minimum = aw.drawing.charts.AxisBound(date(2017, 11, 5))

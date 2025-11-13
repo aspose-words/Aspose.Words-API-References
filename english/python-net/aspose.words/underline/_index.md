@@ -5,7 +5,7 @@ articleTitle: Underline enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.Underline enumeration. Indicates type of the underline applied to a font."
 type: docs
-weight: 1360
+weight: 1370
 url: /python-net/aspose.words/underline/
 ---
 

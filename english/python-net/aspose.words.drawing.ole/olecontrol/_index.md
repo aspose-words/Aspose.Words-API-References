@@ -28,10 +28,10 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
-|[ as_check_box_control()](./as_check_box_control/#default) |  |
-|[ as_forms2_ole_control()](./as_forms2_ole_control/#default) |  |
-|[ as_option_button_control()](./as_option_button_control/#default) |  |
-|[ as_text_box_control()](./as_text_box_control/#default) |  |
+|[ as_check_box_control()](./as_check_box_control/#default) | Cast OleControl to [CheckBoxControl](../checkboxcontrol/). |
+|[ as_forms2_ole_control()](./as_forms2_ole_control/#default) | Cast OleControl to [Forms2OleControl](../forms2olecontrol/). |
+|[ as_option_button_control()](./as_option_button_control/#default) | Cast OleControl to [OptionButtonControl](../optionbuttoncontrol/). |
+|[ as_text_box_control()](./as_text_box_control/#default) | Cast OleControl to [TextBoxControl](../textboxcontrol/). |
 
 ### Examples
 

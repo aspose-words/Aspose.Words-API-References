@@ -3,13 +3,17 @@ title: Field.as_field_auto_num_lgl method
 linktitle: as_field_auto_num_lgl method
 articleTitle: as_field_auto_num_lgl method
 second_title: Aspose.Words for Python
-description: "Field.as_field_auto_num_lgl method. "
+description: "Field.as_field_auto_num_lgl method. Cast Field to [FieldAutoNumLgl](../../fieldautonumlgl/)."
 type: docs
 weight: 180
 url: /python-net/aspose.words.fields/field/as_field_auto_num_lgl/
 ---
 
 ## as_field_auto_num_lgl() {#default}
+
+Cast Field to [FieldAutoNumLgl](../../fieldautonumlgl/).
+
+
 
 ```python
 def as_field_auto_num_lgl(self):
