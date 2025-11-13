@@ -35,7 +35,7 @@ chart = shape.chart
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()
 # Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart.series.add(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[640, 320, 280, 120, 150])
+chart.series.add1(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[640, 320, 280, 120, 150])
 # Chart axes have various options that can change their appearance,
 # such as their direction, major/minor unit ticks, and tick marks.
 x_axis = chart.axis_x

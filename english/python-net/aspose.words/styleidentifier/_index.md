@@ -5,7 +5,7 @@ articleTitle: StyleIdentifier enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.StyleIdentifier enumeration. Locale independent style identifier."
 type: docs
-weight: 1210
+weight: 1220
 url: /python-net/aspose.words/styleidentifier/
 ---
 

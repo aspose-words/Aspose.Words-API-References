@@ -5,7 +5,7 @@ articleTitle: add_date method
 second_title: Aspose.Words for Python
 description: "ChartSeriesCollection.add_date method. Adds new [ChartSeries](../../chartseries/) to this collection"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/add_date/
 ---
 

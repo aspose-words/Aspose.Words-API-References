@@ -34,7 +34,7 @@ while i >= 0:
     if chart.series[i].series_type == aw.drawing.charts.ChartSeriesType.COLUMN:
         chart.series.remove_at(i)
     i -= 1
-chart.series.add(series_name='Aspose Series', categories=['Category 1', 'Category 2', 'Category 3', 'Category 4'], values=[5.6, 7.1, 2.9, 8.9])
+chart.series.add1(series_name='Aspose Series', categories=['Category 1', 'Category 2', 'Category 3', 'Category 4'], values=[5.6, 7.1, 2.9, 8.9])
 doc.save(file_name=ARTIFACTS_DIR + 'Charts.RemoveSpecificChartSeries.docx')
 ```
 

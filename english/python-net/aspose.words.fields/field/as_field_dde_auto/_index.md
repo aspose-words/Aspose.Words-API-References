@@ -3,13 +3,17 @@ title: Field.as_field_dde_auto method
 linktitle: as_field_dde_auto method
 articleTitle: as_field_dde_auto method
 second_title: Aspose.Words for Python
-description: "Field.as_field_dde_auto method. "
+description: "Field.as_field_dde_auto method. Cast Field to [FieldDdeAuto](../../fieldddeauto/)."
 type: docs
 weight: 330
 url: /python-net/aspose.words.fields/field/as_field_dde_auto/
 ---
 
 ## as_field_dde_auto() {#default}
+
+Cast Field to [FieldDdeAuto](../../fieldddeauto/).
+
+
 
 ```python
 def as_field_dde_auto(self):

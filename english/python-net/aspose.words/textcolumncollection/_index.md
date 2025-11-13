@@ -5,7 +5,7 @@ articleTitle: TextColumnCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.TextColumnCollection class. A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.words/textcolumncollection/
 ---
 

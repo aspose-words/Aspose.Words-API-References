@@ -40,7 +40,7 @@ chart = shape.chart
 series_coll = chart.series
 # Delete default generated series.
 series_coll.clear()
-series_coll.add(series_name='AW Series 1', categories=['AW Category 1', 'AW Category 2'], values=[1, 2])
+series_coll.add1(series_name='AW Series 1', categories=['AW Category 1', 'AW Category 2'], values=[1, 2])
 chart_axis_x_title = chart.axis_x.title
 chart_axis_x_title.text = 'Categories'
 chart_axis_x_title.show = True

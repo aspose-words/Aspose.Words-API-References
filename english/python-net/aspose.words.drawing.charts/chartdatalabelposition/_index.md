@@ -44,7 +44,7 @@ series_coll = chart.series
 # Delete default generated series.
 series_coll.clear()
 # Add series.
-series = series_coll.add(series_name='Series 1', categories=['Category 1', 'Category 2', 'Category 3'], values=[4, 5, 6])
+series = series_coll.add1(series_name='Series 1', categories=['Category 1', 'Category 2', 'Category 3'], values=[4, 5, 6])
 # Show data labels and set font color.
 series.has_data_labels = True
 data_labels = series.data_labels

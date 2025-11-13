@@ -22,13 +22,13 @@ To learn more, visit the [Working with Images](https://docs.aspose.com/words/pyt
 Use the [Shape.image_data](../shape/image_data/) property to access and modify the image inside a shape.
 You do not create instances of the [ImageData](./) class directly.
 
-An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
+An image can be stored inside a shape, linked to external file or both(linked and stored in the document).
 
 Regardless of whether the image is stored inside the shape or linked, you can always access the actual
 image using the [ImageData.to_byte_array()](./to_byte_array/#default), [ImageData.to_stream()](./to_stream/#default) or [ImageData.save()](./save/#str) methods.
 If the image is stored inside the shape, you can also directly access it using the [ImageData.image_bytes](./image_bytes/) property.
 
-To store an image inside a shape use the Aspose.Words.Drawing.ImageData.SetImage(System.String) method. To link an image to a shape, set the [ImageData.source_full_name](./source_full_name/) property.
+To store an image inside a shape use theAspose.Words.Drawing.ImageData.SetImage(System.String) method.To link an image to a shape, set the[ImageData.source_full_name](./source_full_name/) property.
 
 
 

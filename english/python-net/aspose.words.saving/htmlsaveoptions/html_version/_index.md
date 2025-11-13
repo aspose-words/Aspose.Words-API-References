@@ -43,11 +43,11 @@ switch_condition = html_version
 if switch_condition == aw.saving.HtmlVersion.HTML5:
     self.assertTrue('<a id="_Toc76372689"></a>' in out_doc_contents)
     self.assertTrue('<a id="_Toc76372689"></a>' in out_doc_contents)
-    self.assertTrue('<table style="padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse">' in out_doc_contents)
+    self.assertTrue('<table style="padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse">' in out_doc_contents)
 elif switch_condition == aw.saving.HtmlVersion.XHTML:
     self.assertTrue('<a name="_Toc76372689"></a>' in out_doc_contents)
     self.assertTrue('<ul type="disc" style="margin:0pt; padding-left:0pt">' in out_doc_contents)
-    self.assertTrue('<table cellspacing="0" cellpadding="0" style="-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse"' in out_doc_contents)
+    self.assertTrue('<table cellspacing="0" cellpadding="0" style="-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse"' in out_doc_contents)
 ```
 
 Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.

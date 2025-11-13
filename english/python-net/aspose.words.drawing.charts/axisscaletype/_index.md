@@ -33,7 +33,7 @@ chart = chart_shape.chart
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()
 # Insert a series with X/Y coordinates for five points.
-chart.series.add(series_name='Series 1', x_values=[1, 2, 3, 4, 5], y_values=[1, 20, 400, 8000, 160000])
+chart.series.add_double(series_name='Series 1', x_values=[1, 2, 3, 4, 5], y_values=[1, 20, 400, 8000, 160000])
 # The scaling of the X-axis is linear by default,
 # displaying evenly incrementing values that cover our X-value range (0, 1, 2, 3...).
 # A linear axis is not ideal for our Y-values

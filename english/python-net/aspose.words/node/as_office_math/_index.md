@@ -3,7 +3,7 @@ title: Node.as_office_math method
 linktitle: as_office_math method
 articleTitle: as_office_math method
 second_title: Aspose.Words for Python
-description: "Node.as_office_math method. Cast node to [OfficeMath](../../../aspose.words.math/officemath/)."
+description: "Node.as_office_math method. Cast Node to [OfficeMath](../../../aspose.words.math/officemath/)."
 type: docs
 weight: 300
 url: /python-net/aspose.words/node/as_office_math/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_office_math/
 
 ## as_office_math() {#default}
 
-Cast node to [OfficeMath](../../../aspose.words.math/officemath/).
+Cast Node to [OfficeMath](../../../aspose.words.math/officemath/).
 
 
 

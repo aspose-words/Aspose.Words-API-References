@@ -5,7 +5,7 @@ articleTitle: NodeImporter class
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeImporter class. Allows to efficiently perform repeated import of nodes from one document to another"
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words/nodeimporter/
 ---
 

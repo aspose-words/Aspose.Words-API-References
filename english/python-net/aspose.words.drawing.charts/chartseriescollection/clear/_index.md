@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "ChartSeriesCollection.clear method. Removes all [ChartSeries](../../chartseries/) from this collection."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 
@@ -41,7 +41,7 @@ for series in chart.series:
 categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4']
 # We can add a series with new values for existing categories.
 # This chart will now contain four clusters of four columns.
-chart.series.add('Series 4', categories, [4.4, 7.0, 3.5, 2.1])
+chart.series.add1('Series 4', categories, [4.4, 7.0, 3.5, 2.1])
 # A chart series can also be removed by index, like this.
 # This will remove one of the three demo series that came with the chart.
 chart_data.remove_at(2)

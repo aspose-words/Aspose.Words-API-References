@@ -34,7 +34,7 @@ chart = chart_shape.chart
 chart.series.clear()
 # Add a series with two decimal arrays. The first array contains the X-values,
 # and the second contains corresponding Y-values for points in the scatter chart.
-chart.series.add(series_name='Series 1', x_values=[1.1, 5.4, 7.9, 3.5, 2.1, 9.7], y_values=[2.1, 0.3, 0.6, 3.3, 1.4, 1.9])
+chart.series.add_double(series_name='Series 1', x_values=[1.1, 5.4, 7.9, 3.5, 2.1, 9.7], y_values=[2.1, 0.3, 0.6, 3.3, 1.4, 1.9])
 # By default, default scaling is applied to the graph's X and Y-axes,
 # so that both their ranges are big enough to encompass every X and Y-value of every series.
 self.assertTrue(chart.axis_x.scaling.minimum.is_auto)
@@ -51,7 +51,7 @@ chart_shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, 
 chart = chart_shape.chart
 chart.series.clear()
 dates = [datetime.datetime(1973, 5, 11), datetime.datetime(1981, 2, 4), datetime.datetime(1985, 9, 23), datetime.datetime(1989, 6, 28), datetime.datetime(1994, 12, 15)]
-chart.series.add(series_name='Series 1', dates=dates, values=[3, 4.7, 5.9, 7.1, 8.9])
+chart.series.add_date(series_name='Series 1', dates=dates, values=[3, 4.7, 5.9, 7.1, 8.9])
 # We can set axis bounds in the form of dates as well, limiting the chart to a period.
 # Setting the range to 1980-1990 will omit the two of the series values
 # that are outside of the range from the graph.

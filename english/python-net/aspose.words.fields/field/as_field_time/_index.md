@@ -3,13 +3,17 @@ title: Field.as_field_time method
 linktitle: as_field_time method
 articleTitle: as_field_time method
 second_title: Aspose.Words for Python
-description: "Field.as_field_time method. "
+description: "Field.as_field_time method. Cast Field to [FieldTime](../../fieldtime/)."
 type: docs
 weight: 970
 url: /python-net/aspose.words.fields/field/as_field_time/
 ---
 
 ## as_field_time() {#default}
+
+Cast Field to [FieldTime](../../fieldtime/).
+
+
 
 ```python
 def as_field_time(self):

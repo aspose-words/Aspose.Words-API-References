@@ -3,7 +3,7 @@ title: Node.as_special_char method
 linktitle: as_special_char method
 articleTitle: as_special_char method
 second_title: Aspose.Words for Python
-description: "Node.as_special_char method. Cast node to [SpecialChar](../../specialchar/)."
+description: "Node.as_special_char method. Cast Node to [SpecialChar](../../specialchar/)."
 type: docs
 weight: 370
 url: /python-net/aspose.words/node/as_special_char/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/node/as_special_char/
 
 ## as_special_char() {#default}
 
-Cast node to [SpecialChar](../../specialchar/).
+Cast Node to [SpecialChar](../../specialchar/).
 
 
 
