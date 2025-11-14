@@ -3653,7 +3653,7 @@ Inserts an image into the document.  Inserts an image from a java.awt.image.Buff
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
+Aspose.Words will insert the image in the PNG format and with default settings.If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
 
  **Examples:** 
 
@@ -3704,7 +3704,7 @@ Inserts an inline image from a java.awt.image.BufferedImage object into the docu
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
+Aspose.Words will insert the image in the PNG format and with default settings.If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
 
  **Examples:** 
 

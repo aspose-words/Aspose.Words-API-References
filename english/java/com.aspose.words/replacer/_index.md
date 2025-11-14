@@ -21,9 +21,9 @@ Provides methods intended to find and replace text in the document.
 | --- | --- |
 | [create(ReplacerContext context)](#create-com.aspose.words.ReplacerContext) | Creates new instance of the replacer processor. |
 | [execute()](#execute) | Execute the processor action. |
-| [from(InputStream input)](#from-java.io.InputStream) |  |
+| [from(InputStream input)](#from-java.io.InputStream) | Specifies input document for processing. |
 | [from(InputStream input, LoadOptions loadOptions)](#from-java.io.InputStream-com.aspose.words.LoadOptions) | Specifies input document for processing. |
-| [from(String input)](#from-java.lang.String) |  |
+| [from(String input)](#from-java.lang.String) | Specifies input document for processing. |
 | [from(String input, LoadOptions loadOptions)](#from-java.lang.String-com.aspose.words.LoadOptions) | Specifies input document for processing. |
 | [replace(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, String pattern, String replacement)](#replace-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.lang.String-java.lang.String) |  |
 | [replace(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options)](#replace-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) |  |
@@ -33,7 +33,7 @@ Provides methods intended to find and replace text in the document.
 | [replace(InputStream inputStream, OutputStream outputStream, int saveFormat, String pattern, String replacement, FindReplaceOptions options)](#replace-java.io.InputStream-java.io.OutputStream-int-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) |  |
 | [replace(InputStream inputStream, OutputStream outputStream, int saveFormat, Pattern pattern, String replacement)](#replace-java.io.InputStream-java.io.OutputStream-int-java.util.regex.Pattern-java.lang.String) |  |
 | [replace(InputStream inputStream, OutputStream outputStream, int saveFormat, Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.io.InputStream-java.io.OutputStream-int-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) |  |
-| [replace(String inputFileName, String outputFileName, SaveOptions saveOptions, String pattern, String replacement)](#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.lang.String) |  |
+| [replace(String inputFileName, String outputFileName, SaveOptions saveOptions, String pattern, String replacement)](#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options. |
 | [replace(String inputFileName, String outputFileName, SaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options. |
 | [replace(String inputFileName, String outputFileName, SaveOptions saveOptions, Pattern pattern, String replacement)](#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.util.regex.Pattern-java.lang.String) |  |
 | [replace(String inputFileName, String outputFileName, SaveOptions saveOptions, Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression, with the specified save format and additional options. |
@@ -43,17 +43,17 @@ Provides methods intended to find and replace text in the document.
 | [replace(String inputFileName, String outputFileName, int saveFormat, Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-int-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) |  |
 | [replace(String inputFileName, String outputFileName, String pattern, String replacement)](#replace-java.lang.String-java.lang.String-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. |
 | [replace(String inputFileName, String outputFileName, Pattern pattern, String replacement)](#replace-java.lang.String-java.lang.String-java.util.regex.Pattern-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file using a regular expression. |
-| [replaceToImages(InputStream inputStream, ImageSaveOptions saveOptions, String pattern, String replacement)](#replaceToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String) |  |
+| [replaceToImages(InputStream inputStream, ImageSaveOptions saveOptions, String pattern, String replacement)](#replaceToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. |
 | [replaceToImages(InputStream inputStream, ImageSaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options)](#replaceToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. |
 | [replaceToImages(InputStream inputStream, ImageSaveOptions saveOptions, Pattern pattern, String replacement)](#replaceToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.util.regex.Pattern-java.lang.String) |  |
 | [replaceToImages(InputStream inputStream, ImageSaveOptions saveOptions, Pattern pattern, String replacement, FindReplaceOptions options)](#replaceToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. |
-| [replaceToImages(String inputFileName, ImageSaveOptions saveOptions, String pattern, String replacement)](#replaceToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String) |  |
+| [replaceToImages(String inputFileName, ImageSaveOptions saveOptions, String pattern, String replacement)](#replaceToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. |
 | [replaceToImages(String inputFileName, ImageSaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options)](#replaceToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. |
 | [replaceToImages(String inputFileName, ImageSaveOptions saveOptions, Pattern pattern, String replacement)](#replaceToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.util.regex.Pattern-java.lang.String) |  |
 | [replaceToImages(String inputFileName, ImageSaveOptions saveOptions, Pattern pattern, String replacement, FindReplaceOptions options)](#replaceToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. |
 | [to(OutputStream output, SaveOptions saveOptions)](#to-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [to(OutputStream output, int saveFormat)](#to-java.io.OutputStream-int) |  |
-| [to(String output)](#to-java.lang.String) |  |
+| [to(String output)](#to-java.lang.String) | Specifies output file for the processor. |
 | [to(String output, SaveOptions saveOptions)](#to-java.lang.String-com.aspose.words.SaveOptions) | Specifies output file for the processor. |
 | [to(String output, int saveFormat)](#to-java.lang.String-int) |  |
 | [to(ArrayList output, SaveOptions saveOptions)](#to-java.util.ArrayList-com.aspose.words.SaveOptions) |  |
@@ -338,15 +338,19 @@ public Processor from(InputStream input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.io.InputStream |  |
+| input | java.io.InputStream | Input document stream. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
 ### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
 ```
 public Processor from(InputStream input, LoadOptions loadOptions)
@@ -453,15 +457,19 @@ public Processor from(String input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.lang.String |  |
+| input | java.lang.String | Input document file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file.
 ### from(String input, LoadOptions loadOptions) {#from-java.lang.String-com.aspose.words.LoadOptions}
 ```
 public Processor from(String input, LoadOptions loadOptions)
@@ -727,19 +735,25 @@ public static int replace(String inputFileName, String outputFileName, SaveOptio
 ```
 
 
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file, with the specified save format and additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| pattern | java.lang.String |  |
-| replacement | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
 
 **Returns:**
-int
+int - The number of replacements made.
 ### replace(String inputFileName, String outputFileName, SaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options) {#replace-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions}
 ```
 public static int replace(String inputFileName, String outputFileName, SaveOptions saveOptions, String pattern, String replacement, FindReplaceOptions options)
@@ -981,15 +995,15 @@ public static OutputStream[] replaceToImages(InputStream inputStream, ImageSaveO
 ```
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| pattern | java.lang.String |  |
-| replacement | java.lang.String |  |
+| inputStream | java.io.InputStream | The input file stream. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1094,15 +1108,15 @@ public static OutputStream[] replaceToImages(String inputFileName, ImageSaveOpti
 ```
 
 
-
+Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| pattern | java.lang.String |  |
-| replacement | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1237,15 +1251,19 @@ public Processor to(String output)
 ```
 
 
+Specifies output file for the processor.
 
+ **Remarks:** 
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile\_partIndex.extension'.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.lang.String |  |
+| output | java.lang.String | Output file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified output file.
 ### to(String output, SaveOptions saveOptions) {#to-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public Processor to(String output, SaveOptions saveOptions)

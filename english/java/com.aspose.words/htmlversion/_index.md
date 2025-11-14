@@ -75,10 +75,7 @@ Shows how to save a document to a specific version of HTML.
          break;
      case HtmlVersion.XHTML:
          Assert.assertTrue(outDocContents.contains(""));
-         Assert.assertTrue(outDocContents.contains(" "));
-         break;
- }
- 
+         Assert.assertTrue(outDocContents.contains("
 ```
 ## Fields
 

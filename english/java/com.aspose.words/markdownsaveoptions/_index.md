@@ -1173,6 +1173,19 @@ Shows how to export OfficeMath object as Latex.
  
 ```
 
+Shows how to export OfficeMath object as MarkItDown.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.MARK_IT_DOWN);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MarkdownOfficeMathExportMode](../../com.aspose.words/markdownofficemathexportmode/) constants.
 ### getParagraphBreak() {#getParagraphBreak}
@@ -2915,6 +2928,19 @@ Shows how to export OfficeMath object as Latex.
  saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.LATEX);
 
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
+ 
+```
+
+Shows how to export OfficeMath object as MarkItDown.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.MARK_IT_DOWN);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
  
 ```
 

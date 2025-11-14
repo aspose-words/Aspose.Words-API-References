@@ -29,6 +29,10 @@ An abstract class representing the integration with Anthropic\\u2019s AI models 
 | --- | --- |
 | [checkGrammar(Document sourceDocument, CheckGrammarOptions options)](#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) | Checks grammar of the provided document. |
 | [create(int modelType)](#create-int) |  |
+| [getTimeout()](#getTimeout) | Gets the number of milliseconds to wait before the request to AI model times out. |
+| [getUrl()](#getUrl) | Gets a URL of the model. |
+| [setTimeout(int value)](#setTimeout-int) | Sets the number of milliseconds to wait before the request to AI model times out. |
+| [setUrl(String value)](#setUrl-java.lang.String) | Sets a URL of the model. |
 | [summarize(Document sourceDocument)](#summarize-com.aspose.words.Document) |  |
 | [summarize(Document sourceDocument, SummarizeOptions options)](#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) | Generates a summary of the specified document, with options to adjust the length of the summary. |
 | [summarize(Document[] sourceDocuments)](#summarize-com.aspose.words.Document) |  |
@@ -92,6 +96,78 @@ public static AiModel create(int modelType)
 
 **Returns:**
 [AiModel](../../com.aspose.words/aimodel/)
+### getTimeout() {#getTimeout}
+```
+public int getTimeout()
+```
+
+
+Gets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).
+
+ **Examples:** 
+
+Shows how to change model default timeout.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value 100000ms.
+ model.setTimeout(250000);
+ 
+```
+
+**Returns:**
+int - The number of milliseconds to wait before the request to AI model times out.
+### getUrl() {#getUrl}
+```
+public String getUrl()
+```
+
+
+Gets a URL of the model. The default value is "https://api.anthropic.com/".
+
+**Returns:**
+java.lang.String - A URL of the model.
+### setTimeout(int value) {#setTimeout-int}
+```
+public void setTimeout(int value)
+```
+
+
+Sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).
+
+ **Examples:** 
+
+Shows how to change model default timeout.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value 100000ms.
+ model.setTimeout(250000);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The number of milliseconds to wait before the request to AI model times out. |
+
+### setUrl(String value) {#setUrl-java.lang.String}
+```
+public void setUrl(String value)
+```
+
+
+Sets a URL of the model. The default value is "https://api.anthropic.com/".
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A URL of the model. |
+
 ### summarize(Document sourceDocument) {#summarize-com.aspose.words.Document}
 ```
 public Document summarize(Document sourceDocument)

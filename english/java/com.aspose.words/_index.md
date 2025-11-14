@@ -797,6 +797,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [IFontSavingCallback](../com.aspose.words/ifontsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
 | [IHyphenationCallback](../com.aspose.words/ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
 | [IImageSavingCallback](../com.aspose.words/iimagesavingcallback/) | Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. |
+| [IIndexFilter](../com.aspose.words/iindexfilter/) | Defines a filter for skipping items based on their indices. |
 | [IMailMergeCallback](../com.aspose.words/imailmergecallback/) | Implement this interface if you want to receive notifications while mail merge is performed. |
 | [IMailMergeDataSource](../com.aspose.words/imailmergedatasource/) | Implement this interface to allow mail merge from a custom data source, such as a list of objects. |
 | [IMailMergeDataSourceRoot](../com.aspose.words/imailmergedatasourceroot/) | Implement this interface to allow mail merge from a custom data source with master-detail data. |

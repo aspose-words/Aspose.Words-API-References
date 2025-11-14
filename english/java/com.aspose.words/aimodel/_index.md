@@ -51,6 +51,10 @@ Shows how to summarize text using OpenAI and Google models.
 | --- | --- |
 | [checkGrammar(Document sourceDocument, CheckGrammarOptions options)](#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) | Checks grammar of the provided document. |
 | [create(int modelType)](#create-int) |  |
+| [getTimeout()](#getTimeout) | Gets the number of milliseconds to wait before the request to AI model times out. |
+| [getUrl()](#getUrl) | Gets a URL of the model. |
+| [setTimeout(int value)](#setTimeout-int) | Sets the number of milliseconds to wait before the request to AI model times out. |
+| [setUrl(String value)](#setUrl-java.lang.String) | Sets a URL of the model. |
 | [summarize(Document sourceDocument, SummarizeOptions options)](#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) | Generates a summary of the specified document, with options to adjust the length of the summary. |
 | [summarize(Document[] sourceDocuments, SummarizeOptions options)](#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. |
 | [translate(Document sourceDocument, int targetLanguage)](#translate-com.aspose.words.Document-int) |  |
@@ -112,6 +116,164 @@ public static AiModel create(int modelType)
 
 **Returns:**
 [AiModel](../../com.aspose.words/aimodel/)
+### getTimeout() {#getTimeout}
+```
+public int getTimeout()
+```
+
+
+Gets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).
+
+ **Examples:** 
+
+Shows how to change model default timeout.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value 100000ms.
+ model.setTimeout(250000);
+ 
+```
+
+**Returns:**
+int - The number of milliseconds to wait before the request to AI model times out.
+### getUrl() {#getUrl}
+```
+public abstract String getUrl()
+```
+
+
+Gets a URL of the model. The default value is specific for the model.
+
+ **Examples:** 
+
+Shows how to change model default url.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value "https://api.openai.com/".
+ model.setUrl("https://my.a.com/");
+ 
+```
+
+Shows how to use self-hosted AI model based on OpenAiModel.
+
+```
+
+ public void selfHostedModel() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     String apiKey = System.getenv("API_KEY");
+     // Use OpenAI generative language models.
+     AiModel model = new CustomAiModel().withApiKey(apiKey);
+     model.setUrl("https://my.a.com/");
+
+     Document translatedDoc = model.translate(doc, Language.RUSSIAN);
+     translatedDoc.save(getArtifactsDir() + "AI.SelfHostedModel.docx");
+ }
+
+ /// 
+ /// Custom self-hosted AI model.
+ /// 
+ static class CustomAiModel extends OpenAiModel
+ {
+     /// 
+     /// Gets model name.
+     /// 
+     protected  String getName() { return "my-model-24b"; }
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - A URL of the model.
+### setTimeout(int value) {#setTimeout-int}
+```
+public void setTimeout(int value)
+```
+
+
+Sets the number of milliseconds to wait before the request to AI model times out. The default value is 100,000 milliseconds (100 seconds).
+
+ **Examples:** 
+
+Shows how to change model default timeout.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value 100000ms.
+ model.setTimeout(250000);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The number of milliseconds to wait before the request to AI model times out. |
+
+### setUrl(String value) {#setUrl-java.lang.String}
+```
+public abstract void setUrl(String value)
+```
+
+
+Sets a URL of the model. The default value is specific for the model.
+
+ **Examples:** 
+
+Shows how to change model default url.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value "https://api.openai.com/".
+ model.setUrl("https://my.a.com/");
+ 
+```
+
+Shows how to use self-hosted AI model based on OpenAiModel.
+
+```
+
+ public void selfHostedModel() throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     String apiKey = System.getenv("API_KEY");
+     // Use OpenAI generative language models.
+     AiModel model = new CustomAiModel().withApiKey(apiKey);
+     model.setUrl("https://my.a.com/");
+
+     Document translatedDoc = model.translate(doc, Language.RUSSIAN);
+     translatedDoc.save(getArtifactsDir() + "AI.SelfHostedModel.docx");
+ }
+
+ /// 
+ /// Custom self-hosted AI model.
+ /// 
+ static class CustomAiModel extends OpenAiModel
+ {
+     /// 
+     /// Gets model name.
+     /// 
+     protected  String getName() { return "my-model-24b"; }
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A URL of the model. |
+
 ### summarize(Document sourceDocument, SummarizeOptions options) {#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions}
 ```
 public abstract Document summarize(Document sourceDocument, SummarizeOptions options)
