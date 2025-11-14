@@ -4,7 +4,7 @@ linktitle: IResourceSavingCallback
 second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how Aspose.Words saves external resources images fonts and css when saving a document to fixed page HTML or SVG in Java.
 type: docs
-weight: 779
+weight: 780
 url: /java/com.aspose.words/iresourcesavingcallback/
 ---
 ```

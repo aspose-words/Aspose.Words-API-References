@@ -31,11 +31,11 @@ Provides methods intended to fill template with data using LINQ Reporting Engine
 | [buildReport(InputStream inputStream, OutputStream outputStream, int saveFormat, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.io.InputStream-java.io.OutputStream-int-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions) |  |
 | [buildReport(InputStream inputStream, OutputStream outputStream, int saveFormat, Object[] data, String[] dataSourceNames)](#buildReport-java.io.InputStream-java.io.OutputStream-int-java.lang.Object---java.lang.String) |  |
 | [buildReport(InputStream inputStream, OutputStream outputStream, int saveFormat, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.io.InputStream-java.io.OutputStream-int-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) |  |
-| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object) |  |
+| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object) | Populates the template document with data from the specified source, generating a completed report with specified output format and additional options. |
 | [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-com.aspose.words.ReportBuilderOptions) | Populates the template document with data from the specified source, generating a completed report with specified output format and additional options. |
-| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, String dataSourceName)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-java.lang.String) |  |
+| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, String dataSourceName)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-java.lang.String) | Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options. |
 | [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions) | Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options. |
-| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object---java.lang.String) |  |
+| [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object---java.lang.String) | Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options. |
 | [buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) | Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options. |
 | [buildReport(String inputFileName, String outputFileName, int saveFormat, Object data)](#buildReport-java.lang.String-java.lang.String-int-java.lang.Object) |  |
 | [buildReport(String inputFileName, String outputFileName, int saveFormat, Object data, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-int-java.lang.Object-com.aspose.words.ReportBuilderOptions) |  |
@@ -43,26 +43,26 @@ Provides methods intended to fill template with data using LINQ Reporting Engine
 | [buildReport(String inputFileName, String outputFileName, int saveFormat, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-int-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions) |  |
 | [buildReport(String inputFileName, String outputFileName, int saveFormat, Object[] data, String[] dataSourceNames)](#buildReport-java.lang.String-java.lang.String-int-java.lang.Object---java.lang.String) |  |
 | [buildReport(String inputFileName, String outputFileName, int saveFormat, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-int-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) |  |
-| [buildReport(String inputFileName, String outputFileName, Object data)](#buildReport-java.lang.String-java.lang.String-java.lang.Object) |  |
+| [buildReport(String inputFileName, String outputFileName, Object data)](#buildReport-java.lang.String-java.lang.String-java.lang.Object) | Populates the template document with data from the specified source, generating a completed report with additional options. |
 | [buildReport(String inputFileName, String outputFileName, Object data, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-java.lang.Object-com.aspose.words.ReportBuilderOptions) | Populates the template document with data from the specified source, generating a completed report with additional options. |
-| [buildReport(String inputFileName, String outputFileName, Object data, String dataSourceName)](#buildReport-java.lang.String-java.lang.String-java.lang.Object-java.lang.String) |  |
+| [buildReport(String inputFileName, String outputFileName, Object data, String dataSourceName)](#buildReport-java.lang.String-java.lang.String-java.lang.Object-java.lang.String) | Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options. |
 | [buildReport(String inputFileName, String outputFileName, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions) | Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options. |
-| [buildReport(String inputFileName, String outputFileName, Object[] data, String[] dataSourceNames)](#buildReport-java.lang.String-java.lang.String-java.lang.Object---java.lang.String) |  |
+| [buildReport(String inputFileName, String outputFileName, Object[] data, String[] dataSourceNames)](#buildReport-java.lang.String-java.lang.String-java.lang.Object---java.lang.String) | Populates the template document with data from multiple sources, generating a completed report with additional options. |
 | [buildReport(String inputFileName, String outputFileName, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReport-java.lang.String-java.lang.String-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) | Populates the template document with data from multiple sources, generating a completed report with additional options. |
-| [buildReportToImages(InputStream inputStream, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReportToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String) |  |
+| [buildReportToImages(InputStream inputStream, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReportToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String) | Populates the template document with data from multiple sources. |
 | [buildReportToImages(InputStream inputStream, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReportToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) | Populates the template document with data from multiple sources. |
-| [buildReportToImages(String inputFileName, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReportToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String) |  |
+| [buildReportToImages(String inputFileName, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames)](#buildReportToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String) | Populates the template document with data from multiple sources. |
 | [buildReportToImages(String inputFileName, ImageSaveOptions saveOptions, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions)](#buildReportToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions) | Populates the template document with data from multiple sources. |
 | [create()](#create) | Creates new instance of the report builder processor. |
 | [create(ReportBuilderContext context)](#create-com.aspose.words.ReportBuilderContext) | Creates new instance of the report builder processor. |
 | [execute()](#execute) | Execute the processor action. |
-| [from(InputStream input)](#from-java.io.InputStream) |  |
+| [from(InputStream input)](#from-java.io.InputStream) | Specifies input document for processing. |
 | [from(InputStream input, LoadOptions loadOptions)](#from-java.io.InputStream-com.aspose.words.LoadOptions) | Specifies input document for processing. |
-| [from(String input)](#from-java.lang.String) |  |
+| [from(String input)](#from-java.lang.String) | Specifies input document for processing. |
 | [from(String input, LoadOptions loadOptions)](#from-java.lang.String-com.aspose.words.LoadOptions) | Specifies input document for processing. |
 | [to(OutputStream output, SaveOptions saveOptions)](#to-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [to(OutputStream output, int saveFormat)](#to-java.io.OutputStream-int) |  |
-| [to(String output)](#to-java.lang.String) |  |
+| [to(String output)](#to-java.lang.String) | Specifies output file for the processor. |
 | [to(String output, SaveOptions saveOptions)](#to-java.lang.String-com.aspose.words.SaveOptions) | Specifies output file for the processor. |
 | [to(String output, int saveFormat)](#to-java.lang.String-int) |  |
 | [to(ArrayList output, SaveOptions saveOptions)](#to-java.util.ArrayList-com.aspose.words.SaveOptions) |  |
@@ -281,15 +281,21 @@ public static void buildReport(String inputFileName, String outputFileName, Save
 ```
 
 
+Populates the template document with data from the specified source, generating a completed report with specified output format and additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| data | java.lang.Object |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| data | java.lang.Object | A data source object. |
 
 ### buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-com.aspose.words.ReportBuilderOptions}
 ```
@@ -320,16 +326,22 @@ public static void buildReport(String inputFileName, String outputFileName, Save
 ```
 
 
+Populates the template document with data from the specified source, generating a completed report with specified output format, a named data source reference, and additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| data | java.lang.Object |  |
-| dataSourceName | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| data | java.lang.Object | A data source object. |
+| dataSourceName | java.lang.String | A name to reference the data source object in the template. |
 
 ### buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions}
 ```
@@ -361,16 +373,22 @@ public static void buildReport(String inputFileName, String outputFileName, Save
 ```
 
 
+Populates the template document with data from multiple sources, generating a completed report with a specified output format and additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| data | java.lang.Object[] |  |
-| dataSourceNames | java.lang.String[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| data | java.lang.Object[] | An array of data source objects. |
+| dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
 
 ### buildReport(String inputFileName, String outputFileName, SaveOptions saveOptions, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions}
 ```
@@ -505,14 +523,20 @@ public static void buildReport(String inputFileName, String outputFileName, Obje
 ```
 
 
+Populates the template document with data from the specified source, generating a completed report with additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| data | java.lang.Object |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| data | java.lang.Object | A data source object. |
 
 ### buildReport(String inputFileName, String outputFileName, Object data, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-java.lang.Object-com.aspose.words.ReportBuilderOptions}
 ```
@@ -586,15 +610,21 @@ public static void buildReport(String inputFileName, String outputFileName, Obje
 ```
 
 
+Populates the template document with data from the specified source, generating a completed report with a named data source reference and additional options.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| data | java.lang.Object |  |
-| dataSourceName | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| data | java.lang.Object | A data source object. |
+| dataSourceName | java.lang.String | A name to reference the data source object in the template. |
 
 ### buildReport(String inputFileName, String outputFileName, Object data, String dataSourceName, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-java.lang.Object-java.lang.String-com.aspose.words.ReportBuilderOptions}
 ```
@@ -692,15 +722,21 @@ public static void buildReport(String inputFileName, String outputFileName, Obje
 ```
 
 
+Populates the template document with data from multiple sources, generating a completed report with additional options. This overload automatically determines the save format based on the output file extension.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| data | java.lang.Object[] |  |
-| dataSourceNames | java.lang.String[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| data | java.lang.Object[] | An array of data source objects. |
+| dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
 
 ### buildReport(String inputFileName, String outputFileName, Object[] data, String[] dataSourceNames, ReportBuilderOptions reportBuilderOptions) {#buildReport-java.lang.String-java.lang.String-java.lang.Object---java.lang.String---com.aspose.words.ReportBuilderOptions}
 ```
@@ -798,15 +834,15 @@ public static OutputStream[] buildReportToImages(InputStream inputStream, ImageS
 ```
 
 
-
+Populates the template document with data from multiple sources. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| data | java.lang.Object[] |  |
-| dataSourceNames | java.lang.String[] |  |
+| inputStream | java.io.InputStream | The input file stream. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The output's save options. |
+| data | java.lang.Object[] | An array of data source objects. |
+| dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -877,15 +913,15 @@ public static OutputStream[] buildReportToImages(String inputFileName, ImageSave
 ```
 
 
-
+Populates the template document with data from multiple sources. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| data | java.lang.Object[] |  |
-| dataSourceNames | java.lang.String[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The output's save options. |
+| data | java.lang.Object[] | An array of data source objects. |
+| dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1282,15 +1318,19 @@ public Processor from(InputStream input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.io.InputStream |  |
+| input | java.io.InputStream | Input document stream. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
 ### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
 ```
 public Processor from(InputStream input, LoadOptions loadOptions)
@@ -1397,15 +1437,19 @@ public Processor from(String input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.lang.String |  |
+| input | java.lang.String | Input document file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file.
 ### from(String input, LoadOptions loadOptions) {#from-java.lang.String-com.aspose.words.LoadOptions}
 ```
 public Processor from(String input, LoadOptions loadOptions)
@@ -1547,15 +1591,19 @@ public Processor to(String output)
 ```
 
 
+Specifies output file for the processor.
 
+ **Remarks:** 
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile\_partIndex.extension'.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.lang.String |  |
+| output | java.lang.String | Output file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified output file.
 ### to(String output, SaveOptions saveOptions) {#to-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public Processor to(String output, SaveOptions saveOptions)

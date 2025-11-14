@@ -33,30 +33,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -119,30 +121,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -181,30 +185,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -244,30 +250,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -300,30 +308,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -362,30 +372,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -425,30 +437,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -481,30 +495,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -543,30 +559,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 
@@ -606,30 +624,32 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(12.9f, renderer.getBoundsInPoints().getHeight(), 0.1f);
 
  // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
- Assert.assertEquals(122.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.25f);
+ Assert.assertEquals(119.5f, 0.25f, renderer.getOpaqueBoundsInPoints().getWidth());
  Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
 
  // Get the shape size in pixels, with linear scaling to a specific DPI.
  Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
 
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(18.0, bounds.getHeight());
+ String dpi96 = "DPI 96";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96);
+ Assert.assertEquals(18, bounds.getHeight(), dpi96);
 
  // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
  bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(27.0, bounds.getHeight());
+ String dpi96150 = "DPI 96 150";
+ Assert.assertEquals(163, bounds.getWidth(), dpi96150);
+ Assert.assertEquals(27, bounds.getHeight(), dpi96150);
 
  // The opaque bounds may vary here also.
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(19.0, bounds.getHeight());
+ String dpi96Opaque = "DPI 96 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96Opaque);
+ Assert.assertEquals(19, bounds.getHeight(), dpi96Opaque);
 
  bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
-
- Assert.assertEquals(163.0, bounds.getWidth());
- Assert.assertEquals(29.0, bounds.getHeight());
+ String dpi96150Opaque = "DPI 96 150 Opaque";
+ Assert.assertEquals(160, bounds.getWidth(), dpi96150Opaque);
+ Assert.assertEquals(29, bounds.getHeight(), dpi96150Opaque);
  
 ```
 

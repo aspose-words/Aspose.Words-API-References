@@ -50,13 +50,13 @@ With [ImageSaveOptions.getPageSet()](../../com.aspose.words/imagesaveoptions/\#g
 | [create()](#create) | Creates new instance of the converter processor. |
 | [create(ConverterContext context)](#create-com.aspose.words.ConverterContext) | Creates new instance of the converter processor. |
 | [execute()](#execute) | Execute the processor action. |
-| [from(InputStream input)](#from-java.io.InputStream) |  |
+| [from(InputStream input)](#from-java.io.InputStream) | Specifies input document for processing. |
 | [from(InputStream input, LoadOptions loadOptions)](#from-java.io.InputStream-com.aspose.words.LoadOptions) | Specifies input document for processing. |
-| [from(String input)](#from-java.lang.String) |  |
+| [from(String input)](#from-java.lang.String) | Specifies input document for processing. |
 | [from(String input, LoadOptions loadOptions)](#from-java.lang.String-com.aspose.words.LoadOptions) | Specifies input document for processing. |
 | [to(OutputStream output, SaveOptions saveOptions)](#to-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [to(OutputStream output, int saveFormat)](#to-java.io.OutputStream-int) |  |
-| [to(String output)](#to-java.lang.String) |  |
+| [to(String output)](#to-java.lang.String) | Specifies output file for the processor. |
 | [to(String output, SaveOptions saveOptions)](#to-java.lang.String-com.aspose.words.SaveOptions) | Specifies output file for the processor. |
 | [to(String output, int saveFormat)](#to-java.lang.String-int) |  |
 | [to(ArrayList output, SaveOptions saveOptions)](#to-java.util.ArrayList-com.aspose.words.SaveOptions) |  |
@@ -867,15 +867,19 @@ public Processor from(InputStream input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.io.InputStream |  |
+| input | java.io.InputStream | Input document stream. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
 ### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
 ```
 public Processor from(InputStream input, LoadOptions loadOptions)
@@ -982,15 +986,19 @@ public Processor from(String input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.lang.String |  |
+| input | java.lang.String | Input document file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file.
 ### from(String input, LoadOptions loadOptions) {#from-java.lang.String-com.aspose.words.LoadOptions}
 ```
 public Processor from(String input, LoadOptions loadOptions)
@@ -1132,15 +1140,19 @@ public Processor to(String output)
 ```
 
 
+Specifies output file for the processor.
 
+ **Remarks:** 
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile\_partIndex.extension'.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.lang.String |  |
+| output | java.lang.String | Output file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified output file.
 ### to(String output, SaveOptions saveOptions) {#to-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public Processor to(String output, SaveOptions saveOptions)

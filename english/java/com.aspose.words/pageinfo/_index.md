@@ -58,8 +58,83 @@ Shows how to check whether the page is in color or not.
  
 ```
 
+Shows how to filtering pages base on page color.
+
+```
+{@code
+ public void colorMode() throws Exception
+ {
+     // Load the document with 3 color pages and 2 black and white pages.
+     Document doc = new Document("Colored pages.docx");
+
+     // Print color pages to 'color' printer.
+     int colorPagesPrinted = printPages(doc, "Microsoft Print to PDF", true);
+
+     // Print black-and-white pages to 'black-and-white' printer.
+     int nonColorPagesPrinted = printPages(doc, "Microsoft XPS Document Writer", false);
+
+     // Verify that correct number of pages were printed in each case.
+     Assert.assertEquals(3, colorPagesPrinted);
+     Assert.assertEquals(3, nonColorPagesPrinted);
+ }
+
+ /// 
+ /// Prints document pages filtered by color requirements.
+ /// 
+ /// The document to print.
+ /// The name of the target printer.
+ /// 
+ /// true to print only color pages;
+ /// false to print only black and white pages.
+ /// 
+ /// The number of pages actually printed.
+ private int printPages(Document doc, String printerName, boolean colored) throws Exception
+ {
+     // Configure printer settings.
+     PrinterJob printerJob = PrinterJob.getPrinterJob();
+
+     // Select target printer.
+     for (PrintService service : PrinterJob.lookupPrintServices()) {
+         if (service.getName().equalsIgnoreCase(printerName)) {
+             printerJob.setPrintService(service);
+             break;
+         }
+     }
+
+     // Create print document with color mode set to Normal.
+     AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+     printDoc.setColorMode(ColorPrintMode.NORMAL);
+
+     // Filter pages: skip color pages when printing black and white, and vice versa.
+     printDoc.setPageIndexFilter(new ColorPagesFilter(doc, !colored));
+
+     printerJob.setPrintable(printDoc);
+     printerJob.print();
+
+     return printDoc.getTotalPagesPrinted();
+ }
+
+ /// 
+ /// A filter that selectively skips color or black-and-white pages during printing
+ /// based on the document's page information and specified filtering mode.
+ /// 
+ /// 
+ /// This filter implements the IIndexFilter interface to provide custom page selection
+ /// logic for printing operations. It can be configured to either skip color pages
+ /// (when printing only black-and-white content) or skip black-and-white pages
+ /// (when printing only color content).
+ /// 
+ static class ColorPagesFilter implements IIndexFilter
+ {
+     private final Document doc;
+     private final boolean skipColorPages;
+
+     /**
+ Initializes a new instance of the ColorPagesFilter class.
+```
+
 **Returns:**
-boolean -  true  if the page contains colored content.
+boolean - true if the page should be skipped; otherwise, false. /
 ### getHeightInPoints() {#getHeightInPoints}
 ```
 public float getHeightInPoints()

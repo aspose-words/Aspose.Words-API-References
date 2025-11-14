@@ -43,12 +43,26 @@ Shows how to export OfficeMath object as Latex.
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
  
 ```
+
+Shows how to export OfficeMath object as MarkItDown.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setOfficeMathExportMode(MarkdownOfficeMathExportMode.MARK_IT_DOWN);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [IMAGE](#IMAGE) | Export OfficeMath as image. |
 | [LATEX](#LATEX) | Export OfficeMath as LaTeX. |
+| [MARK_IT_DOWN](#MARK-IT-DOWN) | Export OfficeMath as LaTeX that is compatible with MarkItDown. |
 | [MATH_ML](#MATH-ML) | Export OfficeMath as MathML. |
 | [TEXT](#TEXT) | Export OfficeMath as plain text. |
 | [length](#length) |  |
@@ -75,6 +89,18 @@ public static int LATEX
 
 
 Export OfficeMath as LaTeX.
+
+### MARK_IT_DOWN {#MARK-IT-DOWN}
+```
+public static int MARK_IT_DOWN
+```
+
+
+Export OfficeMath as LaTeX that is compatible with MarkItDown.
+
+ **Remarks:** 
+
+Please see https://github.com/microsoft/markitdown for details on MarkItDown.
 
 ### MATH_ML {#MATH-ML}
 ```

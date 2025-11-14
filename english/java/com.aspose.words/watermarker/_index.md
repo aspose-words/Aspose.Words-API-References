@@ -21,9 +21,9 @@ Provides methods intended to insert watermarks into the documents.
 | --- | --- |
 | [create(WatermarkerContext context)](#create-com.aspose.words.WatermarkerContext) | Creates new instance of the watermarker processor. |
 | [execute()](#execute) | Execute the processor action. |
-| [from(InputStream input)](#from-java.io.InputStream) |  |
+| [from(InputStream input)](#from-java.io.InputStream) | Specifies input document for processing. |
 | [from(InputStream input, LoadOptions loadOptions)](#from-java.io.InputStream-com.aspose.words.LoadOptions) | Specifies input document for processing. |
-| [from(String input)](#from-java.lang.String) |  |
+| [from(String input)](#from-java.lang.String) | Specifies input document for processing. |
 | [from(String input, LoadOptions loadOptions)](#from-java.lang.String-com.aspose.words.LoadOptions) | Specifies input document for processing. |
 | [setImage(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, BufferedImage watermarkImage)](#setImage-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.awt.image.BufferedImage) |  |
 | [setImage(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, BufferedImage watermarkImage, ImageWatermarkOptions options)](#setImage-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions) |  |
@@ -33,7 +33,7 @@ Provides methods intended to insert watermarks into the documents.
 | [setImage(InputStream inputStream, OutputStream outputStream, int saveFormat, BufferedImage watermarkImage, ImageWatermarkOptions options)](#setImage-java.io.InputStream-java.io.OutputStream-int-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions) |  |
 | [setImage(InputStream inputStream, OutputStream outputStream, int saveFormat, InputStream watermarkImageStream)](#setImage-java.io.InputStream-java.io.OutputStream-int-java.io.InputStream) |  |
 | [setImage(InputStream inputStream, OutputStream outputStream, int saveFormat, InputStream watermarkImageStream, ImageWatermarkOptions options)](#setImage-java.io.InputStream-java.io.OutputStream-int-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) |  |
-| [setImage(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkImageFileName)](#setImage-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String) |  |
+| [setImage(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkImageFileName)](#setImage-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String) | Adds an image watermark into the document with options and specified save format. |
 | [setImage(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkImageFileName, ImageWatermarkOptions options)](#setImage-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-com.aspose.words.ImageWatermarkOptions) | Adds an image watermark into the document with options and specified save format. |
 | [setImage(String inputFileName, String outputFileName, int saveFormat, String watermarkImageFileName)](#setImage-java.lang.String-java.lang.String-int-java.lang.String) |  |
 | [setImage(String inputFileName, String outputFileName, int saveFormat, String watermarkImageFileName, ImageWatermarkOptions options)](#setImage-java.lang.String-java.lang.String-int-java.lang.String-com.aspose.words.ImageWatermarkOptions) |  |
@@ -43,23 +43,23 @@ Provides methods intended to insert watermarks into the documents.
 | [setText(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, String watermarkText, TextWatermarkOptions options)](#setText-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-java.lang.String-com.aspose.words.TextWatermarkOptions) |  |
 | [setText(InputStream inputStream, OutputStream outputStream, int saveFormat, String watermarkText)](#setText-java.io.InputStream-java.io.OutputStream-int-java.lang.String) |  |
 | [setText(InputStream inputStream, OutputStream outputStream, int saveFormat, String watermarkText, TextWatermarkOptions options)](#setText-java.io.InputStream-java.io.OutputStream-int-java.lang.String-com.aspose.words.TextWatermarkOptions) |  |
-| [setText(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkText)](#setText-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String) |  |
+| [setText(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkText)](#setText-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String) | Adds a text watermark into the document with options and specified save format. |
 | [setText(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkText, TextWatermarkOptions options)](#setText-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds a text watermark into the document with options and specified save format. |
 | [setText(String inputFileName, String outputFileName, int saveFormat, String watermarkText)](#setText-java.lang.String-java.lang.String-int-java.lang.String) |  |
 | [setText(String inputFileName, String outputFileName, int saveFormat, String watermarkText, TextWatermarkOptions options)](#setText-java.lang.String-java.lang.String-int-java.lang.String-com.aspose.words.TextWatermarkOptions) |  |
 | [setText(String inputFileName, String outputFileName, String watermarkText)](#setText-java.lang.String-java.lang.String-java.lang.String) | Adds a text watermark into the document. |
 | [setText(String inputFileName, String outputFileName, String watermarkText, TextWatermarkOptions options)](#setText-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds a text watermark into the document with options. |
-| [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, InputStream watermarkImageStream)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.io.InputStream) |  |
+| [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, InputStream watermarkImageStream)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.io.InputStream) | Adds an image watermark into the document with options. |
 | [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, InputStream watermarkImageStream, ImageWatermarkOptions options)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) | Adds an image watermark into the document with options. |
-| [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, String watermarkText)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String) |  |
+| [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, String watermarkText)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String) | Adds a text watermark into the document with options. |
 | [setWatermarkToImages(InputStream inputStream, ImageSaveOptions saveOptions, String watermarkText, TextWatermarkOptions options)](#setWatermarkToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds a text watermark into the document with options. |
-| [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, byte[] watermarkImageBytes)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-byte) |  |
+| [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, byte[] watermarkImageBytes)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-byte) | Adds an image watermark into the document with options. |
 | [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, byte[] watermarkImageBytes, ImageWatermarkOptions options)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-byte---com.aspose.words.ImageWatermarkOptions) | Adds an image watermark into the document with options. |
-| [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, String watermarkText)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String) |  |
+| [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, String watermarkText)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String) | Adds a text watermark into the document with options. |
 | [setWatermarkToImages(String inputFileName, ImageSaveOptions saveOptions, String watermarkText, TextWatermarkOptions options)](#setWatermarkToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds a text watermark into the document with options. |
 | [to(OutputStream output, SaveOptions saveOptions)](#to-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [to(OutputStream output, int saveFormat)](#to-java.io.OutputStream-int) |  |
-| [to(String output)](#to-java.lang.String) |  |
+| [to(String output)](#to-java.lang.String) | Specifies output file for the processor. |
 | [to(String output, SaveOptions saveOptions)](#to-java.lang.String-com.aspose.words.SaveOptions) | Specifies output file for the processor. |
 | [to(String output, int saveFormat)](#to-java.lang.String-int) |  |
 | [to(ArrayList output, SaveOptions saveOptions)](#to-java.util.ArrayList-com.aspose.words.SaveOptions) |  |
@@ -340,15 +340,19 @@ public Processor from(InputStream input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.io.InputStream |  |
+| input | java.io.InputStream | Input document stream. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
 ### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
 ```
 public Processor from(InputStream input, LoadOptions loadOptions)
@@ -455,15 +459,19 @@ public Processor from(String input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.lang.String |  |
+| input | java.lang.String | Input document file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file.
 ### from(String input, LoadOptions loadOptions) {#from-java.lang.String-com.aspose.words.LoadOptions}
 ```
 public Processor from(String input, LoadOptions loadOptions)
@@ -705,15 +713,21 @@ public static void setImage(String inputFileName, String outputFileName, SaveOpt
 ```
 
 
+Adds an image watermark into the document with options and specified save format.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| watermarkImageFileName | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| watermarkImageFileName | java.lang.String | Image that is displayed as a watermark. |
 
 ### setImage(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkImageFileName, ImageWatermarkOptions options) {#setImage-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-com.aspose.words.ImageWatermarkOptions}
 ```
@@ -904,15 +918,21 @@ public static void setText(String inputFileName, String outputFileName, SaveOpti
 ```
 
 
+Adds a text watermark into the document with options and specified save format.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| watermarkText | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
+| watermarkText | java.lang.String | Text that is displayed as a watermark. |
 
 ### setText(String inputFileName, String outputFileName, SaveOptions saveOptions, String watermarkText, TextWatermarkOptions options) {#setText-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String-com.aspose.words.TextWatermarkOptions}
 ```
@@ -1037,14 +1057,14 @@ public static OutputStream[] setWatermarkToImages(InputStream inputStream, Image
 ```
 
 
-
+Adds an image watermark into the document with options. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| watermarkImageStream | java.io.InputStream |  |
+| inputStream | java.io.InputStream | The input stream. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| watermarkImageStream | java.io.InputStream | Image stream that is displayed as a watermark. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1091,14 +1111,14 @@ public static OutputStream[] setWatermarkToImages(InputStream inputStream, Image
 ```
 
 
-
+Adds a text watermark into the document with options. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| watermarkText | java.lang.String |  |
+| inputStream | java.io.InputStream | The input file stream. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| watermarkText | java.lang.String | Text that is displayed as a watermark. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1144,14 +1164,14 @@ public static OutputStream[] setWatermarkToImages(String inputFileName, ImageSav
 ```
 
 
-
+Adds an image watermark into the document with options. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| watermarkImageBytes | byte[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| watermarkImageBytes | byte[] | Image bytes that is displayed as a watermark. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1197,14 +1217,14 @@ public static OutputStream[] setWatermarkToImages(String inputFileName, ImageSav
 ```
 
 
-
+Adds a text watermark into the document with options. Renders the output to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| watermarkText | java.lang.String |  |
+| inputFileName | java.lang.String | The input file name. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The save options. |
+| watermarkText | java.lang.String | Text that is displayed as a watermark. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1281,15 +1301,19 @@ public Processor to(String output)
 ```
 
 
+Specifies output file for the processor.
 
+ **Remarks:** 
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile\_partIndex.extension'.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.lang.String |  |
+| output | java.lang.String | Output file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified output file.
 ### to(String output, SaveOptions saveOptions) {#to-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public Processor to(String output, SaveOptions saveOptions)

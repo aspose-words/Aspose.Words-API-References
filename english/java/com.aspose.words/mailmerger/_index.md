@@ -37,7 +37,7 @@ Provides methods intended to fill template with data using simple mail merge and
 | [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, System.Data.DataRow dataRow, MailMergeOptions mailMergeOptions)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.net.System.Data.DataRow-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document. |
 | [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, System.Data.DataTable dataTable)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, System.Data.DataTable dataTable, MailMergeOptions mailMergeOptions)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-com.aspose.words.net.System.Data.DataTable-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document. |
-| [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String---java.lang.Object) |  |
+| [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String---java.lang.Object) | Performs a mail merge operation for a single record. |
 | [execute(String inputFileName, String outputFileName, SaveOptions saveOptions, String[] fieldNames, Object[] fieldValues, MailMergeOptions mailMergeOptions)](#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String---java.lang.Object---com.aspose.words.MailMergeOptions) | Performs a mail merge operation for a single record. |
 | [execute(String inputFileName, String outputFileName, System.Data.DataRow dataRow)](#execute-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataRow) | Performs mail merge from a DataRow into the document. |
 | [execute(String inputFileName, String outputFileName, System.Data.DataTable dataTable)](#execute-java.lang.String-java.lang.String-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a DataTable into the document. |
@@ -52,13 +52,13 @@ Provides methods intended to fill template with data using simple mail merge and
 | [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, System.Data.DataRow dataRow, MailMergeOptions mailMergeOptions)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataRow-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document and renders the result to images. |
 | [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, System.Data.DataTable dataTable)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, System.Data.DataTable dataTable, MailMergeOptions mailMergeOptions)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document and renders the result to images. |
-| [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object) |  |
+| [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object) | Performs a mail merge operation for a single record and renders the result to images. |
 | [executeToImages(InputStream inputStream, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues, MailMergeOptions mailMergeOptions)](#executeToImages-java.io.InputStream-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object---com.aspose.words.MailMergeOptions) | Performs a mail merge operation for a single record and renders the result to images. |
 | [executeToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataRow dataRow)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataRow) |  |
 | [executeToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataRow dataRow, MailMergeOptions mailMergeOptions)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataRow-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document and renders the result to images. |
 | [executeToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataTable dataTable)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataTable dataTable, MailMergeOptions mailMergeOptions)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataRow into the document and renders the result to images. |
-| [executeToImages(String inputFileName, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object) |  |
+| [executeToImages(String inputFileName, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object) | Performs a mail merge operation for a single record and renders the result to images. |
 | [executeToImages(String inputFileName, ImageSaveOptions saveOptions, String[] fieldNames, Object[] fieldValues, MailMergeOptions mailMergeOptions)](#executeToImages-java.lang.String-com.aspose.words.ImageSaveOptions-java.lang.String---java.lang.Object---com.aspose.words.MailMergeOptions) | Performs a mail merge operation for a single record and renders the result to images. |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, System.Data.DataSet dataSet)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.net.System.Data.DataSet) |  |
 | [executeWithRegions(InputStream inputStream, OutputStream outputStream, SaveOptions saveOptions, System.Data.DataSet dataSet, MailMergeOptions mailMergeOptions)](#executeWithRegions-java.io.InputStream-java.io.OutputStream-com.aspose.words.SaveOptions-com.aspose.words.net.System.Data.DataSet-com.aspose.words.MailMergeOptions) |  |
@@ -86,13 +86,13 @@ Provides methods intended to fill template with data using simple mail merge and
 | [executeWithRegionsToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataSet dataSet, MailMergeOptions mailMergeOptions)](#executeWithRegionsToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataSet-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataSet into the document with mail merge regions and renders the result to images. |
 | [executeWithRegionsToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataTable dataTable)](#executeWithRegionsToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable) |  |
 | [executeWithRegionsToImages(String inputFileName, ImageSaveOptions saveOptions, System.Data.DataTable dataTable, MailMergeOptions mailMergeOptions)](#executeWithRegionsToImages-java.lang.String-com.aspose.words.ImageSaveOptions-com.aspose.words.net.System.Data.DataTable-com.aspose.words.MailMergeOptions) | Performs mail merge from a DataTable into the document with mail merge regions and renders the result to images. |
-| [from(InputStream input)](#from-java.io.InputStream) |  |
+| [from(InputStream input)](#from-java.io.InputStream) | Specifies input document for processing. |
 | [from(InputStream input, LoadOptions loadOptions)](#from-java.io.InputStream-com.aspose.words.LoadOptions) | Specifies input document for processing. |
-| [from(String input)](#from-java.lang.String) |  |
+| [from(String input)](#from-java.lang.String) | Specifies input document for processing. |
 | [from(String input, LoadOptions loadOptions)](#from-java.lang.String-com.aspose.words.LoadOptions) | Specifies input document for processing. |
 | [to(OutputStream output, SaveOptions saveOptions)](#to-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [to(OutputStream output, int saveFormat)](#to-java.io.OutputStream-int) |  |
-| [to(String output)](#to-java.lang.String) |  |
+| [to(String output)](#to-java.lang.String) | Specifies output file for the processor. |
 | [to(String output, SaveOptions saveOptions)](#to-java.lang.String-com.aspose.words.SaveOptions) | Specifies output file for the processor. |
 | [to(String output, int saveFormat)](#to-java.lang.String-int) |  |
 | [to(ArrayList output, SaveOptions saveOptions)](#to-java.util.ArrayList-com.aspose.words.SaveOptions) |  |
@@ -849,16 +849,22 @@ public static void execute(String inputFileName, String outputFileName, SaveOpti
 ```
 
 
+Performs a mail merge operation for a single record.
 
+ **Remarks:** 
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile\_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| outputFileName | java.lang.String |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
-| fieldNames | java.lang.String[] |  |
-| fieldValues | java.lang.Object[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| outputFileName | java.lang.String | The output file name. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The output's save options. |
+| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
 ### execute(String inputFileName, String outputFileName, SaveOptions saveOptions, String[] fieldNames, Object[] fieldValues, MailMergeOptions mailMergeOptions) {#execute-java.lang.String-java.lang.String-com.aspose.words.SaveOptions-java.lang.String---java.lang.Object---com.aspose.words.MailMergeOptions}
 ```
@@ -1241,15 +1247,15 @@ public static OutputStream[] executeToImages(InputStream inputStream, ImageSaveO
 ```
 
 
-
+Performs a mail merge operation for a single record and renders the result to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| fieldNames | java.lang.String[] |  |
-| fieldValues | java.lang.Object[] |  |
+| inputStream | java.io.InputStream | The input file stream. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The output's save options. |
+| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -1415,15 +1421,15 @@ public static OutputStream[] executeToImages(String inputFileName, ImageSaveOpti
 ```
 
 
-
+Performs a mail merge operation for a single record and renders the result to images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputFileName | java.lang.String |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
-| fieldNames | java.lang.String[] |  |
-| fieldValues | java.lang.Object[] |  |
+| inputFileName | java.lang.String | The input file name. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | The output's save options. |
+| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| fieldValues | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
 **Returns:**
 java.io.OutputStream[]
@@ -2105,15 +2111,19 @@ public Processor from(InputStream input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.io.InputStream |  |
+| input | java.io.InputStream | Input document stream. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
 ### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
 ```
 public Processor from(InputStream input, LoadOptions loadOptions)
@@ -2220,15 +2230,19 @@ public Processor from(String input)
 ```
 
 
+Specifies input document for processing.
 
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | java.lang.String |  |
+| input | java.lang.String | Input document file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file.
 ### from(String input, LoadOptions loadOptions) {#from-java.lang.String-com.aspose.words.LoadOptions}
 ```
 public Processor from(String input, LoadOptions loadOptions)
@@ -2370,15 +2384,19 @@ public Processor to(String output)
 ```
 
 
+Specifies output file for the processor.
 
+ **Remarks:** 
+
+If the output consists of multiple files, the specified output file name is used to generate the file name for each part following the rule: 'outputFile\_partIndex.extension'.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.lang.String |  |
+| output | java.lang.String | Output file name. |
 
 **Returns:**
-[Processor](../../com.aspose.words/processor/)
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified output file.
 ### to(String output, SaveOptions saveOptions) {#to-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public Processor to(String output, SaveOptions saveOptions)
