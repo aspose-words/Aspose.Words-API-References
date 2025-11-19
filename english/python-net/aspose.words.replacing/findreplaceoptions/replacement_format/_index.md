@@ -28,7 +28,7 @@ def replacement_format(self, value: aspose.words.replacing.ReplacementFormat):
 
 ### Remarks
 
-Has effect only when using in Aspose.Words.LowCode.Replacer
+Has effect only when using in [Replacer](../../../aspose.words.lowcode/replacer/)
 
 
 
