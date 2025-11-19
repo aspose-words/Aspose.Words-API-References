@@ -1,0 +1,339 @@
+﻿---
+title: Comparer.compare method
+linktitle: compare method
+articleTitle: compare method
+second_title: Aspose.Words for Python
+description: "aspose.words.lowcode.Comparer.compare method"
+type: docs
+weight: 10
+url: /python-net/aspose.words.lowcode/comparer/compare/
+---
+
+## compare(v1, v2, output_file_name, author, date_time) {#str_str_str_str_datetime}
+
+Compares two documents with additional options and saves the differences to the specified output file, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, author: str, date_time: datetime.datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_file_name, author, date_time, compare_options) {#str_str_str_str_datetime_compareoptions}
+
+Compares two documents with additional options and saves the differences to the specified output file, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_file_name, save_format, author, date_time) {#str_str_str_saveformat_str_datetime}
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, save_format: aspose.words.SaveFormat, author: str, date_time: datetime.datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_file_name, save_format, author, date_time, compare_options) {#str_str_str_saveformat_str_datetime_compareoptions}
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, save_format: aspose.words.SaveFormat, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_file_name, save_options, author, date_time) {#str_str_str_saveoptions_str_datetime}
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_file_name, save_options, author, date_time, compare_options) {#str_str_str_saveoptions_str_datetime_compareoptions}
+
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: str, v2: str, output_file_name: str, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | str | The original document. |
+| v2 | str | The modified document. |
+| output_file_name | str | The output file name. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
+
+
+
+## compare(v1, v2, output_stream, save_format, author, date_time) {#bytesio_bytesio_bytesio_saveformat_str_datetime}
+
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, save_format: aspose.words.SaveFormat, author: str, date_time: datetime.datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | io.BytesIO | The original document. |
+| v2 | io.BytesIO | The modified document. |
+| output_stream | io.BytesIO | The output stream. |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+
+
+
+## compare(v1, v2, output_stream, save_format, author, date_time, compare_options) {#bytesio_bytesio_bytesio_saveformat_str_datetime_compareoptions}
+
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, save_format: aspose.words.SaveFormat, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | io.BytesIO | The original document. |
+| v2 | io.BytesIO | The modified document. |
+| output_stream | io.BytesIO | The output stream. |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | The output's save format. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+
+
+
+## compare(v1, v2, output_stream, save_options, author, date_time) {#bytesio_bytesio_bytesio_saveoptions_str_datetime}
+
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | io.BytesIO | The original document. |
+| v2 | io.BytesIO | The modified document. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+
+
+
+## compare(v1, v2, output_stream, save_options, author, date_time, compare_options) {#bytesio_bytesio_bytesio_saveoptions_str_datetime_compareoptions}
+
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, 
+producing changes as a number of edit and format revisions.
+
+
+```python
+def compare(self, v1: io.BytesIO, v2: io.BytesIO, output_stream: io.BytesIO, save_options: aspose.words.saving.SaveOptions, author: str, date_time: datetime.datetime, compare_options: aspose.words.comparing.CompareOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | io.BytesIO | The original document. |
+| v2 | io.BytesIO | The modified document. |
+| output_stream | io.BytesIO | The output stream. |
+| save_options | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The output's save options. |
+| author | str | Initials of the author to use for revisions. |
+| date_time | datetime.datetime | The date and time to use for revisions. |
+| compare_options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) | Document comparison options. |
+
+### Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
+
+
+
+## Examples
+
+Shows how to simple compare documents.
+
+```python
+# There is a several ways to compare documents:
+first_doc = MY_DIR + 'Table column bookmarks.docx'
+second_doc = MY_DIR + 'Table column bookmarks.doc'
+aw.lowcode.Comparer.compare(v1=first_doc, v2=second_doc, output_file_name=ARTIFACTS_DIR + 'LowCode.CompareDocuments.1.docx', author='Author', date_time=datetime.datetime(1, 1, 1))
+aw.lowcode.Comparer.compare(v1=first_doc, v2=second_doc, output_file_name=ARTIFACTS_DIR + 'LowCode.CompareDocuments.2.docx', save_format=aw.SaveFormat.DOCX, author='Author', date_time=datetime.datetime(1, 1, 1))
+compare_options = aw.comparing.CompareOptions()
+compare_options.ignore_case_changes = True
+aw.lowcode.Comparer.compare(v1=first_doc, v2=second_doc, output_file_name=ARTIFACTS_DIR + 'LowCode.CompareDocuments.3.docx', author='Author', date_time=datetime.datetime(1, 1, 1), compare_options=compare_options)
+aw.lowcode.Comparer.compare(v1=first_doc, v2=second_doc, output_file_name=ARTIFACTS_DIR + 'LowCode.CompareDocuments.4.docx', save_format=aw.SaveFormat.DOCX, author='Author', date_time=datetime.datetime(1, 1, 1), compare_options=compare_options)
+```
+
+Shows how to compare documents from the stream.
+
+```python
+# There is a several ways to compare documents from the stream:
+with system_helper.io.FileStream(MY_DIR + 'Table column bookmarks.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as first_stream_in:
+    with system_helper.io.FileStream(MY_DIR + 'Table column bookmarks.doc', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as second_stream_in:
+        with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.CompareStreamDocuments.1.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+            aw.lowcode.Comparer.compare(v1=first_stream_in, v2=second_stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX, author='Author', date_time=datetime.datetime(1, 1, 1))
+        with system_helper.io.FileStream(ARTIFACTS_DIR + 'LowCode.CompareStreamDocuments.2.docx', system_helper.io.FileMode.CREATE, system_helper.io.FileAccess.READ_WRITE) as stream_out:
+            compare_options = aw.comparing.CompareOptions()
+            compare_options.ignore_case_changes = True
+            aw.lowcode.Comparer.compare(v1=first_stream_in, v2=second_stream_in, output_stream=stream_out, save_format=aw.SaveFormat.DOCX, author='Author', date_time=datetime.datetime(1, 1, 1), compare_options=compare_options)
+```
+
+## See Also
+
+* module [aspose.words.lowcode](../../)
+* class [Comparer](../)
+
