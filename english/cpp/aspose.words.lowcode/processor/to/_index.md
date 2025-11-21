@@ -91,6 +91,30 @@ Returns processor with specified output stream.
 * Class [Processor](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
+## Processor::To(const System::String\&) method
+
+
+Specifies output file for the processor.
+
+```cpp
+System::SharedPtr<Aspose::Words::LowCode::Processor> Aspose::Words::LowCode::Processor::To(const System::String &output)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | const System::String\& | Output file name. |
+
+### ReturnValue
+
+Returns processor with specified output file.
+
+## See Also
+
+* Class [Processor](../)
+* Class [Processor](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Processor::To(const System::String\&, Aspose::Words::SaveFormat) method
 
 
@@ -123,7 +147,7 @@ Returns processor with specified output file.
 Specifies output file for the processor.
 
 ```cpp
-System::SharedPtr<Aspose::Words::LowCode::Processor> Aspose::Words::LowCode::Processor::To(const System::String &output, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions=nullptr)
+System::SharedPtr<Aspose::Words::LowCode::Processor> Aspose::Words::LowCode::Processor::To(const System::String &output, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)
 ```
 
 
