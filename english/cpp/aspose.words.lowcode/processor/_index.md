@@ -21,10 +21,13 @@ class Processor : public System::Object
 | Method | Description |
 | --- | --- |
 | [Execute](./execute/)() | Execute the processor action. |
+| [From](./from/)(const System::String\&) | Specifies input document for processing. |
 | [From](./from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
+| [From](./from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Specifies input document for processing. |
 | [From](./from/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [To](./to/)(const System::String\&) | Specifies output file for the processor. |
 | [To](./to/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
 | [To](./to/)(const System::String\&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](./to/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Specifies output stream for the processor. |
