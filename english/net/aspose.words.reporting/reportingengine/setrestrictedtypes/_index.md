@@ -5,7 +5,7 @@ articleTitle: SetRestrictedTypes
 second_title: Aspose.Words for .NET
 description: Discover how the SetRestrictedTypes method in ReportingEngine enhances security by limiting member access in template syntax for optimized data reporting.
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.words.reporting/reportingengine/setrestrictedtypes/
 ---
 ## ReportingEngine.SetRestrictedTypes method

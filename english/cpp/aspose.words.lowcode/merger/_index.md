@@ -23,7 +23,9 @@ class Merger : public Aspose::Words::LowCode::Processor
 | static [Create](./create/)() | Creates new instance of the mail merger processor. |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::MergerContext\>\&) | Creates new instance of the mail merger processor. |
 | [Execute](../processor/execute/)() | Execute the processor action. |
+| [From](../processor/from/)(const System::String\&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
+| [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
@@ -41,6 +43,7 @@ class Merger : public Aspose::Words::LowCode::Processor
 | static [Merge](./merge/)(const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\&, Aspose::Words::LowCode::MergeFormatMode) | Merges the given input documents into a single document and returns [Document](../../aspose.words/document/) instance of the final document. |
 | static [MergeToImages](./mergetoimages/)(const System::ArrayPtr\<System::String\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, Aspose::Words::LowCode::MergeFormatMode) | Merges the given input documents into a single output document using specified input output file names and save options. Renders the output to images. |
 | static [MergeToImages](./mergetoimages/)(const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, Aspose::Words::LowCode::MergeFormatMode) | Merges the given input document streams into a single output document using specified image save options. Renders the output to images. |
+| [To](../processor/to/)(const System::String\&) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String\&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Specifies output stream for the processor. |

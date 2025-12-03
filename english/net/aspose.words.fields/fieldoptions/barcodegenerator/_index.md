@@ -48,9 +48,9 @@ Document doc = new Document();
             };
 
             Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
-#if NETFRAMEWORK || JAVA
+#if NET461_OR_GREATER || JAVA
             img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
             {
                 img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
@@ -69,9 +69,9 @@ Document doc = new Document();
             };
 
             img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
-#if NETFRAMEWORK || JAVA
+#if NET461_OR_GREATER || JAVA
             img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
             {
                 img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
@@ -88,9 +88,9 @@ Document doc = new Document();
             };
 
             img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
-#if NETFRAMEWORK || JAVA
+#if NET461_OR_GREATER || JAVA
             img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
             {
                 img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
@@ -107,9 +107,9 @@ Document doc = new Document();
             };
 
             img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
-#if NETFRAMEWORK || JAVA
+#if NET461_OR_GREATER || JAVA
             img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
             {
                 img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
