@@ -94,7 +94,7 @@ Compares two documents and saves the differences as images. Each item in the ret
 
 ```csharp
 public static Stream[] CompareToImages(Stream v1, Stream v2, ImageSaveOptions imageSaveOptions, 
-    string author, DateTime dateTime, CompareOptions compareOptions = null)
+    string author, DateTime dateTime, CompareOptions compareOptions)
 ```
 
 | Parameter | Type | Description |

@@ -27,20 +27,35 @@ AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 model.Url = "https://my.a.com/";
 ```
 
-Shows how to check the grammar of a document.
+Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```csharp
-Document doc = new Document(MyDir + "Big document.docx");
+public void SelfHostedModel()
+{
+    Document doc = new Document(MyDir + "Big document.docx");
 
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+    string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+    // Use OpenAI generative language models.
+    AiModel model = new CustomAiModel().WithApiKey(apiKey);
+    model.Url = "https://my.a.com/";
 
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
+    Document translatedDoc = model.Translate(doc, Language.Russian);
+    translatedDoc.Save(ArtifactsDir + "AI.SelfHostedModel.docx");
+}
 
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save(ArtifactsDir + "AI.AiGrammar.docx");
+/// <summary>
+/// Custom self-hosted AI model.
+/// </summary>
+internal class CustomAiModel : OpenAiModel
+{
+    /// <summary>
+    /// Gets model name.
+    /// </summary>
+    protected override string Name
+    {
+        get { return "my-model-24b"; }
+    }
+}
 ```
 
 ### See Also

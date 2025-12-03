@@ -355,7 +355,7 @@ Document doc = new Document();
                     Assert.That(image.Height, Is.EqualTo(1056));
                 }
             }
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);

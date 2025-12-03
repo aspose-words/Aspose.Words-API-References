@@ -40,6 +40,8 @@ public class ReportingEngine
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Populates the specified template document with data from the specified source making it a ready report. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Populates the specified template document with data from the specified source making it a ready report. |
 | [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Populates the specified template document with data from the specified sources making it a ready report. |
+| override [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) |  |
+| override [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() |  |
 | static [GetRestrictedTypes](../../aspose.words.reporting/reportingengine/getrestrictedtypes/)() | Returns types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 | static [SetRestrictedTypes](../../aspose.words.reporting/reportingengine/setrestrictedtypes/)(*params Type[]*) | Specifies types, which members as well as which derived types' members should be inaccessible by the engine through template syntax. |
 

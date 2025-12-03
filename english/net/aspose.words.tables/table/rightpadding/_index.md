@@ -31,7 +31,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// For every cell in the table, set the distance between its contents and each of its borders. 
+// For every cell in the table, set the distance between its contents and each of its borders.
 // This table will maintain the minimum padding distance by wrapping text.
 table.LeftPadding = 30;
 table.RightPadding = 60;

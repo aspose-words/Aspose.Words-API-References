@@ -5,7 +5,7 @@ articleTitle: UseReflectionOptimization
 second_title: Aspose.Words for .NET
 description: Optimize custom type member invocations with ReportingEngine's UseReflectionOptimization property. Enhance performance with dynamic class generation for better efficiency.
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.words.reporting/reportingengine/usereflectionoptimization/
 ---
 ## ReportingEngine.UseReflectionOptimization property

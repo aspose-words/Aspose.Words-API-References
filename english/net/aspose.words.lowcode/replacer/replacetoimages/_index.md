@@ -8,7 +8,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lowcode/replacer/replacetoimages/
 ---
-## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, string*) {#replacetoimages_3}
+## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, string*) {#replacetoimages_4}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images.
 
@@ -33,7 +33,7 @@ public static Stream[] ReplaceToImages(string inputFileName, ImageSaveOptions sa
 
 ---
 
-## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_4}
+## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_5}
 
 Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images.
 
@@ -148,13 +148,13 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
 
 ---
 
-## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_5}
+## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_7}
 
 Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images.
 
 ```csharp
 public static Stream[] ReplaceToImages(string inputFileName, ImageSaveOptions saveOptions, 
-    Regex pattern, string replacement, FindReplaceOptions options = null)
+    Regex pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -189,13 +189,38 @@ images = Replacer.ReplaceToImages(doc, new ImageSaveOptions(SaveFormat.Png), pat
 
 ---
 
-## ReplaceToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_2}
+## ReplaceToImages(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string*) {#replacetoimages_6}
+
+Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images.
+
+```csharp
+public static Stream[] ReplaceToImages(string inputFileName, ImageSaveOptions saveOptions, 
+    Regex pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | String | The input file name. |
+| saveOptions | ImageSaveOptions | The save options. |
+| pattern | Regex | A regular expression pattern used to find matches. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ReplaceToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replacetoimages_3}
 
 Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images.
 
 ```csharp
 public static Stream[] ReplaceToImages(Stream inputStream, ImageSaveOptions saveOptions, 
-    Regex pattern, string replacement, FindReplaceOptions options = null)
+    Regex pattern, string replacement, FindReplaceOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -226,6 +251,31 @@ using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMo
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
+* class [Replacer](../)
+* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## ReplaceToImages(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/), Regex, string*) {#replacetoimages_2}
+
+Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images.
+
+```csharp
+public static Stream[] ReplaceToImages(Stream inputStream, ImageSaveOptions saveOptions, 
+    Regex pattern, string replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The input file stream. |
+| saveOptions | ImageSaveOptions | The save options. |
+| pattern | Regex | A regular expression pattern used to find matches. |
+| replacement | String | A string to replace all occurrences of pattern. |
+
+### See Also
+
+* class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [Replacer](../)
 * namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../../)

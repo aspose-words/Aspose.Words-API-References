@@ -66,7 +66,7 @@ previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
 awPrintDoc.Print();
-Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
+Console.WriteLine($"The number of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### See Also
