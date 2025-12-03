@@ -38,7 +38,7 @@ Document doc = new Document();
 
             doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
 
-#elif NET6_0_OR_GREATER
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
 #endif

@@ -41,7 +41,7 @@ If the output consists of multiple files, the specified output file name is used
 Specifies output file for the processor.
 
 ```csharp
-public Processor To(string output, SaveOptions saveOptions = null)
+public Processor To(string output, SaveOptions saveOptions)
 ```
 
 | Parameter | Type | Description |
