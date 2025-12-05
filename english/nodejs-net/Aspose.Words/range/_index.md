@@ -52,8 +52,6 @@ over a fragment of a document.
 |[ normalizeFieldTypes()](./normalizeFieldTypes/#default) | Changes field type values [FieldChar.fieldType](../../aspose.words.fields/fieldchar/fieldType/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 |[ replace(pattern, replacement)](./replace/#string_string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 |[ replace(pattern, replacement, options)](./replace/#string_string_findreplaceoptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-|[ replaceRegex(pattern, replacement)](./replaceRegex/#string_string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-|[ replaceRegex(pattern, replacement, options)](./replaceRegex/#string_string_findreplaceoptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 |[ toDocument()](./toDocument/#default) | Constructs a new fully formed document that contains the range. |
 |[ unlinkFields()](./unlinkFields/#default) | Unlinks fields in this range. |
 |[ updateFields()](./updateFields/#default) | Updates the values of document fields in this range. |
