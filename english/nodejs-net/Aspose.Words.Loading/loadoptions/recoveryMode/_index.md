@@ -11,10 +11,10 @@ url: /nodejs-net/aspose.words.loading/loadoptions/recoveryMode/
 
 ## LoadOptions.recoveryMode property
 
-Defines how the document should be handled if errors occur during loading.  
-Use this property to specify whether the system should attempt to recover the document 
-or follow another defined behavior.  
-The default value is [DocumentRecoveryMode.TryRecover](../../documentrecoverymode/#TryRecover). 
+Defines how the document should be handled if errors occur during loading.
+Use this property to specify whether the system should attempt to recover the document
+or follow another defined behavior.
+The default value is [DocumentRecoveryMode.TryRecover](../../documentrecoverymode/#TryRecover).
 
 
 
