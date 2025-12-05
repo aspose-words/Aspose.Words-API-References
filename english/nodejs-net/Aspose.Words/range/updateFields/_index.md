@@ -5,7 +5,7 @@ articleTitle: updateFields method
 second_title: Aspose.Words for Node.js
 description: "Range.updateFields method. Updates the values of document fields in this range."
 type: docs
-weight: 130
+weight: 120
 url: /nodejs-net/aspose.words/range/updateFields/
 ---
 

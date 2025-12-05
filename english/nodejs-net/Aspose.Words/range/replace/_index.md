@@ -147,38 +147,6 @@ expect(doc.getText().trim()).toEqual("Every paragraph that ends with a full stop
                         "This one also will!");
 ```
 
-Shows how to replace all instances of String of text in a table and cell.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.write("Carrots");
-builder.insertCell();
-builder.write("50");
-builder.endRow();
-builder.insertCell();
-builder.write("Potatoes");
-builder.insertCell();
-builder.write("50");
-builder.endTable();
-
-let options = new aw.Replacing.FindReplaceOptions();
-options.matchCase = true;
-options.findWholeWordsOnly = true;
-
-// Perform a find-and-replace operation on an entire table.
-table.range.replace("Carrots", "Eggs", options);
-
-// Perform a find-and-replace operation on the last cell of the last row of the table.
-table.lastRow.lastCell.range.replace("50", "20", options);
-
-expect(table.getText().trim()).toEqual("Eggs\u000750\u0007\u0007" +
-                        "Potatoes\u000720\u0007\u0007");
-```
-
 Shows how to toggle case sensitivity when performing a find-and-replace operation.
 
 ```js
@@ -218,6 +186,38 @@ doc.range.replace("Jackson", "Louis", options);
 
 expect(doc.getText().trim()).toEqual(
   findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville." );
+```
+
+Shows how to replace all instances of String of text in a table and cell.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.write("Carrots");
+builder.insertCell();
+builder.write("50");
+builder.endRow();
+builder.insertCell();
+builder.write("Potatoes");
+builder.insertCell();
+builder.write("50");
+builder.endTable();
+
+let options = new aw.Replacing.FindReplaceOptions();
+options.matchCase = true;
+options.findWholeWordsOnly = true;
+
+// Perform a find-and-replace operation on an entire table.
+table.range.replace("Carrots", "Eggs", options);
+
+// Perform a find-and-replace operation on the last cell of the last row of the table.
+table.lastRow.lastCell.range.replace("50", "20", options);
+
+expect(table.getText().trim()).toEqual("Eggs\u000750\u0007\u0007" +
+                        "Potatoes\u000720\u0007\u0007");
 ```
 
 Shows how to replace text in a document's footer.

@@ -5,7 +5,7 @@ articleTitle: unlinkFields method
 second_title: Aspose.Words for Node.js
 description: "Range.unlinkFields method. Unlinks fields in this range."
 type: docs
-weight: 120
+weight: 110
 url: /nodejs-net/aspose.words/range/unlinkFields/
 ---
 
