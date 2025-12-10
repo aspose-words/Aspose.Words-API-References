@@ -11,10 +11,10 @@ url: /python-net/aspose.words.loading/loadoptions/recovery_mode/
 
 ## LoadOptions.recovery_mode property
 
-Defines how the document should be handled if errors occur during loading.  
-Use this property to specify whether the system should attempt to recover the document 
-or follow another defined behavior.  
-The default value is [DocumentRecoveryMode.TRY_RECOVER](../../documentrecoverymode/#TRY_RECOVER). 
+Defines how the document should be handled if errors occur during loading.
+Use this property to specify whether the system should attempt to recover the document
+or follow another defined behavior.
+The default value is [DocumentRecoveryMode.TRY_RECOVER](../../documentrecoverymode/#TRY_RECOVER).
 
 
 

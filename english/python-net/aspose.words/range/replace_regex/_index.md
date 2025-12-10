@@ -41,7 +41,7 @@ You should use special meta-characters if you need to work with breaks:
 * **&l** - manual line break
   
 
-Use method[Range.replace_regex()](./#str_str_findreplaceoptions) to have more flexible customization.
+Use methodAspose.Words.Range.Replace(System.Text.RegularExpressions.Regex,System.String,Aspose.Words.Replacing.FindReplaceOptions) to have more flexible customization.
 
 
 

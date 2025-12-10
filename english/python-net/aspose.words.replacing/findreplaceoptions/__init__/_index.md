@@ -62,6 +62,23 @@ def __init__(self, direction: aspose.words.replacing.FindReplaceDirection, repla
 | direction | [FindReplaceDirection](../../findreplacedirection/) | The direction of the find and replace operation. |
 | replacing_callback | [IReplacingCallback](../../ireplacingcallback/) | The callback to use for replacing found text. |
 
+## Examples
+
+Shows how to recognize and use substitutions within replacement patterns.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.write('Jason gave money to Paul.')
+regex = '([A-z]+) gave money to ([A-z]+)'
+options = aw.replacing.FindReplaceOptions()
+options.use_substitutions = True
+# Using legacy mode does not support many advanced features, so we need to set it to 'false'.
+options.legacy_mode = False
+doc.range.replace_regex(pattern=regex, replacement='$2 took money from $1', options=options)
+self.assertEqual(doc.get_text(), 'Paul took money from Jason.\x0c')
+```
+
 ## See Also
 
 * module [aspose.words.replacing](../../)
