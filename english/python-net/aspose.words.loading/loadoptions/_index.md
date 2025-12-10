@@ -41,7 +41,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [password](./password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``. |
 | [preserve_include_picture_field](./preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``. |
 | [progress_callback](./progress_callback/) | Called during loading a document and accepts data about loading progress. |
-| [recovery_mode](./recovery_mode/) | Defines how the document should be handled if errors occur during loading.   Use this property to specify whether the system should attempt to recover the document  or follow another defined behavior.   The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER). |
+| [recovery_mode](./recovery_mode/) | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER). |
 | [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [temp_folder](./temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used. |
 | [update_dirty_fields](./update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute. |
