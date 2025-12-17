@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldsavedate/get_useumalquracalendar/
 Gets or sets whether to use the Um-al-Qura calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar()
+bool Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar() override
 ```
 
 

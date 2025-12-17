@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldprintdate/get_uselunarcalendar/
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar()
+bool Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar() override
 ```
 
 

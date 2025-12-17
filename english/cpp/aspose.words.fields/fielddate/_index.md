@@ -14,7 +14,8 @@ Implements the DATE field. To learn more, visit the [Working with Fields](https:
 
 ```cpp
 class FieldDate : public Aspose::Words::Fields::Field,
-                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                  public Aspose::Words::Fields::IFieldWithCalendar
 ```
 
 ## Methods
@@ -34,9 +35,9 @@ class FieldDate : public Aspose::Words::Fields::Field,
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
 | [get_UseLastFormat](./get_uselastformat/)() | Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field. |
-| [get_UseLunarCalendar](./get_uselunarcalendar/)() | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
-| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() | Gets or sets whether to use the Saka Era calendar. |
-| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() | Gets or sets whether to use the Um-al-Qura calendar. |
+| [get_UseLunarCalendar](./get_uselunarcalendar/)() override | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
+| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() override | Gets or sets whether to use the Saka Era calendar. |
+| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() override | Gets or sets whether to use the Um-al-Qura calendar. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
