@@ -5,7 +5,7 @@ articleTitle: VariableCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.VariableCollection, efficiently manage and customize document variables for enhanced document automation and flexibility.
 type: docs
-weight: 7460
+weight: 7470
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class

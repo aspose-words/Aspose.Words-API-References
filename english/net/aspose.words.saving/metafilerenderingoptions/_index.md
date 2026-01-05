@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.MetafileRenderingOptions for enhanced metafile rendering control and customization in your documents. Optimize your workflow today!
 type: docs
-weight: 6120
+weight: 6130
 url: /net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class

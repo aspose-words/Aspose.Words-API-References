@@ -18,7 +18,7 @@ public bool IgnoreTextboxes { get; set; }
 
 ## Remarks
 
-By default textboxes are not ignored.
+By default, textboxes are not ignored.
 
 ## Examples
 

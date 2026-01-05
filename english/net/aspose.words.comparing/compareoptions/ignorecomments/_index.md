@@ -18,7 +18,7 @@ public bool IgnoreComments { get; set; }
 
 ## Remarks
 
-By default comments are not ignored.
+By default, comments are not ignored.
 
 ## Examples
 

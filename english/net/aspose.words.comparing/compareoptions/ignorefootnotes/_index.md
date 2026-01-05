@@ -18,7 +18,7 @@ public bool IgnoreFootnotes { get; set; }
 
 ## Remarks
 
-By default footnotes are not ignored.
+By default, footnotes are not ignored.
 
 ## Examples
 

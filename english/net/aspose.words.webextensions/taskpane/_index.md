@@ -5,7 +5,7 @@ articleTitle: TaskPane
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensions.TaskPane class, your key to creating powerful add-in task panes for enhanced document editing and productivity.
 type: docs
-weight: 7640
+weight: 7650
 url: /net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class

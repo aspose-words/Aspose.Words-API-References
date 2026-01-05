@@ -10,11 +10,18 @@ url: /net/aspose.words.ai/googleaimodel/
 ---
 ## GoogleAiModel class
 
-An abstract class representing the integration with Google’s AI models within the Aspose.Words.
+Class representing Google AI Models (Gemini) integration within Aspose.Words.
 
 ```csharp
-public abstract class GoogleAiModel : AiModel, IAiModelText
+public class GoogleAiModel : AiModel
 ```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [GoogleAiModel](googleaimodel/#constructor)(*string*) | Initializes a new instance of `GoogleAiModel` class. |
+| [GoogleAiModel](googleaimodel/#constructor_1)(*string, string*) | Initializes a new instance of `GoogleAiModel` class. |
 
 ## Properties
 
@@ -33,7 +40,22 @@ public abstract class GoogleAiModel : AiModel, IAiModelText
 | override [Translate](../../aspose.words.ai/googleaimodel/translate/)(*[Document](../../aspose.words/document/), [Language](../language/)*) | Translates a specified document. |
 | [WithApiKey](../../aspose.words.ai/aimodel/withapikey/)(*string*) | Sets a specified API key to the model. |
 
+## Remarks
+
+Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models details.
+
 ## Examples
+
+Shows how to use google AI model.
+
+```csharp
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+Document doc = new Document(MyDir + "Big document.docx");
+SummarizeOptions summarizeOptions = new SummarizeOptions() { SummaryLength = SummaryLength.VeryShort };
+Document summary = model.Summarize(doc, summarizeOptions);
+```
 
 Shows how to summarize text using OpenAI and Google models.
 

@@ -13,7 +13,7 @@ url: /net/aspose.words.ai/anthropicaimodel/
 An abstract class representing the integration with Anthropic’s AI models within the Aspose.Words.
 
 ```csharp
-public abstract class AnthropicAiModel : AiModel, IAiModelText
+public abstract class AnthropicAiModel : AiModel
 ```
 
 ## Properties

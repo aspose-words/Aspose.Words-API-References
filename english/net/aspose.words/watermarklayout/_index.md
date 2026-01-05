@@ -5,7 +5,7 @@ articleTitle: WatermarkLayout
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WatermarkLayout enum for optimal watermark positioning. Enhance your document design with precise layout control and customization.
 type: docs
-weight: 7610
+weight: 7620
 url: /net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

@@ -5,7 +5,7 @@ articleTitle: SmartStyleBehavior
 second_title: Aspose.Words for .NET
 description: Discover how the ImportFormatOptions SmartStyleBehavior property optimizes style imports with equal names in documents. Customize your import process effortlessly!
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property

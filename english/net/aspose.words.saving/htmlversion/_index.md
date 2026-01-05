@@ -5,7 +5,7 @@ articleTitle: HtmlVersion
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.HtmlVersion enum to optimize document saving in HTML and MHTML formats, enhancing compatibility and performance.
 type: docs
-weight: 5910
+weight: 5920
 url: /net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration

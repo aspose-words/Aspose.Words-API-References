@@ -5,7 +5,7 @@ articleTitle: Url
 second_title: Aspose.Words for .NET
 description: Configures Google AI model URL in Aspose.Words for natural language generation.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.ai/googleaimodel/url/
 ---
 ## GoogleAiModel.Url property

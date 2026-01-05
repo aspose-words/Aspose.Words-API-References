@@ -17,6 +17,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection/) | A collection of individual bookmarks outline level. |
 | [CssSavingArgs](./csssavingargs/) | Provides data for the [`CssSaving`](../aspose.words.saving/icsssavingcallback/csssaving/) event. |
 | [DigitalSignatureDetails](./digitalsignaturedetails/) | Contains details for signing a document with a digital signature. |
+| [DoclingSaveOptions](./doclingsaveoptions/) | Can be used to specify additional options when saving a document into the Docling format. |
 | [DocSaveOptions](./docsaveoptions/) | Can be used to specify additional options when saving a document into the Doc or Dot format. |
 | [DocumentPartSavingArgs](./documentpartsavingargs/) | Provides data for the [`DocumentPartSaving`](../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/) callback. |
 | [DocumentSavingArgs](./documentsavingargs/) | An argument passed into [`Notify`](../aspose.words.saving/idocumentsavingcallback/notify/). |

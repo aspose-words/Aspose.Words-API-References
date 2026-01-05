@@ -18,7 +18,7 @@ public bool IgnoreHeadersAndFooters { get; set; }
 
 ## Remarks
 
-By default headers and footers are not ignored.
+By default, headers and footers are not ignored.
 
 ## Examples
 

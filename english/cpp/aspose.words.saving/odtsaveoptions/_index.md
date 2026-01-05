@@ -61,7 +61,7 @@ class OdtSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_ExportGeneratorName](../saveoptions/set_exportgeneratorname/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/). |
 | [set_ImlRenderingMode](../saveoptions/set_imlrenderingmode/)(Aspose::Words::Saving::ImlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/). |
 | [set_IsStrictSchema11](./set_isstrictschema11/)(bool) | Setter for [Aspose::Words::Saving::OdtSaveOptions::get_IsStrictSchema11](./get_isstrictschema11/). |
-| [set_MeasureUnit](./set_measureunit/)(Aspose::Words::Saving::OdtSaveMeasureUnit) | Allows to specify units of measure to apply to document content. The default value is [Centimeters](../odtsavemeasureunit/) |
+| [set_MeasureUnit](./set_measureunit/)(Aspose::Words::Saving::OdtSaveMeasureUnit) | Setter for [Aspose::Words::Saving::OdtSaveOptions::get_MeasureUnit](./get_measureunit/). |
 | [set_MemoryOptimization](../saveoptions/set_memoryoptimization/)(bool) | Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [set_Password](./set_password/)(const System::String\&) | Setter for [Aspose::Words::Saving::OdtSaveOptions::get_Password](./get_password/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
@@ -94,6 +94,9 @@ saveOptions->set_MeasureUnit(Aspose::Words::Saving::OdtSaveMeasureUnit::Centimet
 saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
+
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt");
+ASSERT_EQ(Aspose::Words::MeasurementUnits::Centimeters, doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit());
 ```
 
 ## See Also
