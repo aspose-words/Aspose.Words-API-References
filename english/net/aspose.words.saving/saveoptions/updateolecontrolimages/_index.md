@@ -3,7 +3,7 @@ title: SaveOptions.UpdateOleControlImages
 linktitle: UpdateOleControlImages
 articleTitle: UpdateOleControlImages
 second_title: Aspose.Words for .NET
-description: SaveOptions UpdateOleControlImages property. Gets or sets a value determining whether OLE controls presentation image will be updated.
+description: Update OLE control preview images automatically to ensure accurate visual representation when saving documents.
 type: docs
 weight: 200
 url: /net/aspose.words.saving/saveoptions/updateolecontrolimages/

@@ -3,7 +3,7 @@ title: DoclingSaveOptions.RenderNonImageShapes
 linktitle: RenderNonImageShapes
 articleTitle: RenderNonImageShapes
 second_title: Aspose.Words for .NET
-description: DoclingSaveOptions RenderNonImageShapes property. Gets or sets a value indicating whether nonimage shapes should be rendered and written to the output Docling JSON document.
+description: Enable or disable rendering of non-image shapes when exporting documents to Docling JSON format.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/doclingsaveoptions/rendernonimageshapes/

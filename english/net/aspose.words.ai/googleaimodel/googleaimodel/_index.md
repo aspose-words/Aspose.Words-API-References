@@ -3,7 +3,7 @@ title: GoogleAiModel
 linktitle: GoogleAiModel
 articleTitle: GoogleAiModel
 second_title: Aspose.Words for .NET
-description: GoogleAiModel constructor. Initializes a new instance of GoogleAiModel class.
+description: Create a GoogleAiModel instance to integrate Google AI capabilities into document processing with Aspose.Words AI.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/googleaimodel/googleaimodel/

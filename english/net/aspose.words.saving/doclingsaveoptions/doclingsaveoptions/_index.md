@@ -3,7 +3,7 @@ title: DoclingSaveOptions
 linktitle: DoclingSaveOptions
 articleTitle: DoclingSaveOptions
 second_title: Aspose.Words for .NET
-description: DoclingSaveOptions constructor. The default constructor.
+description: Initialize DoclingSaveOptions to define how documents are saved in the Docling format using Aspose.Words.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/doclingsaveoptions/doclingsaveoptions/

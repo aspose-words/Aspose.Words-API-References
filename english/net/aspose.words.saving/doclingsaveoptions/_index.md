@@ -3,7 +3,7 @@ title: DoclingSaveOptions Class
 linktitle: DoclingSaveOptions
 articleTitle: DoclingSaveOptions
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.DoclingSaveOptions class. Can be used to specify additional options when saving a document into the Docling format.
+description: Configure advanced Docling save options to export Word documents as structured Docling JSON with full control.
 type: docs
 weight: 5730
 url: /net/aspose.words.saving/doclingsaveoptions/

@@ -3,7 +3,7 @@ title: ImportFormatOptions.AppendDocumentWithNewPage
 linktitle: AppendDocumentWithNewPage
 articleTitle: AppendDocumentWithNewPage
 second_title: Aspose.Words for .NET
-description: ImportFormatOptions AppendDocumentWithNewPage property. Gets or sets a boolean value indicating whether to change a first imported section type to the NewPage forcibly when call AppendDocument.
+description: Control document merging by forcing imported sections to start on a new page when appending documents in Aspose.Words.
 type: docs
 weight: 30
 url: /net/aspose.words/importformatoptions/appenddocumentwithnewpage/

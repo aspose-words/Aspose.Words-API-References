@@ -3,7 +3,7 @@ title: DoclingSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
-description: DoclingSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Docling.
+description: Specify Docling as the output format when saving documents using DoclingSaveOptions in Aspose.Words.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/doclingsaveoptions/saveformat/
