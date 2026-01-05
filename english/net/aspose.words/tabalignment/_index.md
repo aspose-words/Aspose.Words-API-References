@@ -5,7 +5,7 @@ articleTitle: TabAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TabAlignment enum for customizable tab stop alignment. Enhance document formatting with precision and flexibility today!
 type: docs
-weight: 7100
+weight: 7110
 url: /net/aspose.words/tabalignment/
 ---
 ## TabAlignment enumeration

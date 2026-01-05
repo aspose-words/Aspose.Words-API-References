@@ -5,7 +5,7 @@ articleTitle: VariationAxisCoordinate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Shaping.VariationAxisCoordinate class for precise axis coordinate representation, enhancing your document formatting and design.
 type: docs
-weight: 7000
+weight: 7010
 url: /net/aspose.words.shaping/variationaxiscoordinate/
 ---
 ## VariationAxisCoordinate class

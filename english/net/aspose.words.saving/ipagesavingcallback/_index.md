@@ -5,7 +5,7 @@ articleTitle: IPageSavingCallback
 second_title: Aspose.Words for .NET
 description: Control document saving with Aspose.Words.Saving.IPageSavingCallback. Customize how pages are saved in fixed formats for optimal results.
 type: docs
-weight: 5970
+weight: 5980
 url: /net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

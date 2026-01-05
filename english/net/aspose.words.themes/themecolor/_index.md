@@ -5,7 +5,7 @@ articleTitle: ThemeColor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ThemeColor enum for customizing document themes with vibrant colors, enhancing your document's visual appeal and professionalism.
 type: docs
-weight: 7390
+weight: 7400
 url: /net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration

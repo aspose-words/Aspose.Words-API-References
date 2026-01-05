@@ -5,7 +5,7 @@ articleTitle: TextEffect
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.TextEffect enum for dynamic text animations. Enhance your documents with engaging effects for a captivating user experience.
 type: docs
-weight: 7340
+weight: 7350
 url: /net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

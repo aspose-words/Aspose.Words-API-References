@@ -5,7 +5,7 @@ articleTitle: IgnoreTextBoxes
 second_title: Aspose.Words for .NET
 description: Discover how the ImportFormatOptions IgnoreTextBoxes property enhances your document formatting by controlling textbox content. Optimize with ease today!
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property

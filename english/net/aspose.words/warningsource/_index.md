@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningSource enum, identifying warning sources during document loading and saving for enhanced document management.
 type: docs
-weight: 7580
+weight: 7590
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -48,6 +48,7 @@ public enum WarningSource
 | Epub | `25` | Module that reads/writes EPUB files. |
 | Xml | `26` | Module that reads XML files. |
 | Xlsx | `27` | Module that writes XLSX files. |
+| Docling | `28` | Module that writes Docling JSON files. |
 
 ## Examples
 

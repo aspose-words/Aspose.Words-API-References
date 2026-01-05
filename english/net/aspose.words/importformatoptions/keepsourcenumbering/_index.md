@@ -5,7 +5,7 @@ articleTitle: KeepSourceNumbering
 second_title: Aspose.Words for .NET
 description: Control document numbering with the ImportFormatOptions KeepSourceNumbering property. Easily manage clashes for seamless imports. Default, false.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property

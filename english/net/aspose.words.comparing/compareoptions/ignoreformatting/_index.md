@@ -18,7 +18,7 @@ public bool IgnoreFormatting { get; set; }
 
 ## Remarks
 
-By default document formatting is not ignored.
+By default, document formatting is not ignored.
 
 ## Examples
 

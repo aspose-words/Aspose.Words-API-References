@@ -26,10 +26,6 @@ When exporting form fields to PDF as form fields, some formatting loss might occ
 
 Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
 
-Editable forms are prohibited by PDF/A compliance. `false` value will be used automatically when saving to PDF/A.
-
-Form fields are not supported when saving to PDF/UA. `false` value will be used automatically.
-
 ## Examples
 
 Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.
