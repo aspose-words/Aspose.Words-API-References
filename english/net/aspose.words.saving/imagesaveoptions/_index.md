@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.ImageSaveOptions. Easily your document rendering with customizable options for high-quality image output.
 type: docs
-weight: 6020
+weight: 6030
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -58,7 +58,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [Resolution](../../aspose.words.saving/imagesaveoptions/resolution/) { set; } | Sets both horizontal and vertical resolution for the generated images, in dots per inch. |
 | override [SaveFormat](../../aspose.words.saving/imagesaveoptions/saveformat/) { get; set; } | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Eps, WebP, Svg. |
 | [Scale](../../aspose.words.saving/imagesaveoptions/scale/) { get; set; } | Gets or sets the zoom factor for the generated images. |
-| [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |
+| [TempFolder](../../aspose.words.saving/saveoptions/tempfolder/) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is `null` and no temporary files are used. |
 | [ThresholdForFloydSteinbergDithering](../../aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/) { get; set; } | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [`ImageBinarizationMethod`](../imagebinarizationmethod/) is FloydSteinbergDithering. |
 | [TiffBinarizationMethod](../../aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/) { get; set; } | Gets or sets method used while converting images to 1 bpp format when [`SaveFormat`](./saveformat/) is Tiff and [`TiffCompression`](./tiffcompression/) is equal to Ccitt3 or Ccitt4. |
 | [TiffCompression](../../aspose.words.saving/imagesaveoptions/tiffcompression/) { get; set; } | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
@@ -67,6 +67,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [UpdateFields](../../aspose.words.saving/saveoptions/updatefields/) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is `true`. |
 | [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty/) { get; set; } | Gets or sets a value determining whether the [`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted/) property is updated before saving. |
 | [UpdateLastSavedTimeProperty](../../aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) { get; set; } | Gets or sets a value determining whether the [`LastSavedTime`](../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) property is updated before saving. |
+| [UpdateOleControlImages](../../aspose.words.saving/saveoptions/updateolecontrolimages/) { get; set; } | Gets or sets a value determining whether OLE controls presentation image will be updated. |
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseGdiEmfRenderer](../../aspose.words.saving/imagesaveoptions/usegdiemfrenderer/) { get; set; } | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |

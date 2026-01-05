@@ -28,7 +28,7 @@ public class CheckGrammarOptions
 | --- | --- |
 | [ImproveStylistics](../../aspose.words.ai/checkgrammaroptions/improvestylistics/) { get; set; } | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is `false`. |
 | [MakeRevisions](../../aspose.words.ai/checkgrammaroptions/makerevisions/) { get; set; } | Allows to specify either final or revised document to be returned with proofed text. Default value is `false`. |
-| [PreserveFormatting](../../aspose.words.ai/checkgrammaroptions/preserveformatting/) { get; set; } | Allows to specify either CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is `true`. |
+| [PreserveFormatting](../../aspose.words.ai/checkgrammaroptions/preserveformatting/) { get; set; } | Allows to specify either [`CheckGrammar`](../aimodel/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is `true`. |
 
 ## Examples
 

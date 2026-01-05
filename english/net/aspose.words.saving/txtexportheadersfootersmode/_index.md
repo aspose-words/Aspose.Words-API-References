@@ -5,7 +5,7 @@ articleTitle: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words' TxtExportHeadersFootersMode enum enhances plain text exports by customizing header and footer handling for optimal results.
 type: docs
-weight: 6490
+weight: 6500
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration

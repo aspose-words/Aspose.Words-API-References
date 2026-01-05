@@ -5,7 +5,7 @@ articleTitle: UseAntiAliasing
 second_title: Aspose.Words for .NET
 description: Discover the SaveOptions UseAntiAliasing property to enhance your rendering quality. Control antialiasing for smoother visuals and improved performance.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property

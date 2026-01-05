@@ -5,7 +5,7 @@ articleTitle: SaveOutputParameters
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.SaveOutputParameters class, which provides essential details post-document save, enhancing your document management experience.
 type: docs
-weight: 6440
+weight: 6450
 url: /net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class

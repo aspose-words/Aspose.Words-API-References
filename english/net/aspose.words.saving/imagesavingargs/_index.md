@@ -5,7 +5,7 @@ articleTitle: ImageSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ImageSavingArgs class, enhancing document processing with customizable image saving options for optimal performance.
 type: docs
-weight: 6030
+weight: 6040
 url: /net/aspose.words.saving/imagesavingargs/
 ---
 ## ImageSavingArgs class

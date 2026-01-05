@@ -5,7 +5,7 @@ articleTitle: Translate
 second_title: Aspose.Words for .NET
 description: Google AI document translator for multilingual content. Convert Word documents to different languages with high accuracy and speed.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.ai/googleaimodel/translate/
 ---
 ## GoogleAiModel.Translate method

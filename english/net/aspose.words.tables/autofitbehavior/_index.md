@@ -5,7 +5,7 @@ articleTitle: AutoFitBehavior
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Tables.AutoFitBehavior enum to optimize table resizing with the AutoFit method, enhancing document layout and presentation.
 type: docs
-weight: 7150
+weight: 7160
 url: /net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration

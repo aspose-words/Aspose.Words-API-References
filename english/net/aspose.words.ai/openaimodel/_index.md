@@ -13,7 +13,7 @@ url: /net/aspose.words.ai/openaimodel/
 An abstract class representing the integration with OpenAI's large language models within the Aspose.Words.
 
 ```csharp
-public abstract class OpenAiModel : AiModel, IAiModelText
+public abstract class OpenAiModel : AiModel
 ```
 
 ## Properties

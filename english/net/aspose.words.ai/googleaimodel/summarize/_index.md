@@ -5,7 +5,7 @@ articleTitle: Summarize
 second_title: Aspose.Words for .NET
 description: Google AI document summarization tool. Extract key insights and create concise summaries from Word documents automatically.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.ai/googleaimodel/summarize/
 ---
 ## Summarize(*[Document](../../../aspose.words/document/), [SummarizeOptions](../../summarizeoptions/)*) {#summarize}
