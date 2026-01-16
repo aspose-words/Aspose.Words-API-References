@@ -33,7 +33,7 @@ shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BUBBLE, widt
 chart = shape.chart
 # Delete default generated series.
 chart.series.clear()
-series = chart.series.add(series_name='Series1', x_values=[1, 1.9, 2.45, 3], y_values=[1, -0.9, 1.82, 0], bubble_sizes=[2, 1.1, 2.95, 2])
+series = chart.series.add_bubbles(series_name='Series1', x_values=[1, 1.9, 2.45, 3], y_values=[1, -0.9, 1.82, 0], bubble_sizes=[2, 1.1, 2.95, 2])
 # Show data labels.
 series.has_data_labels = True
 series.data_labels.show_category_name = True

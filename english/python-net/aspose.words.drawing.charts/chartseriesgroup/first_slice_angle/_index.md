@@ -47,7 +47,7 @@ chart = shape.chart
 # Delete the default generated series.
 chart.series.clear()
 categories = ['Category 1', 'Category 2', 'Category 3']
-chart.series.add1(series_name='Series 1', categories=categories, values=[4, 2, 5])
+chart.series.add(series_name='Series 1', categories=categories, values=[4, 2, 5])
 # Format the Doughnut chart.
 series_group = chart.series_groups[0]
 series_group.doughnut_hole_size = 10

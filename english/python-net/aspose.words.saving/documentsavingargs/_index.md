@@ -5,7 +5,7 @@ articleTitle: DocumentSavingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DocumentSavingArgs class. An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs)"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.saving/documentsavingargs/
 ---
 

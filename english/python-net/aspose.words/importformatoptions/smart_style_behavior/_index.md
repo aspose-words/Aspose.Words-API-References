@@ -5,7 +5,7 @@ articleTitle: smart_style_behavior property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.smart_style_behavior property. Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents"
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words/importformatoptions/smart_style_behavior/
 ---
 

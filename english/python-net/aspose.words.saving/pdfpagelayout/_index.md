@@ -5,7 +5,7 @@ articleTitle: PdfPageLayout enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfPageLayout enumeration. Specifies the page layout to be used when the document is opened in a PDF reader."
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.words.saving/pdfpagelayout/
 ---
 

@@ -27,7 +27,7 @@ def ignore_textboxes(self, value: bool):
 
 ### Remarks
 
-By default textboxes are not ignored.
+By default, textboxes are not ignored.
 
 
 ### Examples

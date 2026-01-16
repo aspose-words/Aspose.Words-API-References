@@ -27,7 +27,7 @@ def ignore_formatting(self, value: bool):
 
 ### Remarks
 
-By default document formatting is not ignored.
+By default, document formatting is not ignored.
 
 
 ### Examples

@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.HTML_FIXED](../../aspose.words/saveformat/#HTML_FIXED) format"
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 
@@ -63,12 +63,13 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [save_font_face_css_separately](./save_font_face_css_separately/) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.export_embedded_css](./export_embedded_css/) is ``False``). Default value is ``False``, all CSS rules are written into single file "styles.css". |
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML_FIXED](../../aspose.words/saveformat/#HTML_FIXED). |
 | [show_page_border](./show_page_border/) | Specifies whether border around pages should be shown. Default is ``True``. |
-| [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_ambiguous_text_font](../saveoptions/update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_saved_time_property](../saveoptions/update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_ole_control_images](../saveoptions/update_ole_control_images/) | Gets or sets a value determining whether OLE controls presentation image will be updated.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_anti_aliasing](../saveoptions/use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_high_quality_rendering](../saveoptions/use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [use_target_machine_fonts](./use_target_machine_fonts/) | Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to ``True``, [HtmlFixedSaveOptions.font_format](./font_format/) and [HtmlFixedSaveOptions.export_embedded_fonts](./export_embedded_fonts/) properties do not have effect, also [HtmlFixedSaveOptions.resource_saving_callback](./resource_saving_callback/) is not fired for fonts. Default is ``False``. |

@@ -5,7 +5,7 @@ articleTitle: keep_source_numbering property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.keep_source_numbering property. Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/importformatoptions/keep_source_numbering/
 ---
 

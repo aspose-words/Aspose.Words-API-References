@@ -40,11 +40,6 @@ fields do not support all features of Microsoft Word form fields.
 Also, the output size depends on the content size because editable forms in Microsoft Word are
 inline objects.
 
-Editable forms are prohibited by PDF/A compliance. ``False`` value will be used automatically
-when saving to PDF/A.
-
-Form fields are not supported when saving to PDF/UA. ``False`` value will be used automatically.
-
 
 
 

@@ -27,7 +27,7 @@ def ignore_headers_and_footers(self, value: bool):
 
 ### Remarks
 
-By default headers and footers are not ignored.
+By default, headers and footers are not ignored.
 
 
 ### Examples

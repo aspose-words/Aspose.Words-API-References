@@ -33,9 +33,9 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 | Name | Description |
 | --- | --- |
-|[ add(series_name, x_values, y_values, bubble_sizes)](./add/#str_floatlist_floatlist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
-|[ add1(series_name, categories, values)](./add1/#str_strlist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
-|[ add1(series_name, categories, values, is_subtotal)](./add1/#str_strlist_floatlist_boollist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Waterfall charts. |
+|[ add(series_name, categories, values)](./add/#str_strlist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
+|[ add(series_name, categories, values, is_subtotal)](./add/#str_strlist_floatlist_boollist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Waterfall charts. |
+|[ add_bubbles(series_name, x_values, y_values, bubble_sizes)](./add_bubbles/#str_floatlist_floatlist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
 |[ add_date(series_name, dates, values)](./add_date/#str_datetimelist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
 |[ add_double(series_name, x_values, y_values)](./add_double/#str_floatlist_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Scatter charts. |
 |[ add_double(series_name, x_values)](./add_double/#str_floatlist) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Histogram charts. |
@@ -64,7 +64,7 @@ for series in chart.series:
 categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4']
 # We can add a series with new values for existing categories.
 # This chart will now contain four clusters of four columns.
-chart.series.add1('Series 4', categories, [4.4, 7.0, 3.5, 2.1])
+chart.series.add('Series 4', categories, [4.4, 7.0, 3.5, 2.1])
 # A chart series can also be removed by index, like this.
 # This will remove one of the three demo series that came with the chart.
 chart_data.remove_at(2)

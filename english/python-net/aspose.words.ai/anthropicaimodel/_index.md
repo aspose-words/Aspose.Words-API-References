@@ -16,8 +16,6 @@ An abstract class representing the integration with Anthropic’s AI models with
 
 **Inheritance:** [AnthropicAiModel](./) → [AiModel](../aimodel/)
 
-**Interfaces:** [IAiModelText](../iaimodeltext/)
-
 ### Properties
 
 | Name | Description |
@@ -40,5 +38,4 @@ An abstract class representing the integration with Anthropic’s AI models with
 
 * module [aspose.words.ai](../)
 * class [AiModel](../aimodel/)
-* class [IAiModelText](../iaimodeltext/)
 

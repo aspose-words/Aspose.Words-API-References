@@ -27,6 +27,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | Name | Description |
 | --- | --- |
 | [adjust_sentence_and_word_spacing](./adjust_sentence_and_word_spacing/) | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is ``False``. |
+| [append_document_with_new_page](./append_document_with_new_page/) | Gets or sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW_PAGE](../sectionstart/#NEW_PAGE) forcibly when call [Document.append_document()](../document/append_document/#document_importformatmode_importformatoptions). The default value is ``True``. |
 | [force_copy_styles](./force_copy_styles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode. The default value is ``False``. |
 | [ignore_header_footer](./ignore_header_footer/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``True``. |
 | [ignore_text_boxes](./ignore_text_boxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``True``. |

@@ -3,7 +3,7 @@ title: GoogleAiModel class
 linktitle: GoogleAiModel class
 articleTitle: GoogleAiModel class
 second_title: Aspose.Words for Python
-description: "aspose.words.ai.GoogleAiModel class. An abstract class representing the integration with Google’s AI models within the Aspose.Words."
+description: "aspose.words.ai.GoogleAiModel class. Class representing Google AI Models (Gemini) integration within Aspose.Words."
 type: docs
 weight: 50
 url: /python-net/aspose.words.ai/googleaimodel/
@@ -11,12 +11,21 @@ url: /python-net/aspose.words.ai/googleaimodel/
 
 ## GoogleAiModel class
 
-An abstract class representing the integration with Google’s AI models within the Aspose.Words.
+Class representing Google AI Models (Gemini) integration within Aspose.Words.
+
+
+### Remarks
+
+Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models details.
 
 
 **Inheritance:** [GoogleAiModel](./) → [AiModel](../aimodel/)
 
-**Interfaces:** [IAiModelText](../iaimodeltext/)
+### Constructors
+| Name | Description |
+| --- | --- |
+| [GoogleAiModel(name)](./__init__/#str) | Initializes a new instance of [GoogleAiModel](./) class. |
+| [GoogleAiModel(name, api_key)](./__init__/#str_str) | Initializes a new instance of [GoogleAiModel](./) class. |
 
 ### Properties
 
@@ -55,9 +64,19 @@ multi_document_summary = model.summarize(source_documents=[first_doc, second_doc
 multi_document_summary.save(file_name=ARTIFACTS_DIR + 'AI.AiSummarize.Multi.docx')
 ```
 
+Shows how to use google AI model.
+
+```python
+api_key = system_helper.environment.Environment.get_environment_variable('API_KEY')
+model = aw.ai.GoogleAiModel(name='gemini-flash-latest', api_key=api_key)
+doc = aw.Document(file_name=MY_DIR + 'Big document.docx')
+summarize_options = aw.ai.SummarizeOptions()
+summarize_options.summary_length = aw.ai.SummaryLength.VERY_SHORT
+summary = model.summarize(doc=doc, options=summarize_options)
+```
+
 ### See Also
 
 * module [aspose.words.ai](../)
 * class [AiModel](../aimodel/)
-* class [IAiModelText](../iaimodeltext/)
 

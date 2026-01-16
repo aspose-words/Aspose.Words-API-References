@@ -45,7 +45,7 @@ chart = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.BUBBLE, widt
 # Clear the chart's demo data series to start with a clean chart.
 chart.series.clear()
 # Add a custom series with X/Y coordinates and diameter of each of the bubbles.
-series = chart.series.add(series_name='Aspose Test Series', x_values=[2.9, 3.5, 1.1, 4, 4], y_values=[1.9, 8.5, 2.1, 6, 1.5], bubble_sizes=[9, 4.5, 2.5, 8, 5])
+series = chart.series.add_bubbles(series_name='Aspose Test Series', x_values=[2.9, 3.5, 1.1, 4, 4], y_values=[1.9, 8.5, 2.1, 6, 1.5], bubble_sizes=[9, 4.5, 2.5, 8, 5])
 # Enable data labels, and then modify their appearance.
 series.has_data_labels = True
 data_labels = series.data_labels
