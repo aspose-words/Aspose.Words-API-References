@@ -5,7 +5,7 @@ articleTitle: TxtOfficeMathExportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtOfficeMathExportMode enumeration. Specifies how Aspose.Words exports OfficeMath to [SaveFormat.TEXT](../../aspose.words/saveformat/#TEXT)."
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words.saving/txtofficemathexportmode/
 ---
 

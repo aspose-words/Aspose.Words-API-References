@@ -5,7 +5,7 @@ articleTitle: DocumentSplitCriteria enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DocumentSplitCriteria enumeration. Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.saving/documentsplitcriteria/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Zip64Mode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.Zip64Mode enumeration. Specifies when to use ZIP64 format extensions for OOXML files."
 type: docs
-weight: 960
+weight: 970
 url: /nodejs-net/aspose.words.saving/zip64mode/
 ---
 

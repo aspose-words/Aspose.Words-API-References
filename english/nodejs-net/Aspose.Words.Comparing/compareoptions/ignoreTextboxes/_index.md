@@ -20,7 +20,7 @@ get ignoreTextboxes(): boolean
 
 ### Remarks
 
-By default textboxes are not ignored.
+By default, textboxes are not ignored.
 
 
 ### See Also

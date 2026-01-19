@@ -5,7 +5,7 @@ articleTitle: SaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format"
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words.saving/saveoptions/
 ---
 
@@ -40,12 +40,13 @@ or string [Document.save()](../../aspose.words/document/save/#str_saveoptions) o
 | [pretty_format](./pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``. |
 | [progress_callback](./progress_callback/) | Called during saving a document and accepts data about saving progress. |
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. |
-| [temp_folder](./temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used. |
+| [temp_folder](./temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is ``None`` and no temporary files are used. |
 | [update_ambiguous_text_font](./update_ambiguous_text_font/) | Determines whether the font attributes will be changed according to the character code being used. |
 | [update_created_time_property](./update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``; |
 | [update_fields](./update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``. |
 | [update_last_printed_property](./update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving. |
 | [update_last_saved_time_property](./update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving. |
+| [update_ole_control_images](./update_ole_control_images/) | Gets or sets a value determining whether OLE controls presentation image will be updated. |
 | [use_anti_aliasing](./use_anti_aliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [use_high_quality_rendering](./use_high_quality_rendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 

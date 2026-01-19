@@ -5,7 +5,7 @@ articleTitle: MarkdownListExportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownListExportMode enumeration. Specifies how lists are exported into Markdown."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.saving/markdownlistexportmode/
 ---
 

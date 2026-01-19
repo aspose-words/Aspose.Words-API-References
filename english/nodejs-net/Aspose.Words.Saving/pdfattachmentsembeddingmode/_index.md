@@ -5,7 +5,7 @@ articleTitle: PdfAttachmentsEmbeddingMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfAttachmentsEmbeddingMode enumeration. Specifies how attachments are embedded to PDF document."
 type: docs
-weight: 590
+weight: 600
 url: /nodejs-net/aspose.words.saving/pdfattachmentsembeddingmode/
 ---
 

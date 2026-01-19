@@ -27,7 +27,7 @@ def ignore_comments(self, value: bool):
 
 ### Remarks
 
-By default comments are not ignored.
+By default, comments are not ignored.
 
 
 ### Examples

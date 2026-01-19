@@ -20,6 +20,13 @@ Generator instance should be passed through the [FieldOptions.barcode_generator]
 
 
 
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ get_barcode_image(parameters)](./get_barcode_image/#barcodeparameters) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
+|[ get_old_barcode_image(parameters)](./get_old_barcode_image/#barcodeparameters) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
+
 ### See Also
 
 * module [aspose.words.fields](../)

@@ -37,7 +37,7 @@ chart = shape.chart
 chart.series.clear()
 # Add a custom series to the chart with categories for the X-axis,
 # and large respective numeric values for the Y-axis.
-chart.series.add1(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[1900000, 850000, 2100000, 600000, 1500000])
+chart.series.add(series_name='Aspose Test Series', categories=['Word', 'PDF', 'Excel', 'GoogleDocs', 'Note'], values=[1900000, 850000, 2100000, 600000, 1500000])
 # Set the number format of the Y-axis tick labels to not group digits with commas.
 chart.axis_y.number_format.format_code = '#,##0'
 # This flag can override the above value and draw the number format from the source cell.

@@ -219,7 +219,7 @@ chart = shape.chart
 # Delete default generated series.
 chart.series.clear()
 # Add new series.
-series = chart.series.add1(series_name='AW Series 1', categories=['AW Category 1', 'AW Category 2', 'AW Category 3', 'AW Category 4'], values=[100, 200, 300, 400])
+series = chart.series.add(series_name='AW Series 1', categories=['AW Category 1', 'AW Category 2', 'AW Category 3', 'AW Category 4'], values=[100, 200, 300, 400])
 # Show data labels.
 series.has_data_labels = True
 series.data_labels.show_value = True

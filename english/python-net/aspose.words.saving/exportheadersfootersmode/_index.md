@@ -5,7 +5,7 @@ articleTitle: ExportHeadersFootersMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ExportHeadersFootersMode enumeration. Specifies how headers and footers are exported to HTML, MHTML or EPUB."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.saving/exportheadersfootersmode/
 ---
 

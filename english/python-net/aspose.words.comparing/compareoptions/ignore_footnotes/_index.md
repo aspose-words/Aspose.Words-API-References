@@ -27,7 +27,7 @@ def ignore_footnotes(self, value: bool):
 
 ### Remarks
 
-By default footnotes are not ignored.
+By default, footnotes are not ignored.
 
 
 ### Examples

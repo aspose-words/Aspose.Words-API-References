@@ -5,7 +5,7 @@ articleTitle: translate method
 second_title: Aspose.Words for Python
 description: "GoogleAiModel.translate method. Translates a specified document."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.ai/googleaimodel/translate/
 ---
 

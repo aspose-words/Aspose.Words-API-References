@@ -5,7 +5,7 @@ articleTitle: DocumentPartSavingArgs class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DocumentPartSavingArgs class. Provides data for the [IDocumentPartSavingCallback.documentPartSaving()](../idocumentpartsavingcallback/documentPartSaving/#documentpartsavingargs) callback"
 type: docs
-weight: 110
+weight: 120
 url: /nodejs-net/aspose.words.saving/documentpartsavingargs/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: HeaderFooterBookmarksExportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HeaderFooterBookmarksExportMode enumeration. Specifies how bookmarks in headers/footers are exported."
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 

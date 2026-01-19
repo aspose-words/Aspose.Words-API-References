@@ -36,8 +36,8 @@ def chart_series_collection():
     categories = ['Category 1', 'Category 2', 'Category 3']
     # Insert two series of decimal values containing a value for each respective category.
     # This column chart will have three groups, each with two columns.
-    chart.series.add1('Series 1', categories, [76.6, 82.1, 91.6])
-    chart.series.add1('Series 2', categories, [64.2, 79.5, 94.0])
+    chart.series.add('Series 1', categories, [76.6, 82.1, 91.6])
+    chart.series.add('Series 2', categories, [64.2, 79.5, 94.0])
     # Categories are distributed along the X-axis, and values are distributed along the Y-axis.
     self.assertEqual(aw.drawing.charts.ChartAxisType.CATEGORY, chart.axis_x.type)
     self.assertEqual(aw.drawing.charts.ChartAxisType.VALUE, chart.axis_y.type)
@@ -64,7 +64,7 @@ def chart_series_collection():
     # Each series will need three decimal arrays of equal length.
     # The first array contains X-values, the second contains corresponding Y-values,
     # and the third contains diameters for each of the graph's data points.
-    chart.series.add('Series 1', [1.1, 5.0, 9.8], [1.2, 4.9, 9.9], [2.0, 4.0, 8.0])
+    chart.series.add_bubbles('Series 1', [1.1, 5.0, 9.8], [1.2, 4.9, 9.9], [2.0, 4.0, 8.0])
     doc.save(ARTIFACTS_DIR + 'Charts.chart_series_collection.docx')
 
 def append_chart(builder: aw.DocumentBuilder, chart_type: aw.drawing.charts.ChartType, width: float, height: float) -> aw.drawing.charts.Chart:

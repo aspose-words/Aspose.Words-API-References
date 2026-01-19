@@ -5,7 +5,7 @@ articleTitle: MarkdownExportAsHtml enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownExportAsHtml enumeration. Allows to specify the elements to be exported to Markdown as raw HTML."
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words.saving/markdownexportashtml/
 ---
 

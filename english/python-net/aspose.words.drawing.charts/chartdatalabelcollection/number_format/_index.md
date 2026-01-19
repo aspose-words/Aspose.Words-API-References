@@ -38,7 +38,7 @@ chart.series.clear()
 chart.title.text = 'Monthly sales report'
 # Insert a custom chart series with months as categories for the X-axis,
 # and respective decimal amounts for the Y-axis.
-series = chart.series.add1(series_name='Revenue', categories=['January', 'February', 'March'], values=[25.611, 21.439, 33.75])
+series = chart.series.add(series_name='Revenue', categories=['January', 'February', 'March'], values=[25.611, 21.439, 33.75])
 # Enable data labels, and then apply a custom number format for values displayed in the data labels.
 # This format will treat displayed decimal values as millions of US Dollars.
 series.has_data_labels = True

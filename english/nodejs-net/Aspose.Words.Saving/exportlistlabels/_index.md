@@ -5,7 +5,7 @@ articleTitle: ExportListLabels enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ExportListLabels enumeration. Specifies how list labels are exported to HTML, MHTML and EPUB."
 type: docs
-weight: 180
+weight: 190
 url: /nodejs-net/aspose.words.saving/exportlistlabels/
 ---
 

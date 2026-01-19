@@ -5,7 +5,7 @@ articleTitle: DocumentSavingArgs class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DocumentSavingArgs class. An argument passed into Aspose.Words.Saving.IDocumentSavingCallback.Notify(Aspose.Words.Saving.DocumentSavingArgs)"
 type: docs
-weight: 120
+weight: 130
 url: /nodejs-net/aspose.words.saving/documentsavingargs/
 ---
 
