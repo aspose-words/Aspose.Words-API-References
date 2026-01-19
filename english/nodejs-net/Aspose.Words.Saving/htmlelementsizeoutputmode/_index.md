@@ -5,7 +5,7 @@ articleTitle: HtmlElementSizeOutputMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlElementSizeOutputMode enumeration. Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB."
 type: docs
-weight: 220
+weight: 230
 url: /nodejs-net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IDocumentPartSavingCallback class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.IDocumentPartSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.Html](../../aspose.words/saveformat/#Html)  or [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) format."
 type: docs
-weight: 300
+weight: 310
 url: /nodejs-net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 

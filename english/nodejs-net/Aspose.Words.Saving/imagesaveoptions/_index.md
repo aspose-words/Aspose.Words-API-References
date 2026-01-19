@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images"
 type: docs
-weight: 370
+weight: 380
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/
 ---
 
@@ -54,7 +54,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.Tiff](../../aspose.words/saveformat/#Tiff), [SaveFormat.Png](../../aspose.words/saveformat/#Png), [SaveFormat.Bmp](../../aspose.words/saveformat/#Bmp), [SaveFormat.Jpeg](../../aspose.words/saveformat/#Jpeg) or vector [SaveFormat.Emf](../../aspose.words/saveformat/#Emf), [SaveFormat.Eps](../../aspose.words/saveformat/#Eps), [SaveFormat.WebP](../../aspose.words/saveformat/#WebP), [SaveFormat.Svg](../../aspose.words/saveformat/#Svg). |
 | [scale](./scale/) | Gets or sets the zoom factor for the generated images. |
-| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [thresholdForFloydSteinbergDithering](./thresholdForFloydSteinbergDithering/) | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [ImageBinarizationMethod.FloydSteinbergDithering](../imagebinarizationmethod/#FloydSteinbergDithering). |
 | [tiffBinarizationMethod](./tiffBinarizationMethod/) | Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.saveFormat](./saveFormat/) is [SaveFormat.Tiff](../../aspose.words/saveformat/#Tiff) and [ImageSaveOptions.tiffCompression](./tiffCompression/) is equal to [TiffCompression.Ccitt3](../tiffcompression/#Ccitt3) or [TiffCompression.Ccitt4](../tiffcompression/#Ccitt4). |
 | [tiffCompression](./tiffCompression/) | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
@@ -63,6 +63,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateOleControlImages](../saveoptions/updateOleControlImages/) | Gets or sets a value determining whether OLE controls presentation image will be updated.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useGdiEmfRenderer](./useGdiEmfRenderer/) | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |

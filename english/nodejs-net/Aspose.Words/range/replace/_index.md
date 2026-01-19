@@ -147,47 +147,6 @@ expect(doc.getText().trim()).toEqual("Every paragraph that ends with a full stop
                         "This one also will!");
 ```
 
-Shows how to toggle case sensitivity when performing a find-and-replace operation.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.writeln("Ruby bought a ruby necklace.");
-
-// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-let options = new aw.Replacing.FindReplaceOptions();
-
-// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
-// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
-options.matchCase = matchCase;
-
-doc.range.replace("Ruby", "Jade", options);
-
-expect(doc.getText().trim()).toEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.");
-```
-
-Shows how to toggle standalone word-only find-and-replace operations.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.writeln("Jackson will meet you in Jacksonville.");
-
-// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-let options = new aw.Replacing.FindReplaceOptions();
-
-// Set the "FindWholeWordsOnly" flag to "true" to replace the found text if it is not a part of another word.
-// Set the "FindWholeWordsOnly" flag to "false" to replace all text regardless of its surroundings.
-options.findWholeWordsOnly = findWholeWordsOnly;
-
-doc.range.replace("Jackson", "Louis", options);
-
-expect(doc.getText().trim()).toEqual(
-  findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville." );
-```
-
 Shows how to replace all instances of String of text in a table and cell.
 
 ```js
@@ -236,6 +195,47 @@ let currentYear = new Date().getYear();
 footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
 
 doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
+```
+
+Shows how to toggle case sensitivity when performing a find-and-replace operation.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.writeln("Ruby bought a ruby necklace.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+let options = new aw.Replacing.FindReplaceOptions();
+
+// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
+// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
+options.matchCase = matchCase;
+
+doc.range.replace("Ruby", "Jade", options);
+
+expect(doc.getText().trim()).toEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.");
+```
+
+Shows how to toggle standalone word-only find-and-replace operations.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.writeln("Jackson will meet you in Jacksonville.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+let options = new aw.Replacing.FindReplaceOptions();
+
+// Set the "FindWholeWordsOnly" flag to "true" to replace the found text if it is not a part of another word.
+// Set the "FindWholeWordsOnly" flag to "false" to replace all text regardless of its surroundings.
+options.findWholeWordsOnly = findWholeWordsOnly;
+
+doc.range.replace("Jackson", "Louis", options);
+
+expect(doc.getText().trim()).toEqual(
+  findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville." );
 ```
 
 ## See Also

@@ -20,7 +20,7 @@ get ignoreComments(): boolean
 
 ### Remarks
 
-By default comments are not ignored.
+By default, comments are not ignored.
 
 
 ### See Also

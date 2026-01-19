@@ -5,7 +5,7 @@ articleTitle: MultiPageLayout class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MultiPageLayout class. Defines a layout for rendering multiple pages into a single output."
 type: docs
-weight: 480
+weight: 490
 url: /nodejs-net/aspose.words.saving/multipagelayout/
 ---
 

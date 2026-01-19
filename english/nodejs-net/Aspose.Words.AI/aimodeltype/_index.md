@@ -26,9 +26,8 @@ such as summarization, translation, and content generation.
 | Gpt4OMini | GPT-4o mini generative model type. |
 | Gpt4Turbo | GPT-4 Turbo generative model type. |
 | Gpt35Turbo | GPT-3.5 Turbo generative model type. |
-| Gemini15Flash | Gemini 1.5 Flash generative model type. |
-| Gemini15Flash8B | Gemini 1.5 Flash-8B generative model type. |
-| Gemini15Pro | Gemini 1.5 Pro generative model type. |
+| GeminiFlashLatest | Gemini Flash latest release generative model type. |
+| GeminiProLatest | Gemini Pro latest release generative model type. |
 | Claude35Sonnet | Claude 3.5 Sonnet generative model type. |
 | Claude35Haiku | Claude 3.5 Haiku generative model type. |
 | Claude3Opus | Claude 3 Opus generative model type. |

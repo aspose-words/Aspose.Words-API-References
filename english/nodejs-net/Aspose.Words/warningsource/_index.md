@@ -46,6 +46,7 @@ Specifies the module that produces a warning during document loading or saving.
 | Epub | Module that reads/writes EPUB files. |
 | Xml | Module that reads XML files. |
 | Xlsx | Module that writes XLSX files. |
+| Docling | Module that writes Docling JSON files. |
 
 ### See Also
 

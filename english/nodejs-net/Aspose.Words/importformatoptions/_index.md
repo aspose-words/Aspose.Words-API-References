@@ -27,6 +27,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | Name | Description |
 | --- | --- |
 | [adjustSentenceAndWordSpacing](./adjustSentenceAndWordSpacing/) | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is ``false``. |
+| [appendDocumentWithNewPage](./appendDocumentWithNewPage/) | Gets or sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NewPage](../sectionstart/#NewPage) forcibly when call [Document.appendDocument()](../document/appendDocument/#document_importformatmode_importformatoptions). The default value is ``true``. |
 | [forceCopyStyles](./forceCopyStyles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode. The default value is ``false``. |
 | [ignoreHeaderFooter](./ignoreHeaderFooter/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``true``. |
 | [ignoreTextBoxes](./ignoreTextBoxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``true``. |

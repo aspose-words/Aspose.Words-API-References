@@ -5,7 +5,7 @@ articleTitle: DownsampleOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DownsampleOptions class. Allows to specify downsample options"
 type: docs
-weight: 140
+weight: 150
 url: /nodejs-net/aspose.words.saving/downsampleoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: PageSavingArgs class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PageSavingArgs class. Provides data for the [IPageSavingCallback.pageSaving()](../ipagesavingcallback/pageSaving/#pagesavingargs) event"
 type: docs
-weight: 560
+weight: 570
 url: /nodejs-net/aspose.words.saving/pagesavingargs/
 ---
 

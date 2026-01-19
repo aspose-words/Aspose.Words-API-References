@@ -5,7 +5,7 @@ articleTitle: ignoreHeaderFooter property
 second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.ignoreHeaderFooter property. Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KeepSourceFormatting](../../importformatmode/#KeepSourceFormatting) mode is used"
 type: docs
-weight: 40
+weight: 50
 url: /nodejs-net/aspose.words/importformatoptions/ignoreHeaderFooter/
 ---
 

@@ -327,4 +327,5 @@ Specifies the language into which the text will be translated using AI.
 ### See Also
 
 * module [Aspose.Words.AI](../)
+* method [AiModel.translate()](../aimodel/translate/#document_language)
 

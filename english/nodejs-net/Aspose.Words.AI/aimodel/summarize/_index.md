@@ -5,7 +5,7 @@ articleTitle: summarize method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.AiModel.summarize method"
 type: docs
-weight: 190
+weight: 180
 url: /nodejs-net/aspose.words.ai/aimodel/summarize/
 ---
 
