@@ -5,7 +5,7 @@ articleTitle: use_anti_aliasing property
 second_title: Aspose.Words for Python
 description: "SaveOptions.use_anti_aliasing property. Gets or sets a value determining whether or not to use anti-aliasing for rendering."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.saving/saveoptions/use_anti_aliasing/
 ---
 

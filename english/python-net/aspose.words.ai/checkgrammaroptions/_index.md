@@ -25,7 +25,7 @@ Allows to specify various options while checking grammar of a document using AI.
 | --- | --- |
 | [improve_stylistics](./improve_stylistics/) | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is ``False``. |
 | [make_revisions](./make_revisions/) | Allows to specify either final or revised document to be returned with proofed text. Default value is ``False``. |
-| [preserve_formatting](./preserve_formatting/) | Allows to specify either [IAiModelText.check_grammar()](../iaimodeltext/check_grammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not. Default value is ``True``. |
+| [preserve_formatting](./preserve_formatting/) | Allows to specify either [AiModel.check_grammar()](../aimodel/check_grammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not. Default value is ``True``. |
 
 ### Examples
 

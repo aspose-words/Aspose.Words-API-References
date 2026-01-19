@@ -5,7 +5,7 @@ articleTitle: IFontSavingCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.IFontSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words.saving/ifontsavingcallback/
 ---
 

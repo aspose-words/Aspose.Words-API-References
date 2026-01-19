@@ -5,7 +5,7 @@ articleTitle: IImageSavingCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.IImageSavingCallback class. Implement this interface if you want to control how Aspose.Words saves images when  saving a document to HTML"
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words.saving/iimagesavingcallback/
 ---
 

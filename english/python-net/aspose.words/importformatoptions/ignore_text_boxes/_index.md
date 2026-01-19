@@ -5,7 +5,7 @@ articleTitle: ignore_text_boxes property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.ignore_text_boxes property. Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/importformatoptions/ignore_text_boxes/
 ---
 

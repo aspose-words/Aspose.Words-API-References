@@ -5,7 +5,7 @@ articleTitle: TxtExportHeadersFootersMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.TxtExportHeadersFootersMode enumeration. Specifies the way headers and footers are exported to plain text format."
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 

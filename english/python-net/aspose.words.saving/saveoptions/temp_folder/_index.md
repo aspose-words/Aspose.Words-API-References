@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/saveoptions/temp_folder/
 ## SaveOptions.temp_folder property
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file.
-By default this property is ``None`` and no temporary files are used.
+By default, this property is ``None`` and no temporary files are used.
 
 
 

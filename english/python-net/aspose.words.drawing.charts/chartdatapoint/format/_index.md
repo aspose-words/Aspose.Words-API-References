@@ -33,7 +33,7 @@ chart = shape.chart
 # Delete default generated series.
 chart.series.clear()
 # Adding new series.
-series = chart.series.add1(series_name='Series 1', categories=['Category 1', 'Category 2', 'Category 3', 'Category 4'], values=[1, 2, 3, 4])
+series = chart.series.add(series_name='Series 1', categories=['Category 1', 'Category 2', 'Category 3', 'Category 4'], values=[1, 2, 3, 4])
 # Set column formatting.
 data_points = series.data_points
 data_points[0].format.fill.preset_textured(aw.drawing.PresetTexture.DENIM)

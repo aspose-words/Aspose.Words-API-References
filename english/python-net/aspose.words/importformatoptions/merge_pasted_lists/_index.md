@@ -5,7 +5,7 @@ articleTitle: merge_pasted_lists property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.merge_pasted_lists property. Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists"
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words/importformatoptions/merge_pasted_lists/
 ---
 

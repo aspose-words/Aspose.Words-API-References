@@ -47,7 +47,7 @@ chart = shape.chart
 # Delete the default generated series.
 chart.series.clear()
 categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4']
-chart.series.add1(series_name='Series 1', categories=categories, values=[11, 8, 4, 3])
+chart.series.add(series_name='Series 1', categories=categories, values=[11, 8, 4, 3])
 # Format the Pie of Pie chart.
 series_group = chart.series_groups[0]
 series_group.gap_width = 10
