@@ -20,7 +20,7 @@ get ignoreFootnotes(): boolean
 
 ### Remarks
 
-By default footnotes are not ignored.
+By default, footnotes are not ignored.
 
 
 ### See Also

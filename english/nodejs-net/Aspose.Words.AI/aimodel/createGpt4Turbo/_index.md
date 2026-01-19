@@ -5,7 +5,7 @@ articleTitle: createGpt4Turbo method
 second_title: Aspose.Words for Node.js
 description: "AiModel.createGpt4Turbo method. Creates a new instance of GPT-4 Turbo generative model type."
 type: docs
-weight: 170
+weight: 160
 url: /nodejs-net/aspose.words.ai/aimodel/createGpt4Turbo/
 ---
 

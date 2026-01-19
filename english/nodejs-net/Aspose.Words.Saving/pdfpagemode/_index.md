@@ -5,7 +5,7 @@ articleTitle: PdfPageMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfPageMode enumeration. Specifies how the PDF document should be displayed when opened in the PDF reader."
 type: docs
-weight: 700
+weight: 710
 url: /nodejs-net/aspose.words.saving/pdfpagemode/
 ---
 

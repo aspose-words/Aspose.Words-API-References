@@ -5,7 +5,7 @@ articleTitle: NumeralFormat enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.NumeralFormat enumeration. Indicates the symbol set that is used to represent numbers while rendering to fixed page formats."
 type: docs
-weight: 490
+weight: 500
 url: /nodejs-net/aspose.words.saving/numeralformat/
 ---
 

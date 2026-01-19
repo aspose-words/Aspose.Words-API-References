@@ -34,7 +34,6 @@ Represents information about a Generative Language Model.
 |[ createClaude3Opus()](./createClaude3Opus/#default) | Creates a new instance of Claude 3 Opus generative model type. |
 |[ createClaude3Sonnet()](./createClaude3Sonnet/#default) | Creates a new instance of Claude 3 Sonnet generative model type. |
 |[ createGemini15Flash()](./createGemini15Flash/#default) | Creates a new instance of Gemini 1.5 Flash generative model type. |
-|[ createGemini15Flash8B()](./createGemini15Flash8B/#default) | Creates a new instance of Gemini 1.5 Flash-8B generative model type. |
 |[ createGemini15Pro()](./createGemini15Pro/#default) | Creates a new instance of Gemini 1.5 Pro generative model type. |
 |[ createGpt35Turbo()](./createGpt35Turbo/#default) | Creates a new instance of GPT-3.5 Turbo generative model type. |
 |[ createGpt4O()](./createGpt4O/#default) | Creates a new instance of GPT-4o generative model type. |

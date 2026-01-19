@@ -5,7 +5,7 @@ articleTitle: MarkdownExportAsHtml enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MarkdownExportAsHtml enumeration. Allows to specify the elements to be exported to Markdown as raw HTML."
 type: docs
-weight: 410
+weight: 420
 url: /nodejs-net/aspose.words.saving/markdownexportashtml/
 ---
 

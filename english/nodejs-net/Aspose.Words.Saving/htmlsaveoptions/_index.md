@@ -5,7 +5,7 @@ articleTitle: HtmlSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi) format"
 type: docs
-weight: 270
+weight: 280
 url: /nodejs-net/aspose.words.saving/htmlsaveoptions/
 ---
 
@@ -87,12 +87,13 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi). |
 | [scaleImageToShapeSize](./scaleImageToShapeSize/) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is ``true``. |
 | [tableWidthOutputMode](./tableWidthOutputMode/) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.All](../htmlelementsizeoutputmode/#All). |
-| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``false``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateOleControlImages](../saveoptions/updateOleControlImages/) | Gets or sets a value determining whether OLE controls presentation image will be updated.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

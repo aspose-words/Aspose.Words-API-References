@@ -5,7 +5,7 @@ articleTitle: ResourceSavingArgs class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ResourceSavingArgs class. Provides data for the Aspose.Words.Saving.IResourceSavingCallback.ResourceSaving(Aspose.Words.Saving.ResourceSavingArgs) event"
 type: docs
-weight: 760
+weight: 770
 url: /nodejs-net/aspose.words.saving/resourcesavingargs/
 ---
 

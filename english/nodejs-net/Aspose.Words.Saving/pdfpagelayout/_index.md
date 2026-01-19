@@ -5,7 +5,7 @@ articleTitle: PdfPageLayout enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfPageLayout enumeration. Specifies the page layout to be used when the document is opened in a PDF reader."
 type: docs
-weight: 690
+weight: 700
 url: /nodejs-net/aspose.words.saving/pdfpagelayout/
 ---
 

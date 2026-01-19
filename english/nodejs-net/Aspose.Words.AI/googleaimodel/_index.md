@@ -3,7 +3,7 @@ title: GoogleAiModel class
 linktitle: GoogleAiModel class
 articleTitle: GoogleAiModel class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.AI.GoogleAiModel class. An abstract class representing the integration with Google’s AI models within the Aspose.Words."
+description: "Aspose.Words.AI.GoogleAiModel class. Class representing Google AI Models (Gemini) integration within Aspose.Words."
 type: docs
 weight: 50
 url: /nodejs-net/aspose.words.ai/googleaimodel/
@@ -11,10 +11,16 @@ url: /nodejs-net/aspose.words.ai/googleaimodel/
 
 ## GoogleAiModel class
 
-An abstract class representing the integration with Google’s AI models within the Aspose.Words.
+Class representing Google AI Models (Gemini) integration within Aspose.Words.
 
 
 **Inheritance:** [GoogleAiModel](./) → [AiModel](../aimodel/)
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [GoogleAiModel(name)](./constructor/#string) | Initializes a new instance of [GoogleAiModel](./) class. |
+| [GoogleAiModel(name, apiKey)](./constructor/#string_string) | Initializes a new instance of [GoogleAiModel](./) class. |
 
 ### Properties
 
@@ -36,7 +42,6 @@ An abstract class representing the integration with Google’s AI models within 
 |[ createClaude3Opus()](../aimodel/createClaude3Opus/#default) | Creates a new instance of Claude 3 Opus generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createClaude3Sonnet()](../aimodel/createClaude3Sonnet/#default) | Creates a new instance of Claude 3 Sonnet generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createGemini15Flash()](../aimodel/createGemini15Flash/#default) | Creates a new instance of Gemini 1.5 Flash generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
-|[ createGemini15Flash8B()](../aimodel/createGemini15Flash8B/#default) | Creates a new instance of Gemini 1.5 Flash-8B generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createGemini15Pro()](../aimodel/createGemini15Pro/#default) | Creates a new instance of Gemini 1.5 Pro generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createGpt35Turbo()](../aimodel/createGpt35Turbo/#default) | Creates a new instance of GPT-3.5 Turbo generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createGpt4O()](../aimodel/createGpt4O/#default) | Creates a new instance of GPT-4o generative model type.<br>(Inherited from [AiModel](../aimodel/)) |

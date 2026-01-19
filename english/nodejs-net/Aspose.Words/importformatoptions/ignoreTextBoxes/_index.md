@@ -5,7 +5,7 @@ articleTitle: ignoreTextBoxes property
 second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.ignoreTextBoxes property. Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KeepSourceFormatting](../../importformatmode/#KeepSourceFormatting) mode is used"
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words/importformatoptions/ignoreTextBoxes/
 ---
 

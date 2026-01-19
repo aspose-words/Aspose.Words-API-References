@@ -5,7 +5,7 @@ articleTitle: setApiKey method
 second_title: Aspose.Words for Node.js
 description: "AiModel.setApiKey method. Sets a specified API key to the model."
 type: docs
-weight: 180
+weight: 170
 url: /nodejs-net/aspose.words.ai/aimodel/setApiKey/
 ---
 

@@ -20,7 +20,7 @@ get ignoreHeadersAndFooters(): boolean
 
 ### Remarks
 
-By default headers and footers are not ignored.
+By default, headers and footers are not ignored.
 
 
 ### See Also

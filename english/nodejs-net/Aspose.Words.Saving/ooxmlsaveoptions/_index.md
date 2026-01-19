@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Docx](../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../aspose.words/saveformat/#Docm), [SaveFormat.Dotx](../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format"
 type: docs
-weight: 530
+weight: 540
 url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/
 ---
 
@@ -46,12 +46,13 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [password](./password/) | Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Docx](../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../aspose.words/saveformat/#Docm), [SaveFormat.Dotx](../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc). |
-| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``false``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateOleControlImages](../saveoptions/updateOleControlImages/) | Gets or sets a value determining whether OLE controls presentation image will be updated.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [zip64Mode](./zip64Mode/) | Specifies whether or not to use ZIP64 format extensions for the output document. The default value is [Zip64Mode.Never](../zip64mode/#Never). |

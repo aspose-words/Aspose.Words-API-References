@@ -5,7 +5,7 @@ articleTitle: smartStyleBehavior property
 second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.smartStyleBehavior property. Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents"
 type: docs
-weight: 80
+weight: 90
 url: /nodejs-net/aspose.words/importformatoptions/smartStyleBehavior/
 ---
 

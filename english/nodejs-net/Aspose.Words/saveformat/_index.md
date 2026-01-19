@@ -51,6 +51,7 @@ Indicates the format in which the document is saved.
 | XamlFlowPack | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
 | Markdown | Saves the document in the Markdown format. |
 | Xlsx | Saves the document as an Office Open XML SpreadsheetML Document (macro-free). |
+| Docling | Saves the document in Docling JSON format. |
 | Tiff | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
 | Png | Renders a page of the document and saves it as a PNG file. |
 | Bmp | Renders a page of the document and saves it as a BMP file. |

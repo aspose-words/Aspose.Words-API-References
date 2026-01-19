@@ -5,7 +5,7 @@ articleTitle: MarkdownEmptyParagraphExportMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MarkdownEmptyParagraphExportMode enumeration. Specifies how Aspose.Words exports empty paragraphs to Markdown."
 type: docs
-weight: 400
+weight: 410
 url: /nodejs-net/aspose.words.saving/markdownemptyparagraphexportmode/
 ---
 

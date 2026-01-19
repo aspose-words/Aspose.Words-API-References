@@ -5,7 +5,7 @@ articleTitle: PdfImageColorSpaceExportMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfImageColorSpaceExportMode enumeration. Specifies how the color space will be selected for the images in PDF document."
 type: docs
-weight: 670
+weight: 680
 url: /nodejs-net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 

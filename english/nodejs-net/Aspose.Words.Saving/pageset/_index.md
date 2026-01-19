@@ -5,7 +5,7 @@ articleTitle: PageSet class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PageSet class. Describes a random set of pages"
 type: docs
-weight: 570
+weight: 580
 url: /nodejs-net/aspose.words.saving/pageset/
 ---
 

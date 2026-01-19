@@ -5,7 +5,7 @@ articleTitle: TxtOfficeMathExportMode enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtOfficeMathExportMode enumeration. Specifies how Aspose.Words exports OfficeMath to [SaveFormat.Text](../../aspose.words/saveformat/#Text)."
 type: docs
-weight: 860
+weight: 870
 url: /nodejs-net/aspose.words.saving/txtofficemathexportmode/
 ---
 
