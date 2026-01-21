@@ -4,7 +4,7 @@ linktitle: EmphasisMark
 second_title: Aspose.Words for Java
 description: Specifies possible types of emphasis mark in Java.
 type: docs
-weight: 186
+weight: 187
 url: /java/com.aspose.words/emphasismark/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ResourceLoadingAction
 second_title: Aspose.Words for Java
 description: Specifies the mode of resource loading in Java.
 type: docs
-weight: 572
+weight: 573
 url: /java/com.aspose.words/resourceloadingaction/
 ---
 

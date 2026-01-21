@@ -4,7 +4,7 @@ linktitle: FieldSection
 second_title: Aspose.Words for Java
 description: Implements the SECTION field in Java.
 type: docs
-weight: 280
+weight: 281
 url: /java/com.aspose.words/fieldsection/
 ---
 

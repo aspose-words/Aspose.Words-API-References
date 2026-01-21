@@ -4,7 +4,7 @@ linktitle: FieldMergeBarcode
 second_title: Aspose.Words for Java
 description: Implements the MERGEBARCODE field in Java.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.words/fieldmergebarcode/
 ---
 

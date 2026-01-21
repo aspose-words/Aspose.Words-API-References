@@ -4,7 +4,7 @@ linktitle: XlsxDateTimeParsingMode
 second_title: Aspose.Words for Java
 description: Specifies how document text is parsed to identify date and time values in Java.
 type: docs
-weight: 738
+weight: 739
 url: /java/com.aspose.words/xlsxdatetimeparsingmode/
 ---
 

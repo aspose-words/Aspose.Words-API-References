@@ -2,24 +2,38 @@
 title: GoogleAiModel
 linktitle: GoogleAiModel
 second_title: Aspose.Words for Java
-description: An abstract class representing the integration with Googleu2019s AI models within the Aspose.Words in Java.
+description: Class representing Google AI Models Gemini integration within Aspose.Words in Java.
 type: docs
-weight: 360
+weight: 361
 url: /java/com.aspose.words/googleaimodel/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.words.AiModel](../../com.aspose.words/aimodel/)
-
-**All Implemented Interfaces:**
-[com.aspose.words.IAiModelText](../../com.aspose.words/iaimodeltext/)
 ```
-public abstract class GoogleAiModel extends AiModel implements IAiModelText
+public class GoogleAiModel extends AiModel
 ```
 
-An abstract class representing the integration with Google\\u2019s AI models within the Aspose.Words.
+Class representing Google AI Models (Gemini) integration within Aspose.Words.
+
+ **Remarks:** 
+
+Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models details.
 
  **Examples:** 
+
+Shows how to use google AI model.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+ SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
+ Document summary = model.summarize(doc, summarizeOptions);
+ 
+```
 
 Shows how to summarize text using OpenAI and Google models.
 
@@ -47,7 +61,8 @@ Shows how to summarize text using OpenAI and Google models.
 
 | Constructor | Description |
 | --- | --- |
-| [GoogleAiModel()](#GoogleAiModel) |  |
+| [GoogleAiModel(String name)](#GoogleAiModel-java.lang.String) | Initializes a new instance of [GoogleAiModel](../../com.aspose.words/googleaimodel/) class. |
+| [GoogleAiModel(String name, String apiKey)](#GoogleAiModel-java.lang.String-java.lang.String) | Initializes a new instance of [GoogleAiModel](../../com.aspose.words/googleaimodel/) class. |
 ## Methods
 
 | Method | Description |
@@ -64,11 +79,62 @@ Shows how to summarize text using OpenAI and Google models.
 | [summarize(Document[] docs, SummarizeOptions options)](#summarize-com.aspose.words.Document---com.aspose.words.SummarizeOptions) | Summarizes specified [Document](../../com.aspose.words/document/) objects. |
 | [translate(Document doc, int language)](#translate-com.aspose.words.Document-int) |  |
 | [withApiKey(String apiKey)](#withApiKey-java.lang.String) | Sets a specified API key to the model. |
-### GoogleAiModel() {#GoogleAiModel}
+### GoogleAiModel(String name) {#GoogleAiModel-java.lang.String}
 ```
-public GoogleAiModel()
+public GoogleAiModel(String name)
 ```
 
+
+Initializes a new instance of [GoogleAiModel](../../com.aspose.words/googleaimodel/) class.
+
+ **Examples:** 
+
+Shows how to use google AI model.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+ SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
+ Document summary = model.summarize(doc, summarizeOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the model. For example, gemini-2.5-flash. |
+
+### GoogleAiModel(String name, String apiKey) {#GoogleAiModel-java.lang.String-java.lang.String}
+```
+public GoogleAiModel(String name, String apiKey)
+```
+
+
+Initializes a new instance of [GoogleAiModel](../../com.aspose.words/googleaimodel/) class.
+
+ **Examples:** 
+
+Shows how to use google AI model.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+ SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
+ Document summary = model.summarize(doc, summarizeOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the model. For example, gemini-2.5-flash. |
+| apiKey | java.lang.String | The API key to use the Gemini API. Please refer to https://ai.google.dev/gemini-api/docs/api-key for details. |
 
 ### checkGrammar(Document sourceDocument, CheckGrammarOptions options) {#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions}
 ```

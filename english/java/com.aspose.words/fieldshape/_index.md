@@ -4,7 +4,7 @@ linktitle: FieldShape
 second_title: Aspose.Words for Java
 description: Implements the SHAPE field in Java.
 type: docs
-weight: 285
+weight: 286
 url: /java/com.aspose.words/fieldshape/
 ---
 

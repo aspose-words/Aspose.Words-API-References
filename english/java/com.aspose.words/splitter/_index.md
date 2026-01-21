@@ -4,7 +4,7 @@ linktitle: Splitter
 second_title: Aspose.Words for Java
 description: Provides methods intended to split the documents into parts using different criteria in Java.
 type: docs
-weight: 628
+weight: 629
 url: /java/com.aspose.words/splitter/
 ---
 

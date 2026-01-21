@@ -4,7 +4,7 @@ linktitle: TextureIndex
 second_title: Aspose.Words for Java
 description: Specifies shading texture in Java.
 type: docs
-weight: 677
+weight: 678
 url: /java/com.aspose.words/textureindex/
 ---
 

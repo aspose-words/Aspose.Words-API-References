@@ -4,7 +4,7 @@ linktitle: WarningSource
 second_title: Aspose.Words for Java
 description: Specifies the module that produces a warning during document loading or saving in Java.
 type: docs
-weight: 715
+weight: 716
 url: /java/com.aspose.words/warningsource/
 ---
 
@@ -68,6 +68,7 @@ Shows how to get additional information about font substitution.
 | --- | --- |
 | [CHM](#CHM) | Module that reads CHM files. |
 | [DOC](#DOC) | Module that reads/writes binary DOC files. |
+| [DOCLING](#DOCLING) | Module that writes Docling JSON files. |
 | [DOCX](#DOCX) | Module that reads/writes DOCX files. |
 | [DRAWING_ML](#DRAWING-ML) | Module that renders DrawingML shapes. |
 | [EPUB](#EPUB) | Module that reads/writes EPUB files. |
@@ -118,6 +119,14 @@ public static int DOC
 
 
 Module that reads/writes binary DOC files.
+
+### DOCLING {#DOCLING}
+```
+public static int DOCLING
+```
+
+
+Module that writes Docling JSON files.
 
 ### DOCX {#DOCX}
 ```

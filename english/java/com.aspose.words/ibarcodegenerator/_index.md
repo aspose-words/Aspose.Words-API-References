@@ -105,6 +105,10 @@ public abstract BufferedImage getBarcodeImage(BarcodeParameters parameters)
 
 Generate barcode image using the set of parameters (for DisplayBarcode field).
 
+ **Remarks:** 
+
+Supported image formats are Bmp, Emf, Gif, Jpeg, Png, Tiff, Wmf, Pict, Ico, WebP, Svg.
+
  **Examples:** 
 
 Shows how to use a barcode generator.
@@ -186,7 +190,7 @@ Shows how to use a barcode generator.
 | parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
 
 **Returns:**
-java.awt.image.BufferedImage - Image representing generated barcode.
+java.awt.image.BufferedImage - Stream with image data representing generated barcode.
 ### getOldBarcodeImage(BarcodeParameters parameters) {#getOldBarcodeImage-com.aspose.words.BarcodeParameters}
 ```
 public abstract BufferedImage getOldBarcodeImage(BarcodeParameters parameters)
@@ -195,6 +199,10 @@ public abstract BufferedImage getOldBarcodeImage(BarcodeParameters parameters)
 
 Generate barcode image using the set of parameters (for old-fashioned Barcode field).
 
+ **Remarks:** 
+
+Supported image formats are Bmp, Emf, Gif, Jpeg, Png, Tiff, Wmf, Pict, Ico, WebP, Svg.
+
  **Examples:** 
 
 Shows how to use a barcode generator.
@@ -276,4 +284,4 @@ Shows how to use a barcode generator.
 | parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
 
 **Returns:**
-java.awt.image.BufferedImage - Image representing generated barcode.
+java.awt.image.BufferedImage - Stream with image data representing generated barcode.

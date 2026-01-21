@@ -4,7 +4,7 @@ linktitle: ImportFormatOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various import options to format output in Java.
 type: docs
-weight: 400
+weight: 401
 url: /java/com.aspose.words/importformatoptions/
 ---
 
@@ -59,6 +59,7 @@ Shows how to resolve duplicate styles while inserting documents.
 | Method | Description |
 | --- | --- |
 | [getAdjustSentenceAndWordSpacing()](#getAdjustSentenceAndWordSpacing) | Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
+| [getAppendDocumentWithNewPage()](#getAppendDocumentWithNewPage) | Gets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**. |
 | [getForceCopyStyles()](#getForceCopyStyles) | Gets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [getIgnoreHeaderFooter()](#getIgnoreHeaderFooter) | Gets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [getIgnoreTextBoxes()](#getIgnoreTextBoxes) | Gets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
@@ -66,6 +67,7 @@ Shows how to resolve duplicate styles while inserting documents.
 | [getMergePastedLists()](#getMergePastedLists) | Gets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
 | [getSmartStyleBehavior()](#getSmartStyleBehavior) | Gets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 | [setAdjustSentenceAndWordSpacing(boolean value)](#setAdjustSentenceAndWordSpacing-boolean) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
+| [setAppendDocumentWithNewPage(boolean value)](#setAppendDocumentWithNewPage-boolean) | Sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**. |
 | [setForceCopyStyles(boolean value)](#setForceCopyStyles-boolean) | Sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [setIgnoreHeaderFooter(boolean value)](#setIgnoreHeaderFooter-boolean) | Sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [setIgnoreTextBoxes(boolean value)](#setIgnoreTextBoxes-boolean) | Sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
@@ -104,6 +106,40 @@ Shows how to adjust sentence and word spacing automatically.
 
 **Returns:**
 boolean - A boolean value that specifies whether to adjust sentence and word spacing automatically.
+### getAppendDocumentWithNewPage() {#getAppendDocumentWithNewPage}
+```
+public boolean getAppendDocumentWithNewPage()
+```
+
+
+Gets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**.
+
+The default value is  true .
+
+ **Remarks:** 
+
+Please note that this option is only relevant for the **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)** method and has no effect on other import-related methods.
+
+ **Examples:** 
+
+Shows how to preserve original section type.
+
+```
+
+ Document dstDoc = new Document();
+ Document srcDoc = new Document();
+
+ srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
+
+ ImportFormatOptions options = new ImportFormatOptions(); { options.setAppendDocumentWithNewPage(false); }
+ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
+
+ Assert.assertEquals(SectionStart.CONTINUOUS, dstDoc.getSections().get(1).getPageSetup().getSectionStart());
+ 
+```
+
+**Returns:**
+boolean - A boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**.
 ### getForceCopyStyles() {#getForceCopyStyles}
 ```
 public boolean getForceCopyStyles()
@@ -450,6 +486,43 @@ Shows how to adjust sentence and word spacing automatically.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value that specifies whether to adjust sentence and word spacing automatically. |
+
+### setAppendDocumentWithNewPage(boolean value) {#setAppendDocumentWithNewPage-boolean}
+```
+public void setAppendDocumentWithNewPage(boolean value)
+```
+
+
+Sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**.
+
+The default value is  true .
+
+ **Remarks:** 
+
+Please note that this option is only relevant for the **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)** method and has no effect on other import-related methods.
+
+ **Examples:** 
+
+Shows how to preserve original section type.
+
+```
+
+ Document dstDoc = new Document();
+ Document srcDoc = new Document();
+
+ srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
+
+ ImportFormatOptions options = new ImportFormatOptions(); { options.setAppendDocumentWithNewPage(false); }
+ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
+
+ Assert.assertEquals(SectionStart.CONTINUOUS, dstDoc.getSections().get(1).getPageSetup().getSectionStart());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**. |
 
 ### setForceCopyStyles(boolean value) {#setForceCopyStyles-boolean}
 ```

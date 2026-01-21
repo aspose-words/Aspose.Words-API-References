@@ -4,7 +4,7 @@ linktitle: UnsupportedEncryptionException
 second_title: Aspose.Words for Java
 description: Thrown during document load when the document is encrypted with an unsupported method in Java.
 type: docs
-weight: 696
+weight: 697
 url: /java/com.aspose.words/unsupportedencryptionexception/
 ---
 

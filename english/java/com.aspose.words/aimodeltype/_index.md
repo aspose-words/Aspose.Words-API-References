@@ -53,9 +53,8 @@ Shows how to summarize text using OpenAI and Google models.
 | [CLAUDE_3_HAIKU](#CLAUDE-3-HAIKU) | Claude 3 Haiku generative model type. |
 | [CLAUDE_3_OPUS](#CLAUDE-3-OPUS) | Claude 3 Opus generative model type. |
 | [CLAUDE_3_SONNET](#CLAUDE-3-SONNET) | Claude 3 Sonnet generative model type. |
-| [GEMINI_15_FLASH](#GEMINI-15-FLASH) | Gemini 1.5 Flash generative model type. |
-| [GEMINI_15_FLASH_8_B](#GEMINI-15-FLASH-8-B) | Gemini 1.5 Flash-8B generative model type. |
-| [GEMINI_15_PRO](#GEMINI-15-PRO) | Gemini 1.5 Pro generative model type. |
+| [GEMINI_FLASH_LATEST](#GEMINI-FLASH-LATEST) | Gemini Flash latest release generative model type. |
+| [GEMINI_PRO_LATEST](#GEMINI-PRO-LATEST) | Gemini Pro latest release generative model type. |
 | [GPT_35_TURBO](#GPT-35-TURBO) | GPT-3.5 Turbo generative model type. |
 | [GPT_4_O](#GPT-4-O) | GPT-4o generative model type. |
 | [GPT_4_O_MINI](#GPT-4-O-MINI) | GPT-4o mini generative model type. |
@@ -109,29 +108,21 @@ public static int CLAUDE_3_SONNET
 
 Claude 3 Sonnet generative model type.
 
-### GEMINI_15_FLASH {#GEMINI-15-FLASH}
+### GEMINI_FLASH_LATEST {#GEMINI-FLASH-LATEST}
 ```
-public static int GEMINI_15_FLASH
-```
-
-
-Gemini 1.5 Flash generative model type.
-
-### GEMINI_15_FLASH_8_B {#GEMINI-15-FLASH-8-B}
-```
-public static int GEMINI_15_FLASH_8_B
+public static int GEMINI_FLASH_LATEST
 ```
 
 
-Gemini 1.5 Flash-8B generative model type.
+Gemini Flash latest release generative model type.
 
-### GEMINI_15_PRO {#GEMINI-15-PRO}
+### GEMINI_PRO_LATEST {#GEMINI-PRO-LATEST}
 ```
-public static int GEMINI_15_PRO
+public static int GEMINI_PRO_LATEST
 ```
 
 
-Gemini 1.5 Pro generative model type.
+Gemini Pro latest release generative model type.
 
 ### GPT_35_TURBO {#GPT-35-TURBO}
 ```

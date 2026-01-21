@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Words for Java
 description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 592
+weight: 593
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -35,6 +35,7 @@ Shows how to convert from DOCX to HTML format.
 | [AZW_3](#AZW-3) | Saves the document in the AZW3 format. |
 | [BMP](#BMP) | Renders a page of the document and saves it as a BMP file. |
 | [DOC](#DOC) | Saves the document in the Microsoft Word 97 - 2007 Document format. |
+| [DOCLING](#DOCLING) | Saves the document in Docling JSON format. |
 | [DOCM](#DOCM) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document. |
 | [DOCX](#DOCX) | Saves the document as an Office Open XML WordprocessingML Document (macro-free). |
 | [DOT](#DOT) | Saves the document in the Microsoft Word 97 - 2007 Template format. |
@@ -105,6 +106,14 @@ public static int DOC
 
 
 Saves the document in the Microsoft Word 97 - 2007 Document format.
+
+### DOCLING {#DOCLING}
+```
+public static int DOCLING
+```
+
+
+Saves the document in Docling JSON format.
 
 ### DOCM {#DOCM}
 ```

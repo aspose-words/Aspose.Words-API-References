@@ -4,7 +4,7 @@ linktitle: FontFamily
 second_title: Aspose.Words for Java
 description: Represents the font family in Java.
 type: docs
-weight: 323
+weight: 324
 url: /java/com.aspose.words/fontfamily/
 ---
 

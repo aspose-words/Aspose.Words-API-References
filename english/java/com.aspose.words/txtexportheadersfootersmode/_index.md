@@ -4,7 +4,7 @@ linktitle: TxtExportHeadersFootersMode
 second_title: Aspose.Words for Java
 description: Specifies the way headers and footers are exported to plain text format in Java.
 type: docs
-weight: 686
+weight: 687
 url: /java/com.aspose.words/txtexportheadersfootersmode/
 ---
 
