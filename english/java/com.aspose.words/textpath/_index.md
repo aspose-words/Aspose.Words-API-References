@@ -4,7 +4,7 @@ linktitle: TextPath
 second_title: Aspose.Words for Java
 description: Defines the text and formatting of the text path of a WordArt object in Java.
 type: docs
-weight: 672
+weight: 673
 url: /java/com.aspose.words/textpath/
 ---
 

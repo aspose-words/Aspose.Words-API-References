@@ -4,7 +4,7 @@ linktitle: ProcessorContext
 second_title: Aspose.Words for Java
 description: Base class for processor contexts in Java.
 type: docs
-weight: 552
+weight: 553
 url: /java/com.aspose.words/processorcontext/
 ---
 

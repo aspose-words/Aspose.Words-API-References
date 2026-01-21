@@ -4,7 +4,7 @@ linktitle: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for Java
 description: Specifies how the color space will be selected for the images in PDF document in Java.
 type: docs
-weight: 534
+weight: 535
 url: /java/com.aspose.words/pdfimagecolorspaceexportmode/
 ---
 

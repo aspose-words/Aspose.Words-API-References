@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 634
+weight: 635
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 

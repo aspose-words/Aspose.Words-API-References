@@ -4,7 +4,7 @@ linktitle: HeaderFooterCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to HeaderFooter nodes of a Section in Java.
 type: docs
-weight: 370
+weight: 371
 url: /java/com.aspose.words/headerfootercollection/
 ---
 

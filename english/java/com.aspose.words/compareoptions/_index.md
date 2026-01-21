@@ -390,7 +390,7 @@ Specifies whether to compare differences in comments.
 
  **Remarks:** 
 
-By default comments are not ignored.
+By default, comments are not ignored.
 
  **Examples:** 
 
@@ -598,7 +598,7 @@ Specifies whether to compare differences in footnotes and endnotes.
 
  **Remarks:** 
 
-By default footnotes are not ignored.
+By default, footnotes are not ignored.
 
  **Examples:** 
 
@@ -685,7 +685,7 @@ True indicates that formatting is ignored.
 
  **Remarks:** 
 
-By default document formatting is not ignored.
+By default, document formatting is not ignored.
 
  **Examples:** 
 
@@ -772,7 +772,7 @@ True indicates that headers and footers content is ignored.
 
  **Remarks:** 
 
-By default headers and footers are not ignored.
+By default, headers and footers are not ignored.
 
  **Examples:** 
 
@@ -946,7 +946,7 @@ Specifies whether to compare differences in the data contained within text boxes
 
  **Remarks:** 
 
-By default textboxes are not ignored.
+By default, textboxes are not ignored.
 
  **Examples:** 
 
@@ -1340,7 +1340,7 @@ Specifies whether to compare differences in comments.
 
  **Remarks:** 
 
-By default comments are not ignored.
+By default, comments are not ignored.
 
  **Examples:** 
 
@@ -1557,7 +1557,7 @@ Specifies whether to compare differences in footnotes and endnotes.
 
  **Remarks:** 
 
-By default footnotes are not ignored.
+By default, footnotes are not ignored.
 
  **Examples:** 
 
@@ -1647,7 +1647,7 @@ True indicates that formatting is ignored.
 
  **Remarks:** 
 
-By default document formatting is not ignored.
+By default, document formatting is not ignored.
 
  **Examples:** 
 
@@ -1737,7 +1737,7 @@ True indicates that headers and footers content is ignored.
 
  **Remarks:** 
 
-By default headers and footers are not ignored.
+By default, headers and footers are not ignored.
 
  **Examples:** 
 
@@ -1917,7 +1917,7 @@ Specifies whether to compare differences in the data contained within text boxes
 
  **Remarks:** 
 
-By default textboxes are not ignored.
+By default, textboxes are not ignored.
 
  **Examples:** 
 

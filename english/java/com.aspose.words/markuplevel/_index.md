@@ -4,7 +4,7 @@ linktitle: MarkupLevel
 second_title: Aspose.Words for Java
 description: Specifies the level in the document tree where a particular StructuredDocumentTag can occur in Java.
 type: docs
-weight: 456
+weight: 457
 url: /java/com.aspose.words/markuplevel/
 ---
 

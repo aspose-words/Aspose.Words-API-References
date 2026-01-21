@@ -4,7 +4,7 @@ linktitle: MultiPageLayout
 second_title: Aspose.Words for Java
 description: Defines a layout for rendering multiple pages into a single output in Java.
 type: docs
-weight: 470
+weight: 471
 url: /java/com.aspose.words/multipagelayout/
 ---
 

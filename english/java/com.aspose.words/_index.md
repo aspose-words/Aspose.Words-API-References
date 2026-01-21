@@ -181,6 +181,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [DmlEffectsRenderingMode](../com.aspose.words/dmleffectsrenderingmode/) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | [DmlRenderingMode](../com.aspose.words/dmlrenderingmode/) | Specifies how DrawingML shapes are rendered to fixed page formats. |
 | [DocSaveOptions](../com.aspose.words/docsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOC](../com.aspose.words/saveformat/\#DOC) or [SaveFormat.\#DOT](../com.aspose.words/saveformat/\#DOT) format. |
+| [DoclingSaveOptions](../com.aspose.words/doclingsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOCLING](../com.aspose.words/saveformat/\#DOCLING) format. |
 | [Document](../com.aspose.words/document/) | Represents a Word document. |
 | [DocumentBase](../com.aspose.words/documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. |
 | [DocumentBuilder](../com.aspose.words/documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. |
@@ -381,7 +382,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [GlowFormat](../com.aspose.words/glowformat/) | Represents the glow formatting for an object. |
 | [Glyph](../com.aspose.words/glyph/) | Represents a glyph |
 | [GlyphFlags](../com.aspose.words/glyphflags/) |  |
-| [GoogleAiModel](../com.aspose.words/googleaimodel/) | An abstract class representing the integration with Google\\u2019s AI models within the Aspose.Words. |
+| [GoogleAiModel](../com.aspose.words/googleaimodel/) | Class representing Google AI Models (Gemini) integration within Aspose.Words. |
 | [GradientStop](../com.aspose.words/gradientstop/) | Represents one gradient stop. |
 | [GradientStopCollection](../com.aspose.words/gradientstopcollection/) | Contains a collection of [GradientStop](../com.aspose.words/gradientstop/) objects. |
 | [GradientStyle](../com.aspose.words/gradientstyle/) | Specifies the style for a gradient fill. |
@@ -774,7 +775,6 @@ The **MailMerge** object which provides access to the reporting functionality is
 
 | Interface | Description |
 | --- | --- |
-| [IAiModelText](../com.aspose.words/iaimodeltext/) | The common interface for AI models designed to generate a variety of text-based content. |
 | [IBarcodeGenerator](../com.aspose.words/ibarcodegenerator/) | Public interface for barcode custom generator. |
 | [IBibliographyStylesProvider](../com.aspose.words/ibibliographystylesprovider/) | Implement this interface to provide bibliography style for the [FieldBibliography](../com.aspose.words/fieldbibliography/) and [FieldCitation](../com.aspose.words/fieldcitation/) fields when they're updated. |
 | [IChartDataPoint](../com.aspose.words/ichartdatapoint/) | Contains properties of a single data point on the chart. |

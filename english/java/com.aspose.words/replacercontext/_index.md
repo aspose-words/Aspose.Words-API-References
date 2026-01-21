@@ -4,7 +4,7 @@ linktitle: ReplacerContext
 second_title: Aspose.Words for Java
 description: Find/replace operation context in Java.
 type: docs
-weight: 565
+weight: 566
 url: /java/com.aspose.words/replacercontext/
 ---
 

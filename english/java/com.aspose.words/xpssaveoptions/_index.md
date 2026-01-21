@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XPS format in Java.
 type: docs
-weight: 745
+weight: 746
 url: /java/com.aspose.words/xpssaveoptions/
 ---
 
@@ -102,6 +102,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [getUpdateOleControlImages()](#getUpdateOleControlImages) | Gets a value determining whether OLE controls presentation image will be updated. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings) | Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
@@ -131,6 +132,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 | [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [setUpdateOleControlImages(boolean value)](#setUpdateOleControlImages-boolean) | Sets a value determining whether OLE controls presentation image will be updated. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
@@ -1451,7 +1453,7 @@ public String getTempFolder()
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is  null  and no temporary files are used.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -1635,6 +1637,16 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
+### getUpdateOleControlImages() {#getUpdateOleControlImages}
+```
+public boolean getUpdateOleControlImages()
+```
+
+
+Gets a value determining whether OLE controls presentation image will be updated.
+
+**Returns:**
+boolean - A value determining whether OLE controls presentation image will be updated.
 ### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
@@ -2939,7 +2951,7 @@ public void setTempFolder(String value)
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is  null  and no temporary files are used.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3140,6 +3152,19 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
+
+### setUpdateOleControlImages(boolean value) {#setUpdateOleControlImages-boolean}
+```
+public void setUpdateOleControlImages(boolean value)
+```
+
+
+Sets a value determining whether OLE controls presentation image will be updated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value determining whether OLE controls presentation image will be updated. |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```

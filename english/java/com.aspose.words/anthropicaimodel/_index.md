@@ -10,11 +10,8 @@ url: /java/com.aspose.words/anthropicaimodel/
 
 **Inheritance:**
 java.lang.Object, [com.aspose.words.AiModel](../../com.aspose.words/aimodel/)
-
-**All Implemented Interfaces:**
-[com.aspose.words.IAiModelText](../../com.aspose.words/iaimodeltext/)
 ```
-public abstract class AnthropicAiModel extends AiModel implements IAiModelText
+public abstract class AnthropicAiModel extends AiModel
 ```
 
 An abstract class representing the integration with Anthropic\\u2019s AI models within the Aspose.Words.

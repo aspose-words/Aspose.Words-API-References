@@ -4,7 +4,7 @@ linktitle: WatermarkerContext
 second_title: Aspose.Words for Java
 description: Document watermarker context in Java.
 type: docs
-weight: 721
+weight: 722
 url: /java/com.aspose.words/watermarkercontext/
 ---
 

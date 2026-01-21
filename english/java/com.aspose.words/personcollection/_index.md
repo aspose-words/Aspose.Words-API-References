@@ -4,7 +4,7 @@ linktitle: PersonCollection
 second_title: Aspose.Words for Java
 description: Represents a list of persons who are bibliography source contributors in Java.
 type: docs
-weight: 544
+weight: 545
 url: /java/com.aspose.words/personcollection/
 ---
 

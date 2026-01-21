@@ -4,7 +4,7 @@ linktitle: PlainTextDocument
 second_title: Aspose.Words for Java
 description: Allows to extract plain-text representation of the documents content in Java.
 type: docs
-weight: 547
+weight: 548
 url: /java/com.aspose.words/plaintextdocument/
 ---
 

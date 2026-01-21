@@ -4,7 +4,7 @@ linktitle: FieldImport
 second_title: Aspose.Words for Java
 description: Implements the IMPORT field in Java.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.words/fieldimport/
 ---
 

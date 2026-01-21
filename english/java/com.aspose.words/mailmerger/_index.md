@@ -4,7 +4,7 @@ linktitle: MailMerger
 second_title: Aspose.Words for Java
 description: Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations in Java.
 type: docs
-weight: 444
+weight: 445
 url: /java/com.aspose.words/mailmerger/
 ---
 

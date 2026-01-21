@@ -4,7 +4,7 @@ linktitle: FieldDde
 second_title: Aspose.Words for Java
 description: Implements the DDE field in Java.
 type: docs
-weight: 220
+weight: 221
 url: /java/com.aspose.words/fielddde/
 ---
 

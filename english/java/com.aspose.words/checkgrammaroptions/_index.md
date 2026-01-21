@@ -41,10 +41,10 @@ Shows how to check the grammar of a document.
 | --- | --- |
 | [getImproveStylistics()](#getImproveStylistics) | Allows to specify either AI will try to improve stylistics of the text being proofed. |
 | [getMakeRevisions()](#getMakeRevisions) | Allows to specify either final or revised document to be returned with proofed text. |
-| [getPreserveFormatting()](#getPreserveFormatting) | Allows to specify either [IAiModelText.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/iaimodeltext/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. |
+| [getPreserveFormatting()](#getPreserveFormatting) | Allows to specify either [AiModel.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/aimodel/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. |
 | [setImproveStylistics(boolean value)](#setImproveStylistics-boolean) | Allows to specify either AI will try to improve stylistics of the text being proofed. |
 | [setMakeRevisions(boolean value)](#setMakeRevisions-boolean) | Allows to specify either final or revised document to be returned with proofed text. |
-| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean) | Allows to specify either [IAiModelText.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/iaimodeltext/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. |
+| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean) | Allows to specify either [AiModel.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/aimodel/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. |
 ### getImproveStylistics() {#getImproveStylistics}
 ```
 public boolean getImproveStylistics()
@@ -71,7 +71,7 @@ public boolean getPreserveFormatting()
 ```
 
 
-Allows to specify either [IAiModelText.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/iaimodeltext/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is  true .
+Allows to specify either [AiModel.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/aimodel/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is  true .
 
  **Remarks:** 
 
@@ -111,7 +111,7 @@ public void setPreserveFormatting(boolean value)
 ```
 
 
-Allows to specify either [IAiModelText.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/iaimodeltext/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is  true .
+Allows to specify either [AiModel.checkGrammar(com.aspose.words.Document, com.aspose.words.CheckGrammarOptions)](../../com.aspose.words/aimodel/\#checkGrammar-com.aspose.words.Document--com.aspose.words.CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is  true .
 
  **Remarks:** 
 

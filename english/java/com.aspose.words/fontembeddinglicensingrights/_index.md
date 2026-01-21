@@ -4,7 +4,7 @@ linktitle: FontEmbeddingLicensingRights
 second_title: Aspose.Words for Java
 description: Represents embedding licensing rights for the font in Java.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.words/fontembeddinglicensingrights/
 ---
 
