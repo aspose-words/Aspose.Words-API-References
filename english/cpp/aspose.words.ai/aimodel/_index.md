@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/aimodel/
 An abstract class representing the integration with various [AI](../) models within the [Aspose.Words](../../aspose.words/).
 
 ```cpp
-class AiModel : public virtual System::Object
+class AiModel : public System::Object
 ```
 
 ## Methods
@@ -38,7 +38,7 @@ class AiModel : public virtual System::Object
 
 
 
-Shows how to summarize text using OpenAI and [Google](../../aspose.words.ai.google/) models. 
+Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");

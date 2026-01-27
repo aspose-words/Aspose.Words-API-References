@@ -24,9 +24,8 @@ enum class AiModelType
 | Gpt4OMini | 1 | GPT-4o mini generative model type. |
 | Gpt4Turbo | 2 | GPT-4 Turbo generative model type. |
 | Gpt35Turbo | 3 | GPT-3.5 Turbo generative model type. |
-| Gemini15Flash | 4 | Gemini 1.5 Flash generative model type. |
-| Gemini15Flash8B | 5 | Gemini 1.5 Flash-8B generative model type. |
-| Gemini15Pro | 6 | Gemini 1.5 Pro generative model type. |
+| GeminiFlashLatest | 4 | Gemini Flash latest release generative model type. |
+| GeminiProLatest | 6 | Gemini Pro latest release generative model type. |
 | Claude35Sonnet | 7 | Claude 3.5 Sonnet generative model type. |
 | Claude35Haiku | 8 | Claude 3.5 Haiku generative model type. |
 | Claude3Opus | 9 | Claude 3 Opus generative model type. |
@@ -38,7 +37,7 @@ enum class AiModelType
 
 
 
-Shows how to summarize text using OpenAI and [Google](../../aspose.words.ai.google/) models. 
+Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
