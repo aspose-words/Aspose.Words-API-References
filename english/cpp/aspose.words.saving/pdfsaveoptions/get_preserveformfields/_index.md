@@ -25,11 +25,7 @@ When set to **false**, these fields will be exported as text to PDF. When set to
 
 When exporting form fields to PDF as form fields, some formatting loss might occur because PDF form fields do not support all features of Microsoft Word form fields.
 
-Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
-
-Editable forms are prohibited by PDF/A compliance. **false** value will be used automatically when saving to PDF/A.
-
-Form fields are not supported when saving to PDF/UA. **false** value will be used automatically. 
+Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects. 
 ## See Also
 
 * Class [PdfSaveOptions](../)

@@ -13,8 +13,7 @@ url: /cpp/aspose.words.ai/openaimodel/
 An abstract class representing the integration with OpenAI's large language models within the [Aspose.Words](../../aspose.words/).
 
 ```cpp
-class OpenAiModel : public Aspose::Words::AI::AiModel,
-                    public Aspose::Words::AI::IAiModelText
+class OpenAiModel : public Aspose::Words::AI::AiModel
 ```
 
 ## Methods
@@ -41,7 +40,7 @@ class OpenAiModel : public Aspose::Words::AI::AiModel,
 
 
 
-Shows how to summarize text using OpenAI and [Google](../../aspose.words.ai.google/) models. 
+Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
@@ -64,6 +63,5 @@ multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ## See Also
 
 * Class [AiModel](../aimodel/)
-* Interface [IAiModelText](../iaimodeltext/)
 * Namespace [Aspose::Words::AI](../)
 * Library [Aspose.Words for C++](../../)
