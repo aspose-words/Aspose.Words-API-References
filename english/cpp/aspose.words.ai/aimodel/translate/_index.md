@@ -30,13 +30,13 @@ A new [Document](../../../aspose.words/document/) object containing the translat
 
 
 
-Shows how to translate text using [Google](../../../aspose.words.ai.google/) models. 
+Shows how to translate text using Google models. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 // Use Google generative language models.
-System::SharedPtr<Aspose::Words::AI::AiModel> model = Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gemini15Flash)->WithApiKey(apiKey);
+System::SharedPtr<Aspose::Words::AI::AiModel> model = Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::GeminiFlashLatest)->WithApiKey(apiKey);
 
 System::SharedPtr<Aspose::Words::Document> translatedDoc = model->Translate(doc, Aspose::Words::AI::Language::Arabic);
 translatedDoc->Save(get_ArtifactsDir() + u"AI.AiTranslate.docx");

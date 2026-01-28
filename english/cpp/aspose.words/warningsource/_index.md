@@ -48,6 +48,7 @@ enum class WarningSource
 | Epub | 25 | Module that reads/writes EPUB files. |
 | Xml | 26 | Module that reads XML files. |
 | Xlsx | 27 | Module that writes XLSX files. |
+| Docling | 28 | Module that writes Docling JSON files. |
 
 
 ## Examples

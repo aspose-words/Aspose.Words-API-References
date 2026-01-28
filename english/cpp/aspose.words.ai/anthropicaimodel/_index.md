@@ -13,8 +13,7 @@ url: /cpp/aspose.words.ai/anthropicaimodel/
 An abstract class representing the integration with Anthropic’s [AI](../) models within the [Aspose.Words](../../aspose.words/).
 
 ```cpp
-class AnthropicAiModel : public Aspose::Words::AI::AiModel,
-                         public Aspose::Words::AI::IAiModelText
+class AnthropicAiModel : public Aspose::Words::AI::AiModel
 ```
 
 ## Methods
@@ -38,6 +37,5 @@ class AnthropicAiModel : public Aspose::Words::AI::AiModel,
 ## See Also
 
 * Class [AiModel](../aimodel/)
-* Interface [IAiModelText](../iaimodeltext/)
 * Namespace [Aspose::Words::AI](../)
 * Library [Aspose.Words for C++](../../)

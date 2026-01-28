@@ -2,7 +2,7 @@
 title: Aspose::Words::AI::GoogleAiModel class
 linktitle: GoogleAiModel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::AI::GoogleAiModel class. An abstract class representing the integration with Google’s AI models within the Aspose.Words in C++.'
+description: 'Aspose::Words::AI::GoogleAiModel class. Class representing Google AI Models (Gemini) integration within Aspose.Words in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.ai/googleaimodel/
@@ -10,11 +10,10 @@ url: /cpp/aspose.words.ai/googleaimodel/
 ## GoogleAiModel class
 
 
-An abstract class representing the integration with Google’s [AI](../) models within the [Aspose.Words](../../aspose.words/).
+Class representing Google [AI](../) Models (Gemini) integration within [Aspose.Words](../../aspose.words/).
 
 ```cpp
-class GoogleAiModel : public Aspose::Words::AI::AiModel,
-                      public Aspose::Words::AI::IAiModelText
+class GoogleAiModel : public Aspose::Words::AI::AiModel
 ```
 
 ## Methods
@@ -26,7 +25,8 @@ class GoogleAiModel : public Aspose::Words::AI::AiModel,
 | [get_Timeout](../aimodel/get_timeout/)() const | Gets or sets the number of milliseconds to wait before the request to [AI](../) model times out. The default value is 100,000 milliseconds (100 seconds). |
 | [get_Url](./get_url/)() override | Gets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/". |
 | [GetType](./gettype/)() const override |  |
-| [GoogleAiModel](./googleaimodel/)() |  |
+| [GoogleAiModel](./googleaimodel/)(const System::String\&) | Initializes a new instance of [GoogleAiModel](./) class. |
+| [GoogleAiModel](./googleaimodel/)(const System::String\&, const System::String\&) | Initializes a new instance of [GoogleAiModel](./) class. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Timeout](../aimodel/set_timeout/)(int32_t) | Setter for [Aspose::Words::AI::AiModel::get_Timeout](../aimodel/get_timeout/). |
 | [set_Url](./set_url/)(System::String) override | Sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/". |
@@ -40,7 +40,7 @@ class GoogleAiModel : public Aspose::Words::AI::AiModel,
 
 
 
-Shows how to summarize text using OpenAI and [Google](../../aspose.words.ai.google/) models. 
+Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
@@ -60,9 +60,20 @@ System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summari
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
 
+
+Shows how to use google [AI](../) model. 
+```cpp
+System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
+auto model = System::MakeObject<Aspose::Words::AI::GoogleAiModel>(u"gemini-flash-latest", apiKey);
+
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto summarizeOptions = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
+summarizeOptions->set_SummaryLength(Aspose::Words::AI::SummaryLength::VeryShort);
+System::SharedPtr<Aspose::Words::Document> summary = model->Summarize(doc, summarizeOptions);
+```
+
 ## See Also
 
 * Class [AiModel](../aimodel/)
-* Interface [IAiModelText](../iaimodeltext/)
 * Namespace [Aspose::Words::AI](../)
 * Library [Aspose.Words for C++](../../)

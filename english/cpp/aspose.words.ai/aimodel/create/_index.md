@@ -21,7 +21,7 @@ static System::SharedPtr<Aspose::Words::AI::AiModel> Aspose::Words::AI::AiModel:
 
 
 
-Shows how to summarize text using OpenAI and [Google](../../../aspose.words.ai.google/) models. 
+Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
