@@ -24,7 +24,9 @@ public class ChartTitle
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } | Provides access to the font formatting of the chart title. |
 | [Format](../../aspose.words.drawing.charts/charttitle/format/) { get; } | Provides access to fill and line formatting of the chart title. |
+| [Orientation](../../aspose.words.drawing.charts/charttitle/orientation/) { get; set; } | Gets or sets the orientation of the chart title text. |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. By default overlay is `false`. |
+| [Rotation](../../aspose.words.drawing.charts/charttitle/rotation/) { get; set; } | Gets or sets the rotation of the chart title in degrees. |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Determines whether the title shall be shown for this chart. Default value is `true`. |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Gets or sets the text of the chart title. If `null` or empty value is specified, auto generated title will be shown. |
 
