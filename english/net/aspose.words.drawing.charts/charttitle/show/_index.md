@@ -5,7 +5,7 @@ articleTitle: Show
 second_title: Aspose.Words for .NET
 description: Enhance your charts with customizable titles. Control visibility easily—default is true. Elevate your data presentation today!
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property

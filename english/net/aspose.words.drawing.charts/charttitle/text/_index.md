@@ -5,7 +5,7 @@ articleTitle: Text
 second_title: Aspose.Words for .NET
 description: Customize your chart title effortlessly! Set or get the ChartTitle Text property for a personalized touch. Auto-generate titles when needed.
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property

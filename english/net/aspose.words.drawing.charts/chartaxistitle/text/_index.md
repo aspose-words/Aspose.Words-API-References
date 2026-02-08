@@ -5,7 +5,7 @@ articleTitle: Text
 second_title: Aspose.Words for .NET
 description: Discover the ChartAxisTitle Text property to customize your axis titles easily. Set or get dynamic titles for enhanced data visualization.
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property

@@ -5,7 +5,7 @@ articleTitle: Show
 second_title: Aspose.Words for .NET
 description: Discover the ChartAxisTitle Show property to control axis title visibility. Enhance your charts with clear, informative titles for better data insights.
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
