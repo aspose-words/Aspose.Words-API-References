@@ -5,7 +5,7 @@ articleTitle: Overlay
 second_title: Aspose.Words for .NET
 description: Discover the ChartAxisTitle Overlay property, control chart element overlap for clearer visuals. Enhance your data presentation effortlessly!
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property

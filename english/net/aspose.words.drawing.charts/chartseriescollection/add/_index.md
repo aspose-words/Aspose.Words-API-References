@@ -202,6 +202,67 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
+## Add(*string, string[], double[], bool[]*) {#add_6}
+
+Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to Waterfall charts.
+
+```csharp
+public ChartSeries Add(string seriesName, string[] categories, double[] values, bool[] isSubtotal)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesName | String | A name of the series to be added. |
+| categories | String[] | Category names for the X axis. |
+| values | Double[] | Y-axis values. |
+| isSubtotal | Boolean[] | Values indicating whether the corresponding Y value is a subtotal. |
+
+### Return Value
+
+Recently added [`ChartSeries`](../../chartseries/) object.
+
+## Remarks
+
+For chart types other than Waterfall, *isSubtotal* values are ignored.
+
+## Examples
+
+Shows how to create waterfall chart.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a Waterfall chart.
+Shape shape = builder.InsertChart(ChartType.Waterfall, 450, 450);
+Chart chart = shape.Chart;
+chart.Title.Text = "New Zealand GDP";
+
+// Delete default generated series.
+chart.Series.Clear();
+
+// Add a series.
+ChartSeries series = chart.Series.Add(
+    "New Zealand GDP",
+    new string[] { "2018", "2019 growth", "2020 growth", "2020", "2021 growth", "2022 growth", "2022" },
+    new double[] { 100, 0.57, -0.25, 100.32, 20.22, -2.92, 117.62 },
+    new bool[] { true, false, false, true, false, false, true });
+
+// Show data labels.
+series.HasDataLabels = true;
+
+doc.Save(ArtifactsDir + "Charts.Waterfall.docx");
+```
+
+### See Also
+
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
+* assembly [Aspose.Words](../../../)
+
+---
+
 ## Add(*string, double[], double[]*) {#add_2}
 
 Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to any type of Scatter charts.
@@ -690,67 +751,6 @@ chart.Series.Add(
     });
 
 doc.Save(ArtifactsDir + "Charts.Histogram.docx");
-```
-
-### See Also
-
-* class [ChartSeries](../../chartseries/)
-* class [ChartSeriesCollection](../)
-* namespace [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Add(*string, string[], double[], bool[]*) {#add_6}
-
-Adds new [`ChartSeries`](../../chartseries/) to this collection. Use this method to add series to Waterfall charts.
-
-```csharp
-public ChartSeries Add(string seriesName, string[] categories, double[] values, bool[] isSubtotal)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| seriesName | String | A name of the series to be added. |
-| categories | String[] | Category names for the X axis. |
-| values | Double[] | Y-axis values. |
-| isSubtotal | Boolean[] | Values indicating whether the corresponding Y value is a subtotal. |
-
-### Return Value
-
-Recently added [`ChartSeries`](../../chartseries/) object.
-
-## Remarks
-
-For chart types other than Waterfall, *isSubtotal* values are ignored.
-
-## Examples
-
-Shows how to create waterfall chart.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a Waterfall chart.
-Shape shape = builder.InsertChart(ChartType.Waterfall, 450, 450);
-Chart chart = shape.Chart;
-chart.Title.Text = "New Zealand GDP";
-
-// Delete default generated series.
-chart.Series.Clear();
-
-// Add a series.
-ChartSeries series = chart.Series.Add(
-    "New Zealand GDP",
-    new string[] { "2018", "2019 growth", "2020 growth", "2020", "2021 growth", "2022 growth", "2022" },
-    new double[] { 100, 0.57, -0.25, 100.32, 20.22, -2.92, 117.62 },
-    new bool[] { true, false, false, true, false, false, true });
-
-// Show data labels.
-series.HasDataLabels = true;
-
-doc.Save(ArtifactsDir + "Charts.Waterfall.docx");
 ```
 
 ### See Also
