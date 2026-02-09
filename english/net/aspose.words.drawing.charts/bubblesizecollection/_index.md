@@ -5,7 +5,7 @@ articleTitle: BubbleSizeCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.BubbleSizeCollection class, your go-to solution for managing bubble sizes in chart series effectively.
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class

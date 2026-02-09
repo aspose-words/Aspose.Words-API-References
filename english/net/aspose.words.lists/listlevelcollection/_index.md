@@ -5,7 +5,7 @@ articleTitle: ListLevelCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Lists.ListLevelCollection, streamline your document formatting with customizable list levels for enhanced clarity and presentation.
 type: docs
-weight: 3990
+weight: 4000
 url: /net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class

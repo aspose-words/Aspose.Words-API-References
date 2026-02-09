@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MarkdownLoadOptions to enhance your Markdown document loading experience. Customize options for seamless integration into your projects.
 type: docs
-weight: 4150
+weight: 4160
 url: /net/aspose.words.loading/markdownloadoptions/
 ---
 ## MarkdownLoadOptions class

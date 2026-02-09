@@ -5,7 +5,7 @@ articleTitle: FieldData
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldData class, your key to efficiently implementing DATA fields in documents. Enhance your document automation today!
 type: docs
-weight: 2130
+weight: 2140
 url: /net/aspose.words.fields/fielddata/
 ---
 ## FieldData class

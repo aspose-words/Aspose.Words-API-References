@@ -5,7 +5,7 @@ articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.RelativeHorizontalPosition enum to define precise horizontal positioning for shapes and text frames in your documents.
 type: docs
-weight: 1570
+weight: 1580
 url: /net/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enumeration

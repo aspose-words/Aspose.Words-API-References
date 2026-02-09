@@ -5,7 +5,7 @@ articleTitle: ChartMultilevelValue
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartMultilevelValue class to effectively manage multilevel data in your charts, enhancing your data visualization capabilities.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/
 ---
 ## ChartMultilevelValue class

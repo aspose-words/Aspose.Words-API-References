@@ -5,7 +5,7 @@ articleTitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET
 description: Discover how to enhance your documents with Aspose.Words' Dml3DEffectsRenderingMode enum for superior 3D shape rendering and visual impact.
 type: docs
-weight: 5690
+weight: 5700
 url: /net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 ## Dml3DEffectsRenderingMode enumeration

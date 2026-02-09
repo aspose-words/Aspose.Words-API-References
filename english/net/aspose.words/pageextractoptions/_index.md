@@ -5,7 +5,7 @@ articleTitle: PageExtractOptions
 second_title: Aspose.Words for .NET
 description: Easily extract document pages with Aspose.Words.PageExtractOptions. Customize output with flexible page extraction settings.
 type: docs
-weight: 5120
+weight: 5130
 url: /net/aspose.words/pageextractoptions/
 ---
 ## PageExtractOptions class

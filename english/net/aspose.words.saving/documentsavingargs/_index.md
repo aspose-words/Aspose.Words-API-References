@@ -5,7 +5,7 @@ articleTitle: DocumentSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DocumentSavingArgs class, essential for handling document saving events efficiently in your applications.
 type: docs
-weight: 5750
+weight: 5760
 url: /net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class

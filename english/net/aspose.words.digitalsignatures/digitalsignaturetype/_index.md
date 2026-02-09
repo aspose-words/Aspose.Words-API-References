@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.DigitalSignatures.DigitalSignatureType enum to enhance your document security with versatile digital signature options.
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration

@@ -5,7 +5,7 @@ articleTitle: ResourceSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.ResourceSavingArgs class, which enhances your document processing by providing essential data for the ResourceSaving event.
 type: docs
-weight: 6420
+weight: 6430
 url: /net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class

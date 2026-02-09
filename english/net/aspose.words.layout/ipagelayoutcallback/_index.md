@@ -5,7 +5,7 @@ articleTitle: IPageLayoutCallback
 second_title: Aspose.Words for .NET
 description: Customize your document layout with Aspose.Words.Layout.IPageLayoutCallback interface. Enhance rendering with your own methods for optimal results.
 type: docs
-weight: 3780
+weight: 3790
 url: /net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface

@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionReason
 second_title: Aspose.Words for .NET
 description: Aspose.Words.FontSubstitutionReason enum shows the reason for font substitution to keep documents displayed correctly.
 type: docs
-weight: 3240
+weight: 3250
 url: /net/aspose.words/fontsubstitutionreason/
 ---
 ## FontSubstitutionReason enumeration

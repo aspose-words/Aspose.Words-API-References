@@ -5,7 +5,7 @@ articleTitle: ChartSeries
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartSeries class, your key to enhancing chart series properties for dynamic document creation and visualization.
 type: docs
-weight: 1060
+weight: 1070
 url: /net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class

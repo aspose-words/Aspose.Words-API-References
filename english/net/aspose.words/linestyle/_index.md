@@ -5,7 +5,7 @@ articleTitle: LineStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LineStyle enum for customizable border styles, enhancing your document design with flexibility and precision.
 type: docs
-weight: 3920
+weight: 3930
 url: /net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration

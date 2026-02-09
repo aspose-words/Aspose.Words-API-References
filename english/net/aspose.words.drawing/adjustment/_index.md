@@ -5,7 +5,7 @@ articleTitle: Adjustment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Adjustment class, designed to enhance your shapes with precise adjustment values for superior document formatting.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.words.drawing/adjustment/
 ---
 ## Adjustment class

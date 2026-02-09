@@ -5,7 +5,7 @@ articleTitle: ChartLegendEntry
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartLegendEntry class for creating dynamic chart legends. Enhance your data visualization with seamless integration and customization.
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class

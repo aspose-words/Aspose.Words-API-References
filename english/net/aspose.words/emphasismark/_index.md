@@ -5,7 +5,7 @@ articleTitle: EmphasisMark
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.EmphasisMark enum, featuring diverse emphasis types to enhance your document formatting. Elevate your text's impact today!
 type: docs
-weight: 1860
+weight: 1870
 url: /net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration

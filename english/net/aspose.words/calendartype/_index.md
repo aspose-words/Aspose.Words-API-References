@@ -5,7 +5,7 @@ articleTitle: CalendarType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CalendarType enum to easily specify and customize your calendar types for enhanced document management and automation.
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration

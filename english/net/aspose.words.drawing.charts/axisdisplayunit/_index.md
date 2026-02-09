@@ -5,7 +5,7 @@ articleTitle: AxisDisplayUnit
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisDisplayUnit class to customize value axis scaling options for enhanced chart clarity and precision.
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class

@@ -5,7 +5,7 @@ articleTitle: ChartDataLabel
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartDataLabel class for enhanced data visualization in charts. Elevate your presentations with precise data labels!
 type: docs
-weight: 920
+weight: 930
 url: /net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class

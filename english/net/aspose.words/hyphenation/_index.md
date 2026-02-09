@@ -5,7 +5,7 @@ articleTitle: Hyphenation
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Hyphenation class for efficient hyphenation management. Enhance your documents with precise language-specific hyphenation rules.
 type: docs
-weight: 3590
+weight: 3600
 url: /net/aspose.words/hyphenation/
 ---
 ## Hyphenation class

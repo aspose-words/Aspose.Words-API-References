@@ -5,7 +5,7 @@ articleTitle: TextureAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.TextureAlignment enum for precise texture fill alignment. Enhance your document designs with seamless tiling options!
 type: docs
-weight: 1770
+weight: 1780
 url: /net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration

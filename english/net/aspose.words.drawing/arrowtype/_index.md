@@ -5,7 +5,7 @@ articleTitle: ArrowType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.ArrowType enum to customize arrow styles for line ends, enhancing your document's visual appeal and precision.
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration

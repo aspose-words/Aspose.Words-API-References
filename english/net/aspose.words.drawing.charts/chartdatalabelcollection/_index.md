@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartDataLabelCollection class for managing chart data labels efficiently. Enhance your document's visual appeal today!
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class

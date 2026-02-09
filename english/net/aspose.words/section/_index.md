@@ -5,7 +5,7 @@ articleTitle: Section
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Section class, your key to managing individual document sections effortlessly. Enhance your document editing experience today!
 type: docs
-weight: 6630
+weight: 6640
 url: /net/aspose.words/section/
 ---
 ## Section class

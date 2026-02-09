@@ -5,7 +5,7 @@ articleTitle: DocumentRecoveryMode
 second_title: Aspose.Words for .NET
 description: Aspose.Words.DocumentRecoveryMode enum specifies recovery modes for documents with errors during loading.
 type: docs
-weight: 4070
+weight: 4080
 url: /net/aspose.words.loading/documentrecoverymode/
 ---
 ## DocumentRecoveryMode enumeration

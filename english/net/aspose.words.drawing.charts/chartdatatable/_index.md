@@ -5,7 +5,7 @@ articleTitle: ChartDataTable
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartDataTable class to easily customize chart data tables and enhance your data visualization with powerful features.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.words.drawing.charts/chartdatatable/
 ---
 ## ChartDataTable class

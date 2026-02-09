@@ -5,7 +5,7 @@ articleTitle: CommentRangeStart
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CommentRangeStart class, marking comment-associated text regions for enhanced document management and editing efficiency.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class

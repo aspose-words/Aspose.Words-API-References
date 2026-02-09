@@ -5,7 +5,7 @@ articleTitle: Body
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Body class, your essential tool for managing section text effortlessly and enhancing document processing efficiency.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words/body/
 ---
 ## Body class

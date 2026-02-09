@@ -5,7 +5,7 @@ articleTitle: ComparisonTargetType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ComparisonTargetType enum for precise document comparisons. Easily set your base document for accurate results. Start optimizing now!
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration

@@ -5,7 +5,7 @@ articleTitle: Bookmark
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bookmark class, your solution for managing bookmarks efficiently in documents. Enhance your document editing experience today!
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.words/bookmark/
 ---
 ## Bookmark class

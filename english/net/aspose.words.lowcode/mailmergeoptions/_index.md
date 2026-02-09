@@ -5,7 +5,7 @@ articleTitle: MailMergeOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMergeOptions class for seamless low-code mail merge solutions. Enhance your document automation with customizable features!
 type: docs
-weight: 4290
+weight: 4300
 url: /net/aspose.words.lowcode/mailmergeoptions/
 ---
 ## MailMergeOptions class

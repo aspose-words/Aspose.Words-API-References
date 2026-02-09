@@ -5,7 +5,7 @@ articleTitle: GlossaryDocument
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.BuildingBlocks.GlossaryDocument class, your key to managing AutoText and Building Blocks seamlessly in Word documents.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words.buildingblocks/glossarydocument/
 ---
 ## GlossaryDocument class

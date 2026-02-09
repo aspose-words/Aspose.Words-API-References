@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ImportFormatOptions for customizable document formatting. Enhance your output with tailored import settings for optimal results.
 type: docs
-weight: 3710
+weight: 3720
 url: /net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class

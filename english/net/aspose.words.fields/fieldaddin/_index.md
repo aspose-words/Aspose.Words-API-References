@@ -5,7 +5,7 @@ articleTitle: FieldAddIn
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAddIn class to enhance document automation with powerful ADDIN field capabilities. Boost your productivity today!
 type: docs
-weight: 1920
+weight: 1930
 url: /net/aspose.words.fields/fieldaddin/
 ---
 ## FieldAddIn class

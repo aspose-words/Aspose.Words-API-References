@@ -5,7 +5,7 @@ articleTitle: BookmarkCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.BookmarkCollection class, a powerful tool for managing bookmarks in your documents, enhancing organization and navigation.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class

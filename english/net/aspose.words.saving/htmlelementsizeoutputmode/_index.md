@@ -5,7 +5,7 @@ articleTitle: HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.HtmlElementSizeOutputMode. Control element sizes for optimal HTML, MHTML, and EPUB exports. Enhance your document formatting!
 type: docs
-weight: 5860
+weight: 5870
 url: /net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration

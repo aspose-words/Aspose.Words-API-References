@@ -5,7 +5,7 @@ articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.CommandButtonControl class to easily create interactive buttons that run macros, enhancing user engagement in your applications.
 type: docs
-weight: 1440
+weight: 1450
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 ## CommandButtonControl class

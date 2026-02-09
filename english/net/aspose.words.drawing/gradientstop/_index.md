@@ -5,7 +5,7 @@ articleTitle: GradientStop
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.GradientStop class, your solution for creating stunning gradients with customizable stops for enhanced document visuals.
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.words.drawing/gradientstop/
 ---
 ## GradientStop class
