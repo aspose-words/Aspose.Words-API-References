@@ -5,7 +5,7 @@ articleTitle: CommentCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CommentCollection class for easy access to Comment nodes, enhancing document editing and collaboration in your projects.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.words/commentcollection/
 ---
 ## CommentCollection class

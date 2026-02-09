@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.NodeType enum to easily identify and manage different Word document node types for seamless document processing.
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.words/nodetype/
 ---
 ## NodeType enumeration

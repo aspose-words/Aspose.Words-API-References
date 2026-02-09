@@ -5,7 +5,7 @@ articleTitle: Document
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Document class for seamless Word document manipulation. Enhance your projects with powerful features and easy integration.
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.words/document/
 ---
 ## Document class

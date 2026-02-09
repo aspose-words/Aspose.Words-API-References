@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleCollection
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.ConditionalStyleCollection class to manage ConditionalStyle objects effectively, enhancing document formatting and customization.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class

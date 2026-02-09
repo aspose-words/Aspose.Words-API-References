@@ -5,7 +5,7 @@ articleTitle: ChartSeriesType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartSeriesType enum to enhance your chart series with diverse options for dynamic data visualization.
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.words.drawing.charts/chartseriestype/
 ---
 ## ChartSeriesType enumeration

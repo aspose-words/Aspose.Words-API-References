@@ -5,7 +5,7 @@ articleTitle: FieldFootnoteRef
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldFootnoteRef class to easily implement FOOTNOTEREF fields, enhancing your document's referencing capabilities.
 type: docs
-weight: 2300
+weight: 2310
 url: /net/aspose.words.fields/fieldfootnoteref/
 ---
 ## FieldFootnoteRef class

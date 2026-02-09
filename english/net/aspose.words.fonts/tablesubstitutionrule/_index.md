@@ -5,7 +5,7 @@ articleTitle: TableSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.TableSubstitutionRule class for efficient font management and seamless text formatting in your documents.
 type: docs
-weight: 3500
+weight: 3510
 url: /net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class

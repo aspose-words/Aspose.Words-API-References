@@ -5,7 +5,7 @@ articleTitle: FieldShape
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fields.FieldShape class for effortless SHAPE field implementation. Enhance document design with powerful features and flexibility.
 type: docs
-weight: 2810
+weight: 2820
 url: /net/aspose.words.fields/fieldshape/
 ---
 ## FieldShape class

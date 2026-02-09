@@ -5,7 +5,7 @@ articleTitle: FlipOrientation
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.FlipOrientation enum for versatile shape orientation options. Enhance your document design with flexible customization!
 type: docs
-weight: 1280
+weight: 1290
 url: /net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration

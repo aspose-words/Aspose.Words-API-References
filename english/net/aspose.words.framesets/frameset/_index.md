@@ -5,7 +5,7 @@ articleTitle: Frameset
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Framesets.Frameset class for seamless frame management in documents. Enhance your web pages with efficient frame integration!
 type: docs
-weight: 3520
+weight: 3530
 url: /net/aspose.words.framesets/frameset/
 ---
 ## Frameset class

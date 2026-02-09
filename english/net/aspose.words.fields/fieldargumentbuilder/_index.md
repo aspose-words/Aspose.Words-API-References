@@ -5,7 +5,7 @@ articleTitle: FieldArgumentBuilder
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldArgumentBuilder class to effortlessly create complex field arguments with nodes and text for enhanced document automation.
 type: docs
-weight: 1950
+weight: 1960
 url: /net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class

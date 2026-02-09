@@ -5,7 +5,7 @@ articleTitle: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET
 description: Enhance your document processing with Aspose.Words.Fields.IComparisonExpressionEvaluator. Customize comparison evaluations for FieldIf and FieldCompare fields effortlessly!
 type: docs
-weight: 3080
+weight: 3090
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface

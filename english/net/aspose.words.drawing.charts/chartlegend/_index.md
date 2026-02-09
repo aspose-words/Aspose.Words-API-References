@@ -5,7 +5,7 @@ articleTitle: ChartLegend
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartLegend class to enhance your charts with customizable legend properties for better data visualization.
 type: docs
-weight: 1000
+weight: 1010
 url: /net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class

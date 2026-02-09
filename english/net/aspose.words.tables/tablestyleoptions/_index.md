@@ -5,7 +5,7 @@ articleTitle: TableStyleOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.TableStyleOptions enum for flexible table styling. Enhance your document design with customizable table styles today!
 type: docs
-weight: 7300
+weight: 7310
 url: /net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration

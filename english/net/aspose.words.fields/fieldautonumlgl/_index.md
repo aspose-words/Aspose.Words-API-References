@@ -5,7 +5,7 @@ articleTitle: FieldAutoNumLgl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAutoNumLgl class for seamless implementation of AUTONUMLGL fields, enhancing document automation and formatting.
 type: docs
-weight: 1990
+weight: 2000
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class

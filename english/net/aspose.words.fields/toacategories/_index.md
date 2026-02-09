@@ -5,7 +5,7 @@ articleTitle: ToaCategories
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.ToaCategories class for efficient management of table of authorities categories in your documents. Enhance your document structuring!
 type: docs
-weight: 3180
+weight: 3190
 url: /net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class

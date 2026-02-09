@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.Forms2OleControlType enum, featuring a range of Forms 2.0 control types for enhanced document automation.
 type: docs
-weight: 1470
+weight: 1480
 url: /net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 ## Forms2OleControlType enumeration

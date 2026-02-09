@@ -5,7 +5,7 @@ articleTitle: TabStop
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TabStop class, your solution for custom tab stops in document formatting. Enhance your documents with precision and ease!
 type: docs
-weight: 7130
+weight: 7140
 url: /net/aspose.words/tabstop/
 ---
 ## TabStop class

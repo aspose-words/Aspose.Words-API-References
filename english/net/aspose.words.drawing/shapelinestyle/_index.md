@@ -5,7 +5,7 @@ articleTitle: ShapeLineStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.ShapeLineStyle enum to enhance your document design with customizable compound line styles for shapes.
 type: docs
-weight: 1650
+weight: 1660
 url: /net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration

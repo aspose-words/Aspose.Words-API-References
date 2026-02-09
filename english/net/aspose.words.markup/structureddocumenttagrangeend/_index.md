@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.StructuredDocumentTagRangeEnd class, designed for seamless multi-section content management in structured documents.
 type: docs
-weight: 4800
+weight: 4810
 url: /net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class

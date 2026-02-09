@@ -5,7 +5,7 @@ articleTitle: Comment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Comment class, your essential tool for managing comment text in documents. Enhance your workflow with seamless integration!
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/comment/
 ---
 ## Comment class

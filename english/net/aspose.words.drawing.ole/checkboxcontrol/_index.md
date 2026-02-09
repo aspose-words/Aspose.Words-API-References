@@ -5,7 +5,7 @@ articleTitle: CheckBoxControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.CheckBoxControl class to easily toggle checkbox values and enhance your document automation with seamless integration.
 type: docs
-weight: 1430
+weight: 1440
 url: /net/aspose.words.drawing.ole/checkboxcontrol/
 ---
 ## CheckBoxControl class

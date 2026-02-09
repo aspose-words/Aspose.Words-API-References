@@ -5,7 +5,7 @@ articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Properties.BuiltInDocumentProperties class for easy access to essential document properties, enhancing your Word processing efficiency.
 type: docs
-weight: 5220
+weight: 5230
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class

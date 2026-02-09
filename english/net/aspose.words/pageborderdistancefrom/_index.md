@@ -5,7 +5,7 @@ articleTitle: PageBorderDistanceFrom
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PageBorderDistanceFrom enum for precise page border placement. Enhance document formatting with optimal margin positioning.
 type: docs
-weight: 5110
+weight: 5120
 url: /net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration

@@ -5,7 +5,7 @@ articleTitle: OoxmlCompliance
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.Saving.OoxmlCompliance enum to choose your preferred OOXML specification for optimal DOCX format saving. Enhance document quality today!
 type: docs
-weight: 6180
+weight: 6190
 url: /net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

@@ -5,7 +5,7 @@ articleTitle: BuildingBlockBehavior
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words BuildingBlockBehavior enum, defining how building blocks enhance your document's content upon insertion for seamless editing.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.words.buildingblocks/buildingblockbehavior/
 ---
 ## BuildingBlockBehavior enumeration

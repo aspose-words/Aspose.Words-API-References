@@ -5,7 +5,7 @@ articleTitle: ChartAxis
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartAxis class for customizable chart axis options. Enhance your data visualization effortlessly!
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class

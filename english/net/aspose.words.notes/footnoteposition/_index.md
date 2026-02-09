@@ -5,7 +5,7 @@ articleTitle: FootnotePosition
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Notes.FootnotePosition enum for customizable footnote placement, enhancing document formatting and readability.
 type: docs
-weight: 5010
+weight: 5020
 url: /net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration

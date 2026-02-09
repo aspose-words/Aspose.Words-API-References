@@ -5,7 +5,7 @@ articleTitle: ChapterPageSeparator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChapterPageSeparator enum to customize chapter and page number separators for enhanced document formatting and clarity.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration

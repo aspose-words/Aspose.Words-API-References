@@ -5,7 +5,7 @@ articleTitle: FieldDisplayBarcode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDisplayBarcode class to effortlessly implement DISPLAYBARCODE fields in your documents. Enhance your document management today!
 type: docs
-weight: 2200
+weight: 2210
 url: /net/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class

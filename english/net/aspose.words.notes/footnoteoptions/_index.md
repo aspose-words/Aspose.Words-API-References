@@ -5,7 +5,7 @@ articleTitle: FootnoteOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FootnoteOptions class for customizable footnote numbering in your documents and sections. Enhance your document's clarity today!
 type: docs
-weight: 5000
+weight: 5010
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class

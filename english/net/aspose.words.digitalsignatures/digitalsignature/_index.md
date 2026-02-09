@@ -5,7 +5,7 @@ articleTitle: DigitalSignature
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.DigitalSignatures.DigitalSignature class for secure document signing and verification. Enhance your document security effortlessly!
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class

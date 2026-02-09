@@ -5,7 +5,7 @@ articleTitle: CompareOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CompareOptions class for advanced document comparison. Customize your comparison settings for precise results and enhanced productivity.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class

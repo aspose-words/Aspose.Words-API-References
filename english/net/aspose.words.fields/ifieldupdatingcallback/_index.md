@@ -5,7 +5,7 @@ articleTitle: IFieldUpdatingCallback
 second_title: Aspose.Words for .NET
 description: Customize field updates in Aspose.Words with the IFieldUpdatingCallback interface. Enhance functionality with your own methods for tailored document processing.
 type: docs
-weight: 3120
+weight: 3130
 url: /net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface

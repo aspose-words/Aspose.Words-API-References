@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.WarningInfoCollection, a powerful class for managing WarningInfo objects, enhancing document processing and error handling.
 type: docs
-weight: 7580
+weight: 7590
 url: /net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class

@@ -5,7 +5,7 @@ articleTitle: ImageSize
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.ImageSize class, your go-to resource for detailed image size and resolution insights for enhanced document quality.
 type: docs
-weight: 1390
+weight: 1400
 url: /net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class

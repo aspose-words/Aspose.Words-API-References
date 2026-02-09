@@ -5,7 +5,7 @@ articleTitle: ConditionalStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ConditionalStyle class for advanced table formatting. Enhance your documents with dynamic styles and improve readability effortlessly.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class

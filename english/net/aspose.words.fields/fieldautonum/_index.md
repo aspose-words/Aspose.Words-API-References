@@ -5,7 +5,7 @@ articleTitle: FieldAutoNum
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Fields.FieldAutoNum class for seamless AUTONUM field implementation, enhancing document automation and efficiency.
 type: docs
-weight: 1980
+weight: 1990
 url: /net/aspose.words.fields/fieldautonum/
 ---
 ## FieldAutoNum class

@@ -5,7 +5,7 @@ articleTitle: IDocumentLoadingCallback
 second_title: Aspose.Words for .NET
 description: Customize document loading with Aspose.Words.IDocumentLoadingCallback. Implement your own method for enhanced control and flexibility in document management.
 type: docs
-weight: 4110
+weight: 4120
 url: /net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface

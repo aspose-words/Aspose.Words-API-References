@@ -5,7 +5,7 @@ articleTitle: FieldTA
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldTA class for seamless TA field implementation, enhancing your document automation and formatting capabilities.
 type: docs
-weight: 2870
+weight: 2880
 url: /net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class
