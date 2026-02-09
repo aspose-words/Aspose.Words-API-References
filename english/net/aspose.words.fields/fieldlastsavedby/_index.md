@@ -5,7 +5,7 @@ articleTitle: FieldLastSavedBy
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldLastSavedBy class to enhance document management with LASTSAVEDBY field functionality. Optimize your workflow today!
 type: docs
-weight: 2500
+weight: 2510
 url: /net/aspose.words.fields/fieldlastsavedby/
 ---
 ## FieldLastSavedBy class

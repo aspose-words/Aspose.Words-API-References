@@ -5,7 +5,7 @@ articleTitle: FieldBidiOutline
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldBidiOutline class for seamless BIDIOUTLINE field implementation, enhancing your document processing capabilities.
 type: docs
-weight: 2050
+weight: 2060
 url: /net/aspose.words.fields/fieldbidioutline/
 ---
 ## FieldBidiOutline class

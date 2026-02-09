@@ -5,7 +5,7 @@ articleTitle: TextBoxAnchor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.TextBoxAnchor enum for precise vertical alignment of shape text. Enhance your document formatting effortlessly!
 type: docs
-weight: 1730
+weight: 1740
 url: /net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration

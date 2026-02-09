@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtSaveOptions for enhanced document saving. Customize your text format with powerful options for optimal results.
 type: docs
-weight: 6530
+weight: 6540
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class

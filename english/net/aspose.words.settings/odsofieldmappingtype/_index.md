@@ -5,7 +5,7 @@ articleTitle: OdsoFieldMappingType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.OdsoFieldMappingType enum for efficient mail merge field mapping to external data sources. Enhance your document automation today!
 type: docs
-weight: 6820
+weight: 6830
 url: /net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration

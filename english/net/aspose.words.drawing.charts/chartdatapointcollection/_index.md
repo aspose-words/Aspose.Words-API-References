@@ -5,7 +5,7 @@ articleTitle: ChartDataPointCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartDataPointCollection class, your key to managing ChartDataPoint collections effortlessly for enhanced data visualization.
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class

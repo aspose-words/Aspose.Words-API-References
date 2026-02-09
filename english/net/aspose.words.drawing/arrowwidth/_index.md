@@ -5,7 +5,7 @@ articleTitle: ArrowWidth
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.ArrowWidth enum to customize arrow end widths for enhanced document visuals and precision in your projects.
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.words.drawing/arrowwidth/
 ---
 ## ArrowWidth enumeration

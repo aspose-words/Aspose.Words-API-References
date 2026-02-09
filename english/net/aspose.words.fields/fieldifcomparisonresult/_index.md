@@ -5,7 +5,7 @@ articleTitle: FieldIfComparisonResult
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldIfComparisonResult enum, which defines outcomes of IF field evaluations, enhancing your document automation capabilities.
 type: docs
-weight: 2410
+weight: 2420
 url: /net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration

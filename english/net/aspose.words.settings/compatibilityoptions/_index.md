@@ -5,7 +5,7 @@ articleTitle: CompatibilityOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Settings.CompatibilityOptions for seamless integration of user preferences from Microsoft Word's Compatibility tab. Enhance your document experience!
 type: docs
-weight: 6680
+weight: 6690
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class

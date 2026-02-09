@@ -5,7 +5,7 @@ articleTitle: ControlChar
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ControlChar class to effectively manage control characters in your documents for enhanced formatting and readability.
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.words/controlchar/
 ---
 ## ControlChar class

@@ -5,7 +5,7 @@ articleTitle: IDocumentPartSavingCallback
 second_title: Aspose.Words for .NET
 description: Control document saving with Aspose.Words.Saving.IDocumentPartSavingCallback. Get notified and customize exports to HTML or EPUB effortlessly.
 type: docs
-weight: 5940
+weight: 5950
 url: /net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface

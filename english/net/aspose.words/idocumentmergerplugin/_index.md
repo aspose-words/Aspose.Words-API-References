@@ -5,7 +5,7 @@ articleTitle: IDocumentMergerPlugin
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.IDocumentMergerPlugin interface for seamless PDF document merging. Enhance your workflow with powerful external merger capabilities!
 type: docs
-weight: 3610
+weight: 3620
 url: /net/aspose.words/idocumentmergerplugin/
 ---
 ## IDocumentMergerPlugin interface

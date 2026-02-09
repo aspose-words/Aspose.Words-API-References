@@ -5,7 +5,7 @@ articleTitle: FieldType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldType enum to efficiently manage Microsoft Word field types and enhance your document automation.
 type: docs
-weight: 2940
+weight: 2950
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration

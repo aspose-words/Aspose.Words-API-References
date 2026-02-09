@@ -5,7 +5,7 @@ articleTitle: Compatibility
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Settings.Compatibility enum to unlock powerful compatibility options for seamless document processing and enhanced performance.
 type: docs
-weight: 6670
+weight: 6680
 url: /net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration

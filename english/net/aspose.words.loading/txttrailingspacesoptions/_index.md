@@ -5,7 +5,7 @@ articleTitle: TxtTrailingSpacesOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtTrailingSpacesOptions enum for efficient trailing space management when importing text files. Enhance your document processing today!
 type: docs
-weight: 4230
+weight: 4240
 url: /net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration

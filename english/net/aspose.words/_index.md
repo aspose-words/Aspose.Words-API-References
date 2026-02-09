@@ -15,6 +15,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | Class | Description |
 | --- | --- |
 | [AbsolutePositionTab](./absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
+| [BillingHealthCheckResult](./billinghealthcheckresult/) | Represents the result of a billing system health check, indicating whether the billing service is operational. |
 | [Body](./body/) | Represents a container for the main text of a section. |
 | [Bookmark](./bookmark/) | Represents a single bookmark. |
 | [BookmarkCollection](./bookmarkcollection/) | A collection of [`Bookmark`](../aspose.words/bookmark/) objects that represent the bookmarks in the specified range. |

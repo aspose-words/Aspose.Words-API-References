@@ -5,7 +5,7 @@ articleTitle: AxisCrosses
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisCrosses enum for defining axis crossing points, enhancing your charting capabilities effortlessly.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration

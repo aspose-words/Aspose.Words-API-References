@@ -5,7 +5,7 @@ articleTitle: VbaModule
 second_title: Aspose.Words for .NET
 description: Unlock the power of Aspose.Words.Vba.VbaModule for seamless access to your VBA project modules. Enhance productivity and streamline your document automation!
 type: docs
-weight: 7490
+weight: 7500
 url: /net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class

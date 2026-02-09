@@ -5,7 +5,7 @@ articleTitle: StyleCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.StyleCollection class, featuring a rich array of built-in and custom style objects to enhance your document's formatting and design.
 type: docs
-weight: 7070
+weight: 7080
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class

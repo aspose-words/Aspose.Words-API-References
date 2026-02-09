@@ -5,7 +5,7 @@ articleTitle: CompositeNode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CompositeNode class, your essential tool for creating complex document structures with ease and efficiency.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words/compositenode/
 ---
 ## CompositeNode class

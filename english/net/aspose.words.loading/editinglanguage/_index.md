@@ -5,7 +5,7 @@ articleTitle: EditingLanguage
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Loading.EditingLanguage enum to define and enhance your document editing experience with customizable language options.
 type: docs
-weight: 4080
+weight: 4090
 url: /net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration

@@ -5,7 +5,7 @@ articleTitle: DoclingSaveOptions
 second_title: Aspose.Words for .NET
 description: Configure advanced Docling save options to export Word documents as structured Docling JSON with full control.
 type: docs
-weight: 5730
+weight: 5740
 url: /net/aspose.words.saving/doclingsaveoptions/
 ---
 ## DoclingSaveOptions class

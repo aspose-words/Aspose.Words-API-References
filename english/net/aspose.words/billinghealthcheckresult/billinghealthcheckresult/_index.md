@@ -3,10 +3,10 @@ title: BillingHealthCheckResult
 linktitle: BillingHealthCheckResult
 articleTitle: BillingHealthCheckResult
 second_title: Aspose.Words for .NET
-description: Creates a new BillingHealthCheckResult instance to initialize and track billing health status in your metering system.
+description: BillingHealthCheckResult constructor. The default constructor.
 type: docs
 weight: 10
-url: /net/dynabic.metering.billing.resources/billinghealthcheckresult/billinghealthcheckresult/
+url: /net/aspose.words/billinghealthcheckresult/billinghealthcheckresult/
 ---
 ## BillingHealthCheckResult constructor
 
@@ -19,5 +19,5 @@ public BillingHealthCheckResult()
 ### See Also
 
 * class [BillingHealthCheckResult](../)
-* namespace [Dynabic.Metering.Billing.Resources](../../../dynabic.metering.billing.resources/)
+* namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

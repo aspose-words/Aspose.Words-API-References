@@ -5,7 +5,7 @@ articleTitle: FontFallbackSettings
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FontFallbackSettings for customizable font fallback options, ensuring seamless document rendering and enhanced text display.
 type: docs
-weight: 3340
+weight: 3350
 url: /net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class

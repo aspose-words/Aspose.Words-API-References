@@ -5,7 +5,7 @@ articleTitle: ChartAxisTitle
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.ChartAxisTitle class to easily manage axis title properties and enhance your document's visual impact.
 type: docs
-weight: 900
+weight: 910
 url: /net/aspose.words.drawing.charts/chartaxistitle/
 ---
 ## ChartAxisTitle class

@@ -5,7 +5,7 @@ articleTitle: FieldIf
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldIf class—efficiently implement IF fields to enhance document automation and streamline your workflow.
 type: docs
-weight: 2400
+weight: 2410
 url: /net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class

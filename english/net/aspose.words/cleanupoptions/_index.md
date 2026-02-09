@@ -5,7 +5,7 @@ articleTitle: CleanupOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.CleanupOptions to customize document cleaning. Enhance your workflow with tailored settings for cleaner, more efficient documents.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.words/cleanupoptions/
 ---
 ## CleanupOptions class

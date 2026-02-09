@@ -5,7 +5,7 @@ articleTitle: FontPitch
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontPitch enum, a powerful tool for managing font styles and enhancing document formatting in your applications.
 type: docs
-weight: 3400
+weight: 3410
 url: /net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration

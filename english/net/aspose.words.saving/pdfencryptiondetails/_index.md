@@ -5,7 +5,7 @@ articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfEncryptionDetails for secure PDF encryption and customizable access permissions, ensuring your documents remain protected.
 type: docs
-weight: 6310
+weight: 6320
 url: /net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class

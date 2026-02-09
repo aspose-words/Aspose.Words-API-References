@@ -5,7 +5,7 @@ articleTitle: IBibliographyStylesProvider
 second_title: Aspose.Words for .NET
 description: Enhance your document formatting with the Aspose.Words.IBibliographyStylesProvider interface, perfect for customizing bibliography styles in citations.
 type: docs
-weight: 3070
+weight: 3080
 url: /net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface

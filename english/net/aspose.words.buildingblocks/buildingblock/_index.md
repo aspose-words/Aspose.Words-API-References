@@ -5,7 +5,7 @@ articleTitle: BuildingBlock
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.BuildingBlocks.BuildingBlock class for creating and managing glossary entries like AutoText and AutoCorrect for enhanced document efficiency.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.words.buildingblocks/buildingblock/
 ---
 ## BuildingBlock class

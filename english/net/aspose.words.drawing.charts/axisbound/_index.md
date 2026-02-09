@@ -5,7 +5,7 @@ articleTitle: AxisBound
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisBound class, your solution for defining axis value limits in charts for precise data visualization.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class

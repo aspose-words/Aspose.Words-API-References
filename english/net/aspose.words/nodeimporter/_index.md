@@ -5,7 +5,7 @@ articleTitle: NodeImporter
 second_title: Aspose.Words for .NET
 description: Effortlessly transfer document nodes with Aspose.Words.NodeImporter. Streamline your workflow and enhance document management efficiency today!
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class

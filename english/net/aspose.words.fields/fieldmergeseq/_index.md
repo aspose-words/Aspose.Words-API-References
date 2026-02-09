@@ -5,7 +5,7 @@ articleTitle: FieldMergeSeq
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMergeSeq class for seamless document merging with the MERGESEQ field. Boost your document automation today!
 type: docs
-weight: 2570
+weight: 2580
 url: /net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class

@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionWarningInfo
 second_title: Aspose.Words for .NET
 description: Aspose.Words.FontSubstitutionWarningInfo class provides details on font substitution warnings during document load or save.
 type: docs
-weight: 3250
+weight: 3260
 url: /net/aspose.words/fontsubstitutionwarninginfo/
 ---
 ## FontSubstitutionWarningInfo class

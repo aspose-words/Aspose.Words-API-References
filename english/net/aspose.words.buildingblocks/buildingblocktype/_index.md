@@ -5,7 +5,7 @@ articleTitle: BuildingBlockType
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words BuildingBlockType enum to enhance document functionality in Microsoft Word. Unlock unique building block visibility and behavior!
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enumeration
