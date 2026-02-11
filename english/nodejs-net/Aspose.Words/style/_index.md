@@ -5,7 +5,7 @@ articleTitle: Style class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Style class. Represents a single built-in or user-defined style"
 type: docs
-weight: 1270
+weight: 1280
 url: /nodejs-net/aspose.words/style/
 ---
 

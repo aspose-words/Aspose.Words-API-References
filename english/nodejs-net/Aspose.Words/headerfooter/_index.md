@@ -5,7 +5,7 @@ articleTitle: HeaderFooter class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HeaderFooter class. Represents a container for the header or footer text of a section"
 type: docs
-weight: 490
+weight: 500
 url: /nodejs-net/aspose.words/headerfooter/
 ---
 

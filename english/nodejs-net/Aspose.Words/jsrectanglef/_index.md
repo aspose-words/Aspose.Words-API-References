@@ -5,7 +5,7 @@ articleTitle: JSRectangleF class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSRectangleF class. Stores a set of four floating-point numbers that represent the location and size of a rectangle."
 type: docs
-weight: 730
+weight: 740
 url: /nodejs-net/aspose.words/jsrectanglef/
 ---
 

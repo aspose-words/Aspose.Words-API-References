@@ -52,6 +52,7 @@ The main classes in this module are:
 | --- | --- |
 | [AbsolutePositionTab](./absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on  the current line of text when displaying this WordprocessingML content. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 | [Bibliography](./bibliography/) | Represents the list of bibliography sources available in the document. |
+| [BillingHealthCheckResult](./billinghealthcheckresult/) | Represents the result of a billing system health check, indicating whether the billing service is operational. |
 | [Body](./body/) | Represents a container for the main text of a section. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 | [Bookmark](./bookmark/) | Represents a single bookmark. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/nodejs-net/working-with-bookmarks/) documentation article. |
 | [BookmarkCollection](./bookmarkcollection/) | A collection of [Bookmark](./bookmark/) objects that represent the bookmarks in the specified range. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/nodejs-net/working-with-bookmarks/) documentation article. |

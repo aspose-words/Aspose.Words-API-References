@@ -5,7 +5,7 @@ articleTitle: DocumentBase class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document"
 type: docs
-weight: 320
+weight: 330
 url: /nodejs-net/aspose.words/documentbase/
 ---
 

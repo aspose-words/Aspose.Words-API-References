@@ -5,7 +5,7 @@ articleTitle: Border class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Border class. Represents a border of an object"
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words/border/
 ---
 

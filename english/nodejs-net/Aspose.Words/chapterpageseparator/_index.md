@@ -5,7 +5,7 @@ articleTitle: ChapterPageSeparator enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ChapterPageSeparator enumeration. Defines the separator character that appears between the chapter and page number."
 type: docs
-weight: 160
+weight: 170
 url: /nodejs-net/aspose.words/chapterpageseparator/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IHyphenationCallback class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.IHyphenationCallback class. Implemented by classes which can register hyphenation dictionaries."
 type: docs
-weight: 590
+weight: 600
 url: /nodejs-net/aspose.words/ihyphenationcallback/
 ---
 

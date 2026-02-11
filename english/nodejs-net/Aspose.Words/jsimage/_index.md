@@ -5,7 +5,7 @@ articleTitle: JSImage class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSImage class. Represents pixel data for a graphics image and its attributes"
 type: docs
-weight: 690
+weight: 700
 url: /nodejs-net/aspose.words/jsimage/
 ---
 

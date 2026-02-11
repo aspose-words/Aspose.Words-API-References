@@ -5,7 +5,7 @@ articleTitle: InternableComplexAttr class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.InternableComplexAttr class. Base class for internable complex attribute"
 type: docs
-weight: 680
+weight: 690
 url: /nodejs-net/aspose.words/internablecomplexattr/
 ---
 

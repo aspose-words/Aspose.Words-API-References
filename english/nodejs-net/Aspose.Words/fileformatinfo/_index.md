@@ -5,7 +5,7 @@ articleTitle: FileFormatInfo class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.FileFormatInfo class. Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods"
 type: docs
-weight: 420
+weight: 430
 url: /nodejs-net/aspose.words/fileformatinfo/
 ---
 
