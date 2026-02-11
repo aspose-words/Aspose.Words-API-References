@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionReason enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.FontSubstitutionReason enumeration. Specifies the reason of font substitution."
 type: docs
-weight: 450
+weight: 460
 url: /nodejs-net/aspose.words/fontsubstitutionreason/
 ---
 

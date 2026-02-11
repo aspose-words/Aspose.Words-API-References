@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionWarningInfo class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.FontSubstitutionWarningInfo class. Contains information about a font substitution warning that Aspose.Words issued during document loading or saving."
 type: docs
-weight: 460
+weight: 470
 url: /nodejs-net/aspose.words/fontsubstitutionwarninginfo/
 ---
 

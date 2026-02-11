@@ -5,7 +5,7 @@ articleTitle: CommentRangeStart class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.CommentRangeStart class. Denotes the start of a region of text that has a comment associated with it"
 type: docs
-weight: 220
+weight: 230
 url: /nodejs-net/aspose.words/commentrangestart/
 ---
 

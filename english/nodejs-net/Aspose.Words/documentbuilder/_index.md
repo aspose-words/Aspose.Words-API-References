@@ -5,7 +5,7 @@ articleTitle: DocumentBuilder class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder class. Adapts [DocumentBuilder](./) class public API for Node.js porting."
 type: docs
-weight: 330
+weight: 340
 url: /nodejs-net/aspose.words/documentbuilder/
 ---
 

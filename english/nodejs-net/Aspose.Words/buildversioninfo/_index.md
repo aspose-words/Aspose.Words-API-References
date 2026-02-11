@@ -5,7 +5,7 @@ articleTitle: BuildVersionInfo class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BuildVersionInfo class. Provides information about the current product name and version"
 type: docs
-weight: 130
+weight: 140
 url: /nodejs-net/aspose.words/buildversioninfo/
 ---
 

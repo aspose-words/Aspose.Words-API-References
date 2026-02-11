@@ -5,7 +5,7 @@ articleTitle: CleanupOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.CleanupOptions class. Allows to specify options for document cleaning"
 type: docs
-weight: 170
+weight: 180
 url: /nodejs-net/aspose.words/cleanupoptions/
 ---
 

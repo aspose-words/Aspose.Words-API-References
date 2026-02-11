@@ -5,7 +5,7 @@ articleTitle: List class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.List class. Represents formatting of a list"
 type: docs
-weight: 800
+weight: 810
 url: /nodejs-net/aspose.words/list/
 ---
 

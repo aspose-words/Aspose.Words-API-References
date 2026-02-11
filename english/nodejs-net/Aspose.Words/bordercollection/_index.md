@@ -5,7 +5,7 @@ articleTitle: BorderCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BorderCollection class. A collection of [Border](../border/) objects"
 type: docs
-weight: 100
+weight: 110
 url: /nodejs-net/aspose.words/bordercollection/
 ---
 

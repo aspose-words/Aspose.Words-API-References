@@ -5,7 +5,7 @@ articleTitle: IDocumentProcessorPlugin class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.IDocumentProcessorPlugin class. Defines an interface for external document processor plugin."
 type: docs
-weight: 570
+weight: 580
 url: /nodejs-net/aspose.words/idocumentprocessorplugin/
 ---
 

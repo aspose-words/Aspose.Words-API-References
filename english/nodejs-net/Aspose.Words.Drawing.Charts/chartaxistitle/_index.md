@@ -24,7 +24,9 @@ To learn more, visit the [Working with
 | --- | --- |
 | [font](./font/) | Provides access to the font formatting of the axis title. |
 | [format](./format/) | Provides access to fill and line formatting of the axis title. |
+| [orientation](./orientation/) | Gets or sets the orientation of the axis title text. |
 | [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap the title. The default value is ``false``. |
+| [rotation](./rotation/) | Gets or sets the rotation of the axis title in degrees. |
 | [show](./show/) | Determines whether the title shall be shown for the axis. The default value is ``false``. |
 | [text](./text/) | Gets or sets the text of the axis title. If ``null`` or empty value is specified, auto generated title will be shown. |
 

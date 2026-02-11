@@ -31,6 +31,34 @@ add(seriesName: string, categories: string[], values: number[])
 Recently added [ChartSeries](../../chartseries/) object.
 
 
+## add(seriesName, categories, values, isSubtotal) {#string_string[]_number[]_boolean[]}
+
+Adds new [ChartSeries](../../chartseries/) to this collection.
+Use this method to add series to Waterfall charts.
+
+
+
+```js
+add(seriesName: string, categories: string[], values: number[], isSubtotal: boolean[])
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesName | string | A name of the series to be added. |
+| categories | string[] | Category names for the X axis. |
+| values | number[] | Y-axis values. |
+| isSubtotal | boolean[] | Values indicating whether the corresponding Y value is a subtotal. |
+
+### Remarks
+
+For chart types other than Waterfall, *isSubtotal* values are ignored.
+
+
+### Returns
+
+Recently added [ChartSeries](../../chartseries/) object.
+
+
 ## add(seriesName, xValues, yValues) {#string_number[]_number[]}
 
 Adds new [ChartSeries](../../chartseries/) to this collection.
@@ -134,34 +162,6 @@ add(seriesName: string, xValues: number[])
 ### Remarks
 
 For chart types other than Histogram, this method adds a series with empty Y values.
-
-
-### Returns
-
-Recently added [ChartSeries](../../chartseries/) object.
-
-
-## add(seriesName, categories, values, isSubtotal) {#string_string[]_number[]_boolean[]}
-
-Adds new [ChartSeries](../../chartseries/) to this collection.
-Use this method to add series to Waterfall charts.
-
-
-
-```js
-add(seriesName: string, categories: string[], values: number[], isSubtotal: boolean[])
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| seriesName | string | A name of the series to be added. |
-| categories | string[] | Category names for the X axis. |
-| values | number[] | Y-axis values. |
-| isSubtotal | boolean[] | Values indicating whether the corresponding Y value is a subtotal. |
-
-### Remarks
-
-For chart types other than Waterfall, *isSubtotal* values are ignored.
 
 
 ### Returns

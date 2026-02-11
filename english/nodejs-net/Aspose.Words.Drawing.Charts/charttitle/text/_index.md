@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Node.js
 description: "ChartTitle.text property. Gets or sets the text of the chart title"
 type: docs
-weight: 50
+weight: 70
 url: /nodejs-net/aspose.words.drawing.charts/charttitle/text/
 ---
 

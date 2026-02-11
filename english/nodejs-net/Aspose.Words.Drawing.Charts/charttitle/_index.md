@@ -24,7 +24,9 @@ To learn more, visit the [Working with
 | --- | --- |
 | [font](./font/) | Provides access to the font formatting of the chart title. |
 | [format](./format/) | Provides access to fill and line formatting of the chart title. |
+| [orientation](./orientation/) | Gets or sets the orientation of the chart title text. |
 | [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap title. By default overlay is ``false``. |
+| [rotation](./rotation/) | Gets or sets the rotation of the chart title in degrees. |
 | [show](./show/) | Determines whether the title shall be shown for this chart. Default value is ``true``. |
 | [text](./text/) | Gets or sets the text of the chart title. If ``null`` or empty value is specified, auto generated title will be shown. |
 

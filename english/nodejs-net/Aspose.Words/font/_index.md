@@ -5,7 +5,7 @@ articleTitle: Font class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Font class. Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
-weight: 440
+weight: 450
 url: /nodejs-net/aspose.words/font/
 ---
 
@@ -122,21 +122,6 @@ builder.writeln("Hello World: Normal.");
 builder.document.save(base.artifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 ```
 
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to insert a string surrounded by a border into a document.
 
 ```js
@@ -150,6 +135,21 @@ builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
 builder.write("Text surrounded by green border.");
 
 doc.save(base.artifactsDir + "Border.FontBorder.docx");
+```
+
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also
