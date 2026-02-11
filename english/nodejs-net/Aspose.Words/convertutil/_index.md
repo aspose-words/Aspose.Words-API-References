@@ -5,7 +5,7 @@ articleTitle: ConvertUtil class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ConvertUtil class. Provides helper functions to convert between various measurement units"
 type: docs
-weight: 290
+weight: 300
 url: /nodejs-net/aspose.words/convertutil/
 ---
 

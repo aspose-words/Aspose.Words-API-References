@@ -5,7 +5,7 @@ articleTitle: BookmarkCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BookmarkCollection class. A collection of [Bookmark](../bookmark/) objects that represent the bookmarks in the specified range"
 type: docs
-weight: 60
+weight: 70
 url: /nodejs-net/aspose.words/bookmarkcollection/
 ---
 

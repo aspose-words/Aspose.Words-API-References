@@ -5,7 +5,7 @@ articleTitle: JSRectangle class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSRectangle class. Stores a set of four integers that represent the location and size of a rectangle."
 type: docs
-weight: 720
+weight: 730
 url: /nodejs-net/aspose.words/jsrectangle/
 ---
 

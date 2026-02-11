@@ -5,7 +5,7 @@ articleTitle: ParagraphAlignment enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ParagraphAlignment enumeration. Specifies text alignment in a paragraph."
 type: docs
-weight: 1020
+weight: 1030
 url: /nodejs-net/aspose.words/paragraphalignment/
 ---
 

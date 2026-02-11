@@ -29,12 +29,12 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | Name | Description |
 | --- | --- |
 |[ add(seriesName, categories, values)](./add/#string_string[]_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
+|[ add(seriesName, categories, values, isSubtotal)](./add/#string_string[]_number[]_boolean[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Waterfall charts. |
 |[ add(seriesName, xValues, yValues)](./add/#string_number[]_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Scatter charts. |
 |[ add(seriesName, dates, values)](./add/#string_date[]_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
 |[ add(seriesName, xValues, yValues, bubbleSizes)](./add/#string_number[]_number[]_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to any type of Bubble charts. |
 |[ add(seriesName, categories, values)](./add/#string_chartmultilevelvalue[]_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series that have multi-level data categories. |
 |[ add(seriesName, xValues)](./add/#string_number[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Histogram charts. |
-|[ add(seriesName, categories, values, isSubtotal)](./add/#string_string[]_number[]_boolean[]) | Adds new [ChartSeries](../chartseries/) to this collection. Use this method to add series to Waterfall charts. |
 |[ clear()](./clear/#default) | Removes all [ChartSeries](../chartseries/) from this collection. |
 |[ removeAt(index)](./removeAt/#number) | Removes a [ChartSeries](../chartseries/) at the specified index. |
 

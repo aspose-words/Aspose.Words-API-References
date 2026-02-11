@@ -5,7 +5,7 @@ articleTitle: Document class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document class. Represents a Word document"
 type: docs
-weight: 310
+weight: 320
 url: /nodejs-net/aspose.words/document/
 ---
 

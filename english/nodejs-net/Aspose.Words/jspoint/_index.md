@@ -5,7 +5,7 @@ articleTitle: JSPoint class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSPoint class. Represents an ordered pair of integer x- and y-coordinates that defines a point in a two-dimensional plane."
 type: docs
-weight: 700
+weight: 710
 url: /nodejs-net/aspose.words/jspoint/
 ---
 

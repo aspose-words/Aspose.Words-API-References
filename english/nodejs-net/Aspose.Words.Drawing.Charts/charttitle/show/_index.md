@@ -5,7 +5,7 @@ articleTitle: show property
 second_title: Aspose.Words for Node.js
 description: "ChartTitle.show property. Determines whether the title shall be shown for this chart"
 type: docs
-weight: 40
+weight: 60
 url: /nodejs-net/aspose.words.drawing.charts/charttitle/show/
 ---
 

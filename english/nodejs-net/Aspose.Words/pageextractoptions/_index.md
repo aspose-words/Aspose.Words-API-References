@@ -5,7 +5,7 @@ articleTitle: PageExtractOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PageExtractOptions class. Allows to specify options for document page extracting."
 type: docs
-weight: 970
+weight: 980
 url: /nodejs-net/aspose.words/pageextractoptions/
 ---
 

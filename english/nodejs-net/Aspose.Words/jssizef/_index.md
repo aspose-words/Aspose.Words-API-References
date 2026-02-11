@@ -5,7 +5,7 @@ articleTitle: JSSizeF class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSSizeF class. Stores an ordered pair of floating-point numbers, which specify a Height and Width."
 type: docs
-weight: 750
+weight: 760
 url: /nodejs-net/aspose.words/jssizef/
 ---
 

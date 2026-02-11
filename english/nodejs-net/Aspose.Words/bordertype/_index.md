@@ -5,7 +5,7 @@ articleTitle: BorderType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BorderType enumeration. Specifies sides of a border"
 type: docs
-weight: 110
+weight: 120
 url: /nodejs-net/aspose.words/bordertype/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: CommentRangeEnd class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.CommentRangeEnd class. Denotes the end of a region of text that has a comment associated with it"
 type: docs
-weight: 210
+weight: 220
 url: /nodejs-net/aspose.words/commentrangeend/
 ---
 

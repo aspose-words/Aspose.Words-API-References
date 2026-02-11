@@ -5,7 +5,7 @@ articleTitle: NodeChangingAction enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeChangingAction enumeration. Specifies the type of node change."
 type: docs
-weight: 850
+weight: 860
 url: /nodejs-net/aspose.words/nodechangingaction/
 ---
 

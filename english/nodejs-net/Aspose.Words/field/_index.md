@@ -5,7 +5,7 @@ articleTitle: Field class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Field class. Represents a Microsoft Word document field"
 type: docs
-weight: 410
+weight: 420
 url: /nodejs-net/aspose.words/field/
 ---
 
