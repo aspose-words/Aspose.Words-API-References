@@ -5,7 +5,7 @@ articleTitle: set_metered_key method
 second_title: Aspose.Words for Python
 description: "Metered.set_metered_key method. Sets metered public and private key"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/metered/set_metered_key/
 ---
 

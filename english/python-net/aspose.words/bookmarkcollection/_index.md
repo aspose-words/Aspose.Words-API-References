@@ -5,7 +5,7 @@ articleTitle: BookmarkCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.BookmarkCollection class. A collection of [Bookmark](../bookmark/) objects that represent the bookmarks in the specified range"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/bookmarkcollection/
 ---
 

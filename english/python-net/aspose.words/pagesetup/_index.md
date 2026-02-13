@@ -5,7 +5,7 @@ articleTitle: PageSetup class
 second_title: Aspose.Words for Python
 description: "aspose.words.PageSetup class. Represents the page setup properties of a section"
 type: docs
-weight: 910
+weight: 920
 url: /python-net/aspose.words/pagesetup/
 ---
 

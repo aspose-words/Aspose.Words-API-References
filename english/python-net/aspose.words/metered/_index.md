@@ -5,7 +5,7 @@ articleTitle: Metered class
 second_title: Aspose.Words for Python
 description: "aspose.words.Metered class. Provides methods to set metered key."
 type: docs
-weight: 760
+weight: 770
 url: /python-net/aspose.words/metered/
 ---
 
@@ -23,6 +23,7 @@ Provides methods to set metered key.
 
 | Name | Description |
 | --- | --- |
+|[ get_billing_status()](./get_billing_status/#default) | Check the status of the Billing API. |
 |[ get_consumption_credit()](./get_consumption_credit/#default) | Gets consumption credit |
 |[ get_consumption_quantity()](./get_consumption_quantity/#default) | Gets consumption file size |
 |[ get_product_name()](./get_product_name/#default) | Returns Product name |

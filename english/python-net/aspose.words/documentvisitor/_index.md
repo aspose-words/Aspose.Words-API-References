@@ -5,7 +5,7 @@ articleTitle: DocumentVisitor class
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentVisitor class. Base class for custom document visitors"
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words/documentvisitor/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: NodeChangingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeChangingArgs class. Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface."
 type: docs
-weight: 790
+weight: 800
 url: /python-net/aspose.words/nodechangingargs/
 ---
 

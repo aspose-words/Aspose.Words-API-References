@@ -5,7 +5,7 @@ articleTitle: ChapterPageSeparator enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ChapterPageSeparator enumeration. Defines the separator character that appears between the chapter and page number."
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words/chapterpageseparator/
 ---
 

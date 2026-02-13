@@ -5,7 +5,7 @@ articleTitle: BorderCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.BorderCollection class. A collection of [Border](../border/) objects"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/bordercollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Font class
 second_title: Aspose.Words for Python
 description: "aspose.words.Font class. Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
-weight: 430
+weight: 440
 url: /python-net/aspose.words/font/
 ---
 

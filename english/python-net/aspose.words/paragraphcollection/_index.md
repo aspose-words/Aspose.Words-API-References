@@ -5,7 +5,7 @@ articleTitle: ParagraphCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.ParagraphCollection class. Provides typed access to a collection of [Paragraph](../paragraph/) nodes"
 type: docs
-weight: 960
+weight: 970
 url: /python-net/aspose.words/paragraphcollection/
 ---
 

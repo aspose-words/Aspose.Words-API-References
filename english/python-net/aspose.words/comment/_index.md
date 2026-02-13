@@ -5,7 +5,7 @@ articleTitle: Comment class
 second_title: Aspose.Words for Python
 description: "aspose.words.Comment class. Represents a container for text of a comment"
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words/comment/
 ---
 

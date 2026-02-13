@@ -5,7 +5,7 @@ articleTitle: ignore_printer_metrics property
 second_title: Aspose.Words for Python
 description: "LayoutOptions.ignore_printer_metrics property. Gets or sets indication of whether the Use printer metrics to lay out document compatibility option is ignored"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.layout/layoutoptions/ignore_printer_metrics/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionReason enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.FontSubstitutionReason enumeration. Specifies the reason of font substitution."
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words/fontsubstitutionreason/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: get_product_name method
 second_title: Aspose.Words for Python
 description: "Metered.get_product_name method. Returns Product name"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/metered/get_product_name/
 ---
 

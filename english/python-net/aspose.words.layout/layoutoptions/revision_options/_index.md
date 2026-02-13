@@ -5,7 +5,7 @@ articleTitle: revision_options property
 second_title: Aspose.Words for Python
 description: "LayoutOptions.revision_options property. Gets revision options."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.layout/layoutoptions/revision_options/
 ---
 
