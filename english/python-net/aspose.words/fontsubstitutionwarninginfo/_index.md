@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionWarningInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.FontSubstitutionWarningInfo class. Contains information about a font substitution warning that Aspose.Words issued during document loading or saving."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/
 ---
 

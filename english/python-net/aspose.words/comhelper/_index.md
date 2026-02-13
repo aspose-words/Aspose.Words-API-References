@@ -5,7 +5,7 @@ articleTitle: ComHelper class
 second_title: Aspose.Words for Python
 description: "aspose.words.ComHelper class. Provides methods for COM clients to load a document into Aspose.Words."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words/comhelper/
 ---
 
