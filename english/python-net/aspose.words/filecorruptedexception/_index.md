@@ -5,7 +5,7 @@ articleTitle: FileCorruptedException class
 second_title: Aspose.Words for Python
 description: "aspose.words.FileCorruptedException class. Thrown during document load, when the document appears to be corrupted and impossible to load"
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words/filecorruptedexception/
 ---
 

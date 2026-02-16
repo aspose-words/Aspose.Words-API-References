@@ -5,7 +5,7 @@ articleTitle: overlay property
 second_title: Aspose.Words for Python
 description: "ChartTitle.overlay property. Determines whether other chart elements shall be allowed to overlap title"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 

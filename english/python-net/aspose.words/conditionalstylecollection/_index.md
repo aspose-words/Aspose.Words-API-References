@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.ConditionalStyleCollection class. Represents a collection of [ConditionalStyle](../conditionalstyle/) objects"
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words/conditionalstylecollection/
 ---
 

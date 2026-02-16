@@ -5,7 +5,7 @@ articleTitle: Document class
 second_title: Aspose.Words for Python
 description: "aspose.words.Document class. Represents a Word document"
 type: docs
-weight: 280
+weight: 290
 url: /python-net/aspose.words/document/
 ---
 
