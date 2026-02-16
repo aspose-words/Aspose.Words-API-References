@@ -5,7 +5,7 @@ articleTitle: IIndexFilter class
 second_title: Aspose.Words for Python
 description: "aspose.words.IIndexFilter class. Defines a filter for skipping items based on their indices."
 type: docs
-weight: 580
+weight: 590
 url: /python-net/aspose.words/iindexfilter/
 ---
 

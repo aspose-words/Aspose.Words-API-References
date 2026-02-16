@@ -5,7 +5,7 @@ articleTitle: Bookmark class
 second_title: Aspose.Words for Python
 description: "aspose.words.Bookmark class. Represents a single bookmark"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/bookmark/
 ---
 

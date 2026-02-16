@@ -5,7 +5,7 @@ articleTitle: get_consumption_credit method
 second_title: Aspose.Words for Python
 description: "Metered.get_consumption_credit method. Gets consumption credit"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words/metered/get_consumption_credit/
 ---
 

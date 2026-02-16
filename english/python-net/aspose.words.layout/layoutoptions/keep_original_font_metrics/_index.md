@@ -5,7 +5,7 @@ articleTitle: keep_original_font_metrics property
 second_title: Aspose.Words for Python
 description: "LayoutOptions.keep_original_font_metrics property. Gets or sets an indication of whether the original font metrics should be used after font substitution"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.layout/layoutoptions/keep_original_font_metrics/
 ---
 
