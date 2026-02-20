@@ -725,7 +725,7 @@ Shows how to add and remove sections in a document.
 
 ### toArray() {#toArray}
 ```
-public HeaderFooter[] toArray()
+public Node[] toArray()
 ```
 
 
@@ -818,4 +818,4 @@ Shows how to print the node structure of every header and footer in a document.
 ```
 
 **Returns:**
-com.aspose.words.HeaderFooter[] - An array of  HeaderFooter  s.
+com.aspose.words.Node[] - An array of  HeaderFooter  s.

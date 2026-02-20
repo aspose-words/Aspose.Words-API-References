@@ -131,7 +131,8 @@ Shows how to preserve original section type.
 
  srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 
- ImportFormatOptions options = new ImportFormatOptions(); { options.setAppendDocumentWithNewPage(false); }
+ ImportFormatOptions options = new ImportFormatOptions();
+ options.setAppendDocumentWithNewPage(false);
  dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
 
  Assert.assertEquals(SectionStart.CONTINUOUS, dstDoc.getSections().get(1).getPageSetup().getSectionStart());
@@ -512,7 +513,8 @@ Shows how to preserve original section type.
 
  srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 
- ImportFormatOptions options = new ImportFormatOptions(); { options.setAppendDocumentWithNewPage(false); }
+ ImportFormatOptions options = new ImportFormatOptions();
+ options.setAppendDocumentWithNewPage(false);
  dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
 
  Assert.assertEquals(SectionStart.CONTINUOUS, dstDoc.getSections().get(1).getPageSetup().getSectionStart());
