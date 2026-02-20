@@ -159,7 +159,7 @@ Shows how to compare documents ignoring DML unique ID.
 
  docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
 
- Assert.assertEquals(isIgnoreDmlUniqueId ? 0 : 2, docA.getRevisions().getCount());
+ Assert.assertEquals(isIgnoreDmlUniqueId ? 1 : 3, docA.getRevisions().getCount());
  
 ```
 
@@ -495,7 +495,7 @@ Shows how to compare documents ignoring DML unique ID.
 
  docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
 
- Assert.assertEquals(isIgnoreDmlUniqueId ? 0 : 2, docA.getRevisions().getCount());
+ Assert.assertEquals(isIgnoreDmlUniqueId ? 1 : 3, docA.getRevisions().getCount());
  
 ```
 
@@ -1448,7 +1448,7 @@ Shows how to compare documents ignoring DML unique ID.
 
  docA.compare(docB, "Aspose.Words", new Date(), compareOptions);
 
- Assert.assertEquals(isIgnoreDmlUniqueId ? 0 : 2, docA.getRevisions().getCount());
+ Assert.assertEquals(isIgnoreDmlUniqueId ? 1 : 3, docA.getRevisions().getCount());
  
 ```
 
