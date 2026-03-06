@@ -345,32 +345,24 @@ builder.InsertField(" MERGEFIELD UnitPrice");
 
 // Create a connection string that points to the "Northwind" database file
 // in our local file system, open a connection, and set up an SQL query.
-string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
+string connectionString = @"Data Source=" + DatabaseDir + "Northwind.db";
 string query =
     @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
-    FROM Products 
-    INNER JOIN Suppliers 
+    FROM Products
+    INNER JOIN Suppliers
     ON Products.SupplierID = Suppliers.SupplierID";
 
-using (OleDbConnection connection = new OleDbConnection(connectionString))
+using (SqliteConnection connection = new SqliteConnection(connectionString))
 {
     // Create an SQL command that will source data for our mail merge.
     // The names of the table's columns that this SELECT statement will return
     // will need to correspond to the merge fields we placed above.
-    OleDbCommand command = new OleDbCommand(query, connection);
-    command.CommandText = query;
-    try
+    connection.Open();
+    using (SqliteCommand command = new SqliteCommand(query, connection))
+    using (SqliteDataReader reader = command.ExecuteReader())
     {
-        connection.Open();
-        using (OleDbDataReader reader = command.ExecuteReader())
-        {
-            // Take the data from the reader and use it in the mail merge.
-            doc.MailMerge.Execute(reader);
-        }
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine(ex.Message);
+        // Take the data from the reader and use it in the mail merge.
+        doc.MailMerge.Execute(reader);
     }
 }
 
