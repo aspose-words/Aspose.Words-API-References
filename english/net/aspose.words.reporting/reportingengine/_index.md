@@ -5,7 +5,7 @@ articleTitle: ReportingEngine
 second_title: Aspose.Words for .NET
 description: Unlock powerful document automation with Aspose.Words.ReportingEngine. Easily populate templates with data and customize settings for seamless reporting.
 type: docs
-weight: 5520
+weight: 5530
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class

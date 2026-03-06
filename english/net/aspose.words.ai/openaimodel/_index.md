@@ -10,11 +10,18 @@ url: /net/aspose.words.ai/openaimodel/
 ---
 ## OpenAiModel class
 
-An abstract class representing the integration with OpenAI's large language models within the Aspose.Words.
+Class representing OpenAi models integration within Aspose.Words.
 
 ```csharp
-public abstract class OpenAiModel : AiModel
+public class OpenAiModel : AiModel
 ```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [OpenAiModel](openaimodel/#constructor)(*string*) | Initializes a new instance of `OpenAiModel` class. |
+| [OpenAiModel](openaimodel/#constructor_1)(*string, string*) | Initializes a new instance of `OpenAiModel` class. |
 
 ## Properties
 
@@ -35,6 +42,10 @@ public abstract class OpenAiModel : AiModel
 | [WithOrganization](../../aspose.words.ai/openaimodel/withorganization/)(*string*) | Sets a specified Organization to the model. |
 | [WithProject](../../aspose.words.ai/openaimodel/withproject/)(*string*) | Sets a specified Project to the model. |
 
+## Remarks
+
+Please refer to https://platform.openai.com/docs/models for OpenAi models details.
+
 ## Examples
 
 Shows how to use self-hosted AI model based on OpenAiModel.
@@ -46,8 +57,7 @@ public void SelfHostedModel()
 
     string apiKey = Environment.GetEnvironmentVariable("API_KEY");
     // Use OpenAI generative language models.
-    AiModel model = new CustomAiModel().WithApiKey(apiKey);
-    model.Url = "https://my.a.com/";
+    AiModel model = new CustomAiModel("my-model-24b", "https://my.a.com/").WithApiKey(apiKey);
 
     Document translatedDoc = model.Translate(doc, Language.Russian);
     translatedDoc.Save(ArtifactsDir + "AI.SelfHostedModel.docx");
@@ -58,13 +68,17 @@ public void SelfHostedModel()
 /// </summary>
 internal class CustomAiModel : OpenAiModel
 {
-    /// <summary>
-    /// Gets model name.
-    /// </summary>
-    protected override string Name
+    internal CustomAiModel(string name, string url) : base(name)
     {
-        get { return "my-model-24b"; }
+        mUrl = url;
     }
+
+    public override string Url
+    {
+        get { return mUrl; }
+    }
+
+    private readonly string mUrl;
 }
 ```
 

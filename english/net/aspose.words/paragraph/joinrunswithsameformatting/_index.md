@@ -8,7 +8,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
-## Paragraph.JoinRunsWithSameFormatting method
+## JoinRunsWithSameFormatting() {#joinrunswithsameformatting}
 
 Joins runs with the same formatting in the paragraph.
 
@@ -60,6 +60,65 @@ Assert.That(para.Runs[1].Text, Is.EqualTo("Run 4. "));
 
 ### See Also
 
+* class [Paragraph](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## JoinRunsWithSameFormatting(*[JoinRunsOptions](../../joinrunsoptions/)*) {#joinrunswithsameformatting_1}
+
+Joins runs with the same formatting in the paragraph.
+
+```csharp
+public int JoinRunsWithSameFormatting(JoinRunsOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | JoinRunsOptions | Additional options |
+
+### Return Value
+
+Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
+
+## Examples
+
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Create runs with identical visible formatting but some internal differences.
+builder.Font.Name = "Arial";
+builder.Font.Size = 12;
+builder.Write("Hello ");
+builder.Write("world");
+
+// Verify runs before join.
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs.Count, Is.EqualTo(2));
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs[0].Text, Is.EqualTo("Hello "));
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs[1].Text, Is.EqualTo("world"));
+
+// Configure options to ignore redundant and insignificant attributes during join.
+JoinRunsOptions options = new JoinRunsOptions();
+options.IgnoreRedundant = true; // Ignore redundant run properties that don't affect appearance.
+options.IgnoreInsignificant = true; // Ignore insignificant differences like whitespace-only runs.
+
+// Join runs that have the same visible formatting using the extended options.
+doc.FirstSection.Body.FirstParagraph.JoinRunsWithSameFormatting(options);
+
+// Verify that runs were successfully joined.
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs.Count, Is.EqualTo(1));
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs[0].Text, Is.EqualTo("Hello world"));
+
+doc.Save(ArtifactsDir + "Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
+```
+
+### See Also
+
+* class [JoinRunsOptions](../../joinrunsoptions/)
 * class [Paragraph](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

@@ -5,7 +5,7 @@ articleTitle: TableStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TableStyle class for creating and customizing stunning table styles in your documents. Enhance your formatting effortlessly!
 type: docs
-weight: 7160
+weight: 7170
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -85,7 +85,6 @@ builder.EndTable();
 
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.AllowBreakAcrossPages = true;
-tableStyle.Bidi = true;
 tableStyle.CellSpacing = 5;
 tableStyle.BottomPadding = 20;
 tableStyle.LeftPadding = 5;
@@ -97,6 +96,8 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
+
+table.Bidi = true;
 
 // Setting the style properties of a table may affect the properties of the table itself.
 Assert.That(table.Bidi, Is.True);

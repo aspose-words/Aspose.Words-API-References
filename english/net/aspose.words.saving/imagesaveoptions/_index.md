@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.ImageSaveOptions. Easily your document rendering with customizable options for high-quality image output.
 type: docs
-weight: 6040
+weight: 6050
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class

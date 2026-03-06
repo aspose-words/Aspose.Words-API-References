@@ -5,7 +5,7 @@ articleTitle: XpsSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XpsSaveOptions for enhanced document saving in XPS format. Customize settings for optimal output and quality.
 type: docs
-weight: 6620
+weight: 6630
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class

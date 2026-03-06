@@ -36,8 +36,7 @@ public void SelfHostedModel()
 
     string apiKey = Environment.GetEnvironmentVariable("API_KEY");
     // Use OpenAI generative language models.
-    AiModel model = new CustomAiModel().WithApiKey(apiKey);
-    model.Url = "https://my.a.com/";
+    AiModel model = new CustomAiModel("my-model-24b", "https://my.a.com/").WithApiKey(apiKey);
 
     Document translatedDoc = model.Translate(doc, Language.Russian);
     translatedDoc.Save(ArtifactsDir + "AI.SelfHostedModel.docx");
@@ -48,13 +47,17 @@ public void SelfHostedModel()
 /// </summary>
 internal class CustomAiModel : OpenAiModel
 {
-    /// <summary>
-    /// Gets model name.
-    /// </summary>
-    protected override string Name
+    internal CustomAiModel(string name, string url) : base(name)
     {
-        get { return "my-model-24b"; }
+        mUrl = url;
     }
+
+    public override string Url
+    {
+        get { return mUrl; }
+    }
+
+    private readonly string mUrl;
 }
 ```
 

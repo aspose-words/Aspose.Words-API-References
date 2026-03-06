@@ -5,7 +5,7 @@ articleTitle: OfficeMathJustification
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Math.OfficeMathJustification enum for precise equation alignment. Enhance your document's clarity with optimal justification options.
 type: docs
-weight: 4870
+weight: 4880
 url: /net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration

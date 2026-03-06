@@ -5,7 +5,7 @@ articleTitle: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.HeaderFooterBookmarksExportMode enhances bookmark export in headers and footers for seamless document management.
 type: docs
-weight: 5860
+weight: 5870
 url: /net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration

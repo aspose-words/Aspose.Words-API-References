@@ -5,7 +5,7 @@ articleTitle: Paragraph
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Paragraph class to effortlessly manage and format text paragraphs, enhancing your document processing capabilities.
 type: docs
-weight: 5170
+weight: 5180
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class
@@ -87,7 +87,8 @@ public class Paragraph : CompositeNode
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | Inserts a field into this paragraph. |
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | Inserts a field into this paragraph. |
 | [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | Inserts a field into this paragraph. |
-| [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | Joins runs with the same formatting in the paragraph. |
+| [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/#joinrunswithsameformatting)() | Joins runs with the same formatting in the paragraph. |
+| [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/#joinrunswithsameformatting_1)(*[JoinRunsOptions](../joinrunsoptions/)*) | Joins runs with the same formatting in the paragraph. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
 | [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
