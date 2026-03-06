@@ -5,7 +5,7 @@ articleTitle: IImageSavingCallback
 second_title: Aspose.Words for .NET
 description: Control image saving in Aspose.Words with the IImageSavingCallback interface. Optimize document exports to HTML and other formats effortlessly.
 type: docs
-weight: 5980
+weight: 5990
 url: /net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface

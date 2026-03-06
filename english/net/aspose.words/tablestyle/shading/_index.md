@@ -36,7 +36,6 @@ builder.EndTable();
 
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.AllowBreakAcrossPages = true;
-tableStyle.Bidi = true;
 tableStyle.CellSpacing = 5;
 tableStyle.BottomPadding = 20;
 tableStyle.LeftPadding = 5;
@@ -48,6 +47,8 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
+
+table.Bidi = true;
 
 // Setting the style properties of a table may affect the properties of the table itself.
 Assert.That(table.Bidi, Is.True);

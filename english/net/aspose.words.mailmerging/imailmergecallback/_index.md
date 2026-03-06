@@ -5,7 +5,7 @@ articleTitle: IMailMergeCallback
 second_title: Aspose.Words for .NET
 description: Optimize your mail merge process with Aspose.Words.MailMerging.IMailMergeCallback. Get real-time notifications and enhance your document automation efficiency.
 type: docs
-weight: 4530
+weight: 4540
 url: /net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface

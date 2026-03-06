@@ -5,7 +5,7 @@ articleTitle: PreferredWidth
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.PreferredWidth class, your solution for defining optimal table and cell widths with precision and flexibility. Enhance your document layouts today!
 type: docs
-weight: 7230
+weight: 7240
 url: /net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class

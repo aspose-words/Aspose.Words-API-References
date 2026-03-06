@@ -5,7 +5,7 @@ articleTitle: WebExtensionBindingCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensionBindingCollection class, a powerful tool for managing web extension bindings in your applications seamlessly.
 type: docs
-weight: 7710
+weight: 7720
 url: /net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class

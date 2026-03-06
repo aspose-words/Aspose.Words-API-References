@@ -5,7 +5,7 @@ articleTitle: ResourceType
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.ResourceType enum for efficient resource management. Enhance your document processing with versatile loading options.
 type: docs
-weight: 4200
+weight: 4210
 url: /net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration

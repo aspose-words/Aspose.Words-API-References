@@ -5,7 +5,7 @@ articleTitle: XmlDataSource
 second_title: Aspose.Words for .NET
 description: Unlock powerful reporting with Aspose.Words.XmlDataSource. Easily access XML data for seamless integration into your reports and enhance data visualization.
 type: docs
-weight: 5540
+weight: 5550
 url: /net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class

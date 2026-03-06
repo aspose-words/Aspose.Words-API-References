@@ -5,7 +5,7 @@ articleTitle: Underline
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Underline enum for versatile font underlining options. Enhance your document formatting with customizable styles today!
 type: docs
-weight: 7450
+weight: 7460
 url: /net/aspose.words/underline/
 ---
 ## Underline enumeration

@@ -5,7 +5,7 @@ articleTitle: StoryType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.StoryType enum, efficiently manage Word document text stories with ease. Enhance your document processing experience today!
 type: docs
-weight: 7060
+weight: 7070
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration
