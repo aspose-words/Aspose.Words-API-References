@@ -34,15 +34,15 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
+    string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
-    using (OleDbConnection conn = new OleDbConnection(connString))
+    using (SqliteConnection conn = new SqliteConnection(connString))
     {
         conn.Open();
 
         // Open the data reader, which needs to be in a mode that reads all records at once.
-        OleDbCommand cmd = new OleDbCommand(query, conn);
+        SqliteCommand cmd = new SqliteCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
         doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
