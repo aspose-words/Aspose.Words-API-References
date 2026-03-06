@@ -38,22 +38,22 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // This DATABASE field will run a query on a database, and display the result in a table.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.accdb";
-field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.FileName = DatabaseDir + "Northwind.db";
+field.Connection = "DSN=Northwind";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.That(field.GetFieldCode(), Is.EqualTo($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\""));
+Assert.That(field.GetFieldCode(), Is.EqualTo($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.db"} \\c DSN=Northwind \\s \"SELECT * FROM [Products]\""));
 
 // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = DatabaseDir + "Northwind.accdb";
-field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.FileName = DatabaseDir + "Northwind.db";
+field.Connection = "DSN=Northwind";
 field.Query =
-    "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
-    "FROM([Products] " +
-    "LEFT JOIN[Order Details] ON[Products].[ProductID] = [Order Details].[ProductID]) " +
-    "GROUP BY[Products].ProductName " +
-    "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
+    "SELECT [Products].ProductName, printf('$%,.2f', SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity)) AS GrossSales " +
+    "FROM [Products] " +
+    "LEFT JOIN [Order Details] ON [Products].[ProductID] = [Order Details].[ProductID] " +
+    "GROUP BY [Products].ProductName " +
+    "ORDER BY SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
 // These properties have the same function as LIMIT and TOP clauses.
 // Configure them to display only rows 1 to 10 of the query result in the field's table.
@@ -72,7 +72,7 @@ field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
-doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
+doc.FieldOptions.FieldDatabaseProvider = new SqliteFieldDatabaseProvider();
 doc.UpdateFields();
 
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
