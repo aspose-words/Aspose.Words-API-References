@@ -5,7 +5,7 @@ articleTitle: MathObjectType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Math.MathObjectType enum to easily identify and manage Office Math object types for enhanced document processing.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration
@@ -49,7 +49,8 @@ public enum MathObjectType
 | PreSubSuperscript | `26` | Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base. |
 | Subscript | `27` | Subscript object, which consists of a base element and a reduced-size script placed below and to the right. |
 | SubSuperscript | `28` | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
-| Supercript | `29` | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| Superscript | `29` | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| None | `30` | Type of object is not specified. |
 
 ## Examples
 

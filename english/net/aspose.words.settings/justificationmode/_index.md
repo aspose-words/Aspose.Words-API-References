@@ -5,7 +5,7 @@ articleTitle: JustificationMode
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words JustificationMode enum for precise character spacing adjustments in your documents. Enhance readability with customizable settings!
 type: docs
-weight: 6710
+weight: 6720
 url: /net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration

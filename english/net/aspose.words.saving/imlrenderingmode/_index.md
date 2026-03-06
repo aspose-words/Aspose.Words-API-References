@@ -5,7 +5,7 @@ articleTitle: ImlRenderingMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ImlRenderingMode enum for optimal InkML rendering. Enhance your document output with precise ink object visualization!
 type: docs
-weight: 6060
+weight: 6070
 url: /net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration

@@ -5,7 +5,7 @@ articleTitle: TextColumnCollection
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.TextColumnCollection to manage text columns in your documents effortlessly. Enhance your document formatting with ease!
 type: docs
-weight: 7340
+weight: 7350
 url: /net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class

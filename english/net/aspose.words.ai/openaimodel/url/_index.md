@@ -5,7 +5,7 @@ articleTitle: Url
 second_title: Aspose.Words for .NET
 description: Connects Aspose.Words to OpenAI endpoint for fast, accurate document intelligence.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.ai/openaimodel/url/
 ---
 ## OpenAiModel.Url property

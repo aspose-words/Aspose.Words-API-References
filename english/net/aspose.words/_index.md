@@ -59,6 +59,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Inline](./inline/) | Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own. |
 | [InlineStory](./inlinestory/) | Base class for inline-level nodes that can contain paragraphs and tables. |
 | [InternableComplexAttr](./internablecomplexattr/) | Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. |
+| [JoinRunsOptions](./joinrunsoptions/) | Provides configuration flags for the join runs operation. |
 | [License](./license/) | Provides methods to license the component. |
 | [Metered](./metered/) | Provides methods to set metered key. |
 | [Node](./node/) | Base class for all nodes of a Word document. |
