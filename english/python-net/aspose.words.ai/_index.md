@@ -27,7 +27,7 @@ This functionality extends the power of document automation, facilitating effici
 | [AnthropicAiModel](./anthropicaimodel/) | An abstract class representing the integration with Anthropic’s AI models within the Aspose.Words. |
 | [CheckGrammarOptions](./checkgrammaroptions/) | Allows to specify various options while checking grammar of a document using AI. |
 | [GoogleAiModel](./googleaimodel/) | Class representing Google AI Models (Gemini) integration within Aspose.Words. |
-| [OpenAiModel](./openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |
+| [OpenAiModel](./openaimodel/) | Class representing OpenAi models integration within Aspose.Words. |
 | [SummarizeOptions](./summarizeoptions/) | Allows to specify various options for summarizing document content. |
 
 ## Enumerations

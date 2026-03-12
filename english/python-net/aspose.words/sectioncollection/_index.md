@@ -5,7 +5,7 @@ articleTitle: SectionCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.SectionCollection class. A collection of [Section](../section/) objects in the document"
 type: docs
-weight: 1130
+weight: 1140
 url: /python-net/aspose.words/sectioncollection/
 ---
 

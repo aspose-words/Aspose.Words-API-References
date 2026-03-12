@@ -5,7 +5,7 @@ articleTitle: Paragraph class
 second_title: Aspose.Words for Python
 description: "aspose.words.Paragraph class. Represents a paragraph of text"
 type: docs
-weight: 950
+weight: 960
 url: /python-net/aspose.words/paragraph/
 ---
 
@@ -115,6 +115,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ insert_field(field_code, ref_node, is_after)](./insert_field/#str_node_bool) | Inserts a field into this paragraph. |
 |[ insert_field(field_code, field_value, ref_node, is_after)](./insert_field/#str_str_node_bool) | Inserts a field into this paragraph. |
 |[ join_runs_with_same_formatting()](./join_runs_with_same_formatting/#default) | Joins runs with the same formatting in the paragraph. |
+|[ join_runs_with_same_formatting(options)](./join_runs_with_same_formatting/#joinrunsoptions) | Joins runs with the same formatting in the paragraph. |
 |[ next_pre_order(root_node)](../node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |
 |[ node_type_to_string(node_type)](../node/node_type_to_string/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../node/)) |
 |[ prepend_child(new_child)](../compositenode/prepend_child/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
