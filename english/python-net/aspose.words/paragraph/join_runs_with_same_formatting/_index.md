@@ -3,7 +3,7 @@ title: Paragraph.join_runs_with_same_formatting method
 linktitle: join_runs_with_same_formatting method
 articleTitle: join_runs_with_same_formatting method
 second_title: Aspose.Words for Python
-description: "Paragraph.join_runs_with_same_formatting method. Joins runs with the same formatting in the paragraph."
+description: "aspose.words.Paragraph.join_runs_with_same_formatting method"
 type: docs
 weight: 300
 url: /python-net/aspose.words/paragraph/join_runs_with_same_formatting/
@@ -24,39 +24,54 @@ def join_runs_with_same_formatting(self):
 Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 
 
-### Examples
+## join_runs_with_same_formatting(options) {#joinrunsoptions}
 
-Shows how to simplify paragraphs by merging superfluous runs.
+Joins runs with the same formatting in the paragraph.
+
+
+```python
+def join_runs_with_same_formatting(self, options: aspose.words.JoinRunsOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [JoinRunsOptions](../../joinrunsoptions/) | Additional options |
+
+### Returns
+
+Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
+
+
+## Examples
+
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
 
 ```python
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc=doc)
-# Insert four runs of text into the paragraph.
-builder.write('Run 1. ')
-builder.write('Run 2. ')
-builder.write('Run 3. ')
-builder.write('Run 4. ')
-# If we open this document in Microsoft Word, the paragraph will look like one seamless text body.
-# However, it will consist of four separate runs with the same formatting. Fragmented paragraphs like this
-# may occur when we manually edit parts of one paragraph many times in Microsoft Word.
-para = builder.current_paragraph
-self.assertEqual(4, para.runs.count)
-# Change the style of the last run to set it apart from the first three.
-para.runs[3].font.style_identifier = aw.StyleIdentifier.EMPHASIS
-# We can run the "JoinRunsWithSameFormatting" method to optimize the document's contents
-# by merging similar runs into one, reducing their overall count.
-# This method also returns the number of runs that this method merged.
-# These two merges occurred to combine Runs #1, #2, and #3,
-# while leaving out Run #4 because it has an incompatible style.
-self.assertEqual(2, para.join_runs_with_same_formatting())
-# The number of runs left will equal the original count
-# minus the number of run merges that the "JoinRunsWithSameFormatting" method carried out.
-self.assertEqual(2, para.runs.count)
-self.assertEqual('Run 1. Run 2. Run 3. ', para.runs[0].text)
-self.assertEqual('Run 4. ', para.runs[1].text)
+# Create runs with identical visible formatting but some internal differences.
+builder.font.name = 'Arial'
+builder.font.size = 12
+builder.write('Hello ')
+builder.write('world')
+# Verify runs before join.
+self.assertEqual(2, doc.first_section.body.first_paragraph.runs.count)
+self.assertEqual('Hello ', doc.first_section.body.first_paragraph.runs[0].text)
+self.assertEqual('world', doc.first_section.body.first_paragraph.runs[1].text)
+# Configure options to ignore redundant and insignificant attributes during join.
+options = aw.JoinRunsOptions()
+options.ignore_redundant = True  # Ignore redundant run properties that don't affect appearance.
+options.ignore_insignificant = True  # Ignore insignificant differences like whitespace-only runs.
+# Join runs that have the same visible formatting using the extended options.
+doc.first_section.body.first_paragraph.join_runs_with_same_formatting(options)
+# Verify that runs were successfully joined.
+self.assertEqual(1, doc.first_section.body.first_paragraph.runs.count)
+self.assertEqual('Hello world', doc.first_section.body.first_paragraph.runs[0].text)
+doc.save(file_name=ARTIFACTS_DIR + 'Paragraph.JoinRunsWithSameFormattingWithOptions.docx')
 ```
 
-### See Also
+## See Also
 
 * module [aspose.words](../../)
 * class [Paragraph](../)

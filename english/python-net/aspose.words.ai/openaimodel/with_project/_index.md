@@ -5,7 +5,7 @@ articleTitle: with_project method
 second_title: Aspose.Words for Python
 description: "OpenAiModel.with_project method. Sets a specified Project to the model."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.ai/openaimodel/with_project/
 ---
 

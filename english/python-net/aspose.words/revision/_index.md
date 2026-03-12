@@ -5,7 +5,7 @@ articleTitle: Revision class
 second_title: Aspose.Words for Python
 description: "aspose.words.Revision class. Represents a revision (tracked change) in a document node or style"
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/revision/
 ---
 
