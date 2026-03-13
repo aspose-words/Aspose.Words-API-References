@@ -5,7 +5,7 @@ articleTitle: translate method
 second_title: Aspose.Words for Node.js
 description: "OpenAiModel.translate method. Translates the provided document into the specified target language"
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words.ai/openaimodel/translate/
 ---
 

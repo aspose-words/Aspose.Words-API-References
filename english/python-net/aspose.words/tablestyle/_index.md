@@ -5,7 +5,7 @@ articleTitle: TableStyle class
 second_title: Aspose.Words for Python
 description: "aspose.words.TableStyle class. Represents a table style"
 type: docs
-weight: 1300
+weight: 1310
 url: /python-net/aspose.words/tablestyle/
 ---
 
@@ -28,7 +28,6 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/pyt
 | [allow_break_across_pages](./allow_break_across_pages/) | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
 | [automatically_update](../style/automatically_update/) | Specifies whether this style is automatically redefined based on the appropriate value.<br>(Inherited from [Style](../style/)) |
 | [base_style_name](../style/base_style_name/) | Gets/sets the name of the style this style is based on.<br>(Inherited from [Style](../style/)) |
-| [bidi](./bidi/) | Gets or sets whether this is a style for a right-to-left table. |
 | [borders](./borders/) | Gets the collection of default cell borders for the style. |
 | [bottom_padding](./bottom_padding/) | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [built_in](../style/built_in/) | True if this style is one of the built-in styles in MS Word.<br>(Inherited from [Style](../style/)) |
@@ -85,7 +84,6 @@ builder.insert_cell()
 builder.end_table()
 table_style = doc.styles.add(aw.StyleType.TABLE, 'MyTableStyle1').as_table_style()
 table_style.allow_break_across_pages = True
-table_style.bidi = True
 table_style.cell_spacing = 5
 table_style.bottom_padding = 20
 table_style.left_padding = 5
@@ -96,6 +94,7 @@ table_style.borders.color = aspose.pydrawing.Color.blue
 table_style.borders.line_style = aw.LineStyle.DOT_DASH
 table_style.vertical_alignment = aw.tables.CellVerticalAlignment.CENTER
 table.style = table_style
+table.bidi = True
 # Setting the style properties of a table may affect the properties of the table itself.
 self.assertTrue(table.bidi)
 self.assertEqual(5, table.cell_spacing)

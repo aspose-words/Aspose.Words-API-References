@@ -22,12 +22,16 @@ class ChartTitle : public System::Object
 | --- | --- |
 | [get_Font](./get_font/)() | Provides access to the font formatting of the chart title. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the chart title. |
+| [get_Orientation](./get_orientation/)() | Gets or sets the orientation of the chart title text. |
 | [get_Overlay](./get_overlay/)() | Determines whether other chart elements shall be allowed to overlap title. By default overlay is **false**. |
+| [get_Rotation](./get_rotation/)() | Gets or sets the rotation of the chart title in degrees. |
 | [get_Show](./get_show/)() | Determines whether the title shall be shown for this chart. Default value is **true**. |
 | [get_Text](./get_text/)() | Gets or sets the text of the chart title. If **null** or empty value is specified, auto generated title will be shown. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Orientation](./get_orientation/). |
 | [set_Overlay](./set_overlay/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay](./get_overlay/). |
+| [set_Rotation](./set_rotation/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Rotation](./get_rotation/). |
 | [set_Show](./set_show/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Show](./get_show/). |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Text](./get_text/). |
 | static [Type](./type/)() |  |

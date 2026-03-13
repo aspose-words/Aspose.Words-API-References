@@ -5,7 +5,7 @@ articleTitle: PageBorderAppliesTo enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PageBorderAppliesTo enumeration. Specifies which pages the page border is printed on."
 type: docs
-weight: 960
+weight: 970
 url: /nodejs-net/aspose.words/pageborderappliesto/
 ---
 

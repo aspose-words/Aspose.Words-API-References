@@ -5,7 +5,7 @@ articleTitle: translate method
 second_title: Aspose.Words for Python
 description: "OpenAiModel.translate method. Translates the provided document into the specified target language"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.ai/openaimodel/translate/
 ---
 

@@ -47,7 +47,8 @@ Specifies type of an Office Math object.
 | PreSubSuperscript | Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base. |
 | Subscript | Subscript object, which consists of a base element and a reduced-size script placed below and to the right. |
 | SubSuperscript | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
-| Supercript | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| Superscript | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| None | Type of object is not specified. |
 
 ### See Also
 
