@@ -5,7 +5,7 @@ articleTitle: PageSetup class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PageSetup class. Represents the page setup properties of a section"
 type: docs
-weight: 990
+weight: 1000
 url: /nodejs-net/aspose.words/pagesetup/
 ---
 

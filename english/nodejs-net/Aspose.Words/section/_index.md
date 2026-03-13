@@ -5,7 +5,7 @@ articleTitle: Section class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Section class. Represents a single section in a document"
 type: docs
-weight: 1190
+weight: 1200
 url: /nodejs-net/aspose.words/section/
 ---
 

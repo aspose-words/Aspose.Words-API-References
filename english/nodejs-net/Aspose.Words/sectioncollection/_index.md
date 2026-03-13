@@ -5,7 +5,7 @@ articleTitle: SectionCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SectionCollection class. A collection of [Section](../section/) objects in the document"
 type: docs
-weight: 1200
+weight: 1210
 url: /nodejs-net/aspose.words/sectioncollection/
 ---
 
