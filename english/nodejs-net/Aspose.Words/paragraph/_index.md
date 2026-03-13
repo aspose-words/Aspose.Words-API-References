@@ -5,7 +5,7 @@ articleTitle: Paragraph class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Paragraph class. Represents a paragraph of text"
 type: docs
-weight: 1020
+weight: 1030
 url: /nodejs-net/aspose.words/paragraph/
 ---
 
@@ -158,6 +158,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ insertField(fieldCode, refNode, isAfter)](./insertField/#string_node_boolean) | Inserts a field into this paragraph. |
 |[ insertField(fieldCode, fieldValue, refNode, isAfter)](./insertField/#string_string_node_boolean) | Inserts a field into this paragraph. |
 |[ joinRunsWithSameFormatting()](./joinRunsWithSameFormatting/#default) | Joins runs with the same formatting in the paragraph. |
+|[ joinRunsWithSameFormatting(options)](./joinRunsWithSameFormatting/#joinrunsoptions) | Joins runs with the same formatting in the paragraph. |
 |[ nextPreOrder(rootNode)](../node/nextPreOrder/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |
 |[ nodeTypeToString(nodeType)](../node/nodeTypeToString/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../node/)) |
 |[ prependChild(newChild)](../compositenode/prependChild/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |

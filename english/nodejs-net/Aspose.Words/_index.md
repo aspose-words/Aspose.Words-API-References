@@ -96,6 +96,7 @@ The main classes in this module are:
 | [Inline](./inline/) | Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own. To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/nodejs-net/logical-levels-of-nodes-in-a-document/) documentation article. |
 | [InlineStory](./inlinestory/) | Base class for inline-level nodes that can contain paragraphs and tables. To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/nodejs-net/logical-levels-of-nodes-in-a-document/) documentation article. |
 | [InternableComplexAttr](./internablecomplexattr/) | Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
+| [JoinRunsOptions](./joinrunsoptions/) | Provides configuration flags for the join runs operation. |
 | [JSImage](./jsimage/) | Represents pixel data for a graphics image and its attributes. Supports loading the following file formats: BMP, GIF, EXIF, JPG, PNG, and TIFF. |
 | [JSPoint](./jspoint/) | Represents an ordered pair of integer x- and y-coordinates that defines a point in a two-dimensional plane. |
 | [JSPointF](./jspointf/) | Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane. |

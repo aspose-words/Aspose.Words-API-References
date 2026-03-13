@@ -5,7 +5,7 @@ articleTitle: VariableCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.VariableCollection class. A collection of document variables"
 type: docs
-weight: 1480
+weight: 1490
 url: /nodejs-net/aspose.words/variablecollection/
 ---
 
