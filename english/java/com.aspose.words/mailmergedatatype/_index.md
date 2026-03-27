@@ -4,7 +4,7 @@ linktitle: MailMergeDataType
 second_title: Aspose.Words for Java
 description: Specifies the type of an external mail merge data source in Java.
 type: docs
-weight: 439
+weight: 440
 url: /java/com.aspose.words/mailmergedatatype/
 ---
 

@@ -2,19 +2,23 @@
 title: OpenAiModel
 linktitle: OpenAiModel
 second_title: Aspose.Words for Java
-description: An abstract class representing the integration with OpenAIs large language models within the Aspose.Words in Java.
+description: Class representing OpenAi models integration within Aspose.Words in Java.
 type: docs
-weight: 504
+weight: 505
 url: /java/com.aspose.words/openaimodel/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.words.AiModel](../../com.aspose.words/aimodel/)
 ```
-public abstract class OpenAiModel extends AiModel
+public class OpenAiModel extends AiModel
 ```
 
-An abstract class representing the integration with OpenAI's large language models within the Aspose.Words.
+Class representing OpenAi models integration within Aspose.Words.
+
+ **Remarks:** 
+
+Please refer to https://platform.openai.com/docs/models for OpenAi models details.
 
  **Examples:** 
 
@@ -28,8 +32,7 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      String apiKey = System.getenv("API_KEY");
      // Use OpenAI generative language models.
-     AiModel model = new CustomAiModel().withApiKey(apiKey);
-     model.setUrl("https://my.a.com/");
+     AiModel model = new CustomAiModel("my-model-24b", "https://my.a.com/").withApiKey(apiKey);
 
      Document translatedDoc = model.translate(doc, Language.RUSSIAN);
      translatedDoc.save(getArtifactsDir() + "AI.SelfHostedModel.docx");
@@ -40,10 +43,16 @@ Shows how to use self-hosted AI model based on OpenAiModel.
  /// 
  static class CustomAiModel extends OpenAiModel
  {
-     /// 
-     /// Gets model name.
-     /// 
-     protected  String getName() { return "my-model-24b"; }
+     CustomAiModel(String name, String url)
+     {
+         super(name);
+
+         mUrl = url;
+     }
+
+     public String getUrl() { return mUrl; }
+
+     private String mUrl;
  }
  
 ```
@@ -70,6 +79,12 @@ Shows how to summarize text using OpenAI and Google models.
  multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
  
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [OpenAiModel(String name, String apiKey)](#OpenAiModel-java.lang.String-java.lang.String) | Initializes a new instance of [OpenAiModel](../../com.aspose.words/openaimodel/) class. |
+| [OpenAiModel(String name)](#OpenAiModel-java.lang.String) | Initializes a new instance of [OpenAiModel](../../com.aspose.words/openaimodel/) class. |
 ## Methods
 
 | Method | Description |
@@ -88,6 +103,52 @@ Shows how to summarize text using OpenAI and Google models.
 | [withApiKey(String apiKey)](#withApiKey-java.lang.String) | Sets a specified API key to the model. |
 | [withOrganization(String organizationId)](#withOrganization-java.lang.String) | Sets a specified Organization to the model. |
 | [withProject(String projectId)](#withProject-java.lang.String) | Sets a specified Project to the model. |
+### OpenAiModel(String name, String apiKey) {#OpenAiModel-java.lang.String-java.lang.String}
+```
+public OpenAiModel(String name, String apiKey)
+```
+
+
+Initializes a new instance of [OpenAiModel](../../com.aspose.words/openaimodel/) class.
+
+ **Examples:** 
+
+Shows how to create an OpenAI model instance directly using an API key and model name.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ // Create an OpenAI model instance using the constructor with model name and API key.
+ OpenAiModel model = new OpenAiModel("gpt-4o-mini", apiKey);
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+ // Summarize the document using the OpenAI model with short summary length.
+ SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
+ Document summary = model.summarize(doc, summarizeOptions);
+
+ summary.save(getArtifactsDir() + "OpenAiModel.OpenAiModelConstructor.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the model. For example, gpt-5.2-chat-latest. |
+| apiKey | java.lang.String | The API key to use the OpenAi API. |
+
+### OpenAiModel(String name) {#OpenAiModel-java.lang.String}
+```
+public OpenAiModel(String name)
+```
+
+
+Initializes a new instance of [OpenAiModel](../../com.aspose.words/openaimodel/) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the model. For example, gpt-5.2-chat-latest. |
+
 ### checkGrammar(Document sourceDocument, CheckGrammarOptions options) {#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions}
 ```
 public Document checkGrammar(Document sourceDocument, CheckGrammarOptions options)

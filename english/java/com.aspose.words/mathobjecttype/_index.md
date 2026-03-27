@@ -4,7 +4,7 @@ linktitle: MathObjectType
 second_title: Aspose.Words for Java
 description: Specifies type of an Office Math object in Java.
 type: docs
-weight: 458
+weight: 459
 url: /java/com.aspose.words/mathobjecttype/
 ---
 
@@ -123,6 +123,7 @@ Shows how to print the node structure of every office math node in a document.
 | [LOWER_LIMIT](#LOWER-LIMIT) | Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it. |
 | [MATRIX](#MATRIX) | Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MATRIX_ROW](#MATRIX-ROW) | Single row of the matrix. |
+| [NONE](#NONE) | Type of object is not specified. |
 | [NUMERATOR](#NUMERATOR) | Numerator of the Fraction object. |
 | [N_ARY](#N-ARY) | N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits. |
 | [O_MATH](#O-MATH) | Instance of mathematical text. |
@@ -133,7 +134,7 @@ Shows how to print the node structure of every office math node in a document.
 | [SUBSCRIPT](#SUBSCRIPT) | Subscript object, which consists of a base element and a reduced-size script placed below and to the right. |
 | [SUBSCRIPT_PART](#SUBSCRIPT-PART) | Subscript of the object that can have subscript part. |
 | [SUB_SUPERSCRIPT](#SUB-SUPERSCRIPT) | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
-| [SUPERCRIPT](#SUPERCRIPT) | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| [SUPERSCRIPT](#SUPERSCRIPT) | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
 | [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | Superscript of the superscript object. |
 | [UPPER_LIMIT](#UPPER-LIMIT) | Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it. |
 | [length](#length) |  |
@@ -281,6 +282,14 @@ public static int MATRIX_ROW
 
 Single row of the matrix.
 
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+Type of object is not specified.
+
 ### NUMERATOR {#NUMERATOR}
 ```
 public static int NUMERATOR
@@ -361,9 +370,9 @@ public static int SUB_SUPERSCRIPT
 
 Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right.
 
-### SUPERCRIPT {#SUPERCRIPT}
+### SUPERSCRIPT {#SUPERSCRIPT}
 ```
-public static int SUPERCRIPT
+public static int SUPERSCRIPT
 ```
 
 

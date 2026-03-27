@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for Java
 description: Represents a paragraph of text in Java.
 type: docs
-weight: 521
+weight: 522
 url: /java/com.aspose.words/paragraph/
 ---
 
@@ -156,6 +156,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [isMoveToRevision()](#isMoveToRevision) | Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting) | Joins runs with the same formatting in the paragraph. |
+| [joinRunsWithSameFormatting(JoinRunsOptions options)](#joinRunsWithSameFormatting-com.aspose.words.JoinRunsOptions) | Joins runs with the same formatting in the paragraph. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -3601,6 +3602,57 @@ Shows how to simplify paragraphs by merging superfluous runs.
  Assert.assertEquals("Run 4. ", para.getRuns().get(1).getText());
  
 ```
+
+**Returns:**
+int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
+### joinRunsWithSameFormatting(JoinRunsOptions options) {#joinRunsWithSameFormatting-com.aspose.words.JoinRunsOptions}
+```
+public int joinRunsWithSameFormatting(JoinRunsOptions options)
+```
+
+
+Joins runs with the same formatting in the paragraph.
+
+ **Examples:** 
+
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create runs with identical visible formatting but some internal differences.
+ builder.getFont().setName("Arial");
+ builder.getFont().setSize(12.0);
+ builder.write("Hello ");
+ builder.write("world");
+
+ // Verify runs before join.
+ Assert.assertEquals(2, doc.getFirstSection().getBody().getFirstParagraph().getRuns().getCount());
+ Assert.assertEquals("Hello ", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getText());
+ Assert.assertEquals("world", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(1).getText());
+
+ // Configure options to ignore redundant and insignificant attributes during join.
+ JoinRunsOptions options = new JoinRunsOptions();
+ options.setIgnoreRedundant(true); // Ignore redundant run properties that don't affect appearance.
+ options.setIgnoreInsignificant(true); // Ignore insignificant differences like whitespace-only runs.
+
+ // Join runs that have the same visible formatting using the extended options.
+ doc.getFirstSection().getBody().getFirstParagraph().joinRunsWithSameFormatting(options);
+
+ // Verify that runs were successfully joined.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getFirstParagraph().getRuns().getCount());
+ Assert.assertEquals("Hello world", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getText());
+
+ doc.save(getArtifactsDir() + "Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [JoinRunsOptions](../../com.aspose.words/joinrunsoptions/) | Additional options |
 
 **Returns:**
 int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.

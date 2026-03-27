@@ -4,7 +4,7 @@ linktitle: LineNumberRestartMode
 second_title: Aspose.Words for Java
 description: Determines when automatic line numbering restarts in Java.
 type: docs
-weight: 421
+weight: 422
 url: /java/com.aspose.words/linenumberrestartmode/
 ---
 

@@ -4,7 +4,7 @@ linktitle: IIndexFilter
 second_title: Aspose.Words for Java
 description: Defines a filter for skipping items based on their indices in Java.
 type: docs
-weight: 771
+weight: 774
 url: /java/com.aspose.words/iindexfilter/
 ---
 ```
