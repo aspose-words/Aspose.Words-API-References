@@ -4,7 +4,7 @@ linktitle: PdfAttachmentsEmbeddingMode
 second_title: Aspose.Words for Java
 description: Specifies how attachments are embedded to PDF document in Java.
 type: docs
-weight: 527
+weight: 528
 url: /java/com.aspose.words/pdfattachmentsembeddingmode/
 ---
 

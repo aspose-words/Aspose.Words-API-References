@@ -59,10 +59,14 @@ Shows how to set chart axis title.
 | --- | --- |
 | [getFont()](#getFont) | Provides access to the font formatting of the axis title. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the axis title. |
+| [getOrientation()](#getOrientation) | Gets the orientation of the axis title text. |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap the title. |
+| [getRotation()](#getRotation) | Gets the rotation of the axis title in degrees. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for the axis. |
 | [getText()](#getText) | Gets the text of the axis title. |
+| [setOrientation(int value)](#setOrientation-int) | Sets the orientation of the axis title text. |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap the title. |
+| [setRotation(int value)](#setRotation-int) | Sets the rotation of the axis title in degrees. |
 | [setShow(boolean value)](#setShow-boolean) | Determines whether the title shall be shown for the axis. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the axis title. |
 ### getFont() {#getFont}
@@ -159,6 +163,45 @@ Shows how to use chart formating.
 
 **Returns:**
 [ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getOrientation() {#getOrientation}
+```
+public int getOrientation()
+```
+
+
+Gets the orientation of the axis title text.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+ **Examples:** 
+
+Shows how to set orientation and rotation of chart and axis titles.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Returns:**
+int - The orientation of the axis title text. The returned value is one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants.
 ### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
@@ -202,6 +245,45 @@ Shows how to set chart axis title.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getRotation() {#getRotation}
+```
+public int getRotation()
+```
+
+
+Gets the rotation of the axis title in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive.
+
+ **Examples:** 
+
+Shows how to set orientation and rotation of chart and axis titles.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Returns:**
+int - The rotation of the axis title in degrees.
 ### getShow() {#getShow}
 ```
 public boolean getShow()
@@ -292,6 +374,48 @@ Shows how to set chart axis title.
 
 **Returns:**
 java.lang.String - The text of the axis title.
+### setOrientation(int value) {#setOrientation-int}
+```
+public void setOrientation(int value)
+```
+
+
+Sets the orientation of the axis title text.
+
+ **Remarks:** 
+
+The default value is [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+ **Examples:** 
+
+Shows how to set orientation and rotation of chart and axis titles.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The orientation of the axis title text. The value must be one of [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/) constants. |
+
 ### setOverlay(boolean value) {#setOverlay-boolean}
 ```
 public void setOverlay(boolean value)
@@ -337,6 +461,48 @@ Shows how to set chart axis title.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setRotation(int value) {#setRotation-int}
+```
+public void setRotation(int value)
+```
+
+
+Sets the rotation of the axis title in degrees.
+
+ **Remarks:** 
+
+The range of acceptable values is from -180 to 180 inclusive.
+
+ **Examples:** 
+
+Shows how to set orientation and rotation of chart and axis titles.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The rotation of the axis title in degrees. |
 
 ### setShow(boolean value) {#setShow-boolean}
 ```

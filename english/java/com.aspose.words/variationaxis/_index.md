@@ -4,7 +4,7 @@ linktitle: VariationAxis
 second_title: Aspose.Words for Java
 description: Represents OpenType Design-Variation Axis Tag in Java.
 type: docs
-weight: 701
+weight: 704
 url: /java/com.aspose.words/variationaxis/
 ---
 

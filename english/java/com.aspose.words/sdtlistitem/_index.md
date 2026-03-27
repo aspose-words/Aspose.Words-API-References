@@ -4,7 +4,7 @@ linktitle: SdtListItem
 second_title: Aspose.Words for Java
 description: This element specifies a single list item within a parent SdtType.COMBO_BOX or SdtType.DROP_DOWN_LIST structured document tag in Java.
 type: docs
-weight: 600
+weight: 601
 url: /java/com.aspose.words/sdtlistitem/
 ---
 

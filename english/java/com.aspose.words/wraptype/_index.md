@@ -4,7 +4,7 @@ linktitle: WrapType
 second_title: Aspose.Words for Java
 description: Specifies how text is wrapped around a shape or picture in Java.
 type: docs
-weight: 734
+weight: 737
 url: /java/com.aspose.words/wraptype/
 ---
 

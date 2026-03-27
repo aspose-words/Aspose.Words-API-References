@@ -427,6 +427,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Inline](../com.aspose.words/inline/) | Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own. |
 | [InlineStory](../com.aspose.words/inlinestory/) | Base class for inline-level nodes that can contain paragraphs and tables. |
 | [InternableComplexAttr](../com.aspose.words/internablecomplexattr/) | Base class for internable complex attribute. |
+| [JoinRunsOptions](../com.aspose.words/joinrunsoptions/) | Provides configuration flags for the join runs operation. |
 | [JoinStyle](../com.aspose.words/joinstyle/) | Line join style. |
 | [JsonDataLoadOptions](../com.aspose.words/jsondataloadoptions/) | Represents options for parsing JSON data. |
 | [JsonDataSource](../com.aspose.words/jsondatasource/) | Provides access to data of a JSON file or stream to be used within a report. |
@@ -525,7 +526,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [OlePackage](../com.aspose.words/olepackage/) | Allows to access OLE Package properties. |
 | [OoxmlCompliance](../com.aspose.words/ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
 | [OoxmlSaveOptions](../com.aspose.words/ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOCX](../com.aspose.words/saveformat/\#DOCX), [SaveFormat.\#DOCM](../com.aspose.words/saveformat/\#DOCM), [SaveFormat.\#DOTX](../com.aspose.words/saveformat/\#DOTX), [SaveFormat.\#DOTM](../com.aspose.words/saveformat/\#DOTM) or [SaveFormat.\#FLAT\_OPC](../com.aspose.words/saveformat/\#FLAT-OPC) format. |
-| [OpenAiModel](../com.aspose.words/openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |
+| [OpenAiModel](../com.aspose.words/openaimodel/) | Class representing OpenAi models integration within Aspose.Words. |
 | [OptionButtonControl](../com.aspose.words/optionbuttoncontrol/) | The OptionButton control enables a single choice in a limited set of mutually exclusive choices. |
 | [Orientation](../com.aspose.words/orientation/) | Specifies page orientation. |
 | [OutlineLevel](../com.aspose.words/outlinelevel/) | Specifies the outline level of a paragraph in the document. |
@@ -665,6 +666,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [StyleIdentifier](../com.aspose.words/styleidentifier/) | Locale independent style identifier. |
 | [StyleType](../com.aspose.words/styletype/) | Represents type of the style. |
 | [SubDocument](../com.aspose.words/subdocument/) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
+| [SubscriptionService](../com.aspose.words/subscriptionservice/) |  |
 | [SummarizeOptions](../com.aspose.words/summarizeoptions/) | Allows to specify various options for summarizing document content. |
 | [SummaryLength](../com.aspose.words/summarylength/) | Enumerates possible lengths of summary. |
 | [SvgSaveOptions](../com.aspose.words/svgsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#SVG](../com.aspose.words/saveformat/\#SVG) format. |
@@ -720,6 +722,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [UnicodeScript](../com.aspose.words/unicodescript/) | Unicode Character Database property: Script (sc). |
 | [UnsupportedEncryptionException](../com.aspose.words/unsupportedencryptionexception/) | Thrown during document load, when the document is encrypted with an unsupported method. |
 | [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
+| [UsageService](../com.aspose.words/usageservice/) |  |
 | [UserInformation](../com.aspose.words/userinformation/) | Specifies information about the user. |
 | [VariableCollection](../com.aspose.words/variablecollection/) | A collection of document variables. |
 | [VariationAxis](../com.aspose.words/variationaxis/) | Represents OpenType Design-Variation Axis Tag. |

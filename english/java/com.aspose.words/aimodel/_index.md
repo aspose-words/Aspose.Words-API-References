@@ -170,8 +170,7 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      String apiKey = System.getenv("API_KEY");
      // Use OpenAI generative language models.
-     AiModel model = new CustomAiModel().withApiKey(apiKey);
-     model.setUrl("https://my.a.com/");
+     AiModel model = new CustomAiModel("my-model-24b", "https://my.a.com/").withApiKey(apiKey);
 
      Document translatedDoc = model.translate(doc, Language.RUSSIAN);
      translatedDoc.save(getArtifactsDir() + "AI.SelfHostedModel.docx");
@@ -182,10 +181,16 @@ Shows how to use self-hosted AI model based on OpenAiModel.
  /// 
  static class CustomAiModel extends OpenAiModel
  {
-     /// 
-     /// Gets model name.
-     /// 
-     protected  String getName() { return "my-model-24b"; }
+     CustomAiModel(String name, String url)
+     {
+         super(name);
+
+         mUrl = url;
+     }
+
+     public String getUrl() { return mUrl; }
+
+     private String mUrl;
  }
  
 ```
@@ -249,8 +254,7 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      String apiKey = System.getenv("API_KEY");
      // Use OpenAI generative language models.
-     AiModel model = new CustomAiModel().withApiKey(apiKey);
-     model.setUrl("https://my.a.com/");
+     AiModel model = new CustomAiModel("my-model-24b", "https://my.a.com/").withApiKey(apiKey);
 
      Document translatedDoc = model.translate(doc, Language.RUSSIAN);
      translatedDoc.save(getArtifactsDir() + "AI.SelfHostedModel.docx");
@@ -261,10 +265,16 @@ Shows how to use self-hosted AI model based on OpenAiModel.
  /// 
  static class CustomAiModel extends OpenAiModel
  {
-     /// 
-     /// Gets model name.
-     /// 
-     protected  String getName() { return "my-model-24b"; }
+     CustomAiModel(String name, String url)
+     {
+         super(name);
+
+         mUrl = url;
+     }
+
+     public String getUrl() { return mUrl; }
+
+     private String mUrl;
  }
  
 ```

@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XPS format in Java.
 type: docs
-weight: 746
+weight: 749
 url: /java/com.aspose.words/xpssaveoptions/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for Java
 description: Represents a table in a Word document in Java.
 type: docs
-weight: 653
+weight: 655
 url: /java/com.aspose.words/table/
 ---
 
@@ -1704,7 +1704,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -1716,6 +1715,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -1831,7 +1832,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -1843,6 +1843,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -3219,7 +3221,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -3231,6 +3232,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -3331,7 +3334,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -3343,6 +3345,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -4903,7 +4907,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -4915,6 +4918,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -5068,7 +5073,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -5080,6 +5084,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -5751,7 +5757,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -5763,6 +5768,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
@@ -5869,7 +5876,6 @@ Shows how to create custom style settings for the table.
 
  TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
  tableStyle.setAllowBreakAcrossPages(true);
- tableStyle.setBidi(true);
  tableStyle.setCellSpacing(5.0);
  tableStyle.setBottomPadding(20.0);
  tableStyle.setLeftPadding(5.0);
@@ -5881,6 +5887,8 @@ Shows how to create custom style settings for the table.
  tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
 
  table.setStyle(tableStyle);
+
+ table.setBidi(true);
 
  // Setting the style properties of a table may affect the properties of the table itself.
  Assert.assertTrue(table.getBidi());
