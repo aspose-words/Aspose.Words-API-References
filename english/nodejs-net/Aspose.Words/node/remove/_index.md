@@ -20,22 +20,6 @@ remove()
 
 ### Examples
 
-Shows how to delete all shapes with images from a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-
-expect(shapes.filter(s => s.hasImage).length).toEqual(9);
-
-for (let shape of shapes)
-  if (shape.hasImage) 
-    shape.remove();
-
-shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-expect(shapes.filter(s => s.hasImage).length).toEqual(0);
-```
-
 Shows how to remove all child nodes of a specific type from a composite node.
 
 ```js
@@ -59,6 +43,22 @@ while (curNode != null)
 }
 
 expect(doc.getChildNodes(aw.NodeType.Table, true).count).toEqual(0);
+```
+
+Shows how to delete all shapes with images from a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+
+expect(shapes.filter(s => s.hasImage).length).toEqual(9);
+
+for (let shape of shapes)
+  if (shape.hasImage) 
+    shape.remove();
+
+shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+expect(shapes.filter(s => s.hasImage).length).toEqual(0);
 ```
 
 ### See Also
