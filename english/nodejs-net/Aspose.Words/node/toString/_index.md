@@ -47,37 +47,6 @@ The content of the node in the specified format.
 
 ## Examples
 
-Shows how to extract the list labels of all paragraphs that are list items.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-doc.updateListLabels();
-
-let paras = doc.getChildNodes(aw.NodeType.Paragraph, true).toArray();
-
-// Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
-// which start at three and ends at six.
-for (let node of paras.filter(p => p.asParagraph().listFormat.isListItem))
-{
-  let paragraph = node.asParagraph();
-  console.log(`List item paragraph #${paras.indexOf(paragraph)}`);
-
-  // This is the text we get when getting when we output this node to text format.
-  // This text output will omit list labels. Trim any paragraph formatting characters. 
-  let paragraphText = paragraph.toString(aw.SaveFormat.Text).trim();
-  console.log(`\tExported Text: ${paragraphText}`);
-
-  let label = paragraph.listLabel;
-
-  // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
-  // this will tell us what position it is on that level.
-  console.log(`\tNumerical Id: ${label.labelValue}`);
-
-  // Combine them together to include the list label with the text in the output.
-  console.log(`\tList label combined with text: ${label.labelString} ${paragraphText}`);
-}
-```
-
 Exports the content of a node to String in HTML format.
 
 ```js
@@ -110,6 +79,37 @@ builder.insertField("MERGEFIELD Field");
 expect(doc.getText().trim()).toEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015");
 // ToString will give us the document's appearance if saved to a passed save format.
 expect(doc.toString(aw.SaveFormat.Text).trim()).toEqual("«Field»");
+```
+
+Shows how to extract the list labels of all paragraphs that are list items.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+doc.updateListLabels();
+
+let paras = doc.getChildNodes(aw.NodeType.Paragraph, true).toArray();
+
+// Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+// which start at three and ends at six.
+for (let node of paras.filter(p => p.asParagraph().listFormat.isListItem))
+{
+  let paragraph = node.asParagraph();
+  console.log(`List item paragraph #${paras.indexOf(paragraph)}`);
+
+  // This is the text we get when getting when we output this node to text format.
+  // This text output will omit list labels. Trim any paragraph formatting characters. 
+  let paragraphText = paragraph.toString(aw.SaveFormat.Text).trim();
+  console.log(`\tExported Text: ${paragraphText}`);
+
+  let label = paragraph.listLabel;
+
+  // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+  // this will tell us what position it is on that level.
+  console.log(`\tNumerical Id: ${label.labelValue}`);
+
+  // Combine them together to include the list label with the text in the output.
+  console.log(`\tList label combined with text: ${label.labelString} ${paragraphText}`);
+}
 ```
 
 ## See Also
