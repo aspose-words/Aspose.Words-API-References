@@ -22,6 +22,7 @@ class Splitter : public Aspose::Words::LowCode::Processor
 | --- | --- |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::SplitterContext\>\&) | Creates new instance of the splitter processor. |
 | [Execute](../processor/execute/)() | Execute the processor action. |
+| [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | static [ExtractPages](./extractpages/)(const System::String\&, const System::String\&, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file. The output file format is determined by the extension of the output file name. |
 | static [ExtractPages](./extractpages/)(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format. |
 | static [ExtractPages](./extractpages/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format. |

@@ -30,7 +30,6 @@ class TableStyle : public Aspose::Words::Style,
 | [get_AllowBreakAcrossPages](./get_allowbreakacrosspages/)() | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
 | [get_AutomaticallyUpdate](../style/get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](../style/get_basestylename/)() | Gets/sets the name of the style this style is based on. |
-| [get_Bidi](./get_bidi/)() | Gets or sets whether this is a style for a right-to-left table. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the style. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [get_BuiltIn](../style/get_builtin/)() | True if this style is one of the built-in styles in MS Word. |
@@ -68,7 +67,6 @@ class TableStyle : public Aspose::Words::Style,
 | [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | Setter for [Aspose::Words::TableStyle::get_AllowBreakAcrossPages](./get_allowbreakacrosspages/). |
 | [set_AutomaticallyUpdate](../style/set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](../style/get_automaticallyupdate/). |
 | [set_BaseStyleName](../style/set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](../style/get_basestylename/). |
-| [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::TableStyle::get_Bidi](./get_bidi/). |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::TableStyle::get_BottomPadding](./get_bottompadding/). |
 | [set_CellSpacing](./set_cellspacing/)(double) | Setter for [Aspose::Words::TableStyle::get_CellSpacing](./get_cellspacing/). |
 | [set_ColumnStripe](./set_columnstripe/)(int32_t) | Setter for [Aspose::Words::TableStyle::get_ColumnStripe](./get_columnstripe/). |
@@ -109,7 +107,6 @@ builder->EndTable();
 
 auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
-tableStyle->set_Bidi(true);
 tableStyle->set_CellSpacing(5);
 tableStyle->set_BottomPadding(20);
 tableStyle->set_LeftPadding(5);
@@ -123,7 +120,7 @@ tableStyle->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::
 table->set_Style(tableStyle);
 
 // Setting the style properties of a table may affect the properties of the table itself.
-ASSERT_TRUE(table->get_Bidi());
+ASSERT_FALSE(table->get_Bidi());
 ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
 ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 

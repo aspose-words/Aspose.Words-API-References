@@ -38,7 +38,6 @@ builder->EndTable();
 
 auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
-tableStyle->set_Bidi(true);
 tableStyle->set_CellSpacing(5);
 tableStyle->set_BottomPadding(20);
 tableStyle->set_LeftPadding(5);
@@ -52,7 +51,7 @@ tableStyle->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::
 table->set_Style(tableStyle);
 
 // Setting the style properties of a table may affect the properties of the table itself.
-ASSERT_TRUE(table->get_Bidi());
+ASSERT_FALSE(table->get_Bidi());
 ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
 ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
