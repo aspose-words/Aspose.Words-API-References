@@ -2,7 +2,7 @@
 title: Aspose::Words::AI::OpenAiModel class
 linktitle: OpenAiModel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::AI::OpenAiModel class. An abstract class representing the integration with OpenAI''s large language models within the Aspose.Words in C++.'
+description: 'Aspose::Words::AI::OpenAiModel class. Class representing OpenAi models integration within Aspose.Words in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.ai/openaimodel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/openaimodel/
 ## OpenAiModel class
 
 
-An abstract class representing the integration with OpenAI's large language models within the [Aspose.Words](../../aspose.words/).
+Class representing OpenAi models integration within [Aspose.Words](../../aspose.words/).
 
 ```cpp
 class OpenAiModel : public Aspose::Words::AI::AiModel
@@ -26,6 +26,8 @@ class OpenAiModel : public Aspose::Words::AI::AiModel
 | [get_Url](./get_url/)() override | Gets a URL of the model. The default value is "https://api.openai.com/". |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [OpenAiModel](./openaimodel/)(const System::String\&, const System::String\&) | Initializes a new instance of [OpenAiModel](./) class. |
+| [OpenAiModel](./openaimodel/)(const System::String\&) | Initializes a new instance of [OpenAiModel](./) class. |
 | [set_Timeout](../aimodel/set_timeout/)(int32_t) | Setter for [Aspose::Words::AI::AiModel::get_Timeout](../aimodel/get_timeout/). |
 | [set_Url](./set_url/)(System::String) override | Sets a URL of the model. The default value is "https://api.openai.com/". |
 | [Summarize](./summarize/)(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) override | Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected [AI](../) model for content processing. |

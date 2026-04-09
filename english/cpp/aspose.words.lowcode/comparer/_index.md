@@ -37,6 +37,7 @@ class Comparer : public Aspose::Words::LowCode::Processor
 | static [Create](./create/)() | Creates new instance of the converter processor. |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::ComparerContext\>\&) | Creates new instance of the comparer processor. |
 | [Execute](../processor/execute/)() | Execute the processor action. |
+| [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](../processor/from/)(const System::String\&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Specifies input document for processing. |
