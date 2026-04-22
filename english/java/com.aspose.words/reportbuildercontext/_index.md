@@ -148,7 +148,7 @@ Initializes a new instance of this class.
 
 ### getDataSources() {#getDataSources}
 ```
-public HashMap getDataSources()
+public LinkedHashMap getDataSources()
 ```
 
 
@@ -266,7 +266,7 @@ Shows how to populate document with data sources.
 ```
 
 **Returns:**
-java.util.HashMap - The corresponding java.util.HashMap value.
+java.util.LinkedHashMap - The corresponding java.util.HashMap value.
 ### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
