@@ -4,7 +4,7 @@ linktitle: VbaModuleType
 second_title: Aspose.Words for Java
 description: Specifies the type of a model in a VBA project in Java.
 type: docs
-weight: 708
+weight: 707
 url: /java/com.aspose.words/vbamoduletype/
 ---
 

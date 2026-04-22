@@ -666,9 +666,9 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [StyleIdentifier](../com.aspose.words/styleidentifier/) | Locale independent style identifier. |
 | [StyleType](../com.aspose.words/styletype/) | Represents type of the style. |
 | [SubDocument](../com.aspose.words/subdocument/) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
-| [SubscriptionService](../com.aspose.words/subscriptionservice/) |  |
 | [SummarizeOptions](../com.aspose.words/summarizeoptions/) | Allows to specify various options for summarizing document content. |
 | [SummaryLength](../com.aspose.words/summarylength/) | Enumerates possible lengths of summary. |
+| [SuperUserJwtTokenRequestHandler](../com.aspose.words/superuserjwttokenrequesthandler/) | JWT Token Request Handler with caching, local validation, and circuit breaker. |
 | [SvgSaveOptions](../com.aspose.words/svgsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#SVG](../com.aspose.words/saveformat/\#SVG) format. |
 | [SvgTextOutputMode](../com.aspose.words/svgtextoutputmode/) | Allows to specify how text inside a document should be rendered when saving in SVG format. |
 | [SystemFontSource](../com.aspose.words/systemfontsource/) | Represents all TrueType fonts installed to the system. |
@@ -722,7 +722,6 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [UnicodeScript](../com.aspose.words/unicodescript/) | Unicode Character Database property: Script (sc). |
 | [UnsupportedEncryptionException](../com.aspose.words/unsupportedencryptionexception/) | Thrown during document load, when the document is encrypted with an unsupported method. |
 | [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
-| [UsageService](../com.aspose.words/usageservice/) |  |
 | [UserInformation](../com.aspose.words/userinformation/) | Specifies information about the user. |
 | [VariableCollection](../com.aspose.words/variablecollection/) | A collection of document variables. |
 | [VariationAxis](../com.aspose.words/variationaxis/) | Represents OpenType Design-Variation Axis Tag. |

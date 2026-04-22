@@ -21,15 +21,15 @@ Provides typed access to **T:Aspose.Words.Notes.FootnoteSeparator** nodes of a d
 
  **Examples:** 
 
-Shows how to remove endnote separator.
+Shows how to manage footnote separator format.
 
 ```
 
  Document doc = new Document(getMyDir() + "Footnotes and endnotes.docx");
 
- FootnoteSeparator endnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.ENDNOTE_SEPARATOR);
- // Remove endnote separator.
- endnoteSeparator.getFirstParagraph().getFirstChild().remove();
+ FootnoteSeparator footnoteSeparator = doc.getFootnoteSeparators().getByFootnoteSeparatorType(FootnoteSeparatorType.FOOTNOTE_SEPARATOR);
+ // Align footnote separator.
+ footnoteSeparator.getFirstParagraph().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
  
 ```
 ## Methods
