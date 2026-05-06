@@ -21,22 +21,6 @@ get hasImage(): boolean
 
 ### Examples
 
-Shows how to delete all shapes with images from a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-
-expect(shapes.filter(s => s.hasImage).length).toEqual(9);
-
-for (let shape of shapes)
-  if (shape.hasImage) 
-    shape.remove();
-
-shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-expect(shapes.filter(s => s.hasImage).length).toEqual(0);
-```
-
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
 ```js
@@ -62,6 +46,22 @@ for (let node of nodes)
     imageIndex++;
   }
 }
+```
+
+Shows how to delete all shapes with images from a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+
+expect(shapes.filter(s => s.hasImage).length).toEqual(9);
+
+for (let shape of shapes)
+  if (shape.hasImage) 
+    shape.remove();
+
+shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+expect(shapes.filter(s => s.hasImage).length).toEqual(0);
 ```
 
 ### See Also

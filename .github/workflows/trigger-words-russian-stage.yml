@@ -1,0 +1,17 @@
+name: Trigger Words Russian Stage Build
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'russian/**' ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+          repository: Aspose/apireference.aspose.com
+          event-type: build-words-russian-stage

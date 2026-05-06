@@ -5,7 +5,7 @@ articleTitle: signTime property
 second_title: Aspose.Words for Node.js
 description: "DigitalSignature.signTime property. Gets the time the document was signed."
 type: docs
-weight: 50
+weight: 90
 url: /nodejs-net/aspose.words/digitalsignature/signTime/
 ---
 

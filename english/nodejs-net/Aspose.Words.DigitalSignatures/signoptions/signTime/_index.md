@@ -5,7 +5,7 @@ articleTitle: signTime property
 second_title: Aspose.Words for Node.js
 description: "SignOptions.signTime property. The date of signing"
 type: docs
-weight: 50
+weight: 90
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/signTime/
 ---
 

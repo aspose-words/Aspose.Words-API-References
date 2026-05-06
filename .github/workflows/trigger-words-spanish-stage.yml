@@ -1,0 +1,17 @@
+name: Trigger Words Spanish Stage Build
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'spanish/**' ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+          repository: Aspose/apireference.aspose.com
+          event-type: build-words-spanish-stage

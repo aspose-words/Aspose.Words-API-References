@@ -21,6 +21,7 @@ class Processor : public System::Object
 | Method | Description |
 | --- | --- |
 | [Execute](./execute/)() | Execute the processor action. |
+| [Execute](./execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](./from/)(const System::String\&) | Specifies input document for processing. |
 | [From](./from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
 | [From](./from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Specifies input document for processing. |
