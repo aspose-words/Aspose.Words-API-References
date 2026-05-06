@@ -5,7 +5,7 @@ articleTitle: SubjectName
 second_title: Aspose.Words for .NET
 description: Discover the DigitalSignature SubjectName property, which reveals the certificate's subject distinguished name, enhancing document authenticity and security.
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property

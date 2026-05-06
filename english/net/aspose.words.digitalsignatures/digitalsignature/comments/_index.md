@@ -5,7 +5,7 @@ articleTitle: Comments
 second_title: Aspose.Words for .NET
 description: Discover the DigitalSignature Comments property to enhance your signing process with clear purpose comments. Boost efficiency and clarity in your documents!
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property

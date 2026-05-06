@@ -5,7 +5,7 @@ articleTitle: IsValid
 second_title: Aspose.Words for .NET
 description: Ensure document integrity with the DigitalSignature IsValid property, confirming authenticity and protection against tampering. Trust your digital signatures!
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
