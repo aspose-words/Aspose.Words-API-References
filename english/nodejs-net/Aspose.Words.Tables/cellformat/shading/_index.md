@@ -21,38 +21,6 @@ get shading(): Aspose.Words.Shading
 
 ### Examples
 
-Shows how to modify the format of rows and cells in a table.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.write("City");
-builder.insertCell();
-builder.write("Country");
-builder.endRow();
-builder.insertCell();
-builder.write("London");
-builder.insertCell();
-builder.write("U.K.");
-builder.endTable();
-
-// Use the first row's "RowFormat" property to modify the formatting
-// of the contents of all cells in this row.
-let rowFormat = table.firstRow.rowFormat;
-rowFormat.height = 25;
-rowFormat.borders.at(aw.BorderType.Bottom).color = "#FF0000";
-
-// Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
-let cellFormat = table.lastRow.firstCell.cellFormat;
-cellFormat.width = 100;
-cellFormat.shading.backgroundPatternColor = "#FFA500";
-
-doc.save(base.artifactsDir + "Table.RowCellFormat.docx");
-```
-
 Shows how to build a table with custom borders.
 
 ```js
@@ -112,6 +80,38 @@ builder.endRow();
 builder.endTable();
 
 doc.save(base.artifactsDir + "DocumentBuilder.InsertTable.docx");
+```
+
+Shows how to modify the format of rows and cells in a table.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.write("City");
+builder.insertCell();
+builder.write("Country");
+builder.endRow();
+builder.insertCell();
+builder.write("London");
+builder.insertCell();
+builder.write("U.K.");
+builder.endTable();
+
+// Use the first row's "RowFormat" property to modify the formatting
+// of the contents of all cells in this row.
+let rowFormat = table.firstRow.rowFormat;
+rowFormat.height = 25;
+rowFormat.borders.at(aw.BorderType.Bottom).color = "#FF0000";
+
+// Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
+let cellFormat = table.lastRow.firstCell.cellFormat;
+cellFormat.width = 100;
+cellFormat.shading.backgroundPatternColor = "#FFA500";
+
+doc.save(base.artifactsDir + "Table.RowCellFormat.docx");
 ```
 
 ### See Also

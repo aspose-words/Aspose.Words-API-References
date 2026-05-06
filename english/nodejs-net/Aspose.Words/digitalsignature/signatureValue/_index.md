@@ -5,7 +5,7 @@ articleTitle: signatureValue property
 second_title: Aspose.Words for Node.js
 description: "DigitalSignature.signatureValue property. Gets an array of bytes representing a signature value."
 type: docs
-weight: 70
+weight: 110
 url: /nodejs-net/aspose.words/digitalsignature/signatureValue/
 ---
 
