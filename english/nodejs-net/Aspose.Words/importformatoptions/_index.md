@@ -33,6 +33,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [ignoreTextBoxes](./ignoreTextBoxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``true``. |
 | [keepSourceNumbering](./keepSourceNumbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``false``. |
 | [mergePastedLists](./mergePastedLists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``false``. |
+| [resolveThemeColors](./resolveThemeColors/) | Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is ``false``. |
 | [smartStyleBehavior](./smartStyleBehavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``false``. |
 
 ### Examples

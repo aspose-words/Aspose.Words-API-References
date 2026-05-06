@@ -90,6 +90,48 @@ of the source node is created.
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 
 
+## importNode(srcNode, isImportChildren, importFormatMode, importFormatOptions) {#node_boolean_importformatmode_importformatoptions}
+
+Imports a node from another document to the current document with an option to control formatting.
+
+
+
+
+```js
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | [Node](../../node/) | The node to imported. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
+| importFormatMode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+| importFormatOptions | [ImportFormatOptions](../../importformatoptions/) | Allows to specify various additional formating options. |
+
+### Remarks
+
+This overload is useful to control how styles and list formatting are imported.
+
+Importing a node creates a copy of the source node belonging to the importing document. 
+The returned node has no parent. The source node is not altered or removed from the original document.
+
+Before a node from another document can be inserted into this document, it must be imported.
+During import, document-specific properties such as references to styles and lists are translated
+from the original to the importing document. After the node was imported, it can be inserted
+into the appropriate place in the document using [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node) or 
+[CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node).
+
+If the source node already belongs to the destination document, then simply a deep clone
+of the source node is created.
+
+
+
+
+### Returns
+
+The cloned, imported node. The node belongs to the destination document, but has no parent.
+
+
 ## Examples
 
 Shows how to import a node from one document to another.

@@ -5,7 +5,7 @@ articleTitle: xmlDsigLevel property
 second_title: Aspose.Words for Node.js
 description: "SignOptions.xmlDsigLevel property. Specifies the level of a digital signature based on XML-DSig standard"
 type: docs
-weight: 80
+weight: 140
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/xmlDsigLevel/
 ---
 

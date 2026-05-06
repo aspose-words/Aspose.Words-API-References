@@ -5,7 +5,7 @@ articleTitle: subjectName property
 second_title: Aspose.Words for Node.js
 description: "DigitalSignature.subjectName property. Returns the subject distinguished name of the certificate that was used to sign the document."
 type: docs
-weight: 80
+weight: 120
 url: /nodejs-net/aspose.words/digitalsignature/subjectName/
 ---
 

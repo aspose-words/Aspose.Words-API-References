@@ -21,14 +21,20 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 | Name | Description |
 | --- | --- |
+| [applicationVersion](./applicationVersion/) | Gets the application version for the digital signature. |
 | [certificateHolder](./certificateHolder/) | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [colorDepth](./colorDepth/) | Gets the color depth for the digital signature. |
 | [comments](./comments/) | Gets the signing purpose comment. |
+| [horizontalResolution](./horizontalResolution/) | Gets the horizontal resolution for the digital signature. |
 | [isValid](./isValid/) | Returns ``true`` if this digital signature is valid and the document has not been tampered with. |
 | [issuerName](./issuerName/) | Returns the subject distinguished name of the certificate isuuer. |
+| [officeVersion](./officeVersion/) | Gets the Office version for the digital signature. |
 | [signTime](./signTime/) | Gets the time the document was signed. |
 | [signatureType](./signatureType/) | Gets the type of the digital signature. |
 | [signatureValue](./signatureValue/) | Gets an array of bytes representing a signature value. |
 | [subjectName](./subjectName/) | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [verticalResolution](./verticalResolution/) | Gets the vertical resolution for the digital signature. |
+| [windowsVersion](./windowsVersion/) | Gets the Windows version for the digital signature. |
 
 ### Examples
 
