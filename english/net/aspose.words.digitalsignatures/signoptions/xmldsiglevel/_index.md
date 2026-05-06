@@ -5,7 +5,7 @@ articleTitle: XmlDsigLevel
 second_title: Aspose.Words for .NET
 description: Discover the XmlDsigLevel property in SignOptions, defining digital signature strength per XMLDSig standards. Ensure secure and reliable signatures!
 type: docs
-weight: 80
+weight: 140
 url: /net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/
 ---
 ## SignOptions.XmlDsigLevel property

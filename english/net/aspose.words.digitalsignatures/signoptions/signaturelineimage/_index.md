@@ -5,7 +5,7 @@ articleTitle: SignatureLineImage
 second_title: Aspose.Words for .NET
 description: Discover the SignOptions SignatureLineImage property to enhance your digital signatures with custom images. Elevate your brand's professionalism today!
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property

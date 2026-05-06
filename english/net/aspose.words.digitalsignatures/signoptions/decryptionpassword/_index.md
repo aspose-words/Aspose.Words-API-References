@@ -5,7 +5,7 @@ articleTitle: DecryptionPassword
 second_title: Aspose.Words for .NET
 description: Unlock your documents effortlessly with SignOptions' DecryptionPassword feature. Securely decrypt source files with ease; default is an empty string.
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property

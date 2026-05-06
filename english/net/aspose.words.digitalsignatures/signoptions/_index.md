@@ -28,12 +28,18 @@ public class SignOptions
 
 | Name | Description |
 | --- | --- |
+| [ApplicationVersion](../../aspose.words.digitalsignatures/signoptions/applicationversion/) { get; set; } | Gets or sets the application version for the digital signature. Default value is "12.0". |
+| [ColorDepth](../../aspose.words.digitalsignatures/signoptions/colordepth/) { get; set; } | Gets or sets the color depth for the digital signature. Default value is 32. |
 | [Comments](../../aspose.words.digitalsignatures/signoptions/comments/) { get; set; } | Specifies comments on the digital signature. Default value is **empty string**(Empty). |
 | [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword/) { get; set; } | The password to decrypt source document. Default value is **empty string** (Empty). |
+| [HorizontalResolution](../../aspose.words.digitalsignatures/signoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for the digital signature. Default value is 1920. |
+| [OfficeVersion](../../aspose.words.digitalsignatures/signoptions/officeversion/) { get; set; } | Gets or sets the Office version for the digital signature. Default value is "12.0". |
 | [ProviderId](../../aspose.words.digitalsignatures/signoptions/providerid/) { get; set; } | Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**. |
 | [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid/) { get; set; } | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage/) { get; set; } | The image that will be shown in associated [`SignatureLine`](../../aspose.words.drawing/signatureline/). Default value is `null`. |
 | [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime/) { get; set; } | The date of signing. Default value is **current time** (Now) |
+| [VerticalResolution](../../aspose.words.digitalsignatures/signoptions/verticalresolution/) { get; set; } | Gets or sets the vertical resolution for the digital signature. Default value is 1200. |
+| [WindowsVersion](../../aspose.words.digitalsignatures/signoptions/windowsversion/) { get; set; } | Gets or sets the Windows version for the digital signature. Default value is "6.1". |
 | [XmlDsigLevel](../../aspose.words.digitalsignatures/signoptions/xmldsiglevel/) { get; set; } | Specifies the level of a digital signature based on XML-DSig standard. The default value is XmlDSig. |
 
 ## Examples

@@ -144,3 +144,70 @@ Assert.That(dstDoc.Styles["My style_0"].Font.Name, Is.EqualTo(srcStyle.Font.Name
 * class [DocumentBase](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)
+
+---
+
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#importnode_2}
+
+Imports a node from another document to the current document with an option to control formatting.
+
+```csharp
+public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode importFormatMode, 
+    ImportFormatOptions importFormatOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | Node | The node to imported. |
+| isImportChildren | Boolean | `true` to import all child nodes recursively; otherwise, `false`. |
+| importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
+| importFormatOptions | ImportFormatOptions | Allows to specify various additional formating options. |
+
+### Return Value
+
+The cloned, imported node. The node belongs to the destination document, but has no parent.
+
+## Remarks
+
+This overload is useful to control how styles and list formatting are imported.
+
+Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
+
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [`InsertBefore`](../../compositenode/insertbefore/) or [`InsertAfter`](../../compositenode/insertafter/).
+
+If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
+
+## Examples
+
+Shows how to import a node with resolving source theme colors of shapes.
+
+```csharp
+Document srcDoc = new Document();
+DocumentBuilder builder = new DocumentBuilder(srcDoc);
+
+// Move to the primary footer and insert a shape that uses theme colors.
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 50);
+shape.Stroke.ForeThemeColor = ThemeColor.Dark1;
+
+Document dstDoc = new Document();
+// Import the source footer into the destination document with theme colors resolved,
+// so the shape preserves its actual color from the source document.
+Aspose.Words.HeaderFooter footer = srcDoc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary];
+
+ImportFormatOptions options = new ImportFormatOptions { ResolveThemeColors = true };
+Aspose.Words.HeaderFooter importedFooter = (Aspose.Words.HeaderFooter)dstDoc.ImportNode(footer, true, ImportFormatMode.KeepSourceFormatting, options);
+
+dstDoc.FirstSection.HeadersFooters.Add(importedFooter);
+
+dstDoc.Save(ArtifactsDir + "DocumentBase.ImportNodeWithResolveThemeColors.docx");
+```
+
+### See Also
+
+* class [Node](../../node/)
+* enum [ImportFormatMode](../../importformatmode/)
+* class [ImportFormatOptions](../../importformatoptions/)
+* class [DocumentBase](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)

@@ -5,7 +5,7 @@ articleTitle: CertificateHolder
 second_title: Aspose.Words for .NET
 description: Discover the DigitalSignature CertificateHolder property, which retrieves the certificate holder object for enhanced document signing security and verification.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 ---
 ## DigitalSignature.CertificateHolder property

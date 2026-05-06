@@ -5,7 +5,7 @@ articleTitle: SignatureType
 second_title: Aspose.Words for .NET
 description: Discover the DigitalSignature SignatureType property to easily identify your digital signature type and enhance your document security today!
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 ---
 ## DigitalSignature.SignatureType property

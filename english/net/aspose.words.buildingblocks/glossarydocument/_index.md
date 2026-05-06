@@ -72,6 +72,7 @@ public class GlossaryDocument : DocumentBase
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Gets the text of this node and of all its children. |
 | [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../../aspose.words/node/), bool*) | Imports a node from another document to the current document. |
 | [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../../aspose.words/node/), bool, [ImportFormatMode](../../aspose.words/importformatmode/)*) | Imports a node from another document to the current document with an option to control formatting. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../../aspose.words/node/), bool, [ImportFormatMode](../../aspose.words/importformatmode/), [ImportFormatOptions](../../aspose.words/importformatoptions/)*) | Imports a node from another document to the current document with an option to control formatting. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Inserts the specified node immediately before the specified reference node. |

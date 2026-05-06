@@ -22,14 +22,20 @@ public class DigitalSignature
 
 | Name | Description |
 | --- | --- |
+| [ApplicationVersion](../../aspose.words.digitalsignatures/digitalsignature/applicationversion/) { get; } | Gets the application version for the digital signature. |
 | [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [ColorDepth](../../aspose.words.digitalsignatures/digitalsignature/colordepth/) { get; } | Gets the color depth for the digital signature. |
 | [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Gets the signing purpose comment. |
+| [HorizontalResolution](../../aspose.words.digitalsignatures/digitalsignature/horizontalresolution/) { get; } | Gets the horizontal resolution for the digital signature. |
 | [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returns the subject distinguished name of the certificate isuuer. |
 | [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returns `true` if this digital signature is valid and the document has not been tampered with. |
+| [OfficeVersion](../../aspose.words.digitalsignatures/digitalsignature/officeversion/) { get; } | Gets the Office version for the digital signature. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Gets the type of the digital signature. |
 | [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Gets an array of bytes representing a signature value. |
 | [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Gets the time the document was signed. |
 | [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [VerticalResolution](../../aspose.words.digitalsignatures/digitalsignature/verticalresolution/) { get; } | Gets the vertical resolution for the digital signature. |
+| [WindowsVersion](../../aspose.words.digitalsignatures/digitalsignature/windowsversion/) { get; } | Gets the Windows version for the digital signature. |
 
 ## Methods
 

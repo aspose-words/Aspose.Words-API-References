@@ -5,7 +5,7 @@ articleTitle: Comments
 second_title: Aspose.Words for .NET
 description: Discover the SignOptions Comments property to enhance your digital signature with custom notes. Improve clarity and communication effortlessly!
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
