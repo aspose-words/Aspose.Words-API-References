@@ -5,7 +5,7 @@ articleTitle: providerId property
 second_title: Aspose.Words for Node.js
 description: "SignOptions.providerId property. Specifies the class ID of the signature provider"
 type: docs
-weight: 40
+weight: 80
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/providerId/
 ---
 

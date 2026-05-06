@@ -114,6 +114,7 @@ root node of the tree that contains all other nodes of the document.
 |[ getText()](../node/getText/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../node/)) |
 |[ importNode(srcNode, isImportChildren)](./importNode/#node_boolean) | Imports a node from another document to the current document. |
 |[ importNode(srcNode, isImportChildren, importFormatMode)](./importNode/#node_boolean_importformatmode) | Imports a node from another document to the current document with an option to control formatting. |
+|[ importNode(srcNode, isImportChildren, importFormatMode, importFormatOptions)](./importNode/#node_boolean_importformatmode_importformatoptions) | Imports a node from another document to the current document with an option to control formatting. |
 |[ indexOf(child)](../compositenode/indexOf/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ insertAfter(newChild, refChild)](../compositenode/insertAfter/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ insertBefore(newChild, refChild)](../compositenode/insertBefore/#node_node) | Inserts the specified node immediately before the specified reference node.<br>(Inherited from [CompositeNode](../compositenode/)) |
