@@ -35,6 +35,7 @@ public class ImportFormatOptions
 | [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes/) { get; set; } | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
 | [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering/) { get; set; } | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is `false`. |
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists/) { get; set; } | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is `false`. |
+| [ResolveThemeColors](../../aspose.words/importformatoptions/resolvethemecolors/) { get; set; } | Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is `false`. |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior/) { get; set; } | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is `false`. |
 
 ## Examples

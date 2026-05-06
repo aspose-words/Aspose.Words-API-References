@@ -5,7 +5,7 @@ articleTitle: SignatureValue
 second_title: Aspose.Words for .NET
 description: Discover the DigitalSignature SignatureValue property, which provides a byte array for secure signature representation. Enhance your digital security today!
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
