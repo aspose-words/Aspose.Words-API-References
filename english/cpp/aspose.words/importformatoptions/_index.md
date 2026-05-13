@@ -27,6 +27,7 @@ class ImportFormatOptions : public System::Object
 | [get_IgnoreTextBoxes](./get_ignoretextboxes/)() const | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [KeepSourceFormatting](../importformatmode/) mode is used. The default value is **true**. |
 | [get_KeepSourceNumbering](./get_keepsourcenumbering/)() const | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is **false**. |
 | [get_MergePastedLists](./get_mergepastedlists/)() const | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is **false**. |
+| [get_ResolveThemeColors](./get_resolvethemecolors/)() const | Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is **false**. |
 | [get_SmartStyleBehavior](./get_smartstylebehavior/)() const | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is **false**. |
 | [GetType](./gettype/)() const override |  |
 | [ImportFormatOptions](./importformatoptions/)() |  |
@@ -38,6 +39,7 @@ class ImportFormatOptions : public System::Object
 | [set_IgnoreTextBoxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes](./get_ignoretextboxes/). |
 | [set_KeepSourceNumbering](./set_keepsourcenumbering/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_KeepSourceNumbering](./get_keepsourcenumbering/). |
 | [set_MergePastedLists](./set_mergepastedlists/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_MergePastedLists](./get_mergepastedlists/). |
+| [set_ResolveThemeColors](./set_resolvethemecolors/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_ResolveThemeColors](./get_resolvethemecolors/). |
 | [set_SmartStyleBehavior](./set_smartstylebehavior/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior](./get_smartstylebehavior/). |
 | static [Type](./type/)() |  |
 
