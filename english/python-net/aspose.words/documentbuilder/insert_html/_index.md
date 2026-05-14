@@ -48,7 +48,7 @@ def insert_html(self, html: str, use_builder_formatting: bool):
 You can use this method to insert an HTML fragment or whole HTML document.
 
 When *useBuilderFormatting* is``False``,
-[DocumentBuilder](../) formating is ignored and formatting of inserted text
+[DocumentBuilder](../) formatting is ignored and formatting of inserted text
 is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
 
