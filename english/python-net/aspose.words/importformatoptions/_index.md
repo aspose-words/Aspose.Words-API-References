@@ -33,6 +33,7 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [ignore_text_boxes](./ignore_text_boxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``True``. |
 | [keep_source_numbering](./keep_source_numbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``False``. |
 | [merge_pasted_lists](./merge_pasted_lists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``False``. |
+| [resolve_theme_colors](./resolve_theme_colors/) | Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is ``False``. |
 | [smart_style_behavior](./smart_style_behavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``False``. |
 
 ### Examples
