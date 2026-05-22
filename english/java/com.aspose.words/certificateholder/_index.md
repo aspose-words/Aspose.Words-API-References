@@ -24,29 +24,6 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 
  **Examples:** 
 
-Shows how to sign encrypted document file.
-
-```
-
- // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
- CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
-
- // Create a comment, date, and decryption password which will be applied with our new digital signature.
- SignOptions signOptions = new SignOptions();
- {
-     signOptions.setComments("Comment");
-     signOptions.setSignTime(new Date());
-     signOptions.setDecryptionPassword("docPassword");
- }
-
- // Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
- String inputFileName = getMyDir() + "Encrypted.docx";
- String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.DecryptionPassword.docx";
-
- DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
- 
-```
-
 Shows how to digitally sign documents.
 
 ```
@@ -74,6 +51,29 @@ Shows how to digitally sign documents.
  } finally {
      if (streamIn != null) streamIn.close();
  }
+ 
+```
+
+Shows how to sign encrypted document file.
+
+```
+
+ // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a comment, date, and decryption password which will be applied with our new digital signature.
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("Comment");
+     signOptions.setSignTime(new Date());
+     signOptions.setDecryptionPassword("docPassword");
+ }
+
+ // Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+ String inputFileName = getMyDir() + "Encrypted.docx";
+ String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.DecryptionPassword.docx";
+
+ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
  
 ```
 

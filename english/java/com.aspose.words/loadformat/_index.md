@@ -18,28 +18,6 @@ Indicates the format of the document that is to be loaded.
 
  **Examples:** 
 
-Shows how to specify a base URI when opening an html document.
-
-```
-
- // Suppose we want to load an .html document that contains an image linked by a relative URI
- // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
- // We can provide a base URI using an HtmlLoadOptions object.
- HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", getImageDir());
-
- Assert.assertEquals(LoadFormat.HTML, loadOptions.getLoadFormat());
-
- Document doc = new Document(getMyDir() + "Missing image.html", loadOptions);
-
- // While the image was broken in the input .html, our custom base URI helped us repair the link.
- Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
- Assert.assertTrue(imageShape.isImage());
-
- // This output document will display the image that was missing.
- doc.save(getArtifactsDir() + "HtmlLoadOptions.BaseUri.docx");
- 
-```
-
 Shows how to insert the HTML contents from a web page into a new document.
 
 ```
@@ -100,6 +78,28 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
  Assert.assertEquals(".doc", FileFormatUtil.saveFormatToExtension(saveFormat));
 
  doc.save(getArtifactsDir() + "File.SaveToDetectedFileFormat" + FileFormatUtil.saveFormatToExtension(saveFormat));
+ 
+```
+
+Shows how to specify a base URI when opening an html document.
+
+```
+
+ // Suppose we want to load an .html document that contains an image linked by a relative URI
+ // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
+ // We can provide a base URI using an HtmlLoadOptions object.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", getImageDir());
+
+ Assert.assertEquals(LoadFormat.HTML, loadOptions.getLoadFormat());
+
+ Document doc = new Document(getMyDir() + "Missing image.html", loadOptions);
+
+ // While the image was broken in the input .html, our custom base URI helped us repair the link.
+ Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(imageShape.isImage());
+
+ // This output document will display the image that was missing.
+ doc.save(getArtifactsDir() + "HtmlLoadOptions.BaseUri.docx");
  
 ```
 ## Fields

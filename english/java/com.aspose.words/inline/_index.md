@@ -719,18 +719,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -767,6 +755,18 @@ Shows how to traverse a composite node's tree of child nodes.
  
 ```
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
@@ -779,14 +779,38 @@ Gets the type of this node.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
+Shows how to traverse a composite node's tree of child nodes.
 
 ```
 
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
 
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
+         } else {
+             System.out.println();
+         }
+     }
  }
  
 ```
@@ -818,38 +842,14 @@ Shows how to remove all child nodes of a specific type from a composite node.
  
 ```
 
-Shows how to traverse a composite node's tree of child nodes.
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
 ```
 
- public void recurseChildren() throws Exception {
-     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
 
-     // Any node that can contain child nodes, such as the document itself, is composite.
-     Assert.assertTrue(doc.isComposite());
-
-     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
-     traverseAllNodes(doc, 0);
- }
-
- /// 
- /// Recursively traverses a node tree while printing the type of each node
- /// with an indent depending on depth as well as the contents of all inline nodes.
- /// 
- public void traverseAllNodes(CompositeNode parentNode, int depth) {
-     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
-         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
-
-         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
-         if (childNode.isComposite()) {
-             System.out.println();
-             traverseAllNodes((CompositeNode) childNode, depth + 1);
-         } else if (childNode instanceof Inline) {
-             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
-         } else {
-             System.out.println();
-         }
-     }
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -1164,7 +1164,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (196821,6)
+Returns  true  if this node can contain other nodes. (197046,6)
 
  **Examples:** 
 
@@ -1674,33 +1674,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -1731,6 +1704,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 

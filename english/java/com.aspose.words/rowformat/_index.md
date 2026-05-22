@@ -20,57 +20,6 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 
  **Examples:** 
 
-Shows how to modify formatting of a table row.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
- Table table = doc.getFirstSection().getBody().getTables().get(0);
-
- // Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
- Row firstRow = table.getFirstRow();
- firstRow.getRowFormat().getBorders().setLineStyle(LineStyle.NONE);
- firstRow.getRowFormat().setHeightRule(HeightRule.AUTO);
- firstRow.getRowFormat().setAllowBreakAcrossPages(true);
-
- doc.save(getArtifactsDir() + "Table.RowFormat.docx");
- 
-```
-
-Shows how to modify the format of rows and cells in a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("City");
- builder.insertCell();
- builder.write("Country");
- builder.endRow();
- builder.insertCell();
- builder.write("London");
- builder.insertCell();
- builder.write("U.K.");
- builder.endTable();
-
- // Use the first row's "RowFormat" property to modify the formatting
- // of the contents of all cells in this row.
- RowFormat rowFormat = table.getFirstRow().getRowFormat();
- rowFormat.setHeight(25.0);
- rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
-
- // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
- CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
- cellFormat.setWidth(100.0);
- cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
-
- doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
- 
-```
-
 Shows how to build a table with custom borders.
 
 ```
@@ -131,6 +80,57 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to modify the format of rows and cells in a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("City");
+ builder.insertCell();
+ builder.write("Country");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("London");
+ builder.insertCell();
+ builder.write("U.K.");
+ builder.endTable();
+
+ // Use the first row's "RowFormat" property to modify the formatting
+ // of the contents of all cells in this row.
+ RowFormat rowFormat = table.getFirstRow().getRowFormat();
+ rowFormat.setHeight(25.0);
+ rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
+
+ // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
+ CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
+ cellFormat.setWidth(100.0);
+ cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
+
+ doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
+ 
+```
+
+Shows how to modify formatting of a table row.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
+ Row firstRow = table.getFirstRow();
+ firstRow.getRowFormat().getBorders().setLineStyle(LineStyle.NONE);
+ firstRow.getRowFormat().setHeightRule(HeightRule.AUTO);
+ firstRow.getRowFormat().setAllowBreakAcrossPages(true);
+
+ doc.save(getArtifactsDir() + "Table.RowFormat.docx");
  
 ```
 
@@ -421,40 +421,6 @@ Gets the height of the table row in points.
 
  **Examples:** 
 
-Shows how to format rows with a document builder.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("Row 1, cell 1.");
-
- // Start a second row, and then configure its height. The builder will apply these settings to
- // its current row, as well as any new rows it creates afterwards.
- builder.endRow();
-
- RowFormat rowFormat = builder.getRowFormat();
- rowFormat.setHeight(100.0);
- rowFormat.setHeightRule(HeightRule.EXACTLY);
-
- builder.insertCell();
- builder.write("Row 2, cell 1.");
- builder.endTable();
-
- // The first row was unaffected by the padding reconfiguration and still holds the default values.
- Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
-
- Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
- 
-```
-
 Shows how to create a formatted table using DocumentBuilder.
 
 ```
@@ -512,6 +478,40 @@ Shows how to create a formatted table using DocumentBuilder.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.CreateFormattedTable.docx");
+ 
+```
+
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
  
 ```
 
@@ -527,40 +527,6 @@ Gets the rule for determining the height of the table row.
 
  **Examples:** 
 
-Shows how to format rows with a document builder.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("Row 1, cell 1.");
-
- // Start a second row, and then configure its height. The builder will apply these settings to
- // its current row, as well as any new rows it creates afterwards.
- builder.endRow();
-
- RowFormat rowFormat = builder.getRowFormat();
- rowFormat.setHeight(100.0);
- rowFormat.setHeightRule(HeightRule.EXACTLY);
-
- builder.insertCell();
- builder.write("Row 2, cell 1.");
- builder.endTable();
-
- // The first row was unaffected by the padding reconfiguration and still holds the default values.
- Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
-
- Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
- 
-```
-
 Shows how to create a formatted table using DocumentBuilder.
 
 ```
@@ -618,6 +584,40 @@ Shows how to create a formatted table using DocumentBuilder.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.CreateFormattedTable.docx");
+ 
+```
+
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
  
 ```
 
@@ -733,40 +733,6 @@ Sets the height of the table row in points.
 
  **Examples:** 
 
-Shows how to format rows with a document builder.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("Row 1, cell 1.");
-
- // Start a second row, and then configure its height. The builder will apply these settings to
- // its current row, as well as any new rows it creates afterwards.
- builder.endRow();
-
- RowFormat rowFormat = builder.getRowFormat();
- rowFormat.setHeight(100.0);
- rowFormat.setHeightRule(HeightRule.EXACTLY);
-
- builder.insertCell();
- builder.write("Row 2, cell 1.");
- builder.endTable();
-
- // The first row was unaffected by the padding reconfiguration and still holds the default values.
- Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
-
- Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
- 
-```
-
 Shows how to create a formatted table using DocumentBuilder.
 
 ```
@@ -824,6 +790,40 @@ Shows how to create a formatted table using DocumentBuilder.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.CreateFormattedTable.docx");
+ 
+```
+
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
  
 ```
 
@@ -842,40 +842,6 @@ Sets the rule for determining the height of the table row.
 
  **Examples:** 
 
-Shows how to format rows with a document builder.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("Row 1, cell 1.");
-
- // Start a second row, and then configure its height. The builder will apply these settings to
- // its current row, as well as any new rows it creates afterwards.
- builder.endRow();
-
- RowFormat rowFormat = builder.getRowFormat();
- rowFormat.setHeight(100.0);
- rowFormat.setHeightRule(HeightRule.EXACTLY);
-
- builder.insertCell();
- builder.write("Row 2, cell 1.");
- builder.endTable();
-
- // The first row was unaffected by the padding reconfiguration and still holds the default values.
- Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
-
- Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
- 
-```
-
 Shows how to create a formatted table using DocumentBuilder.
 
 ```
@@ -933,6 +899,40 @@ Shows how to create a formatted table using DocumentBuilder.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.CreateFormattedTable.docx");
+ 
+```
+
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
  
 ```
 

@@ -92,51 +92,6 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries/) to this collection. 
 
  **Examples:** 
 
-Shows how to create sunburst chart.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a Sunburst chart.
- Shape shape = builder.insertChart(ChartType.SUNBURST, 450.0, 450.0);
- Chart chart = shape.getChart();
- chart.getTitle().setText("Sales");
-
- // Delete default generated series.
- chart.getSeries().clear();
-
- // Add a series.
- ChartSeries series = chart.getSeries().add(
-         "Sales",
-         new ChartMultilevelValue[]
-                 {
-                         new ChartMultilevelValue("Sales - Europe", "UK", "London Dep."),
-                         new ChartMultilevelValue("Sales - Europe", "UK", "Liverpool Dep."),
-                         new ChartMultilevelValue("Sales - Europe", "UK", "Manchester Dep."),
-                         new ChartMultilevelValue("Sales - Europe", "France", "Paris Dep."),
-                         new ChartMultilevelValue("Sales - Europe", "France", "Lyon Dep."),
-                         new ChartMultilevelValue("Sales - NA", "USA", "Denver Dep."),
-                         new ChartMultilevelValue("Sales - NA", "USA", "Seattle Dep."),
-                         new ChartMultilevelValue("Sales - NA", "USA", "Detroit Dep."),
-                         new ChartMultilevelValue("Sales - NA", "USA", "Houston Dep."),
-                         new ChartMultilevelValue("Sales - NA", "Canada", "Toronto Dep."),
-                         new ChartMultilevelValue("Sales - NA", "Canada", "Montreal Dep."),
-                         new ChartMultilevelValue("Sales - Oceania", "Australia", "Sydney Dep."),
-                         new ChartMultilevelValue("Sales - Oceania", "New Zealand", "Auckland Dep.")
-                 },
-         new double[] { 1236.0, 851.0, 536.0, 468.0, 179.0, 527.0, 799.0, 1148.0, 921.0, 457.0, 482.0, 761.0, 694.0 });
-
- // Show data labels.
- series.hasDataLabels(true);
- series.getDataLabels().setShowValue(false);
- series.getDataLabels().setShowCategoryName(true);
-
- doc.save(getArtifactsDir() + "Charts.Sunburst.docx");
- 
-```
-
 Shows how to create treemap chart.
 
 ```
@@ -198,6 +153,51 @@ Shows how to create treemap chart.
  series.getDataLabels().getNumberFormat().setFormatCode(String.format("#{0}0", thousandSeparator));
 
  doc.save(getArtifactsDir() + "Charts.Treemap.docx");
+ 
+```
+
+Shows how to create sunburst chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Sunburst chart.
+ Shape shape = builder.insertChart(ChartType.SUNBURST, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("Sales");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series.
+ ChartSeries series = chart.getSeries().add(
+         "Sales",
+         new ChartMultilevelValue[]
+                 {
+                         new ChartMultilevelValue("Sales - Europe", "UK", "London Dep."),
+                         new ChartMultilevelValue("Sales - Europe", "UK", "Liverpool Dep."),
+                         new ChartMultilevelValue("Sales - Europe", "UK", "Manchester Dep."),
+                         new ChartMultilevelValue("Sales - Europe", "France", "Paris Dep."),
+                         new ChartMultilevelValue("Sales - Europe", "France", "Lyon Dep."),
+                         new ChartMultilevelValue("Sales - NA", "USA", "Denver Dep."),
+                         new ChartMultilevelValue("Sales - NA", "USA", "Seattle Dep."),
+                         new ChartMultilevelValue("Sales - NA", "USA", "Detroit Dep."),
+                         new ChartMultilevelValue("Sales - NA", "USA", "Houston Dep."),
+                         new ChartMultilevelValue("Sales - NA", "Canada", "Toronto Dep."),
+                         new ChartMultilevelValue("Sales - NA", "Canada", "Montreal Dep."),
+                         new ChartMultilevelValue("Sales - Oceania", "Australia", "Sydney Dep."),
+                         new ChartMultilevelValue("Sales - Oceania", "New Zealand", "Auckland Dep.")
+                 },
+         new double[] { 1236.0, 851.0, 536.0, 468.0, 179.0, 527.0, 799.0, 1148.0, 921.0, 457.0, 482.0, 761.0, 694.0 });
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ series.getDataLabels().setShowValue(false);
+ series.getDataLabels().setShowCategoryName(true);
+
+ doc.save(getArtifactsDir() + "Charts.Sunburst.docx");
  
 ```
 
@@ -478,100 +478,6 @@ Adds new [ChartSeries](../../com.aspose.words/chartseries/) to this collection. 
 
  **Examples:** 
 
-Shows how to create pareto chart.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a Pareto chart.
- Shape shape = builder.insertChart(ChartType.PARETO, 450.0, 450.0);
- Chart chart = shape.getChart();
- chart.getTitle().setText("Best-Selling Car");
-
- // Delete default generated series.
- chart.getSeries().clear();
-
- // Add a series.
- chart.getSeries().add(
-         "Best-Selling Car",
-         new String[] { "Tesla Model Y", "Toyota Corolla", "Toyota RAV4", "Ford F-Series", "Honda CR-V" },
-         new double[] { 1.43, 0.91, 1.17, 0.98, 0.85 });
-
- doc.save(getArtifactsDir() + "Charts.Pareto.docx");
- 
-```
-
-Shows how to create funnel chart.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a Funnel chart.
- Shape shape = builder.insertChart(ChartType.FUNNEL, 450.0, 450.0);
- Chart chart = shape.getChart();
- chart.getTitle().setText("Population by Age Group");
-
- // Delete default generated series.
- chart.getSeries().clear();
-
- // Add a series.
- ChartSeries series = chart.getSeries().add(
-         "Population by Age Group",
-         new String[] { "0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80-89", "90-" },
-         new double[] { 0.121, 0.128, 0.132, 0.146, 0.124, 0.124, 0.111, 0.075, 0.032, 0.007 });
-
- // Show data labels.
- series.hasDataLabels(true);
- DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.getDefault());
- String decimalSeparator = Character.toString(symbols.getGroupingSeparator());
- series.getDataLabels().getNumberFormat().setFormatCode("0" + decimalSeparator + "0%");
-
- doc.save(getArtifactsDir() + "Charts.Funnel.docx");
- 
-```
-
-Shows how to create box and whisker chart.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a Box & Whisker chart.
- Shape shape = builder.insertChart(ChartType.BOX_AND_WHISKER, 450.0, 450.0);
- Chart chart = shape.getChart();
- chart.getTitle().setText("Points by Years");
-
- // Delete default generated series.
- chart.getSeries().clear();
-
- // Add a series.
- ChartSeries series = chart.getSeries().add(
-         "Points by Years",
-         new String[]
-                 {
-                         "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC",
-                         "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR",
-                         "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA"
-                 },
-         new double[]
-                 {
-                         91.0, 80.0, 100.0, 77.0, 90.0, 104.0, 105.0, 118.0, 120.0, 101.0,
-                         114.0, 107.0, 110.0, 60.0, 79.0, 78.0, 77.0, 102.0, 101.0, 113.0,
-                         94.0, 93.0, 84.0, 71.0, 80.0, 103.0, 80.0, 94.0, 100.0, 101.0
-                 });
-
- // Show data labels.
- series.hasDataLabels(true);
-
- doc.save(getArtifactsDir() + "Charts.BoxAndWhisker.docx");
- 
-```
-
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```
@@ -653,6 +559,100 @@ Shows how to create an appropriate type of chart series for a graph type.
      chart.getSeries().clear();
      return chart;
  }
+ 
+```
+
+Shows how to create pareto chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Pareto chart.
+ Shape shape = builder.insertChart(ChartType.PARETO, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("Best-Selling Car");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series.
+ chart.getSeries().add(
+         "Best-Selling Car",
+         new String[] { "Tesla Model Y", "Toyota Corolla", "Toyota RAV4", "Ford F-Series", "Honda CR-V" },
+         new double[] { 1.43, 0.91, 1.17, 0.98, 0.85 });
+
+ doc.save(getArtifactsDir() + "Charts.Pareto.docx");
+ 
+```
+
+Shows how to create box and whisker chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Box & Whisker chart.
+ Shape shape = builder.insertChart(ChartType.BOX_AND_WHISKER, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("Points by Years");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series.
+ ChartSeries series = chart.getSeries().add(
+         "Points by Years",
+         new String[]
+                 {
+                         "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC", "WC",
+                         "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR", "NR",
+                         "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA", "NA"
+                 },
+         new double[]
+                 {
+                         91.0, 80.0, 100.0, 77.0, 90.0, 104.0, 105.0, 118.0, 120.0, 101.0,
+                         114.0, 107.0, 110.0, 60.0, 79.0, 78.0, 77.0, 102.0, 101.0, 113.0,
+                         94.0, 93.0, 84.0, 71.0, 80.0, 103.0, 80.0, 94.0, 100.0, 101.0
+                 });
+
+ // Show data labels.
+ series.hasDataLabels(true);
+
+ doc.save(getArtifactsDir() + "Charts.BoxAndWhisker.docx");
+ 
+```
+
+Shows how to create funnel chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Funnel chart.
+ Shape shape = builder.insertChart(ChartType.FUNNEL, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("Population by Age Group");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series.
+ ChartSeries series = chart.getSeries().add(
+         "Population by Age Group",
+         new String[] { "0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80-89", "90-" },
+         new double[] { 0.121, 0.128, 0.132, 0.146, 0.124, 0.124, 0.111, 0.075, 0.032, 0.007 });
+
+ // Show data labels.
+ series.hasDataLabels(true);
+ DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.getDefault());
+ String decimalSeparator = Character.toString(symbols.getGroupingSeparator());
+ series.getDataLabels().getNumberFormat().setFormatCode("0" + decimalSeparator + "0%");
+
+ doc.save(getArtifactsDir() + "Charts.Funnel.docx");
  
 ```
 

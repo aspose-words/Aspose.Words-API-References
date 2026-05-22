@@ -229,35 +229,6 @@ Provides access to fill and line formatting of this data point.
 
  **Examples:** 
 
-Shows how to set individual formatting for categories of a column chart.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
- Chart chart = shape.getChart();
-
- // Delete default generated series.
- chart.getSeries().clear();
-
- // Adding new series.
- ChartSeries series = chart.getSeries().add("Series 1",
-         new String[] { "Category 1", "Category 2", "Category 3", "Category 4" },
-         new double[] { 1.0, 2.0, 3.0, 4.0 });
-
- // Set column formatting.
- ChartDataPointCollection dataPoints = series.getDataPoints();
- dataPoints.get(0).getFormat().getFill().presetTextured(PresetTexture.DENIM);
- dataPoints.get(1).getFormat().getFill().setForeColor(Color.RED);
- dataPoints.get(2).getFormat().getFill().setForeColor(Color.YELLOW);
- dataPoints.get(3).getFormat().getFill().setForeColor(Color.BLUE);
-
- doc.save(getArtifactsDir() + "Charts.DataPointsFormatting.docx");
- 
-```
-
 Shows how to work with data points on a line chart.
 
 ```
@@ -311,6 +282,35 @@ Shows how to work with data points on a line chart.
          Assert.assertEquals(point.getIndex(), i);
      }
  }
+ 
+```
+
+Shows how to set individual formatting for categories of a column chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Adding new series.
+ ChartSeries series = chart.getSeries().add("Series 1",
+         new String[] { "Category 1", "Category 2", "Category 3", "Category 4" },
+         new double[] { 1.0, 2.0, 3.0, 4.0 });
+
+ // Set column formatting.
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+ dataPoints.get(0).getFormat().getFill().presetTextured(PresetTexture.DENIM);
+ dataPoints.get(1).getFormat().getFill().setForeColor(Color.RED);
+ dataPoints.get(2).getFormat().getFill().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getFormat().getFill().setForeColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataPointsFormatting.docx");
  
 ```
 

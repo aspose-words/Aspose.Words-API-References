@@ -24,28 +24,6 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape/\#getTextBox) property
 
  **Examples:** 
 
-Shows how to set internal margins for a text box.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert another textbox with specific margins.
- Shape textBoxShape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 100.0);
- TextBox textBox = textBoxShape.getTextBox();
- textBox.setInternalMarginTop(15.0);
- textBox.setInternalMarginBottom(15.0);
- textBox.setInternalMarginLeft(15.0);
- textBox.setInternalMarginRight(15.0);
-
- builder.moveTo(textBoxShape.getLastParagraph());
- builder.write("Text placed according to textbox margins.");
-
- doc.save(getArtifactsDir() + "Shape.TextBoxMargins.docx");
- 
-```
-
 Shows how to set the orientation of text inside a text box.
 
 ```
@@ -87,6 +65,28 @@ Shows how to get a text box to resize itself to fit its contents tightly.
  builder.write("Text fit tightly inside textbox.");
 
  doc.save(getArtifactsDir() + "Shape.TextBoxFitShapeToText.docx");
+ 
+```
+
+Shows how to set internal margins for a text box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert another textbox with specific margins.
+ Shape textBoxShape = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 100.0);
+ TextBox textBox = textBoxShape.getTextBox();
+ textBox.setInternalMarginTop(15.0);
+ textBox.setInternalMarginBottom(15.0);
+ textBox.setInternalMarginLeft(15.0);
+ textBox.setInternalMarginRight(15.0);
+
+ builder.moveTo(textBoxShape.getLastParagraph());
+ builder.write("Text placed according to textbox margins.");
+
+ doc.save(getArtifactsDir() + "Shape.TextBoxMargins.docx");
  
 ```
 

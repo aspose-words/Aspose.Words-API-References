@@ -2225,32 +2225,6 @@ Aspose.Words does not update this property.
 
  **Examples:** 
 
-Shows how to work with REVNUM fields.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.write("Current revision #");
-
- // Insert a REVNUM field, which displays the document's current revision number property.
- FieldRevNum field = (FieldRevNum) builder.insertField(FieldType.FIELD_REVISION_NUM, true);
-
- Assert.assertEquals(" REVNUM ", field.getFieldCode());
- Assert.assertEquals("1", field.getResult());
- Assert.assertEquals(1, doc.getBuiltInDocumentProperties().getRevisionNumber());
-
- // This property counts how many times a document has been saved in Microsoft Word,
- // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
- // via Properties -> Details. We can update this property manually.
- doc.getBuiltInDocumentProperties().setRevisionNumber(doc.getBuiltInDocumentProperties().getRevisionNumber() + 1);
- field.update();
-
- Assert.assertEquals("2", field.getResult());
- 
-```
-
 Shows how to work with document properties in the "Origin" category.
 
 ```
@@ -2281,6 +2255,32 @@ Shows how to work with document properties in the "Origin" category.
 
  // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
  doc.save(getArtifactsDir() + "DocumentProperties.Origin.docx");
+ 
+```
+
+Shows how to work with REVNUM fields.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Current revision #");
+
+ // Insert a REVNUM field, which displays the document's current revision number property.
+ FieldRevNum field = (FieldRevNum) builder.insertField(FieldType.FIELD_REVISION_NUM, true);
+
+ Assert.assertEquals(" REVNUM ", field.getFieldCode());
+ Assert.assertEquals("1", field.getResult());
+ Assert.assertEquals(1, doc.getBuiltInDocumentProperties().getRevisionNumber());
+
+ // This property counts how many times a document has been saved in Microsoft Word,
+ // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
+ // via Properties -> Details. We can update this property manually.
+ doc.getBuiltInDocumentProperties().setRevisionNumber(doc.getBuiltInDocumentProperties().getRevisionNumber() + 1);
+ field.update();
+
+ Assert.assertEquals("2", field.getResult());
  
 ```
 
@@ -5047,32 +5047,6 @@ Aspose.Words does not update this property.
 
  **Examples:** 
 
-Shows how to work with REVNUM fields.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.write("Current revision #");
-
- // Insert a REVNUM field, which displays the document's current revision number property.
- FieldRevNum field = (FieldRevNum) builder.insertField(FieldType.FIELD_REVISION_NUM, true);
-
- Assert.assertEquals(" REVNUM ", field.getFieldCode());
- Assert.assertEquals("1", field.getResult());
- Assert.assertEquals(1, doc.getBuiltInDocumentProperties().getRevisionNumber());
-
- // This property counts how many times a document has been saved in Microsoft Word,
- // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
- // via Properties -> Details. We can update this property manually.
- doc.getBuiltInDocumentProperties().setRevisionNumber(doc.getBuiltInDocumentProperties().getRevisionNumber() + 1);
- field.update();
-
- Assert.assertEquals("2", field.getResult());
- 
-```
-
 Shows how to work with document properties in the "Origin" category.
 
 ```
@@ -5103,6 +5077,32 @@ Shows how to work with document properties in the "Origin" category.
 
  // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
  doc.save(getArtifactsDir() + "DocumentProperties.Origin.docx");
+ 
+```
+
+Shows how to work with REVNUM fields.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Current revision #");
+
+ // Insert a REVNUM field, which displays the document's current revision number property.
+ FieldRevNum field = (FieldRevNum) builder.insertField(FieldType.FIELD_REVISION_NUM, true);
+
+ Assert.assertEquals(" REVNUM ", field.getFieldCode());
+ Assert.assertEquals("1", field.getResult());
+ Assert.assertEquals(1, doc.getBuiltInDocumentProperties().getRevisionNumber());
+
+ // This property counts how many times a document has been saved in Microsoft Word,
+ // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
+ // via Properties -> Details. We can update this property manually.
+ doc.getBuiltInDocumentProperties().setRevisionNumber(doc.getBuiltInDocumentProperties().getRevisionNumber() + 1);
+ field.update();
+
+ Assert.assertEquals("2", field.getResult());
  
 ```
 

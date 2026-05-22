@@ -28,6 +28,49 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 
  **Examples:** 
 
+Shows how to build a formatted 2x2 table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
+ builder.write("Row 1, cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, cell 2.");
+ builder.endRow();
+
+ // While building the table, the document builder will apply its current RowFormat/CellFormat property values
+ // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
+
+ builder.insertCell();
+ builder.getRowFormat().setHeight(100.0);
+ builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
+ builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
+ builder.write("Row 2, cell 1.");
+ builder.insertCell();
+ builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ builder.write("Row 2, cell 2.");
+ builder.endRow();
+ builder.endTable();
+
+ // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+ Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+ Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+ Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
+ Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
+ 
+```
+
 Shows how to create a table.
 
 ```
@@ -133,49 +176,6 @@ Shows how to build a nested table without using a document builder.
 
      return table;
  }
- 
-```
-
-Shows how to build a formatted 2x2 table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
- builder.write("Row 1, cell 1.");
- builder.insertCell();
- builder.write("Row 1, cell 2.");
- builder.endRow();
-
- // While building the table, the document builder will apply its current RowFormat/CellFormat property values
- // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
-
- builder.insertCell();
- builder.getRowFormat().setHeight(100.0);
- builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
- builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
- builder.write("Row 2, cell 1.");
- builder.insertCell();
- builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
- builder.write("Row 2, cell 2.");
- builder.endRow();
- builder.endTable();
-
- // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
- Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
- Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
- Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
- Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
 
@@ -2297,18 +2297,6 @@ If there is no first child node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -2341,6 +2329,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -2662,18 +2662,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -2706,6 +2694,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -3134,30 +3134,6 @@ Provides typed access to the rows of the table.
 
  **Examples:** 
 
-Shows how to combine the rows from two tables into one.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- // Below are two ways of getting a table from a document.
- // 1 -  From the "Tables" collection of a Body node:
- Table firstTable = doc.getFirstSection().getBody().getTables().get(0);
-
- // 2 -  Using the "GetChild" method:
- Table secondTable = (Table) doc.getChild(NodeType.TABLE, 1, true);
-
- // Append all rows from the current table to the next.
- while (secondTable.hasChildNodes())
-     firstTable.getRows().add(secondTable.getFirstRow());
-
- // Remove the empty table container.
- secondTable.remove();
-
- doc.save(getArtifactsDir() + "Table.CombineTables.docx");
- 
-```
-
 Shows how to iterate through all tables in the document and print the contents of each cell.
 
 ```
@@ -3187,6 +3163,30 @@ Shows how to iterate through all tables in the document and print the contents o
 
      System.out.println(MessageFormat.format("End of Table {0}\n", i));
  }
+ 
+```
+
+Shows how to combine the rows from two tables into one.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ // Below are two ways of getting a table from a document.
+ // 1 -  From the "Tables" collection of a Body node:
+ Table firstTable = doc.getFirstSection().getBody().getTables().get(0);
+
+ // 2 -  Using the "GetChild" method:
+ Table secondTable = (Table) doc.getChild(NodeType.TABLE, 1, true);
+
+ // Append all rows from the current table to the next.
+ while (secondTable.hasChildNodes())
+     firstTable.getRows().add(secondTable.getFirstRow());
+
+ // Remove the empty table container.
+ secondTable.remove();
+
+ doc.save(getArtifactsDir() + "Table.CombineTables.docx");
  
 ```
 
@@ -3747,52 +3747,6 @@ If the node being inserted was created from another document, you should use **M
 
  **Examples:** 
 
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -3840,6 +3794,52 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
 
@@ -4226,33 +4226,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -4283,6 +4256,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 
@@ -4521,25 +4521,6 @@ Only expressions with element names are supported at the moment. Expressions tha
 
  **Examples:** 
 
-Shows how to use an XPath expression to test whether a node is inside a field.
-
-```
-
- Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
- // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
- // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
- // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
- NodeList resultList =
-         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
- Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
- Run run = runs[0];
-
- // Check if the specified run is one of the nodes that are inside the field.
- System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
- 
-```
-
 Shows how to select certain nodes by using an XPath expression.
 
 ```
@@ -4569,6 +4550,25 @@ Shows how to select certain nodes by using an XPath expression.
  Node node = doc.selectSingleNode("//Body/Paragraph");
 
  Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 

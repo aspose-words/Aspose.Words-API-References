@@ -24,35 +24,6 @@ Inserts the mark of the footnote or endnote that is marked by the specified book
 
  **Examples:** 
 
-Shows how to cross-reference footnotes with the NOTEREF field.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.write("CrossReference: ");
-
- FieldNoteRef field = (FieldNoteRef)builder.insertField(FieldType.FIELD_NOTE_REF, false); // <--- don't update field
- field.setBookmarkName("CrossRefBookmark");
- field.setInsertHyperlink(true);
- field.setInsertReferenceMark(true);
- field.setInsertRelativePosition(false);
- builder.writeln();
-
- builder.startBookmark("CrossRefBookmark");
- builder.write("Hello world!");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Cross referenced footnote.");
- builder.endBookmark("CrossRefBookmark");
- builder.writeln();
-
- doc.updateFields();
-
- // This field works only in older versions of Microsoft Word.
- doc.save(getArtifactsDir() + "Field.NOTEREF.doc");
- 
-```
-
 Shows to insert NOTEREF fields, and modify their appearance.
 
 ```
@@ -114,6 +85,35 @@ Shows to insert NOTEREF fields, and modify their appearance.
      builder.endBookmark(bookmarkName);
      builder.writeln();
  }
+ 
+```
+
+Shows how to cross-reference footnotes with the NOTEREF field.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("CrossReference: ");
+
+ FieldNoteRef field = (FieldNoteRef)builder.insertField(FieldType.FIELD_NOTE_REF, false); // <--- don't update field
+ field.setBookmarkName("CrossRefBookmark");
+ field.setInsertHyperlink(true);
+ field.setInsertReferenceMark(true);
+ field.setInsertRelativePosition(false);
+ builder.writeln();
+
+ builder.startBookmark("CrossRefBookmark");
+ builder.write("Hello world!");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Cross referenced footnote.");
+ builder.endBookmark("CrossRefBookmark");
+ builder.writeln();
+
+ doc.updateFields();
+
+ // This field works only in older versions of Microsoft Word.
+ doc.save(getArtifactsDir() + "Field.NOTEREF.doc");
  
 ```
 

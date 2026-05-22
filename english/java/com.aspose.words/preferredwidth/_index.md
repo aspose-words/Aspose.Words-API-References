@@ -343,21 +343,6 @@ A creation method that returns a new instance that represents a preferred width 
 
  **Examples:** 
 
-Shows how to use unit conversion tools while specifying a preferred width for a cell.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.getCellFormat().setPreferredWidth(PreferredWidth.fromPoints(ConvertUtil.inchToPoint(3.0)));
- builder.insertCell();
-
- Assert.assertEquals(216.0d, table.getFirstRow().getFirstCell().getCellFormat().getPreferredWidth().getValue());
- 
-```
-
 Shows how to set a preferred width for table cells.
 
 ```
@@ -392,6 +377,21 @@ Shows how to set a preferred width for table cells.
  builder.writeln("Automatically sized cell.");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
+ 
+```
+
+Shows how to use unit conversion tools while specifying a preferred width for a cell.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.getCellFormat().setPreferredWidth(PreferredWidth.fromPoints(ConvertUtil.inchToPoint(3.0)));
+ builder.insertCell();
+
+ Assert.assertEquals(216.0d, table.getFirstRow().getFirstCell().getCellFormat().getPreferredWidth().getValue());
  
 ```
 

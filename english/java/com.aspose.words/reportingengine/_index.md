@@ -117,20 +117,6 @@ For information on how to work with data sources of different types in template 
 
  **Examples:** 
 
-Shows how to remove paragraphs selectively.
-
-```
-
- // Template contains tags with an exclamation mark. For such tags, empty paragraphs will be removed.
- Document doc = new Document(getMyDir() + "Reporting engine template - Selective remove paragraphs.docx");
-
- ReportingEngine engine = new ReportingEngine();
- engine.buildReport(doc, false, "value");
-
- doc.save(getArtifactsDir() + "ReportingEngine.SelectiveDeletionOfParagraphs.docx");
- 
-```
-
 Shows how to allow missinng members.
 
 ```
@@ -161,6 +147,20 @@ Shows how to display values as dollar text.
  report.buildReport(doc, testData, "ds");
 
  doc.save(getArtifactsDir() + "ReportingEngine.DollarTextFormat.docx");
+ 
+```
+
+Shows how to remove paragraphs selectively.
+
+```
+
+ // Template contains tags with an exclamation mark. For such tags, empty paragraphs will be removed.
+ Document doc = new Document(getMyDir() + "Reporting engine template - Selective remove paragraphs.docx");
+
+ ReportingEngine engine = new ReportingEngine();
+ engine.buildReport(doc, false, "value");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.SelectiveDeletionOfParagraphs.docx");
  
 ```
 
@@ -205,20 +205,6 @@ For information on how to work with data sources of different types in template 
 
  **Examples:** 
 
-Shows how to work with charts from word 2016.
-
-```
-
- Document doc = new Document(getMyDir() + "Reporting engine template - Word 2016 Charts (Java).docx");
-
- ReportingEngine engine = new ReportingEngine();
- engine.buildReport(doc, new Object[] { Common.getShares(), Common.getShareQuotes() },
-         new String[] { "shares", "quotes" });
-
- doc.save(getArtifactsDir() + "ReportingEngine.Word2016Charts.docx");
- 
-```
-
 Shows how to keep inserted numbering as is.
 
 ```
@@ -234,6 +220,20 @@ Shows how to keep inserted numbering as is.
  engine.buildReport(template, new Object[] { doc }, new String[] { "src" });
 
  template.save(getArtifactsDir() + "ReportingEngine.SourseListNumbering.docx");
+ 
+```
+
+Shows how to work with charts from word 2016.
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Word 2016 Charts (Java).docx");
+
+ ReportingEngine engine = new ReportingEngine();
+ engine.buildReport(doc, new Object[] { Common.getShares(), Common.getShareQuotes() },
+         new String[] { "shares", "quotes" });
+
+ doc.save(getArtifactsDir() + "ReportingEngine.Word2016Charts.docx");
  
 ```
 

@@ -82,18 +82,6 @@ Gets a Caption property of the control. Default value is an empty string.
 
  **Examples:** 
 
-Shows how to set caption for ActiveX control.
-
-```
-
- DocumentBuilder builder = new DocumentBuilder();
-
- CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
- Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", button1.getCaption());
- 
-```
-
 Shows how to verify the properties of an ActiveX control.
 
 ```
@@ -113,6 +101,18 @@ Shows how to verify the properties of an ActiveX control.
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
      Assert.assertEquals(checkBox.getChildNodes(), null);
  }
+ 
+```
+
+Shows how to set caption for ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 
@@ -546,18 +546,6 @@ Sets a Caption property of the control. Default value is an empty string.
 
  **Examples:** 
 
-Shows how to set caption for ActiveX control.
-
-```
-
- DocumentBuilder builder = new DocumentBuilder();
-
- CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
- Shape shape = builder.insertForms2OleControl(button1);
- Assert.assertEquals("Button caption", button1.getCaption());
- 
-```
-
 Shows how to verify the properties of an ActiveX control.
 
 ```
@@ -577,6 +565,18 @@ Shows how to verify the properties of an ActiveX control.
      Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
      Assert.assertEquals(checkBox.getChildNodes(), null);
  }
+ 
+```
+
+Shows how to set caption for ActiveX control.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ CommandButtonControl button1 = new CommandButtonControl(); { button1.setCaption("Button caption"); }
+ Shape shape = builder.insertForms2OleControl(button1);
+ Assert.assertEquals("Button caption", button1.getCaption());
  
 ```
 

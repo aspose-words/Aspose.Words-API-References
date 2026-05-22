@@ -23,33 +23,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 
  **Examples:** 
 
-Shows how to specify a resolution while rendering a document to PNG.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setName("Times New Roman");
- builder.getFont().setSize(24.0);
- builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
- builder.insertImage(getImageDir() + "Logo.jpg");
-
- // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
- // to modify the way in which that method renders the document into an image.
- ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
-
- // Set the "Resolution" property to "72" to render the document in 72dpi.
- options.setResolution(72f);
- doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
-
- // Set the "Resolution" property to "300" to render the document in 300dpi.
- options.setResolution(300f);
- doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
- 
-```
-
 Renders a page of a Word document into an image with transparent or colored background.
 
 ```
@@ -108,6 +81,33 @@ Shows how to configure compression while saving a document as a JPEG.
  doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 
  Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
+ 
+```
+
+Shows how to specify a resolution while rendering a document to PNG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Resolution" property to "72" to render the document in 72dpi.
+ options.setResolution(72f);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+ // Set the "Resolution" property to "300" to render the document in 300dpi.
+ options.setResolution(300f);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
  
 ```
 
@@ -555,26 +555,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -595,6 +575,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -1306,17 +1306,31 @@ This property has effect only when rendering document pages. This property is ig
 
  **Examples:** 
 
-Shows how to extract pages based on exact page ranges.
+Shows how to render one page from a document to a JPEG image.
 
 ```
 
- Document doc = new Document(getMyDir() + "Images.docx");
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
- ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
- PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
 
- imageOptions.setPageSet(pageSet);
- doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ // Set the "PageSet" to "1" to select the second page via
+ // the zero-based index to start rendering the document from.
+ options.setPageSet(new PageSet(1));
+
+ // When we save the document to the JPEG format, Aspose.Words only renders one page.
+ // This image will contain one page starting from page two,
+ // which will just be the second page of the original document.
+ doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
  
 ```
 
@@ -1349,34 +1363,6 @@ Shows how to specify which page in a document to render as an image.
  
 ```
 
-Shows how to render one page from a document to a JPEG image.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Page 1.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 2.");
- builder.insertImage(getImageDir() + "Logo.jpg");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 3.");
-
- // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
- // to modify the way in which that method renders the document into an image.
- ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
- // Set the "PageSet" to "1" to select the second page via
- // the zero-based index to start rendering the document from.
- options.setPageSet(new PageSet(1));
-
- // When we save the document to the JPEG format, Aspose.Words only renders one page.
- // This image will contain one page starting from page two,
- // which will just be the second page of the original document.
- doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
- 
-```
-
 Shows how to render every page of a document to a separate TIFF image.
 
 ```
@@ -1405,6 +1391,20 @@ Shows how to render every page of a document to a separate TIFF image.
 
      doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
  }
+ 
+```
+
+Shows how to extract pages based on exact page ranges.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
  
 ```
 
@@ -1586,77 +1586,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -1804,6 +1733,77 @@ Shows how to manage a document while saving to docx.
  
 ```
 
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
 ### getSaveFormat() {#getSaveFormat}
@@ -1873,25 +1873,6 @@ The default value is 1.0. The value must be greater than 0.
 
  **Examples:** 
 
-Shows how to render an Office Math object into an image file in the local file system.
-
-```
-
- Document doc = new Document(getMyDir() + "Office math.docx");
-
- OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-
- // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
- // how it renders the OfficeMath node into an image.
- ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
-
- // Set the "Scale" property to 5 to render the object to five times its original size.
- saveOptions.setScale(5f);
-
- math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
- 
-```
-
 Shows how to edit the image while Aspose.Words converts a document to one.
 
 ```
@@ -1924,6 +1905,25 @@ Shows how to edit the image while Aspose.Words converts a document to one.
  }
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+ // how it renders the OfficeMath node into an image.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Scale" property to 5 to render the object to five times its original size.
+ saveOptions.setScale(5f);
+
+ math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
  
 ```
 
@@ -2667,26 +2667,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -2707,6 +2687,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -3481,17 +3481,31 @@ This property has effect only when rendering document pages. This property is ig
 
  **Examples:** 
 
-Shows how to extract pages based on exact page ranges.
+Shows how to render one page from a document to a JPEG image.
 
 ```
 
- Document doc = new Document(getMyDir() + "Images.docx");
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
- ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
- PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
 
- imageOptions.setPageSet(pageSet);
- doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ // Set the "PageSet" to "1" to select the second page via
+ // the zero-based index to start rendering the document from.
+ options.setPageSet(new PageSet(1));
+
+ // When we save the document to the JPEG format, Aspose.Words only renders one page.
+ // This image will contain one page starting from page two,
+ // which will just be the second page of the original document.
+ doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
  
 ```
 
@@ -3524,34 +3538,6 @@ Shows how to specify which page in a document to render as an image.
  
 ```
 
-Shows how to render one page from a document to a JPEG image.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Page 1.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 2.");
- builder.insertImage(getImageDir() + "Logo.jpg");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 3.");
-
- // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
- // to modify the way in which that method renders the document into an image.
- ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
- // Set the "PageSet" to "1" to select the second page via
- // the zero-based index to start rendering the document from.
- options.setPageSet(new PageSet(1));
-
- // When we save the document to the JPEG format, Aspose.Words only renders one page.
- // This image will contain one page starting from page two,
- // which will just be the second page of the original document.
- doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
- 
-```
-
 Shows how to render every page of a document to a separate TIFF image.
 
 ```
@@ -3580,6 +3566,20 @@ Shows how to render every page of a document to a separate TIFF image.
 
      doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
  }
+ 
+```
+
+Shows how to extract pages based on exact page ranges.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
  
 ```
 
@@ -3773,77 +3773,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -3948,6 +3877,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 
@@ -4112,25 +4112,6 @@ The default value is 1.0. The value must be greater than 0.
 
  **Examples:** 
 
-Shows how to render an Office Math object into an image file in the local file system.
-
-```
-
- Document doc = new Document(getMyDir() + "Office math.docx");
-
- OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-
- // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
- // how it renders the OfficeMath node into an image.
- ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
-
- // Set the "Scale" property to 5 to render the object to five times its original size.
- saveOptions.setScale(5f);
-
- math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
- 
-```
-
 Shows how to edit the image while Aspose.Words converts a document to one.
 
 ```
@@ -4163,6 +4144,25 @@ Shows how to edit the image while Aspose.Words converts a document to one.
  }
 
  doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+ // how it renders the OfficeMath node into an image.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Scale" property to 5 to render the object to five times its original size.
+ saveOptions.setScale(5f);
+
+ math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
  
 ```
 

@@ -49,13 +49,13 @@ Shows how to customize the process of loading external resources into a document
              // If this callback encounters one of the image shorthands while loading an image,
              // it will apply unique logic for each defined shorthand instead of treating it as a URI.
              if ("Google logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(new URI("http://www.google.com/images/logos/ps_logo2.png").toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
 
              if ("Aspose logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }

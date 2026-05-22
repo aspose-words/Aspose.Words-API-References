@@ -31,45 +31,6 @@ The [FieldCollection](../../com.aspose.words/fieldcollection/) collection is "li
 
  **Examples:** 
 
-Shows how to remove fields from a field collection.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
- builder.insertField(" TIME ");
- builder.insertField(" REVNUM ");
- builder.insertField(" AUTHOR  \"John Doe\" ");
- builder.insertField(" SUBJECT \"My Subject\" ");
- builder.insertField(" QUOTE \"Hello world!\" ");
- doc.updateFields();
-
- FieldCollection fields = doc.getRange().getFields();
-
- Assert.assertEquals(6, fields.getCount());
-
- // Below are four ways of removing fields from a field collection.
- // 1 -  Get a field to remove itself:
- fields.get(0).remove();
- Assert.assertEquals(5, fields.getCount());
-
- // 2 -  Get the collection to remove a field that we pass to its removal method:
- Field lastField = fields.get(3);
- fields.remove(lastField);
- Assert.assertEquals(4, fields.getCount());
-
- // 3 -  Remove a field from a collection at an index:
- fields.removeAt(2);
- Assert.assertEquals(3, fields.getCount());
-
- // 4 -  Remove all the fields from the collection at once:
- fields.clear();
- Assert.assertEquals(0, fields.getCount());
- 
-```
-
 Shows how to work with a collection of fields.
 
 ```
@@ -159,6 +120,45 @@ Shows how to work with a collection of fields.
 
      private final  StringBuilder mBuilder;
  }
+ 
+```
+
+Shows how to remove fields from a field collection.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
  
 ```
 
@@ -299,45 +299,6 @@ Returns the number of the fields in the collection.
 
  **Examples:** 
 
-Shows how to remove fields from a field collection.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
- builder.insertField(" TIME ");
- builder.insertField(" REVNUM ");
- builder.insertField(" AUTHOR  \"John Doe\" ");
- builder.insertField(" SUBJECT \"My Subject\" ");
- builder.insertField(" QUOTE \"Hello world!\" ");
- doc.updateFields();
-
- FieldCollection fields = doc.getRange().getFields();
-
- Assert.assertEquals(6, fields.getCount());
-
- // Below are four ways of removing fields from a field collection.
- // 1 -  Get a field to remove itself:
- fields.get(0).remove();
- Assert.assertEquals(5, fields.getCount());
-
- // 2 -  Get the collection to remove a field that we pass to its removal method:
- Field lastField = fields.get(3);
- fields.remove(lastField);
- Assert.assertEquals(4, fields.getCount());
-
- // 3 -  Remove a field from a collection at an index:
- fields.removeAt(2);
- Assert.assertEquals(3, fields.getCount());
-
- // 4 -  Remove all the fields from the collection at once:
- fields.clear();
- Assert.assertEquals(0, fields.getCount());
- 
-```
-
 Shows how to work with a collection of fields.
 
 ```
@@ -427,6 +388,45 @@ Shows how to work with a collection of fields.
 
      private final  StringBuilder mBuilder;
  }
+ 
+```
+
+Shows how to remove fields from a field collection.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
  
 ```
 

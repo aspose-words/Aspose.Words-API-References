@@ -43,78 +43,6 @@ It is not possible to delete lists once they are created in the current version 
 
  **Examples:** 
 
-Shows how to create a document with a sample of all the lists from another document.
-
-```
-
- public void printOutAllLists() throws Exception {
-     Document srcDoc = new Document(getMyDir() + "Rendering.docx");
-
-     Document dstDoc = new Document();
-     DocumentBuilder builder = new DocumentBuilder(dstDoc);
-
-     for (List srcList : srcDoc.getLists()) {
-         List dstList = dstDoc.getLists().addCopy(srcList);
-         addListSample(builder, dstList);
-     }
-
-     dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
- }
-
- private static void addListSample(final DocumentBuilder builder, final List docList) {
-     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
-     builder.getListFormat().setList(docList);
-     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
-         builder.getListFormat().setListLevelNumber(i);
-         builder.writeln("Level " + i);
-     }
-     builder.getListFormat().removeNumbers();
-     builder.writeln();
- }
- 
-```
-
-Shows how to restart numbering in a list by copying a list.
-
-```
-
- Document doc = new Document();
-
- // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
- // We can create nested lists by increasing the indent level.
- // We can begin and end a list by using a document builder's "ListFormat" property.
- // Each paragraph that we add between a list's start and the end will become an item in the list.
- // Create a list from a Microsoft Word template, and customize its first list level.
- List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
- list1.getListLevels().get(0).getFont().setColor(Color.RED);
- list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
-
- // Apply our list to some paragraphs.
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("List 1 starts below:");
- builder.getListFormat().setList(list1);
- builder.writeln("Item 1");
- builder.writeln("Item 2");
- builder.getListFormat().removeNumbers();
-
- // We can add a copy of an existing list to the document's list collection
- // to create a similar list without making changes to the original.
- List list2 = doc.getLists().addCopy(list1);
- list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
- list2.getListLevels().get(0).setStartAt(10);
-
- // Apply the second list to new paragraphs.
- builder.writeln("List 2 starts below:");
- builder.getListFormat().setList(list2);
- builder.writeln("Item 1");
- builder.writeln("Item 2");
- builder.getListFormat().removeNumbers();
-
- doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
- 
-```
-
 Shows how to work with list levels.
 
 ```
@@ -160,6 +88,78 @@ Shows how to work with list levels.
  Assert.assertFalse(builder.getListFormat().isListItem());
 
  doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Create a list from a Microsoft Word template, and customize its first list level.
+ List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
+ list1.getListLevels().get(0).getFont().setColor(Color.RED);
+ list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
+
+ // Apply our list to some paragraphs.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("List 1 starts below:");
+ builder.getListFormat().setList(list1);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ // We can add a copy of an existing list to the document's list collection
+ // to create a similar list without making changes to the original.
+ List list2 = doc.getLists().addCopy(list1);
+ list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
+ list2.getListLevels().get(0).setStartAt(10);
+
+ // Apply the second list to new paragraphs.
+ builder.writeln("List 2 starts below:");
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
+ 
+```
+
+Shows how to create a document with a sample of all the lists from another document.
+
+```
+
+ public void printOutAllLists() throws Exception {
+     Document srcDoc = new Document(getMyDir() + "Rendering.docx");
+
+     Document dstDoc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(dstDoc);
+
+     for (List srcList : srcDoc.getLists()) {
+         List dstList = dstDoc.getLists().addCopy(srcList);
+         addListSample(builder, dstList);
+     }
+
+     dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
+ }
+
+ private static void addListSample(final DocumentBuilder builder, final List docList) {
+     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
+     builder.getListFormat().setList(docList);
+     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
+         builder.getListFormat().setListLevelNumber(i);
+         builder.writeln("Level " + i);
+     }
+     builder.getListFormat().removeNumbers();
+     builder.writeln();
+ }
  
 ```
 
@@ -287,37 +287,6 @@ If the source list is a reference to or a definition of a list style, the newly 
 
  **Examples:** 
 
-Shows how to create a document with a sample of all the lists from another document.
-
-```
-
- public void printOutAllLists() throws Exception {
-     Document srcDoc = new Document(getMyDir() + "Rendering.docx");
-
-     Document dstDoc = new Document();
-     DocumentBuilder builder = new DocumentBuilder(dstDoc);
-
-     for (List srcList : srcDoc.getLists()) {
-         List dstList = dstDoc.getLists().addCopy(srcList);
-         addListSample(builder, dstList);
-     }
-
-     dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
- }
-
- private static void addListSample(final DocumentBuilder builder, final List docList) {
-     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
-     builder.getListFormat().setList(docList);
-     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
-         builder.getListFormat().setListLevelNumber(i);
-         builder.writeln("Level " + i);
-     }
-     builder.getListFormat().removeNumbers();
-     builder.writeln();
- }
- 
-```
-
 Shows how to restart numbering in a list by copying a list.
 
 ```
@@ -359,6 +328,37 @@ Shows how to restart numbering in a list by copying a list.
  
 ```
 
+Shows how to create a document with a sample of all the lists from another document.
+
+```
+
+ public void printOutAllLists() throws Exception {
+     Document srcDoc = new Document(getMyDir() + "Rendering.docx");
+
+     Document dstDoc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(dstDoc);
+
+     for (List srcList : srcDoc.getLists()) {
+         List dstList = dstDoc.getLists().addCopy(srcList);
+         addListSample(builder, dstList);
+     }
+
+     dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
+ }
+
+ private static void addListSample(final DocumentBuilder builder, final List docList) {
+     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
+     builder.getListFormat().setList(docList);
+     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
+         builder.getListFormat().setListLevelNumber(i);
+         builder.writeln("Level " + i);
+     }
+     builder.getListFormat().removeNumbers();
+     builder.writeln();
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -391,26 +391,6 @@ Gets a list by index.
 
  **Examples:** 
 
-Shows how to verify owner document properties of lists.
-
-```
-
- Document doc = new Document();
-
- ListCollection lists = doc.getLists();
-
- Assert.assertEquals(doc, lists.getDocument());
-
- List docList = lists.add(ListTemplate.BULLET_DEFAULT);
- Assert.assertEquals(doc, docList.getDocument());
-
- System.out.println("Current list count: " + lists.getCount());
- System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
- System.out.println("ListId: " + docList.getListId());
- System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
- 
-```
-
 Shows how to apply list formatting of an existing list to a collection of paragraphs.
 
 ```
@@ -437,6 +417,26 @@ Shows how to apply list formatting of an existing list to a collection of paragr
  paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
 
  Assert.assertEquals(3, DocumentHelper.getListItemCount(paras));
+ 
+```
+
+Shows how to verify owner document properties of lists.
+
+```
+
+ Document doc = new Document();
+
+ ListCollection lists = doc.getLists();
+
+ Assert.assertEquals(doc, lists.getDocument());
+
+ List docList = lists.add(ListTemplate.BULLET_DEFAULT);
+ Assert.assertEquals(doc, docList.getDocument());
+
+ System.out.println("Current list count: " + lists.getCount());
+ System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
+ System.out.println("ListId: " + docList.getListId());
+ System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
  
 ```
 

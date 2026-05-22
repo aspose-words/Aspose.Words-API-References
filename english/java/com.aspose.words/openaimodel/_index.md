@@ -22,6 +22,29 @@ Please refer to https://platform.openai.com/docs/models for OpenAi models detail
 
  **Examples:** 
 
+Shows how to summarize text using OpenAI and Google models.
+
+```
+
+ Document firstDoc = new Document(getMyDir() + "Big document.docx");
+ Document secondDoc = new Document(getMyDir() + "Document.docx");
+
+ String apiKey = System.getenv("API_KEY");
+ // Use OpenAI or Google generative language models.
+ AiModel model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
+
+ SummarizeOptions options = new SummarizeOptions();
+
+ options.setSummaryLength(SummaryLength.SHORT);
+ Document oneDocumentSummary = model.summarize(firstDoc, options);
+ oneDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
+
+ options.setSummaryLength(SummaryLength.LONG);
+ Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
+ multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
+ 
+```
+
 Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```
@@ -54,29 +77,6 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      private String mUrl;
  }
- 
-```
-
-Shows how to summarize text using OpenAI and Google models.
-
-```
-
- Document firstDoc = new Document(getMyDir() + "Big document.docx");
- Document secondDoc = new Document(getMyDir() + "Document.docx");
-
- String apiKey = System.getenv("API_KEY");
- // Use OpenAI or Google generative language models.
- AiModel model = ((OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey)).withOrganization("Organization").withProject("Project");
-
- SummarizeOptions options = new SummarizeOptions();
-
- options.setSummaryLength(SummaryLength.SHORT);
- Document oneDocumentSummary = model.summarize(firstDoc, options);
- oneDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
-
- options.setSummaryLength(SummaryLength.LONG);
- Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
- multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
  
 ```
 ## Constructors

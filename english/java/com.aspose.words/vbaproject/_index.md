@@ -235,30 +235,6 @@ Gets VBA project name.
 
  **Examples:** 
 
-Shows how to create a VBA project using macros.
-
-```
-
- Document doc = new Document();
-
- // Create a new VBA project.
- VbaProject project = new VbaProject();
- project.setName("Aspose.Project");
- doc.setVbaProject(project);
-
- // Create a new module and specify a macro source code.
- VbaModule module = new VbaModule();
- module.setName("Aspose.Module");
- module.setType(VbaModuleType.PROCEDURAL_MODULE);
- module.setSourceCode("New source code");
-
- // Add the module to the VBA project.
- doc.getVbaProject().getModules().add(module);
-
- doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
- 
-```
-
 Shows how to access a document's VBA project information.
 
 ```
@@ -285,6 +261,30 @@ Shows how to access a document's VBA project information.
 
  // Remove a module from the collection.
  vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Shows how to create a VBA project using macros.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
  
 ```
 
@@ -486,30 +486,6 @@ Sets VBA project name.
 
  **Examples:** 
 
-Shows how to create a VBA project using macros.
-
-```
-
- Document doc = new Document();
-
- // Create a new VBA project.
- VbaProject project = new VbaProject();
- project.setName("Aspose.Project");
- doc.setVbaProject(project);
-
- // Create a new module and specify a macro source code.
- VbaModule module = new VbaModule();
- module.setName("Aspose.Module");
- module.setType(VbaModuleType.PROCEDURAL_MODULE);
- module.setSourceCode("New source code");
-
- // Add the module to the VBA project.
- doc.getVbaProject().getModules().add(module);
-
- doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
- 
-```
-
 Shows how to access a document's VBA project information.
 
 ```
@@ -536,6 +512,30 @@ Shows how to access a document's VBA project information.
 
  // Remove a module from the collection.
  vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Shows how to create a VBA project using macros.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
  
 ```
 

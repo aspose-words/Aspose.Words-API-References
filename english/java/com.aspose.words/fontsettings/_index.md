@@ -28,52 +28,6 @@ Changing font settings is safe at any time from any thread. But it is recommende
 
  **Examples:** 
 
-Shows how to add a font source to our existing font sources.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setName("Arial");
- builder.writeln("Hello world!");
- builder.getFont().setName("Amethysta");
- builder.writeln("The quick brown fox jumps over the lazy dog.");
- builder.getFont().setName("Junction Light");
- builder.writeln("The quick brown fox jumps over the lazy dog.");
-
- FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
-
- Assert.assertEquals(1, originalFontSources.length);
-
- Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
-
- // The default font source is missing two of the fonts that we are using in our document.
- // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
- Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
- Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
-
- // Create a font source from a folder that contains fonts.
- FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
-
- // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
- FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
- FontSettings.getDefaultInstance().setFontsSources(updatedFontSources);
-
- // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
- updatedFontSources = FontSettings.getDefaultInstance().getFontsSources();
-
- Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
- Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
- Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
-
- doc.save(getArtifactsDir() + "FontSettings.AddFontSource.pdf");
-
- // Restore the original font sources.
- FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
- 
-```
-
 Shows how to set a font source directory.
 
 ```
@@ -174,6 +128,52 @@ Shows how to set multiple font source directories.
  }
 
  doc.save(getArtifactsDir() + "FontSettings.SetFontsFolders.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+Shows how to add a font source to our existing font sources.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font source is missing two of the fonts that we are using in our document.
+ // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Create a font source from a folder that contains fonts.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+
+ // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+ FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
+ FontSettings.getDefaultInstance().setFontsSources(updatedFontSources);
+
+ // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+ updatedFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ doc.save(getArtifactsDir() + "FontSettings.AddFontSource.pdf");
 
  // Restore the original font sources.
  FontSettings.getDefaultInstance().setFontsSources(originalFontSources);

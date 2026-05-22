@@ -18,26 +18,6 @@ Specifies how text is wrapped around a shape or picture.
 
  **Examples:** 
 
-Shows how to insert a floating image to the center of a page.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
- Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
- shape.setWrapType(WrapType.NONE);
- shape.setBehindText(true);
- shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
- shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
- shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
- shape.setVerticalAlignment(VerticalAlignment.CENTER);
-
- doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
- 
-```
-
 Shows how to insert an image, and use it as a watermark.
 
 ```
@@ -58,6 +38,26 @@ Shows how to insert an image, and use it as a watermark.
  shape.setTop((builder.getPageSetup().getPageHeight() - shape.getHeight()) / 2.0);
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertWatermark.docx");
+ 
+```
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
  
 ```
 ## Fields

@@ -18,28 +18,33 @@ Allows to specify which OOXML specification will be used when saving in the DOCX
 
  **Examples:** 
 
-Shows how to insert DML shapes into a document.
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Below are two wrapping types that shapes may have.
- // 1 -  Floating:
- builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
-         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
 
- // 2 -  Inline:
- builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
 
- // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
- // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
- // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
 
- doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
  
 ```
 
@@ -78,33 +83,28 @@ Shows how to configure a list to restart numbering at each section.
  
 ```
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
+Shows how to insert DML shapes into a document.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // If we configure compatibility options to comply with Microsoft Word 2003,
- // inserting an image will define its shape using VML.
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
- builder.insertImage(getImageDir() + "Transparent background logo.png");
+ // Below are two wrapping types that shapes may have.
+ // 1 -  Floating:
+ builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
+         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
 
- Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ // 2 -  Inline:
+ builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
 
- // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
- // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
- // any document we save while passing this object will have to follow that standard.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
- saveOptions.setSaveFormat(SaveFormat.DOCX);
+ // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+ // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+ // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 
- doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
- // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
- doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
-
- Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
  
 ```
 ## Fields

@@ -28,26 +28,6 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 
  **Examples:** 
 
-Shows how to insert a floating image to the center of a page.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
- Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
- shape.setWrapType(WrapType.NONE);
- shape.setBehindText(true);
- shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
- shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
- shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
- shape.setVerticalAlignment(VerticalAlignment.CENTER);
-
- doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
- 
-```
-
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
 ```
@@ -68,6 +48,26 @@ Shows how to extract images from a document, and save them to the local file sys
          imageIndex++;
      }
  }
+ 
+```
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
  
 ```
 
@@ -1541,70 +1541,6 @@ For shapes in a group, the value is in the coordinate space and units of the par
 
  **Examples:** 
 
-Shows how to verify shape containing block boundaries.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertShape(ShapeType.LINE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
-         RelativeVerticalPosition.TOP_MARGIN, 50.0, 100.0, 100.0, WrapType.NONE);
- shape.setStrokeColor(Color.ORANGE);
-
- // Even though the line itself takes up little space on the document page,
- // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
- Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBounds());
- Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBoundsInPoints());
-
- // Create a group shape, and then set the size of its containing block using the "Bounds" property.
- GroupShape group = new GroupShape(doc);
- group.setBounds(new Rectangle2D.Float(0f, 100f, 250f, 250f));
-
- Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
-
- // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
- shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(700.0);
-     shape.setTop(700.0);
- }
-
- Assert.assertEquals(new Rectangle2D.Float(700f, 700f, 100f, 100f), shape.getBoundsInPoints());
-
- group.appendChild(shape);
-
- // The group shape's coordinate plane has its origin on the top left-hand side corner of its containing block,
- // and the x and y coordinates of (1000, 1000) on the bottom right-hand side corner.
- // Our group shape is 250x250pt in size, so every 4pt on the group shape's coordinate plane
- // translates to 1pt in the document body's coordinate plane.
- // Every shape that we insert will also shrink in size by a factor of 4.
- // The change in the shape's "BoundsInPoints" property will reflect this.
- Assert.assertEquals(new Rectangle2D.Float(175f, 275f, 25f, 25f), shape.getBoundsInPoints());
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
-
- // Insert a shape and place it outside of the bounds of the group shape's containing block.
- shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(1000.0);
-     shape.setTop(1000.0);
- }
-
- group.appendChild(shape);
-
- // The group shape's footprint in the document body has increased, but the containing block remains the same.
- Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
- Assert.assertEquals(new Rectangle2D.Float(250f, 350f, 25f, 25f), shape.getBoundsInPoints());
-
- doc.save(getArtifactsDir() + "Shape.Bounds.docx");
- 
-```
-
 Shows how to create and populate a group shape.
 
 ```
@@ -1694,6 +1630,70 @@ Shows how to create and populate a group shape.
  builder.write("Hello world!");
 
  doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
+Shows how to verify shape containing block boundaries.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.LINE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 50.0, 100.0, 100.0, WrapType.NONE);
+ shape.setStrokeColor(Color.ORANGE);
+
+ // Even though the line itself takes up little space on the document page,
+ // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBounds());
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBoundsInPoints());
+
+ // Create a group shape, and then set the size of its containing block using the "Bounds" property.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(0f, 100f, 250f, 250f));
+
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+
+ // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ Assert.assertEquals(new Rectangle2D.Float(700f, 700f, 100f, 100f), shape.getBoundsInPoints());
+
+ group.appendChild(shape);
+
+ // The group shape's coordinate plane has its origin on the top left-hand side corner of its containing block,
+ // and the x and y coordinates of (1000, 1000) on the bottom right-hand side corner.
+ // Our group shape is 250x250pt in size, so every 4pt on the group shape's coordinate plane
+ // translates to 1pt in the document body's coordinate plane.
+ // Every shape that we insert will also shrink in size by a factor of 4.
+ // The change in the shape's "BoundsInPoints" property will reflect this.
+ Assert.assertEquals(new Rectangle2D.Float(175f, 275f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ // Insert a shape and place it outside of the bounds of the group shape's containing block.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(1000.0);
+     shape.setTop(1000.0);
+ }
+
+ group.appendChild(shape);
+
+ // The group shape's footprint in the document body has increased, but the containing block remains the same.
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+ Assert.assertEquals(new Rectangle2D.Float(250f, 350f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.save(getArtifactsDir() + "Shape.Bounds.docx");
  
 ```
 
@@ -2050,59 +2050,6 @@ The default value is (0,0).
 
  **Examples:** 
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
-
-```
-
- Document doc = new Document();
-
- // Insert a group shape, and place it 100 points below and to the right of
- // the document's x and Y coordinate origin point.
- GroupShape group = new GroupShape(doc);
- group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
-
- // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
- // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
- Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
-
- // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
- // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
- // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
- // to a movement of 2pts on the group shape's coordinate plane.
- Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
- Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
- Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Move the group shape's x and y axis origin from the top left corner to the center.
- // This will offset the group's internal coordinates relative to the document's coordinates even further.
- group.setCoordOrigin(new Point(-250, -250));
-
- Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Changing the scale of the coordinate plane will also affect relative locations.
- group.setCoordSize(new Dimension(500, 500));
-
- Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // If we wish to add a shape to this group while defining its location based on a location in the document,
- // we will need to first confirm a location in the group shape that will match the document's location.
- Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(700.0);
-     shape.setTop(700.0);
- }
-
- group.appendChild(shape);
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
-
- doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
- 
-```
-
 Shows how to create and populate a group shape.
 
 ```
@@ -2192,6 +2139,59 @@ Shows how to create and populate a group shape.
  builder.write("Hello world!");
 
  doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
  
 ```
 
@@ -2211,59 +2211,6 @@ The default value is (1000, 1000).
 
  **Examples:** 
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
-
-```
-
- Document doc = new Document();
-
- // Insert a group shape, and place it 100 points below and to the right of
- // the document's x and Y coordinate origin point.
- GroupShape group = new GroupShape(doc);
- group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
-
- // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
- // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
- Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
-
- // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
- // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
- // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
- // to a movement of 2pts on the group shape's coordinate plane.
- Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
- Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
- Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Move the group shape's x and y axis origin from the top left corner to the center.
- // This will offset the group's internal coordinates relative to the document's coordinates even further.
- group.setCoordOrigin(new Point(-250, -250));
-
- Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Changing the scale of the coordinate plane will also affect relative locations.
- group.setCoordSize(new Dimension(500, 500));
-
- Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // If we wish to add a shape to this group while defining its location based on a location in the document,
- // we will need to first confirm a location in the group shape that will match the document's location.
- Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(700.0);
-     shape.setTop(700.0);
- }
-
- group.appendChild(shape);
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
-
- doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
- 
-```
-
 Shows how to create and populate a group shape.
 
 ```
@@ -2353,6 +2300,59 @@ Shows how to create and populate a group shape.
  builder.write("Hello world!");
 
  doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
  
 ```
 
@@ -3338,18 +3338,6 @@ If there is no first child node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -3382,6 +3370,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -4337,18 +4337,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -4381,6 +4369,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -5623,19 +5623,6 @@ Gets soft edge formatting for the shape.
 
  **Examples:** 
 
-Shows how to set limit for image resolution.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- SvgSaveOptions saveOptions = new SvgSaveOptions();
- saveOptions.setMaxImageResolution(72);
-
- doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
- 
-```
-
 Shows how to work with soft edge formatting.
 
 ```
@@ -5660,6 +5647,19 @@ Shows how to work with soft edge formatting.
 
  // Check radius of the removed soft edge.
  Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
  
 ```
 
@@ -5881,7 +5881,7 @@ Shows to create a variety of shapes.
  filledInArrowImg.setTop(160.0);
  filledInArrowImg.setFlipOrientation(FlipOrientation.BOTH);
 
- BufferedImage image = ImageIO.read(getAsposelogoUri().toURL().openStream());
+ BufferedImage image = ImageIO.read(getImageUri().toURL().openStream());
  Graphics2D graphics2D = image.createGraphics();
 
  // When we flip the orientation of our arrow, we also flip the image that the arrow contains.
@@ -7431,6 +7431,29 @@ Returns  true  if the shape has image bytes or links an image.
 
  **Examples:** 
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Get the collection of shapes from the document,
+ // and save the image data of every shape with an image as a file to the local file system.
+ NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
+
+ int imageIndex = 0;
+ for (Shape shape : (Iterable) shapes) {
+     if (shape.hasImage()) {
+         // The image data of shapes may contain images of many possible image formats.
+         // We can determine a file extension for each image automatically, based on its format.
+         String imageFileName = MessageFormat.format("File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil.imageTypeToExtension(shape.getImageData().getImageType()));
+         shape.getImageData().save(getArtifactsDir() + imageFileName);
+         imageIndex++;
+     }
+ }
+ 
+```
+
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -7461,29 +7484,6 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
- 
-```
-
-Shows how to extract images from a document, and save them to the local file system as individual files.
-
-```
-
- Document doc = new Document(getMyDir() + "Images.docx");
-
- // Get the collection of shapes from the document,
- // and save the image data of every shape with an image as a file to the local file system.
- NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
-
- int imageIndex = 0;
- for (Shape shape : (Iterable) shapes) {
-     if (shape.hasImage()) {
-         // The image data of shapes may contain images of many possible image formats.
-         // We can determine a file extension for each image automatically, based on its format.
-         String imageFileName = MessageFormat.format("File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil.imageTypeToExtension(shape.getImageData().getImageType()));
-         shape.getImageData().save(getArtifactsDir() + imageFileName);
-         imageIndex++;
-     }
- }
  
 ```
 
@@ -7579,52 +7579,6 @@ If the node being inserted was created from another document, you should use **M
 
  **Examples:** 
 
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -7672,6 +7626,52 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
 
@@ -8998,33 +8998,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -9055,6 +9028,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 
@@ -9359,25 +9359,6 @@ Only expressions with element names are supported at the moment. Expressions tha
 
  **Examples:** 
 
-Shows how to use an XPath expression to test whether a node is inside a field.
-
-```
-
- Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
- // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
- // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
- // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
- NodeList resultList =
-         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
- Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
- Run run = runs[0];
-
- // Check if the specified run is one of the nodes that are inside the field.
- System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
- 
-```
-
 Shows how to select certain nodes by using an XPath expression.
 
 ```
@@ -9407,6 +9388,25 @@ Shows how to select certain nodes by using an XPath expression.
  Node node = doc.selectSingleNode("//Body/Paragraph");
 
  Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -9723,6 +9723,98 @@ For shapes in a group, the value is in the coordinate space and units of the par
 
  **Examples:** 
 
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
 Shows how to verify shape containing block boundaries.
 
 ```
@@ -9787,98 +9879,6 @@ Shows how to verify shape containing block boundaries.
  
 ```
 
-Shows how to create and populate a group shape.
-
-```
-
- Document doc = new Document();
-
- // Create a group shape. A group shape can display a collection of child shape nodes.
- // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
- // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
- GroupShape group = new GroupShape(doc);
-
- Assert.assertEquals(WrapType.NONE, group.getWrapType());
-
- // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
- group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
-
- // Set the group's internal coordinate plane size to 500 x 500pt.
- // The top left corner of the group will have an x and y coordinate of (0, 0),
- // and the bottom right corner will have an x and y coordinate of (500, 500).
- group.setCoordSize(new Dimension(500, 500));
-
- // Set the coordinates of the top left corner of the group to (-250, -250).
- // The group's center will now have an x and y coordinate value of (0, 0),
- // and the bottom right corner will be at (250, 250).
- group.setCoordOrigin(new Point(-250, -250));
-
- Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
- rectangleShape.setWidth(group.getCoordSize().width);
- rectangleShape.setHeight(group.getCoordSize().height);
- rectangleShape.setLeft(group.getCoordOrigin().x);
- rectangleShape.setTop(group.getCoordOrigin().y);
-
- // Create a rectangle that will display the boundary of this group shape and add it to the group.
- group.appendChild(rectangleShape);
-
- // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
- ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
-
- Shape starShape = new Shape(doc, ShapeType.STAR);
- starShape.setWidth(20.0);
- starShape.setHeight(20.0);
- starShape.setLeft(-10);
- starShape.setTop(-10);
- starShape.setFillColor(Color.RED);
-
- // Create a small red star and insert it into the group.
- // Line up the shape with the group's coordinate origin, which we have moved to the center.
- group.appendChild(starShape);
-
- rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
- rectangleShape.setWidth(250.0);
- rectangleShape.setHeight(250.0);
- rectangleShape.setLeft(-250);
- rectangleShape.setTop(-250);
- rectangleShape.setFillColor(Color.BLUE);
-
- // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
- // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
- // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
- // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
- group.appendChild(rectangleShape);
-
- Shape imageShape = new Shape(doc, ShapeType.IMAGE);
- imageShape.setWidth(200.0);
- imageShape.setHeight(200.0);
- imageShape.setLeft(-225);
- imageShape.setTop(-225);
-
- group.appendChild(imageShape);
-
- ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
-
- Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
- textboxShape.setWidth(200.0);
- textboxShape.setHeight(50.0);
- textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
- textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
-
- // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
- // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
- // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
- group.appendChild(textboxShape);
-
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.insertNode(group);
- builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
- builder.write("Hello world!");
-
- doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -9911,59 +9911,6 @@ The default value is (0,0).
 
  **Examples:** 
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
-
-```
-
- Document doc = new Document();
-
- // Insert a group shape, and place it 100 points below and to the right of
- // the document's x and Y coordinate origin point.
- GroupShape group = new GroupShape(doc);
- group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
-
- // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
- // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
- Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
-
- // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
- // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
- // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
- // to a movement of 2pts on the group shape's coordinate plane.
- Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
- Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
- Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Move the group shape's x and y axis origin from the top left corner to the center.
- // This will offset the group's internal coordinates relative to the document's coordinates even further.
- group.setCoordOrigin(new Point(-250, -250));
-
- Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Changing the scale of the coordinate plane will also affect relative locations.
- group.setCoordSize(new Dimension(500, 500));
-
- Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // If we wish to add a shape to this group while defining its location based on a location in the document,
- // we will need to first confirm a location in the group shape that will match the document's location.
- Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(700.0);
-     shape.setTop(700.0);
- }
-
- group.appendChild(shape);
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
-
- doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
- 
-```
-
 Shows how to create and populate a group shape.
 
 ```
@@ -10053,6 +10000,59 @@ Shows how to create and populate a group shape.
  builder.write("Hello world!");
 
  doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
  
 ```
 
@@ -10075,59 +10075,6 @@ The default value is (1000, 1000).
 
  **Examples:** 
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
-
-```
-
- Document doc = new Document();
-
- // Insert a group shape, and place it 100 points below and to the right of
- // the document's x and Y coordinate origin point.
- GroupShape group = new GroupShape(doc);
- group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
-
- // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
- // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
- Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
-
- // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
- // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
- // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
- // to a movement of 2pts on the group shape's coordinate plane.
- Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
- Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
- Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Move the group shape's x and y axis origin from the top left corner to the center.
- // This will offset the group's internal coordinates relative to the document's coordinates even further.
- group.setCoordOrigin(new Point(-250, -250));
-
- Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // Changing the scale of the coordinate plane will also affect relative locations.
- group.setCoordSize(new Dimension(500, 500));
-
- Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
-
- // If we wish to add a shape to this group while defining its location based on a location in the document,
- // we will need to first confirm a location in the group shape that will match the document's location.
- Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
-
- Shape shape = new Shape(doc, ShapeType.RECTANGLE);
- {
-     shape.setWidth(100.0);
-     shape.setHeight(100.0);
-     shape.setLeft(700.0);
-     shape.setTop(700.0);
- }
-
- group.appendChild(shape);
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
-
- doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
- 
-```
-
 Shows how to create and populate a group shape.
 
 ```
@@ -10217,6 +10164,59 @@ Shows how to create and populate a group shape.
  builder.write("Hello world!");
 
  doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
  
 ```
 

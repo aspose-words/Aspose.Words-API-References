@@ -149,17 +149,6 @@ Gets a URL of the model. The default value is specific for the model.
 
  **Examples:** 
 
-Shows how to change model default url.
-
-```
-
- String apiKey = System.getenv("API_KEY");
- AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
- // Default value "https://api.openai.com/".
- model.setUrl("https://my.a.com/");
- 
-```
-
 Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```
@@ -192,6 +181,17 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      private String mUrl;
  }
+ 
+```
+
+Shows how to change model default url.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value "https://api.openai.com/".
+ model.setUrl("https://my.a.com/");
  
 ```
 
@@ -233,17 +233,6 @@ Sets a URL of the model. The default value is specific for the model.
 
  **Examples:** 
 
-Shows how to change model default url.
-
-```
-
- String apiKey = System.getenv("API_KEY");
- AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
- // Default value "https://api.openai.com/".
- model.setUrl("https://my.a.com/");
- 
-```
-
 Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```
@@ -276,6 +265,17 @@ Shows how to use self-hosted AI model based on OpenAiModel.
 
      private String mUrl;
  }
+ 
+```
+
+Shows how to change model default url.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ // Default value "https://api.openai.com/".
+ model.setUrl("https://my.a.com/");
  
 ```
 

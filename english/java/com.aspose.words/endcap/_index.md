@@ -71,7 +71,7 @@ Shows to create a variety of shapes.
  filledInArrowImg.setTop(160.0);
  filledInArrowImg.setFlipOrientation(FlipOrientation.BOTH);
 
- BufferedImage image = ImageIO.read(getAsposelogoUri().toURL().openStream());
+ BufferedImage image = ImageIO.read(getImageUri().toURL().openStream());
  Graphics2D graphics2D = image.createGraphics();
 
  // When we flip the orientation of our arrow, we also flip the image that the arrow contains.

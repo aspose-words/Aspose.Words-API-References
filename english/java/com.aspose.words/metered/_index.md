@@ -18,15 +18,6 @@ Provides methods to set metered key.
 
  **Examples:** 
 
-In this example, an attempt will be made to set metered public and private key the component jar file:
-
-```
-
- Metered matered = new Metered();
- matered.setMeteredKey("PublicKey", "PrivateKey");
- 
-```
-
 Shows how to activate a Metered license and track credit/consumption.
 
 ```

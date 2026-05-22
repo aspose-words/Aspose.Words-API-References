@@ -56,20 +56,120 @@ Shows how to digitally sign documents.
 
 | Method | Description |
 | --- | --- |
+| [getApplicationVersion()](#getApplicationVersion) | Gets the application version for the digital signature. |
+| [getColorDepth()](#getColorDepth) | Gets the color depth for the digital signature. |
 | [getComments()](#getComments) | Specifies comments on the digital signature. |
 | [getDecryptionPassword()](#getDecryptionPassword) | The password to decrypt source document. |
+| [getHorizontalResolution()](#getHorizontalResolution) | Gets the horizontal resolution for the digital signature. |
+| [getOfficeVersion()](#getOfficeVersion) | Gets the Office version for the digital signature. |
 | [getProviderId()](#getProviderId) | Specifies the class ID of the signature provider. |
 | [getSignTime()](#getSignTime) | The date of signing. |
 | [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
 | [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the digital signature. |
+| [getWindowsVersion()](#getWindowsVersion) | Gets the Windows version for the digital signature. |
 | [getXmlDsigLevel()](#getXmlDsigLevel) | Specifies the level of a digital signature based on XML-DSig standard. |
+| [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String) | Sets the application version for the digital signature. |
+| [setColorDepth(int value)](#setColorDepth-int) | Sets the color depth for the digital signature. |
 | [setComments(String value)](#setComments-java.lang.String) | Specifies comments on the digital signature. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String) | The password to decrypt source document. |
+| [setHorizontalResolution(int value)](#setHorizontalResolution-int) | Sets the horizontal resolution for the digital signature. |
+| [setOfficeVersion(String value)](#setOfficeVersion-java.lang.String) | Sets the Office version for the digital signature. |
 | [setProviderId(UUID value)](#setProviderId-java.util.UUID) | Specifies the class ID of the signature provider. |
 | [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
 | [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
 | [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [setVerticalResolution(int value)](#setVerticalResolution-int) | Sets the vertical resolution for the digital signature. |
+| [setWindowsVersion(String value)](#setWindowsVersion-java.lang.String) | Sets the Windows version for the digital signature. |
 | [setXmlDsigLevel(int value)](#setXmlDsigLevel-int) | Specifies the level of a digital signature based on XML-DSig standard. |
+### getApplicationVersion() {#getApplicationVersion}
+```
+public String getApplicationVersion()
+```
+
+
+Gets the application version for the digital signature. Default value is "12.0".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+java.lang.String - The application version for the digital signature.
+### getColorDepth() {#getColorDepth}
+```
+public int getColorDepth()
+```
+
+
+Gets the color depth for the digital signature. Default value is 32.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+int - The color depth for the digital signature.
 ### getComments() {#getComments}
 ```
 public String getComments()
@@ -151,6 +251,94 @@ Shows how to sign encrypted document file.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getHorizontalResolution() {#getHorizontalResolution}
+```
+public int getHorizontalResolution()
+```
+
+
+Gets the horizontal resolution for the digital signature. Default value is 1920.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+int - The horizontal resolution for the digital signature.
+### getOfficeVersion() {#getOfficeVersion}
+```
+public String getOfficeVersion()
+```
+
+
+Gets the Office version for the digital signature. Default value is "12.0".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+java.lang.String - The Office version for the digital signature.
 ### getProviderId() {#getProviderId}
 ```
 public UUID getProviderId()
@@ -453,6 +641,94 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 **Returns:**
 byte[] - The corresponding byte[] value.
+### getVerticalResolution() {#getVerticalResolution}
+```
+public int getVerticalResolution()
+```
+
+
+Gets the vertical resolution for the digital signature. Default value is 1200.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+int - The vertical resolution for the digital signature.
+### getWindowsVersion() {#getWindowsVersion}
+```
+public String getWindowsVersion()
+```
+
+
+Gets the Windows version for the digital signature. Default value is "6.1".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Returns:**
+java.lang.String - The Windows version for the digital signature.
 ### getXmlDsigLevel() {#getXmlDsigLevel}
 ```
 public int getXmlDsigLevel()
@@ -482,6 +758,100 @@ Shows how to sign document based on XML-DSig standard.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [XmlDsigLevel](../../com.aspose.words/xmldsiglevel/) constants.
+### setApplicationVersion(String value) {#setApplicationVersion-java.lang.String}
+```
+public void setApplicationVersion(String value)
+```
+
+
+Sets the application version for the digital signature. Default value is "12.0".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The application version for the digital signature. |
+
+### setColorDepth(int value) {#setColorDepth-int}
+```
+public void setColorDepth(int value)
+```
+
+
+Sets the color depth for the digital signature. Default value is 32.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The color depth for the digital signature. |
+
 ### setComments(String value) {#setComments-java.lang.String}
 ```
 public void setComments(String value)
@@ -568,6 +938,100 @@ Shows how to sign encrypted document file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### setHorizontalResolution(int value) {#setHorizontalResolution-int}
+```
+public void setHorizontalResolution(int value)
+```
+
+
+Sets the horizontal resolution for the digital signature. Default value is 1920.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The horizontal resolution for the digital signature. |
+
+### setOfficeVersion(String value) {#setOfficeVersion-java.lang.String}
+```
+public void setOfficeVersion(String value)
+```
+
+
+Sets the Office version for the digital signature. Default value is "12.0".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The Office version for the digital signature. |
 
 ### setProviderId(UUID value) {#setProviderId-java.util.UUID}
 ```
@@ -882,6 +1346,100 @@ Shows how to add a signature line to a document, and then sign it using a digita
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
+
+### setVerticalResolution(int value) {#setVerticalResolution-int}
+```
+public void setVerticalResolution(int value)
+```
+
+
+Sets the vertical resolution for the digital signature. Default value is 1200.
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The vertical resolution for the digital signature. |
+
+### setWindowsVersion(String value) {#setWindowsVersion-java.lang.String}
+```
+public void setWindowsVersion(String value)
+```
+
+
+Sets the Windows version for the digital signature. Default value is "6.1".
+
+ **Examples:** 
+
+Shows how to sign a document with additional signing options.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setWindowsVersion("10.0");
+     signOptions.setApplicationVersion("16.0.19127");
+     signOptions.setOfficeVersion("16.0.19127/27");
+     signOptions.setHorizontalResolution(1024);
+     signOptions.setVerticalResolution(768);
+     signOptions.setColorDepth(24);
+ }
+
+ byte[] certBytes = Files.readAllBytes(Paths.get(getMyDir() + "morzal.pfx"));
+ CertificateHolder cert = CertificateHolder.create(certBytes, "aw");
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.docx");
+
+ DigitalSignature signature = signedDoc.getDigitalSignatures().get(0);
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signature.isValid());
+ Assert.assertEquals("10.0", signature.getWindowsVersion());
+ Assert.assertEquals("16.0.19127", signature.getApplicationVersion());
+ Assert.assertEquals("16.0.19127/27", signature.getOfficeVersion());
+ Assert.assertEquals(1024, signature.getHorizontalResolution());
+ Assert.assertEquals(768, signature.getVerticalResolution());
+ Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The Windows version for the digital signature. |
 
 ### setXmlDsigLevel(int value) {#setXmlDsigLevel-int}
 ```

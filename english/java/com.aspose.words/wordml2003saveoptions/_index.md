@@ -24,27 +24,6 @@ At the moment provides only the [getSaveFormat()](../../com.aspose.words/wordml2
 
  **Examples:** 
 
-Shows how to manage memory optimization.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Hello world!");
-
- // Create a "WordML2003SaveOptions" object to pass to the document's "Save" method
- // to modify how we save the document to the WordML save format.
- WordML2003SaveOptions options = new WordML2003SaveOptions();
-
- // Set the "MemoryOptimization" flag to "true" to decrease memory consumption
- // during the document's saving operation at the cost of a longer saving time.
- // Set the "MemoryOptimization" flag to "false" to save the document normally.
- options.setMemoryOptimization(memoryOptimization);
-
- doc.save(getArtifactsDir() + "WordML2003SaveOptions.MemoryOptimization.xml", options);
- 
-```
-
 Shows how to manage output document's raw content.
 
 ```
@@ -86,6 +65,27 @@ Shows how to manage output document's raw content.
              "101" +
                      "0011" +
                      "011.5606"));
+ 
+```
+
+Shows how to manage memory optimization.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "WordML2003SaveOptions" object to pass to the document's "Save" method
+ // to modify how we save the document to the WordML save format.
+ WordML2003SaveOptions options = new WordML2003SaveOptions();
+
+ // Set the "MemoryOptimization" flag to "true" to decrease memory consumption
+ // during the document's saving operation at the cost of a longer saving time.
+ // Set the "MemoryOptimization" flag to "false" to save the document normally.
+ options.setMemoryOptimization(memoryOptimization);
+
+ doc.save(getArtifactsDir() + "WordML2003SaveOptions.MemoryOptimization.xml", options);
  
 ```
 
@@ -379,26 +379,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -419,6 +399,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -601,77 +601,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -776,6 +705,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 
@@ -1349,26 +1349,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -1389,6 +1369,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -1586,77 +1586,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -1761,6 +1690,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 

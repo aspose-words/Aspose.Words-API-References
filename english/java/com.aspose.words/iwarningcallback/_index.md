@@ -15,37 +15,6 @@ Implement this interface if you want to have your own custom method called to ca
 
  **Examples:** 
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```
-
- // Open a document that contains text formatted with a font that does not exist in any of our font sources.
- Document doc = new Document(getMyDir() + "Missing font.docx");
-
- // Assign a callback for handling font substitution warnings.
- WarningInfoCollection warningCollector = new WarningInfoCollection();
- doc.setWarningCallback(warningCollector);
-
- // Set a default font name and enable font substitution.
- FontSettings fontSettings = new FontSettings();
- fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
- fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
-
- // Original font metrics should be used after font substitution.
- doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
-
- // We will get a font substitution warning if we save a document with a missing font.
- doc.setFontSettings(fontSettings);
- doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
-
- for (WarningInfo info : warningCollector)
- {
-     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
-         System.out.println(info.getDescription());
- }
- 
-```
-
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```
@@ -88,6 +57,37 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
      }
 
      public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // Assign a callback for handling font substitution warnings.
+ WarningInfoCollection warningCollector = new WarningInfoCollection();
+ doc.setWarningCallback(warningCollector);
+
+ // Set a default font name and enable font substitution.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+ // Original font metrics should be used after font substitution.
+ doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
+ // We will get a font substitution warning if we save a document with a missing font.
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+ for (WarningInfo info : warningCollector)
+ {
+     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+         System.out.println(info.getDescription());
  }
  
 ```

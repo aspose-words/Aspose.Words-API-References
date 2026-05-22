@@ -43,53 +43,6 @@ Shows how to format a run of text using its font property.
  
 ```
 
-Shows how to construct an Aspose.Words document by hand.
-
-```
-
- Document doc = new Document();
-
- // A blank document contains one section, one body and one paragraph.
- // Call the "RemoveAllChildren" method to remove all those nodes,
- // and end up with a document node with no children.
- doc.removeAllChildren();
-
- // This document now has no composite child nodes that we can add content to.
- // If we wish to edit it, we will need to repopulate its node collection.
- // First, create a new section, and then append it as a child to the root document node.
- Section section = new Section(doc);
- doc.appendChild(section);
-
- // Set some page setup properties for the section.
- section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
- section.getPageSetup().setPaperSize(PaperSize.LETTER);
-
- // A section needs a body, which will contain and display all its contents
- // on the page between the section's header and footer.
- Body body = new Body(doc);
- section.appendChild(body);
-
- // Create a paragraph, set some formatting properties, and then append it as a child to the body.
- Paragraph para = new Paragraph(doc);
-
- para.getParagraphFormat().setStyleName("Heading 1");
- para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
-
- body.appendChild(para);
-
- // Finally, add some content to do the document. Create a run,
- // set its appearance and contents, and then append it as a child to the paragraph.
- Run run = new Run(doc);
- run.setText("Hello World!");
- run.getFont().setColor(Color.RED);
- para.appendChild(run);
-
- Assert.assertEquals("Hello World!", doc.getText().trim());
-
- doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -137,6 +90,53 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
 
@@ -794,18 +794,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -838,6 +826,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -1200,7 +1200,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (196821,6)
+Returns  true  if this node can contain other nodes. (197046,6)
 
  **Examples:** 
 
@@ -1738,33 +1738,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -1795,6 +1768,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 

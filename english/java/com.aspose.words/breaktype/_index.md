@@ -48,37 +48,6 @@ Shows how to create headers and footers in a document using DocumentBuilder.
  
 ```
 
-Shows how to apply and revert page setup settings to sections in a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Modify the page setup properties for the builder's current section and add text.
- builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
- builder.getPageSetup().setVerticalAlignment(PageVerticalAlignment.CENTER);
- builder.writeln("This is the first section, which landscape oriented with vertically centered text.");
-
- // If we start a new section using a document builder,
- // it will inherit the builder's current page setup properties.
- builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
-
- Assert.assertEquals(Orientation.LANDSCAPE, doc.getSections().get(1).getPageSetup().getOrientation());
- Assert.assertEquals(PageVerticalAlignment.CENTER, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
-
- // We can revert its page setup properties to their default values using the "ClearFormatting" method.
- builder.getPageSetup().clearFormatting();
-
- Assert.assertEquals(Orientation.PORTRAIT, doc.getSections().get(1).getPageSetup().getOrientation());
- Assert.assertEquals(PageVerticalAlignment.TOP, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
-
- builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
-
- doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
- 
-```
-
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
 ```
@@ -125,6 +94,37 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
  // A table of contents is a field of a type that needs to be updated to show an up-to-date result.
  doc.updateFields();
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertToc.docx");
+ 
+```
+
+Shows how to apply and revert page setup settings to sections in a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Modify the page setup properties for the builder's current section and add text.
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setVerticalAlignment(PageVerticalAlignment.CENTER);
+ builder.writeln("This is the first section, which landscape oriented with vertically centered text.");
+
+ // If we start a new section using a document builder,
+ // it will inherit the builder's current page setup properties.
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+
+ Assert.assertEquals(Orientation.LANDSCAPE, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.CENTER, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ // We can revert its page setup properties to their default values using the "ClearFormatting" method.
+ builder.getPageSetup().clearFormatting();
+
+ Assert.assertEquals(Orientation.PORTRAIT, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.TOP, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
  
 ```
 ## Fields

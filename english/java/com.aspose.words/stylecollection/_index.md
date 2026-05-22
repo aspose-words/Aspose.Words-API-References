@@ -105,26 +105,6 @@ If collection already contains a style with the same name, then new name is auto
 
  **Examples:** 
 
-Shows how to import a style from one document into a different document.
-
-```
-
- Document srcDoc = new Document();
-
- // Create a custom style for the source document.
- Style srcStyle = srcDoc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
- srcStyle.getFont().setColor(Color.RED);
-
- // Import the source document's custom style into the destination document.
- Document dstDoc = new Document();
- Style newStyle = dstDoc.getStyles().addCopy(srcStyle);
-
- // The imported style has an appearance identical to its source style.
- Assert.assertEquals("MyStyle", newStyle.getName());
- Assert.assertEquals(Color.RED.getRGB(), newStyle.getFont().getColor().getRGB());
- 
-```
-
 Shows how to clone a document's style.
 
 ```
@@ -149,6 +129,26 @@ Shows how to clone a document's style.
  Assert.assertEquals(doc.getStyles().get("Heading 1").getFont().getName(), newStyle.getFont().getName());
  Assert.assertEquals(doc.getStyles().get("Heading 1").getFont().getSize(), newStyle.getFont().getSize());
  Assert.assertNotEquals(doc.getStyles().get("Heading 1").getFont().getColor(), newStyle.getFont().getColor());
+ 
+```
+
+Shows how to import a style from one document into a different document.
+
+```
+
+ Document srcDoc = new Document();
+
+ // Create a custom style for the source document.
+ Style srcStyle = srcDoc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ srcStyle.getFont().setColor(Color.RED);
+
+ // Import the source document's custom style into the destination document.
+ Document dstDoc = new Document();
+ Style newStyle = dstDoc.getStyles().addCopy(srcStyle);
+
+ // The imported style has an appearance identical to its source style.
+ Assert.assertEquals("MyStyle", newStyle.getName());
+ Assert.assertEquals(Color.RED.getRGB(), newStyle.getFont().getColor().getRGB());
  
 ```
 

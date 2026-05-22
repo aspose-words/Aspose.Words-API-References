@@ -464,31 +464,6 @@ When  true , the runs and other inline objects in this paragraph are laid out ri
 
  **Examples:** 
 
-Shows how to detect plaintext document text direction.
-
-```
-
- // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
- // to modify how we load a plaintext document.
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
- // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
- // the direction of every paragraph of text that Aspose.Words loads from plaintext.
- // Each paragraph's "Bidi" property will store its direction.
- loadOptions.setDocumentDirection(DocumentDirection.AUTO);
-
- // Detect Hebrew text as right-to-left.
- Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
-
- Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
-
- // Detect English text as right-to-left.
- doc = new Document(getMyDir() + "English text.txt", loadOptions);
-
- Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
- 
-```
-
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 
 ```
@@ -518,6 +493,31 @@ Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fie
  // If we enable a right-to-left editing language in Microsoft Word, our fields will display numbers.
  // Otherwise, they will display "###".
  doc.save(getArtifactsDir() + "Field.BIDIOUTLINE.docx");
+ 
+```
+
+Shows how to detect plaintext document text direction.
+
+```
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+ // the direction of every paragraph of text that Aspose.Words loads from plaintext.
+ // Each paragraph's "Bidi" property will store its direction.
+ loadOptions.setDocumentDirection(DocumentDirection.AUTO);
+
+ // Detect Hebrew text as right-to-left.
+ Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
+
+ Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+
+ // Detect English text as right-to-left.
+ doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
  
 ```
 
@@ -2362,31 +2362,6 @@ When  true , the runs and other inline objects in this paragraph are laid out ri
 
  **Examples:** 
 
-Shows how to detect plaintext document text direction.
-
-```
-
- // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
- // to modify how we load a plaintext document.
- TxtLoadOptions loadOptions = new TxtLoadOptions();
-
- // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
- // the direction of every paragraph of text that Aspose.Words loads from plaintext.
- // Each paragraph's "Bidi" property will store its direction.
- loadOptions.setDocumentDirection(DocumentDirection.AUTO);
-
- // Detect Hebrew text as right-to-left.
- Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
-
- Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
-
- // Detect English text as right-to-left.
- doc = new Document(getMyDir() + "English text.txt", loadOptions);
-
- Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
- 
-```
-
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 
 ```
@@ -2416,6 +2391,31 @@ Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fie
  // If we enable a right-to-left editing language in Microsoft Word, our fields will display numbers.
  // Otherwise, they will display "###".
  doc.save(getArtifactsDir() + "Field.BIDIOUTLINE.docx");
+ 
+```
+
+Shows how to detect plaintext document text direction.
+
+```
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+ // the direction of every paragraph of text that Aspose.Words loads from plaintext.
+ // Each paragraph's "Bidi" property will store its direction.
+ loadOptions.setDocumentDirection(DocumentDirection.AUTO);
+
+ // Detect Hebrew text as right-to-left.
+ Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
+
+ Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+
+ // Detect English text as right-to-left.
+ doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
  
 ```
 

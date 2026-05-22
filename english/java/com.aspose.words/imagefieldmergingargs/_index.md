@@ -28,57 +28,6 @@ To insert an image mail merge field into a document in Word, select Insert/Field
 
  **Examples:** 
 
-Shows how to insert images stored in a database BLOB field into a report.
-
-```
-
- public void imageFromBlob() throws Exception {
-     Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
-     // Set up the event handler for image fields
-     doc.getMailMerge().setFieldMergingCallback(new HandleMergeImageFieldFromBlob());
-
-     // Loads the driver
-     Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-
-     // Open the database connection
-     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
-
-     // DSN-less DB connection
-     java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
-
-     // Create and execute a command
-     java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
-
-     DataTable table = new DataTable(resultSet, "Employees");
-
-     // Perform mail merge
-     doc.getMailMerge().executeWithRegions(table);
-
-     // Close the database
-     conn.close();
-
-     doc.save(getArtifactsDir() + "MailMergeEvent.ImageFromBlob.docx");
- }
-
- private class HandleMergeImageFieldFromBlob implements IFieldMergingCallback {
-     public void fieldMerging(final FieldMergingArgs args) {
-         // Do nothing
-     }
-
-     // This is called when mail merge engine encounters Image:XXX merge field in the document.
-     // You have a chance to return an Image object, file name or a stream that contains the image.
-     public void imageFieldMerging(final ImageFieldMergingArgs e) {
-         // The field value is a byte array, just cast it and create a stream on it
-         ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
-         // Now the mail merge engine will retrieve the image from the stream
-         e.setImageStream(imageStream);
-     }
- }
- 
-```
-
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```
@@ -138,6 +87,57 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
      private final double mImageWidth;
      private final double mImageHeight;
      private final int mUnit;
+ }
+ 
+```
+
+Shows how to insert images stored in a database BLOB field into a report.
+
+```
+
+ public void imageFromBlob() throws Exception {
+     Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+     // Set up the event handler for image fields
+     doc.getMailMerge().setFieldMergingCallback(new HandleMergeImageFieldFromBlob());
+
+     // Loads the driver
+     Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+
+     // Open the database connection
+     String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.accdb";
+
+     // DSN-less DB connection
+     java.sql.Connection conn = java.sql.DriverManager.getConnection(connString, "Admin", "");
+
+     // Create and execute a command
+     java.sql.Statement statement = conn.createStatement();
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
+
+     DataTable table = new DataTable(resultSet, "Employees");
+
+     // Perform mail merge
+     doc.getMailMerge().executeWithRegions(table);
+
+     // Close the database
+     conn.close();
+
+     doc.save(getArtifactsDir() + "MailMergeEvent.ImageFromBlob.docx");
+ }
+
+ private class HandleMergeImageFieldFromBlob implements IFieldMergingCallback {
+     public void fieldMerging(final FieldMergingArgs args) {
+         // Do nothing
+     }
+
+     // This is called when mail merge engine encounters Image:XXX merge field in the document.
+     // You have a chance to return an Image object, file name or a stream that contains the image.
+     public void imageFieldMerging(final ImageFieldMergingArgs e) {
+         // The field value is a byte array, just cast it and create a stream on it
+         ByteArrayInputStream imageStream = new ByteArrayInputStream((byte[]) e.getFieldValue());
+         // Now the mail merge engine will retrieve the image from the stream
+         e.setImageStream(imageStream);
+     }
  }
  
 ```

@@ -50,53 +50,6 @@ Shows how to select a different place where the document collects and displays i
  
 ```
 
-Shows how to set a number at which the document begins the footnote/endnote count.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Footnotes and endnotes are a way to attach a reference or a side comment to text
- // that does not interfere with the main body text's flow.
- // Inserting a footnote/endnote adds a small superscript reference symbol
- // at the main body text where we insert the footnote/endnote.
- // Each footnote/endnote also creates an entry, which consists of a symbol
- // that matches the reference symbol in the main body text.
- // The reference text that we pass to the document builder's "InsertEndnote" method.
- // Footnote entries, by default, show up at the bottom of each page that contains
- // their reference symbols, and endnotes show up at the end of the document.
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
-
- builder.insertParagraph();
-
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
-
- // By default, the reference symbol for each footnote and endnote is its index
- // among all the document's footnotes/endnotes. Each document maintains separate counts
- // for footnotes and for endnotes, which both begin at 1.
- Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
- Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
-
- // We can use the "StartNumber" property to get the document to
- // begin a footnote or endnote count at a different number.
- doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
- doc.getEndnoteOptions().setStartNumber(50);
-
- doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
- 
-```
-
 Shows how to change the number style of footnote/endnote reference marks.
 
 ```
@@ -193,6 +146,53 @@ Shows how to restart footnote/endnote numbering at certain places in the documen
  doc.getEndnoteOptions().setRestartRule(FootnoteNumberingRule.RESTART_SECTION);
 
  doc.save(getArtifactsDir() + "InlineStory.NumberingRule.docx");
+ 
+```
+
+Shows how to set a number at which the document begins the footnote/endnote count.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Footnotes and endnotes are a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote/endnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote/endnote.
+ // Each footnote/endnote also creates an entry, which consists of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertEndnote" method.
+ // Footnote entries, by default, show up at the bottom of each page that contains
+ // their reference symbols, and endnotes show up at the end of the document.
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
+
+ builder.insertParagraph();
+
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
+
+ // By default, the reference symbol for each footnote and endnote is its index
+ // among all the document's footnotes/endnotes. Each document maintains separate counts
+ // for footnotes and for endnotes, which both begin at 1.
+ Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
+ Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
+
+ // We can use the "StartNumber" property to get the document to
+ // begin a footnote or endnote count at a different number.
+ doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
+ doc.getEndnoteOptions().setStartNumber(50);
+
+ doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
  
 ```
 

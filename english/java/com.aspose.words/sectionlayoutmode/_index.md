@@ -18,27 +18,6 @@ Specifies the layout mode for a section allowing to define the document grid beh
 
  **Examples:** 
 
-Shows how to specify a limit for the number of lines that each page may have.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Enable pitching, and then use it to set the number of lines per page in this section.
- // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
- builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
- builder.getPageSetup().setLinesPerPage(15);
-
- builder.getParagraphFormat().setSnapToGrid(true);
-
- for (int i = 0; i < 30; i++)
-     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
-
- doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
- 
-```
-
 Shows how to specify a for the number of characters that each line may have.
 
 ```
@@ -58,6 +37,27 @@ Shows how to specify a for the number of characters that each line may have.
  builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
  doc.save(getArtifactsDir() + "PageSetup.CharactersPerLine.docx");
+ 
+```
+
+Shows how to specify a limit for the number of lines that each page may have.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Enable pitching, and then use it to set the number of lines per page in this section.
+ // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
+ builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
+ builder.getPageSetup().setLinesPerPage(15);
+
+ builder.getParagraphFormat().setSnapToGrid(true);
+
+ for (int i = 0; i < 30; i++)
+     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+
+ doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
  
 ```
 ## Fields

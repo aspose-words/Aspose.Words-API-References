@@ -40,6 +40,48 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
  
 ```
 
+Shows how to set page sizes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can change the current page's size to a pre-defined size
+ // by using the "PaperSize" property of this section's PageSetup object.
+ builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
+
+ Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ // Each section has its own PageSetup object. When we use a document builder to make a new section,
+ // that section's PageSetup object inherits all the previous section's PageSetup object's values.
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
+
+ builder.getPageSetup().setPaperSize(PaperSize.A5);
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
+
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ // Set a custom size for this section's pages.
+ builder.getPageSetup().setPageWidth(620.0);
+ builder.getPageSetup().setPageHeight(480.0);
+
+ Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
+ 
+```
+
 Shows how to construct an Aspose.Words document by hand.
 
 ```
@@ -84,48 +126,6 @@ Shows how to construct an Aspose.Words document by hand.
  Assert.assertEquals("Hello World!", doc.getText().trim());
 
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
-Shows how to set page sizes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // We can change the current page's size to a pre-defined size
- // by using the "PaperSize" property of this section's PageSetup object.
- builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
-
- Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- // Each section has its own PageSetup object. When we use a document builder to make a new section,
- // that section's PageSetup object inherits all the previous section's PageSetup object's values.
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
-
- builder.getPageSetup().setPaperSize(PaperSize.A5);
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
-
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- // Set a custom size for this section's pages.
- builder.getPageSetup().setPageWidth(620.0);
- builder.getPageSetup().setPageHeight(480.0);
-
- Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
  
 ```
 ## Fields

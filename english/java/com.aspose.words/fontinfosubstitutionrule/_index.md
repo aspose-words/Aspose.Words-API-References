@@ -73,30 +73,6 @@ Specifies whether the rule is enabled or not.
 
  **Examples:** 
 
-Shows operating system-dependent font config substitution.
-
-```
-
- FontSettings fontSettings = new FontSettings();
- FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
-
- // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
- // On Windows, it is unavailable.
- if (SystemUtils.IS_OS_WINDOWS) {
-     Assert.assertFalse(fontConfigSubstitution.getEnabled());
-     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
- }
-
- // On Linux/Mac, we will have access to it, and will be able to perform operations.
- if (SystemUtils.IS_OS_LINUX) {
-     Assert.assertTrue(fontConfigSubstitution.getEnabled());
-     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
-
-     fontConfigSubstitution.resetCache();
- }
- 
-```
-
 Shows how to access a document's system font source and set font substitutes.
 
 ```
@@ -139,6 +115,30 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
  Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+Shows operating system-dependent font config substitution.
+
+```
+
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
+
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
+
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
+
+     fontConfigSubstitution.resetCache();
+ }
  
 ```
 
@@ -154,30 +154,6 @@ Specifies whether the rule is enabled or not.
 
  **Examples:** 
 
-Shows operating system-dependent font config substitution.
-
-```
-
- FontSettings fontSettings = new FontSettings();
- FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
-
- // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
- // On Windows, it is unavailable.
- if (SystemUtils.IS_OS_WINDOWS) {
-     Assert.assertFalse(fontConfigSubstitution.getEnabled());
-     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
- }
-
- // On Linux/Mac, we will have access to it, and will be able to perform operations.
- if (SystemUtils.IS_OS_LINUX) {
-     Assert.assertTrue(fontConfigSubstitution.getEnabled());
-     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
-
-     fontConfigSubstitution.resetCache();
- }
- 
-```
-
 Shows how to access a document's system font source and set font substitutes.
 
 ```
@@ -220,6 +196,30 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
  Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+Shows operating system-dependent font config substitution.
+
+```
+
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
+
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
+
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
+
+     fontConfigSubstitution.resetCache();
+ }
  
 ```
 

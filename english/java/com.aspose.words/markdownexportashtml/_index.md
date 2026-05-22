@@ -18,23 +18,6 @@ Allows to specify the elements to be exported to Markdown as raw HTML.
 
  **Examples:** 
 
-Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
-
-```
-
- String outputPath = getArtifactsDir() + "MarkdownSaveOptions.NonCompatibleTables.md";
-
- Document doc = new Document(getMyDir() + "Non compatible table.docx");
-
- // With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
- // or nested tables to raw HTML and leave simple tables in Markdown format.
- MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
- saveOptions.setExportAsHtml(MarkdownExportAsHtml.NON_COMPATIBLE_TABLES);
-
- doc.save(outputPath, saveOptions);
- 
-```
-
 Shows how to export a table to Markdown as raw HTML.
 
 ```
@@ -56,6 +39,23 @@ Shows how to export a table to Markdown as raw HTML.
  saveOptions.setExportAsHtml(MarkdownExportAsHtml.TABLES);
 
  doc.save(getArtifactsDir() + "MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+ 
+```
+
+Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
+
+```
+
+ String outputPath = getArtifactsDir() + "MarkdownSaveOptions.NonCompatibleTables.md";
+
+ Document doc = new Document(getMyDir() + "Non compatible table.docx");
+
+ // With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
+ // or nested tables to raw HTML and leave simple tables in Markdown format.
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setExportAsHtml(MarkdownExportAsHtml.NON_COMPATIBLE_TABLES);
+
+ doc.save(outputPath, saveOptions);
  
 ```
 ## Fields

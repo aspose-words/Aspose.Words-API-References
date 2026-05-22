@@ -18,6 +18,21 @@ Specifies the type (format) of an image in a Microsoft Word document.
 
  **Examples:** 
 
+Shows how to add an image to a shape and check its type.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage image = ImageIO.read(getImageUri().toURL().openStream());
+
+ // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
+ Shape imgShape = builder.insertImage(image);
+ Assert.assertEquals(imgShape.getImageData().getImageType(), ImageType.PNG);
+ 
+```
+
 Shows how to read WebP image.
 
 ```
@@ -26,21 +41,6 @@ Shows how to read WebP image.
 
  Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
  Assert.assertEquals(ImageType.WEB_P, shape.getImageData().getImageType());
- 
-```
-
-Shows how to add an image to a shape and check its type.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- BufferedImage image = ImageIO.read(getAsposelogoUri().toURL().openStream());
-
- // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
- Shape imgShape = builder.insertImage(image);
- Assert.assertEquals(imgShape.getImageData().getImageType(), ImageType.PNG);
  
 ```
 ## Fields

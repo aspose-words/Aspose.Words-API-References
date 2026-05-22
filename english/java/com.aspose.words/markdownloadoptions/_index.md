@@ -301,27 +301,6 @@ The default value is  null .
 
  **Examples:** 
 
-Shows how to apply font substitution settings while loading a document.
-
-```
-
- // Create a FontSettings object that will substitute the "Times New Roman" font
- // with the font "Arvo" from our "MyFonts" folder.
- FontSettings fontSettings = new FontSettings();
- fontSettings.setFontsFolder(getFontsDir(), false);
- fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
-
- // Set that FontSettings object as a property of a newly created LoadOptions object.
- LoadOptions loadOptions = new LoadOptions();
- loadOptions.setFontSettings(fontSettings);
-
- // Load the document, then render it as a PDF with the font substitution.
- Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
-
- doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
- 
-```
-
 Shows how to designate font substitutes during loading.
 
 ```
@@ -343,6 +322,27 @@ Shows how to designate font substitutes during loading.
  Assert.assertEquals("MissingFont", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getName());
 
  doc.save(getArtifactsDir() + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+ 
+```
+
+Shows how to apply font substitution settings while loading a document.
+
+```
+
+ // Create a FontSettings object that will substitute the "Times New Roman" font
+ // with the font "Arvo" from our "MyFonts" folder.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
+
+ // Set that FontSettings object as a property of a newly created LoadOptions object.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(fontSettings);
+
+ // Load the document, then render it as a PDF with the font substitution.
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
  
 ```
 
@@ -1185,27 +1185,6 @@ The default value is  null .
 
  **Examples:** 
 
-Shows how to apply font substitution settings while loading a document.
-
-```
-
- // Create a FontSettings object that will substitute the "Times New Roman" font
- // with the font "Arvo" from our "MyFonts" folder.
- FontSettings fontSettings = new FontSettings();
- fontSettings.setFontsFolder(getFontsDir(), false);
- fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
-
- // Set that FontSettings object as a property of a newly created LoadOptions object.
- LoadOptions loadOptions = new LoadOptions();
- loadOptions.setFontSettings(fontSettings);
-
- // Load the document, then render it as a PDF with the font substitution.
- Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
-
- doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
- 
-```
-
 Shows how to designate font substitutes during loading.
 
 ```
@@ -1227,6 +1206,27 @@ Shows how to designate font substitutes during loading.
  Assert.assertEquals("MissingFont", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getName());
 
  doc.save(getArtifactsDir() + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+ 
+```
+
+Shows how to apply font substitution settings while loading a document.
+
+```
+
+ // Create a FontSettings object that will substitute the "Times New Roman" font
+ // with the font "Arvo" from our "MyFonts" folder.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
+
+ // Set that FontSettings object as a property of a newly created LoadOptions object.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(fontSettings);
+
+ // Load the document, then render it as a PDF with the font substitution.
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
  
 ```
 

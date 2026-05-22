@@ -18,37 +18,6 @@ Indicates the version of HTML is used when saving the document to [SaveFormat.HT
 
  **Examples:** 
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Hello world!");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
- {
-     options.setHtmlVersion(HtmlVersion.XHTML);
-     options.setExportXhtmlTransitional(showDoctypeDeclaration);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
-
- // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
- String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
-
- if (showDoctypeDeclaration)
-     Assert.assertTrue(outDocContents.contains(
-             "\r\n" +
-                     "\r\n" +
-                     ""));
- else
-     Assert.assertTrue(outDocContents.contains(""));
- 
-```
-
 Shows how to save a document to a specific version of HTML.
 
 ```
@@ -75,7 +44,38 @@ Shows how to save a document to a specific version of HTML.
          break;
      case HtmlVersion.XHTML:
          Assert.assertTrue(outDocContents.contains(""));
-         Assert.assertTrue(outDocContents.contains("
+         Assert.assertTrue(outDocContents.contains(" 
+ Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+ 
+ 
+ 
+ ```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
 ```
 ## Fields
 

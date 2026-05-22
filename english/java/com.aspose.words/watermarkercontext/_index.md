@@ -37,25 +37,6 @@ Shows how to insert watermark text to the document using context.
  
 ```
 
-Shows how to insert watermark image to the document using context.
-
-```
-
- String doc = getMyDir() + "Document.docx";
- String watermarkImage = getImageDir() + "Logo.jpg";
-
- WatermarkerContext watermarkerContext = new WatermarkerContext();
- watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
-
- watermarkerContext.getImageWatermarkOptions().setScale(50.0);
-
- Watermarker.create(watermarkerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.WatermarkContextImage.docx")
-         .execute();
- 
-```
-
 Shows how to insert watermark text to the document from the stream using context.
 
 ```
@@ -75,6 +56,25 @@ Shows how to insert watermark text to the document from the stream using context
                  .execute();
      }
  }
+ 
+```
+
+Shows how to insert watermark image to the document using context.
+
+```
+
+ String doc = getMyDir() + "Document.docx";
+ String watermarkImage = getImageDir() + "Logo.jpg";
+
+ WatermarkerContext watermarkerContext = new WatermarkerContext();
+ watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
+
+ watermarkerContext.getImageWatermarkOptions().setScale(50.0);
+
+ Watermarker.create(watermarkerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.WatermarkContextImage.docx")
+         .execute();
  
 ```
 

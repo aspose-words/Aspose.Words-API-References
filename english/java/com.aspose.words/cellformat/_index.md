@@ -20,57 +20,6 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 
  **Examples:** 
 
-Shows how to modify formatting of a table cell.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
- Table table = doc.getFirstSection().getBody().getTables().get(0);
- Cell firstCell = table.getFirstRow().getFirstCell();
-
- // Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
- firstCell.getCellFormat().setWidth(30.0);
- firstCell.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
- firstCell.getCellFormat().getShading().setForegroundPatternColor(Color.GREEN);
-
- doc.save(getArtifactsDir() + "Table.CellFormat.docx");
- 
-```
-
-Shows how to modify the format of rows and cells in a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("City");
- builder.insertCell();
- builder.write("Country");
- builder.endRow();
- builder.insertCell();
- builder.write("London");
- builder.insertCell();
- builder.write("U.K.");
- builder.endTable();
-
- // Use the first row's "RowFormat" property to modify the formatting
- // of the contents of all cells in this row.
- RowFormat rowFormat = table.getFirstRow().getRowFormat();
- rowFormat.setHeight(25.0);
- rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
-
- // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
- CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
- cellFormat.setWidth(100.0);
- cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
-
- doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
- 
-```
-
 Shows how to build a table with custom borders.
 
 ```
@@ -131,6 +80,57 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to modify the format of rows and cells in a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("City");
+ builder.insertCell();
+ builder.write("Country");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("London");
+ builder.insertCell();
+ builder.write("U.K.");
+ builder.endTable();
+
+ // Use the first row's "RowFormat" property to modify the formatting
+ // of the contents of all cells in this row.
+ RowFormat rowFormat = table.getFirstRow().getRowFormat();
+ rowFormat.setHeight(25.0);
+ rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
+
+ // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
+ CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
+ cellFormat.setWidth(100.0);
+ cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
+
+ doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
+ 
+```
+
+Shows how to modify formatting of a table cell.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+ Cell firstCell = table.getFirstRow().getFirstCell();
+
+ // Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
+ firstCell.getCellFormat().setWidth(30.0);
+ firstCell.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ firstCell.getCellFormat().getShading().setForegroundPatternColor(Color.GREEN);
+
+ doc.save(getArtifactsDir() + "Table.CellFormat.docx");
  
 ```
 
@@ -806,40 +806,6 @@ Returns a [Shading](../../com.aspose.words/shading/) object that refers to the s
 
  **Examples:** 
 
-Shows how to modify the format of rows and cells in a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("City");
- builder.insertCell();
- builder.write("Country");
- builder.endRow();
- builder.insertCell();
- builder.write("London");
- builder.insertCell();
- builder.write("U.K.");
- builder.endTable();
-
- // Use the first row's "RowFormat" property to modify the formatting
- // of the contents of all cells in this row.
- RowFormat rowFormat = table.getFirstRow().getRowFormat();
- rowFormat.setHeight(25.0);
- rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
-
- // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
- CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
- cellFormat.setWidth(100.0);
- cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
-
- doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
- 
-```
-
 Shows how to build a table with custom borders.
 
 ```
@@ -900,6 +866,40 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to modify the format of rows and cells in a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("City");
+ builder.insertCell();
+ builder.write("Country");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("London");
+ builder.insertCell();
+ builder.write("U.K.");
+ builder.endTable();
+
+ // Use the first row's "RowFormat" property to modify the formatting
+ // of the contents of all cells in this row.
+ RowFormat rowFormat = table.getFirstRow().getRowFormat();
+ rowFormat.setHeight(25.0);
+ rowFormat.getBorders().getByBorderType(BorderType.BOTTOM).setColor(Color.RED);
+
+ // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
+ CellFormat cellFormat = table.getLastRow().getFirstCell().getCellFormat();
+ cellFormat.setWidth(100.0);
+ cellFormat.getShading().setBackgroundPatternColor(Color.ORANGE);
+
+ doc.save(getArtifactsDir() + "Table.RowCellFormat.docx");
  
 ```
 
