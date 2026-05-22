@@ -23,62 +23,6 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 
  **Examples:** 
 
-Shows how to vertically align the text contents of a text box.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 200.0, 200.0);
-
- // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
- // align the text in this text box with the top side of the shape.
- // Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
- // align the text in this text box to the center of the shape.
- // Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
- // align the text in this text box to the bottom of the shape.
- shape.getTextBox().setVerticalAnchor(verticalAnchor);
-
- builder.moveTo(shape.getFirstParagraph());
- builder.write("Hello world!");
-
- // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2007);
- doc.save(getArtifactsDir() + "Shape.VerticalAnchor.docx");
- 
-```
-
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // If we configure compatibility options to comply with Microsoft Word 2003,
- // inserting an image will define its shape using VML.
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
- builder.insertImage(getImageDir() + "Transparent background logo.png");
-
- Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
-
- // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
- // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
- // any document we save while passing this object will have to follow that standard.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
- saveOptions.setSaveFormat(SaveFormat.DOCX);
-
- doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
- // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
- doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
-
- Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
- 
-```
-
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```
@@ -201,6 +145,62 @@ Shows how to optimize the document for different versions of Microsoft Word.
      else
          disabledOptions.add(optionName);
  }
+ 
+```
+
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ 
+```
+
+Shows how to vertically align the text contents of a text box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 200.0, 200.0);
+
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
+ // align the text in this text box with the top side of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
+ // align the text in this text box to the center of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
+ // align the text in this text box to the bottom of the shape.
+ shape.getTextBox().setVerticalAnchor(verticalAnchor);
+
+ builder.moveTo(shape.getFirstParagraph());
+ builder.write("Hello world!");
+
+ // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2007);
+ doc.save(getArtifactsDir() + "Shape.VerticalAnchor.docx");
  
 ```
 

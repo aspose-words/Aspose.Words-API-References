@@ -505,21 +505,6 @@ This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../
 
  **Examples:** 
 
-Demonstrates how to merge an image from a web address using an Image field.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.insertField("MERGEFIELD  Image:Logo ");
-
- // Pass a URL which points to the image to merge into the document
- doc.getMailMerge().execute(new String[]{"Logo"}, new Object[]{DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream())});
-
- doc.save(getArtifactsDir() + "MailMergeEvent.ImageFromUrl.doc");
- 
-```
-
 Shows how to perform a mail merge, and then save the document to the client browser.
 
 ```
@@ -537,6 +522,21 @@ Shows how to perform a mail merge, and then save the document to the client brow
 
  doc.getMailMerge().execute(new String[]{"FullName", "Company", "Address", "City"},
          new Object[]{"James Bond", "MI5 Headquarters", "Milbank", "London"});
+ 
+```
+
+Demonstrates how to merge an image from a web address using an Image field.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertField("MERGEFIELD  Image:Logo ");
+
+ // Pass a URL which points to the image to merge into the document
+ doc.getMailMerge().execute(new String[]{"Logo"}, new Object[]{DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream())});
+
+ doc.save(getArtifactsDir() + "MailMergeEvent.ImageFromUrl.doc");
  
 ```
 
@@ -1173,6 +1173,14 @@ Gets a set of flags that specify what items should be removed during mail merge.
 
  **Examples:** 
 
+Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
+ 
+```
+
 Shows how to automatically remove unmerged merge fields during mail merge.
 
 ```
@@ -1186,14 +1194,6 @@ Shows how to make sure empty paragraphs that result from merging fields with no 
 ```
 
  doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
- 
-```
-
-Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
-
-```
-
- doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
  
 ```
 
@@ -2391,6 +2391,14 @@ Sets a set of flags that specify what items should be removed during mail merge.
 
  **Examples:** 
 
+Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
+ 
+```
+
 Shows how to automatically remove unmerged merge fields during mail merge.
 
 ```
@@ -2404,14 +2412,6 @@ Shows how to make sure empty paragraphs that result from merging fields with no 
 ```
 
  doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
- 
-```
-
-Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
-
-```
-
- doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
  
 ```
 

@@ -147,3 +147,42 @@ ASSERT_EQ(srcStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My s
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
+## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+
+
+Imports a node from another document to the current document with an option to control formatting.
+
+```cpp
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> &srcNode, bool isImportChildren, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> &importFormatOptions)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to imported. |
+| isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
+| importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
+| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Allows to specify various additional formating options. |
+
+### ReturnValue
+
+The cloned, imported node. The node belongs to the destination document, but has no parent.
+## Remarks
+
+
+This overload is useful to control how styles and list formatting are imported.
+
+Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
+
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore1()</see> or <see cref="Aspose::Words::CompositeNode::InsertAfter</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertAfter1()](../).
+
+If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
+
+## See Also
+
+* Class [Node](../../node/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
+* Class [DocumentBase](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

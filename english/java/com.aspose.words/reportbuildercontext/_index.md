@@ -18,46 +18,6 @@ LINQ Reporting Engine context.
 
  **Examples:** 
 
-Shows how to populate document with data sources using documents from the stream.
-
-```
-
- // There is a several ways to populate document with data sources using documents from the stream:
- MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
-     }
-
-     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
-     }
-
-     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
-         ReportBuilderOptions options = new ReportBuilderOptions();
-         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
-     }
-
-     ReportBuilderOptions options = new ReportBuilderOptions();
-     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
-
-     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
-     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
-     reportBuilderContext.getDataSources().put(sender, "s");
-
-     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
-         ReportBuilder.create(reportBuilderContext)
-                 .from(streamIn)
-                 .to(streamOut3, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 Shows how to populate document with data sources.
 
 ```
@@ -118,6 +78,46 @@ Shows how to populate document with data sources.
      public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
+     }
+ }
+ 
+```
+
+Shows how to populate document with data sources using documents from the stream.
+
+```
+
+ // There is a several ways to populate document with data sources using documents from the stream:
+ MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     }
+
+     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
+     }
+
+     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
+         ReportBuilderOptions options = new ReportBuilderOptions();
+         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
+     }
+
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
+
+     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
+     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
+     reportBuilderContext.getDataSources().put(sender, "s");
+
+     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
+         ReportBuilder.create(reportBuilderContext)
+                 .from(streamIn)
+                 .to(streamOut3, SaveFormat.DOCX)
+                 .execute();
      }
  }
  
@@ -160,46 +160,6 @@ The key represents the data source, while the value is the data source name. The
 
  **Examples:** 
 
-Shows how to populate document with data sources using documents from the stream.
-
-```
-
- // There is a several ways to populate document with data sources using documents from the stream:
- MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
-     }
-
-     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
-     }
-
-     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
-         ReportBuilderOptions options = new ReportBuilderOptions();
-         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
-     }
-
-     ReportBuilderOptions options = new ReportBuilderOptions();
-     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
-
-     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
-     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
-     reportBuilderContext.getDataSources().put(sender, "s");
-
-     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
-         ReportBuilder.create(reportBuilderContext)
-                 .from(streamIn)
-                 .to(streamOut3, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 Shows how to populate document with data sources.
 
 ```
@@ -260,6 +220,46 @@ Shows how to populate document with data sources.
      public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
+     }
+ }
+ 
+```
+
+Shows how to populate document with data sources using documents from the stream.
+
+```
+
+ // There is a several ways to populate document with data sources using documents from the stream:
+ MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     }
+
+     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
+     }
+
+     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
+         ReportBuilderOptions options = new ReportBuilderOptions();
+         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
+     }
+
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
+
+     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
+     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
+     reportBuilderContext.getDataSources().put(sender, "s");
+
+     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
+         ReportBuilder.create(reportBuilderContext)
+                 .from(streamIn)
+                 .to(streamOut3, SaveFormat.DOCX)
+                 .execute();
      }
  }
  
@@ -297,46 +297,6 @@ Report build options.
 
  **Examples:** 
 
-Shows how to populate document with data sources using documents from the stream.
-
-```
-
- // There is a several ways to populate document with data sources using documents from the stream:
- MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
-     }
-
-     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
-         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
-     }
-
-     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
-         ReportBuilderOptions options = new ReportBuilderOptions();
-         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
-     }
-
-     ReportBuilderOptions options = new ReportBuilderOptions();
-     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
-     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
-
-     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
-     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
-     reportBuilderContext.getDataSources().put(sender, "s");
-
-     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
-         ReportBuilder.create(reportBuilderContext)
-                 .from(streamIn)
-                 .to(streamOut3, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 Shows how to populate document with data sources.
 
 ```
@@ -397,6 +357,46 @@ Shows how to populate document with data sources.
      public MessageTestClass(String name, String message) {
          setName(name);
          setMessage(message);
+     }
+ }
+ 
+```
+
+Shows how to populate document with data sources using documents from the stream.
+
+```
+
+ // There is a several ways to populate document with data sources using documents from the stream:
+ MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Report building.docx")) {
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.1.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut, SaveFormat.DOCX, new Object[]{sender}, new String[]{"s"});
+     }
+
+     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.2.docx")) {
+         ReportBuilder.buildReport(streamIn, streamOut1, SaveFormat.DOCX, sender, "s");
+     }
+
+     try (FileOutputStream streamOut2 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.3.docx")) {
+         ReportBuilderOptions options = new ReportBuilderOptions();
+         options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+         ReportBuilder.buildReport(streamIn, streamOut2, SaveFormat.DOCX, sender, "s", options);
+     }
+
+     ReportBuilderOptions options = new ReportBuilderOptions();
+     options.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+     OutputStream[] images = ReportBuilder.buildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.PNG), new Object[]{sender}, new String[]{"s"}, options);
+
+     ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
+     reportBuilderContext.getReportBuilderOptions().setMissingMemberMessage("Missed members");
+     reportBuilderContext.getDataSources().put(sender, "s");
+
+     try (FileOutputStream streamOut3 = new FileOutputStream(getArtifactsDir() + "LowCode.BuildReportDataSourceStream.4.docx")) {
+         ReportBuilder.create(reportBuilderContext)
+                 .from(streamIn)
+                 .to(streamOut3, SaveFormat.DOCX)
+                 .execute();
      }
  }
  

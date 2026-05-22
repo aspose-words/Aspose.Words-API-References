@@ -22,19 +22,6 @@ Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models d
 
  **Examples:** 
 
-Shows how to use google AI model.
-
-```
-
- String apiKey = System.getenv("API_KEY");
- GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
-
- Document doc = new Document(getMyDir() + "Big document.docx");
- SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
- Document summary = model.summarize(doc, summarizeOptions);
- 
-```
-
 Shows how to summarize text using OpenAI and Google models.
 
 ```
@@ -55,6 +42,19 @@ Shows how to summarize text using OpenAI and Google models.
  options.setSummaryLength(SummaryLength.LONG);
  Document multiDocumentSummary = model.summarize(new Document[] { firstDoc, secondDoc }, options);
  multiDocumentSummary.save(getArtifactsDir() + "AI.AiSummarize.Multi.docx");
+ 
+```
+
+Shows how to use google AI model.
+
+```
+
+ String apiKey = System.getenv("API_KEY");
+ GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+ SummarizeOptions summarizeOptions = new SummarizeOptions(); { summarizeOptions.setSummaryLength(SummaryLength.VERY_SHORT); }
+ Document summary = model.summarize(doc, summarizeOptions);
  
 ```
 ## Constructors

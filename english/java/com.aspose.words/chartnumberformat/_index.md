@@ -93,35 +93,6 @@ Custom with color - "[Red]-\#,\#\#0.0"
 
  **Examples:** 
 
-Shows how to set formatting for chart values.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Add a custom series to the chart with categories for the X-axis,
- // and large respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
-
- // Set the number format of the Y-axis tick labels to not group digits with commas.
- chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
-
- // This flag can override the above value and draw the number format from the source cell.
- Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
-
- doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
- 
-```
-
 Shows how to enable and configure data labels for a chart series.
 
 ```
@@ -151,6 +122,35 @@ Shows how to enable and configure data labels for a chart series.
  dataLabels.getFont().setSize(12.0);
 
  doc.save(getArtifactsDir() + "Charts.DataLabelNumberFormat.docx");
+ 
+```
+
+Shows how to set formatting for chart values.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
  
 ```
 
@@ -283,35 +283,6 @@ Custom with color - "[Red]-\#,\#\#0.0"
 
  **Examples:** 
 
-Shows how to set formatting for chart values.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
- Chart chart = shape.getChart();
-
- // Clear the chart's demo data series to start with a clean chart.
- chart.getSeries().clear();
-
- // Add a custom series to the chart with categories for the X-axis,
- // and large respective numeric values for the Y-axis.
- chart.getSeries().add("Aspose Test Series",
-         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
-         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
-
- // Set the number format of the Y-axis tick labels to not group digits with commas.
- chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
-
- // This flag can override the above value and draw the number format from the source cell.
- Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
-
- doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
- 
-```
-
 Shows how to enable and configure data labels for a chart series.
 
 ```
@@ -341,6 +312,35 @@ Shows how to enable and configure data labels for a chart series.
  dataLabels.getFont().setSize(12.0);
 
  doc.save(getArtifactsDir() + "Charts.DataLabelNumberFormat.docx");
+ 
+```
+
+Shows how to set formatting for chart values.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
  
 ```
 

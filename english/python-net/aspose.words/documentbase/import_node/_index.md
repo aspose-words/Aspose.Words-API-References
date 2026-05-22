@@ -92,6 +92,49 @@ of the source node is created.
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 
 
+## import_node(src_node, is_import_children, import_format_mode, import_format_options) {#node_bool_importformatmode_importformatoptions}
+
+Imports a node from another document to the current document with an option to control formatting.
+
+
+
+
+```python
+def import_node(self, src_node: aspose.words.Node, is_import_children: bool, import_format_mode: aspose.words.ImportFormatMode, import_format_options: aspose.words.ImportFormatOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| src_node | [Node](../../node/) | The node to imported. |
+| is_import_children | bool | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| import_format_mode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
+| import_format_options | [ImportFormatOptions](../../importformatoptions/) | Allows to specify various additional formating options. |
+
+### Remarks
+
+This overload is useful to control how styles and list formatting are imported.
+
+Importing a node creates a copy of the source node belonging to the importing document. 
+The returned node has no parent. The source node is not altered or removed from the original document.
+
+Before a node from another document can be inserted into this document, it must be imported.
+During import, document-specific properties such as references to styles and lists are translated
+from the original to the importing document. After the node was imported, it can be inserted
+into the appropriate place in the document using [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node) or 
+[CompositeNode.insert_after()](../../compositenode/insert_after/#node_node).
+
+If the source node already belongs to the destination document, then simply a deep clone
+of the source node is created.
+
+
+
+
+### Returns
+
+The cloned, imported node. The node belongs to the destination document, but has no parent.
+
+
 ## Examples
 
 Shows how to import a node from one document to another.
@@ -142,6 +185,26 @@ self.assertEqual(dst_style.name, imported_section.body.first_paragraph.runs[0].f
 dst_doc.import_node(src_node=src_doc.first_section, is_import_children=True, import_format_mode=aw.ImportFormatMode.KEEP_DIFFERENT_STYLES)
 self.assertEqual(dst_style.font.name, dst_doc.styles.get_by_name('My style').font.name)
 self.assertEqual(src_style.font.name, dst_doc.styles.get_by_name('My style_0').font.name)
+```
+
+Shows how to import a node with resolving source theme colors of shapes.
+
+```python
+src_doc = aw.Document()
+builder = aw.DocumentBuilder(doc=src_doc)
+# Move to the primary footer and insert a shape that uses theme colors.
+builder.move_to_header_footer(aw.HeaderFooterType.FOOTER_PRIMARY)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.RECTANGLE, width=100, height=50)
+shape.stroke.fore_theme_color = aw.themes.ThemeColor.DARK1
+dst_doc = aw.Document()
+# Import the source footer into the destination document with theme colors resolved,
+# so the shape preserves its actual color from the source document.
+footer = src_doc.first_section.headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
+options = aw.ImportFormatOptions()
+options.resolve_theme_colors = True
+imported_footer = dst_doc.import_node(src_node=footer, is_import_children=True, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options=options).as_header_footer()
+dst_doc.first_section.headers_footers.add(imported_footer)
+dst_doc.save(file_name=ARTIFACTS_DIR + 'DocumentBase.ImportNodeWithResolveThemeColors.docx')
 ```
 
 ## See Also

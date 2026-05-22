@@ -702,18 +702,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -746,6 +734,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -1033,7 +1033,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (196821,6)
+Returns  true  if this node can contain other nodes. (197046,6)
 
  **Examples:** 
 
@@ -1218,33 +1218,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -1275,6 +1248,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 

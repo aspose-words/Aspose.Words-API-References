@@ -1701,18 +1701,6 @@ If there is no first child node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -1749,6 +1737,18 @@ Shows how to traverse a composite node's tree of child nodes.
  
 ```
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
 **Returns:**
 [Node](../../com.aspose.words/node/) - The first child of the node.
 ### getHeadersFooters() {#getHeadersFooters}
@@ -1760,26 +1760,6 @@ public HeaderFooterCollection getHeadersFooters()
 Provides access to the headers and footers nodes of the section.
 
  **Examples:** 
-
-Shows how to replace text in a document's footer.
-
-```
-
- Document doc = new Document(getMyDir() + "Footer.docx");
-
- HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
- HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
-
- FindReplaceOptions options = new FindReplaceOptions();
- options.setMatchCase(false);
- options.setFindWholeWordsOnly(false);
-
- int currentYear = Calendar.YEAR;
- footer.getRange().replace("(C) 2006 Aspose Pty Ltd.", MessageFormat.format("Copyright (C) {0} by Aspose Pty Ltd.", currentYear), options);
-
- doc.save(getArtifactsDir() + "HeaderFooter.ReplaceText.docx");
- 
-```
 
 Shows how to delete all footers from a document.
 
@@ -1812,6 +1792,26 @@ Shows how to delete all footers from a document.
  }
 
  doc.save(getArtifactsDir() + "HeaderFooter.RemoveFooters.docx");
+ 
+```
+
+Shows how to replace text in a document's footer.
+
+```
+
+ Document doc = new Document(getMyDir() + "Footer.docx");
+
+ HeaderFooterCollection headersFooters = doc.getFirstSection().getHeadersFooters();
+ HeaderFooter footer = headersFooters.getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
+
+ FindReplaceOptions options = new FindReplaceOptions();
+ options.setMatchCase(false);
+ options.setFindWholeWordsOnly(false);
+
+ int currentYear = Calendar.YEAR;
+ footer.getRange().replace("(C) 2006 Aspose Pty Ltd.", MessageFormat.format("Copyright (C) {0} by Aspose Pty Ltd.", currentYear), options);
+
+ doc.save(getArtifactsDir() + "HeaderFooter.ReplaceText.docx");
  
 ```
 
@@ -1886,18 +1886,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -1930,6 +1918,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -2392,52 +2392,6 @@ If the node being inserted was created from another document, you should use **M
 
  **Examples:** 
 
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -2485,6 +2439,52 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
 
@@ -2927,33 +2927,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -2984,6 +2957,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 
@@ -3222,25 +3222,6 @@ Only expressions with element names are supported at the moment. Expressions tha
 
  **Examples:** 
 
-Shows how to use an XPath expression to test whether a node is inside a field.
-
-```
-
- Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
- // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
- // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
- // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
- NodeList resultList =
-         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
- Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
- Run run = runs[0];
-
- // Check if the specified run is one of the nodes that are inside the field.
- System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
- 
-```
-
 Shows how to select certain nodes by using an XPath expression.
 
 ```
@@ -3270,6 +3251,25 @@ Shows how to select certain nodes by using an XPath expression.
  Node node = doc.selectSingleNode("//Body/Paragraph");
 
  Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 

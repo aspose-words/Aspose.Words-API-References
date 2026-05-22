@@ -24,23 +24,6 @@ You do not create instances of the [Font](../../com.aspose.words/font/) class di
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to insert a string surrounded by a border into a document.
 
 ```
@@ -55,6 +38,23 @@ Shows how to insert a string surrounded by a border into a document.
  builder.write("Text surrounded by green border.");
 
  doc.save(getArtifactsDir() + "Border.FontBorder.docx");
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -1522,23 +1522,6 @@ When setting, sets [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) 
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -1555,6 +1538,23 @@ Shows how to insert formatted text using DocumentBuilder.
  font.setUnderline(Underline.DASH);
 
  builder.write("Hello world!");
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -2026,23 +2026,6 @@ Gets the font size in points.
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -2059,6 +2042,23 @@ Shows how to insert formatted text using DocumentBuilder.
  font.setUnderline(Underline.DASH);
 
  builder.write("Hello world!");
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -2495,26 +2495,6 @@ Gets the theme color in the applied color scheme that is associated with this [F
 
  **Examples:** 
 
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 Shows how to work with theme fonts and colors.
 
 ```
@@ -2595,6 +2575,26 @@ Shows how to work with theme fonts and colors.
 
  Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
  Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Shows how to create and use themed style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
  
 ```
 
@@ -2610,26 +2610,6 @@ Gets the theme font in the applied font scheme that is associated with this [Fon
 
  **Examples:** 
 
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 Shows how to work with theme fonts and colors.
 
 ```
@@ -2710,6 +2690,26 @@ Shows how to work with theme fonts and colors.
 
  Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
  Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Shows how to create and use themed style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
  
 ```
 
@@ -3115,22 +3115,6 @@ Gets the type of underline applied to the font.
 
  **Examples:** 
 
-Shows how to configure the style and color of a text underline.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setUnderline(Underline.DOTTED);
- builder.getFont().setUnderlineColor(Color.RED);
-
- builder.writeln("Underlined text.");
-
- doc.save(getArtifactsDir() + "Font.Underlines.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -3169,6 +3153,22 @@ Shows how to insert a hyperlink field.
 
  // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+Shows how to configure the style and color of a text underline.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
  
 ```
 
@@ -4363,23 +4363,6 @@ When setting, sets [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) 
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -4396,6 +4379,23 @@ Shows how to insert formatted text using DocumentBuilder.
  font.setUnderline(Underline.DASH);
 
  builder.write("Hello world!");
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -4855,23 +4855,6 @@ Sets the font size in points.
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -4888,6 +4871,23 @@ Shows how to insert formatted text using DocumentBuilder.
  font.setUnderline(Underline.DASH);
 
  builder.write("Hello world!");
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -5363,26 +5363,6 @@ Sets the theme color in the applied color scheme that is associated with this [F
 
  **Examples:** 
 
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 Shows how to work with theme fonts and colors.
 
 ```
@@ -5463,6 +5443,26 @@ Shows how to work with theme fonts and colors.
 
  Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
  Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Shows how to create and use themed style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
  
 ```
 
@@ -5481,26 +5481,6 @@ Sets the theme font in the applied font scheme that is associated with this [Fon
 
  **Examples:** 
 
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 Shows how to work with theme fonts and colors.
 
 ```
@@ -5581,6 +5561,26 @@ Shows how to work with theme fonts and colors.
 
  Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
  Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Shows how to create and use themed style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
  
 ```
 
@@ -6004,22 +6004,6 @@ Sets the type of underline applied to the font.
 
  **Examples:** 
 
-Shows how to configure the style and color of a text underline.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setUnderline(Underline.DOTTED);
- builder.getFont().setUnderlineColor(Color.RED);
-
- builder.writeln("Underlined text.");
-
- doc.save(getArtifactsDir() + "Font.Underlines.docx");
- 
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```
@@ -6058,6 +6042,22 @@ Shows how to insert a hyperlink field.
 
  // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+Shows how to configure the style and color of a text underline.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
  
 ```
 

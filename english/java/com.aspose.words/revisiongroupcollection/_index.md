@@ -27,16 +27,6 @@ You do not create instances of this class directly. Use the [RevisionCollection.
 
  **Examples:** 
 
-Shows how to get a group of revisions in a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Revisions.docx");
-
- RevisionGroup revisionGroup = doc.getRevisions().getGroups().get(0);
- 
-```
-
 Shows how to print info about a group of revisions in a document.
 
 ```
@@ -48,6 +38,16 @@ Shows how to print info about a group of revisions in a document.
  for (RevisionGroup group : doc.getRevisions().getGroups()) {
      System.out.println(MessageFormat.format("Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group.getAuthor(), group.getRevisionType(), group.getText()));
  }
+ 
+```
+
+Shows how to get a group of revisions in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ RevisionGroup revisionGroup = doc.getRevisions().getGroups().get(0);
  
 ```
 

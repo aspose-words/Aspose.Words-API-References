@@ -179,6 +179,7 @@ Shows ways of accessing building blocks in a glossary document.
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int) |  |
+| [importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions)](#importNode-com.aspose.words.Node-boolean-int-com.aspose.words.ImportFormatOptions) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
 | [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
@@ -1320,18 +1321,6 @@ If there is no first child node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -1368,6 +1357,18 @@ Shows how to traverse a composite node's tree of child nodes.
  
 ```
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
 **Returns:**
 [Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFontInfos() {#getFontInfos}
@@ -1386,21 +1387,6 @@ Do not rely on this collection to ascertain that a particular font is used in th
 
  **Examples:** 
 
-Shows how to save a document with embedded TrueType fonts.
-
-```
-
- Document doc = new Document(getMyDir() + "Document.docx");
-
- FontInfoCollection fontInfos = doc.getFontInfos();
- fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
- fontInfos.setEmbedSystemFonts(embedAllFonts);
- fontInfos.setSaveSubsetFonts(embedAllFonts);
-
- doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
- 
-```
-
 Shows how to print the details of what fonts are present in a document.
 
 ```
@@ -1413,6 +1399,21 @@ Shows how to print the details of what fonts are present in a document.
      System.out.println("Font index #{i}");
      System.out.println("\tName: {allFonts[i].Name}");
  }
+ 
+```
+
+Shows how to save a document with embedded TrueType fonts.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
  
 ```
 
@@ -1707,18 +1708,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -1751,6 +1740,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -2096,13 +2097,13 @@ Shows how to customize the process of loading external resources into a document
              // If this callback encounters one of the image shorthands while loading an image,
              // it will apply unique logic for each defined shorthand instead of treating it as a URI.
              if ("Google logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(new URI("http://www.google.com/images/logos/ps_logo2.png").toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
 
              if ("Aspose logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
@@ -2227,37 +2228,6 @@ Document may generate warnings at any stage of its existence, so it's important 
 
  **Examples:** 
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```
-
- // Open a document that contains text formatted with a font that does not exist in any of our font sources.
- Document doc = new Document(getMyDir() + "Missing font.docx");
-
- // Assign a callback for handling font substitution warnings.
- WarningInfoCollection warningCollector = new WarningInfoCollection();
- doc.setWarningCallback(warningCollector);
-
- // Set a default font name and enable font substitution.
- FontSettings fontSettings = new FontSettings();
- fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
- fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
-
- // Original font metrics should be used after font substitution.
- doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
-
- // We will get a font substitution warning if we save a document with a missing font.
- doc.setFontSettings(fontSettings);
- doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
-
- for (WarningInfo info : warningCollector)
- {
-     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
-         System.out.println(info.getDescription());
- }
- 
-```
-
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```
@@ -2300,6 +2270,37 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
      }
 
      public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // Assign a callback for handling font substitution warnings.
+ WarningInfoCollection warningCollector = new WarningInfoCollection();
+ doc.setWarningCallback(warningCollector);
+
+ // Set a default font name and enable font substitution.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+ // Original font metrics should be used after font substitution.
+ doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
+ // We will get a font substitution warning if we save a document with a missing font.
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+ for (WarningInfo info : warningCollector)
+ {
+     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+         System.out.println(info.getDescription());
  }
  
 ```
@@ -2420,6 +2421,24 @@ public Node importNode(Node srcNode, boolean isImportChildren, int importFormatM
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
+### importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions) {#importNode-com.aspose.words.Node-boolean-int-com.aspose.words.ImportFormatOptions}
+```
+public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | [Node](../../com.aspose.words/node/) |  |
+| isImportChildren | boolean |  |
+| importFormatMode | int |  |
+| importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions/) |  |
+
+**Returns:**
+[Node](../../com.aspose.words/node/)
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -2472,52 +2491,6 @@ If the node being inserted was created from another document, you should use **M
 
  **Examples:** 
 
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -2565,6 +2538,52 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
 
@@ -2951,33 +2970,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -3008,6 +3000,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 
@@ -3246,25 +3265,6 @@ Only expressions with element names are supported at the moment. Expressions tha
 
  **Examples:** 
 
-Shows how to use an XPath expression to test whether a node is inside a field.
-
-```
-
- Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
- // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
- // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
- // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
- NodeList resultList =
-         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
- Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
- Run run = runs[0];
-
- // Check if the specified run is one of the nodes that are inside the field.
- System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
- 
-```
-
 Shows how to select certain nodes by using an XPath expression.
 
 ```
@@ -3294,6 +3294,25 @@ Shows how to select certain nodes by using an XPath expression.
  Node node = doc.selectSingleNode("//Body/Paragraph");
 
  Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -3640,13 +3659,13 @@ Shows how to customize the process of loading external resources into a document
              // If this callback encounters one of the image shorthands while loading an image,
              // it will apply unique logic for each defined shorthand instead of treating it as a URI.
              if ("Google logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(new URI("http://www.google.com/images/logos/ps_logo2.png").toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
 
              if ("Aspose logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
@@ -3683,37 +3702,6 @@ Called during various document processing procedures when an issue is detected t
 Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document/\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
  **Examples:** 
-
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```
-
- // Open a document that contains text formatted with a font that does not exist in any of our font sources.
- Document doc = new Document(getMyDir() + "Missing font.docx");
-
- // Assign a callback for handling font substitution warnings.
- WarningInfoCollection warningCollector = new WarningInfoCollection();
- doc.setWarningCallback(warningCollector);
-
- // Set a default font name and enable font substitution.
- FontSettings fontSettings = new FontSettings();
- fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
- fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
-
- // Original font metrics should be used after font substitution.
- doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
-
- // We will get a font substitution warning if we save a document with a missing font.
- doc.setFontSettings(fontSettings);
- doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
-
- for (WarningInfo info : warningCollector)
- {
-     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
-         System.out.println(info.getDescription());
- }
- 
-```
 
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
@@ -3757,6 +3745,37 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
      }
 
      public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // Assign a callback for handling font substitution warnings.
+ WarningInfoCollection warningCollector = new WarningInfoCollection();
+ doc.setWarningCallback(warningCollector);
+
+ // Set a default font name and enable font substitution.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+ // Original font metrics should be used after font substitution.
+ doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
+ // We will get a font substitution warning if we save a document with a missing font.
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+ for (WarningInfo info : warningCollector)
+ {
+     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+         System.out.println(info.getDescription());
  }
  
 ```

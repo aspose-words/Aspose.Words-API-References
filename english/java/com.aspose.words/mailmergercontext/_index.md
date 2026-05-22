@@ -39,28 +39,26 @@ Shows how to do mail merge operation for a single record using context.
  
 ```
 
-Shows how to do mail merge operation from a DataTable using context.
+Shows how to do mail merge operation for a single record from the stream using context.
 
 ```
 
- // There is a several ways to do mail merge operation from a DataTable:
- String doc = getMyDir() + "Mail merge.doc";
+ // There is a several ways to do mail merge operation using documents from the stream:
+ String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
+ String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
 
- DataTable dataTable = new DataTable();
- dataTable.getColumns().add("FirstName");
- dataTable.getColumns().add("Location");
- dataTable.getColumns().add("SpecialCharsInName()");
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Mail merge.doc")) {
+     MailMergerContext mailMergerContext = new MailMergerContext();
+     mailMergerContext.setSimpleDataSource(fieldNames, fieldValues);
+     mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
 
- dataTable.getRows().add(new String[]{"James Bond", "London", "Classified"});
-
- MailMergerContext mailMergerContext = new MailMergerContext();
- mailMergerContext.setSimpleDataSource(dataTable);
- mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
-
- MailMerger.create(mailMergerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.MailMergeContextDataTable.docx")
-         .execute();
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.MailMergeContextStream.docx")) {
+         MailMerger.create(mailMergerContext)
+                 .from(streamIn)
+                 .to(streamOut, SaveFormat.DOCX)
+                 .execute();
+     }
+ }
  
 ```
 
@@ -90,51 +88,56 @@ Shows how to do mail merge operation from a DataRow using context.
  
 ```
 
-Shows how to do mail merge with regions operation from a DataTable using context.
+Shows how to do mail merge operation from a DataRow using documents from the stream using context.
 
 ```
 
- // There is a several ways to do mail merge with regions operation from a DataTable:
- String doc = getMyDir() + "Mail merge with regions.docx";
-
- DataTable dataTable = new DataTable("MyTable");
+ // There is a several ways to do mail merge operation from a DataRow using documents from the stream:
+ DataTable dataTable = new DataTable();
  dataTable.getColumns().add("FirstName");
- dataTable.getColumns().add("LastName");
- dataTable.getRows().add(new Object[]{"John", "Doe"});
- dataTable.getRows().add(new Object[]{"", ""});
- dataTable.getRows().add(new Object[]{"Jane", "Doe"});
+ dataTable.getColumns().add("Location");
+ dataTable.getColumns().add("SpecialCharsInName()");
 
- MailMergerContext mailMergerContext = new MailMergerContext();
- mailMergerContext.setRegionsDataSource(dataTable);
- mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
-
- MailMerger.create(mailMergerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.MailMergeContextWithRegionsDataTable.docx")
-         .execute();
- 
-```
-
-Shows how to do mail merge operation for a single record from the stream using context.
-
-```
-
- // There is a several ways to do mail merge operation using documents from the stream:
- String[] fieldNames = new String[]{"FirstName", "Location", "SpecialCharsInName()"};
- String[] fieldValues = new String[]{"James Bond", "London", "Classified"};
+ dataTable.getRows().add(new String[]{"James Bond", "London", "Classified"});
+ DataRow dataRow = dataTable.getRows().get(0);
 
  try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Mail merge.doc")) {
      MailMergerContext mailMergerContext = new MailMergerContext();
-     mailMergerContext.setSimpleDataSource(fieldNames, fieldValues);
+     mailMergerContext.setSimpleDataSource(dataRow);
      mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
 
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.MailMergeContextStream.docx")) {
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.MailMergeContextStreamDataRow.docx")) {
          MailMerger.create(mailMergerContext)
                  .from(streamIn)
                  .to(streamOut, SaveFormat.DOCX)
                  .execute();
      }
  }
+ 
+```
+
+Shows how to do mail merge operation from a DataTable using context.
+
+```
+
+ // There is a several ways to do mail merge operation from a DataTable:
+ String doc = getMyDir() + "Mail merge.doc";
+
+ DataTable dataTable = new DataTable();
+ dataTable.getColumns().add("FirstName");
+ dataTable.getColumns().add("Location");
+ dataTable.getColumns().add("SpecialCharsInName()");
+
+ dataTable.getRows().add(new String[]{"James Bond", "London", "Classified"});
+
+ MailMergerContext mailMergerContext = new MailMergerContext();
+ mailMergerContext.setSimpleDataSource(dataTable);
+ mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
+
+ MailMerger.create(mailMergerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.MailMergeContextDataTable.docx")
+         .execute();
  
 ```
 
@@ -165,31 +168,28 @@ Shows how to do mail merge operation from a DataTable using documents from the s
  
 ```
 
-Shows how to do mail merge operation from a DataRow using documents from the stream using context.
+Shows how to do mail merge with regions operation from a DataTable using context.
 
 ```
 
- // There is a several ways to do mail merge operation from a DataRow using documents from the stream:
- DataTable dataTable = new DataTable();
+ // There is a several ways to do mail merge with regions operation from a DataTable:
+ String doc = getMyDir() + "Mail merge with regions.docx";
+
+ DataTable dataTable = new DataTable("MyTable");
  dataTable.getColumns().add("FirstName");
- dataTable.getColumns().add("Location");
- dataTable.getColumns().add("SpecialCharsInName()");
+ dataTable.getColumns().add("LastName");
+ dataTable.getRows().add(new Object[]{"John", "Doe"});
+ dataTable.getRows().add(new Object[]{"", ""});
+ dataTable.getRows().add(new Object[]{"Jane", "Doe"});
 
- dataTable.getRows().add(new String[]{"James Bond", "London", "Classified"});
- DataRow dataRow = dataTable.getRows().get(0);
+ MailMergerContext mailMergerContext = new MailMergerContext();
+ mailMergerContext.setRegionsDataSource(dataTable);
+ mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
 
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Mail merge.doc")) {
-     MailMergerContext mailMergerContext = new MailMergerContext();
-     mailMergerContext.setSimpleDataSource(dataRow);
-     mailMergerContext.getMailMergeOptions().setTrimWhitespaces(true);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.MailMergeContextStreamDataRow.docx")) {
-         MailMerger.create(mailMergerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
+ MailMerger.create(mailMergerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.MailMergeContextWithRegionsDataTable.docx")
+         .execute();
  
 ```
 

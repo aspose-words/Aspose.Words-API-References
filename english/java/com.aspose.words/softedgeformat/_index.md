@@ -65,19 +65,6 @@ Gets a double value that represents the length of the radius for a soft edge eff
 
  **Examples:** 
 
-Shows how to set limit for image resolution.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- SvgSaveOptions saveOptions = new SvgSaveOptions();
- saveOptions.setMaxImageResolution(72);
-
- doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
- 
-```
-
 Shows how to work with soft edge formatting.
 
 ```
@@ -102,6 +89,19 @@ Shows how to work with soft edge formatting.
 
  // Check radius of the removed soft edge.
  Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
  
 ```
 
@@ -117,19 +117,6 @@ Removes [SoftEdgeFormat](../../com.aspose.words/softedgeformat/) from the parent
 
  **Examples:** 
 
-Shows how to set limit for image resolution.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- SvgSaveOptions saveOptions = new SvgSaveOptions();
- saveOptions.setMaxImageResolution(72);
-
- doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
- 
-```
-
 Shows how to work with soft edge formatting.
 
 ```
@@ -154,6 +141,19 @@ Shows how to work with soft edge formatting.
 
  // Check radius of the removed soft edge.
  Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
  
 ```
 
@@ -167,19 +167,6 @@ Sets a double value that represents the length of the radius for a soft edge eff
 
  **Examples:** 
 
-Shows how to set limit for image resolution.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- SvgSaveOptions saveOptions = new SvgSaveOptions();
- saveOptions.setMaxImageResolution(72);
-
- doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
- 
-```
-
 Shows how to work with soft edge formatting.
 
 ```
@@ -204,6 +191,19 @@ Shows how to work with soft edge formatting.
 
  // Check radius of the removed soft edge.
  Assert.assertEquals(0, shape.getSoftEdge().getRadius());
+ 
+```
+
+Shows how to set limit for image resolution.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ SvgSaveOptions saveOptions = new SvgSaveOptions();
+ saveOptions.setMaxImageResolution(72);
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
  
 ```
 

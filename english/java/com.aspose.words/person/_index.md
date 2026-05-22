@@ -141,33 +141,6 @@ Initialize a new instance of the [Person](../../com.aspose.words/person/) class.
 
  **Examples:** 
 
-Shows how to work with person collection.
-
-```
-
- // Create a new person collection.
- PersonCollection persons = new PersonCollection();
- Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
- // Add new person to the collection.
- persons.add(person);
- Assert.assertEquals(1, persons.getCount());
- // Remove person from the collection if it exists.
- if (persons.contains(person))
-     persons.remove(person);
- Assert.assertEquals(0, persons.getCount());
-
- // Create person collection with two persons.
- persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
- Assert.assertEquals(2, persons.getCount());
- // Remove person from the collection by the index.
- persons.removeAt(0);
- Assert.assertEquals(1, persons.getCount());
- // Remove all persons from the collection.
- persons.clear();
- Assert.assertEquals(0, persons.getCount());
- 
-```
-
 Shows how to get bibliography sources available in the document.
 
 ```
@@ -262,6 +235,33 @@ Shows how to get bibliography sources available in the document.
  Assert.assertEquals("Roxanne", person.getFirst());
  Assert.assertEquals("Brielle", person.getMiddle());
  Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+
+Shows how to work with person collection.
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
  
 ```
 

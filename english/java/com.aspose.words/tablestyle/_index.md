@@ -1104,35 +1104,6 @@ For list styles this property returns  null .
 
  **Examples:** 
 
-Shows how to create and use a paragraph style with list formatting.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Create a custom paragraph style.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
- style.getFont().setSize(24.0);
- style.getFont().setName("Verdana");
- style.getParagraphFormat().setSpaceAfter(12.0);
-
- // Create a list and make sure the paragraphs that use this style will use this list.
- style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
- style.getListFormat().setListLevelNumber(0);
-
- // Apply the paragraph style to the document builder's current paragraph, and then add some text.
- builder.getParagraphFormat().setStyle(style);
- builder.writeln("Hello World: MyStyle1, bulleted list.");
-
- // Change the document builder's style to one that has no list formatting and write another paragraph.
- builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
- builder.writeln("Hello World: Normal.");
-
- builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
- 
-```
-
 Shows how to create and apply a custom style.
 
 ```
@@ -1166,6 +1137,35 @@ Shows how to create and apply a custom style.
  Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
  Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
  Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
+
+Shows how to create and use a paragraph style with list formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
  
 ```
 
@@ -1296,27 +1296,6 @@ Assigning the empty string is equivalent to unlinking the previously linked styl
 
  **Examples:** 
 
-Shows how to link styles among themselves.
-
-```
-
- Document doc = new Document();
-
- Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
-
- Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
- styleHeading1Char.getFont().setName("Verdana");
- styleHeading1Char.getFont().setBold(true);
- styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
- styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
-
- styleHeading1.setLinkedStyleName("Heading 1 Char");
-
- Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
- Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
- 
-```
-
 Shows how to use style aliases.
 
 ```
@@ -1342,6 +1321,27 @@ Shows how to use style aliases.
 
  Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
          doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+Shows how to link styles among themselves.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
  
 ```
 
@@ -2791,27 +2791,6 @@ Assigning the empty string is equivalent to unlinking the previously linked styl
 
  **Examples:** 
 
-Shows how to link styles among themselves.
-
-```
-
- Document doc = new Document();
-
- Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
-
- Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
- styleHeading1Char.getFont().setName("Verdana");
- styleHeading1Char.getFont().setBold(true);
- styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
- styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
-
- styleHeading1.setLinkedStyleName("Heading 1 Char");
-
- Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
- Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
- 
-```
-
 Shows how to use style aliases.
 
 ```
@@ -2837,6 +2816,27 @@ Shows how to use style aliases.
 
  Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
          doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+Shows how to link styles among themselves.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
  
 ```
 

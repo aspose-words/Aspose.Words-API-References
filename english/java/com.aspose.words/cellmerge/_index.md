@@ -18,38 +18,6 @@ Specifies how a cell in a table is merged with other cells.
 
  **Examples:** 
 
-Shows how to merge table cells horizontally.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a cell into the first column of the first row.
- // This cell will be the first in a range of horizontally merged cells.
- builder.insertCell();
- builder.getCellFormat().setHorizontalMerge(CellMerge.FIRST);
- builder.write("Text in merged cells.");
-
- // Insert a cell into the second column of the first row. Instead of adding text contents,
- // we will merge this cell with the first cell that we added directly to the left.
- builder.insertCell();
- builder.getCellFormat().setHorizontalMerge(CellMerge.PREVIOUS);
- builder.endRow();
-
- // Insert two more unmerged cells to the second row.
- builder.getCellFormat().setHorizontalMerge(CellMerge.NONE);
- builder.insertCell();
- builder.write("Text in unmerged cell.");
- builder.insertCell();
- builder.write("Text in unmerged cell.");
- builder.endRow();
- builder.endTable();
-
- doc.save(getArtifactsDir() + "CellFormat.HorizontalMerge.docx");
- 
-```
-
 Shows how to merge table cells vertically.
 
 ```
@@ -83,6 +51,38 @@ Shows how to merge table cells vertically.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "CellFormat.VerticalMerge.docx");
+ 
+```
+
+Shows how to merge table cells horizontally.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a cell into the first column of the first row.
+ // This cell will be the first in a range of horizontally merged cells.
+ builder.insertCell();
+ builder.getCellFormat().setHorizontalMerge(CellMerge.FIRST);
+ builder.write("Text in merged cells.");
+
+ // Insert a cell into the second column of the first row. Instead of adding text contents,
+ // we will merge this cell with the first cell that we added directly to the left.
+ builder.insertCell();
+ builder.getCellFormat().setHorizontalMerge(CellMerge.PREVIOUS);
+ builder.endRow();
+
+ // Insert two more unmerged cells to the second row.
+ builder.getCellFormat().setHorizontalMerge(CellMerge.NONE);
+ builder.insertCell();
+ builder.write("Text in unmerged cell.");
+ builder.insertCell();
+ builder.write("Text in unmerged cell.");
+ builder.endRow();
+ builder.endTable();
+
+ doc.save(getArtifactsDir() + "CellFormat.HorizontalMerge.docx");
  
 ```
 

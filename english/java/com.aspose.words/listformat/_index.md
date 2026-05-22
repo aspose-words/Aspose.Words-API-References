@@ -496,54 +496,6 @@ Has effect only when the [getList()](../../com.aspose.words/listformat/\#getList
 
  **Examples:** 
 
-Shows how to work with list levels.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Assert.assertFalse(builder.getListFormat().isListItem());
-
- // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
- // We can create nested lists by increasing the indent level.
- // We can begin and end a list by using a document builder's "ListFormat" property.
- // Each paragraph that we add between a list's start and the end will become an item in the list.
- // Below are two types of lists that we can create using a document builder.
- // 1 -  A numbered list:
- // Numbered lists create a logical order for their paragraphs by numbering each item.
- builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
-
- Assert.assertTrue(builder.getListFormat().isListItem());
-
- // By setting the "ListLevelNumber" property, we can increase the list level
- // to begin a self-contained sub-list at the current list item.
- // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
- // Deeper list levels use letters and lowercase Roman numerals.
- for (int i = 0; i < 9; i++) {
-     builder.getListFormat().setListLevelNumber(i);
-     builder.writeln("Level " + i);
- }
-
- // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
- builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
-
- for (int i = 0; i < 9; i++) {
-     builder.getListFormat().setListLevelNumber(i);
-     builder.writeln("Level " + i);
- }
-
- // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
- builder.getListFormat().setList(null);
-
- Assert.assertFalse(builder.getListFormat().isListItem());
-
- doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
- 
-```
-
 Shows how to create bulleted and numbered lists.
 
 ```
@@ -626,6 +578,54 @@ Shows how to create bulleted and numbered lists.
  
 ```
 
+Shows how to work with list levels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Below are two types of lists that we can create using a document builder.
+ // 1 -  A numbered list:
+ // Numbered lists create a logical order for their paragraphs by numbering each item.
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
+
+ Assert.assertTrue(builder.getListFormat().isListItem());
+
+ // By setting the "ListLevelNumber" property, we can increase the list level
+ // to begin a self-contained sub-list at the current list item.
+ // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
+ // Deeper list levels use letters and lowercase Roman numerals.
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // 2 -  A bulleted list:
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
+ builder.getListFormat().setList(null);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
+
 **Returns:**
 int - The list level number (0 to 8) for the paragraph.
 ### isListItem() {#isListItem}
@@ -637,35 +637,6 @@ public boolean isListItem()
 True when the paragraph has bulleted or numbered formatting applied to it.
 
  **Examples:** 
-
-Shows how to output all paragraphs in a document that are list items.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getListFormat().applyNumberDefault();
- builder.writeln("Numbered list item 1");
- builder.writeln("Numbered list item 2");
- builder.writeln("Numbered list item 3");
- builder.getListFormat().removeNumbers();
-
- builder.getListFormat().applyBulletDefault();
- builder.writeln("Bulleted list item 1");
- builder.writeln("Bulleted list item 2");
- builder.writeln("Bulleted list item 3");
- builder.getListFormat().removeNumbers();
-
- NodeCollection paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
- for (Paragraph para : (Iterable) paras) {
-     if (para.getListFormat().isListItem()) {
-         System.out.println(java.text.MessageFormat.format("*** A paragraph belongs to list {0}", para.getListFormat().getList().getListId()));
-         System.out.println(para.getText());
-     }
- }
- 
-```
 
 Shows how to work with list levels.
 
@@ -712,6 +683,35 @@ Shows how to work with list levels.
  Assert.assertFalse(builder.getListFormat().isListItem());
 
  doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
+
+Shows how to output all paragraphs in a document that are list items.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Numbered list item 1");
+ builder.writeln("Numbered list item 2");
+ builder.writeln("Numbered list item 3");
+ builder.getListFormat().removeNumbers();
+
+ builder.getListFormat().applyBulletDefault();
+ builder.writeln("Bulleted list item 1");
+ builder.writeln("Bulleted list item 2");
+ builder.writeln("Bulleted list item 3");
+ builder.getListFormat().removeNumbers();
+
+ NodeCollection paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
+ for (Paragraph para : (Iterable) paras) {
+     if (para.getListFormat().isListItem()) {
+         System.out.println(java.text.MessageFormat.format("*** A paragraph belongs to list {0}", para.getListFormat().getList().getListId()));
+         System.out.println(para.getText());
+     }
+ }
  
 ```
 
@@ -927,32 +927,6 @@ Calling this method is equivalent to setting the [getList()](../../com.aspose.wo
 
  **Examples:** 
 
-Shows how to remove list formatting from all paragraphs in the main text of a section.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getListFormat().applyNumberDefault();
- builder.writeln("Numbered list item 1");
- builder.writeln("Numbered list item 2");
- builder.writeln("Numbered list item 3");
- builder.getListFormat().removeNumbers();
-
- NodeCollection paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
-
- Assert.assertEquals(3, DocumentHelper.getListItemCount(paras));
-
- for (Paragraph paragraph : doc.getFirstSection().getBody().getParagraphs())
-     paragraph.getListFormat().removeNumbers();
-
- paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
-
- Assert.assertEquals(0, DocumentHelper.getListItemCount(paras));
- 
-```
-
 Shows how to create bulleted and numbered lists.
 
 ```
@@ -1032,6 +1006,32 @@ Shows how to create bulleted and numbered lists.
  builder.getListFormat().removeNumbers();
 
  doc.save(getArtifactsDir() + "Lists.ApplyDefaultBulletsAndNumbers.docx");
+ 
+```
+
+Shows how to remove list formatting from all paragraphs in the main text of a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Numbered list item 1");
+ builder.writeln("Numbered list item 2");
+ builder.writeln("Numbered list item 3");
+ builder.getListFormat().removeNumbers();
+
+ NodeCollection paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
+
+ Assert.assertEquals(3, DocumentHelper.getListItemCount(paras));
+
+ for (Paragraph paragraph : doc.getFirstSection().getBody().getParagraphs())
+     paragraph.getListFormat().removeNumbers();
+
+ paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
+
+ Assert.assertEquals(0, DocumentHelper.getListItemCount(paras));
  
 ```
 
@@ -1173,54 +1173,6 @@ Has effect only when the [getList()](../../com.aspose.words/listformat/\#getList
 
  **Examples:** 
 
-Shows how to work with list levels.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Assert.assertFalse(builder.getListFormat().isListItem());
-
- // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
- // We can create nested lists by increasing the indent level.
- // We can begin and end a list by using a document builder's "ListFormat" property.
- // Each paragraph that we add between a list's start and the end will become an item in the list.
- // Below are two types of lists that we can create using a document builder.
- // 1 -  A numbered list:
- // Numbered lists create a logical order for their paragraphs by numbering each item.
- builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
-
- Assert.assertTrue(builder.getListFormat().isListItem());
-
- // By setting the "ListLevelNumber" property, we can increase the list level
- // to begin a self-contained sub-list at the current list item.
- // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
- // Deeper list levels use letters and lowercase Roman numerals.
- for (int i = 0; i < 9; i++) {
-     builder.getListFormat().setListLevelNumber(i);
-     builder.writeln("Level " + i);
- }
-
- // 2 -  A bulleted list:
- // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
- // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
- builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
-
- for (int i = 0; i < 9; i++) {
-     builder.getListFormat().setListLevelNumber(i);
-     builder.writeln("Level " + i);
- }
-
- // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
- builder.getListFormat().setList(null);
-
- Assert.assertFalse(builder.getListFormat().isListItem());
-
- doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
- 
-```
-
 Shows how to create bulleted and numbered lists.
 
 ```
@@ -1300,6 +1252,54 @@ Shows how to create bulleted and numbered lists.
  builder.getListFormat().removeNumbers();
 
  doc.save(getArtifactsDir() + "Lists.ApplyDefaultBulletsAndNumbers.docx");
+ 
+```
+
+Shows how to work with list levels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Below are two types of lists that we can create using a document builder.
+ // 1 -  A numbered list:
+ // Numbered lists create a logical order for their paragraphs by numbering each item.
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
+
+ Assert.assertTrue(builder.getListFormat().isListItem());
+
+ // By setting the "ListLevelNumber" property, we can increase the list level
+ // to begin a self-contained sub-list at the current list item.
+ // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
+ // Deeper list levels use letters and lowercase Roman numerals.
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // 2 -  A bulleted list:
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
+ builder.getListFormat().setList(null);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
  
 ```
 

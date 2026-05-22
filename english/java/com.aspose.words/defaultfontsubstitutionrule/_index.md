@@ -76,34 +76,6 @@ The default value is 'Times New Roman'.
 
  **Examples:** 
 
-Shows how to set the default font substitution rule.
-
-```
-
- Document doc = new Document();
- FontSettings fontSettings = new FontSettings();
- doc.setFontSettings(fontSettings);
-
- // Get the default substitution rule within FontSettings.
- // This rule will substitute all missing fonts with "Times New Roman".
- DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
- Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
- Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
-
- // Set the default font substitute to "Courier New".
- defaultFontSubstitutionRule.setDefaultFontName("Courier New");
-
- // Using a document builder, add some text in a font that we do not have to see the substitution take place,
- // and then render the result in a PDF.
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setName("Missing Font");
- builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
-
- doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
- 
-```
-
 Shows how to specify a default font.
 
 ```
@@ -134,6 +106,34 @@ Shows how to specify a default font.
  
 ```
 
+Shows how to set the default font substitution rule.
+
+```
+
+ Document doc = new Document();
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+
+ // Get the default substitution rule within FontSettings.
+ // This rule will substitute all missing fonts with "Times New Roman".
+ DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
+ Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
+ Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
+
+ // Set the default font substitute to "Courier New".
+ defaultFontSubstitutionRule.setDefaultFontName("Courier New");
+
+ // Using a document builder, add some text in a font that we do not have to see the substitution take place,
+ // and then render the result in a PDF.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Missing Font");
+ builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
+ 
+```
+
 **Returns:**
 java.lang.String - The default font name.
 ### getEnabled() {#getEnabled}
@@ -145,30 +145,6 @@ public boolean getEnabled()
 Specifies whether the rule is enabled or not.
 
  **Examples:** 
-
-Shows operating system-dependent font config substitution.
-
-```
-
- FontSettings fontSettings = new FontSettings();
- FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
-
- // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
- // On Windows, it is unavailable.
- if (SystemUtils.IS_OS_WINDOWS) {
-     Assert.assertFalse(fontConfigSubstitution.getEnabled());
-     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
- }
-
- // On Linux/Mac, we will have access to it, and will be able to perform operations.
- if (SystemUtils.IS_OS_LINUX) {
-     Assert.assertTrue(fontConfigSubstitution.getEnabled());
-     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
-
-     fontConfigSubstitution.resetCache();
- }
- 
-```
 
 Shows how to access a document's system font source and set font substitutes.
 
@@ -212,6 +188,30 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
  Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+Shows operating system-dependent font config substitution.
+
+```
+
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
+
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
+
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
+
+     fontConfigSubstitution.resetCache();
+ }
  
 ```
 
@@ -231,34 +231,6 @@ The default value is 'Times New Roman'.
 
  **Examples:** 
 
-Shows how to set the default font substitution rule.
-
-```
-
- Document doc = new Document();
- FontSettings fontSettings = new FontSettings();
- doc.setFontSettings(fontSettings);
-
- // Get the default substitution rule within FontSettings.
- // This rule will substitute all missing fonts with "Times New Roman".
- DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
- Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
- Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
-
- // Set the default font substitute to "Courier New".
- defaultFontSubstitutionRule.setDefaultFontName("Courier New");
-
- // Using a document builder, add some text in a font that we do not have to see the substitution take place,
- // and then render the result in a PDF.
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getFont().setName("Missing Font");
- builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
-
- doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
- 
-```
-
 Shows how to specify a default font.
 
 ```
@@ -289,6 +261,34 @@ Shows how to specify a default font.
  
 ```
 
+Shows how to set the default font substitution rule.
+
+```
+
+ Document doc = new Document();
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+
+ // Get the default substitution rule within FontSettings.
+ // This rule will substitute all missing fonts with "Times New Roman".
+ DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
+ Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
+ Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
+
+ // Set the default font substitute to "Courier New".
+ defaultFontSubstitutionRule.setDefaultFontName("Courier New");
+
+ // Using a document builder, add some text in a font that we do not have to see the substitution take place,
+ // and then render the result in a PDF.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Missing Font");
+ builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -303,30 +303,6 @@ public void setEnabled(boolean value)
 Specifies whether the rule is enabled or not.
 
  **Examples:** 
-
-Shows operating system-dependent font config substitution.
-
-```
-
- FontSettings fontSettings = new FontSettings();
- FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
-
- // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
- // On Windows, it is unavailable.
- if (SystemUtils.IS_OS_WINDOWS) {
-     Assert.assertFalse(fontConfigSubstitution.getEnabled());
-     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
- }
-
- // On Linux/Mac, we will have access to it, and will be able to perform operations.
- if (SystemUtils.IS_OS_LINUX) {
-     Assert.assertTrue(fontConfigSubstitution.getEnabled());
-     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
-
-     fontConfigSubstitution.resetCache();
- }
- 
-```
 
 Shows how to access a document's system font source and set font substitutes.
 
@@ -370,6 +346,30 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
  Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+Shows operating system-dependent font config substitution.
+
+```
+
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
+
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
+
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
+
+     fontConfigSubstitution.resetCache();
+ }
  
 ```
 

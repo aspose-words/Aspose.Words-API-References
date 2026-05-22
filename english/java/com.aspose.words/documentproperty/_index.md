@@ -444,6 +444,27 @@ Converts a boolean property into "Y" or "N". Converts a date property into a sho
 
  **Examples:** 
 
+Shows how to work with custom document properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Properties.docx");
+
+ // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
+ // The document has a fixed list of built-in properties. The user creates all of the custom properties.
+ Assert.assertEquals("Value of custom document property", doc.getCustomDocumentProperties().get("CustomProperty").toString());
+
+ doc.getCustomDocumentProperties().add("CustomProperty2", "Value of custom document property #2");
+
+ System.out.println("Custom Properties:");
+ for (DocumentProperty customDocumentProperty : doc.getCustomDocumentProperties()) {
+     System.out.println(customDocumentProperty.getName());
+     System.out.println(MessageFormat.format("\tType:\t{0}", customDocumentProperty.getType()));
+     System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
+ }
+ 
+```
+
 Shows various type conversion methods of custom document properties.
 
 ```
@@ -463,27 +484,6 @@ Shows various type conversion methods of custom document properties.
  Assert.assertEquals(authDate, properties.get("Authorized Date").toDateTime());
  Assert.assertEquals(1, properties.get("Authorized Revision").toInt());
  Assert.assertEquals(123.45d, properties.get("Authorized Amount").toDouble());
- 
-```
-
-Shows how to work with custom document properties.
-
-```
-
- Document doc = new Document(getMyDir() + "Properties.docx");
-
- // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
- // The document has a fixed list of built-in properties. The user creates all of the custom properties.
- Assert.assertEquals("Value of custom document property", doc.getCustomDocumentProperties().get("CustomProperty").toString());
-
- doc.getCustomDocumentProperties().add("CustomProperty2", "Value of custom document property #2");
-
- System.out.println("Custom Properties:");
- for (DocumentProperty customDocumentProperty : doc.getCustomDocumentProperties()) {
-     System.out.println(customDocumentProperty.getName());
-     System.out.println(MessageFormat.format("\tType:\t{0}", customDocumentProperty.getType()));
-     System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
- }
  
 ```
 

@@ -18,6 +18,14 @@ Specifies options that determine what items are removed during mail merge.
 
  **Examples:** 
 
+Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
+ 
+```
+
 Shows how to automatically remove unmerged merge fields during mail merge.
 
 ```
@@ -31,14 +39,6 @@ Shows how to make sure empty paragraphs that result from merging fields with no 
 ```
 
  doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
- 
-```
-
-Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
-
-```
-
- doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
  
 ```
 

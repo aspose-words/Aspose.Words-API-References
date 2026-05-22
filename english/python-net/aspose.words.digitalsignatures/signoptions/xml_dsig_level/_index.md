@@ -5,7 +5,7 @@ articleTitle: xml_dsig_level property
 second_title: Aspose.Words for Python
 description: "SignOptions.xml_dsig_level property. Specifies the level of a digital signature based on XML-DSig standard"
 type: docs
-weight: 80
+weight: 140
 url: /python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/
 ---
 

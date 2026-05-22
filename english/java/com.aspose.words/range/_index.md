@@ -590,17 +590,6 @@ Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindRep
 
  **Examples:** 
 
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.Writeln("Numbers 1, 2, 3");
-
- // Inserts paragraph break after Numbers.
- doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
- 
-```
-
 Shows how to perform a find-and-replace text operation on the contents of a document.
 
 ```
@@ -686,17 +675,6 @@ You should use special meta-characters if you need to work with breaks:
  *  **&&** \- & character
 
  **Examples:** 
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.Writeln("Numbers 1, 2, 3");
-
- // Inserts paragraph break after Numbers.
- doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
- 
-```
 
 Shows how to replace text in a document's footer.
 
@@ -833,17 +811,6 @@ Use method [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.
 
  **Examples:** 
 
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.Writeln("a1, b2, c3");
-
- // Replaces each number with paragraph break.
- doc.Range.Replace(new Regex(@"\d+"), "&p");
- 
-```
-
 Shows how to replace all occurrences of a regular expression pattern with other text.
 
 ```
@@ -890,17 +857,6 @@ You should use special meta-characters if you need to work with breaks:
  *  **&&** \- & character
 
  **Examples:** 
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.Writeln("a1, b2, c3");
-
- // Replaces each number with paragraph break.
- doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
- 
-```
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

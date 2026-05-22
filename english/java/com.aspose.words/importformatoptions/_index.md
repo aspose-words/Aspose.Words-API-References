@@ -65,6 +65,7 @@ Shows how to resolve duplicate styles while inserting documents.
 | [getIgnoreTextBoxes()](#getIgnoreTextBoxes) | Gets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [getKeepSourceNumbering()](#getKeepSourceNumbering) | Gets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
 | [getMergePastedLists()](#getMergePastedLists) | Gets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
+| [getResolveThemeColors()](#getResolveThemeColors) | Gets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. |
 | [getSmartStyleBehavior()](#getSmartStyleBehavior) | Gets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 | [setAdjustSentenceAndWordSpacing(boolean value)](#setAdjustSentenceAndWordSpacing-boolean) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
 | [setAppendDocumentWithNewPage(boolean value)](#setAppendDocumentWithNewPage-boolean) | Sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW\_PAGE](../../com.aspose.words/sectionstart/\#NEW-PAGE) forcibly when call **M:Aspose.Words.Document.AppendDocument(Aspose.Words.Document,Aspose.Words.ImportFormatMode,Aspose.Words.ImportFormatOptions)**. |
@@ -73,6 +74,7 @@ Shows how to resolve duplicate styles while inserting documents.
 | [setIgnoreTextBoxes(boolean value)](#setIgnoreTextBoxes-boolean) | Sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [setKeepSourceNumbering(boolean value)](#setKeepSourceNumbering-boolean) | Sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
 | [setMergePastedLists(boolean value)](#setMergePastedLists-boolean) | Sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
+| [setResolveThemeColors(boolean value)](#setResolveThemeColors-boolean) | Sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. |
 | [setSmartStyleBehavior(boolean value)](#setSmartStyleBehavior-boolean) | Sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 ### getAdjustSentenceAndWordSpacing() {#getAdjustSentenceAndWordSpacing}
 ```
@@ -277,24 +279,6 @@ Gets a boolean value that specifies how the numbering will be imported when it c
 
  **Examples:** 
 
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
-
-```
-
- Document srcDoc = new Document(getMyDir() + "List with the same definition identifier - source.docx");
- Document dstDoc = new Document(getMyDir() + "List with the same definition identifier - destination.docx");
-
- ImportFormatOptions importFormatOptions = new ImportFormatOptions();
-
- // Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
- // to identical styles as Aspose.Words imports them into destination documents.
- importFormatOptions.setKeepSourceNumbering(true);
- dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, importFormatOptions);
-
- dstDoc.updateListLabels();
- 
-```
-
 Shows how to import a document with numbered lists.
 
 ```
@@ -319,6 +303,24 @@ Shows how to import a document with numbered lists.
      Assert.assertEquals(dstDoc.getLists().getCount(), 5);
  else
      Assert.assertEquals(dstDoc.getLists().getCount(), 4);
+ 
+```
+
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
+
+```
+
+ Document srcDoc = new Document(getMyDir() + "List with the same definition identifier - source.docx");
+ Document dstDoc = new Document(getMyDir() + "List with the same definition identifier - destination.docx");
+
+ ImportFormatOptions importFormatOptions = new ImportFormatOptions();
+
+ // Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
+ // to identical styles as Aspose.Words imports them into destination documents.
+ importFormatOptions.setKeepSourceNumbering(true);
+ dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, importFormatOptions);
+
+ dstDoc.updateListLabels();
  
 ```
 
@@ -403,6 +405,51 @@ Shows how to merge lists from a documents.
 
 **Returns:**
 boolean - A boolean value that specifies whether pasted lists will be merged with surrounding lists.
+### getResolveThemeColors() {#getResolveThemeColors}
+```
+public boolean getResolveThemeColors()
+```
+
+
+Gets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is  false .
+
+ **Remarks:** 
+
+Please note that this option is only relevant for the [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode.
+
+Normally, Aspose.Words doesn't resolve source theme colors when importing styles can be preserved without expanding formatting attributes into direct ones. However, in this case the actual colors of the imported shapes can differ from the ones they had in the original document. The reason for this is the different theme colors in the source and destination documents. Setting this option to  true  forces to resolve source shape theme colors and hence to preserve the actual color of the shapes they have in the source document.
+
+ **Examples:** 
+
+Shows how to import a node with resolving source theme colors of shapes.
+
+```
+
+ Document srcDoc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(srcDoc);
+
+ // Move to the primary footer and insert a shape that uses theme colors.
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 50.0);
+ shape.getStroke().setForeThemeColor(ThemeColor.DARK_1);
+
+ Document dstDoc = new Document();
+ // Import the source footer into the destination document with theme colors resolved,
+ // so the shape preserves its actual color from the source document.
+ HeaderFooter footer = srcDoc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
+
+ ImportFormatOptions options = new ImportFormatOptions();
+ options.setResolveThemeColors(true);
+ HeaderFooter importedFooter = (HeaderFooter)dstDoc.importNode(footer, true, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
+
+ dstDoc.getFirstSection().getHeadersFooters().add(importedFooter);
+
+ dstDoc.save(getArtifactsDir() + "DocumentBase.ImportNodeWithResolveThemeColors.docx");
+ 
+```
+
+**Returns:**
+boolean - A boolean value that specifies whether to resolve theme colors of the shapes forcibly.
 ### getSmartStyleBehavior() {#getSmartStyleBehavior}
 ```
 public boolean getSmartStyleBehavior()
@@ -671,24 +718,6 @@ Sets a boolean value that specifies how the numbering will be imported when it c
 
  **Examples:** 
 
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
-
-```
-
- Document srcDoc = new Document(getMyDir() + "List with the same definition identifier - source.docx");
- Document dstDoc = new Document(getMyDir() + "List with the same definition identifier - destination.docx");
-
- ImportFormatOptions importFormatOptions = new ImportFormatOptions();
-
- // Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
- // to identical styles as Aspose.Words imports them into destination documents.
- importFormatOptions.setKeepSourceNumbering(true);
- dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, importFormatOptions);
-
- dstDoc.updateListLabels();
- 
-```
-
 Shows how to import a document with numbered lists.
 
 ```
@@ -713,6 +742,24 @@ Shows how to import a document with numbered lists.
      Assert.assertEquals(dstDoc.getLists().getCount(), 5);
  else
      Assert.assertEquals(dstDoc.getLists().getCount(), 4);
+ 
+```
+
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
+
+```
+
+ Document srcDoc = new Document(getMyDir() + "List with the same definition identifier - source.docx");
+ Document dstDoc = new Document(getMyDir() + "List with the same definition identifier - destination.docx");
+
+ ImportFormatOptions importFormatOptions = new ImportFormatOptions();
+
+ // Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
+ // to identical styles as Aspose.Words imports them into destination documents.
+ importFormatOptions.setKeepSourceNumbering(true);
+ dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, importFormatOptions);
+
+ dstDoc.updateListLabels();
  
 ```
 
@@ -802,6 +849,54 @@ Shows how to merge lists from a documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value that specifies whether pasted lists will be merged with surrounding lists. |
+
+### setResolveThemeColors(boolean value) {#setResolveThemeColors-boolean}
+```
+public void setResolveThemeColors(boolean value)
+```
+
+
+Sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is  false .
+
+ **Remarks:** 
+
+Please note that this option is only relevant for the [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode.
+
+Normally, Aspose.Words doesn't resolve source theme colors when importing styles can be preserved without expanding formatting attributes into direct ones. However, in this case the actual colors of the imported shapes can differ from the ones they had in the original document. The reason for this is the different theme colors in the source and destination documents. Setting this option to  true  forces to resolve source shape theme colors and hence to preserve the actual color of the shapes they have in the source document.
+
+ **Examples:** 
+
+Shows how to import a node with resolving source theme colors of shapes.
+
+```
+
+ Document srcDoc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(srcDoc);
+
+ // Move to the primary footer and insert a shape that uses theme colors.
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 50.0);
+ shape.getStroke().setForeThemeColor(ThemeColor.DARK_1);
+
+ Document dstDoc = new Document();
+ // Import the source footer into the destination document with theme colors resolved,
+ // so the shape preserves its actual color from the source document.
+ HeaderFooter footer = srcDoc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
+
+ ImportFormatOptions options = new ImportFormatOptions();
+ options.setResolveThemeColors(true);
+ HeaderFooter importedFooter = (HeaderFooter)dstDoc.importNode(footer, true, ImportFormatMode.KEEP_SOURCE_FORMATTING, options);
+
+ dstDoc.getFirstSection().getHeadersFooters().add(importedFooter);
+
+ dstDoc.save(getArtifactsDir() + "DocumentBase.ImportNodeWithResolveThemeColors.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value that specifies whether to resolve theme colors of the shapes forcibly. |
 
 ### setSmartStyleBehavior(boolean value) {#setSmartStyleBehavior-boolean}
 ```

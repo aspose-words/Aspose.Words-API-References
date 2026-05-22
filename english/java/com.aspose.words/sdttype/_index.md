@@ -18,66 +18,6 @@ Specifies the type of a structured document tag (SDT) node.
 
  **Examples:** 
 
-Shows how to create a structured document tag of the Citation type.
-
-```
-
- Document doc = new Document();
-
- StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.CITATION, MarkupLevel.INLINE);
- Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
- paragraph.appendChild(sdt);
-
- // Create a Citation field.
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.moveToParagraph(0, -1);
- builder.insertField("CITATION Ath22 \\l 1033 ", "(John Lennon, 2022)");
-
- // Move the field to the structured document tag.
- while (sdt.getNextSibling() != null)
-     sdt.appendChild(sdt.getNextSibling());
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.Citation.docx");
- 
-```
-
-Shows how to create group structured document tag at the Row level.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
-
- // Create a Group structured document tag at the Row level.
- StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.GROUP, MarkupLevel.ROW);
- table.appendChild(groupSdt);
- groupSdt.isShowingPlaceholderText(false);
- groupSdt.removeAllChildren();
-
- // Create a child row of the structured document tag.
- Row row = new Row(doc);
- groupSdt.appendChild(row);
-
- Cell cell = new Cell(doc);
- row.appendChild(cell);
-
- builder.endTable();
-
- // Insert cell contents.
- cell.ensureMinimum();
- builder.moveTo(cell.getLastParagraph());
- builder.write("Lorem ipsum dolor.");
-
- // Insert text after the table.
- builder.moveTo(table.getNextSibling());
- builder.write("Nulla blandit nisi.");
-
- doc.save(getArtifactsDir() + "StructuredDocumentTag.SdtAtRowLevel.docx");
- 
-```
-
 Shows how to work with styles for content control elements.
 
 ```
@@ -169,6 +109,66 @@ Shows how to fill a table with data from in an XML part.
  row.appendChild(authorSdt);
 
  doc.save(getArtifactsDir() + "StructuredDocumentTag.RepeatingSectionItem.docx");
+ 
+```
+
+Shows how to create group structured document tag at the Row level.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+
+ // Create a Group structured document tag at the Row level.
+ StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.GROUP, MarkupLevel.ROW);
+ table.appendChild(groupSdt);
+ groupSdt.isShowingPlaceholderText(false);
+ groupSdt.removeAllChildren();
+
+ // Create a child row of the structured document tag.
+ Row row = new Row(doc);
+ groupSdt.appendChild(row);
+
+ Cell cell = new Cell(doc);
+ row.appendChild(cell);
+
+ builder.endTable();
+
+ // Insert cell contents.
+ cell.ensureMinimum();
+ builder.moveTo(cell.getLastParagraph());
+ builder.write("Lorem ipsum dolor.");
+
+ // Insert text after the table.
+ builder.moveTo(table.getNextSibling());
+ builder.write("Nulla blandit nisi.");
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.SdtAtRowLevel.docx");
+ 
+```
+
+Shows how to create a structured document tag of the Citation type.
+
+```
+
+ Document doc = new Document();
+
+ StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.CITATION, MarkupLevel.INLINE);
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ paragraph.appendChild(sdt);
+
+ // Create a Citation field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToParagraph(0, -1);
+ builder.insertField("CITATION Ath22 \\l 1033 ", "(John Lennon, 2022)");
+
+ // Move the field to the structured document tag.
+ while (sdt.getNextSibling() != null)
+     sdt.appendChild(sdt.getNextSibling());
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.Citation.docx");
  
 ```
 ## Fields

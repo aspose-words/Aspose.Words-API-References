@@ -46,15 +46,31 @@ Shows how to validate and display information about each signature in a document
 
 | Method | Description |
 | --- | --- |
+| [getApplicationVersion()](#getApplicationVersion) | Gets the application version for the digital signature. |
 | [getCertificateHolder()](#getCertificateHolder) | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [getColorDepth()](#getColorDepth) | Gets the color depth for the digital signature. |
 | [getComments()](#getComments) | Gets the signing purpose comment. |
+| [getHorizontalResolution()](#getHorizontalResolution) | Gets the horizontal resolution for the digital signature. |
 | [getIssuerName()](#getIssuerName) | Returns the subject distinguished name of the certificate isuuer. |
+| [getOfficeVersion()](#getOfficeVersion) | Gets the Office version for the digital signature. |
 | [getSignTime()](#getSignTime) | Gets the time the document was signed. |
 | [getSignatureType()](#getSignatureType) | Gets the type of the digital signature. |
 | [getSignatureValue()](#getSignatureValue) | Gets an array of bytes representing a signature value. |
 | [getSubjectName()](#getSubjectName) | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the digital signature. |
+| [getWindowsVersion()](#getWindowsVersion) | Gets the Windows version for the digital signature. |
 | [isValid()](#isValid) | Returns  true  if this digital signature is valid and the document has not been tampered with. |
 | [toString()](#toString) | Returns a user-friendly string that displays the value of this object. |
+### getApplicationVersion() {#getApplicationVersion}
+```
+public String getApplicationVersion()
+```
+
+
+Gets the application version for the digital signature.
+
+**Returns:**
+java.lang.String - The application version for the digital signature.
 ### getCertificateHolder() {#getCertificateHolder}
 ```
 public CertificateHolder getCertificateHolder()
@@ -114,6 +130,16 @@ Shows how to sign documents with X.509 certificates.
 
 **Returns:**
 [CertificateHolder](../../com.aspose.words/certificateholder/) - The certificate holder object that contains the certificate was used to sign the document.
+### getColorDepth() {#getColorDepth}
+```
+public int getColorDepth()
+```
+
+
+Gets the color depth for the digital signature.
+
+**Returns:**
+int - The color depth for the digital signature.
 ### getComments() {#getComments}
 ```
 public String getComments()
@@ -146,6 +172,16 @@ Shows how to validate and display information about each signature in a document
 
 **Returns:**
 java.lang.String - The signing purpose comment.
+### getHorizontalResolution() {#getHorizontalResolution}
+```
+public int getHorizontalResolution()
+```
+
+
+Gets the horizontal resolution for the digital signature.
+
+**Returns:**
+int - The horizontal resolution for the digital signature.
 ### getIssuerName() {#getIssuerName}
 ```
 public String getIssuerName()
@@ -205,6 +241,16 @@ Shows how to sign documents with X.509 certificates.
 
 **Returns:**
 java.lang.String - The subject distinguished name of the certificate isuuer.
+### getOfficeVersion() {#getOfficeVersion}
+```
+public String getOfficeVersion()
+```
+
+
+Gets the Office version for the digital signature.
+
+**Returns:**
+java.lang.String - The Office version for the digital signature.
 ### getSignTime() {#getSignTime}
 ```
 public Date getSignTime()
@@ -356,6 +402,26 @@ Shows how to sign documents with X.509 certificates.
 
 **Returns:**
 java.lang.String - The subject distinguished name of the certificate that was used to sign the document.
+### getVerticalResolution() {#getVerticalResolution}
+```
+public int getVerticalResolution()
+```
+
+
+Gets the vertical resolution for the digital signature.
+
+**Returns:**
+int - The vertical resolution for the digital signature.
+### getWindowsVersion() {#getWindowsVersion}
+```
+public String getWindowsVersion()
+```
+
+
+Gets the Windows version for the digital signature.
+
+**Returns:**
+java.lang.String - The Windows version for the digital signature.
 ### isValid() {#isValid}
 ```
 public boolean isValid()

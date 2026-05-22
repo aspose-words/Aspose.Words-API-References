@@ -279,28 +279,33 @@ Specifies the OOXML version for the output document. The default value is [Ooxml
 
  **Examples:** 
 
-Shows how to insert DML shapes into a document.
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Below are two wrapping types that shapes may have.
- // 1 -  Floating:
- builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
-         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
 
- // 2 -  Inline:
- builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
 
- // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
- // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
- // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
 
- doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
  
 ```
 
@@ -339,33 +344,28 @@ Shows how to configure a list to restart numbering at each section.
  
 ```
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
+Shows how to insert DML shapes into a document.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // If we configure compatibility options to comply with Microsoft Word 2003,
- // inserting an image will define its shape using VML.
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
- builder.insertImage(getImageDir() + "Transparent background logo.png");
+ // Below are two wrapping types that shapes may have.
+ // 1 -  Floating:
+ builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
+         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
 
- Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ // 2 -  Inline:
+ builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
 
- // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
- // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
- // any document we save while passing this object will have to follow that standard.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
- saveOptions.setSaveFormat(SaveFormat.DOCX);
+ // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+ // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+ // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 
- doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
- // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
- doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
-
- Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
  
 ```
 
@@ -587,26 +587,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -627,6 +607,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -887,77 +887,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -1062,6 +991,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 
@@ -1519,28 +1519,33 @@ Specifies the OOXML version for the output document. The default value is [Ooxml
 
  **Examples:** 
 
-Shows how to insert DML shapes into a document.
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Below are two wrapping types that shapes may have.
- // 1 -  Floating:
- builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
-         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
 
- // 2 -  Inline:
- builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
 
- // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
- // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
- // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
 
- doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
  
 ```
 
@@ -1579,33 +1584,28 @@ Shows how to configure a list to restart numbering at each section.
  
 ```
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
+Shows how to insert DML shapes into a document.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- // If we configure compatibility options to comply with Microsoft Word 2003,
- // inserting an image will define its shape using VML.
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
- builder.insertImage(getImageDir() + "Transparent background logo.png");
+ // Below are two wrapping types that shapes may have.
+ // 1 -  Floating:
+ builder.insertShape(ShapeType.TOP_CORNERS_ROUNDED, RelativeHorizontalPosition.PAGE, 100.0,
+         RelativeVerticalPosition.PAGE, 100.0, 50.0, 50.0, WrapType.NONE);
 
- Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ // 2 -  Inline:
+ builder.insertShape(ShapeType.DIAGONAL_CORNERS_ROUNDED, 50.0, 50.0);
 
- // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
- // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
- // any document we save while passing this object will have to follow that standard.
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
- saveOptions.setSaveFormat(SaveFormat.DOCX);
+ // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+ // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+ // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 
- doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
- // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
- doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
-
- Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ doc.save(getArtifactsDir() + "Shape.ShapeInsertion.docx", saveOptions);
  
 ```
 
@@ -1842,26 +1842,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -1882,6 +1862,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -2163,77 +2163,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -2338,6 +2267,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 

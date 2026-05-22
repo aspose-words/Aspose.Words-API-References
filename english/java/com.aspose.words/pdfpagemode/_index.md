@@ -18,34 +18,6 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
 
  **Examples:** 
 
-Shows how to set instructions for some PDF readers to follow when opening an output document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Hello world!");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "PageMode" property to "PdfPageMode.FullScreen" to get the PDF reader to open the saved
- // document in full-screen mode, which takes over the monitor's display and has no controls visible.
- // Set the "PageMode" property to "PdfPageMode.UseThumbs" to get the PDF reader to display a separate panel
- // with a thumbnail for each page in the document.
- // Set the "PageMode" property to "PdfPageMode.UseOC" to get the PDF reader to display a separate panel
- // that allows us to work with any layers present in the document.
- // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
- // also to display the outline, if possible.
- // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
- // Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
- options.setPageMode(pageMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.PageMode.pdf", options);
- 
-```
-
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 
 ```
@@ -72,6 +44,34 @@ Shows to process bookmarks in headers/footers in a document that we are renderin
  saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
+
+Shows how to set instructions for some PDF readers to follow when opening an output document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.FullScreen" to get the PDF reader to open the saved
+ // document in full-screen mode, which takes over the monitor's display and has no controls visible.
+ // Set the "PageMode" property to "PdfPageMode.UseThumbs" to get the PDF reader to display a separate panel
+ // with a thumbnail for each page in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOC" to get the PDF reader to display a separate panel
+ // that allows us to work with any layers present in the document.
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
+ // also to display the outline, if possible.
+ // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
+ // Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
+ options.setPageMode(pageMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PageMode.pdf", options);
  
 ```
 ## Fields

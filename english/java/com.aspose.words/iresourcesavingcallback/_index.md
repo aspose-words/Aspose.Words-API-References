@@ -15,37 +15,6 @@ Implement this interface if you want to control how Aspose.Words saves external 
 
  **Examples:** 
 
-Shows how to use a callback to change the resource URI.
-
-```
-
- public void resourceSavingCallback() throws Exception
- {
-     String outputPath = getArtifactsDir() + "MarkdownSaveOptions.ResourceSavingCallback.md";
-
-     Document doc = new Document(getMyDir() + "Rendering.docx");
-
-     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-     saveOptions.setResourceSavingCallback(new ChangeUriPath());
-
-     doc.save(outputPath, saveOptions);
-
-     DocumentHelper.findTextInFile(outputPath, "/uri/for/");
- }
-
- /// 
- /// Class implementing .
- /// 
- private static class ChangeUriPath implements IResourceSavingCallback
- {
-     public void resourceSaving(ResourceSavingArgs args)
-     {
-         args.setResourceFileUri(MessageFormat.format("/uri/for/{0}", args.getResourceFileName()));
-     }
- }
- 
-```
-
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```
@@ -151,6 +120,37 @@ Shows how to use a callback to print the URIs of external resources created whil
 
      private int mSavedResourceCount;
      private final  StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+Shows how to use a callback to change the resource URI.
+
+```
+
+ public void resourceSavingCallback() throws Exception
+ {
+     String outputPath = getArtifactsDir() + "MarkdownSaveOptions.ResourceSavingCallback.md";
+
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+     saveOptions.setResourceSavingCallback(new ChangeUriPath());
+
+     doc.save(outputPath, saveOptions);
+
+     DocumentHelper.findTextInFile(outputPath, "/uri/for/");
+ }
+
+ /// 
+ /// Class implementing .
+ /// 
+ private static class ChangeUriPath implements IResourceSavingCallback
+ {
+     public void resourceSaving(ResourceSavingArgs args)
+     {
+         args.setResourceFileUri(MessageFormat.format("/uri/for/{0}", args.getResourceFileName()));
+     }
  }
  
 ```

@@ -23,30 +23,6 @@ To learn more, visit the [ Programming with Documents ][Programming with Documen
 
  **Examples:** 
 
-Shows how to decorate text with borders and shading.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- BorderCollection borders = builder.getParagraphFormat().getBorders();
- borders.setDistanceFromText(20.0);
- borders.getByBorderType(BorderType.LEFT).setLineStyle(LineStyle.DOUBLE);
- borders.getByBorderType(BorderType.RIGHT).setLineStyle(LineStyle.DOUBLE);
- borders.getByBorderType(BorderType.TOP).setLineStyle(LineStyle.DOUBLE);
- borders.getByBorderType(BorderType.BOTTOM).setLineStyle(LineStyle.DOUBLE);
-
- Shading shading = builder.getParagraphFormat().getShading();
- shading.setTexture(TextureIndex.TEXTURE_DIAGONAL_CROSS);
- shading.setBackgroundPatternColor(new Color(240, 128, 128));  // Light Coral
- shading.setForegroundPatternColor(new Color(255, 160, 122));  // Light Salmon
-
- builder.write("This paragraph is formatted with a double border and shading.");
- doc.save(getArtifactsDir() + "DocumentBuilder.ApplyBordersAndShading.docx");
- 
-```
-
 Shows how to apply border and shading color while building a table.
 
 ```
@@ -82,6 +58,30 @@ Shows how to apply border and shading color while building a table.
  builder.writeln("Row 2, Cell 2.");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.TableBordersAndShading.docx");
+ 
+```
+
+Shows how to decorate text with borders and shading.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BorderCollection borders = builder.getParagraphFormat().getBorders();
+ borders.setDistanceFromText(20.0);
+ borders.getByBorderType(BorderType.LEFT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.RIGHT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.TOP).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.BOTTOM).setLineStyle(LineStyle.DOUBLE);
+
+ Shading shading = builder.getParagraphFormat().getShading();
+ shading.setTexture(TextureIndex.TEXTURE_DIAGONAL_CROSS);
+ shading.setBackgroundPatternColor(new Color(240, 128, 128));  // Light Coral
+ shading.setForegroundPatternColor(new Color(255, 160, 122));  // Light Salmon
+
+ builder.write("This paragraph is formatted with a double border and shading.");
+ doc.save(getArtifactsDir() + "DocumentBuilder.ApplyBordersAndShading.docx");
  
 ```
 

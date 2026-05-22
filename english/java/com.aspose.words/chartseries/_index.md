@@ -192,31 +192,6 @@ Adds the specified X and Y values to the chart series.
 
  **Examples:** 
 
-Shows how to add/remove chart data values.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder();
-
- Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
- Chart chart = shape.getChart();
- ChartSeries department1Series = chart.getSeries().get(0);
- ChartSeries department2Series = chart.getSeries().get(1);
-
- // Remove the first value in the both series.
- department1Series.remove(0);
- department2Series.remove(0);
-
- // Add new values to the both series.
- ChartXValue newXCategory = ChartXValue.fromString("Q1, 2023");
- department1Series.add(newXCategory, ChartYValue.fromDouble(10.3));
- department2Series.add(newXCategory, ChartYValue.fromDouble(5.7));
-
- doc.save(getArtifactsDir() + "Charts.ChartDataValues.docx");
- 
-```
-
 Shows how to populate chart series with data.
 
 ```
@@ -249,6 +224,31 @@ Shows how to populate chart series with data.
  series2.add(ChartXValue.fromDouble(8.0), ChartYValue.fromDouble(7.0));
 
  doc.save(getArtifactsDir() + "Charts.PopulateChartWithData.docx");
+ 
+```
+
+Shows how to add/remove chart data values.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder();
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+ ChartSeries department1Series = chart.getSeries().get(0);
+ ChartSeries department2Series = chart.getSeries().get(1);
+
+ // Remove the first value in the both series.
+ department1Series.remove(0);
+ department2Series.remove(0);
+
+ // Add new values to the both series.
+ ChartXValue newXCategory = ChartXValue.fromString("Q1, 2023");
+ department1Series.add(newXCategory, ChartYValue.fromDouble(10.3));
+ department2Series.add(newXCategory, ChartYValue.fromDouble(5.7));
+
+ doc.save(getArtifactsDir() + "Charts.ChartDataValues.docx");
  
 ```
 

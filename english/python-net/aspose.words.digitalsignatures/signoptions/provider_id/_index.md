@@ -5,7 +5,7 @@ articleTitle: provider_id property
 second_title: Aspose.Words for Python
 description: "SignOptions.provider_id property. Specifies the class ID of the signature provider"
 type: docs
-weight: 40
+weight: 80
 url: /python-net/aspose.words.digitalsignatures/signoptions/provider_id/
 ---
 

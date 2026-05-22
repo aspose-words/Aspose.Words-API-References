@@ -24,26 +24,6 @@ The specified theme color is a reference to one of the predefined theme colors, 
 
  **Examples:** 
 
-Shows how to create and use themed style.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln();
-
- // Create some style with theme font properties.
- Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
- style.getFont().setThemeFont(ThemeFont.MAJOR);
- style.getFont().setThemeColor(ThemeColor.ACCENT_5);
- style.getFont().setTintAndShade(0.3);
-
- builder.getParagraphFormat().setStyleName("ThemedStyle");
- builder.writeln("Text with themed style");
- 
-```
-
 Shows how to work with theme fonts and colors.
 
 ```
@@ -124,6 +104,26 @@ Shows how to work with theme fonts and colors.
 
  Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
  Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Shows how to create and use themed style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
  
 ```
 

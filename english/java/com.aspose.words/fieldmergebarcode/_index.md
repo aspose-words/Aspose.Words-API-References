@@ -24,7 +24,7 @@ Mail merge a barcode.
 
  **Examples:** 
 
-Shows how to perform a mail merge on ITF14 barcodes.
+Shows how to perform a mail merge on QR barcodes.
 
 ```
 
@@ -32,74 +32,42 @@ Shows how to perform a mail merge on ITF14 barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
+ // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("ITF14");
- field.setBarcodeValue("MyITF14Barcode");
- field.setCaseCodeStyle("STD");
+ field.setBarcodeType("QR");
+ field.setBarcodeValue("MyQRCode");
+
+ // Apply custom colors and scaling.
+ field.setBackgroundColor("0xF8BD69");
+ field.setForegroundColor("0xB5413B");
+ field.setErrorCorrectionLevel("3");
+ field.setScalingFactor("250");
+ field.setSymbolHeight("1000");
+ field.setSymbolRotation("0");
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
-
- // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
- // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an ITF14 barcode with the value from the merged row.
- DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyITF14Barcode");
- table.getRows().add("09312345678907");
- table.getRows().add("1234567891234");
-
- doc.getMailMerge().execute(table);
-
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
-         doc.getRange().getFields().get(0).getFieldCode());
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
-         doc.getRange().getFields().get(1).getFieldCode());
-
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
- 
-```
-
-Shows how to perform a mail merge on CODE39 barcodes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyCODE39Barcode" column into CODE39 barcodes.
- FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("CODE39");
- field.setBarcodeValue("MyCODE39Barcode");
-
- // Edit its appearance to display start/stop characters.
- field.setAddStartStopChar(true);
-
- Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.getFieldCode());
+ Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
+         field.getFieldCode());
  builder.writeln();
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display a CODE39 barcode with the value from the merged row.
+ // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyCODE39Barcode");
- table.getRows().add("12345ABCDE");
- table.getRows().add("67890FGHIJ");
+ table.getColumns().add("MyQRCode");
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
  
 ```
 
@@ -146,7 +114,7 @@ Shows how to perform a mail merge on EAN13 barcodes.
  
 ```
 
-Shows how to perform a mail merge on QR barcodes.
+Shows how to perform a mail merge on CODE39 barcodes.
 
 ```
 
@@ -154,42 +122,74 @@ Shows how to perform a mail merge on QR barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
+ // This field will convert all values in a merge data source's "MyCODE39Barcode" column into CODE39 barcodes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("QR");
- field.setBarcodeValue("MyQRCode");
+ field.setBarcodeType("CODE39");
+ field.setBarcodeValue("MyCODE39Barcode");
 
- // Apply custom colors and scaling.
- field.setBackgroundColor("0xF8BD69");
- field.setForegroundColor("0xB5413B");
- field.setErrorCorrectionLevel("3");
- field.setScalingFactor("250");
- field.setSymbolHeight("1000");
- field.setSymbolRotation("0");
+ // Edit its appearance to display start/stop characters.
+ field.setAddStartStopChar(true);
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-         field.getFieldCode());
+ Assert.assertEquals(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.getFieldCode());
  builder.writeln();
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display a QR code with the value from the merged row.
+ // which will display a CODE39 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyQRCode");
- table.getRows().add("ABC123");
- table.getRows().add("DEF456");
+ table.getColumns().add("MyCODE39Barcode");
+ table.getRows().add("12345ABCDE");
+ table.getRows().add("67890FGHIJ");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
+ 
+```
+
+Shows how to perform a mail merge on ITF14 barcodes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
+ // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
+ FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
+ field.setBarcodeType("ITF14");
+ field.setBarcodeValue("MyITF14Barcode");
+ field.setCaseCodeStyle("STD");
+
+ Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
+ Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
+
+ // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
+ // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
+ // which will display an ITF14 barcode with the value from the merged row.
+ DataTable table = new DataTable("Barcodes");
+ table.getColumns().add("MyITF14Barcode");
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
+
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+         doc.getRange().getFields().get(0).getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+         doc.getRange().getFields().get(1).getFieldCode());
+
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
  
 ```
 
@@ -381,7 +381,7 @@ Gets the barcode type (QR, etc.)
 
  **Examples:** 
 
-Shows how to perform a mail merge on ITF14 barcodes.
+Shows how to perform a mail merge on QR barcodes.
 
 ```
 
@@ -389,33 +389,85 @@ Shows how to perform a mail merge on ITF14 barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
+ // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("ITF14");
- field.setBarcodeValue("MyITF14Barcode");
- field.setCaseCodeStyle("STD");
+ field.setBarcodeType("QR");
+ field.setBarcodeValue("MyQRCode");
+
+ // Apply custom colors and scaling.
+ field.setBackgroundColor("0xF8BD69");
+ field.setForegroundColor("0xB5413B");
+ field.setErrorCorrectionLevel("3");
+ field.setScalingFactor("250");
+ field.setSymbolHeight("1000");
+ field.setSymbolRotation("0");
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
+ Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
+         field.getFieldCode());
+ builder.writeln();
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an ITF14 barcode with the value from the merged row.
+ // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyITF14Barcode");
- table.getRows().add("09312345678907");
- table.getRows().add("1234567891234");
+ table.getColumns().add("MyQRCode");
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ 
+```
+
+Shows how to perform a mail merge on EAN13 barcodes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
+ // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
+ field.setBarcodeType("EAN13");
+ field.setBarcodeValue("MyEAN13Barcode");
+
+ // Display the numeric value of the barcode underneath the bars.
+ field.setDisplayText(true);
+ field.setPosCodeStyle("CASE");
+ field.setFixCheckDigit(true);
+
+ Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
+ Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
+ builder.writeln();
+
+ // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
+ // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
+ // which will display an EAN13 barcode with the value from the merged row.
+ DataTable table = new DataTable("Barcodes");
+ table.getColumns().add("MyEAN13Barcode");
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
+
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(0).getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(1).getFieldCode());
+
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
  
 ```
 
@@ -460,7 +512,7 @@ Shows how to perform a mail merge on CODE39 barcodes.
  
 ```
 
-Shows how to perform a mail merge on EAN13 barcodes.
+Shows how to perform a mail merge on ITF14 barcodes.
 
 ```
 
@@ -468,85 +520,33 @@ Shows how to perform a mail merge on EAN13 barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("EAN13");
- field.setBarcodeValue("MyEAN13Barcode");
-
- // Display the numeric value of the barcode underneath the bars.
- field.setDisplayText(true);
- field.setPosCodeStyle("CASE");
- field.setFixCheckDigit(true);
+ field.setBarcodeType("ITF14");
+ field.setBarcodeValue("MyITF14Barcode");
+ field.setCaseCodeStyle("STD");
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
- builder.writeln();
+ Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an EAN13 barcode with the value from the merged row.
+ // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyEAN13Barcode");
- table.getRows().add("501234567890");
- table.getRows().add("123456789012");
+ table.getColumns().add("MyITF14Barcode");
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
- 
-```
-
-Shows how to perform a mail merge on QR barcodes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
- FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("QR");
- field.setBarcodeValue("MyQRCode");
-
- // Apply custom colors and scaling.
- field.setBackgroundColor("0xF8BD69");
- field.setForegroundColor("0xB5413B");
- field.setErrorCorrectionLevel("3");
- field.setScalingFactor("250");
- field.setSymbolHeight("1000");
- field.setSymbolRotation("0");
-
- Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-         field.getFieldCode());
- builder.writeln();
-
- // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
- // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display a QR code with the value from the merged row.
- DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyQRCode");
- table.getRows().add("ABC123");
- table.getRows().add("DEF456");
-
- doc.getMailMerge().execute(table);
-
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-         doc.getRange().getFields().get(0).getFieldCode());
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-         doc.getRange().getFields().get(1).getFieldCode());
-
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
  
 ```
 
@@ -562,49 +562,6 @@ Gets the barcode value.
 
  **Examples:** 
 
-Shows how to perform a mail merge on EAN13 barcodes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
- FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("EAN13");
- field.setBarcodeValue("MyEAN13Barcode");
-
- // Display the numeric value of the barcode underneath the bars.
- field.setDisplayText(true);
- field.setPosCodeStyle("CASE");
- field.setFixCheckDigit(true);
-
- Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
- builder.writeln();
-
- // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
- // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an EAN13 barcode with the value from the merged row.
- DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyEAN13Barcode");
- table.getRows().add("501234567890");
- table.getRows().add("123456789012");
-
- doc.getMailMerge().execute(table);
-
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
-         doc.getRange().getFields().get(0).getFieldCode());
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
-         doc.getRange().getFields().get(1).getFieldCode());
-
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
- 
-```
-
 Shows how to perform a mail merge on QR barcodes.
 
 ```
@@ -649,6 +606,49 @@ Shows how to perform a mail merge on QR barcodes.
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ 
+```
+
+Shows how to perform a mail merge on EAN13 barcodes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
+ // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
+ field.setBarcodeType("EAN13");
+ field.setBarcodeValue("MyEAN13Barcode");
+
+ // Display the numeric value of the barcode underneath the bars.
+ field.setDisplayText(true);
+ field.setPosCodeStyle("CASE");
+ field.setFixCheckDigit(true);
+
+ Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
+ Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
+ builder.writeln();
+
+ // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
+ // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
+ // which will display an EAN13 barcode with the value from the merged row.
+ DataTable table = new DataTable("Barcodes");
+ table.getColumns().add("MyEAN13Barcode");
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
+
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(0).getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(1).getFieldCode());
+
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
  
 ```
 
@@ -2251,7 +2251,7 @@ Sets the barcode type (QR, etc.)
 
  **Examples:** 
 
-Shows how to perform a mail merge on ITF14 barcodes.
+Shows how to perform a mail merge on QR barcodes.
 
 ```
 
@@ -2259,33 +2259,85 @@ Shows how to perform a mail merge on ITF14 barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
+ // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("ITF14");
- field.setBarcodeValue("MyITF14Barcode");
- field.setCaseCodeStyle("STD");
+ field.setBarcodeType("QR");
+ field.setBarcodeValue("MyQRCode");
+
+ // Apply custom colors and scaling.
+ field.setBackgroundColor("0xF8BD69");
+ field.setForegroundColor("0xB5413B");
+ field.setErrorCorrectionLevel("3");
+ field.setScalingFactor("250");
+ field.setSymbolHeight("1000");
+ field.setSymbolRotation("0");
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
+ Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
+         field.getFieldCode());
+ builder.writeln();
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an ITF14 barcode with the value from the merged row.
+ // which will display a QR code with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyITF14Barcode");
- table.getRows().add("09312345678907");
- table.getRows().add("1234567891234");
+ table.getColumns().add("MyQRCode");
+ table.getRows().add("ABC123");
+ table.getRows().add("DEF456");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ 
+```
+
+Shows how to perform a mail merge on EAN13 barcodes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
+ // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
+ field.setBarcodeType("EAN13");
+ field.setBarcodeValue("MyEAN13Barcode");
+
+ // Display the numeric value of the barcode underneath the bars.
+ field.setDisplayText(true);
+ field.setPosCodeStyle("CASE");
+ field.setFixCheckDigit(true);
+
+ Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
+ Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
+ builder.writeln();
+
+ // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
+ // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
+ // which will display an EAN13 barcode with the value from the merged row.
+ DataTable table = new DataTable("Barcodes");
+ table.getColumns().add("MyEAN13Barcode");
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
+
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(0).getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(1).getFieldCode());
+
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
  
 ```
 
@@ -2330,7 +2382,7 @@ Shows how to perform a mail merge on CODE39 barcodes.
  
 ```
 
-Shows how to perform a mail merge on EAN13 barcodes.
+Shows how to perform a mail merge on ITF14 barcodes.
 
 ```
 
@@ -2338,85 +2390,33 @@ Shows how to perform a mail merge on EAN13 barcodes.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ // This field will convert all values in a merge data source's "MyITF14Barcode" column into ITF14 barcodes.
  FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("EAN13");
- field.setBarcodeValue("MyEAN13Barcode");
-
- // Display the numeric value of the barcode underneath the bars.
- field.setDisplayText(true);
- field.setPosCodeStyle("CASE");
- field.setFixCheckDigit(true);
+ field.setBarcodeType("ITF14");
+ field.setBarcodeValue("MyITF14Barcode");
+ field.setCaseCodeStyle("STD");
 
  Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
- builder.writeln();
+ Assert.assertEquals(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.getFieldCode());
 
  // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
  // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an EAN13 barcode with the value from the merged row.
+ // which will display an ITF14 barcode with the value from the merged row.
  DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyEAN13Barcode");
- table.getRows().add("501234567890");
- table.getRows().add("123456789012");
+ table.getColumns().add("MyITF14Barcode");
+ table.getRows().add("09312345678907");
+ table.getRows().add("1234567891234");
 
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
- 
-```
-
-Shows how to perform a mail merge on QR barcodes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyQRCode" column into QR codes.
- FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("QR");
- field.setBarcodeValue("MyQRCode");
-
- // Apply custom colors and scaling.
- field.setBackgroundColor("0xF8BD69");
- field.setForegroundColor("0xB5413B");
- field.setErrorCorrectionLevel("3");
- field.setScalingFactor("250");
- field.setSymbolHeight("1000");
- field.setSymbolRotation("0");
-
- Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-         field.getFieldCode());
- builder.writeln();
-
- // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
- // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display a QR code with the value from the merged row.
- DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyQRCode");
- table.getRows().add("ABC123");
- table.getRows().add("DEF456");
-
- doc.getMailMerge().execute(table);
-
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-         doc.getRange().getFields().get(0).getFieldCode());
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-         doc.getRange().getFields().get(1).getFieldCode());
-
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
  
 ```
 
@@ -2435,49 +2435,6 @@ Sets the barcode value.
 
  **Examples:** 
 
-Shows how to perform a mail merge on EAN13 barcodes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
- // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
- FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
- field.setBarcodeType("EAN13");
- field.setBarcodeValue("MyEAN13Barcode");
-
- // Display the numeric value of the barcode underneath the bars.
- field.setDisplayText(true);
- field.setPosCodeStyle("CASE");
- field.setFixCheckDigit(true);
-
- Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
- Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
- builder.writeln();
-
- // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
- // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
- // which will display an EAN13 barcode with the value from the merged row.
- DataTable table = new DataTable("Barcodes");
- table.getColumns().add("MyEAN13Barcode");
- table.getRows().add("501234567890");
- table.getRows().add("123456789012");
-
- doc.getMailMerge().execute(table);
-
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
-         doc.getRange().getFields().get(0).getFieldCode());
- Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
-         doc.getRange().getFields().get(1).getFieldCode());
-
- doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
- 
-```
-
 Shows how to perform a mail merge on QR barcodes.
 
 ```
@@ -2522,6 +2479,49 @@ Shows how to perform a mail merge on QR barcodes.
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
+ 
+```
+
+Shows how to perform a mail merge on EAN13 barcodes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a MERGEBARCODE field, which will accept values from a data source during a mail merge.
+ // This field will convert all values in a merge data source's "MyEAN13Barcode" column into EAN13 barcodes.
+ FieldMergeBarcode field = (FieldMergeBarcode) builder.insertField(FieldType.FIELD_MERGE_BARCODE, true);
+ field.setBarcodeType("EAN13");
+ field.setBarcodeValue("MyEAN13Barcode");
+
+ // Display the numeric value of the barcode underneath the bars.
+ field.setDisplayText(true);
+ field.setPosCodeStyle("CASE");
+ field.setFixCheckDigit(true);
+
+ Assert.assertEquals(FieldType.FIELD_MERGE_BARCODE, field.getType());
+ Assert.assertEquals(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.getFieldCode());
+ builder.writeln();
+
+ // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
+ // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
+ // which will display an EAN13 barcode with the value from the merged row.
+ DataTable table = new DataTable("Barcodes");
+ table.getColumns().add("MyEAN13Barcode");
+ table.getRows().add("501234567890");
+ table.getRows().add("123456789012");
+
+ doc.getMailMerge().execute(table);
+
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(0).getFieldCode());
+ Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
+ Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+         doc.getRange().getFields().get(1).getFieldCode());
+
+ doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
  
 ```
 

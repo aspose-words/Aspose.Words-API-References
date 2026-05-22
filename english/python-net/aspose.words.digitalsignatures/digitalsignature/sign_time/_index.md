@@ -5,7 +5,7 @@ articleTitle: sign_time property
 second_title: Aspose.Words for Python
 description: "DigitalSignature.sign_time property. Gets the time the document was signed."
 type: docs
-weight: 50
+weight: 90
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/sign_time/
 ---
 

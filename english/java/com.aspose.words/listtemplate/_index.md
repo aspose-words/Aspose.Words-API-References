@@ -24,90 +24,6 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 
  **Examples:** 
 
-Shows how to create a document that contains all outline headings list templates.
-
-```
-
- public void outlineHeadingTemplates() throws Exception {
-     Document doc = new Document();
-     DocumentBuilder builder = new DocumentBuilder(doc);
-
-     List docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
-     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
-
-     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
-     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
-
-     builder.insertBreak(BreakType.PAGE_BREAK);
-
-     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
-     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
-
-     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
-     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
-
-     doc.save(getArtifactsDir() + "Lists.OutlineHeadingTemplates.docx");
- }
-
- private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List docList, final String title) {
-     builder.getParagraphFormat().clearFormatting();
-     builder.writeln(title);
-
-     for (int i = 0; i < 9; i++) {
-         builder.getListFormat().setList(docList);
-         builder.getListFormat().setListLevelNumber(i);
-
-         String styleName = "Heading " + (i + 1);
-         builder.getParagraphFormat().setStyleName(styleName);
-         builder.writeln(styleName);
-     }
-
-     builder.getListFormat().removeNumbers();
- }
- 
-```
-
-Shows how to restart numbering in a list by copying a list.
-
-```
-
- Document doc = new Document();
-
- // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
- // We can create nested lists by increasing the indent level.
- // We can begin and end a list by using a document builder's "ListFormat" property.
- // Each paragraph that we add between a list's start and the end will become an item in the list.
- // Create a list from a Microsoft Word template, and customize its first list level.
- List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
- list1.getListLevels().get(0).getFont().setColor(Color.RED);
- list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
-
- // Apply our list to some paragraphs.
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("List 1 starts below:");
- builder.getListFormat().setList(list1);
- builder.writeln("Item 1");
- builder.writeln("Item 2");
- builder.getListFormat().removeNumbers();
-
- // We can add a copy of an existing list to the document's list collection
- // to create a similar list without making changes to the original.
- List list2 = doc.getLists().addCopy(list1);
- list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
- list2.getListLevels().get(0).setStartAt(10);
-
- // Apply the second list to new paragraphs.
- builder.writeln("List 2 starts below:");
- builder.getListFormat().setList(list2);
- builder.writeln("Item 1");
- builder.writeln("Item 2");
- builder.getListFormat().removeNumbers();
-
- doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
- 
-```
-
 Shows how to work with list levels.
 
 ```
@@ -153,6 +69,90 @@ Shows how to work with list levels.
  Assert.assertFalse(builder.getListFormat().isListItem());
 
  doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Create a list from a Microsoft Word template, and customize its first list level.
+ List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
+ list1.getListLevels().get(0).getFont().setColor(Color.RED);
+ list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
+
+ // Apply our list to some paragraphs.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("List 1 starts below:");
+ builder.getListFormat().setList(list1);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ // We can add a copy of an existing list to the document's list collection
+ // to create a similar list without making changes to the original.
+ List list2 = doc.getLists().addCopy(list1);
+ list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
+ list2.getListLevels().get(0).setStartAt(10);
+
+ // Apply the second list to new paragraphs.
+ builder.writeln("List 2 starts below:");
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
+ 
+```
+
+Shows how to create a document that contains all outline headings list templates.
+
+```
+
+ public void outlineHeadingTemplates() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     List docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
+
+     builder.insertBreak(BreakType.PAGE_BREAK);
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
+
+     doc.save(getArtifactsDir() + "Lists.OutlineHeadingTemplates.docx");
+ }
+
+ private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List docList, final String title) {
+     builder.getParagraphFormat().clearFormatting();
+     builder.writeln(title);
+
+     for (int i = 0; i < 9; i++) {
+         builder.getListFormat().setList(docList);
+         builder.getListFormat().setListLevelNumber(i);
+
+         String styleName = "Heading " + (i + 1);
+         builder.getParagraphFormat().setStyleName(styleName);
+         builder.writeln(styleName);
+     }
+
+     builder.getListFormat().removeNumbers();
+ }
  
 ```
 ## Fields

@@ -18,26 +18,6 @@ Find/replace operation context.
 
  **Examples:** 
 
-Shows how to replace string with regex in the document using context.
-
-```
-
- // There is a several ways to replace string with regex in the document:
- String doc = getMyDir() + "Footer.docx";
- Pattern pattern = Pattern.compile("gr(a|e)y");
- String replacement = "lavender";
-
- ReplacerContext replacerContext = new ReplacerContext();
- replacerContext.setReplacement(pattern, replacement);
- replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
- Replacer.create(replacerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
-         .execute();
- 
-```
-
 Shows how to replace string in the document using context.
 
 ```
@@ -58,29 +38,6 @@ Shows how to replace string in the document using context.
  
 ```
 
-Shows how to replace string with regex in the document using documents from the stream using context.
-
-```
-
- // There is a several ways to replace string with regex in the document using documents from the stream:
- Pattern pattern = Pattern.compile("gr(a|e)y");
- String replacement = "lavender";
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Replace regex.docx")) {
-     ReplacerContext replacerContext = new ReplacerContext();
-     replacerContext.setReplacement(pattern, replacement);
-     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStreamRegex.docx")) {
-         Replacer.create(replacerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 Shows how to replace string in the document using documents from the stream using context.
 
 ```
@@ -95,6 +52,49 @@ Shows how to replace string in the document using documents from the stream usin
      replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStream.docx")) {
+         Replacer.create(replacerContext)
+                 .from(streamIn)
+                 .to(streamOut, SaveFormat.DOCX)
+                 .execute();
+     }
+ }
+ 
+```
+
+Shows how to replace string with regex in the document using context.
+
+```
+
+ // There is a several ways to replace string with regex in the document:
+ String doc = getMyDir() + "Footer.docx";
+ Pattern pattern = Pattern.compile("gr(a|e)y");
+ String replacement = "lavender";
+
+ ReplacerContext replacerContext = new ReplacerContext();
+ replacerContext.setReplacement(pattern, replacement);
+ replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+ Replacer.create(replacerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
+         .execute();
+ 
+```
+
+Shows how to replace string with regex in the document using documents from the stream using context.
+
+```
+
+ // There is a several ways to replace string with regex in the document using documents from the stream:
+ Pattern pattern = Pattern.compile("gr(a|e)y");
+ String replacement = "lavender";
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Replace regex.docx")) {
+     ReplacerContext replacerContext = new ReplacerContext();
+     replacerContext.setReplacement(pattern, replacement);
+     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStreamRegex.docx")) {
          Replacer.create(replacerContext)
                  .from(streamIn)
                  .to(streamOut, SaveFormat.DOCX)
@@ -138,26 +138,6 @@ Find/replace options.
 
  **Examples:** 
 
-Shows how to replace string with regex in the document using context.
-
-```
-
- // There is a several ways to replace string with regex in the document:
- String doc = getMyDir() + "Footer.docx";
- Pattern pattern = Pattern.compile("gr(a|e)y");
- String replacement = "lavender";
-
- ReplacerContext replacerContext = new ReplacerContext();
- replacerContext.setReplacement(pattern, replacement);
- replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
- Replacer.create(replacerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
-         .execute();
- 
-```
-
 Shows how to replace string in the document using context.
 
 ```
@@ -178,29 +158,6 @@ Shows how to replace string in the document using context.
  
 ```
 
-Shows how to replace string with regex in the document using documents from the stream using context.
-
-```
-
- // There is a several ways to replace string with regex in the document using documents from the stream:
- Pattern pattern = Pattern.compile("gr(a|e)y");
- String replacement = "lavender";
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Replace regex.docx")) {
-     ReplacerContext replacerContext = new ReplacerContext();
-     replacerContext.setReplacement(pattern, replacement);
-     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStreamRegex.docx")) {
-         Replacer.create(replacerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 Shows how to replace string in the document using documents from the stream using context.
 
 ```
@@ -215,6 +172,49 @@ Shows how to replace string in the document using documents from the stream usin
      replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStream.docx")) {
+         Replacer.create(replacerContext)
+                 .from(streamIn)
+                 .to(streamOut, SaveFormat.DOCX)
+                 .execute();
+     }
+ }
+ 
+```
+
+Shows how to replace string with regex in the document using context.
+
+```
+
+ // There is a several ways to replace string with regex in the document:
+ String doc = getMyDir() + "Footer.docx";
+ Pattern pattern = Pattern.compile("gr(a|e)y");
+ String replacement = "lavender";
+
+ ReplacerContext replacerContext = new ReplacerContext();
+ replacerContext.setReplacement(pattern, replacement);
+ replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+ Replacer.create(replacerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
+         .execute();
+ 
+```
+
+Shows how to replace string with regex in the document using documents from the stream using context.
+
+```
+
+ // There is a several ways to replace string with regex in the document using documents from the stream:
+ Pattern pattern = Pattern.compile("gr(a|e)y");
+ String replacement = "lavender";
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Replace regex.docx")) {
+     ReplacerContext replacerContext = new ReplacerContext();
+     replacerContext.setReplacement(pattern, replacement);
+     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStreamRegex.docx")) {
          Replacer.create(replacerContext)
                  .from(streamIn)
                  .to(streamOut, SaveFormat.DOCX)

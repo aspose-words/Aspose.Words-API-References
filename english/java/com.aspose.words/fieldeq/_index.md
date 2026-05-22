@@ -20,27 +20,6 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 
  **Examples:** 
 
-Shows how to replace the EQ field with Office Math.
-
-```
-
- Document doc = new Document(getMyDir() + "Field sample - EQ.docx");
- FieldCollection fields = doc.getRange().getFields();
-
- for (Field field : fields) {
-     if (field.getType() == FieldType.FIELD_EQUATION) {
-         FieldEQ fieldEQ = (FieldEQ) field;
-         OfficeMath officeMath = fieldEQ.asOfficeMath();
-
-         fieldEQ.getStart().getParentNode().insertBefore(officeMath, fieldEQ.getStart());
-         fieldEQ.remove();
-     }
- }
-
- doc.save(getArtifactsDir() + "Field.EQAsOfficeMath.docx");
- 
-```
-
 Shows how to use the EQ field to display a variety of mathematical equations.
 
 ```
@@ -116,6 +95,27 @@ Shows how to use the EQ field to display a variety of mathematical equations.
      builder.insertParagraph();
      return field;
  }
+ 
+```
+
+Shows how to replace the EQ field with Office Math.
+
+```
+
+ Document doc = new Document(getMyDir() + "Field sample - EQ.docx");
+ FieldCollection fields = doc.getRange().getFields();
+
+ for (Field field : fields) {
+     if (field.getType() == FieldType.FIELD_EQUATION) {
+         FieldEQ fieldEQ = (FieldEQ) field;
+         OfficeMath officeMath = fieldEQ.asOfficeMath();
+
+         fieldEQ.getStart().getParentNode().insertBefore(officeMath, fieldEQ.getStart());
+         fieldEQ.remove();
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Field.EQAsOfficeMath.docx");
  
 ```
 

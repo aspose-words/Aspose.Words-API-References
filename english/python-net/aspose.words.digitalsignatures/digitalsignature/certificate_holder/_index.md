@@ -5,7 +5,7 @@ articleTitle: certificate_holder property
 second_title: Aspose.Words for Python
 description: "DigitalSignature.certificate_holder property. Returns the certificate holder object that contains the certificate was used to sign the document."
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/certificate_holder/
 ---
 

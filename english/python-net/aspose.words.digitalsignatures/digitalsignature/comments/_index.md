@@ -5,7 +5,7 @@ articleTitle: comments property
 second_title: Aspose.Words for Python
 description: "DigitalSignature.comments property. Gets the signing purpose comment."
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 

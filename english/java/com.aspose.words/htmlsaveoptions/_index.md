@@ -23,28 +23,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 
  **Examples:** 
 
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
-
- if (imagesDir.exists())
-     imagesDir.delete();
-
- imagesDir.mkdir();
-
- // Set an option to export form fields as plain text instead of HTML input elements.
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
- options.setExportTextInputFormFieldAsText(true);
- options.setImagesFolder(imagesDir.getPath());
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
- 
-```
-
 Shows how to use a specific encoding when saving a document to .epub.
 
 ```
@@ -66,6 +44,28 @@ Shows how to use a specific encoding when saving a document to .epub.
  saveOptions.setExportDocumentProperties(true);
 
  doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
  
 ```
 
@@ -901,26 +901,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -941,6 +921,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -1432,23 +1432,6 @@ By default, fonts are written to separate files. If this option is set to  true 
 
  **Examples:** 
 
-Shows how to embed fonts inside a saved HTML document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions();
- {
-     options.setExportFontsAsBase64(true);
-     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
- 
-```
-
 Shows how to save a .html document with images embedded inside it.
 
 ```
@@ -1467,6 +1450,23 @@ Shows how to save a .html document with images embedded inside it.
 
  Assert.assertTrue(exportImagesAsBase64
          ? outDocContents.contains("
+ 
+ 
+ Shows how to embed fonts inside a saved HTML document.
+ 
+ ```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
 ```
 
 **Returns:**
@@ -1560,23 +1560,6 @@ When this property is set to  true  images data are exported directly into the *
 
  **Examples:** 
 
-Shows how to embed fonts inside a saved HTML document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions();
- {
-     options.setExportFontsAsBase64(true);
-     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
- 
-```
-
 Shows how to save a .html document with images embedded inside it.
 
 ```
@@ -1595,6 +1578,23 @@ Shows how to save a .html document with images embedded inside it.
 
  Assert.assertTrue(exportImagesAsBase64
          ? outDocContents.contains("
+ 
+ 
+ Shows how to embed fonts inside a saved HTML document.
+ 
+ ```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
 ```
 
 **Returns:**
@@ -2575,37 +2575,6 @@ Specifies version of HTML standard that should be used when saving the document 
 
  **Examples:** 
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Hello world!");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
- {
-     options.setHtmlVersion(HtmlVersion.XHTML);
-     options.setExportXhtmlTransitional(showDoctypeDeclaration);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
-
- // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
- String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
-
- if (showDoctypeDeclaration)
-     Assert.assertTrue(outDocContents.contains(
-             "\r\n" +
-                     "\r\n" +
-                     ""));
- else
-     Assert.assertTrue(outDocContents.contains(""));
- 
-```
-
 Shows how to save a document to a specific version of HTML.
 
 ```
@@ -2632,7 +2601,38 @@ Shows how to save a document to a specific version of HTML.
          break;
      case HtmlVersion.XHTML:
          Assert.assertTrue(outDocContents.contains(""));
-         Assert.assertTrue(outDocContents.contains("
+         Assert.assertTrue(outDocContents.contains(" 
+ Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+ 
+ 
+ 
+ ```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
 ```
 
 **Returns:**
@@ -3053,19 +3053,6 @@ By default, three levels of headings are populated: paragraphs of styles **Headi
 
  **Examples:** 
 
-Shows how to generate table of contents for Mobi documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
- options.setNavigationMapLevel(5);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
- 
-```
-
 Shows how to generate table of contents for Azw3 documents.
 
 ```
@@ -3076,6 +3063,19 @@ Shows how to generate table of contents for Azw3 documents.
  options.setNavigationMapLevel(2);
 
  doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
  
 ```
 
@@ -3233,77 +3233,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -3408,6 +3337,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 
@@ -4524,26 +4524,6 @@ This property is used when the document is exported to fixed page formats.
 
  **Examples:** 
 
-Shows how to render fallback shapes when saving to PDF.
-
-```
-
- Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
-
- // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
- // to modify how that method converts the document to .PDF.
- PdfSaveOptions options = new PdfSaveOptions();
-
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
- // to substitute DML shapes with their fallback shapes.
- // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
- // to render the DML shapes themselves.
- options.setDmlRenderingMode(dmlRenderingMode);
-
- doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
- 
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```
@@ -4564,6 +4544,26 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
  Assert.assertEquals(DmlRenderingMode.DRAWING_ML, options.getDmlRenderingMode());
 
  doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+ 
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML shape fallbacks.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+ // to substitute DML shapes with their fallback shapes.
+ // Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+ // to render the DML shapes themselves.
+ options.setDmlRenderingMode(dmlRenderingMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.DrawingMLFallback.pdf", options);
  
 ```
 
@@ -5082,23 +5082,6 @@ By default, fonts are written to separate files. If this option is set to  true 
 
  **Examples:** 
 
-Shows how to embed fonts inside a saved HTML document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions();
- {
-     options.setExportFontsAsBase64(true);
-     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
- 
-```
-
 Shows how to save a .html document with images embedded inside it.
 
 ```
@@ -5117,6 +5100,23 @@ Shows how to save a .html document with images embedded inside it.
 
  Assert.assertTrue(exportImagesAsBase64
          ? outDocContents.contains("
+ 
+ 
+ Shows how to embed fonts inside a saved HTML document.
+ 
+ ```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
 ```
 
 **Parameters:**
@@ -5219,23 +5219,6 @@ When this property is set to  true  images data are exported directly into the *
 
  **Examples:** 
 
-Shows how to embed fonts inside a saved HTML document.
-
-```
-
- Document doc = new Document(getMyDir() + "Rendering.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions();
- {
-     options.setExportFontsAsBase64(true);
-     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
- 
-```
-
 Shows how to save a .html document with images embedded inside it.
 
 ```
@@ -5254,6 +5237,23 @@ Shows how to save a .html document with images embedded inside it.
 
  Assert.assertTrue(exportImagesAsBase64
          ? outDocContents.contains("
+ 
+ 
+ Shows how to embed fonts inside a saved HTML document.
+ 
+ ```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
 ```
 
 **Parameters:**
@@ -6282,37 +6282,6 @@ Specifies version of HTML standard that should be used when saving the document 
 
  **Examples:** 
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.writeln("Hello world!");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
- {
-     options.setHtmlVersion(HtmlVersion.XHTML);
-     options.setExportXhtmlTransitional(showDoctypeDeclaration);
-     options.setPrettyFormat(true);
- }
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
-
- // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
- String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
-
- if (showDoctypeDeclaration)
-     Assert.assertTrue(outDocContents.contains(
-             "\r\n" +
-                     "\r\n" +
-                     ""));
- else
-     Assert.assertTrue(outDocContents.contains(""));
- 
-```
-
 Shows how to save a document to a specific version of HTML.
 
 ```
@@ -6339,7 +6308,38 @@ Shows how to save a document to a specific version of HTML.
          break;
      case HtmlVersion.XHTML:
          Assert.assertTrue(outDocContents.contains(""));
-         Assert.assertTrue(outDocContents.contains("
+         Assert.assertTrue(outDocContents.contains(" 
+ Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+ 
+ 
+ 
+ ```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
 ```
 
 **Parameters:**
@@ -6784,19 +6784,6 @@ By default, three levels of headings are populated: paragraphs of styles **Headi
 
  **Examples:** 
 
-Shows how to generate table of contents for Mobi documents.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
- options.setNavigationMapLevel(5);
-
- doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
- 
-```
-
 Shows how to generate table of contents for Azw3 documents.
 
 ```
@@ -6807,6 +6794,19 @@ Shows how to generate table of contents for Azw3 documents.
  options.setNavigationMapLevel(2);
 
  doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to generate table of contents for Mobi documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MOBI);
+ options.setNavigationMapLevel(5);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateMobiToc.mobi", options);
  
 ```
 
@@ -6973,77 +6973,6 @@ Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/sav
 
  **Examples:** 
 
-Shows how to manage a document while saving to xamlflow.
-
-```
-
- public void progressCallback(int saveFormat, String ext) throws Exception
- {
-     Document doc = new Document(getMyDir() + "Big document.docx");
-
-     // Following formats are supported: XamlFlow, XamlFlowPack.
-     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
-     {
-         saveOptions.setProgressCallback(new SavingProgressCallback());
-     }
-
-     try {
-         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
-     }
-     catch (IllegalStateException exception) {
-         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
-     }
- }
-
- public static Object[][] progressCallbackDataProvider() throws Exception
- {
-     return new Object[][]
-             {
-                     {SaveFormat.XAML_FLOW,  "xamlflow"},
-                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
-             };
- }
-
- /// 
- /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
- /// 
- public static class SavingProgressCallback implements IDocumentSavingCallback
- {
-     /// 
-     /// Ctr.
-     /// 
-     public SavingProgressCallback()
-     {
-         mSavingStartedAt = new Date();
-     }
-
-     /// 
-     /// Callback method which called during document saving.
-     /// 
-     /// Saving arguments.
-     public void notify(DocumentSavingArgs args)
-     {
-         Date canceledAt = new Date();
-         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
-         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-
-         if (ellapsedSeconds > MAX_DURATION)
-             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
-     }
-
-     /// 
-     /// Date and time when document saving is started.
-     /// 
-     private Date mSavingStartedAt;
-
-     /// 
-     /// Maximum allowed duration in sec.
-     /// 
-     private static final double MAX_DURATION = 0.01d;
- }
- 
-```
-
 Shows how to manage a document while saving to html.
 
 ```
@@ -7148,6 +7077,77 @@ Shows how to manage a document while saving to docx.
                      {SaveFormat.DOTM,  "dotm"},
                      {SaveFormat.DOTX,  "dotx"},
                      {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
              };
  }
 

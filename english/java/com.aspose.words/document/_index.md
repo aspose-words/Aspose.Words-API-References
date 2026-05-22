@@ -110,6 +110,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [appendDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#appendDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
 | [cleanup()](#cleanup) | Cleans unused styles and lists from the document. |
 | [cleanup(CleanupOptions options)](#cleanup-com.aspose.words.CleanupOptions) | Cleans unused styles and lists from the document depending on given [CleanupOptions](../../com.aspose.words/cleanupoptions/). |
+| [clearCaches()](#clearCaches) | Clears all cached variables and releases memory. |
 | [clearSectionAttrs()](#clearSectionAttrs) |  |
 | [compare(Document document, String author, Date dateTime)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date) | Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision/). |
 | [compare(Document document, String author, Date dateTime, CompareOptions options)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision/). |
@@ -208,6 +209,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [hasRevisions()](#hasRevisions) | Returns  true  if the document has any tracked changes. |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int) |  |
+| [importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions)](#importNode-com.aspose.words.Node-boolean-int-com.aspose.words.ImportFormatOptions) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
 | [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
@@ -307,23 +309,6 @@ After creation, you can use [DocumentBuilder](../../com.aspose.words/documentbui
 
  **Examples:** 
 
-Shows how to format a run of text using its font property.
-
-```
-
- Document doc = new Document();
- Run run = new Run(doc, "Hello world!");
-
- Font font = run.getFont();
- font.setName("Courier New");
- font.setSize(36.0);
- font.setHighlightColor(Color.YELLOW);
-
- doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
- doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
- 
-```
-
 Shows how to create simple document.
 
 ```
@@ -362,6 +347,23 @@ Shows how to create and load documents.
  doc = new Document(getMyDir() + "Encrypted.docx", new LoadOptions("docPassword"));
 
  Assert.assertEquals("Test encrypted document.", doc.getFirstSection().getBody().getFirstParagraph().getText().trim());
+ 
+```
+
+Shows how to format a run of text using its font property.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
 ```
 
@@ -1257,6 +1259,20 @@ Shows how to remove all unused custom styles from a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [CleanupOptions](../../com.aspose.words/cleanupoptions/) |  |
+
+### clearCaches() {#clearCaches}
+```
+public void clearCaches()
+```
+
+
+Clears all cached variables and releases memory.
+
+ **Remarks:** 
+
+This method resets all lazily-initialized caches and facade objects to null, allowing their memory to be reclaimed by the garbage collector.
+
+After calling this method, cached objects will be recreated on next access as needed.
 
 ### clearSectionAttrs() {#clearSectionAttrs}
 ```
@@ -2846,53 +2862,6 @@ Shows how to select a different place where the document collects and displays i
  
 ```
 
-Shows how to set a number at which the document begins the footnote/endnote count.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Footnotes and endnotes are a way to attach a reference or a side comment to text
- // that does not interfere with the main body text's flow.
- // Inserting a footnote/endnote adds a small superscript reference symbol
- // at the main body text where we insert the footnote/endnote.
- // Each footnote/endnote also creates an entry, which consists of a symbol
- // that matches the reference symbol in the main body text.
- // The reference text that we pass to the document builder's "InsertEndnote" method.
- // Footnote entries, by default, show up at the bottom of each page that contains
- // their reference symbols, and endnotes show up at the end of the document.
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
-
- builder.insertParagraph();
-
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
-
- // By default, the reference symbol for each footnote and endnote is its index
- // among all the document's footnotes/endnotes. Each document maintains separate counts
- // for footnotes and for endnotes, which both begin at 1.
- Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
- Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
-
- // We can use the "StartNumber" property to get the document to
- // begin a footnote or endnote count at a different number.
- doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
- doc.getEndnoteOptions().setStartNumber(50);
-
- doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
- 
-```
-
 Shows how to change the number style of footnote/endnote reference marks.
 
 ```
@@ -2992,6 +2961,53 @@ Shows how to restart footnote/endnote numbering at certain places in the documen
  
 ```
 
+Shows how to set a number at which the document begins the footnote/endnote count.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Footnotes and endnotes are a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote/endnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote/endnote.
+ // Each footnote/endnote also creates an entry, which consists of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertEndnote" method.
+ // Footnote entries, by default, show up at the bottom of each page that contains
+ // their reference symbols, and endnotes show up at the end of the document.
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
+
+ builder.insertParagraph();
+
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
+
+ // By default, the reference symbol for each footnote and endnote is its index
+ // among all the document's footnotes/endnotes. Each document maintains separate counts
+ // for footnotes and for endnotes, which both begin at 1.
+ Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
+ Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
+
+ // We can use the "StartNumber" property to get the document to
+ // begin a footnote or endnote count at a different number.
+ doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
+ doc.getEndnoteOptions().setStartNumber(50);
+
+ doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
+ 
+```
+
 **Returns:**
 [EndnoteOptions](../../com.aspose.words/endnoteoptions/) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions/) value.
 ### getFieldOptions() {#getFieldOptions}
@@ -3017,18 +3033,6 @@ Gets the first child of the node.
 If there is no first child node, a  null  is returned.
 
  **Examples:** 
-
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
 
 Shows how to traverse a composite node's tree of child nodes.
 
@@ -3062,6 +3066,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -3195,21 +3211,6 @@ Do not rely on this collection to ascertain that a particular font is used in th
 
  **Examples:** 
 
-Shows how to save a document with embedded TrueType fonts.
-
-```
-
- Document doc = new Document(getMyDir() + "Document.docx");
-
- FontInfoCollection fontInfos = doc.getFontInfos();
- fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
- fontInfos.setEmbedSystemFonts(embedAllFonts);
- fontInfos.setSaveSubsetFonts(embedAllFonts);
-
- doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
- 
-```
-
 Shows how to print the details of what fonts are present in a document.
 
 ```
@@ -3222,6 +3223,21 @@ Shows how to print the details of what fonts are present in a document.
      System.out.println("Font index #{i}");
      System.out.println("\tName: {allFonts[i].Name}");
  }
+ 
+```
+
+Shows how to save a document with embedded TrueType fonts.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
  
 ```
 
@@ -3323,53 +3339,6 @@ Shows how to select a different place where the document collects and displays i
  
 ```
 
-Shows how to set a number at which the document begins the footnote/endnote count.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Footnotes and endnotes are a way to attach a reference or a side comment to text
- // that does not interfere with the main body text's flow.
- // Inserting a footnote/endnote adds a small superscript reference symbol
- // at the main body text where we insert the footnote/endnote.
- // Each footnote/endnote also creates an entry, which consists of a symbol
- // that matches the reference symbol in the main body text.
- // The reference text that we pass to the document builder's "InsertEndnote" method.
- // Footnote entries, by default, show up at the bottom of each page that contains
- // their reference symbols, and endnotes show up at the end of the document.
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
-
- builder.insertParagraph();
-
- builder.write("Text 1. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
- builder.write("Text 2. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
- builder.write("Text 3. ");
- builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
-
- // By default, the reference symbol for each footnote and endnote is its index
- // among all the document's footnotes/endnotes. Each document maintains separate counts
- // for footnotes and for endnotes, which both begin at 1.
- Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
- Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
-
- // We can use the "StartNumber" property to get the document to
- // begin a footnote or endnote count at a different number.
- doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
- doc.getEndnoteOptions().setStartNumber(50);
-
- doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
- 
-```
-
 Shows how to change the number style of footnote/endnote reference marks.
 
 ```
@@ -3466,6 +3435,53 @@ Shows how to restart footnote/endnote numbering at certain places in the documen
  doc.getEndnoteOptions().setRestartRule(FootnoteNumberingRule.RESTART_SECTION);
 
  doc.save(getArtifactsDir() + "InlineStory.NumberingRule.docx");
+ 
+```
+
+Shows how to set a number at which the document begins the footnote/endnote count.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Footnotes and endnotes are a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote/endnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote/endnote.
+ // Each footnote/endnote also creates an entry, which consists of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertEndnote" method.
+ // Footnote entries, by default, show up at the bottom of each page that contains
+ // their reference symbols, and endnotes show up at the end of the document.
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
+
+ builder.insertParagraph();
+
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
+
+ // By default, the reference symbol for each footnote and endnote is its index
+ // among all the document's footnotes/endnotes. Each document maintains separate counts
+ // for footnotes and for endnotes, which both begin at 1.
+ Assert.assertEquals(1, doc.getFootnoteOptions().getStartNumber());
+ Assert.assertEquals(1, doc.getEndnoteOptions().getStartNumber());
+
+ // We can use the "StartNumber" property to get the document to
+ // begin a footnote or endnote count at a different number.
+ doc.getEndnoteOptions().setNumberStyle(NumberStyle.ARABIC);
+ doc.getEndnoteOptions().setStartNumber(50);
+
+ doc.save(getArtifactsDir() + "InlineStory.StartNumber.docx");
  
 ```
 
@@ -4092,18 +4108,6 @@ If there is no next node, a  null  is returned.
 
  **Examples:** 
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
-
-```
-
- Document doc = new Document(getMyDir() + "Paragraphs.docx");
-
- for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
-     System.out.println(Node.nodeTypeToString(node.getNodeType()));
- }
- 
-```
-
 Shows how to traverse a composite node's tree of child nodes.
 
 ```
@@ -4136,6 +4140,18 @@ Shows how to traverse a composite node's tree of child nodes.
              System.out.println();
          }
      }
+ }
+ 
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
  }
  
 ```
@@ -4821,13 +4837,13 @@ Shows how to customize the process of loading external resources into a document
              // If this callback encounters one of the image shorthands while loading an image,
              // it will apply unique logic for each defined shorthand instead of treating it as a URI.
              if ("Google logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(new URI("http://www.google.com/images/logos/ps_logo2.png").toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
 
              if ("Aspose logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
@@ -4991,33 +5007,6 @@ Returns a collection that represents all sections in the document.
 
  **Examples:** 
 
-Shows how to add and remove sections in a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.write("Section 1");
- builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
- builder.write("Section 2");
-
- Assert.assertEquals("Section 1\fSection 2", doc.getText().trim());
-
- // Delete the first section from the document.
- doc.getSections().removeAt(0);
-
- Assert.assertEquals("Section 2", doc.getText().trim());
-
- // Append a copy of what is now the first section to the end of the document.
- int lastSectionIdx = doc.getSections().getCount() - 1;
- Section newSection = doc.getSections().get(lastSectionIdx).deepClone();
- doc.getSections().add(newSection);
-
- Assert.assertEquals("Section 2\fSection 2", doc.getText().trim());
- 
-```
-
 Shows how to specify how a new section separates itself from the previous.
 
 ```
@@ -5062,6 +5051,33 @@ Shows how to specify how a new section separates itself from the previous.
  Assert.assertEquals(SectionStart.NEW_COLUMN, doc.getSections().get(5).getPageSetup().getSectionStart());
 
  doc.save(getArtifactsDir() + "PageSetup.SetSectionStart.docx");
+ 
+```
+
+Shows how to add and remove sections in a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Section 1");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+ builder.write("Section 2");
+
+ Assert.assertEquals("Section 1\fSection 2", doc.getText().trim());
+
+ // Delete the first section from the document.
+ doc.getSections().removeAt(0);
+
+ Assert.assertEquals("Section 2", doc.getText().trim());
+
+ // Append a copy of what is now the first section to the end of the document.
+ int lastSectionIdx = doc.getSections().getCount() - 1;
+ Section newSection = doc.getSections().get(lastSectionIdx).deepClone();
+ doc.getSections().add(newSection);
+
+ Assert.assertEquals("Section 2\fSection 2", doc.getText().trim());
  
 ```
 
@@ -5651,37 +5667,6 @@ Document may generate warnings at any stage of its existence, so it's important 
 
  **Examples:** 
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```
-
- // Open a document that contains text formatted with a font that does not exist in any of our font sources.
- Document doc = new Document(getMyDir() + "Missing font.docx");
-
- // Assign a callback for handling font substitution warnings.
- WarningInfoCollection warningCollector = new WarningInfoCollection();
- doc.setWarningCallback(warningCollector);
-
- // Set a default font name and enable font substitution.
- FontSettings fontSettings = new FontSettings();
- fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
- fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
-
- // Original font metrics should be used after font substitution.
- doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
-
- // We will get a font substitution warning if we save a document with a missing font.
- doc.setFontSettings(fontSettings);
- doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
-
- for (WarningInfo info : warningCollector)
- {
-     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
-         System.out.println(info.getDescription());
- }
- 
-```
-
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```
@@ -5724,6 +5709,37 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
      }
 
      public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // Assign a callback for handling font substitution warnings.
+ WarningInfoCollection warningCollector = new WarningInfoCollection();
+ doc.setWarningCallback(warningCollector);
+
+ // Set a default font name and enable font substitution.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+ // Original font metrics should be used after font substitution.
+ doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
+ // We will get a font substitution warning if we save a document with a missing font.
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+ for (WarningInfo info : warningCollector)
+ {
+     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+         System.out.println(info.getDescription());
  }
  
 ```
@@ -6147,6 +6163,24 @@ public Node importNode(Node srcNode, boolean isImportChildren, int importFormatM
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
+### importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions) {#importNode-com.aspose.words.Node-boolean-int-com.aspose.words.ImportFormatOptions}
+```
+public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode, ImportFormatOptions importFormatOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | [Node](../../com.aspose.words/node/) |  |
+| isImportChildren | boolean |  |
+| importFormatMode | int |  |
+| importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions/) |  |
+
+**Returns:**
+[Node](../../com.aspose.words/node/)
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -6199,52 +6233,6 @@ If the node being inserted was created from another document, you should use **M
 
  **Examples:** 
 
-Shows how to replace all textbox shapes with image shapes.
-
-```
-
- Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
-
- List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- for (Shape shape : shapeList) {
-     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
-         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
-         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
-         replacementShape.setLeft(shape.getLeft());
-         replacementShape.setTop(shape.getTop());
-         replacementShape.setWidth(shape.getWidth());
-         replacementShape.setHeight(shape.getHeight());
-         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
-         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
-         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
-         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
-         replacementShape.setWrapType(shape.getWrapType());
-         replacementShape.setWrapSide(shape.getWrapSide());
-
-         shape.getParentNode().insertAfter(replacementShape, shape);
-         shape.remove();
-     }
- }
-
- shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
-         .filter(Shape.class::isInstance)
-         .map(Shape.class::cast)
-         .collect(Collectors.toList());
-
- Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
- Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
-
- doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
- 
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```
@@ -6292,6 +6280,52 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 
  Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
 
@@ -6854,33 +6888,6 @@ Removes itself from the parent.
 
  **Examples:** 
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```
-
- Document doc = new Document(getMyDir() + "Tables.docx");
-
- Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
-
- Node curNode = doc.getFirstSection().getBody().getFirstChild();
-
- while (curNode != null) {
-     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-     Node nextNode = curNode.getNextSibling();
-
-     // A section body can contain Paragraph and Table nodes.
-     // If the node is a Table, remove it from the parent.
-     if (curNode.getNodeType() == NodeType.TABLE) {
-         curNode.remove();
-     }
-
-     curNode = nextNode;
- }
-
- Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
- 
-```
-
 Shows how to delete all shapes with images from a document.
 
 ```
@@ -6911,6 +6918,33 @@ Shows how to delete all shapes with images from a document.
      }
      return false;
  }));
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
  
 ```
 
@@ -7623,25 +7657,6 @@ Only expressions with element names are supported at the moment. Expressions tha
 
  **Examples:** 
 
-Shows how to use an XPath expression to test whether a node is inside a field.
-
-```
-
- Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
-
- // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
- // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
- // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
- NodeList resultList =
-         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
- Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
- Run run = runs[0];
-
- // Check if the specified run is one of the nodes that are inside the field.
- System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
- 
-```
-
 Shows how to select certain nodes by using an XPath expression.
 
 ```
@@ -7671,6 +7686,25 @@ Shows how to select certain nodes by using an XPath expression.
  Node node = doc.selectSingleNode("//Body/Paragraph");
 
  Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+ Run[] runs = Arrays.stream(resultList.toArray()).filter(n -> n.getNodeType() == NodeType.RUN).toArray(Run[]::new);
+ Run run = runs[0];
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println(MessageFormat.format("Contents of the first Run node that''s part of a field: {0}", run.getText().trim()));
  
 ```
 
@@ -8627,13 +8661,13 @@ Shows how to customize the process of loading external resources into a document
              // If this callback encounters one of the image shorthands while loading an image,
              // it will apply unique logic for each defined shorthand instead of treating it as a URI.
              if ("Google logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(new URI("http://www.google.com/images/logos/ps_logo2.png").toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
 
              if ("Aspose logo".equals(args.getOriginalUri())) {
-                 args.setData(DocumentHelper.getBytesFromStream(getAsposelogoUri().toURL().openStream()));
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
 
                  return ResourceLoadingAction.USER_PROVIDED;
              }
@@ -9026,37 +9060,6 @@ Document may generate warnings at any stage of its existence, so it's important 
 
  **Examples:** 
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```
-
- // Open a document that contains text formatted with a font that does not exist in any of our font sources.
- Document doc = new Document(getMyDir() + "Missing font.docx");
-
- // Assign a callback for handling font substitution warnings.
- WarningInfoCollection warningCollector = new WarningInfoCollection();
- doc.setWarningCallback(warningCollector);
-
- // Set a default font name and enable font substitution.
- FontSettings fontSettings = new FontSettings();
- fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
- fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
-
- // Original font metrics should be used after font substitution.
- doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
-
- // We will get a font substitution warning if we save a document with a missing font.
- doc.setFontSettings(fontSettings);
- doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
-
- for (WarningInfo info : warningCollector)
- {
-     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
-         System.out.println(info.getDescription());
- }
- 
-```
-
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```
@@ -9099,6 +9102,37 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
      }
 
      public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // Assign a callback for handling font substitution warnings.
+ WarningInfoCollection warningCollector = new WarningInfoCollection();
+ doc.setWarningCallback(warningCollector);
+
+ // Set a default font name and enable font substitution.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+ fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+ // Original font metrics should be used after font substitution.
+ doc.getLayoutOptions().setKeepOriginalFontMetrics(true);
+
+ // We will get a font substitution warning if we save a document with a missing font.
+ doc.setFontSettings(fontSettings);
+ doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+ for (WarningInfo info : warningCollector)
+ {
+     if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+         System.out.println(info.getDescription());
  }
  
 ```
@@ -9568,6 +9602,55 @@ To update fields in a specific part of the document use [Range.updateFields()](.
 
  **Examples:** 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table of contents for the first page of the document.
+ // Configure the table to pick up paragraphs with headings of levels 1 to 3.
+ // Also, set its entries to be hyperlinks that will take us
+ // to the location of the heading when left-clicked in Microsoft Word.
+ builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // Populate the table of contents by adding paragraphs with heading styles.
+ // Each such heading with a level between 1 and 3 will create an entry in the table.
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+ builder.writeln("Heading 1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+ builder.writeln("Heading 1.1");
+ builder.writeln("Heading 1.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
+ builder.writeln("Heading 2");
+ builder.writeln("Heading 3");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+ builder.writeln("Heading 3.1");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
+ builder.writeln("Heading 3.1.1");
+ builder.writeln("Heading 3.1.2");
+ builder.writeln("Heading 3.1.3");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_4);
+ builder.writeln("Heading 3.1.3.1");
+ builder.writeln("Heading 3.1.3.2");
+
+ builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
+ builder.writeln("Heading 3.2");
+ builder.writeln("Heading 3.3");
+
+ // A table of contents is a field of a type that needs to be updated to show an up-to-date result.
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertToc.docx");
+ 
+```
+
 Shows to use the QUOTE field.
 
 ```
@@ -9633,55 +9716,6 @@ Shows how to set user details, and display them using fields.
 
  doc.updateFields();
  doc.save(getArtifactsDir() + "FieldOptions.CurrentUser.docx");
- 
-```
-
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a table of contents for the first page of the document.
- // Configure the table to pick up paragraphs with headings of levels 1 to 3.
- // Also, set its entries to be hyperlinks that will take us
- // to the location of the heading when left-clicked in Microsoft Word.
- builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // Populate the table of contents by adding paragraphs with heading styles.
- // Each such heading with a level between 1 and 3 will create an entry in the table.
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
- builder.writeln("Heading 1");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
- builder.writeln("Heading 1.1");
- builder.writeln("Heading 1.2");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
- builder.writeln("Heading 2");
- builder.writeln("Heading 3");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
- builder.writeln("Heading 3.1");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_3);
- builder.writeln("Heading 3.1.1");
- builder.writeln("Heading 3.1.2");
- builder.writeln("Heading 3.1.3");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_4);
- builder.writeln("Heading 3.1.3.1");
- builder.writeln("Heading 3.1.3.2");
-
- builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_2);
- builder.writeln("Heading 3.2");
- builder.writeln("Heading 3.3");
-
- // A table of contents is a field of a type that needs to be updated to show an up-to-date result.
- doc.updateFields();
- doc.save(getArtifactsDir() + "DocumentBuilder.InsertToc.docx");
  
 ```
 

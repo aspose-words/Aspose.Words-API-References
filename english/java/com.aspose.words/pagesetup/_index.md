@@ -613,47 +613,6 @@ Shows how to create headers and footers in a document using DocumentBuilder.
  
 ```
 
-Shows how to enable or disable primary headers/footers.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Below are two types of header/footers.
- // 1 -  The "First" header/footer, which appears on the first page of the section.
- builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
- builder.writeln("First page header.");
-
- builder.moveToHeaderFooter(HeaderFooterType.FOOTER_FIRST);
- builder.writeln("First page footer.");
-
- // 2 -  The "Primary" header/footer, which appears on every page in the section.
- // We can override the primary header/footer by a first and an even page header/footer.
- builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
- builder.writeln("Primary header.");
-
- builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
- builder.writeln("Primary footer.");
-
- builder.moveToSection(0);
- builder.writeln("Page 1.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 2.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 3.");
-
- // Each section has a "PageSetup" object that specifies page appearance-related properties
- // such as orientation, size, and borders.
- // Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
- // Set the "DifferentFirstPageHeaderFooter" property to "false"
- // to make the first page display the primary header/footer.
- builder.getPageSetup().setDifferentFirstPageHeaderFooter(differentFirstPageHeaderFooter);
-
- doc.save(getArtifactsDir() + "PageSetup.DifferentFirstPageHeaderFooter.docx");
- 
-```
-
 Shows how to track the order in which a text replacement operation traverses nodes.
 
 ```
@@ -706,6 +665,47 @@ Shows how to track the order in which a text replacement operation traverses nod
 
      private final StringBuilder mTextBuilder = new StringBuilder();
  }
+ 
+```
+
+Shows how to enable or disable primary headers/footers.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two types of header/footers.
+ // 1 -  The "First" header/footer, which appears on the first page of the section.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
+ builder.writeln("First page header.");
+
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_FIRST);
+ builder.writeln("First page footer.");
+
+ // 2 -  The "Primary" header/footer, which appears on every page in the section.
+ // We can override the primary header/footer by a first and an even page header/footer.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.writeln("Primary header.");
+
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ builder.writeln("Primary footer.");
+
+ builder.moveToSection(0);
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Each section has a "PageSetup" object that specifies page appearance-related properties
+ // such as orientation, size, and borders.
+ // Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
+ // Set the "DifferentFirstPageHeaderFooter" property to "false"
+ // to make the first page display the primary header/footer.
+ builder.getPageSetup().setDifferentFirstPageHeaderFooter(differentFirstPageHeaderFooter);
+
+ doc.save(getArtifactsDir() + "PageSetup.DifferentFirstPageHeaderFooter.docx");
  
 ```
 
@@ -897,34 +897,6 @@ Gets the amount of extra space added to the margin for document binding.
 
  **Examples:** 
 
-Shows how to configure a document that can be printed as a book fold.
-
-```
-
- Document doc = new Document();
-
- // Insert text that spans 16 pages.
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("My Booklet:");
-
- for (int i = 0; i < 15; i++) {
-     builder.insertBreak(BreakType.PAGE_BREAK);
-     builder.write(MessageFormat.format("Booklet face #{0}", i));
- }
-
- // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
- // When we print this document on both sides, we can take the pages to stack them
- // and fold them all down the middle at once. The contents of the document will line up into a book fold.
- PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
- pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
-
- // We can only specify the number of sheets in multiples of 4.
- pageSetup.setSheetsPerBooklet(4);
-
- doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
- 
-```
-
 Shows how to set gutter margins.
 
 ```
@@ -956,6 +928,34 @@ Shows how to set gutter margins.
  pageSetup.setMultiplePages(MultiplePagesType.MIRROR_MARGINS);
 
  doc.save(getArtifactsDir() + "PageSetup.Gutter.docx");
+ 
+```
+
+Shows how to configure a document that can be printed as a book fold.
+
+```
+
+ Document doc = new Document();
+
+ // Insert text that spans 16 pages.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("My Booklet:");
+
+ for (int i = 0; i < 15; i++) {
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.write(MessageFormat.format("Booklet face #{0}", i));
+ }
+
+ // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
+ // When we print this document on both sides, we can take the pages to stack them
+ // and fold them all down the middle at once. The contents of the document will line up into a book fold.
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+
+ // We can only specify the number of sheets in multiples of 4.
+ pageSetup.setSheetsPerBooklet(4);
+
+ doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
  
 ```
 
@@ -1037,27 +1037,6 @@ Gets the layout mode of this section.
 
  **Examples:** 
 
-Shows how to specify a limit for the number of lines that each page may have.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Enable pitching, and then use it to set the number of lines per page in this section.
- // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
- builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
- builder.getPageSetup().setLinesPerPage(15);
-
- builder.getParagraphFormat().setSnapToGrid(true);
-
- for (int i = 0; i < 30; i++)
-     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
-
- doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
- 
-```
-
 Shows how to specify a for the number of characters that each line may have.
 
 ```
@@ -1077,6 +1056,27 @@ Shows how to specify a for the number of characters that each line may have.
  builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
  doc.save(getArtifactsDir() + "PageSetup.CharactersPerLine.docx");
+ 
+```
+
+Shows how to specify a limit for the number of lines that each page may have.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Enable pitching, and then use it to set the number of lines per page in this section.
+ // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
+ builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
+ builder.getPageSetup().setLinesPerPage(15);
+
+ builder.getParagraphFormat().setSnapToGrid(true);
+
+ for (int i = 0; i < 30; i++)
+     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+
+ doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
  
 ```
 
@@ -1377,34 +1377,6 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 
  **Examples:** 
 
-Shows how to configure a document that can be printed as a book fold.
-
-```
-
- Document doc = new Document();
-
- // Insert text that spans 16 pages.
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("My Booklet:");
-
- for (int i = 0; i < 15; i++) {
-     builder.insertBreak(BreakType.PAGE_BREAK);
-     builder.write(MessageFormat.format("Booklet face #{0}", i));
- }
-
- // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
- // When we print this document on both sides, we can take the pages to stack them
- // and fold them all down the middle at once. The contents of the document will line up into a book fold.
- PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
- pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
-
- // We can only specify the number of sheets in multiples of 4.
- pageSetup.setSheetsPerBooklet(4);
-
- doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
- 
-```
-
 Shows how to set gutter margins.
 
 ```
@@ -1436,6 +1408,34 @@ Shows how to set gutter margins.
  pageSetup.setMultiplePages(MultiplePagesType.MIRROR_MARGINS);
 
  doc.save(getArtifactsDir() + "PageSetup.Gutter.docx");
+ 
+```
+
+Shows how to configure a document that can be printed as a book fold.
+
+```
+
+ Document doc = new Document();
+
+ // Insert text that spans 16 pages.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("My Booklet:");
+
+ for (int i = 0; i < 15; i++) {
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.write(MessageFormat.format("Booklet face #{0}", i));
+ }
+
+ // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
+ // When we print this document on both sides, we can take the pages to stack them
+ // and fold them all down the middle at once. The contents of the document will line up into a book fold.
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+
+ // We can only specify the number of sheets in multiples of 4.
+ pageSetup.setSheetsPerBooklet(4);
+
+ doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
  
 ```
 
@@ -1543,28 +1543,6 @@ Changing [getOrientation()](../../com.aspose.words/pagesetup/\#getOrientation) /
 
  **Examples:** 
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getPageSetup().setPaperSize(PaperSize.LEGAL);
- builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
- builder.getPageSetup().setTopMargin(ConvertUtil.inchToPoint(1.0));
- builder.getPageSetup().setBottomMargin(ConvertUtil.inchToPoint(1.0));
- builder.getPageSetup().setLeftMargin(ConvertUtil.inchToPoint(1.5));
- builder.getPageSetup().setRightMargin(ConvertUtil.inchToPoint(1.5));
- builder.getPageSetup().setHeaderDistance(ConvertUtil.inchToPoint(0.2));
- builder.getPageSetup().setFooterDistance(ConvertUtil.inchToPoint(0.2));
-
- builder.writeln("Hello world!");
-
- doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
- 
-```
-
 Shows how to apply and revert page setup settings to sections in a document.
 
 ```
@@ -1593,6 +1571,28 @@ Shows how to apply and revert page setup settings to sections in a document.
  builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 
  doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
+ 
+```
+
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getPageSetup().setPaperSize(PaperSize.LEGAL);
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setTopMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setBottomMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setLeftMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setRightMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setHeaderDistance(ConvertUtil.inchToPoint(0.2));
+ builder.getPageSetup().setFooterDistance(ConvertUtil.inchToPoint(0.2));
+
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
  
 ```
 
@@ -1893,20 +1893,6 @@ Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/
 
  **Examples:** 
 
-Shows how to set the paper size of JisB4 or JisB5.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- PageSetup pageSetup = doc.getFirstSection().getPageSetup();
- // Set the paper size to JisB4 (257x364mm).
- pageSetup.setPaperSize(PaperSize.JIS_B_4);
- // Alternatively, set the paper size to JisB5. (182x257mm).
- pageSetup.setPaperSize(PaperSize.JIS_B_5);
- 
-```
-
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
 ```
@@ -1926,6 +1912,62 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
  builder.writeln("Hello world!");
 
  doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
+ 
+```
+
+Shows how to set page sizes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can change the current page's size to a pre-defined size
+ // by using the "PaperSize" property of this section's PageSetup object.
+ builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
+
+ Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ // Each section has its own PageSetup object. When we use a document builder to make a new section,
+ // that section's PageSetup object inherits all the previous section's PageSetup object's values.
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
+
+ builder.getPageSetup().setPaperSize(PaperSize.A5);
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
+
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ // Set a custom size for this section's pages.
+ builder.getPageSetup().setPageWidth(620.0);
+ builder.getPageSetup().setPageHeight(480.0);
+
+ Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
+ 
+```
+
+Shows how to set the paper size of JisB4 or JisB5.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
+ // Set the paper size to JisB4 (257x364mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_4);
+ // Alternatively, set the paper size to JisB5. (182x257mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_5);
  
 ```
 
@@ -1973,48 +2015,6 @@ Shows how to construct an Aspose.Words document by hand.
  Assert.assertEquals("Hello World!", doc.getText().trim());
 
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
-Shows how to set page sizes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // We can change the current page's size to a pre-defined size
- // by using the "PaperSize" property of this section's PageSetup object.
- builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
-
- Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- // Each section has its own PageSetup object. When we use a document builder to make a new section,
- // that section's PageSetup object inherits all the previous section's PageSetup object's values.
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
-
- builder.getPageSetup().setPaperSize(PaperSize.A5);
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
-
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- // Set a custom size for this section's pages.
- builder.getPageSetup().setPageWidth(620.0);
- builder.getPageSetup().setPageHeight(480.0);
-
- Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
  
 ```
 
@@ -2180,53 +2180,6 @@ Gets the type of section break for the specified object.
 
  **Examples:** 
 
-Shows how to construct an Aspose.Words document by hand.
-
-```
-
- Document doc = new Document();
-
- // A blank document contains one section, one body and one paragraph.
- // Call the "RemoveAllChildren" method to remove all those nodes,
- // and end up with a document node with no children.
- doc.removeAllChildren();
-
- // This document now has no composite child nodes that we can add content to.
- // If we wish to edit it, we will need to repopulate its node collection.
- // First, create a new section, and then append it as a child to the root document node.
- Section section = new Section(doc);
- doc.appendChild(section);
-
- // Set some page setup properties for the section.
- section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
- section.getPageSetup().setPaperSize(PaperSize.LETTER);
-
- // A section needs a body, which will contain and display all its contents
- // on the page between the section's header and footer.
- Body body = new Body(doc);
- section.appendChild(body);
-
- // Create a paragraph, set some formatting properties, and then append it as a child to the body.
- Paragraph para = new Paragraph(doc);
-
- para.getParagraphFormat().setStyleName("Heading 1");
- para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
-
- body.appendChild(para);
-
- // Finally, add some content to do the document. Create a run,
- // set its appearance and contents, and then append it as a child to the paragraph.
- Run run = new Run(doc);
- run.setText("Hello World!");
- run.getFont().setColor(Color.RED);
- para.appendChild(run);
-
- Assert.assertEquals("Hello World!", doc.getText().trim());
-
- doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
 Shows how to specify how a new section separates itself from the previous.
 
 ```
@@ -2271,6 +2224,53 @@ Shows how to specify how a new section separates itself from the previous.
  Assert.assertEquals(SectionStart.NEW_COLUMN, doc.getSections().get(5).getPageSetup().getSectionStart());
 
  doc.save(getArtifactsDir() + "PageSetup.SetSectionStart.docx");
+ 
+```
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
 
@@ -2942,47 +2942,6 @@ Shows how to create headers and footers in a document using DocumentBuilder.
  
 ```
 
-Shows how to enable or disable primary headers/footers.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Below are two types of header/footers.
- // 1 -  The "First" header/footer, which appears on the first page of the section.
- builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
- builder.writeln("First page header.");
-
- builder.moveToHeaderFooter(HeaderFooterType.FOOTER_FIRST);
- builder.writeln("First page footer.");
-
- // 2 -  The "Primary" header/footer, which appears on every page in the section.
- // We can override the primary header/footer by a first and an even page header/footer.
- builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
- builder.writeln("Primary header.");
-
- builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
- builder.writeln("Primary footer.");
-
- builder.moveToSection(0);
- builder.writeln("Page 1.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 2.");
- builder.insertBreak(BreakType.PAGE_BREAK);
- builder.writeln("Page 3.");
-
- // Each section has a "PageSetup" object that specifies page appearance-related properties
- // such as orientation, size, and borders.
- // Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
- // Set the "DifferentFirstPageHeaderFooter" property to "false"
- // to make the first page display the primary header/footer.
- builder.getPageSetup().setDifferentFirstPageHeaderFooter(differentFirstPageHeaderFooter);
-
- doc.save(getArtifactsDir() + "PageSetup.DifferentFirstPageHeaderFooter.docx");
- 
-```
-
 Shows how to track the order in which a text replacement operation traverses nodes.
 
 ```
@@ -3035,6 +2994,47 @@ Shows how to track the order in which a text replacement operation traverses nod
 
      private final StringBuilder mTextBuilder = new StringBuilder();
  }
+ 
+```
+
+Shows how to enable or disable primary headers/footers.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two types of header/footers.
+ // 1 -  The "First" header/footer, which appears on the first page of the section.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
+ builder.writeln("First page header.");
+
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_FIRST);
+ builder.writeln("First page footer.");
+
+ // 2 -  The "Primary" header/footer, which appears on every page in the section.
+ // We can override the primary header/footer by a first and an even page header/footer.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.writeln("Primary header.");
+
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ builder.writeln("Primary footer.");
+
+ builder.moveToSection(0);
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Each section has a "PageSetup" object that specifies page appearance-related properties
+ // such as orientation, size, and borders.
+ // Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
+ // Set the "DifferentFirstPageHeaderFooter" property to "false"
+ // to make the first page display the primary header/footer.
+ builder.getPageSetup().setDifferentFirstPageHeaderFooter(differentFirstPageHeaderFooter);
+
+ doc.save(getArtifactsDir() + "PageSetup.DifferentFirstPageHeaderFooter.docx");
  
 ```
 
@@ -3134,34 +3134,6 @@ Sets the amount of extra space added to the margin for document binding.
 
  **Examples:** 
 
-Shows how to configure a document that can be printed as a book fold.
-
-```
-
- Document doc = new Document();
-
- // Insert text that spans 16 pages.
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("My Booklet:");
-
- for (int i = 0; i < 15; i++) {
-     builder.insertBreak(BreakType.PAGE_BREAK);
-     builder.write(MessageFormat.format("Booklet face #{0}", i));
- }
-
- // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
- // When we print this document on both sides, we can take the pages to stack them
- // and fold them all down the middle at once. The contents of the document will line up into a book fold.
- PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
- pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
-
- // We can only specify the number of sheets in multiples of 4.
- pageSetup.setSheetsPerBooklet(4);
-
- doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
- 
-```
-
 Shows how to set gutter margins.
 
 ```
@@ -3193,6 +3165,34 @@ Shows how to set gutter margins.
  pageSetup.setMultiplePages(MultiplePagesType.MIRROR_MARGINS);
 
  doc.save(getArtifactsDir() + "PageSetup.Gutter.docx");
+ 
+```
+
+Shows how to configure a document that can be printed as a book fold.
+
+```
+
+ Document doc = new Document();
+
+ // Insert text that spans 16 pages.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("My Booklet:");
+
+ for (int i = 0; i < 15; i++) {
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.write(MessageFormat.format("Booklet face #{0}", i));
+ }
+
+ // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
+ // When we print this document on both sides, we can take the pages to stack them
+ // and fold them all down the middle at once. The contents of the document will line up into a book fold.
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+
+ // We can only specify the number of sheets in multiples of 4.
+ pageSetup.setSheetsPerBooklet(4);
+
+ doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
  
 ```
 
@@ -3283,27 +3283,6 @@ Sets the layout mode of this section.
 
  **Examples:** 
 
-Shows how to specify a limit for the number of lines that each page may have.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Enable pitching, and then use it to set the number of lines per page in this section.
- // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
- builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
- builder.getPageSetup().setLinesPerPage(15);
-
- builder.getParagraphFormat().setSnapToGrid(true);
-
- for (int i = 0; i < 30; i++)
-     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
-
- doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
- 
-```
-
 Shows how to specify a for the number of characters that each line may have.
 
 ```
@@ -3323,6 +3302,27 @@ Shows how to specify a for the number of characters that each line may have.
  builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
  doc.save(getArtifactsDir() + "PageSetup.CharactersPerLine.docx");
+ 
+```
+
+Shows how to specify a limit for the number of lines that each page may have.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Enable pitching, and then use it to set the number of lines per page in this section.
+ // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
+ builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
+ builder.getPageSetup().setLinesPerPage(15);
+
+ builder.getParagraphFormat().setSnapToGrid(true);
+
+ for (int i = 0; i < 30; i++)
+     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+
+ doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
  
 ```
 
@@ -3647,34 +3647,6 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 
  **Examples:** 
 
-Shows how to configure a document that can be printed as a book fold.
-
-```
-
- Document doc = new Document();
-
- // Insert text that spans 16 pages.
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("My Booklet:");
-
- for (int i = 0; i < 15; i++) {
-     builder.insertBreak(BreakType.PAGE_BREAK);
-     builder.write(MessageFormat.format("Booklet face #{0}", i));
- }
-
- // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
- // When we print this document on both sides, we can take the pages to stack them
- // and fold them all down the middle at once. The contents of the document will line up into a book fold.
- PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
- pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
-
- // We can only specify the number of sheets in multiples of 4.
- pageSetup.setSheetsPerBooklet(4);
-
- doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
- 
-```
-
 Shows how to set gutter margins.
 
 ```
@@ -3706,6 +3678,34 @@ Shows how to set gutter margins.
  pageSetup.setMultiplePages(MultiplePagesType.MIRROR_MARGINS);
 
  doc.save(getArtifactsDir() + "PageSetup.Gutter.docx");
+ 
+```
+
+Shows how to configure a document that can be printed as a book fold.
+
+```
+
+ Document doc = new Document();
+
+ // Insert text that spans 16 pages.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("My Booklet:");
+
+ for (int i = 0; i < 15; i++) {
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.write(MessageFormat.format("Booklet face #{0}", i));
+ }
+
+ // Configure the first section's "PageSetup" property to print the document in the form of a book fold.
+ // When we print this document on both sides, we can take the pages to stack them
+ // and fold them all down the middle at once. The contents of the document will line up into a book fold.
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);
+
+ // We can only specify the number of sheets in multiples of 4.
+ pageSetup.setSheetsPerBooklet(4);
+
+ doc.save(getArtifactsDir() + "PageSetup.Booklet.docx");
  
 ```
 
@@ -3819,28 +3819,6 @@ Changing [getOrientation()](../../com.aspose.words/pagesetup/\#getOrientation) /
 
  **Examples:** 
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.getPageSetup().setPaperSize(PaperSize.LEGAL);
- builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
- builder.getPageSetup().setTopMargin(ConvertUtil.inchToPoint(1.0));
- builder.getPageSetup().setBottomMargin(ConvertUtil.inchToPoint(1.0));
- builder.getPageSetup().setLeftMargin(ConvertUtil.inchToPoint(1.5));
- builder.getPageSetup().setRightMargin(ConvertUtil.inchToPoint(1.5));
- builder.getPageSetup().setHeaderDistance(ConvertUtil.inchToPoint(0.2));
- builder.getPageSetup().setFooterDistance(ConvertUtil.inchToPoint(0.2));
-
- builder.writeln("Hello world!");
-
- doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
- 
-```
-
 Shows how to apply and revert page setup settings to sections in a document.
 
 ```
@@ -3869,6 +3847,28 @@ Shows how to apply and revert page setup settings to sections in a document.
  builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 
  doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
+ 
+```
+
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getPageSetup().setPaperSize(PaperSize.LEGAL);
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setTopMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setBottomMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setLeftMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setRightMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setHeaderDistance(ConvertUtil.inchToPoint(0.2));
+ builder.getPageSetup().setFooterDistance(ConvertUtil.inchToPoint(0.2));
+
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
  
 ```
 
@@ -4187,20 +4187,6 @@ Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/
 
  **Examples:** 
 
-Shows how to set the paper size of JisB4 or JisB5.
-
-```
-
- Document doc = new Document(getMyDir() + "Big document.docx");
-
- PageSetup pageSetup = doc.getFirstSection().getPageSetup();
- // Set the paper size to JisB4 (257x364mm).
- pageSetup.setPaperSize(PaperSize.JIS_B_4);
- // Alternatively, set the paper size to JisB5. (182x257mm).
- pageSetup.setPaperSize(PaperSize.JIS_B_5);
- 
-```
-
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
 ```
@@ -4220,6 +4206,62 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
  builder.writeln("Hello world!");
 
  doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
+ 
+```
+
+Shows how to set page sizes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can change the current page's size to a pre-defined size
+ // by using the "PaperSize" property of this section's PageSetup object.
+ builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
+
+ Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ // Each section has its own PageSetup object. When we use a document builder to make a new section,
+ // that section's PageSetup object inherits all the previous section's PageSetup object's values.
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
+
+ builder.getPageSetup().setPaperSize(PaperSize.A5);
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
+
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ // Set a custom size for this section's pages.
+ builder.getPageSetup().setPageWidth(620.0);
+ builder.getPageSetup().setPageHeight(480.0);
+
+ Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
+ 
+```
+
+Shows how to set the paper size of JisB4 or JisB5.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
+ // Set the paper size to JisB4 (257x364mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_4);
+ // Alternatively, set the paper size to JisB5. (182x257mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_5);
  
 ```
 
@@ -4267,48 +4309,6 @@ Shows how to construct an Aspose.Words document by hand.
  Assert.assertEquals("Hello World!", doc.getText().trim());
 
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
-Shows how to set page sizes.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // We can change the current page's size to a pre-defined size
- // by using the "PaperSize" property of this section's PageSetup object.
- builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
-
- Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- // Each section has its own PageSetup object. When we use a document builder to make a new section,
- // that section's PageSetup object inherits all the previous section's PageSetup object's values.
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
-
- builder.getPageSetup().setPaperSize(PaperSize.A5);
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
- Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
-
- builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
-
- // Set a custom size for this section's pages.
- builder.getPageSetup().setPageWidth(620.0);
- builder.getPageSetup().setPageHeight(480.0);
-
- Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
-
- builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
-
- doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
  
 ```
 
@@ -4486,53 +4486,6 @@ Sets the type of section break for the specified object.
 
  **Examples:** 
 
-Shows how to construct an Aspose.Words document by hand.
-
-```
-
- Document doc = new Document();
-
- // A blank document contains one section, one body and one paragraph.
- // Call the "RemoveAllChildren" method to remove all those nodes,
- // and end up with a document node with no children.
- doc.removeAllChildren();
-
- // This document now has no composite child nodes that we can add content to.
- // If we wish to edit it, we will need to repopulate its node collection.
- // First, create a new section, and then append it as a child to the root document node.
- Section section = new Section(doc);
- doc.appendChild(section);
-
- // Set some page setup properties for the section.
- section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
- section.getPageSetup().setPaperSize(PaperSize.LETTER);
-
- // A section needs a body, which will contain and display all its contents
- // on the page between the section's header and footer.
- Body body = new Body(doc);
- section.appendChild(body);
-
- // Create a paragraph, set some formatting properties, and then append it as a child to the body.
- Paragraph para = new Paragraph(doc);
-
- para.getParagraphFormat().setStyleName("Heading 1");
- para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
-
- body.appendChild(para);
-
- // Finally, add some content to do the document. Create a run,
- // set its appearance and contents, and then append it as a child to the paragraph.
- Run run = new Run(doc);
- run.setText("Hello World!");
- run.getFont().setColor(Color.RED);
- para.appendChild(run);
-
- Assert.assertEquals("Hello World!", doc.getText().trim());
-
- doc.save(getArtifactsDir() + "Section.CreateManually.docx");
- 
-```
-
 Shows how to specify how a new section separates itself from the previous.
 
 ```
@@ -4577,6 +4530,53 @@ Shows how to specify how a new section separates itself from the previous.
  Assert.assertEquals(SectionStart.NEW_COLUMN, doc.getSections().get(5).getPageSetup().getSectionStart());
 
  doc.save(getArtifactsDir() + "PageSetup.SetSectionStart.docx");
+ 
+```
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
 

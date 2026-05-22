@@ -28,40 +28,6 @@ of each [HeaderFooterType](../../com.aspose.words/headerfootertype/) per [Sectio
 
  **Examples:** 
 
-Shows how to delete all footers from a document.
-
-```
-
- Document doc = new Document(getMyDir() + "Header and footer types.docx");
-
- // Iterate through each section and remove footers of every kind.
- for (Section section : doc.getSections()) {
-     // There are three kinds of footer and header types.
-     // 1 -  The "First" header/footer, which only appears on the first page of a section.
-     HeaderFooter footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_FIRST);
-     if (footer != null) {
-         footer.remove();
-     }
-
-     // 2 -  The "Primary" header/footer, which appears on odd pages.
-     footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
-     if (footer != null) {
-         footer.remove();
-     }
-
-     // 3 -  The "Even" header/footer, which appears on even pages.
-     footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_EVEN);
-     if (footer != null) {
-         footer.remove();
-     }
-
-     Assert.assertEquals(0, IterableUtils.countMatches(section.getHeadersFooters(), s -> !s.isHeader()));
- }
-
- doc.save(getArtifactsDir() + "HeaderFooter.RemoveFooters.docx");
- 
-```
-
 Shows how to create a header and a footer.
 
 ```
@@ -93,6 +59,40 @@ Shows how to create a header and a footer.
  Assert.assertEquals(header.getParentSection(), footer.getParentSection());
 
  doc.save(getArtifactsDir() + "HeaderFooter.Create.docx");
+ 
+```
+
+Shows how to delete all footers from a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+ // Iterate through each section and remove footers of every kind.
+ for (Section section : doc.getSections()) {
+     // There are three kinds of footer and header types.
+     // 1 -  The "First" header/footer, which only appears on the first page of a section.
+     HeaderFooter footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_FIRST);
+     if (footer != null) {
+         footer.remove();
+     }
+
+     // 2 -  The "Primary" header/footer, which appears on odd pages.
+     footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_PRIMARY);
+     if (footer != null) {
+         footer.remove();
+     }
+
+     // 3 -  The "Even" header/footer, which appears on even pages.
+     footer = section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.FOOTER_EVEN);
+     if (footer != null) {
+         footer.remove();
+     }
+
+     Assert.assertEquals(0, IterableUtils.countMatches(section.getHeadersFooters(), s -> !s.isHeader()));
+ }
+
+ doc.save(getArtifactsDir() + "HeaderFooter.RemoveFooters.docx");
  
 ```
 

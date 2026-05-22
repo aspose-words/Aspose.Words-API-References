@@ -29,21 +29,6 @@ You do not create instances of this class directly. Use the [DocumentBase.getFon
 
  **Examples:** 
 
-Shows how to save a document with embedded TrueType fonts.
-
-```
-
- Document doc = new Document(getMyDir() + "Document.docx");
-
- FontInfoCollection fontInfos = doc.getFontInfos();
- fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
- fontInfos.setEmbedSystemFonts(embedAllFonts);
- fontInfos.setSaveSubsetFonts(embedAllFonts);
-
- doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
- 
-```
-
 Shows how to print the details of what fonts are present in a document.
 
 ```
@@ -56,6 +41,21 @@ Shows how to print the details of what fonts are present in a document.
      System.out.println("Font index #{i}");
      System.out.println("\tName: {allFonts[i].Name}");
  }
+ 
+```
+
+Shows how to save a document with embedded TrueType fonts.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
  
 ```
 

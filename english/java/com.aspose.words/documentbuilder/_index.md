@@ -38,32 +38,6 @@ Note that [getFont()](../../com.aspose.words/documentbuilder/\#getFont), [getPar
 
  **Examples:** 
 
-Shows how to use a document builder to create a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Start the table, then populate the first row with two cells.
- builder.startTable();
- builder.insertCell();
- builder.write("Row 1, Cell 1.");
- builder.insertCell();
- builder.write("Row 1, Cell 2.");
-
- // Call the builder's "EndRow" method to start a new row.
- builder.endRow();
- builder.insertCell();
- builder.write("Row 2, Cell 1.");
- builder.insertCell();
- builder.write("Row 2, Cell 2.");
- builder.endTable();
-
- doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
- 
-```
-
 Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```
@@ -154,6 +128,32 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to use a document builder to create a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Start the table, then populate the first row with two cells.
+ builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2.");
+
+ // Call the builder's "EndRow" method to start a new row.
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Row 2, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 2, Cell 2.");
+ builder.endTable();
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
  
 ```
 
@@ -1115,6 +1115,49 @@ Shows how to build a table with custom borders.
  
 ```
 
+Shows how to build a formatted 2x2 table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
+ builder.write("Row 1, cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, cell 2.");
+ builder.endRow();
+
+ // While building the table, the document builder will apply its current RowFormat/CellFormat property values
+ // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
+
+ builder.insertCell();
+ builder.getRowFormat().setHeight(100.0);
+ builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
+ builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
+ builder.write("Row 2, cell 1.");
+ builder.insertCell();
+ builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ builder.write("Row 2, cell 2.");
+ builder.endRow();
+ builder.endTable();
+
+ // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+ Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+ Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+ Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
+ Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
+ 
+```
+
 Shows how to format cells with a document builder.
 
 ```
@@ -1156,49 +1199,6 @@ Shows how to format cells with a document builder.
 
  // The first cell will still grow in the output document to match the size of its neighboring cell.
  doc.save(getArtifactsDir() + "DocumentBuilder.SetCellFormatting.docx");
- 
-```
-
-Shows how to build a formatted 2x2 table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
- builder.write("Row 1, cell 1.");
- builder.insertCell();
- builder.write("Row 1, cell 2.");
- builder.endRow();
-
- // While building the table, the document builder will apply its current RowFormat/CellFormat property values
- // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
-
- builder.insertCell();
- builder.getRowFormat().setHeight(100.0);
- builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
- builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
- builder.write("Row 2, cell 1.");
- builder.insertCell();
- builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
- builder.write("Row 2, cell 2.");
- builder.endRow();
- builder.endTable();
-
- // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
- Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
- Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
- Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
- Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
 
@@ -1423,6 +1423,49 @@ Shows how to build a table with custom borders.
  
 ```
 
+Shows how to build a formatted 2x2 table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
+ builder.write("Row 1, cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, cell 2.");
+ builder.endRow();
+
+ // While building the table, the document builder will apply its current RowFormat/CellFormat property values
+ // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
+
+ builder.insertCell();
+ builder.getRowFormat().setHeight(100.0);
+ builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
+ builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
+ builder.write("Row 2, cell 1.");
+ builder.insertCell();
+ builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ builder.write("Row 2, cell 2.");
+ builder.endRow();
+ builder.endTable();
+
+ // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+ Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+ Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+ Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
+ Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
+ 
+```
+
 Shows how to format cells with a document builder.
 
 ```
@@ -1464,49 +1507,6 @@ Shows how to format cells with a document builder.
 
  // The first cell will still grow in the output document to match the size of its neighboring cell.
  doc.save(getArtifactsDir() + "DocumentBuilder.SetCellFormatting.docx");
- 
-```
-
-Shows how to build a formatted 2x2 table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
- builder.write("Row 1, cell 1.");
- builder.insertCell();
- builder.write("Row 1, cell 2.");
- builder.endRow();
-
- // While building the table, the document builder will apply its current RowFormat/CellFormat property values
- // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
-
- builder.insertCell();
- builder.getRowFormat().setHeight(100.0);
- builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
- builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
- builder.write("Row 2, cell 1.");
- builder.insertCell();
- builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
- builder.write("Row 2, cell 2.");
- builder.endRow();
- builder.endTable();
-
- // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
- Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
- Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
- Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
- Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
 
@@ -2263,40 +2263,6 @@ Returns an object that represents current table row formatting properties.
 
  **Examples:** 
 
-Shows how to format rows with a document builder.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.write("Row 1, cell 1.");
-
- // Start a second row, and then configure its height. The builder will apply these settings to
- // its current row, as well as any new rows it creates afterwards.
- builder.endRow();
-
- RowFormat rowFormat = builder.getRowFormat();
- rowFormat.setHeight(100.0);
- rowFormat.setHeightRule(HeightRule.EXACTLY);
-
- builder.insertCell();
- builder.write("Row 2, cell 1.");
- builder.endTable();
-
- // The first row was unaffected by the padding reconfiguration and still holds the default values.
- Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
-
- Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
- 
-```
-
 Shows how to build a table with custom borders.
 
 ```
@@ -2403,6 +2369,40 @@ Shows how to build a formatted 2x2 table.
  
 ```
 
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
+ 
+```
+
 **Returns:**
 [RowFormat](../../com.aspose.words/rowformat/) - An object that represents current table row formatting properties.
 ### getUnderline() {#getUnderline}
@@ -2468,32 +2468,6 @@ Use the [getCellFormat()](../../com.aspose.words/documentbuilder/\#getCellFormat
 
  **Examples:** 
 
-Shows how to use a document builder to create a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Start the table, then populate the first row with two cells.
- builder.startTable();
- builder.insertCell();
- builder.write("Row 1, Cell 1.");
- builder.insertCell();
- builder.write("Row 1, Cell 2.");
-
- // Call the builder's "EndRow" method to start a new row.
- builder.endRow();
- builder.insertCell();
- builder.write("Row 2, Cell 1.");
- builder.insertCell();
- builder.write("Row 2, Cell 2.");
- builder.endTable();
-
- doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
- 
-```
-
 Shows how to build a table with custom borders.
 
 ```
@@ -2554,6 +2528,32 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to use a document builder to create a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Start the table, then populate the first row with two cells.
+ builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2.");
+
+ // Call the builder's "EndRow" method to start a new row.
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Row 2, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 2, Cell 2.");
+ builder.endTable();
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
  
 ```
 
@@ -2754,22 +2754,6 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
  **Examples:** 
 
-Shows how to insert a combo box form field into a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Insert a form that prompts the user to pick one of the items from the menu.
- builder.write("Pick a fruit: ");
- String[] items = {"Apple", "Banana", "Cherry"};
- builder.insertComboBox("DropDown", items, 0);
-
- doc.save(getArtifactsDir() + "DocumentBuilder.InsertComboBox.docx");
- 
-```
-
 Shows how to create form fields.
 
 ```
@@ -2792,6 +2776,22 @@ Shows how to create form fields.
  builder.insertComboBox("My combo box", items, 0);
 
  builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.CreateForm.docx");
+ 
+```
+
+Shows how to insert a combo box form field into a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a form that prompts the user to pick one of the items from the menu.
+ builder.write("Pick a fruit: ");
+ String[] items = {"Apple", "Banana", "Cherry"};
+ builder.insertComboBox("DropDown", items, 0);
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertComboBox.docx");
  
 ```
 
@@ -2884,20 +2884,6 @@ This method inserts a field into a document and updates the field result immedia
 
  **Examples:** 
 
-Shows how to insert a field into a document using a field code.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Field dateField = builder.insertField("DATE \\* MERGEFORMAT");
-
- Assert.assertEquals(FieldType.FIELD_DATE, dateField.getType());
- Assert.assertEquals("DATE \\* MERGEFORMAT", dateField.getFieldCode());
- 
-```
-
 Shows how to insert fields, and move the document builder's cursor to them.
 
 ```
@@ -2921,6 +2907,20 @@ Shows how to insert fields, and move the document builder's cursor to them.
  builder.write(" Text between our merge fields. ");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.MergeFields.docx");
+ 
+```
+
+Shows how to insert a field into a document using a field code.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Field dateField = builder.insertField("DATE \\* MERGEFORMAT");
+
+ Assert.assertEquals(FieldType.FIELD_DATE, dateField.getType());
+ Assert.assertEquals("DATE \\* MERGEFORMAT", dateField.getFieldCode());
  
 ```
 
@@ -3091,34 +3091,6 @@ VML and DML shapes cannot be grouped together.
 
  **Examples:** 
 
-Shows how to combine group shape with the shape.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Shape shape1 = builder.insertShape(ShapeType.RECTANGLE, 200.0, 250.0);
- shape1.setLeft(20.0);
- shape1.setTop(20.0);
- shape1.getStroke().setColor(Color.RED);
-
- Shape shape2 = builder.insertShape(ShapeType.ELLIPSE, 150.0, 200.0);
- shape2.setLeft(40.0);
- shape2.setTop(50.0);
- shape2.getStroke().setColor(Color.GREEN);
-
- // Combine shapes into a GroupShape node which is inserted into the specified position.
- GroupShape groupShape1 = builder.insertGroupShape(shape1, shape2);
-
- // Combine Shape and GroupShape nodes.
- Shape shape3 = (Shape)shape1.deepClone(true);
- GroupShape groupShape2 = builder.insertGroupShape(groupShape1, shape3);
-
- doc.save(getArtifactsDir() + "Shape.CombineGroupShape.docx");
- 
-```
-
 Shows how to insert DML group shape.
 
 ```
@@ -3149,6 +3121,34 @@ Shows how to insert DML group shape.
  GroupShape groupShape2 = builder.insertGroupShape(shape3);
 
  doc.save(getArtifactsDir() + "Shape.InsertGroupShape.docx");
+ 
+```
+
+Shows how to combine group shape with the shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape1 = builder.insertShape(ShapeType.RECTANGLE, 200.0, 250.0);
+ shape1.setLeft(20.0);
+ shape1.setTop(20.0);
+ shape1.getStroke().setColor(Color.RED);
+
+ Shape shape2 = builder.insertShape(ShapeType.ELLIPSE, 150.0, 200.0);
+ shape2.setLeft(40.0);
+ shape2.setTop(50.0);
+ shape2.getStroke().setColor(Color.GREEN);
+
+ // Combine shapes into a GroupShape node which is inserted into the specified position.
+ GroupShape groupShape1 = builder.insertGroupShape(shape1, shape2);
+
+ // Combine Shape and GroupShape nodes.
+ Shape shape3 = (Shape)shape1.deepClone(true);
+ GroupShape groupShape2 = builder.insertGroupShape(groupShape1, shape3);
+
+ doc.save(getArtifactsDir() + "Shape.CombineGroupShape.docx");
  
 ```
 
@@ -3359,7 +3359,7 @@ Inserts an HTML string into the document.
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
-When  useBuilderFormatting  is  false , [DocumentBuilder](../../com.aspose.words/documentbuilder/) formating is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
+When  useBuilderFormatting  is  false , [DocumentBuilder](../../com.aspose.words/documentbuilder/) formatting is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
 When  useBuilderFormatting  is  true , formatting of inserted text is based on [DocumentBuilder](../../com.aspose.words/documentbuilder/) formatting, and the text looks as if it were inserted with [write(java.lang.String)](../../com.aspose.words/documentbuilder/\#write-java.lang.String).
 
@@ -3453,29 +3453,6 @@ Shows how to insert a hyperlink field.
  
 ```
 
-Shows how to insert a hyperlink which references a local bookmark.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- builder.startBookmark("Bookmark1");
- builder.write("Bookmarked text. ");
- builder.endBookmark("Bookmark1");
- builder.writeln("Text outside of the bookmark.");
-
- // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
- // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
- builder.getFont().setColor(Color.BLUE);
- builder.getFont().setUnderline(Underline.SINGLE);
- FieldHyperlink hyperlink = (FieldHyperlink)builder.insertHyperlink("Link to Bookmark1", "Bookmark1", true);
- hyperlink.setScreenTip("Hyperlink Tip");
-
- doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
- 
-```
-
 Shows how to use a document builder's formatting stack.
 
 ```
@@ -3507,6 +3484,29 @@ Shows how to use a document builder's formatting stack.
  builder.write(". We hope you enjoyed the example.");
 
  doc.save(getArtifactsDir() + "DocumentBuilder.PushPopFont.docx");
+ 
+```
+
+Shows how to insert a hyperlink which references a local bookmark.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.startBookmark("Bookmark1");
+ builder.write("Bookmarked text. ");
+ builder.endBookmark("Bookmark1");
+ builder.writeln("Text outside of the bookmark.");
+
+ // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
+ // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ FieldHyperlink hyperlink = (FieldHyperlink)builder.insertHyperlink("Link to Bookmark1", "Bookmark1", true);
+ hyperlink.setScreenTip("Hyperlink Tip");
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  
 ```
 
@@ -3837,16 +3837,53 @@ You can change the image size, location, positioning method and other settings u
 
  **Examples:** 
 
-Shows how to insert WebP image.
+Shows how to insert an image from the local file system into a document.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.insertImage(getImageDir() + "WebP image.webp");
+ // Below are three ways of inserting an image from a local system filename.
+ // 1 -  Inline shape with a default size based on the image's original dimensions:
+ builder.insertImage(getImageDir() + "Logo.jpg");
 
- doc.save(getArtifactsDir() + "Image.InsertWebpImage.docx");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 2 -  Inline shape with custom dimensions:
+ builder.insertImage(getImageDir() + "Transparent background logo.png", ConvertUtil.pixelToPoint(250.0),
+         ConvertUtil.pixelToPoint(144.0));
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 3 -  Floating shape with custom dimensions:
+ builder.insertImage(getImageDir() + "Windows MetaFile.wmf", RelativeHorizontalPosition.MARGIN, 100.0,
+         RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
+
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromFilename.docx");
+ 
+```
+
+Shows how to determine which image will be inserted.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Scalable Vector Graphics.svg");
+
+ // Aspose.Words insert SVG image to the document as PNG with svgBlip extension
+ // that contains the original vector SVG image representation.
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
+
+ // Aspose.Words insert SVG image to the document as PNG, just like Microsoft Word does for old format.
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
+
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+
+ // Aspose.Words insert SVG image to the document as EMF metafile to keep the image in vector representation.
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
  
 ```
 
@@ -3883,7 +3920,7 @@ Shows how to insert a shape with an image into a document.
 
  // 2 -  Pass a URL which points to an image.
  builder.write("Image from a URL: ");
- builder.insertImage(getAsposelogoUri().toURL().openStream());
+ builder.insertImage(getImageUri().toURL().openStream());
  builder.writeln();
 
  doc.save(getArtifactsDir() + "Image.FromUrl.docx");
@@ -3910,53 +3947,16 @@ Shows how to insert a floating image to the center of a page.
  
 ```
 
-Shows how to determine which image will be inserted.
+Shows how to insert WebP image.
 
 ```
 
  Document doc = new Document();
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.insertImage(getImageDir() + "Scalable Vector Graphics.svg");
+ builder.insertImage(getImageDir() + "WebP image.webp");
 
- // Aspose.Words insert SVG image to the document as PNG with svgBlip extension
- // that contains the original vector SVG image representation.
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
-
- // Aspose.Words insert SVG image to the document as PNG, just like Microsoft Word does for old format.
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
-
- doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
-
- // Aspose.Words insert SVG image to the document as EMF metafile to keep the image in vector representation.
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
- 
-```
-
-Shows how to insert an image from the local file system into a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Below are three ways of inserting an image from a local system filename.
- // 1 -  Inline shape with a default size based on the image's original dimensions:
- builder.insertImage(getImageDir() + "Logo.jpg");
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 2 -  Inline shape with custom dimensions:
- builder.insertImage(getImageDir() + "Transparent background logo.png", ConvertUtil.pixelToPoint(250.0),
-         ConvertUtil.pixelToPoint(144.0));
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 3 -  Floating shape with custom dimensions:
- builder.insertImage(getImageDir() + "Windows MetaFile.wmf", RelativeHorizontalPosition.MARGIN, 100.0,
-         RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
-
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromFilename.docx");
+ doc.save(getArtifactsDir() + "Image.InsertWebpImage.docx");
  
 ```
 
@@ -4357,7 +4357,7 @@ Shows how to insert an online video into a document with a custom thumbnail.
  String videoUrl = "https://vimeo.com/52477838";
  String videoEmbedCode = "";
 
- byte[] thumbnailImageBytes = IOUtils.toByteArray(getAsposelogoUri().toURL().openStream());
+ byte[] thumbnailImageBytes = IOUtils.toByteArray(getImageUri().toURL().openStream());
 
  BufferedImage image = ImageIO.read(new ByteArrayInputStream(thumbnailImageBytes));
 
@@ -4935,35 +4935,6 @@ When *node* is a block-level node but not a [Paragraph](../../com.aspose.words/p
 
  **Examples:** 
 
-Shows how to move a DocumentBuilder's cursor position to a specified node.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Run 1. ");
-
- // The document builder has a cursor, which acts as the part of the document
- // where the builder appends new nodes when we use its document construction methods.
- // This cursor functions in the same way as Microsoft Word's blinking cursor,
- // and it also always ends up immediately after any node that the builder just inserted.
- // To append content to a different part of the document,
- // we can move the cursor to a different node with the "MoveTo" method.
- builder.moveTo(doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0));
- // The cursor is now in front of the node that we moved it to.
- // Adding a second run will insert it in front of the first run.
- builder.writeln("Run 2. ");
-
- Assert.assertEquals("Run 2. \rRun 1.", doc.getText().trim());
-
- // Move the cursor to the end of the document to continue appending text to the end as before.
- builder.moveTo(doc.getLastSection().getBody().getLastParagraph());
- builder.writeln("Run 3. ");
-
- Assert.assertEquals("Run 2. \rRun 1. \rRun 3.", doc.getText().trim());
- 
-```
-
 Shows how to move a document builder's cursor to different nodes in a document.
 
 ```
@@ -5012,6 +4983,35 @@ Shows how to move a document builder's cursor to different nodes in a document.
  builder.moveToDocumentStart();
 
  Assert.assertTrue(builder.isAtStartOfParagraph());
+ 
+```
+
+Shows how to move a DocumentBuilder's cursor position to a specified node.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Run 1. ");
+
+ // The document builder has a cursor, which acts as the part of the document
+ // where the builder appends new nodes when we use its document construction methods.
+ // This cursor functions in the same way as Microsoft Word's blinking cursor,
+ // and it also always ends up immediately after any node that the builder just inserted.
+ // To append content to a different part of the document,
+ // we can move the cursor to a different node with the "MoveTo" method.
+ builder.moveTo(doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0));
+ // The cursor is now in front of the node that we moved it to.
+ // Adding a second run will insert it in front of the first run.
+ builder.writeln("Run 2. ");
+
+ Assert.assertEquals("Run 2. \rRun 1.", doc.getText().trim());
+
+ // Move the cursor to the end of the document to continue appending text to the end as before.
+ builder.moveTo(doc.getLastSection().getBody().getLastParagraph());
+ builder.writeln("Run 3. ");
+
+ Assert.assertEquals("Run 2. \rRun 1. \rRun 3.", doc.getText().trim());
  
 ```
 
@@ -6265,44 +6265,6 @@ Badly formed editable range will be ignored when the document is saved.
 
  **Examples:** 
 
-Shows how to create nested editable ranges.
-
-```
-
- Document doc = new Document();
- doc.protect(ProtectionType.READ_ONLY, "MyPassword");
-
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.writeln("Hello world! Since we have set the document's protection level to read-only, " +
-         "we cannot edit this paragraph without the password.");
-
- // Create two nested editable ranges.
- EditableRangeStart outerEditableRangeStart = builder.startEditableRange();
- builder.writeln("This paragraph inside the outer editable range and can be edited.");
-
- EditableRangeStart innerEditableRangeStart = builder.startEditableRange();
- builder.writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
-
- // Currently, the document builder's node insertion cursor is in more than one ongoing editable range.
- // When we want to end an editable range in this situation,
- // we need to specify which of the ranges we wish to end by passing its EditableRangeStart node.
- builder.endEditableRange(innerEditableRangeStart);
-
- builder.writeln("This paragraph inside the outer editable range and can be edited.");
-
- builder.endEditableRange(outerEditableRangeStart);
-
- builder.writeln("This paragraph is outside any editable ranges, and cannot be edited.");
-
- // If a region of text has two overlapping editable ranges with specified groups,
- // the combined group of users excluded by both groups are prevented from editing it.
- outerEditableRangeStart.getEditableRange().setEditorGroup(EditorType.EVERYONE);
- innerEditableRangeStart.getEditableRange().setEditorGroup(EditorType.CONTRIBUTORS);
-
- doc.save(getArtifactsDir() + "EditableRange.Nested.docx");
- 
-```
-
 Shows how to work with an editable range.
 
 ```
@@ -6343,6 +6305,44 @@ Shows how to work with an editable range.
 
  // Remove an editable range. All the nodes that were inside the range will remain intact.
  editableRange.remove();
+ 
+```
+
+Shows how to create nested editable ranges.
+
+```
+
+ Document doc = new Document();
+ doc.protect(ProtectionType.READ_ONLY, "MyPassword");
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world! Since we have set the document's protection level to read-only, " +
+         "we cannot edit this paragraph without the password.");
+
+ // Create two nested editable ranges.
+ EditableRangeStart outerEditableRangeStart = builder.startEditableRange();
+ builder.writeln("This paragraph inside the outer editable range and can be edited.");
+
+ EditableRangeStart innerEditableRangeStart = builder.startEditableRange();
+ builder.writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
+
+ // Currently, the document builder's node insertion cursor is in more than one ongoing editable range.
+ // When we want to end an editable range in this situation,
+ // we need to specify which of the ranges we wish to end by passing its EditableRangeStart node.
+ builder.endEditableRange(innerEditableRangeStart);
+
+ builder.writeln("This paragraph inside the outer editable range and can be edited.");
+
+ builder.endEditableRange(outerEditableRangeStart);
+
+ builder.writeln("This paragraph is outside any editable ranges, and cannot be edited.");
+
+ // If a region of text has two overlapping editable ranges with specified groups,
+ // the combined group of users excluded by both groups are prevented from editing it.
+ outerEditableRangeStart.getEditableRange().setEditorGroup(EditorType.EVERYONE);
+ innerEditableRangeStart.getEditableRange().setEditorGroup(EditorType.CONTRIBUTORS);
+
+ doc.save(getArtifactsDir() + "EditableRange.Nested.docx");
  
 ```
 
@@ -6427,6 +6427,49 @@ Shows how to build a table with custom borders.
  
 ```
 
+Shows how to build a formatted 2x2 table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
+ builder.write("Row 1, cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, cell 2.");
+ builder.endRow();
+
+ // While building the table, the document builder will apply its current RowFormat/CellFormat property values
+ // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
+
+ builder.insertCell();
+ builder.getRowFormat().setHeight(100.0);
+ builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
+ builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
+ builder.write("Row 2, cell 1.");
+ builder.insertCell();
+ builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ builder.write("Row 2, cell 2.");
+ builder.endRow();
+ builder.endTable();
+
+ // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+ Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+ Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+ Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
+ Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
+ 
+```
+
 Shows how to format cells with a document builder.
 
 ```
@@ -6471,49 +6514,6 @@ Shows how to format cells with a document builder.
  
 ```
 
-Shows how to build a formatted 2x2 table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- Table table = builder.startTable();
- builder.insertCell();
- builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
- builder.write("Row 1, cell 1.");
- builder.insertCell();
- builder.write("Row 1, cell 2.");
- builder.endRow();
-
- // While building the table, the document builder will apply its current RowFormat/CellFormat property values
- // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
- Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
-
- builder.insertCell();
- builder.getRowFormat().setHeight(100.0);
- builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
- builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
- builder.write("Row 2, cell 1.");
- builder.insertCell();
- builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
- builder.write("Row 2, cell 2.");
- builder.endRow();
- builder.endTable();
-
- // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
- Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
- Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
- Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
- Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
- Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
-
- doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
- 
-```
-
 **Returns:**
 [Table](../../com.aspose.words/table/) - The table node that was just created.
 ### write(String text) {#write-java.lang.String}
@@ -6544,32 +6544,6 @@ Shows how to insert a string surrounded by a border into a document.
  builder.write("Text surrounded by green border.");
 
  doc.save(getArtifactsDir() + "Border.FontBorder.docx");
- 
-```
-
-Shows how to use a document builder to create a table.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- // Start the table, then populate the first row with two cells.
- builder.startTable();
- builder.insertCell();
- builder.write("Row 1, Cell 1.");
- builder.insertCell();
- builder.write("Row 1, Cell 2.");
-
- // Call the builder's "EndRow" method to start a new row.
- builder.endRow();
- builder.insertCell();
- builder.write("Row 2, Cell 1.");
- builder.insertCell();
- builder.write("Row 2, Cell 2.");
- builder.endTable();
-
- doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
  
 ```
 
@@ -6633,6 +6607,32 @@ Shows how to build a table with custom borders.
  builder.endTable();
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
+ 
+```
+
+Shows how to use a document builder to create a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Start the table, then populate the first row with two cells.
+ builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2.");
+
+ // Call the builder's "EndRow" method to start a new row.
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Row 2, Cell 1.");
+ builder.insertCell();
+ builder.write("Row 2, Cell 2.");
+ builder.endTable();
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.CreateTable.docx");
  
 ```
 

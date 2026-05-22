@@ -70,26 +70,6 @@ Creates new instance of the replacer processor.
 
  **Examples:** 
 
-Shows how to replace string with regex in the document using context.
-
-```
-
- // There is a several ways to replace string with regex in the document:
- String doc = getMyDir() + "Footer.docx";
- Pattern pattern = Pattern.compile("gr(a|e)y");
- String replacement = "lavender";
-
- ReplacerContext replacerContext = new ReplacerContext();
- replacerContext.setReplacement(pattern, replacement);
- replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
- Replacer.create(replacerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
-         .execute();
- 
-```
-
 Shows how to replace string in the document using context.
 
 ```
@@ -106,6 +86,49 @@ Shows how to replace string in the document using context.
  Replacer.create(replacerContext)
          .from(doc)
          .to(getArtifactsDir() + "LowCode.ReplaceContext.docx")
+         .execute();
+ 
+```
+
+Shows how to replace string in the document using documents from the stream using context.
+
+```
+
+ // There is a several ways to replace string in the document using documents from the stream:
+ String pattern = "(C)2006 Aspose Pty Ltd.";
+ String replacement = "Copyright (C) 2024 by Aspose Pty Ltd.";
+
+ try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Footer.docx")) {
+     ReplacerContext replacerContext = new ReplacerContext();
+     replacerContext.setReplacement(pattern, replacement);
+     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStream.docx")) {
+         Replacer.create(replacerContext)
+                 .from(streamIn)
+                 .to(streamOut, SaveFormat.DOCX)
+                 .execute();
+     }
+ }
+ 
+```
+
+Shows how to replace string with regex in the document using context.
+
+```
+
+ // There is a several ways to replace string with regex in the document:
+ String doc = getMyDir() + "Footer.docx";
+ Pattern pattern = Pattern.compile("gr(a|e)y");
+ String replacement = "lavender";
+
+ ReplacerContext replacerContext = new ReplacerContext();
+ replacerContext.setReplacement(pattern, replacement);
+ replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
+
+ Replacer.create(replacerContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ReplaceContextRegex.docx")
          .execute();
  
 ```
@@ -133,29 +156,6 @@ Shows how to replace string with regex in the document using documents from the 
  
 ```
 
-Shows how to replace string in the document using documents from the stream using context.
-
-```
-
- // There is a several ways to replace string in the document using documents from the stream:
- String pattern = "(C)2006 Aspose Pty Ltd.";
- String replacement = "Copyright (C) 2024 by Aspose Pty Ltd.";
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Footer.docx")) {
-     ReplacerContext replacerContext = new ReplacerContext();
-     replacerContext.setReplacement(pattern, replacement);
-     replacerContext.getFindReplaceOptions().setFindWholeWordsOnly(false);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ReplaceContextStream.docx")) {
-         Replacer.create(replacerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -172,77 +172,6 @@ public void execute()
 Execute the processor action.
 
  **Examples:** 
-
-Shows how to convert documents with a single line of code using context.
-
-```
-
- String doc = getMyDir() + "Big document.docx";
-
- ConverterContext converterContext = new ConverterContext();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
-         .execute();
-
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- {
-     saveOptions.setPassword("Aspose.Words");
- }
- LoadOptions loadOptions = new LoadOptions();
- {
-     loadOptions.setIgnoreOleData(true);
- }
- Converter.create(converterContext)
-         .from(doc, loadOptions)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
-         .execute();
- 
-```
-
-Shows how to convert documents from a stream with a single line of code using context.
-
-```
-
- String doc = getMyDir() + "Document.docx";
- ConverterContext converterContext = new ConverterContext();
-
- try (FileInputStream streamIn = new FileInputStream(doc)) {
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ConvertContextStream.1.docx")) {
-         Converter.create(converterContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.RTF)
-                 .execute();
-     }
-
-     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-     {
-         saveOptions.setPassword("Aspose.Words");
-     }
-     LoadOptions loadOptions = new LoadOptions();
-     {
-         loadOptions.setIgnoreOleData(true);
-     }
-     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.ConvertContextStream.2.docx")) {
-         Converter.create(converterContext)
-                 .from(streamIn, loadOptions)
-                 .to(streamOut1, saveOptions)
-                 .execute();
-     }
- }
- 
-```
 
 Shows how to merge documents into a single output document using context.
 
@@ -332,38 +261,43 @@ Shows how to merge documents from stream into a single output document using con
  
 ```
 
-### from(InputStream input) {#from-java.io.InputStream}
-```
-public Processor from(InputStream input)
-```
+Shows how to convert documents with a single line of code using context.
 
-
-Specifies input document for processing.
-
- **Remarks:** 
-
-If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| input | java.io.InputStream | Input document stream. |
-
-**Returns:**
-[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
-### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
-```
-public Processor from(InputStream input, LoadOptions loadOptions)
 ```
 
+ String doc = getMyDir() + "Big document.docx";
 
-Specifies input document for processing.
+ ConverterContext converterContext = new ConverterContext();
 
- **Remarks:** 
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
+         .execute();
 
-If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
+         .execute();
 
- **Examples:** 
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.create(converterContext)
+         .from(doc, loadOptions)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
+         .execute();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
+         .execute();
+ 
+```
 
 Shows how to convert documents from a stream with a single line of code using context.
 
@@ -397,6 +331,39 @@ Shows how to convert documents from a stream with a single line of code using co
  }
  
 ```
+
+### from(InputStream input) {#from-java.io.InputStream}
+```
+public Processor from(InputStream input)
+```
+
+
+Specifies input document for processing.
+
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| input | java.io.InputStream | Input document stream. |
+
+**Returns:**
+[Processor](../../com.aspose.words/processor/) - Returns processor with specified input file stream.
+### from(InputStream input, LoadOptions loadOptions) {#from-java.io.InputStream-com.aspose.words.LoadOptions}
+```
+public Processor from(InputStream input, LoadOptions loadOptions)
+```
+
+
+Specifies input document for processing.
+
+ **Remarks:** 
+
+If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../com.aspose.words/merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../com.aspose.words/converter/) processor accepts only one file as an input, so only the last specified file will be converted.
+
+ **Examples:** 
 
 Shows how to merge documents from stream into a single output document using context.
 
@@ -438,6 +405,39 @@ Shows how to merge documents from stream into a single output document using con
                      .to(streamOut1, SaveFormat.DOCX)
                      .execute();
          }
+     }
+ }
+ 
+```
+
+Shows how to convert documents from a stream with a single line of code using context.
+
+```
+
+ String doc = getMyDir() + "Document.docx";
+ ConverterContext converterContext = new ConverterContext();
+
+ try (FileInputStream streamIn = new FileInputStream(doc)) {
+     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.ConvertContextStream.1.docx")) {
+         Converter.create(converterContext)
+                 .from(streamIn)
+                 .to(streamOut, SaveFormat.RTF)
+                 .execute();
+     }
+
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+     {
+         saveOptions.setPassword("Aspose.Words");
+     }
+     LoadOptions loadOptions = new LoadOptions();
+     {
+         loadOptions.setIgnoreOleData(true);
+     }
+     try (FileOutputStream streamOut1 = new FileOutputStream(getArtifactsDir() + "LowCode.ConvertContextStream.2.docx")) {
+         Converter.create(converterContext)
+                 .from(streamIn, loadOptions)
+                 .to(streamOut1, saveOptions)
+                 .execute();
      }
  }
  
@@ -484,44 +484,6 @@ If the processor accepts only one file as an input, only the last specified file
 
  **Examples:** 
 
-Shows how to convert documents with a single line of code using context.
-
-```
-
- String doc = getMyDir() + "Big document.docx";
-
- ConverterContext converterContext = new ConverterContext();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
-         .execute();
-
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- {
-     saveOptions.setPassword("Aspose.Words");
- }
- LoadOptions loadOptions = new LoadOptions();
- {
-     loadOptions.setIgnoreOleData(true);
- }
- Converter.create(converterContext)
-         .from(doc, loadOptions)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
-         .execute();
- 
-```
-
 Shows how to merge documents into a single output document using context.
 
 ```
@@ -561,6 +523,44 @@ Shows how to merge documents into a single output document using context.
          .from(inputDoc1)
          .from(inputDoc2)
          .to(getArtifactsDir() + "LowCode.MergeContextDocuments.3.docx", saveOptions)
+         .execute();
+ 
+```
+
+Shows how to convert documents with a single line of code using context.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ ConverterContext converterContext = new ConverterContext();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
+         .execute();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
+         .execute();
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.create(converterContext)
+         .from(doc, loadOptions)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
+         .execute();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
          .execute();
  
 ```
@@ -1284,44 +1284,6 @@ If the output consists of multiple files, the specified output file name is used
 
  **Examples:** 
 
-Shows how to convert documents with a single line of code using context.
-
-```
-
- String doc = getMyDir() + "Big document.docx";
-
- ConverterContext converterContext = new ConverterContext();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
-         .execute();
-
- OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
- {
-     saveOptions.setPassword("Aspose.Words");
- }
- LoadOptions loadOptions = new LoadOptions();
- {
-     loadOptions.setIgnoreOleData(true);
- }
- Converter.create(converterContext)
-         .from(doc, loadOptions)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
-         .execute();
-
- Converter.create(converterContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
-         .execute();
- 
-```
-
 Shows how to merge documents into a single output document using context.
 
 ```
@@ -1361,6 +1323,44 @@ Shows how to merge documents into a single output document using context.
          .from(inputDoc1)
          .from(inputDoc2)
          .to(getArtifactsDir() + "LowCode.MergeContextDocuments.3.docx", saveOptions)
+         .execute();
+ 
+```
+
+Shows how to convert documents with a single line of code using context.
+
+```
+
+ String doc = getMyDir() + "Big document.docx";
+
+ ConverterContext converterContext = new ConverterContext();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.1.pdf")
+         .execute();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.2.pdf", SaveFormat.RTF)
+         .execute();
+
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ {
+     saveOptions.setPassword("Aspose.Words");
+ }
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setIgnoreOleData(true);
+ }
+ Converter.create(converterContext)
+         .from(doc, loadOptions)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.3.docx", saveOptions)
+         .execute();
+
+ Converter.create(converterContext)
+         .from(doc)
+         .to(getArtifactsDir() + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.PNG))
          .execute();
  
 ```
