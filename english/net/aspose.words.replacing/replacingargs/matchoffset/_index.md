@@ -21,35 +21,36 @@ public int MatchOffset { get; }
 Shows how to apply a different font to new content via FindReplaceOptions.
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.Font.Name = "Arial";
-    builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
-                    "123, 456, 789 and 17379.");
+builder.Font.Name = "Arial";
+builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
+                "123, 456, 789 and 17379.");
 
-    // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-    FindReplaceOptions options = new FindReplaceOptions();
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
 
-    // Set the "HighlightColor" property to a background color that we want to apply to the operation's resulting text.
-    options.ApplyFont.HighlightColor = Color.LightGray;
+// Set the "HighlightColor" property to a background color that we want to apply to the operation's resulting text.
+options.ApplyFont.HighlightColor = Color.LightGray;
 
-    NumberHexer numberHexer = new NumberHexer();
-    options.ReplacingCallback = numberHexer;
+NumberHexer numberHexer = new NumberHexer();
+options.ReplacingCallback = numberHexer;
 
-    int replacementCount = doc.Range.Replace(new Regex("[0-9]+"), "", options);
+int replacementCount = doc.Range.Replace(new Regex("[0-9]+"), "", options);
 
-    Console.WriteLine(numberHexer.GetLog());
+Console.WriteLine(numberHexer.GetLog());
 
-    Assert.That(replacementCount, Is.EqualTo(4));
-    Assert.That(doc.GetText().Trim(), Is.EqualTo("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
-                    "0x7B, 0x1C8, 0x315 and 0x43E3."));
-    Assert.That(doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
-            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()), Is.EqualTo(4));
-}
+Assert.That(replacementCount, Is.EqualTo(4));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
+                "0x7B, 0x1C8, 0x315 and 0x43E3."));
+Assert.That(doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
+        .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()), Is.EqualTo(4));
+```
 
+Shows how to apply a different font to new content via FindReplaceOptions (NumberHexer).
+
+```csharp
 /// <summary>
 /// Replaces numeric find-and-replacement matches with their hexadecimal equivalents.
 /// Maintains a log of every replacement.

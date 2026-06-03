@@ -21,26 +21,27 @@ public Node Node { get; }
 Shows how customize node changing with a callback.
 
 ```csharp
-public void FontChangeViaCallback()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Set the node changing callback to custom implementation,
-    // then add/remove nodes to get it to generate a log.
-    HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
-    doc.NodeChangingCallback = callback;
+// Set the node changing callback to custom implementation,
+// then add/remove nodes to get it to generate a log.
+HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+doc.NodeChangingCallback = callback;
 
-    builder.Writeln("Hello world!");
-    builder.Writeln("Hello again!");
-    builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
-    builder.InsertShape(ShapeType.Rectangle, 300, 300);
+builder.Writeln("Hello world!");
+builder.Writeln("Hello again!");
+builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
+builder.InsertShape(ShapeType.Rectangle, 300, 300);
 
-    doc.Range.Fields[0].Remove();
+doc.Range.Fields[0].Remove();
 
-    Console.WriteLine(callback.GetLog());
-}
+Console.WriteLine(callback.GetLog());
+```
 
+Shows how customize node changing with a callback (HandleNodeChangingFontChanger).
+
+```csharp
 /// <summary>
 /// Logs the date and time of each node insertion and removal.
 /// Sets a custom font name/size for the text contents of Run nodes.

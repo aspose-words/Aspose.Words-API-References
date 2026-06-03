@@ -33,7 +33,7 @@ saveOptions.SaveFormat = SaveFormat.Docling;
 // Set to false (default) to exclude non-image shapes from the output.
 saveOptions.RenderNonImageShapes = true;
 
-doc.Save(ArtifactsDir + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+doc.Save(ArtifactsDir + "Document.DoclingJson.json", saveOptions);
 ```
 
 ### See Also

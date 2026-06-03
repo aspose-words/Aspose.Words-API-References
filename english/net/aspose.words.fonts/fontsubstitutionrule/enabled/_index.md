@@ -18,37 +18,6 @@ public virtual bool Enabled { get; set; }
 
 ## Examples
 
-Shows operating system-dependent font config substitution.
-
-```csharp
-FontSettings fontSettings = new FontSettings();
-FontConfigSubstitutionRule fontConfigSubstitution =
-    fontSettings.SubstitutionSettings.FontConfigSubstitution;
-
-bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
-    .Any(p => Environment.OSVersion.Platform == p);
-
-// The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
-// On Windows, it is unavailable.
-if (isWindows)
-{
-    Assert.That(fontConfigSubstitution.Enabled, Is.False);
-    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.False);
-}
-
-bool isLinuxOrMac =
-    new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
-
-// On Linux/Mac, we will have access to it, and will be able to perform operations.
-if (isLinuxOrMac)
-{
-    Assert.That(fontConfigSubstitution.Enabled, Is.True);
-    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.True);
-
-    fontConfigSubstitution.ResetCache();
-}
-```
-
 Shows how to access a document's system font source and set font substitutes.
 
 ```csharp
@@ -95,6 +64,37 @@ Assert.That(doc.FontSettings.GetFontsSources().Length, Is.EqualTo(1));
 Assert.That(doc.FontSettings.GetFontsSources()[0].Type, Is.EqualTo(FontSourceType.SystemFonts));
 Assert.That(doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count(), Is.EqualTo(1));
 Assert.That(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled, Is.True);
+```
+
+Shows operating system-dependent font config substitution.
+
+```csharp
+FontSettings fontSettings = new FontSettings();
+FontConfigSubstitutionRule fontConfigSubstitution =
+    fontSettings.SubstitutionSettings.FontConfigSubstitution;
+
+bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
+    .Any(p => Environment.OSVersion.Platform == p);
+
+// The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+// On Windows, it is unavailable.
+if (isWindows)
+{
+    Assert.That(fontConfigSubstitution.Enabled, Is.False);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.False);
+}
+
+bool isLinuxOrMac =
+    new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
+
+// On Linux/Mac, we will have access to it, and will be able to perform operations.
+if (isLinuxOrMac)
+{
+    Assert.That(fontConfigSubstitution.Enabled, Is.True);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.True);
+
+    fontConfigSubstitution.ResetCache();
+}
 ```
 
 ### See Also

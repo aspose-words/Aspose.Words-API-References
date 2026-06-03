@@ -22,35 +22,36 @@ public XPathNavigator CreateNavigator()
 Shows how to create an XPathNavigator, and then use it to traverse and read nodes.
 
 ```csharp
-public void NodeXPathNavigator()
+Document doc = new Document();
+XPathNavigator navigator = doc.CreateNavigator();
+
+if (navigator != null)
 {
-    Document doc = new Document();
-    XPathNavigator navigator = doc.CreateNavigator();
+    Assert.That(navigator.Name, Is.EqualTo("Document"));
+    Assert.That(navigator.MoveToNext(), Is.EqualTo(false));
+    Assert.That(navigator.SelectChildren(XPathNodeType.All).Count, Is.EqualTo(1));
 
-    if (navigator != null)
-    {
-        Assert.That(navigator.Name, Is.EqualTo("Document"));
-        Assert.That(navigator.MoveToNext(), Is.EqualTo(false));
-        Assert.That(navigator.SelectChildren(XPathNodeType.All).Count, Is.EqualTo(1));
+    // The document tree has the document, first section,
+    // body, and first paragraph as nodes, with each being an only child of the previous.
+    // We can add a few more to give the tree some branches for the navigator to traverse.
+    DocumentBuilder docBuilder = new DocumentBuilder(doc);
+    docBuilder.Write("Section 1, Paragraph 1. ");
+    docBuilder.InsertParagraph();
+    docBuilder.Write("Section 1, Paragraph 2. ");
+    doc.AppendChild(new Section(doc));
+    docBuilder.MoveToSection(1);
+    docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // The document tree has the document, first section,
-        // body, and first paragraph as nodes, with each being an only child of the previous.
-        // We can add a few more to give the tree some branches for the navigator to traverse.
-        DocumentBuilder docBuilder = new DocumentBuilder(doc);
-        docBuilder.Write("Section 1, Paragraph 1. ");
-        docBuilder.InsertParagraph();
-        docBuilder.Write("Section 1, Paragraph 2. ");
-        doc.AppendChild(new Section(doc));
-        docBuilder.MoveToSection(1);
-        docBuilder.Write("Section 2, Paragraph 1. ");
-
-        // Use our navigator to print a map of all the nodes in the document to the console.
-        StringBuilder stringBuilder = new StringBuilder();
-        MapDocument(navigator, stringBuilder, 0);
-        Console.Write(stringBuilder.ToString());
-    }
+    // Use our navigator to print a map of all the nodes in the document to the console.
+    StringBuilder stringBuilder = new StringBuilder();
+    MapDocument(navigator, stringBuilder, 0);
+    Console.Write(stringBuilder.ToString());
 }
+```
 
+Shows how to create an XPathNavigator, and then use it to traverse and read nodes (MapDocument).
+
+```csharp
 /// <summary>
 /// Traverses all children of a composite node and map the structure in the style of a directory tree.
 /// The amount of space indentation indicates depth relative to the initial node.

@@ -35,21 +35,6 @@ public class Metered
 
 ## Examples
 
-In this example, an attempt will be made to set metered public and private key
-
-```csharp
-[C#]
-
-Metered matered = new Metered();
-matered.SetMeteredKey("PublicKey", "PrivateKey");
-
-
-[Visual Basic]
-
-Dim matered As Metered = New Metered
-matered.SetMeteredKey("PublicKey", "PrivateKey")
-```
-
 Shows how to activate a Metered license and track credit/consumption.
 
 ```csharp

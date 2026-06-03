@@ -25,49 +25,52 @@ The number of milliseconds that Aspose.Words waits for a response, when loading 
 Shows how to set a time limit for web requests when loading a document with external resources linked by URLs.
 
 ```csharp
-public void WebRequestTimeout()
-{
-    // Create a new HtmlLoadOptions object and verify its timeout threshold for a web request.
-    HtmlLoadOptions options = new HtmlLoadOptions();
+string imageUri = "https://samplelib.com/png/sample-alpha-circle-400x300.png";
 
-    // When loading an Html document with resources externally linked by a web address URL,
-    // Aspose.Words will abort web requests that fail to fetch the resources within this time limit, in milliseconds.
-    Assert.That(options.WebRequestTimeout, Is.EqualTo(100000));
+// Create a new HtmlLoadOptions object and verify its timeout threshold for a web request.
+HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // Set a WarningCallback that will record all warnings that occur during loading.
-    ListDocumentWarnings warningCallback = new ListDocumentWarnings();
-    options.WarningCallback = warningCallback;
+// When loading an Html document with resources externally linked by a web address URL,
+// Aspose.Words will abort web requests that fail to fetch the resources within this time limit, in milliseconds.
+Assert.That(options.WebRequestTimeout, Is.EqualTo(100000));
 
-    // Load such a document and verify that a shape with image data has been created.
-    // This linked image will require a web request to load, which will have to complete within our time limit.
-    string html = $@"
-        <html>
-            <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
-        </html>
-    ";
+// Set a WarningCallback that will record all warnings that occur during loading.
+ListDocumentWarnings warningCallback = new ListDocumentWarnings();
+options.WarningCallback = warningCallback;
 
-    // Set an unreasonable timeout limit and try load the document again.
-    options.WebRequestTimeout = 0;
-    Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
-    Assert.That(warningCallback.Warnings().Count, Is.EqualTo(2));
+// Load such a document and verify that a shape with image data has been created.
+// This linked image will require a web request to load, which will have to complete within our time limit.
+string html = $@"
+    <html>
+        <img src=""{imageUri}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
+    </html>
+";
 
-    // A web request that fails to obtain an image within the time limit will still produce an image.
-    // However, the image will be the red 'x' that commonly signifies missing images.
-    Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-    Assert.That(imageShape.ImageData.ImageBytes.Length, Is.EqualTo(924));
+// Set an unreasonable timeout limit and try load the document again.
+options.WebRequestTimeout = 0;
+Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), options);
+Assert.That(warningCallback.Warnings().Count, Is.EqualTo(2));
 
-    // We can also configure a custom callback to pick up any warnings from timed out web requests.
-    Assert.That(warningCallback.Warnings()[0].Source, Is.EqualTo(WarningSource.Html));
-    Assert.That(warningCallback.Warnings()[0].WarningType, Is.EqualTo(WarningType.DataLoss));
-    Assert.That(warningCallback.Warnings()[0].Description, Is.EqualTo($"Couldn't load a resource from \'{ImageUrl}\'."));
+// A web request that fails to obtain an image within the time limit will still produce an image.
+// However, the image will be the red 'x' that commonly signifies missing images.
+Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.That(imageShape.ImageData.ImageBytes.Length, Is.EqualTo(924));
 
-    Assert.That(warningCallback.Warnings()[1].Source, Is.EqualTo(WarningSource.Html));
-    Assert.That(warningCallback.Warnings()[1].WarningType, Is.EqualTo(WarningType.DataLoss));
-    Assert.That(warningCallback.Warnings()[1].Description, Is.EqualTo("Image has been replaced with a placeholder."));
+// We can also configure a custom callback to pick up any warnings from timed out web requests.
+Assert.That(warningCallback.Warnings()[0].Source, Is.EqualTo(WarningSource.Html));
+Assert.That(warningCallback.Warnings()[0].WarningType, Is.EqualTo(WarningType.DataLoss));
+Assert.That(warningCallback.Warnings()[0].Description, Is.EqualTo($"Couldn't load a resource from \'{imageUri}\'."));
 
-    doc.Save(ArtifactsDir + "HtmlLoadOptions.WebRequestTimeout.docx");
-}
+Assert.That(warningCallback.Warnings()[1].Source, Is.EqualTo(WarningSource.Html));
+Assert.That(warningCallback.Warnings()[1].WarningType, Is.EqualTo(WarningType.DataLoss));
+Assert.That(warningCallback.Warnings()[1].Description, Is.EqualTo("Image has been replaced with a placeholder."));
 
+doc.Save(ArtifactsDir + "HtmlLoadOptions.WebRequestTimeout.docx");
+```
+
+Shows how to set a time limit for web requests when loading a document with external resources linked by URLs (ListDocumentWarnings).
+
+```csharp
 /// <summary>
 /// Stores all warnings that occur during a document loading operation in a List.
 /// </summary>

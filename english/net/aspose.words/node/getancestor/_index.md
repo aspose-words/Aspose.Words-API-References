@@ -33,29 +33,30 @@ The ancestor type matches if it is equal to *ancestorType* or derived from *ance
 Shows how to find out if a tables are nested.
 
 ```csharp
-public void CalculateDepthOfNestedTables()
+Document doc = new Document(MyDir + "Nested tables.docx");
+NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+for (int i = 0; i < tables.Count; i++)
 {
-    Document doc = new Document(MyDir + "Nested tables.docx");
-    NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-    for (int i = 0; i < tables.Count; i++)
-    {
-        Table table = (Table)tables[i];
+    Table table = (Table)tables[i];
 
-        // Find out if any cells in the table have other tables as children.
-        int count = GetChildTableCount(table);
-        Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
+    // Find out if any cells in the table have other tables as children.
+    int count = GetChildTableCount(table);
+    Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Find out if the table is nested inside another table, and, if so, at what depth.
-        int tableDepth = GetNestedDepthOfTable(table);
+    // Find out if the table is nested inside another table, and, if so, at what depth.
+    int tableDepth = GetNestedDepthOfTable(table);
 
-        if (tableDepth > 0)
-            Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
-                tableDepth);
-        else
-            Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
-    }
+    if (tableDepth > 0)
+        Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
+            tableDepth);
+    else
+        Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
 }
+```
 
+Shows how to find out if a tables are nested (GetNestedDepthOfTable).
+
+```csharp
 /// <summary>
 /// Calculates what level a table is nested inside other tables.
 /// </summary>
@@ -133,29 +134,30 @@ The ancestor of the specified type or `null` if no ancestor of this type was fou
 Shows how to find out if a tables are nested.
 
 ```csharp
-public void CalculateDepthOfNestedTables()
+Document doc = new Document(MyDir + "Nested tables.docx");
+NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+for (int i = 0; i < tables.Count; i++)
 {
-    Document doc = new Document(MyDir + "Nested tables.docx");
-    NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-    for (int i = 0; i < tables.Count; i++)
-    {
-        Table table = (Table)tables[i];
+    Table table = (Table)tables[i];
 
-        // Find out if any cells in the table have other tables as children.
-        int count = GetChildTableCount(table);
-        Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
+    // Find out if any cells in the table have other tables as children.
+    int count = GetChildTableCount(table);
+    Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Find out if the table is nested inside another table, and, if so, at what depth.
-        int tableDepth = GetNestedDepthOfTable(table);
+    // Find out if the table is nested inside another table, and, if so, at what depth.
+    int tableDepth = GetNestedDepthOfTable(table);
 
-        if (tableDepth > 0)
-            Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
-                tableDepth);
-        else
-            Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
-    }
+    if (tableDepth > 0)
+        Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
+            tableDepth);
+    else
+        Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
 }
+```
 
+Shows how to find out if a tables are nested (GetNestedDepthOfTable).
+
+```csharp
 /// <summary>
 /// Calculates what level a table is nested inside other tables.
 /// </summary>

@@ -22,6 +22,55 @@ Document may generate warnings at any stage of its existence, so it's important 
 
 ## Examples
 
+Shows how to use the IWarningCallback interface to monitor font substitution warnings.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Times New Roman";
+builder.Writeln("Hello world!");
+
+FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
+doc.WarningCallback = callback;
+
+// Store the current collection of font sources, which will be the default font source for every document
+// for which we do not specify a different font source.
+FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+// For testing purposes, we will set Aspose.Words to look for fonts only in a folder that does not exist.
+FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
+
+// When rendering the document, there will be no place to find the "Times New Roman" font.
+// This will cause a font substitution warning, which our callback will detect.
+doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
+
+FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
+
+Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
+Assert.That(callback.FontSubstitutionWarnings[0].Description
+    .Equals(
+        "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
+```
+
+Shows how to use the IWarningCallback interface to monitor font substitution warnings (FontSubstitutionWarningCollector).
+
+```csharp
+private class FontSubstitutionWarningCollector : IWarningCallback
+{
+    /// <summary>
+    /// Called every time a warning occurs during loading/saving.
+    /// </summary>
+    public void Warning(WarningInfo info)
+    {
+        if (info.WarningType == WarningType.FontSubstitution)
+            FontSubstitutionWarnings.Warning(info);
+    }
+
+    public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+}
+```
+
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
 ```csharp
@@ -48,54 +97,6 @@ foreach (WarningInfo info in warningCollector)
 {
     if (info.WarningType == WarningType.FontSubstitution)
         Console.WriteLine(info.Description);
-}
-```
-
-Shows how to use the IWarningCallback interface to monitor font substitution warnings.
-
-```csharp
-public void SubstitutionWarning()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-
-    builder.Font.Name = "Times New Roman";
-    builder.Writeln("Hello world!");
-
-    FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
-    doc.WarningCallback = callback;
-
-    // Store the current collection of font sources, which will be the default font source for every document
-    // for which we do not specify a different font source.
-    FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
-
-    // For testing purposes, we will set Aspose.Words to look for fonts only in a folder that does not exist.
-    FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
-
-    // When rendering the document, there will be no place to find the "Times New Roman" font.
-    // This will cause a font substitution warning, which our callback will detect.
-    doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
-
-    FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
-
-    Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
-    Assert.That(callback.FontSubstitutionWarnings[0].Description
-        .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
-}
-
-private class FontSubstitutionWarningCollector : IWarningCallback
-{
-    /// <summary>
-    /// Called every time a warning occurs during loading/saving.
-    /// </summary>
-    public void Warning(WarningInfo info)
-    {
-        if (info.WarningType == WarningType.FontSubstitution)
-            FontSubstitutionWarnings.Warning(info);
-    }
-
-    public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
 }
 ```
 

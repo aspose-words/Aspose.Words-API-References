@@ -56,25 +56,6 @@ At the moment provides only the [`SaveFormat`](./saveformat/) property, but in t
 
 ## Examples
 
-Shows how to manage memory optimization.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Hello world!");
-
-// Create a "WordML2003SaveOptions" object to pass to the document's "Save" method
-// to modify how we save the document to the WordML save format.
-WordML2003SaveOptions options = new WordML2003SaveOptions();
-
-// Set the "MemoryOptimization" flag to "true" to decrease memory consumption
-// during the document's saving operation at the cost of a longer saving time.
-// Set the "MemoryOptimization" flag to "false" to save the document normally.
-options.MemoryOptimization = memoryOptimization;
-
-doc.Save(ArtifactsDir + "WordML2003SaveOptions.MemoryOptimization.xml", options);
-```
-
 Shows how to manage output document's raw content.
 
 ```csharp
@@ -115,6 +96,25 @@ else
         "<o:DocumentProperties><o:Revision>1</o:Revision><o:TotalTime>0</o:TotalTime><o:Pages>1</o:Pages>" +
         "<o:Words>0</o:Words><o:Characters>0</o:Characters><o:Lines>1</o:Lines><o:Paragraphs>1</o:Paragraphs>" +
         "<o:CharactersWithSpaces>0</o:CharactersWithSpaces><o:Version>11.5606</o:Version></o:DocumentProperties>"), Is.True);
+```
+
+Shows how to manage memory optimization.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+// Create a "WordML2003SaveOptions" object to pass to the document's "Save" method
+// to modify how we save the document to the WordML save format.
+WordML2003SaveOptions options = new WordML2003SaveOptions();
+
+// Set the "MemoryOptimization" flag to "true" to decrease memory consumption
+// during the document's saving operation at the cost of a longer saving time.
+// Set the "MemoryOptimization" flag to "false" to save the document normally.
+options.MemoryOptimization = memoryOptimization;
+
+doc.Save(ArtifactsDir + "WordML2003SaveOptions.MemoryOptimization.xml", options);
 ```
 
 ### See Also

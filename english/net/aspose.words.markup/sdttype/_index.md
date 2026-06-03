@@ -40,62 +40,6 @@ public enum SdtType
 
 ## Examples
 
-Shows how to create a structured document tag of the Citation type.
-
-```csharp
-Document doc = new Document();
-
-StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
-Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
-paragraph.AppendChild(sdt);
-
-// Create a Citation field.
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.MoveToParagraph(0, -1);
-builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
-
-// Move the field to the structured document tag.
-while (sdt.NextSibling != null)
-    sdt.AppendChild(sdt.NextSibling);
-
-doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
-```
-
-Shows how to create group structured document tag at the Row level.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-
-// Create a Group structured document tag at the Row level.
-StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
-table.AppendChild(groupSdt);
-groupSdt.IsShowingPlaceholderText = false;
-groupSdt.RemoveAllChildren();
-
-// Create a child row of the structured document tag.
-Row row = new Row(doc);
-groupSdt.AppendChild(row);
-
-Cell cell = new Cell(doc);
-row.AppendChild(cell);
-
-builder.EndTable();
-
-// Insert cell contents.
-cell.EnsureMinimum();
-builder.MoveTo(cell.LastParagraph);
-builder.Write("Lorem ipsum dolor.");
-
-// Insert text after the table.
-builder.MoveTo(table.NextSibling);
-builder.Write("Nulla blandit nisi.");
-
-doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
-```
-
 Shows how to work with styles for content control elements.
 
 ```csharp
@@ -189,6 +133,62 @@ authorSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/author[1]", string.E
 row.AppendChild(authorSdt);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
+```
+
+Shows how to create group structured document tag at the Row level.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+
+// Create a Group structured document tag at the Row level.
+StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
+table.AppendChild(groupSdt);
+groupSdt.IsShowingPlaceholderText = false;
+groupSdt.RemoveAllChildren();
+
+// Create a child row of the structured document tag.
+Row row = new Row(doc);
+groupSdt.AppendChild(row);
+
+Cell cell = new Cell(doc);
+row.AppendChild(cell);
+
+builder.EndTable();
+
+// Insert cell contents.
+cell.EnsureMinimum();
+builder.MoveTo(cell.LastParagraph);
+builder.Write("Lorem ipsum dolor.");
+
+// Insert text after the table.
+builder.MoveTo(table.NextSibling);
+builder.Write("Nulla blandit nisi.");
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
+```
+
+Shows how to create a structured document tag of the Citation type.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+paragraph.AppendChild(sdt);
+
+// Create a Citation field.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.MoveToParagraph(0, -1);
+builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
+
+// Move the field to the structured document tag.
+while (sdt.NextSibling != null)
+    sdt.AppendChild(sdt.NextSibling);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
 ```
 
 ### See Also

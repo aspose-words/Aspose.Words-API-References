@@ -18,17 +18,6 @@ public double Radius { get; set; }
 
 ## Examples
 
-Shows how to set limit for image resolution.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-SvgSaveOptions saveOptions = new SvgSaveOptions();
-saveOptions.MaxImageResolution = 72;
-
-doc.Save(ArtifactsDir + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
-```
-
 Shows how to work with soft edge formatting.
 
 ```csharp
@@ -53,6 +42,17 @@ softEdgeFormat.Remove();
 
 // Check radius of the removed soft edge.
 Assert.That(softEdgeFormat.Radius, Is.EqualTo(0));
+```
+
+Shows how to set limit for image resolution.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+SvgSaveOptions saveOptions = new SvgSaveOptions();
+saveOptions.MaxImageResolution = 72;
+
+doc.Save(ArtifactsDir + "SvgSaveOptions.MaxImageResolution.svg", saveOptions);
 ```
 
 ### See Also

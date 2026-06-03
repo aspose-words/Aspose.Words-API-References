@@ -21,30 +21,31 @@ public int RecordIndex { get; }
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
 ```csharp
-public void InsertCheckBox()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Use MERGEFIELDs with "TableStart"/"TableEnd" tags to define a mail merge region
-    // which belongs to a data source named "StudentCourse" and has a MERGEFIELD which accepts data from a column named "CourseName".
-    builder.StartTable();
-    builder.InsertCell();
-    builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
-    builder.InsertCell();
-    builder.InsertField(" MERGEFIELD  CourseName ");
-    builder.InsertCell();
-    builder.InsertField(" MERGEFIELD  TableEnd:StudentCourse ");
-    builder.EndTable();
+// Use MERGEFIELDs with "TableStart"/"TableEnd" tags to define a mail merge region
+// which belongs to a data source named "StudentCourse" and has a MERGEFIELD which accepts data from a column named "CourseName".
+builder.StartTable();
+builder.InsertCell();
+builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
+builder.InsertCell();
+builder.InsertField(" MERGEFIELD  CourseName ");
+builder.InsertCell();
+builder.InsertField(" MERGEFIELD  TableEnd:StudentCourse ");
+builder.EndTable();
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertCheckBox();
+doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertCheckBox();
 
-    DataTable dataTable = GetStudentCourseDataTable();
+DataTable dataTable = GetStudentCourseDataTable();
 
-    doc.MailMerge.ExecuteWithRegions(dataTable);
-    doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
+doc.MailMerge.ExecuteWithRegions(dataTable);
+doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+```
 
+Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge (HandleMergeFieldInsertCheckBox).
+
+```csharp
 /// <summary>
 /// Upon encountering a MERGEFIELD with a specific name, inserts a check box form field instead of merge data text.
 /// </summary>

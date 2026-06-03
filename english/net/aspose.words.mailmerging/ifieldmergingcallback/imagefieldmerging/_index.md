@@ -21,29 +21,30 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 Shows how to insert images stored in a database BLOB field into a report.
 
 ```csharp
-public void ImageFromBlob()
+Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+
+doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+
+string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
+string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
+
+using (SqliteConnection conn = new SqliteConnection(connString))
 {
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+    conn.Open();
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+    // Open the data reader, which needs to be in a mode that reads all records at once.
+    SqliteCommand cmd = new SqliteCommand(query, conn);
+    IDataReader dataReader = cmd.ExecuteReader();
 
-    string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
-    string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
-
-    using (SqliteConnection conn = new SqliteConnection(connString))
-    {
-        conn.Open();
-
-        // Open the data reader, which needs to be in a mode that reads all records at once.
-        SqliteCommand cmd = new SqliteCommand(query, conn);
-        IDataReader dataReader = cmd.ExecuteReader();
-
-        doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
-    }
-
-    doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+    doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
 }
 
+doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+```
+
+Shows how to insert images stored in a database BLOB field into a report (HandleMergeImageFieldFromBlob).
+
+```csharp
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)

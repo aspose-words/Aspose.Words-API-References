@@ -32,27 +32,6 @@ Use [`MoveToSection`](../movetosection/) to move out of the header into the main
 
 ## Examples
 
-Shows how to insert an image, and use it as a watermark.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert the image into the header so that it will be visible on every page.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
-shape.WrapType = WrapType.None;
-shape.BehindText = true;
-
-// Place the image at the center of the page.
-shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
 Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```csharp
@@ -79,6 +58,27 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page3");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
+```
+
+Shows how to insert an image, and use it as a watermark.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert the image into the header so that it will be visible on every page.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+
+// Place the image at the center of the page.
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
+shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
 ### See Also

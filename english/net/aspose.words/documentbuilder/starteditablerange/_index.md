@@ -28,42 +28,6 @@ Badly formed editable range will be ignored when the document is saved.
 
 ## Examples
 
-Shows how to create nested editable ranges.
-
-```csharp
-Document doc = new Document();
-doc.Protect(ProtectionType.ReadOnly, "MyPassword");
-
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
-                "we cannot edit this paragraph without the password.");
-
-// Create two nested editable ranges.
-EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
-builder.Writeln("This paragraph inside the outer editable range and can be edited.");
-
-EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
-builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
-
-// Currently, the document builder's node insertion cursor is in more than one ongoing editable range.
-// When we want to end an editable range in this situation,
-// we need to specify which of the ranges we wish to end by passing its EditableRangeStart node.
-builder.EndEditableRange(innerEditableRangeStart);
-
-builder.Writeln("This paragraph inside the outer editable range and can be edited.");
-
-builder.EndEditableRange(outerEditableRangeStart);
-
-builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
-
-// If a region of text has two overlapping editable ranges with specified groups,
-// the combined group of users excluded by both groups are prevented from editing it.
-outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
-innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
-
-doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
-```
-
 Shows how to work with an editable range.
 
 ```csharp
@@ -103,6 +67,42 @@ doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange.Remove();
+```
+
+Shows how to create nested editable ranges.
+
+```csharp
+Document doc = new Document();
+doc.Protect(ProtectionType.ReadOnly, "MyPassword");
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
+                "we cannot edit this paragraph without the password.");
+
+// Create two nested editable ranges.
+EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
+builder.Writeln("This paragraph inside the outer editable range and can be edited.");
+
+EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
+builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
+
+// Currently, the document builder's node insertion cursor is in more than one ongoing editable range.
+// When we want to end an editable range in this situation,
+// we need to specify which of the ranges we wish to end by passing its EditableRangeStart node.
+builder.EndEditableRange(innerEditableRangeStart);
+
+builder.Writeln("This paragraph inside the outer editable range and can be edited.");
+
+builder.EndEditableRange(outerEditableRangeStart);
+
+builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
+
+// If a region of text has two overlapping editable ranges with specified groups,
+// the combined group of users excluded by both groups are prevented from editing it.
+outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
+innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
+
+doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 ```
 
 ### See Also

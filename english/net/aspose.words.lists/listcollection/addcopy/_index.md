@@ -32,40 +32,6 @@ If the source list is a reference to or a definition of a list style, the newly 
 
 ## Examples
 
-Shows how to create a document with a sample of all the lists from another document.
-
-```csharp
-public void PrintOutAllLists()
-{
-    Document srcDoc = new Document(MyDir + "Rendering.docx");
-
-    Document dstDoc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(dstDoc);
-
-    foreach (List srcList in srcDoc.Lists)
-    {
-        List dstList = dstDoc.Lists.AddCopy(srcList);
-        AddListSample(builder, dstList);
-    }
-
-    dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
-}
-
-private static void AddListSample(DocumentBuilder builder, List docList)
-{
-    builder.Writeln("Sample formatting of list with ListId:" + docList.ListId);
-    builder.ListFormat.List = docList;
-    for (int i = 0; i < docList.ListLevels.Count; i++)
-    {
-        builder.ListFormat.ListLevelNumber = i;
-        builder.Writeln("Level " + i);
-    }
-
-    builder.ListFormat.RemoveNumbers();
-    builder.Writeln();
-}
-```
-
 Shows how to restart numbering in a list by copying a list.
 
 ```csharp
@@ -103,6 +69,41 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
+```
+
+Shows how to create a document with a sample of all the lists from another document.
+
+```csharp
+Document srcDoc = new Document(MyDir + "Rendering.docx");
+
+Document dstDoc = new Document();
+DocumentBuilder builder = new DocumentBuilder(dstDoc);
+
+foreach (List srcList in srcDoc.Lists)
+{
+    List dstList = dstDoc.Lists.AddCopy(srcList);
+    AddListSample(builder, dstList);
+}
+
+dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
+```
+
+Shows how to create a document with a sample of all the lists from another document (AddListSample).
+
+```csharp
+private static void AddListSample(DocumentBuilder builder, List docList)
+{
+    builder.Writeln("Sample formatting of list with ListId:" + docList.ListId);
+    builder.ListFormat.List = docList;
+    for (int i = 0; i < docList.ListLevels.Count; i++)
+    {
+        builder.ListFormat.ListLevelNumber = i;
+        builder.Writeln("Level " + i);
+    }
+
+    builder.ListFormat.RemoveNumbers();
+    builder.Writeln();
+}
 ```
 
 ### See Also

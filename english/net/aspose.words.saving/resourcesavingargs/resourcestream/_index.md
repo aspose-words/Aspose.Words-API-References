@@ -29,36 +29,37 @@ Using [`IResourceSavingCallback`](../../iresourcesavingcallback/) you cannot sub
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 
 ```csharp
-public void HtmlFixedResourceFolder()
+Document doc = new Document(MyDir + "Rendering.docx");
+
+ResourceUriPrinter callback = new ResourceUriPrinter();
+
+HtmlFixedSaveOptions options = new HtmlFixedSaveOptions
 {
-    Document doc = new Document(MyDir + "Rendering.docx");
+    SaveFormat = SaveFormat.HtmlFixed,
+    ExportEmbeddedImages = false,
+    ResourcesFolder = ArtifactsDir + "HtmlFixedResourceFolder",
+    ResourcesFolderAlias = ArtifactsDir + "HtmlFixedResourceFolderAlias",
+    ShowPageBorder = false,
+    ResourceSavingCallback = callback
+};
 
-    ResourceUriPrinter callback = new ResourceUriPrinter();
+// A folder specified by ResourcesFolderAlias will contain the resources instead of ResourcesFolder.
+// We must ensure the folder exists before the streams can put their resources into it.
+Directory.CreateDirectory(options.ResourcesFolderAlias);
 
-    HtmlFixedSaveOptions options = new HtmlFixedSaveOptions
-    {
-        SaveFormat = SaveFormat.HtmlFixed,
-        ExportEmbeddedImages = false,
-        ResourcesFolder = ArtifactsDir + "HtmlFixedResourceFolder",
-        ResourcesFolderAlias = ArtifactsDir + "HtmlFixedResourceFolderAlias",
-        ShowPageBorder = false,
-        ResourceSavingCallback = callback
-    };
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
 
-    // A folder specified by ResourcesFolderAlias will contain the resources instead of ResourcesFolder.
-    // We must ensure the folder exists before the streams can put their resources into it.
-    Directory.CreateDirectory(options.ResourcesFolderAlias);
+Console.WriteLine(callback.GetText());
 
-    doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
+string[] resourceFiles = Directory.GetFiles(ArtifactsDir + "HtmlFixedResourceFolderAlias");
 
-    Console.WriteLine(callback.GetText());
+Assert.That(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"), Is.False);
+Assert.That(resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")), Is.EqualTo(6));
+```
 
-    string[] resourceFiles = Directory.GetFiles(ArtifactsDir + "HtmlFixedResourceFolderAlias");
+Shows how to use a callback to print the URIs of external resources created while converting a document to HTML (ResourceUriPrinter).
 
-    Assert.That(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"), Is.False);
-    Assert.That(resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")), Is.EqualTo(6));
-}
-
+```csharp
 /// <summary>
 /// Counts and prints URIs of resources contained by as they are converted to fixed HTML.
 /// </summary>

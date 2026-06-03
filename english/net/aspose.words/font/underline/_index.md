@@ -18,20 +18,6 @@ public Underline Underline { get; set; }
 
 ## Examples
 
-Shows how to configure the style and color of a text underline.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Underline = Underline.Dotted;
-builder.Font.UnderlineColor = Color.Red;
-
-builder.Writeln("Underlined text.");
-
-doc.Save(ArtifactsDir + "Font.Underlines.docx");
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```csharp
@@ -67,6 +53,20 @@ builder.Writeln(".");
 
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
+```
+
+Shows how to configure the style and color of a text underline.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Underline = Underline.Dotted;
+builder.Font.UnderlineColor = Color.Red;
+
+builder.Writeln("Underlined text.");
+
+doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ```
 
 ### See Also

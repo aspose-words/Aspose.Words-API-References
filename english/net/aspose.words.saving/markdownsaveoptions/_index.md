@@ -72,28 +72,29 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 Shows how to rename the image name during saving into Markdown document.
 
 ```csharp
-public void RenameImages()
-{
-    Document doc = new Document(MyDir + "Rendering.docx");
+Document doc = new Document(MyDir + "Rendering.docx");
 
-    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-    // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
-    // Each image will be in the form of a file in the local file system.
-    // There is also a callback that can customize the name and file system location of each image.
-    saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
-    saveOptions.SaveFormat = SaveFormat.Markdown;
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+// If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+// Each image will be in the form of a file in the local file system.
+// There is also a callback that can customize the name and file system location of each image.
+saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // The ImageSaving() method of our callback will be run at this time.
-    doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+// The ImageSaving() method of our callback will be run at this time.
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
-    Assert.That(Directory.GetFiles(ArtifactsDir)
-            .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".jpeg")), Is.EqualTo(1));
-    Assert.That(Directory.GetFiles(ArtifactsDir)
-            .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".png")), Is.EqualTo(8));
-}
+Assert.That(Directory.GetFiles(ArtifactsDir)
+        .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
+        .Count(f => f.EndsWith(".jpeg")), Is.EqualTo(1));
+Assert.That(Directory.GetFiles(ArtifactsDir)
+        .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
+        .Count(f => f.EndsWith(".png")), Is.EqualTo(8));
+```
 
+Shows how to rename the image name during saving into Markdown document (SavedImageRename).
+
+```csharp
 /// <summary>
 /// Renames saved images that are produced when an Markdown document is saved.
 /// </summary>

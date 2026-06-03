@@ -28,21 +28,6 @@ After creation, you can use [`DocumentBuilder`](../../documentbuilder/) to add d
 
 ## Examples
 
-Shows how to format a run of text using its font property.
-
-```csharp
-Document doc = new Document();
-Run run = new Run(doc, "Hello world!");
-
-Aspose.Words.Font font = run.Font;
-font.Name = "Courier New";
-font.Size = 36;
-font.HighlightColor = Color.Yellow;
-
-doc.FirstSection.Body.FirstParagraph.AppendChild(run);
-doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to create simple document.
 
 ```csharp
@@ -78,6 +63,21 @@ Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("H
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Test encrypted document."));
+```
+
+Shows how to format a run of text using its font property.
+
+```csharp
+Document doc = new Document();
+Run run = new Run(doc, "Hello world!");
+
+Aspose.Words.Font font = run.Font;
+font.Name = "Courier New";
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
+
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also
@@ -121,22 +121,6 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-Shows how to convert a PDF to a .docx.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-// Load the PDF document that we just saved, and convert it to .docx.
-Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
-```
-
 Shows how to load a PDF.
 
 ```csharp
@@ -160,6 +144,22 @@ TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber();
 asposePdfDoc.Pages.Accept(textFragmentAbsorber);
 
 Assert.That(textFragmentAbsorber.Text.Trim(), Is.EqualTo("Hello world!"));
+```
+
+Shows how to convert a PDF to a .docx.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Hello world!");
+
+doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
+
+// Load the PDF document that we just saved, and convert it to .docx.
+Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
+
+pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 ```
 
 ### See Also
@@ -196,27 +196,6 @@ public Document(string fileName, LoadOptions loadOptions)
 
 ## Examples
 
-Shows how to load an encrypted Microsoft Word document.
-
-```csharp
-Document doc;
-
-// Aspose.Words throw an exception if we try to open an encrypted document without its password.
-Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
-
-// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-LoadOptions options = new LoadOptions("docPassword");
-
-// There are two ways of loading an encrypted document with a LoadOptions object.
-// 1 -  Load the document from the local file system by filename:
-doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 -  Load the document from a stream:
-using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
-{
-    doc = new Document(stream, options);
-}
-```
-
 Shows how to create and load documents.
 
 ```csharp
@@ -239,6 +218,27 @@ Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("H
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
 Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Test encrypted document."));
+```
+
+Shows how to load an encrypted Microsoft Word document.
+
+```csharp
+Document doc;
+
+// Aspose.Words throw an exception if we try to open an encrypted document without its password.
+Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
+
+// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
+LoadOptions options = new LoadOptions("docPassword");
+
+// There are two ways of loading an encrypted document with a LoadOptions object.
+// 1 -  Load the document from the local file system by filename:
+doc = new Document(MyDir + "Encrypted.docx", options);
+// 2 -  Load the document from a stream:
+using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
+{
+    doc = new Document(stream, options);
+}
 ```
 
 ### See Also
@@ -358,27 +358,6 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 ## Examples
 
-Shows how to load an encrypted Microsoft Word document.
-
-```csharp
-Document doc;
-
-// Aspose.Words throw an exception if we try to open an encrypted document without its password.
-Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
-
-// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-LoadOptions options = new LoadOptions("docPassword");
-
-// There are two ways of loading an encrypted document with a LoadOptions object.
-// 1 -  Load the document from the local file system by filename:
-doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 -  Load the document from a stream:
-using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
-{
-    doc = new Document(stream, options);
-}
-```
-
 Shows how to open an HTML document with images from a stream using a base URI.
 
 ```csharp
@@ -421,6 +400,27 @@ using (HttpClient client = new HttpClient())
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
+}
+```
+
+Shows how to load an encrypted Microsoft Word document.
+
+```csharp
+Document doc;
+
+// Aspose.Words throw an exception if we try to open an encrypted document without its password.
+Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
+
+// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
+LoadOptions options = new LoadOptions("docPassword");
+
+// There are two ways of loading an encrypted document with a LoadOptions object.
+// 1 -  Load the document from the local file system by filename:
+doc = new Document(MyDir + "Encrypted.docx", options);
+// 2 -  Load the document from a stream:
+using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
+{
+    doc = new Document(stream, options);
 }
 ```
 

@@ -63,43 +63,44 @@ Currently editable ranges are supported only at the inline-level, that is inside
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 
 ```csharp
-public void Visitor()
-{
-    Document doc = new Document();
-    doc.Protect(ProtectionType.ReadOnly, "MyPassword");
+Document doc = new Document();
+doc.Protect(ProtectionType.ReadOnly, "MyPassword");
 
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
-                    " we cannot edit this paragraph without the password.");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
+                " we cannot edit this paragraph without the password.");
 
-    // When we write-protect documents, editable ranges allow us to pick specific areas that users may edit.
-    // There are two mutually exclusive ways to narrow down the list of allowed editors.
-    // 1 -  Specify a user:
-    EditableRange editableRange = builder.StartEditableRange().EditableRange;
-    editableRange.SingleUser = "john.doe@myoffice.com";
-    builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
-    builder.EndEditableRange();
+// When we write-protect documents, editable ranges allow us to pick specific areas that users may edit.
+// There are two mutually exclusive ways to narrow down the list of allowed editors.
+// 1 -  Specify a user:
+EditableRange editableRange = builder.StartEditableRange().EditableRange;
+editableRange.SingleUser = "john.doe@myoffice.com";
+builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
+builder.EndEditableRange();
 
-    Assert.That(editableRange.EditorGroup, Is.EqualTo(EditorType.Unspecified));
+Assert.That(editableRange.EditorGroup, Is.EqualTo(EditorType.Unspecified));
 
-    // 2 -  Specify a group that allowed users are associated with:
-    editableRange = builder.StartEditableRange().EditableRange;
-    editableRange.EditorGroup = EditorType.Administrators;
-    builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
-    builder.EndEditableRange();
+// 2 -  Specify a group that allowed users are associated with:
+editableRange = builder.StartEditableRange().EditableRange;
+editableRange.EditorGroup = EditorType.Administrators;
+builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
+builder.EndEditableRange();
 
-    Assert.That(editableRange.SingleUser, Is.EqualTo(string.Empty));
+Assert.That(editableRange.SingleUser, Is.EqualTo(string.Empty));
 
-    builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
+builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Print details and contents of every editable range in the document.
-    EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
+// Print details and contents of every editable range in the document.
+EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
-    doc.Accept(editableRangePrinter);
+doc.Accept(editableRangePrinter);
 
-    Console.WriteLine(editableRangePrinter.ToText());
-}
+Console.WriteLine(editableRangePrinter.ToText());
+```
 
+Shows how to limit the editing rights of editable ranges to a specific group/user (EditableRangePrinter).
+
+```csharp
 /// <summary>
 /// Collects properties and contents of visited editable ranges in a string.
 /// </summary>

@@ -103,21 +103,6 @@ This method inserts a field into a document and updates the field result immedia
 
 ## Examples
 
-Shows how to insert a field into a document using a field code.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
-
-Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
-Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
-
-// This overload of the InsertField method automatically updates inserted fields.
-Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
-```
-
 Shows how to insert fields, and move the document builder's cursor to them.
 
 ```csharp
@@ -140,6 +125,21 @@ Assert.That(builder.CurrentNode.PreviousSibling, Is.EqualTo(doc.Range.Fields[0].
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
+```
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
 ```
 
 ### See Also

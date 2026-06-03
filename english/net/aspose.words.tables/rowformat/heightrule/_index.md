@@ -18,38 +18,6 @@ public HeightRule HeightRule { get; set; }
 
 ## Examples
 
-Shows how to format rows with a document builder.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.Write("Row 1, cell 1.");
-
-// Start a second row, and then configure its height. The builder will apply these settings to
-// its current row, as well as any new rows it creates afterwards.
-builder.EndRow();
-
-RowFormat rowFormat = builder.RowFormat;
-rowFormat.Height = 100;
-rowFormat.HeightRule = HeightRule.Exactly;
-
-builder.InsertCell();
-builder.Write("Row 2, cell 1.");
-builder.EndTable();
-
-// The first row was unaffected by the padding reconfiguration and still holds the default values.
-Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0.0d));
-Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
-
-Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100.0d));
-Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
-
-doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
-```
-
 Shows how to create a formatted table using DocumentBuilder.
 
 ```csharp
@@ -106,6 +74,38 @@ builder.EndRow();
 builder.EndTable();
 
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
+```
+
+Shows how to format rows with a document builder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Row 1, cell 1.");
+
+// Start a second row, and then configure its height. The builder will apply these settings to
+// its current row, as well as any new rows it creates afterwards.
+builder.EndRow();
+
+RowFormat rowFormat = builder.RowFormat;
+rowFormat.Height = 100;
+rowFormat.HeightRule = HeightRule.Exactly;
+
+builder.InsertCell();
+builder.Write("Row 2, cell 1.");
+builder.EndTable();
+
+// The first row was unaffected by the padding reconfiguration and still holds the default values.
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0.0d));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
+
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100.0d));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
+
+doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
 ### See Also

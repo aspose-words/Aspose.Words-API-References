@@ -25,34 +25,35 @@ The default value depends on the save format. For images it is Bitmap. For other
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 
 ```csharp
-public void HandleBinaryRasterWarnings()
-{
-    Document doc = new Document(MyDir + "WMF with image.docx");
+Document doc = new Document(MyDir + "WMF with image.docx");
 
-    MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
-    // it encounters a metafile, which will require raster operations to render in the output PDF.
-    metafileRenderingOptions.EmulateRasterOperations = false;
+// Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+// it encounters a metafile, which will require raster operations to render in the output PDF.
+metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
-    metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
+// Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-    // to modify how that method converts the document to .PDF and applies the configuration
-    // in our MetafileRenderingOptions object to the saving operation.
-    PdfSaveOptions saveOptions = new PdfSaveOptions();
-    saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF and applies the configuration
+// in our MetafileRenderingOptions object to the saving operation.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
-    HandleDocumentWarnings callback = new HandleDocumentWarnings();
-    doc.WarningCallback = callback;
+HandleDocumentWarnings callback = new HandleDocumentWarnings();
+doc.WarningCallback = callback;
 
-    doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
-    Assert.That(callback.Warnings.Count, Is.EqualTo(1));
-    Assert.That(callback.Warnings[0].Description, Is.EqualTo("'R2_XORPEN' binary raster operation is not supported."));
-}
+Assert.That(callback.Warnings.Count, Is.EqualTo(1));
+Assert.That(callback.Warnings[0].Description, Is.EqualTo("'R2_XORPEN' binary raster operation is not supported."));
+```
 
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records (HandleDocumentWarnings).
+
+```csharp
 /// <summary>
 /// Prints and collects formatting loss-related warnings that occur upon saving a document.
 /// </summary>

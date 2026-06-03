@@ -24,19 +24,6 @@ Do not rely on this collection to ascertain that a particular font is used in th
 
 ## Examples
 
-Shows how to save a document with embedded TrueType fonts.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-FontInfoCollection fontInfos = doc.FontInfos;
-fontInfos.EmbedTrueTypeFonts = embedAllFonts;
-fontInfos.EmbedSystemFonts = embedAllFonts;
-fontInfos.SaveSubsetFonts = embedAllFonts;
-
-doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-```
-
 Shows how to print the details of what fonts are present in a document.
 
 ```csharp
@@ -50,6 +37,19 @@ for (int i = 0; i < allFonts.Count; i++)
     Console.WriteLine($"\tName: {allFonts[i].Name}");
     Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
 }
+```
+
+Shows how to save a document with embedded TrueType fonts.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+FontInfoCollection fontInfos = doc.FontInfos;
+fontInfos.EmbedTrueTypeFonts = embedAllFonts;
+fontInfos.EmbedSystemFonts = embedAllFonts;
+fontInfos.SaveSubsetFonts = embedAllFonts;
+
+doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
 ```
 
 ### See Also

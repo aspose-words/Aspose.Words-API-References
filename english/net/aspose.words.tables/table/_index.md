@@ -122,6 +122,47 @@ A minimal valid table needs to have at least one [`Row`](../row/).
 
 ## Examples
 
+Shows how to build a formatted 2x2 table.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("Row 1, cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, cell 2.");
+builder.EndRow();
+
+// While building the table, the document builder will apply its current RowFormat/CellFormat property values
+// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+Assert.That(table.Rows[0].Cells[0].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+Assert.That(table.Rows[0].Cells[1].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+
+builder.InsertCell();
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Write("Row 2, cell 1.");
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Write("Row 2, cell 2.");
+builder.EndRow();
+builder.EndTable();
+
+// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
+Assert.That(table.Rows[1].Cells[0].CellFormat.Orientation, Is.EqualTo(TextOrientation.Upward));
+Assert.That(table.Rows[1].Cells[1].CellFormat.Orientation, Is.EqualTo(TextOrientation.Downward));
+
+doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
+```
+
 Shows how to create a table.
 
 ```csharp
@@ -190,65 +231,25 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-Shows how to build a formatted 2x2 table.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.Write("Row 1, cell 1.");
-builder.InsertCell();
-builder.Write("Row 1, cell 2.");
-builder.EndRow();
-
-// While building the table, the document builder will apply its current RowFormat/CellFormat property values
-// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-Assert.That(table.Rows[0].Cells[0].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
-Assert.That(table.Rows[0].Cells[1].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
-
-builder.InsertCell();
-builder.RowFormat.Height = 100;
-builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 2, cell 1.");
-builder.InsertCell();
-builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 2, cell 2.");
-builder.EndRow();
-builder.EndTable();
-
-// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0));
-Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
-Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100));
-Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
-Assert.That(table.Rows[1].Cells[0].CellFormat.Orientation, Is.EqualTo(TextOrientation.Upward));
-Assert.That(table.Rows[1].Cells[1].CellFormat.Orientation, Is.EqualTo(TextOrientation.Downward));
-
-doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
-```
-
 Shows how to build a nested table without using a document builder.
 
 ```csharp
-public void CreateNestedTable()
-{
-    Document doc = new Document();
+Document doc = new Document();
 
-    // Create the outer table with three rows and four columns, and then add it to the document.
-    Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
-    doc.FirstSection.Body.AppendChild(outerTable);
+// Create the outer table with three rows and four columns, and then add it to the document.
+Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
+doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Create another table with two rows and two columns and then insert it into the first table's first cell.
-    Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
-    outerTable.FirstRow.FirstCell.AppendChild(innerTable);
+// Create another table with two rows and two columns and then insert it into the first table's first cell.
+Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
+outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
-    doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
-}
+doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
+```
 
+Shows how to build a nested table without using a document builder (CreateTable).
+
+```csharp
 /// <summary>
 /// Creates a new table in the document with the given dimensions and text in each cell.
 /// </summary>

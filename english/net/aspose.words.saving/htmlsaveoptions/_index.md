@@ -99,28 +99,6 @@ public class HtmlSaveOptions : SaveOptions
 
 ## Examples
 
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-string imagesDir = Path.Combine(ArtifactsDir, "SaveHtmlWithOptions");
-
-if (Directory.Exists(imagesDir))
-    Directory.Delete(imagesDir, true);
-
-Directory.CreateDirectory(imagesDir);
-
-// Set an option to export form fields as plain text instead of HTML input elements.
-HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
-{
-    ExportTextInputFormFieldAsText = true, 
-    ImagesFolder = imagesDir
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
-```
-
 Shows how to use a specific encoding when saving a document to .epub.
 
 ```csharp
@@ -143,35 +121,58 @@ saveOptions.ExportDocumentProperties = true;
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+string imagesDir = Path.Combine(ArtifactsDir, "SaveHtmlWithOptions");
+
+if (Directory.Exists(imagesDir))
+    Directory.Delete(imagesDir, true);
+
+Directory.CreateDirectory(imagesDir);
+
+// Set an option to export form fields as plain text instead of HTML input elements.
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
+{
+    ExportTextInputFormFieldAsText = true, 
+    ImagesFolder = imagesDir
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+```
+
 Shows how to split a document into parts and save them.
 
 ```csharp
-public void DocumentPartsFileNames()
-{
-    Document doc = new Document(MyDir + "Rendering.docx");
-    string outFileName = "SavingCallback.DocumentPartsFileNames.html";
+Document doc = new Document(MyDir + "Rendering.docx");
+string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
-    // to modify how we convert the document to HTML.
-    HtmlSaveOptions options = new HtmlSaveOptions();
+// Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how we convert the document to HTML.
+HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // If we save the document normally, there will be one output HTML
-    // document with all the source document's contents.
-    // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
-    // save our document to multiple HTML files: one for each section.
-    options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
+// If we save the document normally, there will be one output HTML
+// document with all the source document's contents.
+// Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+// save our document to multiple HTML files: one for each section.
+options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
-    options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
+// Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // If we convert a document that contains images into html, we will end up with one html file which links to several images.
-    // Each image will be in the form of a file in the local file system.
-    // There is also a callback that can customize the name and file system location of each image.
-    options.ImageSavingCallback = new SavedImageRename(outFileName);
+// If we convert a document that contains images into html, we will end up with one html file which links to several images.
+// Each image will be in the form of a file in the local file system.
+// There is also a callback that can customize the name and file system location of each image.
+options.ImageSavingCallback = new SavedImageRename(outFileName);
 
-    doc.Save(ArtifactsDir + outFileName, options);
-}
+doc.Save(ArtifactsDir + outFileName, options);
+```
 
+Shows how to split a document into parts and save them (SavedDocumentPartRename).
+
+```csharp
 /// <summary>
 /// Sets custom filenames for output documents that the saving operation splits a document into.
 /// </summary>

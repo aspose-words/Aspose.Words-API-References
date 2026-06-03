@@ -18,31 +18,6 @@ public SectionCollection Sections { get; }
 
 ## Examples
 
-Shows how to add and remove sections in a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Section 1");
-builder.InsertBreak(BreakType.SectionBreakNewPage);
-builder.Write("Section 2");
-
-Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 1\x000cSection 2"));
-
-// Delete the first section from the document.
-doc.Sections.RemoveAt(0);
-
-Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2"));
-
-// Append a copy of what is now the first section to the end of the document.
-int lastSectionIdx = doc.Sections.Count - 1;
-Section newSection = doc.Sections[lastSectionIdx].Clone();
-doc.Sections.Add(newSection);
-
-Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2\x000cSection 2"));
-```
-
 Shows how to specify how a new section separates itself from the previous.
 
 ```csharp
@@ -86,6 +61,31 @@ builder.Writeln("This text is in section 6.");
 Assert.That(doc.Sections[5].PageSetup.SectionStart, Is.EqualTo(SectionStart.NewColumn));
 
 doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
+```
+
+Shows how to add and remove sections in a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Section 1");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+builder.Write("Section 2");
+
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 1\x000cSection 2"));
+
+// Delete the first section from the document.
+doc.Sections.RemoveAt(0);
+
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2"));
+
+// Append a copy of what is now the first section to the end of the document.
+int lastSectionIdx = doc.Sections.Count - 1;
+Section newSection = doc.Sections[lastSectionIdx].Clone();
+doc.Sections.Add(newSection);
+
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2\x000cSection 2"));
 ```
 
 ### See Also

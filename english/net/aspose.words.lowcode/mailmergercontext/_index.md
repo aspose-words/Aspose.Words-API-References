@@ -62,6 +62,27 @@ MailMerger.Create(mailMergerContext)
     .Execute();
 ```
 
+Shows how to do mail merge operation for a single record from the stream using context.
+
+```csharp
+// There is a several ways to do mail merge operation using documents from the stream:
+string[] fieldNames = new string[] { "FirstName", "Location", "SpecialCharsInName()" };
+string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
+
+using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
+{
+    MailMergerContext mailMergerContext = new MailMergerContext();
+    mailMergerContext.SetSimpleDataSource(fieldNames, fieldValues);
+    mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeContextStream.docx", FileMode.Create, FileAccess.ReadWrite))
+        MailMerger.Create(mailMergerContext)
+            .From(streamIn)
+            .To(streamOut, SaveFormat.Docx)
+            .Execute();
+}
+```
+
 Shows how to do mail merge operation from a DataRow using context.
 
 ```csharp
@@ -83,73 +104,6 @@ MailMerger.Create(mailMergerContext)
     .From(doc)
     .To(ArtifactsDir + "LowCode.MailMergeContextDataRow.docx")
     .Execute();
-```
-
-Shows how to do mail merge operation from a DataTable using context.
-
-```csharp
-// There is a several ways to do mail merge operation from a DataTable:
-string doc = MyDir + "Mail merge.doc";
-
-DataTable dataTable = new DataTable();
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("Location");
-dataTable.Columns.Add("SpecialCharsInName()");
-
-DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
-
-MailMergerContext mailMergerContext = new MailMergerContext();
-mailMergerContext.SetSimpleDataSource(dataTable);
-mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
-
-MailMerger.Create(mailMergerContext)
-    .From(doc)
-    .To(ArtifactsDir + "LowCode.MailMergeContextDataTable.docx")
-    .Execute();
-```
-
-Shows how to do mail merge with regions operation from a DataTable using context.
-
-```csharp
-// There is a several ways to do mail merge with regions operation from a DataTable:
-string doc = MyDir + "Mail merge with regions.docx";
-
-DataTable dataTable = new DataTable("MyTable");
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("LastName");
-dataTable.Rows.Add(new object[] { "John", "Doe" });
-dataTable.Rows.Add(new object[] { "", "" });
-dataTable.Rows.Add(new object[] { "Jane", "Doe" });
-
-MailMergerContext mailMergerContext = new MailMergerContext();
-mailMergerContext.SetRegionsDataSource(dataTable);
-mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
-
-MailMerger.Create(mailMergerContext)
-    .From(doc)
-    .To(ArtifactsDir + "LowCode.MailMergeContextWithRegionsDataTable.docx")
-    .Execute();
-```
-
-Shows how to do mail merge operation for a single record from the stream using context.
-
-```csharp
-// There is a several ways to do mail merge operation using documents from the stream:
-string[] fieldNames = new string[] { "FirstName", "Location", "SpecialCharsInName()" };
-string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
-
-using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
-{
-    MailMergerContext mailMergerContext = new MailMergerContext();
-    mailMergerContext.SetSimpleDataSource(fieldNames, fieldValues);
-    mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeContextStream.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Create(mailMergerContext)
-            .From(streamIn)
-            .To(streamOut, SaveFormat.Docx)
-            .Execute();
-}
 ```
 
 Shows how to do mail merge operation from a DataRow using documents from the stream using context.
@@ -177,6 +131,29 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 }
 ```
 
+Shows how to do mail merge operation from a DataTable using context.
+
+```csharp
+// There is a several ways to do mail merge operation from a DataTable:
+string doc = MyDir + "Mail merge.doc";
+
+DataTable dataTable = new DataTable();
+dataTable.Columns.Add("FirstName");
+dataTable.Columns.Add("Location");
+dataTable.Columns.Add("SpecialCharsInName()");
+
+DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
+
+MailMergerContext mailMergerContext = new MailMergerContext();
+mailMergerContext.SetSimpleDataSource(dataTable);
+mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
+
+MailMerger.Create(mailMergerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.MailMergeContextDataTable.docx")
+    .Execute();
+```
+
 Shows how to do mail merge operation from a DataTable using documents from the stream using context.
 
 ```csharp
@@ -200,6 +177,29 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
             .To(streamOut, SaveFormat.Docx)
             .Execute();
 }
+```
+
+Shows how to do mail merge with regions operation from a DataTable using context.
+
+```csharp
+// There is a several ways to do mail merge with regions operation from a DataTable:
+string doc = MyDir + "Mail merge with regions.docx";
+
+DataTable dataTable = new DataTable("MyTable");
+dataTable.Columns.Add("FirstName");
+dataTable.Columns.Add("LastName");
+dataTable.Rows.Add(new object[] { "John", "Doe" });
+dataTable.Rows.Add(new object[] { "", "" });
+dataTable.Rows.Add(new object[] { "Jane", "Doe" });
+
+MailMergerContext mailMergerContext = new MailMergerContext();
+mailMergerContext.SetRegionsDataSource(dataTable);
+mailMergerContext.MailMergeOptions.TrimWhitespaces = true;
+
+MailMerger.Create(mailMergerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.MailMergeContextWithRegionsDataTable.docx")
+    .Execute();
 ```
 
 Shows how to do mail merge with regions operation from a DataTable using documents from the stream using context.

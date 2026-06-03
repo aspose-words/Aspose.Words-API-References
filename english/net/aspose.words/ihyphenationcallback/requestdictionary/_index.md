@@ -33,37 +33,37 @@ Exceptions thrown by this method will abort execution of page layout process.
 Shows how to open and register a dictionary from a file.
 
 ```csharp
-public void RegisterDictionary()
-{
-    // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
-    WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
-    Hyphenation.WarningCallback = warningInfoCollection;
+// Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Register an English (US) hyphenation dictionary by stream.
-    Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
-    Hyphenation.RegisterDictionary("en-US", dictionaryStream);
+// Register an English (US) hyphenation dictionary by stream.
+Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
+Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
-    Assert.That(warningInfoCollection.Count, Is.EqualTo(0));
+Assert.That(warningInfoCollection.Count, Is.EqualTo(0));
 
-    // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
-    Document doc = new Document(MyDir + "German text.docx");
+// Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+Document doc = new Document(MyDir + "German text.docx");
 
-    // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
-    // This callback will handle the automatic request for that dictionary.
-    Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
+// To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+// This callback will handle the automatic request for that dictionary.
+Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // When we save the document, German hyphenation will take effect.
-    doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
+// When we save the document, German hyphenation will take effect.
+doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // This dictionary contains two identical patterns, which will trigger a warning.
-    Assert.That(warningInfoCollection.Count, Is.EqualTo(1));
-    Assert.That(warningInfoCollection[0].WarningType, Is.EqualTo(WarningType.MinorFormattingLoss));
-    Assert.That(warningInfoCollection[0].Source, Is.EqualTo(WarningSource.Layout));
-    Assert.That(warningInfoCollection[0].Description, Is.EqualTo("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
-                    "Content can be wrapped differently."));
+// This dictionary contains two identical patterns, which will trigger a warning.
+Assert.That(warningInfoCollection.Count, Is.EqualTo(1));
+Assert.That(warningInfoCollection[0].WarningType, Is.EqualTo(WarningType.MinorFormattingLoss));
+Assert.That(warningInfoCollection[0].Source, Is.EqualTo(WarningSource.Layout));
+Assert.That(warningInfoCollection[0].Description, Is.EqualTo("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
+                "Content can be wrapped differently."));
+```
 
-}
+Shows how to open and register a dictionary from a file (CustomHyphenationDictionaryRegister).
 
+```csharp
 /// <summary>
 /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
 /// </summary>

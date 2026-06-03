@@ -26,27 +26,34 @@ public enum OoxmlCompliance
 
 ## Examples
 
-Shows how to insert DML shapes into a document.
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Below are two wrapping types that shapes may have.
-// 1 -  Floating:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
-        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
+// If we configure compatibility options to comply with Microsoft Word 2003,
+// inserting an image will define its shape using VML.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// 2 -  Inline:
-builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
 
-// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
-// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
-saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
+// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+// any document we save while passing this object will have to follow that standard. 
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
+    SaveFormat = SaveFormat.Docx
+};
 
-doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
 ```
 
 Shows how to configure a list to restart numbering at each section.
@@ -82,34 +89,27 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx"
 Assert.That(doc.Lists[0].IsRestartAtEachSection, Is.EqualTo(restartListAtEachSection));
 ```
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
+Shows how to insert DML shapes into a document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// If we configure compatibility options to comply with Microsoft Word 2003,
-// inserting an image will define its shape using VML.
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
-builder.InsertImage(ImageDir + "Transparent background logo.png");
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
-Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
+// 2 -  Inline:
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
-// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
-// any document we save while passing this object will have to follow that standard. 
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
-{
-    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
-    SaveFormat = SaveFormat.Docx
-};
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
-// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
-doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
-
-Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 ```
 
 ### See Also

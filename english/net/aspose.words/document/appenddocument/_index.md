@@ -90,25 +90,30 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 ## Examples
 
-Shows how to manage list style clashes while appending a clone of a document to itself.
+Shows how to manage list style clashes while appending a document.
 
 ```csharp
-Document srcDoc = new Document(MyDir + "List item.docx");
-Document dstDoc = new Document(MyDir + "List item.docx");
+// Load a document with text in a custom style and clone it.
+Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
+Document dstDoc = srcDoc.Clone();
+
+// We now have two documents, each with an identical style named "CustomStyle".
+// Change the text color for one of the styles to set it apart from the other.
+dstDoc.Styles["CustomStyle"].Font.Color = Color.DarkRed;
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
 // Set the "KeepSourceNumbering" property to "true" import all clashing
 // list style numbering with the same appearance that it had in the source document.
-DocumentBuilder builder = new DocumentBuilder(dstDoc);
-builder.MoveToDocumentEnd();
-builder.InsertBreak(BreakType.SectionBreakNewPage);
-
 ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = keepSourceNumbering;
-builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 
+// Joining two documents that have different styles that share the same name causes a style clash.
+// We can specify an import format mode while appending documents to resolve this clash.
+dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepDifferentStyles, options);
 dstDoc.UpdateListLabels();
+
+dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx");
 ```
 
 Shows how to manage list style clashes while inserting a document.
@@ -141,30 +146,25 @@ builder.InsertDocument(attachDoc, ImportFormatMode.KeepSourceFormatting, importO
 dstDoc.Save(ArtifactsDir + "DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
 
-Shows how to manage list style clashes while appending a document.
+Shows how to manage list style clashes while appending a clone of a document to itself.
 
 ```csharp
-// Load a document with text in a custom style and clone it.
-Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
-Document dstDoc = srcDoc.Clone();
-
-// We now have two documents, each with an identical style named "CustomStyle".
-// Change the text color for one of the styles to set it apart from the other.
-dstDoc.Styles["CustomStyle"].Font.Color = Color.DarkRed;
+Document srcDoc = new Document(MyDir + "List item.docx");
+Document dstDoc = new Document(MyDir + "List item.docx");
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
 // Set the "KeepSourceNumbering" property to "true" import all clashing
 // list style numbering with the same appearance that it had in the source document.
+DocumentBuilder builder = new DocumentBuilder(dstDoc);
+builder.MoveToDocumentEnd();
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+
 ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = keepSourceNumbering;
+builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 
-// Joining two documents that have different styles that share the same name causes a style clash.
-// We can specify an import format mode while appending documents to resolve this clash.
-dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepDifferentStyles, options);
 dstDoc.UpdateListLabels();
-
-dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx");
 ```
 
 ### See Also

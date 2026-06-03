@@ -35,6 +35,29 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 ## Examples
 
+Shows how to create form fields.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+// Form fields are objects in the document that the user can interact with by being prompted to enter values.
+// We can create them using a document builder, and below are two ways of doing so.
+// 1 -  Basic text input:
+builder.InsertTextInput("My text input", TextFormFieldType.Regular,
+    "", "Enter your name here", 30);
+
+// 2 -  Combo box with prompt text, and a range of possible values:
+string[] items =
+{
+    "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
+};
+
+builder.InsertParagraph();
+builder.InsertComboBox("My combo box", items, 0);
+
+builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
+```
+
 Shows how to insert a text input form field into a document.
 
 ```csharp
@@ -62,29 +85,6 @@ builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholde
 
 // The form field will appear in the form of an "input" html tag, with a type of "text".
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
-```
-
-Shows how to create form fields.
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-// Form fields are objects in the document that the user can interact with by being prompted to enter values.
-// We can create them using a document builder, and below are two ways of doing so.
-// 1 -  Basic text input:
-builder.InsertTextInput("My text input", TextFormFieldType.Regular,
-    "", "Enter your name here", 30);
-
-// 2 -  Combo box with prompt text, and a range of possible values:
-string[] items =
-{
-    "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
-};
-
-builder.InsertParagraph();
-builder.InsertComboBox("My combo box", items, 0);
-
-builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 ```
 
 ### See Also

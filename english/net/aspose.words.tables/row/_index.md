@@ -164,21 +164,22 @@ for (int i = 0; i < tables.Count; i++)
 Shows how to build a nested table without using a document builder.
 
 ```csharp
-public void CreateNestedTable()
-{
-    Document doc = new Document();
+Document doc = new Document();
 
-    // Create the outer table with three rows and four columns, and then add it to the document.
-    Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
-    doc.FirstSection.Body.AppendChild(outerTable);
+// Create the outer table with three rows and four columns, and then add it to the document.
+Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
+doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Create another table with two rows and two columns and then insert it into the first table's first cell.
-    Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
-    outerTable.FirstRow.FirstCell.AppendChild(innerTable);
+// Create another table with two rows and two columns and then insert it into the first table's first cell.
+Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
+outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
-    doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
-}
+doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
+```
 
+Shows how to build a nested table without using a document builder (CreateTable).
+
+```csharp
 /// <summary>
 /// Creates a new table in the document with the given dimensions and text in each cell.
 /// </summary>

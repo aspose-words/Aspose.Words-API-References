@@ -18,20 +18,6 @@ public bool KeepSourceNumbering { get; set; }
 
 ## Examples
 
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
-
-```csharp
-Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
-Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
-
-// Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
-// to identical styles as Aspose.Words imports them into destination documents.
-ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
-
-dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
-dstDoc.UpdateListLabels();
-```
-
 Shows how to import a document with numbered lists.
 
 ```csharp
@@ -52,6 +38,20 @@ dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 dstDoc.UpdateListLabels();
 
 Assert.That(dstDoc.Lists.Count, Is.EqualTo(isKeepSourceNumbering ? 5 : 4));
+```
+
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
+
+```csharp
+Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
+Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
+
+// Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
+// to identical styles as Aspose.Words imports them into destination documents.
+ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
+
+dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
+dstDoc.UpdateListLabels();
 ```
 
 Shows how to resolve list numbering clashes in source and destination documents.

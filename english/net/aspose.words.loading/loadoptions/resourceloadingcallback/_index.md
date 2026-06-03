@@ -21,16 +21,17 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 Shows how to handle external resources when loading Html documents.
 
 ```csharp
-public void LoadOptionsCallback()
-{
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // When we load the document, our callback will handle linked resources such as CSS stylesheets and images.
-    Document doc = new Document(MyDir + "Images.html", loadOptions);
-    doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
-}
+// When we load the document, our callback will handle linked resources such as CSS stylesheets and images.
+Document doc = new Document(MyDir + "Images.html", loadOptions);
+doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
+```
 
+Shows how to handle external resources when loading Html documents (HtmlLinkedResourceLoadingCallback).
+
+```csharp
 /// <summary>
 /// Prints the filenames of all external stylesheets and substitutes all images of a loaded html document.
 /// </summary>

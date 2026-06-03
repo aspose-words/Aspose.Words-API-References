@@ -18,82 +18,39 @@ public IFieldMergingCallback FieldMergingCallback { get; set; }
 
 ## Examples
 
-Shows how to insert images stored in a database BLOB field into a report.
-
-```csharp
-public void ImageFromBlob()
-{
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
-
-    doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
-
-    string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
-    string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
-
-    using (SqliteConnection conn = new SqliteConnection(connString))
-    {
-        conn.Open();
-
-        // Open the data reader, which needs to be in a mode that reads all records at once.
-        SqliteCommand cmd = new SqliteCommand(query, conn);
-        IDataReader dataReader = cmd.ExecuteReader();
-
-        doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
-    }
-
-    doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
-
-private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
-{
-    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-    {
-        // Do nothing.
-    }
-
-    /// <summary>
-    /// This is called when a mail merge encounters a MERGEFIELD in the document with an "Image:" tag in its name.
-    /// </summary>
-    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
-    {
-        MemoryStream imageStream = new MemoryStream((byte[])e.FieldValue);
-        e.ImageStream = imageStream;
-    }
-}
-```
-
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
+builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+
+object[] mergeData =
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    "<html>" +
+        "<h1>" +
+            "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
+        "</h1>" +
+    "</html>", 
 
-    builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
-    builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+    "<html>" +
+        "<blockquote>" +
+            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
+        "</blockquote>" +
+    "</html>"
+};
 
-    object[] mergeData =
-    {
-        "<html>" +
-            "<h1>" +
-                "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
-            "</h1>" +
-        "</html>", 
+doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
+doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
 
-        "<html>" +
-            "<blockquote>" +
-                "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
-            "</blockquote>" +
-        "</html>"
-    };
+doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
+```
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
-    doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
+Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents (HandleMergeFieldInsertHtml).
 
-    doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
-}
-
+```csharp
 /// <summary>
 /// If the mail merge encounters a MERGEFIELD whose name starts with the "html_" prefix,
 /// this callback parses its merge data as HTML content and adds the result to the document location of the MERGEFIELD.
@@ -121,6 +78,51 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
         // Do nothing.
+    }
+}
+```
+
+Shows how to insert images stored in a database BLOB field into a report.
+
+```csharp
+Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+
+doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+
+string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
+string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
+
+using (SqliteConnection conn = new SqliteConnection(connString))
+{
+    conn.Open();
+
+    // Open the data reader, which needs to be in a mode that reads all records at once.
+    SqliteCommand cmd = new SqliteCommand(query, conn);
+    IDataReader dataReader = cmd.ExecuteReader();
+
+    doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
+}
+
+doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+```
+
+Shows how to insert images stored in a database BLOB field into a report (HandleMergeImageFieldFromBlob).
+
+```csharp
+private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
+{
+    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
+    {
+        // Do nothing.
+    }
+
+    /// <summary>
+    /// This is called when a mail merge encounters a MERGEFIELD in the document with an "Image:" tag in its name.
+    /// </summary>
+    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
+    {
+        MemoryStream imageStream = new MemoryStream((byte[])e.FieldValue);
+        e.ImageStream = imageStream;
     }
 }
 ```

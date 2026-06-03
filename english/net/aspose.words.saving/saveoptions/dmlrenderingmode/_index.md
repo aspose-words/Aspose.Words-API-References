@@ -24,24 +24,6 @@ This property is used when the document is exported to fixed page formats.
 
 ## Examples
 
-Shows how to render fallback shapes when saving to PDF.
-
-```csharp
-Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-
-// Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
-// to substitute DML shapes with their fallback shapes.
-// Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
-// to render the DML shapes themselves.
-options.DmlRenderingMode = dmlRenderingMode;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
-```
-
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 
 ```csharp
@@ -61,6 +43,24 @@ options.DmlEffectsRenderingMode = effectsRenderingMode;
 Assert.That(options.DmlRenderingMode, Is.EqualTo(DmlRenderingMode.DrawingML));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+```
+
+Shows how to render fallback shapes when saving to PDF.
+
+```csharp
+Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "DmlRenderingMode" property to "DmlRenderingMode.Fallback"
+// to substitute DML shapes with their fallback shapes.
+// Set the "DmlRenderingMode" property to "DmlRenderingMode.DrawingML"
+// to render the DML shapes themselves.
+options.DmlRenderingMode = dmlRenderingMode;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
 ### See Also

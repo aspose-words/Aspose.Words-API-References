@@ -74,26 +74,6 @@ using (HttpClient client = new HttpClient())
 }
 ```
 
-Shows how to specify a base URI when opening an html document.
-
-```csharp
-// Suppose we want to load an .html document that contains an image linked by a relative URI
-// while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
-// We can provide a base URI using an HtmlLoadOptions object. 
-HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
-
-Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
-
-Document doc = new Document(MyDir + "Missing image.html", loadOptions);
-
-// While the image was broken in the input .html, our custom base URI helped us repair the link.
-Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.That(imageShape.IsImage, Is.True);
-
-// This output document will display the image that was missing.
-doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
-```
-
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 
 ```csharp
@@ -120,6 +100,26 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
 }
+```
+
+Shows how to specify a base URI when opening an html document.
+
+```csharp
+// Suppose we want to load an .html document that contains an image linked by a relative URI
+// while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
+// We can provide a base URI using an HtmlLoadOptions object. 
+HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
+
+Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
+
+Document doc = new Document(MyDir + "Missing image.html", loadOptions);
+
+// While the image was broken in the input .html, our custom base URI helped us repair the link.
+Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+Assert.That(imageShape.IsImage, Is.True);
+
+// This output document will display the image that was missing.
+doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 
 ### See Also

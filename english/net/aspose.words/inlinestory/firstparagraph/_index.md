@@ -18,24 +18,6 @@ public Paragraph FirstParagraph { get; }
 
 ## Examples
 
-Shows how to add a comment to a paragraph.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello world!");
-
-Comment comment = new Comment(doc, "John Doe", "JD", DateTime.Today);
-builder.CurrentParagraph.AppendChild(comment);
-builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
-builder.Write("Comment text.");
-
-Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
-
-// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
-doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
-```
-
 Shows how to insert and customize footnotes.
 
 ```csharp
@@ -77,6 +59,24 @@ footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 Assert.That(footnote.IsAuto, Is.True);
 
 doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
+```
+
+Shows how to add a comment to a paragraph.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Hello world!");
+
+Comment comment = new Comment(doc, "John Doe", "JD", DateTime.Today);
+builder.CurrentParagraph.AppendChild(comment);
+builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
+builder.Write("Comment text.");
+
+Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
 ### See Also

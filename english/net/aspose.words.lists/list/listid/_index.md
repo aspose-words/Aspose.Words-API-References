@@ -22,23 +22,6 @@ You do not normally need to use this property. But if you use it, you normally d
 
 ## Examples
 
-Shows how to verify owner document properties of lists.
-
-```csharp
-Document doc = new Document();
-
-ListCollection lists = doc.Lists;
-Assert.That(lists.Document, Is.EqualTo(doc));
-
-List docList = lists.Add(ListTemplate.BulletDefault);
-Assert.That(docList.Document, Is.EqualTo(doc));
-
-Console.WriteLine("Current list count: " + lists.Count);
-Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
-Console.WriteLine("ListId: " + docList.ListId);
-Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
-```
-
 Shows how to output all paragraphs in a document that are list items.
 
 ```csharp
@@ -64,6 +47,23 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
 }
+```
+
+Shows how to verify owner document properties of lists.
+
+```csharp
+Document doc = new Document();
+
+ListCollection lists = doc.Lists;
+Assert.That(lists.Document, Is.EqualTo(doc));
+
+List docList = lists.Add(ListTemplate.BulletDefault);
+Assert.That(docList.Document, Is.EqualTo(doc));
+
+Console.WriteLine("Current list count: " + lists.Count);
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
+Console.WriteLine("ListId: " + docList.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
 ```
 
 ### See Also

@@ -18,23 +18,6 @@ public List this[int index] { get; }
 
 ## Examples
 
-Shows how to verify owner document properties of lists.
-
-```csharp
-Document doc = new Document();
-
-ListCollection lists = doc.Lists;
-Assert.That(lists.Document, Is.EqualTo(doc));
-
-List docList = lists.Add(ListTemplate.BulletDefault);
-Assert.That(docList.Document, Is.EqualTo(doc));
-
-Console.WriteLine("Current list count: " + lists.Count);
-Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
-Console.WriteLine("ListId: " + docList.ListId);
-Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
-```
-
 Shows how to apply list formatting of an existing list to a collection of paragraphs.
 
 ```csharp
@@ -59,6 +42,23 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 }
 
 Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
+```
+
+Shows how to verify owner document properties of lists.
+
+```csharp
+Document doc = new Document();
+
+ListCollection lists = doc.Lists;
+Assert.That(lists.Document, Is.EqualTo(doc));
+
+List docList = lists.Add(ListTemplate.BulletDefault);
+Assert.That(docList.Document, Is.EqualTo(doc));
+
+Console.WriteLine("Current list count: " + lists.Count);
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(docList)));
+Console.WriteLine("ListId: " + docList.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(docList)));
 ```
 
 ### See Also

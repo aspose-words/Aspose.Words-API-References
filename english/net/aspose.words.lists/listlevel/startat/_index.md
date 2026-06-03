@@ -22,45 +22,6 @@ Default value is 1.
 
 ## Examples
 
-Shows how to restart numbering in a list by copying a list.
-
-```csharp
-Document doc = new Document();
-
-// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
-// We can create nested lists by increasing the indent level. 
-// We can begin and end a list by using a document builder's "ListFormat" property. 
-// Each paragraph that we add between a list's start and the end will become an item in the list.
-// Create a list from a Microsoft Word template, and customize its first list level.
-List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
-list1.ListLevels[0].Font.Color = Color.Red;
-list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
-
-// Apply our list to some paragraphs.
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("List 1 starts below:");
-builder.ListFormat.List = list1;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-// We can add a copy of an existing list to the document's list collection
-// to create a similar list without making changes to the original.
-List list2 = doc.Lists.AddCopy(list1);
-list2.ListLevels[0].Font.Color = Color.Blue;
-list2.ListLevels[0].StartAt = 10;
-
-// Apply the second list to new paragraphs.
-builder.Writeln("List 2 starts below:");
-builder.ListFormat.List = list2;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
-```
-
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
 ```csharp
@@ -113,6 +74,45 @@ builder.Writeln("The quick brown fox...");
 builder.ListFormat.RemoveNumbers();
 
 builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize its first list level.
+List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
+list1.ListLevels[0].Font.Color = Color.Red;
+list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
+
+// Apply our list to some paragraphs.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("List 1 starts below:");
+builder.ListFormat.List = list1;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+// We can add a copy of an existing list to the document's list collection
+// to create a similar list without making changes to the original.
+List list2 = doc.Lists.AddCopy(list1);
+list2.ListLevels[0].Font.Color = Color.Blue;
+list2.ListLevels[0].StartAt = 10;
+
+// Apply the second list to new paragraphs.
+builder.Writeln("List 2 starts below:");
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
 ### See Also

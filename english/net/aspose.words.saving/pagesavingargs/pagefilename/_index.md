@@ -25,34 +25,35 @@ If not specified then page file name and path will be generated automatically us
 Shows how to use a callback to save a document to HTML page by page.
 
 ```csharp
-public void PageFileNames()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.Writeln("Page 1.");
-    builder.InsertBreak(BreakType.PageBreak);
-    builder.Writeln("Page 2.");
-    builder.InsertImage(ImageDir + "Logo.jpg");
-    builder.InsertBreak(BreakType.PageBreak);
-    builder.Writeln("Page 3.");
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
 
-    // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
-    // to modify how we convert the document to HTML.
-    HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
+// Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how we convert the document to HTML.
+HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // We will save each page in this document to a separate HTML file in the local file system.
-    // Set a callback that allows us to name each output HTML document.
-    htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
+// We will save each page in this document to a separate HTML file in the local file system.
+// Set a callback that allows us to name each output HTML document.
+htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
-    doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
+doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
 
-    string[] filePaths = Directory.GetFiles(ArtifactsDir).Where(
-        s => s.StartsWith(ArtifactsDir + "SavingCallback.PageFileNames.Page_")).OrderBy(s => s).ToArray();
+string[] filePaths = Directory.GetFiles(ArtifactsDir).Where(
+    s => s.StartsWith(ArtifactsDir + "SavingCallback.PageFileNames.Page_")).OrderBy(s => s).ToArray();
 
-    Assert.That(filePaths.Length, Is.EqualTo(3));
-}
+Assert.That(filePaths.Length, Is.EqualTo(3));
+```
 
+Shows how to use a callback to save a document to HTML page by page (CustomFileNamePageSavingCallback).
+
+```csharp
 /// <summary>
 /// Saves all pages to a file and directory specified within.
 /// </summary>

@@ -34,37 +34,6 @@ public static ReportBuilder Create(ReportBuilderContext context)
 
 ## Examples
 
-Shows how to populate document with data sources using documents from the stream.
-
-```csharp
-// There is a several ways to populate document with data sources using documents from the stream:
-MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
-
-using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", FileMode.Open, FileAccess.Read))
-{
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
-        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, new object[] { sender }, new[] { "s" });
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, sender, "s");
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.3.docx", FileMode.Create, FileAccess.ReadWrite))
-        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, sender, "s", new ReportBuilderOptions() { Options = ReportBuildOptions.AllowMissingMembers });
-
-    Stream[] images = ReportBuilder.BuildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), new object[] { sender }, new[] { "s" }, new ReportBuilderOptions() { Options = ReportBuildOptions.AllowMissingMembers });
-
-    ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
-    reportBuilderContext.ReportBuilderOptions.MissingMemberMessage = "Missed members";
-    reportBuilderContext.DataSources.Add(sender, "s");
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.4.docx", FileMode.Create, FileAccess.ReadWrite))
-        ReportBuilder.Create(reportBuilderContext)
-            .From(streamIn)
-            .To(streamOut, SaveFormat.Docx)
-            .Execute();
-}
-```
-
 Shows how to populate document with data sources.
 
 ```csharp
@@ -106,6 +75,37 @@ public class MessageTestClass
         Name = name;
         Message = message;
     }
+}
+```
+
+Shows how to populate document with data sources using documents from the stream.
+
+```csharp
+// There is a several ways to populate document with data sources using documents from the stream:
+MessageTestClass sender = new MessageTestClass("LINQ Reporting Engine", "Hello World");
+
+using (FileStream streamIn = new FileStream(MyDir + "Report building.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
+        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, new object[] { sender }, new[] { "s" });
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
+        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, sender, "s");
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.3.docx", FileMode.Create, FileAccess.ReadWrite))
+        ReportBuilder.BuildReport(streamIn, streamOut, SaveFormat.Docx, sender, "s", new ReportBuilderOptions() { Options = ReportBuildOptions.AllowMissingMembers });
+
+    Stream[] images = ReportBuilder.BuildReportToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), new object[] { sender }, new[] { "s" }, new ReportBuilderOptions() { Options = ReportBuildOptions.AllowMissingMembers });
+
+    ReportBuilderContext reportBuilderContext = new ReportBuilderContext();
+    reportBuilderContext.ReportBuilderOptions.MissingMemberMessage = "Missed members";
+    reportBuilderContext.DataSources.Add(sender, "s");
+
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.BuildReportDataSourceStream.4.docx", FileMode.Create, FileAccess.ReadWrite))
+        ReportBuilder.Create(reportBuilderContext)
+            .From(streamIn)
+            .To(streamOut, SaveFormat.Docx)
+            .Execute();
 }
 ```
 

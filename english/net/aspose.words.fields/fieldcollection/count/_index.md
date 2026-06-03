@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Examples
 
-Shows how to remove fields from a field collection.
+Shows how to work with a collection of fields.
 
 ```csharp
 Document doc = new Document();
@@ -36,69 +36,33 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.That(fields.Count, Is.EqualTo(6));
 
-// Below are four ways of removing fields from a field collection.
-// 1 -  Get a field to remove itself:
-fields[0].Remove();
-Assert.That(fields.Count, Is.EqualTo(5));
+// Iterate over the field collection, and print contents and type
+// of every field using a custom visitor implementation.
+FieldVisitor fieldVisitor = new FieldVisitor();
 
-// 2 -  Get the collection to remove a field that we pass to its removal method:
-Field lastField = fields[3];
-fields.Remove(lastField);
-Assert.That(fields.Count, Is.EqualTo(4));
-
-// 3 -  Remove a field from a collection at an index:
-fields.RemoveAt(2);
-Assert.That(fields.Count, Is.EqualTo(3));
-
-// 4 -  Remove all the fields from the collection at once:
-fields.Clear();
-Assert.That(fields.Count, Is.EqualTo(0));
-```
-
-Shows how to work with a collection of fields.
-
-```csharp
-public void FieldCollection()
+using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-
-    builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
-    builder.InsertField(" TIME ");
-    builder.InsertField(" REVNUM ");
-    builder.InsertField(" AUTHOR  \"John Doe\" ");
-    builder.InsertField(" SUBJECT \"My Subject\" ");
-    builder.InsertField(" QUOTE \"Hello world!\" ");
-    doc.UpdateFields();
-
-    FieldCollection fields = doc.Range.Fields;
-
-    Assert.That(fields.Count, Is.EqualTo(6));
-
-    // Iterate over the field collection, and print contents and type
-    // of every field using a custom visitor implementation.
-    FieldVisitor fieldVisitor = new FieldVisitor();
-
-    using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
+    while (fieldEnumerator.MoveNext())
     {
-        while (fieldEnumerator.MoveNext())
+        if (fieldEnumerator.Current != null)
         {
-            if (fieldEnumerator.Current != null)
-            {
-                fieldEnumerator.Current.Start.Accept(fieldVisitor);
-                fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
-                fieldEnumerator.Current.End.Accept(fieldVisitor);
-            }
-            else
-            {
-                Console.WriteLine("There are no fields in the document.");
-            }
+            fieldEnumerator.Current.Start.Accept(fieldVisitor);
+            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            fieldEnumerator.Current.End.Accept(fieldVisitor);
+        }
+        else
+        {
+            Console.WriteLine("There are no fields in the document.");
         }
     }
-
-    Console.WriteLine(fieldVisitor.GetText());
 }
 
+Console.WriteLine(fieldVisitor.GetText());
+```
+
+Shows how to work with a collection of fields (FieldVisitor).
+
+```csharp
 /// <summary>
 /// Document visitor implementation that prints field info.
 /// </summary>
@@ -151,6 +115,43 @@ public class FieldVisitor : DocumentVisitor
 
     private readonly StringBuilder mBuilder;
 }
+```
+
+Shows how to remove fields from a field collection.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+builder.InsertField(" TIME ");
+builder.InsertField(" REVNUM ");
+builder.InsertField(" AUTHOR  \"John Doe\" ");
+builder.InsertField(" SUBJECT \"My Subject\" ");
+builder.InsertField(" QUOTE \"Hello world!\" ");
+doc.UpdateFields();
+
+FieldCollection fields = doc.Range.Fields;
+
+Assert.That(fields.Count, Is.EqualTo(6));
+
+// Below are four ways of removing fields from a field collection.
+// 1 -  Get a field to remove itself:
+fields[0].Remove();
+Assert.That(fields.Count, Is.EqualTo(5));
+
+// 2 -  Get the collection to remove a field that we pass to its removal method:
+Field lastField = fields[3];
+fields.Remove(lastField);
+Assert.That(fields.Count, Is.EqualTo(4));
+
+// 3 -  Remove a field from a collection at an index:
+fields.RemoveAt(2);
+Assert.That(fields.Count, Is.EqualTo(3));
+
+// 4 -  Remove all the fields from the collection at once:
+fields.Clear();
+Assert.That(fields.Count, Is.EqualTo(0));
 ```
 
 ### See Also

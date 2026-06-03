@@ -32,30 +32,6 @@ Use the [`CellFormat`](../cellformat/) property to specify cell formatting.
 
 ## Examples
 
-Shows how to use a document builder to create a table.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Start the table, then populate the first row with two cells.
-builder.StartTable();
-builder.InsertCell();
-builder.Write("Row 1, Cell 1.");
-builder.InsertCell();
-builder.Write("Row 1, Cell 2.");
-
-// Call the builder's "EndRow" method to start a new row.
-builder.EndRow();
-builder.InsertCell();
-builder.Write("Row 2, Cell 1.");
-builder.InsertCell();
-builder.Write("Row 2, Cell 2.");
-builder.EndTable();
-
-doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
-```
-
 Shows how to build a table with custom borders.
 
 ```csharp
@@ -115,6 +91,30 @@ builder.EndRow();
 builder.EndTable();
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+```
+
+Shows how to use a document builder to create a table.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Start the table, then populate the first row with two cells.
+builder.StartTable();
+builder.InsertCell();
+builder.Write("Row 1, Cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, Cell 2.");
+
+// Call the builder's "EndRow" method to start a new row.
+builder.EndRow();
+builder.InsertCell();
+builder.Write("Row 2, Cell 1.");
+builder.InsertCell();
+builder.Write("Row 2, Cell 2.");
+builder.EndTable();
+
+doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
 ### See Also

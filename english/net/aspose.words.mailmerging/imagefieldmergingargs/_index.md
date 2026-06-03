@@ -46,80 +46,37 @@ To insert an image mail merge field into a document in Word, select Insert/Field
 
 ## Examples
 
-Shows how to insert images stored in a database BLOB field into a report.
-
-```csharp
-public void ImageFromBlob()
-{
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
-
-    doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
-
-    string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
-    string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
-
-    using (SqliteConnection conn = new SqliteConnection(connString))
-    {
-        conn.Open();
-
-        // Open the data reader, which needs to be in a mode that reads all records at once.
-        SqliteCommand cmd = new SqliteCommand(query, conn);
-        IDataReader dataReader = cmd.ExecuteReader();
-
-        doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
-    }
-
-    doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
-
-private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
-{
-    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-    {
-        // Do nothing.
-    }
-
-    /// <summary>
-    /// This is called when a mail merge encounters a MERGEFIELD in the document with an "Image:" tag in its name.
-    /// </summary>
-    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
-    {
-        MemoryStream imageStream = new MemoryStream((byte[])e.FieldValue);
-        e.ImageStream = imageStream;
-    }
-}
-```
-
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
-{
-    Document doc = new Document();
+Document doc = new Document();
 
-    // Insert a MERGEFIELD that will accept images from a source during a mail merge. Use the field code to reference
-    // a column in the data source containing local system filenames of images we wish to use in the mail merge.
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
+// Insert a MERGEFIELD that will accept images from a source during a mail merge. Use the field code to reference
+// a column in the data source containing local system filenames of images we wish to use in the mail merge.
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // The data source should have such a column named "ImageColumn".
-    Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
+// The data source should have such a column named "ImageColumn".
+Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
 
-    // Create a suitable data source.
-    DataTable dataTable = new DataTable("Images");
-    dataTable.Columns.Add(new DataColumn("ImageColumn"));
-    dataTable.Rows.Add(ImageDir + "Logo.jpg");
-    dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
-    dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
+// Create a suitable data source.
+DataTable dataTable = new DataTable("Images");
+dataTable.Columns.Add(new DataColumn("ImageColumn"));
+dataTable.Rows.Add(ImageDir + "Logo.jpg");
+dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
+dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configure a callback to modify the sizes of images at merge time, then execute the mail merge.
-    doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
-    doc.MailMerge.Execute(dataTable);
+// Configure a callback to modify the sizes of images at merge time, then execute the mail merge.
+doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
+doc.MailMerge.Execute(dataTable);
 
-    doc.UpdateFields();
-    doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+```
 
+Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge (MergedImageResizer).
+
+```csharp
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.
 /// </summary>
@@ -153,6 +110,51 @@ private class MergedImageResizer : IFieldMergingCallback
     private readonly double mImageWidth;
     private readonly double mImageHeight;
     private readonly MergeFieldImageDimensionUnit mUnit;
+}
+```
+
+Shows how to insert images stored in a database BLOB field into a report.
+
+```csharp
+Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+
+doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+
+string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
+string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
+
+using (SqliteConnection conn = new SqliteConnection(connString))
+{
+    conn.Open();
+
+    // Open the data reader, which needs to be in a mode that reads all records at once.
+    SqliteCommand cmd = new SqliteCommand(query, conn);
+    IDataReader dataReader = cmd.ExecuteReader();
+
+    doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
+}
+
+doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+```
+
+Shows how to insert images stored in a database BLOB field into a report (HandleMergeImageFieldFromBlob).
+
+```csharp
+private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
+{
+    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
+    {
+        // Do nothing.
+    }
+
+    /// <summary>
+    /// This is called when a mail merge encounters a MERGEFIELD in the document with an "Image:" tag in its name.
+    /// </summary>
+    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
+    {
+        MemoryStream imageStream = new MemoryStream((byte[])e.FieldValue);
+        e.ImageStream = imageStream;
+    }
 }
 ```
 

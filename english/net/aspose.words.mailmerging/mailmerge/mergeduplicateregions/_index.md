@@ -25,22 +25,23 @@ The default value is `false`.
 Shows how to work with duplicate mail merge regions.
 
 ```csharp
-public void MergeDuplicateRegions(bool mergeDuplicateRegions)
-{
-    Document doc = CreateSourceDocMergeDuplicateRegions();
-    DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
+Document doc = CreateSourceDocMergeDuplicateRegions();
+DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // If we set the "MergeDuplicateRegions" property to "false", the mail merge will affect the first region,
-    // while the MERGEFIELDs of the second one will be left in the pre-merge state.
-    // To get both regions merged like that,
-    // we would have to execute the mail merge twice on a table of the same name.
-    // If we set the "MergeDuplicateRegions" property to "true", the mail merge will affect both regions.
-    doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
+// If we set the "MergeDuplicateRegions" property to "false", the mail merge will affect the first region,
+// while the MERGEFIELDs of the second one will be left in the pre-merge state.
+// To get both regions merged like that,
+// we would have to execute the mail merge twice on a table of the same name.
+// If we set the "MergeDuplicateRegions" property to "true", the mail merge will affect both regions.
+doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
-    doc.MailMerge.ExecuteWithRegions(dataTable);
-    doc.Save(ArtifactsDir + "MailMerge.MergeDuplicateRegions.docx");
-}
+doc.MailMerge.ExecuteWithRegions(dataTable);
+doc.Save(ArtifactsDir + "MailMerge.MergeDuplicateRegions.docx");
+```
 
+Shows how to work with duplicate mail merge regions (CreateSourceDocMergeDuplicateRegions).
+
+```csharp
 /// <summary>
 /// Returns a document that contains two duplicate mail merge regions (sharing the same name in the "TableStart/End" tags).
 /// </summary>

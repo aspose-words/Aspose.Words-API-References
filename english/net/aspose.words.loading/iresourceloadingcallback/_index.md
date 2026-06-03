@@ -27,24 +27,25 @@ public interface IResourceLoadingCallback
 Shows how to customize the process of loading external resources into a document.
 
 ```csharp
-public void ResourceLoadingCallback()
-{
-    Document doc = new Document();
-    doc.ResourceLoadingCallback = new ImageNameHandler();
+Document doc = new Document();
+doc.ResourceLoadingCallback = new ImageNameHandler();
 
-    DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Images usually are inserted using a URI, or a byte array.
-    // Every instance of a resource load will call our callback's ResourceLoading method.
-    builder.InsertImage("Google logo");
-    builder.InsertImage("Aspose logo");
-    builder.InsertImage("Watermark");
+// Images usually are inserted using a URI, or a byte array.
+// Every instance of a resource load will call our callback's ResourceLoading method.
+builder.InsertImage("Google logo");
+builder.InsertImage("Aspose logo");
+builder.InsertImage("Watermark");
 
-    Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(3));
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(3));
 
-    doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
-}
+doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+```
 
+Shows how to customize the process of loading external resources into a document (ImageNameHandler).
+
+```csharp
 /// <summary>
 /// Allows us to load images into a document using predefined shorthands, as opposed to URIs.
 /// This will separate image loading logic from the rest of the document construction.

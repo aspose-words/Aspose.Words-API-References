@@ -30,57 +30,36 @@ For more information see description of [`Execute`](../execute/).
 
 ## Examples
 
-```csharp
-[VBScript]
-
-Dim RS
-Set RS = CreateObject("ADODB.Recordset")
-RS.Open _
-    "SELECT TOP 50 * FROM Customers ORDER BY Country, CompanyName", _
-    "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Northwind.mdb"
-
-Dim License
-Set License = CreateObject("Aspose.Words.License")
-License.SetLicense "C:\MyPath\MyLicense.lic"
-
-Dim Helper
-Set Helper = CreateObject("Aspose.Words.ComHelper")
-Dim Doc
-Set Doc = Helper.Open("CustomerLabels.doc")
-
-Doc.MailMerge.ExecuteADO RS
-Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
-```
-
 Shows how to run a mail merge with data from an ADO dataset.
 
 ```csharp
-public void ExecuteADO()
-{
-    Document doc = CreateSourceDocADOMailMerge();
+Document doc = CreateSourceDocADOMailMerge();
 
-    // To work with ADO DataSets, we will need to add a reference to the Microsoft ActiveX Data Objects library,
-    // which is included in the .NET distribution and stored in "adodb.dll".
-    Interop.ADODB.Connection connection = new Interop.ADODB.Connection();
+// To work with ADO DataSets, we will need to add a reference to the Microsoft ActiveX Data Objects library,
+// which is included in the .NET distribution and stored in "adodb.dll".
+Interop.ADODB.Connection connection = new Interop.ADODB.Connection();
 
-    // Create a connection string that points to the "Northwind" database file
-    // in our local file system and open a connection.
-    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
-    connection.Open(connectionString);
+// Create a connection string that points to the "Northwind" database file
+// in our local file system and open a connection.
+string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
+connection.Open(connectionString);
 
-    // Populate our DataSet by running an SQL command on our database.
-    // The names of the columns in the result table will need to correspond
-    // to the values of the MERGEFIELDS that will accommodate our data.
-    const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
+// Populate our DataSet by running an SQL command on our database.
+// The names of the columns in the result table will need to correspond
+// to the values of the MERGEFIELDS that will accommodate our data.
+const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
-    Interop.ADODB.Recordset recordset = new Interop.ADODB.Recordset();
-    recordset.Open(command, connection);
+Interop.ADODB.Recordset recordset = new Interop.ADODB.Recordset();
+recordset.Open(command, connection);
 
-    // Execute the mail merge and save the document.
-    doc.MailMerge.ExecuteADO(recordset);
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
-}
+// Execute the mail merge and save the document.
+doc.MailMerge.ExecuteADO(recordset);
+doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
+```
 
+Shows how to run a mail merge with data from an ADO dataset (CreateSourceDocADOMailMerge).
+
+```csharp
 /// <summary>
 /// Create a blank document and populate it with MERGEFIELDS that will accept data when a mail merge is executed.
 /// </summary>

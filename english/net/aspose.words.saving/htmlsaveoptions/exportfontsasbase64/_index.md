@@ -22,21 +22,6 @@ By default, fonts are written to separate files. If this option is set to `true`
 
 ## Examples
 
-Shows how to embed fonts inside a saved HTML document.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-HtmlSaveOptions options = new HtmlSaveOptions
-{
-    ExportFontsAsBase64 = true,
-    CssStyleSheetType = CssStyleSheetType.Embedded,
-    PrettyFormat = true
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
-```
-
 Shows how to save a .html document with images embedded inside it.
 
 ```csharp
@@ -55,6 +40,21 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportI
 Assert.That(exportImagesAsBase64
     ? outDocContents.Contains("<img src=\"data:image/png;base64")
     : outDocContents.Contains("<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""), Is.True);
+```
+
+Shows how to embed fonts inside a saved HTML document.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+HtmlSaveOptions options = new HtmlSaveOptions
+{
+    ExportFontsAsBase64 = true,
+    CssStyleSheetType = CssStyleSheetType.Embedded,
+    PrettyFormat = true
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
 ### See Also

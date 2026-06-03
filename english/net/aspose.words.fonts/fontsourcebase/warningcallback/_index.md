@@ -21,22 +21,23 @@ public IWarningCallback WarningCallback { get; set; }
 Shows how to call warning callback when the font sources working with.
 
 ```csharp
-public void FontSourceWarning()
-{
-    FontSettings settings = new FontSettings();
-    settings.SetFontsFolder("bad folder?", false);
+FontSettings settings = new FontSettings();
+settings.SetFontsFolder("bad folder?", false);
 
-    FontSourceBase source = settings.GetFontsSources()[0];
-    FontSourceWarningCollector callback = new FontSourceWarningCollector();
-    source.WarningCallback = callback;
+FontSourceBase source = settings.GetFontsSources()[0];
+FontSourceWarningCollector callback = new FontSourceWarningCollector();
+source.WarningCallback = callback;
 
-    // Get the list of fonts to call warning callback.
-    IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
+// Get the list of fonts to call warning callback.
+IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
-    Assert.That(callback.FontSubstitutionWarnings[0].Description
-        .Contains("Error loading font from the folder \"bad folder?\""), Is.True);
-}
+Assert.That(callback.FontSubstitutionWarnings[0].Description
+    .Contains("Error loading font from the folder \"bad folder?\""), Is.True);
+```
 
+Shows how to call warning callback when the font sources working with (FontSourceWarningCollector).
+
+```csharp
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>

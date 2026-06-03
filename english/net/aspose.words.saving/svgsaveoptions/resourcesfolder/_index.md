@@ -31,26 +31,27 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 
 ```csharp
-public void SvgResourceFolder()
+Document doc = new Document(MyDir + "Rendering.docx");
+
+SvgSaveOptions options = new SvgSaveOptions
 {
-    Document doc = new Document(MyDir + "Rendering.docx");
+    SaveFormat = SaveFormat.Svg,
+    ExportEmbeddedImages = false,
+    ResourcesFolder = ArtifactsDir + "SvgResourceFolder",
+    ResourcesFolderAlias = ArtifactsDir + "SvgResourceFolderAlias",
+    ShowPageBorder = false,
 
-    SvgSaveOptions options = new SvgSaveOptions
-    {
-        SaveFormat = SaveFormat.Svg,
-        ExportEmbeddedImages = false,
-        ResourcesFolder = ArtifactsDir + "SvgResourceFolder",
-        ResourcesFolderAlias = ArtifactsDir + "SvgResourceFolderAlias",
-        ShowPageBorder = false,
+    ResourceSavingCallback = new ResourceUriPrinter()
+};
 
-        ResourceSavingCallback = new ResourceUriPrinter()
-    };
+Directory.CreateDirectory(options.ResourcesFolderAlias);
 
-    Directory.CreateDirectory(options.ResourcesFolderAlias);
+doc.Save(ArtifactsDir + "SvgSaveOptions.SvgResourceFolder.svg", options);
+```
 
-    doc.Save(ArtifactsDir + "SvgSaveOptions.SvgResourceFolder.svg", options);
-}
+Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg (ResourceUriPrinter).
 
+```csharp
 /// <summary>
 /// Counts and prints URIs of resources contained by as they are converted to .svg.
 /// </summary>

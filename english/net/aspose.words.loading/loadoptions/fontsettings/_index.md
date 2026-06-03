@@ -26,25 +26,6 @@ The default value is `null`.
 
 ## Examples
 
-Shows how to apply font substitution settings while loading a document.
-
-```csharp
-// Create a FontSettings object that will substitute the "Times New Roman" font
-// with the font "Arvo" from our "MyFonts" folder.
-FontSettings fontSettings = new FontSettings();
-fontSettings.SetFontsFolder(FontsDir, false);
-fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
-
-// Set that FontSettings object as a property of a newly created LoadOptions object.
-LoadOptions loadOptions = new LoadOptions();
-loadOptions.FontSettings = fontSettings;
-
-// Load the document, then render it as a PDF with the font substitution.
-Document doc = new Document(MyDir + "Document.docx", loadOptions);
-
-doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
-```
-
 Shows how to designate font substitutes during loading.
 
 ```csharp
@@ -65,6 +46,25 @@ Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 Assert.That(doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name, Is.EqualTo("MissingFont"));
 
 doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+```
+
+Shows how to apply font substitution settings while loading a document.
+
+```csharp
+// Create a FontSettings object that will substitute the "Times New Roman" font
+// with the font "Arvo" from our "MyFonts" folder.
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(FontsDir, false);
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
+
+// Set that FontSettings object as a property of a newly created LoadOptions object.
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.FontSettings = fontSettings;
+
+// Load the document, then render it as a PDF with the font substitution.
+Document doc = new Document(MyDir + "Document.docx", loadOptions);
+
+doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
 ### See Also

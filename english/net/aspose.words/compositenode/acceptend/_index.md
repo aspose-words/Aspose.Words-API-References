@@ -21,19 +21,20 @@ public abstract VisitorAction AcceptEnd(DocumentVisitor visitor)
 Shows how to use a document visitor to print a document's node structure.
 
 ```csharp
-public void DocStructureToText()
-{
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
-    // and then traverses all the node's children in a depth-first manner.
-    // The visitor can read and modify each visited node.
-    doc.Accept(visitor);
+// When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+// and then traverses all the node's children in a depth-first manner.
+// The visitor can read and modify each visited node.
+doc.Accept(visitor);
 
-    Console.WriteLine(visitor.GetText());
-}
+Console.WriteLine(visitor.GetText());
+```
 
+Shows how to use a document visitor to print a document's node structure (DocStructurePrinter).
+
+```csharp
 /// <summary>
 /// Traverses a node's tree of child nodes.
 /// Creates a map of this tree in the form of a string.
