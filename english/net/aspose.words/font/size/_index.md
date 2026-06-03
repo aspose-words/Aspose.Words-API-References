@@ -18,21 +18,6 @@ public double Size { get; set; }
 
 ## Examples
 
-Shows how to format a run of text using its font property.
-
-```csharp
-Document doc = new Document();
-Run run = new Run(doc, "Hello world!");
-
-Aspose.Words.Font font = run.Font;
-font.Name = "Courier New";
-font.Size = 36;
-font.HighlightColor = Color.Yellow;
-
-doc.FirstSection.Body.FirstParagraph.AppendChild(run);
-doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to insert formatted text using DocumentBuilder.
 
 ```csharp
@@ -48,6 +33,21 @@ font.Name = "Courier New";
 font.Underline = Underline.Dash;
 
 builder.Write("Hello world!");
+```
+
+Shows how to format a run of text using its font property.
+
+```csharp
+Document doc = new Document();
+Run run = new Run(doc, "Hello world!");
+
+Aspose.Words.Font font = run.Font;
+font.Name = "Courier New";
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
+
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also

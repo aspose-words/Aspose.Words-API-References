@@ -60,64 +60,38 @@ Inserts the mark of the footnote or endnote that is marked by the specified book
 
 ## Examples
 
-Shows how to cross-reference footnotes with the NOTEREF field.
+Shows to insert NOTEREF fields, and modify their appearance.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.Write("CrossReference: ");
+// Create a bookmark with a footnote that the NOTEREF field will reference.
+InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-FieldNoteRef field = (FieldNoteRef)builder.InsertField(FieldType.FieldNoteRef, false); // <--- don't update field
-field.BookmarkName = "CrossRefBookmark";
-field.InsertHyperlink = true;
-field.InsertReferenceMark = true;
-field.InsertRelativePosition = false;
-builder.Writeln();
+// This NOTEREF field will display the number of the footnote inside the referenced bookmark.
+// Setting the InsertHyperlink property lets us jump to the bookmark by Ctrl + clicking the field in Microsoft Word.
+Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h"));
 
-builder.StartBookmark("CrossRefBookmark");
-builder.Write("Hello world!");
-builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
-builder.EndBookmark("CrossRefBookmark");
-builder.Writeln();
+// When using the \p flag, after the footnote number, the field also displays the bookmark's position relative to the field.
+// Bookmark1 is above this field and contains footnote number 1, so the result will be "1 above" on update.
+Assert.That(InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark1 \\h \\p"));
 
+// Bookmark2 is below this field and contains footnote number 2, so the field will display "2 below".
+// The \f flag makes the number 2 appear in the same format as the footnote number label in the actual text.
+Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h \\p \\f"));
+
+builder.InsertBreak(BreakType.PageBreak);
+InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
+
+doc.UpdatePageLayout();
 doc.UpdateFields();
-
-// This field works only in older versions of Microsoft Word.
-doc.Save(ArtifactsDir + "Field.NOTEREF.doc");
+doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
 ```
 
-Shows to insert NOTEREF fields, and modify their appearance.
+Shows to insert NOTEREF fields, and modify their appearance (InsertFieldNoteRef).
 
 ```csharp
-public void FieldNoteRef()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-
-    // Create a bookmark with a footnote that the NOTEREF field will reference.
-    InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
-
-    // This NOTEREF field will display the number of the footnote inside the referenced bookmark.
-    // Setting the InsertHyperlink property lets us jump to the bookmark by Ctrl + clicking the field in Microsoft Word.
-    Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h"));
-
-    // When using the \p flag, after the footnote number, the field also displays the bookmark's position relative to the field.
-    // Bookmark1 is above this field and contains footnote number 1, so the result will be "1 above" on update.
-    Assert.That(InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark1 \\h \\p"));
-
-    // Bookmark2 is below this field and contains footnote number 2, so the field will display "2 below".
-    // The \f flag makes the number 2 appear in the same format as the footnote number label in the actual text.
-    Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h \\p \\f"));
-
-    builder.InsertBreak(BreakType.PageBreak);
-    InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");
-
-    doc.UpdatePageLayout();
-    doc.UpdateFields();
-    doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
-}
-
 /// <summary>
 /// Uses a document builder to insert a NOTEREF field with specified properties.
 /// </summary>
@@ -146,6 +120,33 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
     builder.EndBookmark(bookmarkName);
     builder.Writeln();
 }
+```
+
+Shows how to cross-reference footnotes with the NOTEREF field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("CrossReference: ");
+
+FieldNoteRef field = (FieldNoteRef)builder.InsertField(FieldType.FieldNoteRef, false); // <--- don't update field
+field.BookmarkName = "CrossRefBookmark";
+field.InsertHyperlink = true;
+field.InsertReferenceMark = true;
+field.InsertRelativePosition = false;
+builder.Writeln();
+
+builder.StartBookmark("CrossRefBookmark");
+builder.Write("Hello world!");
+builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
+builder.EndBookmark("CrossRefBookmark");
+builder.Writeln();
+
+doc.UpdateFields();
+
+// This field works only in older versions of Microsoft Word.
+doc.Save(ArtifactsDir + "Field.NOTEREF.doc");
 ```
 
 ### See Also

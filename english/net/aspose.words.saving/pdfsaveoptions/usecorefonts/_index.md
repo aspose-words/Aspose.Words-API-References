@@ -5,7 +5,7 @@ articleTitle: UseCoreFonts
 second_title: Aspose.Words for .NET
 description: Optimize your PDFs with PdfSaveOptions! Control font substitution for TrueType fonts like Arial and Times New Roman to enhance document quality.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property

@@ -48,6 +48,27 @@ Please refer to https://platform.openai.com/docs/models for OpenAi models detail
 
 ## Examples
 
+Shows how to summarize text using OpenAI and Google models.
+
+```csharp
+Document firstDoc = new Document(MyDir + "Big document.docx");
+Document secondDoc = new Document(MyDir + "Document.docx");
+
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+// Use OpenAI or Google generative language models.
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+
+SummarizeOptions options = new SummarizeOptions();
+
+options.SummaryLength = SummaryLength.Short;
+Document oneDocumentSummary = model.Summarize(firstDoc, options);
+oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
+
+options.SummaryLength = SummaryLength.Long;
+Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
+multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
+```
+
 Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```csharp
@@ -80,27 +101,6 @@ internal class CustomAiModel : OpenAiModel
 
     private readonly string mUrl;
 }
-```
-
-Shows how to summarize text using OpenAI and Google models.
-
-```csharp
-Document firstDoc = new Document(MyDir + "Big document.docx");
-Document secondDoc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI or Google generative language models.
-AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
-
-SummarizeOptions options = new SummarizeOptions();
-
-options.SummaryLength = SummaryLength.Short;
-Document oneDocumentSummary = model.Summarize(firstDoc, options);
-oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
-
-options.SummaryLength = SummaryLength.Long;
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
-multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ```
 
 ### See Also

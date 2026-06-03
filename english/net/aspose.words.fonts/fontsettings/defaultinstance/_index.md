@@ -48,36 +48,37 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```csharp
-public void SubstitutionWarning()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.Font.Name = "Times New Roman";
-    builder.Writeln("Hello world!");
+builder.Font.Name = "Times New Roman";
+builder.Writeln("Hello world!");
 
-    FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
-    doc.WarningCallback = callback;
+FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
+doc.WarningCallback = callback;
 
-    // Store the current collection of font sources, which will be the default font source for every document
-    // for which we do not specify a different font source.
-    FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
+// Store the current collection of font sources, which will be the default font source for every document
+// for which we do not specify a different font source.
+FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // For testing purposes, we will set Aspose.Words to look for fonts only in a folder that does not exist.
-    FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
+// For testing purposes, we will set Aspose.Words to look for fonts only in a folder that does not exist.
+FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // When rendering the document, there will be no place to find the "Times New Roman" font.
-    // This will cause a font substitution warning, which our callback will detect.
-    doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
+// When rendering the document, there will be no place to find the "Times New Roman" font.
+// This will cause a font substitution warning, which our callback will detect.
+doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
-    FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
+FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
-    Assert.That(callback.FontSubstitutionWarnings[0].Description
-        .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
-}
+Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
+Assert.That(callback.FontSubstitutionWarnings[0].Description
+    .Equals(
+        "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
+```
 
+Shows how to use the IWarningCallback interface to monitor font substitution warnings (FontSubstitutionWarningCollector).
+
+```csharp
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>

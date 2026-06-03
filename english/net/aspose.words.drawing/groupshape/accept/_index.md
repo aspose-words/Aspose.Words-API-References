@@ -37,42 +37,43 @@ Calls [`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroups
 Shows how to create a group of shapes, and print its contents using a document visitor.
 
 ```csharp
-public void GroupOfShapes()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+// please use DocumentBuilder.InsertShape methods.
+Shape balloon = new Shape(doc, ShapeType.Balloon)
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    Width = 200,
+    Height = 200,
+    Stroke = { Color = Color.Red }
+};
 
-    // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // please use DocumentBuilder.InsertShape methods.
-    Shape balloon = new Shape(doc, ShapeType.Balloon)
-    {
-        Width = 200,
-        Height = 200,
-        Stroke = { Color = Color.Red }
-    };
+Shape cube = new Shape(doc, ShapeType.Cube)
+{
+    Width = 100,
+    Height = 100,
+    Stroke = { Color = Color.Blue }
+};
 
-    Shape cube = new Shape(doc, ShapeType.Cube)
-    {
-        Width = 100,
-        Height = 100,
-        Stroke = { Color = Color.Blue }
-    };
+GroupShape group = new GroupShape(doc);
+group.AppendChild(balloon);
+group.AppendChild(cube);
 
-    GroupShape group = new GroupShape(doc);
-    group.AppendChild(balloon);
-    group.AppendChild(cube);
+Assert.That(group.IsGroup, Is.True);
 
-    Assert.That(group.IsGroup, Is.True);
+builder.InsertNode(group);
 
-    builder.InsertNode(group);
+ShapeGroupPrinter printer = new ShapeGroupPrinter();
+group.Accept(printer);
 
-    ShapeGroupPrinter printer = new ShapeGroupPrinter();
-    group.Accept(printer);
+Console.WriteLine(printer.GetText());
+```
 
-    Console.WriteLine(printer.GetText());
-}
+Shows how to create a group of shapes, and print its contents using a document visitor (ShapeGroupPrinter).
 
+```csharp
 /// <summary>
 /// Prints the contents of a visited shape group to the console.
 /// </summary>

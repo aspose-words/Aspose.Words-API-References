@@ -24,21 +24,6 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 
 ## Examples
 
-Shows how to format of all of a table's borders at once.
-
-```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-Table table = doc.FirstSection.Body.Tables[0];
-
-// Clear all existing borders from the table.
-table.ClearBorders();
-
-// Set a single green line to serve as every outer and inner border of this table.
-table.SetBorders(LineStyle.Single, 1.5, Color.Green);
-
-doc.Save(ArtifactsDir + "Table.SetBorders.docx");
-```
-
 Shows how to apply border and shading color while building a table.
 
 ```csharp
@@ -73,6 +58,21 @@ builder.InsertCell();
 builder.Writeln("Row 2, Cell 2.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
+```
+
+Shows how to format of all of a table's borders at once.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+Table table = doc.FirstSection.Body.Tables[0];
+
+// Clear all existing borders from the table.
+table.ClearBorders();
+
+// Set a single green line to serve as every outer and inner border of this table.
+table.SetBorders(LineStyle.Single, 1.5, Color.Green);
+
+doc.Save(ArtifactsDir + "Table.SetBorders.docx");
 ```
 
 ### See Also

@@ -21,26 +21,26 @@ public bool Italic { get; }
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Configure a SaveOptions object to export fonts to separate files.
+// Set a callback that will handle font saving in a custom manner.
+HtmlSaveOptions options = new HtmlSaveOptions
 {
-    Document doc = new Document(MyDir + "Rendering.docx");
+    ExportFontResources = true,
+    FontSavingCallback = new HandleFontSaving()
+};
 
-    // Configure a SaveOptions object to export fonts to separate files.
-    // Set a callback that will handle font saving in a custom manner.
-    HtmlSaveOptions options = new HtmlSaveOptions
-    {
-        ExportFontResources = true,
-        FontSavingCallback = new HandleFontSaving()
-    };
+// The callback will export .ttf files and save them alongside the output document.
+doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
-    // The callback will export .ttf files and save them alongside the output document.
-    doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
+foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
+    Console.WriteLine(fontFilename);
+```
 
-    foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
-        Console.WriteLine(fontFilename);
+Shows how to define custom logic for exporting fonts when saving to HTML (HandleFontSaving).
 
-}
-
+```csharp
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
 /// </summary>

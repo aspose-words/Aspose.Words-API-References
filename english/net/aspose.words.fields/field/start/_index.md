@@ -21,47 +21,48 @@ public FieldStart Start { get; }
 Shows how to work with a collection of fields.
 
 ```csharp
-public void FieldCollection()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+builder.InsertField(" TIME ");
+builder.InsertField(" REVNUM ");
+builder.InsertField(" AUTHOR  \"John Doe\" ");
+builder.InsertField(" SUBJECT \"My Subject\" ");
+builder.InsertField(" QUOTE \"Hello world!\" ");
+doc.UpdateFields();
+
+FieldCollection fields = doc.Range.Fields;
+
+Assert.That(fields.Count, Is.EqualTo(6));
+
+// Iterate over the field collection, and print contents and type
+// of every field using a custom visitor implementation.
+FieldVisitor fieldVisitor = new FieldVisitor();
+
+using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-
-    builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
-    builder.InsertField(" TIME ");
-    builder.InsertField(" REVNUM ");
-    builder.InsertField(" AUTHOR  \"John Doe\" ");
-    builder.InsertField(" SUBJECT \"My Subject\" ");
-    builder.InsertField(" QUOTE \"Hello world!\" ");
-    doc.UpdateFields();
-
-    FieldCollection fields = doc.Range.Fields;
-
-    Assert.That(fields.Count, Is.EqualTo(6));
-
-    // Iterate over the field collection, and print contents and type
-    // of every field using a custom visitor implementation.
-    FieldVisitor fieldVisitor = new FieldVisitor();
-
-    using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
+    while (fieldEnumerator.MoveNext())
     {
-        while (fieldEnumerator.MoveNext())
+        if (fieldEnumerator.Current != null)
         {
-            if (fieldEnumerator.Current != null)
-            {
-                fieldEnumerator.Current.Start.Accept(fieldVisitor);
-                fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
-                fieldEnumerator.Current.End.Accept(fieldVisitor);
-            }
-            else
-            {
-                Console.WriteLine("There are no fields in the document.");
-            }
+            fieldEnumerator.Current.Start.Accept(fieldVisitor);
+            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            fieldEnumerator.Current.End.Accept(fieldVisitor);
+        }
+        else
+        {
+            Console.WriteLine("There are no fields in the document.");
         }
     }
-
-    Console.WriteLine(fieldVisitor.GetText());
 }
 
+Console.WriteLine(fieldVisitor.GetText());
+```
+
+Shows how to work with a collection of fields (FieldVisitor).
+
+```csharp
 /// <summary>
 /// Document visitor implementation that prints field info.
 /// </summary>

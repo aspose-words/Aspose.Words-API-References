@@ -18,36 +18,6 @@ public HtmlVersion HtmlVersion { get; set; }
 
 ## Examples
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Hello world!");
-
-HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
-{
-    HtmlVersion = HtmlVersion.Xhtml,
-    ExportXhtmlTransitional = showDoctypeDeclaration,
-    PrettyFormat = true
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
-
-// Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
-string newLine = Environment.NewLine;
-
-if (showDoctypeDeclaration)
-    Assert.That(outDocContents.Contains(
-        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
-        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"), Is.True);
-else
-    Assert.That(outDocContents.Contains("<html>"), Is.True);
-```
-
 Shows how to save a document to a specific version of HTML.
 
 ```csharp
@@ -77,6 +47,36 @@ switch (htmlVersion)
         Assert.That(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""), Is.True);
         break;
 }
+```
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
+{
+    HtmlVersion = HtmlVersion.Xhtml,
+    ExportXhtmlTransitional = showDoctypeDeclaration,
+    PrettyFormat = true
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+// Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
+
+if (showDoctypeDeclaration)
+    Assert.That(outDocContents.Contains(
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
+        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"), Is.True);
+else
+    Assert.That(outDocContents.Contains("<html>"), Is.True);
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: RemoveExternalSchemaReferences
 second_title: Aspose.Words for .NET
 description: Effortlessly eliminate external XML schema references with the RemoveExternalSchemaReferences method, enhancing document integrity and performance.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method

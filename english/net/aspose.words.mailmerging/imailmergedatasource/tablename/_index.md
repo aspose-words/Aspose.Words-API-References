@@ -31,28 +31,29 @@ Aspose.Words uses this name to match against the mail merge region name specifie
 Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```csharp
-public void CustomDataSource()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField(" MERGEFIELD FullName ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Address ");
+
+List<Customer> customers = new List<Customer>
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.InsertField(" MERGEFIELD FullName ");
-    builder.InsertParagraph();
-    builder.InsertField(" MERGEFIELD Address ");
+    new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+    new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+};
 
-    List<Customer> customers = new List<Customer>
-    {
-        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
-        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
-    };
+// To use a custom object as a data source, it must implement the IMailMergeDataSource interface. 
+CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
-    // To use a custom object as a data source, it must implement the IMailMergeDataSource interface. 
-    CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
+doc.MailMerge.Execute(dataSource);
 
-    doc.MailMerge.Execute(dataSource);
+doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+```
 
-    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
-}
+Shows how to execute a mail merge with a data source in the form of a custom object (Customer).
 
+```csharp
 /// <summary>
 /// An example of a "data entity" class in your application.
 /// </summary>

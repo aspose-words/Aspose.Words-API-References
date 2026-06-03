@@ -28,26 +28,27 @@ public interface IFieldUpdatingCallback
 Shows how to use callback methods during a field update.
 
 ```csharp
-public void FieldUpdatingCallbackTest()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
-    builder.InsertField(" TIME ");
-    builder.InsertField(" REVNUM ");
-    builder.InsertField(" AUTHOR  \"John Doe\" ");
-    builder.InsertField(" SUBJECT \"My Subject\" ");
-    builder.InsertField(" QUOTE \"Hello world!\" ");
+builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+builder.InsertField(" TIME ");
+builder.InsertField(" REVNUM ");
+builder.InsertField(" AUTHOR  \"John Doe\" ");
+builder.InsertField(" SUBJECT \"My Subject\" ");
+builder.InsertField(" QUOTE \"Hello world!\" ");
 
-    FieldUpdatingCallback callback = new FieldUpdatingCallback();
-    doc.FieldOptions.FieldUpdatingCallback = callback;
+FieldUpdatingCallback callback = new FieldUpdatingCallback();
+doc.FieldOptions.FieldUpdatingCallback = callback;
 
-    doc.UpdateFields();
+doc.UpdateFields();
 
-    Assert.That(callback.FieldUpdatedCalls.Contains("Updating John Doe"), Is.True);
-}
+Assert.That(callback.FieldUpdatedCalls.Contains("Updating John Doe"), Is.True);
+```
 
+Shows how to use callback methods during a field update (FieldUpdatingCallback).
+
+```csharp
 /// <summary>
 /// Implement this interface if you want to have your own custom methods called during a field update.
 /// </summary>

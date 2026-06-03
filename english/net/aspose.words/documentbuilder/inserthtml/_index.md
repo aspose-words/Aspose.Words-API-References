@@ -61,35 +61,36 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
+builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+
+object[] mergeData =
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    "<html>" +
+        "<h1>" +
+            "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
+        "</h1>" +
+    "</html>", 
 
-    builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
-    builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+    "<html>" +
+        "<blockquote>" +
+            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
+        "</blockquote>" +
+    "</html>"
+};
 
-    object[] mergeData =
-    {
-        "<html>" +
-            "<h1>" +
-                "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
-            "</h1>" +
-        "</html>", 
+doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
+doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
 
-        "<html>" +
-            "<blockquote>" +
-                "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
-            "</blockquote>" +
-        "</html>"
-    };
+doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
+```
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
-    doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
+Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents (HandleMergeFieldInsertHtml).
 
-    doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
-}
-
+```csharp
 /// <summary>
 /// If the mail merge encounters a MERGEFIELD whose name starts with the "html_" prefix,
 /// this callback parses its merge data as HTML content and adds the result to the document location of the MERGEFIELD.

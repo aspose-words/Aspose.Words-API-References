@@ -20,60 +20,6 @@ public void OptimizeFor(MsWordVersion version)
 
 ## Examples
 
-Shows how to vertically align the text contents of a text box.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
-
-// Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
-// align the text in this text box with the top side of the shape.
-// Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
-// align the text in this text box to the center of the shape.
-// Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
-// align the text in this text box to the bottom of the shape.
-shape.TextBox.VerticalAnchor = verticalAnchor;
-
-builder.MoveTo(shape.FirstParagraph);
-builder.Write("Hello world!");
-
-// The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
-doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
-```
-
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// If we configure compatibility options to comply with Microsoft Word 2003,
-// inserting an image will define its shape using VML.
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
-builder.InsertImage(ImageDir + "Transparent background logo.png");
-
-Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
-
-// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
-// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
-// any document we save while passing this object will have to follow that standard. 
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
-{
-    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
-    SaveFormat = SaveFormat.Docx
-};
-
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
-// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
-doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
-
-Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
-```
-
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
@@ -195,6 +141,60 @@ private static void AddOptionName(Boolean option, String optionName, IList<strin
     else
         disabledOptions.Add(optionName);
 }
+```
+
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If we configure compatibility options to comply with Microsoft Word 2003,
+// inserting an image will define its shape using VML.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
+
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
+
+// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+// any document we save while passing this object will have to follow that standard. 
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
+    SaveFormat = SaveFormat.Docx
+};
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
+```
+
+Shows how to vertically align the text contents of a text box.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
+
+// Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
+// align the text in this text box with the top side of the shape.
+// Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
+// align the text in this text box to the center of the shape.
+// Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
+// align the text in this text box to the bottom of the shape.
+shape.TextBox.VerticalAnchor = verticalAnchor;
+
+builder.MoveTo(shape.FirstParagraph);
+builder.Write("Hello world!");
+
+// The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
+doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```
 
 ### See Also

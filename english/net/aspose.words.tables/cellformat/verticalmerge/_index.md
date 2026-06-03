@@ -24,35 +24,6 @@ When cells are vertically merged, the display areas of the merged cells are cons
 
 ## Examples
 
-Prints the horizontal and vertical merge type of a cell.
-
-```csharp
-public void CheckCellsMerged()
-{
-    Document doc = new Document(MyDir + "Table with merged cells.docx");
-    Table table = doc.FirstSection.Body.Tables[0];
-
-    foreach (Row row in table.Rows)
-        foreach (Cell cell in row.Cells)
-            Console.WriteLine(PrintCellMergeType(cell));
-}
-
-public string PrintCellMergeType(Cell cell)
-{
-    bool isHorizontallyMerged = cell.CellFormat.HorizontalMerge != CellMerge.None;
-    bool isVerticallyMerged = cell.CellFormat.VerticalMerge != CellMerge.None;
-    string cellLocation =
-        $"R{cell.ParentRow.ParentTable.IndexOf(cell.ParentRow) + 1}, C{cell.ParentRow.IndexOf(cell) + 1}";
-
-    if (isHorizontallyMerged && isVerticallyMerged)
-        return $"The cell at {cellLocation} is both horizontally and vertically merged";
-    if (isHorizontallyMerged)
-        return $"The cell at {cellLocation} is horizontally merged.";
-
-    return isVerticallyMerged ? $"The cell at {cellLocation} is vertically merged" : $"The cell at {cellLocation} is not merged";
-}
-```
-
 Shows how to merge table cells vertically.
 
 ```csharp
@@ -85,6 +56,36 @@ builder.EndRow();
 builder.EndTable();
 
 doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
+```
+
+Prints the horizontal and vertical merge type of a cell.
+
+```csharp
+Document doc = new Document(MyDir + "Table with merged cells.docx");
+Table table = doc.FirstSection.Body.Tables[0];
+
+foreach (Row row in table.Rows)
+    foreach (Cell cell in row.Cells)
+        Console.WriteLine(PrintCellMergeType(cell));
+```
+
+Prints the horizontal and vertical merge type of a cell (PrintCellMergeType).
+
+```csharp
+public string PrintCellMergeType(Cell cell)
+{
+    bool isHorizontallyMerged = cell.CellFormat.HorizontalMerge != CellMerge.None;
+    bool isVerticallyMerged = cell.CellFormat.VerticalMerge != CellMerge.None;
+    string cellLocation =
+        $"R{cell.ParentRow.ParentTable.IndexOf(cell.ParentRow) + 1}, C{cell.ParentRow.IndexOf(cell) + 1}";
+
+    if (isHorizontallyMerged && isVerticallyMerged)
+        return $"The cell at {cellLocation} is both horizontally and vertically merged";
+    if (isHorizontallyMerged)
+        return $"The cell at {cellLocation} is horizontally merged.";
+
+    return isVerticallyMerged ? $"The cell at {cellLocation} is vertically merged" : $"The cell at {cellLocation} is not merged";
+}
 ```
 
 ### See Also

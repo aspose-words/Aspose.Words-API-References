@@ -63,31 +63,6 @@ The `Node` class:
 
 ## Examples
 
-Shows how to remove all child nodes of a specific type from a composite node.
-
-```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-
-Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
-
-Node curNode = doc.FirstSection.Body.FirstChild;
-
-while (curNode != null)
-{
-    // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-    Node nextNode = curNode.NextSibling;
-
-    // A section body can contain Paragraph and Table nodes.
-    // If the node is a Table, remove it from the parent.
-    if (curNode.NodeType == NodeType.Table)
-        curNode.Remove();
-
-    curNode = nextNode;
-}
-
-Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(0));
-```
-
 Shows how to clone a composite node.
 
 ```csharp
@@ -147,6 +122,31 @@ foreach (Node child in children)
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
             break;
     }
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
+
+Node curNode = doc.FirstSection.Body.FirstChild;
+
+while (curNode != null)
+{
+    // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+    Node nextNode = curNode.NextSibling;
+
+    // A section body can contain Paragraph and Table nodes.
+    // If the node is a Table, remove it from the parent.
+    if (curNode.NodeType == NodeType.Table)
+        curNode.Remove();
+
+    curNode = nextNode;
+}
+
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

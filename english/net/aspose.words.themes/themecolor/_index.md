@@ -46,24 +46,6 @@ The specified theme color is a reference to one of the predefined theme colors, 
 
 ## Examples
 
-Shows how to create and use themed style.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln();
-
-// Create some style with theme font properties.
-Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
-style.Font.ThemeFont = ThemeFont.Major;
-style.Font.ThemeColor = ThemeColor.Accent5;
-style.Font.TintAndShade = 0.3;
-
-builder.ParagraphFormat.StyleName = "ThemedStyle";
-builder.Writeln("Text with themed style");
-```
-
 Shows how to work with theme fonts and colors.
 
 ```csharp
@@ -143,6 +125,24 @@ Assert.That(font.NameOther, Is.EqualTo("Arial"));
 
 Assert.That(font.ThemeColor, Is.EqualTo(ThemeColor.None));
 Assert.That(font.Color.ToArgb(), Is.EqualTo(Color.Blue.ToArgb()));
+```
+
+Shows how to create and use themed style.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln();
+
+// Create some style with theme font properties.
+Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
+style.Font.ThemeFont = ThemeFont.Major;
+style.Font.ThemeColor = ThemeColor.Accent5;
+style.Font.TintAndShade = 0.3;
+
+builder.ParagraphFormat.StyleName = "ThemedStyle";
+builder.Writeln("Text with themed style");
 ```
 
 ### See Also

@@ -29,53 +29,54 @@ Corresponds to the **docPartPr.name** element in OOXML.
 Shows how to add a custom building block to a document.
 
 ```csharp
-public void CreateAndInsert()
+// A document's glossary document stores building blocks.
+Document doc = new Document();
+GlossaryDocument glossaryDoc = new GlossaryDocument();
+doc.GlossaryDocument = glossaryDoc;
+
+// Create a building block, name it, and then add it to the glossary document.
+BuildingBlock block = new BuildingBlock(glossaryDoc)
 {
-    // A document's glossary document stores building blocks.
-    Document doc = new Document();
-    GlossaryDocument glossaryDoc = new GlossaryDocument();
-    doc.GlossaryDocument = glossaryDoc;
+    Name = "Custom Block"
+};
 
-    // Create a building block, name it, and then add it to the glossary document.
-    BuildingBlock block = new BuildingBlock(glossaryDoc)
-    {
-        Name = "Custom Block"
-    };
+glossaryDoc.AppendChild(block);
 
-    glossaryDoc.AppendChild(block);
+// All new building block GUIDs have the same zero value by default, and we can give them a new unique value.
+Assert.That(block.Guid.ToString(), Is.EqualTo("00000000-0000-0000-0000-000000000000"));
 
-    // All new building block GUIDs have the same zero value by default, and we can give them a new unique value.
-    Assert.That(block.Guid.ToString(), Is.EqualTo("00000000-0000-0000-0000-000000000000"));
+block.Guid = Guid.NewGuid();
 
-    block.Guid = Guid.NewGuid();
+// The following properties categorize building blocks
+// in the menu we can access in Microsoft Word via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+Assert.That(block.Category, Is.EqualTo("(Empty Category)"));
+Assert.That(block.Type, Is.EqualTo(BuildingBlockType.None));
+Assert.That(block.Gallery, Is.EqualTo(BuildingBlockGallery.All));
+Assert.That(block.Behavior, Is.EqualTo(BuildingBlockBehavior.Content));
 
-    // The following properties categorize building blocks
-    // in the menu we can access in Microsoft Word via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
-    Assert.That(block.Category, Is.EqualTo("(Empty Category)"));
-    Assert.That(block.Type, Is.EqualTo(BuildingBlockType.None));
-    Assert.That(block.Gallery, Is.EqualTo(BuildingBlockGallery.All));
-    Assert.That(block.Behavior, Is.EqualTo(BuildingBlockBehavior.Content));
+// Before we can add this building block to our document, we will need to give it some contents,
+// which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
+BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+// Visit start/end of the BuildingBlock.
+block.Accept(visitor);
 
-    // Before we can add this building block to our document, we will need to give it some contents,
-    // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
-    BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
-    // Visit start/end of the BuildingBlock.
-    block.Accept(visitor);
+// We can access the block that we just made from the glossary document.
+BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
+    "My custom building blocks", "Custom Block");
 
-    // We can access the block that we just made from the glossary document.
-    BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
-        "My custom building blocks", "Custom Block");
+// The block itself is a section that contains the text.
+Assert.That(customBlock.FirstSection.Body.FirstParagraph.GetText(), Is.EqualTo($"Text inside {customBlock.Name}\f"));
+Assert.That(customBlock.LastSection, Is.EqualTo(customBlock.FirstSection));
+// Now, we can insert it into the document as a new section.
+doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // The block itself is a section that contains the text.
-    Assert.That(customBlock.FirstSection.Body.FirstParagraph.GetText(), Is.EqualTo($"Text inside {customBlock.Name}\f"));
-    Assert.That(customBlock.LastSection, Is.EqualTo(customBlock.FirstSection));
-    // Now, we can insert it into the document as a new section.
-    doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
+// We can also find it in Microsoft Word's Building Blocks Organizer and place it manually.
+doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
+```
 
-    // We can also find it in Microsoft Word's Building Blocks Organizer and place it manually.
-    doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
-}
+Shows how to add a custom building block to a document (BuildingBlockVisitor).
 
+```csharp
 /// <summary>
 /// Sets up a visited building block to be inserted into the document as a quick part and adds text to its contents.
 /// </summary>

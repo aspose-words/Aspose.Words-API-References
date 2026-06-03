@@ -27,25 +27,26 @@ public interface IFieldUpdateCultureProvider
 Shows how to specify a culture which parses date/time formatting for each field.
 
 ```csharp
-public void DefineDateTimeFormatting()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.InsertField(FieldType.FieldTime, true);
+builder.InsertField(FieldType.FieldTime, true);
 
-    doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
+doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Set a provider that returns a culture object specific to each field.
-    doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
+// Set a provider that returns a culture object specific to each field.
+doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
-    FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
-    if (fieldDate.LocaleId != (int)EditingLanguage.Russian)
-        fieldDate.LocaleId = (int)EditingLanguage.Russian;
+FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
+if (fieldDate.LocaleId != (int)EditingLanguage.Russian)
+    fieldDate.LocaleId = (int)EditingLanguage.Russian;
 
-    doc.Save(ArtifactsDir + "FieldOptions.UpdateDateTimeFormatting.pdf");
-}
+doc.Save(ArtifactsDir + "FieldOptions.UpdateDateTimeFormatting.pdf");
+```
 
+Shows how to specify a culture which parses date/time formatting for each field (FieldUpdateCultureProvider).
+
+```csharp
 /// <summary>
 /// Provides a CultureInfo object that should be used during the update of a field.
 /// </summary>

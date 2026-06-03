@@ -18,28 +18,6 @@ public string SourceCode { get; set; }
 
 ## Examples
 
-Shows how to create a VBA project using macros.
-
-```csharp
-Document doc = new Document();
-
-// Create a new VBA project.
-VbaProject project = new VbaProject();
-project.Name = "Aspose.Project";
-doc.VbaProject = project;
-
-// Create a new module and specify a macro source code.
-VbaModule module = new VbaModule();
-module.Name = "Aspose.Module";
-module.Type = VbaModuleType.ProceduralModule;
-module.SourceCode = "New source code";
-
-// Add the module to the VBA project.
-doc.VbaProject.Modules.Add(module);
-
-doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
-```
-
 Shows how to access a document's VBA project information.
 
 ```csharp
@@ -64,6 +42,28 @@ vbaModules["Module1"].SourceCode = "Your VBA code...";
 
 // Remove a module from the collection.
 vbaModules.Remove(vbaModules[2]);
+```
+
+Shows how to create a VBA project using macros.
+
+```csharp
+Document doc = new Document();
+
+// Create a new VBA project.
+VbaProject project = new VbaProject();
+project.Name = "Aspose.Project";
+doc.VbaProject = project;
+
+// Create a new module and specify a macro source code.
+VbaModule module = new VbaModule();
+module.Name = "Aspose.Module";
+module.Type = VbaModuleType.ProceduralModule;
+module.SourceCode = "New source code";
+
+// Add the module to the VBA project.
+doc.VbaProject.Modules.Add(module);
+
+doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ```
 
 ### See Also

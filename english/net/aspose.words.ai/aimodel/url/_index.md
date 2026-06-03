@@ -18,15 +18,6 @@ public abstract string Url { get; set; }
 
 ## Examples
 
-Shows how to change model default url.
-
-```csharp
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-// Default value "https://api.openai.com/".
-model.Url = "https://my.a.com/";
-```
-
 Shows how to use self-hosted AI model based on OpenAiModel.
 
 ```csharp
@@ -59,6 +50,15 @@ internal class CustomAiModel : OpenAiModel
 
     private readonly string mUrl;
 }
+```
+
+Shows how to change model default url.
+
+```csharp
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+// Default value "https://api.openai.com/".
+model.Url = "https://my.a.com/";
 ```
 
 ### See Also

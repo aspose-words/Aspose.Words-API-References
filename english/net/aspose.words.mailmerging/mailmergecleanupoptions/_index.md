@@ -32,29 +32,38 @@ public enum MailMergeCleanupOptions
 
 ## Examples
 
-Shows how to remove whole empty table during mail merge.
+Shows how to automatically remove MERGEFIELDs that go unused during mail merge.
 
 ```csharp
-DataTable tableCustomers = new DataTable("A");
-tableCustomers.Columns.Add("CustomerID");
-tableCustomers.Columns.Add("CustomerName");
-tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
-tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-DataSet ds = new DataSet();
-ds.Tables.Add(tableCustomers);
+// Create a document with MERGEFIELDs for three columns of a mail merge data source table,
+// and then create a table with only two columns whose names match our MERGEFIELDs.
+builder.InsertField(" MERGEFIELD FirstName ");
+builder.Write(" ");
+builder.InsertField(" MERGEFIELD LastName ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD City ");
 
-Document doc = new Document(MyDir + "Mail merge tables.docx");
-Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
+DataTable dataTable = new DataTable("MyTable");
+dataTable.Columns.Add("FirstName");
+dataTable.Columns.Add("LastName");
+dataTable.Rows.Add(new object[] { "John", "Doe" });
+dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-doc.MailMerge.MergeDuplicateRegions = false;
-doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
-doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
+// Our third MERGEFIELD references a "City" column, which does not exist in our data source.
+// The mail merge will leave fields such as this intact in their pre-merge state.
+// Setting the "CleanupOptions" property to "RemoveUnusedFields" will remove any MERGEFIELDs
+// that go unused during a mail merge to clean up the merge documents.
+doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
+doc.MailMerge.Execute(dataTable);
 
-doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
-
-doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
-Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(1));
+if (mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveUnusedFields || 
+    mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveStaticFields)
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
+else
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
 ```
 
 Shows how to remove empty paragraphs that a mail merge may create from the merge output document.
@@ -88,38 +97,29 @@ else
         "Jane Doe"));
 ```
 
-Shows how to automatically remove MERGEFIELDs that go unused during mail merge.
+Shows how to remove whole empty table during mail merge.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DataTable tableCustomers = new DataTable("A");
+tableCustomers.Columns.Add("CustomerID");
+tableCustomers.Columns.Add("CustomerName");
+tableCustomers.Rows.Add(new object[] { 1, "John Doe" });
+tableCustomers.Rows.Add(new object[] { 2, "Jane Doe" });
 
-// Create a document with MERGEFIELDs for three columns of a mail merge data source table,
-// and then create a table with only two columns whose names match our MERGEFIELDs.
-builder.InsertField(" MERGEFIELD FirstName ");
-builder.Write(" ");
-builder.InsertField(" MERGEFIELD LastName ");
-builder.InsertParagraph();
-builder.InsertField(" MERGEFIELD City ");
+DataSet ds = new DataSet();
+ds.Tables.Add(tableCustomers);
 
-DataTable dataTable = new DataTable("MyTable");
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("LastName");
-dataTable.Rows.Add(new object[] { "John", "Doe" });
-dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
+Document doc = new Document(MyDir + "Mail merge tables.docx");
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
 
-// Our third MERGEFIELD references a "City" column, which does not exist in our data source.
-// The mail merge will leave fields such as this intact in their pre-merge state.
-// Setting the "CleanupOptions" property to "RemoveUnusedFields" will remove any MERGEFIELDs
-// that go unused during a mail merge to clean up the merge documents.
-doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
-doc.MailMerge.Execute(dataTable);
+doc.MailMerge.MergeDuplicateRegions = false;
+doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
+doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
 
-if (mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveUnusedFields || 
-    mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveStaticFields)
-    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
-else
-    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
+doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+
+doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(1));
 ```
 
 ### See Also

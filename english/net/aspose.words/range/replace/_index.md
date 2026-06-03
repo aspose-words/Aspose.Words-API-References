@@ -44,15 +44,6 @@ Use method `Replace` to have more flexible customization.
 
 ## Examples
 
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Numbers 1, 2, 3");
-
-// Inserts paragraph break after Numbers.
-doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
-```
-
 Shows how to perform a find-and-replace text operation on the contents of a document.
 
 ```csharp
@@ -145,15 +136,6 @@ Use method `Replace` to have more flexible customization.
 
 ## Examples
 
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("a1, b2, c3");
-
-// Replaces each number with paragraph break.
-doc.Range.Replace(new Regex(@"\d+"), "&p");
-```
-
 Shows how to replace all occurrences of a regular expression pattern with other text.
 
 ```csharp
@@ -208,15 +190,6 @@ You should use special meta-characters if you need to work with breaks:
 * **&amp;&amp;** - &amp; character
 
 ## Examples
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Numbers 1, 2, 3");
-
-// Inserts paragraph break after Numbers.
-doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
-```
 
 Shows how to replace text in a document's footer.
 
@@ -353,42 +326,34 @@ You should use special meta-characters if you need to work with breaks:
 
 ## Examples
 
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("a1, b2, c3");
-
-// Replaces each number with paragraph break.
-doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
-```
-
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 
 ```csharp
-public void ReplaceWithCallback()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.Writeln("Our new location in New York City is opening tomorrow. " +
-                    "Hope to see all our NYC-based customers at the opening!");
+builder.Writeln("Our new location in New York City is opening tomorrow. " +
+                "Hope to see all our NYC-based customers at the opening!");
 
-    // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-    FindReplaceOptions options = new FindReplaceOptions();
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
 
-    // Set a callback that tracks any replacements that the "Replace" method will make.
-    TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
-    options.ReplacingCallback = logger;
+// Set a callback that tracks any replacements that the "Replace" method will make.
+TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
+options.ReplacingCallback = logger;
 
-    doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
+doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
-                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
 
-    Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
-                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
-}
+Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
+```
 
+Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements (TextFindAndReplacementLogger).
+
+```csharp
 /// <summary>
 /// Maintains a log of every text replacement done by a find-and-replace operation
 /// and notes the original matched text's value.
@@ -416,19 +381,19 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 
 ```csharp
-public void InsertDocumentAtReplace()
-{
-    Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-    FindReplaceOptions options = new FindReplaceOptions();
-    options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
-    mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-    mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
+mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+```
 
-}
+Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation (InsertDocumentAtReplaceHandler).
 
+```csharp
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
     ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)

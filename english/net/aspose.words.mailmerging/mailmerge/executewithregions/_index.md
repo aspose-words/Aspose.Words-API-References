@@ -31,54 +31,55 @@ You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspos
 Shows how to use mail merge regions to execute a nested mail merge.
 
 ```csharp
-public void CustomDataSource()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
-    // Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
-    // Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
-    builder.InsertField(" MERGEFIELD TableStart:Customers");
+// Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+// Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+// Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
+builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // These MERGEFIELDs are inside the mail merge region of the "Customers" table.
-    // When we execute the mail merge, this field will receive data from rows in a data source named "Customers".
-    builder.Write("Full name:\t");
-    builder.InsertField(" MERGEFIELD FullName ");
-    builder.Write("\nAddress:\t");
-    builder.InsertField(" MERGEFIELD Address ");
-    builder.Write("\nOrders:\n");
+// These MERGEFIELDs are inside the mail merge region of the "Customers" table.
+// When we execute the mail merge, this field will receive data from rows in a data source named "Customers".
+builder.Write("Full name:\t");
+builder.InsertField(" MERGEFIELD FullName ");
+builder.Write("\nAddress:\t");
+builder.InsertField(" MERGEFIELD Address ");
+builder.Write("\nOrders:\n");
 
-    // Create a second mail merge region inside the outer region for a data source named "Orders".
-    // The "Orders" data entries have a many-to-one relationship with the "Customers" data source.
-    builder.InsertField(" MERGEFIELD TableStart:Orders");
+// Create a second mail merge region inside the outer region for a data source named "Orders".
+// The "Orders" data entries have a many-to-one relationship with the "Customers" data source.
+builder.InsertField(" MERGEFIELD TableStart:Orders");
 
-    builder.Write("\tItem name:\t");
-    builder.InsertField(" MERGEFIELD Name ");
-    builder.Write("\n\tQuantity:\t");
-    builder.InsertField(" MERGEFIELD Quantity ");
-    builder.InsertParagraph();
+builder.Write("\tItem name:\t");
+builder.InsertField(" MERGEFIELD Name ");
+builder.Write("\n\tQuantity:\t");
+builder.InsertField(" MERGEFIELD Quantity ");
+builder.InsertParagraph();
 
-    builder.InsertField(" MERGEFIELD TableEnd:Orders");
-    builder.InsertField(" MERGEFIELD TableEnd:Customers");
+builder.InsertField(" MERGEFIELD TableEnd:Orders");
+builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Create related data with names that match those of our mail merge regions.
-    CustomerList customers = new CustomerList();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+// Create related data with names that match those of our mail merge regions.
+CustomerList customers = new CustomerList();
+customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
+customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
 
-    customers[0].Orders.Add(new Order("Rugby World Cup Cap", 2));
-    customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
-    customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
+customers[0].Orders.Add(new Order("Rugby World Cup Cap", 2));
+customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
+customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // To mail merge from your data source, we must wrap it into an object that implements the IMailMergeDataSource interface.
-    CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
+// To mail merge from your data source, we must wrap it into an object that implements the IMailMergeDataSource interface.
+CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
-    doc.MailMerge.ExecuteWithRegions(customersDataSource);
+doc.MailMerge.ExecuteWithRegions(customersDataSource);
 
-    doc.Save(ArtifactsDir + "NestedMailMergeCustom.CustomDataSource.docx");
-}
+doc.Save(ArtifactsDir + "NestedMailMergeCustom.CustomDataSource.docx");
+```
 
+Shows how to use mail merge regions to execute a nested mail merge (Customer).
+
+```csharp
 /// <summary>
 /// An example of a "data entity" class in your application.
 /// </summary>
@@ -301,36 +302,37 @@ You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspos
 Performs mail merge from a custom data source with master-detail data.
 
 ```csharp
-public void CustomDataSourceRoot()
-{
-    // Create a document with two mail merge regions named "Washington" and "Seattle".
-    string[] mailMergeRegions = { "Vancouver", "Seattle" };
-    Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
+// Create a document with two mail merge regions named "Washington" and "Seattle".
+string[] mailMergeRegions = { "Vancouver", "Seattle" };
+Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Create two data sources for the mail merge.
-    EmployeeList employeesWashingtonBranch = new EmployeeList();
-    employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
-    employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
+// Create two data sources for the mail merge.
+EmployeeList employeesWashingtonBranch = new EmployeeList();
+employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
+employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
 
-    EmployeeList employeesSeattleBranch = new EmployeeList();
-    employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
-    employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
+EmployeeList employeesSeattleBranch = new EmployeeList();
+employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
+employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Register our data sources by name in a data source root.
-    //  If we are about to use this data source root in a mail merge with regions,
-    // each source's registered name must match the name of an existing mail merge region in the mail merge source document.
-    DataSourceRoot sourceRoot = new DataSourceRoot();
-    sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
-    sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
+// Register our data sources by name in a data source root.
+//  If we are about to use this data source root in a mail merge with regions,
+// each source's registered name must match the name of an existing mail merge region in the mail merge source document.
+DataSourceRoot sourceRoot = new DataSourceRoot();
+sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
+sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Since we have consecutive mail merge regions, we would normally have to perform two mail merges.
-    // However, one mail merge source with a data root can fill in multiple regions
-    // if the root contains tables with corresponding names/column names.
-    doc.MailMerge.ExecuteWithRegions(sourceRoot);
+// Since we have consecutive mail merge regions, we would normally have to perform two mail merges.
+// However, one mail merge source with a data root can fill in multiple regions
+// if the root contains tables with corresponding names/column names.
+doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
-    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
-}
+doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
+```
 
+Performs mail merge from a custom data source with master-detail data (CreateSourceDocumentWithMailMergeRegions).
+
+```csharp
 /// <summary>
 /// Create a document that contains consecutive mail merge regions, with names designated by the input array,
 /// for a data table of employees.
@@ -526,54 +528,55 @@ Mail merge regions in a document should be well formed (there always needs to be
 Shows how to execute a nested mail merge with two merge regions and two data tables.
 
 ```csharp
-public void ExecuteWithRegionsNested()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
-    // Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
-    // Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
-    builder.InsertField(" MERGEFIELD TableStart:Customers");
+// Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+// Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+// Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
+builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // This MERGEFIELD is inside the mail merge region of the "Customers" table.
-    // When we execute the mail merge, this field will receive data from rows in a data source named "Customers".
-    builder.Write("Orders for ");
-    builder.InsertField(" MERGEFIELD CustomerName");
-    builder.Write(":");
+// This MERGEFIELD is inside the mail merge region of the "Customers" table.
+// When we execute the mail merge, this field will receive data from rows in a data source named "Customers".
+builder.Write("Orders for ");
+builder.InsertField(" MERGEFIELD CustomerName");
+builder.Write(":");
 
-    // Create column headers for a table that will contain values from a second inner region.
-    builder.StartTable();
-    builder.InsertCell();
-    builder.Write("Item");
-    builder.InsertCell();
-    builder.Write("Quantity");
-    builder.EndRow();
+// Create column headers for a table that will contain values from a second inner region.
+builder.StartTable();
+builder.InsertCell();
+builder.Write("Item");
+builder.InsertCell();
+builder.Write("Quantity");
+builder.EndRow();
 
-    // Create a second mail merge region inside the outer region for a table named "Orders".
-    // The "Orders" table has a many-to-one relationship with the "Customers" table on the "CustomerID" column.
-    builder.InsertCell();
-    builder.InsertField(" MERGEFIELD TableStart:Orders");
-    builder.InsertField(" MERGEFIELD ItemName");
-    builder.InsertCell();
-    builder.InsertField(" MERGEFIELD Quantity");
+// Create a second mail merge region inside the outer region for a table named "Orders".
+// The "Orders" table has a many-to-one relationship with the "Customers" table on the "CustomerID" column.
+builder.InsertCell();
+builder.InsertField(" MERGEFIELD TableStart:Orders");
+builder.InsertField(" MERGEFIELD ItemName");
+builder.InsertCell();
+builder.InsertField(" MERGEFIELD Quantity");
 
-    // End the inner region, and then end the outer region. The opening and closing of a mail merge region must
-    // happen on the same row of a table.
-    builder.InsertField(" MERGEFIELD TableEnd:Orders");
-    builder.EndTable();
+// End the inner region, and then end the outer region. The opening and closing of a mail merge region must
+// happen on the same row of a table.
+builder.InsertField(" MERGEFIELD TableEnd:Orders");
+builder.EndTable();
 
-    builder.InsertField(" MERGEFIELD TableEnd:Customers");
+builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Create a dataset that contains the two tables with the required names and relationships.
-    // Each merge document for each row of the "Customers" table of the outer merge region will perform its mail merge on the "Orders" table.
-    // Each merge document will display all rows of the latter table whose "CustomerID" column values match the current "Customers" table row.
-    DataSet customersAndOrders = CreateDataSet();
-    doc.MailMerge.ExecuteWithRegions(customersAndOrders);
+// Create a dataset that contains the two tables with the required names and relationships.
+// Each merge document for each row of the "Customers" table of the outer merge region will perform its mail merge on the "Orders" table.
+// Each merge document will display all rows of the latter table whose "CustomerID" column values match the current "Customers" table row.
+DataSet customersAndOrders = CreateDataSet();
+doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsNested.docx");
-}
+doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsNested.docx");
+```
 
+Shows how to execute a nested mail merge with two merge regions and two data tables (CreateDataSet).
+
+```csharp
 /// <summary>
 /// Generates a data set that has two data tables named "Customers" and "Orders", with a one-to-many relationship on the "CustomerID" column.
 /// </summary>
@@ -684,18 +687,19 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 Demonstrates how to format cells during a mail merge.
 
 ```csharp
-public void AlternatingRows()
-{
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
+Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldAlternatingRows();
+doc.MailMerge.FieldMergingCallback = new HandleMergeFieldAlternatingRows();
 
-    DataTable dataTable = GetSuppliersDataTable();
-    doc.MailMerge.ExecuteWithRegions(dataTable);
+DataTable dataTable = GetSuppliersDataTable();
+doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
-}
+doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+```
 
+Demonstrates how to format cells during a mail merge (HandleMergeFieldAlternatingRows).
+
+```csharp
 /// <summary>
 /// Formats table rows as a mail merge takes place to alternate between two colors on odd/even rows.
 /// </summary>
@@ -872,29 +876,30 @@ You can pass **SqlDataReader** or **OleDbDataReader** object into this method as
 Shows how to insert images stored in a database BLOB field into a report.
 
 ```csharp
-public void ImageFromBlob()
+Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+
+doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+
+string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
+string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
+
+using (SqliteConnection conn = new SqliteConnection(connString))
 {
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
+    conn.Open();
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
+    // Open the data reader, which needs to be in a mode that reads all records at once.
+    SqliteCommand cmd = new SqliteCommand(query, conn);
+    IDataReader dataReader = cmd.ExecuteReader();
 
-    string connString = $"Data Source={DatabaseDir + "Northwind.db"}";
-    string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
-
-    using (SqliteConnection conn = new SqliteConnection(connString))
-    {
-        conn.Open();
-
-        // Open the data reader, which needs to be in a mode that reads all records at once.
-        SqliteCommand cmd = new SqliteCommand(query, conn);
-        IDataReader dataReader = cmd.ExecuteReader();
-
-        doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
-    }
-
-    doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+    doc.MailMerge.ExecuteWithRegions(dataReader, "Employees");
 }
 
+doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+```
+
+Shows how to insert images stored in a database BLOB field into a report (HandleMergeImageFieldFromBlob).
+
+```csharp
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)

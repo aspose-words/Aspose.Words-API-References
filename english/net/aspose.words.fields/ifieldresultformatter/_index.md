@@ -30,37 +30,38 @@ public interface IFieldResultFormatter
 Shows how to automatically apply a custom format to field results as the fields are updated.
 
 ```csharp
-public void FieldResultFormatting()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
-    doc.FieldOptions.ResultFormatter = formatter;
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
+doc.FieldOptions.ResultFormatter = formatter;
 
-    // Our field result formatter applies a custom format to newly created fields of three types of formats.
-    // Field result formatters apply new formatting to fields as they are updated,
-    // which happens as soon as we create them using this InsertField method overload.
-    // 1 -  Numeric:
-    builder.InsertField(" = 2 + 3 \\# $###");
+// Our field result formatter applies a custom format to newly created fields of three types of formats.
+// Field result formatters apply new formatting to fields as they are updated,
+// which happens as soon as we create them using this InsertField method overload.
+// 1 -  Numeric:
+builder.InsertField(" = 2 + 3 \\# $###");
 
-    Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("$5"));
-    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric), Is.EqualTo(1));
+Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("$5"));
+Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric), Is.EqualTo(1));
 
-    // 2 -  Date/time:
-    builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
+// 2 -  Date/time:
+builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
 
-    Assert.That(doc.Range.Fields[1].Result.StartsWith("Date: "), Is.True);
-    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime), Is.EqualTo(1));
+Assert.That(doc.Range.Fields[1].Result.StartsWith("Date: "), Is.True);
+Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime), Is.EqualTo(1));
 
-    // 3 -  General:
-    builder.InsertField("QUOTE \"2\" \\* Ordinal");
+// 3 -  General:
+builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
-    Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Item # 2:"));
-    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.General), Is.EqualTo(1));
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Item # 2:"));
+Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.General), Is.EqualTo(1));
 
-    formatter.PrintFormatInvocations();
-}
+formatter.PrintFormatInvocations();
+```
 
+Shows how to automatically apply a custom format to field results as the fields are updated (FieldResultFormatter).
+
+```csharp
 /// <summary>
 /// When fields with formatting are updated, this formatter will override their formatting
 /// with a custom format, while tracking every invocation.

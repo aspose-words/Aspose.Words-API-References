@@ -21,20 +21,20 @@ public string BibliographyStyle { get; set; }
 Shows how to override built-in styles or provide custom one.
 
 ```csharp
-public void ChangeBibliographyStyles()
-{
-    Document doc = new Document(MyDir + "Bibliography.docx");
+Document doc = new Document(MyDir + "Bibliography.docx");
 
-    // If the document already has a style you can change it with the following code:
-    // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
+// If the document already has a style you can change it with the following code:
+// doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
-    doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
-    doc.UpdateFields();
+doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
+doc.UpdateFields();
 
-    doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+```
 
-}
+Shows how to override built-in styles or provide custom one (BibliographyStylesProvider).
 
+```csharp
 public class BibliographyStylesProvider : IBibliographyStylesProvider
 {
     Stream IBibliographyStylesProvider.GetStyle(string styleFileName)

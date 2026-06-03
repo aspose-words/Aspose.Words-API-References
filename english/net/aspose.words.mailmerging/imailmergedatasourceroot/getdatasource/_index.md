@@ -35,36 +35,37 @@ If a data source (table) with the specified name does not exist, your implementa
 Performs mail merge from a custom data source with master-detail data.
 
 ```csharp
-public void CustomDataSourceRoot()
-{
-    // Create a document with two mail merge regions named "Washington" and "Seattle".
-    string[] mailMergeRegions = { "Vancouver", "Seattle" };
-    Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
+// Create a document with two mail merge regions named "Washington" and "Seattle".
+string[] mailMergeRegions = { "Vancouver", "Seattle" };
+Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Create two data sources for the mail merge.
-    EmployeeList employeesWashingtonBranch = new EmployeeList();
-    employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
-    employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
+// Create two data sources for the mail merge.
+EmployeeList employeesWashingtonBranch = new EmployeeList();
+employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
+employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
 
-    EmployeeList employeesSeattleBranch = new EmployeeList();
-    employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
-    employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
+EmployeeList employeesSeattleBranch = new EmployeeList();
+employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
+employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Register our data sources by name in a data source root.
-    //  If we are about to use this data source root in a mail merge with regions,
-    // each source's registered name must match the name of an existing mail merge region in the mail merge source document.
-    DataSourceRoot sourceRoot = new DataSourceRoot();
-    sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
-    sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
+// Register our data sources by name in a data source root.
+//  If we are about to use this data source root in a mail merge with regions,
+// each source's registered name must match the name of an existing mail merge region in the mail merge source document.
+DataSourceRoot sourceRoot = new DataSourceRoot();
+sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
+sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Since we have consecutive mail merge regions, we would normally have to perform two mail merges.
-    // However, one mail merge source with a data root can fill in multiple regions
-    // if the root contains tables with corresponding names/column names.
-    doc.MailMerge.ExecuteWithRegions(sourceRoot);
+// Since we have consecutive mail merge regions, we would normally have to perform two mail merges.
+// However, one mail merge source with a data root can fill in multiple regions
+// if the root contains tables with corresponding names/column names.
+doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
-    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
-}
+doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
+```
 
+Performs mail merge from a custom data source with master-detail data (CreateSourceDocumentWithMailMergeRegions).
+
+```csharp
 /// <summary>
 /// Create a document that contains consecutive mail merge regions, with names designated by the input array,
 /// for a data table of employees.

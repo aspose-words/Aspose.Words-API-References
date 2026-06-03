@@ -27,21 +27,6 @@ public enum MarkdownExportAsHtml
 
 ## Examples
 
-Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
-
-```csharp
-string outputPath = ArtifactsDir + "MarkdownSaveOptions.NonCompatibleTables.md";
-
-Document doc = new Document(MyDir + "Non compatible table.docx");
-
-// With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
-// or nested tables to raw HTML and leave simple tables in Markdown format.
-MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-saveOptions.ExportAsHtml = MarkdownExportAsHtml.NonCompatibleTables;
-
-doc.Save(outputPath, saveOptions);
-```
-
 Shows how to export a table to Markdown as raw HTML.
 
 ```csharp
@@ -62,6 +47,21 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.ExportAsHtml = MarkdownExportAsHtml.Tables;
 
 doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+```
+
+Shows how to export tables that cannot be correctly represented in pure Markdown as raw HTML.
+
+```csharp
+string outputPath = ArtifactsDir + "MarkdownSaveOptions.NonCompatibleTables.md";
+
+Document doc = new Document(MyDir + "Non compatible table.docx");
+
+// With the "NonCompatibleTables" option, you can export tables that have a complex structure with merged cells
+// or nested tables to raw HTML and leave simple tables in Markdown format.
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.ExportAsHtml = MarkdownExportAsHtml.NonCompatibleTables;
+
+doc.Save(outputPath, saveOptions);
 ```
 
 ### See Also

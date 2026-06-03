@@ -30,30 +30,31 @@ public abstract class VbaReference
 Shows how to get/remove an element from the VBA reference collection.
 
 ```csharp
-public void RemoveVbaReference()
+const string brokenPath = @"X:\broken.dll";
+Document doc = new Document(MyDir + "VBA project.docm");
+
+VbaReferenceCollection references = doc.VbaProject.References;
+Assert.That(references.Count, Is.EqualTo(5 ));
+
+for (int i = references.Count - 1; i >= 0; i--)
 {
-    const string brokenPath = @"X:\broken.dll";
-    Document doc = new Document(MyDir + "VBA project.docm");
+    VbaReference reference = doc.VbaProject.References[i];
+    string path = GetLibIdPath(reference);
 
-    VbaReferenceCollection references = doc.VbaProject.References;
-    Assert.That(references.Count, Is.EqualTo(5 ));
-
-    for (int i = references.Count - 1; i >= 0; i--)
-    {
-        VbaReference reference = doc.VbaProject.References[i];
-        string path = GetLibIdPath(reference);
-
-        if (path == brokenPath)
-            references.RemoveAt(i);
-    }
-    Assert.That(references.Count, Is.EqualTo(4 ));
-
-    references.Remove(references[1]);
-    Assert.That(references.Count, Is.EqualTo(3 ));
-
-    doc.Save(ArtifactsDir + "VbaProject.RemoveVbaReference.docm"); 
+    if (path == brokenPath)
+        references.RemoveAt(i);
 }
+Assert.That(references.Count, Is.EqualTo(4 ));
 
+references.Remove(references[1]);
+Assert.That(references.Count, Is.EqualTo(3 ));
+
+doc.Save(ArtifactsDir + "VbaProject.RemoveVbaReference.docm");
+```
+
+Shows how to get/remove an element from the VBA reference collection (GetLibIdPath).
+
+```csharp
 /// <summary>
 /// Returns string representing LibId path of a specified reference. 
 /// </summary>

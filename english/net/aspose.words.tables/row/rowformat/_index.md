@@ -18,21 +18,6 @@ public RowFormat RowFormat { get; }
 
 ## Examples
 
-Shows how to modify formatting of a table row.
-
-```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-Table table = doc.FirstSection.Body.Tables[0];
-
-// Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
-Row firstRow = table.FirstRow;
-firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
-firstRow.RowFormat.HeightRule = HeightRule.Auto;
-firstRow.RowFormat.AllowBreakAcrossPages = true;
-
-doc.Save(ArtifactsDir + "Table.RowFormat.docx");
-```
-
 Shows how to modify the format of rows and cells in a table.
 
 ```csharp
@@ -63,6 +48,21 @@ cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
+```
+
+Shows how to modify formatting of a table row.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+Table table = doc.FirstSection.Body.Tables[0];
+
+// Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
+Row firstRow = table.FirstRow;
+firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
+firstRow.RowFormat.HeightRule = HeightRule.Auto;
+firstRow.RowFormat.AllowBreakAcrossPages = true;
+
+doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
 ### See Also

@@ -22,19 +22,6 @@ public static PreferredWidth FromPoints(double points)
 
 ## Examples
 
-Shows how to use unit conversion tools while specifying a preferred width for a cell.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(ConvertUtil.InchToPoint(3));
-builder.InsertCell();
-
-Assert.That(table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value, Is.EqualTo(216.0d));
-```
-
 Shows how to set a preferred width for table cells.
 
 ```csharp
@@ -67,6 +54,19 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
 builder.Writeln("Automatically sized cell.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
+```
+
+Shows how to use unit conversion tools while specifying a preferred width for a cell.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(ConvertUtil.InchToPoint(3));
+builder.InsertCell();
+
+Assert.That(table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value, Is.EqualTo(216.0d));
 ```
 
 ### See Also

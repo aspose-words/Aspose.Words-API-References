@@ -21,25 +21,26 @@ public Node NewParent { get; }
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 
 ```csharp
-public void NodeChangingCallback()
-{
-    Document doc = new Document();
-    doc.NodeChangingCallback = new NodeChangingPrinter();
+Document doc = new Document();
+doc.NodeChangingCallback = new NodeChangingPrinter();
 
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.Writeln("Hello world!");
-    builder.StartTable();
-    builder.InsertCell();
-    builder.Write("Cell 1");
-    builder.InsertCell();
-    builder.Write("Cell 2");
-    builder.EndTable();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+builder.StartTable();
+builder.InsertCell();
+builder.Write("Cell 1");
+builder.InsertCell();
+builder.Write("Cell 2");
+builder.EndTable();
 
-    builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-    builder.CurrentParagraph.ParentNode.RemoveAllChildren();
-}
+builder.CurrentParagraph.ParentNode.RemoveAllChildren();
+```
 
+Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it (NodeChangingPrinter).
+
+```csharp
 /// <summary>
 /// Prints every node insertion/removal as it takes place in the document.
 /// </summary>

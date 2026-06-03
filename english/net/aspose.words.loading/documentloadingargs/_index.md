@@ -29,24 +29,25 @@ public sealed class DocumentLoadingArgs
 Shows how to notify the user if document loading exceeded expected loading time.
 
 ```csharp
-public void ProgressCallback()
+LoadingProgressCallback progressCallback = new LoadingProgressCallback();
+
+LoadOptions loadOptions = new LoadOptions { ProgressCallback = progressCallback };
+
+try
 {
-    LoadingProgressCallback progressCallback = new LoadingProgressCallback();
-
-    LoadOptions loadOptions = new LoadOptions { ProgressCallback = progressCallback };
-
-    try
-    {
-        Document doc = new Document(MyDir + "Big document.docx", loadOptions);
-    }
-    catch (OperationCanceledException exception)
-    {
-        Console.WriteLine(exception.Message);
-
-        // Handle loading duration issue.
-    }
+    Document doc = new Document(MyDir + "Big document.docx", loadOptions);
 }
+catch (OperationCanceledException exception)
+{
+    Console.WriteLine(exception.Message);
 
+    // Handle loading duration issue.
+}
+```
+
+Shows how to notify the user if document loading exceeded expected loading time (LoadingProgressCallback).
+
+```csharp
 /// <summary>
 /// Cancel a document loading after the "MaxDuration" seconds.
 /// </summary>

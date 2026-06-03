@@ -57,6 +57,7 @@ namespace ApiExamples
 {
     public class ExReplaceHyperlinks : ApiExampleBase
     {
+        [Test]
         public void Fields()
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");

@@ -22,17 +22,6 @@ If this option is enabled, all links containing JavaScript (e.g., links with "ja
 
 ## Examples
 
-Shows how to remove JavaScript from the links.
-
-```csharp
-Document doc = new Document(MyDir + "JavaScript in HREF.docx");
-
-HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-saveOptions.RemoveJavaScriptFromLinks = true;
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.RemoveJavaScriptFromLinks.html", saveOptions);
-```
-
 Shows how to remove JavaScript from the links for html fixed documents.
 
 ```csharp
@@ -42,6 +31,17 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.RemoveJavaScriptFromLinks = true;
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.RemoveJavaScriptFromLinks.html", saveOptions);
+```
+
+Shows how to remove JavaScript from the links.
+
+```csharp
+Document doc = new Document(MyDir + "JavaScript in HREF.docx");
+
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.RemoveJavaScriptFromLinks = true;
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.RemoveJavaScriptFromLinks.html", saveOptions);
 ```
 
 ### See Also

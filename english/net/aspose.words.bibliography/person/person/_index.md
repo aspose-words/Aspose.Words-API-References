@@ -24,31 +24,6 @@ public Person(string last, string first, string middle)
 
 ## Examples
 
-Shows how to work with person collection.
-
-```csharp
-// Create a new person collection.
-PersonCollection persons = new PersonCollection();
-Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
-// Add new person to the collection.
-persons.Add(person);
-Assert.That(persons.Count, Is.EqualTo(1));
-// Remove person from the collection if it exists.
-if (persons.Contains(person))
-    persons.Remove(person);
-Assert.That(persons.Count, Is.EqualTo(0));
-
-// Create person collection with two persons.
-persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
-Assert.That(persons.Count, Is.EqualTo(2));
-// Remove person from the collection by the index.
-persons.RemoveAt(0);
-Assert.That(persons.Count, Is.EqualTo(1));
-// Remove all persons from the collection.
-persons.Clear();
-Assert.That(persons.Count, Is.EqualTo(0));
-```
-
 Shows how to get bibliography sources available in the document.
 
 ```csharp
@@ -142,6 +117,31 @@ Person person = authors[0];
 Assert.That(person.First, Is.EqualTo("Roxanne"));
 Assert.That(person.Middle, Is.EqualTo("Brielle"));
 Assert.That(person.Last, Is.EqualTo("Tejeda"));
+```
+
+Shows how to work with person collection.
+
+```csharp
+// Create a new person collection.
+PersonCollection persons = new PersonCollection();
+Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+// Add new person to the collection.
+persons.Add(person);
+Assert.That(persons.Count, Is.EqualTo(1));
+// Remove person from the collection if it exists.
+if (persons.Contains(person))
+    persons.Remove(person);
+Assert.That(persons.Count, Is.EqualTo(0));
+
+// Create person collection with two persons.
+persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+Assert.That(persons.Count, Is.EqualTo(2));
+// Remove person from the collection by the index.
+persons.RemoveAt(0);
+Assert.That(persons.Count, Is.EqualTo(1));
+// Remove all persons from the collection.
+persons.Clear();
+Assert.That(persons.Count, Is.EqualTo(0));
 ```
 
 ### See Also

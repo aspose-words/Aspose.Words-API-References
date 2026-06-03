@@ -21,15 +21,16 @@ public OleFormat OleFormat { get; }
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
-public void VisitShapes()
-{
-    Document doc = new Document(MyDir + "Revision shape.docx");
-    ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
-    doc.Accept(visitor);
+Document doc = new Document(MyDir + "Revision shape.docx");
+ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
+doc.Accept(visitor);
 
-    Console.WriteLine(visitor.GetText());
-}
+Console.WriteLine(visitor.GetText());
+```
 
+Shows how to iterate over all the shapes in a document (ShapeAppearancePrinter).
+
+```csharp
 /// <summary>
 /// Logs appearance-related information about visited shapes.
 /// </summary>

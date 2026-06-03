@@ -106,18 +106,6 @@ engine.MissingMemberMessage = "Missed";
 engine.BuildReport(builder.Document, new DataSet(), "");
 ```
 
-Shows how to remove paragraphs selectively.
-
-```csharp
-// Template contains tags with an exclamation mark. For such tags, empty paragraphs will be removed.
-Document doc = new Document(MyDir + "Reporting engine template - Selective remove paragraphs.docx");
-
-ReportingEngine engine = new ReportingEngine();
-engine.BuildReport(doc, false, "value");
-
-doc.Save(ArtifactsDir + "ReportingEngine.SelectiveDeletionOfParagraphs.docx");
-```
-
 Shows how to display values as dollar text.
 
 ```csharp
@@ -133,6 +121,18 @@ report.KnownTypes.Add(typeof(NumericTestClass));
 report.BuildReport(doc, testData, "ds");
 
 doc.Save(ArtifactsDir + "ReportingEngine.DollarTextFormat.docx");
+```
+
+Shows how to remove paragraphs selectively.
+
+```csharp
+// Template contains tags with an exclamation mark. For such tags, empty paragraphs will be removed.
+Document doc = new Document(MyDir + "Reporting engine template - Selective remove paragraphs.docx");
+
+ReportingEngine engine = new ReportingEngine();
+engine.BuildReport(doc, false, "value");
+
+doc.Save(ArtifactsDir + "ReportingEngine.SelectiveDeletionOfParagraphs.docx");
 ```
 
 ### See Also
@@ -186,18 +186,6 @@ For information on how to work with data sources of different types in template 
 
 ## Examples
 
-Shows how to work with charts from word 2016.
-
-```csharp
-Document doc = new Document(MyDir + "Reporting engine template - Word 2016 Charts.docx");
-
-ReportingEngine engine = new ReportingEngine();
-engine.BuildReport(doc, new object[] { Common.GetShares(), Common.GetShareQuotes() },
-    new string[] { "shares", "quotes" });
-
-doc.Save(ArtifactsDir + "ReportingEngine.Word2016Charts.docx");
-```
-
 Shows how to keep inserted numbering as is.
 
 ```csharp
@@ -212,6 +200,18 @@ ReportingEngine engine = new ReportingEngine() { Options = ReportBuildOptions.Re
 engine.BuildReport(template, new object[] { doc }, new[] { "src" });
 
 template.Save(ArtifactsDir + "ReportingEngine.SourseListNumbering.docx");
+```
+
+Shows how to work with charts from word 2016.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - Word 2016 Charts.docx");
+
+ReportingEngine engine = new ReportingEngine();
+engine.BuildReport(doc, new object[] { Common.GetShares(), Common.GetShareQuotes() },
+    new string[] { "shares", "quotes" });
+
+doc.Save(ArtifactsDir + "ReportingEngine.Word2016Charts.docx");
 ```
 
 ### See Also

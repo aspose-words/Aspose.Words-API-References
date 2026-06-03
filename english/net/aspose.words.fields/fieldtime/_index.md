@@ -59,29 +59,30 @@ Inserts the current date and time.
 Shows how to display the current time using the TIME field.
 
 ```csharp
-public void FieldTime()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // By default, time is displayed in the "h:mm am/pm" format.
-    FieldTime field = InsertFieldTime(builder, "");
+// By default, time is displayed in the "h:mm am/pm" format.
+FieldTime field = InsertFieldTime(builder, "");
 
-    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME "));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME "));
 
-    // We can use the \@ flag to change the format of our displayed time.
-    field = InsertFieldTime(builder, "\\@ HHmm");
+// We can use the \@ flag to change the format of our displayed time.
+field = InsertFieldTime(builder, "\\@ HHmm");
 
-    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ HHmm"));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ HHmm"));
 
-    // We can adjust the format to get TIME field to also display the date, according to the Gregorian calendar.
-    field = InsertFieldTime(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"");
+// We can adjust the format to get TIME field to also display the date, according to the Gregorian calendar.
+field = InsertFieldTime(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"");
 
-    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\""));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\""));
 
-    doc.Save(ArtifactsDir + "Field.TIME.docx");
-}
+doc.Save(ArtifactsDir + "Field.TIME.docx");
+```
 
+Shows how to display the current time using the TIME field (InsertFieldTime).
+
+```csharp
 /// <summary>
 /// Use a document builder to insert a TIME field, insert a new paragraph and return the field.
 /// </summary>

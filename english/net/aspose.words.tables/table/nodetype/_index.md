@@ -21,17 +21,18 @@ public override NodeType NodeType { get; }
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
-{
-    Document doc = new Document(MyDir + "Paragraphs.docx");
+Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.That(doc.IsComposite, Is.True);
+// Any node that can contain child nodes, such as the document itself, is composite.
+Assert.That(doc.IsComposite, Is.True);
 
-    // Invoke the recursive function that will go through and print all the child nodes of a composite node.
-    TraverseAllNodes(doc, 0);
-}
+// Invoke the recursive function that will go through and print all the child nodes of a composite node.
+TraverseAllNodes(doc, 0);
+```
 
+Shows how to traverse a composite node's tree of child nodes (TraverseAllNodes).
+
+```csharp
 /// <summary>
 /// Recursively traverses a node tree while printing the type of each node
 /// with an indent depending on depth as well as the contents of all inline nodes.
@@ -63,29 +64,30 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 Shows how to find out if a tables are nested.
 
 ```csharp
-public void CalculateDepthOfNestedTables()
+Document doc = new Document(MyDir + "Nested tables.docx");
+NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+for (int i = 0; i < tables.Count; i++)
 {
-    Document doc = new Document(MyDir + "Nested tables.docx");
-    NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-    for (int i = 0; i < tables.Count; i++)
-    {
-        Table table = (Table)tables[i];
+    Table table = (Table)tables[i];
 
-        // Find out if any cells in the table have other tables as children.
-        int count = GetChildTableCount(table);
-        Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
+    // Find out if any cells in the table have other tables as children.
+    int count = GetChildTableCount(table);
+    Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Find out if the table is nested inside another table, and, if so, at what depth.
-        int tableDepth = GetNestedDepthOfTable(table);
+    // Find out if the table is nested inside another table, and, if so, at what depth.
+    int tableDepth = GetNestedDepthOfTable(table);
 
-        if (tableDepth > 0)
-            Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
-                tableDepth);
-        else
-            Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
-    }
+    if (tableDepth > 0)
+        Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
+            tableDepth);
+    else
+        Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
 }
+```
 
+Shows how to find out if a tables are nested (GetNestedDepthOfTable).
+
+```csharp
 /// <summary>
 /// Calculates what level a table is nested inside other tables.
 /// </summary>

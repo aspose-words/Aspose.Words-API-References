@@ -119,26 +119,6 @@ Returns `null` if the header/footer of the specified type is not found.
 
 ## Examples
 
-Shows how to replace text in a document's footer.
-
-```csharp
-Document doc = new Document(MyDir + "Footer.docx");
-
-HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
-HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
-
-FindReplaceOptions options = new FindReplaceOptions
-{
-    MatchCase = false,
-    FindWholeWordsOnly = false
-};
-
-int currentYear = DateTime.Now.Year;
-footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
-
-doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
-```
-
 Shows how to delete all footers from a document.
 
 ```csharp
@@ -164,6 +144,26 @@ foreach (Section section in doc.OfType<Section>())
 }
 
 doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+```
+
+Shows how to replace text in a document's footer.
+
+```csharp
+Document doc = new Document(MyDir + "Footer.docx");
+
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
+{
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
+
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
+
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 ### See Also

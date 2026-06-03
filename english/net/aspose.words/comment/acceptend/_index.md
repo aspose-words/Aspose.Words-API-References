@@ -29,33 +29,34 @@ The action to be taken by the visitor.
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
 ```csharp
-public void CreateCommentsAndPrintAllInfo()
+Document doc = new Document();
+
+Comment newComment = new Comment(doc)
 {
-    Document doc = new Document();
+    Author = "VDeryushev",
+    Initial = "VD",
+    DateTime = DateTime.Now
+};
 
-    Comment newComment = new Comment(doc)
-    {
-        Author = "VDeryushev",
-        Initial = "VD",
-        DateTime = DateTime.Now
-    };
+newComment.SetText("Comment regarding text.");
 
-    newComment.SetText("Comment regarding text.");
+// Add text to the document, warp it in a comment range, and then add your comment.
+Paragraph para = doc.FirstSection.Body.FirstParagraph;
+para.AppendChild(new CommentRangeStart(doc, newComment.Id));
+para.AppendChild(new Run(doc, "Commented text."));
+para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
+para.AppendChild(newComment); 
 
-    // Add text to the document, warp it in a comment range, and then add your comment.
-    Paragraph para = doc.FirstSection.Body.FirstParagraph;
-    para.AppendChild(new CommentRangeStart(doc, newComment.Id));
-    para.AppendChild(new Run(doc, "Commented text."));
-    para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
-    para.AppendChild(newComment); 
+// Add two replies to the comment.
+newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
+newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
-    // Add two replies to the comment.
-    newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
-    newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
+PrintAllCommentInfo(doc.GetChildNodes(NodeType.Comment, true));
+```
 
-    PrintAllCommentInfo(doc.GetChildNodes(NodeType.Comment, true));
-}
+Shows how print the contents of all comments and their comment ranges using a document visitor (PrintAllCommentInfo).
 
+```csharp
 /// <summary>
 /// Iterates over every top-level comment and prints its comment range, contents, and replies.
 /// </summary>

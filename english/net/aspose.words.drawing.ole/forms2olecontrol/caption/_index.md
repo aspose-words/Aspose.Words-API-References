@@ -18,16 +18,6 @@ public string Caption { get; set; }
 
 ## Examples
 
-Shows how to set caption for ActiveX control.
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-CommandButtonControl button1 = new CommandButtonControl() { Caption = "Button caption" };
-Shape shape = builder.InsertForms2OleControl(button1);
-Assert.That(button1.Caption, Is.EqualTo("Button caption"));
-```
-
 Shows how to verify the properties of an ActiveX control.
 
 ```csharp
@@ -51,6 +41,16 @@ if (oleControl.IsForms2OleControl)
     // Note, that you can't set GroupName for a Frame.
     checkBox.GroupName = "Aspose group name";
 }
+```
+
+Shows how to set caption for ActiveX control.
+
+```csharp
+DocumentBuilder builder = new DocumentBuilder();
+
+CommandButtonControl button1 = new CommandButtonControl() { Caption = "Button caption" };
+Shape shape = builder.InsertForms2OleControl(button1);
+Assert.That(button1.Caption, Is.EqualTo("Button caption"));
 ```
 
 ### See Also

@@ -32,20 +32,6 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 ## Examples
 
-Shows how to insert a combo box form field into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a form that prompts the user to pick one of the items from the menu.
-builder.Write("Pick a fruit: ");
-string[] items = { "Apple", "Banana", "Cherry" };
-builder.InsertComboBox("DropDown", items, 0);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
-```
-
 Shows how to create form fields.
 
 ```csharp
@@ -67,6 +53,20 @@ builder.InsertParagraph();
 builder.InsertComboBox("My combo box", items, 0);
 
 builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
+```
+
+Shows how to insert a combo box form field into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a form that prompts the user to pick one of the items from the menu.
+builder.Write("Pick a fruit: ");
+string[] items = { "Apple", "Banana", "Cherry" };
+builder.InsertComboBox("DropDown", items, 0);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
 ```
 
 ### See Also

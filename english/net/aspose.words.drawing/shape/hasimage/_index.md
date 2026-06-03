@@ -18,21 +18,6 @@ public bool HasImage { get; }
 
 ## Examples
 
-Shows how to delete all shapes with images from a document.
-
-```csharp
-Document doc = new Document(MyDir + "Images.docx");
-NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
-
-Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(9));
-
-foreach (Shape shape in shapes.OfType<Shape>())
-    if (shape.HasImage) 
-        shape.Remove();
-
-Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(0));
-```
-
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
 ```csharp
@@ -57,6 +42,21 @@ foreach (Shape shape in shapes.OfType<Shape>())
         imageIndex++;
     }
 }
+```
+
+Shows how to delete all shapes with images from a document.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(9));
+
+foreach (Shape shape in shapes.OfType<Shape>())
+    if (shape.HasImage) 
+        shape.Remove();
+
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(0));
 ```
 
 ### See Also
