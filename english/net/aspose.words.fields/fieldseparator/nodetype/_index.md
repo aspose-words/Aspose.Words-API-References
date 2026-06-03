@@ -21,17 +21,18 @@ public override NodeType NodeType { get; }
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
-{
-    Document doc = new Document(MyDir + "Paragraphs.docx");
+Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.That(doc.IsComposite, Is.True);
+// Any node that can contain child nodes, such as the document itself, is composite.
+Assert.That(doc.IsComposite, Is.True);
 
-    // Invoke the recursive function that will go through and print all the child nodes of a composite node.
-    TraverseAllNodes(doc, 0);
-}
+// Invoke the recursive function that will go through and print all the child nodes of a composite node.
+TraverseAllNodes(doc, 0);
+```
 
+Shows how to traverse a composite node's tree of child nodes (TraverseAllNodes).
+
+```csharp
 /// <summary>
 /// Recursively traverses a node tree while printing the type of each node
 /// with an indent depending on depth as well as the contents of all inline nodes.

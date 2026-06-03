@@ -35,23 +35,6 @@ Watermarker.Create(watermarkerContext)
     .Execute();
 ```
 
-Shows how to insert watermark image to the document using context.
-
-```csharp
-string doc = MyDir + "Document.docx";
-string watermarkImage = ImageDir + "Logo.jpg";
-
-WatermarkerContext watermarkerContext = new WatermarkerContext();
-watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
-
-watermarkerContext.ImageWatermarkOptions.Scale = 50;
-
-Watermarker.Create(watermarkerContext)
-    .From(doc)
-    .To(ArtifactsDir + "LowCode.WatermarkContextImage.docx")
-    .Execute();
-```
-
 Shows how to insert watermark text to the document from the stream using context.
 
 ```csharp
@@ -70,6 +53,23 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
             .To(streamOut, SaveFormat.Docx)
             .Execute();
 }
+```
+
+Shows how to insert watermark image to the document using context.
+
+```csharp
+string doc = MyDir + "Document.docx";
+string watermarkImage = ImageDir + "Logo.jpg";
+
+WatermarkerContext watermarkerContext = new WatermarkerContext();
+watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
+
+watermarkerContext.ImageWatermarkOptions.Scale = 50;
+
+Watermarker.Create(watermarkerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.WatermarkContextImage.docx")
+    .Execute();
 ```
 
 Shows how to insert watermark image to the document from a stream using context.

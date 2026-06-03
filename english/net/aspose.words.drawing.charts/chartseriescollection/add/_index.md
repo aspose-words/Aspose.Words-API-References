@@ -22,6 +22,91 @@ Recently added [`ChartSeries`](../../chartseries/) object.
 
 ## Examples
 
+Shows how to create an appropriate type of chart series for a graph type.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// There are several ways of populating a chart's series collection.
+// Different series schemas are intended for different chart types.
+// 1 -  Column chart with columns grouped and banded along the X-axis by category:
+Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
+
+string[] categories = { "Category 1", "Category 2", "Category 3" };
+
+// Insert two series of decimal values containing a value for each respective category.
+// This column chart will have three groups, each with two columns.
+chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
+
+// Categories are distributed along the X-axis, and values are distributed along the Y-axis.
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+
+// 2 -  Area chart with dates distributed along the X-axis:
+chart = AppendChart(builder, ChartType.Area, 500, 300);
+
+DateTime[] dates = { new DateTime(2014, 3, 31),
+    new DateTime(2017, 1, 23),
+    new DateTime(2017, 6, 18),
+    new DateTime(2019, 11, 22),
+    new DateTime(2020, 9, 7)
+};
+
+// Insert a series with a decimal value for each respective date.
+// The dates will be distributed along a linear X-axis,
+// and the values added to this series will create data points.
+chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+
+// 3 -  2D scatter plot:
+chart = AppendChart(builder, ChartType.Scatter, 500, 300);
+
+// Each series will need two decimal arrays of equal length.
+// The first array contains X-values, and the second contains corresponding Y-values
+// of data points on the chart's graph.
+chart.Series.Add("Series 1",
+    new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
+    new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
+chart.Series.Add("Series 2",
+    new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
+    new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
+
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+
+// 4 -  Bubble chart:
+chart = AppendChart(builder, ChartType.Bubble, 500, 300);
+
+// Each series will need three decimal arrays of equal length.
+// The first array contains X-values, the second contains corresponding Y-values,
+// and the third contains diameters for each of the graph's data points.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.0, 9.8 },
+    new[] { 1.2, 4.9, 9.9 },
+    new[] { 2.0, 4.0, 8.0 });
+
+doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
+```
+
+Shows how to create an appropriate type of chart series for a graph type (AppendChart).
+
+```csharp
+/// <summary>
+/// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
+/// </summary>
+private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
+{
+    Shape chartShape = builder.InsertChart(chartType, width, height);
+    Chart chart = chartShape.Chart;
+    chart.Series.Clear();
+    return chart;
+}
+```
+
 Shows how to create pareto chart.
 
 ```csharp
@@ -43,34 +128,6 @@ chart.Series.Add(
     new double[] { 1.43, 0.91, 1.17, 0.98, 0.85 });
 
 doc.Save(ArtifactsDir + "Charts.Pareto.docx");
-```
-
-Shows how to create funnel chart.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a Funnel chart.
-Shape shape = builder.InsertChart(ChartType.Funnel, 450, 450);
-Chart chart = shape.Chart;
-chart.Title.Text = "Population by Age Group";
-
-// Delete default generated series.
-chart.Series.Clear();
-
-// Add a series.
-ChartSeries series = chart.Series.Add(
-    "Population by Age Group",
-    new string[] { "0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80-89", "90-" },
-    new double[] { 0.121, 0.128, 0.132, 0.146, 0.124, 0.124, 0.111, 0.075, 0.032, 0.007 });
-
-// Show data labels.
-series.HasDataLabels = true;
-string decimalSeparator = CultureInfo.CurrentCulture.NumberFormat.CurrencyDecimalSeparator;
-series.DataLabels.NumberFormat.FormatCode = $"0{decimalSeparator}0%";
-
-doc.Save(ArtifactsDir + "Charts.Funnel.docx");
 ```
 
 Shows how to create box and whisker chart.
@@ -109,88 +166,32 @@ series.HasDataLabels = true;
 doc.Save(ArtifactsDir + "Charts.BoxAndWhisker.docx");
 ```
 
-Shows how to create an appropriate type of chart series for a graph type.
+Shows how to create funnel chart.
 
 ```csharp
-public void ChartSeriesCollection()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
+// Insert a Funnel chart.
+Shape shape = builder.InsertChart(ChartType.Funnel, 450, 450);
+Chart chart = shape.Chart;
+chart.Title.Text = "Population by Age Group";
 
-    string[] categories = { "Category 1", "Category 2", "Category 3" };
+// Delete default generated series.
+chart.Series.Clear();
 
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
+// Add a series.
+ChartSeries series = chart.Series.Add(
+    "Population by Age Group",
+    new string[] { "0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80-89", "90-" },
+    new double[] { 0.121, 0.128, 0.132, 0.146, 0.124, 0.124, 0.111, 0.075, 0.032, 0.007 });
 
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+// Show data labels.
+series.HasDataLabels = true;
+string decimalSeparator = CultureInfo.CurrentCulture.NumberFormat.CurrencyDecimalSeparator;
+series.DataLabels.NumberFormat.FormatCode = $"0{decimalSeparator}0%";
 
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType.Area, 500, 300);
-
-    DateTime[] dates = { new DateTime(2014, 3, 31),
-        new DateTime(2017, 1, 23),
-        new DateTime(2017, 6, 18),
-        new DateTime(2019, 11, 22),
-        new DateTime(2020, 9, 7)
-    };
-
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
-
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
-
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType.Scatter, 500, 300);
-
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart.Series.Add("Series 1",
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
-        new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2",
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
-        new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
-
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
-
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType.Bubble, 500, 300);
-
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1",
-        new[] { 1.1, 5.0, 9.8 },
-        new[] { 1.2, 4.9, 9.9 },
-        new[] { 2.0, 4.0, 8.0 });
-
-    doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
-}
-
-/// <summary>
-/// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
-/// </summary>
-private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
-{
-    Shape chartShape = builder.InsertChart(chartType, width, height);
-    Chart chart = chartShape.Chart;
-    chart.Series.Clear();
-    return chart;
-}
+doc.Save(ArtifactsDir + "Charts.Funnel.docx");
 ```
 
 ### See Also
@@ -280,75 +281,76 @@ Recently added [`ChartSeries`](../../chartseries/) object.
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
+// There are several ways of populating a chart's series collection.
+// Different series schemas are intended for different chart types.
+// 1 -  Column chart with columns grouped and banded along the X-axis by category:
+Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
-    string[] categories = { "Category 1", "Category 2", "Category 3" };
+string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
+// Insert two series of decimal values containing a value for each respective category.
+// This column chart will have three groups, each with two columns.
+chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+// Categories are distributed along the X-axis, and values are distributed along the Y-axis.
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType.Area, 500, 300);
+// 2 -  Area chart with dates distributed along the X-axis:
+chart = AppendChart(builder, ChartType.Area, 500, 300);
 
-    DateTime[] dates = { new DateTime(2014, 3, 31),
-        new DateTime(2017, 1, 23),
-        new DateTime(2017, 6, 18),
-        new DateTime(2019, 11, 22),
-        new DateTime(2020, 9, 7)
-    };
+DateTime[] dates = { new DateTime(2014, 3, 31),
+    new DateTime(2017, 1, 23),
+    new DateTime(2017, 6, 18),
+    new DateTime(2019, 11, 22),
+    new DateTime(2020, 9, 7)
+};
 
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+// Insert a series with a decimal value for each respective date.
+// The dates will be distributed along a linear X-axis,
+// and the values added to this series will create data points.
+chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType.Scatter, 500, 300);
+// 3 -  2D scatter plot:
+chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart.Series.Add("Series 1",
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
-        new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2",
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
-        new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
+// Each series will need two decimal arrays of equal length.
+// The first array contains X-values, and the second contains corresponding Y-values
+// of data points on the chart's graph.
+chart.Series.Add("Series 1",
+    new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
+    new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
+chart.Series.Add("Series 2",
+    new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
+    new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType.Bubble, 500, 300);
+// 4 -  Bubble chart:
+chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1",
-        new[] { 1.1, 5.0, 9.8 },
-        new[] { 1.2, 4.9, 9.9 },
-        new[] { 2.0, 4.0, 8.0 });
+// Each series will need three decimal arrays of equal length.
+// The first array contains X-values, the second contains corresponding Y-values,
+// and the third contains diameters for each of the graph's data points.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.0, 9.8 },
+    new[] { 1.2, 4.9, 9.9 },
+    new[] { 2.0, 4.0, 8.0 });
 
-    doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
-}
+doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
+```
 
+Shows how to create an appropriate type of chart series for a graph type (AppendChart).
+
+```csharp
 /// <summary>
 /// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
 /// </summary>
@@ -383,75 +385,76 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
+// There are several ways of populating a chart's series collection.
+// Different series schemas are intended for different chart types.
+// 1 -  Column chart with columns grouped and banded along the X-axis by category:
+Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
-    string[] categories = { "Category 1", "Category 2", "Category 3" };
+string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
+// Insert two series of decimal values containing a value for each respective category.
+// This column chart will have three groups, each with two columns.
+chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+// Categories are distributed along the X-axis, and values are distributed along the Y-axis.
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType.Area, 500, 300);
+// 2 -  Area chart with dates distributed along the X-axis:
+chart = AppendChart(builder, ChartType.Area, 500, 300);
 
-    DateTime[] dates = { new DateTime(2014, 3, 31),
-        new DateTime(2017, 1, 23),
-        new DateTime(2017, 6, 18),
-        new DateTime(2019, 11, 22),
-        new DateTime(2020, 9, 7)
-    };
+DateTime[] dates = { new DateTime(2014, 3, 31),
+    new DateTime(2017, 1, 23),
+    new DateTime(2017, 6, 18),
+    new DateTime(2019, 11, 22),
+    new DateTime(2020, 9, 7)
+};
 
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+// Insert a series with a decimal value for each respective date.
+// The dates will be distributed along a linear X-axis,
+// and the values added to this series will create data points.
+chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType.Scatter, 500, 300);
+// 3 -  2D scatter plot:
+chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart.Series.Add("Series 1",
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
-        new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2",
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
-        new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
+// Each series will need two decimal arrays of equal length.
+// The first array contains X-values, and the second contains corresponding Y-values
+// of data points on the chart's graph.
+chart.Series.Add("Series 1",
+    new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
+    new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
+chart.Series.Add("Series 2",
+    new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
+    new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType.Bubble, 500, 300);
+// 4 -  Bubble chart:
+chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1",
-        new[] { 1.1, 5.0, 9.8 },
-        new[] { 1.2, 4.9, 9.9 },
-        new[] { 2.0, 4.0, 8.0 });
+// Each series will need three decimal arrays of equal length.
+// The first array contains X-values, the second contains corresponding Y-values,
+// and the third contains diameters for each of the graph's data points.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.0, 9.8 },
+    new[] { 1.2, 4.9, 9.9 },
+    new[] { 2.0, 4.0, 8.0 });
 
-    doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
-}
+doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
+```
 
+Shows how to create an appropriate type of chart series for a graph type (AppendChart).
+
+```csharp
 /// <summary>
 /// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
 /// </summary>
@@ -490,75 +493,76 @@ Recently added [`ChartSeries`](../../chartseries/) object.
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
+// There are several ways of populating a chart's series collection.
+// Different series schemas are intended for different chart types.
+// 1 -  Column chart with columns grouped and banded along the X-axis by category:
+Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
-    string[] categories = { "Category 1", "Category 2", "Category 3" };
+string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
+// Insert two series of decimal values containing a value for each respective category.
+// This column chart will have three groups, each with two columns.
+chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+// Categories are distributed along the X-axis, and values are distributed along the Y-axis.
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType.Area, 500, 300);
+// 2 -  Area chart with dates distributed along the X-axis:
+chart = AppendChart(builder, ChartType.Area, 500, 300);
 
-    DateTime[] dates = { new DateTime(2014, 3, 31),
-        new DateTime(2017, 1, 23),
-        new DateTime(2017, 6, 18),
-        new DateTime(2019, 11, 22),
-        new DateTime(2020, 9, 7)
-    };
+DateTime[] dates = { new DateTime(2014, 3, 31),
+    new DateTime(2017, 1, 23),
+    new DateTime(2017, 6, 18),
+    new DateTime(2019, 11, 22),
+    new DateTime(2020, 9, 7)
+};
 
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+// Insert a series with a decimal value for each respective date.
+// The dates will be distributed along a linear X-axis,
+// and the values added to this series will create data points.
+chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType.Scatter, 500, 300);
+// 3 -  2D scatter plot:
+chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart.Series.Add("Series 1",
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
-        new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2",
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
-        new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
+// Each series will need two decimal arrays of equal length.
+// The first array contains X-values, and the second contains corresponding Y-values
+// of data points on the chart's graph.
+chart.Series.Add("Series 1",
+    new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
+    new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
+chart.Series.Add("Series 2",
+    new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
+    new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
-    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType.Bubble, 500, 300);
+// 4 -  Bubble chart:
+chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart.Series.Add("Series 1",
-        new[] { 1.1, 5.0, 9.8 },
-        new[] { 1.2, 4.9, 9.9 },
-        new[] { 2.0, 4.0, 8.0 });
+// Each series will need three decimal arrays of equal length.
+// The first array contains X-values, the second contains corresponding Y-values,
+// and the third contains diameters for each of the graph's data points.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.0, 9.8 },
+    new[] { 1.2, 4.9, 9.9 },
+    new[] { 2.0, 4.0, 8.0 });
 
-    doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
-}
+doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
+```
 
+Shows how to create an appropriate type of chart series for a graph type (AppendChart).
+
+```csharp
 /// <summary>
 /// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
 /// </summary>
@@ -593,49 +597,6 @@ public ChartSeries Add(string seriesName, ChartMultilevelValue[] categories, dou
 Recently added [`ChartSeries`](../../chartseries/) object.
 
 ## Examples
-
-Shows how to create sunburst chart.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a Sunburst chart.
-Shape shape = builder.InsertChart(ChartType.Sunburst, 450, 450);
-Chart chart = shape.Chart;
-chart.Title.Text = "Sales";
-
-// Delete default generated series.
-chart.Series.Clear();
-
-// Add a series.
-ChartSeries series = chart.Series.Add(
-    "Sales",
-    new ChartMultilevelValue[]
-    {
-        new ChartMultilevelValue("Sales - Europe", "UK", "London Dep."),
-        new ChartMultilevelValue("Sales - Europe", "UK", "Liverpool Dep."),
-        new ChartMultilevelValue("Sales - Europe", "UK", "Manchester Dep."),
-        new ChartMultilevelValue("Sales - Europe", "France", "Paris Dep."),
-        new ChartMultilevelValue("Sales - Europe", "France", "Lyon Dep."),
-        new ChartMultilevelValue("Sales - NA", "USA", "Denver Dep."),
-        new ChartMultilevelValue("Sales - NA", "USA", "Seattle Dep."),
-        new ChartMultilevelValue("Sales - NA", "USA", "Detroit Dep."),
-        new ChartMultilevelValue("Sales - NA", "USA", "Houston Dep."),
-        new ChartMultilevelValue("Sales - NA", "Canada", "Toronto Dep."),
-        new ChartMultilevelValue("Sales - NA", "Canada", "Montreal Dep."),
-        new ChartMultilevelValue("Sales - Oceania", "Australia", "Sydney Dep."),
-        new ChartMultilevelValue("Sales - Oceania", "New Zealand", "Auckland Dep.")
-    },
-    new double[] { 1236, 851, 536, 468, 179, 527, 799, 1148, 921, 457, 482, 761, 694 });
-
-// Show data labels.
-series.HasDataLabels = true;
-series.DataLabels.ShowValue = false;
-series.DataLabels.ShowCategoryName = true;
-
-doc.Save(ArtifactsDir + "Charts.Sunburst.docx");
-```
 
 Shows how to create treemap chart.
 
@@ -696,6 +657,49 @@ string thousandSeparator = CultureInfo.CurrentCulture.NumberFormat.CurrencyGroup
 series.DataLabels.NumberFormat.FormatCode = $"#{thousandSeparator}0";
 
 doc.Save(ArtifactsDir + "Charts.Treemap.docx");
+```
+
+Shows how to create sunburst chart.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a Sunburst chart.
+Shape shape = builder.InsertChart(ChartType.Sunburst, 450, 450);
+Chart chart = shape.Chart;
+chart.Title.Text = "Sales";
+
+// Delete default generated series.
+chart.Series.Clear();
+
+// Add a series.
+ChartSeries series = chart.Series.Add(
+    "Sales",
+    new ChartMultilevelValue[]
+    {
+        new ChartMultilevelValue("Sales - Europe", "UK", "London Dep."),
+        new ChartMultilevelValue("Sales - Europe", "UK", "Liverpool Dep."),
+        new ChartMultilevelValue("Sales - Europe", "UK", "Manchester Dep."),
+        new ChartMultilevelValue("Sales - Europe", "France", "Paris Dep."),
+        new ChartMultilevelValue("Sales - Europe", "France", "Lyon Dep."),
+        new ChartMultilevelValue("Sales - NA", "USA", "Denver Dep."),
+        new ChartMultilevelValue("Sales - NA", "USA", "Seattle Dep."),
+        new ChartMultilevelValue("Sales - NA", "USA", "Detroit Dep."),
+        new ChartMultilevelValue("Sales - NA", "USA", "Houston Dep."),
+        new ChartMultilevelValue("Sales - NA", "Canada", "Toronto Dep."),
+        new ChartMultilevelValue("Sales - NA", "Canada", "Montreal Dep."),
+        new ChartMultilevelValue("Sales - Oceania", "Australia", "Sydney Dep."),
+        new ChartMultilevelValue("Sales - Oceania", "New Zealand", "Auckland Dep.")
+    },
+    new double[] { 1236, 851, 536, 468, 179, 527, 799, 1148, 921, 457, 482, 761, 694 });
+
+// Show data labels.
+series.HasDataLabels = true;
+series.DataLabels.ShowValue = false;
+series.DataLabels.ShowCategoryName = true;
+
+doc.Save(ArtifactsDir + "Charts.Sunburst.docx");
 ```
 
 ### See Also

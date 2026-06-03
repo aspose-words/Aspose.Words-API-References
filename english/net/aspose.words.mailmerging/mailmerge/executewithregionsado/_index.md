@@ -29,65 +29,46 @@ For more information see description of [`ExecuteWithRegions`](../executewithreg
 
 ## Examples
 
-```csharp
-[VBScript]
-
-Dim RS
-Set RS = CreateObject("ADODB.Recordset")
-RS.Open _
-    "SELECT * FROM AsposeWordOrderDetails WHERE OrderId = 10444 ORDER BY ProductID", _
-    "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Northwind.mdb"
-
-Dim Helper
-Set Helper = CreateObject("Aspose.Words.ComHelper")
-
-Dim Doc
-Set Doc = Helper.Open("Invoice.doc")
-
-Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
-Doc.Save "Invoice Out VBScript.doc"
-```
-
 Shows how to run a mail merge with multiple regions, compiled with data from an ADO dataset.
 
 ```csharp
-public void ExecuteWithRegionsADO()
-{
-    Document doc = CreateSourceDocADOMailMergeWithRegions();
+Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // To work with ADO DataSets, we will need to add a reference to the Microsoft ActiveX Data Objects library,
-    // which is included in the .NET distribution and stored in "adodb.dll".
-    Interop.ADODB.Connection connection = new Interop.ADODB.Connection();
+// To work with ADO DataSets, we will need to add a reference to the Microsoft ActiveX Data Objects library,
+// which is included in the .NET distribution and stored in "adodb.dll".
+Interop.ADODB.Connection connection = new Interop.ADODB.Connection();
 
-    // Create a connection string that points to the "Northwind" database file
-    // in our local file system and open a connection.
-    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
-    connection.Open(connectionString);
+// Create a connection string that points to the "Northwind" database file
+// in our local file system and open a connection.
+string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
+connection.Open(connectionString);
 
-    // Populate our DataSet by running an SQL command on our database.
-    // The names of the columns in the result table will need to correspond
-    // to the values of the MERGEFIELDS that will accommodate our data.
-    string command = "SELECT FirstName, LastName, City FROM Employees";
+// Populate our DataSet by running an SQL command on our database.
+// The names of the columns in the result table will need to correspond
+// to the values of the MERGEFIELDS that will accommodate our data.
+string command = "SELECT FirstName, LastName, City FROM Employees";
 
-    Interop.ADODB.Recordset recordset = new Interop.ADODB.Recordset();
-    recordset.Open(command, connection);
+Interop.ADODB.Recordset recordset = new Interop.ADODB.Recordset();
+recordset.Open(command, connection);
 
-    // Run a mail merge on just the first region, filling its MERGEFIELDS with data from the record set.
-    doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
+// Run a mail merge on just the first region, filling its MERGEFIELDS with data from the record set.
+doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
-    // Close the record set and reopen it with data from another SQL query.
-    command = "SELECT * FROM Customers";
+// Close the record set and reopen it with data from another SQL query.
+command = "SELECT * FROM Customers";
 
-    recordset.Close();
-    recordset.Open(command, connection);
+recordset.Close();
+recordset.Open(command, connection);
 
-    // Run a second mail merge on the second region and save the document.
-    doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
+// Run a second mail merge on the second region and save the document.
+doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
+doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
+```
 
-}
+Shows how to run a mail merge with multiple regions, compiled with data from an ADO dataset (CreateSourceDocADOMailMergeWithRegions).
 
+```csharp
 /// <summary>
 /// Create a document with two mail merge regions.
 /// </summary>

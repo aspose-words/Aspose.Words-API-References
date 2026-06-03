@@ -21,44 +21,44 @@ public bool UseLegacyOrder { get; set; }
 Shows how to change the searching order of nodes when performing a find-and-replace text operation.
 
 ```csharp
-public void UseLegacyOrder(bool useLegacyOrder)
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insert three runs which we can search for using a regex pattern.
-    // Place one of those runs inside a text box.
-    builder.Writeln("[tag 1]");
-    Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
-    builder.Writeln("[tag 2]");
-    builder.MoveTo(textBox.FirstParagraph);
-    builder.Write("[tag 3]");
+// Insert three runs which we can search for using a regex pattern.
+// Place one of those runs inside a text box.
+builder.Writeln("[tag 1]");
+Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
+builder.Writeln("[tag 2]");
+builder.MoveTo(textBox.FirstParagraph);
+builder.Write("[tag 3]");
 
-    // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-    FindReplaceOptions options = new FindReplaceOptions();
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
 
-    // Assign a custom callback to the "ReplacingCallback" property.
-    TextReplacementTracker callback = new TextReplacementTracker();
-    options.ReplacingCallback = callback;
+// Assign a custom callback to the "ReplacingCallback" property.
+TextReplacementTracker callback = new TextReplacementTracker();
+options.ReplacingCallback = callback;
 
-    // If we set the "UseLegacyOrder" property to "true", the
-    // find-and-replace operation will go through all the runs outside of a text box
-    // before going through the ones inside a text box.
-    // If we set the "UseLegacyOrder" property to "false", the
-    // find-and-replace operation will go over all the runs in a range in sequential order.
-    options.UseLegacyOrder = useLegacyOrder;
+// If we set the "UseLegacyOrder" property to "true", the
+// find-and-replace operation will go through all the runs outside of a text box
+// before going through the ones inside a text box.
+// If we set the "UseLegacyOrder" property to "false", the
+// find-and-replace operation will go over all the runs in a range in sequential order.
+options.UseLegacyOrder = useLegacyOrder;
 
-    doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
+doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
 
-    List<string> expected;
-    if (useLegacyOrder)
-        expected = new List<string> { "[tag 1]", "[tag 3]", "[tag 2]" };
-    else
-        expected = new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" };
-    Assert.That(callback.Matches, Is.EqualTo(expected));
+List<string> expected;
+if (useLegacyOrder)
+    expected = new List<string> { "[tag 1]", "[tag 3]", "[tag 2]" };
+else
+    expected = new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" };
+Assert.That(callback.Matches, Is.EqualTo(expected));
+```
 
-}
+Shows how to change the searching order of nodes when performing a find-and-replace text operation (TextReplacementTracker).
 
+```csharp
 /// <summary>
 /// Records the order of all matches that occur during a find-and-replace operation.
 /// </summary>

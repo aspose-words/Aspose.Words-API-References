@@ -33,28 +33,29 @@ This method ignores the RemoveUnusedRegions option.
 Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```csharp
-public void CustomDataSource()
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField(" MERGEFIELD FullName ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Address ");
+
+List<Customer> customers = new List<Customer>
 {
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.InsertField(" MERGEFIELD FullName ");
-    builder.InsertParagraph();
-    builder.InsertField(" MERGEFIELD Address ");
+    new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+    new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+};
 
-    List<Customer> customers = new List<Customer>
-    {
-        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
-        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
-    };
+// To use a custom object as a data source, it must implement the IMailMergeDataSource interface. 
+CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
-    // To use a custom object as a data source, it must implement the IMailMergeDataSource interface. 
-    CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
+doc.MailMerge.Execute(dataSource);
 
-    doc.MailMerge.Execute(dataSource);
+doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+```
 
-    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
-}
+Shows how to execute a mail merge with a data source in the form of a custom object (Customer).
 
+```csharp
 /// <summary>
 /// An example of a "data entity" class in your application.
 /// </summary>
@@ -173,29 +174,6 @@ This method ignores the RemoveUnusedRegions option.
 
 ## Examples
 
-Shows how to merge an image from a URI as mail merge data into a MERGEFIELD.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// MERGEFIELDs with "Image:" tags will receive an image during a mail merge.
-// The string after the colon in the "Image:" tag corresponds to a column name
-// in the data source whose cells contain URIs of image files.
-builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
-builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
-
-// Create a data source that contains URIs of images that we will merge. 
-// A URI can be a web URL that points to an image, or a local file system filename of an image file.
-string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
-object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
-
-// Execute a mail merge on a data source with one row.
-doc.MailMerge.Execute(columns, URIs);
-
-doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromUrl.docx");
-```
-
 Shows how to perform a mail merge, and then save the document to the client browser.
 
 ```csharp
@@ -219,6 +197,29 @@ Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMer
 
 // We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
 Assert.Throws<NullReferenceException>(() => response.End());
+```
+
+Shows how to merge an image from a URI as mail merge data into a MERGEFIELD.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// MERGEFIELDs with "Image:" tags will receive an image during a mail merge.
+// The string after the colon in the "Image:" tag corresponds to a column name
+// in the data source whose cells contain URIs of image files.
+builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
+builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
+
+// Create a data source that contains URIs of images that we will merge. 
+// A URI can be a web URL that points to an image, or a local file system filename of an image file.
+string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
+object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
+
+// Execute a mail merge on a data source with one row.
+doc.MailMerge.Execute(columns, URIs);
+
+doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromUrl.docx");
 ```
 
 ### See Also
@@ -258,30 +259,31 @@ This method ignores the RemoveUnusedRegions option.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
-{
-    DataTable table = new DataTable("Test");
-    table.Columns.Add("CustomerName");
-    table.Columns.Add("Address");
-    table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
-    table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
+DataTable table = new DataTable("Test");
+table.Columns.Add("CustomerName");
+table.Columns.Add("Address");
+table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
+table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Below are two ways of using a DataTable as the data source for a mail merge.
-    // 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
-    Document doc = CreateSourceDocExecuteDataTable();
+// Below are two ways of using a DataTable as the data source for a mail merge.
+// 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
+Document doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 -  Use one row of the table to create one output mail merge document:
-    doc = CreateSourceDocExecuteDataTable();
+// 2 -  Use one row of the table to create one output mail merge document:
+doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table.Rows[1]);
+doc.MailMerge.Execute(table.Rows[1]);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+```
 
+Shows how to execute a mail merge with data from a DataTable (CreateSourceDocExecuteDataTable).
+
+```csharp
 /// <summary>
 /// Creates a mail merge source document.
 /// </summary>
@@ -462,30 +464,31 @@ This method ignores the RemoveUnusedRegions option.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
-{
-    DataTable table = new DataTable("Test");
-    table.Columns.Add("CustomerName");
-    table.Columns.Add("Address");
-    table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
-    table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
+DataTable table = new DataTable("Test");
+table.Columns.Add("CustomerName");
+table.Columns.Add("Address");
+table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
+table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Below are two ways of using a DataTable as the data source for a mail merge.
-    // 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
-    Document doc = CreateSourceDocExecuteDataTable();
+// Below are two ways of using a DataTable as the data source for a mail merge.
+// 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
+Document doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 -  Use one row of the table to create one output mail merge document:
-    doc = CreateSourceDocExecuteDataTable();
+// 2 -  Use one row of the table to create one output mail merge document:
+doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table.Rows[1]);
+doc.MailMerge.Execute(table.Rows[1]);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+```
 
+Shows how to execute a mail merge with data from a DataTable (CreateSourceDocExecuteDataTable).
+
+```csharp
 /// <summary>
 /// Creates a mail merge source document.
 /// </summary>

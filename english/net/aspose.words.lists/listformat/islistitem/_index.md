@@ -18,33 +18,6 @@ public bool IsListItem { get; }
 
 ## Examples
 
-Shows how to output all paragraphs in a document that are list items.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.ListFormat.ApplyNumberDefault();
-builder.Writeln("Numbered list item 1");
-builder.Writeln("Numbered list item 2");
-builder.Writeln("Numbered list item 3");
-builder.ListFormat.RemoveNumbers();
-
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Bulleted list item 1");
-builder.Writeln("Bulleted list item 2");
-builder.Writeln("Bulleted list item 3");
-builder.ListFormat.RemoveNumbers();
-
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
-{ 
-    Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
-    Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
-}
-```
-
 Shows how to work with list levels.
 
 ```csharp
@@ -91,6 +64,33 @@ builder.ListFormat.List = null;
 Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+Shows how to output all paragraphs in a document that are list items.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Numbered list item 1");
+builder.Writeln("Numbered list item 2");
+builder.Writeln("Numbered list item 3");
+builder.ListFormat.RemoveNumbers();
+
+builder.ListFormat.ApplyBulletDefault();
+builder.Writeln("Bulleted list item 1");
+builder.Writeln("Bulleted list item 2");
+builder.Writeln("Bulleted list item 3");
+builder.ListFormat.RemoveNumbers();
+
+NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
+{ 
+    Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
+    Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
+}
 ```
 
 ### See Also

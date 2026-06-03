@@ -25,31 +25,32 @@ public Section ParentSection { get; }
 Shows how to store endnotes at the end of each section, and modify their positions.
 
 ```csharp
-public void SuppressEndnotes()
-{
-    Document doc = new Document();
-    doc.RemoveAllChildren();
+Document doc = new Document();
+doc.RemoveAllChildren();
 
-    // By default, a document compiles all endnotes at its end. 
-    Assert.That(doc.EndnoteOptions.Position, Is.EqualTo(EndnotePosition.EndOfDocument));
+// By default, a document compiles all endnotes at its end. 
+Assert.That(doc.EndnoteOptions.Position, Is.EqualTo(EndnotePosition.EndOfDocument));
 
-    // We use the "Position" property of the document's "EndnoteOptions" object
-    // to collect endnotes at the end of each section instead. 
-    doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
+// We use the "Position" property of the document's "EndnoteOptions" object
+// to collect endnotes at the end of each section instead. 
+doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
-    InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
-    InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
-    InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
+InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
+InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
+InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // While getting sections to display their respective endnotes, we can set the "SuppressEndnotes" flag
-    // of a section's "PageSetup" object to "true" to revert to the default behavior and pass its endnotes
-    // onto the next section.
-    PageSetup pageSetup = doc.Sections[1].PageSetup;
-    pageSetup.SuppressEndnotes = true;
+// While getting sections to display their respective endnotes, we can set the "SuppressEndnotes" flag
+// of a section's "PageSetup" object to "true" to revert to the default behavior and pass its endnotes
+// onto the next section.
+PageSetup pageSetup = doc.Sections[1].PageSetup;
+pageSetup.SuppressEndnotes = true;
 
-    doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
-}
+doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+```
 
+Shows how to store endnotes at the end of each section, and modify their positions (InsertSectionWithEndnote).
+
+```csharp
 /// <summary>
 /// Append a section with text and an endnote to a document.
 /// </summary>

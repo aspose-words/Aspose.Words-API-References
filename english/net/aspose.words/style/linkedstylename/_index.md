@@ -26,25 +26,6 @@ Assigning the empty string is equivalent to unlinking the previously linked styl
 
 ## Examples
 
-Shows how to link styles among themselves.
-
-```csharp
-Document doc = new Document();
-
-Style styleHeading1 = doc.Styles[StyleIdentifier.Heading1];
-
-Style styleHeading1Char = doc.Styles.Add(StyleType.Character, "Heading 1 Char");
-styleHeading1Char.Font.Name = "Verdana";
-styleHeading1Char.Font.Bold = true;
-styleHeading1Char.Font.Border.LineStyle = LineStyle.Dot;
-styleHeading1Char.Font.Border.LineWidth = 15;
-
-styleHeading1.LinkedStyleName = "Heading 1 Char";
-
-Assert.That(styleHeading1.LinkedStyleName, Is.EqualTo("Heading 1 Char"));
-Assert.That(styleHeading1Char.LinkedStyleName, Is.EqualTo("Heading 1"));
-```
-
 Shows how to use style aliases.
 
 ```csharp
@@ -68,6 +49,25 @@ builder.ParagraphFormat.Style = doc.Styles["MyStyle Alias 2"];
 builder.Write("Hello again!");
 
 Assert.That(doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style, Is.EqualTo(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style));
+```
+
+Shows how to link styles among themselves.
+
+```csharp
+Document doc = new Document();
+
+Style styleHeading1 = doc.Styles[StyleIdentifier.Heading1];
+
+Style styleHeading1Char = doc.Styles.Add(StyleType.Character, "Heading 1 Char");
+styleHeading1Char.Font.Name = "Verdana";
+styleHeading1Char.Font.Bold = true;
+styleHeading1Char.Font.Border.LineStyle = LineStyle.Dot;
+styleHeading1Char.Font.Border.LineWidth = 15;
+
+styleHeading1.LinkedStyleName = "Heading 1 Char";
+
+Assert.That(styleHeading1.LinkedStyleName, Is.EqualTo("Heading 1 Char"));
+Assert.That(styleHeading1Char.LinkedStyleName, Is.EqualTo("Heading 1"));
 ```
 
 ### See Also

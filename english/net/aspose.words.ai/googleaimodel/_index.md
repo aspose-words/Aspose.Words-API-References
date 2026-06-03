@@ -46,17 +46,6 @@ Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models d
 
 ## Examples
 
-Shows how to use google AI model.
-
-```csharp
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
-
-Document doc = new Document(MyDir + "Big document.docx");
-SummarizeOptions summarizeOptions = new SummarizeOptions() { SummaryLength = SummaryLength.VeryShort };
-Document summary = model.Summarize(doc, summarizeOptions);
-```
-
 Shows how to summarize text using OpenAI and Google models.
 
 ```csharp
@@ -76,6 +65,17 @@ oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
 options.SummaryLength = SummaryLength.Long;
 Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, options);
 multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
+```
+
+Shows how to use google AI model.
+
+```csharp
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+GoogleAiModel model = new GoogleAiModel("gemini-flash-latest", apiKey);
+
+Document doc = new Document(MyDir + "Big document.docx");
+SummarizeOptions summarizeOptions = new SummarizeOptions() { SummaryLength = SummaryLength.VeryShort };
+Document summary = model.Summarize(doc, summarizeOptions);
 ```
 
 ### See Also

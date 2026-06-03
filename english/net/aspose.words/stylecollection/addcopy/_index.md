@@ -36,24 +36,6 @@ If collection already contains a style with the same name, then new name is auto
 
 ## Examples
 
-Shows how to import a style from one document into a different document.
-
-```csharp
-Document srcDoc = new Document();
-
-// Create a custom style for the source document.
-Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
-srcStyle.Font.Color = Color.Red;
-
-// Import the source document's custom style into the destination document.
-Document dstDoc = new Document();
-Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
-
-// The imported style has an appearance identical to its source style.
-Assert.That(newStyle.Name, Is.EqualTo("MyStyle"));
-Assert.That(newStyle.Font.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
-```
-
 Shows how to clone a document's style.
 
 ```csharp
@@ -77,6 +59,24 @@ Assert.That(newStyle.Type, Is.EqualTo(doc.Styles["Heading 1"].Type));
 Assert.That(newStyle.Font.Name, Is.EqualTo(doc.Styles["Heading 1"].Font.Name));
 Assert.That(newStyle.Font.Size, Is.EqualTo(doc.Styles["Heading 1"].Font.Size));
 Assert.That(newStyle.Font.Color, Is.Not.EqualTo(doc.Styles["Heading 1"].Font.Color));
+```
+
+Shows how to import a style from one document into a different document.
+
+```csharp
+Document srcDoc = new Document();
+
+// Create a custom style for the source document.
+Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
+srcStyle.Font.Color = Color.Red;
+
+// Import the source document's custom style into the destination document.
+Document dstDoc = new Document();
+Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
+
+// The imported style has an appearance identical to its source style.
+Assert.That(newStyle.Name, Is.EqualTo("MyStyle"));
+Assert.That(newStyle.Font.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
 ```
 
 ### See Also

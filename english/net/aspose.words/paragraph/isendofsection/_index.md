@@ -21,29 +21,30 @@ public bool IsEndOfSection { get; }
 Shows how to insert the contents of one document to a bookmark in another document.
 
 ```csharp
-public void InsertAtBookmark()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.StartBookmark("InsertionPoint");
-    builder.Write("We will insert a document here: ");
-    builder.EndBookmark("InsertionPoint");
+builder.StartBookmark("InsertionPoint");
+builder.Write("We will insert a document here: ");
+builder.EndBookmark("InsertionPoint");
 
-    Document docToInsert = new Document();
-    builder = new DocumentBuilder(docToInsert);
+Document docToInsert = new Document();
+builder = new DocumentBuilder(docToInsert);
 
-    builder.Write("Hello world!");
+builder.Write("Hello world!");
 
-    docToInsert.Save(ArtifactsDir + "NodeImporter.InsertAtMergeField.docx");
+docToInsert.Save(ArtifactsDir + "NodeImporter.InsertAtMergeField.docx");
 
-    Bookmark bookmark = doc.Range.Bookmarks["InsertionPoint"];
-    InsertDocument(bookmark.BookmarkStart.ParentNode, docToInsert);
+Bookmark bookmark = doc.Range.Bookmarks["InsertionPoint"];
+InsertDocument(bookmark.BookmarkStart.ParentNode, docToInsert);
 
-    Assert.That(doc.GetText().Trim(), Is.EqualTo("We will insert a document here: " +
-                    "\rHello world!"));
-}
+Assert.That(doc.GetText().Trim(), Is.EqualTo("We will insert a document here: " +
+                "\rHello world!"));
+```
 
+Shows how to insert the contents of one document to a bookmark in another document (InsertDocument).
+
+```csharp
 /// <summary>
 /// Inserts the contents of a document after the specified node.
 /// </summary>

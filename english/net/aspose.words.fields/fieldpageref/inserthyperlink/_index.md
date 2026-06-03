@@ -21,37 +21,38 @@ public bool InsertHyperlink { get; set; }
 Shows to insert PAGEREF fields to display the relative location of bookmarks.
 
 ```csharp
-public void FieldPageRef()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    InsertAndNameBookmark(builder, "MyBookmark1");
+InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Insert a PAGEREF field that displays what page a bookmark is on.
-    // Set the InsertHyperlink flag to make the field also function as a clickable link to the bookmark.
-    Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h"));
+// Insert a PAGEREF field that displays what page a bookmark is on.
+// Set the InsertHyperlink flag to make the field also function as a clickable link to the bookmark.
+Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h"));
 
-    // We can use the \p flag to get the PAGEREF field to display
-    // the bookmark's position relative to the position of the field.
-    // Bookmark1 is on the same page and above this field, so this field's displayed result will be "above".
-    Assert.That(InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark1 \\h \\p"));
+// We can use the \p flag to get the PAGEREF field to display
+// the bookmark's position relative to the position of the field.
+// Bookmark1 is on the same page and above this field, so this field's displayed result will be "above".
+Assert.That(InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark1 \\h \\p"));
 
-    // Bookmark2 will be on the same page and below this field, so this field's displayed result will be "below".
-    Assert.That(InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark2 \\h \\p"));
+// Bookmark2 will be on the same page and below this field, so this field's displayed result will be "below".
+Assert.That(InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark2 \\h \\p"));
 
-    // Bookmark3 will be on a different page, so the field will display "on page 2".
-    Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h \\p"));
+// Bookmark3 will be on a different page, so the field will display "on page 2".
+Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h \\p"));
 
-    InsertAndNameBookmark(builder, "MyBookmark2");
-    builder.InsertBreak(BreakType.PageBreak);
-    InsertAndNameBookmark(builder, "MyBookmark3");
+InsertAndNameBookmark(builder, "MyBookmark2");
+builder.InsertBreak(BreakType.PageBreak);
+InsertAndNameBookmark(builder, "MyBookmark3");
 
-    doc.UpdatePageLayout();
-    doc.UpdateFields();
-    doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
-}
+doc.UpdatePageLayout();
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+```
 
+Shows to insert PAGEREF fields to display the relative location of bookmarks (InsertFieldPageRef).
+
+```csharp
 /// <summary>
 /// Uses a document builder to insert a PAGEREF field and sets its properties.
 /// </summary>

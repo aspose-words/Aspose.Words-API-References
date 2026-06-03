@@ -82,52 +82,6 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 ## Examples
 
-Shows how to specify a resolution while rendering a document to PNG.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Name = "Times New Roman";
-builder.Font.Size = 24;
-builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
-builder.InsertImage(ImageDir + "Logo.jpg");
-
-// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-// to modify the way in which that method renders the document into an image.
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
-
-// Set the "Resolution" property to "72" to render the document in 72dpi.
-options.Resolution = 72;
-doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
-
-// Set the "Resolution" property to "300" to render the document in 300dpi.
-options.Resolution = 300;
-doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);
-```
-
-Shows how to configure compression while saving a document as a JPEG.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.InsertImage(ImageDir + "Logo.jpg");
-
-// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-// to modify the way in which that method renders the document into an image.
-ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-// Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
-// This will reduce the file size of the document, but the image will display more prominent compression artifacts.
-imageOptions.JpegQuality = 10;
-doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
-
-// Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
-// This will improve the quality of the image at the cost of an increased file size.
-imageOptions.JpegQuality = 100;
-doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-```
-
 Renders a page of a Word document into an image with transparent or colored background.
 
 ```csharp
@@ -154,6 +108,52 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOption
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+```
+
+Shows how to configure compression while saving a document as a JPEG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertImage(ImageDir + "Logo.jpg");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
+// Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
+// This will reduce the file size of the document, but the image will display more prominent compression artifacts.
+imageOptions.JpegQuality = 10;
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
+
+// Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
+// This will improve the quality of the image at the cost of an increased file size.
+imageOptions.JpegQuality = 100;
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+```
+
+Shows how to specify a resolution while rendering a document to PNG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Times New Roman";
+builder.Font.Size = 24;
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+builder.InsertImage(ImageDir + "Logo.jpg");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
+
+// Set the "Resolution" property to "72" to render the document in 72dpi.
+options.Resolution = 72;
+doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+// Set the "Resolution" property to "300" to render the document in 300dpi.
+options.Resolution = 300;
+doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);
 ```
 
 ### See Also

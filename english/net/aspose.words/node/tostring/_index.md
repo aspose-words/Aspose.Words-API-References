@@ -37,28 +37,6 @@ Assert.That(doc.GetText().Trim(), Is.EqualTo("\u0013MERGEFIELD Field\u0014«Fiel
 Assert.That(doc.ToString(SaveFormat.Text).Trim(), Is.EqualTo("«Field»"));
 ```
 
-Exports the content of a node to String in HTML format.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-Node node = doc.LastSection.Body.LastParagraph;
-
-// When we call the ToString method using the html SaveFormat overload,
-// it converts the node's contents to their raw html representation.
-Assert.That(node.ToString(SaveFormat.Html), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
-                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>"));
-
-// We can also modify the result of this conversion using a SaveOptions object.
-HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-saveOptions.ExportRelativeFontSize = true;
-
-Assert.That(node.ToString(saveOptions), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
-                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>"));
-```
-
 Shows how to extract the list labels of all paragraphs that are list items.
 
 ```csharp
@@ -87,6 +65,28 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     // Combine them together to include the list label with the text in the output.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
+```
+
+Exports the content of a node to String in HTML format.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+Node node = doc.LastSection.Body.LastParagraph;
+
+// When we call the ToString method using the html SaveFormat overload,
+// it converts the node's contents to their raw html representation.
+Assert.That(node.ToString(SaveFormat.Html), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>"));
+
+// We can also modify the result of this conversion using a SaveOptions object.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.ExportRelativeFontSize = true;
+
+Assert.That(node.ToString(saveOptions), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>"));
 ```
 
 ### See Also

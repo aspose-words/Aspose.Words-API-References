@@ -51,89 +51,6 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 
 ## Examples
 
-Shows how to create a document that contains all outline headings list templates.
-
-```csharp
-public void OutlineHeadingTemplates()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-
-    List docList = doc.Lists.Add(ListTemplate.OutlineHeadingsArticleSection);
-    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
-
-    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
-    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsNumbers);
-    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
-
-    docList = doc.Lists.Add(ListTemplate.OutlineHeadingsChapter);
-    AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
-
-    doc.Save(ArtifactsDir + "Lists.OutlineHeadingTemplates.docx");
-}
-
-private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List docList, string title)
-{
-    builder.ParagraphFormat.ClearFormatting();
-    builder.Writeln(title);
-
-    for (int i = 0; i < 9; i++)
-    {
-        builder.ListFormat.List = docList;
-        builder.ListFormat.ListLevelNumber = i;
-
-        string styleName = "Heading " + (i + 1);
-        builder.ParagraphFormat.StyleName = styleName;
-        builder.Writeln(styleName);
-    }
-
-    builder.ListFormat.RemoveNumbers();
-}
-```
-
-Shows how to restart numbering in a list by copying a list.
-
-```csharp
-Document doc = new Document();
-
-// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
-// We can create nested lists by increasing the indent level. 
-// We can begin and end a list by using a document builder's "ListFormat" property. 
-// Each paragraph that we add between a list's start and the end will become an item in the list.
-// Create a list from a Microsoft Word template, and customize its first list level.
-List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
-list1.ListLevels[0].Font.Color = Color.Red;
-list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
-
-// Apply our list to some paragraphs.
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("List 1 starts below:");
-builder.ListFormat.List = list1;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-// We can add a copy of an existing list to the document's list collection
-// to create a similar list without making changes to the original.
-List list2 = doc.Lists.AddCopy(list1);
-list2.ListLevels[0].Font.Color = Color.Blue;
-list2.ListLevels[0].StartAt = 10;
-
-// Apply the second list to new paragraphs.
-builder.Writeln("List 2 starts below:");
-builder.ListFormat.List = list2;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
-```
-
 Shows how to work with list levels.
 
 ```csharp
@@ -180,6 +97,90 @@ builder.ListFormat.List = null;
 Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize its first list level.
+List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
+list1.ListLevels[0].Font.Color = Color.Red;
+list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
+
+// Apply our list to some paragraphs.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("List 1 starts below:");
+builder.ListFormat.List = list1;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+// We can add a copy of an existing list to the document's list collection
+// to create a similar list without making changes to the original.
+List list2 = doc.Lists.AddCopy(list1);
+list2.ListLevels[0].Font.Color = Color.Blue;
+list2.ListLevels[0].StartAt = 10;
+
+// Apply the second list to new paragraphs.
+builder.Writeln("List 2 starts below:");
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
+```
+
+Shows how to create a document that contains all outline headings list templates.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+List docList = doc.Lists.Add(ListTemplate.OutlineHeadingsArticleSection);
+AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
+
+docList = doc.Lists.Add(ListTemplate.OutlineHeadingsLegal);
+AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
+
+builder.InsertBreak(BreakType.PageBreak);
+
+docList = doc.Lists.Add(ListTemplate.OutlineHeadingsNumbers);
+AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
+
+docList = doc.Lists.Add(ListTemplate.OutlineHeadingsChapter);
+AddOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
+
+doc.Save(ArtifactsDir + "Lists.OutlineHeadingTemplates.docx");
+```
+
+Shows how to create a document that contains all outline headings list templates (AddOutlineHeadingParagraphs).
+
+```csharp
+private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List docList, string title)
+{
+    builder.ParagraphFormat.ClearFormatting();
+    builder.Writeln(title);
+
+    for (int i = 0; i < 9; i++)
+    {
+        builder.ListFormat.List = docList;
+        builder.ListFormat.ListLevelNumber = i;
+
+        string styleName = "Heading " + (i + 1);
+        builder.ParagraphFormat.StyleName = styleName;
+        builder.Writeln(styleName);
+    }
+
+    builder.ListFormat.RemoveNumbers();
+}
 ```
 
 ### See Also

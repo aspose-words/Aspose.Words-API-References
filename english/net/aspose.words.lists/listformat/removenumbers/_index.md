@@ -22,27 +22,6 @@ Calling this method is equivalent to setting the [`List`](../list/) property to 
 
 ## Examples
 
-Shows how to remove list formatting from all paragraphs in the main text of a section.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.ListFormat.ApplyNumberDefault();
-builder.Writeln("Numbered list item 1");
-builder.Writeln("Numbered list item 2");
-builder.Writeln("Numbered list item 3");
-builder.ListFormat.RemoveNumbers();
-
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
-
-foreach (Paragraph paragraph in paras)
-    paragraph.ListFormat.RemoveNumbers();
-
-Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
-```
-
 Shows how to create bulleted and numbered lists.
 
 ```csharp
@@ -121,6 +100,27 @@ builder.Writeln("Doing many other things!");
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
+```
+
+Shows how to remove list formatting from all paragraphs in the main text of a section.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.ApplyNumberDefault();
+builder.Writeln("Numbered list item 1");
+builder.Writeln("Numbered list item 2");
+builder.Writeln("Numbered list item 3");
+builder.ListFormat.RemoveNumbers();
+
+NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
+
+foreach (Paragraph paragraph in paras)
+    paragraph.ListFormat.RemoveNumbers();
+
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
 ```
 
 ### See Also

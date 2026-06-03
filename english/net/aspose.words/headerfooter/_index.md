@@ -95,53 +95,6 @@ When `HeaderFooter` contains at least one [`Paragraph`](../paragraph/), it is no
 
 ## Examples
 
-Shows how to replace text in a document's footer.
-
-```csharp
-Document doc = new Document(MyDir + "Footer.docx");
-
-HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
-HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
-
-FindReplaceOptions options = new FindReplaceOptions
-{
-    MatchCase = false,
-    FindWholeWordsOnly = false
-};
-
-int currentYear = DateTime.Now.Year;
-footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
-
-doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
-```
-
-Shows how to delete all footers from a document.
-
-```csharp
-Document doc = new Document(MyDir + "Header and footer types.docx");
-
-// Iterate through each section and remove footers of every kind.
-foreach (Section section in doc.OfType<Section>())
-{
-    // There are three kinds of footer and header types.
-    // 1 -  The "First" header/footer, which only appears on the first page of a section.
-    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
-    footer?.Remove();
-
-    // 2 -  The "Primary" header/footer, which appears on odd pages.
-    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-    footer?.Remove();
-
-    // 3 -  The "Even" header/footer, which appears on even pages. 
-    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
-    footer?.Remove();
-
-    Assert.That(section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader), Is.EqualTo(0));
-}
-
-doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
-```
-
 Shows how to create a header and a footer.
 
 ```csharp
@@ -172,6 +125,53 @@ Assert.That(para.ParentSection, Is.EqualTo(footer.ParentSection));
 Assert.That(header.ParentSection, Is.EqualTo(footer.ParentSection));
 
 doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
+```
+
+Shows how to delete all footers from a document.
+
+```csharp
+Document doc = new Document(MyDir + "Header and footer types.docx");
+
+// Iterate through each section and remove footers of every kind.
+foreach (Section section in doc.OfType<Section>())
+{
+    // There are three kinds of footer and header types.
+    // 1 -  The "First" header/footer, which only appears on the first page of a section.
+    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
+    footer?.Remove();
+
+    // 2 -  The "Primary" header/footer, which appears on odd pages.
+    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
+    footer?.Remove();
+
+    // 3 -  The "Even" header/footer, which appears on even pages. 
+    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
+    footer?.Remove();
+
+    Assert.That(section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader), Is.EqualTo(0));
+}
+
+doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+```
+
+Shows how to replace text in a document's footer.
+
+```csharp
+Document doc = new Document(MyDir + "Footer.docx");
+
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
+{
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
+
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
+
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: Unprotect
 second_title: Aspose.Words for .NET
 description: Effortlessly unlock your documents with our Document Unprotect method, removing any password protection for easy access and editing.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}

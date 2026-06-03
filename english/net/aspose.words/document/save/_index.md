@@ -5,7 +5,7 @@ articleTitle: Save
 second_title: Aspose.Words for .NET
 description: Effortlessly save your documents with our smart save method, automatically selecting the right format based on the file extension for seamless storage.
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
@@ -133,25 +133,30 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.
+Shows how to render one page from a document to a JPEG image.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.Writeln("Hello world!");
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
 
-doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+// Set the "PageSet" to "1" to select the second page via
+// the zero-based index to start rendering the document from.
+options.PageSet = new PageSet(1);
 
-// Load the PDF document that we just saved, and convert it to .docx.
-Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
-
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
-
-// Set the "Password" property to encrypt the saved document with a password.
-saveOptions.Password = "MyPassword";
-
-pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
+// When we save the document to the JPEG format, Aspose.Words only renders one page.
+// This image will contain one page starting from page two,
+// which will just be the second page of the original document.
+doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
 Shows how to render every page of a document to a separate TIFF image.
@@ -184,32 +189,6 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-Shows how to render one page from a document to a JPEG image.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Page 1.");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 2.");
-builder.InsertImage(ImageDir + "Logo.jpg");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 3.");
-
-// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
-// to modify the way in which that method renders the document into an image.
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-// Set the "PageSet" to "1" to select the second page via
-// the zero-based index to start rendering the document from.
-options.PageSet = new PageSet(1);
-
-// When we save the document to the JPEG format, Aspose.Words only renders one page.
-// This image will contain one page starting from page two,
-// which will just be the second page of the original document.
-doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
-```
-
 Shows how to configure compression while saving a document as a JPEG.
 
 ```csharp
@@ -229,6 +208,27 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imag
 // This will improve the quality of the image at the cost of an increased file size.
 imageOptions.JpegQuality = 100;
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+```
+
+Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
+
+// Load the PDF document that we just saved, and convert it to .docx.
+Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+
+// Set the "Password" property to encrypt the saved document with a password.
+saveOptions.Password = "MyPassword";
+
+pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
 Shows how to convert a whole document to PDF with three levels in the document outline.
@@ -314,20 +314,6 @@ Additional information that you can optionally use.
 
 ## Examples
 
-Shows how to save a document to a stream.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-using (MemoryStream dstStream = new MemoryStream())
-{
-    doc.Save(dstStream, SaveFormat.Docx);
-
-    // Verify that the stream contains the document.
-    Assert.That(new Document(dstStream).GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
-}
-```
-
 Shows how to save a document to an image via stream, and then read the image from that stream.
 
 ```csharp
@@ -374,6 +360,20 @@ Document doc = new Document();
                 }
             }
 #endif
+```
+
+Shows how to save a document to a stream.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+using (MemoryStream dstStream = new MemoryStream())
+{
+    doc.Save(dstStream, SaveFormat.Docx);
+
+    // Verify that the stream contains the document.
+    Assert.That(new Document(dstStream).GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
+}
 ```
 
 ### See Also

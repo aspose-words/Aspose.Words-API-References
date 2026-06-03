@@ -5,7 +5,7 @@ articleTitle: PageLayout
 second_title: Aspose.Words for .NET
 description: Discover the PdfSaveOptions PageLayout property to customize your PDF’s layout for optimal viewing in any reader. Enhance your document's presentation!
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/pagelayout/
 ---
 ## PdfSaveOptions.PageLayout property

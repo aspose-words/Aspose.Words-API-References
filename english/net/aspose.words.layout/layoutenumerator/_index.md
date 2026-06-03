@@ -56,48 +56,49 @@ public class LayoutEnumerator
 Shows ways of traversing a document's layout entities.
 
 ```csharp
-public void LayoutEnumerator()
-{
-    // Open a document that contains a variety of layout entities.
-    // Layout entities are pages, cells, rows, lines, and other objects included in the LayoutEntityType enum.
-    // Each layout entity has a rectangular space that it occupies in the document body.
-    Document doc = new Document(MyDir + "Layout entities.docx");
+// Open a document that contains a variety of layout entities.
+// Layout entities are pages, cells, rows, lines, and other objects included in the LayoutEntityType enum.
+// Each layout entity has a rectangular space that it occupies in the document body.
+Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Create an enumerator that can traverse these entities like a tree.
-    LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
+// Create an enumerator that can traverse these entities like a tree.
+LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
-    Assert.That(layoutEnumerator.Document, Is.EqualTo(doc));
+Assert.That(layoutEnumerator.Document, Is.EqualTo(doc));
 
-    layoutEnumerator.MoveParent(LayoutEntityType.Page);
+layoutEnumerator.MoveParent(LayoutEntityType.Page);
 
-    Assert.That(layoutEnumerator.Type, Is.EqualTo(LayoutEntityType.Page));
-    Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
+Assert.That(layoutEnumerator.Type, Is.EqualTo(LayoutEntityType.Page));
+Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // We can call this method to make sure that the enumerator will be at the first layout entity.
-    layoutEnumerator.Reset();
+// We can call this method to make sure that the enumerator will be at the first layout entity.
+layoutEnumerator.Reset();
 
-    // There are two orders that determine how the layout enumerator continues traversing layout entities
-    // when it encounters entities that span across multiple pages.
-    // 1 -  In visual order:
-    // When moving through an entity's children that span multiple pages,
-    // page layout takes precedence, and we move to other child elements on this page and avoid the ones on the next.
-    Console.WriteLine("Traversing from first to last, elements between pages separated:");
-    TraverseLayoutForward(layoutEnumerator, 1);
+// There are two orders that determine how the layout enumerator continues traversing layout entities
+// when it encounters entities that span across multiple pages.
+// 1 -  In visual order:
+// When moving through an entity's children that span multiple pages,
+// page layout takes precedence, and we move to other child elements on this page and avoid the ones on the next.
+Console.WriteLine("Traversing from first to last, elements between pages separated:");
+TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Our enumerator is now at the end of the collection. We can traverse the layout entities backwards to go back to the beginning.
-    Console.WriteLine("Traversing from last to first, elements between pages separated:");
-    TraverseLayoutBackward(layoutEnumerator, 1);
+// Our enumerator is now at the end of the collection. We can traverse the layout entities backwards to go back to the beginning.
+Console.WriteLine("Traversing from last to first, elements between pages separated:");
+TraverseLayoutBackward(layoutEnumerator, 1);
 
-    // 2 -  In logical order:
-    // When moving through an entity's children that span multiple pages,
-    // the enumerator will move between pages to traverse all the child entities.
-    Console.WriteLine("Traversing from first to last, elements between pages mixed:");
-    TraverseLayoutForwardLogical(layoutEnumerator, 1);
+// 2 -  In logical order:
+// When moving through an entity's children that span multiple pages,
+// the enumerator will move between pages to traverse all the child entities.
+Console.WriteLine("Traversing from first to last, elements between pages mixed:");
+TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
-    Console.WriteLine("Traversing from last to first, elements between pages mixed:");
-    TraverseLayoutBackwardLogical(layoutEnumerator, 1);
-}
+Console.WriteLine("Traversing from last to first, elements between pages mixed:");
+TraverseLayoutBackwardLogical(layoutEnumerator, 1);
+```
 
+Shows ways of traversing a document's layout entities (TraverseLayoutForward).
+
+```csharp
 /// <summary>
 /// Enumerate through layoutEnumerator's layout entity collection front-to-back,
 /// in a depth-first manner, and in the "Visual" order.

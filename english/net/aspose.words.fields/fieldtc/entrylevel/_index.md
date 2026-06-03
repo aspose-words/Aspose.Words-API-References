@@ -21,37 +21,38 @@ public string EntryLevel { get; set; }
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 
 ```csharp
-public void FieldTocEntryIdentifier()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insert a TOC field, which will compile all TC fields into a table of contents.
-    FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
+// Insert a TOC field, which will compile all TC fields into a table of contents.
+FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configure the field only to pick up TC entries of the "A" type, and an entry-level between 1 and 3.
-    fieldToc.EntryIdentifier = "A";
-    fieldToc.EntryLevelRange = "1-3";
+// Configure the field only to pick up TC entries of the "A" type, and an entry-level between 1 and 3.
+fieldToc.EntryIdentifier = "A";
+fieldToc.EntryLevelRange = "1-3";
 
-    Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\f A \\l 1-3"));
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\f A \\l 1-3"));
 
-    // These two entries will appear in the table.
-    builder.InsertBreak(BreakType.PageBreak);
-    InsertTocEntry(builder, "TC field 1", "A", "1");
-    InsertTocEntry(builder, "TC field 2", "A", "2");
+// These two entries will appear in the table.
+builder.InsertBreak(BreakType.PageBreak);
+InsertTocEntry(builder, "TC field 1", "A", "1");
+InsertTocEntry(builder, "TC field 2", "A", "2");
 
-    Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" TC  \"TC field 1\" \\n \\f A \\l 1"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" TC  \"TC field 1\" \\n \\f A \\l 1"));
 
-    // This entry will be omitted from the table because it has a different type from "A".
-    InsertTocEntry(builder, "TC field 3", "B", "1");
+// This entry will be omitted from the table because it has a different type from "A".
+InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // This entry will be omitted from the table because it has an entry-level outside of the 1-3 range.
-    InsertTocEntry(builder, "TC field 4", "A", "5");
+// This entry will be omitted from the table because it has an entry-level outside of the 1-3 range.
+InsertTocEntry(builder, "TC field 4", "A", "5");
 
-    doc.UpdateFields();
-    doc.Save(ArtifactsDir + "Field.TC.docx");
-}
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.TC.docx");
+```
 
+Shows how to insert a TOC field, and filter which TC fields end up as entries (InsertTocEntry).
+
+```csharp
 /// <summary>
 /// Use a document builder to insert a TC field.
 /// </summary>

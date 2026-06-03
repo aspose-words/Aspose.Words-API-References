@@ -38,16 +38,6 @@ The [`Document`](../document/) class provides a default constructor to create a 
 
 ## Examples
 
-```csharp
-[VBScript]
-
-Dim helper
-Set helper = CreateObject("Aspose.Words.ComHelper")
-
-Dim doc
-Set doc = helper.Open(fileName)
-```
-
 Shows how to open documents using the ComHelper class.
 
 ```csharp

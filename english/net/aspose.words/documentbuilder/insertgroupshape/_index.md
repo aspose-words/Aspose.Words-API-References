@@ -28,32 +28,6 @@ VML and DML shapes cannot be grouped together.
 
 ## Examples
 
-Shows how to combine group shape with the shape.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Shape shape1 = builder.InsertShape(ShapeType.Rectangle, 200, 250);
-shape1.Left = 20;
-shape1.Top = 20;
-shape1.Stroke.Color = Color.Red;
-
-Shape shape2 = builder.InsertShape(ShapeType.Ellipse, 150, 200);
-shape2.Left = 40;
-shape2.Top = 50;
-shape2.Stroke.Color = Color.Green;
-
-// Combine shapes into a GroupShape node which is inserted into the specified position.
-GroupShape groupShape1 = builder.InsertGroupShape(shape1, shape2);
-
-// Combine Shape and GroupShape nodes.
-Shape shape3 = (Shape)shape1.Clone(true);
-GroupShape groupShape2 = builder.InsertGroupShape(groupShape1, shape3);
-
-doc.Save(ArtifactsDir + "Shape.CombineGroupShape.docx");
-```
-
 Shows how to insert DML group shape.
 
 ```csharp
@@ -83,6 +57,32 @@ Shape shape3 = (Shape)shape1.Clone(true);
 GroupShape groupShape2 = builder.InsertGroupShape(shape3);
 
 doc.Save(ArtifactsDir + "Shape.InsertGroupShape.docx");
+```
+
+Shows how to combine group shape with the shape.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape1 = builder.InsertShape(ShapeType.Rectangle, 200, 250);
+shape1.Left = 20;
+shape1.Top = 20;
+shape1.Stroke.Color = Color.Red;
+
+Shape shape2 = builder.InsertShape(ShapeType.Ellipse, 150, 200);
+shape2.Left = 40;
+shape2.Top = 50;
+shape2.Stroke.Color = Color.Green;
+
+// Combine shapes into a GroupShape node which is inserted into the specified position.
+GroupShape groupShape1 = builder.InsertGroupShape(shape1, shape2);
+
+// Combine Shape and GroupShape nodes.
+Shape shape3 = (Shape)shape1.Clone(true);
+GroupShape groupShape2 = builder.InsertGroupShape(groupShape1, shape3);
+
+doc.Save(ArtifactsDir + "Shape.CombineGroupShape.docx");
 ```
 
 ### See Also

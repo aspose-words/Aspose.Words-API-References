@@ -5,7 +5,7 @@ articleTitle: UpdateThumbnail
 second_title: Aspose.Words for .NET
 description: Effortlessly update your document's thumbnail with our customizable options. Enhance your visuals and improve document presentation today!
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}

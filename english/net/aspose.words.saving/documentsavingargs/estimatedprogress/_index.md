@@ -21,21 +21,22 @@ public double EstimatedProgress { get; }
 Shows how to manage a document while saving to html.
 
 ```csharp
-public void ProgressCallback(SaveFormat saveFormat, string ext)
+Document doc = new Document(MyDir + "Big document.docx");
+
+// Following formats are supported: Html, Mhtml, Epub.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
 {
-    Document doc = new Document(MyDir + "Big document.docx");
+    ProgressCallback = new SavingProgressCallback()
+};
 
-    // Following formats are supported: Html, Mhtml, Epub.
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
-    {
-        ProgressCallback = new SavingProgressCallback()
-    };
+var exception = Assert.Throws<OperationCanceledException>(() =>
+    doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
+Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
+```
 
-    var exception = Assert.Throws<OperationCanceledException>(() =>
-        doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
-}
+Shows how to manage a document while saving to html (SavingProgressCallback).
 
+```csharp
 /// <summary>
 /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
 /// </summary>
@@ -76,21 +77,22 @@ public class SavingProgressCallback : IDocumentSavingCallback
 Shows how to manage a document while saving to docx.
 
 ```csharp
-public void ProgressCallback(SaveFormat saveFormat, string ext)
+Document doc = new Document(MyDir + "Big document.docx");
+
+// Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
 {
-    Document doc = new Document(MyDir + "Big document.docx");
+    ProgressCallback = new SavingProgressCallback()
+};
 
-    // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
-    {
-        ProgressCallback = new SavingProgressCallback()
-    };
+var exception = Assert.Throws<OperationCanceledException>(() =>
+    doc.Save(ArtifactsDir + $"OoxmlSaveOptions.ProgressCallback.{ext}", saveOptions));
+Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
+```
 
-    var exception = Assert.Throws<OperationCanceledException>(() =>
-        doc.Save(ArtifactsDir + $"OoxmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
-}
+Shows how to manage a document while saving to docx (SavingProgressCallback).
 
+```csharp
 /// <summary>
 /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
 /// </summary>
@@ -131,21 +133,22 @@ public class SavingProgressCallback : IDocumentSavingCallback
 Shows how to manage a document while saving to xamlflow.
 
 ```csharp
-public void ProgressCallback(SaveFormat saveFormat, string ext)
+Document doc = new Document(MyDir + "Big document.docx");
+
+// Following formats are supported: XamlFlow, XamlFlowPack.
+XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
 {
-    Document doc = new Document(MyDir + "Big document.docx");
+    ProgressCallback = new SavingProgressCallback()
+};
 
-    // Following formats are supported: XamlFlow, XamlFlowPack.
-    XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
-    {
-        ProgressCallback = new SavingProgressCallback()
-    };
+var exception = Assert.Throws<OperationCanceledException>(() =>
+    doc.Save(ArtifactsDir + $"XamlFlowSaveOptions.ProgressCallback.{ext}", saveOptions));
+Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
+```
 
-    var exception = Assert.Throws<OperationCanceledException>(() =>
-        doc.Save(ArtifactsDir + $"XamlFlowSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
-}
+Shows how to manage a document while saving to xamlflow (SavingProgressCallback).
 
+```csharp
 /// <summary>
 /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
 /// </summary>

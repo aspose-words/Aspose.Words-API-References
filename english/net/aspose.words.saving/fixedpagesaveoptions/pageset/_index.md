@@ -18,30 +18,6 @@ public PageSet PageSet { get; set; }
 
 ## Examples
 
-Shows how to extract pages based on exact page indices.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Add five pages to the document.
-for (int i = 1; i < 6; i++)
-{
-    builder.Write("Page " + i);
-    builder.InsertBreak(BreakType.PageBreak);
-}
-
-// Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
-// to modify how that method converts the document to .XPS.
-XpsSaveOptions xpsOptions = new XpsSaveOptions();
-
-// Use the "PageSet" property to select a set of the document's pages to save to output XPS.
-// In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
-xpsOptions.PageSet = new PageSet(0, 1, 3);
-
-doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
-```
-
 Shows how to convert only some of the pages in a document to PDF.
 
 ```csharp
@@ -101,6 +77,30 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
 options.PageSet = PageSet.All;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
+```
+
+Shows how to extract pages based on exact page indices.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Add five pages to the document.
+for (int i = 1; i < 6; i++)
+{
+    builder.Write("Page " + i);
+    builder.InsertBreak(BreakType.PageBreak);
+}
+
+// Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how that method converts the document to .XPS.
+XpsSaveOptions xpsOptions = new XpsSaveOptions();
+
+// Use the "PageSet" property to select a set of the document's pages to save to output XPS.
+// In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
+xpsOptions.PageSet = new PageSet(0, 1, 3);
+
+doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
 ### See Also

@@ -18,24 +18,6 @@ public FindReplaceOptions FindReplaceOptions { get; }
 
 ## Examples
 
-Shows how to replace string with regex in the document using context.
-
-```csharp
-// There is a several ways to replace string with regex in the document:
-string doc = MyDir + "Footer.docx";
-Regex pattern = new Regex("gr(a|e)y");
-string replacement = "lavender";
-
-ReplacerContext replacerContext = new ReplacerContext();
-replacerContext.SetReplacement(pattern, replacement);
-replacerContext.FindReplaceOptions.FindWholeWordsOnly = false;
-
-Replacer.Create(replacerContext)
-    .From(doc)
-    .To(ArtifactsDir + "LowCode.ReplaceContextRegex.docx")
-    .Execute();
-```
-
 Shows how to replace string in the document using context.
 
 ```csharp
@@ -73,6 +55,24 @@ using (FileStream streamIn = new FileStream(MyDir + "Footer.docx", FileMode.Open
         .To(streamOut, SaveFormat.Docx)
         .Execute();
 }
+```
+
+Shows how to replace string with regex in the document using context.
+
+```csharp
+// There is a several ways to replace string with regex in the document:
+string doc = MyDir + "Footer.docx";
+Regex pattern = new Regex("gr(a|e)y");
+string replacement = "lavender";
+
+ReplacerContext replacerContext = new ReplacerContext();
+replacerContext.SetReplacement(pattern, replacement);
+replacerContext.FindReplaceOptions.FindWholeWordsOnly = false;
+
+Replacer.Create(replacerContext)
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.ReplaceContextRegex.docx")
+    .Execute();
 ```
 
 Shows how to replace string with regex in the document using documents from the stream using context.

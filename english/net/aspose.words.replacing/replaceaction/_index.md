@@ -29,19 +29,19 @@ public enum ReplaceAction
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 
 ```csharp
-public void InsertDocumentAtReplace()
-{
-    Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-    FindReplaceOptions options = new FindReplaceOptions();
-    options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
-    mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-    mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
+mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+```
 
-}
+Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation (InsertDocumentAtReplaceHandler).
 
+```csharp
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
     ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)

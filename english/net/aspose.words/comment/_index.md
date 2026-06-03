@@ -112,24 +112,6 @@ To anchor a comment to a region of text three objects are required: `Comment`, [
 
 ## Examples
 
-Shows how to add a comment to a paragraph.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello world!");
-
-Comment comment = new Comment(doc, "John Doe", "JD", DateTime.Today);
-builder.CurrentParagraph.AppendChild(comment);
-builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
-builder.Write("Comment text.");
-
-Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
-
-// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
-doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
-```
-
 Shows how to add a comment to a document, and then reply to it.
 
 ```csharp
@@ -157,6 +139,24 @@ Assert.That(comment.Ancestor, Is.Null);
 Assert.That(comment.Replies[0].Ancestor, Is.EqualTo(comment));
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
+```
+
+Shows how to add a comment to a paragraph.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Hello world!");
+
+Comment comment = new Comment(doc, "John Doe", "JD", DateTime.Today);
+builder.CurrentParagraph.AppendChild(comment);
+builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
+builder.Write("Comment text.");
+
+Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
 ### See Also

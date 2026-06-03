@@ -39,27 +39,6 @@ public class CertificateHolder
 
 ## Examples
 
-Shows how to sign encrypted document file.
-
-```csharp
-// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
-
-// Create a comment, date, and decryption password which will be applied with our new digital signature.
-SignOptions signOptions = new SignOptions
-{
-    Comments = "Comment",
-    SignTime = DateTime.Now,
-    DecryptionPassword = "docPassword"
-};
-
-// Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
-string inputFileName = MyDir + "Encrypted.docx";
-string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
-
-DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
-```
-
 Shows how to digitally sign documents.
 
 ```csharp
@@ -84,28 +63,49 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
+Shows how to sign encrypted document file.
+
+```csharp
+// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a comment, date, and decryption password which will be applied with our new digital signature.
+SignOptions signOptions = new SignOptions
+{
+    Comments = "Comment",
+    SignTime = DateTime.Now,
+    DecryptionPassword = "docPassword"
+};
+
+// Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+string inputFileName = MyDir + "Encrypted.docx";
+string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
+
+DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
+
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```csharp
-[Description("WORDSNET-16868")]
-public static void Sign()
-{
-    string signeeName = "Ron Williams";
-    string srcDocumentPath = MyDir + "Document.docx";
-    string dstDocumentPath = ArtifactsDir + "SignDocumentCustom.Sign.docx";
-    string certificatePath = MyDir + "morzal.pfx";
-    string certificatePassword = "aw";
+string signeeName = "Ron Williams";
+string srcDocumentPath = MyDir + "Document.docx";
+string dstDocumentPath = ArtifactsDir + "SignDocumentCustom.Sign.docx";
+string certificatePath = MyDir + "morzal.pfx";
+string certificatePassword = "aw";
 
-    CreateSignees();
+CreateSignees();
 
-    Signee signeeInfo = mSignees.Find(c => c.Name == signeeName);
+Signee signeeInfo = mSignees.Find(c => c.Name == signeeName);
 
-    if (signeeInfo != null)
-        SignDocument(srcDocumentPath, dstDocumentPath, signeeInfo, certificatePath, certificatePassword);
-    else
-        Assert.Fail("Signee does not exist.");
-}
+if (signeeInfo != null)
+    SignDocument(srcDocumentPath, dstDocumentPath, signeeInfo, certificatePath, certificatePassword);
+else
+    Assert.Fail("Signee does not exist.");
+```
 
+Shows how to add a signature line to a document, and then sign it using a digital certificate (SignDocument).
+
+```csharp
 /// <summary>
 /// Creates a copy of a source document signed using provided signee information and X509 certificate.
 /// </summary>

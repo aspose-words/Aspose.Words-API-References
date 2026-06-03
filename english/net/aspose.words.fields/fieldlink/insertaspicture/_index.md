@@ -21,30 +21,31 @@ public bool InsertAsPicture { get; set; }
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 
 ```csharp
-public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Below are three types of fields we can use to display contents from a linked document in the form of text.
-    // 1 -  A LINK field:
-    builder.Writeln("FieldLink:\n");
-    InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
+// Below are three types of fields we can use to display contents from a linked document in the form of text.
+// 1 -  A LINK field:
+builder.Writeln("FieldLink:\n");
+InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
-    // 2 -  A DDE field:
-    builder.Writeln("FieldDde:\n");
-    InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
-        "Sheet1!R1C1", true, true);
+// 2 -  A DDE field:
+builder.Writeln("FieldDde:\n");
+InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
+    "Sheet1!R1C1", true, true);
 
-    // 3 -  A DDEAUTO field:
-    builder.Writeln("FieldDdeAuto:\n");
-    InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
-        "Sheet1!R1C1", true);
+// 3 -  A DDEAUTO field:
+builder.Writeln("FieldDdeAuto:\n");
+InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
+    "Sheet1!R1C1", true);
 
-    doc.UpdateFields();
-    doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
-}
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
+```
 
+Shows how to use various field types to link to other documents in the local file system, and display their contents (FieldLinkedObjectsAsImage).
+
+```csharp
 public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();

@@ -89,15 +89,50 @@ You can change the image size, location, positioning method and other settings u
 
 ## Examples
 
-Shows how to insert WebP image.
+Shows how to insert an image from the local file system into a document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(ImageDir + "WebP image.webp");
+// Below are three ways of inserting an image from a local system filename.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-doc.Save(ArtifactsDir + "Image.InsertWebpImage.docx");
+builder.InsertBreak(BreakType.PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
+    ConvertUtil.PixelToPoint(144));
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
+    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+```
+
+Shows how to determine which image will be inserted.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
+
+// Aspose.Words insert SVG image to the document as PNG with svgBlip extension
+// that contains the original vector SVG image representation.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
+
+// Aspose.Words insert SVG image to the document as PNG, just like Microsoft Word does for old format.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
+
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+
+// Aspose.Words insert SVG image to the document as EMF metafile to keep the image in vector representation.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
 Shows how to insert gif image to the document.
@@ -154,50 +189,15 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Shows how to determine which image will be inserted.
+Shows how to insert WebP image.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
+builder.InsertImage(ImageDir + "WebP image.webp");
 
-// Aspose.Words insert SVG image to the document as PNG with svgBlip extension
-// that contains the original vector SVG image representation.
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
-
-// Aspose.Words insert SVG image to the document as PNG, just like Microsoft Word does for old format.
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
-
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
-
-// Aspose.Words insert SVG image to the document as EMF metafile to keep the image in vector representation.
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
-```
-
-Shows how to insert an image from the local file system into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Below are three ways of inserting an image from a local system filename.
-// 1 -  Inline shape with a default size based on the image's original dimensions:
-builder.InsertImage(ImageDir + "Logo.jpg");
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 2 -  Inline shape with custom dimensions:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 -  Floating shape with custom dimensions:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+doc.Save(ArtifactsDir + "Image.InsertWebpImage.docx");
 ```
 
 ### See Also
@@ -231,21 +231,6 @@ You can change the image size, location, positioning method and other settings u
 
 ## Examples
 
-Shows how to insert a shape with an image from a stream into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
-{
-    builder.Write("Image from stream: ");
-    builder.InsertImage(stream);
-}
-
-doc.Save(ArtifactsDir + "Image.FromStream.docx");
-```
-
 Shows how to insert an image from a stream into a document.
 
 ```csharp
@@ -271,6 +256,21 @@ using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 }
 
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
+```
+
+Shows how to insert a shape with an image from a stream into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
+{
+    builder.Write("Image from stream: ");
+    builder.InsertImage(stream);
+}
+
+doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
 ### See Also

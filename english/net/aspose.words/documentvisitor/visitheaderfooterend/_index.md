@@ -29,23 +29,24 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to print the node structure of every header and footer in a document.
 
 ```csharp
-public void HeaderFooterToText()
-{
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
+Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
-    // and then traverses all the node's children in a depth-first manner.
-    // The visitor can read and modify each visited node.
-    doc.Accept(visitor);
+// When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+// and then traverses all the node's children in a depth-first manner.
+// The visitor can read and modify each visited node.
+doc.Accept(visitor);
 
-    Console.WriteLine(visitor.GetText());
+Console.WriteLine(visitor.GetText());
 
-    // An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
-    HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
-    Assert.That(headerFooters.Length, Is.EqualTo(3));
-}
+// An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
+HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
+Assert.That(headerFooters.Length, Is.EqualTo(3));
+```
 
+Shows how to print the node structure of every header and footer in a document (HeaderFooterStructurePrinter).
+
+```csharp
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.
 /// Creates a map in the form of a string of all encountered HeaderFooter nodes and their children.

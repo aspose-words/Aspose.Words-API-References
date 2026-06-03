@@ -33,6 +33,60 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 
 ## Examples
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize the first two of its list levels.
+List docList = doc.Lists.Add(ListTemplate.NumberDefault);
+
+ListLevel listLevel = docList.ListLevels[0];
+listLevel.Font.Color = Color.Red;
+listLevel.Font.Size = 24;
+listLevel.NumberStyle = NumberStyle.OrdinalText;
+listLevel.StartAt = 21;
+listLevel.NumberFormat = "\x0000";
+
+listLevel.NumberPosition = -36;
+listLevel.TextPosition = 144;
+listLevel.TabPosition = 144;
+
+listLevel = docList.ListLevels[1];
+listLevel.Alignment = ListLevelAlignment.Right;
+listLevel.NumberStyle = NumberStyle.Bullet;
+listLevel.Font.Name = "Wingdings";
+listLevel.Font.Color = Color.Blue;
+listLevel.Font.Size = 24;
+
+// This NumberFormat value will create star-shaped bullet list symbols.
+listLevel.NumberFormat = "\xf0af";
+listLevel.TrailingCharacter = ListTrailingCharacter.Space;
+listLevel.NumberPosition = 144;
+
+// Create paragraphs and apply both list levels of our custom list formatting to them.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.List = docList;
+builder.Writeln("The quick brown fox...");
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.ListIndent();
+builder.Writeln("jumped over the lazy dog.");
+builder.Writeln("jumped over the lazy dog.");
+
+builder.ListFormat.ListOutdent();
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.RemoveNumbers();
+
+builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
+```
+
 Shows how to create a list style and use it in a document.
 
 ```csharp
@@ -87,60 +141,6 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
-```
-
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
-
-```csharp
-Document doc = new Document();
-
-// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
-// We can create nested lists by increasing the indent level. 
-// We can begin and end a list by using a document builder's "ListFormat" property. 
-// Each paragraph that we add between a list's start and the end will become an item in the list.
-// Create a list from a Microsoft Word template, and customize the first two of its list levels.
-List docList = doc.Lists.Add(ListTemplate.NumberDefault);
-
-ListLevel listLevel = docList.ListLevels[0];
-listLevel.Font.Color = Color.Red;
-listLevel.Font.Size = 24;
-listLevel.NumberStyle = NumberStyle.OrdinalText;
-listLevel.StartAt = 21;
-listLevel.NumberFormat = "\x0000";
-
-listLevel.NumberPosition = -36;
-listLevel.TextPosition = 144;
-listLevel.TabPosition = 144;
-
-listLevel = docList.ListLevels[1];
-listLevel.Alignment = ListLevelAlignment.Right;
-listLevel.NumberStyle = NumberStyle.Bullet;
-listLevel.Font.Name = "Wingdings";
-listLevel.Font.Color = Color.Blue;
-listLevel.Font.Size = 24;
-
-// This NumberFormat value will create star-shaped bullet list symbols.
-listLevel.NumberFormat = "\xf0af";
-listLevel.TrailingCharacter = ListTrailingCharacter.Space;
-listLevel.NumberPosition = 144;
-
-// Create paragraphs and apply both list levels of our custom list formatting to them.
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.ListFormat.List = docList;
-builder.Writeln("The quick brown fox...");
-builder.Writeln("The quick brown fox...");
-
-builder.ListFormat.ListIndent();
-builder.Writeln("jumped over the lazy dog.");
-builder.Writeln("jumped over the lazy dog.");
-
-builder.ListFormat.ListOutdent();
-builder.Writeln("The quick brown fox...");
-
-builder.ListFormat.RemoveNumbers();
-
-builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ```
 
 ### See Also

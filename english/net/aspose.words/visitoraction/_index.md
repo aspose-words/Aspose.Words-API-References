@@ -29,31 +29,32 @@ public enum VisitorAction
 Shows how to process absolute position tab characters with a document visitor.
 
 ```csharp
-public void DocumentToTxt()
-{
-    Document doc = new Document(MyDir + "Absolute position tab.docx");
+Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Extract the text contents of our document by accepting this custom document visitor.
-    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    Section fisrtSection = doc.FirstSection;
-    fisrtSection.Body.Accept(myDocTextExtractor);
-    // Visit only start of the document body.
-    fisrtSection.Body.AcceptStart(myDocTextExtractor);
-    // Visit only end of the document body.
-    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
+// Extract the text contents of our document by accepting this custom document visitor.
+DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+Section fisrtSection = doc.FirstSection;
+fisrtSection.Body.Accept(myDocTextExtractor);
+// Visit only start of the document body.
+fisrtSection.Body.AcceptStart(myDocTextExtractor);
+// Visit only end of the document body.
+fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // The absolute position tab, which has no equivalent in string form, has been explicitly converted to a tab character.
-    Assert.That(myDocTextExtractor.GetText(), Is.EqualTo("Before AbsolutePositionTab\tAfter AbsolutePositionTab"));
+// The absolute position tab, which has no equivalent in string form, has been explicitly converted to a tab character.
+Assert.That(myDocTextExtractor.GetText(), Is.EqualTo("Before AbsolutePositionTab\tAfter AbsolutePositionTab"));
 
-    // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
-    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+// An AbsolutePositionTab can accept a DocumentVisitor by itself too.
+AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
-    myDocTextExtractor = new DocTextExtractor();
-    absPositionTab.Accept(myDocTextExtractor);
+myDocTextExtractor = new DocTextExtractor();
+absPositionTab.Accept(myDocTextExtractor);
 
-    Assert.That(myDocTextExtractor.GetText(), Is.EqualTo("\t"));
-}
+Assert.That(myDocTextExtractor.GetText(), Is.EqualTo("\t"));
+```
 
+Shows how to process absolute position tab characters with a document visitor (DocTextExtractor).
+
+```csharp
 /// <summary>
 /// Collects the text contents of all runs in the visited document. Replaces all absolute tab characters with ordinary tabs.
 /// </summary>

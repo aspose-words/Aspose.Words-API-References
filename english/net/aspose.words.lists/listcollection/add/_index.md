@@ -32,70 +32,6 @@ All lists created using this method have 9 list levels.
 
 ## Examples
 
-Shows how to create a list by applying a new list format to a collection of paragraphs.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Paragraph 1");
-builder.Writeln("Paragraph 2");
-builder.Write("Paragraph 3");
-
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
-Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
-
-List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
-
-foreach (Paragraph paragraph in paras.OfType<Paragraph>())
-{
-    paragraph.ListFormat.List = docList;
-    paragraph.ListFormat.ListLevelNumber = 1;
-}
-
-Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
-```
-
-Shows how to restart numbering in a list by copying a list.
-
-```csharp
-Document doc = new Document();
-
-// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
-// We can create nested lists by increasing the indent level. 
-// We can begin and end a list by using a document builder's "ListFormat" property. 
-// Each paragraph that we add between a list's start and the end will become an item in the list.
-// Create a list from a Microsoft Word template, and customize its first list level.
-List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
-list1.ListLevels[0].Font.Color = Color.Red;
-list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
-
-// Apply our list to some paragraphs.
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("List 1 starts below:");
-builder.ListFormat.List = list1;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-// We can add a copy of an existing list to the document's list collection
-// to create a similar list without making changes to the original.
-List list2 = doc.Lists.AddCopy(list1);
-list2.ListLevels[0].Font.Color = Color.Blue;
-list2.ListLevels[0].StartAt = 10;
-
-// Apply the second list to new paragraphs.
-builder.Writeln("List 2 starts below:");
-builder.ListFormat.List = list2;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
-```
-
 Shows how to work with list levels.
 
 ```csharp
@@ -142,6 +78,70 @@ builder.ListFormat.List = null;
 Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize its first list level.
+List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
+list1.ListLevels[0].Font.Color = Color.Red;
+list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
+
+// Apply our list to some paragraphs.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("List 1 starts below:");
+builder.ListFormat.List = list1;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+// We can add a copy of an existing list to the document's list collection
+// to create a similar list without making changes to the original.
+List list2 = doc.Lists.AddCopy(list1);
+list2.ListLevels[0].Font.Color = Color.Blue;
+list2.ListLevels[0].StartAt = 10;
+
+// Apply the second list to new paragraphs.
+builder.Writeln("List 2 starts below:");
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
+```
+
+Shows how to create a list by applying a new list format to a collection of paragraphs.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Paragraph 1");
+builder.Writeln("Paragraph 2");
+builder.Write("Paragraph 3");
+
+NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
+
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+
+foreach (Paragraph paragraph in paras.OfType<Paragraph>())
+{
+    paragraph.ListFormat.List = docList;
+    paragraph.ListFormat.ListLevelNumber = 1;
+}
+
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
 ```
 
 ### See Also

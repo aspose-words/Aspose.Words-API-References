@@ -52,6 +52,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [ExportLanguageToSpanTag](../../aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) { get; set; } | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [ExportParagraphGraphicsToArtifact](../../aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/) { get; set; } | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [FontEmbeddingMode](../../aspose.words.saving/pdfsaveoptions/fontembeddingmode/) { get; set; } | Specifies the font embedding mode. |
+| [GenerateFormFieldScripts](../../aspose.words.saving/pdfsaveoptions/generateformfieldscripts/) { get; set; } | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is `false`. |
 | [HeaderFooterBookmarksExportMode](../../aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) { get; set; } | Determines how bookmarks in headers/footers are exported. |
 | [ImageColorSpaceExportMode](../../aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/) { get; set; } | Specifies how the color space will be selected for the images in PDF document. |
 | [ImageCompression](../../aspose.words.saving/pdfsaveoptions/imagecompression/) { get; set; } | Specifies compression type to be used for all images in the document. |
@@ -98,44 +99,6 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
-
-Shows how to change image color with saving options property.
-
-```csharp
-Document doc = new Document(MyDir + "Images.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-// Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
-// The size of the output document may be larger with this setting.
-// Set the "ColorMode" property to "Normal" to render all images in color.
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
-```
-
-Shows how to apply text compression when saving a document to PDF.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-for (int i = 0; i < 100; i++)
-    builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                    "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-
-// Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
-// compression to text when we save the document to PDF.
-// Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
-// to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
-options.TextCompression = pdfTextCompression;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
-```
 
 Shows how to convert a whole document to PDF with three levels in the document outline.
 
@@ -189,6 +152,44 @@ options.OutlineOptions.HeadingsOutlineLevels = 4;
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
+```
+
+Shows how to apply text compression when saving a document to PDF.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+for (int i = 0; i < 100; i++)
+    builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                    "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+// compression to text when we save the document to PDF.
+// Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+// to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+options.TextCompression = pdfTextCompression;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
+```
+
+Shows how to change image color with saving options property.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+// Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+// The size of the output document may be larger with this setting.
+// Set the "ColorMode" property to "Normal" to render all images in color.
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 ```
 
 ### See Also

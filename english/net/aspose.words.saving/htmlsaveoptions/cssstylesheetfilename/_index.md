@@ -33,29 +33,30 @@ Another way to specify a folder where external CSS file is saved is to use [`Res
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 
 ```csharp
-public void ExternalCssFilenames()
-{
-    Document doc = new Document(MyDir + "Rendering.docx");
+Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
-    // to modify how we convert the document to HTML.
-    HtmlSaveOptions options = new HtmlSaveOptions();
+// Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how we convert the document to HTML.
+HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
-    // accompany a saved HTML document with an external CSS stylesheet file.
-    options.CssStyleSheetType = CssStyleSheetType.External;
+// Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+// accompany a saved HTML document with an external CSS stylesheet file.
+options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Below are two ways of specifying directories and filenames for output CSS stylesheets.
-    // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
-    options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
+// Below are two ways of specifying directories and filenames for output CSS stylesheets.
+// 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 -  Use a custom callback to name our stylesheet:
-    options.CssSavingCallback =
-        new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
+// 2 -  Use a custom callback to name our stylesheet:
+options.CssSavingCallback =
+    new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
-    doc.Save(ArtifactsDir + "SavingCallback.ExternalCssFilenames.html", options);
-}
+doc.Save(ArtifactsDir + "SavingCallback.ExternalCssFilenames.html", options);
+```
 
+Shows how to work with CSS stylesheets that an HTML conversion creates (CustomCssSavingCallback).
+
+```csharp
 /// <summary>
 /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
 /// </summary>

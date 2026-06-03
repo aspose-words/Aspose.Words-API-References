@@ -37,57 +37,58 @@ Calls [`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttag
 Shows how to create smart tags.
 
 ```csharp
-public void Create()
-{
-    Document doc = new Document();
+Document doc = new Document();
 
-    // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
-    // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
-    SmartTag smartTag = new SmartTag(doc);
+// A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+// such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+SmartTag smartTag = new SmartTag(doc);
 
-    // Smart tags are composite nodes that contain their recognized text in its entirety.
-    // Add contents to this smart tag manually.
-    smartTag.AppendChild(new Run(doc, "May 29, 2019"));
+// Smart tags are composite nodes that contain their recognized text in its entirety.
+// Add contents to this smart tag manually.
+smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word may recognize the above contents as being a date.
-    // Smart tags use the "Element" property to reflect the type of data they contain.
-    smartTag.Element = "date";
+// Microsoft Word may recognize the above contents as being a date.
+// Smart tags use the "Element" property to reflect the type of data they contain.
+smartTag.Element = "date";
 
-    // Some smart tag types process their contents further into custom XML properties.
-    smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
-    smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
-    smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
+// Some smart tag types process their contents further into custom XML properties.
+smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
+smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
+smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Set the smart tag's URI to the default value.
-    smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
+// Set the smart tag's URI to the default value.
+smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
-    doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
-    doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
+doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
+doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Create another smart tag for a stock ticker.
-    smartTag = new SmartTag(doc);
-    smartTag.Element = "stockticker";
-    smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
+// Create another smart tag for a stock ticker.
+smartTag = new SmartTag(doc);
+smartTag.Element = "stockticker";
+smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
-    smartTag.AppendChild(new Run(doc, "MSFT"));
+smartTag.AppendChild(new Run(doc, "MSFT"));
 
-    doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
-    doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
+doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
+doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Print all the smart tags in our document using a document visitor.
-    doc.Accept(new SmartTagPrinter());
+// Print all the smart tags in our document using a document visitor.
+doc.Accept(new SmartTagPrinter());
 
-    // Older versions of Microsoft Word support smart tags.
-    doc.Save(ArtifactsDir + "SmartTag.Create.doc");
+// Older versions of Microsoft Word support smart tags.
+doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Use the "RemoveSmartTags" method to remove all smart tags from a document.
-    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(2));
+// Use the "RemoveSmartTags" method to remove all smart tags from a document.
+Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(2));
 
-    doc.RemoveSmartTags();
+doc.RemoveSmartTags();
 
-    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
-}
+Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
+```
 
+Shows how to create smart tags (SmartTagPrinter).
+
+```csharp
 /// <summary>
 /// Prints visited smart tags and their contents.
 /// </summary>

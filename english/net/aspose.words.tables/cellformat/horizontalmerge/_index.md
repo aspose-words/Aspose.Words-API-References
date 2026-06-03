@@ -51,16 +51,17 @@ doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 Prints the horizontal and vertical merge type of a cell.
 
 ```csharp
-public void CheckCellsMerged()
-{
-    Document doc = new Document(MyDir + "Table with merged cells.docx");
-    Table table = doc.FirstSection.Body.Tables[0];
+Document doc = new Document(MyDir + "Table with merged cells.docx");
+Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows)
-        foreach (Cell cell in row.Cells)
-            Console.WriteLine(PrintCellMergeType(cell));
-}
+foreach (Row row in table.Rows)
+    foreach (Cell cell in row.Cells)
+        Console.WriteLine(PrintCellMergeType(cell));
+```
 
+Prints the horizontal and vertical merge type of a cell (PrintCellMergeType).
+
+```csharp
 public string PrintCellMergeType(Cell cell)
 {
     bool isHorizontallyMerged = cell.CellFormat.HorizontalMerge != CellMerge.None;

@@ -85,25 +85,26 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 Shows how to track the order in which a text replacement operation traverses nodes.
 
 ```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-{
-    Document doc = new Document(MyDir + "Header and footer types.docx");
+Document doc = new Document(MyDir + "Header and footer types.docx");
 
-    Section firstPageSection = doc.FirstSection;
+Section firstPageSection = doc.FirstSection;
 
-    ReplaceLog logger = new ReplaceLog();
-    FindReplaceOptions options = new FindReplaceOptions(logger);
+ReplaceLog logger = new ReplaceLog();
+FindReplaceOptions options = new FindReplaceOptions(logger);
 
-    // Using a different header/footer for the first page will affect the search order.
-    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+// Using a different header/footer for the first page will affect the search order.
+firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-    if (differentFirstPageHeaderFooter)
-        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n"));
-    else
-        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n"));
-}
+if (differentFirstPageHeaderFooter)
+    Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n"));
+else
+    Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n"));
+```
 
+Shows how to track the order in which a text replacement operation traverses nodes (ReplaceLog).
+
+```csharp
 /// <summary>
 /// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
 /// in the state it is in before the replacement takes place.

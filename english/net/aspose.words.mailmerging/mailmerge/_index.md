@@ -83,30 +83,31 @@ You need to use mail merge regions if you want to dynamically grow portions insi
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
-public void ExecuteDataTable()
-{
-    DataTable table = new DataTable("Test");
-    table.Columns.Add("CustomerName");
-    table.Columns.Add("Address");
-    table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
-    table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
+DataTable table = new DataTable("Test");
+table.Columns.Add("CustomerName");
+table.Columns.Add("Address");
+table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
+table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Below are two ways of using a DataTable as the data source for a mail merge.
-    // 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
-    Document doc = CreateSourceDocExecuteDataTable();
+// Below are two ways of using a DataTable as the data source for a mail merge.
+// 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
+Document doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table);
+doc.MailMerge.Execute(table);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 -  Use one row of the table to create one output mail merge document:
-    doc = CreateSourceDocExecuteDataTable();
+// 2 -  Use one row of the table to create one output mail merge document:
+doc = CreateSourceDocExecuteDataTable();
 
-    doc.MailMerge.Execute(table.Rows[1]);
+doc.MailMerge.Execute(table.Rows[1]);
 
-    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-}
+doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+```
 
+Shows how to execute a mail merge with data from a DataTable (CreateSourceDocExecuteDataTable).
+
+```csharp
 /// <summary>
 /// Creates a mail merge source document.
 /// </summary>

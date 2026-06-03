@@ -18,35 +18,21 @@ public static string NodeTypeToString(NodeType nodeType)
 
 ## Examples
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
+Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.NextSibling)
-{
-    Console.WriteLine();
-    Console.WriteLine($"Node type: {Node.NodeTypeToString(node.NodeType)}");
+// Any node that can contain child nodes, such as the document itself, is composite.
+Assert.That(doc.IsComposite, Is.True);
 
-    string contents = node.GetText().Trim();
-    Console.WriteLine(contents == string.Empty ? "This node contains no text" : $"Contents: \"{node.GetText().Trim()}\"");
-}
+// Invoke the recursive function that will go through and print all the child nodes of a composite node.
+TraverseAllNodes(doc, 0);
 ```
 
-Shows how to traverse a composite node's tree of child nodes.
+Shows how to traverse a composite node's tree of child nodes (TraverseAllNodes).
 
 ```csharp
-public void RecurseChildren()
-{
-    Document doc = new Document(MyDir + "Paragraphs.docx");
-
-    // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.That(doc.IsComposite, Is.True);
-
-    // Invoke the recursive function that will go through and print all the child nodes of a composite node.
-    TraverseAllNodes(doc, 0);
-}
-
 /// <summary>
 /// Recursively traverses a node tree while printing the type of each node
 /// with an indent depending on depth as well as the contents of all inline nodes.
@@ -72,6 +58,21 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
             Console.WriteLine();
         }
     }
+}
+```
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```csharp
+Document doc = new Document(MyDir + "Paragraphs.docx");
+
+for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.NextSibling)
+{
+    Console.WriteLine();
+    Console.WriteLine($"Node type: {Node.NodeTypeToString(node.NodeType)}");
+
+    string contents = node.GetText().Trim();
+    Console.WriteLine(contents == string.Empty ? "This node contains no text" : $"Contents: \"{node.GetText().Trim()}\"");
 }
 ```
 

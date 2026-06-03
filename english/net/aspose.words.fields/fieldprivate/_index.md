@@ -59,35 +59,36 @@ Provides a private storage area. This field is used to store data for documents 
 Shows how to process PRIVATE fields.
 
 ```csharp
-public void FieldPrivate()
-{
-    // Open a Corel WordPerfect document which we have converted to .docx format.
-    Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
+// Open a Corel WordPerfect document which we have converted to .docx format.
+Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
-    // WordPerfect 5.x/6.x documents like the one we have loaded may contain PRIVATE fields.
-    // Microsoft Word preserves PRIVATE fields during load/save operations,
-    // but provides no functionality for them.
-    FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
+// WordPerfect 5.x/6.x documents like the one we have loaded may contain PRIVATE fields.
+// Microsoft Word preserves PRIVATE fields during load/save operations,
+// but provides no functionality for them.
+FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
-    Assert.That(field.GetFieldCode(), Is.EqualTo(" PRIVATE \"My value\" "));
-    Assert.That(field.Type, Is.EqualTo(FieldType.FieldPrivate));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRIVATE \"My value\" "));
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldPrivate));
 
-    // We can also insert PRIVATE fields using a document builder.
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.InsertField(FieldType.FieldPrivate, true);
+// We can also insert PRIVATE fields using a document builder.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField(FieldType.FieldPrivate, true);
 
-    // These fields are not a viable way of protecting sensitive information.
-    // Unless backward compatibility with older versions of WordPerfect is essential,
-    // we can safely remove these fields. We can do this using a DocumentVisiitor implementation.
-    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
+// These fields are not a viable way of protecting sensitive information.
+// Unless backward compatibility with older versions of WordPerfect is essential,
+// we can safely remove these fields. We can do this using a DocumentVisiitor implementation.
+Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
 
-    FieldPrivateRemover remover = new FieldPrivateRemover();
-    doc.Accept(remover);
+FieldPrivateRemover remover = new FieldPrivateRemover();
+doc.Accept(remover);
 
-    Assert.That(remover.GetFieldsRemovedCount(), Is.EqualTo(2));
-    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
-}
+Assert.That(remover.GetFieldsRemovedCount(), Is.EqualTo(2));
+Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
+```
 
+Shows how to process PRIVATE fields (FieldPrivateRemover).
+
+```csharp
 /// <summary>
 /// Removes all encountered PRIVATE fields.
 /// </summary>

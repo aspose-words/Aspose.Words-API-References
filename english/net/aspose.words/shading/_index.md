@@ -41,28 +41,6 @@ public class Shading : InternableComplexAttr
 
 ## Examples
 
-Shows how to decorate text with borders and shading.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-BorderCollection borders = builder.ParagraphFormat.Borders;
-borders.DistanceFromText = 20;
-borders[BorderType.Left].LineStyle = LineStyle.Double;
-borders[BorderType.Right].LineStyle = LineStyle.Double;
-borders[BorderType.Top].LineStyle = LineStyle.Double;
-borders[BorderType.Bottom].LineStyle = LineStyle.Double;
-
-Shading shading = builder.ParagraphFormat.Shading;
-shading.Texture = TextureIndex.TextureDiagonalCross;
-shading.BackgroundPatternColor = Color.LightCoral;
-shading.ForegroundPatternColor = Color.LightSalmon;
-
-builder.Write("This paragraph is formatted with a double border and shading.");
-doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
-```
-
 Shows how to apply border and shading color while building a table.
 
 ```csharp
@@ -97,6 +75,28 @@ builder.InsertCell();
 builder.Writeln("Row 2, Cell 2.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
+```
+
+Shows how to decorate text with borders and shading.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = Color.LightCoral;
+shading.ForegroundPatternColor = Color.LightSalmon;
+
+builder.Write("This paragraph is formatted with a double border and shading.");
+doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
 ### See Also

@@ -34,15 +34,6 @@ public enum ImageType
 
 ## Examples
 
-Shows how to read WebP image.
-
-```csharp
-Document doc = new Document(MyDir + "Document with WebP image.docx");
-
-Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-Assert.That(shape.ImageData.ImageType, Is.EqualTo(ImageType.WebP));
-```
-
 Shows how to add an image to a shape and check its type.
 
 ```csharp
@@ -51,6 +42,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.That(imgShape.ImageData.ImageType, Is.EqualTo(ImageType.Jpeg));
+```
+
+Shows how to read WebP image.
+
+```csharp
+Document doc = new Document(MyDir + "Document with WebP image.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.That(shape.ImageData.ImageType, Is.EqualTo(ImageType.WebP));
 ```
 
 ### See Also

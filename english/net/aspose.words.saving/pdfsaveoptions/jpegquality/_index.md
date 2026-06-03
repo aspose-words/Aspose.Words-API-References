@@ -5,7 +5,7 @@ articleTitle: JpegQuality
 second_title: Aspose.Words for .NET
 description: Optimize your PDF images with PdfSaveOptions' JpegQuality property, allowing you to control JPEG quality for stunning document visuals.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.saving/pdfsaveoptions/jpegquality/
 ---
 ## PdfSaveOptions.JpegQuality property

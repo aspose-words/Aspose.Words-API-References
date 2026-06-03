@@ -43,22 +43,23 @@ To save resources into streams instead of files, use the [`ResourceStream`](./re
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```csharp
-public void ResourceSavingCallback()
+Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
+
+FontSavingCallback callback = new FontSavingCallback();
+
+HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
 {
-    Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
+    ResourceSavingCallback = callback
+};
 
-    FontSavingCallback callback = new FontSavingCallback();
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
 
-    HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
-    {
-        ResourceSavingCallback = callback
-    };
+Console.WriteLine(callback.GetText());
+```
 
-    doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+Shows how to use a callback to track external resources created while converting a document to HTML (FontSavingCallback).
 
-    Console.WriteLine(callback.GetText());
-}
-
+```csharp
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>

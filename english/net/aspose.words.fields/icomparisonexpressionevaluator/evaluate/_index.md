@@ -25,34 +25,34 @@ The implementation should return `null` to indicate that the default evaluation 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 
 ```csharp
-public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
-    string expectedResult)
-{
-    const string left = "\"left expression\"";
-    const string @operator = "<>";
-    const string right = "\"right expression\"";
+const string left = "\"left expression\"";
+const string @operator = "<>";
+const string right = "\"right expression\"";
 
-    DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder();
 
-    // Field codes that we use in this example:
-    // 1.   " IF {0} {1} {2} \"true argument\" \"false argument\" ".
-    // 2.   " COMPARE {0} {1} {2} ".
-    Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
+// Field codes that we use in this example:
+// 1.   " IF {0} {1} {2} \"true argument\" \"false argument\" ".
+// 2.   " COMPARE {0} {1} {2} ".
+Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
-    ComparisonEvaluationResult result = comparisonResult != -1
-        ? new ComparisonEvaluationResult(comparisonResult == 1)
-        : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+// If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
+ComparisonEvaluationResult result = comparisonResult != -1
+    ? new ComparisonEvaluationResult(comparisonResult == 1)
+    : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
 
-    ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
-    builder.Document.FieldOptions.ComparisonExpressionEvaluator = evaluator;
+ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+builder.Document.FieldOptions.ComparisonExpressionEvaluator = evaluator;
 
-    builder.Document.UpdateFields();
+builder.Document.UpdateFields();
 
-    Assert.That(field.Result, Is.EqualTo(expectedResult));
-    evaluator.AssertInvocationsCount(1).AssertInvocationArguments(0, left, @operator, right);
-}
+Assert.That(field.Result, Is.EqualTo(expectedResult));
+evaluator.AssertInvocationsCount(1).AssertInvocationArguments(0, left, @operator, right);
+```
 
+Shows how to implement custom evaluation for the IF and COMPARE fields (ComparisonExpressionEvaluator).
+
+```csharp
 /// <summary>
 /// Comparison expressions evaluation for the FieldIf and FieldCompare.
 /// </summary>

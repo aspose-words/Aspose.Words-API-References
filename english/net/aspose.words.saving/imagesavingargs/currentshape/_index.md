@@ -29,18 +29,19 @@ Some images in the document can be unavailable. To check image availability use 
 Shows how to involve an image saving callback in an HTML conversion process.
 
 ```csharp
-public void ImageSavingCallback()
-{
-    Document doc = new Document(MyDir + "Rendering.docx");
+Document doc = new Document(MyDir + "Rendering.docx");
 
-    // When we save the document to HTML, we can pass a SaveOptions object to designate a callback
-    // to customize the image saving process.
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ImageSavingCallback = new ImageShapePrinter();
+// When we save the document to HTML, we can pass a SaveOptions object to designate a callback
+// to customize the image saving process.
+HtmlSaveOptions options = new HtmlSaveOptions();
+options.ImageSavingCallback = new ImageShapePrinter();
 
-    doc.Save(ArtifactsDir + "HtmlSaveOptions.ImageSavingCallback.html", options);
-}
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ImageSavingCallback.html", options);
+```
 
+Shows how to involve an image saving callback in an HTML conversion process (ImageShapePrinter).
+
+```csharp
 /// <summary>
 /// Prints the properties of each image as the saving process saves it to an image file in the local file system
 /// during the exporting of a document to HTML.

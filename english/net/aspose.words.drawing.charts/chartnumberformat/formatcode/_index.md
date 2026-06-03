@@ -42,33 +42,6 @@ Custom with color - "[Red]-#,##0.0"
 
 ## Examples
 
-Shows how to set formatting for chart values.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;
-
-// Clear the chart's demo data series to start with a clean chart.
-chart.Series.Clear();
-
-// Add a custom series to the chart with categories for the X-axis,
-// and large respective numeric values for the Y-axis. 
-chart.Series.Add("Aspose Test Series",
-    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
-    new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
-
-// Set the number format of the Y-axis tick labels to not group digits with commas. 
-chart.AxisY.NumberFormat.FormatCode = "#,##0";
-
-// This flag can override the above value and draw the number format from the source cell.
-Assert.That(chart.AxisY.NumberFormat.IsLinkedToSource, Is.False);
-
-doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
-```
-
 Shows how to enable and configure data labels for a chart series.
 
 ```csharp
@@ -97,6 +70,33 @@ dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
 dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
+```
+
+Shows how to set formatting for chart values.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = shape.Chart;
+
+// Clear the chart's demo data series to start with a clean chart.
+chart.Series.Clear();
+
+// Add a custom series to the chart with categories for the X-axis,
+// and large respective numeric values for the Y-axis. 
+chart.Series.Add("Aspose Test Series",
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
+
+// Set the number format of the Y-axis tick labels to not group digits with commas. 
+chart.AxisY.NumberFormat.FormatCode = "#,##0";
+
+// This flag can override the above value and draw the number format from the source cell.
+Assert.That(chart.AxisY.NumberFormat.IsLinkedToSource, Is.False);
+
+doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ```
 
 ### See Also

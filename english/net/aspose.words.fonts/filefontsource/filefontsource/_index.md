@@ -100,32 +100,33 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 Shows how to speed up the font cache initialization process.
 
 ```csharp
-public void LoadFontSearchCache()
+const string cacheKey1 = "Arvo";
+const string cacheKey2 = "Arvo-Bold";
+FontSettings parsedFonts = new FontSettings();
+FontSettings loadedCache = new FontSettings();
+
+parsedFonts.SetFontsSources(new FontSourceBase[]
 {
-    const string cacheKey1 = "Arvo";
-    const string cacheKey2 = "Arvo-Bold";
-    FontSettings parsedFonts = new FontSettings();
-    FontSettings loadedCache = new FontSettings();
+    new FileFontSource(FontsDir + "Arvo-Regular.ttf", 0, cacheKey1),
+    new FileFontSource(FontsDir + "Arvo-Bold.ttf", 0, cacheKey2)
+});
 
-    parsedFonts.SetFontsSources(new FontSourceBase[]
+using (MemoryStream cacheStream = new MemoryStream())
+{
+    parsedFonts.SaveSearchCache(cacheStream);
+    loadedCache.SetFontsSources(new FontSourceBase[]
     {
-        new FileFontSource(FontsDir + "Arvo-Regular.ttf", 0, cacheKey1),
-        new FileFontSource(FontsDir + "Arvo-Bold.ttf", 0, cacheKey2)
-    });
-
-    using (MemoryStream cacheStream = new MemoryStream())
-    {
-        parsedFonts.SaveSearchCache(cacheStream);
-        loadedCache.SetFontsSources(new FontSourceBase[]
-        {
-            new SearchCacheStream(cacheKey1),
-            new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
-        }, cacheStream);
-    }
-
-    Assert.That(loadedCache.GetFontsSources().Length, Is.EqualTo(parsedFonts.GetFontsSources().Length));
+        new SearchCacheStream(cacheKey1),
+        new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
+    }, cacheStream);
 }
 
+Assert.That(loadedCache.GetFontsSources().Length, Is.EqualTo(parsedFonts.GetFontsSources().Length));
+```
+
+Shows how to speed up the font cache initialization process (SearchCacheStream).
+
+```csharp
 /// <summary>
 /// Load the font data only when required instead of storing it in the memory
 /// for the entire lifetime of the "FontSettings" object.

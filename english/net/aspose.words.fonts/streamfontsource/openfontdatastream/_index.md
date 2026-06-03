@@ -29,19 +29,20 @@ The stream will be closed after reading. There is no need to close it explicitly
 Shows how to load fonts from stream.
 
 ```csharp
-public void StreamFontSourceFileRendering()
-{
-    FontSettings fontSettings = new FontSettings();
-    fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
 
-    DocumentBuilder builder = new DocumentBuilder();
-    builder.Document.FontSettings = fontSettings;
-    builder.Font.Name = "Kreon-Regular";
-    builder.Writeln("Test aspose text when saving to PDF.");
+DocumentBuilder builder = new DocumentBuilder();
+builder.Document.FontSettings = fontSettings;
+builder.Font.Name = "Kreon-Regular";
+builder.Writeln("Test aspose text when saving to PDF.");
 
-    builder.Document.Save(ArtifactsDir + "FontSettings.StreamFontSourceFileRendering.pdf");
-}
+builder.Document.Save(ArtifactsDir + "FontSettings.StreamFontSourceFileRendering.pdf");
+```
 
+Shows how to load fonts from stream (StreamFontSourceFile).
+
+```csharp
 /// <summary>
 /// Load the font data only when required instead of storing it in the memory
 /// for the entire lifetime of the "FontSettings" object.

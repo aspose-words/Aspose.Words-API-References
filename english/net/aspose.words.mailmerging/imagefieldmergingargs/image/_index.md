@@ -21,35 +21,36 @@ public Image Image { get; set; }
 Shows how to use a callback to customize image merging logic.
 
 ```csharp
-public void MergeFieldImages()
-        {
-            Document doc = new Document();
+Document doc = new Document();
 
-            // Insert a MERGEFIELD that will accept images from a source during a mail merge. Use the field code to reference
-            // a column in the data source which contains local system filenames of images we wish to use in the mail merge.
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
+// Insert a MERGEFIELD that will accept images from a source during a mail merge. Use the field code to reference
+// a column in the data source which contains local system filenames of images we wish to use in the mail merge.
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-            // In this case, the field expects the data source to have such a column named "ImageColumn".
-            Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
+// In this case, the field expects the data source to have such a column named "ImageColumn".
+Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
 
-            // Filenames can be lengthy, and if we can find a way to avoid storing them in the data source,
-            // we may considerably reduce its size.
-            // Create a data source that refers to images using short names.
-            DataTable dataTable = new DataTable("Images");
-            dataTable.Columns.Add(new DataColumn("ImageColumn"));
-            dataTable.Rows.Add("Dark logo");
-            dataTable.Rows.Add("Transparent logo");
+// Filenames can be lengthy, and if we can find a way to avoid storing them in the data source,
+// we may considerably reduce its size.
+// Create a data source that refers to images using short names.
+DataTable dataTable = new DataTable("Images");
+dataTable.Columns.Add(new DataColumn("ImageColumn"));
+dataTable.Rows.Add("Dark logo");
+dataTable.Rows.Add("Transparent logo");
 
-            // Assign a merging callback that contains all logic that processes those names,
-            // and then execute the mail merge. 
-            doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
-            doc.MailMerge.Execute(dataTable);
+// Assign a merging callback that contains all logic that processes those names,
+// and then execute the mail merge. 
+doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
+doc.MailMerge.Execute(dataTable);
 
-            doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
-        }
+doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+```
 
-        /// <summary>
+Shows how to use a callback to customize image merging logic (ImageFilenameCallback).
+
+```csharp
+/// <summary>
         /// Contains a dictionary that maps names of images to local system filenames that contain these images.
         /// If a mail merge data source uses one of the dictionary's names to refer to an image,
         /// this callback will pass the respective filename to the merge destination.

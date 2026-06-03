@@ -21,20 +21,21 @@ public Document Document { get; }
 Shows how to track layout changes with a layout callback.
 
 ```csharp
-public void PageLayoutCallback()
-{
-    Document doc = new Document();
-    doc.BuiltInDocumentProperties.Title = "My Document";
+Document doc = new Document();
+doc.BuiltInDocumentProperties.Title = "My Document";
 
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.Writeln("Hello world!");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
 
-    doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
-    doc.UpdatePageLayout();
+doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
+doc.UpdatePageLayout();
 
-    doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
-}
+doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
+```
 
+Shows how to track layout changes with a layout callback (RenderPageLayoutCallback).
+
+```csharp
 /// <summary>
 /// Notifies us when we save the document to a fixed page format
 /// and renders a page that we perform a page reflow on to an image in the local file system.
