@@ -51,6 +51,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [exportLanguageToSpanTag](./exportLanguageToSpanTag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [exportParagraphGraphicsToArtifact](./exportParagraphGraphicsToArtifact/) | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [fontEmbeddingMode](./fontEmbeddingMode/) | Specifies the font embedding mode. |
+| [generateFormFieldScripts](./generateFormFieldScripts/) | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is ``false``. |
 | [headerFooterBookmarksExportMode](./headerFooterBookmarksExportMode/) | Determines how bookmarks in headers/footers are exported. |
 | [imageColorSpaceExportMode](./imageColorSpaceExportMode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [imageCompression](./imageCompression/) | Specifies compression type to be used for all images in the document. |

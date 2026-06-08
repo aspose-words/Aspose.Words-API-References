@@ -5,7 +5,7 @@ articleTitle: removeExternalSchemaReferences method
 second_title: Aspose.Words for Node.js
 description: "Document.removeExternalSchemaReferences method. Removes external XML schema references from this document."
 type: docs
-weight: 660
+weight: 670
 url: /nodejs-net/aspose.words/document/removeExternalSchemaReferences/
 ---
 
