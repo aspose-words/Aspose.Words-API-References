@@ -5,7 +5,7 @@ articleTitle: updateWordCount method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.updateWordCount method"
 type: docs
-weight: 780
+weight: 790
 url: /nodejs-net/aspose.words/document/updateWordCount/
 ---
 

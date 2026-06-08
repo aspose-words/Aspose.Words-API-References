@@ -5,7 +5,7 @@ articleTitle: textCompression property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.textCompression property. Specifies compression type to be used for all textual content in the document."
 type: docs
-weight: 320
+weight: 330
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/textCompression/
 ---
 

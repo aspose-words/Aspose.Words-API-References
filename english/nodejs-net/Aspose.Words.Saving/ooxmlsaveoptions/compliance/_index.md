@@ -22,29 +22,6 @@ get compliance(): Aspose.Words.Saving.OoxmlCompliance
 
 ### Examples
 
-Shows how to insert DML shapes into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Below are two wrapping types that shapes may have.
-// 1 -  Floating:
-builder.insertShape(aw.Drawing.ShapeType.TopCornersRounded, aw.Drawing.RelativeHorizontalPosition.Page, 100,
-    aw.Drawing.RelativeVerticalPosition.Page, 100, 50, 50, aw.Drawing.WrapType.None);
-
-// 2 -  Inline:
-builder.insertShape(aw.Drawing.ShapeType.DiagonalCornersRounded, 50, 50);
-
-// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
-// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
-let saveOptions = new aw.Saving.OoxmlSaveOptions(aw.SaveFormat.Docx);
-saveOptions.compliance = aw.Saving.OoxmlCompliance.Iso29500_2008_Transitional;
-
-doc.save(base.artifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
-```
-
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
 ```js
@@ -102,6 +79,29 @@ doc.save(base.artifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx", opt
 doc = new aw.Document(base.artifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx");
 
 expect(doc.lists.at(0).isRestartAtEachSection).toEqual(restartListAtEachSection);
+```
+
+Shows how to insert DML shapes into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.insertShape(aw.Drawing.ShapeType.TopCornersRounded, aw.Drawing.RelativeHorizontalPosition.Page, 100,
+    aw.Drawing.RelativeVerticalPosition.Page, 100, 50, 50, aw.Drawing.WrapType.None);
+
+// 2 -  Inline:
+builder.insertShape(aw.Drawing.ShapeType.DiagonalCornersRounded, 50, 50);
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+let saveOptions = new aw.Saving.OoxmlSaveOptions(aw.SaveFormat.Docx);
+saveOptions.compliance = aw.Saving.OoxmlCompliance.Iso29500_2008_Transitional;
+
+doc.save(base.artifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 ```
 
 ### See Also

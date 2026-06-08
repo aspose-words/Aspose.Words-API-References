@@ -5,7 +5,7 @@ articleTitle: startTrackRevisions method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.startTrackRevisions method"
 type: docs
-weight: 690
+weight: 700
 url: /nodejs-net/aspose.words/document/startTrackRevisions/
 ---
 

@@ -249,6 +249,24 @@ for (let node of nodes)
 }
 ```
 
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
 Shows how to delete all shapes from a document.
 
 ```js
@@ -289,24 +307,6 @@ groupShapes.clear();
 
 expect(doc.getChildNodes(aw.NodeType.GroupShape, true).count).toEqual(0);
 expect(doc.getChildNodes(aw.NodeType.Shape, true).count).toEqual(0);
-```
-
-Shows how to insert a floating image to the center of a page.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-let shape = builder.insertImage(base.imageDir + "Logo.jpg");
-shape.wrapType = aw.Drawing.WrapType.None;
-shape.behindText = true;
-shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
-shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
-shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
-shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
-
-doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
 ### See Also
