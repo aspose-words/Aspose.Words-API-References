@@ -239,6 +239,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ removeAllChildren()](../compositenode/removeAllChildren/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ removeBlankPages()](./removeBlankPages/#default) | Removes blank pages from the document. |
 |[ removeChild(oldChild)](../compositenode/removeChild/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ removeCustomizations()](./removeCustomizations/#default) | Removes toolbar and keyboard command customizations from the document. |
 |[ removeExternalSchemaReferences()](./removeExternalSchemaReferences/#default) | Removes external XML schema references from this document. |
 |[ removeMacros()](./removeMacros/#default) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 |[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |

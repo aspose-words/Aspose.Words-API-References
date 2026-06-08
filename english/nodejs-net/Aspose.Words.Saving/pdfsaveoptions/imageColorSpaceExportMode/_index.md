@@ -5,7 +5,7 @@ articleTitle: imageColorSpaceExportMode property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.imageColorSpaceExportMode property. Specifies how the color space will be selected for the images in PDF document."
 type: docs
-weight: 200
+weight: 210
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/imageColorSpaceExportMode/
 ---
 

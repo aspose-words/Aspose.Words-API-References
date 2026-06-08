@@ -5,7 +5,7 @@ articleTitle: renderChoiceFormFieldBorder property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.renderChoiceFormFieldBorder property. Specifies whether to render PDF choice form field border."
 type: docs
-weight: 300
+weight: 310
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/renderChoiceFormFieldBorder/
 ---
 
