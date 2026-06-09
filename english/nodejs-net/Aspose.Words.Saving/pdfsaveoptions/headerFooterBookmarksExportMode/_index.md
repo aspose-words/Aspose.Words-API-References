@@ -5,7 +5,7 @@ articleTitle: headerFooterBookmarksExportMode property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.headerFooterBookmarksExportMode property. Determines how bookmarks in headers/footers are exported."
 type: docs
-weight: 190
+weight: 200
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/headerFooterBookmarksExportMode/
 ---
 

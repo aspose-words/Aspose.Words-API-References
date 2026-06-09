@@ -5,7 +5,7 @@ articleTitle: outlineOptions property
 second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.outlineOptions property. Allows to specify outline options."
 type: docs
-weight: 250
+weight: 260
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/outlineOptions/
 ---
 
