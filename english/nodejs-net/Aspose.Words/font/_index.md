@@ -95,6 +95,21 @@ You do not create instances of the [Font](./) class directly. You just use
 
 ### Examples
 
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
+```
+
 Shows how to create and use a paragraph style with list formatting.
 
 ```js
@@ -135,21 +150,6 @@ builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
 builder.write("Text surrounded by green border.");
 
 doc.save(base.artifactsDir + "Border.FontBorder.docx");
-```
-
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also
