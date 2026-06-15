@@ -40,16 +40,12 @@ directly into the **img** elements and separate files are not created.
 Shows how to save a .md document with images embedded inside it.
 
 ```python
-doc = aw.Document(MY_DIR + 'Images.docx')
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
 save_options = aw.saving.MarkdownSaveOptions()
 save_options.export_images_as_base64 = export_images_as_base64
-doc.save(ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportImagesAsBase64.md', save_options)
-with open(ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportImagesAsBase64.md') as stream:
-    out_doc_contents = stream.read()
-if export_images_as_base64:
-    self.assertIn('data:image/jpeg;base64', out_doc_contents)
-else:
-    self.assertIn('MarkdownSaveOptions.ExportImagesAsBase64.001.jpeg', out_doc_contents)
+doc.save(file_name=ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportImagesAsBase64.md', save_options=save_options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'MarkdownSaveOptions.ExportImagesAsBase64.md')
+self.assertTrue('data:image/jpeg;base64' in out_doc_contents if export_images_as_base64 else 'MarkdownSaveOptions.ExportImagesAsBase64.001.jpeg' in out_doc_contents)
 ```
 
 ### See Also

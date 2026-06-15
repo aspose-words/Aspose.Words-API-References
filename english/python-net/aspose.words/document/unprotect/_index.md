@@ -5,7 +5,7 @@ articleTitle: unprotect method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.unprotect method"
 type: docs
-weight: 760
+weight: 770
 url: /python-net/aspose.words/document/unprotect/
 ---
 

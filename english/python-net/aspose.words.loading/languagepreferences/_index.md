@@ -40,21 +40,6 @@ Implements 'Set the Office Language Preferences' dialog in Word.
 |[ add_editing_language(language)](./add_editing_language/#editinglanguage) | Adds additional editing language. |
 |[ add_editing_languages(languages)](./add_editing_languages/#editinglanguagelist) | Adds additional editing languages. |
 
-### Examples
-
-Shows how to apply language preferences when loading a document.
-
-```python
-load_options = aw.loading.LoadOptions()
-load_options.language_preferences.add_editing_language(aw.loading.EditingLanguage.JAPANESE)
-doc = aw.Document(MY_DIR + 'No default editing language.docx', load_options)
-locale_id_far_east = doc.styles.default_font.locale_id_far_east
-if locale_id_far_east == aw.loading.EditingLanguage.JAPANESE:
-    print('The document either has no any FarEast language set in defaults or it was set to Japanese originally.')
-else:
-    print('The document default FarEast language was set to another than Japanese language originally, so it is not overridden.')
-```
-
 ### See Also
 
 * module [aspose.words.loading](../)

@@ -27,13 +27,12 @@ Shows how to list available fonts.
 
 ```python
 # Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
-folder_font_source = [aw.fonts.FolderFontSource(FONTS_DIR, True)]
+folder_font_source = [aw.fonts.FolderFontSource(folder_path=FONTS_DIR, scan_subfolders=True)]
 for font_info in folder_font_source[0].get_available_fonts():
-    print('FontFamilyName :', font_info.font_family_name)
-    print('FullFontName   :', font_info.full_font_name)
-    print('Version  :', font_info.version)
-    print('FilePath :', font_info.file_path)
-    print()
+    print('FontFamilyName : {0}'.format(font_info.font_family_name))
+    print('FullFontName  : {0}'.format(font_info.full_font_name))
+    print('Version  : {0}'.format(font_info.version))
+    print('FilePath : {0}\n'.format(font_info.file_path))
 ```
 
 ### See Also

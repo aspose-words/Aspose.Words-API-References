@@ -28,49 +28,31 @@ def page_set(self, value: aspose.words.saving.PageSet):
 
 ### Examples
 
-Shows how to convert only some of the pages in a document to PDF.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln('Page 1.')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 2.')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 3.')
-with open(ARTIFACTS_DIR + 'PdfSaveOptions.one_page.pdf', 'wb') as stream:
-    # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
-    # to modify how that method converts the document to .PDF.
-    options = aw.saving.PdfSaveOptions()
-    # Set the "page_index" to "1" to render a portion of the document starting from the second page.
-    options.page_set = aw.saving.PageSet(1)
-    # This document will contain one page starting from page two, which will only contain the second page.
-    doc.save(stream, options)
-```
-
 Shows how to export Odd pages from the document.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-for i in range(5):
-    builder.writeln('Page ' + str(i + 1) + '(' + ('odd' if i % 2 == 0 else 'even') + ')')
+builder = aw.DocumentBuilder(doc=doc)
+i = 0
+while i < 5:
+    builder.writeln(f"Page {i + 1} ({('odd' if i % 2 == 0 else 'even')})")
     if i < 4:
         builder.insert_break(aw.BreakType.PAGE_BREAK)
-# Create a "PdfSaveOptions" object that we can pass to the document's "save" method
+    i += 1
+# Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 # to modify how that method converts the document to .PDF.
 options = aw.saving.PdfSaveOptions()
-# Below are three "page_set" properties that we can use to filter out a set of pages from
+# Below are three PageSet properties that we can use to filter out a set of pages from
 # our document to save in an output PDF document based on the parity of their page numbers.
 # 1 -  Save only the even-numbered pages:
 options.page_set = aw.saving.PageSet.even
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.export_page_set.even.pdf', options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExportPageSet.Even.pdf', save_options=options)
 # 2 -  Save only the odd-numbered pages:
 options.page_set = aw.saving.PageSet.odd
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.export_page_set.odd.pdf', options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExportPageSet.Odd.pdf', save_options=options)
 # 3 -  Save every page:
 options.page_set = aw.saving.PageSet.all
-doc.save(ARTIFACTS_DIR + 'PdfSaveOptions.export_page_set.all.pdf', options)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.ExportPageSet.All.pdf', save_options=options)
 ```
 
 Shows how to extract pages based on exact page indices.

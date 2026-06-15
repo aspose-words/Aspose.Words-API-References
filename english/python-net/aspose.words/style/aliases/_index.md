@@ -30,7 +30,7 @@ doc = aw.Document(file_name=MY_DIR + 'Style with alias.docx')
 # This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
 # If a style's name has multiple values separated by commas, each clause is a separate alias.
 style = doc.styles.get_by_name('MyStyle')
-self.assertSequenceEqual(['MyStyle Alias 1', 'MyStyle Alias 2'], style.aliases)
+self.assertEqual(['MyStyle Alias 1', 'MyStyle Alias 2'], list(style.aliases))
 self.assertEqual('Title', style.base_style_name)
 self.assertEqual('MyStyle Char', style.linked_style_name)
 # We can reference a style using its alias, as well as its name.

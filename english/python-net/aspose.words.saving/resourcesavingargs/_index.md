@@ -44,6 +44,25 @@ To save resources into streams instead of files, use the [ResourceSavingArgs.res
 | [resource_file_uri](./resource_file_uri/) | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [resource_stream](./resource_stream/) | Allows to specify the stream where the resource will be saved to. |
 
+### Examples
+
+Shows how to use a callback to track external resources created while converting a document to HTML (FontSavingCallback).
+
+```python
+class FontSavingCallback(aw.saving.IResourceSavingCallback):
+
+    def __init__(self):
+        self.m_text = []
+
+    def resource_saving(self, args):
+        self.m_text.append(f'Original document URI:\t{args.document.original_file_name}' + '\n')
+        self.m_text.append(f'Resource being saved:\t{args.resource_file_name}' + '\n')
+        self.m_text.append(f'Full uri after saving:\t{args.resource_file_uri}\n' + '\n')
+
+    def get_text(self):
+        return str.join('', self.m_text)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../)

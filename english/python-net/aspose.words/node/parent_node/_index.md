@@ -31,25 +31,10 @@ or if it has been removed from the tree, the parent is ``None``.
 
 ### Examples
 
-Shows how to access a node's parent node.
-
-```python
-doc = aw.Document()
-para = doc.first_section.body.first_paragraph
-# Append a child Run node to the document's first paragraph.
-run = aw.Run(doc=doc, text='Hello world!')
-para.append_child(run)
-# The paragraph is the parent node of the run node. We can trace this lineage
-# all the way to the document node, which is the root of the document's node tree.
-self.assertEqual(para, run.parent_node)
-self.assertEqual(doc.first_section.body, para.parent_node)
-self.assertEqual(doc.first_section, doc.first_section.body.parent_node)
-self.assertEqual(doc, doc.first_section.parent_node)
-```
-
 Shows how to create a node and set its owning document.
 
 ```python
+from api_example_base import ApiExampleBase
 doc = aw.Document()
 para = aw.Paragraph(doc)
 para.append_child(aw.Run(doc=doc, text='Hello world!'))

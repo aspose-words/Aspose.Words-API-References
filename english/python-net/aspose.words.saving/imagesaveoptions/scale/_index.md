@@ -61,14 +61,16 @@ doc.save(file_name=ARTIFACTS_DIR + 'ImageSaveOptions.EditImage.png', save_option
 Shows how to render an Office Math object into an image file in the local file system.
 
 ```python
-doc = aw.Document(MY_DIR + 'Office math.docx')
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'Office math.docx')
 math = doc.get_child(aw.NodeType.OFFICE_MATH, 0, True).as_office_math()
-# Create an "ImageSaveOptions" object to pass to the node renderer's "save" method to modify
+# Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
 # how it renders the OfficeMath node into an image.
 save_options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set the "scale" property to 5 to render the object to five times its original size.
+# Set the "Scale" property to 5 to render the object to five times its original size.
 save_options.scale = 5
-math.get_math_renderer().save(ARTIFACTS_DIR + 'Shape.render_office_math.png', save_options)
+math.get_math_renderer().save(file_name=ARTIFACTS_DIR + 'Shape.RenderOfficeMath.png', save_options=save_options)
 ```
 
 ### See Also

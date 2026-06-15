@@ -38,7 +38,7 @@ save_options.save_format = aw.SaveFormat.DOCLING
 # Set to true to render non-image shapes and include them in the output.
 # Set to false (default) to exclude non-image shapes from the output.
 save_options.render_non_image_shapes = True
-doc.save(file_name=ARTIFACTS_DIR + 'DoclingSaveOptions.DoclingJson.json', save_options=save_options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.DoclingJson.json', save_options=save_options)
 ```
 
 ### See Also

@@ -41,7 +41,7 @@ A list of nodes matching the XPath query.
 Shows how to select certain nodes by using an XPath expression.
 
 ```python
-doc = aw.Document(MY_DIR + 'Tables.docx')
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 # This expression will extract all paragraph nodes,
 # which are descendants of any table node in the document.
 node_list = doc.select_nodes('//Table//Paragraph')
@@ -53,25 +53,24 @@ for node in node_list:
 # This expression will select any paragraphs that are direct children of any Body node in the document.
 node_list = doc.select_nodes('//Body/Paragraph')
 # We can treat the list as an array.
-self.assertEqual(4, len(node_list.to_array()))
-# Use "select_single_node" to select the first result of the same expression as above.
+self.assertEqual(4, len(list(node_list)))
+# Use SelectSingleNode to select the first result of the same expression as above.
 node = doc.select_single_node('//Body/Paragraph')
-self.assertIsInstance(node.as_paragraph(), aw.Paragraph)
+self.assertEqual(aw.Paragraph, type(node.as_paragraph()))
 ```
 
 Shows how to use an XPath expression to test whether a node is inside a field.
 
 ```python
-doc = aw.Document(MY_DIR + 'Mail merge destination - Northwind employees.docx')
+doc = aw.Document(file_name=MY_DIR + 'Mail merge destination - Northwind employees.docx')
 # The NodeList that results from this XPath expression will contain all nodes we find inside a field.
 # However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
 # Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
 result_list = doc.select_nodes('//FieldStart/following-sibling::node()[following-sibling::FieldEnd]')
 # Check if the specified run is one of the nodes that are inside the field.
-for node in result_list:
-    if node.node_type == aw.NodeType.RUN:
-        print("Contents of the first Run node that's part of a field:", node.get_text().strip())
-        break
+first_run = next((n for n in result_list if n.node_type == aw.NodeType.RUN), None)
+if first_run:
+    print(f"Contents of the first Run node that's part of a field: {first_run.get_text().strip()}")
 ```
 
 ### See Also

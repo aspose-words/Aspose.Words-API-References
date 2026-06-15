@@ -68,19 +68,6 @@ with system_helper.io.File.open_read(MY_DIR + 'Encrypted.docx') as stream:
     doc = aw.Document(stream=stream, load_options=options)
 ```
 
-Shows how save a web page as a .docx file.
-
-```python
-url = 'https://products.aspose.com/words/'
-with io.BytesIO(urlopen(url).read()) as stream:
-    # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
-    options = aw.loading.LoadOptions(aw.LoadFormat.HTML, '', url)
-    # Load the HTML document from stream and pass the LoadOptions object.
-    doc = aw.Document(stream, options)
-    # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    doc.save(ARTIFACTS_DIR + 'Document.insert_html_from_web_page.docx')
-```
-
 Shows how to specify a base URI when opening an html document.
 
 ```python

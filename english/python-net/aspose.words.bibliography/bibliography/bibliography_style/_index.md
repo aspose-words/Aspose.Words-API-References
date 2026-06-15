@@ -25,6 +25,17 @@ def bibliography_style(self, value: str):
 
 ```
 
+### Examples
+
+Shows how to override built-in styles or provide custom one (BibliographyStylesProvider).
+
+```python
+class BibliographyStylesProvider(aw.fields.IBibliographyStylesProvider):
+
+    def get_style(self, style_file_name):
+        return system_helper.io.File.open_read(MY_DIR + 'Bibliography custom style.xsl')
+```
+
 ### See Also
 
 * module [aspose.words.bibliography](../../)

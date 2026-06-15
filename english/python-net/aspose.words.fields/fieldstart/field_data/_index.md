@@ -21,16 +21,6 @@ def field_data(self) -> bytes:
 
 ```
 
-### Examples
-
-Shows how to get data associated with the field.
-
-```python
-doc = aw.Document(file_name=MY_DIR + 'Field sample - Field with data.docx')
-field = doc.range.fields[2]
-print(system_helper.text.Encoding.get_string(field.start.field_data, system_helper.text.Encoding.utf_8()))
-```
-
 ### See Also
 
 * module [aspose.words.fields](../../)

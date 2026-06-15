@@ -32,18 +32,20 @@ def detect_hyperlinks(self, value: bool):
 Shows how to read and display hyperlinks.
 
 ```python
-input_text = b'Some links in TXT:\nhttps://www.aspose.com/\nhttps://docs.aspose.com/words/python-net/\n'
-stream_ = io.BytesIO()
-stream_.write(input_text)
-stream_.flush()
-options = aw.loading.TxtLoadOptions()
-options.detect_hyperlinks = True
-doc = aw.Document(stream_, options)
-stream_.close()
-for field in doc.range.fields:
-    print(field.result)
-self.assertEqual('https://www.aspose.com/', doc.range.fields[0].result.strip())
-self.assertEqual('https://docs.aspose.com/words/python-net/', doc.range.fields[1].result.strip())
+input_text = 'Some links in TXT:\n' + 'https://www.aspose.com/\n' + 'https://docs.aspose.com/words/net/\n'
+with io.BytesIO() as stream:
+    buf = input_text.encode('ascii')
+    stream.write(buf)
+    stream.seek(0)
+    load_options = aw.loading.TxtLoadOptions()
+    load_options.detect_hyperlinks = True
+    # Load document with hyperlinks.
+    doc = aw.Document(stream=stream, load_options=load_options)
+    # Print hyperlinks text.
+    for field in doc.range.fields:
+        print(field.result)
+    assert doc.range.fields[0].result.strip() == 'https://www.aspose.com/'
+    assert doc.range.fields[1].result.strip() == 'https://docs.aspose.com/words/net/'
 ```
 
 ### See Also

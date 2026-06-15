@@ -26,6 +26,22 @@ def direction(self, value: aspose.words.replacing.FindReplaceDirection):
 
 ```
 
+### Examples
+
+Shows how to determine which direction a find-and-replace operation traverses the document in (TextReplacementRecorder).
+
+```python
+class TextReplacementRecorder(aw.replacing.IReplacingCallback):
+
+    @property
+    def matches(self):
+        pass
+
+    def replacing(self, e):
+        matches.append(e.match.value)
+        return aw.replacing.ReplaceAction.REPLACE
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

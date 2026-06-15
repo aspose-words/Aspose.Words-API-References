@@ -32,15 +32,17 @@ def encoding(self, value: str):
 Shows how to set which encoding to use while exporting a document to HTML.
 
 ```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+from pathlib import Path
+import re
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Hello World!')
-# The default encoding is UTF-8. If we want to represent our document using a different encoding,
-# we can use a SaveOptions object to set a specific encoding.
 html_fixed_save_options = aw.saving.HtmlFixedSaveOptions()
-html_fixed_save_options.encoding = 'ascii'
-self.assertEqual('us-ascii', html_fixed_save_options.encoding)
-doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.use_encoding.html', html_fixed_save_options)
+html_fixed_save_options.encoding = 'US-ASCII'
+self.assertEqual('US-ASCII', html_fixed_save_options.encoding)
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlFixedSaveOptions.UseEncoding.html', save_options=html_fixed_save_options)
 ```
 
 ### See Also

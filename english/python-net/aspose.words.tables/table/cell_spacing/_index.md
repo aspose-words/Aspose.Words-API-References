@@ -27,6 +27,34 @@ def cell_spacing(self, value: float):
 
 ### Examples
 
+Shows how to enable spacing between individual cells in a table.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+table = builder.start_table()
+builder.insert_cell()
+builder.write('Animal')
+builder.insert_cell()
+builder.write('Class')
+builder.end_row()
+builder.insert_cell()
+builder.write('Dog')
+builder.insert_cell()
+builder.write('Mammal')
+builder.end_table()
+table.cell_spacing = 3
+# Set the "AllowCellSpacing" property to "true" to enable spacing between cells
+# with a magnitude equal to the value of the "CellSpacing" property, in points.
+# Set the "AllowCellSpacing" property to "false" to disable cell spacing
+# and ignore the value of the "CellSpacing" property.
+table.allow_cell_spacing = allow_cell_spacing
+doc.save(file_name=ARTIFACTS_DIR + 'Table.AllowCellSpacing.html')
+# Adjusting the "CellSpacing" property will automatically enable cell spacing.
+table.cell_spacing = 5
+self.assertTrue(table.allow_cell_spacing)
+```
+
 Shows how to create custom style settings for the table.
 
 ```python
@@ -59,34 +87,6 @@ self.assertTrue(table.bidi)
 self.assertEqual(5, table.cell_spacing)
 self.assertEqual('MyTableStyle1', table.style_name)
 doc.save(file_name=ARTIFACTS_DIR + 'Table.TableStyleCreation.docx')
-```
-
-Shows how to enable spacing between individual cells in a table.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-table = builder.start_table()
-builder.insert_cell()
-builder.write('Animal')
-builder.insert_cell()
-builder.write('Class')
-builder.end_row()
-builder.insert_cell()
-builder.write('Dog')
-builder.insert_cell()
-builder.write('Mammal')
-builder.end_table()
-table.cell_spacing = 3
-# Set the "allow_cell_spacing" property to "True" to enable spacing between cells
-# with a magnitude equal to the value of the "cell_spacing" property, in points.
-# Set the "allow_cell_spacing" property to "False" to disable cell spacing
-# and ignore the value of the "cell_spacing" property.
-table.allow_cell_spacing = allow_cell_spacing
-doc.save(ARTIFACTS_DIR + 'Table.allow_cell_spacing.html')
-# Adjusting the "cell_spacing" property will automatically enable cell spacing.
-table.cell_spacing = 5
-self.assertTrue(table.allow_cell_spacing)
 ```
 
 ### See Also

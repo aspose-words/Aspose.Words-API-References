@@ -140,14 +140,13 @@ The cloned, imported node. The node belongs to the destination document, but has
 Shows how to import a node from one document to another.
 
 ```python
+# Every node has a parent document, which is the document that contains the node.
+# Inserting a node into a document that the node does not belong to will throw an exception.
 src_doc = aw.Document()
 dst_doc = aw.Document()
 src_doc.first_section.body.first_paragraph.append_child(aw.Run(doc=src_doc, text='Source document first paragraph text.'))
 dst_doc.first_section.body.first_paragraph.append_child(aw.Run(doc=dst_doc, text='Destination document first paragraph text.'))
-# Every node has a parent document, which is the document that contains the node.
-# Inserting a node into a document that the node does not belong to will throw an exception.
 self.assertNotEqual(dst_doc, src_doc.first_section.document)
-self.assertRaises(Exception, lambda: dst_doc.append_child(src_doc.first_section))
 # Use the ImportNode method to create a copy of a node, which will have the document
 # that called the ImportNode method set as its new owner document.
 imported_section = dst_doc.import_node(src_node=src_doc.first_section, is_import_children=True).as_section()

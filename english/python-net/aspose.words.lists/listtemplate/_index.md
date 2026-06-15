@@ -126,29 +126,35 @@ doc.save(file_name=ARTIFACTS_DIR + 'Lists.RestartNumberingUsingListCopy.docx')
 Shows how to create a document that contains all outline headings list templates.
 
 ```python
-def outline_heading_templates():
-    doc = aw.Document()
-    builder = aw.DocumentBuilder(doc)
-    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION)
-    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Article Section"')
-    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_LEGAL)
-    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Legal"')
-    builder.insert_break(aw.BreakType.PAGE_BREAK)
-    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_NUMBERS)
-    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Numbers"')
-    list_ = doc.lists.add(aw.lists.ListTemplate.OUTLINE_HEADINGS_CHAPTER)
-    add_outline_heading_paragraphs(builder, list_, 'Aspose.Words Outline - "Chapters"')
-    doc.save(ARTIFACTS_DIR + 'Lists.outline_heading_templates.docx')
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION)
+ExLists._add_outline_heading_paragraphs(builder, doc_list, 'Aspose.Words Outline - "Article Section"')
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.OUTLINE_HEADINGS_LEGAL)
+ExLists._add_outline_heading_paragraphs(builder, doc_list, 'Aspose.Words Outline - "Legal"')
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.OUTLINE_HEADINGS_NUMBERS)
+ExLists._add_outline_heading_paragraphs(builder, doc_list, 'Aspose.Words Outline - "Numbers"')
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.OUTLINE_HEADINGS_CHAPTER)
+ExLists._add_outline_heading_paragraphs(builder, doc_list, 'Aspose.Words Outline - "Chapters"')
+doc.save(file_name=ARTIFACTS_DIR + 'Lists.OutlineHeadingTemplates.docx')
+```
 
-def add_outline_heading_paragraphs(builder: aw.DocumentBuilder, list: aw.lists.List, title: str):
+Shows how to create a document that contains all outline headings list templates (AddOutlineHeadingParagraphs).
+
+```python
+@staticmethod
+def _add_outline_heading_paragraphs(builder, doc_list, title):
     builder.paragraph_format.clear_formatting()
     builder.writeln(title)
-    for i in range(9):
-        builder.list_format.list = list
+    i = 0
+    while i < 9:
+        builder.list_format.list = doc_list
         builder.list_format.list_level_number = i
-        style_name = f'Heading {i + 1}'
+        style_name = 'Heading ' + str(i + 1)
         builder.paragraph_format.style_name = style_name
         builder.writeln(style_name)
+        i += 1
     builder.list_format.remove_numbers()
 ```
 

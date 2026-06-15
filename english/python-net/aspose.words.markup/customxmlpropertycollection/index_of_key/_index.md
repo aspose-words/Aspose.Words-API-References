@@ -33,21 +33,21 @@ The zero based index. Negative value if not found.
 Shows how to work with smart tag properties to get in depth information about smart tags.
 
 ```python
-doc = aw.Document(MY_DIR + 'Smart tags.doc')
+doc = aw.Document(file_name=MY_DIR + 'Smart tags.doc')
 # A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
 # such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
 # In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
 # In our input document, there are three objects that Microsoft Word registered as smart tags.
 # Smart tags may be nested, so this collection contains more.
-smart_tags = [node.as_smart_tag() for node in doc.get_child_nodes(aw.NodeType.SMART_TAG, True)]
+smart_tags = list(filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_smart_tag(), b), list(doc.get_child_nodes(aw.NodeType.SMART_TAG, True)))))
 self.assertEqual(8, len(smart_tags))
-# The "properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+# The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
 # The properties of a "date"-type smart tag contain its year, month, and day.
 properties = smart_tags[7].properties
 self.assertEqual(4, properties.count)
-for prop in properties:
-    print(f'Property name: {prop.name}, value: {prop.value}')
-    self.assertEqual('', prop.uri)
+for current in properties:
+    print(f'Property name: {current.name}, value: {current.value}')
+    self.assertEqual('', current.uri)
 # We can also access the properties in various ways, such as a key-value pair.
 self.assertTrue(properties.contains('Day'))
 self.assertEqual('22', properties.get_by_name('Day').value)

@@ -31,14 +31,14 @@ Shows how to toggle standalone word-only find-and-replace operations.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Jackson will meet you in Jacksonville.')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-# Set the "find_whole_words_only" flag to "True" to replace the found text if it is not a part of another word.
-# Set the "find_whole_words_only" flag to "False" to replace all text regardless of its surroundings.
+# Set the "FindWholeWordsOnly" flag to "true" to replace the found text if it is not a part of another word.
+# Set the "FindWholeWordsOnly" flag to "false" to replace all text regardless of its surroundings.
 options.find_whole_words_only = find_whole_words_only
-doc.range.replace('Jackson', 'Louis', options)
+doc.range.replace(pattern='Jackson', replacement='Louis', options=options)
 self.assertEqual('Louis will meet you in Jacksonville.' if find_whole_words_only else 'Louis will meet you in Louisville.', doc.get_text().strip())
 ```
 

@@ -25,6 +25,26 @@ def warning_callback(self, value: aspose.words.IWarningCallback):
 
 ```
 
+### Examples
+
+Shows how to print and store warnings that occur during document loading (DocumentLoadingWarningCallback).
+
+```python
+class DocumentLoadingWarningCallback(aw.IWarningCallback):
+
+    def __init__(self):
+        self.m_warnings = []
+
+    def warning(self, info):
+        print(f'Warning: {info.warning_type}')
+        print(f'\tSource: {info.source}')
+        print(f'\tDescription: {info.description}')
+        self.m_warnings.append(info)
+
+    def get_warnings(self):
+        return self.m_warnings
+```
+
 ### See Also
 
 * module [aspose.words.loading](../../)
