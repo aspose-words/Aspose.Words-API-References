@@ -25,6 +25,17 @@ def prompt_text(self, value: str):
 
 ```
 
+### Examples
+
+Shows how to create an ASK field, and set its properties (MyPromptRespondent).
+
+```python
+class MyPromptRespondent(aw.fields.IFieldUserPromptRespondent):
+
+    def respond(self, prompt_text, default_response):
+        return 'Response from MyPromptRespondent. ' + default_response
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

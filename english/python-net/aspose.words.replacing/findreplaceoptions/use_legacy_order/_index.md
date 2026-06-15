@@ -27,6 +27,22 @@ def use_legacy_order(self, value: bool):
 
 ```
 
+### Examples
+
+Shows how to change the searching order of nodes when performing a find-and-replace text operation (TextReplacementTracker).
+
+```python
+class TextReplacementTracker(aw.replacing.IReplacingCallback):
+
+    @property
+    def matches(self):
+        pass
+
+    def replacing(self, e):
+        matches.append(e.match.value)
+        return aw.replacing.ReplaceAction.REPLACE
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

@@ -31,14 +31,14 @@ Shows how to toggle case sensitivity when performing a find-and-replace operatio
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('Ruby bought a ruby necklace.')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-# Set the "match_case" flag to "True" to apply case sensitivity while finding strings to replace.
-# Set the "match_case" flag to "False" to ignore character case while searching for text to replace.
+# Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
+# Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
 options.match_case = match_case
-doc.range.replace('Ruby', 'Jade', options)
+doc.range.replace(pattern='Ruby', replacement='Jade', options=options)
 self.assertEqual('Jade bought a ruby necklace.' if match_case else 'Jade bought a Jade necklace.', doc.get_text().strip())
 ```
 

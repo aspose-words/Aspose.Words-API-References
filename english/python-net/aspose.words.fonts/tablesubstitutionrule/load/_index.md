@@ -60,18 +60,18 @@ with system_helper.io.FileStream(MY_DIR + 'Font substitution rules.xml', system_
 table_substitution_rule.load(file_name=MY_DIR + 'Font substitution rules.xml')
 # Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 # We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-self.assertSequenceEqual(['Missing Font', 'Kreon'], list(table_substitution_rule.get_substitutes('Arial')))
+self.assertEqual(['Missing Font', 'Kreon'], table_substitution_rule.get_substitutes('Arial'))
 # We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
 self.assertIsNone(table_substitution_rule.get_substitutes('Times New Roman'))
 table_substitution_rule.add_substitutes('Times New Roman', ['Arvo'])
-self.assertSequenceEqual(['Arvo'], list(table_substitution_rule.get_substitutes('Times New Roman')))
+self.assertEqual(['Arvo'], table_substitution_rule.get_substitutes('Times New Roman'))
 # We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 # In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 table_substitution_rule.add_substitutes('Times New Roman', ['M+ 2m'])
-self.assertSequenceEqual(['Arvo', 'M+ 2m'], list(table_substitution_rule.get_substitutes('Times New Roman')))
+self.assertEqual(['Arvo', 'M+ 2m'], table_substitution_rule.get_substitutes('Times New Roman'))
 # SetSubstitutes() can set a new list of substitute fonts for a font.
 table_substitution_rule.set_substitutes('Times New Roman', ['Squarish Sans CT', 'M+ 2m'])
-self.assertSequenceEqual(['Squarish Sans CT', 'M+ 2m'], list(table_substitution_rule.get_substitutes('Times New Roman')))
+self.assertEqual(['Squarish Sans CT', 'M+ 2m'], table_substitution_rule.get_substitutes('Times New Roman'))
 # Writing text in fonts that we do not have access to will invoke our substitution rules.
 builder = aw.DocumentBuilder(doc=doc)
 builder.font.name = 'Arial'

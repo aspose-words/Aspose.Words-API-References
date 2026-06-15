@@ -25,6 +25,25 @@ def replacement(self, value: str):
 
 ```
 
+### Examples
+
+Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements (TextFindAndReplacementLogger).
+
+```python
+class TextFindAndReplacementLogger(aw.replacing.IReplacingCallback):
+
+    def __init__(self):
+        self.m_log = []
+
+    def replacing(self, args):
+        m_log.append(f'"{args.match.value}" converted to "{args.replacement}" {args.match_offset} characters into a {args.match_node.node_type} node.')
+        args.replacement = f'(Old value:"{args.match.value}") {args.replacement}'
+        return aw.Replacing.ReplaceAction.REPLACE
+
+    def get_log(self):
+        return str.join('', self.m_log)
+```
+
 ### See Also
 
 * module [aspose.words.replacing](../../)

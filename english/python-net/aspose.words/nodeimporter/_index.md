@@ -68,32 +68,17 @@ destination documents.
 
 ### Examples
 
-Shows how to insert the contents of one document to a bookmark in another document.
+Shows how to insert the contents of one document to a bookmark in another document (InsertDocument).
 
 ```python
-def insert_at_bookmark():
-    doc = aw.Document()
-    builder = aw.DocumentBuilder(doc)
-    builder.start_bookmark('InsertionPoint')
-    builder.write('We will insert a document here: ')
-    builder.end_bookmark('InsertionPoint')
-    doc_to_insert = aw.Document()
-    builder = aw.DocumentBuilder(doc_to_insert)
-    builder.write('Hello world!')
-    doc_to_insert.save(ARTIFACTS_DIR + 'NodeImporter.insert_at_bookmark.docx')
-    bookmark = doc.range.bookmarks.get_by_name('InsertionPoint')
-    insert_document(bookmark.bookmark_start.parent_node, doc_to_insert)
-    self.assertEqual('We will insert a document here: ' + '\rHello world!', doc.get_text().strip())
-
-def insert_document(insertion_destination: aw.Node, doc_to_insert: aw.Document):
-    """Inserts the contents of a document after the specified node."""
+@staticmethod
+def insert_document(insertion_destination, doc_to_insert):
     if insertion_destination.node_type == aw.NodeType.PARAGRAPH or insertion_destination.node_type == aw.NodeType.TABLE:
         destination_parent = insertion_destination.parent_node
-        importer = aw.NodeImporter(doc_to_insert, insertion_destination.document, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
+        importer = aw.NodeImporter(src_doc=doc_to_insert, dst_doc=insertion_destination.document, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
         # Loop through all block-level nodes in the section's body,
         # then clone and insert every node that is not the last empty paragraph of a section.
-        for src_section in doc_to_insert.sections:
-            src_section = src_section.as_section()
+        for src_section in filter(lambda a: a is not None, map(lambda b: system_helper.linq.Enumerable.of_type(lambda x: x.as_section(), b), list(doc_to_insert.sections))):
             for src_node in src_section.body:
                 if src_node.node_type == aw.NodeType.PARAGRAPH:
                     para = src_node.as_paragraph()
@@ -103,7 +88,7 @@ def insert_document(insertion_destination: aw.Node, doc_to_insert: aw.Document):
                 destination_parent.insert_after(new_node, insertion_destination)
                 insertion_destination = new_node
     else:
-        raise Exception('The destination node should be either a paragraph or table.')
+        raise Exception()
 ```
 
 ### See Also

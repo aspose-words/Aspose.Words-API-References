@@ -56,41 +56,37 @@ for child in children:
 Shows how to find out if a tables are nested.
 
 ```python
-def calculate_depth_of_nested_tables():
-    doc = aw.Document(MY_DIR + 'Nested tables.docx')
-    tables = doc.get_child_nodes(aw.NodeType.TABLE, True)
-    for i in range(tables.count):
-        table = tables[i].as_table()
-        # Find out if any cells in the table have other tables as children.
-        count = get_child_table_count(table)
-        print(f'Table #{i} has {count} tables directly within its cells')
-        # Find out if the table is nested inside another table, and, if so, at what depth.
-        table_depth = get_nested_depth_of_table(table)
-        if table_depth > 0:
-            print(f'Table #{i} is nested inside another table at depth of {table_depth}')
-        else:
-            print('Table #{i} is a non nested table (is not a child of another table)')
+doc = aw.Document(file_name=MY_DIR + 'Nested tables.docx')
+tables = doc.get_child_nodes(aw.NodeType.TABLE, True)
+i = 0
+while i < tables.count:
+    table = tables[i].as_table()
+    # Find out if any cells in the table have other tables as children.
+    count = ExTable._get_child_table_count(table)
+    print('Table #{0} has {1} tables directly within its cells'.format(i, count))
+    # Find out if the table is nested inside another table, and, if so, at what depth.
+    table_depth = ExTable._get_nested_depth_of_table(table)
+    if table_depth > 0:
+        print('Table #{0} is nested inside another table at depth of {1}'.format(i, table_depth))
+    else:
+        print('Table #{0} is a non nested table (is not a child of another table)'.format(i))
+    i += 1
+```
 
-def get_nested_depth_of_table(table: aw.tables.Table) -> int:
-    """Calculates what level a table is nested inside other tables.
+Shows how to find out if a tables are nested (GetNestedDepthOfTable).
 
-    :return: An integer indicating the nesting depth of the table (number of parent table nodes).
-    """
+```python
+@staticmethod
+def _get_nested_depth_of_table(table):
     depth = 0
-    parent = table.get_ancestor(table.node_type)
+    parent = table.get_ancestor(aw.tables.Table)
     while parent is not None:
         depth += 1
-        parent = parent.get_ancestor(table.node_type)
+        parent = parent.get_ancestor(aw.tables.Table)
     return depth
 
-def get_child_table_count(table: aw.tables.Table) -> int:
-    """Determines if a table contains any immediate child table within its cells.
-
-    Do not recursively traverse through those tables to check for further tables.
-
-    :return: Returns True if at least one child cell contains a table.
-             Returns False if no cells in the table contain a table.
-    """
+@staticmethod
+def _get_child_table_count(table):
     child_table_count = 0
     for row in table.rows:
         row = row.as_row()

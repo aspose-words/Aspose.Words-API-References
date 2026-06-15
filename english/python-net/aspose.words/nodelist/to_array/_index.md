@@ -40,7 +40,7 @@ An array of nodes.
 Shows how to select certain nodes by using an XPath expression.
 
 ```python
-doc = aw.Document(MY_DIR + 'Tables.docx')
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 # This expression will extract all paragraph nodes,
 # which are descendants of any table node in the document.
 node_list = doc.select_nodes('//Table//Paragraph')
@@ -52,10 +52,10 @@ for node in node_list:
 # This expression will select any paragraphs that are direct children of any Body node in the document.
 node_list = doc.select_nodes('//Body/Paragraph')
 # We can treat the list as an array.
-self.assertEqual(4, len(node_list.to_array()))
-# Use "select_single_node" to select the first result of the same expression as above.
+self.assertEqual(4, len(list(node_list)))
+# Use SelectSingleNode to select the first result of the same expression as above.
 node = doc.select_single_node('//Body/Paragraph')
-self.assertIsInstance(node.as_paragraph(), aw.Paragraph)
+self.assertEqual(aw.Paragraph, type(node.as_paragraph()))
 ```
 
 ### See Also

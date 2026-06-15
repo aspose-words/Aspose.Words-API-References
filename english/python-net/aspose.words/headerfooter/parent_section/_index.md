@@ -52,14 +52,14 @@ builder.write('This is the footer, which will be displayed in sections 1, 2 and 
 doc.sections[1].headers_footers.link_to_previous(is_link_to_previous=True)
 # Each section will still have its own header/footer objects. When we link sections,
 # the linking section will display the linked section's header/footers while keeping its own.
-self.assertNotEqual(doc.sections[0].headers_footers[0], doc.sections[1].headers_footers[0])
-self.assertNotEqual(doc.sections[0].headers_footers[0].parent_section, doc.sections[1].headers_footers[0].parent_section)
+assert doc.sections[0].headers_footers[0] is not doc.sections[1].headers_footers[0]
+assert doc.sections[0].headers_footers[0].parent_section is not doc.sections[1].headers_footers[0].parent_section
 # Link the headers/footers of the third section to the headers/footers of the second section.
-# The second section already links to the first section's header/footers,
+# The second section already links to the first section's headers/footers,
 # so linking to the second section will create a link chain.
 # The first, second, and now the third sections will all display the first section's headers.
 doc.sections[2].headers_footers.link_to_previous(is_link_to_previous=True)
-# We can un-link a previous section's header/footers by passing "false" when calling the LinkToPrevious method.
+# We can un-link a previous section's headers/footers by passing "false" when calling the LinkToPrevious method.
 doc.sections[2].headers_footers.link_to_previous(is_link_to_previous=False)
 # We can also select only a specific type of header/footer to link using this method.
 # The third section now will have the same footer as the second and first sections, but not the header.

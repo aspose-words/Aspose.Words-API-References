@@ -23,6 +23,61 @@ def page_index(self) -> int:
 
 ### Examples
 
+Shows ways of traversing a document's layout entities (TraverseLayoutForward).
+
+```python
+@staticmethod
+def _traverse_layout_forward(layout_enumerator, depth):
+    while true:
+        ExLayout._print_current_entity(layout_enumerator, depth)
+        if layout_enumerator.move_first_child():
+            ExLayout._traverse_layout_forward(layout_enumerator, depth + 1)
+            layout_enumerator.move_parent()
+        if layout_enumerator.move_next():
+            break
+
+@staticmethod
+def _traverse_layout_backward(layout_enumerator, depth):
+    while true:
+        ExLayout._print_current_entity(layout_enumerator, depth)
+        if layout_enumerator.move_last_child():
+            ExLayout._traverse_layout_backward(layout_enumerator, depth + 1)
+            layout_enumerator.move_parent()
+        if layout_enumerator.move_previous():
+            break
+
+@staticmethod
+def _traverse_layout_forward_logical(layout_enumerator, depth):
+    while true:
+        ExLayout._print_current_entity(layout_enumerator, depth)
+        if layout_enumerator.move_first_child():
+            ExLayout._traverse_layout_forward_logical(layout_enumerator, depth + 1)
+            layout_enumerator.move_parent()
+        if layout_enumerator.move_next_logical():
+            break
+
+@staticmethod
+def _traverse_layout_backward_logical(layout_enumerator, depth):
+    while true:
+        ExLayout._print_current_entity(layout_enumerator, depth)
+        if layout_enumerator.move_last_child():
+            ExLayout._traverse_layout_backward_logical(layout_enumerator, depth + 1)
+            layout_enumerator.move_parent()
+        if layout_enumerator.move_previous_logical():
+            break
+
+@staticmethod
+def _print_current_entity(layout_enumerator, indent):
+    tabs = '\t' * indent
+    print(f'{tabs}-> Entity type: {layout_enumerator.type}' if layout_enumerator.kind == '' else f'{tabs}-> Entity type & kind: {layout_enumerator.type}, {layout_enumerator.kind}')
+    # Only spans can contain text.
+    if layout_enumerator.type == aw.LayoutEntityType.SPAN:
+        print(f'{tabs}   Span contents: "{layout_enumerator.text}"')
+        le_rect = layout_enumerator.rectangle
+        print(f'{tabs}   Rectangle dimensions {le_rect.width}x{le_rect.height}, X={le_rect.x} Y={le_rect.y}')
+        print(f'{tabs}   Page {layout_enumerator.page_index}')
+```
+
 Shows ways of traversing a document's layout entities.
 
 ```python

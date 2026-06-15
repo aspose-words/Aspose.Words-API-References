@@ -32,24 +32,23 @@ def export_embedded_svg(self, value: bool):
 Shows how to determine where to store SVG objects when exporting a document to Html.
 
 ```python
-doc = aw.Document(MY_DIR + 'Images.docx')
+doc = aw.Document(file_name=MY_DIR + 'Images.docx')
 # When we export a document with SVG objects to .html,
 # Aspose.Words can place these objects in two possible locations.
-# Setting the "export_embedded_svg" flag to "True" will embed all SVG object raw data
+# Setting the "ExportEmbeddedSvg" flag to "true" will embed all SVG object raw data
 # within the output HTML, inside <image> tags.
-# Setting this flag to "False" will create a file in the local file system for each SVG object.
+# Setting this flag to "false" will create a file in the local file system for each SVG object.
 # The HTML will link to each file using the "data" attribute of an <object> tag.
 html_fixed_save_options = aw.saving.HtmlFixedSaveOptions()
 html_fixed_save_options.export_embedded_svg = export_svgs
-doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs.html', html_fixed_save_options)
-with open(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs.html', 'rt', encoding='utf-8') as file:
-    out_doc_contents = file.read()
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlFixedSaveOptions.ExportEmbeddedSvgs.html', save_options=html_fixed_save_options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.ExportEmbeddedSvgs.html')
 if export_svgs:
-    self.assertFalse(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg'))
-    self.assertRegex(out_doc_contents, '<image id="image004" xlink:href=.+/>')
+    self.assertFalse(system_helper.io.File.exist(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg'))
+    self.assertTrue(re.compile('<image id=\\"image004\\" xlink:href=.+/>').search(out_doc_contents) is not None)
 else:
-    self.assertTrue(os.path.exists(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.export_embedded_svgs/svg001.svg'))
-    self.assertRegex(out_doc_contents, '<object type="image/svg[+]xml" data="HtmlFixedSaveOptions.export_embedded_svgs/svg001[.]svg"></object>')
+    self.assertTrue(system_helper.io.File.exist(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg'))
+    self.assertTrue(re.compile('<object type=\\"image/svg\\+xml\\" data=\\"HtmlFixedSaveOptions\\.ExportEmbeddedSvgs/svg001\\.svg\\"></object>').search(out_doc_contents) is not None)
 ```
 
 ### See Also

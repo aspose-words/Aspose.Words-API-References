@@ -59,6 +59,17 @@ Prompts the user to enter information and assigns a bookmark to represent the us
 |[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 |[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 
+### Examples
+
+Shows how to create an ASK field, and set its properties (MyPromptRespondent).
+
+```python
+class MyPromptRespondent(aw.fields.IFieldUserPromptRespondent):
+
+    def respond(self, prompt_text, default_response):
+        return 'Response from MyPromptRespondent. ' + default_response
+```
+
 ### See Also
 
 * module [aspose.words.fields](../)

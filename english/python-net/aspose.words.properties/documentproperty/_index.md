@@ -42,7 +42,7 @@ To learn more, visit the [Work with Document Properties](https://docs.aspose.com
 Shows how to work with built-in document properties.
 
 ```python
-doc = aw.Document(MY_DIR + 'Properties.docx')
+doc = aw.Document(file_name=MY_DIR + 'Properties.docx')
 # The "Document" object contains some of its metadata in its members.
 print(f'Document filename:\n\t "{doc.original_file_name}"')
 # The document also stores metadata in its built-in properties.
@@ -52,7 +52,7 @@ for doc_property in doc.built_in_document_properties:
     print(doc_property.name)
     print(f'\tType:\t{doc_property.type}')
     # Some properties may store multiple values.
-    if isinstance(doc_property.value, list):
+    if isinstance(doc_property.value, (list, tuple)):
         for value in doc_property.value:
             print(f'\tValue:\t"{value}"')
     else:

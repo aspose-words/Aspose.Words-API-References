@@ -36,6 +36,20 @@ If there already is a style with such name in the collection, then this style wi
 
 ### Examples
 
+Shows how to access a document's style collection.
+
+```python
+doc = aw.Document()
+self.assertEqual(4, doc.styles.count)
+# Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+for cur_style in doc.styles:
+    print(f'Style name:\t"{cur_style.name}", of type "{cur_style.type}"')
+    print(f'\tSubsequent style:\t{cur_style.next_paragraph_style_name}')
+    print(f'\tIs heading:\t\t\t{cur_style.is_heading}')
+    print(f'\tIs QuickStyle:\t\t{cur_style.is_quick_style}')
+    self.assertEqual(doc, cur_style.document)
+```
+
 Shows how to clone a document's style.
 
 ```python
@@ -54,20 +68,6 @@ self.assertEqual(doc.styles.get_by_name('Heading 1').type, new_style.type)
 self.assertEqual(doc.styles.get_by_name('Heading 1').font.name, new_style.font.name)
 self.assertEqual(doc.styles.get_by_name('Heading 1').font.size, new_style.font.size)
 self.assertNotEqual(doc.styles.get_by_name('Heading 1').font.color, new_style.font.color)
-```
-
-Shows how to access a document's style collection.
-
-```python
-doc = aw.Document()
-self.assertEqual(4, doc.styles.count)
-# Enumerate and list all the styles that a document created using Aspose.Words contains by default.
-for cur_style in doc.styles:
-    print(f'Style name:\t"{cur_style.name}", of type "{cur_style.type}"')
-    print(f'\tSubsequent style:\t{cur_style.next_paragraph_style_name}')
-    print(f'\tIs heading:\t\t\t{cur_style.is_heading}')
-    print(f'\tIs QuickStyle:\t\t{cur_style.is_quick_style}')
-    self.assertEqual(doc, cur_style.document)
 ```
 
 ### See Also

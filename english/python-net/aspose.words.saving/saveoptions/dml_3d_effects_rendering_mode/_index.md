@@ -31,6 +31,19 @@ The default value is [Dml3DEffectsRenderingMode.BASIC](../../dml3deffectsrenderi
 
 
 
+### Examples
+
+Shows how 3D effects are rendered.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'DrawingML shape 3D effects.docx')
+warning_callback = self.RenderCallback()
+doc.warning_callback = warning_callback
+save_options = aw.saving.PdfSaveOptions()
+save_options.dml_3d_effects_rendering_mode = aw.saving.Dml3DEffectsRenderingMode.ADVANCED
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.Dml3DEffectsRenderingModeTest.pdf', save_options=save_options)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

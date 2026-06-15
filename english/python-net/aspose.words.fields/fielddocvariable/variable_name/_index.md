@@ -45,10 +45,10 @@ builder.insert_paragraph()
 # Define a custom variable, then reference that variable with a DOCPROPERTY field.
 self.assertEqual(0, doc.variables.count)
 doc.variables.add('My variable', "My variable's value")
-field_doc_variable = builder.insert_field(field_type=aw.fields.FieldType.FIELD_DOC_VARIABLE, update_field=True).as_field_doc_variable()
-field_doc_variable.variable_name = 'My Variable'
+field_doc_variable = builder.insert_field(field_type=fields.FieldType.FIELD_DOC_VARIABLE, update_field=True).as_field_doc_variable()
+field_doc_variable.variable_name = 'My variable'
 field_doc_variable.update()
-self.assertEqual(' DOCVARIABLE  "My Variable"', field_doc_variable.get_field_code())
+self.assertEqual(' DOCVARIABLE  "My variable"', field_doc_variable.get_field_code())
 self.assertEqual("My variable's value", field_doc_variable.result)
 doc.save(file_name=ARTIFACTS_DIR + 'Field.DOCPROPERTY.DOCVARIABLE.docx')
 ```

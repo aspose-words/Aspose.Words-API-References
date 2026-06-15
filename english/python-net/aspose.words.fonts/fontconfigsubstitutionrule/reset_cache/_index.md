@@ -28,14 +28,16 @@ font_settings = aw.fonts.FontSettings()
 font_config_substitution = font_settings.substitution_settings.font_config_substitution
 # The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
 # On Windows, it is unavailable.
-if platform.system() == 'Windows':
-    self.assertFalse(font_config_substitution.enabled)
-    self.assertFalse(font_config_substitution.is_font_config_available())
-else:
-    # On Linux/Mac, we will have access to it, and will be able to perform operations.
-    self.assertTrue(font_config_substitution.enabled)
-    self.assertTrue(font_config_substitution.is_font_config_available())
-    font_config_substitution.reset_cache()
+# On Linux/Mac, we will have access to it, and will be able to perform operations.
+is_windows = os.name == 'nt'
+is_linux_or_mac = not is_windows
+if is_windows:
+    assert not font_config_substitution.enabled
+    assert not font_config_substitution.is_font_config_available()
+if is_linux_or_mac:
+    assert font_config_substitution.enabled
+    assert font_config_substitution.is_font_config_available()
+font_config_substitution.reset_cache()
 ```
 
 ### See Also

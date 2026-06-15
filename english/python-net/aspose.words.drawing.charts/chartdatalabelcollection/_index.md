@@ -52,37 +52,15 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 ### Examples
 
-Shows how to apply labels to data points in a line chart.
+Shows how to apply labels to data points in a line chart (ApplyDataLabels).
 
 ```python
-def data_labels():
-    doc = aw.Document()
-    builder = aw.DocumentBuilder(doc)
-    chart_shape = builder.insert_chart(aw.drawing.charts.ChartType.LINE, 400, 300)
-    chart = chart_shape.chart
-    self.assertEqual(3, chart.series.count)
-    self.assertEqual('Series 1', chart.series[0].name)
-    self.assertEqual('Series 2', chart.series[1].name)
-    self.assertEqual('Series 3', chart.series[2].name)
-    # Apply data labels to every series in the chart.
-    # These labels will appear next to each data point in the graph and display its value.
-    for series in chart.series:
-        apply_data_labels(series, 4, '000.0', ', ')
-        self.assertEqual(4, series.data_labels.count)
-    # Change the separator string for every data label in a series.
-    for label in chart.series[0].data_labels:
-        self.assertEqual(', ', label.separator)
-        label.separator = ' & '
-    # For a cleaner looking graph, we can remove data labels individually.
-    chart.series[1].data_labels[2].clear_format()
-    # We can also strip an entire series of its data labels at once.
-    chart.series[2].data_labels.clear_format()
-    doc.save(ARTIFACTS_DIR + 'Charts.data_labels.docx')
-
-def apply_data_labels(series: aw.drawing.charts.ChartSeries, labels_count: int, number_format: str, separator: str):
-    """Apply data labels with custom number format and separator to several data points in a series."""
-    for i in range(labels_count):
-        series.has_data_labels = True
+@staticmethod
+def _apply_data_labels(series, labels_count, number_format, separator):
+    series.has_data_labels = True
+    series.explosion = 40
+    i = 0
+    while i < labels_count:
         self.assertFalse(series.data_labels[i].is_visible)
         series.data_labels[i].show_category_name = True
         series.data_labels[i].show_series_name = True
@@ -90,13 +68,14 @@ def apply_data_labels(series: aw.drawing.charts.ChartSeries, labels_count: int, 
         series.data_labels[i].show_leader_lines = True
         series.data_labels[i].show_legend_key = True
         series.data_labels[i].show_percentage = False
-        series.data_labels[i].is_hidden = False
+        self.assertFalse(series.data_labels[i].is_hidden)
         self.assertFalse(series.data_labels[i].show_data_labels_range)
         series.data_labels[i].number_format.format_code = number_format
         series.data_labels[i].separator = separator
         self.assertFalse(series.data_labels[i].show_data_labels_range)
         self.assertTrue(series.data_labels[i].is_visible)
         self.assertFalse(series.data_labels[i].is_hidden)
+        i += 1
 ```
 
 ### See Also

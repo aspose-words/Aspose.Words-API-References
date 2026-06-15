@@ -247,16 +247,20 @@ with system_helper.io.File.open_read(MY_DIR + 'Document.docx') as stream:
 Shows how to load a document from a URL.
 
 ```python
+from io import BytesIO
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+from urllib.request import urlopen
 # Create a URL that points to a Microsoft Word document.
 url = 'https://filesamples.com/samples/document/docx/sample3.docx'
 # Download the document into a byte array, then load that array into a document using a memory stream.
-request_site = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-data_bytes = urlopen(request_site).read()
-with io.BytesIO(data_bytes) as byte_stream:
+with urlopen(url) as response:
+    data_bytes = response.read()
+with BytesIO(data_bytes) as byte_stream:
     doc = aw.Document(byte_stream)
-    # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    self.assertEqual('There are eight section headings in this document. At the beginning, "Sample Document" is a level 1 heading. ' + 'The main section headings, such as "Headings" and "Lists" are level 2 headings. ' + 'The Tables section contains two sub-headings, "Simple Table" and "Complex Table," which are both level 3 headings.', doc.first_section.body.paragraphs[3].get_text().strip())
-    doc.save(ARTIFACTS_DIR + 'Document.load_from_web.docx')
+# At this stage, we can read and edit the document's contents and then save it to the local file system.
+assert doc.first_section.body.paragraphs[3].get_text().strip() == 'There are eight section headings in this document. At the beginning, "Sample Document" is a level 1 heading. ' + 'The main section headings, such as "Headings" and "Lists" are level 2 headings. ' + 'The Tables section contains two sub-headings, "Simple Table" and "Complex Table," which are both level 3 headings.'
+doc.save(ARTIFACTS_DIR + 'Document.LoadFromWeb.docx')
 ```
 
 Shows how to open an HTML document with images from a stream using a base URI.
@@ -274,19 +278,6 @@ with system_helper.io.File.open_read(MY_DIR + 'Document.html') as stream:
     self.assertIsNotNone(shape.image_data.image_bytes)
     self.assertAlmostEqual(32, aw.ConvertUtil.point_to_pixel(points=shape.width), delta=0.01)
     self.assertAlmostEqual(32, aw.ConvertUtil.point_to_pixel(points=shape.height), delta=0.01)
-```
-
-Shows how save a web page as a .docx file.
-
-```python
-url = 'https://products.aspose.com/words/'
-with io.BytesIO(urlopen(url).read()) as stream:
-    # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
-    options = aw.loading.LoadOptions(aw.LoadFormat.HTML, '', url)
-    # Load the HTML document from stream and pass the LoadOptions object.
-    doc = aw.Document(stream, options)
-    # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    doc.save(ARTIFACTS_DIR + 'Document.insert_html_from_web_page.docx')
 ```
 
 ## See Also
