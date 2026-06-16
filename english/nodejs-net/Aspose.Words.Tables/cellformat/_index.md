@@ -46,6 +46,53 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 
 ### Examples
 
+Shows how to modify the format of rows and cells in a table.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.write("City");
+builder.insertCell();
+builder.write("Country");
+builder.endRow();
+builder.insertCell();
+builder.write("London");
+builder.insertCell();
+builder.write("U.K.");
+builder.endTable();
+
+// Use the first row's "RowFormat" property to modify the formatting
+// of the contents of all cells in this row.
+let rowFormat = table.firstRow.rowFormat;
+rowFormat.height = 25;
+rowFormat.borders.at(aw.BorderType.Bottom).color = "#FF0000";
+
+// Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
+let cellFormat = table.lastRow.firstCell.cellFormat;
+cellFormat.width = 100;
+cellFormat.shading.backgroundPatternColor = "#FFA500";
+
+doc.save(base.artifactsDir + "Table.RowCellFormat.docx");
+```
+
+Shows how to modify formatting of a table cell.
+
+```js
+let doc = new aw.Document(base.myDir + "Tables.docx");
+let table = doc.firstSection.body.tables.at(0);
+let firstCell = table.firstRow.firstCell;
+
+// Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
+firstCell.cellFormat.width = 30;
+firstCell.cellFormat.orientation = aw.TextOrientation.Downward;
+firstCell.cellFormat.shading.foregroundPatternColor = "#90EE90";
+
+doc.save(base.artifactsDir + "Table.cellFormat.docx");
+```
+
 Shows how to build a table with custom borders.
 
 ```js
@@ -105,53 +152,6 @@ builder.endRow();
 builder.endTable();
 
 doc.save(base.artifactsDir + "DocumentBuilder.InsertTable.docx");
-```
-
-Shows how to modify the format of rows and cells in a table.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.write("City");
-builder.insertCell();
-builder.write("Country");
-builder.endRow();
-builder.insertCell();
-builder.write("London");
-builder.insertCell();
-builder.write("U.K.");
-builder.endTable();
-
-// Use the first row's "RowFormat" property to modify the formatting
-// of the contents of all cells in this row.
-let rowFormat = table.firstRow.rowFormat;
-rowFormat.height = 25;
-rowFormat.borders.at(aw.BorderType.Bottom).color = "#FF0000";
-
-// Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
-let cellFormat = table.lastRow.firstCell.cellFormat;
-cellFormat.width = 100;
-cellFormat.shading.backgroundPatternColor = "#FFA500";
-
-doc.save(base.artifactsDir + "Table.RowCellFormat.docx");
-```
-
-Shows how to modify formatting of a table cell.
-
-```js
-let doc = new aw.Document(base.myDir + "Tables.docx");
-let table = doc.firstSection.body.tables.at(0);
-let firstCell = table.firstRow.firstCell;
-
-// Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
-firstCell.cellFormat.width = 30;
-firstCell.cellFormat.orientation = aw.TextOrientation.Downward;
-firstCell.cellFormat.shading.foregroundPatternColor = "#90EE90";
-
-doc.save(base.artifactsDir + "Table.cellFormat.docx");
 ```
 
 ### See Also

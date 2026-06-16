@@ -41,6 +41,39 @@ To update fields in a specific part of the document use [Range.updateFields()](.
 
 ### Examples
 
+Shows how to set user details, and display them using fields.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Create a UserInformation object and set it as the data source for fields that display user information.
+let userInformation = new aw.Fields.UserInformation();
+userInformation.name = "John Doe";
+userInformation.initials = "J. D.";
+userInformation.address = "123 Main Street";
+doc.fieldOptions.currentUser = userInformation;
+
+// Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
+// the respective properties of the UserInformation object that we have created above.
+expect(builder.insertField(" USERNAME ").result).toEqual(userInformation.name);
+expect(builder.insertField(" USERINITIALS ").result).toEqual(userInformation.initials);
+expect(builder.insertField(" USERADDRESS ").result).toEqual(userInformation.address);
+
+// The field options object also has a static default user that fields from all documents can refer to.
+aw.Fields.UserInformation.defaultUser.name = "Default User";
+aw.Fields.UserInformation.defaultUser.initials = "D. U.";
+aw.Fields.UserInformation.defaultUser.address = "One Microsoft Way";
+doc.fieldOptions.currentUser = aw.Fields.UserInformation.defaultUser;
+
+expect(builder.insertField(" USERNAME ").result).toEqual("Default User");
+expect(builder.insertField(" USERINITIALS ").result).toEqual("D. U.");
+expect(builder.insertField(" USERADDRESS ").result).toEqual("One Microsoft Way");
+
+doc.updateFields();
+doc.save(base.artifactsDir + "FieldOptions.currentUser.docx");
+```
+
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
 ```js
@@ -86,39 +119,6 @@ builder.writeln("Heading 3.3");
 // A table of contents is a field of a type that needs to be updated to show an up-to-date result.
 doc.updateFields();
 doc.save(base.artifactsDir + "DocumentBuilder.InsertToc.docx");
-```
-
-Shows how to set user details, and display them using fields.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Create a UserInformation object and set it as the data source for fields that display user information.
-let userInformation = new aw.Fields.UserInformation();
-userInformation.name = "John Doe";
-userInformation.initials = "J. D.";
-userInformation.address = "123 Main Street";
-doc.fieldOptions.currentUser = userInformation;
-
-// Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
-// the respective properties of the UserInformation object that we have created above.
-expect(builder.insertField(" USERNAME ").result).toEqual(userInformation.name);
-expect(builder.insertField(" USERINITIALS ").result).toEqual(userInformation.initials);
-expect(builder.insertField(" USERADDRESS ").result).toEqual(userInformation.address);
-
-// The field options object also has a static default user that fields from all documents can refer to.
-aw.Fields.UserInformation.defaultUser.name = "Default User";
-aw.Fields.UserInformation.defaultUser.initials = "D. U.";
-aw.Fields.UserInformation.defaultUser.address = "One Microsoft Way";
-doc.fieldOptions.currentUser = aw.Fields.UserInformation.defaultUser;
-
-expect(builder.insertField(" USERNAME ").result).toEqual("Default User");
-expect(builder.insertField(" USERINITIALS ").result).toEqual("D. U.");
-expect(builder.insertField(" USERADDRESS ").result).toEqual("One Microsoft Way");
-
-doc.updateFields();
-doc.save(base.artifactsDir + "FieldOptions.currentUser.docx");
 ```
 
 ### See Also
