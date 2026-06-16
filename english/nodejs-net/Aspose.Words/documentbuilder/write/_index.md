@@ -30,6 +30,21 @@ Current font formatting specified by the [DocumentBuilder.font](../font/) proper
 
 ### Examples
 
+Shows how to insert a string surrounded by a border into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.font.border.color = "#008000";
+builder.font.border.lineWidth = 2.5;
+builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
+
+builder.write("Text surrounded by green border.");
+
+doc.save(base.artifactsDir + "Border.FontBorder.docx");
+```
+
 Shows how to build a table with custom borders.
 
 ```js
@@ -154,21 +169,6 @@ expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrien
 expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
 
 doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
-```
-
-Shows how to insert a string surrounded by a border into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.font.border.color = "#008000";
-builder.font.border.lineWidth = 2.5;
-builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
-
-builder.write("Text surrounded by green border.");
-
-doc.save(base.artifactsDir + "Border.FontBorder.docx");
 ```
 
 ### See Also
