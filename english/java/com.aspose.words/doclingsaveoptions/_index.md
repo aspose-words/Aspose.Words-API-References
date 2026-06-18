@@ -32,7 +32,7 @@ Shows how to save a document into a Docling JSON format.
  // Set to false (default) to exclude non-image shapes from the output.
  saveOptions.setRenderNonImageShapes(true);
 
- doc.save(getArtifactsDir() + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+ doc.save(getArtifactsDir() + "Document.DoclingJson.json", saveOptions);
  
 ```
 
@@ -796,7 +796,7 @@ Shows how to save a document into a Docling JSON format.
  // Set to false (default) to exclude non-image shapes from the output.
  saveOptions.setRenderNonImageShapes(true);
 
- doc.save(getArtifactsDir() + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+ doc.save(getArtifactsDir() + "Document.DoclingJson.json", saveOptions);
  
 ```
 
@@ -824,7 +824,7 @@ Shows how to save a document into a Docling JSON format.
  // Set to false (default) to exclude non-image shapes from the output.
  saveOptions.setRenderNonImageShapes(true);
 
- doc.save(getArtifactsDir() + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+ doc.save(getArtifactsDir() + "Document.DoclingJson.json", saveOptions);
  
 ```
 
@@ -1788,7 +1788,7 @@ Shows how to save a document into a Docling JSON format.
  // Set to false (default) to exclude non-image shapes from the output.
  saveOptions.setRenderNonImageShapes(true);
 
- doc.save(getArtifactsDir() + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+ doc.save(getArtifactsDir() + "Document.DoclingJson.json", saveOptions);
  
 ```
 
@@ -1819,7 +1819,7 @@ Shows how to save a document into a Docling JSON format.
  // Set to false (default) to exclude non-image shapes from the output.
  saveOptions.setRenderNonImageShapes(true);
 
- doc.save(getArtifactsDir() + "DoclingSaveOptions.DoclingJson.json", saveOptions);
+ doc.save(getArtifactsDir() + "Document.DoclingJson.json", saveOptions);
  
 ```
 

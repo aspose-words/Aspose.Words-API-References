@@ -231,6 +231,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeBlankPages()](#removeBlankPages) | Removes blank pages from the document. |
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
+| [removeCustomizations()](#removeCustomizations) | Removes toolbar and keyboard command customizations from the document. |
 | [removeExternalSchemaReferences()](#removeExternalSchemaReferences) | Removes external XML schema references from this document. |
 | [removeMacros()](#removeMacros) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
@@ -7078,6 +7079,29 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The removed node.
+### removeCustomizations() {#removeCustomizations}
+```
+public void removeCustomizations()
+```
+
+
+Removes toolbar and keyboard command customizations from the document.
+
+ **Examples:** 
+
+Shows how to remove toolbar and keyboard command customizations from the document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Customized menu.docx");
+
+ // Remove all custom document UI customizations, including custom context menu entries.
+ doc.removeCustomizations();
+
+ doc.save(getArtifactsDir() + "Document.RemoveCustomizations.docx");
+ 
+```
+
 ### removeExternalSchemaReferences() {#removeExternalSchemaReferences}
 ```
 public void removeExternalSchemaReferences()

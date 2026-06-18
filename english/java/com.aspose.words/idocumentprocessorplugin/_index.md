@@ -18,6 +18,7 @@ Defines an interface for external document processor plugin.
 | --- | --- |
 | [append(InputStream inputStream, LoadOptions loadOptions)](#append-java.io.InputStream-com.aspose.words.LoadOptions) | Append the document loading it with the specified load options. |
 | [load(InputStream inputStream, LoadOptions loadOptions)](#load-java.io.InputStream-com.aspose.words.LoadOptions) | Load the document using the specified load options. |
+| [save(OutputStream outputStream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
 | [setImageWatermark(InputStream imageWatermark, ImageWatermarkOptions imageWatermarkOptions)](#setImageWatermark-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) | Adds image watermark on each page of the document loaded by [load(java.io.InputStream, com.aspose.words.LoadOptions)](../../com.aspose.words/idocumentprocessorplugin/\#load-java.io.InputStream--com.aspose.words.LoadOptions) method. |
 | [setTextWatermark(String textWatermark, TextWatermarkOptions textWatermarkOptions)](#setTextWatermark-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds text watermark on each page of the document loaded by [load(java.io.InputStream, com.aspose.words.LoadOptions)](../../com.aspose.words/idocumentprocessorplugin/\#load-java.io.InputStream--com.aspose.words.LoadOptions) method. |
 | [toDocument()](#toDocument) | Parses the document loaded by [load(java.io.InputStream, com.aspose.words.LoadOptions)](../../com.aspose.words/idocumentprocessorplugin/\#load-java.io.InputStream--com.aspose.words.LoadOptions) method into [Document](../../com.aspose.words/document/) object. |
@@ -49,6 +50,20 @@ Load the document using the specified load options.
 | --- | --- | --- |
 | inputStream | java.io.InputStream | The input stream. |
 | loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) | The document load options. Can be  null , in this case the document is loaded with default load options. |
+
+### save(OutputStream outputStream, SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.words.SaveOptions}
+```
+public abstract void save(OutputStream outputStream, SaveOptions saveOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
 
 ### setImageWatermark(InputStream imageWatermark, ImageWatermarkOptions imageWatermarkOptions) {#setImageWatermark-java.io.InputStream-com.aspose.words.ImageWatermarkOptions}
 ```
