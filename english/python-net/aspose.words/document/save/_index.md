@@ -5,7 +5,7 @@ articleTitle: save method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.save method"
 type: docs
-weight: 720
+weight: 730
 url: /python-net/aspose.words/document/save/
 ---
 
@@ -278,45 +278,6 @@ with io.BytesIO() as dst_stream:
     doc.save(stream=dst_stream, save_format=aw.SaveFormat.DOCX)
     # Verify that the stream contains the document.
     self.assertEqual('Hello World!\r\rHello Word!\r\r\rHello World!', aw.Document(stream=dst_stream).get_text().strip())
-```
-
-Shows how to save a document to an image via stream, and then read the image from that stream.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.font.name = 'Times New Roman'
-builder.font.size = 24
-builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
-builder.insert_image(IMAGE_DIR + 'Logo.jpg')
-with io.BytesIO() as stream:
-    doc.save(stream, aw.SaveFormat.BMP)
-    stream.seek(0, os.SEEK_SET)
-    # Read the stream back into an image.
-    with aspose.pydrawing.Image.from_stream(stream) as image:
-        self.assertEqual(aspose.pydrawing.imaging.ImageFormat.bmp, image.raw_format)
-        self.assertEqual(816, image.width)
-        self.assertEqual(1056, image.height)
-```
-
-Shows how to convert only some of the pages in a document to PDF.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln('Page 1.')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 2.')
-builder.insert_break(aw.BreakType.PAGE_BREAK)
-builder.writeln('Page 3.')
-with open(ARTIFACTS_DIR + 'PdfSaveOptions.one_page.pdf', 'wb') as stream:
-    # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
-    # to modify how that method converts the document to .PDF.
-    options = aw.saving.PdfSaveOptions()
-    # Set the "page_index" to "1" to render a portion of the document starting from the second page.
-    options.page_set = aw.saving.PageSet(1)
-    # This document will contain one page starting from page two, which will only contain the second page.
-    doc.save(stream, options)
 ```
 
 ## See Also

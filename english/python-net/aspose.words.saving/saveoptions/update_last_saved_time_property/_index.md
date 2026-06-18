@@ -31,23 +31,23 @@ def update_last_saved_time_property(self, value: bool):
 Shows how to determine whether to preserve the document's "Last saved time" property when saving.
 
 ```python
-doc = aw.Document(MY_DIR + 'Document.docx')
-self.assertEqual(datetime.datetime(2021, 5, 11, 6, 32, 0, tzinfo=datetime.timezone.utc), doc.built_in_document_properties.last_saved_time)
-# When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+self.assertEqual(datetime.datetime(2021, 5, 11, 6, 32, 0), doc.built_in_document_properties.last_saved_time)
+# When we save the document to an OOXML format, you can create an OoxmlSaveOptions object
 # and then pass it to the document's saving method to modify how we save the document.
-# Set the "update_last_saved_time_property" property to "True" to
+# Set the "UpdateLastSavedTimeProperty" property to "true" to
 # set the output document's "Last saved time" built-in property to the current date/time.
-# Set the "update_last_saved_time_property" property to "False" to
+# Set the "UpdateLastSavedTimeProperty" property to "false" to
 # preserve the original value of the input document's "Last saved time" built-in property.
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.update_last_saved_time_property = update_last_saved_time_property
-doc.save(ARTIFACTS_DIR + 'OoxmlSaveOptions.last_saved_time.docx', save_options)
-doc = aw.Document(ARTIFACTS_DIR + 'OoxmlSaveOptions.last_saved_time.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.LastSavedTime.docx', save_options=save_options)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.LastSavedTime.docx')
 last_saved_time_new = doc.built_in_document_properties.last_saved_time
 if update_last_saved_time_property:
-    self.assertAlmostEqual(datetime.datetime.now(datetime.timezone.utc), last_saved_time_new, delta=datetime.timedelta(days=1))
+    self.assertTrue((datetime.datetime.now().replace(tzinfo=None) - last_saved_time_new.replace(tzinfo=None)).days < 1)
 else:
-    self.assertEqual(datetime.datetime(2021, 5, 11, 6, 32, 0, tzinfo=datetime.timezone.utc), last_saved_time_new)
+    self.assertEqual(datetime.datetime(2021, 5, 11, 6, 32, 0), last_saved_time_new)
 ```
 
 ### See Also

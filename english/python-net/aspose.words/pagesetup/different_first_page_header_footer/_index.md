@@ -51,6 +51,39 @@ builder.writeln('Page3')
 doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.HeadersAndFooters.docx')
 ```
 
+Shows how to track the order in which a text replacement operation traverses nodes.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Header and footer types.docx')
+first_page_section = doc.first_section
+logger = self.ReplaceLog()
+options = aw.replacing.FindReplaceOptions(replacing_callback=logger)
+# Using a different header/footer for the first page will affect the search order.
+first_page_section.page_setup.different_first_page_header_footer = different_first_page_header_footer
+doc.range.replace_regex(pattern='(header|footer)', replacement='', options=options)
+if different_first_page_header_footer:
+    self.assertEqual('First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n', logger.text.replace('\r', ''))
+else:
+    self.assertEqual('Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n', logger.text.replace('\r', ''))
+```
+
+Shows how to track the order in which a text replacement operation traverses nodes (ReplaceLog).
+
+```python
+class ReplaceLog(aw.replacing.IReplacingCallback):
+
+    @property
+    def text(self):
+        return str.join('', self.m_text_builder)
+
+    def __init__(self):
+        self.m_text_builder = []
+
+    def replacing(self, args):
+        self.m_text_builder.append(args.match_node.get_text() + '\n')
+        return aw.replacing.ReplaceAction.SKIP
+```
+
 Shows how to enable or disable primary headers/footers.
 
 ```python

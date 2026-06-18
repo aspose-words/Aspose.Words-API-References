@@ -32,18 +32,18 @@ Shows how to work with a FieldStart node.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-field = builder.insert_field(aw.fields.FieldType.FIELD_DATE, True).as_field_date()
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_DATE, update_field=True).as_field_date()
 field.format.date_time_format = 'dddd, MMMM dd, yyyy'
 field.update()
 field_start = field.start
-self.assertEqual(aw.fields.FieldType.FIELD_DATE, field_start.field_type)
-self.assertFalse(field_start.is_dirty)
-self.assertFalse(field_start.is_locked)
+assert field_start.field_type == aw.fields.FieldType.FIELD_DATE
+assert field_start.is_dirty == False
+assert field_start.is_locked == False
 # Retrieve the facade object which represents the field in the document.
 field = field_start.get_field().as_field_date()
-self.assertFalse(field.is_locked)
-self.assertEqual(' DATE  \\@ "dddd, MMMM dd, yyyy"', field.get_field_code())
+assert field.is_locked == False
+assert field.get_field_code() == ' DATE  \\@ "dddd, MMMM dd, yyyy"'
 # Update the field to show the current date.
 field.update()
 ```

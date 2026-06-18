@@ -30,6 +30,23 @@ def keep_source_numbering(self, value: bool):
 
 ### Examples
 
+Shows how to import a document with numbered lists.
+
+```python
+src_doc = aw.Document(file_name=MY_DIR + 'List source.docx')
+dst_doc = aw.Document(file_name=MY_DIR + 'List destination.docx')
+self.assertEqual(4, dst_doc.lists.count)
+options = aw.ImportFormatOptions()
+# If there is a clash of list styles, apply the list format of the source document.
+# Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
+# Set the "KeepSourceNumbering" property to "true" import all clashing
+# list style numbering with the same appearance that it had in the source document.
+options.keep_source_numbering = is_keep_source_numbering
+dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, import_format_options=options)
+dst_doc.update_list_labels()
+self.assertEqual(5 if is_keep_source_numbering else 4, dst_doc.lists.count)
+```
+
 Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
 
 ```python
@@ -41,26 +58,6 @@ import_format_options = aw.ImportFormatOptions()
 import_format_options.keep_source_numbering = True
 dst_doc.append_document(src_doc=src_doc, import_format_mode=aw.ImportFormatMode.USE_DESTINATION_STYLES, import_format_options=import_format_options)
 dst_doc.update_list_labels()
-```
-
-Shows how to import a document with numbered lists.
-
-```python
-src_doc = aw.Document(MY_DIR + 'List source.docx')
-dst_doc = aw.Document(MY_DIR + 'List destination.docx')
-self.assertEqual(4, dst_doc.lists.count)
-options = aw.ImportFormatOptions()
-# If there is a clash of list styles, apply the list format of the source document.
-# Set the "keep_source_numbering" property to "False" to not import any list numbers into the destination document.
-# Set the "keep_source_numbering" property to "True" import all clashing
-# list style numbering with the same appearance that it had in the source document.
-options.keep_source_numbering = is_keep_source_numbering
-dst_doc.append_document(src_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, options)
-dst_doc.update_list_labels()
-if is_keep_source_numbering:
-    self.assertEqual(5, dst_doc.lists.count)
-else:
-    self.assertEqual(4, dst_doc.lists.count)
 ```
 
 Shows how to resolve list numbering clashes in source and destination documents.

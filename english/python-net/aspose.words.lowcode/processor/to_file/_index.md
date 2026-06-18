@@ -101,14 +101,14 @@ first_load_options = aw.loading.LoadOptions()
 first_load_options.ignore_ole_data = True
 second_load_options = aw.loading.LoadOptions()
 second_load_options.ignore_ole_data = False
-context2 = aw.lowcode.MergerContext()
-context2.merge_format_mode = aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING
-aw.lowcode.Merger.create(context2).from_file(input=input_doc1, load_options=first_load_options).from_file(input=input_doc2, load_options=second_load_options).to_file(output=ARTIFACTS_DIR + 'LowCode.MergeContextDocuments.2.docx', save_format=aw.SaveFormat.DOCX).execute()
+context_load_options = aw.lowcode.MergerContext()
+context_load_options.merge_format_mode = aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING
+aw.lowcode.Merger.create(context_load_options).from_file(input=input_doc1, load_options=first_load_options).from_file(input=input_doc2, load_options=second_load_options).to_file(output=ARTIFACTS_DIR + 'LowCode.MergeContextDocuments.2.docx', save_format=aw.SaveFormat.DOCX).execute()
 save_options = aw.saving.OoxmlSaveOptions()
 save_options.password = 'Aspose.Words'
-context3 = aw.lowcode.MergerContext()
-context3.merge_format_mode = aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING
-aw.lowcode.Merger.create(context3).from_file(input=input_doc1).from_file(input=input_doc2).to_file(output=ARTIFACTS_DIR + 'LowCode.MergeContextDocuments.3.docx', save_options=save_options).execute()
+context_save_options = aw.lowcode.MergerContext()
+context_save_options.merge_format_mode = aw.lowcode.MergeFormatMode.KEEP_SOURCE_FORMATTING
+aw.lowcode.Merger.create(context_save_options).from_file(input=input_doc1).from_file(input=input_doc2).to_file(output=ARTIFACTS_DIR + 'LowCode.MergeContextDocuments.3.docx', save_options=save_options).execute()
 ```
 
 Shows how to convert documents with a single line of code using context.

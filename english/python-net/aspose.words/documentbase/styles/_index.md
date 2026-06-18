@@ -30,6 +30,20 @@ For more information see the description of the [StyleCollection](../../stylecol
 
 ### Examples
 
+Shows how to access a document's style collection.
+
+```python
+doc = aw.Document()
+self.assertEqual(4, doc.styles.count)
+# Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+for cur_style in doc.styles:
+    print(f'Style name:\t"{cur_style.name}", of type "{cur_style.type}"')
+    print(f'\tSubsequent style:\t{cur_style.next_paragraph_style_name}')
+    print(f'\tIs heading:\t\t\t{cur_style.is_heading}')
+    print(f'\tIs QuickStyle:\t\t{cur_style.is_quick_style}')
+    self.assertEqual(doc, cur_style.document)
+```
+
 Shows how to create and use a paragraph style with list formatting.
 
 ```python
@@ -50,20 +64,6 @@ builder.writeln('Hello World: MyStyle1, bulleted list.')
 builder.paragraph_format.style = doc.styles.get_by_name('Normal')
 builder.writeln('Hello World: Normal.')
 builder.document.save(file_name=ARTIFACTS_DIR + 'Styles.ParagraphStyleBulletedList.docx')
-```
-
-Shows how to access a document's style collection.
-
-```python
-doc = aw.Document()
-self.assertEqual(4, doc.styles.count)
-# Enumerate and list all the styles that a document created using Aspose.Words contains by default.
-for cur_style in doc.styles:
-    print(f'Style name:\t"{cur_style.name}", of type "{cur_style.type}"')
-    print(f'\tSubsequent style:\t{cur_style.next_paragraph_style_name}')
-    print(f'\tIs heading:\t\t\t{cur_style.is_heading}')
-    print(f'\tIs QuickStyle:\t\t{cur_style.is_quick_style}')
-    self.assertEqual(doc, cur_style.document)
 ```
 
 ### See Also

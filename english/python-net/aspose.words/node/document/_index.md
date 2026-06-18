@@ -34,6 +34,7 @@ and not yet added to the tree, or if it has been removed from the tree.
 Shows how to create a node and set its owning document.
 
 ```python
+from api_example_base import ApiExampleBase
 doc = aw.Document()
 para = aw.Paragraph(doc)
 para.append_child(aw.Run(doc=doc, text='Hello world!'))

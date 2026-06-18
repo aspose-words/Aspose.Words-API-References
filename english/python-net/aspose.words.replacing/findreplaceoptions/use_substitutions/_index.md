@@ -54,21 +54,18 @@ Shows how to replace the text with substitutions.
 
 ```python
 doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
+builder = aw.DocumentBuilder(doc=doc)
 builder.writeln('John sold a car to Paul.')
 builder.writeln('Jane sold a house to Joe.')
 # We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 options = aw.replacing.FindReplaceOptions()
-# Set the "use_substitutions" property to "True" to get
+# Set the "UseSubstitutions" property to "true" to get
 # the find-and-replace operation to recognize substitution elements.
-# Set the "use_substitutions" property to "False" to ignore substitution elements.
+# Set the "UseSubstitutions" property to "false" to ignore substitution elements.
 options.use_substitutions = use_substitutions
 regex = '([A-z]+) sold a ([A-z]+) to ([A-z]+)'
-doc.range.replace_regex(regex, '$3 bought a $2 from $1', options)
-if use_substitutions:
-    self.assertEqual('Paul bought a car from John.\rJoe bought a house from Jane.', doc.get_text().strip())
-else:
-    self.assertEqual('$3 bought a $2 from $1.\r$3 bought a $2 from $1.', doc.get_text().strip())
+doc.range.replace_regex(pattern=regex, replacement='$3 bought a $2 from $1', options=options)
+self.assertEqual('Paul bought a car from John.\rJoe bought a house from Jane.' if use_substitutions else '$3 bought a $2 from $1.\r$3 bought a $2 from $1.', doc.get_text().strip())
 ```
 
 ### See Also

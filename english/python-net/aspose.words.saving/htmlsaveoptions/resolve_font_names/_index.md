@@ -40,6 +40,29 @@ font substitution as required.
 
 
 
+### Examples
+
+Shows how to resolve all font names before writing them to HTML.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Missing font.docx')
+# This document contains text that names a font that we do not have.
+self.assertIsNotNone(doc.font_infos.get_by_name('28 Days Later'))
+# If we have no way of getting this font, and we want to be able to display all the text
+# in this document in an output HTML, we can substitute it with another font.
+font_settings = aw.fonts.FontSettings()
+font_settings.substitution_settings.default_font_substitution.default_font_name = 'Arial'
+font_settings.substitution_settings.default_font_substitution.enabled = True
+doc.font_settings = font_settings
+save_options = aw.saving.HtmlSaveOptions(aw.SaveFormat.HTML)
+# By default, this option is set to 'False' and Aspose.Words writes font names as specified in the source document
+save_options.resolve_font_names = resolve_font_names
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.ResolveFontNames.html', save_options=save_options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlSaveOptions.ResolveFontNames.html')
+expected = '<span style="font-family:Arial">' if resolve_font_names else '<span style="font-family:\'28 Days Later\'">'
+self.assertTrue(re.search(expected, out_doc_contents) is not None)
+```
+
 ### See Also
 
 * module [aspose.words.saving](../../)

@@ -49,19 +49,6 @@ Indicates the format of the document that is to be loaded.
 
 ### Examples
 
-Shows how save a web page as a .docx file.
-
-```python
-url = 'https://products.aspose.com/words/'
-with io.BytesIO(urlopen(url).read()) as stream:
-    # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
-    options = aw.loading.LoadOptions(aw.LoadFormat.HTML, '', url)
-    # Load the HTML document from stream and pass the LoadOptions object.
-    doc = aw.Document(stream, options)
-    # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    doc.save(ARTIFACTS_DIR + 'Document.insert_html_from_web_page.docx')
-```
-
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 
 ```python

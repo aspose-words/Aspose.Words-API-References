@@ -53,6 +53,27 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/py
 | [use_system_lcid](../loadoptions/use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [warning_callback](../loadoptions/warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
+### Examples
+
+Shows how to read and display hyperlinks.
+
+```python
+input_text = 'Some links in TXT:\n' + 'https://www.aspose.com/\n' + 'https://docs.aspose.com/words/net/\n'
+with io.BytesIO() as stream:
+    buf = input_text.encode('ascii')
+    stream.write(buf)
+    stream.seek(0)
+    load_options = aw.loading.TxtLoadOptions()
+    load_options.detect_hyperlinks = True
+    # Load document with hyperlinks.
+    doc = aw.Document(stream=stream, load_options=load_options)
+    # Print hyperlinks text.
+    for field in doc.range.fields:
+        print(field.result)
+    assert doc.range.fields[0].result.strip() == 'https://www.aspose.com/'
+    assert doc.range.fields[1].result.strip() == 'https://docs.aspose.com/words/net/'
+```
+
 ### See Also
 
 * module [aspose.words.loading](../)

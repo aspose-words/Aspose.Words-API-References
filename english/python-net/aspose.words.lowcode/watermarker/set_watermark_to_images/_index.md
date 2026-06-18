@@ -183,9 +183,9 @@ watermark_image = IMAGE_DIR + 'Logo.jpg'
 with system_helper.io.FileStream(MY_DIR + 'Document.docx', system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as stream_in:
     with system_helper.io.FileStream(watermark_image, system_helper.io.FileMode.OPEN, system_helper.io.FileAccess.READ) as image_stream:
         aw.lowcode.Watermarker.set_watermark_to_images(input_stream=stream_in, save_options=aw.saving.ImageSaveOptions(aw.SaveFormat.PNG), watermark_image_stream=image_stream)
-        options = aw.ImageWatermarkOptions()
-        options.scale = 50
-        aw.lowcode.Watermarker.set_watermark_to_images(input_stream=stream_in, save_options=aw.saving.ImageSaveOptions(aw.SaveFormat.PNG), watermark_image_stream=image_stream, options=options)
+        image_watermark_options = aw.ImageWatermarkOptions()
+        image_watermark_options.scale = 50
+        aw.lowcode.Watermarker.set_watermark_to_images(input_stream=stream_in, save_options=aw.saving.ImageSaveOptions(aw.SaveFormat.PNG), watermark_image_stream=image_stream, options=image_watermark_options)
 ```
 
 ## See Also

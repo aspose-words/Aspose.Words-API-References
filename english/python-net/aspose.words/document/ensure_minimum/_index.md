@@ -37,7 +37,7 @@ self.assertEqual(nodes[1], nodes[2].parent_node)
 # This is the minimal set of nodes that we need to be able to edit the document.
 # We will no longer be able to edit the document if we remove any of them.
 doc.remove_all_children()
-self.assertEqual(0, doc.get_child_nodes(aw.NodeType.ANY, True).count)
+self.assertEqual(0, len(list(doc.get_child_nodes(aw.NodeType.ANY, True))))
 # Call this method to make sure that the document has at least those three nodes so we can edit it again.
 doc.ensure_minimum()
 self.assertEqual(aw.NodeType.SECTION, nodes[0].node_type)

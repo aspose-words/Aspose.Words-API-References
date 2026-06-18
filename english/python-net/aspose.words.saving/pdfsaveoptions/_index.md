@@ -51,6 +51,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_language_to_span_tag](./export_language_to_span_tag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [export_paragraph_graphics_to_artifact](./export_paragraph_graphics_to_artifact/) | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [font_embedding_mode](./font_embedding_mode/) | Specifies the font embedding mode. |
+| [generate_form_field_scripts](./generate_form_field_scripts/) | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is ``False``. |
 | [header_footer_bookmarks_export_mode](./header_footer_bookmarks_export_mode/) | Determines how bookmarks in headers/footers are exported. |
 | [image_color_space_export_mode](./image_color_space_export_mode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [image_compression](./image_compression/) | Specifies compression type to be used for all images in the document. |

@@ -57,6 +57,19 @@ Inserts the current date and time.
 
 ### Examples
 
+Shows how to display the current time using the TIME field (InsertFieldTime).
+
+```python
+@staticmethod
+def _insert_field_time(builder, format):
+    field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_TIME, update_field=True).as_field_time()
+    builder.move_to(field.separator)
+    builder.write(format)
+    builder.move_to(field.start.parent_node)
+    builder.insert_paragraph()
+    return field
+```
+
 Shows how to display the current time using the TIME field.
 
 ```python

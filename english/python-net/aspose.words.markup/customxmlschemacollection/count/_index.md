@@ -27,9 +27,9 @@ Shows how to work with an XML schema collection.
 
 ```python
 doc = aw.Document()
-xml_part_id = str(uuid.uuid4())
+xml_part_id = '{' + str(uuid.uuid4()) + '}'
 xml_part_content = '<root><text>Hello, World!</text></root>'
-xml_part = doc.custom_xml_parts.add(xml_part_id, xml_part_content)
+xml_part = doc.custom_xml_parts.add(id=xml_part_id, xml=xml_part_content)
 # Add an XML schema association.
 xml_part.schemas.add('http://www.w3.org/2001/XMLSchema')
 # Clone the custom XML part's XML schema association collection,
@@ -43,11 +43,11 @@ self.assertEqual(2, schemas.index_of('http://schemas.microsoft.com/office/2006/m
 for schema in schemas:
     print(schema)
 # Below are three ways of removing schemas from the collection.
-# 1 -  Remove a schema by index:
+# 1 - Remove a schema by index:
 schemas.remove_at(2)
-# 2 -  Remove a schema by value:
+# 2 - Remove a schema by value:
 schemas.remove('http://www.w3.org/2001/XMLSchema')
-# 3 -  Use the "clear" method to empty the collection at once.
+# 3 - Use the "Clear" method to empty the collection at once.
 schemas.clear()
 self.assertEqual(0, schemas.count)
 ```

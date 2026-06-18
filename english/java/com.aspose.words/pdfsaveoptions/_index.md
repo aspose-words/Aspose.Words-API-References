@@ -179,6 +179,7 @@ Shows how to escape hyperlinks in the document.
 | [getExportLanguageToSpanTag()](#getExportLanguageToSpanTag) | Gets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [getExportParagraphGraphicsToArtifact()](#getExportParagraphGraphicsToArtifact) | Gets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [getFontEmbeddingMode()](#getFontEmbeddingMode) | Specifies the font embedding mode. |
+| [getGenerateFormFieldScripts()](#getGenerateFormFieldScripts) | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. |
 | [getHeaderFooterBookmarksExportMode()](#getHeaderFooterBookmarksExportMode) | Determines how bookmarks in headers/footers are exported. |
 | [getImageColorSpaceExportMode()](#getImageColorSpaceExportMode) | Specifies how the color space will be selected for the images in PDF document. |
 | [getImageCompression()](#getImageCompression) | Specifies compression type to be used for all images in the document. |
@@ -240,6 +241,7 @@ Shows how to escape hyperlinks in the document.
 | [setExportLanguageToSpanTag(boolean value)](#setExportLanguageToSpanTag-boolean) | Sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [setExportParagraphGraphicsToArtifact(boolean value)](#setExportParagraphGraphicsToArtifact-boolean) | Sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [setFontEmbeddingMode(int value)](#setFontEmbeddingMode-int) | Specifies the font embedding mode. |
+| [setGenerateFormFieldScripts(boolean value)](#setGenerateFormFieldScripts-boolean) | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. |
 | [setHeaderFooterBookmarksExportMode(int value)](#setHeaderFooterBookmarksExportMode-int) | Determines how bookmarks in headers/footers are exported. |
 | [setImageColorSpaceExportMode(int value)](#setImageColorSpaceExportMode-int) | Specifies how the color space will be selected for the images in PDF document. |
 | [setImageCompression(int value)](#setImageCompression-int) | Specifies compression type to be used for all images in the document. |
@@ -1429,6 +1431,44 @@ Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts 
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode/) constants.
+### getGenerateFormFieldScripts() {#getGenerateFormFieldScripts}
+```
+public boolean getGenerateFormFieldScripts()
+```
+
+
+Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is  false .
+
+ **Remarks:** 
+
+When this option is enabled, the exporter generates PDF JavaScript actions to emulate Microsoft Word form field behavior, such as date and time form fields with formatting and validation rules.
+
+When set to  true , supported behavior will be exported as PDF JavaScript actions. When set to  false , no form field scripts will be generated.
+
+Script execution depends on the PDF viewer. Some PDF viewers might ignore scripts, restrict script execution, or require the user to enable JavaScript.
+
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The  false  value will be used automatically in this case.
+
+ **Examples:** 
+
+Shows how to enable generation of JavaScript form field scripts for datetime fields when exporting to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + inputFile);
+
+ // Create save options and enable form field scripts.
+ // Please note that JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPreserveFormFields(true);
+ saveOptions.setGenerateFormFieldScripts(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.GenerateFormFieldScriptsDatetime.pdf", saveOptions);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getHeaderFooterBookmarksExportMode() {#getHeaderFooterBookmarksExportMode}
 ```
 public int getHeaderFooterBookmarksExportMode()
@@ -1865,7 +1905,7 @@ The default value is  false . When this value is set to  true  hyperlinks are sa
 
 Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The  false  value will be used automatically in this case.
 
  **Examples:** 
 
@@ -4380,6 +4420,47 @@ Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts 
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode/) constants. |
 
+### setGenerateFormFieldScripts(boolean value) {#setGenerateFormFieldScripts-boolean}
+```
+public void setGenerateFormFieldScripts(boolean value)
+```
+
+
+Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is  false .
+
+ **Remarks:** 
+
+When this option is enabled, the exporter generates PDF JavaScript actions to emulate Microsoft Word form field behavior, such as date and time form fields with formatting and validation rules.
+
+When set to  true , supported behavior will be exported as PDF JavaScript actions. When set to  false , no form field scripts will be generated.
+
+Script execution depends on the PDF viewer. Some PDF viewers might ignore scripts, restrict script execution, or require the user to enable JavaScript.
+
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The  false  value will be used automatically in this case.
+
+ **Examples:** 
+
+Shows how to enable generation of JavaScript form field scripts for datetime fields when exporting to PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + inputFile);
+
+ // Create save options and enable form field scripts.
+ // Please note that JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+ saveOptions.setPreserveFormFields(true);
+ saveOptions.setGenerateFormFieldScripts(true);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.GenerateFormFieldScriptsDatetime.pdf", saveOptions);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setHeaderFooterBookmarksExportMode(int value) {#setHeaderFooterBookmarksExportMode-int}
 ```
 public void setHeaderFooterBookmarksExportMode(int value)
@@ -4843,7 +4924,7 @@ The default value is  false . When this value is set to  true  hyperlinks are sa
 
 Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The  false  value will be used automatically in this case.
 
  **Examples:** 
 

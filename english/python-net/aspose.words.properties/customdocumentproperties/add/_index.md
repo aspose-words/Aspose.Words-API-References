@@ -119,15 +119,18 @@ The newly created property object.
 Shows how to work with a document's custom properties.
 
 ```python
+import datetime
+import aspose.words as aw
+from api_example_base import ApiExampleBase, ARTIFACTS_DIR
 doc = aw.Document()
 properties = doc.custom_document_properties
 self.assertEqual(0, properties.count)
 # Custom document properties are key-value pairs that we can add to the document.
-properties.add('Authorized', True)
-properties.add('Authorized By', 'John Doe')
-properties.add('Authorized Date', datetime.datetime.now())
-properties.add('Authorized Revision', doc.built_in_document_properties.revision_number)
-properties.add('Authorized Amount', 123.45)
+properties.add(name='Authorized', value=True)
+properties.add(name='Authorized By', value='John Doe')
+properties.add(name='Authorized Date', value=datetime.date.today())
+properties.add(name='Authorized Revision', value=doc.built_in_document_properties.revision_number)
+properties.add(name='Authorized Amount', value=123.45)
 # The collection sorts the custom properties in alphabetic order.
 self.assertEqual(1, properties.index_of('Authorized Amount'))
 self.assertEqual(5, properties.count)
@@ -135,12 +138,12 @@ self.assertEqual(5, properties.count)
 for prop in properties:
     print(f'Name: "{prop.name}"\n\tType: "{prop.type}"\n\tValue: "{prop.value}"')
 # Display the value of a custom property using a DOCPROPERTY field.
-builder = aw.DocumentBuilder(doc)
-field = builder.insert_field(' DOCPROPERTY "Authorized By"').as_field_doc_property()
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_code=' DOCPROPERTY "Authorized By"').as_field_doc_property()
 field.update()
 self.assertEqual('John Doe', field.result)
 # We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
-doc.save(ARTIFACTS_DIR + 'DocumentProperties.document_property_collection.docx')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentProperties.DocumentPropertyCollection.docx')
 # Below are three ways or removing custom properties from a document.
 # 1 -  Remove by index:
 properties.remove_at(1)
@@ -153,15 +156,6 @@ self.assertEqual(3, properties.count)
 # 3 -  Empty the entire collection at once:
 properties.clear()
 self.assertEqual(0, properties.count)
-```
-
-Shows how to create a custom document property which contains a date and time.
-
-```python
-doc = aw.Document()
-doc.custom_document_properties.add(name='AuthorizationDate', value=datetime.datetime.now())
-authorization_date = doc.custom_document_properties.get_by_name('AuthorizationDate').to_date_time()
-print(f'Document authorized on {authorization_date}')
 ```
 
 ## See Also

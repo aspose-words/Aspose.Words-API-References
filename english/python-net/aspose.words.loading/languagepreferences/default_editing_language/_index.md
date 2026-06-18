@@ -34,14 +34,13 @@ def default_editing_language(self, value: aspose.words.loading.EditingLanguage):
 Shows how set a default language when loading a document.
 
 ```python
+from api_example_base import ApiExampleBase, MY_DIR
+import aspose.words as aw
 load_options = aw.loading.LoadOptions()
 load_options.language_preferences.default_editing_language = aw.loading.EditingLanguage.RUSSIAN
-doc = aw.Document(MY_DIR + 'No default editing language.docx', load_options)
+doc = aw.Document(file_name=MY_DIR + 'No default editing language.docx', load_options=load_options)
 locale_id = doc.styles.default_font.locale_id
-if locale_id == aw.loading.EditingLanguage.RUSSIAN:
-    print('The document either has no any language set in defaults or it was set to Russian originally.')
-else:
-    print('The document default language was set to another than Russian language originally, so it is not overridden.')
+print('The document either has no any language set in defaults or it was set to Russian originally.' if locale_id == aw.loading.EditingLanguage.RUSSIAN else 'The document default language was set to another than Russian language originally, so it is not overridden.')
 ```
 
 ### See Also

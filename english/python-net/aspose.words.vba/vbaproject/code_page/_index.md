@@ -36,13 +36,14 @@ to preserve regional character sets.
 Shows how to access a document's VBA project information.
 
 ```python
-doc = aw.Document(MY_DIR + 'VBA project.docm')
-# A VBA project contains a collection of VBA modules.
+from api_example_base import ApiExampleBase, MY_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'VBA project.docm')
+# A VBA project contains a collection of Vba modules.
 vba_project = doc.vba_project
-if vba_project.is_signed:
-    print(f'Project name: {vba_project.name} signed; Project code page: {vba_project.code_page}; Modules count: {vba_project.modules.count}\n')
-else:
-    print(f'Project name: {vba_project.name} not signed; Project code page: {vba_project.code_page}; Modules count: {vba_project.modules.count}\n')
+# Get the count of VBA modules using count property instead of len()
+modules_count = vba_project.modules.count
+print(f'Project name: {vba_project.name} signed; Project code page: {vba_project.code_page}; Modules count: {modules_count}\n' if vba_project.is_signed else f'Project name: {vba_project.name} not signed; Project code page: {vba_project.code_page}; Modules count: {modules_count}\n')
 vba_modules = doc.vba_project.modules
 self.assertEqual(vba_modules.count, 3)
 for module in vba_modules:

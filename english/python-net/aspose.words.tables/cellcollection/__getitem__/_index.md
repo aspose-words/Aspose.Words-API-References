@@ -43,6 +43,8 @@ If index is negative and its absolute value is greater than the number of items 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 
 ```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
 doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
 tables = doc.first_section.body.tables
 self.assertEqual(2, len(list(tables)))
@@ -51,14 +53,14 @@ while i < tables.count:
     print(f'Start of Table {i}')
     rows = tables[i].rows
     # We can use the "ToArray" method on a row collection to clone it into an array.
-    self.assertSequenceEqual(list(rows), list(rows))
+    assert rows == rows.to_array()
     self.assertNotEqual(rows, list(rows))
     j = 0
     while j < rows.count:
         print(f'\tStart of Row {j}')
         cells = rows[j].cells
         # We can use the "ToArray" method on a cell collection to clone it into an array.
-        self.assertSequenceEqual(list(cells), list(cells))
+        assert cells == cells.to_array()
         self.assertNotEqual(cells, list(cells))
         k = 0
         while k < cells.count:

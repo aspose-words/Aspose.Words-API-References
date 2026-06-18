@@ -51,7 +51,7 @@ table_style.bottom_padding = 20
 table_style.left_padding = 10
 table_style.right_padding = 10
 table_style.top_padding = 20
-table_style.borders.color = aspose.pydrawing.Color.black
+table_style.borders.color = drawing.Color.black
 table_style.borders.line_style = aw.LineStyle.SINGLE
 table.style = table_style
 builder.move_to(table.first_row.first_cell.first_paragraph)
