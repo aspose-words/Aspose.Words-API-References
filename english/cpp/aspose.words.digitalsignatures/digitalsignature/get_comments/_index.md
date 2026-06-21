@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_comments/
 Gets the signing purpose comment.
 
 ```cpp
-System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_Comments() const
+System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_Comments()
 ```
 
 

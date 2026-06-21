@@ -48,6 +48,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_ExportLanguageToSpanTag](./get_exportlanguagetospantag/)() const | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 | [get_ExportParagraphGraphicsToArtifact](./get_exportparagraphgraphicstoartifact/)() const | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [get_FontEmbeddingMode](./get_fontembeddingmode/)() const | Specifies the font embedding mode. |
+| [get_GenerateFormFieldScripts](./get_generateformfieldscripts/)() const | Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is **false**. |
 | [get_HeaderFooterBookmarksExportMode](./get_headerfooterbookmarksexportmode/)() const | Determines how bookmarks in headers/footers are exported. |
 | [get_ImageColorSpaceExportMode](./get_imagecolorspaceexportmode/)() const | Specifies how the color space will be selected for the images in PDF document. |
 | [get_ImageCompression](./get_imagecompression/)() const | Specifies compression type to be used for all images in the document. |
@@ -113,6 +114,7 @@ class PdfSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_ExportLanguageToSpanTag](./set_exportlanguagetospantag/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag](./get_exportlanguagetospantag/). |
 | [set_ExportParagraphGraphicsToArtifact](./set_exportparagraphgraphicstoartifact/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ExportParagraphGraphicsToArtifact](./get_exportparagraphgraphicstoartifact/). |
 | [set_FontEmbeddingMode](./set_fontembeddingmode/)(Aspose::Words::Saving::PdfFontEmbeddingMode) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_FontEmbeddingMode](./get_fontembeddingmode/). |
+| [set_GenerateFormFieldScripts](./set_generateformfieldscripts/)(bool) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts](./get_generateformfieldscripts/). |
 | [set_HeaderFooterBookmarksExportMode](./set_headerfooterbookmarksexportmode/)(Aspose::Words::Saving::HeaderFooterBookmarksExportMode) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_HeaderFooterBookmarksExportMode](./get_headerfooterbookmarksexportmode/). |
 | [set_ImageColorSpaceExportMode](./set_imagecolorspaceexportmode/)(Aspose::Words::Saving::PdfImageColorSpaceExportMode) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode](./get_imagecolorspaceexportmode/). |
 | [set_ImageCompression](./set_imagecompression/)(Aspose::Words::Saving::PdfImageCompression) | Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression](./get_imagecompression/). |
