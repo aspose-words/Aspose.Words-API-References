@@ -148,6 +148,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
 | [RemoveBlankPages](./removeblankpages/)() | Removes blank pages from the document. |
 | [RemoveChild](../compositenode/removechild/)(T) |  |
+| [RemoveCustomizations](./removecustomizations/)() | Removes toolbar and keyboard command customizations from the document. |
 | [RemoveExternalSchemaReferences](./removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](./removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
