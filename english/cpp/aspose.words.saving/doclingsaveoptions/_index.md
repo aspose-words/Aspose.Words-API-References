@@ -85,7 +85,7 @@ saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Docling);
 // Set to false (default) to exclude non-image shapes from the output.
 saveOptions->set_RenderNonImageShapes(true);
 
-doc->Save(get_ArtifactsDir() + u"DoclingSaveOptions.DoclingJson.json", saveOptions);
+doc->Save(get_ArtifactsDir() + u"Document.DoclingJson.json", saveOptions);
 ```
 
 ## See Also
