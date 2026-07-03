@@ -5,7 +5,7 @@ articleTitle: Theme
 second_title: Aspose.Words for .NET
 description: Access the Document Theme property to effortlessly retrieve the Theme object, enhancing your document's design and visual appeal.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/document/theme/
 ---
 ## Document.Theme property

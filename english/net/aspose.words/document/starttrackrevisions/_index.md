@@ -5,7 +5,7 @@ articleTitle: StartTrackRevisions
 second_title: Aspose.Words for .NET
 description: Effortlessly track document changes with the StartTrackRevisions method. Automatically mark all edits as revisions for seamless collaboration and clarity.
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}

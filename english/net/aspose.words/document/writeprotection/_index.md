@@ -5,7 +5,7 @@ articleTitle: WriteProtection
 second_title: Aspose.Words for .NET
 description: Explore the Document WriteProtection property to manage your document's write protection settings effortlessly and enhance security.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property

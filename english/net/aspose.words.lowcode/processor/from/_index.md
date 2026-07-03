@@ -66,7 +66,9 @@ Shows how to merge documents into a single output document using context.
 string inputDoc1 = MyDir + "Big document.docx";
 string inputDoc2 = MyDir + "Tables.docx";
 
-Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting })
+MergerContext context = new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting };
+
+Merger.Create(context)
     .From(inputDoc1)
     .From(inputDoc2)
     .To(ArtifactsDir + "LowCode.MergeContextDocuments.1.docx")
@@ -74,14 +76,16 @@ Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSource
 
 LoadOptions firstLoadOptions = new LoadOptions() { IgnoreOleData = true };
 LoadOptions secondLoadOptions = new LoadOptions() { IgnoreOleData = false };
-Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting })
+MergerContext contextLoadOptions = new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting };
+Merger.Create(contextLoadOptions)
     .From(inputDoc1, firstLoadOptions)
     .From(inputDoc2, secondLoadOptions)
     .To(ArtifactsDir + "LowCode.MergeContextDocuments.2.docx", SaveFormat.Docx)
     .Execute();
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
-Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting })
+MergerContext contextSaveOptions = new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting };
+Merger.Create(contextSaveOptions)
     .From(inputDoc1)
     .From(inputDoc2)
     .To(ArtifactsDir + "LowCode.MergeContextDocuments.3.docx", saveOptions)
@@ -189,20 +193,18 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
     {
         OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
         using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamContextDocuments.1.docx", FileMode.Create, FileAccess.ReadWrite))
-            Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting })
-            .From(firstStreamIn)
-            .From(secondStreamIn)
-            .To(streamOut, saveOptions)
-            .Execute();
+        {
+            MergerContext context = new MergerContext() {MergeFormatMode = MergeFormatMode.KeepSourceFormatting};
+            Merger.Create(context).From(firstStreamIn).From(secondStreamIn).To(streamOut, saveOptions).Execute();
+        }
 
         LoadOptions firstLoadOptions = new LoadOptions() { IgnoreOleData = true };
         LoadOptions secondLoadOptions = new LoadOptions() { IgnoreOleData = false };
         using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MergeStreamContextDocuments.2.docx", FileMode.Create, FileAccess.ReadWrite))
-            Merger.Create(new MergerContext() { MergeFormatMode = MergeFormatMode.KeepSourceFormatting })
-            .From(firstStreamIn, firstLoadOptions)
-            .From(secondStreamIn, secondLoadOptions)
-            .To(streamOut, SaveFormat.Docx)
-            .Execute();
+        {
+            MergerContext context = new MergerContext() {MergeFormatMode = MergeFormatMode.KeepSourceFormatting};
+            Merger.Create(context).From(firstStreamIn, firstLoadOptions).From(secondStreamIn, secondLoadOptions).To(streamOut, SaveFormat.Docx).Execute();
+        }
     }
 }
 ```

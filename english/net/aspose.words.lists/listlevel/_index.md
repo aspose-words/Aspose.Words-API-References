@@ -45,6 +45,7 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Deletes picture bullet for the current list level. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Compares with the specified ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Calculates hash code for this object. |
+| [RemoveTabStop](../../aspose.words.lists/listlevel/removetabstop/)() | Removes tab stop from the list level. |
 | static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Reports the string representation of the `ListLevel` object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle/) and an optional format string used when Custom is specified. |
 
 ## Remarks

@@ -5,7 +5,7 @@ articleTitle: PdfAttachmentsEmbeddingMode
 second_title: Aspose.Words for .NET
 description: Control how attachments are embedded in PDFs with PdfAttachmentsEmbeddingMode. Optimize document structure and compatibility for seamless sharing.
 type: docs
-weight: 6270
+weight: 6280
 url: /net/aspose.words.saving/pdfattachmentsembeddingmode/
 ---
 ## PdfAttachmentsEmbeddingMode enumeration

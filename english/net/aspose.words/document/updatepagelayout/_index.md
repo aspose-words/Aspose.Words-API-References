@@ -5,7 +5,7 @@ articleTitle: UpdatePageLayout
 second_title: Aspose.Words for .NET
 description: Revamp your document's structure with the UpdatePageLayout method, ensuring a polished and organized layout for enhanced readability and presentation.
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method

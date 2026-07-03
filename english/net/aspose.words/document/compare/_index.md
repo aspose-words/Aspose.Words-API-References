@@ -5,7 +5,7 @@ articleTitle: Compare
 second_title: Aspose.Words for .NET
 description: Effortlessly compare documents with our Document Compare tool. Identify edits and format changes quickly for streamlined revisions and enhanced collaboration.
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.words/document/compare/
 ---
 ## Compare(*[Document](../), string, DateTime*) {#compare}

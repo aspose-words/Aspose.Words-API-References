@@ -398,7 +398,8 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.1.docx", dataRow);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.2.docx", SaveFormat.Docx, dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, mailMergeOptions);
 ```
 
 ### See Also
@@ -449,7 +450,8 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.1.docx", dataRow);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.2.docx", SaveFormat.Docx, dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, mailMergeOptions);
 ```
 
 ### See Also
@@ -537,7 +539,10 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamDataRow.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow, mailMergeOptions);
+    }
 }
 ```
 
@@ -621,7 +626,8 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", dataTable);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -672,7 +678,8 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", dataTable);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -760,7 +767,10 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable, mailMergeOptions);
+    }
 }
 ```
 

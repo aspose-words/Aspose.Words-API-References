@@ -5,7 +5,7 @@ articleTitle: WebExtensionTaskPanes
 second_title: Aspose.Words for .NET
 description: Explore the WebExtensionTaskPanes property to access a valuable collection of task pane add-ins, enhancing your document's functionality and user experience.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

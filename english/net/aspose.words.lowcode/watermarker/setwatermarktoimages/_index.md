@@ -257,7 +257,8 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
     using (FileStream imageStream = new FileStream(watermarkImage, FileMode.Open, FileAccess.Read))
     {
         Watermarker.SetWatermarkToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), imageStream);
-        Watermarker.SetWatermarkToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), imageStream, new ImageWatermarkOptions() { Scale = 50 });
+        ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions() {Scale = 50};
+        Watermarker.SetWatermarkToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), imageStream, imageWatermarkOptions);
     }
 }
 ```

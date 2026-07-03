@@ -40,7 +40,8 @@ dataTable.Rows.Add(new object[] { "", "" });
 dataTable.Rows.Add(new object[] { "Jane", "Doe" });
 
 Stream[] images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable);
-images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -85,7 +86,8 @@ dataTable.Rows.Add(new object[] { "Jane", "Doe" });
 using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
 {
     Stream[] images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable);
-    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+    MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable, mailMergeOptions);
 }
 ```
 
@@ -143,7 +145,8 @@ dataSet.Tables.Add(tableOrders);
 dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns["CustomerID"]);
 
 Stream[] images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataSet);
-images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+images = MailMerger.ExecuteWithRegionsToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataSet, mailMergeOptions);
 ```
 
 ### See Also
@@ -200,7 +203,8 @@ dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns[
 using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
 {
     Stream[] images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet);
-    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+    MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+    images = MailMerger.ExecuteWithRegionsToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataSet, mailMergeOptions);
 }
 ```
 

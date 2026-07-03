@@ -5,7 +5,7 @@ articleTitle: UnicodeScript
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Shaping.UnicodeScript enum to enhance text rendering with Unicode Character Database properties for better script handling.
 type: docs
-weight: 7010
+weight: 7020
 url: /net/aspose.words.shaping/unicodescript/
 ---
 ## UnicodeScript enumeration

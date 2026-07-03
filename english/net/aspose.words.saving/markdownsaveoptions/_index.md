@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.MarkdownSaveOptions for enhanced document saving in Markdown format. Customize your output with advanced options today!
 type: docs
-weight: 6130
+weight: 6140
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -103,11 +103,13 @@ public class SavedImageRename : IImageSavingCallback
     public SavedImageRename(string outFileName)
     {
         mOutFileName = outFileName;
+        mCount = 0;
     }
 
     void IImageSavingCallback.ImageSaving(ImageSavingArgs args)
     {
-        string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
+        mCount = mCount + 1;
+        string imageFileName = $"{mOutFileName} shape {mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
         args.ImageFileName = imageFileName;
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);

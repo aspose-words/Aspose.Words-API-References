@@ -5,7 +5,7 @@ articleTitle: ShowGrammaticalErrors
 second_title: Aspose.Words for .NET
 description: Control grammar error visibility in your document with the ShowGrammaticalErrors property. Enhance writing clarity and professionalism effortlessly.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/document/showgrammaticalerrors/
 ---
 ## Document.ShowGrammaticalErrors property

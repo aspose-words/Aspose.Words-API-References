@@ -433,7 +433,8 @@ string replacement = "lavender";
 
 Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.1.docx", pattern, replacement);
 Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.2.docx", SaveFormat.Docx, pattern, replacement);
-Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+FindReplaceOptions findReplaceOptions = new FindReplaceOptions() {FindWholeWordsOnly = false};
+Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.Docx, pattern, replacement, findReplaceOptions);
 ```
 
 ### See Also
@@ -520,7 +521,8 @@ string replacement = "lavender";
 
 Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.1.docx", pattern, replacement);
 Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.2.docx", SaveFormat.Docx, pattern, replacement);
-Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+FindReplaceOptions findReplaceOptions = new FindReplaceOptions() {FindWholeWordsOnly = false};
+Replacer.Replace(doc, ArtifactsDir + "LowCode.ReplaceRegex.3.docx", SaveFormat.Docx, pattern, replacement, findReplaceOptions);
 ```
 
 ### See Also
@@ -650,7 +652,10 @@ using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMo
         Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ReplaceStreamRegex.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+    {
+        FindReplaceOptions findReplaceOptions = new FindReplaceOptions() {FindWholeWordsOnly = false};
+        Replacer.Replace(streamIn, streamOut, SaveFormat.Docx, pattern, replacement, findReplaceOptions);
+    }
 }
 ```
 

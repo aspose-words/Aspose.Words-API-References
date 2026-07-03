@@ -46,7 +46,8 @@ dataTable.Rows.Add(new object[] { "Jane", "Doe" });
 
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.1.docx", dataTable);
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.3.docx", SaveFormat.Docx, dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -97,7 +98,8 @@ dataTable.Rows.Add(new object[] { "Jane", "Doe" });
 
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.1.docx", dataTable);
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataTable.3.docx", SaveFormat.Docx, dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -185,7 +187,10 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataTable);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamWithRegionsDataTable.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+        MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataTable, mailMergeOptions);
+    }
 }
 ```
 
@@ -281,7 +286,8 @@ dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns[
 
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.1.docx", dataSet);
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.2.docx", SaveFormat.Docx, dataSet);
-MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.3.docx", SaveFormat.Docx, dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.3.docx", SaveFormat.Docx, dataSet, mailMergeOptions);
 ```
 
 ### See Also
@@ -344,7 +350,8 @@ dataSet.Relations.Add(tableCustomers.Columns["CustomerID"], tableOrders.Columns[
 
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.1.docx", dataSet);
 MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.2.docx", SaveFormat.Docx, dataSet);
-MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.3.docx", SaveFormat.Docx, dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+MailMerger.ExecuteWithRegions(doc, ArtifactsDir + "LowCode.MailMergeWithRegionsDataSet.3.docx", SaveFormat.Docx, dataSet, mailMergeOptions);
 ```
 
 ### See Also
@@ -444,7 +451,10 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataSet);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamWithRegionsDataTable.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataSet, new MailMergeOptions() { TrimWhitespaces = true });
+    {
+        MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+        MailMerger.ExecuteWithRegions(streamIn, streamOut, SaveFormat.Docx, dataSet, mailMergeOptions);
+    }
 }
 ```
 

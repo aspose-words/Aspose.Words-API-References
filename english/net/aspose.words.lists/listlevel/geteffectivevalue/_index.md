@@ -5,7 +5,7 @@ articleTitle: GetEffectiveValue
 second_title: Aspose.Words for .NET
 description: Discover the ListLevel GetEffectiveValue method to easily retrieve string representations of list items. Customize with NumberStyle and format options!
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method

@@ -176,7 +176,8 @@ Regex pattern = new Regex("gr(a|e)y");
 string replacement = "lavender";
 
 Stream[] images = Replacer.ReplaceToImages(doc, new ImageSaveOptions(SaveFormat.Png), pattern, replacement);
-images = Replacer.ReplaceToImages(doc, new ImageSaveOptions(SaveFormat.Png), pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+FindReplaceOptions findReplaceOptions = new FindReplaceOptions() {FindWholeWordsOnly = false};
+images = Replacer.ReplaceToImages(doc, new ImageSaveOptions(SaveFormat.Png), pattern, replacement, findReplaceOptions);
 ```
 
 ### See Also
@@ -243,7 +244,8 @@ string replacement = "lavender";
 using (FileStream streamIn = new FileStream(MyDir + "Replace regex.docx", FileMode.Open, FileAccess.Read))
 {
     Stream[] images = Replacer.ReplaceToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), pattern, replacement);
-    images = Replacer.ReplaceToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), pattern, replacement, new FindReplaceOptions() { FindWholeWordsOnly = false });
+    FindReplaceOptions findReplaceOptions = new FindReplaceOptions() {FindWholeWordsOnly = false};
+    images = Replacer.ReplaceToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), pattern, replacement, findReplaceOptions);
 }
 ```
 

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DigitalSignatureDetails class for seamless digital document signing. Enhance security and authenticity effortlessly!
 type: docs
-weight: 5700
+weight: 5710
 url: /net/aspose.words.saving/digitalsignaturedetails/
 ---
 ## DigitalSignatureDetails class
@@ -37,9 +37,9 @@ Shows how to sign OOXML document.
 Document doc = new Document(MyDir + "Document.docx");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions() { Comments = "Some comments", SignTime = DateTime.Now };
 DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(
-    certificateHolder,
-    new SignOptions() { Comments = "Some comments", SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;
