@@ -5,7 +5,7 @@ articleTitle: RevisionsView
 second_title: Aspose.Words for .NET
 description: Effortlessly manage document revisions! Choose between original or updated versions for seamless collaboration and enhanced productivity.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property

@@ -5,7 +5,7 @@ articleTitle: RenderToSize
 second_title: Aspose.Words for .NET
 description: Discover the RenderToSize method to efficiently convert document pages into Graphics objects at your desired dimensions. Enhance your rendering process today!
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -104,12 +104,9 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 
         // Create and draw a rectangle.
         SKRect rect = new SKRect(0f, 0f, 3f, 3f);
-        canvas.DrawRect(rect, new SKPaint
-        {
-            Color = SKColors.Black,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = 3f / 72f
-        });
+        SKPaint skPaint = new SKPaint {Color = SKColors.Black, Style = SKPaintStyle.Stroke};
+        skPaint.StrokeWidth = 3f / 72f;
+        canvas.DrawRect(rect, skPaint);
 
         // Render the first page of the document to the same size as the above rectangle.
         // The rectangle will frame this page.
@@ -125,12 +122,8 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
         // Create another rectangle.
         rect = new SKRect(0, 0, 50, 100);
         rect.Offset(90, 10);
-        canvas.DrawRect(rect, new SKPaint
-        {
-            Color = SKColors.Black,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = 1
-        });
+        skPaint.StrokeWidth = 1;
+        canvas.DrawRect(rect,skPaint);
 
         // Render the first page within the newly created rectangle once again.
         doc.RenderToSize(0, canvas, 90, 10, 50, 100);

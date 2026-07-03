@@ -5,7 +5,7 @@ articleTitle: NormalizeFieldTypes
 second_title: Aspose.Words for .NET
 description: Optimize your document with the NormalizeFieldTypes method, ensuring all field type values align with field codes for enhanced consistency and accuracy.
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method

@@ -5,7 +5,7 @@ articleTitle: Variables
 second_title: Aspose.Words for .NET
 description: Discover Document Variables. Access a powerful collection of customizable variables for your documents and templates, enhancing efficiency and flexibility.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words/document/variables/
 ---
 ## Document.Variables property

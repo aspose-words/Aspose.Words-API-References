@@ -83,6 +83,7 @@ public class Document : DocumentBase
 | [ProtectionType](../../aspose.words/document/protectiontype/) { get; } | Gets the currently active document protection type. |
 | [PunctuationKerning](../../aspose.words/document/punctuationkerning/) { get; set; } | Specifies whether kerning applies to both Latin text and punctuation. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
+| [ReadabilityStatistics](../../aspose.words/document/readabilitystatistics/) { get; } | Provides readability score information for the document. |
 | [RemovePersonalInformation](../../aspose.words/document/removepersonalinformation/) { get; set; } | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback/) { get; set; } | Allows to control how external resources are loaded. |
 | [Revisions](../../aspose.words/document/revisions/) { get; } | Gets a collection of revisions (tracked changes) that exist in this document. |

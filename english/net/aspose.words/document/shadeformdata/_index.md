@@ -5,7 +5,7 @@ articleTitle: ShadeFormData
 second_title: Aspose.Words for .NET
 description: Discover how to use the ShadeFormData property to enhance form visibility with gray shading, improving user experience and accessibility.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property

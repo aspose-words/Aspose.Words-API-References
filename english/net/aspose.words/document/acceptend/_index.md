@@ -5,7 +5,7 @@ articleTitle: AcceptEnd
 second_title: Aspose.Words for .NET
 description: Explore the Document AcceptEnd method to efficiently manage visitor access at the document's end. Enhance user experience with seamless navigation.
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.words/document/acceptend/
 ---
 ## Document.AcceptEnd method

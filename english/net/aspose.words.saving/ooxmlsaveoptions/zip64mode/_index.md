@@ -37,9 +37,8 @@ for (int i = 0; i < 10000; i++)
         }
     }
 }
-
-builder.Document.Save(ArtifactsDir + "OoxmlSaveOptions.Zip64ModeOption.docx", 
-    new OoxmlSaveOptions { Zip64Mode = Zip64Mode.Always });
+OoxmlSaveOptions saveOptions =  new OoxmlSaveOptions { Zip64Mode = Zip64Mode.Always };
+builder.Document.Save(ArtifactsDir + "OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
 ```
 
 ### See Also

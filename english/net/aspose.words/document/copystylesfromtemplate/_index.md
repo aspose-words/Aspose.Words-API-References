@@ -5,7 +5,7 @@ articleTitle: CopyStylesFromTemplate
 second_title: Aspose.Words for .NET
 description: Effortlessly copy styles from your chosen template to any document with the CopyStylesFromTemplate method, enhancing your workflow and document consistency.
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}

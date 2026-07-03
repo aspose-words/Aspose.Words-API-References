@@ -24,9 +24,9 @@ Shows how to sign OOXML document.
 Document doc = new Document(MyDir + "Document.docx");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions() { Comments = "Some comments", SignTime = DateTime.Now };
 DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(
-    certificateHolder,
-    new SignOptions() { Comments = "Some comments", SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;

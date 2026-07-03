@@ -5,7 +5,7 @@ articleTitle: TrackRevisions
 second_title: Aspose.Words for .NET
 description: Enable Document TrackRevisions to automatically track edits in Microsoft Word, ensuring seamless collaboration and precise version control.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.words/document/trackrevisions/
 ---
 ## Document.TrackRevisions property

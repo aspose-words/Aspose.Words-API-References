@@ -180,7 +180,8 @@ dataTable.Columns.Add("SpecialCharsInName()");
 DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
 
 Stream[] images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataRow);
-images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataRow, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataRow, mailMergeOptions);
 ```
 
 ### See Also
@@ -225,7 +226,9 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
 {
     Stream[] images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataRow);
-    images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataRow, new MailMergeOptions() { TrimWhitespaces = true });
+
+    MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+    images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataRow, mailMergeOptions);
 }
 ```
 
@@ -271,7 +274,8 @@ dataTable.Columns.Add("SpecialCharsInName()");
 DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
 
 Stream[] images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable);
-images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+images = MailMerger.ExecuteToImages(doc, new ImageSaveOptions(SaveFormat.Png), dataTable, mailMergeOptions);
 ```
 
 ### See Also
@@ -316,7 +320,8 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
 {
     Stream[] images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable);
-    images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable, new MailMergeOptions() { TrimWhitespaces = true });
+    MailMergeOptions mailMergeOptions = new MailMergeOptions() {TrimWhitespaces = true};
+    images = MailMerger.ExecuteToImages(streamIn, new ImageSaveOptions(SaveFormat.Png), dataTable, mailMergeOptions);
 }
 ```
 

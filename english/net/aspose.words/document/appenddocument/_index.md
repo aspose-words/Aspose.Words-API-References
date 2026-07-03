@@ -5,7 +5,7 @@ articleTitle: AppendDocument
 second_title: Aspose.Words for .NET
 description: Effortlessly append documents with our Document Append method. Enhance your workflow by seamlessly integrating content into your existing files.
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.words/document/appenddocument/
 ---
 ## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}

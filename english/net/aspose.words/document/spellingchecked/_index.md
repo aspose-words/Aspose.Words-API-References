@@ -5,7 +5,7 @@ articleTitle: SpellingChecked
 second_title: Aspose.Words for .NET
 description: Ensure your document is error-free with the SpellingChecked property. Discover if your content has been thoroughly spell-checked for professionalism.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property

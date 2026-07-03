@@ -5,7 +5,7 @@ articleTitle: ReportBuildOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words ReportingEngine options for efficient report building. Customize your reporting with flexible settings for optimal results.
 type: docs
-weight: 5520
+weight: 5530
 url: /net/aspose.words.reporting/reportbuildoptions/
 ---
 ## ReportBuildOptions enumeration

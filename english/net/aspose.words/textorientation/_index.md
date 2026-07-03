@@ -5,7 +5,7 @@ articleTitle: TextOrientation
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TextOrientation enum to easily control text alignment in table cells and text frames, enhancing document presentation and readability.
 type: docs
-weight: 7380
+weight: 7390
 url: /net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration

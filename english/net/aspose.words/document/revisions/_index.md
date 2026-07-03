@@ -5,7 +5,7 @@ articleTitle: Revisions
 second_title: Aspose.Words for .NET
 description: Effortlessly track document revisions with our advanced tool. Stay organized and enhance collaboration with clear, highlighted changes!
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.words/document/revisions/
 ---
 ## Document.Revisions property

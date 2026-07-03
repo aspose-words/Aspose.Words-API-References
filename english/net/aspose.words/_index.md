@@ -75,6 +75,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [PhoneticGuide](./phoneticguide/) | Represents Phonetic Guide. |
 | [PlainTextDocument](./plaintextdocument/) | Allows to extract plain-text representation of the document's content. |
 | [Range](./range/) | Represents a contiguous area in a document. |
+| [ReadabilityStatistics](./readabilitystatistics/) | Provides information about document readability score. |
 | [Revision](./revision/) | Represents a revision (tracked change) in a document node or style. Use [`RevisionType`](../aspose.words/revision/revisiontype/) to check the type of this revision. |
 | [RevisionCollection](./revisioncollection/) | A collection of [`Revision`](../aspose.words/revision/) objects that represent revisions in the document. |
 | [RevisionGroup](./revisiongroup/) | Represents a group of sequential [`Revision`](../aspose.words/revision/) objects. |

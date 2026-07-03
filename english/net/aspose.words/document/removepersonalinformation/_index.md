@@ -5,7 +5,7 @@ articleTitle: RemovePersonalInformation
 second_title: Aspose.Words for .NET
 description: Ensure privacy with the Document RemovePersonalInformation feature in Word, automatically deleting user data from comments and properties upon saving.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property

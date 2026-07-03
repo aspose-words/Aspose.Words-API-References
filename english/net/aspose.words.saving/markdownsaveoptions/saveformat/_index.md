@@ -52,11 +52,13 @@ public class SavedImageRename : IImageSavingCallback
     public SavedImageRename(string outFileName)
     {
         mOutFileName = outFileName;
+        mCount = 0;
     }
 
     void IImageSavingCallback.ImageSaving(ImageSavingArgs args)
     {
-        string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
+        mCount = mCount + 1;
+        string imageFileName = $"{mOutFileName} shape {mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
         args.ImageFileName = imageFileName;
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);

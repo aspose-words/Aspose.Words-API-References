@@ -5,7 +5,7 @@ articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words for .NET
 description: Transform table styles into direct formatting with the ExpandTableStylesToDirectFormatting method, enhancing your document's appearance effortlessly.
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method

@@ -5,7 +5,7 @@ articleTitle: RenderToScale
 second_title: Aspose.Words for .NET
 description: Discover the RenderToScale method to efficiently render document pages into Graphics objects at your desired scale for optimal visual results.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -121,11 +121,8 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
             // Render a page as a thumbnail, and then frame it in a rectangle of the same size.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
-            canvas.DrawRect(rect, new SKPaint
-            {
-                Color = SKColors.Black,
-                Style = SKPaintStyle.Stroke
-            });
+            SKPaint skPaint = new SKPaint {Color = SKColors.Black, Style = SKPaintStyle.Stroke};
+            canvas.DrawRect(rect, skPaint);
         }
 
         using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "Rendering.CreateThumbnailsNetStandard2.png"))
