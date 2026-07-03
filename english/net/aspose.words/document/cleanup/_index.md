@@ -5,7 +5,7 @@ articleTitle: Cleanup
 second_title: Aspose.Words for .NET
 description: Optimize your documents with our Cleanup method—remove unused styles and lists for a cleaner, more efficient workflow. Enhance readability today!
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}

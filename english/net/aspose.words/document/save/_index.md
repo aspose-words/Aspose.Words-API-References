@@ -5,7 +5,7 @@ articleTitle: Save
 second_title: Aspose.Words for .NET
 description: Effortlessly save your documents with our smart save method, automatically selecting the right format based on the file extension for seamless storage.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}

@@ -5,7 +5,7 @@ articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET
 description: Learn how to use the EnsureMinimum method to automatically create a section and paragraph in documents, ensuring complete and organized content.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method

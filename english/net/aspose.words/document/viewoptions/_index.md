@@ -5,7 +5,7 @@ articleTitle: ViewOptions
 second_title: Aspose.Words for .NET
 description: Discover the Document ViewOptions property to customize your Microsoft Word display settings for a tailored viewing experience.
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property

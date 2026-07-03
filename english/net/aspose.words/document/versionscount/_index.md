@@ -5,7 +5,7 @@ articleTitle: VersionsCount
 second_title: Aspose.Words for .NET
 description: Discover the Document VersionsCount property to easily track the number of stored document versions in your DOC files for better management and organization.
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.words/document/versionscount/
 ---
 ## Document.VersionsCount property

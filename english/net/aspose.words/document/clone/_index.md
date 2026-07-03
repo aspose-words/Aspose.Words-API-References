@@ -5,7 +5,7 @@ articleTitle: Clone
 second_title: Aspose.Words for .NET
 description: Effortlessly duplicate your documents with our Document Clone method. Achieve precise deep copies for seamless editing and efficient workflow.
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.words/document/clone/
 ---
 ## Document.Clone method

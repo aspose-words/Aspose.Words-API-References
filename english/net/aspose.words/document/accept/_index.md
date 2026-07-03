@@ -5,7 +5,7 @@ articleTitle: Accept
 second_title: Aspose.Words for .NET
 description: Streamline your visitor management with our Document Accept method. Enhance security and efficiency for a seamless experience.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.words/document/accept/
 ---
 ## Document.Accept method

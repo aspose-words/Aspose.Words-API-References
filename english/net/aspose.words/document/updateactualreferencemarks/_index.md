@@ -5,7 +5,7 @@ articleTitle: UpdateActualReferenceMarks
 second_title: Aspose.Words for .NET
 description: Effortlessly update all footnotes and endnotes in your document with the Document UpdateActualReferenceMarks method, enhancing accuracy and efficiency.
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.words/document/updateactualreferencemarks/
 ---
 ## Document.UpdateActualReferenceMarks method

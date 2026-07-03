@@ -23,7 +23,7 @@ The default value is **false**. When this value is set to **true** hyperlinks ar
 
 Note that if this option is set to **true** hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. **false** will be used automatically when saving to PDF/A-1 and PDF/A-2. 
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case. 
 ## See Also
 
 * Class [PdfSaveOptions](../)

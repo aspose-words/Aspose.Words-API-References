@@ -5,7 +5,7 @@ articleTitle: MultiplePagesType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Settings.MultiplePagesType enum for efficient document printing options. Optimize your workflow with flexible printing settings!
 type: docs
-weight: 6790
+weight: 6800
 url: /net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration

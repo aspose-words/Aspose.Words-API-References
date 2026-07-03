@@ -20,14 +20,20 @@ class DigitalSignature : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_ApplicationVersion](./get_applicationversion/)() | Gets the application version for the digital signature. |
 | [get_CertificateHolder](./get_certificateholder/)() const | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [get_Comments](./get_comments/)() const | Gets the signing purpose comment. |
+| [get_ColorDepth](./get_colordepth/)() | Gets the color depth for the digital signature. |
+| [get_Comments](./get_comments/)() | Gets the signing purpose comment. |
+| [get_HorizontalResolution](./get_horizontalresolution/)() | Gets the horizontal resolution for the digital signature. |
 | [get_IssuerName](./get_issuername/)() | Returns the subject distinguished name of the certificate isuuer. |
 | [get_IsValid](./get_isvalid/)() const | Returns **true** if this digital signature is valid and the document has not been tampered with. |
+| [get_OfficeVersion](./get_officeversion/)() | Gets the Office version for the digital signature. |
 | [get_SignatureType](./get_signaturetype/)() const | Gets the type of the digital signature. |
 | [get_SignatureValue](./get_signaturevalue/)() const | Gets an array of bytes representing a signature value. |
 | [get_SignTime](./get_signtime/)() const | Gets the time the document was signed. |
 | [get_SubjectName](./get_subjectname/)() | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [get_VerticalResolution](./get_verticalresolution/)() | Gets the vertical resolution for the digital signature. |
+| [get_WindowsVersion](./get_windowsversion/)() | Gets the Windows version for the digital signature. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |

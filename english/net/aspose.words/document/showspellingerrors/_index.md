@@ -5,7 +5,7 @@ articleTitle: ShowSpellingErrors
 second_title: Aspose.Words for .NET
 description: Control spelling error visibility in your document with the ShowSpellingErrors property. Enhance your editing process and improve document quality.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property

@@ -5,7 +5,7 @@ articleTitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET
 description: Discover how the JoinRunsWithSameFormatting method seamlessly merges formatted text in your document's paragraphs for a polished, professional look.
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method

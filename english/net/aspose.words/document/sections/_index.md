@@ -5,7 +5,7 @@ articleTitle: Sections
 second_title: Aspose.Words for .NET
 description: Explore the Document Sections property to access a complete collection of all document sections, enhancing your content organization and navigation.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.words/document/sections/
 ---
 ## Document.Sections property

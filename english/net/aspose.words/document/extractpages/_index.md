@@ -5,7 +5,7 @@ articleTitle: ExtractPages
 second_title: Aspose.Words for .NET
 description: Discover the Document ExtractPages method to effortlessly retrieve specific page ranges, enhancing your document management and efficiency.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.words/document/extractpages/
 ---
 ## ExtractPages(*int, int, [PageExtractOptions](../../pageextractoptions/)*) {#extractpages_1}

@@ -5,7 +5,7 @@ articleTitle: VbaProject
 second_title: Aspose.Words for .NET
 description: Discover how to manage VbaProject properties effectively. Learn to get or set VbaProject for enhanced automation and streamlined workflows.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property

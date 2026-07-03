@@ -5,7 +5,7 @@ articleTitle: RemoveCustomizations
 second_title: Aspose.Words for .NET
 description: Remove toolbar and keyboard customizations from Word documents to restore default settings and ensure a clean document experience.
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words/document/removecustomizations/
 ---
 ## Document.RemoveCustomizations method

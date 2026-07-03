@@ -5,7 +5,7 @@ articleTitle: Watermark
 second_title: Aspose.Words for .NET
 description: Secure your documents with our customizable watermarking feature. Enhance protection and ensure authenticity effortlessly!
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

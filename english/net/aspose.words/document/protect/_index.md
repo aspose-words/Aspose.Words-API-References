@@ -5,7 +5,7 @@ articleTitle: Protect
 second_title: Aspose.Words for .NET
 description: Secure your documents effortlessly with Document Protect. Prevent unauthorized changes while keeping your existing password intact or using a random one.
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.words/document/protect/
 ---
 ## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
