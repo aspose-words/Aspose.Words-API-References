@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Node.js
 description: "Document.clone method. Performs a deep copy of the [Document](../)."
 type: docs
-weight: 550
+weight: 560
 url: /nodejs-net/aspose.words/document/clone/
 ---
 
