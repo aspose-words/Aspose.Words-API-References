@@ -119,6 +119,7 @@ The main classes in this module are:
 | [PhoneticGuide](./phoneticguide/) | Represents Phonetic Guide. |
 | [PlainTextDocument](./plaintextdocument/) | Allows to extract plain-text representation of the document's content. To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/nodejs-net/working-with-text-document/) documentation article. |
 | [Range](./range/) | Represents a contiguous area in a document. To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/nodejs-net/working-with-ranges/) documentation article. |
+| [ReadabilityStatistics](./readabilitystatistics/) | Provides information about document readability score. |
 | [Revision](./revision/) | Represents a revision (tracked change) in a document node or style. Use [Revision.revisionType](./revision/revisionType/) to check the type of this revision. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/nodejs-net/track-changes-in-a-document/) documentation article. |
 | [RevisionCollection](./revisioncollection/) | A collection of [Revision](./revision/) objects that represent revisions in the document. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/nodejs-net/track-changes-in-a-document/) documentation article. |
 | [RevisionGroup](./revisiongroup/) | Represents a group of sequential [Revision](./revision/) objects. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/nodejs-net/track-changes-in-a-document/) documentation article. |

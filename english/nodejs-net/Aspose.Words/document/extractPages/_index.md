@@ -5,7 +5,7 @@ articleTitle: extractPages method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.extractPages method"
 type: docs
-weight: 600
+weight: 610
 url: /nodejs-net/aspose.words/document/extractPages/
 ---
 

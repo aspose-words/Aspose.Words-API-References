@@ -5,7 +5,7 @@ articleTitle: writeProtection property
 second_title: Aspose.Words for Node.js
 description: "Document.writeProtection property. Provides access to the document write protection options."
 type: docs
-weight: 510
+weight: 520
 url: /nodejs-net/aspose.words/document/writeProtection/
 ---
 
