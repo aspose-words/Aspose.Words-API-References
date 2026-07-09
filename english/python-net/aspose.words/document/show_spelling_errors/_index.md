@@ -5,7 +5,7 @@ articleTitle: show_spelling_errors property
 second_title: Aspose.Words for Python
 description: "Document.show_spelling_errors property. Specifies whether to display spelling errors in this document."
 type: docs
-weight: 420
+weight: 430
 url: /python-net/aspose.words/document/show_spelling_errors/
 ---
 

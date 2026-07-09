@@ -5,7 +5,7 @@ articleTitle: viewOptions property
 second_title: Aspose.Words for Node.js
 description: "Document.viewOptions property. Provides options to control how the document is displayed in Microsoft Word."
 type: docs
-weight: 480
+weight: 490
 url: /nodejs-net/aspose.words/document/viewOptions/
 ---
 

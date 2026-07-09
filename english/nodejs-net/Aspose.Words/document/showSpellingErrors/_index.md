@@ -5,7 +5,7 @@ articleTitle: showSpellingErrors property
 second_title: Aspose.Words for Node.js
 description: "Document.showSpellingErrors property. Specifies whether to display spelling errors in this document."
 type: docs
-weight: 410
+weight: 420
 url: /nodejs-net/aspose.words/document/showSpellingErrors/
 ---
 

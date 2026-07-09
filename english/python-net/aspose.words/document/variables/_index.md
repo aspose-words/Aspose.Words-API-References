@@ -5,7 +5,7 @@ articleTitle: variables property
 second_title: Aspose.Words for Python
 description: "Document.variables property. Returns the collection of variables added to a document or template."
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.words/document/variables/
 ---
 

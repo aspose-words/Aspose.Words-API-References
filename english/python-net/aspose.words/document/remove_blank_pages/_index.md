@@ -5,7 +5,7 @@ articleTitle: remove_blank_pages method
 second_title: Aspose.Words for Python
 description: "Document.remove_blank_pages method. Removes blank pages from the document."
 type: docs
-weight: 690
+weight: 700
 url: /python-net/aspose.words/document/remove_blank_pages/
 ---
 

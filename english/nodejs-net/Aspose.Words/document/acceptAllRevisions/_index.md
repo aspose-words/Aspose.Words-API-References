@@ -5,7 +5,7 @@ articleTitle: acceptAllRevisions method
 second_title: Aspose.Words for Node.js
 description: "Document.acceptAllRevisions method. Accepts all tracked changes in the document."
 type: docs
-weight: 520
+weight: 530
 url: /nodejs-net/aspose.words/document/acceptAllRevisions/
 ---
 

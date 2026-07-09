@@ -5,7 +5,7 @@ articleTitle: removeCustomizations method
 second_title: Aspose.Words for Node.js
 description: "Document.removeCustomizations method. Removes toolbar and keyboard command customizations from the document."
 type: docs
-weight: 660
+weight: 670
 url: /nodejs-net/aspose.words/document/removeCustomizations/
 ---
 

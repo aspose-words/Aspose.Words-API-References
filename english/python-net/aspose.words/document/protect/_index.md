@@ -5,7 +5,7 @@ articleTitle: protect method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.protect method"
 type: docs
-weight: 680
+weight: 690
 url: /python-net/aspose.words/document/protect/
 ---
 

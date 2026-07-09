@@ -5,7 +5,7 @@ articleTitle: WatermarkLayout enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WatermarkLayout enumeration. Defines layout of the watermark relative to the watermark center."
 type: docs
-weight: 1560
+weight: 1570
 url: /nodejs-net/aspose.words/watermarklayout/
 ---
 
