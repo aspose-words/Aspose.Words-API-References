@@ -130,6 +130,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [protection_type](./protection_type/) | Gets the currently active document protection type. |
 | [punctuation_kerning](./punctuation_kerning/) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [readability_statistics](./readability_statistics/) | Provides readability score information for the document. |
 | [remove_personal_information](./remove_personal_information/) | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [resource_loading_callback](../documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [revisions](./revisions/) | Gets a collection of revisions (tracked changes) that exist in this document. |

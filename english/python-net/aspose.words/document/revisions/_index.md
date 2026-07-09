@@ -5,7 +5,7 @@ articleTitle: revisions property
 second_title: Aspose.Words for Python
 description: "Document.revisions property. Gets a collection of revisions (tracked changes) that exist in this document."
 type: docs
-weight: 370
+weight: 380
 url: /python-net/aspose.words/document/revisions/
 ---
 
