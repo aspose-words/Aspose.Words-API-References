@@ -5,7 +5,7 @@ articleTitle: update_page_layout method
 second_title: Aspose.Words for Python
 description: "Document.update_page_layout method. Rebuilds the page layout of the document."
 type: docs
-weight: 810
+weight: 820
 url: /python-net/aspose.words/document/update_page_layout/
 ---
 

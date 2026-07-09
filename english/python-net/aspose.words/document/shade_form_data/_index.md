@@ -5,7 +5,7 @@ articleTitle: shade_form_data property
 second_title: Aspose.Words for Python
 description: "Document.shade_form_data property. Specifies whether to turn on the gray shading on form fields."
 type: docs
-weight: 400
+weight: 410
 url: /python-net/aspose.words/document/shade_form_data/
 ---
 

@@ -56,6 +56,7 @@ for individual list levels.
 |[ delete_picture_bullet()](./delete_picture_bullet/#default) | Deletes picture bullet for the current list level. |
 |[ equals(level)](./equals/#listlevel) | Compares with the specified ListLevel. |
 |[ get_effective_value(index, number_style, custom_number_style_format)](./get_effective_value/#int_numberstyle_str) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../aspose.words/numberstyle/) and an optional format string used when [NumberStyle.CUSTOM](../../aspose.words/numberstyle/#CUSTOM) is specified. |
+|[ remove_tab_stop()](./remove_tab_stop/#default) | Removes tab stop from the list level. |
 
 ### Examples
 
