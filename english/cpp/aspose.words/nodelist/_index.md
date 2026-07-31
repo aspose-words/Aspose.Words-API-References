@@ -75,6 +75,12 @@ protected:
     static const System::String& NewUrl();
     static const System::String& NewName();
 
+    #if defined(__DBG_FOR_EACH_MEMBER)
+    protected:
+    void DBG_for_each_member(System::DBG::for_each_member_visitor &visitor) const override;
+    const char* DBG_class_name() const override { return "Aspose::Words::ApiExamples::ExReplaceHyperlinks"; }
+    #endif
+
 };
 
 class Hyperlink : public System::Object
@@ -95,6 +101,14 @@ public:
     void set_IsLocal(bool value);
 
     Hyperlink(System::SharedPtr<Aspose::Words::Fields::FieldStart> fieldStart);
+
+protected:
+
+    #if defined(__DBG_FOR_EACH_MEMBER)
+    protected:
+    void DBG_for_each_member(System::DBG::for_each_member_visitor &visitor) const override;
+    const char* DBG_class_name() const override { return "Aspose::Words::ApiExamples::Hyperlink"; }
+    #endif
 
 private:
 

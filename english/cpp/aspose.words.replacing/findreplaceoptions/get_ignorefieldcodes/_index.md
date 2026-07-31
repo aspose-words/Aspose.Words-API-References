@@ -33,6 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertField(u"INCLUDETEXT", u"Test IT!");
+
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_IgnoreFieldCodes(ignoreFieldCodes);
 

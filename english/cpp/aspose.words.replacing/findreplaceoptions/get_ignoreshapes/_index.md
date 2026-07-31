@@ -29,6 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, 200, 200);
 builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+
 auto findReplaceOptions = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 findReplaceOptions->set_IgnoreShapes(true);
 builder->get_Document()->get_Range()->Replace(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.", u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);

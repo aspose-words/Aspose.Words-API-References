@@ -69,6 +69,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footer.do
 
 System::SharedPtr<Aspose::Words::HeaderFooterCollection> headersFooters = doc->get_FirstSection()->get_HeadersFooters();
 System::SharedPtr<Aspose::Words::HeaderFooter> footer = headersFooters->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_MatchCase(false);
 options->set_FindWholeWordsOnly(false);
