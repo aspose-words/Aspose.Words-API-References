@@ -73,7 +73,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | Enumeration | Description |
 | --- | --- |
 | [ColorMode](./colormode/) | Specifies how colors are rendered. |
-| [CompressionLevel](./compressionlevel/) | Compression level for OOXML files. |
+| [CompressionLevel](./compressionlevel/) | Compression level for OOXML and XPS files. |
 | [CssStyleSheetType](./cssstylesheettype/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode/) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode/) | Specifies how DrawingML effects are rendered to fixed page formats. |

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the XpsSaveOptions DigitalSignatureDetails property to easily manage digital signatures for secure document signing and enhanced authenticity.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/
 ---
 ## XpsSaveOptions.DigitalSignatureDetails property

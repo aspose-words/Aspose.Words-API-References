@@ -5,7 +5,7 @@ articleTitle: GetProductName
 second_title: Aspose.Words for .NET
 description: Discover the Metered GetProductName method to effortlessly retrieve product names, enhancing your application’s efficiency and user experience.
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words/metered/getproductname/
 ---
 ## Metered.GetProductName method

@@ -5,7 +5,7 @@ articleTitle: IsMeteredLicensed
 second_title: Aspose.Words for .NET
 description: Discover if your metered method is licensed with IsMetered. Ensure compliance and unlock the benefits of licensed services today!
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words/metered/ismeteredlicensed/
 ---
 ## Metered.IsMeteredLicensed method

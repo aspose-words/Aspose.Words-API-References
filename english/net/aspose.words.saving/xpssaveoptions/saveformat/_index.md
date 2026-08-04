@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Discover the XpsSaveOptions SaveFormat property, which defines how your document is saved. Ensure optimal XPS format for seamless document handling!
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.saving/xpssaveoptions/saveformat/
 ---
 ## XpsSaveOptions.SaveFormat property

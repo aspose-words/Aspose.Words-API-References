@@ -5,7 +5,7 @@ articleTitle: OutlineOptions
 second_title: Aspose.Words for .NET
 description: Discover the XpsSaveOptions OutlineOptions property to customize your document's outline settings for enhanced organization and presentation.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.saving/xpssaveoptions/outlineoptions/
 ---
 ## XpsSaveOptions.OutlineOptions property

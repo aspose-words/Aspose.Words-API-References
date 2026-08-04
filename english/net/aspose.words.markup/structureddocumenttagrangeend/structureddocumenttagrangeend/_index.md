@@ -49,13 +49,13 @@ Assert.That(doc.GetText().Trim(), Is.EqualTo("StructuredDocumentTag element"));
 rangeStart = InsertStructuredDocumentTagRanges(doc);
 
 Node paragraphNode = rangeStart.LastOrDefault();
-Assert.That(paragraphNode?.GetText().Trim(), Is.EqualTo("StructuredDocumentTag element"));
+Assert.That(paragraphNode != null ? paragraphNode.GetText().Trim() : null, Is.EqualTo("StructuredDocumentTag element"));
 
 // Removes ranged structured document tag and content inside.
 rangeStart.RemoveAllChildren();
 
 paragraphNode = rangeStart.LastOrDefault();
-Assert.That(paragraphNode?.GetText(), Is.EqualTo(null));
+Assert.That(paragraphNode != null ? paragraphNode.GetText() : null, Is.EqualTo(null));
 ```
 
 Shows how to create/remove structured document tag and its content (InsertStructuredDocumentTagRanges).
