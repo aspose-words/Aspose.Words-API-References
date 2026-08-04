@@ -5,7 +5,7 @@ articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET
 description: Optimize your document layout with the XpsSaveOptions UseBookFoldPrintingSettings property, enabling seamless booklet printing for enhanced presentation.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
 ---
 ## XpsSaveOptions.UseBookFoldPrintingSettings property

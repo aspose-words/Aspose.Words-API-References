@@ -37,9 +37,10 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     ProgressCallback = new SavingProgressCallback()
 };
 
-var exception = Assert.Throws<OperationCanceledException>(() =>
+OperationCanceledException exception = Assert.Throws<OperationCanceledException>(() =>
     doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
+
+Assert.That(exception != null ? exception.Message.Contains("EstimatedProgress") : (bool?)null, Is.True);
 ```
 
 Shows how to manage a document while saving to html (SavingProgressCallback).

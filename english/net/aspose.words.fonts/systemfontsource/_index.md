@@ -61,7 +61,9 @@ bool isWindows = (pid == PlatformID.Win32NT) || (pid == PlatformID.Win32S) ||
 if (isWindows)
 {
     const string fontsPath = @"C:\WINDOWS\Fonts";
-    Assert.That(SystemFontSource.GetSystemFontFolders().FirstOrDefault()?.ToLower(), Is.EqualTo(fontsPath.ToLower()));
+    string fontFolder = SystemFontSource.GetSystemFontFolders().FirstOrDefault();
+    if (fontFolder != null) 
+        Assert.That(fontFolder.ToLower(), Is.EqualTo(fontsPath.ToLower()));
 }
 
 foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())

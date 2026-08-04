@@ -10,9 +10,9 @@ url: /net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
 
-Compression level for OOXML files.
+Compression level for OOXML and XPS files.
 
-(DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive.
+(DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive.
 
 Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
@@ -56,6 +56,21 @@ FileInfo fileInfo = new FileInfo(ArtifactsDir + "OoxmlSaveOptions.DocumentCompre
 Console.WriteLine($"Saving operation done using the \"{compressionLevel}\" compression level:");
 Console.WriteLine($"\tDuration:\t{st.ElapsedMilliseconds} ms");
 Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
+```
+
+Shows how to control the compression level when saving a document to XPS format.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Sample document for XPS compression test.");
+
+// Create an XpsSaveOptions object and set the compression level.
+XpsSaveOptions options = new XpsSaveOptions();
+options.CompressionLevel = CompressionLevel.Maximum;
+
+doc.Save(ArtifactsDir + "XpsSaveOptions.CompressionLevelXps.xps", options);
 ```
 
 ### See Also

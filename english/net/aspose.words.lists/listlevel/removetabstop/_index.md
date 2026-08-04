@@ -24,12 +24,12 @@ Shows how to clear the list level tab stop.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Create a list with default formatting
+// Create a list with default formatting.
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Numbered list item 1");
 builder.Writeln("Numbered list item 2");
 
-// Get the list level and remove its tab stop
+// Get the list level and remove its tab stop.
 ListLevel listLevel = builder.ListFormat.ListLevel;
 listLevel.RemoveTabStop();
 
