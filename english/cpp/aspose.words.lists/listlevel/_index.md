@@ -41,6 +41,7 @@ class ListLevel : public Aspose::Words::IRunAttrSource
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [RemoveTabStop](./removetabstop/)() |  |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Lists::ListLevelAlignment) | Setter for [Aspose::Words::Lists::ListLevel::get_Alignment](./get_alignment/). |
 | [set_CustomNumberStyleFormat](./set_customnumberstyleformat/)(const System::String\&) | Setter for [Aspose::Words::Lists::ListLevel::get_CustomNumberStyleFormat](./get_customnumberstyleformat/). |
 | [set_IsLegal](./set_islegal/)(bool) | Setter for [Aspose::Words::Lists::ListLevel::get_IsLegal](./get_islegal/). |
