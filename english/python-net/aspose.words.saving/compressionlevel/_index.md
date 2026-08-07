@@ -3,7 +3,7 @@ title: CompressionLevel enumeration
 linktitle: CompressionLevel enumeration
 articleTitle: CompressionLevel enumeration
 second_title: Aspose.Words for Python
-description: "aspose.words.saving.CompressionLevel enumeration. Compression level for OOXML files"
+description: "aspose.words.saving.CompressionLevel enumeration. Compression level for OOXML and XPS files"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/compressionlevel/
@@ -11,8 +11,8 @@ url: /python-net/aspose.words.saving/compressionlevel/
 
 ## CompressionLevel enumeration
 
-Compression level for OOXML files. 
-(DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive.
+Compression level for OOXML and XPS files.
+(DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive.
 
 Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
@@ -51,6 +51,18 @@ file_size = os.path.getsize(ARTIFACTS_DIR + 'OoxmlSaveOptions.document_compressi
 print(f'Saving operation done using the "{compression_level}" compression level:')
 print(f'\tDuration:\t{elapsed_ms} ms')
 print(f'\tFile Size:\t{file_size} bytes')
+```
+
+Shows how to control the compression level when saving a document to XPS format.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Sample document for XPS compression test.')
+# Create an XpsSaveOptions object and set the compression level.
+options = aw.saving.XpsSaveOptions()
+options.compression_level = aw.saving.CompressionLevel.MAXIMUM
+doc.save(file_name=ARTIFACTS_DIR + 'XpsSaveOptions.CompressionLevelXps.xps', save_options=options)
 ```
 
 ### See Also

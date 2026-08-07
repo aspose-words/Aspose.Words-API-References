@@ -32,9 +32,8 @@ class LoadingProgressCallback(aw.loading.IDocumentLoadingCallback):
         self.m_loading_started_at = datetime.datetime.now()
 
     def notify(self, args):
-        from datetime import datetime
-        canceled_at = datetime.now()
-        elapsed_seconds = (canceled_at - self.loading_started_at).total_seconds()
+        canceled_at = datetime.datetime.now()
+        elapsed_seconds = (canceled_at - m_loading_started_at).total_seconds
         if elapsed_seconds > self.max_duration:
             raise Exception()
 ```
