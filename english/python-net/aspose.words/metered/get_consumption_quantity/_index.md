@@ -5,7 +5,7 @@ articleTitle: get_consumption_quantity method
 second_title: Aspose.Words for Python
 description: "Metered.get_consumption_quantity method. Gets consumption file size"
 type: docs
-weight: 40
+weight: 30
 url: /python-net/aspose.words/metered/get_consumption_quantity/
 ---
 

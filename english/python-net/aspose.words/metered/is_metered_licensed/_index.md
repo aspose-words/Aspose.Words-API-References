@@ -5,7 +5,7 @@ articleTitle: is_metered_licensed method
 second_title: Aspose.Words for Python
 description: "Metered.is_metered_licensed method. Check whether metered is licensed"
 type: docs
-weight: 60
+weight: 50
 url: /python-net/aspose.words/metered/is_metered_licensed/
 ---
 
