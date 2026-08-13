@@ -5,7 +5,7 @@ articleTitle: outline_options property
 second_title: Aspose.Words for Python
 description: "XpsSaveOptions.outline_options property. Allows to specify outline options."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.saving/xpssaveoptions/outline_options/
 ---
 

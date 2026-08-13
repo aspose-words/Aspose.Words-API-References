@@ -41,9 +41,8 @@ class HtmlLinkedResourceLoadingCallback(aw.loading.IResourceLoadingCallback):
             print(f'External Image found upon loading: {args.original_uri}')
             new_image_filename = 'Logo.jpg'
             print(f'\tImage will be substituted with: {new_image_filename}')
-            new_image = Image.from_file(IMAGE_DIR + new_image_filename)
-            converter = ImageConverter()
-            image_bytes = converter.convert_to(new_image, bytes)
+            with open(Path(IMAGE_DIR) / new_image_filename, 'rb') as f:
+                image_bytes = f.read()
             args.set_data(image_bytes)
             return aw.loading.ResourceLoadingAction.USER_PROVIDED
         return aw.loading.ResourceLoadingAction.DEFAULT

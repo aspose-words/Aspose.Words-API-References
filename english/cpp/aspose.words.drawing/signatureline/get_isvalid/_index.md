@@ -25,6 +25,7 @@ Shows how to sign a document with a personal certificate and a signature line.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
 auto signatureLineOptions = System::MakeObject<Aspose::Words::SignatureLineOptions>();
 signatureLineOptions->set_Signer(u"vderyushev");
 signatureLineOptions->set_SignerTitle(u"QA");
@@ -41,6 +42,7 @@ ASSERT_FALSE(signatureLine->get_IsSigned());
 ASSERT_FALSE(signatureLine->get_IsValid());
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SignatureLineProviderId.docx");
+
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_SignatureLineId(signatureLine->get_Id());
 signOptions->set_ProviderId(signatureLine->get_ProviderId());

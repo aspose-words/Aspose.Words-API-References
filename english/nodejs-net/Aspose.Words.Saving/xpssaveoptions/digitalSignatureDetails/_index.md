@@ -5,7 +5,7 @@ articleTitle: digitalSignatureDetails property
 second_title: Aspose.Words for Node.js
 description: "XpsSaveOptions.digitalSignatureDetails property. Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document."
 type: docs
-weight: 20
+weight: 30
 url: /nodejs-net/aspose.words.saving/xpssaveoptions/digitalSignatureDetails/
 ---
 

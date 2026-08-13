@@ -44,7 +44,7 @@ options.digital_signature_details = aw.saving.PdfDigitalSignatureDetails(certifi
 options.digital_signature_details.hash_algorithm = aw.saving.PdfDigitalSignatureHashAlgorithm.RIPE_MD160
 self.assertEqual('Test Signing', options.digital_signature_details.reason)
 self.assertEqual('My Office', options.digital_signature_details.location)
-self.assertEqual(signing_time, options.digital_signature_details.signature_date)
+self.assertEqual(signing_time, options.digital_signature_details.signature_date.replace(tzinfo=None))
 self.assertEqual(certificate_holder, options.digital_signature_details.certificate_holder)
 doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.PdfDigitalSignature.pdf', save_options=options)
 ```

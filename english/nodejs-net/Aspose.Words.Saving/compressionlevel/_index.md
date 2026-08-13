@@ -3,7 +3,7 @@ title: CompressionLevel enumeration
 linktitle: CompressionLevel enumeration
 articleTitle: CompressionLevel enumeration
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.Saving.CompressionLevel enumeration. Compression level for OOXML files"
+description: "Aspose.Words.Saving.CompressionLevel enumeration. Compression level for OOXML and XPS files"
 type: docs
 weight: 30
 url: /nodejs-net/aspose.words.saving/compressionlevel/
@@ -11,8 +11,8 @@ url: /nodejs-net/aspose.words.saving/compressionlevel/
 
 ## CompressionLevel enumeration
 
-Compression level for OOXML files. 
-(DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive.
+Compression level for OOXML and XPS files.
+(DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive.
 
 Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
