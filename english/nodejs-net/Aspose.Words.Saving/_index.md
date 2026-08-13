@@ -73,7 +73,7 @@ allow to specify additional options for saving or converting documents.
 | Enumeration | Description |
 | --- | --- |
 | [ColorMode](./colormode/) | Specifies how colors are rendered. |
-| [CompressionLevel](./compressionlevel/) | Compression level for OOXML files.  (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive. |
+| [CompressionLevel](./compressionlevel/) | Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. |
 | [CssStyleSheetType](./cssstylesheettype/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode/) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode/) | Specifies how DrawingML effects are rendered to fixed page formats. |
