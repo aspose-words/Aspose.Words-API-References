@@ -61,10 +61,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -104,10 +104,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -145,10 +145,10 @@ Shows how to perform a mail merge on CODE39 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  12345ABCDE CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
@@ -183,10 +183,10 @@ Shows how to perform a mail merge on ITF14 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
@@ -300,10 +300,10 @@ Shows how to perform a mail merge on CODE39 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  12345ABCDE CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
@@ -359,10 +359,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -418,10 +418,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -461,10 +461,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -502,10 +502,10 @@ Shows how to perform a mail merge on CODE39 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  12345ABCDE CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
@@ -540,10 +540,10 @@ Shows how to perform a mail merge on ITF14 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
@@ -599,10 +599,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -642,10 +642,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -692,10 +692,10 @@ Shows how to perform a mail merge on ITF14 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
@@ -789,10 +789,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -952,10 +952,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -1092,10 +1092,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -1151,10 +1151,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -1328,10 +1328,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -1413,10 +1413,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -1695,10 +1695,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -1754,10 +1754,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2164,10 +2164,10 @@ Shows how to perform a mail merge on CODE39 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  12345ABCDE CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
@@ -2226,10 +2226,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2288,10 +2288,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2331,10 +2331,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -2372,10 +2372,10 @@ Shows how to perform a mail merge on CODE39 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  12345ABCDE CODE39 \\d",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
+ Assert.assertEquals(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.CODE39.docx");
@@ -2410,10 +2410,10 @@ Shows how to perform a mail merge on ITF14 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
@@ -2472,10 +2472,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2515,10 +2515,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -2568,10 +2568,10 @@ Shows how to perform a mail merge on ITF14 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
+ Assert.assertEquals(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.ITF14.docx");
@@ -2626,10 +2626,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -2688,10 +2688,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2746,10 +2746,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -2808,10 +2808,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -2906,10 +2906,10 @@ Shows how to perform a mail merge on EAN13 barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
+ Assert.assertEquals(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.EAN13.docx");
@@ -2997,10 +2997,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -3059,10 +3059,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");
@@ -3121,10 +3121,10 @@ Shows how to perform a mail merge on QR barcodes.
  doc.getMailMerge().execute(table);
 
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(0).getType());
- Assert.assertEquals("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(0).getFieldCode());
  Assert.assertEquals(FieldType.FIELD_DISPLAY_BARCODE, doc.getRange().getFields().get(1).getType());
- Assert.assertEquals("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+ Assert.assertEquals(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
          doc.getRange().getFields().get(1).getFieldCode());
 
  doc.save(getArtifactsDir() + "Field.MERGEBARCODE.QR.docx");

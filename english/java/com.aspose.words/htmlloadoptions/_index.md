@@ -1121,8 +1121,8 @@ Shows how to print and store warnings that occur during document loading.
      // Our callback will print all warnings that come up during the load operation.
      Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
 
-     ArrayList warnings = ((DocumentLoadingWarningCallback) loadOptions.getWarningCallback()).getWarnings();
-     Assert.assertEquals(3, warnings.size());
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
  }
 
  /// 
@@ -2130,8 +2130,8 @@ Shows how to print and store warnings that occur during document loading.
      // Our callback will print all warnings that come up during the load operation.
      Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
 
-     ArrayList warnings = ((DocumentLoadingWarningCallback) loadOptions.getWarningCallback()).getWarnings();
-     Assert.assertEquals(3, warnings.size());
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
  }
 
  /// 

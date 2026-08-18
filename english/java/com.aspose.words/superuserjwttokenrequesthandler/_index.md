@@ -4,7 +4,7 @@ linktitle: SuperUserJwtTokenRequestHandler
 second_title: Aspose.Words for Java
 description: JWT Token Request Handler with caching local validation and circuit breaker in Java.
 type: docs
-weight: 647
+weight: 648
 url: /java/com.aspose.words/superuserjwttokenrequesthandler/
 ---
 

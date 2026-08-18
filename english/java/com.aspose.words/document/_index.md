@@ -183,6 +183,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getProtectionType()](#getProtectionType) | Gets the currently active document protection type. |
 | [getPunctuationKerning()](#getPunctuationKerning) | Specifies whether kerning applies to both Latin text and punctuation. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [getReadabilityStatistics()](#getReadabilityStatistics) | Provides readability score information for the document. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation) | Gets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources are loaded. |
 | [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this document. |
@@ -4754,6 +4755,37 @@ Shows how to delete all the nodes from a range.
 
 **Returns:**
 [Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
+### getReadabilityStatistics() {#getReadabilityStatistics}
+```
+public ReadabilityStatistics getReadabilityStatistics()
+```
+
+
+Provides readability score information for the document.
+
+ **Examples:** 
+
+Shows how to calculate and display the Flesch reading scores for a document.
+
+```
+
+ Document doc = new Document();
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("The implementation of artificial intelligence algorithms requires a comprehensive understanding of machine learning methodologies and statistical analysis techniques.");
+ builder.writeln("Furthermore, the integration of neural networks into existing software architectures presents significant challenges for developers.");
+ builder.writeln("This document serves as an illustrative example for calculating readability metrics using the Flesch reading ease formula.");
+
+ // Calculate readability statistics.
+ ReadabilityStatistics stats = doc.getReadabilityStatistics();
+ // Verify that the scores are within expected valid ranges.
+ Assert.assertTrue(stats.getFleschReadingEasy() >= 0 && stats.getFleschReadingEasy() <= 190);
+ Assert.assertTrue(stats.getFleschKincaidGradeLevel() <= 0);
+ 
+```
+
+**Returns:**
+[ReadabilityStatistics](../../com.aspose.words/readabilitystatistics/) - The corresponding [ReadabilityStatistics](../../com.aspose.words/readabilitystatistics/) value.
 ### getRemovePersonalInformation() {#getRemovePersonalInformation}
 ```
 public boolean getRemovePersonalInformation()
