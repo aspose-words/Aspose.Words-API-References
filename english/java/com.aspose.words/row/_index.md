@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for Java
 description: Represents a table row in Java.
 type: docs
-weight: 587
+weight: 588
 url: /java/com.aspose.words/row/
 ---
 

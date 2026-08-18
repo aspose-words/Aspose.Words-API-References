@@ -2,7 +2,7 @@
 title: CompressionLevel
 linktitle: CompressionLevel
 second_title: Aspose.Words for Java
-description: Compression level for OOXML files in Java.
+description: Compression level for OOXML and XPS files in Java.
 type: docs
 weight: 122
 url: /java/com.aspose.words/compressionlevel/
@@ -14,9 +14,9 @@ java.lang.Object
 public class CompressionLevel
 ```
 
-Compression level for OOXML files.
+Compression level for OOXML and XPS files.
 
-(DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive.
+(DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive.
 
 Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
@@ -49,6 +49,23 @@ Shows how to specify the compression level to use while saving an OOXML document
  System.out.println(MessageFormat.format("Saving operation done using the \"{0}\" compression level:", compressionLevel));
  System.out.println(MessageFormat.format("\tDuration:\t{0}", st.getTime()));
  System.out.println(MessageFormat.format("\tFile Size:\t{0} bytes", fileInfo.length()));
+ 
+```
+
+Shows how to control the compression level when saving a document to XPS format.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample document for XPS compression test.");
+
+ // Create an XpsSaveOptions object and set the compression level.
+ XpsSaveOptions options = new XpsSaveOptions();
+ options.setCompressionLevel(CompressionLevel.MAXIMUM);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.CompressionLevelXps.xps", options);
  
 ```
 ## Fields

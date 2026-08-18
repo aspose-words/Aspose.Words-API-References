@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 692
+weight: 693
 url: /java/com.aspose.words/txtloadoptions/
 ---
 
@@ -1240,8 +1240,8 @@ Shows how to print and store warnings that occur during document loading.
      // Our callback will print all warnings that come up during the load operation.
      Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
 
-     ArrayList warnings = ((DocumentLoadingWarningCallback) loadOptions.getWarningCallback()).getWarnings();
-     Assert.assertEquals(3, warnings.size());
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
  }
 
  /// 
@@ -2390,8 +2390,8 @@ Shows how to print and store warnings that occur during document loading.
      // Our callback will print all warnings that come up during the load operation.
      Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
 
-     ArrayList warnings = ((DocumentLoadingWarningCallback) loadOptions.getWarningCallback()).getWarnings();
-     Assert.assertEquals(3, warnings.size());
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
  }
 
  /// 

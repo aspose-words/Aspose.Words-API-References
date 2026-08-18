@@ -84,7 +84,6 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
 | [getSourceFullName()](#getSourceFullName) | Gets the location of the document using an IRI. |
-| [getSourceFullNameArgumentIndex()](#getSourceFullNameArgumentIndex) |  |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getTextConverter()](#getTextConverter) | Gets the name of the text converter for the format of the included file. |
@@ -895,16 +894,6 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 
 **Returns:**
 java.lang.String - The location of the document using an IRI.
-### getSourceFullNameArgumentIndex() {#getSourceFullNameArgumentIndex}
-```
-public int getSourceFullNameArgumentIndex()
-```
-
-
-
-
-**Returns:**
-int
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()

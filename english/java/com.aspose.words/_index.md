@@ -143,7 +143,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Compatibility](../com.aspose.words/compatibility/) | Specifies names of compatibility options. |
 | [CompatibilityOptions](../com.aspose.words/compatibilityoptions/) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
 | [CompositeNode](../com.aspose.words/compositenode/) | Base class for nodes that can contain other nodes. |
-| [CompressionLevel](../com.aspose.words/compressionlevel/) | Compression level for OOXML files. |
+| [CompressionLevel](../com.aspose.words/compressionlevel/) | Compression level for OOXML and XPS files. |
 | [ConditionalStyle](../com.aspose.words/conditionalstyle/) | Represents special formatting applied to some area of a table with assigned table style. |
 | [ConditionalStyleCollection](../com.aspose.words/conditionalstylecollection/) | Represents a collection of [ConditionalStyle](../com.aspose.words/conditionalstyle/) objects. |
 | [ConditionalStyleType](../com.aspose.words/conditionalstyletype/) | Represents possible table areas to which conditional formatting may be defined in a table style. |
@@ -580,6 +580,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ProtectionType](../com.aspose.words/protectiontype/) | Protection type for a document. |
 | [PsSaveOptions](../com.aspose.words/pssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PS](../com.aspose.words/saveformat/\#PS) format. |
 | [Range](../com.aspose.words/range/) | Represents a contiguous area in a document. |
+| [ReadabilityStatistics](../com.aspose.words/readabilitystatistics/) | Provides information about document readability score. |
 | [ReflectionFormat](../com.aspose.words/reflectionformat/) | Represents the reflection formatting for an object. |
 | [RelativeHorizontalPosition](../com.aspose.words/relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |
 | [RelativeHorizontalSize](../com.aspose.words/relativehorizontalsize/) | Specifies relatively to what the width of a shape or a text frame is calculated horizontally. |
