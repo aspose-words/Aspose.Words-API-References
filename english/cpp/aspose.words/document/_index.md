@@ -101,7 +101,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_ProtectionType](./get_protectiontype/)() | Gets the currently active document protection type. |
 | [get_PunctuationKerning](./get_punctuationkerning/)() | Specifies whether kerning applies to both Latin text and punctuation. |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
-| [get_ReadabilityStatistics](./get_readabilitystatistics/)() |  |
+| [get_ReadabilityStatistics](./get_readabilitystatistics/)() | Provides readability score information for the document. |
 | [get_RemovePersonalInformation](./get_removepersonalinformation/)() | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/)() const | Allows to control how external resources are loaded. |
 | [get_Revisions](./get_revisions/)() | Gets a collection of revisions (tracked changes) that exist in this document. |

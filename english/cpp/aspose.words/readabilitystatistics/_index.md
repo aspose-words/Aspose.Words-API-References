@@ -1,21 +1,30 @@
 ---
-title: Aspose::Words::Document::get_ReadabilityStatistics method
-linktitle: get_ReadabilityStatistics
+title: Aspose::Words::ReadabilityStatistics class
+linktitle: ReadabilityStatistics
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Document::get_ReadabilityStatistics method. Provides readability score information for the document in C++.'
+description: 'Aspose::Words::ReadabilityStatistics class. Provides information about document readability score in C++.'
 type: docs
-weight: 44750
-url: /cpp/aspose.words/document/get_readabilitystatistics/
+weight: 51500
+url: /cpp/aspose.words/readabilitystatistics/
 ---
-## Document::get_ReadabilityStatistics method
+## ReadabilityStatistics class
 
 
-Provides readability score information for the document.
+Provides information about document readability score.
 
 ```cpp
-System::SharedPtr<Aspose::Words::ReadabilityStatistics> Aspose::Words::Document::get_ReadabilityStatistics()
+class ReadabilityStatistics : public System::Object
 ```
 
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [get_FleschKincaidGradeLevel](./get_fleschkincaidgradelevel/)() | Flesch-Kincaid Grade Level score. |
+| [get_FleschReadingEasy](./get_fleschreadingeasy/)() | Flesch Reading Easy score. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 
 ## Examples
 
@@ -39,7 +48,5 @@ ASSERT_LE(stats->get_FleschKincaidGradeLevel(), 0);
 
 ## See Also
 
-* Class [ReadabilityStatistics](../../readabilitystatistics/)
-* Class [Document](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
+* Namespace [Aspose::Words](../)
+* Library [Aspose.Words for C++](../../)
