@@ -5,7 +5,7 @@ articleTitle: IgnoreStoreItemId
 second_title: Aspose.Words for .NET
 description: Discover how the AdvancedCompareOptions IgnoreStoreItemId property enhances document comparison by ignoring StructuredDocumentTag ID differences for improved accuracy.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/
 ---
 ## AdvancedCompareOptions.IgnoreStoreItemId property

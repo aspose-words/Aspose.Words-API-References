@@ -5,7 +5,7 @@ articleTitle: FieldEQ
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEQ class for seamless EQ field implementation. Enhance document automation with powerful features and flexibility.
 type: docs
-weight: 2240
+weight: 2250
 url: /net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class

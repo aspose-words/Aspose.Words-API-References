@@ -5,7 +5,7 @@ articleTitle: IgnoreDmlUniqueId
 second_title: Aspose.Words for .NET
 description: Discover the AdvancedCompareOptions IgnoreDmlUniqueId property to enhance your DrawingML processing by efficiently managing unique IDs. Optimize your workflow!
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.comparing/advancedcompareoptions/ignoredmluniqueid/
 ---
 ## AdvancedCompareOptions.IgnoreDmlUniqueId property

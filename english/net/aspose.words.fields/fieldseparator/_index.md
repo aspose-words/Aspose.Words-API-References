@@ -5,7 +5,7 @@ articleTitle: FieldSeparator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSeparator class, designed to enhance your Word documents by effectively separating field codes from results.
 type: docs
-weight: 2790
+weight: 2800
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class

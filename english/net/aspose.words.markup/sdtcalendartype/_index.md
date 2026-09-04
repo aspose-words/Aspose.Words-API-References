@@ -5,7 +5,7 @@ articleTitle: SdtCalendarType
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.Markup.SdtCalendarType enum to enhance your Office Open XML documents with versatile calendar options for better workflow efficiency.
 type: docs
-weight: 4740
+weight: 4750
 url: /net/aspose.words.markup/sdtcalendartype/
 ---
 ## SdtCalendarType enumeration

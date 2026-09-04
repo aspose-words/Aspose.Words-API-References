@@ -5,7 +5,7 @@ articleTitle: HorizontalRuleAlignment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.HorizontalRuleAlignment enum for precise control over horizontal rule alignment, enhancing your document formatting and design.
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration

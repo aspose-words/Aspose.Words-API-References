@@ -5,7 +5,7 @@ articleTitle: FieldAuthor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAuthor class, designed to effortlessly implement the AUTHOR field for enhanced document management and automation.
 type: docs
-weight: 1980
+weight: 1990
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class

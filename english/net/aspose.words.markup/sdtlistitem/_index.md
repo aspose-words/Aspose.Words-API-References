@@ -5,7 +5,7 @@ articleTitle: SdtListItem
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.SdtListItem class, designed for efficient list item management in ComboBox and DropDownList structured documents.
 type: docs
-weight: 4760
+weight: 4770
 url: /net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class

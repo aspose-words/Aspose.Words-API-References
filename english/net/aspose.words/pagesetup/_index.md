@@ -5,7 +5,7 @@ articleTitle: PageSetup
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PageSetup class for seamless page setup customization in your document sections. Optimize layout and enhance readability today!
 type: docs
-weight: 5150
+weight: 5160
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class

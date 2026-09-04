@@ -50,9 +50,9 @@ table.Rows.Add(new[] { "123456789012" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```

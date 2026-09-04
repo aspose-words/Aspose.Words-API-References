@@ -5,7 +5,7 @@ articleTitle: NumberStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.NumberStyle enum to customize footnotes and endnotes page numbers, enhancing your document formatting effortlessly.
 type: docs
-weight: 5090
+weight: 5100
 url: /net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration

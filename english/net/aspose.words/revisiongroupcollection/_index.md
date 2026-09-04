@@ -5,7 +5,7 @@ articleTitle: RevisionGroupCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.RevisionGroupCollection class, featuring efficient management of document revision groups for enhanced editing and collaboration.
 type: docs
-weight: 5600
+weight: 5610
 url: /net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class

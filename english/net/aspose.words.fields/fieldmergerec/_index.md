@@ -5,7 +5,7 @@ articleTitle: FieldMergeRec
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMergeRec class for seamless document merging with the MERGEREC field. Enhance your document automation today!
 type: docs
-weight: 2570
+weight: 2580
 url: /net/aspose.words.fields/fieldmergerec/
 ---
 ## FieldMergeRec class

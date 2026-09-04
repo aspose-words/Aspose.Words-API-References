@@ -73,7 +73,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | Enum | Description |
 | --- | --- |
 | [ColorMode](./colormode/) | Specifies how colors are rendered. |
-| [CompressionLevel](./compressionlevel/) | Compression level for OOXML files. (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) |
+| [CompressionLevel](./compressionlevel/) | Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) |
 | [CssStyleSheetType](./cssstylesheettype/) | Specifies how CSS (Cascading [Style](../aspose.words/style/) Sheet) styles are exported to HTML. |
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode/) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode/) | Specifies how DrawingML effects are rendered to fixed page formats. |

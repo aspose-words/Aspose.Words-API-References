@@ -5,7 +5,7 @@ articleTitle: ChartYValueType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartYValueType enum to easily define Y value types for your chart series, enhancing your data visualization capabilities.
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 ## ChartYValueType enumeration

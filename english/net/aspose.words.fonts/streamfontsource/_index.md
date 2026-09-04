@@ -5,7 +5,7 @@ articleTitle: StreamFontSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.StreamFontSource class, your go-to solution for custom stream font sources that enhance document flexibility and design.
 type: docs
-weight: 3490
+weight: 3500
 url: /net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class

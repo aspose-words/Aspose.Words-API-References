@@ -30,7 +30,7 @@ loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
 List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
-Assert.That(warnings.Count, Is.EqualTo(3));
+Assert.That(warnings.Count, Is.EqualTo(2));
 ```
 
 Shows how to print and store warnings that occur during document loading (DocumentLoadingWarningCallback).

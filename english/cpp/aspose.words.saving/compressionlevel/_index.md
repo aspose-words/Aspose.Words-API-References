@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::CompressionLevel enum
 linktitle: CompressionLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::CompressionLevel enum. Compression level for OOXML files. (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) in C++.'
+description: 'Aspose::Words::Saving::CompressionLevel enum. Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) in C++.'
 type: docs
 weight: 47000
 url: /cpp/aspose.words.saving/compressionlevel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/compressionlevel/
 ## CompressionLevel enum
 
 
-Compression level for OOXML files. (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
+Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
 ```cpp
 enum class CompressionLevel
@@ -54,6 +54,21 @@ auto fileInfo = System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"
 std::cout << System::String::Format(u"Saving operation done using the \"{0}\" compression level:", compressionLevel) << std::endl;
 std::cout << System::String::Format(u"\tDuration:\t{0} ms", st->get_ElapsedMilliseconds()) << std::endl;
 std::cout << System::String::Format(u"\tFile Size:\t{0} bytes", fileInfo->get_Length()) << std::endl;
+```
+
+
+Shows how to control the compression level when saving a document to XPS format. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Sample document for XPS compression test.");
+
+// Create an XpsSaveOptions object and set the compression level.
+auto options = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>();
+options->set_CompressionLevel(Aspose::Words::Saving::CompressionLevel::Maximum);
+
+doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.CompressionLevelXps.xps", options);
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontConfigSubstitutionRule class for seamless font management and customization in your documents. Enhance your text styling today!
 type: docs
-weight: 3320
+weight: 3330
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class

@@ -5,7 +5,7 @@ articleTitle: FieldFormText
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fields.FieldFormText class for seamless FORMTEXT field implementation. Enhance document automation with powerful features today!
 type: docs
-weight: 2340
+weight: 2350
 url: /net/aspose.words.fields/fieldformtext/
 ---
 ## FieldFormText class

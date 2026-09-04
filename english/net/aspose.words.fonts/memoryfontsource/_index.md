@@ -5,7 +5,7 @@ articleTitle: MemoryFontSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.MemoryFontSource class, enabling seamless access to TrueType fonts stored in memory for enhanced document processing.
 type: docs
-weight: 3470
+weight: 3480
 url: /net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class

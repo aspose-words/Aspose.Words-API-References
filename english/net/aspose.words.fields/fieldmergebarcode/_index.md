@@ -5,7 +5,7 @@ articleTitle: FieldMergeBarcode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMergeBarcode class to effortlessly implement MERGEBARCODE fields for enhanced document automation and efficiency.
 type: docs
-weight: 2550
+weight: 2560
 url: /net/aspose.words.fields/fieldmergebarcode/
 ---
 ## FieldMergeBarcode class
@@ -104,9 +104,9 @@ table.Rows.Add(new[] { "DEF456" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  DEF456 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ```
@@ -143,9 +143,9 @@ table.Rows.Add(new[] { "123456789012" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  123456789012 EAN13 \\t \\p CASE \\x"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
@@ -180,9 +180,9 @@ table.Rows.Add(new[] { "67890FGHIJ" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  12345ABCDE CODE39 \\d"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
@@ -214,9 +214,9 @@ table.Rows.Add(new[] { "1234567891234" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  1234567891234 ITF14 \\c STD"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```

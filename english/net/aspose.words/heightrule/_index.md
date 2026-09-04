@@ -5,7 +5,7 @@ articleTitle: HeightRule
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.HeightRule enum for precise control over object height in documents. Optimize your workflow with this essential feature!
 type: docs
-weight: 3580
+weight: 3590
 url: /net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration

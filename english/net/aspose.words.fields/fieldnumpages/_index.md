@@ -5,7 +5,7 @@ articleTitle: FieldNumPages
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldNumPages class to effortlessly implement the NUMPAGES field, enhancing document automation and efficiency.
 type: docs
-weight: 2630
+weight: 2640
 url: /net/aspose.words.fields/fieldnumpages/
 ---
 ## FieldNumPages class

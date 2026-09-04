@@ -5,7 +5,7 @@ articleTitle: SdtListItemCollection
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Markup.SdtListItemCollection class for seamless access to SdtListItem elements, enhancing structured document management effortlessly.
 type: docs
-weight: 4770
+weight: 4780
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class

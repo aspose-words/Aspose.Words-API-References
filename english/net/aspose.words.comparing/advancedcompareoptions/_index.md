@@ -26,6 +26,7 @@ public class AdvancedCompareOptions
 
 | Name | Description |
 | --- | --- |
+| [CompareListDefinitions](../../aspose.words.comparing/advancedcompareoptions/comparelistdefinitions/) { get; set; } | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [IgnoreDmlUniqueId](../../aspose.words.comparing/advancedcompareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. |
 | [IgnoreStoreItemId](../../aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) { get; set; } | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
 
