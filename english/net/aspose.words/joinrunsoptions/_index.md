@@ -5,7 +5,7 @@ articleTitle: JoinRunsOptions
 second_title: Aspose.Words for .NET
 description: Configure run-merging behavior in Aspose.Words. Control how document runs with similar formatting are combined for cleaner, optimized Word documents.
 type: docs
-weight: 3770
+weight: 3780
 url: /net/aspose.words/joinrunsoptions/
 ---
 ## JoinRunsOptions class

@@ -5,7 +5,7 @@ articleTitle: AdjustmentCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.AdjustmentCollection class—your solution for managing readonly adjustment values for shapes. Enhance your document designs effortlessly!
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words.drawing/adjustmentcollection/
 ---
 ## AdjustmentCollection class

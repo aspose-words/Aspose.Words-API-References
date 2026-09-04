@@ -5,7 +5,7 @@ articleTitle: WindowsVersion
 second_title: Aspose.Words for .NET
 description: Set or get Windows version for signing. Ensure accurate validation and environment tracking. Default 6.1.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.digitalsignatures/signoptions/windowsversion/
 ---
 ## SignOptions.WindowsVersion property

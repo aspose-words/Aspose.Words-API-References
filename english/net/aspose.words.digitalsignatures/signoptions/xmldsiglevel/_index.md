@@ -5,12 +5,12 @@ articleTitle: XmlDsigLevel
 second_title: Aspose.Words for .NET
 description: Discover the XmlDsigLevel property in SignOptions, defining digital signature strength per XMLDSig standards. Ensure secure and reliable signatures!
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/
 ---
 ## SignOptions.XmlDsigLevel property
 
-Specifies the level of a digital signature based on XML-DSig standard. The default value is XmlDSig.
+Specifies the level of a digital signature based on the XML-DSig standard. The default value is XmlDSig.
 
 ```csharp
 public XmlDsigLevel XmlDsigLevel { get; set; }
@@ -18,7 +18,9 @@ public XmlDsigLevel XmlDsigLevel { get; set; }
 
 ## Remarks
 
-Different levels of XAdES signatures can be created starting from Office 2010.
+Different levels of XAdES signatures can be created starting with Office 2010.
+
+This is only relevant for the following document formats: DOC, DOCX, and XPS. It is ignored in other document formats, which always produce a plain XML-DSig signature regardless of this setting.
 
 ## Examples
 

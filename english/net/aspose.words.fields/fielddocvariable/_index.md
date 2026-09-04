@@ -5,7 +5,7 @@ articleTitle: FieldDocVariable
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDocVariable class for seamless DOCVARIABLE field integration, enhancing your document automation and management.
 type: docs
-weight: 2230
+weight: 2240
 url: /net/aspose.words.fields/fielddocvariable/
 ---
 ## FieldDocVariable class

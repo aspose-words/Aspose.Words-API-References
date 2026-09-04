@@ -5,7 +5,7 @@ articleTitle: FieldUserInitials
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldUserInitials class to easily implement USERINITIALS fields, enhancing document personalization and user engagement.
 type: docs
-weight: 3000
+weight: 3010
 url: /net/aspose.words.fields/fielduserinitials/
 ---
 ## FieldUserInitials class

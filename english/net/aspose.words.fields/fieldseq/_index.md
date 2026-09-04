@@ -5,7 +5,7 @@ articleTitle: FieldSeq
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSeq class for seamless SEQ field implementation. Enhance your document automation with powerful features and flexibility.
 type: docs
-weight: 2800
+weight: 2810
 url: /net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class

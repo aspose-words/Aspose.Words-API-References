@@ -48,9 +48,9 @@ table.Rows.Add(new[] { "67890FGHIJ" });
 doc.MailMerge.Execute(table);
 
 Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d"));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  12345ABCDE CODE39 \\d"));
 Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
-Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d"));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  67890FGHIJ CODE39 \\d"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```

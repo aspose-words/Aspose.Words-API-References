@@ -5,7 +5,7 @@ articleTitle: LegendPosition
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.LegendPosition enum to easily customize your chart legend's position for enhanced data visualization.
 type: docs
-weight: 1230
+weight: 1240
 url: /net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration

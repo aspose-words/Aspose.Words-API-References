@@ -5,7 +5,7 @@ articleTitle: ReadabilityStatistics
 second_title: Aspose.Words for .NET
 description: API class to measure text complexity. Get detailed grade levels and readability statistics for Word documents automatically.
 type: docs
-weight: 5320
+weight: 5330
 url: /net/aspose.words/readabilitystatistics/
 ---
 ## ReadabilityStatistics class

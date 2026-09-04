@@ -5,7 +5,7 @@ articleTitle: InternableComplexAttr
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.InternableComplexAttr class—your solution for managing complex attributes efficiently. Ensure seamless updates in parent collections!
 type: docs
-weight: 3760
+weight: 3770
 url: /net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class

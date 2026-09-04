@@ -5,7 +5,7 @@ articleTitle: FieldMacroButton
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMacroButton class for seamless integration of MACROBUTTON fields, enhancing document automation and functionality.
 type: docs
-weight: 2540
+weight: 2550
 url: /net/aspose.words.fields/fieldmacrobutton/
 ---
 ## FieldMacroButton class

@@ -5,7 +5,7 @@ articleTitle: WebExtensionStoreType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensionStoreType enum, featuring diverse web extension store types for seamless integration and enhanced functionality.
 type: docs
-weight: 7790
+weight: 7800
 url: /net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration

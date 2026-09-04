@@ -5,7 +5,7 @@ articleTitle: VerticalResolution
 second_title: Aspose.Words for .NET
 description: Set or get vertical resolution for signatures. Enhance clarity and output precision. Default 1200.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.digitalsignatures/signoptions/verticalresolution/
 ---
 ## SignOptions.VerticalResolution property

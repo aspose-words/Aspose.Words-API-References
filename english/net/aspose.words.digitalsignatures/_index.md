@@ -17,6 +17,7 @@ The **Aspose.Words.DigitalSignatures** namespace provides classes to sign docume
 | [CertificateHolder](./certificateholder/) | Represents a holder of **X509Certificate2** instance. |
 | [DigitalSignature](./digitalsignature/) | Represents a digital signature on a document and the result of its verification. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Provides a read-only collection of digital signatures attached to a document. |
+| [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/) | Contains settings of the digital signature timestamp. |
 | [DigitalSignatureUtil](./digitalsignatureutil/) | Provides methods for signing document. |
 | [SignOptions](./signoptions/) | Allows to specify options for document signing. |
 ## Enumeration

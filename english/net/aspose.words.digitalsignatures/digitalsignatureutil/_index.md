@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureUtil
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.DigitalSignatures.DigitalSignatureUtil class to easily sign documents with secure digital signatures. Enhance document integrity today!
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/
 ---
 ## DigitalSignatureUtil class

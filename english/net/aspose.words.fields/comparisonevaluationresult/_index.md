@@ -5,7 +5,7 @@ articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.ComparisonEvaluationResult class for efficient document comparison analysis. Unlock insights and enhance your workflow!
 type: docs
-weight: 1890
+weight: 1900
 url: /net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class

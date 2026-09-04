@@ -5,7 +5,7 @@ articleTitle: FieldPrivate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldPrivate class for seamless integration of PRIVATE fields, enhancing document automation and customization.
 type: docs
-weight: 2710
+weight: 2720
 url: /net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class

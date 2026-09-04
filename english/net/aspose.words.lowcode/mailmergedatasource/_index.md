@@ -5,7 +5,7 @@ articleTitle: MailMergeDataSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words LowCode MailMergeDataSource class for seamless mail merging. Enhance your document automation with efficient data handling.
 type: docs
-weight: 4300
+weight: 4310
 url: /net/aspose.words.lowcode/mailmergedatasource/
 ---
 ## MailMergeDataSource class

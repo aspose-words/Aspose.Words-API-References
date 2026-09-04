@@ -5,7 +5,7 @@ articleTitle: FieldUserName
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldUserName class for seamless USERNAME field integration. Enhance document automation with powerful features today!
 type: docs
-weight: 3010
+weight: 3020
 url: /net/aspose.words.fields/fieldusername/
 ---
 ## FieldUserName class
