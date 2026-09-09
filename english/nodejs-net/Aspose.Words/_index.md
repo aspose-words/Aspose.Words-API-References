@@ -76,7 +76,7 @@ The main classes in this module are:
 | [DigitalSignature](./digitalsignature/) | Represents a digital signature on a document and the result of its verification. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/nodejs-net/working-with-digital-signatures/) documentation article. |
 | [Document](./document/) | Represents a Word document. To learn more, visit the [Working with Document](https://docs.aspose.com/words/nodejs-net/working-with-document/) documentation article. |
 | [DocumentBase](./documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
-| [DocumentBuilder](./documentbuilder/) | Adapts [DocumentBuilder](./documentbuilder/) class public API for Node.js porting. |
+| [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/nodejs-net/document-builder-overview/) documentation article. |
 | [DocumentBuilderOptions](./documentbuilderoptions/) | Allows to specify additional options for the document building process. |
 | [EditableRange](./editablerange/) | Represents a single editable range. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 | [EditableRangeEnd](./editablerangeend/) | Represents an end of an editable range in a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
@@ -146,7 +146,7 @@ The main classes in this module are:
 | [VariableCollection](./variablecollection/) | A collection of document variables. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/nodejs-net/work-with-document-properties/) documentation article. |
 | [WarningInfo](./warninginfo/) | Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/nodejs-net/programming-with-documents/) documentation article. |
 | [WarningInfoCollection](./warninginfocollection/) | Represents a typed collection of [WarningInfo](./warninginfo/) objects. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/nodejs-net/programming-with-documents/) documentation article. |
-| [Watermark](./watermark/) | Adapts [Watermark](./watermark/) class public API for Node.js porting. |
+| [Watermark](./watermark/) | Represents class to work with document watermark. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/nodejs-net/working-with-watermark/) documentation article. |
 | [WebExtension](./webextension/) | Represents a web extension object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/nodejs-net/work-with-office-add-ins/) documentation article. |
 | [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |

@@ -5,7 +5,7 @@ articleTitle: windowsVersion property
 second_title: Aspose.Words for Node.js
 description: "SignOptions.windowsVersion property. Gets or sets the Windows version for the digital signature"
 type: docs
-weight: 130
+weight: 140
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/windowsVersion/
 ---
 

@@ -9,6 +9,31 @@ weight: 20
 url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/removeAllSignatures/
 ---
 
+## removeAllSignatures(srcFileName, dstFileName) {#string_string}
+
+Removes all digital signatures from source file and writes unsigned file to destination file.
+The following formats are compatible for digital signature removal:
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
+
+
+
+
+```js
+removeAllSignatures(srcFileName: string, dstFileName: string)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcFileName | string |  |
+| dstFileName | string |  |
+
 ## removeAllSignatures(srcStream, dstStream) {#buffer_unknown}
 
 Removes all digital signatures from document in source stream and writes unsigned document to destination stream.
@@ -35,31 +60,6 @@ removeAllSignatures(srcStream: Buffer, dstStream)
 | --- | --- | --- |
 | srcStream | Buffer |  |
 | dstStream |  |  |
-
-## removeAllSignatures(srcFileName, dstFileName) {#string_string}
-
-Removes all digital signatures from source file and writes unsigned file to destination file.
-The following formats are compatible for digital signature removal:
-[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
-[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
-[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
-[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
-[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
-[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
-
-
-
-
-```js
-removeAllSignatures(srcFileName: string, dstFileName: string)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcFileName | string |  |
-| dstFileName | string |  |
 
 ## Examples
 

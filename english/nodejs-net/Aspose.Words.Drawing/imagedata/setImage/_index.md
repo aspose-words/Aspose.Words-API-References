@@ -9,16 +9,6 @@ weight: 210
 url: /nodejs-net/aspose.words.drawing/imagedata/setImage/
 ---
 
-## setImage(image) {#jsimage}
-
-```js
-setImage(image: Aspose.Words.JSImage)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../../aspose.words/jsimage/) |  |
-
 ## setImage(stream) {#buffer}
 
 Sets the image that the shape displays.
@@ -44,6 +34,16 @@ setImage(fileName: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The image file. Can be a file name or a URL. |
+
+## setImage(image) {#jsimage}
+
+```js
+setImage(image: Aspose.Words.JSImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../../aspose.words/jsimage/) |  |
 
 ## Examples
 

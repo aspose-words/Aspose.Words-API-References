@@ -28,6 +28,7 @@ These options have no equivalence in Microsoft Word and might help to produce mo
 
 | Name | Description |
 | --- | --- |
+| [compareListDefinitions](./compareListDefinitions/) | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [ignoreDmlUniqueId](./ignoreDmlUniqueId/) | Specifies whether to ignore difference in DrawingML unique Id. |
 | [ignoreStoreItemId](./ignoreStoreItemId/) | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
 
