@@ -3,7 +3,7 @@ title: DocumentBuilder class
 linktitle: DocumentBuilder class
 articleTitle: DocumentBuilder class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.DocumentBuilder class. Adapts [DocumentBuilder](./) class public API for Node.js porting."
+description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 340
 url: /nodejs-net/aspose.words/documentbuilder/
@@ -11,7 +11,9 @@ url: /nodejs-net/aspose.words/documentbuilder/
 
 ## DocumentBuilder class
 
-Adapts [DocumentBuilder](./) class public API for Node.js porting.
+Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
+To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/nodejs-net/document-builder-overview/) documentation article.
+
 
 
 
@@ -116,9 +118,6 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertHtml(html, useBuilderFormatting)](./insertHtml/#string_boolean) | Inserts an HTML string into the document. |
 |[ insertHtml(html, options)](./insertHtml/#string_htmlinsertoptions) | Inserts an HTML string into the document. Allows to specify additional options. |
 |[ insertHyperlink(displayText, urlOrBookmark, isBookmark)](./insertHyperlink/#string_string_boolean) | Inserts a hyperlink into the document. |
-|[ insertImage(image)](./insertImage/#jsimage) |  |
-|[ insertImage(image, width, height)](./insertImage/#jsimage_number_number) |  |
-|[ insertImage(image, horzPos, left, vertPos, top, width, height, wrapType)](./insertImage/#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) |  |
 |[ insertImage(fileName)](./insertImage/#string) | Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale. |
 |[ insertImage(stream)](./insertImage/#buffer) | Inserts an image from a stream into the document. The image is inserted inline and at 100% scale. |
 |[ insertImage(imageBytes)](./insertImage/#number[]) | Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale. |
@@ -128,6 +127,9 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertImage(fileName, horzPos, left, vertPos, top, width, height, wrapType)](./insertImage/#string_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts an image from a file or URL at the specified position and size. |
 |[ insertImage(stream, horzPos, left, vertPos, top, width, height, wrapType)](./insertImage/#buffer_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts an image from a stream at the specified position and size. |
 |[ insertImage(imageBytes, horzPos, left, vertPos, top, width, height, wrapType)](./insertImage/#number[]_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts an image from a byte array at the specified position and size. |
+|[ insertImage(image)](./insertImage/#jsimage) |  |
+|[ insertImage(image, width, height)](./insertImage/#jsimage_number_number) |  |
+|[ insertImage(image, horzPos, left, vertPos, top, width, height, wrapType)](./insertImage/#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) |  |
 |[ insertNode(node)](./insertNode/#node) | Inserts a node before the cursor. |
 |[ insertOleObject(stream, progId, asIcon, presentation)](./insertOleObject/#buffer_string_boolean_buffer) | Inserts an embedded OLE object from a stream into the document. |
 |[ insertOleObject(fileName, isLinked, asIcon, presentation)](./insertOleObject/#string_boolean_boolean_buffer) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |

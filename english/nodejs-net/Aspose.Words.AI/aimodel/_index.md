@@ -3,7 +3,7 @@ title: AiModel class
 linktitle: AiModel class
 articleTitle: AiModel class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.AI.AiModel class. Represents information about a Generative Language Model."
+description: "Aspose.Words.AI.AiModel class. An abstract class representing the integration with various AI models within the Aspose.Words."
 type: docs
 weight: 10
 url: /nodejs-net/aspose.words.ai/aimodel/
@@ -11,7 +11,7 @@ url: /nodejs-net/aspose.words.ai/aimodel/
 
 ## AiModel class
 
-Represents information about a Generative Language Model.
+An abstract class representing the integration with various AI models within the Aspose.Words.
 
 
 ### Properties

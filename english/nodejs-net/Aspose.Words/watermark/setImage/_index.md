@@ -9,27 +9,6 @@ weight: 30
 url: /nodejs-net/aspose.words/watermark/setImage/
 ---
 
-## setImage(image) {#jsimage}
-
-```js
-setImage(image: Aspose.Words.JSImage)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../jsimage/) |  |
-
-## setImage(image, options) {#jsimage_imagewatermarkoptions}
-
-```js
-setImage(image: Aspose.Words.JSImage, options: Aspose.Words.ImageWatermarkOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../jsimage/) |  |
-| options | [ImageWatermarkOptions](../../imagewatermarkoptions/) |  |
-
 ## setImage(imagePath, options) {#string_imagewatermarkoptions}
 
 Adds Image watermark into the document.
@@ -79,6 +58,27 @@ If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``null``, the waterm
 | exception | condition |
 | --- | --- |
 | RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``null``. |
+
+## setImage(image) {#jsimage}
+
+```js
+setImage(image: Aspose.Words.JSImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../jsimage/) |  |
+
+## setImage(image, options) {#jsimage_imagewatermarkoptions}
+
+```js
+setImage(image: Aspose.Words.JSImage, options: Aspose.Words.ImageWatermarkOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../jsimage/) |  |
+| options | [ImageWatermarkOptions](../../imagewatermarkoptions/) |  |
 
 ## See Also
 

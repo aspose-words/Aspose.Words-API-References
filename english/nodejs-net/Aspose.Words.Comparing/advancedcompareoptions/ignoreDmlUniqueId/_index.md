@@ -5,7 +5,7 @@ articleTitle: ignoreDmlUniqueId property
 second_title: Aspose.Words for Node.js
 description: "AdvancedCompareOptions.ignoreDmlUniqueId property. Specifies whether to ignore difference in DrawingML unique Id."
 type: docs
-weight: 20
+weight: 30
 url: /nodejs-net/aspose.words.comparing/advancedcompareoptions/ignoreDmlUniqueId/
 ---
 

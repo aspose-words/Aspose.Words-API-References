@@ -5,7 +5,7 @@ articleTitle: verticalResolution property
 second_title: Aspose.Words for Node.js
 description: "SignOptions.verticalResolution property. Gets or sets the vertical resolution for the digital signature"
 type: docs
-weight: 120
+weight: 130
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/verticalResolution/
 ---
 

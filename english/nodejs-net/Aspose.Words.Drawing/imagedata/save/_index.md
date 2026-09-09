@@ -9,19 +9,6 @@ weight: 200
 url: /nodejs-net/aspose.words.drawing/imagedata/save/
 ---
 
-## save(stream) {#unknown}
-
-Saves the image into the specified stream.
-
-
-```js
-save(stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream |  | The stream where to save the image to. |
-
 ## save(fileName) {#string}
 
 Saves the image into a file.
@@ -34,6 +21,19 @@ save(fileName: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The file name where to save the image. |
+
+## save(stream) {#unknown}
+
+Saves the image into the specified stream.
+
+
+```js
+save(stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream |  | The stream where to save the image to. |
 
 ## Examples
 

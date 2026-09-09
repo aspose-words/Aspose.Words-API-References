@@ -5,7 +5,7 @@ articleTitle: SignOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.SignOptions class. Allows to specify options for document signing"
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words.digitalsignatures/signoptions/
 ---
 
@@ -36,9 +36,10 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | [signTime](./signTime/) | The date of signing. Default value is **current time** |
 | [signatureLineId](./signatureLineId/) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [signatureLineImage](./signatureLineImage/) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is ``null``. |
+| [timestampSettings](./timestampSettings/) | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is ``null`` and the digital signature will not be time-stamped. |
 | [verticalResolution](./verticalResolution/) | Gets or sets the vertical resolution for the digital signature. Default value is 1200. |
 | [windowsVersion](./windowsVersion/) | Gets or sets the Windows version for the digital signature. Default value is "6.1". |
-| [xmlDsigLevel](./xmlDsigLevel/) | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XmlDSig](../xmldsiglevel/#XmlDSig). |
+| [xmlDsigLevel](./xmlDsigLevel/) | Specifies the level of a digital signature based on the XML-DSig standard. The default value is [XmlDsigLevel.XmlDSig](../xmldsiglevel/#XmlDSig). |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: ignoreStoreItemId property
 second_title: Aspose.Words for Node.js
 description: "AdvancedCompareOptions.ignoreStoreItemId property. Specifies whether to ignore difference in StructuredDocumentTag store item Id."
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.comparing/advancedcompareoptions/ignoreStoreItemId/
 ---
 
