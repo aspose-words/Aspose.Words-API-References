@@ -244,11 +244,11 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ removeExternalSchemaReferences()](./removeExternalSchemaReferences/#default) | Removes external XML schema references from this document. |
 |[ removeMacros()](./removeMacros/#default) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 |[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ save(stream, saveFormat)](./save/#unknown_saveformat) | Saves the document to a stream using the specified format. |
-|[ save(stream, saveOptions)](./save/#unknown_saveoptions) | Saves the document to a stream using the specified save options. |
 |[ save(fileName)](./save/#string) | Saves the document to a file. Automatically determines the save format from the extension. |
 |[ save(fileName, saveFormat)](./save/#string_saveformat) | Saves the document to a file in the specified format. |
 |[ save(fileName, saveOptions)](./save/#string_saveoptions) | Saves the document to a file using the specified save options. |
+|[ save(stream, saveFormat)](./save/#unknown_saveformat) | Saves the document to a stream using the specified format. |
+|[ save(stream, saveOptions)](./save/#unknown_saveoptions) | Saves the document to a stream using the specified save options. |
 |[ selectNodes(xpath)](../compositenode/selectNodes/#string) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ selectSingleNode(xpath)](../compositenode/selectSingleNode/#string) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ startTrackRevisions(author, dateTime)](./startTrackRevisions/#string_date) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureType enumeration. Specifies the type of a digital signature."
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 

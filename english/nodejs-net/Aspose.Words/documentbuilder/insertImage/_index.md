@@ -9,45 +9,6 @@ weight: 400
 url: /nodejs-net/aspose.words/documentbuilder/insertImage/
 ---
 
-## insertImage(image) {#jsimage}
-
-```js
-insertImage(image: Aspose.Words.JSImage)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../jsimage/) |  |
-
-## insertImage(image, width, height) {#jsimage_number_number}
-
-```js
-insertImage(image: Aspose.Words.JSImage, width: number, height: number)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../jsimage/) |  |
-| width | number |  |
-| height | number |  |
-
-## insertImage(image, horzPos, left, vertPos, top, width, height, wrapType) {#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype}
-
-```js
-insertImage(image: Aspose.Words.JSImage, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [JSImage](../../jsimage/) |  |
-| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
-| left | number |  |
-| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
-| top | number |  |
-| width | number |  |
-| height | number |  |
-| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
-
 ## insertImage(fileName) {#string}
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
@@ -302,57 +263,46 @@ You can change the image size, location, positioning method and other settings u
 
 
 
+## insertImage(image) {#jsimage}
+
+```js
+insertImage(image: Aspose.Words.JSImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../jsimage/) |  |
+
+## insertImage(image, width, height) {#jsimage_number_number}
+
+```js
+insertImage(image: Aspose.Words.JSImage, width: number, height: number)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../jsimage/) |  |
+| width | number |  |
+| height | number |  |
+
+## insertImage(image, horzPos, left, vertPos, top, width, height, wrapType) {#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype}
+
+```js
+insertImage(image: Aspose.Words.JSImage, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [JSImage](../../jsimage/) |  |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | number |  |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | number |  |
+| width | number |  |
+| height | number |  |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
+
 ## Examples
-
-Shows how to insert a shape with an image into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Below are two locations where the document builder's "InsertShape" method
-// can source the image that the shape will display.
-// 1 -  Pass a local file system filename of an image file:
-builder.write("Image from local file: ");
-builder.insertImage(base.imageDir + "Logo.jpg");
-builder.writeln();
-
-// 2 -  Pass a URL which points to an image.
-builder.write("Image from a URL: ");
-builder.insertImage(base.imageUrl.toString());
-builder.writeln();
-
-doc.save(base.artifactsDir + "Image.FromUrl.docx");
-```
-
-Shows how to insert a floating image to the center of a page.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-let shape = builder.insertImage(base.imageDir + "Logo.jpg");
-shape.wrapType = aw.Drawing.WrapType.None;
-shape.behindText = true;
-shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
-shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
-shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
-shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
-
-doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
-```
-
-Shows how to insert WebP image.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.insertImage(base.imageDir + "WebP image.webp");
-
-doc.save(base.artifactsDir + "Image.InsertWebpImage.docx");
-```
 
 Shows how to insert an image from the local file system into a document.
 
@@ -413,17 +363,54 @@ gifImage = builder.insertImage(fs.readFileSync(base.imageDir + "Graphics Interch
 builder.document.save(base.artifactsDir + "InsertGif.docx");
 ```
 
-Shows how to insert a shape with an image from a stream into a document.
+Shows how to insert a shape with an image into a document.
 
 ```js
 let doc = new aw.Document();
 let builder = new aw.DocumentBuilder(doc);
 
-let stream = fs.createReadStream(base.imageDir + "Logo.jpg")
-builder.write("Image from stream: ");
-builder.insertImage(stream);
+// Below are two locations where the document builder's "InsertShape" method
+// can source the image that the shape will display.
+// 1 -  Pass a local file system filename of an image file:
+builder.write("Image from local file: ");
+builder.insertImage(base.imageDir + "Logo.jpg");
+builder.writeln();
 
-doc.save(base.artifactsDir + "Image.FromStream.docx");
+// 2 -  Pass a URL which points to an image.
+builder.write("Image from a URL: ");
+builder.insertImage(base.imageUrl.toString());
+builder.writeln();
+
+doc.save(base.artifactsDir + "Image.FromUrl.docx");
+```
+
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
+Shows how to insert WebP image.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.insertImage(base.imageDir + "WebP image.webp");
+
+doc.save(base.artifactsDir + "Image.InsertWebpImage.docx");
 ```
 
 Shows how to insert an image from a stream into a document.
@@ -448,6 +435,19 @@ builder.insertBreak(aw.BreakType.PageBreak);
 builder.insertImage(stream, aw.Drawing.RelativeHorizontalPosition.Margin, 100, aw.Drawing.RelativeVerticalPosition.Margin, 100, 200, 100, aw.Drawing.WrapType.Square);
 
 doc.save(base.artifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
+```
+
+Shows how to insert a shape with an image from a stream into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let stream = fs.createReadStream(base.imageDir + "Logo.jpg")
+builder.write("Image from stream: ");
+builder.insertImage(stream);
+
+doc.save(base.artifactsDir + "Image.FromStream.docx");
 ```
 
 Shows how to insert an image.

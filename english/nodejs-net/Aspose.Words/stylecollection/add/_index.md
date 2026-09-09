@@ -36,6 +36,24 @@ Throws an exception if a style with this name already exists.
 
 ### Examples
 
+Shows how to add a Style to a document's styles collection.
+
+```js
+let doc = new aw.Document();
+
+let styles = doc.styles;
+// Set default parameters for new styles that we may later add to this collection.
+styles.defaultFont.name = "Courier New";
+// If we add a style of the "StyleType.Paragraph", the collection will apply the values of
+// its "DefaultParagraphFormat" property to the style's "ParagraphFormat" property.
+styles.defaultParagraphFormat.firstLineIndent = 15.0;
+// Add a style, and then verify that it has the default settings.
+styles.add(aw.StyleType.Paragraph, "MyStyle");
+
+expect(styles.at(4).font.name).toEqual("Courier New");
+expect(styles.at("MyStyle").paragraphFormat.firstLineIndent).toEqual(15.0);
+```
+
 Shows how to create a list style and use it in a document.
 
 ```js
@@ -90,24 +108,6 @@ builder.writeln("Item 2");
 builder.listFormat.removeNumbers();
 
 builder.document.save(base.artifactsDir + "Lists.CreateAndUseListStyle.docx");
-```
-
-Shows how to add a Style to a document's styles collection.
-
-```js
-let doc = new aw.Document();
-
-let styles = doc.styles;
-// Set default parameters for new styles that we may later add to this collection.
-styles.defaultFont.name = "Courier New";
-// If we add a style of the "StyleType.Paragraph", the collection will apply the values of
-// its "DefaultParagraphFormat" property to the style's "ParagraphFormat" property.
-styles.defaultParagraphFormat.firstLineIndent = 15.0;
-// Add a style, and then verify that it has the default settings.
-styles.add(aw.StyleType.Paragraph, "MyStyle");
-
-expect(styles.at(4).font.name).toEqual("Courier New");
-expect(styles.at("MyStyle").paragraphFormat.firstLineIndent).toEqual(15.0);
 ```
 
 ### See Also
