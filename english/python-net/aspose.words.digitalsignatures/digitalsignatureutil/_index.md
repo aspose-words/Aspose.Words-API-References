@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureUtil class
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureUtil class. Provides methods for signing document"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/
 ---
 
