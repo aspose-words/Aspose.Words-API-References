@@ -1,0 +1,79 @@
+---
+title: "Aspose::Words::Markup::StructuredDocumentTag::get_Tag طريقة"
+linktitle: "get_Tag"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "Aspose::Words::Markup::StructuredDocumentTag::get_Tag طريقة. تحدد علامة مرتبطة بعقدة الـ SDT الحالية. لا يمكن أن تكون فارغة في C++."
+type: docs
+weight: 31000
+url: /ar/cpp/aspose.words.markup/structureddocumenttag/get_tag/
+---
+## StructuredDocumentTag::get_Tag method
+
+
+يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن تكون **null**.
+
+```cpp
+System::String Aspose::Words::Markup::StructuredDocumentTag::get_Tag() const override
+```
+
+
+## أمثلة
+
+
+
+يظهر كيفية إنشاء علامة مستند منسقة في مربع نص عادي وتعديل مظهرها.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// إنشاء علامة مستند منسقة ستحتوي على نص عادي.
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
+
+// ضبط العنوان ولون الإطار الذي يظهر عند تمرير الفأرة فوق علامة المستند المنسقة في Microsoft Word.
+tag->set_Title(u"My plain text");
+tag->set_Color(System::Drawing::Color::get_Magenta());
+
+// تعيين علامة لهذه العلامة المستندية المنسقة، والتي يمكن الحصول عليها
+// كعنصر XML يُسمى "tag"، مع السلسلة أدناه في خاصية "@val" الخاصة به.
+tag->set_Tag(u"MyPlainTextSDT");
+
+// كل علامة مستند منسقة لديها معرف فريد عشوائي.
+ASSERT_TRUE(tag->get_Id() > 0);
+
+// ضبط الخط للنص داخل علامة المستند المنسقة.
+tag->get_ContentsFont()->set_Name(u"Arial");
+
+// ضبط الخط للنص في نهاية علامة المستند المنسقة.
+// أي نص نكتبه في جسم المستند بعد الخروج من العلامة باستخدام مفاتيح السهم سيستخدم هذا الخط.
+tag->get_EndCharacterFont()->set_Name(u"Arial Black");
+
+// بشكل افتراضي، تكون القيمة false وعند الضغط على Enter داخل علامة المستند المنسقة لا يحدث شيء.
+// عند ضبطها على true، يمكن لعلامة المستند المنسقة لدينا أن تحتوي على عدة أسطر.
+
+// اضبط خاصية "Multiline" إلى "false" للسماح فقط بالمحتويات
+// لعلامة المستند المنسقة هذه لتغطية سطر واحد.
+// اضبط خاصية "Multiline" إلى "true" للسماح للعلامة باحتواء عدة أسطر من المحتوى.
+tag->set_Multiline(true);
+
+// اضبط خاصية "Appearance" إلى "SdtAppearance.Tags" لإظهار العلامات حول المحتوى.
+// بشكل افتراضي، تُظهر علامة المستند المهيكلة كصندوق حدود.
+tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->InsertNode(tag);
+
+// أدرج نسخة من علامة المستند المهيكلة في فقرة جديدة.
+auto tagClone = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(System::ExplicitCast<Aspose::Words::Node>(tag)->Clone(true));
+builder->InsertParagraph();
+builder->InsertNode(tagClone);
+
+// استخدم الطريقة "RemoveSelfOnly" لإزالة علامة المستند المهيكلة، مع إبقاء محتوياتها في المستند.
+tagClone->RemoveSelfOnly();
+
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
+```
+
+## انظر أيضًا
+
+* Class [StructuredDocumentTag](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words for C++](../../../)

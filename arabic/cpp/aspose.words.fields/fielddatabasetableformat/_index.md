@@ -1,0 +1,70 @@
+---
+title: "Aspose::Words::Fields::FieldDatabaseTableFormat enum"
+linktitle: "FieldDatabaseTableFormat"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "Aspose::Words::Fields::FieldDatabaseTableFormat enum. تعداد FieldDatabaseTableFormat في C++."
+type: docs
+weight: 127000
+url: /ar/cpp/aspose.words.fields/fielddatabasetableformat/
+---
+## FieldDatabaseTableFormat enum
+
+
+تعداد FieldDatabaseTableFormat.
+
+```cpp
+enum class FieldDatabaseTableFormat
+```
+
+### القيم
+
+| الاسم | القيمة | الوصف |
+| --- | --- | --- |
+| None | 0 |  |
+| Simple1 | 1 |  |
+| Simple2 | 2 |  |
+| Simple3 | 3 |  |
+| Classic1 | 4 |  |
+| Classic2 | 5 |  |
+| Classic3 | 6 |  |
+| Classic4 | 7 |  |
+| Colorful1 | 8 |  |
+| Colorful2 | 9 |  |
+| Colorful3 | 10 |  |
+| Columns1 | 11 |  |
+| Columns2 | 12 |  |
+| Columns3 | 13 |  |
+| Columns4 | 14 |  |
+| Columns5 | 15 |  |
+| Grid1 | 16 |  |
+| Grid2 | 17 |  |
+| Grid3 | 18 |  |
+| Grid4 | 19 |  |
+| Grid5 | 20 |  |
+| Grid6 | 21 |  |
+| Grid7 | 22 |  |
+| Grid8 | 23 |  |
+| List1 | 24 |  |
+| List2 | 25 |  |
+| List3 | 26 |  |
+| List4 | 27 |  |
+| List5 | 28 |  |
+| List6 | 29 |  |
+| List7 | 30 |  |
+| List8 | 31 |  |
+| ThreeDimensionalFx1 | 32 |  |
+| ThreeDimensionalFx2 | 33 |  |
+| ThreeDimensionalFx3 | 34 |  |
+| معاصر | 35 |  |
+| أنيق | 36 |  |
+| محترف | 37 |  |
+| دقيق1 | 38 |  |
+| دقيق2 | 39 |  |
+| ويب1 | 40 |  |
+| ويب2 | 41 |  |
+| ويب3 | 42 |  |
+
+## انظر أيضًا
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words for C++](../../)

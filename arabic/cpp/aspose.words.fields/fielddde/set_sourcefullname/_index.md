@@ -1,0 +1,23 @@
+---
+title: "طريقة Aspose::Words::Fields::FieldDde::set_SourceFullName"
+linktitle: "set_SourceFullName"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "طريقة Aspose::Words::Fields::FieldDde::set_SourceFullName. تحدد الاسم وموقع ملف المصدر في C++."
+type: docs
+weight: 24000
+url: /ar/cpp/aspose.words.fields/fielddde/set_sourcefullname/
+---
+## FieldDde::set_SourceFullName method
+
+
+يضبط اسم وموقع ملف المصدر.
+
+```cpp
+void Aspose::Words::Fields::FieldDde::set_SourceFullName(const System::String &value)
+```
+
+## انظر أيضًا
+
+* Class [FieldDde](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
