@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Saving::PdfSaveOptions::set_EncryptionDetails method"
+linktitle: "set_EncryptionDetails"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "Aspose::Words::Saving::PdfSaveOptions::set_EncryptionDetails method. دالة تعيين لـ Aspose::Words::Saving::PdfSaveOptions::get_EncryptionDetails في C++."
+type: docs
+weight: 48000
+url: /ar/cpp/aspose.words.saving/pdfsaveoptions/set_encryptiondetails/
+---
+## PdfSaveOptions::set_EncryptionDetails method
+
+
+دالة تعيين لـ [Aspose::Words::Saving::PdfSaveOptions::get_EncryptionDetails](../get_encryptiondetails/).
+
+```cpp
+void Aspose::Words::Saving::PdfSaveOptions::set_EncryptionDetails(const System::SharedPtr<Aspose::Words::Saving::PdfEncryptionDetails> &value)
+```
+
+## انظر أيضًا
+
+* Class [PdfEncryptionDetails](../../pdfencryptiondetails/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)

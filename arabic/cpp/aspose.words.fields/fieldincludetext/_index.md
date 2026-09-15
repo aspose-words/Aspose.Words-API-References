@@ -1,0 +1,72 @@
+---
+title: "فئة Aspose::Words::Fields::FieldIncludeText"
+linktitle: "FieldIncludeText"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "فئة Aspose::Words::Fields::FieldIncludeText. تنفّذ حقل INCLUDETEXT. لمعرفة المزيد، زر مقالة الوثائق في C++."
+type: docs
+weight: 58000
+url: /ar/cpp/aspose.words.fields/fieldincludetext/
+---
+## FieldIncludeText class
+
+
+ينفذ حقل INCLUDETEXT. لمعرفة المزيد، قم بزيارة مقالة الوثائق [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/).
+
+```cpp
+class FieldIncludeText : public Aspose::Words::Fields::Field,
+                         public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
+                         public Aspose::Words::Fields::IFieldIncludeTextCode
+```
+
+## الطرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [get_BookmarkName](./get_bookmarkname/)() override | يحصل على اسم العلامة المرجعية في المستند لتضمينه. |
+| [get_DisplayResult](../field/get_displayresult/)() | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
+| [get_Encoding](./get_encoding/)() | يحصل على الترميز المطبق على البيانات داخل الملف المشار إليه. |
+| [get_End](../field/get_end/)() const | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [get_FieldEnd](../field/get_fieldend/)() const | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [get_FieldStart](../field/get_fieldstart/)() const | يحصل على العقدة التي تمثل بداية الحقل. |
+| [get_Format](../field/get_format/)() | يحصل على كائن [FieldFormat](../fieldformat/) الذي يوفّر وصولًا من نوع إلى تنسيق الحقل. |
+| [get_IsDirty](../field/get_isdirty/)() | يحصل أو يعيّن ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي أُجريت على المستند. |
+| [get_IsLocked](../field/get_islocked/)() | يحصل أو يعيّن ما إذا كان الحقل مقفلًا (يجب عدم إعادة حساب نتيجته). |
+| [get_LocaleId](../field/get_localeid/)() | يحصل أو يعيّن معرف اللغة (LCID) للحقل. |
+| [get_LockFields](./get_lockfields/)() override | يحصل على ما إذا كان يجب منع حقول المستند المضمّن من التحديث. |
+| [get_MimeType](./get_mimetype/)() | يحصل على نوع MIME للملف المشار إليه. |
+| [get_NamespaceMappings](./get_namespacemappings/)() override | يحصل على تعيينات مساحة الاسم لاستعلامات XPath. |
+| [get_Result](../field/get_result/)() | يحصل أو يعيّن النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [get_Separator](../field/get_separator/)() | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن تكون **null**. |
+| [get_SourceFullName](./get_sourcefullname/)() override | يحصل على موقع المستند باستخدام IRI. |
+| [get_Start](../field/get_start/)() const | يحصل على العقدة التي تمثل بداية الحقل. |
+| [get_TextConverter](./get_textconverter/)() override | يحصل على اسم محول النص لتنسيق الملف المضمّن. |
+| virtual [get_Type](../field/get_type/)() const | يحصل على نوع حقل Microsoft Word. |
+| [get_XPath](./get_xpath/)() override | يحصل على XPath للجزء المطلوب من ملف XML. |
+| [get_XslTransformation](./get_xsltransformation/)() override | يحصل على موقع تحويل XSL لتنسيق بيانات XML. |
+| [GetFieldCode](../field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من شفرة الحقل ونتيجة الحقول الفرعية. |
+| [GetFieldCode](../field/getfieldcode/)(bool) | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| virtual [Remove](../field/remove/)() | يزيل الحقل من المستند. يعيد عقدة مباشرةً بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير لعقدة الوالد، يعيد الفقرة الأم. إذا كان الحقل قد أُزيل بالفعل، يعيد **null**. |
+| [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | يضبط اسم العلامة المرجعية في المستند لتضمينه. |
+| [set_Encoding](./set_encoding/)(const System::String\&) | يضبط الترميز المطبق على البيانات داخل الملف المشار إليه. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | مُعيّن لـ [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsLocked](../field/set_islocked/)(bool) | مُعيّن لـ [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
+| [set_LocaleId](../field/set_localeid/)(int32_t) | مُعيّن لـ [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
+| [set_LockFields](./set_lockfields/)(bool) | يضبط ما إذا كان يجب منع حقول المستند المضمّن من التحديث. |
+| [set_MimeType](./set_mimetype/)(const System::String\&) | يضبط نوع MIME للملف المشار إليه. |
+| [set_NamespaceMappings](./set_namespacemappings/)(const System::String\&) | يضبط تعيينات مساحة الاسم لاستعلامات XPath. |
+| [set_Result](../field/set_result/)(const System::String\&) | مُعيّن لـ [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
+| [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | يضبط موقع المستند باستخدام IRI. |
+| [set_TextConverter](./set_textconverter/)(const System::String\&) | يضبط اسم محول النص لتنسيق الملف المضمن. |
+| [set_XPath](./set_xpath/)(const System::String\&) | يضبط XPath للجزء المطلوب من ملف XML. |
+| [set_XslTransformation](./set_xsltransformation/)(const System::String\&) | يضبط موقع تحويل XSL لتنسيق بيانات XML. |
+| static [Type](./type/)() |  |
+| [Unlink](../field/unlink/)() | ينفّذ فك ربط الحقل. |
+| [Update](../field/update/)() | ينفّذ تحديث الحقل. يطرح استثناءً إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../field/update/)(bool) | يقوم بتنفيذ تحديث الحقل. يُطلق استثناء إذا كان الحقل قيد التحديث بالفعل. |
+## انظر أيضًا
+
+* Class [Field](../field/)
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words for C++](../../)

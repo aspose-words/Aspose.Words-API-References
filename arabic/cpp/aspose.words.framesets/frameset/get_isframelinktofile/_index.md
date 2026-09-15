@@ -1,0 +1,46 @@
+---
+title: "طريقة Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile"
+linktitle: "get_IsFrameLinkToFile"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "طريقة Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile. يحصل على أو يعيّن قيمة تشير إلى ما إذا كان عنوان URL لصفحة الويب أو اسم ملف المستند المحدد في خاصية FrameDefaultUrl هو مورد خارجي يرتبط به الإطار في C++."
+type: docs
+weight: 5000
+url: /ar/cpp/aspose.words.framesets/frameset/get_isframelinktofile/
+---
+## Frameset::get_IsFrameLinkToFile method
+
+
+يحصل على أو يعيّن قيمة تشير إلى ما إذا كان عنوان URL لصفحة الويب أو اسم ملف المستند المحدد في خاصية [FrameDefaultUrl](../get_framedefaulturl/) هو مورد خارجي يرتبط به الإطار.
+
+```cpp
+bool Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile()
+```
+
+
+## أمثلة
+
+
+
+يوضح كيفية الوصول إلى الإطارات داخل الصفحة.
+```cpp
+// المستند يحتوي على عدة إطارات مع روابط إلى مستندات أخرى.
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Frameset.docx");
+
+ASSERT_EQ(3, doc->get_Frameset()->get_ChildFramesets()->get_Count());
+// يمكننا التحقق من عنوان URL الافتراضي (عنوان URL لصفحة ويب أو مستند محلي) أو ما إذا كان الإطار موردًا خارجيًا.
+ASSERT_EQ(u"https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx", doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->get_FrameDefaultUrl());
+ASSERT_TRUE(doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->get_IsFrameLinkToFile());
+
+ASSERT_EQ(u"Document.docx", doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_FrameDefaultUrl());
+ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameLinkToFile());
+
+// تغيير الخصائص لإحدى إطاراتنا.
+doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
+doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
+```
+
+## انظر أيضًا
+
+* Class [Frameset](../)
+* Namespace [Aspose::Words::Framesets](../../)
+* Library [Aspose.Words for C++](../../../)
