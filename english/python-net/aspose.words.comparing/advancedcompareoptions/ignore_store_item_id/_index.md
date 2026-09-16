@@ -5,7 +5,7 @@ articleTitle: ignore_store_item_id property
 second_title: Aspose.Words for Python
 description: "AdvancedCompareOptions.ignore_store_item_id property. Specifies whether to ignore difference in StructuredDocumentTag store item Id."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/
 ---
 

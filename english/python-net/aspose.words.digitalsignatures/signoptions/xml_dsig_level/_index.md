@@ -3,15 +3,15 @@ title: SignOptions.xml_dsig_level property
 linktitle: xml_dsig_level property
 articleTitle: xml_dsig_level property
 second_title: Aspose.Words for Python
-description: "SignOptions.xml_dsig_level property. Specifies the level of a digital signature based on XML-DSig standard"
+description: "SignOptions.xml_dsig_level property. Specifies the level of a digital signature based on the XML-DSig standard"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/
 ---
 
 ## SignOptions.xml_dsig_level property
 
-Specifies the level of a digital signature based on XML-DSig standard.
+Specifies the level of a digital signature based on the XML-DSig standard.
 The default value is [XmlDsigLevel.XML_D_SIG](../../xmldsiglevel/#XML_D_SIG).
 
 
@@ -29,7 +29,12 @@ def xml_dsig_level(self, value: aspose.words.digitalsignatures.XmlDsigLevel):
 
 ### Remarks
 
-Different levels of XAdES signatures can be created starting from Office 2010.
+Different levels of XAdES signatures can be created starting with Office 2010.
+
+This is only relevant for the following document formats: DOC, DOCX, and XPS.
+It is ignored in other document formats, which always produce a plain XML-DSig signature regardless of this setting.
+
+
 
 
 ### Examples
