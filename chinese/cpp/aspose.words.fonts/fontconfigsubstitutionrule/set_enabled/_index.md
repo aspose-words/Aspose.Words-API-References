@@ -1,0 +1,61 @@
+---
+title: "Aspose::Words::Fonts::FontConfigSubstitutionRule::set_Enabled 方法"
+linktitle: "set_Enabled"
+second_title: "Aspose.Words for C++ API 参考"
+description: "Aspose::Words::Fonts::FontConfigSubstitutionRule::set_Enabled 方法。指定该规则在 C++ 中是否启用。"
+type: docs
+weight: 6000
+url: /zh/cpp/aspose.words.fonts/fontconfigsubstitutionrule/set_enabled/
+---
+## FontConfigSubstitutionRule::set_Enabled method
+
+
+指定规则是否已启用。
+
+```cpp
+void Aspose::Words::Fonts::FontConfigSubstitutionRule::set_Enabled(bool value) override
+```
+
+
+## 示例
+
+
+
+显示操作系统依赖的字体配置替代。
+```cpp
+auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
+System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> fontConfigSubstitution = fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution();
+
+bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S, System::PlatformID::Win32Windows, System::PlatformID::WinCE})->LINQ_Any(static_cast<System::Func<System::PlatformID, bool>>(static_cast<std::function<bool(System::PlatformID p)>>([](System::PlatformID p) -> bool
+{
+    return System::Environment::get_OSVersion().get_Platform() == p;
+})));
+
+// 该 FontConfigSubstitutionRule 对象在 Windows/非 Windows 平台上的工作方式不同。
+// 在 Windows 上不可用。
+if (isWindows)
+{
+    ASSERT_FALSE(fontConfigSubstitution->get_Enabled());
+    ASSERT_FALSE(fontConfigSubstitution->IsFontConfigAvailable());
+}
+
+bool isLinuxOrMac = System::MakeArray<System::PlatformID>({System::PlatformID::Unix, System::PlatformID::MacOSX})->LINQ_Any(static_cast<System::Func<System::PlatformID, bool>>(static_cast<std::function<bool(System::PlatformID p)>>([](System::PlatformID p) -> bool
+{
+    return System::Environment::get_OSVersion().get_Platform() == p;
+})));
+
+// 在 Linux/Mac 上，我们可以访问它，并能够执行操作。
+if (isLinuxOrMac)
+{
+    ASSERT_TRUE(fontConfigSubstitution->get_Enabled());
+    ASSERT_TRUE(fontConfigSubstitution->IsFontConfigAvailable());
+
+    fontConfigSubstitution->ResetCache();
+}
+```
+
+## 另见
+
+* Class [FontConfigSubstitutionRule](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words for C++](../../../)
