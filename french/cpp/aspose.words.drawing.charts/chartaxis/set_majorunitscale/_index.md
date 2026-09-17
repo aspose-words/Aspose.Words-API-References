@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Drawing::Charts::ChartAxis::set_MajorUnitScale méthode"
+linktitle: "set_MajorUnitScale"
+second_title: "Référence de l'API Aspose.Words pour C++"
+description: "Aspose::Words::Drawing::Charts::ChartAxis::set_MajorUnitScale méthode. Mutateur pour Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale en C++."
+type: docs
+weight: 43000
+url: /fr/cpp/aspose.words.drawing.charts/chartaxis/set_majorunitscale/
+---
+## ChartAxis::set_MajorUnitScale method
+
+
+Mutateur pour [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale](../get_majorunitscale/).
+
+```cpp
+void Aspose::Words::Drawing::Charts::ChartAxis::set_MajorUnitScale(Aspose::Words::Drawing::Charts::AxisTimeUnit value)
+```
+
+## Voir aussi
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
+* Class [ChartAxis](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
