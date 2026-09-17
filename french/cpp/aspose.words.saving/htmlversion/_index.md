@@ -1,0 +1,93 @@
+---
+title: "Aspose::Words::Saving::HtmlVersion enum"
+linktitle: "HtmlVersion"
+second_title: "Référence de l'API Aspose.Words pour C++"
+description: "Aspose::Words::Saving::HtmlVersion enum. Indique la version de HTML utilisée lors de l'enregistrement du document aux formats Html et Mhtml en C++."
+type: docs
+weight: 62000
+url: /fr/cpp/aspose.words.saving/htmlversion/
+---
+## HtmlVersion enum
+
+
+Indique la version de HTML utilisée lors de l'enregistrement du document aux formats [Html](../../aspose.words/saveformat/) et [Mhtml](../../aspose.words/saveformat/).
+
+```cpp
+enum class HtmlVersion
+```
+
+### Valeurs
+
+| Nom | Valeur | Description |
+| --- | --- | --- |
+| Xhtml | 0 | Enregistre le document conformément à la norme XHTML 1.0 Transitional. |
+| Html5 | 1 | Enregistre le document conformément à la norme HTML 5. |
+
+
+## Exemples
+
+
+
+Montre comment enregistrer un document dans une version spécifique de HTML.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+options->set_HtmlVersion(htmlVersion);
+options->set_PrettyFormat(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.HtmlVersions.html", options);
+
+// Nos documents HTML présenteront de légères différences pour être compatibles avec différentes versions de HTML.
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.HtmlVersions.html");
+
+switch (htmlVersion)
+{
+    case Aspose::Words::Saving::HtmlVersion::Html5:
+        ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
+        ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
+        ASSERT_TRUE(outDocContents.Contains(u"<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        break;
+
+    case Aspose::Words::Saving::HtmlVersion::Xhtml:
+        ASSERT_TRUE(outDocContents.Contains(u"<a name=\"_Toc76372689\"></a>"));
+        ASSERT_TRUE(outDocContents.Contains(u"<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
+        ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
+        break;
+
+}
+```
+
+
+Montre comment afficher une en-tête DOCTYPE lors de la conversion de documents vers la norme Xhtml 1.0 transitional.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Hello world!");
+
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+options->set_HtmlVersion(Aspose::Words::Saving::HtmlVersion::Xhtml);
+options->set_ExportXhtmlTransitional(showDoctypeDeclaration);
+options->set_PrettyFormat(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+// Notre document ne contiendra une en-tête de déclaration DOCTYPE que si nous avons défini le drapeau "ExportXhtmlTransitional" sur "true".
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html");
+System::String newLine = System::Environment::get_NewLine();
+
+if (showDoctypeDeclaration)
+{
+    ASSERT_TRUE(outDocContents.Contains(System::String::Format(u"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{0}", newLine) + System::String::Format(u"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{0}", newLine) + u"<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
+}
+else
+{
+    ASSERT_TRUE(outDocContents.Contains(u"<html>"));
+}
+```
+
+## Voir aussi
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words for C++](../../)

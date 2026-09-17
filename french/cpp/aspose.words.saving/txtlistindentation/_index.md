@@ -1,0 +1,72 @@
+---
+title: "Classe Aspose::Words::Saving::TxtListIndentation"
+linktitle: "TxtListIndentation"
+second_title: "Référence de l'API Aspose.Words pour C++"
+description: "Classe Aspose::Words::Saving::TxtListIndentation. Spécifie comment les niveaux de liste sont indentés lorsque le document est exporté au format Texte. Pour en savoir plus, consultez l'article de documentation en C++."
+type: docs
+weight: 32000
+url: /fr/cpp/aspose.words.saving/txtlistindentation/
+---
+## TxtListIndentation class
+
+
+Spécifie comment les niveaux de liste sont indentés lorsque le document est exporté au format [Texte](../../aspose.words/saveformat/) . Pour en savoir plus, consultez l'article de documentation [Enregistrer un document](https://docs.aspose.com/words/cpp/save-a-document/).
+
+```cpp
+class TxtListIndentation : public System::Object
+```
+
+## Méthodes
+
+| Méthode | Description |
+| --- | --- |
+| [get_Character](./get_character/)() const | Obtient ou définit le caractère à utiliser pour l'indentation des niveaux de liste. La valeur par défaut est '\0', ce qui signifie qu'il n'y a aucune indentation. |
+| [get_Count](./get_count/)() const | Obtient ou définit combien de [Caractère](./get_character/) utiliser comme indentation par niveau de liste. La valeur par défaut est 0, ce qui signifie aucune indentation. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_Character](./set_character/)(char16_t) | Définisseur pour [Aspose::Words::Saving::TxtListIndentation::get_Character](./get_character/). |
+| [set_Count](./set_count/)(int32_t) | Définisseur pour [Aspose::Words::Saving::TxtListIndentation::get_Count](./get_count/). |
+| [TxtListIndentation](./txtlistindentation/)() |  |
+| static [Type](./type/)() |  |
+
+## Exemples
+
+
+
+Montre comment configurer l'indentation des listes lors de l'enregistrement d'un document en texte brut.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Créez une liste avec trois niveaux d'indentation.
+builder->get_ListFormat()->ApplyNumberDefault();
+builder->Writeln(u"Item 1");
+builder->get_ListFormat()->ListIndent();
+builder->Writeln(u"Item 2");
+builder->get_ListFormat()->ListIndent();
+builder->Write(u"Item 3");
+
+// Créez un objet "TxtSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// pour modifier la façon dont nous enregistrons le document en texte brut.
+auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
+
+// Définissez la propriété "Character" pour assigner un caractère à utiliser
+// pour le remplissage qui simule l'indentation des listes en texte brut.
+txtSaveOptions->get_ListIndentation()->set_Character(u' ');
+
+// Définissez la propriété "Count" pour spécifier le nombre de fois
+// de placer le caractère de remplissage pour chaque niveau d'indentation de liste.
+txtSaveOptions->get_ListIndentation()->set_Count(3);
+
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.TxtListIndentation.txt");
+System::String newLine = System::Environment::get_NewLine();
+
+ASSERT_EQ(System::String::Format(u"1. Item 1{0}", newLine) + System::String::Format(u"   a. Item 2{0}", newLine) + System::String::Format(u"      i. Item 3{0}", newLine), docText);
+```
+
+## Voir aussi
+
+* Namespace [Aspose::Words::Saving](../)
+* Library [Aspose.Words for C++](../../)

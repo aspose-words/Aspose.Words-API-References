@@ -1,0 +1,85 @@
+---
+title: "Aspose::Words::Fields::FieldIndex::get_UseYomi méthode"
+linktitle: "get_UseYomi"
+second_title: "Référence de l'API Aspose.Words pour C++"
+description: "Aspose::Words::Fields::FieldIndex::get_UseYomi méthode. Obtient ou définit si l'utilisation du texte yomi pour les entrées d'index doit être activée en C++."
+type: docs
+weight: 17000
+url: /fr/cpp/aspose.words.fields/fieldindex/get_useyomi/
+---
+## FieldIndex::get_UseYomi method
+
+
+Obtient ou définit s'il faut activer l'utilisation du texte yomi pour les entrées d'index.
+
+```cpp
+bool Aspose::Words::Fields::FieldIndex::get_UseYomi()
+```
+
+
+## Exemples
+
+
+
+Montre comment trier les entrées du champ INDEX phonétiquement.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
+// et le numéro de la page contenant le champ XE à droite.
+// L'entrée INDEX collectera tous les champs XE avec des valeurs correspondantes dans la propriété "Text"
+// en une seule entrée plutôt que de créer une entrée pour chaque champ XE.
+auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndex, true));
+
+// Le tableau INDEX trie automatiquement ses entrées par les valeurs de leurs propriétés Text par ordre alphabétique.
+// Définissez le tableau INDEX pour trier les entrées phonétiquement en utilisant le Hiragana.
+index->set_UseYomi(sortEntriesUsingYomi);
+
+if (sortEntriesUsingYomi)
+{
+    ASSERT_EQ(u" INDEX  \\y", index->GetFieldCode());
+}
+else
+{
+    ASSERT_EQ(u" INDEX ", index->GetFieldCode());
+}
+
+// Insérez 4 champs XE, qui apparaîtront comme des entrées dans le sommaire du champ INDEX.
+// La propriété "Text" peut contenir l'orthographe d'un mot en Kanji, dont la prononciation peut être ambiguë,
+// tandis que la version "Yomi" du mot indiquera exactement comment il se prononce en utilisant le Hiragana.
+// Si nous définissons notre champ INDEX pour utiliser Yomi, il triera ces entrées
+// par la valeur de leurs propriétés Yomi, au lieu de leurs valeurs Text.
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+indexEntry->set_Text(u"愛子");
+indexEntry->set_Yomi(u"あ");
+
+ASSERT_EQ(u" XE  愛子 \\y あ", indexEntry->GetFieldCode());
+
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+indexEntry->set_Text(u"明美");
+indexEntry->set_Yomi(u"あ");
+
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+indexEntry->set_Text(u"恵美");
+indexEntry->set_Yomi(u"え");
+
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+indexEntry->set_Text(u"愛美");
+indexEntry->set_Yomi(u"え");
+
+doc->UpdatePageLayout();
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Yomi.docx");
+```
+
+## Voir aussi
+
+* Class [FieldIndex](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
