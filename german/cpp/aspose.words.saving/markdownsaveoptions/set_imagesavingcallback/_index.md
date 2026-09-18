@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback Methode"
+linktitle: "set_ImageSavingCallback"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback Methode. Ermöglicht die Kontrolle, wie Bilder gespeichert werden, wenn ein Dokument im Markdown‑Format in C++ gespeichert wird."
+type: docs
+weight: 12000
+url: /de/cpp/aspose.words.saving/markdownsaveoptions/set_imagesavingcallback/
+---
+## MarkdownSaveOptions::set_ImageSavingCallback method
+
+
+Ermöglicht die Kontrolle, wie Bilder gespeichert werden, wenn ein Dokument im [Markdown](../../../aspose.words/saveformat/) Format gespeichert wird.
+
+```cpp
+void Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> &value)
+```
+
+## Siehe auch
+
+* Interface [IImageSavingCallback](../../iimagesavingcallback/)
+* Class [MarkdownSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)
