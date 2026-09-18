@@ -1,0 +1,70 @@
+---
+title: "Aspose::Words::LowCode::Replacer Klasse"
+linktitle: "Replacer"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::LowCode::Replacer Klasse. Bietet Methoden, die dazu bestimmt sind, Text im Dokument in C++ zu finden und zu ersetzen."
+type: docs
+weight: 1250
+url: /de/cpp/aspose.words.lowcode/replacer/
+---
+## Replacer class
+
+
+Stellt Methoden bereit, die zum Suchen und Ersetzen von Text im Dokument vorgesehen sind.
+
+```cpp
+class Replacer : public Aspose::Words::LowCode::Processor
+```
+
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::ReplacerContext\>\&) | Erstellt eine neue Instanz des Ersetzungsprozessors. |
+| [Execute](../processor/execute/)() | Führt die Prozessoraktion aus. |
+| [Execute](../processor/execute/)(System::Threading::CancellationToken) | Führt die Prozessoraktion aus und ermöglicht das Abbrechen des Dokumentverarbeitungsvorgangs mithilfe des angegebenen Abbruchtokens. |
+| [From](../processor/from/)(const System::String\&) | Gibt das Eingabedokument für die Verarbeitung an. |
+| [From](../processor/from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Gibt das Eingabedokument für die Verarbeitung an. |
+| [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Gibt das Eingabedokument für die Verarbeitung an. |
+| [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Gibt das Eingabedokument für die Verarbeitung an. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei mithilfe eines regulären Ausdrucks. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring im Eingabestream mithilfe eines regulären Ausdrucks, mit dem angegebenen Speicherformat und zusätzlichen Optionen. |
+| static [ReplaceToImages](./replacetoimages/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::String\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen Zeichenkettenmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen regulären Ausdrucksmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen regulären Ausdrucksmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) | Ersetzt alle Vorkommen eines angegebenen regulären Ausdrucksmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| static [ReplaceToImages](./replacetoimages/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>\&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) | Ersetzt alle Vorkommen eines angegebenen regulären Ausdrucksmusters durch einen Ersetzungsstring in der Eingabedatei. Gibt die Ausgabe als Bilder aus. |
+| [To](../processor/to/)(const System::String\&) | Gibt die Ausgabedatei für den Prozessor an. |
+| [To](../processor/to/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Gibt die Ausgabedatei für den Prozessor an. |
+| [To](../processor/to/)(const System::String\&, Aspose::Words::SaveFormat) | Gibt die Ausgabedatei für den Prozessor an. |
+| [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Gibt den Ausgabestream für den Prozessor an. |
+| [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) | Gibt den Ausgabestream für den Prozessor an. |
+| [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) |  |
+| [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\>\&, Aspose::Words::SaveFormat) |  |
+| static [Type](./type/)() |  |
+## Siehe auch
+
+* Class [Processor](../processor/)
+* Namespace [Aspose::Words::LowCode](../)
+* Library [Aspose.Words for C++](../../)

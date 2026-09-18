@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Tables::RowCollection::Is‑Methode"
+linktitle: "Is"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Wie man die Is‑Methode der Klasse Aspose::Words::Tables::RowCollection in C++ verwendet."
+type: docs
+weight: 4000
+url: /de/cpp/aspose.words.tables/rowcollection/is/
+---
+## RowCollection::Is method
+
+
+
+
+```cpp
+virtual bool Aspose::Words::Tables::RowCollection::Is(const System::TypeInfo &target) const override
+```
+
+## Siehe auch
+
+* Class [RowCollection](../)
+* Namespace [Aspose::Words::Tables](../../)
+* Library [Aspose.Words for C++](../../../)

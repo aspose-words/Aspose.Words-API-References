@@ -1,0 +1,51 @@
+---
+title: "Aspose::Words::CompositeNode::get_HasChildNodes Methode"
+linktitle: "get_HasChildNodes"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::CompositeNode::get_HasChildNodes Methode. Gibt true zurück, wenn dieser Knoten beliebige untergeordnete Knoten in C++ hat."
+type: docs
+weight: 6000
+url: /de/cpp/aspose.words/compositenode/get_haschildnodes/
+---
+## CompositeNode::get_HasChildNodes method
+
+
+Gibt **true** zurück, wenn dieser Knoten Kindknoten hat.
+
+```cpp
+bool Aspose::Words::CompositeNode::get_HasChildNodes()
+```
+
+
+## Beispiele
+
+
+
+Zeigt, wie man die Zeilen aus zwei Tabellen zu einer kombiniert.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+
+// Unten sind zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
+// 1 -  Aus der "Tables"-Sammlung eines Body-Knotens:
+System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+
+// 2 -  Verwendung der "GetChild"-Methode:
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
+
+// Füge alle Zeilen der aktuellen Tabelle zur nächsten hinzu.
+while (secondTable->get_HasChildNodes())
+{
+    firstTable->get_Rows()->Add(secondTable->get_FirstRow());
+}
+
+// Entferne den leeren Tabellenkontainer.
+secondTable->Remove();
+
+doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
+```
+
+## Siehe auch
+
+* Class [CompositeNode](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

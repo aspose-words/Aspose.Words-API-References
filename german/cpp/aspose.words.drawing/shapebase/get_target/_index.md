@@ -1,0 +1,47 @@
+---
+title: "Aspose::Words::Drawing::ShapeBase::get_Target Methode"
+linktitle: "get_Target"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::Drawing::ShapeBase::get_Target Methode. Liest oder setzt den Zielrahmen für den Hyperlink der Form in C++."
+type: docs
+weight: 50000
+url: /de/cpp/aspose.words.drawing/shapebase/get_target/
+---
+## ShapeBase::get_Target method
+
+
+Ruft das Ziel-Frame für den Form-Hyperlink ab oder legt es fest.
+
+```cpp
+System::String Aspose::Words::Drawing::ShapeBase::get_Target()
+```
+
+## Hinweise
+
+
+Der Standardwert ist eine leere Zeichenfolge.
+
+## Beispiele
+
+
+
+Zeigt, wie man eine Form einfügt, die ein Bild enthält und zudem ein Hyperlink ist.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+shape->set_HRef(u"https://forum.aspose.com/");
+shape->set_Target(u"New Window");
+shape->set_ScreenTip(u"Aspose.Words Support Forums");
+
+// Strg + Linksklick auf die Form in Microsoft Word öffnet ein neues Webbrowser-Fenster
+// und führt uns zum Hyperlink in der "HRef"-Eigenschaft.
+doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
+```
+
+## Siehe auch
+
+* Class [ShapeBase](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words for C++](../../../)
