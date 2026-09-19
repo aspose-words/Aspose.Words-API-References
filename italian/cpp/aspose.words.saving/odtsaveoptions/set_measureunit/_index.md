@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Saving::OdtSaveOptions::set_MeasureUnit method"
+linktitle: "set_MeasureUnit"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Aspose::Words::Saving::OdtSaveOptions::set_MeasureUnit method. Setter per Aspose::Words::Saving::OdtSaveOptions::get_MeasureUnit in C++."
+type: docs
+weight: 10000
+url: /it/cpp/aspose.words.saving/odtsaveoptions/set_measureunit/
+---
+## OdtSaveOptions::set_MeasureUnit method
+
+
+Setter per [Aspose::Words::Saving::OdtSaveOptions::get_MeasureUnit](../get_measureunit/).
+
+```cpp
+void Aspose::Words::Saving::OdtSaveOptions::set_MeasureUnit(Aspose::Words::Saving::OdtSaveMeasureUnit value)
+```
+
+## Vedi anche
+
+* Enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
+* Class [OdtSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)
