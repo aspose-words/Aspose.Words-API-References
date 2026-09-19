@@ -1,0 +1,68 @@
+---
+title: "Aspose::Words::EditableRangeStart::get_EditableRange metodo"
+linktitle: "get_EditableRange"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Aspose::Words::EditableRangeStart::get_EditableRange metodo. Ottiene l'oggetto facciata che incapsula questo inizio e fine di intervallo modificabile in C++."
+type: docs
+weight: 3000
+url: /it/cpp/aspose.words/editablerangestart/get_editablerange/
+---
+## EditableRangeStart::get_EditableRange method
+
+
+Ottiene l'oggetto facciata che incapsula l'inizio e la fine di questo intervallo modificabile.
+
+```cpp
+System::SharedPtr<Aspose::Words::EditableRange> Aspose::Words::EditableRangeStart::get_EditableRange()
+```
+
+
+## Esempi
+
+
+
+Mostra come lavorare con un intervallo modificabile.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only,") + u" we cannot edit this paragraph without the password.");
+
+// Gli intervalli modificabili ci consentono di lasciare parti di documenti protetti aperte per la modifica.
+System::SharedPtr<Aspose::Words::EditableRangeStart> editableRangeStart = builder->StartEditableRange();
+builder->Writeln(u"This paragraph is inside an editable range, and can be edited.");
+System::SharedPtr<Aspose::Words::EditableRangeEnd> editableRangeEnd = builder->EndEditableRange();
+
+// Un intervallo modificabile ben formato ha un nodo di inizio e un nodo di fine.
+// Questi nodi hanno ID corrispondenti e includono nodi modificabili.
+System::SharedPtr<Aspose::Words::EditableRange> editableRange = editableRangeStart->get_EditableRange();
+
+ASSERT_EQ(editableRangeStart->get_Id(), editableRange->get_Id());
+ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_Id());
+
+// Le diverse parti dell'intervallo modificabile sono collegate tra loro.
+ASSERT_EQ(editableRangeStart->get_Id(), editableRange->get_EditableRangeStart()->get_Id());
+ASSERT_EQ(editableRangeStart->get_Id(), editableRangeEnd->get_EditableRangeStart()->get_Id());
+ASSERT_EQ(editableRange->get_Id(), editableRangeStart->get_EditableRange()->get_Id());
+ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_EditableRangeEnd()->get_Id());
+
+// Possiamo accedere ai tipi di nodo di ogni parte in questo modo. L'intervallo modificabile stesso non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e i loro contenuti inclusi.
+ASSERT_EQ(Aspose::Words::NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
+ASSERT_EQ(Aspose::Words::NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
+
+builder->Writeln(u"This paragraph is outside the editable range, and cannot be edited.");
+
+doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
+
+// Rimuovi un intervallo modificabile. Tutti i nodi che erano all'interno dell'intervallo rimarranno intatti.
+editableRange->Remove();
+```
+
+## Vedi anche
+
+* Class [EditableRange](../../editablerange/)
+* Class [EditableRangeStart](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
