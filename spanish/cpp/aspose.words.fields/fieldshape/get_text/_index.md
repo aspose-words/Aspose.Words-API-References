@@ -1,0 +1,91 @@
+---
+title: "Aspose::Words::Fields::FieldShape::get_Text método"
+linktitle: "get_Text"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Aspose::Words::Fields::FieldShape::get_Text método. Obtiene o establece el texto a recuperar en C++."
+type: docs
+weight: 2000
+url: /es/cpp/aspose.words.fields/fieldshape/get_text/
+---
+## FieldShape::get_Text method
+
+
+Obtiene o establece el texto a recuperar.
+
+```cpp
+System::String Aspose::Words::Fields::FieldShape::get_Text()
+```
+
+
+## Ejemplos
+
+
+
+Muestra cómo crear listas compatibles con idiomas de derecha a izquierda usando campos BIDIOUTLINE.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// El campo BIDIOUTLINE numera párrafos como los campos AUTONUM/LISTNUM,
+// pero solo es visible cuando se habilita un idioma de edición de derecha a izquierda, como hebreo o árabe.
+// El siguiente campo mostrará ".1", el equivalente RTL del número de lista "1.".
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldBidiOutline>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true));
+builder->Writeln(u"שלום");
+
+ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());
+
+// Agregue dos campos BIDIOUTLINE más, que mostrarán ".2" y ".3".
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true);
+builder->Writeln(u"שלום");
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true);
+builder->Writeln(u"שלום");
+
+// Establezca la alineación horizontal del texto para cada párrafo del documento en RTL.
+for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)))
+{
+    para->get_ParagraphFormat()->set_Bidi(true);
+}
+
+// Si habilitamos un idioma de edición de derecha a izquierda en Microsoft Word, nuestros campos mostrarán números.
+// De lo contrario, mostrarán "###".
+doc->Save(get_ArtifactsDir() + u"Field.BIDIOUTLINE.docx");
+```
+
+
+Muestra cómo se manejan algunos campos antiguos de Microsoft Word, como SHAPE y EMBED, durante la carga.
+```cpp
+// Abra un documento que fue creado en Microsoft Word 2003.
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Legacy fields.doc");
+
+// Si abrimos el documento de Word y pulsamos Alt+F9, veremos un campo SHAPE y un campo EMBED.
+// Un campo SHAPE es el ancla/lienzo para un objeto AutoShape con el estilo de ajuste "En línea con el texto" habilitado.
+// Un campo EMBED tiene la misma función, pero para un objeto incrustado,
+// como una hoja de cálculo de un documento Excel externo.
+// Sin embargo, estos campos no aparecerán en la colección Fields del documento.
+ASSERT_EQ(0, doc->get_Range()->get_Fields()->get_Count());
+
+// Estos campos solo son compatibles con versiones antiguas de Microsoft Word.
+// El proceso de carga del documento convertirá estos campos en objetos Shape,
+// que podemos acceder en la colección de nodos del documento.
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
+ASSERT_EQ(3, shapes->get_Count());
+
+// El primer nodo Shape corresponde al campo SHAPE en el documento de entrada,
+// que es el lienzo en línea para el AutoShape.
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0));
+ASSERT_EQ(Aspose::Words::Drawing::ShapeType::Image, shape->get_ShapeType());
+
+// El segundo nodo Shape es el propio AutoShape.
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1));
+ASSERT_EQ(Aspose::Words::Drawing::ShapeType::Can, shape->get_ShapeType());
+
+// El tercer Shape es lo que era el campo EMBED que contenía la hoja de cálculo externa.
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(2));
+ASSERT_EQ(Aspose::Words::Drawing::ShapeType::OleObject, shape->get_ShapeType());
+```
+
+## Ver también
+
+* Class [FieldShape](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
