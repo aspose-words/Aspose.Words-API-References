@@ -1,0 +1,56 @@
+---
+title: "Aspose::Words::Border::ClearFormatting метод"
+linktitle: "ClearFormatting"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Aspose::Words::Border::ClearFormatting метод. Сбрасывает свойства границы к значениям по умолчанию в C++."
+type: docs
+weight: 2000
+url: /ru/cpp/aspose.words/border/clearformatting/
+---
+## Border::ClearFormatting method
+
+
+Сбрасывает свойства границы к значениям по умолчанию.
+
+```cpp
+void Aspose::Words::Border::ClearFormatting()
+```
+
+
+## Примеры
+
+
+
+Показывает, как удалить границы из абзаца.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Borders.docx");
+
+// Каждый абзац имеет индивидуальный набор границ.
+// Мы можем получить доступ к настройкам внешнего вида этих границ через объект формата абзаца.
+System::SharedPtr<Aspose::Words::BorderCollection> borders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();
+
+ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), borders->idx_get(0)->get_Color().ToArgb());
+ASPOSE_ASSERT_EQ(3.0, borders->idx_get(0)->get_LineWidth());
+ASSERT_EQ(Aspose::Words::LineStyle::Single, borders->idx_get(0)->get_LineStyle());
+ASSERT_TRUE(borders->idx_get(0)->get_IsVisible());
+
+// Мы можем удалить границу сразу, вызвав метод ClearFormatting.
+// Вызов этого метода для каждой границы абзаца удалит все его границы.
+for (auto&& border : System::IterateOver(borders))
+{
+    border->ClearFormatting();
+}
+
+ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), borders->idx_get(0)->get_Color().ToArgb());
+ASPOSE_ASSERT_EQ(0.0, borders->idx_get(0)->get_LineWidth());
+ASSERT_EQ(Aspose::Words::LineStyle::None, borders->idx_get(0)->get_LineStyle());
+ASSERT_FALSE(borders->idx_get(0)->get_IsVisible());
+
+doc->Save(get_ArtifactsDir() + u"Border.ClearFormatting.docx");
+```
+
+## См. также
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
