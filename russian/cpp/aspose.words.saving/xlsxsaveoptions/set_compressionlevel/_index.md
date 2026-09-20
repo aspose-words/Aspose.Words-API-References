@@ -1,0 +1,24 @@
+---
+title: "Метод Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel"
+linktitle: "set_CompressionLevel"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Метод Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel. Сеттер для Aspose::Words::Saving::XlsxSaveOptions::get_CompressionLevel в C++."
+type: docs
+weight: 7000
+url: /ru/cpp/aspose.words.saving/xlsxsaveoptions/set_compressionlevel/
+---
+## XlsxSaveOptions::set_CompressionLevel method
+
+
+Сеттер для [Aspose::Words::Saving::XlsxSaveOptions::get_CompressionLevel](../get_compressionlevel/).
+
+```cpp
+void Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel(Aspose::Words::Saving::CompressionLevel value)
+```
+
+## См. также
+
+* Enum [CompressionLevel](../../compressionlevel/)
+* Class [XlsxSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)

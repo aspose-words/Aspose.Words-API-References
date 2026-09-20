@@ -1,0 +1,24 @@
+---
+title: "Метод cend класса Aspose::Words::RevisionGroupCollection"
+linktitle: "cend"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Как использовать метод cend класса Aspose::Words::RevisionGroupCollection в C++."
+type: docs
+weight: 4000
+url: /ru/cpp/aspose.words/revisiongroupcollection/cend/
+---
+## RevisionGroupCollection::cend method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::RevisionGroupCollection::cend() const noexcept
+```
+
+## См. также
+
+* Typedef [const_iterator](../const_iterator/)
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

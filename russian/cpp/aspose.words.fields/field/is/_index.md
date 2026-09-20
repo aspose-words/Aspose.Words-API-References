@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Fields::Field::Is метод"
+linktitle: "Is"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Как использовать метод Is класса Aspose::Words::Fields::Field в C++."
+type: docs
+weight: 16000
+url: /ru/cpp/aspose.words.fields/field/is/
+---
+## Field::Is method
+
+
+
+
+```cpp
+virtual bool Aspose::Words::Fields::Field::Is(const System::TypeInfo &target) const override
+```
+
+## См. также
+
+* Class [Field](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)

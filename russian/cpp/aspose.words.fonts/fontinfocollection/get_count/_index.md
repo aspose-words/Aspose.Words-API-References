@@ -1,0 +1,43 @@
+---
+title: "Метод Aspose::Words::Fonts::FontInfoCollection::get_Count"
+linktitle: "get_Count"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Метод Aspose::Words::Fonts::FontInfoCollection::get_Count. Возвращает количество элементов, содержащихся в коллекции, в C++."
+type: docs
+weight: 7000
+url: /ru/cpp/aspose.words.fonts/fontinfocollection/get_count/
+---
+## FontInfoCollection::get_Count method
+
+
+Получает количество элементов, содержащихся в коллекции.
+
+```cpp
+int32_t Aspose::Words::Fonts::FontInfoCollection::get_Count()
+```
+
+
+## Примеры
+
+
+
+Показывает информацию о шрифтах, присутствующих в пустом документе.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Пустой документ содержит 3 шрифта по умолчанию. Каждый шрифт в документе
+// будет иметь соответствующий объект FontInfo, который содержит детали об этом шрифте.
+ASSERT_EQ(3, doc->get_FontInfos()->get_Count());
+
+ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Times New Roman"));
+ASSERT_EQ(204, doc->get_FontInfos()->idx_get(u"Times New Roman")->get_Charset());
+
+ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Symbol"));
+ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Arial"));
+```
+
+## См. также
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words for C++](../../../)
