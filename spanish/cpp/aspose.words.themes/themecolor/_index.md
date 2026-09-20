@@ -1,0 +1,147 @@
+---
+title: "Aspose::Words::Themes::ThemeColor enumeración"
+linktitle: "ThemeColor"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Aspose::Words::Themes::ThemeColor enumeración. Especifica los colores del tema para los temas de documentos. Para obtener más información, visite el artículo de documentación en C++."
+type: docs
+weight: 4000
+url: /es/cpp/aspose.words.themes/themecolor/
+---
+## ThemeColor enum
+
+
+Especifica los colores del tema para los temas de documentos. Para obtener más información, visite el artículo de documentación [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/).
+
+```cpp
+enum class ThemeColor
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| None | -1 | Sin color. |
+| Dark1 | 0 | Color principal oscuro 1. |
+| Light1 | 1 | Color principal claro 1. |
+| Dark2 | 2 | Color principal oscuro 2. |
+| Light2 | 3 | Color principal claro 2. |
+| Accent1 | 4 | Color de acento 1. |
+| Accent2 | 5 | Color de acento 2. |
+| Accent3 | 6 | Color de acento 3. |
+| Accent4 | 7 | Color de acento 4. |
+| Accent5 | 8 | Color de acento 5. |
+| Accent6 | 9 | Color de acento 6. |
+| Hyperlink | 10 | Color de hipervínculo. |
+| FollowedHyperlink | 11 | Color de hipervínculo visitado. |
+| Text1 | 12 | Color de texto 1. |
+| Text2 | 13 | Color de texto 2. |
+| Background1 | 14 | Color de fondo 1. |
+| Background2 | 15 | Color de fondo 2. |
+
+
+## Ejemplos
+
+
+
+Muestra cómo trabajar con fuentes de tema y colores.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Definir fuentes para los idiomas que se usan por defecto.
+doc->get_Theme()->get_MinorFonts()->set_Latin(u"Algerian");
+doc->get_Theme()->get_MinorFonts()->set_EastAsian(u"Aharoni");
+doc->get_Theme()->get_MinorFonts()->set_ComplexScript(u"Andalus");
+
+System::SharedPtr<Aspose::Words::Font> font = doc->get_Styles()->idx_get(u"Normal")->get_Font();
+std::cout << System::String::Format(u"Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font->get_ThemeColor(), font->get_Color()) << std::endl;
+
+// Podemos usar la fuente y el color del tema en lugar de los valores predeterminados.
+font->set_ThemeFont(Aspose::Words::Themes::ThemeFont::Minor);
+font->set_ThemeColor(Aspose::Words::Themes::ThemeColor::Accent2);
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFont());
+ASSERT_EQ(u"Algerian", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Algerian", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontBi());
+ASSERT_EQ(u"Andalus", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontOther());
+ASSERT_EQ(u"Algerian", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::Accent2, font->get_ThemeColor());
+ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+
+// Hay varias formas de restablecer la fuente y el color.
+// 1 -  Al establecer ThemeFont.None/ThemeColor.None:
+font->set_ThemeFont(Aspose::Words::Themes::ThemeFont::None);
+font->set_ThemeColor(Aspose::Words::Themes::ThemeColor::None);
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFont());
+ASSERT_EQ(u"Algerian", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Algerian", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontBi());
+ASSERT_EQ(u"Andalus", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontOther());
+ASSERT_EQ(u"Algerian", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::None, font->get_ThemeColor());
+ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+
+// 2 -  Al establecer nombres de fuente/color que no son del tema:
+font->set_Name(u"Arial");
+font->set_Color(System::Drawing::Color::get_Blue());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFont());
+ASSERT_EQ(u"Arial", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Arial", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontBi());
+ASSERT_EQ(u"Arial", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Arial", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontOther());
+ASSERT_EQ(u"Arial", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::None, font->get_ThemeColor());
+ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
+```
+
+
+Muestra cómo crear y usar un estilo con tema.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln();
+
+// Crea algún estilo con propiedades de fuente del tema.
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"ThemedStyle");
+style->get_Font()->set_ThemeFont(Aspose::Words::Themes::ThemeFont::Major);
+style->get_Font()->set_ThemeColor(Aspose::Words::Themes::ThemeColor::Accent5);
+style->get_Font()->set_TintAndShade(0.3);
+
+builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
+builder->Writeln(u"Text with themed style");
+```
+
+## Ver también
+
+* Namespace [Aspose::Words::Themes](../)
+* Library [Aspose.Words for C++](../../)
