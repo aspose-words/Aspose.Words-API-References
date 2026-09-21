@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Fields::BarcodeParameters::get_CaseCodeStyle metod"
+linktitle: "get_CaseCodeStyle"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Fields::BarcodeParameters::get_CaseCodeStyle metod. Stil för en Case Code för streckkodstypen ITF14. Giltiga värden är [STD|EXT|ADD] i C++."
+type: docs
+weight: 7000
+url: /sv/cpp/aspose.words.fields/barcodeparameters/get_casecodestyle/
+---
+## BarcodeParameters::get_CaseCodeStyle method
+
+
+[Style](../../../aspose.words/style/) of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD].
+
+```cpp
+System::String Aspose::Words::Fields::BarcodeParameters::get_CaseCodeStyle() const
+```
+
+## Se även
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
