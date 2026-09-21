@@ -1,0 +1,156 @@
+---
+title: "Aspose::Words::Fields::FieldBuilder::BuildAndInsert metod"
+linktitle: "BuildAndInsert"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Fields::FieldBuilder::BuildAndInsert metod. Bygger och infogar ett fält i dokumentet före den angivna inline-noden i C++."
+type: docs
+weight: 5000
+url: /sv/cpp/aspose.words.fields/fieldbuilder/buildandinsert/
+---
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method
+
+
+Bygger och infogar ett fält i dokumentet före den specificerade inline‑noden.
+
+```cpp
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Inline> &refNode)
+```
+
+
+### ReturnValue
+
+Ett [Field](../../field/) objekt som representerar det infogade fältet.
+
+## Exempel
+
+
+
+Visar hur man skapar och infogar ett fält med en fältbyggare.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Ett bekvämt sätt att lägga till textinnehåll i ett dokument är med en dokumentbyggare.
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Write(u" Hello world! This text is one Run, which is an inline node.");
+
+// Fält har sin byggare, som vi kan använda för att konstruera en fältkod bit för bit.
+// I det här fallet kommer vi att konstruera ett BARCODE-fält som representerar en amerikansk postkod,
+// och sedan infoga det framför ett Run.
+auto fieldBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldBarcode);
+fieldBuilder->AddArgument(u"90210");
+fieldBuilder->AddSwitch(u"\\f", u"A");
+fieldBuilder->AddSwitch(u"\\u");
+
+fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0));
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.CreateWithFieldBuilder.docx");
+```
+
+## Se även
+
+* Class [Field](../../field/)
+* Class [Inline](../../../aspose.words/inline/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) method
+
+
+Bygger och infogar ett fält i dokumentet till slutet av det specificerade stycket.
+
+```cpp
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Paragraph> &refNode)
+```
+
+
+### ReturnValue
+
+Ett [Field](../../field/) objekt som representerar det infogade fältet.
+
+## Exempel
+
+
+
+Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Nedan följer tre exempel på fältkonstruktion med en fältbyggare.
+// 1 -  Enkelt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar tecknet ƒ (Florin).
+auto builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldSymbol);
+builder->AddArgument(402);
+builder->AddSwitch(u"\\f", u"Arial");
+builder->AddSwitch(u"\\s", 25);
+builder->AddSwitch(u"\\u");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph());
+
+ASSERT_EQ(u" SYMBOL 402 \\f Arial \\s 25 \\u ", field->GetFieldCode());
+
+// 2 -  Inbäddat fält:
+// Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
+auto innerFormulaBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+innerFormulaBuilder->AddArgument(100);
+innerFormulaBuilder->AddArgument(u"+");
+innerFormulaBuilder->AddArgument(74);
+
+// Skapa en annan byggare för ett annat SYMBOL-fält och infoga formelfältet
+// som vi har skapat ovan i SYMBOL-fältet som dess argument.
+builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldSymbol);
+builder->AddArgument(innerFormulaBuilder);
+field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
+
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som dess argument,
+// vilket får fältet att visa ® (Registrerad varumärkessymbol) eftersom dess teckennummer är 174.
+ASSERT_EQ(u" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field->GetFieldCode());
+
+// 3 -  Flera inbäddade fält och argument:
+// Nu kommer vi att använda en byggare för att skapa ett IF-fält som visar ett av två anpassade strängvärden,
+// beroende på sant/falskt-värdet av dess uttryck. För att få ett sant/falskt-värde
+// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att bädda in i IF-fältet.
+auto leftExpression = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+leftExpression->AddArgument(2);
+leftExpression->AddArgument(u"+");
+leftExpression->AddArgument(3);
+
+auto rightExpression = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+rightExpression->AddArgument(2.5);
+rightExpression->AddArgument(u"*");
+rightExpression->AddArgument(5.2);
+
+// Nästa steg är att bygga två fältargument som kommer att fungera som sant/falskt-utdatasträngar för IF-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
+auto trueOutput = System::MakeObject<Aspose::Words::Fields::FieldArgumentBuilder>();
+trueOutput->AddText(u"True, both expressions amount to ");
+trueOutput->AddField(leftExpression);
+
+auto falseOutput = System::MakeObject<Aspose::Words::Fields::FieldArgumentBuilder>();
+falseOutput->AddNode(System::MakeObject<Aspose::Words::Run>(doc, u"False, "));
+falseOutput->AddField(leftExpression);
+falseOutput->AddNode(System::MakeObject<Aspose::Words::Run>(doc, u" does not equal "));
+falseOutput->AddField(rightExpression);
+
+// Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldIf);
+builder->AddArgument(leftExpression);
+builder->AddArgument(u"=");
+builder->AddArgument(rightExpression);
+builder->AddArgument(trueOutput);
+builder->AddArgument(falseOutput);
+field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
+
+ASSERT_EQ(System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field->GetFieldCode());
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
+```
+
+## Se även
+
+* Class [Field](../../field/)
+* Class [Paragraph](../../../aspose.words/paragraph/)
+* Class [FieldBuilder](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)

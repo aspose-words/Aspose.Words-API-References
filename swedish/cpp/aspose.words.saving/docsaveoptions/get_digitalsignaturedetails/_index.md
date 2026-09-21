@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Saving::DocSaveOptions::get_DigitalSignatureDetails metod"
+linktitle: "get_DigitalSignatureDetails"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Saving::DocSaveOptions::get_DigitalSignatureDetails metod. Hämtar DigitalSignatureDetails‑objekt som används för att signera ett dokument i C++."
+type: docs
+weight: 3500
+url: /sv/cpp/aspose.words.saving/docsaveoptions/get_digitalsignaturedetails/
+---
+## DocSaveOptions::get_DigitalSignatureDetails method
+
+
+Hämtar [DigitalSignatureDetails](../../digitalsignaturedetails/) objekt som används för att signera ett dokument.
+
+```cpp
+const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> & Aspose::Words::Saving::DocSaveOptions::get_DigitalSignatureDetails() const
+```
+
+## Se även
+
+* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
+* Class [DocSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)
