@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::FontSubstitutionWarningInfo::Type metodu"
+linktitle: "Tür"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "C++'da Aspose::Words::FontSubstitutionWarningInfo sınıfının Type metodunu nasıl kullanılır."
+type: docs
+weight: 1000
+url: /tr/cpp/aspose.words/fontsubstitutionwarninginfo/type/
+---
+## FontSubstitutionWarningInfo::Type method
+
+
+
+
+```cpp
+static const System::TypeInfo & Aspose::Words::FontSubstitutionWarningInfo::Type()
+```
+
+## Ayrıca Bakınız
+
+* Class [FontSubstitutionWarningInfo](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,0 +1,149 @@
+---
+title: "Aspose::Words::PageSetup::get_PaperSize yöntemi"
+linktitle: "get_PaperSize"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::PageSetup::get_PaperSize yöntemi. C++'ta kağıt boyutunu döndürür veya ayarlar."
+type: docs
+weight: 37000
+url: /tr/cpp/aspose.words/pagesetup/get_papersize/
+---
+## PageSetup::get_PaperSize method
+
+
+Kağıt boyutunu döndürür veya ayarlar.
+
+```cpp
+Aspose::Words::PaperSize Aspose::Words::PageSetup::get_PaperSize()
+```
+
+## Açıklamalar
+
+
+Bu özelliği ayarlamak, [PageWidth](../get_pagewidth/) ve [PageHeight](../get_pageheight/) değerlerini günceller. Bu değeri [Custom](../../papersize/) olarak ayarlamak mevcut değerleri değiştirmez.
+
+## Örnekler
+
+
+
+Bir bölüm için kağıt boyutunu, yönlendirmeyi, kenar boşluklarını ve diğer ayarları nasıl ayarlayacağınızı gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Legal);
+builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
+builder->get_PageSetup()->set_TopMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_BottomMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_LeftMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_RightMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_HeaderDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_FooterDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
+
+builder->Writeln(u"Hello world!");
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
+```
+
+
+Sayfa boyutlarının nasıl ayarlanacağını gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Mevcut sayfanın boyutunu önceden tanımlı bir boyuta değiştirebiliriz
+// "PaperSize" özelliğini bu bölümün PageSetup nesnesi aracılığıyla kullanarak.
+builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Tabloid);
+
+ASPOSE_ASSERT_EQ(792.0, builder->get_PageSetup()->get_PageWidth());
+ASPOSE_ASSERT_EQ(1224.0, builder->get_PageSetup()->get_PageHeight());
+
+builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
+
+// Her bölümün kendi PageSetup nesnesi vardır. Bir belge oluşturucu kullanarak yeni bir bölüm oluşturduğumuzda,
+// o bölümün PageSetup nesnesi, önceki bölümün PageSetup nesnesinin tüm değerlerini devralır.
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+
+ASSERT_EQ(Aspose::Words::PaperSize::Tabloid, builder->get_PageSetup()->get_PaperSize());
+
+builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::A5);
+builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
+
+ASPOSE_ASSERT_EQ(419.55, builder->get_PageSetup()->get_PageWidth());
+ASPOSE_ASSERT_EQ(595.30, builder->get_PageSetup()->get_PageHeight());
+
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+
+// Bu bölümün sayfaları için özel bir boyut ayarlayın.
+builder->get_PageSetup()->set_PageWidth(620);
+builder->get_PageSetup()->set_PageHeight(480);
+
+ASSERT_EQ(Aspose::Words::PaperSize::Custom, builder->get_PageSetup()->get_PaperSize());
+
+builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.PaperSizes.docx");
+```
+
+
+JisB4 veya JisB5 kağıt boyutunu nasıl ayarlayacağınızı gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_FirstSection()->get_PageSetup();
+// Kağıt boyutunu JisB4 (257x364mm) olarak ayarlayın.
+pageSetup->set_PaperSize(Aspose::Words::PaperSize::JisB4);
+// Alternatif olarak, kağıt boyutunu JisB5 (182x257mm) olarak ayarlayın.
+pageSetup->set_PaperSize(Aspose::Words::PaperSize::JisB5);
+```
+
+
+Aspose.Words belgesini elle nasıl oluşturacağınızı gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Boş bir belge bir bölüm, bir gövde ve bir paragraf içerir.
+// "RemoveAllChildren" yöntemini çağırarak bu düğümlerin tümünü kaldırın,
+// ve hiçbir çocuğu olmayan bir belge düğümü elde edin.
+doc->RemoveAllChildren();
+
+// Bu belge artık içerik ekleyebileceğimiz birleşik alt düğümlere sahip değil.
+// Eğer düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
+// İlk olarak yeni bir bölüm oluşturun ve ardından kök belge düğümüne çocuk olarak ekleyin.
+auto section = System::MakeObject<Aspose::Words::Section>(doc);
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
+
+// Bölüm için bazı sayfa ayarı özelliklerini ayarlayın.
+section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+
+// Bir bölüm bir gövdeye ihtiyaç duyar, bu gövde tüm içeriğini barındırır ve gösterir
+// sayfada bölümün başlığı ile altbilgisi arasındaki alanda.
+auto body = System::MakeObject<Aspose::Words::Body>(doc);
+section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
+
+// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu gövdenin bir çocuğu olarak ekleyin.
+auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
+
+para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
+para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+
+body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
+
+// Son olarak, belgeye içerik ekleyin. Bir run oluşturun,
+// Görünümünü ve içeriğini ayarlayın, ardından onu paragrafın bir çocuğu olarak ekleyin.
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
+run->set_Text(u"Hello World!");
+run->get_Font()->set_Color(System::Drawing::Color::get_Red());
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
+
+ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+
+doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
+```
+
+## Ayrıca Bakınız
+
+* Enum [PaperSize](../../papersize/)
+* Class [PageSetup](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

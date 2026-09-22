@@ -1,0 +1,51 @@
+---
+title: "Aspose::Words::Drawing::TextBox::get_InternalMarginBottom metodu"
+linktitle: "get_InternalMarginBottom"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Drawing::TextBox::get_InternalMarginBottom metodu. Bir şekil için iç alt kenar boşluğunu puan cinsinden C++'de belirtir."
+type: docs
+weight: 4000
+url: /tr/cpp/aspose.words.drawing/textbox/get_internalmarginbottom/
+---
+## TextBox::get_InternalMarginBottom method
+
+
+Bir şekil için iç alt kenar boşluğunu puan cinsinden belirtir.
+
+```cpp
+double Aspose::Words::Drawing::TextBox::get_InternalMarginBottom()
+```
+
+## Açıklamalar
+
+
+Varsayılan değer 1/20 inçtir.
+
+## Örnekler
+
+
+
+Bir metin kutusu için iç kenar boşluklarını nasıl ayarlayacağınızı gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Belirli kenar boşluklarına sahip başka bir metin kutusu ekleyin.
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox = textBoxShape->get_TextBox();
+textBox->set_InternalMarginTop(15);
+textBox->set_InternalMarginBottom(15);
+textBox->set_InternalMarginLeft(15);
+textBox->set_InternalMarginRight(15);
+
+builder->MoveTo(textBoxShape->get_LastParagraph());
+builder->Write(u"Text placed according to textbox margins.");
+
+doc->Save(get_ArtifactsDir() + u"Shape.TextBoxMargins.docx");
+```
+
+## Ayrıca Bakınız
+
+* Class [TextBox](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words for C++](../../../)

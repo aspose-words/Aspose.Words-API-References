@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::LowCode::ProcessorContext::set_WarningCallback yöntemi"
+linktitle: "set_WarningCallback"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::LowCode::ProcessorContext::set_WarningCallback yöntemi. C++'ta işlemci tarafından kullanılan uyarı geri çağrısı."
+type: docs
+weight: 9000
+url: /tr/cpp/aspose.words.lowcode/processorcontext/set_warningcallback/
+---
+## ProcessorContext::set_WarningCallback method
+
+
+İşlemci tarafından kullanılan uyarı geri çağrısı.
+
+```cpp
+void Aspose::Words::LowCode::ProcessorContext::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> &value)
+```
+
+## Ayrıca Bakınız
+
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
+* Class [ProcessorContext](../)
+* Namespace [Aspose::Words::LowCode](../../)
+* Library [Aspose.Words for C++](../../../)

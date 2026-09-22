@@ -1,0 +1,121 @@
+---
+title: "Aspose::Words::Fields::FieldBuilder sınıfı"
+linktitle: "FieldBuilder"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Fields::FieldBuilder sınıfı. Bir alanı alan kodu belirteçlerinden (argümanlar ve anahtarlar) oluşturur. Daha fazla bilgi edinmek için C++'daki dokümantasyon makalesini ziyaret edin."
+type: docs
+weight: 20000
+url: /tr/cpp/aspose.words.fields/fieldbuilder/
+---
+## FieldBuilder class
+
+
+Alan kodu belirteçlerinden (argümanlar ve anahtarlar) bir alan oluşturur. Daha fazla bilgi edinmek için [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) dokümantasyon makalesini ziyaret edin.
+
+```cpp
+class FieldBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
+```
+
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [AddArgument](./addargument/)(const System::String\&) | Bir alanın argümanını ekler. |
+| [AddArgument](./addargument/)(int32_t) | Bir alanın argümanını ekler. |
+| [AddArgument](./addargument/)(double) | Bir alanın argümanını ekler. |
+| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) | Başka bir [FieldBuilder](./) tarafından temsil edilen bir alt alanı alanın koduna ekler. |
+| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) | Alan koduna, [FieldArgumentBuilder](../fieldargumentbuilder/) tarafından temsil edilen bir alan argümanını ekler. |
+| [AddSwitch](./addswitch/)(const System::String\&) | Bir alanın anahtarını ekler. |
+| [AddSwitch](./addswitch/)(const System::String\&, const System::String\&) | Bir alanın anahtarını ekler. |
+| [AddSwitch](./addswitch/)(const System::String\&, int32_t) | Bir alanın anahtarını ekler. |
+| [AddSwitch](./addswitch/)(const System::String\&, double) | Bir alanın anahtarını ekler. |
+| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Inline\>\&) | Belirtilen satır içi düğümün önüne bir alan oluşturur ve belgeye ekler. |
+| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) | Belirtilen paragrafın sonuna bir alan oluşturur ve belgeye ekler. |
+| [FieldBuilder](./fieldbuilder/)(Aspose::Words::Fields::FieldType) | [FieldBuilder](./) sınıfının bir örneğini başlatır. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
+
+## Örnekler
+
+
+
+Bir alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından belgeye nasıl ekleneceğini gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Aşağıda bir alan oluşturucu kullanılarak yapılan alan oluşturma örneklerinden üçü verilmiştir.
+// 1 -  Tek alan:
+// Bir alan oluşturucu kullanarak ƒ (Florin) simgesini gösteren bir SYMBOL alanı ekleyin.
+auto builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldSymbol);
+builder->AddArgument(402);
+builder->AddSwitch(u"\\f", u"Arial");
+builder->AddSwitch(u"\\s", 25);
+builder->AddSwitch(u"\\u");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph());
+
+ASSERT_EQ(u" SYMBOL 402 \\f Arial \\s 25 \\u ", field->GetFieldCode());
+
+// 2 -  İç içe alan:
+// Bir alan oluşturucu kullanarak başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturun.
+auto innerFormulaBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+innerFormulaBuilder->AddArgument(100);
+innerFormulaBuilder->AddArgument(u"+");
+innerFormulaBuilder->AddArgument(74);
+
+// Başka bir SYMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
+// yukarıda oluşturduğumuz bu alanı SYMBOL alanının argümanı olarak ekleyin.
+builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldSymbol);
+builder->AddArgument(innerFormulaBuilder);
+field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
+
+// Dış SYMBOL alanı, formül alanının sonucu olan 174'ü argümanı olarak kullanacak,
+// bu da alanın karakter numarası 174 olduğu için ® (Kayıtlı İşaret) simgesini göstermesini sağlayacak.
+ASSERT_EQ(u" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field->GetFieldCode());
+
+// 3 -  Birden fazla iç içe alan ve argüman:
+// Şimdi, iki özel metin değerinden birini gösteren bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
+// IF alanının hangi metni göstereceğini belirleyen, IF alanı iki sayısal ifadeyi eşitlik için test edecektir.
+// İki ifadeyi formül alanları şeklinde sağlayacağız ve bu alanları IF alanının içine iç içe yerleştireceğiz.
+auto leftExpression = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+leftExpression->AddArgument(2);
+leftExpression->AddArgument(u"+");
+leftExpression->AddArgument(3);
+
+auto rightExpression = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+rightExpression->AddArgument(2.5);
+rightExpression->AddArgument(u"*");
+rightExpression->AddArgument(5.2);
+
+// Sonra, IF alanı için doğru/yanlış çıktı metinleri olarak hizmet edecek iki alan argümanı oluşturacağız.
+// Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
+auto trueOutput = System::MakeObject<Aspose::Words::Fields::FieldArgumentBuilder>();
+trueOutput->AddText(u"True, both expressions amount to ");
+trueOutput->AddField(leftExpression);
+
+auto falseOutput = System::MakeObject<Aspose::Words::Fields::FieldArgumentBuilder>();
+falseOutput->AddNode(System::MakeObject<Aspose::Words::Run>(doc, u"False, "));
+falseOutput->AddField(leftExpression);
+falseOutput->AddNode(System::MakeObject<Aspose::Words::Run>(doc, u" does not equal "));
+falseOutput->AddField(rightExpression);
+
+// Son olarak, IF alanı için bir oluşturucu daha oluşturacak ve tüm ifadeleri birleştireceğiz.
+builder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldIf);
+builder->AddArgument(leftExpression);
+builder->AddArgument(u"=");
+builder->AddArgument(rightExpression);
+builder->AddArgument(trueOutput);
+builder->AddArgument(falseOutput);
+field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
+
+ASSERT_EQ(System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field->GetFieldCode());
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
+```
+
+## Ayrıca Bakınız
+
+* Namespace [Aspose::Words::Fields](../)
+* Library [Aspose.Words for C++](../../)
