@@ -1,0 +1,24 @@
+---
+title: "طريقة Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback"
+linktitle: "get_ResourceLoadingCallback"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "طريقة Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback. تسمح بالتحكم في كيفية تحميل الموارد الخارجية (الصور، أوراق الأنماط) عندما يتم استيراد مستند من HTML أو MHTML في C++."
+type: docs
+weight: 15000
+url: /ar/cpp/aspose.words.loading/loadoptions/get_resourceloadingcallback/
+---
+## LoadOptions::get_ResourceLoadingCallback method
+
+
+يسمح بالتحكم في كيفية تحميل الموارد الخارجية (الصور، أوراق الأنماط) عندما يتم استيراد مستند من HTML أو MHTML.
+
+```cpp
+System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback() const
+```
+
+## انظر أيضًا
+
+* Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
+* Class [LoadOptions](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words for C++](../../../)
