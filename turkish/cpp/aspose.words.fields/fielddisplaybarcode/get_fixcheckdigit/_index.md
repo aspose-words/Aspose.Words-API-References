@@ -1,0 +1,80 @@
+---
+title: "Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit yöntemi"
+linktitle: "get_FixCheckDigit"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit yöntemi. C++'da kontrol basamağı geçersizse düzeltip düzeltmeyeceğini alır veya ayarlar."
+type: docs
+weight: 9000
+url: /tr/cpp/aspose.words.fields/fielddisplaybarcode/get_fixcheckdigit/
+---
+## FieldDisplayBarcode::get_FixCheckDigit method
+
+
+Kontrol rakamı geçersizse düzeltileceğini alır veya ayarlar.
+
+```cpp
+bool Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit()
+```
+
+
+## Örnekler
+
+
+
+DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
+
+// Aşağıda, DISPLAYBARCODE alanının görüntüleyebileceği, çeşitli şekillerde süslenmiş dört barkod türü yer almaktadır.
+// 1 -  Özel renklerle QR kodu:
+field->set_BarcodeType(u"QR");
+field->set_BarcodeValue(u"ABC123");
+field->set_BackgroundColor(u"0xF8BD69");
+field->set_ForegroundColor(u"0xB5413B");
+field->set_ErrorCorrectionLevel(u"3");
+field->set_ScalingFactor(u"250");
+field->set_SymbolHeight(u"1000");
+field->set_SymbolRotation(u"0");
+
+ASSERT_EQ(u" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field->GetFieldCode());
+builder->Writeln();
+
+// 2 -  Çubukların altında rakamları gösterilen EAN13 barkodu:
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
+field->set_BarcodeType(u"EAN13");
+field->set_BarcodeValue(u"501234567890");
+field->set_DisplayText(true);
+field->set_PosCodeStyle(u"CASE");
+field->set_FixCheckDigit(true);
+
+ASSERT_EQ(u" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field->GetFieldCode());
+builder->Writeln();
+
+// 3 -  CODE39 barkodu:
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
+field->set_BarcodeType(u"CODE39");
+field->set_BarcodeValue(u"12345ABCDE");
+field->set_AddStartStopChar(true);
+
+ASSERT_EQ(u" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field->GetFieldCode());
+builder->Writeln();
+
+// 4 -  ITF4 barkod, belirtilen bir kasa kodu ile:
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
+field->set_BarcodeType(u"ITF14");
+field->set_BarcodeValue(u"09312345678907");
+field->set_CaseCodeStyle(u"STD");
+
+ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode());
+
+doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
+```
+
+## Ayrıca Bakınız
+
+* Class [FieldDisplayBarcode](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
