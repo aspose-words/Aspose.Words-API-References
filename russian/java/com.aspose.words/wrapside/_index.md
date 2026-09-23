@@ -1,46 +1,86 @@
 ---
-title: WrapSide
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, какие стороны фигуры или изображения обтекает текст.
+title: "WrapSide"
+linktitle: "WrapSide"
+second_title: "Aspose.Words для Java"
+description: "Указывает, какие стороны фигуры или изображения обтекает текст в Java."
 type: docs
-weight: 621
+weight: 736
 url: /ru/java/com.aspose.words/wrapside/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WrapSide
 ```
 
-Указывает, какую сторону (стороны) фигуры или изображения обтекает текст.
+Указывает, с какой стороны(сторон) формы или изображения обтекает текст.
+
+ **Examples:** 
+
+Показывает, как заменить все формы текстовых полей на формы изображений.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [BOTH](#BOTH) | Текст документа обтекает фигуру с обеих сторон. |
-| [DEFAULT](#DEFAULT) |  Значение по умолчанию[BOTH](../../com.aspose.words/wrapside\#BOTH). |
-| [LARGEST](#LARGEST) | Текст документа обтекает ту сторону фигуры, которая находится дальше всего от полей страницы, оставляя свободную от текста область на другой стороне фигуры. |
-| [LEFT](#LEFT) | Текст документа обтекает только левую сторону фигуры. |
-| [RIGHT](#RIGHT) | Текст документа обтекает только правую часть фигуры. |
+| [DEFAULT](#DEFAULT) | Значение по умолчанию — [BOTH](../../com.aspose.words/wrapside/\#BOTH). |
+| [LARGEST](#LARGEST) | Текст документа обтекает фигуру со стороны, наиболее удалённой от полей страницы, оставляя свободную область текста с другой стороны фигуры. |
+| [LEFT](#LEFT) | Текст документа обтекает фигуру только с левой стороны. |
+| [RIGHT](#RIGHT) | Текст документа обтекает фигуру только с правой стороны. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String wrapSideName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int wrapSide)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int wrapSide)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String wrapSideName)](#fromName-java.lang.String) |  |
+| [getName(int wrapSide)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int wrapSide)](#toString-int) |  |
 ### BOTH {#BOTH}
 ```
 public static int BOTH
@@ -55,7 +95,7 @@ public static int DEFAULT
 ```
 
 
- Значение по умолчанию[BOTH](../../com.aspose.words/wrapside\#BOTH).
+Значение по умолчанию — [BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 ### LARGEST {#LARGEST}
 ```
@@ -63,7 +103,7 @@ public static int LARGEST
 ```
 
 
-Текст документа обтекает ту сторону фигуры, которая находится дальше всего от полей страницы, оставляя свободную от текста область на другой стороне фигуры.
+Текст документа обтекает фигуру со стороны, наиболее удалённой от полей страницы, оставляя свободную область текста с другой стороны фигуры.
 
 ### LEFT {#LEFT}
 ```
@@ -71,7 +111,7 @@ public static int LEFT
 ```
 
 
-Текст документа обтекает только левую сторону фигуры. Справа от фигуры есть свободная от текста область.
+Текст документа обтекает фигуру только с левой стороны. С правой стороны фигуры остаётся свободная область текста.
 
 ### RIGHT {#RIGHT}
 ```
@@ -79,7 +119,7 @@ public static int RIGHT
 ```
 
 
-Текст документа обтекает только правую часть фигуры. В левой части фигуры есть свободная от текста область.
+Текст документа обтекает фигуру только с правой стороны. С левой стороны фигуры остаётся свободная область текста.
 
 ### length {#length}
 ```
@@ -87,23 +127,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String wrapSideName) {#fromName-java.lang.String-}
+### fromName(String wrapSideName) {#fromName-java.lang.String}
 ```
 public static int fromName(String wrapSideName)
 ```
@@ -111,25 +135,14 @@ public static int fromName(String wrapSideName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapSideName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int wrapSide) {#getName-int-}
+**Returns:**
+int
+### getName(int wrapSide) {#getName-int}
 ```
 public static String getName(int wrapSide)
 ```
@@ -137,15 +150,14 @@ public static String getName(int wrapSide)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +165,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int wrapSide) {#toString-int-}
+**Returns:**
+int[]
+### toString(int wrapSide) {#toString-int}
 ```
 public static String toString(int wrapSide)
 ```
@@ -199,47 +175,10 @@ public static String toString(int wrapSide)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

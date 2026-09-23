@@ -1,140 +1,332 @@
 ---
-title: DocumentSavingArgs
-second_title: Справочник по API Aspose.Words для Java
-description: Аргумент, переданный в .
+title: "DocumentSavingArgs"
+linktitle: "DocumentSavingArgs"
+second_title: "Aspose.Words для Java"
+description: "Аргумент, передаваемый в IDocumentSavingCallback.notifycom.aspose.words.DocumentSavingArgs в Java."
 type: docs
-weight: 129
+weight: 172
 url: /ru/java/com.aspose.words/documentsavingargs/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentSavingArgs
 ```
 
- Аргумент, переданный в[IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
+Аргумент, передаваемый в [IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback/\#notify-com.aspose.words.DocumentSavingArgs).
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
+
+ **Examples:** 
+
+Показывает, как управлять документом при сохранении в html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEstimatedProgress()](#getEstimatedProgress--) | Общий расчетный процент прогресса. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getEstimatedProgress() {#getEstimatedProgress--}
+| [getEstimatedProgress()](#getEstimatedProgress) | Общий оценочный процент выполнения. |
+### getEstimatedProgress() {#getEstimatedProgress}
 ```
 public double getEstimatedProgress()
 ```
 
 
-Общий расчетный процент прогресса.
+Общий оценочный процент выполнения.
 
-**Возвращает:**
-double - соответствующее двойное значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как управлять документом при сохранении в html.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
 
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
 
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
 
-### notifyAll() {#notifyAll--}
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
 ```
-public final native void notifyAll()
+
+Показывает, как управлять документом при сохранении в docx.
+
 ```
 
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
 
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
 
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
 
-### toString() {#toString--}
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
 ```
-public String toString()
+
+Показывает, как управлять документом при сохранении в xamlflow.
+
 ```
 
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
 
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
 
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
 
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
 ```
-public final void wait()
-```
 
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+double - Соответствующее  double  значение.

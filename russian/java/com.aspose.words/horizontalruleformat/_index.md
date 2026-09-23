@@ -1,295 +1,333 @@
 ---
-title: HorizontalRuleFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет форматирование горизонтальной линейки.
+title: "HorizontalRuleFormat"
+linktitle: "HorizontalRuleFormat"
+second_title: "Aspose.Words для Java"
+description: "Представляет форматирование горизонтальной линии в Java."
 type: docs
-weight: 322
+weight: 376
 url: /ru/java/com.aspose.words/horizontalruleformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HorizontalRuleFormat
 ```
 
-Представляет форматирование горизонтальной линейки.
+Представляет форматирование горизонтального правила.
 
- Чтобы узнать больше, посетите**Working with Shapes** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Shapes ][Working with Shapes].
+
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+
+[Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignment()](#getAlignment--) | Получает выравнивание горизонтальной линейки. |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Получает цвет кисти, заполняющий горизонтальную линейку. |
-| [getHeight()](#getHeight--) | Получает высоту горизонтальной линейки. |
-| [getNoShade()](#getNoShade--) | Указывает на наличие 3D-затенения для горизонтальной линейки. |
-| [getWidthPercent()](#getWidthPercent--) | Получает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | Устанавливает выравнивание горизонтальной линейки. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Задает цвет кисти, заполняющий горизонтальную линейку. |
-| [setHeight(double value)](#setHeight-double-) | Устанавливает высоту горизонтальной линейки. |
-| [setNoShade(boolean value)](#setNoShade-boolean-) | Указывает на наличие 3D-затенения для горизонтальной линейки. |
-| [setWidthPercent(double value)](#setWidthPercent-double-) | Задает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAlignment() {#getAlignment--}
+| [getAlignment()](#getAlignment) | Получает выравнивание горизонтальной линии. |
+| [getColor()](#getColor) | Получает цвет кисти, заполняющей горизонтальную линию. |
+| [getHeight()](#getHeight) | Получает высоту горизонтальной линии. |
+| [getNoShade()](#getNoShade) | Указывает наличие 3D‑теней для горизонтальной линии. |
+| [getWidthPercent()](#getWidthPercent) | Получает длину указанной горизонтальной линии, выраженную в процентах от ширины окна. |
+| [setAlignment(int value)](#setAlignment-int) | Устанавливает выравнивание горизонтальной линии. |
+| [setColor(Color value)](#setColor-java.awt.Color) | Устанавливает цвет кисти, заполняющей горизонтальную линию. |
+| [setHeight(double value)](#setHeight-double) | Устанавливает высоту горизонтальной линии. |
+| [setNoShade(boolean value)](#setNoShade-boolean) | Указывает наличие 3D‑теней для горизонтальной линии. |
+| [setWidthPercent(double value)](#setWidthPercent-double) | Устанавливает длину указанной горизонтальной линии, выраженную в процентах от ширины окна. |
+### getAlignment() {#getAlignment}
 ```
 public int getAlignment()
 ```
 
 
-Получает выравнивание горизонтальной линейки.
+Получает выравнивание горизонтальной линии.
 
- Значение по умолчанию[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+ **Remarks:** 
 
-**Возвращает:**
- int - Выравнивание горизонтальной линейки. Возвращаемое значение является одним из[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) константы.
-### getClass() {#getClass--}
+Значение по умолчанию: [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment/\#LEFT).
+
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColor() {#getColor--}
+**Returns:**
+int — Выравнивание горизонтальной линии. Возвращаемое значение является одной из констант [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment/).
+### getColor() {#getColor}
 ```
 public Color getColor()
 ```
 
 
-Получает цвет кисти, заполняющий горизонтальную линейку.
+Получает цвет кисти, заполняющей горизонтальную линию.
 
- Это ярлык для[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-) имущество.
+ **Remarks:** 
 
-Значение по умолчанию равно .
+Это сокращение к свойству [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color).
 
-**Возвращает:**
-java.awt.Color — цвет кисти, заполняющий горизонтальную линейку.
-### getHeight() {#getHeight--}
+Значение по умолчанию: java.awt.Color\#getGray().getGray().
+
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+**Returns:**
+java.awt.Color — Цвет кисти, заполняющей горизонтальную линию.
+### getHeight() {#getHeight}
 ```
 public double getHeight()
 ```
 
 
-Получает высоту горизонтальной линейки.
+Получает высоту горизонтальной линии.
 
- Это ярлык для[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-) имущество.
-
- Допустимые значения\в\Диапазон от 0 до 1584 включительно.
-
-Значение по умолчанию — 1,5.
-
-**Возвращает:**
-double - Высота горизонтальной линейки.
-### getNoShade() {#getNoShade--}
+**Returns:**
+double — Высота горизонтальной линии.
+### getNoShade() {#getNoShade}
 ```
 public boolean getNoShade()
 ```
 
 
-Указывает на наличие 3D-затенения для горизонтальной линейки. Если true, то горизонтальное правило не имеет 3D-затенения и используется сплошной цвет.
+Указывает наличие 3D‑теней для горизонтальной линии. Если  true , то горизонтальная линия без 3D‑теней и используется сплошной цвет.
 
-Значение по умолчанию неверно.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getWidthPercent() {#getWidthPercent--}
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getWidthPercent() {#getWidthPercent}
 ```
 public double getWidthPercent()
 ```
 
 
-Получает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна.
+Получает длину указанной горизонтальной линии, выраженную в процентах от ширины окна.
 
- Допустимые значения\в\колеблется от 1 до 100 включительно.
-
-Значение по умолчанию — 100.
-
-**Возвращает:**
-double — длина указанной горизонтальной линейки, выраженная в процентах от ширины окна.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAlignment(int value) {#setAlignment-int-}
+**Returns:**
+double — Длина указанной горизонтальной линии, выраженная в процентах от ширины окна.
+### setAlignment(int value) {#setAlignment-int}
 ```
 public void setAlignment(int value)
 ```
 
 
-Устанавливает выравнивание горизонтальной линейки.
+Устанавливает выравнивание горизонтальной линии.
 
- Значение по умолчанию[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+ **Remarks:** 
 
-**Параметры:**
+Значение по умолчанию: [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment/\#LEFT).
 
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Выравнивание по горизонтальному правилу. Значение должно быть одним из[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) константы. |
+| value | int | Выравнивание горизонтальной линии. Значение должно быть одним из констант [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment/). |
 
-### setColor(Color value) {#setColor-java.awt.Color-}
+### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
 ```
 
 
-Задает цвет кисти, заполняющий горизонтальную линейку.
+Устанавливает цвет кисти, заполняющей горизонтальную линию.
 
- Это ярлык для[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-) имущество.
+ **Remarks:** 
 
-Значение по умолчанию равно .
+Это сокращение к свойству [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color).
 
-**Параметры:**
+Значение по умолчанию: java.awt.Color\#getGray().getGray().
 
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Цвет кисти, заполняющий горизонтальную линейку. |
+| значение | java.awt.Color | Цвет кисти, заполняющий горизонтальную линию. |
 
-### setHeight(double value) {#setHeight-double-}
+### setHeight(double value) {#setHeight-double}
 ```
 public void setHeight(double value)
 ```
 
 
-Устанавливает высоту горизонтальной линейки.
+Устанавливает высоту горизонтальной линии.
 
- Это ярлык для[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-) имущество.
-
- Допустимые значения\в\Диапазон от 0 до 1584 включительно.
-
-Значение по умолчанию — 1,5.
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Высота горизонтального правила. |
+| значение | double | Высота горизонтальной линии. |
 
-### setNoShade(boolean value) {#setNoShade-boolean-}
+### setNoShade(boolean value) {#setNoShade-boolean}
 ```
 public void setNoShade(boolean value)
 ```
 
 
-Указывает на наличие 3D-затенения для горизонтальной линейки. Если true, то горизонтальное правило не имеет 3D-затенения и используется сплошной цвет.
+Указывает наличие 3D‑теней для горизонтальной линии. Если  true , то горизонтальная линия без 3D‑теней и используется сплошной цвет.
 
-Значение по умолчанию неверно.
+ **Remarks:** 
 
-**Параметры:**
+Значение по умолчанию — false.
 
+ **Examples:** 
+
+Показывает, как вставить форму горизонтального правила и настроить её форматирование.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setWidthPercent(double value) {#setWidthPercent-double-}
+### setWidthPercent(double value) {#setWidthPercent-double}
 ```
 public void setWidthPercent(double value)
 ```
 
 
-Задает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна.
+Устанавливает длину указанной горизонтальной линии, выраженную в процентах от ширины окна.
 
- Допустимые значения\в\колеблется от 1 до 100 включительно.
-
-Значение по умолчанию — 100.
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Длина указанной горизонтальной линейки, выраженная в процентах от ширины окна. |
+| значение | double | Длина указанной горизонтальной линии, выраженная в процентах от ширины окна. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,54 +1,78 @@
 ---
-title: ShapeLineStyle
-second_title: Справочник по API Aspose.Words для Java
-description: Задает стиль составной линии файла .
+title: "ShapeLineStyle"
+linktitle: "ShapeLineStyle"
+second_title: "Aspose.Words для Java"
+description: "Указывает составной стиль линии объекта Shape в Java."
 type: docs
-weight: 518
+weight: 614
 url: /ru/java/com.aspose.words/shapelinestyle/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ShapeLineStyle
 ```
 
- Определяет стиль составной линии[Shape](../../com.aspose.words/shape).
+Указывает составной стиль линии для [Shape](../../com.aspose.words/shape/).
+
+ **Examples:** 
+
+Показывает, как изменить свойства штриха.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 200.0, 200.0, WrapType.NONE);
+
+ // Basic shapes, such as the rectangle, have two visible parts.
+ // 1 -  The fill, which applies to the area within the outline of the shape:
+ shape.getFill().setForeColor(Color.WHITE);
+
+ // 2 -  The stroke, which marks the outline of the shape:
+ // Modify various properties of this shape's stroke.
+ Stroke stroke = shape.getStroke();
+ stroke.setOn(true);
+ stroke.setWeight(5.0);
+ stroke.setColor(Color.RED);
+ stroke.setDashStyle(DashStyle.SHORT_DASH_DOT_DOT);
+ stroke.setJoinStyle(JoinStyle.MITER);
+ stroke.setEndCap(EndCap.SQUARE);
+ stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
+
+ doc.save(getArtifactsDir() + "Shape.Stroke.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DEFAULT](#DEFAULT) |  Значение по умолчанию[SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE). |
-| [DOUBLE](#DOUBLE) | Двойные линии одинаковой ширины. |
+| [DEFAULT](#DEFAULT) | Значение по умолчанию — [SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE). |
+| [DOUBLE](#DOUBLE) | Две линии одинаковой толщины. |
 | [SINGLE](#SINGLE) | Одна линия. |
-| [THICK_THIN](#THICK-THIN) | Двойные линии, одна толстая, другая тонкая. |
-| [THIN_THICK](#THIN-THICK) | Двойные линии, одна тонкая, другая толстая. |
-| [TRIPLE](#TRIPLE) | Три линии, тонкая, толстая, тонкая. |
+| [THICK_THIN](#THICK-THIN) | Две линии, одна толстая, одна тонкая. |
+| [THIN_THICK](#THIN-THICK) | Две линии, одна тонкая, одна толстая. |
+| [TRIPLE](#TRIPLE) | Три линии: тонкая, толстая, тонкая. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String shapeLineStyleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int shapeLineStyle)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int shapeLineStyle)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String shapeLineStyleName)](#fromName-java.lang.String) |  |
+| [getName(int shapeLineStyle)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int shapeLineStyle)](#toString-int) |  |
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
 ```
 
 
- Значение по умолчанию[SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+Значение по умолчанию — [SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE).
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -56,7 +80,7 @@ public static int DOUBLE
 ```
 
 
-Двойные линии одинаковой ширины.
+Две линии одинаковой толщины.
 
 ### SINGLE {#SINGLE}
 ```
@@ -72,7 +96,7 @@ public static int THICK_THIN
 ```
 
 
-Двойные линии, одна толстая, другая тонкая.
+Две линии, одна толстая, одна тонкая.
 
 ### THIN_THICK {#THIN-THICK}
 ```
@@ -80,7 +104,7 @@ public static int THIN_THICK
 ```
 
 
-Двойные линии, одна тонкая, другая толстая.
+Две линии, одна тонкая, одна толстая.
 
 ### TRIPLE {#TRIPLE}
 ```
@@ -88,7 +112,7 @@ public static int TRIPLE
 ```
 
 
-Три линии, тонкая, толстая, тонкая.
+Три линии: тонкая, толстая, тонкая.
 
 ### length {#length}
 ```
@@ -96,23 +120,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String shapeLineStyleName) {#fromName-java.lang.String-}
+### fromName(String shapeLineStyleName) {#fromName-java.lang.String}
 ```
 public static int fromName(String shapeLineStyleName)
 ```
@@ -120,25 +128,14 @@ public static int fromName(String shapeLineStyleName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeLineStyleName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int shapeLineStyle) {#getName-int-}
+**Returns:**
+int
+### getName(int shapeLineStyle) {#getName-int}
 ```
 public static String getName(int shapeLineStyle)
 ```
@@ -146,15 +143,14 @@ public static String getName(int shapeLineStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeLineStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +158,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int shapeLineStyle) {#toString-int-}
+**Returns:**
+int[]
+### toString(int shapeLineStyle) {#toString-int}
 ```
 public static String toString(int shapeLineStyle)
 ```
@@ -208,47 +168,10 @@ public static String toString(int shapeLineStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeLineStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

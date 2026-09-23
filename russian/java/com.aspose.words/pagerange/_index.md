@@ -1,13 +1,14 @@
 ---
-title: PageRange
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет непрерывный диапазон страниц.
+title: "PageRange"
+linktitle: "PageRange"
+second_title: "Aspose.Words для Java"
+description: "Представляет непрерывный диапазон страниц в Java."
 type: docs
-weight: 437
+weight: 516
 url: /ru/java/com.aspose.words/pagerange/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageRange
@@ -15,135 +16,62 @@ public class PageRange
 
 Представляет непрерывный диапазон страниц.
 
- Чтобы узнать больше, посетите**Programming with Documents** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Programming with Documents ][Programming with Documents].
+
+ **Examples:** 
+
+Показывает, как извлекать страницы на основе точных диапазонов страниц.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ 
+```
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [PageRange(int from, int to)](#PageRange-int-int-) | Создает новый объект диапазона страниц. |
-## Методы
-
-| Метод | Описание |
-| --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PageRange(int from, int to) {#PageRange-int-int-}
+| [PageRange(int from, int to)](#PageRange-int-int) | Создаёт новый объект диапазона страниц. |
+### PageRange(int from, int to) {#PageRange-int-int}
 ```
 public PageRange(int from, int to)
 ```
 
 
-Создает новый объект диапазона страниц.
+Создаёт новый объект диапазона страниц.
 
-**Параметры:**
+ **Remarks:** 
 
+**Integer.MAX\_VALUE** means the last page in the document.
+
+ **Examples:** 
+
+Показывает, как извлекать страницы на основе точных диапазонов страниц.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| from | int | Индекс начальной страницы с отсчетом от нуля. |
-| to | int | Индекс конечной страницы с отсчетом от нуля. Если он превышает индекс последней страницы в документе, он усекается, чтобы соответствовать документу при визуализации. означает последнюю страницу в документе. |
+| от | int | Начальный индекс страницы, начиная с нуля. |
+| до | int | Конечный индекс страницы, начиная с нуля. Если он превышает индекс последней страницы в документе, он обрезается, чтобы соответствовать документу при рендеринге. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

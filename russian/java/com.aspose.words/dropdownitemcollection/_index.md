@@ -1,50 +1,99 @@
 ---
-title: DropDownItemCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Набор строк, представляющих все элементы в раскрывающемся поле формы.
+title: "DropDownItemCollection"
+linktitle: "DropDownItemCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция строк, представляющих все элементы выпадающего поля формы в Java."
 type: docs
-weight: 135
+weight: 178
 url: /ru/java/com.aspose.words/dropdownitemcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DropDownItemCollection implements Iterable
 ```
 
-Набор строк, представляющих все элементы в раскрывающемся поле формы.
+Коллекция строк, представляющих все элементы выпадающего поля формы.
 
- Чтобы узнать больше, посетите**Working with Fields** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fields ][Working with Fields].
+
+ **Examples:** 
+
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(String value)](#add-java.lang.String-) |  |
-| [clear()](#clear--) | Удаляет все элементы из коллекции. |
-| [contains(String value)](#contains-java.lang.String-) | Определяет, содержит ли коллекция указанное значение. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает элемент по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов, содержащихся в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(String value)](#indexOf-java.lang.String-) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
-| [insert(int index, String value)](#insert-int-java.lang.String-) | Вставляет строку в коллекцию по указанному индексу. |
-| [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Удаляет указанное значение из коллекции. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет значение по указанному индексу. |
-| [set(int index, String value)](#set-int-java.lang.String-) | Устанавливает элемент по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String value) {#add-java.lang.String-}
+| [add(String value)](#add-java.lang.String) |  |
+| [clear()](#clear) | Удаляет все элементы из коллекции. |
+| [contains(String value)](#contains-java.lang.String) | Определяет, содержит ли коллекция указанное значение. |
+| [get(int index)](#get-int) | Получает элемент по указанному индексу. |
+| [getCount()](#getCount) | Получает количество элементов, содержащихся в коллекции. |
+| [indexOf(String value)](#indexOf-java.lang.String) | Возвращает индекс, начинающийся с нуля, указанного значения в коллекции. |
+| [insert(int index, String value)](#insert-int-java.lang.String) | Вставляет строку в коллекцию по указанному индексу. |
+| [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [remove(String name)](#remove-java.lang.String) | Удаляет указанное значение из коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет значение по указанному индексу. |
+| [set(int index, String value)](#set-int-java.lang.String) | Устанавливает элемент по указанному индексу. |
+### add(String value) {#add-java.lang.String}
 ```
 public int add(String value)
 ```
@@ -52,15 +101,14 @@ public int add(String value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| значение | java.lang.String |  |
 
-**Возвращает:**
-инт
-### clear() {#clear--}
+**Returns:**
+int
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -68,7 +116,61 @@ public void clear()
 
 Удаляет все элементы из коллекции.
 
-### contains(String value) {#contains-java.lang.String-}
+ **Examples:** 
+
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+### contains(String value) {#contains-java.lang.String}
 ```
 public boolean contains(String value)
 ```
@@ -76,31 +178,68 @@ public boolean contains(String value)
 
 Определяет, содержит ли коллекция указанное значение.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| value | java.lang.String | Значение с учетом регистра для поиска. |
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
 
-**Возвращает:**
-boolean — Истинно, если элемент найден в коллекции; в противном случае ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
 
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
 
-**Параметры:**
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
 
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| значение | java.lang.String | Регистрозависимое значение для поиска. |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean -  true  если элемент найден в коллекции; иначе,  false .
+### get(int index) {#get-int}
 ```
 public String get(int index)
 ```
@@ -108,25 +247,68 @@ public String get(int index)
 
 Получает элемент по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-java.lang.String — элемент по указанному индексу.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+java.lang.String - Элемент по указанному индексу.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -134,35 +316,132 @@ public int getCount()
 
 Получает количество элементов, содержащихся в коллекции.
 
-**Возвращает:**
-int - количество элементов, содержащихся в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### indexOf(String value) {#indexOf-java.lang.String-}
+**Returns:**
+int — количество элементов, содержащихся в коллекции.
+### indexOf(String value) {#indexOf-java.lang.String}
 ```
 public int indexOf(String value)
 ```
 
 
-Возвращает отсчитываемый от нуля индекс указанного значения в коллекции.
+Возвращает индекс, начинающийся с нуля, указанного значения в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Значение с учетом регистра для поиска. |
+| значение | java.lang.String | Регистрозависимое значение для поиска. |
 
-**Возвращает:**
-int - индекс, основанный на нуле. Отрицательное значение, если не найдено.
-### insert(int index, String value) {#insert-int-java.lang.String-}
+**Returns:**
+int - Индекс, начинающийся с нуля. Отрицательное значение, если не найден.
+### insert(int index, String value) {#insert-int-java.lang.String}
 ```
 public void insert(int index, String value)
 ```
@@ -170,14 +449,67 @@ public void insert(int index, String value)
 
 Вставляет строку в коллекцию по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс, по которому вставляется значение. |
-| value | java.lang.String | Строка для вставки. |
+| индекс | int | Нулевой индекс, по которому значение вставляется. |
+| значение | java.lang.String | Строка для вставки. |
 
-### isInheritedComplexAttr() {#isInheritedComplexAttr--}
+### isInheritedComplexAttr() {#isInheritedComplexAttr}
 ```
 public boolean isInheritedComplexAttr()
 ```
@@ -185,35 +517,73 @@ public boolean isInheritedComplexAttr()
 
 
 
-**Возвращает:**
-логический
-### iterator() {#iterator--}
+**Returns:**
+boolean
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -221,13 +591,66 @@ public void remove(String name)
 
 Удаляет указанное значение из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Удаляемое значение с учетом регистра. |
+| name | java.lang.String | Регистрозависимое значение для удаления. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -235,13 +658,66 @@ public void removeAt(int index)
 
 Удаляет значение по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс с отсчетом от нуля. |
+| индекс | int | Нулевой индекс. |
 
-### set(int index, String value) {#set-int-java.lang.String-}
+### set(int index, String value) {#set-int-java.lang.String}
 ```
 public void set(int index, String value)
 ```
@@ -249,56 +725,63 @@ public void set(int index, String value)
 
 Устанавливает элемент по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить поле комбобокса и отредактировать элементы в его коллекции элементов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a combo box, and then verify its collection of drop-down items.
+ // In Microsoft Word, the user will click the combo box,
+ // and then choose one of the items of text in the collection to display.
+ String[] items = {"One", "Two", "Three"};
+ FormField comboBoxField = builder.insertComboBox("DropDown", items, 0);
+ DropDownItemCollection dropDownItems = comboBoxField.getDropDownItems();
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertEquals("One", dropDownItems.get(0));
+ Assert.assertEquals(1, dropDownItems.indexOf("Two"));
+ Assert.assertTrue(dropDownItems.contains("Three"));
+
+ // There are two ways of adding a new item to an existing collection of drop-down box items.
+ // 1 -  Append an item to the end of the collection:
+ dropDownItems.add("Four");
+
+ // 2 -  Insert an item before another item at a specified index:
+ dropDownItems.insert(3, "Three and a half");
+
+ Assert.assertEquals(5, dropDownItems.getCount());
+
+ // Iterate over the collection and print every element.
+ Iterator dropDownCollectionEnumerator = dropDownItems.iterator();
+
+ while (dropDownCollectionEnumerator.hasNext())
+     System.out.println(dropDownCollectionEnumerator.next());
+
+ // There are two ways of removing elements from a collection of drop-down items.
+ // 1 -  Remove an item with contents equal to the passed string:
+ dropDownItems.remove("Four");
+
+ // 2 -  Remove an item at an index:
+ dropDownItems.removeAt(3);
+
+ Assert.assertEquals(3, dropDownItems.getCount());
+ Assert.assertFalse(dropDownItems.contains("Three and a half"));
+ Assert.assertFalse(dropDownItems.contains("Four"));
+
+ doc.save(getArtifactsDir() + "FormFields.DropDownItemCollection.html");
+
+ // Empty the whole collection of drop-down items.
+ dropDownItems.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
-| value | java.lang.String | Элемент по указанному индексу. |
+| индекс | int |  |
+| значение | java.lang.String | Элемент по указанному индексу. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

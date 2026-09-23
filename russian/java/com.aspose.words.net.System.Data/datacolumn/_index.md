@@ -1,145 +1,134 @@
 ---
-title: DataColumn
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет схему столбца в .
+title: "DataColumn"
+linktitle: "DataColumn"
+second_title: "Aspose.Words для Java"
+description: "Представляет схему столбца в DataTable в Java."
 type: docs
 weight: 14
 url: /ru/java/com.aspose.words.net.system.data/datacolumn/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DataColumn
 ```
 
- Представляет схему столбца в[DataTable](../../com.aspose.words.net.system.data/datatable).
+Представляет схему столбца в [DataTable](../../com.aspose.words.net.system.data/datatable/).
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [DataColumn()](#DataColumn--) |  Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс как тип строки. |
-| [DataColumn(String columnName)](#DataColumn-java.lang.String-) |  Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) class, как тип строки, используя указанное имя столбца. |
-| [DataColumn(String name, System.Data.DataTable table)](#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-) | Инициализирует новый экземпляр @\{ссылка на столбец данных\} класс, используя указанное имя столбца и таблицу, которой он принадлежит. |
-| [DataColumn(String columnName, Class dataType)](#DataColumn-java.lang.String-java.lang.Class-) |  Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс, используя указанное имя столбца и тип данных. |
-| [DataColumn(String name, Class type, System.Data.DataTable table)](#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable-) |  Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс, используя указанное имя столбца, тип данных и таблицу данных, к которой он принадлежит. |
+| [DataColumn()](#DataColumn) | Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) типа string. |
+| [DataColumn(String columnName)](#DataColumn-java.lang.String) | Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), типа string, используя указанное имя столбца. |
+| [DataColumn(String name, System.Data.DataTable table)](#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable) | Инициализирует новый экземпляр класса @\{link DataColumn\} используя указанное имя столбца и таблицу, к которой он принадлежит. |
+| [DataColumn(String columnName, Class dataType)](#DataColumn-java.lang.String-java.lang.Class) | Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) используя указанное имя столбца и тип данных. |
+| [DataColumn(String name, Class type, System.Data.DataTable table)](#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable) | Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) используя указанное имя столбца, тип данных и таблицу данных, к которой он принадлежит. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet)](#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowDBNull()](#getAllowDBNull--) | Получает значение, указывающее, разрешены ли пустые значения в этом столбце для строк, принадлежащих таблице. |
-| [getAutoIncrement()](#getAutoIncrement--) | Получает значение, указывающее, увеличивает ли столбец автоматически значение столбца для новых строк, добавленных в таблицу. |
-| [getAutoIncrementSeed()](#getAutoIncrementSeed--) |  Получает начальное значение для столбца, имеющего[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true. |
-| [getAutoIncrementStep()](#getAutoIncrementStep--) |  Получает приращение, используемое столбцом с его[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true. |
-| [getCaption()](#getCaption--) | Получает заголовок столбца. |
-| [getClass()](#getClass--) |  |
-| [getColumnMapping()](#getColumnMapping--) |  Получает[MappingType](../../com.aspose.words.net.system.data/mappingtype) колонны. |
-| [getColumnName()](#getColumnName--) |  Получает имя столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [getDataType()](#getDataType--) | Получает тип данных, хранящихся в столбце. |
-| [getDefaultValue()](#getDefaultValue--) | Получает значение по умолчанию для столбца при создании новых строк. |
-| [getExpression()](#getExpression--) | Получает выражение, используемое для фильтрации строк, вычисления значений в столбце или создания статистического столбца. |
-| [getMaxLength()](#getMaxLength--) | Получает максимальную длину текстового столбца. |
-| [getNamespace()](#getNamespace--) |  Получает пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [getOrdinal()](#getOrdinal--) |  Получает позицию столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) коллекция. |
-| [getPrefix()](#getPrefix--) |  Получает префикс XML, который является псевдонимом пространства имен[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [getReadOnly()](#getReadOnly--) | Получает значение, указывающее, разрешены ли изменения в столбце после добавления строки в таблицу. |
-| [getTable()](#getTable--) |  Получает[DataTable](../../com.aspose.words.net.system.data/datatable) которому принадлежит столбец. |
-| [getUnique()](#getUnique--) | Получает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными. |
-| [hashCode()](#hashCode--) |  |
-| [isReadOnly()](#isReadOnly--) |  |
-| [isUnique()](#isUnique--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAllowDBNull(boolean value)](#setAllowDBNull-boolean-) | Задает значение, указывающее, разрешены ли нулевые значения в этом столбце для строк, принадлежащих таблице. |
-| [setAutoIncrement(boolean value)](#setAutoIncrement-boolean-) | Задает значение, указывающее, увеличивает ли столбец автоматически значение столбца для новых строк, добавляемых в таблицу. |
-| [setAutoIncrementSeed(long value)](#setAutoIncrementSeed-long-) |  Задает начальное значение для столбца, имеющего[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true. |
-| [setAutoIncrementStep(long value)](#setAutoIncrementStep-long-) |  Устанавливает приращение, используемое столбцом с его[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true. |
-| [setCaption(String value)](#setCaption-java.lang.String-) | Устанавливает заголовок для столбца. |
-| [setColumnMapping(int value)](#setColumnMapping-int-) |  Устанавливает[MappingType](../../com.aspose.words.net.system.data/mappingtype) колонны. |
-| [setColumnName(String value)](#setColumnName-java.lang.String-) |  Задает имя столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [setDataType(Class value)](#setDataType-java.lang.Class-) | Задает тип данных, хранящихся в столбце. |
-| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | Задает значение по умолчанию для столбца при создании новых строк. |
-| [setMaxLength(int value)](#setMaxLength-int-) | Устанавливает максимальную длину текстового столбца. |
-| [setNamespace(String value)](#setNamespace-java.lang.String-) |  Задает пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [setOrdinal(int ordinal)](#setOrdinal-int-) |  Изменяет порядковый номер или позицию[DataColumn](../../com.aspose.words.net.system.data/datacolumn) к указанному порядковому номеру или позиции. |
-| [setPrefix(String value)](#setPrefix-java.lang.String-) |  Задает префикс XML, который является псевдонимом пространства имен[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [setReadOnly(boolean value)](#setReadOnly-boolean-) | Задает значение, указывающее, разрешены ли изменения в столбце после добавления строки в таблицу. |
-| [setUnique(boolean value)](#setUnique-boolean-) | Задает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными. |
-| [toString()](#toString--) |  Получает[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) столбца, если он существует. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataColumn() {#DataColumn--}
+| [areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet)](#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn) |  |
+| [getAllowDBNull()](#getAllowDBNull) | Возвращает значение, указывающее, разрешены ли null-значения в этом столбце для строк, принадлежащих таблице. |
+| [getAutoIncrement()](#getAutoIncrement) | Возвращает значение, указывающее, автоматически ли столбец увеличивает значение столбца для новых строк, добавляемых в таблицу. |
+| [getAutoIncrementSeed()](#getAutoIncrementSeed) | Возвращает начальное значение для столбца, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true. |
+| [getAutoIncrementStep()](#getAutoIncrementStep) | Возвращает шаг увеличения, используемый столбцом, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/daticolumn/\#setAutoIncrement-boolean) установлено в true. |
+| [getCaption()](#getCaption) | Возвращает подпись столбца. |
+| [getColumnMapping()](#getColumnMapping) | Возвращает [MappingType](../../com.aspose.words.net.system.data/mappingtype/) столбца. |
+| [getColumnName()](#getColumnName) | Возвращает имя столбца в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [getDataType()](#getDataType) | Возвращает тип данных, хранящихся в столбце. |
+| [getDefaultValue()](#getDefaultValue) | Возвращает значение по умолчанию для столбца при создании новых строк. |
+| [getExpression()](#getExpression) | Возвращает выражение, используемое для фильтрации строк, вычисления значений в столбце или создания агрегатного столбца. |
+| [getMaxLength()](#getMaxLength) | Возвращает максимальную длину текстового столбца. |
+| [getNamespace()](#getNamespace) | Возвращает пространство имён [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [getOrdinal()](#getOrdinal) | Возвращает позицию столбца в коллекции [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [getPrefix()](#getPrefix) | Возвращает префикс XML, который является псевдонимом пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/). |
+| [getReadOnly()](#getReadOnly) | Возвращает значение, указывающее, разрешает ли столбец изменения сразу после добавления строки в таблицу. |
+| [getTable()](#getTable) | Возвращает [DataTable](../../com.aspose.words.net.system.data/datatable/), к которому принадлежит столбец. |
+| [getUnique()](#getUnique) | Возвращает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными. |
+| [isReadOnly()](#isReadOnly) |  |
+| [isUnique()](#isUnique) |  |
+| [setAllowDBNull(boolean value)](#setAllowDBNull-boolean) | Устанавливает значение, указывающее, разрешены ли null‑значения в этом столбце для строк, принадлежащих таблице. |
+| [setAutoIncrement(boolean value)](#setAutoIncrement-boolean) | Устанавливает значение, указывающее, автоматически ли столбец увеличивает значение столбца для новых строк, добавляемых в таблицу. |
+| [setAutoIncrementSeed(long value)](#setAutoIncrementSeed-long) | Устанавливает начальное значение для столбца, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true. |
+| [setAutoIncrementStep(long value)](#setAutoIncrementStep-long) | Устанавливает шаг увеличения, используемый столбцом, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true. |
+| [setCaption(String value)](#setCaption-java.lang.String) | Устанавливает подпись столбца. |
+| [setColumnMapping(int value)](#setColumnMapping-int) | Устанавливает [MappingType](../../com.aspose.words.net.system.data/mappingtype/) столбца. |
+| [setColumnName(String value)](#setColumnName-java.lang.String) | Устанавливает имя столбца в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [setDataType(Class value)](#setDataType-java.lang.Class) | Устанавливает тип данных, хранящихся в столбце. |
+| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object) | Устанавливает значение по умолчанию для столбца при создании новых строк. |
+| [setMaxLength(int value)](#setMaxLength-int) | Устанавливает максимальную длину текстового столбца. |
+| [setNamespace(String value)](#setNamespace-java.lang.String) | Устанавливает пространство имён для [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [setOrdinal(int ordinal)](#setOrdinal-int) | Изменяет порядковый номер или позицию [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) на указанный порядковый номер или позицию. |
+| [setPrefix(String value)](#setPrefix-java.lang.String) | Устанавливает XML‑префикс, который является псевдонимом пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/). |
+| [setReadOnly(boolean value)](#setReadOnly-boolean) | Устанавливает значение, указывающее, разрешены ли изменения столбца сразу после добавления строки в таблицу. |
+| [setUnique(boolean value)](#setUnique-boolean) | Устанавливает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными. |
+| [toString()](#toString) | Получает [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#getExpression) столбца, если он существует. |
+### DataColumn() {#DataColumn}
 ```
 public DataColumn()
 ```
 
 
- Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс как тип строки.
+Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) типа string.
 
-### DataColumn(String columnName) {#DataColumn-java.lang.String-}
+### DataColumn(String columnName) {#DataColumn-java.lang.String}
 ```
 public DataColumn(String columnName)
 ```
 
 
- Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) class, как тип строки, используя указанное имя столбца.
+Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), типа string, используя указанное имя столбца.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnName | java.lang.String | Строка, представляющая имя создаваемого столбца. Если задано значение null или пустая строка (""), при добавлении в коллекцию столбцов будет указано имя по умолчанию. |
+| columnName | java.lang.String | Строка, представляющая имя создаваемого столбца. Если установить значение null или пустую строку (\"\"), при добавлении в коллекцию столбцов будет указано имя по умолчанию. |
 
-### DataColumn(String name, System.Data.DataTable table) {#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-}
+### DataColumn(String name, System.Data.DataTable table) {#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable}
 ```
 public DataColumn(String name, System.Data.DataTable table)
 ```
 
 
-Инициализирует новый экземпляр @\{ссылка на столбец данных\} класс, используя указанное имя столбца и таблицу, которой он принадлежит.
+Инициализирует новый экземпляр класса @\{link DataColumn\} используя указанное имя столбца и таблицу, к которой он принадлежит.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | имя столбца данных |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | таблица, которой принадлежит этот столбец |
+| name | java.lang.String | имя DataColumn |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | таблица, к которой принадлежит этот столбец |
 
-### DataColumn(String columnName, Class dataType) {#DataColumn-java.lang.String-java.lang.Class-}
+### DataColumn(String columnName, Class dataType) {#DataColumn-java.lang.String-java.lang.Class}
 ```
 public DataColumn(String columnName, Class dataType)
 ```
 
 
- Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс, используя указанное имя столбца и тип данных.
+Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) используя указанное имя столбца и тип данных.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnName | java.lang.String | Строка, представляющая имя создаваемого столбца. Если задано значение null или пустая строка (""), при добавлении в коллекцию столбцов будет указано имя по умолчанию. |
-| dataType | java.lang.Class |  Поддерживается[getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-). |
+| columnName | java.lang.String | Строка, представляющая имя создаваемого столбца. Если установить значение null или пустую строку (\"\"), при добавлении в коллекцию столбцов будет указано имя по умолчанию. |
+| dataType | java.lang.Class | Поддерживается [getDataType()](../../com.aspose.words.net.system.data/datacolumn/\#getDataType) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn/\#setDataType-java.lang.Class). |
 
-### DataColumn(String name, Class type, System.Data.DataTable table) {#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable-}
+### DataColumn(String name, Class type, System.Data.DataTable table) {#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable}
 ```
 public DataColumn(String name, Class type, System.Data.DataTable table)
 ```
 
 
- Инициализирует новый экземпляр[DataColumn](../../com.aspose.words.net.system.data/datacolumn) класс, используя указанное имя столбца, тип данных и таблицу данных, к которой он принадлежит.
+Инициализирует новый экземпляр класса [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) используя указанное имя столбца, тип данных и таблицу данных, к которой он принадлежит.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | имя столбца данных |
-| type | java.lang.Class | тип данных |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | таблица, которой принадлежит этот столбец |
+| name | java.lang.String | имя DataColumn |
+| тип | java.lang.Class | тип данных |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | таблица, к которой принадлежит этот столбец |
 
-### areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet) {#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---}
+### areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet) {#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn}
 ```
 public static boolean areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet)
 ```
@@ -147,222 +136,185 @@ public static boolean areColumnSetsTheSame(System.Data.DataColumn[] columnSet, S
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  |
-| compareSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  |
+| columnSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn/) |  |
+| compareSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn/) |  |
 
-**Возвращает:**
-логический
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAllowDBNull() {#getAllowDBNull--}
+**Returns:**
+boolean
+### getAllowDBNull() {#getAllowDBNull}
 ```
 public boolean getAllowDBNull()
 ```
 
 
-Получает значение, указывающее, разрешены ли пустые значения в этом столбце для строк, принадлежащих таблице.
+Возвращает значение, указывающее, разрешены ли null-значения в этом столбце для строк, принадлежащих таблице.
 
-**Возвращает:**
-boolean - true, если разрешены нулевые значения; в противном случае ложно. Значение по умолчанию верно.
-### getAutoIncrement() {#getAutoIncrement--}
+**Returns:**
+boolean — true, если допускаются null‑значения; иначе false. По умолчанию true.
+### getAutoIncrement() {#getAutoIncrement}
 ```
 public boolean getAutoIncrement()
 ```
 
 
-Получает значение, указывающее, увеличивает ли столбец автоматически значение столбца для новых строк, добавленных в таблицу.
+Возвращает значение, указывающее, автоматически ли столбец увеличивает значение столбца для новых строк, добавляемых в таблицу.
 
-**Возвращает:**
-boolean - true, если значение столбца увеличивается автоматически; в противном случае ложно. Значение по умолчанию — ложь.
-### getAutoIncrementSeed() {#getAutoIncrementSeed--}
+**Returns:**
+boolean — true, если значение столбца увеличивается автоматически; иначе false. По умолчанию false.
+### getAutoIncrementSeed() {#getAutoIncrementSeed}
 ```
 public long getAutoIncrementSeed()
 ```
 
 
- Получает начальное значение для столбца, имеющего[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true.
+Возвращает начальное значение для столбца, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true.
 
-**Возвращает:**
- long - начальное значение для[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) особенность.
-### getAutoIncrementStep() {#getAutoIncrementStep--}
+**Returns:**
+long — начальное значение для функции [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean).
+### getAutoIncrementStep() {#getAutoIncrementStep}
 ```
 public long getAutoIncrementStep()
 ```
 
 
- Получает приращение, используемое столбцом с его[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true.
+Возвращает шаг увеличения, используемый столбцом, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/daticolumn/\#setAutoIncrement-boolean) установлено в true.
 
-**Возвращает:**
-long — число, на которое автоматически увеличивается значение столбца. По умолчанию 1.
-### getCaption() {#getCaption--}
+**Returns:**
+long — число, на которое значение столбца автоматически увеличивается. По умолчанию 1.
+### getCaption() {#getCaption}
 ```
 public String getCaption()
 ```
 
 
-Получает заголовок столбца.
+Возвращает подпись столбца.
 
-**Возвращает:**
- java.lang.String — заголовок столбца. Если не установлено, возвращает[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) ценность.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColumnMapping() {#getColumnMapping--}
+**Returns:**
+java.lang.String — подпись столбца. Если не задано, возвращает значение [getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String).
+### getColumnMapping() {#getColumnMapping}
 ```
 public int getColumnMapping()
 ```
 
 
- Получает[MappingType](../../com.aspose.words.net.system.data/mappingtype) колонны.
+Возвращает [MappingType](../../com.aspose.words.net.system.data/mappingtype/) столбца.
 
-**Возвращает:**
- инт - один из[MappingType](../../com.aspose.words.net.system.data/mappingtype) ценности. Возвращаемое значение является одним из[MappingType](../../com.aspose.words.net.system.data/mappingtype) константы.
-### getColumnName() {#getColumnName--}
+**Returns:**
+int — одно из значений [MappingType](../../com.aspose.words.net.system.data/mappingtype/). Возвращаемое значение является одной из констант [MappingType](../../com.aspose.words.net.system.data/mappingtype/).
+### getColumnName() {#getColumnName}
 ```
 public String getColumnName()
 ```
 
 
- Получает имя столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+Возвращает имя столбца в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Возвращает:**
+**Returns:**
 java.lang.String — имя столбца.
-### getDataType() {#getDataType--}
+### getDataType() {#getDataType}
 ```
 public Class getDataType()
 ```
 
 
-Получает тип данных, хранящихся в столбце.
+Возвращает тип данных, хранящихся в столбце.
 
-**Возвращает:**
+**Returns:**
 java.lang.Class — объект java.lang.Class, представляющий тип данных столбца.
-### getDefaultValue() {#getDefaultValue--}
+### getDefaultValue() {#getDefaultValue}
 ```
 public Object getDefaultValue()
 ```
 
 
-Получает значение по умолчанию для столбца при создании новых строк.
+Возвращает значение по умолчанию для столбца при создании новых строк.
 
-**Возвращает:**
- java.lang.Object — значение, соответствующее столбцу[getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-).
-### getExpression() {#getExpression--}
+**Returns:**
+java.lang.Object — значение, соответствующее [getDataType()](../../com.aspose.words.net.system.data/datacolumn/\#getDataType) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn/\#setDataType-java.lang.Class) столбца.
+### getExpression() {#getExpression}
 ```
 public String getExpression()
 ```
 
 
-Получает выражение, используемое для фильтрации строк, вычисления значений в столбце или создания статистического столбца.
+Возвращает выражение, используемое для фильтрации строк, вычисления значений в столбце или создания агрегатного столбца.
 
-**Возвращает:**
-java.lang.String — выражение для вычисления значения столбца или создания сводного столбца. Тип возвращаемого значения выражения определяется[getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-) колонны.
-### getMaxLength() {#getMaxLength--}
+**Returns:**
+java.lang.String — выражение для вычисления значения столбца или создания агрегатного столбца. Тип возвращаемого значения выражения определяется [getDataType()](../../com.aspose.words.net.system.data/datacolumn/\#getDataType) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn/\#setDataType-java.lang.Class) столбца.
+### getMaxLength() {#getMaxLength}
 ```
 public int getMaxLength()
 ```
 
 
-Получает максимальную длину текстового столбца.
+Возвращает максимальную длину текстового столбца.
 
-**Возвращает:**
-int — максимальная длина столбца в символах. Если столбец не имеет максимальной длины, значение равно -1 (по умолчанию).
-### getNamespace() {#getNamespace--}
+**Returns:**
+int — максимальная длина столбца в символах. Если у столбца нет максимальной длины, значение равно -1 (по умолчанию).
+### getNamespace() {#getNamespace}
 ```
 public String getNamespace()
 ```
 
 
- Получает пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Возвращает пространство имён [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Возвращает:**
- java.lang.String — пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
-### getOrdinal() {#getOrdinal--}
+**Returns:**
+java.lang.String — пространство имён [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
+### getOrdinal() {#getOrdinal}
 ```
 public int getOrdinal()
 ```
 
 
- Получает позицию столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) коллекция.
+Возвращает позицию столбца в коллекции [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Возвращает:**
-int - Позиция столбца. Получает -1, если столбец не является членом коллекции.
-### getPrefix() {#getPrefix--}
+**Returns:**
+int — позиция столбца. Возвращает -1, если столбец не является членом коллекции.
+### getPrefix() {#getPrefix}
 ```
 public String getPrefix()
 ```
 
 
- Получает префикс XML, который является псевдонимом пространства имен[DataTable](../../com.aspose.words.net.system.data/datatable).
+Возвращает префикс XML, который является псевдонимом пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
-**Возвращает:**
- java.lang.String — префикс XML для[DataTable](../../com.aspose.words.net.system.data/datatable) пространство имен.
-### getReadOnly() {#getReadOnly--}
+**Returns:**
+java.lang.String — XML‑префикс для пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/).
+### getReadOnly() {#getReadOnly}
 ```
 public boolean getReadOnly()
 ```
 
 
-Получает значение, указывающее, разрешены ли изменения в столбце после добавления строки в таблицу.
+Возвращает значение, указывающее, разрешает ли столбец изменения сразу после добавления строки в таблицу.
 
-**Возвращает:**
-boolean - true, если столбец доступен только для чтения; в противном случае ложно. Значение по умолчанию — ложь.
-### getTable() {#getTable--}
+**Returns:**
+boolean - true, если столбец только для чтения; иначе false. По умолчанию false.
+### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
- Получает[DataTable](../../com.aspose.words.net.system.data/datatable) которому принадлежит столбец.
+Возвращает [DataTable](../../com.aspose.words.net.system.data/datatable/), к которому принадлежит столбец.
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) -[DataTable](../../com.aspose.words.net.system.data/datatable) что[DataColumn](../../com.aspose.words.net.system.data/datacolumn) принадлежит.
-### getUnique() {#getUnique--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - The [DataTable](../../com.aspose.words.net.system.data/datatable/) that the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) belongs to.
+### getUnique() {#getUnique}
 ```
 public boolean getUnique()
 ```
 
 
-Получает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными.
+Возвращает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными.
 
-**Возвращает:**
-boolean - true, если значение должно быть уникальным; в противном случае ложно. Значение по умолчанию — ложь.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### isReadOnly() {#isReadOnly--}
+**Returns:**
+boolean - true, если значение должно быть уникальным; иначе false. По умолчанию false.
+### isReadOnly() {#isReadOnly}
 ```
 public boolean isReadOnly()
 ```
@@ -370,9 +322,9 @@ public boolean isReadOnly()
 
 
 
-**Возвращает:**
-логический
-### isUnique() {#isUnique--}
+**Returns:**
+boolean
+### isUnique() {#isUnique}
 ```
 public boolean isUnique()
 ```
@@ -380,151 +332,126 @@ public boolean isUnique()
 
 
 
-**Возвращает:**
-логический
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAllowDBNull(boolean value) {#setAllowDBNull-boolean-}
+**Returns:**
+boolean
+### setAllowDBNull(boolean value) {#setAllowDBNull-boolean}
 ```
 public void setAllowDBNull(boolean value)
 ```
 
 
-Задает значение, указывающее, разрешены ли нулевые значения в этом столбце для строк, принадлежащих таблице.
+Устанавливает значение, указывающее, разрешены ли null‑значения в этом столбце для строк, принадлежащих таблице.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | true, если разрешены нулевые значения; в противном случае ложно. Значение по умолчанию верно. |
+| значение | boolean | true, если допускаются null‑значения; иначе false. По умолчанию true. |
 
-### setAutoIncrement(boolean value) {#setAutoIncrement-boolean-}
+### setAutoIncrement(boolean value) {#setAutoIncrement-boolean}
 ```
 public void setAutoIncrement(boolean value)
 ```
 
 
-Задает значение, указывающее, увеличивает ли столбец автоматически значение столбца для новых строк, добавляемых в таблицу.
+Устанавливает значение, указывающее, автоматически ли столбец увеличивает значение столбца для новых строк, добавляемых в таблицу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение true, если значение столбца увеличивается автоматически; в противном случае ложно. Значение по умолчанию — ложь. |
+| значение | boolean | true, если значение столбца увеличивается автоматически; иначе false. По умолчанию false. |
 
-### setAutoIncrementSeed(long value) {#setAutoIncrementSeed-long-}
+### setAutoIncrementSeed(long value) {#setAutoIncrementSeed-long}
 ```
 public void setAutoIncrementSeed(long value)
 ```
 
 
- Задает начальное значение для столбца, имеющего[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true.
+Устанавливает начальное значение для столбца, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | long |  Начальное значение для[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) особенность. |
+| value | long | Начальное значение для функции [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean). |
 
-### setAutoIncrementStep(long value) {#setAutoIncrementStep-long-}
+### setAutoIncrementStep(long value) {#setAutoIncrementStep-long}
 ```
 public void setAutoIncrementStep(long value)
 ```
 
 
- Устанавливает приращение, используемое столбцом с его[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)свойство установлено в true.
+Устанавливает шаг увеличения, используемый столбцом, у которого свойство [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) установлено в true.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | long | Число, на которое автоматически увеличивается значение столбца. По умолчанию 1. |
+| значение | long | Число, на которое значение столбца автоматически увеличивается. По умолчанию 1. |
 
-### setCaption(String value) {#setCaption-java.lang.String-}
+### setCaption(String value) {#setCaption-java.lang.String}
 ```
 public void setCaption(String value)
 ```
 
 
-Устанавливает заголовок для столбца.
+Устанавливает подпись столбца.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Заголовок столбца. Если не установлено, возвращает[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) ценность. |
+| value | java.lang.String | Подпись столбца. Если не задано, возвращается значение [getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String). |
 
-### setColumnMapping(int value) {#setColumnMapping-int-}
+### setColumnMapping(int value) {#setColumnMapping-int}
 ```
 public void setColumnMapping(int value)
 ```
 
 
- Устанавливает[MappingType](../../com.aspose.words.net.system.data/mappingtype) колонны.
+Устанавливает [MappingType](../../com.aspose.words.net.system.data/mappingtype/) столбца.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Один из[MappingType](../../com.aspose.words.net.system.data/mappingtype) ценности. Значение должно быть одним из[MappingType](../../com.aspose.words.net.system.data/mappingtype) константы. |
+| value | int | Одно из значений [MappingType](../../com.aspose.words.net.system.data/mappingtype/). Значение должно быть одной из констант [MappingType](../../com.aspose.words.net.system.data/mappingtype/). |
 
-### setColumnName(String value) {#setColumnName-java.lang.String-}
+### setColumnName(String value) {#setColumnName-java.lang.String}
 ```
 public void setColumnName(String value)
 ```
 
 
- Задает имя столбца в[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+Устанавливает имя столбца в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя столбца. |
+| значение | java.lang.String | Имя столбца. |
 
-### setDataType(Class value) {#setDataType-java.lang.Class-}
+### setDataType(Class value) {#setDataType-java.lang.Class}
 ```
 public void setDataType(Class value)
 ```
 
 
-Задает тип данных, хранящихся в столбце.
+Устанавливает тип данных, хранящихся в столбце.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.Class | Объект java.lang.Class, представляющий тип данных столбца. |
+| значение | java.lang.Class | Объект java.lang.Class, представляющий тип данных столбца. |
 
-### setDefaultValue(Object value) {#setDefaultValue-java.lang.Object-}
+### setDefaultValue(Object value) {#setDefaultValue-java.lang.Object}
 ```
 public void setDefaultValue(Object value)
 ```
 
 
-Задает значение по умолчанию для столбца при создании новых строк.
+Устанавливает значение по умолчанию для столбца при создании новых строк.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.Object |  Значение, соответствующее столбцу[getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-). |
+| value | java.lang.Object | Значение, соответствующее [getDataType()](../../com.aspose.words.net.system.data/datacolumn/\#getDataType) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn/\#setDataType-java.lang.Class). |
 
-### setMaxLength(int value) {#setMaxLength-int-}
+### setMaxLength(int value) {#setMaxLength-int}
 ```
 public void setMaxLength(int value)
 ```
@@ -532,125 +459,83 @@ public void setMaxLength(int value)
 
 Устанавливает максимальную длину текстового столбца.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Максимальная длина столбца в символах. Если столбец не имеет максимальной длины, значение равно -1 (по умолчанию). |
+| значение | int | Максимальная длина столбца в символах. Если у столбца нет максимальной длины, значение равно -1 (по умолчанию). |
 
-### setNamespace(String value) {#setNamespace-java.lang.String-}
+### setNamespace(String value) {#setNamespace-java.lang.String}
 ```
 public void setNamespace(String value)
 ```
 
 
- Задает пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Устанавливает пространство имён для [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String |  Пространство имен[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| value | java.lang.String | Пространство имён [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
 
-### setOrdinal(int ordinal) {#setOrdinal-int-}
+### setOrdinal(int ordinal) {#setOrdinal-int}
 ```
 public void setOrdinal(int ordinal)
 ```
 
 
- Изменяет порядковый номер или позицию[DataColumn](../../com.aspose.words.net.system.data/datacolumn) к указанному порядковому номеру или позиции.
+Изменяет порядковый номер или позицию [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) на указанный порядковый номер или позицию.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ordinal | int | Указанный порядковый номер. |
+| порядковый | int | Указанный порядковый номер. |
 
-### setPrefix(String value) {#setPrefix-java.lang.String-}
+### setPrefix(String value) {#setPrefix-java.lang.String}
 ```
 public void setPrefix(String value)
 ```
 
 
- Задает префикс XML, который является псевдонимом пространства имен[DataTable](../../com.aspose.words.net.system.data/datatable).
+Устанавливает XML‑префикс, который является псевдонимом пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String |  Префикс XML для[DataTable](../../com.aspose.words.net.system.data/datatable) пространство имен. |
+| value | java.lang.String | Префикс XML для пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 
-### setReadOnly(boolean value) {#setReadOnly-boolean-}
+### setReadOnly(boolean value) {#setReadOnly-boolean}
 ```
 public void setReadOnly(boolean value)
 ```
 
 
-Задает значение, указывающее, разрешены ли изменения в столбце после добавления строки в таблицу.
+Устанавливает значение, указывающее, разрешены ли изменения столбца сразу после добавления строки в таблицу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | true, если столбец доступен только для чтения; в противном случае ложно. Значение по умолчанию — ложь. |
+| значение | boolean | true, если столбец только для чтения; иначе false. По умолчанию false. |
 
-### setUnique(boolean value) {#setUnique-boolean-}
+### setUnique(boolean value) {#setUnique-boolean}
 ```
 public void setUnique(boolean value)
 ```
 
 
-Задает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными.
+Устанавливает значение, указывающее, должны ли значения в каждой строке столбца быть уникальными.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | true, если значение должно быть уникальным; в противном случае ложно. Значение по умолчанию — ложь. |
+| значение | boolean | true, если значение должно быть уникальным; иначе false. По умолчанию false. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
 
 
- Получает[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) столбца, если он существует.
+Получает [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#getExpression) столбца, если он существует.
 
-**Возвращает:**
- java.lang.String —[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) значение, если свойство установлено; в противном случае[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) имущество.
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+java.lang.String - значение [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#getExpression), если свойство установлено; иначе свойство [getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String).

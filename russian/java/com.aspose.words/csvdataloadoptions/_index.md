@@ -1,51 +1,69 @@
 ---
-title: CsvDataLoadOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет параметры анализа данных CSV.
+title: "CsvDataLoadOptions"
+linktitle: "CsvDataLoadOptions"
+second_title: "Aspose.Words для Java"
+description: "Представляет параметры для разбора CSV‑данных в Java."
 type: docs
-weight: 98
+weight: 137
 url: /ru/java/com.aspose.words/csvdataloadoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CsvDataLoadOptions
 ```
 
-Представляет параметры анализа данных CSV.
+Представляет параметры для разбора CSV-данных.
 
- Чтобы узнать больше, посетите**LINQ Reporting Engine** документальная статья.
+Чтобы узнать больше, посетите статью документации [ LINQ Reporting Engine ][LINQ Reporting Engine].
 
- Экземпляр этого класса может быть передан в конструкторы[CsvDataSource](../../com.aspose.words/csvdatasource).
+ **Remarks:** 
+
+Экземпляр этого класса можно передать в конструкторы [CsvDataSource](../../com.aspose.words/csvdatasource/).
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [CsvDataLoadOptions()](#CsvDataLoadOptions--) | Инициализирует новый экземпляр этого класса с параметрами по умолчанию. |
-| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean-) | Инициализирует новый экземпляр этого класса, указывая, содержат ли данные CSV имена столбцов в первой строке. |
+| [CsvDataLoadOptions()](#CsvDataLoadOptions) | Инициализирует новый экземпляр этого класса с параметрами по умолчанию. |
+| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean) | Инициализирует новый экземпляр этого класса, указывая, содержит ли CSV‑данные имена столбцов в первой строке. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCommentChar()](#getCommentChar--) | Получает символ, используемый для комментирования строк данных CSV. |
-| [getDelimiter()](#getDelimiter--) | Получает символ, который будет использоваться в качестве разделителя столбцов. |
-| [getQuoteChar()](#getQuoteChar--) | Получает символ, используемый для кавычек значений поля. |
-| [hasHeaders()](#hasHeaders--) | Получает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
-| [hasHeaders(boolean value)](#hasHeaders-boolean-) | Задает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setCommentChar(char value)](#setCommentChar-char-) | Задает символ, используемый для комментирования строк данных CSV. |
-| [setDelimiter(char value)](#setDelimiter-char-) | Устанавливает символ, который будет использоваться в качестве разделителя столбца. |
-| [setQuoteChar(char value)](#setQuoteChar-char-) | Задает символ, который используется для кавычек значений поля. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### CsvDataLoadOptions() {#CsvDataLoadOptions--}
+| [getCommentChar()](#getCommentChar) | Возвращает символ, используемый для комментирования строк CSV‑данных. |
+| [getDelimiter()](#getDelimiter) | Возвращает символ, используемый в качестве разделителя столбцов. |
+| [getQuoteChar()](#getQuoteChar) | Возвращает символ, используемый для заключения значений полей в кавычки. |
+| [hasHeaders()](#hasHeaders) | Возвращает значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов. |
+| [hasHeaders(boolean value)](#hasHeaders-boolean) | Устанавливает значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов. |
+| [setCommentChar(char value)](#setCommentChar-char) | Устанавливает символ, используемый для комментирования строк CSV‑данных. |
+| [setDelimiter(char value)](#setDelimiter-char) | Устанавливает символ, используемый в качестве разделителя столбцов. |
+| [setQuoteChar(char value)](#setQuoteChar-char) | Устанавливает символ, используемый для заключения значений полей в кавычки. |
+### CsvDataLoadOptions() {#CsvDataLoadOptions}
 ```
 public CsvDataLoadOptions()
 ```
@@ -53,219 +71,354 @@ public CsvDataLoadOptions()
 
 Инициализирует новый экземпляр этого класса с параметрами по умолчанию.
 
-### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean-}
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean}
 ```
 public CsvDataLoadOptions(boolean hasHeaders)
 ```
 
 
-Инициализирует новый экземпляр этого класса, указывая, содержат ли данные CSV имена столбцов в первой строке.
+Инициализирует новый экземпляр этого класса, указывая, содержит ли CSV‑данные имена столбцов в первой строке.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | hasHeaders | boolean |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCommentChar() {#getCommentChar--}
+### getCommentChar() {#getCommentChar}
 ```
 public char getCommentChar()
 ```
 
 
-Получает символ, используемый для комментирования строк данных CSV. Значение по умолчанию: '\#' (цифровой знак).
+Возвращает символ, используемый для комментирования строк CSV‑данных.
 
-**Возвращает:**
-char — символ, который используется для комментирования строк данных CSV.
-### getDelimiter() {#getDelimiter--}
+ **Remarks:** 
+
+Значение по умолчанию — '\#' (знак решётки).
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Returns:**
+char - Символ, который используется для комментирования строк CSV‑данных.
+### getDelimiter() {#getDelimiter}
 ```
 public char getDelimiter()
 ```
 
 
-Получает символ, который будет использоваться в качестве разделителя столбцов. Значение по умолчанию — ',' (запятая).
+Возвращает символ, используемый в качестве разделителя столбцов.
 
-**Возвращает:**
-char — символ, который будет использоваться в качестве разделителя столбцов.
-### getQuoteChar() {#getQuoteChar--}
+ **Remarks:** 
+
+Значение по умолчанию — ',' (запятая).
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Returns:**
+char - Символ, используемый в качестве разделителя столбцов.
+### getQuoteChar() {#getQuoteChar}
 ```
 public char getQuoteChar()
 ```
 
 
-Получает символ, используемый для кавычек значений поля.
+Возвращает символ, используемый для заключения значений полей в кавычки.
 
-Значение по умолчанию — '"' (кавычки).
+ **Remarks:** 
 
-Удвойте символ, чтобы поместить его в цитируемый текст.
+Значение по умолчанию — '"' (кавычка).
 
-**Возвращает:**
-char — символ, который используется для кавычек значений поля.
-### hasHeaders() {#hasHeaders--}
+Удвоить символ, чтобы разместить его в кавычках.
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Returns:**
+char - Символ, который используется для заключения значений полей в кавычки.
+### hasHeaders() {#hasHeaders}
 ```
 public boolean hasHeaders()
 ```
 
 
- Получает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. Значение по умолчанию**false**.
+Возвращает значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов.
 
-**Возвращает:**
-boolean — значение, указывающее, содержит ли первая запись данных CSV имена столбцов.
-### hasHeaders(boolean value) {#hasHeaders-boolean-}
+ **Remarks:** 
+
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Returns:**
+boolean - Значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов.
+### hasHeaders(boolean value) {#hasHeaders-boolean}
 ```
 public void hasHeaders(boolean value)
 ```
 
 
- Задает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. Значение по умолчанию**false**.
+Устанавливает значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
+| значение | boolean | Значение, указывающее, содержит ли первая запись CSV‑данных имена столбцов. |
 
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setCommentChar(char value) {#setCommentChar-char-}
+### setCommentChar(char value) {#setCommentChar-char}
 ```
 public void setCommentChar(char value)
 ```
 
 
-Задает символ, используемый для комментирования строк данных CSV. Значение по умолчанию: '\#' (цифровой знак).
+Устанавливает символ, используемый для комментирования строк CSV‑данных.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — '\#' (знак решётки).
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | char | Символ, используемый для комментирования строк данных CSV. |
+| значение | char | Символ, который используется для комментирования строк CSV‑данных. |
 
-### setDelimiter(char value) {#setDelimiter-char-}
+### setDelimiter(char value) {#setDelimiter-char}
 ```
 public void setDelimiter(char value)
 ```
 
 
-Устанавливает символ, который будет использоваться в качестве разделителя столбца. Значение по умолчанию — ',' (запятая).
+Устанавливает символ, используемый в качестве разделителя столбцов.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — ',' (запятая).
+
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | char | Символ, который будет использоваться в качестве разделителя столбцов. |
+| значение | char | Символ, используемый в качестве разделителя столбцов. |
 
-### setQuoteChar(char value) {#setQuoteChar-char-}
+### setQuoteChar(char value) {#setQuoteChar-char}
 ```
 public void setQuoteChar(char value)
 ```
 
 
-Задает символ, который используется для кавычек значений поля.
+Устанавливает символ, используемый для заключения значений полей в кавычки.
 
-Значение по умолчанию — '"' (кавычки).
+ **Remarks:** 
 
-Удвойте символ, чтобы поместить его в цитируемый текст.
+Значение по умолчанию — '"' (кавычка).
 
-**Параметры:**
+Удвоить символ, чтобы разместить его в кавычках.
 
+ **Examples:** 
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - CSV data destination (Java).docx");
+
+ CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+ loadOptions.setDelimiter(';');
+ loadOptions.setCommentChar('$');
+ loadOptions.hasHeaders(true);
+ loadOptions.setQuoteChar('"');
+
+ CsvDataSource dataSource = new CsvDataSource(getMyDir() + "List of people.csv", loadOptions);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.CsvDataString.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | char | Символ, который используется для кавычек значений поля. |
+| значение | char | Символ, который используется для заключения значений полей в кавычки. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

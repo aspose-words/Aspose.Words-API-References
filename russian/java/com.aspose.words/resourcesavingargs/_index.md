@@ -1,78 +1,89 @@
 ---
-title: ResourceSavingArgs
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет данные для события.
+title: "ResourceSavingArgs"
+linktitle: "ResourceSavingArgs"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет данные для события IResourceSavingCallback.resourceSavingcom.aspose.words.ResourceSavingArgs в Java."
 type: docs
-weight: 481
+weight: 577
 url: /ru/java/com.aspose.words/resourcesavingargs/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ResourceSavingArgs
 ```
 
- Предоставляет данные для[IResourceSavingCallback.resourceSaving(com.aspose.words.ResourceSavingArgs)](../../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs-) мероприятие.
+Предоставляет данные для события [IResourceSavingCallback.resourceSaving(com.aspose.words.ResourceSavingArgs)](../../com.aspose.words/iresourcesavingcallback/\#resourceSaving-com.aspose.words.ResourceSavingArgs).
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
 
-По умолчанию, когда Aspose.Words сохраняет документ на фиксированную страницу HTML или SVG, он сохраняет каждый ресурс в отдельный файл. Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого ресурса, найденного в документе.
+ **Remarks:** 
 
-[ResourceSavingArgs](../../com.aspose.words/resourcesavingargs) позволяет переопределить, как генерируются имена файлов ресурсов, или полностью обойти сохранение ресурсов в файлы, предоставив свои собственные потоковые объекты.
+По умолчанию, когда Aspose.Words сохраняет документ в фиксированный HTML, SVG или Markdown, он сохраняет каждый ресурс в отдельный файл. Aspose.Words использует имя файла документа и уникальный номер для генерации уникального имени файла для каждого ресурса, найденного в документе.
 
- Чтобы применить собственную логику для генерации имен файлов ресурсов, используйте[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) имущество.
+[ResourceSavingArgs](../../com.aspose.words/resourcesavingargs/) allows to redefine how resource file names are generated or to completely circumvent saving of resources into files by providing your own stream objects.
 
-Чтобы сохранять ресурсы в потоки, а не в файлы, используйте**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** имущество.
+Чтобы применить свою собственную логику генерации имен файлов ресурсов, используйте свойство [getResourceFileName()](../../com.aspose.words/resourcesavingargs/\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs/\#setResourceFileName-java.lang.String).
+
+Чтобы сохранять ресурсы в потоки вместо файлов, используйте свойство **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**.
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDocument()](#getDocument--) | Получает объект документа, который в данный момент сохраняется. |
-| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen--) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения ресурса. |
-| [getResourceFileName()](#getResourceFileName--) | Получает имя файла (без пути), в котором будет сохранен ресурс. |
-| [getResourceFileUri()](#getResourceFileUri--) | Получает универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа. |
-| [getResourceStream()](#getResourceStream--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean-) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения ресурса. |
-| [setResourceFileName(String value)](#setResourceFileName-java.lang.String-) | Задает имя файла (без пути), в котором будет сохранен ресурс. |
-| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String-) | Задает универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа. |
-| [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDocument() {#getDocument--}
+| [getDocument()](#getDocument) | Получает объект документа, который в данный момент сохраняется. |
+| [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения ресурса. |
+| [getResourceFileName()](#getResourceFileName) | Получает имя файла (без пути), в который будет сохранён ресурс. |
+| [getResourceFileUri()](#getResourceFileUri) | Получает унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа. |
+| [getResourceStream()](#getResourceStream) |  |
+| [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения ресурса. |
+| [setResourceFileName(String value)](#setResourceFileName-java.lang.String) | Устанавливает имя файла (без пути), в который будет сохранён ресурс. |
+| [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String) | Устанавливает унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа. |
+| [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream) |  |
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
@@ -80,68 +91,269 @@ public Document getDocument()
 
 Получает объект документа, который в данный момент сохраняется.
 
-**Возвращает:**
-[Document](../../com.aspose.words/document) - Объект документа, который в данный момент сохраняется.
-### getKeepResourceStreamOpen() {#getKeepResourceStreamOpen--}
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+**Returns:**
+[Document](../../com.aspose.words/document/) - The document object that is currently being saved.
+### getKeepResourceStreamOpen() {#getKeepResourceStreamOpen}
 ```
 public boolean getKeepResourceStreamOpen()
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения ресурса.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения ресурса.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** свойство после записи в него ресурса. Укажите значение true, чтобы поток оставался открытым.
+ **Remarks:** 
+
+По умолчанию значение  false , и Aspose.Words закроет поток, предоставленный в свойстве **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**, после записи в него ресурса. Укажите  true , чтобы оставить поток открытым.
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для вывода URI внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void htmlFixedResourceFolder() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     ResourceUriPrinter callback = new ResourceUriPrinter();
+
+     HtmlFixedSaveOptions options = new HtmlFixedSaveOptions();
+     {
+         options.setSaveFormat(SaveFormat.HTML_FIXED);
+         options.setExportEmbeddedImages(false);
+         options.setResourcesFolder(getArtifactsDir() + "HtmlFixedResourceFolder");
+         options.setResourcesFolderAlias(getArtifactsDir() + "HtmlFixedResourceFolderAlias");
+         options.setShowPageBorder(false);
+         options.setResourceSavingCallback(callback);
+     }
+
+     // A folder specified by ResourcesFolderAlias will contain the resources instead of ResourcesFolder.
+     // We must ensure the folder exists before the streams can put their resources into it.
+     new File(options.getResourcesFolderAlias()).mkdir();
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
+
+     System.out.println(callback.getText());
+
+     String[] resourceFiles = new File(getArtifactsDir() + "HtmlFixedResourceFolderAlias").list();
+
+     Assert.assertFalse(new File(getArtifactsDir() + "HtmlFixedResourceFolder").exists());
+     Assert.assertEquals(6, IterableUtils.countMatches(Arrays.asList(resourceFiles),
+             f -> f.endsWith(".jpeg") || f.endsWith(".png") || f.endsWith(".css")));
+ }
+
+ /// 
+ /// Counts and prints URIs of resources contained by as they are converted to fixed HTML.
+ /// 
+ private static class ResourceUriPrinter implements IResourceSavingCallback {
+     public void resourceSaving(ResourceSavingArgs args) throws Exception {
+         // If we set a folder alias in the SaveOptions object, we will be able to print it from here.
+         mText.append(MessageFormat.format("Resource #{0} \"{1}\"", ++mSavedResourceCount, args.getResourceFileName()));
+
+         String extension = FilenameUtils.getExtension(args.getResourceFileName());
+         switch (extension) {
+             case "ttf":
+             case "woff": {
+                 // By default, 'ResourceFileUri' uses system folder for fonts.
+                 // To avoid problems in other platforms you must explicitly specify the path for the fonts.
+                 args.setResourceFileUri(getArtifactsDir() + File.separatorChar + args.getResourceFileName());
+                 break;
+             }
+         }
+
+         mText.append("\t" + args.getResourceFileUri());
+
+         // If we have specified a folder in the "ResourcesFolderAlias" property,
+         // we will also need to redirect each stream to put its resource in that folder.
+         args.setResourceStream(new FileOutputStream(args.getResourceFileUri()));
+         args.setKeepResourceStreamOpen(false);
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private int mSavedResourceCount;
+     private final  StringBuilder mText = new StringBuilder();
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getResourceFileName() {#getResourceFileName--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getResourceFileName() {#getResourceFileName}
 ```
 public String getResourceFileName()
 ```
 
 
-Получает имя файла (без пути), в котором будет сохранен ресурс.
+Получает имя файла (без пути), в который будет сохранён ресурс.
 
-Это свойство позволяет переопределить способ генерации имен файлов ресурсов во время экспорта в HTML или SVG с фиксированной страницей.
+ **Remarks:** 
 
-Когда событие запускается, это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
+Это свойство позволяет переопределить способ генерации имён файлов ресурсов при экспорте в фиксированный HTML, SVG или Markdown.
 
-Aspose.Words автоматически генерирует уникальное имя файла для каждого ресурса при экспорте в формат фиксированной страницы HTML или SVG. Способ генерации имени файла ресурсов зависит от того, сохраняете ли вы документ в файл или в поток.
+Когда событие вызывается, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
 
- При сохранении документа в файл сгенерированное имя файла ресурсов выглядит так:*.![Image 1][].*.
+Aspose.Words автоматически генерирует уникальное имя файла для каждого ресурса при экспорте в фиксированный HTML, SVG или Markdown. Как генерируется имя файла ресурса, зависит от того, сохраняете ли вы документ в файл или в поток.
 
- При сохранении документа в поток сгенерированное имя файла ресурсов выглядит так:*Aspose.Words..![Image 1][].*.
+При сохранении документа в файл сгенерированное имя файла ресурса выглядит как *.![Image 1][].*.
 
-[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения и значение атрибута src для записи на фиксированную страницу HTML или SVG, используя имя файла документа,[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) или же[SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) а также[HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) или же[SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-) характеристики.
+При сохранении документа в поток сгенерированное имя файла ресурса выглядит как *Aspose.Words..![Image 1][].*.
 
-**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+[getResourceFileName()](../../com.aspose.words/resourcesavingargs/\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs/\#setResourceFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML, SVG or Markdown using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String) or [MarkdownSaveOptions.getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [MarkdownSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) or [MarkdownSaveOptions.getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [MarkdownSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) properties.
+
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String)
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
 
-[Изображение 1]: 
+[Image 1]: 
 
-**Возвращает:**
-java.lang.String — имя файла (без пути), в котором будет сохранен ресурс.
-### getResourceFileUri() {#getResourceFileUri--}
+**Returns:**
+java.lang.String — имя файла (без пути), в который будет сохранён ресурс.
+### getResourceFileUri() {#getResourceFileUri}
 ```
 public String getResourceFileUri()
 ```
 
 
-Получает универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа.
+Получает унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа.
 
-Это свойство позволяет изменять URI файлов ресурсов, экспортируемых в документы HTML или SVG с фиксированной страницей.
+ **Remarks:** 
 
-Aspose.Words автоматически генерирует URI для каждого файла ресурсов во время экспорта в фиксированный формат страницы HTML или SVG. Сгенерированные URI ссылаются на файлы ресурсов, сохраненные Aspose.Words. Однако URI могут быть неверными, если файлы ресурсов должны быть перемещены в другое место или если файлы ресурсов сохранены в потоки. Это свойство позволяет исправлять URI в таких случаях.
+Это свойство позволяет изменить URI файлов ресурсов, экспортированных в фиксированный HTML, SVG или Markdown.
 
-Когда событие запускается, это свойство содержит URI, сгенерированный Aspose.Words. Вы можете изменить значение этого свойства, чтобы предоставить настраиваемый URI для файла ресурсов.
+Aspose.Words автоматически генерирует URI для каждого файла ресурса при экспорте в фиксированный HTML, SVG или Markdown. Сгенерированные URI ссылаются на файлы ресурсов, сохранённые Aspose.Words. Однако URI могут быть некорректными, если файлы ресурсов перемещаются в другое место или сохраняются в потоки. Это свойство позволяет исправить URI в этих случаях.
 
-[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+Когда событие вызывается, это свойство содержит URI, сгенерированный Aspose.Words. Вы можете изменить значение этого свойства, чтобы задать пользовательский URI для файла ресурса.
 
-**Возвращает:**
-java.lang.String — универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа.
-### getResourceStream() {#getResourceStream--}
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) [MarkdownSaveOptions.getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [MarkdownSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String) [MarkdownSaveOptions.getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [MarkdownSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String)
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа.
+### getResourceStream() {#getResourceStream}
 ```
 public OutputStream getResourceStream()
 ```
@@ -149,106 +361,238 @@ public OutputStream getResourceStream()
 
 
 
-**Возвращает:**
+**Returns:**
 java.io.OutputStream
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setKeepResourceStreamOpen(boolean value) {#setKeepResourceStreamOpen-boolean-}
+### setKeepResourceStreamOpen(boolean value) {#setKeepResourceStreamOpen-boolean}
 ```
 public void setKeepResourceStreamOpen(boolean value)
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения ресурса.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения ресурса.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** свойство после записи в него ресурса. Укажите значение true, чтобы поток оставался открытым.
+ **Remarks:** 
+
+По умолчанию значение  false , и Aspose.Words закроет поток, предоставленный в свойстве **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**, после записи в него ресурса. Укажите  true , чтобы оставить поток открытым.
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для вывода URI внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void htmlFixedResourceFolder() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     ResourceUriPrinter callback = new ResourceUriPrinter();
+
+     HtmlFixedSaveOptions options = new HtmlFixedSaveOptions();
+     {
+         options.setSaveFormat(SaveFormat.HTML_FIXED);
+         options.setExportEmbeddedImages(false);
+         options.setResourcesFolder(getArtifactsDir() + "HtmlFixedResourceFolder");
+         options.setResourcesFolderAlias(getArtifactsDir() + "HtmlFixedResourceFolderAlias");
+         options.setShowPageBorder(false);
+         options.setResourceSavingCallback(callback);
+     }
+
+     // A folder specified by ResourcesFolderAlias will contain the resources instead of ResourcesFolder.
+     // We must ensure the folder exists before the streams can put their resources into it.
+     new File(options.getResourcesFolderAlias()).mkdir();
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
+
+     System.out.println(callback.getText());
+
+     String[] resourceFiles = new File(getArtifactsDir() + "HtmlFixedResourceFolderAlias").list();
+
+     Assert.assertFalse(new File(getArtifactsDir() + "HtmlFixedResourceFolder").exists());
+     Assert.assertEquals(6, IterableUtils.countMatches(Arrays.asList(resourceFiles),
+             f -> f.endsWith(".jpeg") || f.endsWith(".png") || f.endsWith(".css")));
+ }
+
+ /// 
+ /// Counts and prints URIs of resources contained by as they are converted to fixed HTML.
+ /// 
+ private static class ResourceUriPrinter implements IResourceSavingCallback {
+     public void resourceSaving(ResourceSavingArgs args) throws Exception {
+         // If we set a folder alias in the SaveOptions object, we will be able to print it from here.
+         mText.append(MessageFormat.format("Resource #{0} \"{1}\"", ++mSavedResourceCount, args.getResourceFileName()));
+
+         String extension = FilenameUtils.getExtension(args.getResourceFileName());
+         switch (extension) {
+             case "ttf":
+             case "woff": {
+                 // By default, 'ResourceFileUri' uses system folder for fonts.
+                 // To avoid problems in other platforms you must explicitly specify the path for the fonts.
+                 args.setResourceFileUri(getArtifactsDir() + File.separatorChar + args.getResourceFileName());
+                 break;
+             }
+         }
+
+         mText.append("\t" + args.getResourceFileUri());
+
+         // If we have specified a folder in the "ResourcesFolderAlias" property,
+         // we will also need to redirect each stream to put its resource in that folder.
+         args.setResourceStream(new FileOutputStream(args.getResourceFileUri()));
+         args.setKeepResourceStreamOpen(false);
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private int mSavedResourceCount;
+     private final  StringBuilder mText = new StringBuilder();
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setResourceFileName(String value) {#setResourceFileName-java.lang.String-}
+### setResourceFileName(String value) {#setResourceFileName-java.lang.String}
 ```
 public void setResourceFileName(String value)
 ```
 
 
-Задает имя файла (без пути), в котором будет сохранен ресурс.
+Устанавливает имя файла (без пути), в который будет сохранён ресурс.
 
-Это свойство позволяет переопределить способ генерации имен файлов ресурсов во время экспорта в HTML или SVG с фиксированной страницей.
+ **Remarks:** 
 
-Когда событие запускается, это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
+Это свойство позволяет переопределить способ генерации имён файлов ресурсов при экспорте в фиксированный HTML, SVG или Markdown.
 
-Aspose.Words автоматически генерирует уникальное имя файла для каждого ресурса при экспорте в формат фиксированной страницы HTML или SVG. Способ генерации имени файла ресурсов зависит от того, сохраняете ли вы документ в файл или в поток.
+Когда событие вызывается, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
 
- При сохранении документа в файл сгенерированное имя файла ресурсов выглядит так:*.![Image 1][].*.
+Aspose.Words автоматически генерирует уникальное имя файла для каждого ресурса при экспорте в фиксированный HTML, SVG или Markdown. Как генерируется имя файла ресурса, зависит от того, сохраняете ли вы документ в файл или в поток.
 
- При сохранении документа в поток сгенерированное имя файла ресурсов выглядит так:*Aspose.Words..![Image 1][].*.
+При сохранении документа в файл сгенерированное имя файла ресурса выглядит как *.![Image 1][].*.
 
-[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения и значение атрибута src для записи на фиксированную страницу HTML или SVG, используя имя файла документа,[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) или же[SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) а также[HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) или же[SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-) характеристики.
+При сохранении документа в поток сгенерированное имя файла ресурса выглядит как *Aspose.Words..![Image 1][].*.
 
-**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream** [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+[getResourceFileName()](../../com.aspose.words/resourcesavingargs/\#getResourceFileName) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs/\#setResourceFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the  src  attribute for writing to fixed page HTML, SVG or Markdown using the document file name, the [HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) or [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) and [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) or [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String) or [MarkdownSaveOptions.getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [MarkdownSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) or [MarkdownSaveOptions.getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [MarkdownSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String) properties.
+
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String)
+
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**
 
 
-[Изображение 1]: 
+[Image 1]: 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя файла (без пути), в котором будет сохранен ресурс. |
+| значение | java.lang.String | Имя файла (без пути), в который будет сохранён ресурс. |
 
-### setResourceFileUri(String value) {#setResourceFileUri-java.lang.String-}
+### setResourceFileUri(String value) {#setResourceFileUri-java.lang.String}
 ```
 public void setResourceFileUri(String value)
 ```
 
 
-Задает универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа.
+Устанавливает унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа.
 
-Это свойство позволяет изменять URI файлов ресурсов, экспортируемых в документы HTML или SVG с фиксированной страницей.
+ **Remarks:** 
 
-Aspose.Words автоматически генерирует URI для каждого файла ресурсов во время экспорта в фиксированный формат страницы HTML или SVG. Сгенерированные URI ссылаются на файлы ресурсов, сохраненные Aspose.Words. Однако URI могут быть неверными, если файлы ресурсов должны быть перемещены в другое место или если файлы ресурсов сохранены в потоки. Это свойство позволяет исправлять URI в таких случаях.
+Это свойство позволяет изменить URI файлов ресурсов, экспортированных в фиксированный HTML, SVG или Markdown.
 
-Когда событие запускается, это свойство содержит URI, сгенерированный Aspose.Words. Вы можете изменить значение этого свойства, чтобы предоставить настраиваемый URI для файла ресурсов.
+Aspose.Words автоматически генерирует URI для каждого файла ресурса при экспорте в фиксированный HTML, SVG или Markdown. Сгенерированные URI ссылаются на файлы ресурсов, сохранённые Aspose.Words. Однако URI могут быть некорректными, если файлы ресурсов перемещаются в другое место или сохраняются в потоки. Это свойство позволяет исправить URI в этих случаях.
 
-[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions\#getResourcesFolder--) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolder-java.lang.String-) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions\#getResourcesFolderAlias--) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions\#setResourcesFolderAlias-java.lang.String-)
+Когда событие вызывается, это свойство содержит URI, сгенерированный Aspose.Words. Вы можете изменить значение этого свойства, чтобы задать пользовательский URI для файла ресурса.
 
-**Параметры:**
+[HtmlFixedSaveOptions.getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [HtmlFixedSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) [SvgSaveOptions.getResourcesFolder()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolder) / [SvgSaveOptions.setResourcesFolder(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolder-java.lang.String) [MarkdownSaveOptions.getImagesFolder()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolder) / [MarkdownSaveOptions.setImagesFolder(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolder-java.lang.String) [HtmlFixedSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [HtmlFixedSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) [SvgSaveOptions.getResourcesFolderAlias()](../../com.aspose.words/svgsaveoptions/\#getResourcesFolderAlias) / [SvgSaveOptions.setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/svgsaveoptions/\#setResourcesFolderAlias-java.lang.String) [MarkdownSaveOptions.getImagesFolderAlias()](../../com.aspose.words/markdownsaveoptions/\#getImagesFolderAlias) / [MarkdownSaveOptions.setImagesFolderAlias(java.lang.String)](../../com.aspose.words/markdownsaveoptions/\#setImagesFolderAlias-java.lang.String)
 
+ **Examples:** 
+
+Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, создаваемых при конвертации документа в HTML.
+
+```
+
+ public void resourceSavingCallback() throws Exception {
+     Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+     FontSavingCallback callback = new FontSavingCallback();
+
+     HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+     {
+         saveOptions.setResourceSavingCallback(callback);
+     }
+
+     doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+     System.out.println(callback.getText());
+ }
+
+ private static class FontSavingCallback implements IResourceSavingCallback {
+     /// 
+     /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+     /// 
+     public void resourceSaving(ResourceSavingArgs args) {
+         mText.append(MessageFormat.format("Original document URI:\t{0}", args.getDocument().getOriginalFileName()));
+         mText.append(MessageFormat.format("Resource being saved:\t{0}", args.getResourceFileName()));
+         mText.append(MessageFormat.format("Full uri after saving:\t{0}\n", args.getResourceFileUri()));
+     }
+
+     public String getText() {
+         return mText.toString();
+     }
+
+     private final StringBuilder mText = new StringBuilder();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа. |
+| значение | java.lang.String | Унифицированный идентификатор ресурса (URI), используемый для ссылки на файл ресурса из документа. |
 
-### setResourceStream(OutputStream value) {#setResourceStream-java.io.OutputStream-}
+### setResourceStream(OutputStream value) {#setResourceStream-java.io.OutputStream}
 ```
 public void setResourceStream(OutputStream value)
 ```
@@ -256,55 +600,8 @@ public void setResourceStream(OutputStream value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.io.OutputStream |  |
+| значение | java.io.OutputStream |  |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

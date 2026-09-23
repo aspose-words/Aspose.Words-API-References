@@ -1,13 +1,14 @@
 ---
-title: Watermark
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет класс для работы с водяным знаком документа.
+title: "Водяной знак"
+linktitle: "Водяной знак"
+second_title: "Aspose.Words для Java"
+description: "Представляет класс для работы с водяным знаком документа в Java."
 type: docs
-weight: 608
+weight: 721
 url: /ru/java/com.aspose.words/watermark/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Watermark
@@ -15,54 +16,53 @@ public class Watermark
 
 Представляет класс для работы с водяным знаком документа.
 
- Чтобы узнать больше, посетите**Working with Watermark** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Watermark ][Working with Watermark].
+
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+
+[Working with Watermark]: https://docs.aspose.com/words/java/working-with-watermark/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Получает тип водяного знака. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Удаляет водяной знак. |
-| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | Добавляет водяной знак изображения в документ. |
-| [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-) | Добавляет водяной знак изображения в документ. |
-| [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-) | Добавляет водяной знак изображения в документ. |
-| [setText(String text)](#setText-java.lang.String-) | Добавляет текстовый водяной знак в документ. |
-| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-) | Добавляет текстовый водяной знак в документ. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getType() {#getType--}
+| [getType()](#getType) | Получает тип водяного знака. |
+| [remove()](#remove) | Удаляет водяной знак. |
+| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage) | Добавляет изображение водяного знака в документ. |
+| [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions) | Добавляет изображение водяного знака в документ. |
+| [setImage(InputStream imageStream, ImageWatermarkOptions options)](#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) | Добавляет изображение водяного знака в документ. |
+| [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions) | Добавляет изображение водяного знака в документ. |
+| [setText(String text)](#setText-java.lang.String) | Добавляет текстовый водяной знак в документ. |
+| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions) | Добавляет текстовый водяной знак в документ. |
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -70,35 +70,39 @@ public int getType()
 
 Получает тип водяного знака.
 
-**Возвращает:**
- int — тип водяного знака. Возвращаемое значение является одним из[WatermarkType](../../com.aspose.words/watermarktype) константы.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как создать текстовый водяной знак.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
 
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
 
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
 
-### notifyAll() {#notifyAll--}
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### remove() {#remove--}
+**Returns:**
+int — тип водяного знака. Возвращаемое значение является одной из констант [WatermarkType](../../com.aspose.words/watermarktype/).
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -106,51 +110,92 @@ public void remove()
 
 Удаляет водяной знак.
 
-### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage-}
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage}
 ```
 public void setImage(BufferedImage image)
 ```
 
 
-Добавляет водяной знак изображения в документ.
+Добавляет изображение водяного знака в документ.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | Изображение, которое отображается как водяной знак. |
+| изображение | java.awt.image.BufferedImage | Изображение, отображаемое как водяной знак. |
 
-### setImage(BufferedImage image, ImageWatermarkOptions options) {#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-}
+### setImage(BufferedImage image, ImageWatermarkOptions options) {#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions}
 ```
 public void setImage(BufferedImage image, ImageWatermarkOptions options)
 ```
 
 
-Добавляет водяной знак изображения в документ.
+Добавляет изображение водяного знака в документ.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | Изображение, которое отображается как водяной знак. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Определяет дополнительные параметры водяного знака изображения. |
+| изображение | java.awt.image.BufferedImage | Изображение, отображаемое как водяной знак. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Определяет дополнительные параметры для изображения водяного знака. |
 
-### setImage(String imagePath, ImageWatermarkOptions options) {#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-}
+### setImage(InputStream imageStream, ImageWatermarkOptions options) {#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions}
+```
+public void setImage(InputStream imageStream, ImageWatermarkOptions options)
+```
+
+
+Добавляет изображение водяного знака в документ.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| imageStream | java.io.InputStream | Поток, содержащий данные изображения, отображаемого как водяной знак. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Определяет дополнительные параметры для изображения водяного знака. |
+
+### setImage(String imagePath, ImageWatermarkOptions options) {#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions}
 ```
 public void setImage(String imagePath, ImageWatermarkOptions options)
 ```
 
 
-Добавляет водяной знак изображения в документ.
+Добавляет изображение водяного знака в документ.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imagePath | java.lang.String | Путь к файлу изображения, которое отображается в виде водяного знака. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Определяет дополнительные параметры водяного знака изображения. |
+| imagePath | java.lang.String | Путь к файлу изображения, отображаемому как водяной знак. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Определяет дополнительные параметры для изображения водяного знака. |
 
-### setText(String text) {#setText-java.lang.String-}
+### setText(String text) {#setText-java.lang.String}
 ```
 public void setText(String text)
 ```
@@ -158,13 +203,12 @@ public void setText(String text)
 
 Добавляет текстовый водяной знак в документ.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | java.lang.String | Текст, отображаемый в виде водяного знака. Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть нулевым или содержать только пробелы. |
+| text | java.lang.String | Текст, отображаемый как водяной знак. |
 
-### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-}
+### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions}
 ```
 public void setText(String text, TextWatermarkOptions options)
 ```
@@ -172,56 +216,9 @@ public void setText(String text, TextWatermarkOptions options)
 
 Добавляет текстовый водяной знак в документ.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | java.lang.String | Текст, отображаемый в виде водяного знака. |
-| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | Определяет дополнительные параметры текстового водяного знака. Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть нулевым или содержать только пробелы. |
+| text | java.lang.String | Текст, отображаемый как водяной знак. |
+| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) | Определяет дополнительные параметры для текста водяного знака. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

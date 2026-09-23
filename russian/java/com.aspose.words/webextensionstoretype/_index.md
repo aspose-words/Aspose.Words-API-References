@@ -1,19 +1,91 @@
 ---
-title: WebExtensionStoreType
-second_title: Справочник по API Aspose.Words для Java
-description: Перечисляет доступные типы магазина веб-расширений.
+title: "WebExtensionStoreType"
+linktitle: "WebExtensionStoreType"
+second_title: "Aspose.Words для Java"
+description: "Перечисляет доступные типы хранилища веб‑расширений в Java."
 type: docs
-weight: 619
+weight: 734
 url: /ru/java/com.aspose.words/webextensionstoretype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WebExtensionStoreType
 ```
 
-Перечисляет доступные типы магазина веб-расширений.
+Перечисляет доступные типы хранилища веб‑расширения.
+
+ **Examples:** 
+
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -21,9 +93,9 @@ public class WebExtensionStoreType
 | [DEFAULT](#DEFAULT) | Значение по умолчанию. |
 | [EXCHANGE](#EXCHANGE) | Указывает, что тип хранилища — сервер Exchange. |
 | [EX_CATALOG](#EX-CATALOG) | Указывает, что тип хранилища — централизованное развертывание через Exchange. |
-| [FILE_SYSTEM](#FILE-SYSTEM) | Указывает, что тип хранилища — общий ресурс файловой системы. |
-| [OMEX](#OMEX) | Указывает, что тип магазина — Office.com. |
-| [REGISTRY](#REGISTRY) | Указывает, что типом хранилища является системный реестр. |
+| [FILE_SYSTEM](#FILE-SYSTEM) | Указывает, что тип хранилища — общедоступный файловый ресурс. |
+| [OMEX](#OMEX) | Указывает, что тип хранилища — Office.com. |
+| [REGISTRY](#REGISTRY) | Указывает, что тип хранилища — системный реестр. |
 | [SP_APP](#SP-APP) |  |
 | [SP_CATALOG](#SP-CATALOG) |  |
 | [length](#length) |  |
@@ -31,19 +103,10 @@ public class WebExtensionStoreType
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String webExtensionStoreTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int webExtensionStoreType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int webExtensionStoreType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String webExtensionStoreTypeName)](#fromName-java.lang.String) |  |
+| [getName(int webExtensionStoreType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int webExtensionStoreType)](#toString-int) |  |
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
@@ -74,7 +137,7 @@ public static int FILE_SYSTEM
 ```
 
 
-Указывает, что тип хранилища — общий ресурс файловой системы.
+Указывает, что тип хранилища — общедоступный файловый ресурс.
 
 ### OMEX {#OMEX}
 ```
@@ -82,7 +145,7 @@ public static int OMEX
 ```
 
 
-Указывает, что тип магазина — Office.com.
+Указывает, что тип хранилища — Office.com.
 
 ### REGISTRY {#REGISTRY}
 ```
@@ -90,7 +153,7 @@ public static int REGISTRY
 ```
 
 
-Указывает, что типом хранилища является системный реестр.
+Указывает, что тип хранилища — системный реестр.
 
 ### SP_APP {#SP-APP}
 ```
@@ -110,23 +173,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String webExtensionStoreTypeName) {#fromName-java.lang.String-}
+### fromName(String webExtensionStoreTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String webExtensionStoreTypeName)
 ```
@@ -134,25 +181,14 @@ public static int fromName(String webExtensionStoreTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | webExtensionStoreTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int webExtensionStoreType) {#getName-int-}
+**Returns:**
+int
+### getName(int webExtensionStoreType) {#getName-int}
 ```
 public static String getName(int webExtensionStoreType)
 ```
@@ -160,15 +196,14 @@ public static String getName(int webExtensionStoreType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | webExtensionStoreType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -176,45 +211,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int webExtensionStoreType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int webExtensionStoreType) {#toString-int}
 ```
 public static String toString(int webExtensionStoreType)
 ```
@@ -222,47 +221,10 @@ public static String toString(int webExtensionStoreType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | webExtensionStoreType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

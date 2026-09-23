@@ -1,51 +1,73 @@
 ---
-title: WatermarkType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип водяного знака.
+title: "WatermarkType"
+linktitle: "WatermarkType"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип водяного знака в Java."
 type: docs
-weight: 610
+weight: 723
 url: /ru/java/com.aspose.words/watermarktype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WatermarkType
 ```
 
 Указывает тип водяного знака.
+
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [IMAGE](#IMAGE) | Указывает, что изображение будет использоваться в качестве водяного знака. |
+| [IMAGE](#IMAGE) | Указывает, что изображение будет использоваться как водяной знак. |
 | [NONE](#NONE) | Указывает, что водяной знак не установлен. |
-| [TEXT](#TEXT) | Указывает, что текст будет использоваться в качестве водяного знака. |
+| [TEXT](#TEXT) | Указывает, что текст будет использоваться как водяной знак. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String watermarkTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int watermarkType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int watermarkType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String watermarkTypeName)](#fromName-java.lang.String) |  |
+| [getName(int watermarkType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int watermarkType)](#toString-int) |  |
 ### IMAGE {#IMAGE}
 ```
 public static int IMAGE
 ```
 
 
-Указывает, что изображение будет использоваться в качестве водяного знака.
+Указывает, что изображение будет использоваться как водяной знак.
 
 Такой водяной знак соответствует фигуре с изображением.
 
@@ -63,7 +85,7 @@ public static int TEXT
 ```
 
 
-Указывает, что текст будет использоваться в качестве водяного знака.
+Указывает, что текст будет использоваться как водяной знак.
 
 Такой водяной знак соответствует объекту WordArt.
 
@@ -73,23 +95,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String watermarkTypeName) {#fromName-java.lang.String-}
+### fromName(String watermarkTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String watermarkTypeName)
 ```
@@ -97,25 +103,14 @@ public static int fromName(String watermarkTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int watermarkType) {#getName-int-}
+**Returns:**
+int
+### getName(int watermarkType) {#getName-int}
 ```
 public static String getName(int watermarkType)
 ```
@@ -123,15 +118,14 @@ public static String getName(int watermarkType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -139,45 +133,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int watermarkType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int watermarkType) {#toString-int}
 ```
 public static String toString(int watermarkType)
 ```
@@ -185,47 +143,10 @@ public static String toString(int watermarkType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,53 +1,78 @@
 ---
-title: MarkupLevel
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает уровень в дереве документов, на котором может произойти то или иное.
+title: "MarkupLevel"
+linktitle: "MarkupLevel"
+second_title: "Aspose.Words для Java"
+description: "Указывает уровень в дереве документа, где может возникать конкретный StructuredDocumentTag в Java."
 type: docs
-weight: 390
+weight: 458
 url: /ru/java/com.aspose.words/markuplevel/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MarkupLevel
 ```
 
- Определяет уровень в дереве документа, на котором[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) может возникнуть.
+Указывает уровень в дереве документа, где может возникать конкретный [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/).
+
+ **Examples:** 
+
+Показывает, как работать со стилями элементов управления содержимым.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways to apply a style from the document to a structured document tag.
+ // 1 -  Apply a style object from the document's style collection:
+ Style quoteStyle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
+ StructuredDocumentTag sdtPlainText = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
+ sdtPlainText.setStyle(quoteStyle);
+
+ // 2 -  Reference a style in the document by name:
+ StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RICH_TEXT, MarkupLevel.INLINE);
+ sdtRichText.setStyleName("Quote");
+
+ builder.insertNode(sdtPlainText);
+ builder.insertNode(sdtRichText);
+
+ Assert.assertEquals(NodeType.STRUCTURED_DOCUMENT_TAG, sdtPlainText.getNodeType());
+
+ NodeCollection tags = doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG, true);
+
+ for (StructuredDocumentTag sdt : (Iterable) tags) {
+     Assert.assertEquals(StyleIdentifier.QUOTE, sdt.getStyle().getStyleIdentifier());
+     Assert.assertEquals("Quote", sdt.getStyleName());
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BLOCK](#BLOCK) | Элемент встречается на уровне блока (например, |
-| [CELL](#CELL) | Элемент встречается среди ячеек подряд. |
-| [INLINE](#INLINE) | Элемент встречается на встроенном уровне (например, |
-| [ROW](#ROW) | Элемент встречается среди строк в таблице. |
+| [BLOCK](#BLOCK) | Элемент находится на уровне блока (например, |
+| [CELL](#CELL) | Элемент находится среди ячеек в строке. |
+| [INLINE](#INLINE) | Элемент находится на уровне встроенного (например, |
+| [ROW](#ROW) | Элемент находится среди строк в таблице. |
 | [UNKNOWN](#UNKNOWN) | Указывает неизвестное или недопустимое значение. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String markupLevelName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int markupLevel)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int markupLevel)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String markupLevelName)](#fromName-java.lang.String) |  |
+| [getName(int markupLevel)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int markupLevel)](#toString-int) |  |
 ### BLOCK {#BLOCK}
 ```
 public static int BLOCK
 ```
 
 
-Элемент встречается на уровне блока (например, среди таблиц и абзацев).
+Элемент находится на уровне блока (например, среди таблиц и абзацев).
 
 ### CELL {#CELL}
 ```
@@ -55,7 +80,7 @@ public static int CELL
 ```
 
 
-Элемент встречается среди ячеек подряд.
+Элемент находится среди ячеек в строке.
 
 ### INLINE {#INLINE}
 ```
@@ -63,7 +88,7 @@ public static int INLINE
 ```
 
 
-Элемент встречается на встроенном уровне (например, среди фрагментов текста).
+Элемент находится на уровне встроенного (например, среди последовательностей текста).
 
 ### ROW {#ROW}
 ```
@@ -71,7 +96,7 @@ public static int ROW
 ```
 
 
-Элемент встречается среди строк в таблице.
+Элемент находится среди строк в таблице.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -87,23 +112,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String markupLevelName) {#fromName-java.lang.String-}
+### fromName(String markupLevelName) {#fromName-java.lang.String}
 ```
 public static int fromName(String markupLevelName)
 ```
@@ -111,25 +120,14 @@ public static int fromName(String markupLevelName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | markupLevelName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int markupLevel) {#getName-int-}
+**Returns:**
+int
+### getName(int markupLevel) {#getName-int}
 ```
 public static String getName(int markupLevel)
 ```
@@ -137,15 +135,14 @@ public static String getName(int markupLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | markupLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +150,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int markupLevel) {#toString-int-}
+**Returns:**
+int[]
+### toString(int markupLevel) {#toString-int}
 ```
 public static String toString(int markupLevel)
 ```
@@ -199,47 +160,10 @@ public static String toString(int markupLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | markupLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

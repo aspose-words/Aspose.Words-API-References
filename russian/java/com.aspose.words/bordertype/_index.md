@@ -1,59 +1,76 @@
 ---
-title: BorderType
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет стороны границы.
+title: "BorderType"
+linktitle: "BorderType"
+second_title: "Aspose.Words для Java"
+description: "Указывает стороны границы в Java."
 type: docs
-weight: 38
+weight: 48
 url: /ru/java/com.aspose.words/bordertype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BorderType
 ```
 
-Определяет стороны границы.
+Указывает стороны границы.
 
- Чтобы узнать больше, посетите**Programming with Documents** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Programming with Documents ][Programming with Documents].
+
+ **Examples:** 
+
+Показывает, как вставить абзац с верхней границей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Border topBorder = builder.getParagraphFormat().getBorders().getByBorderType(BorderType.TOP);
+ topBorder.setLineWidth(4.0d);
+ topBorder.setLineStyle(LineStyle.DASH_SMALL_GAP);
+ // Set ThemeColor only when LineWidth or LineStyle setted.
+ topBorder.setThemeColor(ThemeColor.ACCENT_1);
+ topBorder.setTintAndShade(0.25d);
+
+ builder.writeln("Text with a top border.");
+
+ doc.save(getArtifactsDir() + "Border.ParagraphTopBorder.docx");
+ 
+```
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Задает нижнюю границу абзаца или ячейки таблицы. |
-| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | Задает диагональную границу в ячейке таблицы. |
-| [DIAGONAL_UP](#DIAGONAL-UP) | Задает диагональную границу в ячейке таблицы. |
-| [HORIZONTAL](#HORIZONTAL) | Указывает горизонтальную границу между ячейками в таблице или между соответствующими абзацами. |
-| [LEFT](#LEFT) | Определяет левую границу абзаца или ячейки таблицы. |
+| [BOTTOM](#BOTTOM) | Указывает нижнюю границу абзаца или ячейки таблицы. |
+| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | Указывает диагональную границу в ячейке таблицы. |
+| [DIAGONAL_UP](#DIAGONAL-UP) | Указывает диагональную границу в ячейке таблицы. |
+| [HORIZONTAL](#HORIZONTAL) | Указывает горизонтальную границу между ячейками таблицы или между соответствующими абзацами. |
+| [LEFT](#LEFT) | Указывает левую границу абзаца или ячейки таблицы. |
 | [NONE](#NONE) | Значение по умолчанию. |
 | [RIGHT](#RIGHT) | Указывает правую границу абзаца или ячейки таблицы. |
-| [TOP](#TOP) | Задает верхнюю границу абзаца или ячейки таблицы. |
-| [VERTICAL](#VERTICAL) | Задает вертикальную границу между ячейками в таблице. |
+| [TOP](#TOP) | Указывает верхнюю границу абзаца или ячейки таблицы. |
+| [VERTICAL](#VERTICAL) | Указывает вертикальную границу между ячейками таблицы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String borderTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int borderType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int borderType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String borderTypeName)](#fromName-java.lang.String) |  |
+| [getName(int borderType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int borderType)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
 ```
 
 
-Задает нижнюю границу абзаца или ячейки таблицы.
+Указывает нижнюю границу абзаца или ячейки таблицы.
 
 ### DIAGONAL_DOWN {#DIAGONAL-DOWN}
 ```
@@ -61,7 +78,7 @@ public static int DIAGONAL_DOWN
 ```
 
 
-Задает диагональную границу в ячейке таблицы.
+Указывает диагональную границу в ячейке таблицы.
 
 ### DIAGONAL_UP {#DIAGONAL-UP}
 ```
@@ -69,7 +86,7 @@ public static int DIAGONAL_UP
 ```
 
 
-Задает диагональную границу в ячейке таблицы.
+Указывает диагональную границу в ячейке таблицы.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -77,7 +94,7 @@ public static int HORIZONTAL
 ```
 
 
-Указывает горизонтальную границу между ячейками в таблице или между соответствующими абзацами.
+Указывает горизонтальную границу между ячейками таблицы или между соответствующими абзацами.
 
 ### LEFT {#LEFT}
 ```
@@ -85,7 +102,7 @@ public static int LEFT
 ```
 
 
-Определяет левую границу абзаца или ячейки таблицы.
+Указывает левую границу абзаца или ячейки таблицы.
 
 ### NONE {#NONE}
 ```
@@ -109,7 +126,7 @@ public static int TOP
 ```
 
 
-Задает верхнюю границу абзаца или ячейки таблицы.
+Указывает верхнюю границу абзаца или ячейки таблицы.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -117,7 +134,7 @@ public static int VERTICAL
 ```
 
 
-Задает вертикальную границу между ячейками в таблице.
+Указывает вертикальную границу между ячейками таблицы.
 
 ### length {#length}
 ```
@@ -125,23 +142,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String borderTypeName) {#fromName-java.lang.String-}
+### fromName(String borderTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String borderTypeName)
 ```
@@ -149,25 +150,14 @@ public static int fromName(String borderTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | borderTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int borderType) {#getName-int-}
+**Returns:**
+int
+### getName(int borderType) {#getName-int}
 ```
 public static String getName(int borderType)
 ```
@@ -175,15 +165,14 @@ public static String getName(int borderType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | borderType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -191,45 +180,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int borderType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int borderType) {#toString-int}
 ```
 public static String toString(int borderType)
 ```
@@ -237,47 +190,10 @@ public static String toString(int borderType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | borderType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

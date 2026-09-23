@@ -1,102 +1,405 @@
 ---
-title: DocumentPartSavingArgs
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет данные для обратного вызова.
+title: "DocumentPartSavingArgs"
+linktitle: "DocumentPartSavingArgs"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет данные для обратного вызова IDocumentPartSavingCallback.documentPartSavingcom.aspose.words.DocumentPartSavingArgs в Java."
 type: docs
-weight: 125
+weight: 167
 url: /ru/java/com.aspose.words/documentpartsavingargs/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentPartSavingArgs
 ```
 
- Предоставляет данные для[IDocumentPartSavingCallback.documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-) перезвонить.
+Предоставляет данные для обратного вызова [IDocumentPartSavingCallback.documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../../com.aspose.words/idocumentpartsavingcallback/\\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs).
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
 
- Когда Aspose.Words сохраняет документ в HTML или родственных форматах и[HtmlSaveOptions.getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [HtmlSaveOptions.setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-) указан, документ разбивается на части и по умолчанию каждая часть документа сохраняется в отдельный файл.
+ **Remarks:** 
 
- Учебный класс[DocumentPartSavingArgs](../../com.aspose.words/documentpartsavingargs) позволяет вам контролировать, как каждая часть документа будет сохранена. Это позволяет переопределить, как генерируются имена файлов, или полностью обойти сохранение частей документа в файлы, предоставив свои собственные потоковые объекты.
+Когда Aspose.Words сохраняет документ в HTML или связанные форматы и указаны [HtmlSaveOptions.getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions/\#getDocumentSplitCriteria) / [HtmlSaveOptions.setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions/\#setDocumentSplitCriteria-int), документ разбивается на части, и по умолчанию каждая часть документа сохраняется в отдельный файл.
 
- Чтобы сохранить части документа в потоки вместо файлов, используйте**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** имущество.
+Класс [DocumentPartSavingArgs](../../com.aspose.words/documentpartsavingargs/) позволяет управлять тем, как будет сохраняться каждая часть документа. Он позволяет переопределить способ генерации имён файлов или полностью обойти сохранение частей документа в файлы, предоставив собственные объекты потока.
+
+Чтобы сохранять части документа в потоки вместо файлов, используйте свойство **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**.
+
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDocument()](#getDocument--) | Получает сохраняемый объект документа. |
-| [getDocumentPartFileName()](#getDocumentPartFileName--) | Получает имя файла (без пути), в котором будет сохранена часть документа. |
-| [getDocumentPartStream()](#getDocumentPartStream--) |  |
-| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen--) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String-) | Задает имя файла (без пути), в котором будет сохранена часть документа. |
-| [setDocumentPartStream(OutputStream value)](#setDocumentPartStream-java.io.OutputStream-) |  |
-| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean-) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDocument() {#getDocument--}
+| [getDocument()](#getDocument) | Получает объект документа, который сохраняется. |
+| [getDocumentPartFileName()](#getDocumentPartFileName) | Получает имя файла (без пути), в который будет сохранена часть документа. |
+| [getDocumentPartStream()](#getDocumentPartStream) |  |
+| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения части документа. |
+| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String) | Устанавливает имя файла (без пути), в который будет сохранена часть документа. |
+| [setDocumentPartStream(OutputStream value)](#setDocumentPartStream-java.io.OutputStream) |  |
+| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения части документа. |
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
 
 
-Получает сохраняемый объект документа.
+Получает объект документа, который сохраняется.
 
-**Возвращает:**
-[Document](../../com.aspose.words/document) - Сохраняемый объект документа.
-### getDocumentPartFileName() {#getDocumentPartFileName--}
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
+**Returns:**
+[Document](../../com.aspose.words/document/) - The document object that is being saved.
+### getDocumentPartFileName() {#getDocumentPartFileName}
 ```
 public String getDocumentPartFileName()
 ```
 
 
-Получает имя файла (без пути), в котором будет сохранена часть документа.
+Получает имя файла (без пути), в который будет сохранена часть документа.
 
-Это свойство позволяет переопределить способ генерации имен файлов частей документа во время экспорта в HTML или EPUB.
+ **Remarks:** 
 
-При вызове обратного вызова это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить часть документа в другой файл. Обратите внимание, что имя файла для каждой части должно быть уникальным.
+Это свойство позволяет переопределить способ генерации имён файлов частей документа при экспорте в HTML или EPUB.
 
-[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения по имени файла документа. Если имя выходного файла документа не указано, например, при сохранении в поток, это имя файла используется только для ссылок на части документа. То же самое верно и при сохранении в формате EPUB.
+Когда вызывается обратный вызов, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить часть документа в другой файл. Обратите внимание, что имя файла для каждой части должно быть уникальным.
+
+[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs/\#getDocumentPartFileName) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs/\#setDocumentPartFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
+
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**Возвращает:**
-java.lang.String — имя файла (без пути), в котором будет сохранена часть документа.
-### getDocumentPartStream() {#getDocumentPartStream--}
+**Returns:**
+java.lang.String — имя файла (без пути), в который будет сохранена часть документа.
+### getDocumentPartStream() {#getDocumentPartStream}
 ```
 public OutputStream getDocumentPartStream()
 ```
@@ -104,71 +407,268 @@ public OutputStream getDocumentPartStream()
 
 
 
-**Возвращает:**
+**Returns:**
 java.io.OutputStream
-### getKeepDocumentPartStreamOpen() {#getKeepDocumentPartStreamOpen--}
+### getKeepDocumentPartStreamOpen() {#getKeepDocumentPartStreamOpen}
 ```
 public boolean getKeepDocumentPartStreamOpen()
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения части документа.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** свойство после записи в него части документа. Укажите значение true, чтобы поток оставался открытым. Обратите внимание, что основной выходной поток, указанный в вызове**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** или же**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** никогда не будет закрыт Aspose.Words, даже если[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)установлено значение false .
+ **Remarks:** 
+
+По умолчанию значение false, и Aspose.Words закроет поток, указанный в свойстве **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**, после записи в него части документа. Укажите true, чтобы оставить поток открытым. Обратите внимание, что основной поток вывода, предоставленный в вызове **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** или **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**, никогда не будет закрыт Aspose.Words, даже если [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs/\#getKeepDocumentPartStreamOpen) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs/\#setKeepDocumentPartStreamOpen-boolean) установлены в false.
+
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setDocumentPartFileName(String value) {#setDocumentPartFileName-java.lang.String-}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### setDocumentPartFileName(String value) {#setDocumentPartFileName-java.lang.String}
 ```
 public void setDocumentPartFileName(String value)
 ```
 
 
-Задает имя файла (без пути), в котором будет сохранена часть документа.
+Устанавливает имя файла (без пути), в который будет сохранена часть документа.
 
-Это свойство позволяет переопределить способ генерации имен файлов частей документа во время экспорта в HTML или EPUB.
+ **Remarks:** 
 
-При вызове обратного вызова это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить часть документа в другой файл. Обратите внимание, что имя файла для каждой части должно быть уникальным.
+Это свойство позволяет переопределить способ генерации имён файлов частей документа при экспорте в HTML или EPUB.
 
-[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения по имени файла документа. Если имя выходного файла документа не указано, например, при сохранении в поток, это имя файла используется только для ссылок на части документа. То же самое верно и при сохранении в формате EPUB.
+Когда вызывается обратный вызов, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить часть документа в другой файл. Обратите внимание, что имя файла для каждой части должно быть уникальным.
+
+[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs/\#getDocumentPartFileName) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs/\#setDocumentPartFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
+
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя файла (без пути), в котором будет сохранена часть документа. |
+| значение | java.lang.String | Имя файла (без пути), в который будет сохранена часть документа. |
 
-### setDocumentPartStream(OutputStream value) {#setDocumentPartStream-java.io.OutputStream-}
+### setDocumentPartStream(OutputStream value) {#setDocumentPartStream-java.io.OutputStream}
 ```
 public void setDocumentPartStream(OutputStream value)
 ```
@@ -176,73 +676,137 @@ public void setDocumentPartStream(OutputStream value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.io.OutputStream |  |
+| значение | java.io.OutputStream |  |
 
-### setKeepDocumentPartStreamOpen(boolean value) {#setKeepDocumentPartStreamOpen-boolean-}
+### setKeepDocumentPartStreamOpen(boolean value) {#setKeepDocumentPartStreamOpen-boolean}
 ```
 public void setKeepDocumentPartStreamOpen(boolean value)
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения части документа.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения части документа.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** свойство после записи в него части документа. Укажите значение true, чтобы поток оставался открытым. Обратите внимание, что основной выходной поток, указанный в вызове**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** или же**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** никогда не будет закрыт Aspose.Words, даже если[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)установлено значение false .
+ **Remarks:** 
+
+По умолчанию значение false, и Aspose.Words закроет поток, указанный в свойстве **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**, после записи в него части документа. Укажите true, чтобы оставить поток открытым. Обратите внимание, что основной поток вывода, предоставленный в вызове **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** или **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**, никогда не будет закрыт Aspose.Words, даже если [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs/\#getKeepDocumentPartStreamOpen) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs/\#setKeepDocumentPartStreamOpen-boolean) установлены в false.
+
+ **Examples:** 
+
+Показывает, как разбить документ на части и сохранить их.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

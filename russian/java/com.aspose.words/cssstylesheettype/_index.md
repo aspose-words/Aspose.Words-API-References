@@ -1,51 +1,96 @@
 ---
-title: CssStyleSheetType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как стили каскадной таблицы стилей CSS экспортируются в HTML.
+title: "CssStyleSheetType"
+linktitle: "CssStyleSheetType"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как стили CSS Cascading Style Sheet экспортируются в HTML в Java."
 type: docs
-weight: 97
+weight: 136
 url: /ru/java/com.aspose.words/cssstylesheettype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CssStyleSheetType
 ```
 
-Указывает, как стили CSS (каскадные таблицы стилей) экспортируются в HTML.
+Указывает, как стили CSS (Cascading Style Sheet) экспортируются в HTML.
+
+ **Examples:** 
+
+Показывает, как работать со стилями CSS, которые создает преобразование в HTML.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [EMBEDDED](#EMBEDDED) | Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в файл HTML. |
-| [EXTERNAL](#EXTERNAL) | Стили CSS записываются отдельно от содержимого таблицы стилей во внешнем файле. |
-| [INLINE](#INLINE) |  Стили CSS записываются встроенными (как значение**style** атрибут каждого элемента). |
+| [EMBEDDED](#EMBEDDED) | Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в HTML‑файл. |
+| [EXTERNAL](#EXTERNAL) | Стили CSS записываются отдельно от содержимого в таблице стилей во внешнем файле. |
+| [INLINE](#INLINE) | Стили CSS записываются встроенно (в виде значения атрибута **style** у каждого элемента). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String cssStyleSheetTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int cssStyleSheetType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int cssStyleSheetType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String cssStyleSheetTypeName)](#fromName-java.lang.String) |  |
+| [getName(int cssStyleSheetType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int cssStyleSheetType)](#toString-int) |  |
 ### EMBEDDED {#EMBEDDED}
 ```
 public static int EMBEDDED
 ```
 
 
-Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в файл HTML.
+Стили CSS записываются отдельно от содержимого в таблице стилей, встроенной в HTML‑файл.
 
 ### EXTERNAL {#EXTERNAL}
 ```
@@ -53,7 +98,7 @@ public static int EXTERNAL
 ```
 
 
-Стили CSS записываются отдельно от содержимого таблицы стилей во внешнем файле. Файл HTML связывает таблицу стилей.
+Стили CSS записываются отдельно от содержимого в таблице стилей во внешнем файле. HTML‑файл связывает таблицу стилей.
 
 ### INLINE {#INLINE}
 ```
@@ -61,7 +106,7 @@ public static int INLINE
 ```
 
 
- Стили CSS записываются встроенными (как значение**style** атрибут каждого элемента).
+Стили CSS записываются встроенно (в виде значения атрибута **style** у каждого элемента).
 
 ### length {#length}
 ```
@@ -69,23 +114,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String cssStyleSheetTypeName) {#fromName-java.lang.String-}
+### fromName(String cssStyleSheetTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String cssStyleSheetTypeName)
 ```
@@ -93,25 +122,14 @@ public static int fromName(String cssStyleSheetTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cssStyleSheetTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int cssStyleSheetType) {#getName-int-}
+**Returns:**
+int
+### getName(int cssStyleSheetType) {#getName-int}
 ```
 public static String getName(int cssStyleSheetType)
 ```
@@ -119,15 +137,14 @@ public static String getName(int cssStyleSheetType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cssStyleSheetType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +152,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int cssStyleSheetType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int cssStyleSheetType) {#toString-int}
 ```
 public static String toString(int cssStyleSheetType)
 ```
@@ -181,47 +162,10 @@ public static String toString(int cssStyleSheetType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cssStyleSheetType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

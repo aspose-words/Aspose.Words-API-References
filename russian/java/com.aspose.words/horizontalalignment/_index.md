@@ -1,55 +1,69 @@
 ---
-title: HorizontalAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Задает горизонтальное выравнивание текстового фрейма с плавающей фигурой или плавающей таблицы.
+title: "HorizontalAlignment"
+linktitle: "HorizontalAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает горизонтальное выравнивание плавающей формы текстового фрейма или плавающей таблицы в Java."
 type: docs
-weight: 320
+weight: 374
 url: /ru/java/com.aspose.words/horizontalalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HorizontalAlignment
 ```
 
-Задает горизонтальное выравнивание плавающей фигуры, текстового фрейма или плавающей таблицы.
+Указывает горизонтальное выравнивание плавающей фигуры, текстовой рамки или плавающей таблицы.
+
+ **Examples:** 
+
+Показывает, как вставить плавающее изображение в центр страницы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CENTER](#CENTER) | Указывает, что объект должен быть отцентрирован относительно базы горизонтального выравнивания. |
-| [DEFAULT](#DEFAULT) |  Такой же как[NONE](../../com.aspose.words/horizontalalignment\#NONE). |
-| [INSIDE](#INSIDE) | Указывает, что объект должен находиться внутри базы горизонтального выравнивания. |
-| [LEFT](#LEFT) | Указывает, что объект должен быть выровнен по левому краю относительно базы горизонтального выравнивания. |
-| [NONE](#NONE) |  Объект явно позиционируется, обычно с помощью его**Left** имущество. |
-| [OUTSIDE](#OUTSIDE) | Указывает, что объект должен находиться за пределами базы горизонтального выравнивания. |
-| [RIGHT](#RIGHT) | Указывает, что объект должен быть выровнен по правому краю относительно базы горизонтального выравнивания. |
+| [CENTER](#CENTER) | Указывает, что объект должен быть центрирован относительно базового горизонтального выравнивания. |
+| [DEFAULT](#DEFAULT) | То же, что и [NONE](../../com.aspose.words/horizontalalignment/\#NONE). |
+| [INSIDE](#INSIDE) | Указывает, что объект должен быть внутри базовой горизонтальной выравнивающей линии. |
+| [LEFT](#LEFT) | Указывает, что объект должен быть выровнен по левому краю относительно базового горизонтального выравнивания. |
+| [NONE](#NONE) | Объект явно позиционируется, обычно используя его свойство **Left**. |
+| [OUTSIDE](#OUTSIDE) | Указывает, что объект должен находиться за пределами базового горизонтального выравнивания. |
+| [RIGHT](#RIGHT) | Указывает, что объект должен быть выровнен по правому краю относительно базового горизонтального выравнивания. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String horizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int horizontalAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int horizontalAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String horizontalAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int horizontalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int horizontalAlignment)](#toString-int) |  |
 ### CENTER {#CENTER}
 ```
 public static int CENTER
 ```
 
 
-Указывает, что объект должен быть отцентрирован относительно базы горизонтального выравнивания.
+Указывает, что объект должен быть центрирован относительно базового горизонтального выравнивания.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -57,7 +71,7 @@ public static int DEFAULT
 ```
 
 
- Такой же как[NONE](../../com.aspose.words/horizontalalignment\#NONE).
+То же, что и [NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 ### INSIDE {#INSIDE}
 ```
@@ -65,7 +79,7 @@ public static int INSIDE
 ```
 
 
-Указывает, что объект должен находиться внутри базы горизонтального выравнивания.
+Указывает, что объект должен быть внутри базовой горизонтальной выравнивающей линии.
 
 ### LEFT {#LEFT}
 ```
@@ -73,7 +87,7 @@ public static int LEFT
 ```
 
 
-Указывает, что объект должен быть выровнен по левому краю относительно базы горизонтального выравнивания.
+Указывает, что объект должен быть выровнен по левому краю относительно базового горизонтального выравнивания.
 
 ### NONE {#NONE}
 ```
@@ -81,7 +95,7 @@ public static int NONE
 ```
 
 
- Объект явно позиционируется, обычно с помощью его**Left** имущество.
+Объект явно позиционируется, обычно используя его свойство **Left**.
 
 ### OUTSIDE {#OUTSIDE}
 ```
@@ -89,7 +103,7 @@ public static int OUTSIDE
 ```
 
 
-Указывает, что объект должен находиться за пределами базы горизонтального выравнивания.
+Указывает, что объект должен находиться за пределами базового горизонтального выравнивания.
 
 ### RIGHT {#RIGHT}
 ```
@@ -97,7 +111,7 @@ public static int RIGHT
 ```
 
 
-Указывает, что объект должен быть выровнен по правому краю относительно базы горизонтального выравнивания.
+Указывает, что объект должен быть выровнен по правому краю относительно базового горизонтального выравнивания.
 
 ### length {#length}
 ```
@@ -105,23 +119,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String horizontalAlignmentName) {#fromName-java.lang.String-}
+### fromName(String horizontalAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String horizontalAlignmentName)
 ```
@@ -129,25 +127,14 @@ public static int fromName(String horizontalAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | horizontalAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int horizontalAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int horizontalAlignment) {#getName-int}
 ```
 public static String getName(int horizontalAlignment)
 ```
@@ -155,15 +142,14 @@ public static String getName(int horizontalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -171,45 +157,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int horizontalAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int horizontalAlignment) {#toString-int}
 ```
 public static String toString(int horizontalAlignment)
 ```
@@ -217,47 +167,10 @@ public static String toString(int horizontalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

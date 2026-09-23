@@ -1,13 +1,14 @@
 ---
-title: PageInfo
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет информацию о конкретной странице документа.
+title: "PageInfo"
+linktitle: "PageInfo"
+second_title: "Aspose.Words для Java"
+description: "Представляет информацию о конкретной странице документа в Java."
 type: docs
-weight: 434
+weight: 513
 url: /ru/java/com.aspose.words/pageinfo/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageInfo
@@ -15,57 +16,126 @@ public class PageInfo
 
 Представляет информацию о конкретной странице документа.
 
- Чтобы узнать больше, посетите**Rendering** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Rendering ][Rendering].
 
-Ширина и высота страницы, возвращаемые этим объектом, представляют «окончательный» размер страницы, например, они уже повернуты в правильную ориентацию.
+ **Remarks:** 
+
+Ширина и высота страницы, возвращаемые этим объектом, представляют "финальный" размер страницы, например, они уже повернуты в правильную ориентацию.
+
+
+[Rendering]: https://docs.aspose.com/words/java/rendering/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getHeightInPoints()](#getHeightInPoints--) | Получает высоту страницы в пунктах. |
-| [getLandscape()](#getLandscape--) | Возвращает true, если ориентация страницы, указанная в документе для этой страницы, является альбомной. |
-| [getPaperSize()](#getPaperSize--) | Получает размер бумаги в виде перечисления. |
-| [getPaperTray()](#getPaperTray--) | Получает лоток для бумаги (лоток) для этой страницы, как указано в документе. |
-| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [getSizeInPoints()](#getSizeInPoints--) | Получает размер страницы в пунктах. |
-| [getWidthInPoints()](#getWidthInPoints--) | Получает ширину страницы в пунктах. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [getColored()](#getColored) | Возвращает  true  если страница содержит цветное содержимое. |
+| [getHeightInPoints()](#getHeightInPoints) | Получает высоту страницы в пунктах. |
+| [getLandscape()](#getLandscape) | Возвращает  true  если ориентация страницы, указанная в документе для этой страницы, — альбомная. |
+| [getPaperSize()](#getPaperSize) | Получает размер бумаги в виде перечисления. |
+| [getPaperTray()](#getPaperTray) | Получает лоток (контейнер) бумаги для этой страницы, указанный в документе. |
+| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float) | Вычисляет размер страницы в пикселях для заданного коэффициента масштабирования и разрешения. |
+| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float) | Вычисляет размер страницы в пикселях для заданного коэффициента масштабирования и разрешения. |
+| [getSizeInPoints()](#getSizeInPoints) | Получает размер страницы в пунктах. |
+| [getWidthInPoints()](#getWidthInPoints) | Получает ширину страницы в пунктах. |
+### getColored() {#getColored}
 ```
-public boolean equals(Object arg0)
+public boolean getColored()
 ```
 
 
+Возвращает  true  если страница содержит цветное содержимое.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как проверить, находится ли страница в цвете или нет.
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document(getMyDir() + "Document.docx");
 
+ // Check that the first page of the document is not colored.
+ Assert.assertFalse(doc.getPageInfo(0).getColored());
+ 
+```
 
+Показывает, как фильтровать страницы в зависимости от их цвета.
 
-**Возвращает:**
-java.lang.Класс<?>
-### getHeightInPoints() {#getHeightInPoints--}
+```
+{@code
+ public void colorMode() throws Exception
+ {
+     // Load the document with 3 color pages and 2 black and white pages.
+     Document doc = new Document("Colored pages.docx");
+
+     // Print color pages to 'color' printer.
+     int colorPagesPrinted = printPages(doc, "Microsoft Print to PDF", true);
+
+     // Print black-and-white pages to 'black-and-white' printer.
+     int nonColorPagesPrinted = printPages(doc, "Microsoft XPS Document Writer", false);
+
+     // Verify that correct number of pages were printed in each case.
+     Assert.assertEquals(3, colorPagesPrinted);
+     Assert.assertEquals(3, nonColorPagesPrinted);
+ }
+
+ /// 
+ /// Prints document pages filtered by color requirements.
+ /// 
+ /// The document to print.
+ /// The name of the target printer.
+ /// 
+ /// true to print only color pages;
+ /// false to print only black and white pages.
+ /// 
+ /// The number of pages actually printed.
+ private int printPages(Document doc, String printerName, boolean colored) throws Exception
+ {
+     // Configure printer settings.
+     PrinterJob printerJob = PrinterJob.getPrinterJob();
+
+     // Select target printer.
+     for (PrintService service : PrinterJob.lookupPrintServices()) {
+         if (service.getName().equalsIgnoreCase(printerName)) {
+             printerJob.setPrintService(service);
+             break;
+         }
+     }
+
+     // Create print document with color mode set to Normal.
+     AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+     printDoc.setColorMode(ColorPrintMode.NORMAL);
+
+     // Filter pages: skip color pages when printing black and white, and vice versa.
+     printDoc.setPageIndexFilter(new ColorPagesFilter(doc, !colored));
+
+     printerJob.setPrintable(printDoc);
+     printerJob.print();
+
+     return printDoc.getTotalPagesPrinted();
+ }
+
+ /// 
+ /// A filter that selectively skips color or black-and-white pages during printing
+ /// based on the document's page information and specified filtering mode.
+ /// 
+ /// 
+ /// This filter implements the IIndexFilter interface to provide custom page selection
+ /// logic for printing operations. It can be configured to either skip color pages
+ /// (when printing only black-and-white content) or skip black-and-white pages
+ /// (when printing only color content).
+ /// 
+ static class ColorPagesFilter implements IIndexFilter
+ {
+     private final Document doc;
+     private final boolean skipColorPages;
+
+     /**
+ Initializes a new instance of the ColorPagesFilter class.
+```
+
+**Returns:**
+boolean - true, если страницу следует пропустить; иначе — false. /
+### getHeightInPoints() {#getHeightInPoints}
 ```
 public float getHeightInPoints()
 ```
@@ -73,19 +143,19 @@ public float getHeightInPoints()
 
 Получает высоту страницы в пунктах.
 
-**Возвращает:**
-float — высота страницы в пунктах.
-### getLandscape() {#getLandscape--}
+**Returns:**
+float - Высота страницы в пунктах.
+### getLandscape() {#getLandscape}
 ```
 public boolean getLandscape()
 ```
 
 
-Возвращает true, если ориентация страницы, указанная в документе для этой страницы, является альбомной.
+Возвращает  true  если ориентация страницы, указанная в документе для этой страницы, — альбомная.
 
-**Возвращает:**
-boolean — Истинно, если ориентация страницы, указанная в документе для этой страницы, является альбомной.
-### getPaperSize() {#getPaperSize--}
+**Returns:**
+boolean -  true, если ориентация страницы, указанная в документе для этой страницы, ландшафтная.
+### getPaperSize() {#getPaperSize}
 ```
 public int getPaperSize()
 ```
@@ -93,54 +163,52 @@ public int getPaperSize()
 
 Получает размер бумаги в виде перечисления.
 
-**Возвращает:**
- int - размер бумаги в виде перечисления. Возвращаемое значение является одним из[PaperSize](../../com.aspose.words/papersize) константы.
-### getPaperTray() {#getPaperTray--}
+**Returns:**
+int - Размер бумаги как перечисление. Возвращаемое значение является одной из констант [PaperSize](../../com.aspose.words/papersize/).
+### getPaperTray() {#getPaperTray}
 ```
 public int getPaperTray()
 ```
 
 
-Получает лоток для бумаги (лоток) для этой страницы, как указано в документе. Значение зависит от реализации (принтера).
+Получает лоток (корзину) бумаги для этой страницы, как указано в документе. Значение зависит от реализации (принтера).
 
-**Возвращает:**
-int — лоток для бумаги (лоток) для этой страницы, как указано в документе.
-### getSizeInPixels(float scale, float dpi) {#getSizeInPixels-float-float-}
+**Returns:**
+int - Лоток (корзина) бумаги для этой страницы, как указано в документе.
+### getSizeInPixels(float scale, float dpi) {#getSizeInPixels-float-float}
 ```
 public Dimension getSizeInPixels(float scale, float dpi)
 ```
 
 
-Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения.
+Вычисляет размер страницы в пикселях для заданного коэффициента масштабирования и разрешения.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scale | float | Коэффициент масштабирования (1,0 соответствует 100%). |
-| dpi | float | Разрешение (горизонтальное и вертикальное) для преобразования точек в пиксели (точек на дюйм). |
+| масштаб | float | Коэффициент масштабирования (1.0 соответствует 100%). |
+| dpi | float | Разрешение (горизонтальное и вертикальное) для преобразования из пунктов в пиксели (точек на дюйм). |
 
-**Возвращает:**
-java.awt.Dimension — размер страницы в пикселях.
-### getSizeInPixels(float scale, float horizontalDpi, float verticalDpi) {#getSizeInPixels-float-float-float-}
+**Returns:**
+java.awt.Dimension - Размер страницы в пикселях.
+### getSizeInPixels(float scale, float horizontalDpi, float verticalDpi) {#getSizeInPixels-float-float-float}
 ```
 public Dimension getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 ```
 
 
-Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения.
+Вычисляет размер страницы в пикселях для заданного коэффициента масштабирования и разрешения.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scale | float | Коэффициент масштабирования (1,0 соответствует 100%). |
-| horizontalDpi | float | Горизонтальное разрешение для преобразования точек в пиксели (точек на дюйм). |
-| verticalDpi | float | Вертикальное разрешение для преобразования точек в пиксели (точек на дюйм). |
+| масштаб | float | Коэффициент масштабирования (1.0 соответствует 100%). |
+| horizontalDpi | float | Горизонтальное разрешение для преобразования из пунктов в пиксели (точек на дюйм). |
+| verticalDpi | float | Вертикальное разрешение для преобразования из пунктов в пиксели (точек на дюйм). |
 
-**Возвращает:**
-java.awt.Dimension — размер страницы в пикселях.
-### getSizeInPoints() {#getSizeInPoints--}
+**Returns:**
+java.awt.Dimension - Размер страницы в пикселях.
+### getSizeInPoints() {#getSizeInPoints}
 ```
 public Point2D.Float getSizeInPoints()
 ```
@@ -148,9 +216,9 @@ public Point2D.Float getSizeInPoints()
 
 Получает размер страницы в пунктах.
 
-**Возвращает:**
-java.awt.geom.Point2D.Float — размер страницы в пунктах.
-### getWidthInPoints() {#getWidthInPoints--}
+**Returns:**
+java.awt.geom.Point2D.Float - Размер страницы в пунктах.
+### getWidthInPoints() {#getWidthInPoints}
 ```
 public float getWidthInPoints()
 ```
@@ -158,77 +226,5 @@ public float getWidthInPoints()
 
 Получает ширину страницы в пунктах.
 
-**Возвращает:**
-float — ширина страницы в пунктах.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+float - Ширина страницы в пунктах.

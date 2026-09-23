@@ -1,67 +1,68 @@
 ---
-title: DefaultFontSubstitutionRule
-second_title: Справочник по API Aspose.Words для Java
-description: Правило замены шрифта по умолчанию.
+title: "DefaultFontSubstitutionRule"
+linktitle: "DefaultFontSubstitutionRule"
+second_title: "Aspose.Words для Java"
+description: "Правило замены шрифтов по умолчанию в Java."
 type: docs
-weight: 110
+weight: 149
 url: /ru/java/com.aspose.words/defaultfontsubstitutionrule/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule/)
 ```
 public class DefaultFontSubstitutionRule extends FontSubstitutionRule
 ```
 
 Правило замены шрифта по умолчанию.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
 
-Это правило определяет одно имя шрифта по умолчанию, которое будет использоваться для замены, если исходный шрифт недоступен.
+ **Remarks:** 
+
+Это правило определяет единственное имя шрифта по умолчанию, которое будет использоваться для замены, если оригинальный шрифт недоступен.
+
+ **Examples:** 
+
+Показывает, как установить правило замены шрифтов по умолчанию.
+
+```
+
+ Document doc = new Document();
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+
+ // Get the default substitution rule within FontSettings.
+ // This rule will substitute all missing fonts with "Times New Roman".
+ DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
+ Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
+ Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
+
+ // Set the default font substitute to "Courier New".
+ defaultFontSubstitutionRule.setDefaultFontName("Courier New");
+
+ // Using a document builder, add some text in a font that we do not have to see the substitution take place,
+ // and then render the result in a PDF.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Missing Font");
+ builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | Получает имя шрифта по умолчанию. |
-| [getEnabled()](#getEnabled--) | Указывает, включено ли правило. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Устанавливает имя шрифта по умолчанию. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Указывает, включено ли правило. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDefaultFontName() {#getDefaultFontName--}
+| [getDefaultFontName()](#getDefaultFontName) | Получает имя шрифта по умолчанию. |
+| [getEnabled()](#getEnabled) | Указывает, включено ли правило. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String) | Устанавливает имя шрифта по умолчанию. |
+| [setEnabled(boolean value)](#setEnabled-boolean) | Указывает, включено ли правило. |
+### getDefaultFontName() {#getDefaultFontName}
 ```
 public String getDefaultFontName()
 ```
@@ -69,11 +70,73 @@ public String getDefaultFontName()
 
 Получает имя шрифта по умолчанию.
 
-Значение по умолчанию — «Times New Roman».
+ **Remarks:** 
 
-**Возвращает:**
+Значение по умолчанию — 'Times New Roman'.
+
+ **Examples:** 
+
+Показывает, как указать шрифт по умолчанию.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Arvo");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] fontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ // The font sources that the document uses contain the font "Arial", but not "Arvo".
+ Assert.assertEquals(1, fontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertFalse(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+
+ // Set the "DefaultFontName" property to "Courier New" to,
+ // while rendering the document, apply that font in all cases when another font is not available.
+ FontSettings.getDefaultInstance().getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Courier New");
+
+ Assert.assertTrue(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Courier New")));
+
+ // Aspose.Words will now use the default font in place of any missing fonts during any rendering calls.
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontName.pdf");
+ 
+```
+
+Показывает, как установить правило замены шрифтов по умолчанию.
+
+```
+
+ Document doc = new Document();
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+
+ // Get the default substitution rule within FontSettings.
+ // This rule will substitute all missing fonts with "Times New Roman".
+ DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
+ Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
+ Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
+
+ // Set the default font substitute to "Courier New".
+ defaultFontSubstitutionRule.setDefaultFontName("Courier New");
+
+ // Using a document builder, add some text in a font that we do not have to see the substitution take place,
+ // and then render the result in a PDF.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Missing Font");
+ builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
+ 
+```
+
+**Returns:**
 java.lang.String — имя шрифта по умолчанию.
-### getEnabled() {#getEnabled--}
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
@@ -81,35 +144,80 @@ public boolean getEnabled()
 
 Указывает, включено ли правило.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
 
+ // By default, a blank document always contains a system font source.
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
 
+ SystemFontSource systemFontSource = (SystemFontSource) doc.getFontSettings().getFontsSources()[0];
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, systemFontSource.getType());
+ Assert.assertEquals(0, systemFontSource.getPriority());
 
-### notifyAll() {#notifyAll--}
+ if (SystemUtils.IS_OS_WINDOWS) {
+     final String FONTS_PATH = "C:\\WINDOWS\\Fonts";
+     Assert.assertEquals(FONTS_PATH.toLowerCase(), SystemFontSource.getSystemFontFolders()[0].toLowerCase());
+ }
+
+ for (String systemFontFolder : SystemFontSource.getSystemFontFolders()) {
+     System.out.println(systemFontFolder);
+ }
+
+ // Set a font that exists in the Windows Fonts directory as a substitute for one that does not.
+ doc.getFontSettings().getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+ doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().addSubstitutes("Kreon-Regular", "Calibri");
+
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(IterableUtils.toString(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")).contains("Calibri"));
+
+ // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), false);
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{systemFontSource, folderFontSource});
+ Assert.assertEquals(2, doc.getFontSettings().getFontsSources().length);
+
+ // Resetting the font sources still leaves us with the system font source as well as our substitutes.
+ doc.getFontSettings().resetFontSources();
+
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
 ```
-public final native void notifyAll()
+
+Показывает замену конфигурации шрифтов, зависящую от операционной системы.
+
 ```
 
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
 
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
 
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
 
-### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
+     fontConfigSubstitution.resetCache();
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String}
 ```
 public void setDefaultFontName(String value)
 ```
@@ -117,15 +225,76 @@ public void setDefaultFontName(String value)
 
 Устанавливает имя шрифта по умолчанию.
 
-Значение по умолчанию — «Times New Roman».
+ **Remarks:** 
 
-**Параметры:**
+Значение по умолчанию — 'Times New Roman'.
 
+ **Examples:** 
+
+Показывает, как указать шрифт по умолчанию.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Arvo");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] fontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ // The font sources that the document uses contain the font "Arial", but not "Arvo".
+ Assert.assertEquals(1, fontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertFalse(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+
+ // Set the "DefaultFontName" property to "Courier New" to,
+ // while rendering the document, apply that font in all cases when another font is not available.
+ FontSettings.getDefaultInstance().getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Courier New");
+
+ Assert.assertTrue(IterableUtils.matchesAny(fontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Courier New")));
+
+ // Aspose.Words will now use the default font in place of any missing fonts during any rendering calls.
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontName.pdf");
+ 
+```
+
+Показывает, как установить правило замены шрифтов по умолчанию.
+
+```
+
+ Document doc = new Document();
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+
+ // Get the default substitution rule within FontSettings.
+ // This rule will substitute all missing fonts with "Times New Roman".
+ DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.getSubstitutionSettings().getDefaultFontSubstitution();
+ Assert.assertTrue(defaultFontSubstitutionRule.getEnabled());
+ Assert.assertEquals("Times New Roman", defaultFontSubstitutionRule.getDefaultFontName());
+
+ // Set the default font substitute to "Courier New".
+ defaultFontSubstitutionRule.setDefaultFontName("Courier New");
+
+ // Using a document builder, add some text in a font that we do not have to see the substitution take place,
+ // and then render the result in a PDF.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Missing Font");
+ builder.writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontSubstitutionRule.pdf");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя шрифта по умолчанию. |
+| значение | java.lang.String | Имя шрифта по умолчанию. |
 
-### setEnabled(boolean value) {#setEnabled-boolean-}
+### setEnabled(boolean value) {#setEnabled-boolean}
 ```
 public void setEnabled(boolean value)
 ```
@@ -133,55 +302,79 @@ public void setEnabled(boolean value)
 
 Указывает, включено ли правило.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
+
+```
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+
+ // By default, a blank document always contains a system font source.
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+
+ SystemFontSource systemFontSource = (SystemFontSource) doc.getFontSettings().getFontsSources()[0];
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, systemFontSource.getType());
+ Assert.assertEquals(0, systemFontSource.getPriority());
+
+ if (SystemUtils.IS_OS_WINDOWS) {
+     final String FONTS_PATH = "C:\\WINDOWS\\Fonts";
+     Assert.assertEquals(FONTS_PATH.toLowerCase(), SystemFontSource.getSystemFontFolders()[0].toLowerCase());
+ }
+
+ for (String systemFontFolder : SystemFontSource.getSystemFontFolders()) {
+     System.out.println(systemFontFolder);
+ }
+
+ // Set a font that exists in the Windows Fonts directory as a substitute for one that does not.
+ doc.getFontSettings().getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+ doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().addSubstitutes("Kreon-Regular", "Calibri");
+
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(IterableUtils.toString(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")).contains("Calibri"));
+
+ // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), false);
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{systemFontSource, folderFontSource});
+ Assert.assertEquals(2, doc.getFontSettings().getFontsSources().length);
+
+ // Resetting the font sources still leaves us with the system font source as well as our substitutes.
+ doc.getFontSettings().resetFontSources();
+
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+Показывает замену конфигурации шрифтов, зависящую от операционной системы.
+
+```
+
+ FontSettings fontSettings = new FontSettings();
+ FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.getSubstitutionSettings().getFontConfigSubstitution();
+
+ // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
+ // On Windows, it is unavailable.
+ if (SystemUtils.IS_OS_WINDOWS) {
+     Assert.assertFalse(fontConfigSubstitution.getEnabled());
+     Assert.assertFalse(fontConfigSubstitution.isFontConfigAvailable());
+ }
+
+ // On Linux/Mac, we will have access to it, and will be able to perform operations.
+ if (SystemUtils.IS_OS_LINUX) {
+     Assert.assertTrue(fontConfigSubstitution.getEnabled());
+     Assert.assertTrue(fontConfigSubstitution.isFontConfigAvailable());
+
+     fontConfigSubstitution.resetCache();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

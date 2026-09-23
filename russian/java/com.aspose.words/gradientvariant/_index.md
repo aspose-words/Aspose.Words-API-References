@@ -1,53 +1,89 @@
 ---
-title: GradientVariant
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает вариант градиентной заливки.
+title: "GradientVariant"
+linktitle: "GradientVariant"
+second_title: "Aspose.Words для Java"
+description: "Указывает вариант градиентной заливки в Java."
 type: docs
-weight: 311
+weight: 365
 url: /ru/java/com.aspose.words/gradientvariant/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class GradientVariant
 ```
 
-Указывает вариант градиентной заливки. Соответствует четырем вариантам на вкладке «Градиент» в диалоговом окне «Эффекты заливки» в Word.
+Указывает вариант градиентной заливки.
+
+ **Remarks:** 
+
+Соответствует четырём вариантам на вкладке Gradient в диалоговом окне Fill Effects в Word.
+
+ **Examples:** 
+
+Показывает, как заполнить форму градиентом.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply One-color gradient fill to the shape with ForeColor of gradient fill.
+ shape.getFill().oneColorGradient(Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2, 0.1);
+
+ Assert.assertEquals(Color.RED.getRGB(), shape.getFill().getForeColor().getRGB());
+ Assert.assertEquals(GradientStyle.HORIZONTAL, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_2, shape.getFill().getGradientVariant());
+ Assert.assertEquals(270, shape.getFill().getGradientAngle());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ // Apply Two-color gradient fill to the shape.
+ shape.getFill().twoColorGradient(GradientStyle.FROM_CORNER, GradientVariant.VARIANT_4);
+ // Change BackColor of gradient fill.
+ shape.getFill().setBackColor(Color.YELLOW);
+ // Note that changes "GradientAngle" for "GradientStyle.FromCorner/GradientStyle.FromCenter"
+ // gradient fill don't get any effect, it will work only for linear gradient.
+ shape.getFill().setGradientAngle(15.0);
+
+ Assert.assertEquals(Color.YELLOW.getRGB(), shape.getFill().getBackColor().getRGB());
+ Assert.assertEquals(GradientStyle.FROM_CORNER, shape.getFill().getGradientStyle());
+ Assert.assertEquals(GradientVariant.VARIANT_4, shape.getFill().getGradientVariant());
+ Assert.assertEquals(0, shape.getFill().getGradientAngle());
+
+ // Use the compliance option to define the shape using DML if you want to get "GradientStyle",
+ // "GradientVariant" and "GradientAngle" properties after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientFill.docx", saveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [NONE](#NONE) | Градиентный вариант «Нет». |
+| [NONE](#NONE) | Вариант градиента 'None'. |
 | [VARIANT_1](#VARIANT-1) | Вариант градиента 1. |
-| [VARIANT_2](#VARIANT-2) | Градиентный вариант 2. |
-| [VARIANT_3](#VARIANT-3) | Градиентный вариант 3. |
-| [VARIANT_4](#VARIANT-4) | Градиентный вариант 4. |
+| [VARIANT_2](#VARIANT-2) | Вариант градиента 2. |
+| [VARIANT_3](#VARIANT-3) | Вариант градиента 3. |
+| [VARIANT_4](#VARIANT-4) | Вариант градиента 4. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String gradientVariantName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int gradientVariant)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int gradientVariant)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String gradientVariantName)](#fromName-java.lang.String) |  |
+| [getName(int gradientVariant)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int gradientVariant)](#toString-int) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
 ```
 
 
-Градиентный вариант «Нет».
+Вариант градиента 'None'.
 
 ### VARIANT_1 {#VARIANT-1}
 ```
@@ -63,7 +99,7 @@ public static int VARIANT_2
 ```
 
 
-Градиентный вариант 2.
+Вариант градиента 2.
 
 ### VARIANT_3 {#VARIANT-3}
 ```
@@ -71,7 +107,11 @@ public static int VARIANT_3
 ```
 
 
- Градиентный вариант 3. Этот вариант не применим к градиентной заливке со стилем[GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle\#FROM-CENTER) , если у объекта есть язык разметки[ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage\#VML).
+Вариант градиента 3.
+
+ **Remarks:** 
+
+Этот вариант не применим к градиентной заливке со стилем [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle/\#FROM-CENTER), если объект использует язык разметки [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage/\#VML).
 
 ### VARIANT_4 {#VARIANT-4}
 ```
@@ -79,7 +119,11 @@ public static int VARIANT_4
 ```
 
 
- Градиентный вариант 4. Этот вариант не применим к градиентной заливке со стилем[GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle\#FROM-CENTER) , если у объекта есть язык разметки[ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage\#VML).
+Вариант градиента 4.
+
+ **Remarks:** 
+
+Этот вариант не применим к градиентной заливке со стилем [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle/\#FROM-CENTER), если объект использует язык разметки [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage/\#VML).
 
 ### length {#length}
 ```
@@ -87,23 +131,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String gradientVariantName) {#fromName-java.lang.String-}
+### fromName(String gradientVariantName) {#fromName-java.lang.String}
 ```
 public static int fromName(String gradientVariantName)
 ```
@@ -111,25 +139,14 @@ public static int fromName(String gradientVariantName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gradientVariantName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int gradientVariant) {#getName-int-}
+**Returns:**
+int
+### getName(int gradientVariant) {#getName-int}
 ```
 public static String getName(int gradientVariant)
 ```
@@ -137,15 +154,14 @@ public static String getName(int gradientVariant)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gradientVariant | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +169,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int gradientVariant) {#toString-int-}
+**Returns:**
+int[]
+### toString(int gradientVariant) {#toString-int}
 ```
 public static String toString(int gradientVariant)
 ```
@@ -199,47 +179,10 @@ public static String toString(int gradientVariant)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gradientVariant | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

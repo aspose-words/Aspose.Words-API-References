@@ -1,68 +1,132 @@
 ---
-title: ConditionalStyle
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет специальное форматирование, примененное к некоторой области таблицы с назначенным стилем таблицы.
+title: "ConditionalStyle"
+linktitle: "ConditionalStyle"
+second_title: "Aspose.Words для Java"
+description: "Представляет специальное форматирование, применяемое к некоторой области таблицы с назначенным стилем таблицы в Java."
 type: docs
-weight: 89
+weight: 123
 url: /ru/java/com.aspose.words/conditionalstyle/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ConditionalStyle implements Cloneable
 ```
 
-Представляет специальное форматирование, примененное к некоторой области таблицы с назначенным стилем таблицы.
+Представляет специальное форматирование, применённое к некоторой области таблицы с назначенным стилем таблицы.
 
- Чтобы узнать больше, посетите**Working with Tables** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Tables ][Working with Tables].
+
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+
+[Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Очищает форматирование этого условного стиля. |
-| [clearParaAttrs()](#clearParaAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getBorders()](#getBorders--) | Получает коллекцию границ ячеек по умолчанию для условного стиля. |
-| [getBottomPadding()](#getBottomPadding--) | Получает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
-| [getClass()](#getClass--) |  |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
-| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Получает форматирование символов условного стиля. |
-| [getLeftPadding()](#getLeftPadding--) | Получает количество места (в пунктах), которое нужно добавить слева от содержимого ячеек таблицы. |
-| [getParagraphFormat()](#getParagraphFormat--) | Получает форматирование абзаца условного стиля. |
-| [getRightPadding()](#getRightPadding--) | Получает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы. |
-| [getShading()](#getShading--) | Получает[Shading](../../com.aspose.words/shading) объект, который ссылается на форматирование заливки для этого условного стиля. |
-| [getTopPadding()](#getTopPadding--) | Получает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
-| [getType()](#getType--) | Получает область таблицы, к которой относится этот условный стиль. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeParaAttr(int key)](#removeParaAttr-int-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | Устанавливает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | Задает количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
-| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRightPadding(double value)](#setRightPadding-double-) | Задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setTopPadding(double value)](#setTopPadding-double-) | Устанавливает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormatting() {#clearFormatting--}
+| [clearFormatting()](#clearFormatting) | Очищает форматирование этого условного стиля. |
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Object obj)](#equals-java.lang.Object) | Сравнивает этот условный стиль с указанным объектом. |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [getBorders()](#getBorders) | Получает коллекцию границ ячеек по умолчанию для условного стиля. |
+| [getBottomPadding()](#getBottomPadding) | Получает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы. |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
+| [getFont()](#getFont) | Получает символовое форматирование условного стиля. |
+| [getLeftPadding()](#getLeftPadding) | Получает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| [getParagraphFormat()](#getParagraphFormat) | Получает форматирование абзаца условного стиля. |
+| [getRightPadding()](#getRightPadding) | Получает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
+| [getShading()](#getShading) | Получает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения для этого условного стиля. |
+| [getTopPadding()](#getTopPadding) | Получает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы. |
+| [getType()](#getType) | Получает область таблицы, к которой относится этот условный стиль. |
+| [hashCode()](#hashCode) |  |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setBottomPadding(double value)](#setBottomPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы. |
+| [setLeftPadding(double value)](#setLeftPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setRightPadding(double value)](#setRightPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setTopPadding(double value)](#setTopPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы. |
+### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
 ```
@@ -70,7 +134,46 @@ public void clearFormatting()
 
 Очищает форматирование этого условного стиля.
 
-### clearParaAttrs() {#clearParaAttrs--}
+ **Examples:** 
+
+Показывает, как сбросить условные стили таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("First row");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Last row");
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ table.setStyle(tableStyle);
+
+ // Set the table style to color the borders of the first row of the table in red.
+ tableStyle.getConditionalStyles().getFirstRow().getBorders().setColor(Color.RED);
+
+ // Set the table style to color the borders of the last row of the table in blue.
+ tableStyle.getConditionalStyles().getLastRow().getBorders().setColor(Color.BLUE);
+
+ // Below are two ways of using the "ClearFormatting" method to clear the conditional styles.
+ // 1 -  Clear the conditional styles for a specific part of a table:
+ tableStyle.getConditionalStyles().get(0).clearFormatting();
+
+ Assert.assertEquals(0, tableStyle.getConditionalStyles().getFirstRow().getBorders().getColor().getRGB());
+
+ // 2 -  Clear the conditional styles for the entire table:
+ tableStyle.getConditionalStyles().clearFormatting();
+
+ Assert.assertEquals(tableStyle.getConditionalStyles().getLastRow().getBorders().getColor().getRGB(), 0);
+ 
+```
+
+### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
 ```
@@ -78,7 +181,7 @@ public void clearParaAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -86,23 +189,22 @@ public void clearRunAttrs()
 
 
 
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
 ```
 
 
+Сравнивает этот условный стиль с указанным объектом.
 
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Возвращает:**
-логический
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+**Returns:**
+boolean
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -110,15 +212,14 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
 ```
@@ -126,15 +227,14 @@ public Object fetchInheritedParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -142,15 +242,14 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int}
 ```
 public Object fetchInheritedShadingAttr(int key)
 ```
@@ -158,15 +257,14 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchParaAttr(int key) {#fetchParaAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchParaAttr(int key) {#fetchParaAttr-int}
 ```
 public Object fetchParaAttr(int key)
 ```
@@ -174,15 +272,14 @@ public Object fetchParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getBorders() {#getBorders--}
+**Returns:**
+java.lang.Object
+### getBorders() {#getBorders}
 ```
 public BorderCollection getBorders()
 ```
@@ -190,29 +287,151 @@ public BorderCollection getBorders()
 
 Получает коллекцию границ ячеек по умолчанию для условного стиля.
 
-**Возвращает:**
-[BorderCollection](../../com.aspose.words/bordercollection) - Набор границ ячеек по умолчанию для условного стиля.
-### getBottomPadding() {#getBottomPadding--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the conditional style.
+### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
 ```
 
 
-Получает количество места (в пунктах) для добавления под содержимым ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
 
-**Возвращает:**
-double - количество места (в пунктах), которое нужно добавить под содержимым ячеек таблицы.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -220,15 +439,14 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
 ```
@@ -236,15 +454,14 @@ public Object getDirectParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
+**Returns:**
+java.lang.Object
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
 ```
 public Object getDirectParaAttr(int key, int revisionsView)
 ```
@@ -252,16 +469,15 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 | revisionsView | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -269,35 +485,182 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getFont() {#getFont--}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ключ | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
 
 
-Получает форматирование символов условного стиля.
+Получает символовое форматирование условного стиля.
 
-**Возвращает:**
-[Font](../../com.aspose.words/font) - Форматирование символов условного стиля.
-### getLeftPadding() {#getLeftPadding--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The character formatting of the conditional style.
+### getLeftPadding() {#getLeftPadding}
 ```
 public double getLeftPadding()
 ```
 
 
-Получает количество места (в пунктах), которое нужно добавить слева от содержимого ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
 
-**Возвращает:**
-double - Количество места (в пунктах) для добавления слева от содержимого ячеек таблицы.
-### getParagraphFormat() {#getParagraphFormat--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -305,39 +668,303 @@ public ParagraphFormat getParagraphFormat()
 
 Получает форматирование абзаца условного стиля.
 
-**Возвращает:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - Форматирование абзаца условного стиля.
-### getRightPadding() {#getRightPadding--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the conditional style.
+### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
 ```
 
 
-Получает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
 
-**Возвращает:**
-double - Количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы.
-### getShading() {#getShading--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
+### getShading() {#getShading}
 ```
 public Shading getShading()
 ```
 
 
-Получает[Shading](../../com.aspose.words/shading) объект, который ссылается на форматирование заливки для этого условного стиля.
+Получает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения для этого условного стиля.
 
-**Возвращает:**
-[Shading](../../com.aspose.words/shading) - А[Shading](../../com.aspose.words/shading) объект, который ссылается на форматирование заливки для этого условного стиля.
-### getTopPadding() {#getTopPadding--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for this conditional style.
+### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
 ```
 
 
-Получает количество места (в пунктах) для добавления над содержимым ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
-**Возвращает:**
-double — количество места (в пунктах), которое нужно добавить над содержимым ячеек таблицы.
-### getType() {#getType--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -345,9 +972,75 @@ public int getType()
 
 Получает область таблицы, к которой относится этот условный стиль.
 
-**Возвращает:**
- int - область таблицы, к которой относится этот условный стиль. Возвращаемое значение является одним из[ConditionalStyleType](../../com.aspose.words/conditionalstyletype) константы.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+int - Область таблицы, к которой относится этот условный стиль. Возвращаемое значение является одной из констант [ConditionalStyleType](../../com.aspose.words/conditionalstyletype/).
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -355,25 +1048,9 @@ public int hashCode()
 
 
 
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### removeParaAttr(int key) {#removeParaAttr-int-}
+**Returns:**
+int
+### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
 ```
@@ -381,13 +1058,12 @@ public void removeParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -395,13 +1071,12 @@ public void removeRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -409,42 +1084,171 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setBottomPadding(double value) {#setBottomPadding-double-}
+### setBottomPadding(double value) {#setBottomPadding-double}
 ```
 public void setBottomPadding(double value)
 ```
 
 
-Устанавливает количество места (в пунктах) для добавления под содержимым ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить под содержимым ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить ниже содержимого ячеек таблицы. |
 
-### setLeftPadding(double value) {#setLeftPadding-double-}
+### setLeftPadding(double value) {#setLeftPadding-double}
 ```
 public void setLeftPadding(double value)
 ```
 
 
-Задает количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить слева от содержимого ячеек таблицы. |
 
-### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
 ```
 public void setParaAttr(int key, Object value)
 ```
@@ -452,28 +1256,92 @@ public void setParaAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setRightPadding(double value) {#setRightPadding-double-}
+### setRightPadding(double value) {#setRightPadding-double}
 ```
 public void setRightPadding(double value)
 ```
 
 
-Задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить справа от содержимого ячеек таблицы. |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -481,70 +1349,88 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setTopPadding(double value) {#setTopPadding-double-}
+### setTopPadding(double value) {#setTopPadding-double}
 ```
 public void setTopPadding(double value)
 ```
 
 
-Устанавливает количество места (в пунктах) для добавления над содержимым ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить над содержимым ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить выше содержимого ячеек таблицы. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

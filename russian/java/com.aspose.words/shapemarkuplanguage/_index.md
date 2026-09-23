@@ -1,50 +1,78 @@
 ---
-title: ShapeMarkupLanguage
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает язык разметки, используемый для фигуры.
+title: "ShapeMarkupLanguage"
+linktitle: "ShapeMarkupLanguage"
+second_title: "Aspose.Words для Java"
+description: "Указывает язык разметки, используемый для фигуры в Java."
 type: docs
-weight: 519
+weight: 615
 url: /ru/java/com.aspose.words/shapemarkuplanguage/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ShapeMarkupLanguage
 ```
 
 Указывает язык разметки, используемый для фигуры.
+
+ **Examples:** 
+
+Показывает, как задать спецификацию соответствия OOXML для сохраняемого документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DML](#DML) | Язык разметки чертежей используется для определения формы. |
-| [VML](#VML) | Язык векторной разметки используется для определения формы. |
+| [DML](#DML) | Drawing Markup Language используется для определения фигуры. |
+| [VML](#VML) | Vector Markup Language используется для определения фигуры. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String shapeMarkupLanguageName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(byte shapeMarkupLanguage)](#getName-byte-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(byte shapeMarkupLanguage)](#toString-byte-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String shapeMarkupLanguageName)](#fromName-java.lang.String) |  |
+| [getName(byte shapeMarkupLanguage)](#getName-byte) |  |
+| [getValues()](#getValues) |  |
+| [toString(byte shapeMarkupLanguage)](#toString-byte) |  |
 ### DML {#DML}
 ```
 public static byte DML
 ```
 
 
-Язык разметки чертежей используется для определения формы. Это новый стандарт рисования для Office Open XML, впервые появившийся в 1-м издании ECMA-376 (2006 г.) и впервые появившийся в MS Word 2007.
+Drawing Markup Language используется для определения фигуры.
+
+ **Remarks:** 
+
+Это новый стандарт рисования для Office Open XML, который впервые появился в ECMA-376 1-е издание (2006), впервые появился в MS Word 2007.
 
 ### VML {#VML}
 ```
@@ -52,7 +80,11 @@ public static byte VML
 ```
 
 
-Язык векторной разметки используется для определения формы. Устаревший формат, включенный в Office Open XML только по устаревшим причинам.
+Vector Markup Language используется для определения фигуры.
+
+ **Remarks:** 
+
+Устаревший формат, включённый в Office Open XML только по соображениям совместимости.
 
 ### length {#length}
 ```
@@ -60,23 +92,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String shapeMarkupLanguageName) {#fromName-java.lang.String-}
+### fromName(String shapeMarkupLanguageName) {#fromName-java.lang.String}
 ```
 public static byte fromName(String shapeMarkupLanguageName)
 ```
@@ -84,25 +100,14 @@ public static byte fromName(String shapeMarkupLanguageName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeMarkupLanguageName | java.lang.String |  |
 
-**Возвращает:**
-байт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(byte shapeMarkupLanguage) {#getName-byte-}
+**Returns:**
+byte
+### getName(byte shapeMarkupLanguage) {#getName-byte}
 ```
 public static String getName(byte shapeMarkupLanguage)
 ```
@@ -110,15 +115,14 @@ public static String getName(byte shapeMarkupLanguage)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeMarkupLanguage | byte |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static byte[] getValues()
 ```
@@ -126,45 +130,9 @@ public static byte[] getValues()
 
 
 
-**Возвращает:**
-байт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(byte shapeMarkupLanguage) {#toString-byte-}
+**Returns:**
+byte[]
+### toString(byte shapeMarkupLanguage) {#toString-byte}
 ```
 public static String toString(byte shapeMarkupLanguage)
 ```
@@ -172,47 +140,10 @@ public static String toString(byte shapeMarkupLanguage)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeMarkupLanguage | byte |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

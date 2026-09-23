@@ -1,51 +1,78 @@
 ---
-title: HtmlFixedPageHorizontalAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Задает горизонтальное выравнивание страниц в выходном HTML-документе.
+title: "HtmlFixedPageHorizontalAlignment"
+linktitle: "HtmlFixedPageHorizontalAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает горизонтальное выравнивание страниц в выводимом HTML‑документе в Java."
 type: docs
-weight: 325
+weight: 379
 url: /ru/java/com.aspose.words/htmlfixedpagehorizontalalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlFixedPageHorizontalAlignment
 ```
 
-Задает горизонтальное выравнивание страниц в выходном HTML-документе.
+Указывает горизонтальное выравнивание страниц в выводимом HTML‑документе.
+
+ **Examples:** 
+
+Показывает, как установить горизонтальное выравнивание страниц при сохранении документа в HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
+ {
+     htmlFixedSaveOptions.setPageHorizontalAlignment(pageHorizontalAlignment);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.HorizontalAlignment.html", htmlFixedSaveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlFixedSaveOptions.HorizontalAlignment/styles.css"), StandardCharsets.UTF_8);
+
+ switch (pageHorizontalAlignment)
+ {
+     case HtmlFixedPageHorizontalAlignment.CENTER:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+     case HtmlFixedPageHorizontalAlignment.LEFT:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+     case HtmlFixedPageHorizontalAlignment.RIGHT:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CENTER](#CENTER) | Центральные страницы. |
-| [LEFT](#LEFT) | Выровняйте страницы по левому краю. |
-| [RIGHT](#RIGHT) | Выровняйте страницы по правому краю. |
+| [CENTER](#CENTER) | Центрировать страницы. |
+| [LEFT](#LEFT) | Выровнять страницы по левому краю. |
+| [RIGHT](#RIGHT) | Выровнять страницы по правому краю. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlFixedPageHorizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlFixedPageHorizontalAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlFixedPageHorizontalAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlFixedPageHorizontalAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int htmlFixedPageHorizontalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlFixedPageHorizontalAlignment)](#toString-int) |  |
 ### CENTER {#CENTER}
 ```
 public static int CENTER
 ```
 
 
-Центральные страницы. Это значение по умолчанию.
+Центрировать страницы. Это значение по умолчанию.
 
 ### LEFT {#LEFT}
 ```
@@ -53,7 +80,7 @@ public static int LEFT
 ```
 
 
-Выровняйте страницы по левому краю.
+Выровнять страницы по левому краю.
 
 ### RIGHT {#RIGHT}
 ```
@@ -61,7 +88,7 @@ public static int RIGHT
 ```
 
 
-Выровняйте страницы по правому краю.
+Выровнять страницы по правому краю.
 
 ### length {#length}
 ```
@@ -69,23 +96,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlFixedPageHorizontalAlignmentName) {#fromName-java.lang.String-}
+### fromName(String htmlFixedPageHorizontalAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlFixedPageHorizontalAlignmentName)
 ```
@@ -93,25 +104,14 @@ public static int fromName(String htmlFixedPageHorizontalAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlFixedPageHorizontalAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlFixedPageHorizontalAlignment) {#getName-int}
 ```
 public static String getName(int htmlFixedPageHorizontalAlignment)
 ```
@@ -119,15 +119,14 @@ public static String getName(int htmlFixedPageHorizontalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +134,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlFixedPageHorizontalAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlFixedPageHorizontalAlignment) {#toString-int}
 ```
 public static String toString(int htmlFixedPageHorizontalAlignment)
 ```
@@ -181,47 +144,10 @@ public static String toString(int htmlFixedPageHorizontalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

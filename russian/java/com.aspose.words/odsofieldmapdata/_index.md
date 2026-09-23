@@ -1,249 +1,144 @@
 ---
-title: OdsoFieldMapData
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе.
+title: "OdsoFieldMapData"
+linktitle: "OdsoFieldMapData"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как столбец во внешнем источнике данных должен быть сопоставлен с предопределёнными полями слияния в документе на Java."
 type: docs
-weight: 413
+weight: 489
 url: /ru/java/com.aspose.words/odsofieldmapdata/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class OdsoFieldMapData implements Cloneable
 ```
 
-Указывает, как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе.
+Указывает, как столбец во внешнем источнике данных будет сопоставлен с предопределёнными полями слияния в документе.
 
- Чтобы узнать больше, посетите**Mail Merge and Reporting** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Mail Merge and Reporting ][Mail Merge and Reporting].
 
- Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые он позволяет вставлять в документ как MERGEFIELD или использовать в полях ADDRESSBLOCK или GREETINGLINE. Информация, указанная в[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata)позволяет сопоставить один столбец внешнего источника данных с одним предопределенным полем слияния.
+ **Remarks:** 
+
+Microsoft Word предоставляет некоторые предопределённые имена полей слияния, которые можно вставлять в документ как MERGEFIELD или использовать в полях ADDRESSBLOCK или GREETINGLINE. Информация, указанная в [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/), позволяет сопоставить один столбец во внешнем источнике данных с одним предопределённым полем слияния.
+
+
+[Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) | Возвращает глубокий клон этого объекта. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. |
-| [getMappedName()](#getMappedName--) |  Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) свойство в этом сопоставлении полей. |
-| [getName()](#getName--) |  Задает имя столбца во внешнем источнике данных для столбца, индекс которого указан параметром[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) имущество. |
-| [getType()](#getType--) | Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setColumn(int value)](#setColumn-int-) | Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. |
-| [setMappedName(String value)](#setMappedName-java.lang.String-) |  Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) свойство в этом сопоставлении полей. |
-| [setName(String value)](#setName-java.lang.String-) |  Задает имя столбца во внешнем источнике данных для столбца, индекс которого указан параметром[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) имущество. |
-| [setType(int value)](#setType-int-) | Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### deepClone() {#deepClone--}
+| [deepClone()](#deepClone) | Возвращает глубокую копию этого объекта. |
+| [getColumn()](#getColumn) | Указывает нулевой индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем конкретного поля MERGEFIELD. |
+| [getMappedName()](#getMappedName) | Указывает предопределённое имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) в этом сопоставлении полей. |
+| [getName()](#getName) | Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int). |
+| [getType()](#getType) | Указывает, сопоставлено ли данное поле слияния с колонкой во внешнем источнике данных. |
+| [setColumn(int value)](#setColumn-int) | Указывает нулевой индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем конкретного поля MERGEFIELD. |
+| [setMappedName(String value)](#setMappedName-java.lang.String) | Указывает предопределённое имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) в этом сопоставлении полей. |
+| [setName(String value)](#setName-java.lang.String) | Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int). |
+| [setType(int value)](#setType-int) | Указывает, сопоставлено ли данное поле слияния с колонкой во внешнем источнике данных. |
+### deepClone() {#deepClone}
 ```
 public OdsoFieldMapData deepClone()
 ```
 
 
-Возвращает глубокий клон этого объекта.
+Возвращает глубокую копию этого объекта.
 
-**Возвращает:**
-[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColumn() {#getColumn--}
+**Returns:**
+[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/)
+### getColumn() {#getColumn}
 ```
 public int getColumn()
 ```
 
 
-Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0.
+Указывает нулевой индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем конкретного поля MERGEFIELD. Значение по умолчанию — 0.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getMappedName() {#getMappedName--}
+**Returns:**
+int — соответствующее значение  int .
+### getMappedName() {#getMappedName}
 ```
 public String getMappedName()
 ```
 
 
- Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) свойство в этом сопоставлении полей. Значение по умолчанию — пустая строка.
+Указывает предопределённое имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) в этом сопоставлении полей. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getName() {#getName--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
- Задает имя столбца во внешнем источнике данных для столбца, индекс которого указан параметром[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) имущество. Значение по умолчанию — пустая строка.
+Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int). Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getType() {#getType--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getType() {#getType}
 ```
 public int getType()
 ```
 
 
-Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию[OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+Указывает, сопоставлено ли данное поле слияния с колонкой во внешнем источнике данных. Значение по умолчанию — [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype/\#DEFAULT).
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) константы.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setColumn(int value) {#setColumn-int-}
+**Returns:**
+int — соответствующее значение типа int. Возвращаемое значение является одним из констант [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype/).
+### setColumn(int value) {#setColumn-int}
 ```
 public void setColumn(int value)
 ```
 
 
-Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0.
+Указывает нулевой индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем конкретного поля MERGEFIELD. Значение по умолчанию — 0.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setMappedName(String value) {#setMappedName-java.lang.String-}
+### setMappedName(String value) {#setMappedName-java.lang.String}
 ```
 public void setMappedName(String value)
 ```
 
 
- Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) свойство в этом сопоставлении полей. Значение по умолчанию — пустая строка.
+Указывает предопределённое имя поля слияния, которое должно быть сопоставлено с номером столбца, указанным свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) в этом сопоставлении полей. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
 
 
- Задает имя столбца во внешнем источнике данных для столбца, индекс которого указан параметром[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) имущество. Значение по умолчанию — пустая строка.
+Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан свойством [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int). Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setType(int value) {#setType-int-}
+### setType(int value) {#setType-int}
 ```
 public void setType(int value)
 ```
 
 
-Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию[OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+Указывает, сопоставлено ли данное поле слияния с колонкой во внешнем источнике данных. Значение по умолчанию — [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype/\#DEFAULT).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) константы. |
+| value | int | Соответствующее значение типа int. Значение должно быть одним из констант [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,109 +1,84 @@
 ---
-title: DataRow
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет строку данных в файле .
+title: "DataRow"
+linktitle: "DataRow"
+second_title: "Aspose.Words для Java"
+description: "Представляет строку данных в DataTable в Java."
 type: docs
 weight: 20
 url: /ru/java/com.aspose.words.net.system.data/datarow/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DataRow
 ```
 
- Представляет строку данных в[DataTable](../../com.aspose.words.net.system.data/datatable).
+Представляет строку данных в [DataTable](../../com.aspose.words.net.system.data/datatable/).
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [delete()](#delete--) |  Удаляет[DataRow](../../com.aspose.words.net.system.data/datarow). |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn-) | Получает данные, хранящиеся в указанном[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [get(int columnIndex)](#get-int-) | Получает данные, хранящиеся в столбце, указанном индексом. |
-| [get(String columnName)](#get-java.lang.String-) | Получает данные, хранящиеся в столбце, указанном по имени. |
-| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation-) |  Получает дочерние строки этого[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getClass()](#getClass--) |  |
-| [getItemArray()](#getItemArray--) | Получает все значения для этой строки через массив. |
-| [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey-) |  |
-| [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String-) |  |
-| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation-) |  Получает родительскую строку[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation-) |  Получает родительские строки[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getRowState()](#getRowState--) |  Получает текущее состояние строки относительно ее отношения к[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
-| [getTable()](#getTable--) |  Получает[DataTable](../../com.aspose.words.net.system.data/datatable) для которого эта строка имеет схему. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet-) | Считывает значения из java.sql.ResultSet |
-| [remove(int index)](#remove-int-) |  |
-| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object-) |  Устанавливает данные, хранящиеся в указанном[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [set(int value, Object columnIndex)](#set-int-java.lang.Object-) | Задает данные, хранящиеся в столбце, указанном индексом. |
-| [set(String value, Object columnName)](#set-java.lang.String-java.lang.Object-) | Задает данные, хранящиеся в столбце, указанном по имени. |
-| [setItemArray(Object[] value)](#setItemArray-java.lang.Object---) | Устанавливает все значения для этой строки через массив. |
-| [setOriginalValue(String columnName, Object data)](#setOriginalValue-java.lang.String-java.lang.Object-) |  |
-| [setRowState(int state)](#setRowState-int-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### delete() {#delete--}
+| [delete()](#delete) | Удаляет [DataRow](../../com.aspose.words.net.system.data/datarow/). |
+| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn) | Получает данные, хранящиеся в указанном [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [get(int columnIndex)](#get-int) | Получает данные, хранящиеся в столбце, указанном по индексу. |
+| [get(String columnName)](#get-java.lang.String) | Получает данные, хранящиеся в столбце, указанном по имени. |
+| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation) | Получает дочерние строки этого [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
+| [getItemArray()](#getItemArray) | Получает все значения этой строки через массив. |
+| [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey) |  |
+| [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String) |  |
+| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation) | Получает родительскую строку [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
+| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation) | Получает родительские строки [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
+| [getRowState()](#getRowState) | Получает текущее состояние строки относительно её связи с [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/). |
+| [getTable()](#getTable) | Получает [DataTable](../../com.aspose.words.net.system.data/datatable/), для которой у этой строки есть схема. |
+| [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet) | Читает значения из java.sql.ResultSet |
+| [remove(int index)](#remove-int) |  |
+| [set(System.Data.DataColumn column, Object value)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Устанавливает данные, хранящиеся в указанном [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [set(int columnIndex, Object value)](#set-int-java.lang.Object) | Устанавливает данные, хранящиеся в столбце, указанном по индексу. |
+| [set(String columnName, Object value)](#set-java.lang.String-java.lang.Object) | Устанавливает данные, хранящиеся в столбце, указанном по имени. |
+| [setItemArray(Object[] value)](#setItemArray-java.lang.Object) | Устанавливает все значения этой строки через массив. |
+| [setOriginalValue(String columnName, Object data)](#setOriginalValue-java.lang.String-java.lang.Object) |  |
+| [setRowState(int state)](#setRowState-int) |  |
+| [toString()](#toString) |  |
+### delete() {#delete}
 ```
 public void delete()
 ```
 
 
- Удаляет[DataRow](../../com.aspose.words.net.system.data/datarow).
+Удаляет [DataRow](../../com.aspose.words.net.system.data/datarow/).
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(System.Data.DataColumn column) {#get-com.aspose.words.net.System.Data.DataColumn-}
+### get(System.Data.DataColumn column) {#get-com.aspose.words.net.System.Data.DataColumn}
 ```
 public Object get(System.Data.DataColumn column)
 ```
 
 
-Получает данные, хранящиеся в указанном[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Получает данные, хранящиеся в указанном [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  А[DataColumn](../../com.aspose.words.net.system.data/datacolumn) который содержит данные. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), содержащий данные. |
 
-**Возвращает:**
+**Returns:**
 java.lang.Object — объект java.lang.Object, содержащий данные.
-### get(int columnIndex) {#get-int-}
+### get(int columnIndex) {#get-int}
 ```
 public Object get(int columnIndex)
 ```
 
 
-Получает данные, хранящиеся в столбце, указанном индексом.
+Получает данные, хранящиеся в столбце, указанном по индексу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | int | Отсчитываемый от нуля индекс столбца. |
+| columnIndex | int | Индекс столбца, начинающийся с нуля. |
 
-**Возвращает:**
+**Returns:**
 java.lang.Object — объект java.lang.Object, содержащий данные.
-### get(String columnName) {#get-java.lang.String-}
+### get(String columnName) {#get-java.lang.String}
 ```
 public Object get(String columnName)
 ```
@@ -111,51 +86,39 @@ public Object get(String columnName)
 
 Получает данные, хранящиеся в столбце, указанном по имени.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnName | java.lang.String | Имя столбца. |
 
-**Возвращает:**
+**Returns:**
 java.lang.Object — объект java.lang.Object, содержащий данные.
-### getChildRows(System.Data.DataRelation relation) {#getChildRows-com.aspose.words.net.System.Data.DataRelation-}
+### getChildRows(System.Data.DataRelation relation) {#getChildRows-com.aspose.words.net.System.Data.DataRelation}
 ```
 public System.Data.DataRow[] getChildRows(System.Data.DataRelation relation)
 ```
 
 
- Получает дочерние строки этого[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Получает дочерние строки этого [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | [DataRelation](../../com.aspose.words.net.system.data/datarelation) использовать. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | Объект [DataRelation](../../com.aspose.words.net.system.data/datarelation/), который следует использовать. |
 
-**Возвращает:**
-com.aspose.words.net.System.Data.DataRow[ ] - Массив[DataRow](../../com.aspose.words.net.system.data/datarow) объекты или массив нулевой длины.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getItemArray() {#getItemArray--}
+**Returns:**
+com.aspose.words.net.System.Data.DataRow[] — массив объектов [DataRow](../../com.aspose.words.net.system.data/datarow/) или массив нулевой длины.
+### getItemArray() {#getItemArray}
 ```
 public Object[] getItemArray()
 ```
 
 
-Получает все значения для этой строки через массив.
+Получает все значения этой строки через массив.
 
-**Возвращает:**
-java.lang.Объект[— Массив типа java.lang.Object.
-### getKeyValues(System.Data.DataKey childKey) {#getKeyValues-com.aspose.words.net.System.Data.DataKey-}
+**Returns:**
+java.lang.Object[] — массив типа java.lang.Object.
+### getKeyValues(System.Data.DataKey childKey) {#getKeyValues-com.aspose.words.net.System.Data.DataKey}
 ```
 public Object[] getKeyValues(System.Data.DataKey childKey)
 ```
@@ -163,15 +126,14 @@ public Object[] getKeyValues(System.Data.DataKey childKey)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| childKey | [DataKey](../../com.aspose.words.net.system.data/datakey) |  |
+| childKey | [DataKey](../../com.aspose.words.net.system.data/datakey/) |  |
 
-**Возвращает:**
-java.lang.Объект[]
-### getOriginalValue(String columnName) {#getOriginalValue-java.lang.String-}
+**Returns:**
+java.lang.Object[]
+### getOriginalValue(String columnName) {#getOriginalValue-java.lang.String}
 ```
 public Object getOriginalValue(String columnName)
 ```
@@ -179,109 +141,79 @@ public Object getOriginalValue(String columnName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnName | java.lang.String |  |
 
-**Возвращает:**
-java.lang.Объект
-### getParentRow(System.Data.DataRelation relation) {#getParentRow-com.aspose.words.net.System.Data.DataRelation-}
+**Returns:**
+java.lang.Object
+### getParentRow(System.Data.DataRelation relation) {#getParentRow-com.aspose.words.net.System.Data.DataRelation}
 ```
 public System.Data.DataRow getParentRow(System.Data.DataRelation relation)
 ```
 
 
- Получает родительскую строку[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Получает родительскую строку [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | [DataRelation](../../com.aspose.words.net.system.data/datarelation) использовать. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | Объект [DataRelation](../../com.aspose.words.net.system.data/datarelation/), который следует использовать. |
 
-**Возвращает:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - Родитель[DataRow](../../com.aspose.words.net.system.data/datarow) текущей строки.
-### getParentRows(System.Data.DataRelation relation) {#getParentRows-com.aspose.words.net.System.Data.DataRelation-}
+**Returns:**
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - The parent [DataRow](../../com.aspose.words.net.system.data/datarow/) of the current row.
+### getParentRows(System.Data.DataRelation relation) {#getParentRows-com.aspose.words.net.System.Data.DataRelation}
 ```
 public System.Data.DataRow[] getParentRows(System.Data.DataRelation relation)
 ```
 
 
- Получает родительские строки[DataRow](../../com.aspose.words.net.system.data/datarow) используя указанный[DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Получает родительские строки [DataRow](../../com.aspose.words.net.system.data/datarow/) с использованием указанного [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | [DataRelation](../../com.aspose.words.net.system.data/datarelation) использовать. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | Объект [DataRelation](../../com.aspose.words.net.system.data/datarelation/), который следует использовать. |
 
-**Возвращает:**
-com.aspose.words.net.System.Data.DataRow[ ] - Массив[DataRow](../../com.aspose.words.net.system.data/datarow) объекты или массив нулевой длины.
-### getRowState() {#getRowState--}
+**Returns:**
+com.aspose.words.net.System.Data.DataRow[] — массив объектов [DataRow](../../com.aspose.words.net.system.data/datarow/) или массив нулевой длины.
+### getRowState() {#getRowState}
 ```
 public int getRowState()
 ```
 
 
- Получает текущее состояние строки относительно ее отношения к[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+Получает текущее состояние строки относительно её связи с [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/).
 
-**Возвращает:**
- инт - один из[DataRowState](../../com.aspose.words.net.system.data/datarowstate) ценности. Возвращаемое значение представляет собой побитовую комбинацию[DataRowState](../../com.aspose.words.net.system.data/datarowstate) константы.
-### getTable() {#getTable--}
+**Returns:**
+int - Одно из значений [DataRowState](../../com.aspose.words.net.system.data/datarowstate/) . Возвращаемое значение является побитовой комбинацией констант [DataRowState](../../com.aspose.words.net.system.data/datarowstate/).
+### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
- Получает[DataTable](../../com.aspose.words.net.system.data/datatable) для которого эта строка имеет схему.
+Получает [DataTable](../../com.aspose.words.net.system.data/datatable/), для которой у этой строки есть схема.
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) -[DataTable](../../com.aspose.words.net.system.data/datatable) которому принадлежит этот ряд.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### readFrom(ResultSet resultSet) {#readFrom-java.sql.ResultSet-}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - The [DataTable](../../com.aspose.words.net.system.data/datatable/) to which this row belongs.
+### readFrom(ResultSet resultSet) {#readFrom-java.sql.ResultSet}
 ```
 public boolean readFrom(ResultSet resultSet)
 ```
 
 
-Считывает значения из java.sql.ResultSet
+Читает значения из java.sql.ResultSet
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | resultSet | java.sql.ResultSet | хранилище для чтения |
 
-**Возвращает:**
-boolean - истина, если не было ошибок чтения
-### remove(int index) {#remove-int-}
+**Returns:**
+boolean - true, если не произошло ошибок чтения
+### remove(int index) {#remove-int}
 ```
 public void remove(int index)
 ```
@@ -289,72 +221,67 @@ public void remove(int index)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-### set(System.Data.DataColumn value, Object column) {#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object-}
+### set(System.Data.DataColumn column, Object value) {#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object}
 ```
-public void set(System.Data.DataColumn value, Object column)
+public void set(System.Data.DataColumn column, Object value)
 ```
 
 
- Устанавливает данные, хранящиеся в указанном[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Устанавливает данные, хранящиеся в указанном [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | Объект java.lang.Object, содержащий данные. |
-| column | java.lang.Object |  А[DataColumn](../../com.aspose.words.net.system.data/datacolumn) который содержит данные. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), содержащий данные. |
+| значение | java.lang.Object | Объект java.lang.Object, содержащий данные. |
 
-### set(int value, Object columnIndex) {#set-int-java.lang.Object-}
+### set(int columnIndex, Object value) {#set-int-java.lang.Object}
 ```
-public void set(int value, Object columnIndex)
+public void set(int columnIndex, Object value)
 ```
 
 
-Задает данные, хранящиеся в столбце, указанном индексом.
+Устанавливает данные, хранящиеся в столбце, указанном по индексу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Объект java.lang.Object, содержащий данные. |
-| columnIndex | java.lang.Object | Отсчитываемый от нуля индекс столбца. |
+| columnIndex | int | Индекс столбца, начинающийся с нуля. |
+| значение | java.lang.Object | Объект java.lang.Object, содержащий данные. |
 
-### set(String value, Object columnName) {#set-java.lang.String-java.lang.Object-}
+### set(String columnName, Object value) {#set-java.lang.String-java.lang.Object}
 ```
-public void set(String value, Object columnName)
+public void set(String columnName, Object value)
 ```
 
 
-Задает данные, хранящиеся в столбце, указанном по имени.
+Устанавливает данные, хранящиеся в столбце, указанном по имени.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Объект java.lang.Object, содержащий данные. |
-| columnName | java.lang.Object | Имя столбца. |
+| columnName | java.lang.String | Имя столбца. |
+| значение | java.lang.Object | Объект java.lang.Object, содержащий данные. |
 
-### setItemArray(Object[] value) {#setItemArray-java.lang.Object---}
+### setItemArray(Object[] value) {#setItemArray-java.lang.Object}
 ```
 public void setItemArray(Object[] value)
 ```
 
 
-Устанавливает все значения для этой строки через массив.
+Устанавливает все значения этой строки через массив.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.Object[] | Массив типа java.lang.Object. |
+| значение | java.lang.Object[] | Массив типа java.lang.Object. |
 
-### setOriginalValue(String columnName, Object data) {#setOriginalValue-java.lang.String-java.lang.Object-}
+### setOriginalValue(String columnName, Object data) {#setOriginalValue-java.lang.String-java.lang.Object}
 ```
 public void setOriginalValue(String columnName, Object data)
 ```
@@ -362,14 +289,13 @@ public void setOriginalValue(String columnName, Object data)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnName | java.lang.String |  |
-| data | java.lang.Object |  |
+| данные | java.lang.Object |  |
 
-### setRowState(int state) {#setRowState-int-}
+### setRowState(int state) {#setRowState-int}
 ```
 public void setRowState(int state)
 ```
@@ -377,13 +303,12 @@ public void setRowState(int state)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| state | int |  |
+| состояние | int |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -391,41 +316,5 @@ public String toString()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

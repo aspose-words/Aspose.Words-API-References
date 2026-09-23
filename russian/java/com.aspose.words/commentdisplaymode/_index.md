@@ -1,44 +1,66 @@
 ---
-title: CommentDisplayMode
-second_title: Справочник по API Aspose.Words для Java
-description: Задает режим отображения комментариев к документу.
+title: "CommentDisplayMode"
+linktitle: "CommentDisplayMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает режим отображения комментариев к документу в Java."
 type: docs
-weight: 78
+weight: 110
 url: /ru/java/com.aspose.words/commentdisplaymode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CommentDisplayMode
 ```
 
-Задает режим отображения комментариев к документу.
+Указывает режим отображения комментариев документа.
+
+ **Examples:** 
+
+Показывает, как отображать комментарии при сохранении документа в отрисованный формат.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Hello world!");
+
+ Comment comment = new Comment(doc, "John Doe", "J.D.", new Date());
+ comment.setText("My comment.");
+ builder.getCurrentParagraph().appendChild(comment);
+
+ // ShowInAnnotations is only available in Pdf1.7 and Pdf1.5 formats.
+ // In other formats, it will work similarly to Hide.
+ doc.getLayoutOptions().setCommentDisplayMode(CommentDisplayMode.SHOW_IN_ANNOTATIONS);
+
+ doc.save(getArtifactsDir() + "Document.ShowCommentsInAnnotations.pdf");
+
+ // Note that it's required to rebuild the document page layout (via Document.UpdatePageLayout() method)
+ // after changing the Document.LayoutOptions values.
+ doc.getLayoutOptions().setCommentDisplayMode(CommentDisplayMode.SHOW_IN_BALLOONS);
+ doc.updatePageLayout();
+
+ doc.save(getArtifactsDir() + "Document.ShowCommentsInBalloons.pdf");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [HIDE](#HIDE) | Комментарии к документу не отображаются. |
-| [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | Отображает комментарии к документу в аннотациях. |
-| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | Отображает комментарии к документу во всплывающих подсказках на полях. |
+| [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | Отображает комментарии к документу в виде аннотаций. |
+| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | Отображает комментарии к документу в виде баллонов на полях. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String commentDisplayModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int commentDisplayMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int commentDisplayMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String commentDisplayModeName)](#fromName-java.lang.String) |  |
+| [getName(int commentDisplayMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int commentDisplayMode)](#toString-int) |  |
 ### HIDE {#HIDE}
 ```
 public static int HIDE
@@ -53,7 +75,7 @@ public static int SHOW_IN_ANNOTATIONS
 ```
 
 
-Отображает комментарии к документу в аннотациях. Это доступно только для формата Pdf.
+Отображает комментарии к документу в виде аннотаций. Это доступно только для формата Pdf.
 
 ### SHOW_IN_BALLOONS {#SHOW-IN-BALLOONS}
 ```
@@ -61,7 +83,7 @@ public static int SHOW_IN_BALLOONS
 ```
 
 
-Отображает комментарии к документу во всплывающих подсказках на полях. Это значение по умолчанию.
+Отображает комментарии к документу в виде баллонов на полях. Это значение по умолчанию.
 
 ### length {#length}
 ```
@@ -69,23 +91,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String commentDisplayModeName) {#fromName-java.lang.String-}
+### fromName(String commentDisplayModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String commentDisplayModeName)
 ```
@@ -93,25 +99,14 @@ public static int fromName(String commentDisplayModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | commentDisplayModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int commentDisplayMode) {#getName-int-}
+**Returns:**
+int
+### getName(int commentDisplayMode) {#getName-int}
 ```
 public static String getName(int commentDisplayMode)
 ```
@@ -119,15 +114,14 @@ public static String getName(int commentDisplayMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +129,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int commentDisplayMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int commentDisplayMode) {#toString-int}
 ```
 public static String toString(int commentDisplayMode)
 ```
@@ -181,47 +139,10 @@ public static String toString(int commentDisplayMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

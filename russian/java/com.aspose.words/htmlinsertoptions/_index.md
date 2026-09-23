@@ -1,48 +1,57 @@
 ---
-title: HtmlInsertOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Задает параметры для метода MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions.
+title: "HtmlInsertOptions"
+linktitle: "HtmlInsertOptions"
+second_title: "Aspose.Words для Java"
+description: "Указывает параметры для метода MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions в Java."
 type: docs
-weight: 327
+weight: 381
 url: /ru/java/com.aspose.words/htmlinsertoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlInsertOptions
 ```
 
- Задает параметры для**M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** метод.
+Указывает параметры для метода **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)**.
+
+ **Examples:** 
+
+Показывает, как лучше сохранять видимые границы и отступы.
+
+```
+
+ final String HTML = "\n                \n                    \n                    \n                        paragraph 1\n                        paragraph 2\n                    \n                    \n                ";
+
+ // Set the new mode of import HTML block-level elements.
+ int insertOptions = HtmlInsertOptions.PRESERVE_BLOCKS;
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.insertHtml(HTML, insertOptions);
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.PreserveBlocks.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [NONE](#NONE) | Используйте параметры по умолчанию при вставке HTML. |
-| [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | Сохранять свойства элементов блочного уровня. |
-| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Удалите пустой абзац, который обычно вставляется после HTML, заканчивающегося элементом уровня блока. |
-| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) |  Используйте форматирование шрифта и абзаца, указанное в[DocumentBuilder](../../com.aspose.words/documentbuilder) в качестве базового форматирования для текста, вставленного из HTML. |
+| [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | Сохранять свойства блочных элементов. |
+| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Удалить пустой абзац, который обычно вставляется после HTML, заканчивающегося блочным элементом. |
+| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Используйте шрифтовое и абзацное форматирование, указанное в [DocumentBuilder](../../com.aspose.words/documentbuilder/), в качестве базового форматирования для текста, вставляемого из HTML. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlInsertOptions)](#getName-int-) |  |
-| [getNames(int htmlInsertOptions)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlInsertOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String) |  |
+| [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set) |  |
+| [getName(int htmlInsertOptions)](#getName-int) |  |
+| [getNames(int htmlInsertOptions)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlInsertOptions)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
@@ -57,13 +66,15 @@ public static int PRESERVE_BLOCKS
 ```
 
 
-Сохранять свойства элементов блочного уровня.
+Сохранять свойства блочных элементов.
 
-По умолчанию свойства родительских блоков объединяются и сохраняются в их дочерних элементах (например, в абзацах или таблицах). Если указана эта опция, свойства каждого блока хранятся отдельно в специальной логической структуре. В результате этот параметр позволяет лучше сохранить отдельные границы и поля, видимые в HTML-документе, и получить лучшие результаты преобразования. Недостатком является то, что результирующий документ становится сложнее модифицировать, так как границы и поля, хранящиеся в логической структуре, недоступны для редактирования.
+ **Remarks:** 
 
-Сохраняются только поля и границы HTML-элементов body, div и blockquote. Свойства каждого элемента HTML хранятся отдельно.
+По умолчанию свойства родительских блоков объединяются и сохраняются в их дочерних элементах (т. е. абзацах или таблицах). Если эта опция указана, свойства каждого блока сохраняются отдельно в специальной логической структуре. В результате эта опция позволяет лучше сохранять отдельные границы и отступы, видимые в HTML‑документе, и получать более качественные результаты конвертации. Недостаток заключается в том, что полученный документ становится сложнее изменять, поскольку границы и отступы, хранящиеся в логической структуре, недоступны для редактирования.
 
-Если указан этот параметр, Aspose.Words имитирует поведение MS Word в отношении импорта свойств блока.
+Сохраняются только отступы и границы HTML‑элементов 'body', 'div' и 'blockquote'. Свойства каждого HTML‑элемента сохраняются отдельно.
+
+Если эта опция указана, Aspose.Words имитирует поведение MS Word при импорте свойств блоков.
 
 ### REMOVE_LAST_EMPTY_PARAGRAPH {#REMOVE-LAST-EMPTY-PARAGRAPH}
 ```
@@ -71,7 +82,11 @@ public static int REMOVE_LAST_EMPTY_PARAGRAPH
 ```
 
 
- Удалите пустой абзац, который обычно вставляется после HTML, заканчивающегося элементом уровня блока. По умолчанию,[DocumentBuilder](../../com.aspose.words/documentbuilder)гарантирует, что последний элемент уровня блока, импортированный из HTML, будет закрыт после импорта, и вставит разрыв абзаца после элемента. Этот разрыв абзаца отделяет содержимое, импортированное из HTML, от содержимого шаблона документа. Однако, если фрагмент HTML вставлен в пустой абзац, этот разрыв абзаца создаст дополнительный пустой абзац. Если такое поведение нежелательно, укажите этот параметр.
+Удалить пустой абзац, который обычно вставляется после HTML, заканчивающегося блочным элементом.
+
+ **Remarks:** 
+
+По умолчанию [DocumentBuilder](../../com.aspose.words/documentbuilder/) гарантирует, что последний блочный элемент, импортированный из HTML, закрывается после импорта и вставляет разрыв абзаца после элемента. Этот разрыв абзаца отделяет содержимое, импортированное из HTML, от содержимого шаблонного документа. Однако если фрагмент HTML вставляется в пустой абзац, этот разрыв абзаца создаст дополнительный пустой абзац. Если такое поведение нежелательно, укажите эту опцию.
 
 ### USE_BUILDER_FORMATTING {#USE-BUILDER-FORMATTING}
 ```
@@ -79,11 +94,13 @@ public static int USE_BUILDER_FORMATTING
 ```
 
 
- Используйте форматирование шрифта и абзаца, указанное в[DocumentBuilder](../../com.aspose.words/documentbuilder) в качестве базового форматирования для текста, вставленного из HTML.
+Используйте шрифтовое и абзацное форматирование, указанное в [DocumentBuilder](../../com.aspose.words/documentbuilder/), в качестве базового форматирования для текста, вставляемого из HTML.
 
- Если этот параметр не указан, форматирование[DocumentBuilder](../../com.aspose.words/documentbuilder) игнорируется, и текст вставляется с форматированием HTML по умолчанию. В результате текст выглядит так, как он отображается в браузерах.
+ **Remarks:** 
 
- Если указан этот параметр, форматирование вставляемого текста основано на форматировании, указанном в[DocumentBuilder](../../com.aspose.words/documentbuilder) , и текст выглядит так, как будто он был вставлен с помощью[DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
+Если эта опция не указана, форматирование [DocumentBuilder](../../com.aspose.words/documentbuilder/) игнорируется, и текст вставляется с форматированием HTML по умолчанию. В результате текст выглядит так, как он отображается в браузерах.
+
+Если эта опция указана, форматирование вставляемого текста основывается на форматировании, указанном в [DocumentBuilder](../../com.aspose.words/documentbuilder/), и текст выглядит так, как будто он был вставлен с помощью [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder/\\#write-java.lang.String).
 
 ### length {#length}
 ```
@@ -91,23 +108,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String-}
+### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlInsertOptionsName)
 ```
@@ -115,15 +116,14 @@ public static int fromName(String htmlInsertOptionsName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlInsertOptionsName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set htmlInsertOptionsNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set htmlInsertOptionsNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set htmlInsertOptionsNames)
 ```
@@ -131,25 +131,14 @@ public static int fromNames(Set htmlInsertOptionsNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlInsertOptionsNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlInsertOptions) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlInsertOptions) {#getName-int}
 ```
 public static String getName(int htmlInsertOptions)
 ```
@@ -157,15 +146,14 @@ public static String getName(int htmlInsertOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int htmlInsertOptions) {#getNames-int-}
+### getNames(int htmlInsertOptions) {#getNames-int}
 ```
 public static Set getNames(int htmlInsertOptions)
 ```
@@ -173,15 +161,14 @@ public static Set getNames(int htmlInsertOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -189,45 +176,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlInsertOptions) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlInsertOptions) {#toString-int}
 ```
 public static String toString(int htmlInsertOptions)
 ```
@@ -235,15 +186,14 @@ public static String toString(int htmlInsertOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -251,47 +201,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

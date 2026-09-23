@@ -1,13 +1,14 @@
 ---
-title: MailMergeDataType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип внешнего источника данных слияния почты.
+title: "MailMergeDataType"
+linktitle: "MailMergeDataType"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип внешнего источника данных слияния почты в Java."
 type: docs
-weight: 382
+weight: 440
 url: /ru/java/com.aspose.words/mailmergedatatype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MailMergeDataType
@@ -18,39 +19,30 @@ public class MailMergeDataType
 
 | Поле | Описание |
 | --- | --- |
-| [DATABASE](#DATABASE) | Указывает, что данный документ был подключен к базе данных Access через систему динамического обмена данными (DDE). |
-| [DEFAULT](#DEFAULT) |  Равно[NONE](../../com.aspose.words/mailmergedatatype\#NONE). |
-| [NATIVE](#NATIVE) | Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс объекта источника данных Office (ODSO). |
-| [NONE](#NONE) | Источник данных слияния не указан. |
-| [ODBC](#ODBC) | Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс Open Database Connectivity. |
-| [QUERY](#QUERY) | Указывает, что данный документ был подключен к внешнему источнику данных с помощью внешнего инструмента запросов. |
-| [SPREADSHEET](#SPREADSHEET) | Указывает, что данный документ был подключен к электронной таблице Excel через систему динамического обмена данными (DDE). |
-| [TEXT_FILE](#TEXT-FILE) | Указывает, что данный документ был подключен к текстовому файлу через систему динамического обмена данными (DDE). |
+| [DATABASE](#DATABASE) | Указывает, что данный документ был подключён к базе данных Access через систему Dynamic Data Exchange (DDE). |
+| [DEFAULT](#DEFAULT) | Равен [NONE](../../com.aspose.words/mailmergedatatype/\#NONE). |
+| [NATIVE](#NATIVE) | Указывает, что данный документ был подключён к внешнему источнику данных через интерфейс Office Data Source Object (ODSO). |
+| [NONE](#NONE) | Источник данных слияния почты не указан. |
+| [ODBC](#ODBC) | Указывает, что данный документ был подключён к внешнему источнику данных через интерфейс Open Database Connectivity. |
+| [QUERY](#QUERY) | Указывает, что данный документ был подключён к внешнему источнику данных с помощью внешнего инструмента запросов. |
+| [SPREADSHEET](#SPREADSHEET) | Указывает, что данный документ был подключён к таблице Excel через систему Dynamic Data Exchange (DDE). |
+| [TEXT_FILE](#TEXT-FILE) | Указывает, что данный документ был подключён к текстовому файлу через систему Dynamic Data Exchange (DDE). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mailMergeDataTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int mailMergeDataType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int mailMergeDataType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String mailMergeDataTypeName)](#fromName-java.lang.String) |  |
+| [getName(int mailMergeDataType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int mailMergeDataType)](#toString-int) |  |
 ### DATABASE {#DATABASE}
 ```
 public static int DATABASE
 ```
 
 
-Указывает, что данный документ был подключен к базе данных Access через систему динамического обмена данными (DDE).
+Указывает, что данный документ был подключён к базе данных Access через систему Dynamic Data Exchange (DDE).
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -58,7 +50,7 @@ public static int DEFAULT
 ```
 
 
- Равно[NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+Равен [NONE](../../com.aspose.words/mailmergedatatype/\#NONE).
 
 ### NATIVE {#NATIVE}
 ```
@@ -66,7 +58,7 @@ public static int NATIVE
 ```
 
 
-Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс объекта источника данных Office (ODSO).
+Указывает, что данный документ был подключён к внешнему источнику данных через интерфейс Office Data Source Object (ODSO).
 
 ### NONE {#NONE}
 ```
@@ -74,7 +66,7 @@ public static int NONE
 ```
 
 
-Источник данных слияния не указан.
+Источник данных слияния почты не указан.
 
 ### ODBC {#ODBC}
 ```
@@ -82,7 +74,7 @@ public static int ODBC
 ```
 
 
-Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс Open Database Connectivity.
+Указывает, что данный документ был подключён к внешнему источнику данных через интерфейс Open Database Connectivity.
 
 ### QUERY {#QUERY}
 ```
@@ -90,7 +82,7 @@ public static int QUERY
 ```
 
 
-Указывает, что данный документ был подключен к внешнему источнику данных с помощью внешнего инструмента запросов.
+Указывает, что данный документ был подключён к внешнему источнику данных с помощью внешнего инструмента запросов.
 
 ### SPREADSHEET {#SPREADSHEET}
 ```
@@ -98,7 +90,7 @@ public static int SPREADSHEET
 ```
 
 
-Указывает, что данный документ был подключен к электронной таблице Excel через систему динамического обмена данными (DDE).
+Указывает, что данный документ был подключён к таблице Excel через систему Dynamic Data Exchange (DDE).
 
 ### TEXT_FILE {#TEXT-FILE}
 ```
@@ -106,7 +98,7 @@ public static int TEXT_FILE
 ```
 
 
-Указывает, что данный документ был подключен к текстовому файлу через систему динамического обмена данными (DDE).
+Указывает, что данный документ был подключён к текстовому файлу через систему Dynamic Data Exchange (DDE).
 
 ### length {#length}
 ```
@@ -114,23 +106,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String mailMergeDataTypeName) {#fromName-java.lang.String-}
+### fromName(String mailMergeDataTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String mailMergeDataTypeName)
 ```
@@ -138,25 +114,14 @@ public static int fromName(String mailMergeDataTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mailMergeDataTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int mailMergeDataType) {#getName-int-}
+**Returns:**
+int
+### getName(int mailMergeDataType) {#getName-int}
 ```
 public static String getName(int mailMergeDataType)
 ```
@@ -164,15 +129,14 @@ public static String getName(int mailMergeDataType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mailMergeDataType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -180,45 +144,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int mailMergeDataType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int mailMergeDataType) {#toString-int}
 ```
 public static String toString(int mailMergeDataType)
 ```
@@ -226,47 +154,10 @@ public static String toString(int mailMergeDataType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mailMergeDataType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,51 +1,59 @@
 ---
-title: PreferredWidthType
-second_title: Справочник по API Aspose.Words для Java
-description: Задает единицу измерения предпочтительной ширины таблицы или ячейки.
+title: "PreferredWidthType"
+linktitle: "PreferredWidthType"
+second_title: "Aspose.Words для Java"
+description: "Указывает единицу измерения предпочтительной ширины таблицы или ячейки в Java."
 type: docs
-weight: 467
+weight: 551
 url: /ru/java/com.aspose.words/preferredwidthtype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PreferredWidthType
 ```
 
-Задает единицу измерения предпочтительной ширины таблицы или ячейки.
+Указывает единицу измерения предпочтительной ширины таблицы или ячейки.
+
+ **Examples:** 
+
+Показывает, как проверить тип и значение предпочтительной ширины ячейки таблицы.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+ Cell firstCell = table.getFirstRow().getFirstCell();
+
+ Assert.assertEquals(PreferredWidthType.PERCENT, firstCell.getCellFormat().getPreferredWidth().getType());
+ Assert.assertEquals(11.16d, firstCell.getCellFormat().getPreferredWidth().getValue());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [AUTO](#AUTO) | Предпочтительная ширина не указана. |
-| [PERCENT](#PERCENT) | Измерьте ширину текущего элемента, используя указанный процент. |
-| [POINTS](#POINTS) | Измерьте ширину текущего элемента, используя указанное количество точек (1/72 дюйма). |
+| [PERCENT](#PERCENT) | Измерьте текущую ширину элемента, используя указанный процент. |
+| [POINTS](#POINTS) | Измерьте текущую ширину элемента, используя указанное количество пунктов (1/72 дюйма). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String preferredWidthTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int preferredWidthType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int preferredWidthType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String preferredWidthTypeName)](#fromName-java.lang.String) |  |
+| [getName(int preferredWidthType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int preferredWidthType)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
 ```
 
 
-Предпочтительная ширина не указана. Фактическая ширина таблицы или ячейки либо указывается явной шириной, либо определяется автоматически алгоритмом компоновки таблицы при отображении таблицы, в зависимости от настройки автоподбора таблицы.
+Предпочтительная ширина не указана. Фактическая ширина таблицы или ячейки либо задаётся явно, либо будет определена автоматически алгоритмом компоновки таблицы при отображении, в зависимости от настройки автоматической подгонки таблицы.
 
 ### PERCENT {#PERCENT}
 ```
@@ -53,7 +61,7 @@ public static int PERCENT
 ```
 
 
-Измерьте ширину текущего элемента, используя указанный процент.
+Измерьте текущую ширину элемента, используя указанный процент.
 
 ### POINTS {#POINTS}
 ```
@@ -61,7 +69,7 @@ public static int POINTS
 ```
 
 
-Измерьте ширину текущего элемента, используя указанное количество точек (1/72 дюйма).
+Измерьте текущую ширину элемента, используя указанное количество пунктов (1/72 дюйма).
 
 ### length {#length}
 ```
@@ -69,23 +77,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String preferredWidthTypeName) {#fromName-java.lang.String-}
+### fromName(String preferredWidthTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String preferredWidthTypeName)
 ```
@@ -93,25 +85,14 @@ public static int fromName(String preferredWidthTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | preferredWidthTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int preferredWidthType) {#getName-int-}
+**Returns:**
+int
+### getName(int preferredWidthType) {#getName-int}
 ```
 public static String getName(int preferredWidthType)
 ```
@@ -119,15 +100,14 @@ public static String getName(int preferredWidthType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | preferredWidthType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +115,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int preferredWidthType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int preferredWidthType) {#toString-int}
 ```
 public static String toString(int preferredWidthType)
 ```
@@ -181,47 +125,10 @@ public static String toString(int preferredWidthType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | preferredWidthType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

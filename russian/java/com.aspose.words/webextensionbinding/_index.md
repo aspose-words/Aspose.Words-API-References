@@ -1,46 +1,41 @@
 ---
-title: WebExtensionBinding
-second_title: Справочник по API Aspose.Words для Java
-description: Задает отношение привязки между веб-расширением и данными в документе.
+title: "WebExtensionBinding"
+linktitle: "WebExtensionBinding"
+second_title: "Aspose.Words для Java"
+description: "Указывает связь привязки между веб‑расширением и данными в документе в Java."
 type: docs
-weight: 612
+weight: 727
 url: /ru/java/com.aspose.words/webextensionbinding/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WebExtensionBinding
 ```
 
-Задает отношение привязки между веб-расширением и данными в документе.
+Указывает связь привязки между веб‑расширением и данными в документе.
 
- Чтобы узнать больше, посетите**Work with Office Add-ins** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Office Add-ins ][Work with Office Add-ins].
+
+
+[Work with Office Add-ins]: https://docs.aspose.com/words/java/work-with-office-add-ins/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [WebExtensionBinding(String id, int bindingType, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | Инициализирует новый экземпляр этого класса. |
+| [WebExtensionBinding(String id, int bindingType, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppRef()](#getAppRef--) | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке со связанными данными в документе. |
-| [getBindingType()](#getBindingType--) | Задает тип привязки. |
-| [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Задает идентификатор привязки. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAppRef(String value)](#setAppRef-java.lang.String-) | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке со связанными данными в документе. |
-| [setBindingType(int value)](#setBindingType-int-) | Задает тип привязки. |
-| [setId(String value)](#setId-java.lang.String-) | Задает идентификатор привязки. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionBinding(String id, int bindingType, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
+| [getAppRef()](#getAppRef) | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе. |
+| [getBindingType()](#getBindingType) | Указывает тип привязки. |
+| [getId()](#getId) | Указывает идентификатор привязки. |
+| [setAppRef(String value)](#setAppRef-java.lang.String) | Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе. |
+| [setBindingType(int value)](#setBindingType-int) | Указывает тип привязки. |
+| [setId(String value)](#setId-java.lang.String) | Указывает идентификатор привязки. |
+### WebExtensionBinding(String id, int bindingType, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String}
 ```
 public WebExtensionBinding(String id, int bindingType, String appRef)
 ```
@@ -48,181 +43,505 @@ public WebExtensionBinding(String id, int bindingType, String appRef)
 
 Инициализирует новый экземпляр этого класса.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | id | java.lang.String |  |
 | bindingType | int |  |
 | appRef | java.lang.String |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAppRef() {#getAppRef--}
+### getAppRef() {#getAppRef}
 ```
 public String getAppRef()
 ```
 
 
-Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке со связанными данными в документе.
+Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getBindingType() {#getBindingType--}
+ **Examples:** 
+
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getBindingType() {#getBindingType}
 ```
 public int getBindingType()
 ```
 
 
-Задает тип привязки.
+Указывает тип привязки.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) константы.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как добавить веб‑расширение в документ.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getId() {#getId--}
+**Returns:**
+int - Соответствующее значение типа int. Возвращаемое значение является одной из констант [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype/).
+### getId() {#getId}
 ```
 public String getId()
 ```
 
 
-Задает идентификатор привязки.
+Указывает идентификатор привязки.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как добавить веб‑расширение в документ.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
 
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
 
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
 
-### notifyAll() {#notifyAll--}
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setAppRef(String value) {#setAppRef-java.lang.String-}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### setAppRef(String value) {#setAppRef-java.lang.String}
 ```
 public void setAppRef(String value)
 ```
 
 
-Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке со связанными данными в документе.
+Указывает ключ привязки, используемый для сопоставления записи привязки в этом списке с привязанными данными в документе.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setBindingType(int value) {#setBindingType-int-}
+### setBindingType(int value) {#setBindingType-int}
 ```
 public void setBindingType(int value)
 ```
 
 
-Задает тип привязки.
+Указывает тип привязки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) константы. |
+| value | int | Соответствующее значение типа int. Значение должно быть одной из констант [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype/). |
 
-### setId(String value) {#setId-java.lang.String-}
+### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
 ```
 
 
-Задает идентификатор привязки.
+Указывает идентификатор привязки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

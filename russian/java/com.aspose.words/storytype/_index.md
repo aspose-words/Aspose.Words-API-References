@@ -1,66 +1,81 @@
 ---
-title: StoryType
-second_title: Справочник по API Aspose.Words для Java
-description: Текст документа Word хранится в историях.
+title: "StoryType"
+linktitle: "StoryType"
+second_title: "Aspose.Words для Java"
+description: "Текст документа Word хранится в историях в Java."
 type: docs
-weight: 529
+weight: 634
 url: /ru/java/com.aspose.words/storytype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class StoryType
 ```
 
- Текст документа Word хранится в историях.**StoryType**идентифицирует историю.
+Текст документа Word хранится в историях. [StoryType](../../com.aspose.words/storytype/) идентифицирует историю.
+
+ **Examples:** 
+
+Показывает, как удалить все фигуры из узла.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a DocumentBuilder to insert a shape. This is an inline shape,
+ // which has a parent Paragraph, which is a child node of the first section's Body.
+ builder.insertShape(ShapeType.CUBE, 100.0, 100.0);
+
+ Assert.assertEquals(doc.getChildNodes(NodeType.SHAPE, true).getCount(), 1);
+
+ // We can delete all shapes from the child paragraphs of this Body.
+ Assert.assertEquals(doc.getFirstSection().getBody().getStoryType(), StoryType.MAIN_TEXT);
+ doc.getFirstSection().getBody().deleteShapes();
+
+ Assert.assertEquals(doc.getChildNodes(NodeType.SHAPE, true).getCount(), 0);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [COMMENTS](#COMMENTS) |  Содержит комментарии к документу (аннотации), представленные[Comment](../../com.aspose.words/comment). |
-| [ENDNOTES](#ENDNOTES) |  Содержит текст концевых сносок, представленный[Footnote](../../com.aspose.words/footnote). |
-| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) |  Содержит текст разделителя уведомлений о продолжении концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) |  Содержит текст разделителя продолжения концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) |  Содержит текст разделителя концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) |  Содержит текст нижнего колонтитула четных страниц, представленный[HeaderFooter](../../com.aspose.words/headerfooter). |
-| [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) |  Содержит текст заголовка четных страниц, представленный[HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) |  Содержит текст нижнего колонтитула первой страницы, представленный[HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) |  Содержит текст заголовка первой страницы, представленный[HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FOOTNOTES](#FOOTNOTES) |  Содержит текст сноски, представленный[Footnote](../../com.aspose.words/footnote). |
-| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) |  Содержит текст разделителя уведомлений о продолжении сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) |  Содержит текст разделителя продолжения сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) |  Содержит текст разделителя сносок, представленный**T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [MAIN_TEXT](#MAIN-TEXT) |  Содержит основной текст документа, представленный[Body](../../com.aspose.words/body). |
+| [COMMENTS](#COMMENTS) | Содержит комментарии документа (аннотации), представленные объектом [Comment](../../com.aspose.words/comment/). |
+| [ENDNOTES](#ENDNOTES) | Содержит текст сносок, представленный объектом [Footnote](../../com.aspose.words/footnote/). |
+| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | Содержит текст разделителя уведомления о продолжении сноски. |
+| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | Содержит текст разделителя продолжения сноски. |
+| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | Содержит текст разделителя сносок. |
+| [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) | Содержит текст нижнего колонтитула чётных страниц, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/). |
+| [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) | Содержит текст верхнего колонтитула чётных страниц, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/). |
+| [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) | Содержит текст нижнего колонтитула первой страницы, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/). |
+| [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) | Содержит текст верхнего колонтитула первой страницы, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/). |
+| [FOOTNOTES](#FOOTNOTES) | Содержит текст сноски, представленного объектом [Footnote](../../com.aspose.words/footnote/). |
+| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | Содержит текст разделителя уведомления о продолжении сноски. |
+| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | Содержит текст разделителя продолжения сноски. |
+| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | Содержит текст разделителя сноски. |
+| [MAIN_TEXT](#MAIN-TEXT) | Содержит основной текст документа, представленного объектом [Body](../../com.aspose.words/body/). |
 | [NONE](#NONE) | Значение по умолчанию. |
 | [PRIMARY_FOOTER](#PRIMARY-FOOTER) | Содержит текст основного нижнего колонтитула. |
-| [PRIMARY_HEADER](#PRIMARY-HEADER) | Содержит текст основного заголовка. |
-| [TEXTBOX](#TEXTBOX) |  Содержит текст фигуры или текстового поля, представленный[Shape](../../com.aspose.words/shape). |
+| [PRIMARY_HEADER](#PRIMARY-HEADER) | Содержит текст основного верхнего колонтитула. |
+| [TEXTBOX](#TEXTBOX) | Содержит текст фигуры или текстового поля, представленного объектом [Shape](../../com.aspose.words/shape/). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String storyTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int storyType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int storyType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String storyTypeName)](#fromName-java.lang.String) |  |
+| [getName(int storyType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int storyType)](#toString-int) |  |
 ### COMMENTS {#COMMENTS}
 ```
 public static int COMMENTS
 ```
 
 
- Содержит комментарии к документу (аннотации), представленные[Comment](../../com.aspose.words/comment).
+Содержит комментарии документа (аннотации), представленные объектом [Comment](../../com.aspose.words/comment/).
 
 ### ENDNOTES {#ENDNOTES}
 ```
@@ -68,7 +83,7 @@ public static int ENDNOTES
 ```
 
 
- Содержит текст концевых сносок, представленный[Footnote](../../com.aspose.words/footnote).
+Содержит текст сносок, представленный объектом [Footnote](../../com.aspose.words/footnote/).
 
 ### ENDNOTE_CONTINUATION_NOTICE {#ENDNOTE-CONTINUATION-NOTICE}
 ```
@@ -76,7 +91,7 @@ public static int ENDNOTE_CONTINUATION_NOTICE
 ```
 
 
- Содержит текст разделителя уведомлений о продолжении концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя уведомления о продолжении сноски.
 
 ### ENDNOTE_CONTINUATION_SEPARATOR {#ENDNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -84,7 +99,7 @@ public static int ENDNOTE_CONTINUATION_SEPARATOR
 ```
 
 
- Содержит текст разделителя продолжения концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя продолжения сноски.
 
 ### ENDNOTE_SEPARATOR {#ENDNOTE-SEPARATOR}
 ```
@@ -92,7 +107,7 @@ public static int ENDNOTE_SEPARATOR
 ```
 
 
- Содержит текст разделителя концевой сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя сносок.
 
 ### EVEN_PAGES_FOOTER {#EVEN-PAGES-FOOTER}
 ```
@@ -100,7 +115,7 @@ public static int EVEN_PAGES_FOOTER
 ```
 
 
- Содержит текст нижнего колонтитула четных страниц, представленный[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст нижнего колонтитула чётных страниц, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### EVEN_PAGES_HEADER {#EVEN-PAGES-HEADER}
 ```
@@ -108,7 +123,7 @@ public static int EVEN_PAGES_HEADER
 ```
 
 
- Содержит текст заголовка четных страниц, представленный[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст верхнего колонтитула чётных страниц, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### FIRST_PAGE_FOOTER {#FIRST-PAGE-FOOTER}
 ```
@@ -116,7 +131,7 @@ public static int FIRST_PAGE_FOOTER
 ```
 
 
- Содержит текст нижнего колонтитула первой страницы, представленный[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст нижнего колонтитула первой страницы, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### FIRST_PAGE_HEADER {#FIRST-PAGE-HEADER}
 ```
@@ -124,7 +139,7 @@ public static int FIRST_PAGE_HEADER
 ```
 
 
- Содержит текст заголовка первой страницы, представленный[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст верхнего колонтитула первой страницы, представленного объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### FOOTNOTES {#FOOTNOTES}
 ```
@@ -132,7 +147,7 @@ public static int FOOTNOTES
 ```
 
 
- Содержит текст сноски, представленный[Footnote](../../com.aspose.words/footnote).
+Содержит текст сноски, представленного объектом [Footnote](../../com.aspose.words/footnote/).
 
 ### FOOTNOTE_CONTINUATION_NOTICE {#FOOTNOTE-CONTINUATION-NOTICE}
 ```
@@ -140,7 +155,7 @@ public static int FOOTNOTE_CONTINUATION_NOTICE
 ```
 
 
- Содержит текст разделителя уведомлений о продолжении сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя уведомления о продолжении сноски.
 
 ### FOOTNOTE_CONTINUATION_SEPARATOR {#FOOTNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -148,7 +163,7 @@ public static int FOOTNOTE_CONTINUATION_SEPARATOR
 ```
 
 
- Содержит текст разделителя продолжения сноски, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя продолжения сноски.
 
 ### FOOTNOTE_SEPARATOR {#FOOTNOTE-SEPARATOR}
 ```
@@ -156,7 +171,7 @@ public static int FOOTNOTE_SEPARATOR
 ```
 
 
- Содержит текст разделителя сносок, представленный**T:Aspose.Words.Notes.FootnoteSeparator**.
+Содержит текст разделителя сноски.
 
 ### MAIN_TEXT {#MAIN-TEXT}
 ```
@@ -164,7 +179,7 @@ public static int MAIN_TEXT
 ```
 
 
- Содержит основной текст документа, представленный[Body](../../com.aspose.words/body).
+Содержит основной текст документа, представленного объектом [Body](../../com.aspose.words/body/).
 
 ### NONE {#NONE}
 ```
@@ -172,7 +187,7 @@ public static int NONE
 ```
 
 
-Значение по умолчанию. В документе такой истории нет.
+Значение по умолчанию. В документе нет такой истории.
 
 ### PRIMARY_FOOTER {#PRIMARY-FOOTER}
 ```
@@ -180,7 +195,7 @@ public static int PRIMARY_FOOTER
 ```
 
 
- Содержит текст основного нижнего колонтитула. Когда нижний колонтитул отличается для нечетных и четных страниц, содержит текст нижнего колонтитула нечетных страниц. Представлена[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст основного нижнего колонтитула. Когда нижний колонтитул отличается для нечётных и чётных страниц, содержит текст нижнего колонтитула нечётных страниц. Представлен объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### PRIMARY_HEADER {#PRIMARY-HEADER}
 ```
@@ -188,7 +203,7 @@ public static int PRIMARY_HEADER
 ```
 
 
- Содержит текст основного заголовка. Когда заголовок отличается для нечетных и четных страниц, содержит текст заголовка нечетных страниц. Представлена[HeaderFooter](../../com.aspose.words/headerfooter).
+Содержит текст основного верхнего колонтитула. Когда верхний колонтитул отличается для нечётных и чётных страниц, содержит текст верхнего колонтитула нечётных страниц. Представлен объектом [HeaderFooter](../../com.aspose.words/headerfooter/).
 
 ### TEXTBOX {#TEXTBOX}
 ```
@@ -196,7 +211,7 @@ public static int TEXTBOX
 ```
 
 
- Содержит текст фигуры или текстового поля, представленный[Shape](../../com.aspose.words/shape).
+Содержит текст фигуры или текстового поля, представленного объектом [Shape](../../com.aspose.words/shape/).
 
 ### length {#length}
 ```
@@ -204,23 +219,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String storyTypeName) {#fromName-java.lang.String-}
+### fromName(String storyTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String storyTypeName)
 ```
@@ -228,25 +227,14 @@ public static int fromName(String storyTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | storyTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int storyType) {#getName-int-}
+**Returns:**
+int
+### getName(int storyType) {#getName-int}
 ```
 public static String getName(int storyType)
 ```
@@ -254,15 +242,14 @@ public static String getName(int storyType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | storyType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -270,45 +257,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int storyType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int storyType) {#toString-int}
 ```
 public static String toString(int storyType)
 ```
@@ -316,47 +267,10 @@ public static String toString(int storyType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | storyType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,249 +1,144 @@
 ---
-title: OdsoRecipientData
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет информацию об одной записи во внешнем источнике данных, которая должна быть исключена из слияния.
+title: "OdsoRecipientData"
+linktitle: "OdsoRecipientData"
+second_title: "Aspose.Words для Java"
+description: "Представляет информацию об отдельной записи во внешнем источнике данных, которая должна быть исключена из слияния почты в Java."
 type: docs
-weight: 416
+weight: 492
 url: /ru/java/com.aspose.words/odsorecipientdata/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class OdsoRecipientData implements Cloneable
 ```
 
-Представляет информацию об одной записи во внешнем источнике данных, которая должна быть исключена из слияния.
+Представляет информацию о отдельной записи во внешнем источнике данных, которая должна быть исключена из слияния писем.
 
- Чтобы узнать больше, посетите**Mail Merge and Reporting** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Mail Merge and Reporting ][Mail Merge and Reporting].
 
- Если запись должна быть объединена в объединенный документ, то никакой информации об этой записи не требуется. Однако, если данная запись не должна быть объединена в объединенный документ, то значение уникального ключа для этой записи должно храниться в[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) свойство этого объекта, чтобы указать это исключение.
+ **Remarks:** 
+
+Если запись должна быть объединена в объединённый документ, то информация об этой записи не требуется. Однако, если данная запись не должна быть объединена в объединённый документ, то значение уникального ключа для этой записи должно быть сохранено в свойстве [getUniqueTag()](../../com.aspose.words/odsorecipientdata/#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/#setUniqueTag-byte) этого объекта, чтобы указать это исключение.
+
+
+[Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) | Возвращает глубокий клон этого объекта. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActive()](#getActive--) | Указывает, должна ли запись из источника данных импортироваться в документ при выполнении слияния. |
-| [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. |
-| [getHash()](#getHash--) | Представляет хэш-код для этой записи. |
-| [getUniqueTag()](#getUniqueTag--) | Указывает содержимое данной записи в столбце, содержащем уникальные данные. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setActive(boolean value)](#setActive-boolean-) | Указывает, должна ли запись из источника данных импортироваться в документ при выполнении слияния. |
-| [setColumn(int value)](#setColumn-int-) | Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. |
-| [setHash(int value)](#setHash-int-) | Представляет хэш-код для этой записи. |
-| [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | Указывает содержимое данной записи в столбце, содержащем уникальные данные. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### deepClone() {#deepClone--}
+| [deepClone()](#deepClone) | Возвращает глубокую копию этого объекта. |
+| [getActive()](#getActive) | Указывает, должна ли запись из источника данных быть импортирована в документ при выполнении слияния почты. |
+| [getColumn()](#getColumn) | Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. |
+| [getHash()](#getHash) | Представляет хеш‑код этой записи. |
+| [getUniqueTag()](#getUniqueTag) | Указывает содержимое данной записи в столбце, содержащем уникальные данные. |
+| [setActive(boolean value)](#setActive-boolean) | Указывает, должна ли запись из источника данных быть импортирована в документ при выполнении слияния почты. |
+| [setColumn(int value)](#setColumn-int) | Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. |
+| [setHash(int value)](#setHash-int) | Представляет хеш‑код этой записи. |
+| [setUniqueTag(byte[] value)](#setUniqueTag-byte) | Указывает содержимое данной записи в столбце, содержащем уникальные данные. |
+### deepClone() {#deepClone}
 ```
 public OdsoRecipientData deepClone()
 ```
 
 
-Возвращает глубокий клон этого объекта.
+Возвращает глубокую копию этого объекта.
 
-**Возвращает:**
-[OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getActive() {#getActive--}
+**Returns:**
+[OdsoRecipientData](../../com.aspose.words/odsorecipientdata/)
+### getActive() {#getActive}
 ```
 public boolean getActive()
 ```
 
 
-Указывает, должна ли запись из источника данных импортироваться в документ при выполнении слияния. Значение по умолчанию верно .
+Указывает, должна ли запись из источника данных быть импортирована в документ при выполнении слияния почты. Значение по умолчанию —  true .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColumn() {#getColumn--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getColumn() {#getColumn}
 ```
 public int getColumn()
 ```
 
 
-Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. Значение по умолчанию — 0.
+Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. Значение по умолчанию — 0.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getHash() {#getHash--}
+**Returns:**
+int — соответствующее значение  int .
+### getHash() {#getHash}
 ```
 public int getHash()
 ```
 
 
- Представляет хэш-код для этой записи. Иногда Microsoft Word использует[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) целой записи вместо[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) ценность. Значение по умолчанию — 0.
+Представляет хеш‑код этой записи. Иногда Microsoft Word использует [getHash()](../../com.aspose.words/odsorecipientdata/#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata/#setHash-int) всей записи вместо значения [getUniqueTag()](../../com.aspose.words/odsorecipientdata/#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/#setUniqueTag-byte). Значение по умолчанию — 0.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getUniqueTag() {#getUniqueTag--}
+**Returns:**
+int — соответствующее значение  int .
+### getUniqueTag() {#getUniqueTag}
 ```
 public byte[] getUniqueTag()
 ```
 
 
-Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию равно null .
+Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию —  null .
 
-**Возвращает:**
-байт[] - соответствующий байт[] ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setActive(boolean value) {#setActive-boolean-}
+**Returns:**
+byte[] — соответствующее значение byte[].
+### setActive(boolean value) {#setActive-boolean}
 ```
 public void setActive(boolean value)
 ```
 
 
-Указывает, должна ли запись из источника данных импортироваться в документ при выполнении слияния. Значение по умолчанию верно .
+Указывает, должна ли запись из источника данных быть импортирована в документ при выполнении слияния почты. Значение по умолчанию —  true .
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setColumn(int value) {#setColumn-int-}
+### setColumn(int value) {#setColumn-int}
 ```
 public void setColumn(int value)
 ```
 
 
-Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. Значение по умолчанию — 0.
+Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. Значение по умолчанию — 0.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setHash(int value) {#setHash-int-}
+### setHash(int value) {#setHash-int}
 ```
 public void setHash(int value)
 ```
 
 
- Представляет хэш-код для этой записи. Иногда Microsoft Word использует[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) целой записи вместо[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) ценность. Значение по умолчанию — 0.
+Представляет хеш‑код этой записи. Иногда Microsoft Word использует [getHash()](../../com.aspose.words/odsorecipientdata/#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata/#setHash-int) всей записи вместо значения [getUniqueTag()](../../com.aspose.words/odsorecipientdata/#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/#setUniqueTag-byte). Значение по умолчанию — 0.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setUniqueTag(byte[] value) {#setUniqueTag-byte---}
+### setUniqueTag(byte[] value) {#setUniqueTag-byte}
 ```
 public void setUniqueTag(byte[] value)
 ```
 
 
-Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию равно null .
+Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию —  null .
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | byte[] | Соответствующий байт[] ценность. |
+| значение | byte[] | Соответствующее значение byte[]. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

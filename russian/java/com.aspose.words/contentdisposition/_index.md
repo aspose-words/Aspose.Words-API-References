@@ -1,52 +1,68 @@
 ---
-title: ContentDisposition
-second_title: Справочник по API Aspose.Words для Java
-description: Перечисляет различные способы представления документа в браузере клиента.
+title: "ContentDisposition"
+linktitle: "ContentDisposition"
+second_title: "Aspose.Words для Java"
+description: "Перечисляет различные способы представления документа в браузере клиента в Java."
 type: docs
-weight: 92
+weight: 126
 url: /ru/java/com.aspose.words/contentdisposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ContentDisposition
 ```
 
-Перечисляет различные способы представления документа в браузере клиента.
+Перечисляет различные способы отображения документа в браузере клиента.
 
-Обратите внимание, что на фактическое поведение в браузере клиента может повлиять конфигурация безопасности браузера.
+ **Remarks:** 
+
+Обратите внимание, что реальное поведение в браузере клиента может зависеть от настроек безопасности браузера.
+
+ **Examples:** 
+
+Показывает, как выполнить слияние почты, а затем сохранить документ в браузер клиента.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" MERGEFIELD FullName ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD Company ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD Address ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD City ");
+
+ doc.getMailMerge().execute(new String[]{"FullName", "Company", "Address", "City"},
+         new Object[]{"James Bond", "MI5 Headquarters", "Milbank", "London"});
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [ATTACHMENT](#ATTACHMENT) | Отправьте документ в браузер и предоставьте возможность сохранить документ на диск или открыть в приложении, связанном с расширением документа. |
-| [INLINE](#INLINE) | Отправьте документ в браузер и предложите сохранить документ на диск или открыть в браузере. |
+| [ATTACHMENT](#ATTACHMENT) | Отправляет документ в браузер и предлагает вариант сохранить документ на диск или открыть в приложении, связанном с расширением документа. |
+| [INLINE](#INLINE) | Отправляет документ в браузер и предлагает вариант сохранить документ на диск или открыть его внутри браузера. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String contentDispositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int contentDisposition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int contentDisposition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String contentDispositionName)](#fromName-java.lang.String) |  |
+| [getName(int contentDisposition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int contentDisposition)](#toString-int) |  |
 ### ATTACHMENT {#ATTACHMENT}
 ```
 public static int ATTACHMENT
 ```
 
 
-Отправьте документ в браузер и предоставьте возможность сохранить документ на диск или открыть в приложении, связанном с расширением документа.
+Отправляет документ в браузер и предлагает вариант сохранить документ на диск или открыть в приложении, связанном с расширением документа.
 
 ### INLINE {#INLINE}
 ```
@@ -54,7 +70,7 @@ public static int INLINE
 ```
 
 
-Отправьте документ в браузер и предложите сохранить документ на диск или открыть в браузере.
+Отправляет документ в браузер и предлагает вариант сохранить документ на диск или открыть его внутри браузера.
 
 ### length {#length}
 ```
@@ -62,23 +78,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String contentDispositionName) {#fromName-java.lang.String-}
+### fromName(String contentDispositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String contentDispositionName)
 ```
@@ -86,25 +86,14 @@ public static int fromName(String contentDispositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentDispositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int contentDisposition) {#getName-int-}
+**Returns:**
+int
+### getName(int contentDisposition) {#getName-int}
 ```
 public static String getName(int contentDisposition)
 ```
@@ -112,15 +101,14 @@ public static String getName(int contentDisposition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentDisposition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -128,45 +116,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int contentDisposition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int contentDisposition) {#toString-int}
 ```
 public static String toString(int contentDisposition)
 ```
@@ -174,47 +126,10 @@ public static String toString(int contentDisposition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentDisposition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

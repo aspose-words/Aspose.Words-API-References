@@ -1,215 +1,386 @@
 ---
-title: XmlMapping
-second_title: Справочник по API Aspose.Words для Java
-description: Задает информацию, используемую для установления сопоставления между тегом родительского структурированного документа и элементом XML, хранящимся в пользовательской части данных XML в документе.
+title: "XmlMapping"
+linktitle: "XmlMapping"
+second_title: "Aspose.Words для Java"
+description: "Указывает информацию, используемую для установления сопоставления между тегом родительского структурированного документа и элементом XML, хранящимся в пользовательской части XML-данных в документе на Java."
 type: docs
-weight: 629
+weight: 748
 url: /ru/java/com.aspose.words/xmlmapping/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class XmlMapping implements Cloneable
 ```
 
-Задает информацию, используемую для установления сопоставления между тегом родительского структурированного документа и элементом XML, хранящимся в пользовательской части данных XML в документе.
+Указывает информацию, используемую для установления сопоставления между родительским тегом структурированного документа и элементом XML, хранящимся в пользовательской части XML‑данных документа.
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
+
+ **Examples:** 
+
+Показывает, как установить сопоставления XML для пользовательских частей XML.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [delete()](#delete--) | Удаляет сопоставление родительского структурированного документа с данными XML. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCustomXmlPart()](#getCustomXmlPart--) | Возвращает пользовательскую часть данных XML, с которой сопоставляется тег родительского структурированного документа. |
-| [getPrefixMappings()](#getPrefixMappings--) |  Возвращает сопоставления префиксов пространств имен XML для оценки[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). |
-| [getStoreItemId()](#getStoreItemId--) |  Задает идентификатор пользовательских данных XML для пользовательской части данных XML, которая должна использоваться для оценки[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--) выражение. |
-| [getXPath()](#getXPath--) | Возвращает выражение XPath, которое используется для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа. |
-| [hashCode()](#hashCode--) |  |
-| [isMapped()](#isMapped--) |  Возвращает**true** если тег родительского структурированного документа успешно сопоставлен с данными XML. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)](#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String-) | Задает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### delete() {#delete--}
+| [delete()](#delete) | Удаляет сопоставление родительского структурированного документа с XML-данными. |
+| [getCustomXmlPart()](#getCustomXmlPart) | Возвращает пользовательскую часть XML-данных, к которой сопоставлен тег родительского структурированного документа. |
+| [getPrefixMappings()](#getPrefixMappings) | Возвращает сопоставления префиксов пространств имен XML для оценки [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath). |
+| [getStoreItemId()](#getStoreItemId) | Указывает идентификатор пользовательских XML-данных для пользовательской части XML, который будет использоваться для оценки выражения [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath). |
+| [getXPath()](#getXPath) | Возвращает выражение XPath, которое оценивается для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа. |
+| [isMapped()](#isMapped) | Возвращает  true  если тег родительского структурированного документа успешно сопоставлен с XML-данными. |
+| [setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)](#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String) | Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части XML-данных. |
+### delete() {#delete}
 ```
 public void delete()
 ```
 
 
-Удаляет сопоставление родительского структурированного документа с данными XML.
+Удаляет сопоставление родительского структурированного документа с XML-данными.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как установить сопоставления XML для пользовательских частей XML.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document();
 
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
 
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
 
-**Возвращает:**
-java.lang.Класс<?>
-### getCustomXmlPart() {#getCustomXmlPart--}
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
+```
+
+### getCustomXmlPart() {#getCustomXmlPart}
 ```
 public CustomXmlPart getCustomXmlPart()
 ```
 
 
-Возвращает пользовательскую часть данных XML, с которой сопоставляется тег родительского структурированного документа.
+Возвращает пользовательскую часть XML-данных, к которой сопоставлен тег родительского структурированного документа.
 
-**Возвращает:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart) - Пользовательская часть данных XML, с которой сопоставляется тег родительского структурированного документа.
-### getPrefixMappings() {#getPrefixMappings--}
+ **Examples:** 
+
+Показывает, как установить сопоставления XML для пользовательских частей XML.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
+```
+
+**Returns:**
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - The custom XML data part to which the parent structured document tag is mapped.
+### getPrefixMappings() {#getPrefixMappings}
 ```
 public String getPrefixMappings()
 ```
 
 
- Возвращает сопоставления префиксов пространств имен XML для оценки[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). Указывает набор сопоставлений префиксов, которые должны использоваться для интерпретации выражения XPath, когда выражение XPath оценивается по сравнению с пользовательскими частями данных XML в документе.
+Возвращает сопоставления префиксов пространств имен XML для оценки [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath).
 
-**Возвращает:**
- java.lang.String — сопоставления префиксов пространств имен XML для оценки[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--).
-### getStoreItemId() {#getStoreItemId--}
+ **Remarks:** 
+
+Указывает набор сопоставлений префиксов, которые будут использоваться для интерпретации выражения XPath, когда оно оценивается относительно пользовательских частей XML-данных в документе.
+
+ **Examples:** 
+
+Показывает, как установить сопоставления XML для пользовательских частей XML.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
+```
+
+**Returns:**
+java.lang.String - сопоставления префиксов пространств имен XML для оценки [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath).
+### getStoreItemId() {#getStoreItemId}
 ```
 public String getStoreItemId()
 ```
 
 
- Задает идентификатор пользовательских данных XML для пользовательской части данных XML, которая должна использоваться для оценки[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--) выражение.
+Указывает идентификатор пользовательских XML-данных для пользовательской части XML, который будет использоваться для оценки выражения [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath).
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getXPath() {#getXPath--}
+ **Examples:** 
+
+Показывает, как получить идентификатор пользовательских XML-данных XML-части.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom XML part in structured document tag.docx");
+
+ // Structured document tags have IDs in the form of GUIDs.
+ StructuredDocumentTag tag = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+
+ Assert.assertEquals("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.getXmlMapping().getStoreItemId());
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getXPath() {#getXPath}
 ```
 public String getXPath()
 ```
 
 
-Возвращает выражение XPath, которое используется для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа.
+Возвращает выражение XPath, которое оценивается для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа.
 
-**Возвращает:**
-java.lang.String — выражение XPath, которое используется для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как установить сопоставления XML для пользовательских частей XML.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isMapped() {#isMapped--}
+**Returns:**
+java.lang.String - выражение XPath, которое оценивается для поиска пользовательского узла XML, сопоставленного с тегом родительского структурированного документа.
+### isMapped() {#isMapped}
 ```
 public boolean isMapped()
 ```
 
 
- Возвращает**true** если тег родительского структурированного документа успешно сопоставлен с данными XML.
+Возвращает  true  если тег родительского структурированного документа успешно сопоставлен с XML-данными.
 
-**Возвращает:**
- логический -**true** если тег родительского структурированного документа успешно сопоставлен с данными XML.
-### notify() {#notify--}
-```
-public final native void notify()
-```
+ **Examples:** 
 
+Показывает, как установить сопоставления XML для пользовательских частей XML.
 
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document();
 
+ // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Text element #1Text element #2";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
 
+ // Create a structured document tag that will display the contents of our CustomXmlPart.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
 
-### setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping) {#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String-}
+ // Set a mapping for our structured document tag. This mapping will instruct
+ // our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+ // In this case, it will be contents of the the second "" element of the first "" element: "Text element #2".
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ Assert.assertTrue(tag.getXmlMapping().isMapped());
+ Assert.assertEquals(tag.getXmlMapping().getCustomXmlPart(), xmlPart);
+ Assert.assertEquals(tag.getXmlMapping().getXPath(), "/root[1]/text[2]");
+ Assert.assertEquals(tag.getXmlMapping().getPrefixMappings(), "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+ // Add the structured document tag to the document to display the content from our custom part.
+ doc.getFirstSection().getBody().appendChild(tag);
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.XmlMapping.docx");
+ 
+```
+
+**Returns:**
+boolean -  true  если тег родительского структурированного документа успешно сопоставлен с XML-данными.
+### setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping) {#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String}
 ```
 public boolean setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)
 ```
 
 
-Задает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
+Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части XML-данных.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customXmlPart | [CustomXmlPart](../../com.aspose.words/customxmlpart) | Настраиваемая часть данных XML для сопоставления. |
-| xPath | java.lang.String | Выражение XPath для поиска узла XML. |
-| prefixMapping | java.lang.String | Сопоставления префиксов пространств имен XML для оценки XPath. |
+| customXmlPart | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | Пользовательская часть XML-данных для сопоставления. |
+| xPath | java.lang.String | XPath-выражение для поиска узла XML. |
+| prefixMapping | java.lang.String | Префиксы пространств имён XML для оценки XPath. |
 
-**Возвращает:**
-boolean — флаг, указывающий, успешно ли сопоставлен тег родительского структурированного документа с узлом XML.
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+boolean — Флаг, указывающий, успешно ли родительский тег структурированного документа сопоставлен с узлом XML.

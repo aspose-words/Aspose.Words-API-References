@@ -1,24 +1,54 @@
 ---
-title: TableAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает выравнивание для встроенной таблицы.
+title: "TableAlignment"
+linktitle: "TableAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает выравнивание встроенной таблицы в Java."
 type: docs
-weight: 549
+weight: 657
 url: /ru/java/com.aspose.words/tablealignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TableAlignment
 ```
 
-Указывает выравнивание для встроенной таблицы.
+Указывает выравнивание встроенной таблицы.
+
+ **Examples:** 
+
+Показывает, как применить контурную границу к таблице.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Align the table to the center of the page.
+ table.setAlignment(TableAlignment.CENTER);
+
+ // Clear any existing borders and shading from the table.
+ table.clearBorders();
+ table.clearShading();
+
+ // Add green borders to the outline of the table.
+ table.setBorder(BorderType.LEFT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.RIGHT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.TOP, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.BOTTOM, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+
+ // Fill the cells with a light green solid color.
+ table.setShading(TextureIndex.TEXTURE_SOLID, Color.GREEN, Color.GREEN);
+
+ doc.save(getArtifactsDir() + "Table.SetOutlineBorders.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CENTER](#CENTER) | Таблица расположена по центру. |
+| [CENTER](#CENTER) | Таблица центрирована. |
 | [LEFT](#LEFT) | Таблица выровнена по левому краю. |
 | [RIGHT](#RIGHT) | Таблица выровнена по правому краю. |
 | [length](#length) |  |
@@ -26,26 +56,17 @@ public class TableAlignment
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tableAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tableAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tableAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String tableAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int tableAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int tableAlignment)](#toString-int) |  |
 ### CENTER {#CENTER}
 ```
 public static int CENTER
 ```
 
 
-Таблица расположена по центру.
+Таблица центрирована.
 
 ### LEFT {#LEFT}
 ```
@@ -69,23 +90,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String tableAlignmentName) {#fromName-java.lang.String-}
+### fromName(String tableAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tableAlignmentName)
 ```
@@ -93,25 +98,14 @@ public static int fromName(String tableAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int tableAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int tableAlignment) {#getName-int}
 ```
 public static String getName(int tableAlignment)
 ```
@@ -119,15 +113,14 @@ public static String getName(int tableAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +128,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int tableAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int tableAlignment) {#toString-int}
 ```
 public static String toString(int tableAlignment)
 ```
@@ -181,47 +138,10 @@ public static String toString(int tableAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

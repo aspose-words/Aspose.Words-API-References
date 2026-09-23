@@ -1,19 +1,39 @@
 ---
-title: TextEffect
-second_title: Справочник по API Aspose.Words для Java
-description: Анимационный эффект для текстовых прогонов.
+title: "TextEffect"
+linktitle: "TextEffect"
+second_title: "Aspose.Words для Java"
+description: "Анимационный эффект для текстовых фрагментов в Java."
 type: docs
-weight: 564
+weight: 673
 url: /ru/java/com.aspose.words/texteffect/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextEffect
 ```
 
-Анимационный эффект для текстовых прогонов.
+Эффект анимации для последовательностей текста.
+
+ **Examples:** 
+
+Показывает, как применить визуальный эффект к фрагменту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setTextEffect(TextEffect.SPARKLE_TEXT);
+
+ builder.writeln("Text with a sparkle effect.");
+
+ // Older versions of Microsoft Word only support font animation effects.
+ doc.save(getArtifactsDir() + "Font.SparklingText.doc");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -30,19 +50,10 @@ public class TextEffect
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textEffectName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textEffect)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textEffect)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textEffectName)](#fromName-java.lang.String) |  |
+| [getName(int textEffect)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textEffect)](#toString-int) |  |
 ### BLINKING_BACKGROUND {#BLINKING-BACKGROUND}
 ```
 public static int BLINKING_BACKGROUND
@@ -105,23 +116,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textEffectName) {#fromName-java.lang.String-}
+### fromName(String textEffectName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textEffectName)
 ```
@@ -129,25 +124,14 @@ public static int fromName(String textEffectName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textEffectName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textEffect) {#getName-int-}
+**Returns:**
+int
+### getName(int textEffect) {#getName-int}
 ```
 public static String getName(int textEffect)
 ```
@@ -155,15 +139,14 @@ public static String getName(int textEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -171,45 +154,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textEffect) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textEffect) {#toString-int}
 ```
 public static String toString(int textEffect)
 ```
@@ -217,47 +164,10 @@ public static String toString(int textEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

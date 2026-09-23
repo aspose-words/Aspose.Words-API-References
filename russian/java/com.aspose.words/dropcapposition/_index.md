@@ -1,51 +1,76 @@
 ---
-title: DropCapPosition
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет позицию для текста буквицы.
+title: "DropCapPosition"
+linktitle: "DropCapPosition"
+second_title: "Aspose.Words для Java"
+description: "Указывает положение текста с первой буквой (drop cap) в Java."
 type: docs
-weight: 134
+weight: 177
 url: /ru/java/com.aspose.words/dropcapposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DropCapPosition
 ```
 
-Определяет позицию для текста буквицы.
+Указывает позицию текста буквицы.
+
+ **Examples:** 
+
+Показывает, как создать первую букву (drop cap).
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert one paragraph with a large letter that the text in the second and third paragraphs begins with.
+ builder.getFont().setSize(54.0);
+ builder.writeln("L");
+
+ builder.getFont().setSize(18.0);
+ builder.writeln("orem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+ builder.writeln("Ut enim ad minim veniam, quis nostrud exercitation " +
+         "ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ // Currently, the second and third paragraphs will appear underneath the first.
+ // We can convert the first paragraph as a drop cap for the other paragraphs via its "ParagraphFormat" object.
+ // Set the "DropCapPosition" property to "DropCapPosition.Margin" to place the drop cap
+ // outside the left-hand side page margin if our text is left-to-right.
+ // Set the "DropCapPosition" property to "DropCapPosition.Normal" to place the drop cap within the page margins
+ // and to wrap the rest of the text around it.
+ // "DropCapPosition.None" is the default state for all paragraphs.
+ ParagraphFormat format = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat();
+ format.setDropCapPosition(dropCapPosition);
+
+ doc.save(getArtifactsDir() + "ParagraphFormat.DropCap.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [MARGIN](#MARGIN) | Буквица располагается за пределами поля текста в абзаце привязки. |
-| [NONE](#NONE) | Абзац не имеет буквицы. |
-| [NORMAL](#NORMAL) | Буквица располагается внутри текстового поля якорного абзаца. |
+| [MARGIN](#MARGIN) | Первая буква (drop cap) размещается за пределами поля текста в абзаце‑якоре. |
+| [NONE](#NONE) | В абзаце нет первой буквы (drop cap). |
+| [NORMAL](#NORMAL) | Первая буква (drop cap) размещается внутри поля текста в абзаце‑якоре. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String dropCapPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int dropCapPosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int dropCapPosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String dropCapPositionName)](#fromName-java.lang.String) |  |
+| [getName(int dropCapPosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int dropCapPosition)](#toString-int) |  |
 ### MARGIN {#MARGIN}
 ```
 public static int MARGIN
 ```
 
 
-Буквица располагается за пределами поля текста в абзаце привязки.
+Первая буква (drop cap) размещается за пределами поля текста в абзаце‑якоре.
 
 ### NONE {#NONE}
 ```
@@ -53,7 +78,7 @@ public static int NONE
 ```
 
 
-Абзац не имеет буквицы.
+В абзаце нет первой буквы (drop cap).
 
 ### NORMAL {#NORMAL}
 ```
@@ -61,7 +86,7 @@ public static int NORMAL
 ```
 
 
-Буквица располагается внутри текстового поля якорного абзаца.
+Первая буква (drop cap) размещается внутри поля текста в абзаце‑якоре.
 
 ### length {#length}
 ```
@@ -69,23 +94,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String dropCapPositionName) {#fromName-java.lang.String-}
+### fromName(String dropCapPositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String dropCapPositionName)
 ```
@@ -93,25 +102,14 @@ public static int fromName(String dropCapPositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dropCapPositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int dropCapPosition) {#getName-int-}
+**Returns:**
+int
+### getName(int dropCapPosition) {#getName-int}
 ```
 public static String getName(int dropCapPosition)
 ```
@@ -119,15 +117,14 @@ public static String getName(int dropCapPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dropCapPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +132,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int dropCapPosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int dropCapPosition) {#toString-int}
 ```
 public static String toString(int dropCapPosition)
 ```
@@ -181,47 +142,10 @@ public static String toString(int dropCapPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dropCapPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

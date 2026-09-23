@@ -1,13 +1,14 @@
 ---
-title: ComparisonExpression
-second_title: Справочник по API Aspose.Words для Java
-description: Выражение сравнения.
+title: "ComparisonExpression"
+linktitle: "ComparisonExpression"
+second_title: "Aspose.Words для Java"
+description: "Выражение сравнения в Java."
 type: docs
-weight: 83
+weight: 117
 url: /ru/java/com.aspose.words/comparisonexpression/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ComparisonExpression
@@ -15,50 +16,109 @@ public class ComparisonExpression
 
 Выражение сравнения.
 
- Чтобы узнать больше, посетите**Working with Fields** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fields ][Working with Fields].
+
+ **Examples:** 
+
+Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
+
+```
+
+ public void conditionEvaluationExtensionPoint(String fieldCode, byte comparisonResult, String comparisonError,
+                                               String expectedResult) throws Exception {
+     final String LEFT = "\"left expression\"";
+     final String _OPERATOR = "<>";
+     final String RIGHT = "\"right expression\"";
+
+     DocumentBuilder builder = new DocumentBuilder();
+
+     // Field codes that we use in this example:
+     // 1.   " IF %s %s %s \"true argument\" \"false argument\" ".
+     // 2.   " COMPARE %s %s %s ".
+     Field field = builder.insertField(String.format(fieldCode, LEFT, _OPERATOR, RIGHT), null);
+
+     // If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
+     ComparisonEvaluationResult result = comparisonResult != -1
+             ? new ComparisonEvaluationResult(comparisonResult == 1)
+             : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+
+     ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+     builder.getDocument().getFieldOptions().setComparisonExpressionEvaluator(evaluator);
+
+     builder.getDocument().updateFields();
+
+     Assert.assertEquals(expectedResult, field.getResult());
+     evaluator.assertInvocationsCount(1).assertInvocationArguments(0, LEFT, _OPERATOR, RIGHT);
+ }
+
+ public static Object[][] conditionEvaluationExtensionPointDataProvider() {
+     return new Object[][]
+             {
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 1, null, "true argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 0, null, "false argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, null, "true argument"},
+                     {" COMPARE %s %s %s ", (byte) 1, null, "1"},
+                     {" COMPARE %s %s %s ", (byte) 0, null, "0"},
+                     {" COMPARE %s %s %s ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" COMPARE %s %s %s ", (byte) -1, null, "1"},
+             };
+ }
+
+ /// 
+ /// Comparison expressions evaluation for the FieldIf and FieldCompare.
+ /// 
+ private static class ComparisonExpressionEvaluator implements IComparisonExpressionEvaluator {
+     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result) {
+         mResult = result;
+     }
+
+     public ComparisonEvaluationResult evaluate(Field field, ComparisonExpression expression) {
+         mInvocations.add(new String[]
+                 {
+                         expression.getLeftExpression(),
+                         expression.getComparisonOperator(),
+                         expression.getRightExpression()
+                 });
+
+         return mResult;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationsCount(int expected) {
+         Assert.assertEquals(expected, mInvocations.size());
+         return this;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationArguments(
+             int invocationIndex,
+             String expectedLeftExpression,
+             String expectedComparisonOperator,
+             String expectedRightExpression) {
+         String[] arguments = mInvocations.get(invocationIndex);
+
+         Assert.assertEquals(expectedLeftExpression, arguments[0]);
+         Assert.assertEquals(expectedComparisonOperator, arguments[1]);
+         Assert.assertEquals(expectedRightExpression, arguments[2]);
+
+         return this;
+     }
+
+     private final ComparisonEvaluationResult mResult;
+     private final ArrayList mInvocations = new ArrayList<>();
+ }
+ 
+```
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComparisonOperator()](#getComparisonOperator--) | Получает оператор сравнения. |
-| [getLeftExpression()](#getLeftExpression--) | Получает левое выражение. |
-| [getRightExpression()](#getRightExpression--) | Получает правильное выражение. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getComparisonOperator() {#getComparisonOperator--}
+| [getComparisonOperator()](#getComparisonOperator) | Получает оператор сравнения. |
+| [getLeftExpression()](#getLeftExpression) | Получает левое выражение. |
+| [getRightExpression()](#getRightExpression) | Получает правое выражение. |
+### getComparisonOperator() {#getComparisonOperator}
 ```
 public String getComparisonOperator()
 ```
@@ -66,9 +126,100 @@ public String getComparisonOperator()
 
 Получает оператор сравнения.
 
-**Возвращает:**
-java.lang.String — оператор сравнения.
-### getLeftExpression() {#getLeftExpression--}
+ **Examples:** 
+
+Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
+
+```
+
+ public void conditionEvaluationExtensionPoint(String fieldCode, byte comparisonResult, String comparisonError,
+                                               String expectedResult) throws Exception {
+     final String LEFT = "\"left expression\"";
+     final String _OPERATOR = "<>";
+     final String RIGHT = "\"right expression\"";
+
+     DocumentBuilder builder = new DocumentBuilder();
+
+     // Field codes that we use in this example:
+     // 1.   " IF %s %s %s \"true argument\" \"false argument\" ".
+     // 2.   " COMPARE %s %s %s ".
+     Field field = builder.insertField(String.format(fieldCode, LEFT, _OPERATOR, RIGHT), null);
+
+     // If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
+     ComparisonEvaluationResult result = comparisonResult != -1
+             ? new ComparisonEvaluationResult(comparisonResult == 1)
+             : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+
+     ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+     builder.getDocument().getFieldOptions().setComparisonExpressionEvaluator(evaluator);
+
+     builder.getDocument().updateFields();
+
+     Assert.assertEquals(expectedResult, field.getResult());
+     evaluator.assertInvocationsCount(1).assertInvocationArguments(0, LEFT, _OPERATOR, RIGHT);
+ }
+
+ public static Object[][] conditionEvaluationExtensionPointDataProvider() {
+     return new Object[][]
+             {
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 1, null, "true argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 0, null, "false argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, null, "true argument"},
+                     {" COMPARE %s %s %s ", (byte) 1, null, "1"},
+                     {" COMPARE %s %s %s ", (byte) 0, null, "0"},
+                     {" COMPARE %s %s %s ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" COMPARE %s %s %s ", (byte) -1, null, "1"},
+             };
+ }
+
+ /// 
+ /// Comparison expressions evaluation for the FieldIf and FieldCompare.
+ /// 
+ private static class ComparisonExpressionEvaluator implements IComparisonExpressionEvaluator {
+     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result) {
+         mResult = result;
+     }
+
+     public ComparisonEvaluationResult evaluate(Field field, ComparisonExpression expression) {
+         mInvocations.add(new String[]
+                 {
+                         expression.getLeftExpression(),
+                         expression.getComparisonOperator(),
+                         expression.getRightExpression()
+                 });
+
+         return mResult;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationsCount(int expected) {
+         Assert.assertEquals(expected, mInvocations.size());
+         return this;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationArguments(
+             int invocationIndex,
+             String expectedLeftExpression,
+             String expectedComparisonOperator,
+             String expectedRightExpression) {
+         String[] arguments = mInvocations.get(invocationIndex);
+
+         Assert.assertEquals(expectedLeftExpression, arguments[0]);
+         Assert.assertEquals(expectedComparisonOperator, arguments[1]);
+         Assert.assertEquals(expectedRightExpression, arguments[2]);
+
+         return this;
+     }
+
+     private final ComparisonEvaluationResult mResult;
+     private final ArrayList mInvocations = new ArrayList<>();
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Оператор сравнения.
+### getLeftExpression() {#getLeftExpression}
 ```
 public String getLeftExpression()
 ```
@@ -76,87 +227,197 @@ public String getLeftExpression()
 
 Получает левое выражение.
 
-**Возвращает:**
-java.lang.String — левое выражение.
-### getRightExpression() {#getRightExpression--}
+ **Examples:** 
+
+Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
+
+```
+
+ public void conditionEvaluationExtensionPoint(String fieldCode, byte comparisonResult, String comparisonError,
+                                               String expectedResult) throws Exception {
+     final String LEFT = "\"left expression\"";
+     final String _OPERATOR = "<>";
+     final String RIGHT = "\"right expression\"";
+
+     DocumentBuilder builder = new DocumentBuilder();
+
+     // Field codes that we use in this example:
+     // 1.   " IF %s %s %s \"true argument\" \"false argument\" ".
+     // 2.   " COMPARE %s %s %s ".
+     Field field = builder.insertField(String.format(fieldCode, LEFT, _OPERATOR, RIGHT), null);
+
+     // If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
+     ComparisonEvaluationResult result = comparisonResult != -1
+             ? new ComparisonEvaluationResult(comparisonResult == 1)
+             : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+
+     ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+     builder.getDocument().getFieldOptions().setComparisonExpressionEvaluator(evaluator);
+
+     builder.getDocument().updateFields();
+
+     Assert.assertEquals(expectedResult, field.getResult());
+     evaluator.assertInvocationsCount(1).assertInvocationArguments(0, LEFT, _OPERATOR, RIGHT);
+ }
+
+ public static Object[][] conditionEvaluationExtensionPointDataProvider() {
+     return new Object[][]
+             {
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 1, null, "true argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 0, null, "false argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, null, "true argument"},
+                     {" COMPARE %s %s %s ", (byte) 1, null, "1"},
+                     {" COMPARE %s %s %s ", (byte) 0, null, "0"},
+                     {" COMPARE %s %s %s ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" COMPARE %s %s %s ", (byte) -1, null, "1"},
+             };
+ }
+
+ /// 
+ /// Comparison expressions evaluation for the FieldIf and FieldCompare.
+ /// 
+ private static class ComparisonExpressionEvaluator implements IComparisonExpressionEvaluator {
+     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result) {
+         mResult = result;
+     }
+
+     public ComparisonEvaluationResult evaluate(Field field, ComparisonExpression expression) {
+         mInvocations.add(new String[]
+                 {
+                         expression.getLeftExpression(),
+                         expression.getComparisonOperator(),
+                         expression.getRightExpression()
+                 });
+
+         return mResult;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationsCount(int expected) {
+         Assert.assertEquals(expected, mInvocations.size());
+         return this;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationArguments(
+             int invocationIndex,
+             String expectedLeftExpression,
+             String expectedComparisonOperator,
+             String expectedRightExpression) {
+         String[] arguments = mInvocations.get(invocationIndex);
+
+         Assert.assertEquals(expectedLeftExpression, arguments[0]);
+         Assert.assertEquals(expectedComparisonOperator, arguments[1]);
+         Assert.assertEquals(expectedRightExpression, arguments[2]);
+
+         return this;
+     }
+
+     private final ComparisonEvaluationResult mResult;
+     private final ArrayList mInvocations = new ArrayList<>();
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Левое выражение.
+### getRightExpression() {#getRightExpression}
 ```
 public String getRightExpression()
 ```
 
 
-Получает правильное выражение.
+Получает правое выражение.
 
-**Возвращает:**
-java.lang.String — Правильное выражение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public void conditionEvaluationExtensionPoint(String fieldCode, byte comparisonResult, String comparisonError,
+                                               String expectedResult) throws Exception {
+     final String LEFT = "\"left expression\"";
+     final String _OPERATOR = "<>";
+     final String RIGHT = "\"right expression\"";
 
+     DocumentBuilder builder = new DocumentBuilder();
 
+     // Field codes that we use in this example:
+     // 1.   " IF %s %s %s \"true argument\" \"false argument\" ".
+     // 2.   " COMPARE %s %s %s ".
+     Field field = builder.insertField(String.format(fieldCode, LEFT, _OPERATOR, RIGHT), null);
 
-### notifyAll() {#notifyAll--}
+     // If the "comparisonResult" is undefined, we create "ComparisonEvaluationResult" with string, instead of bool.
+     ComparisonEvaluationResult result = comparisonResult != -1
+             ? new ComparisonEvaluationResult(comparisonResult == 1)
+             : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
+
+     ComparisonExpressionEvaluator evaluator = new ComparisonExpressionEvaluator(result);
+     builder.getDocument().getFieldOptions().setComparisonExpressionEvaluator(evaluator);
+
+     builder.getDocument().updateFields();
+
+     Assert.assertEquals(expectedResult, field.getResult());
+     evaluator.assertInvocationsCount(1).assertInvocationArguments(0, LEFT, _OPERATOR, RIGHT);
+ }
+
+ public static Object[][] conditionEvaluationExtensionPointDataProvider() {
+     return new Object[][]
+             {
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 1, null, "true argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) 0, null, "false argument"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" IF %s %s %s \"true argument\" \"false argument\" ", (byte) -1, null, "true argument"},
+                     {" COMPARE %s %s %s ", (byte) 1, null, "1"},
+                     {" COMPARE %s %s %s ", (byte) 0, null, "0"},
+                     {" COMPARE %s %s %s ", (byte) -1, "Custom Error", "Custom Error"},
+                     {" COMPARE %s %s %s ", (byte) -1, null, "1"},
+             };
+ }
+
+ /// 
+ /// Comparison expressions evaluation for the FieldIf and FieldCompare.
+ /// 
+ private static class ComparisonExpressionEvaluator implements IComparisonExpressionEvaluator {
+     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result) {
+         mResult = result;
+     }
+
+     public ComparisonEvaluationResult evaluate(Field field, ComparisonExpression expression) {
+         mInvocations.add(new String[]
+                 {
+                         expression.getLeftExpression(),
+                         expression.getComparisonOperator(),
+                         expression.getRightExpression()
+                 });
+
+         return mResult;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationsCount(int expected) {
+         Assert.assertEquals(expected, mInvocations.size());
+         return this;
+     }
+
+     public ComparisonExpressionEvaluator assertInvocationArguments(
+             int invocationIndex,
+             String expectedLeftExpression,
+             String expectedComparisonOperator,
+             String expectedRightExpression) {
+         String[] arguments = mInvocations.get(invocationIndex);
+
+         Assert.assertEquals(expectedLeftExpression, arguments[0]);
+         Assert.assertEquals(expectedComparisonOperator, arguments[1]);
+         Assert.assertEquals(expectedRightExpression, arguments[2]);
+
+         return this;
+     }
+
+     private final ComparisonEvaluationResult mResult;
+     private final ArrayList mInvocations = new ArrayList<>();
+ }
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+java.lang.String - Правое выражение.

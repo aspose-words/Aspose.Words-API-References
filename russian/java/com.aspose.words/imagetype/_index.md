@@ -1,56 +1,79 @@
 ---
-title: ImageType
-second_title: Справочник по API Aspose.Words для Java
-description: Задает формат типа изображения в документе Microsoft Word.
+title: "ImageType"
+linktitle: "ImageType"
+second_title: "Aspose.Words для Java"
+description: "Указывает формат типа изображения в документе Microsoft Word на Java."
 type: docs
-weight: 343
+weight: 397
 url: /ru/java/com.aspose.words/imagetype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImageType
 ```
 
 Указывает тип (формат) изображения в документе Microsoft Word.
+
+ **Examples:** 
+
+Показывает, как добавить изображение в форму и проверить его тип.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage image = ImageIO.read(getImageUri().toURL().openStream());
+
+ // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
+ Shape imgShape = builder.insertImage(image);
+ Assert.assertEquals(imgShape.getImageData().getImageType(), ImageType.PNG);
+ 
+```
+
+Показывает, как прочитать изображение WebP.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document with WebP image.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Assert.assertEquals(ImageType.WEB_P, shape.getImageData().getImageType());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BMP](#BMP) | Растровое изображение Windows. |
-| [EMF](#EMF) | Расширенный метафайл Windows. |
+| [BMP](#BMP) | Windows Bitmap. |
+| [EMF](#EMF) | Windows Enhanced Metafile. |
+| [EPS](#EPS) | Encapsulated PostScript. |
+| [GIF](#GIF) | GIF |
 | [JPEG](#JPEG) | JPEG JFIF. |
 | [NO_IMAGE](#NO-IMAGE) | Нет данных изображения. |
-| [PICT](#PICT) | Макинтош ИЗОБРАЖЕНИЕ. |
-| [PNG](#PNG) | Портативная сетевая графика. |
+| [PICT](#PICT) | Macintosh PICT. |
+| [PNG](#PNG) | Portable Network Graphics. |
 | [UNKNOWN](#UNKNOWN) | Неизвестный тип изображения или тип изображения, который нельзя напрямую сохранить в документе Microsoft Word. |
-| [WMF](#WMF) | Метафайл Windows. |
+| [WEB_P](#WEB-P) | WebP. |
+| [WMF](#WMF) | Windows Metafile. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String imageTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int imageType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int imageType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String imageTypeName)](#fromName-java.lang.String) |  |
+| [getName(int imageType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int imageType)](#toString-int) |  |
 ### BMP {#BMP}
 ```
 public static int BMP
 ```
 
 
-Растровое изображение Windows.
+Windows Bitmap.
 
 ### EMF {#EMF}
 ```
@@ -58,7 +81,23 @@ public static int EMF
 ```
 
 
-Расширенный метафайл Windows.
+Windows Enhanced Metafile.
+
+### EPS {#EPS}
+```
+public static int EPS
+```
+
+
+Encapsulated PostScript.
+
+### GIF {#GIF}
+```
+public static int GIF
+```
+
+
+GIF
 
 ### JPEG {#JPEG}
 ```
@@ -82,7 +121,7 @@ public static int PICT
 ```
 
 
-Макинтош ИЗОБРАЖЕНИЕ. Существующее изображение будет сохранено в документе, но вставка новых изображений PICT в документ не поддерживается.
+Macintosh PICT. Существующее изображение будет сохранено в документе, но вставка новых изображений PICT в документ не поддерживается.
 
 ### PNG {#PNG}
 ```
@@ -90,7 +129,7 @@ public static int PNG
 ```
 
 
-Портативная сетевая графика.
+Portable Network Graphics.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -100,13 +139,21 @@ public static int UNKNOWN
 
 Неизвестный тип изображения или тип изображения, который нельзя напрямую сохранить в документе Microsoft Word.
 
+### WEB_P {#WEB-P}
+```
+public static int WEB_P
+```
+
+
+WebP.
+
 ### WMF {#WMF}
 ```
 public static int WMF
 ```
 
 
-Метафайл Windows.
+Windows Metafile.
 
 ### length {#length}
 ```
@@ -114,23 +161,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String imageTypeName) {#fromName-java.lang.String-}
+### fromName(String imageTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String imageTypeName)
 ```
@@ -138,25 +169,14 @@ public static int fromName(String imageTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int imageType) {#getName-int-}
+**Returns:**
+int
+### getName(int imageType) {#getName-int}
 ```
 public static String getName(int imageType)
 ```
@@ -164,15 +184,14 @@ public static String getName(int imageType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -180,45 +199,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int imageType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int imageType) {#toString-int}
 ```
 public static String toString(int imageType)
 ```
@@ -226,47 +209,10 @@ public static String toString(int imageType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

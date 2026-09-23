@@ -1,66 +1,173 @@
 ---
-title: PaperSize
-second_title: Справочник по API Aspose.Words для Java
-description: Задает размер бумаги.
+title: "PaperSize"
+linktitle: "PaperSize"
+second_title: "Aspose.Words для Java"
+description: "Указывает размер бумаги в Java."
 type: docs
-weight: 442
+weight: 521
 url: /ru/java/com.aspose.words/papersize/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PaperSize
 ```
 
-Задает размер бумаги.
+Указывает размер бумаги.
+
+ **Examples:** 
+
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры для раздела.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getPageSetup().setPaperSize(PaperSize.LEGAL);
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setTopMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setBottomMargin(ConvertUtil.inchToPoint(1.0));
+ builder.getPageSetup().setLeftMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setRightMargin(ConvertUtil.inchToPoint(1.5));
+ builder.getPageSetup().setHeaderDistance(ConvertUtil.inchToPoint(0.2));
+ builder.getPageSetup().setFooterDistance(ConvertUtil.inchToPoint(0.2));
+
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "PageSetup.PageMargins.docx");
+ 
+```
+
+Показывает, как задать размеры страниц.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can change the current page's size to a pre-defined size
+ // by using the "PaperSize" property of this section's PageSetup object.
+ builder.getPageSetup().setPaperSize(PaperSize.TABLOID);
+
+ Assert.assertEquals(792.0d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(1224.0d, builder.getPageSetup().getPageHeight());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ // Each section has its own PageSetup object. When we use a document builder to make a new section,
+ // that section's PageSetup object inherits all the previous section's PageSetup object's values.
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ Assert.assertEquals(PaperSize.TABLOID, builder.getPageSetup().getPaperSize());
+
+ builder.getPageSetup().setPaperSize(PaperSize.A5);
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ Assert.assertEquals(419.55d, builder.getPageSetup().getPageWidth());
+ Assert.assertEquals(595.30d, builder.getPageSetup().getPageHeight());
+
+ builder.insertBreak(BreakType.SECTION_BREAK_EVEN_PAGE);
+
+ // Set a custom size for this section's pages.
+ builder.getPageSetup().setPageWidth(620.0);
+ builder.getPageSetup().setPageHeight(480.0);
+
+ Assert.assertEquals(PaperSize.CUSTOM, builder.getPageSetup().getPaperSize());
+
+ builder.writeln(MessageFormat.format("This page is {0}x{1}.", builder.getPageSetup().getPageWidth(), builder.getPageSetup().getPageHeight()));
+
+ doc.save(getArtifactsDir() + "PageSetup.PaperSizes.docx");
+ 
+```
+
+Показывает, как вручную создать документ Aspose.Words.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [A3](#A3) | 297 х 420 мм. |
-| [A4](#A4) | 210 х 297 мм. |
-| [A5](#A5) | 148 х 210 мм. |
-| [B4](#B4) | 250 х 353 мм. |
-| [B5](#B5) | 176 х 250 мм. |
-| [CUSTOM](#CUSTOM) | Нестандартный размер бумаги. |
-| [ENVELOPE_DL](#ENVELOPE-DL) | 110 х 220 мм. |
-| [EXECUTIVE](#EXECUTIVE) | 7,25 х 10,5 дюймов. |
-| [FOLIO](#FOLIO) | 8,5 х 13 дюймов. |
-| [LEDGER](#LEDGER) | 17 х 11 дюймов. |
-| [LEGAL](#LEGAL) | 8,5 х 14 дюймов. |
-| [LETTER](#LETTER) | 8,5 х 11 дюймов. |
-| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4,125 х 9,5 дюйма. |
-| [PAPER_10_X_14](#PAPER-10-X-14) | 10 х 14 дюймов. |
-| [PAPER_11_X_17](#PAPER-11-X-17) | 11 х 17 дюймов. |
-| [QUARTO](#QUARTO) | 8,47 х 10,83 дюйма. |
-| [STATEMENT](#STATEMENT) | 8,5 х 5,5 дюймов. |
-| [TABLOID](#TABLOID) | 11 х 17 дюймов. |
+| [A3](#A3) | 297 x 420 мм. |
+| [A4](#A4) | 210 x 297 мм. |
+| [A5](#A5) | 148 x 210 мм. |
+| [B4](#B4) | 250 x 353 мм. |
+| [B5](#B5) | 176 x 250 мм. |
+| [CUSTOM](#CUSTOM) | Пользовательский размер бумаги. |
+| [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 мм. |
+| [EXECUTIVE](#EXECUTIVE) | 7.25 x 10.5 дюйма. |
+| [FOLIO](#FOLIO) | 8.5 x 13 дюймов. |
+| [JIS_B_4](#JIS-B-4) | 257 x 364 мм. |
+| [JIS_B_5](#JIS-B-5) | 182 x 257 мм. |
+| [LEDGER](#LEDGER) | 17 x 11 дюймов. |
+| [LEGAL](#LEGAL) | 8.5 x 14 дюймов. |
+| [LETTER](#LETTER) | 8.5 x 11 дюймов. |
+| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4.125 x 9.5 дюйма. |
+| [PAPER_10_X_14](#PAPER-10-X-14) | 10 x 14 дюймов. |
+| [PAPER_11_X_17](#PAPER-11-X-17) | 11 x 17 дюймов. |
+| [QUARTO](#QUARTO) | 8.47 x 10.83 дюйма. |
+| [STATEMENT](#STATEMENT) | 8.5 x 5.5 дюйма. |
+| [TABLOID](#TABLOID) | 11 x 17 дюймов. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String paperSizeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int paperSize)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int paperSize)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String paperSizeName)](#fromName-java.lang.String) |  |
+| [getName(int paperSize)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int paperSize)](#toString-int) |  |
 ### A3 {#A3}
 ```
 public static int A3
 ```
 
 
-297 х 420 мм.
+297 x 420 мм.
 
 ### A4 {#A4}
 ```
@@ -68,7 +175,7 @@ public static int A4
 ```
 
 
-210 х 297 мм.
+210 x 297 мм.
 
 ### A5 {#A5}
 ```
@@ -76,7 +183,7 @@ public static int A5
 ```
 
 
-148 х 210 мм.
+148 x 210 мм.
 
 ### B4 {#B4}
 ```
@@ -84,7 +191,7 @@ public static int B4
 ```
 
 
-250 х 353 мм.
+250 x 353 мм.
 
 ### B5 {#B5}
 ```
@@ -92,7 +199,7 @@ public static int B5
 ```
 
 
-176 х 250 мм.
+176 x 250 мм.
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -100,7 +207,7 @@ public static int CUSTOM
 ```
 
 
-Нестандартный размер бумаги.
+Пользовательский размер бумаги.
 
 ### ENVELOPE_DL {#ENVELOPE-DL}
 ```
@@ -108,7 +215,7 @@ public static int ENVELOPE_DL
 ```
 
 
-110 х 220 мм.
+110 x 220 мм.
 
 ### EXECUTIVE {#EXECUTIVE}
 ```
@@ -116,7 +223,7 @@ public static int EXECUTIVE
 ```
 
 
-7,25 х 10,5 дюймов.
+7.25 x 10.5 дюйма.
 
 ### FOLIO {#FOLIO}
 ```
@@ -124,7 +231,23 @@ public static int FOLIO
 ```
 
 
-8,5 х 13 дюймов.
+8.5 x 13 дюймов.
+
+### JIS_B_4 {#JIS-B-4}
+```
+public static int JIS_B_4
+```
+
+
+257 x 364 мм.
+
+### JIS_B_5 {#JIS-B-5}
+```
+public static int JIS_B_5
+```
+
+
+182 x 257 мм.
 
 ### LEDGER {#LEDGER}
 ```
@@ -132,7 +255,7 @@ public static int LEDGER
 ```
 
 
-17 х 11 дюймов.
+17 x 11 дюймов.
 
 ### LEGAL {#LEGAL}
 ```
@@ -140,7 +263,7 @@ public static int LEGAL
 ```
 
 
-8,5 х 14 дюймов.
+8.5 x 14 дюймов.
 
 ### LETTER {#LETTER}
 ```
@@ -148,7 +271,7 @@ public static int LETTER
 ```
 
 
-8,5 х 11 дюймов.
+8.5 x 11 дюймов.
 
 ### NUMBER_10_ENVELOPE {#NUMBER-10-ENVELOPE}
 ```
@@ -156,7 +279,7 @@ public static int NUMBER_10_ENVELOPE
 ```
 
 
-4,125 х 9,5 дюйма.
+4.125 x 9.5 дюйма.
 
 ### PAPER_10_X_14 {#PAPER-10-X-14}
 ```
@@ -164,7 +287,7 @@ public static int PAPER_10_X_14
 ```
 
 
-10 х 14 дюймов.
+10 x 14 дюймов.
 
 ### PAPER_11_X_17 {#PAPER-11-X-17}
 ```
@@ -172,7 +295,7 @@ public static int PAPER_11_X_17
 ```
 
 
-11 х 17 дюймов.
+11 x 17 дюймов.
 
 ### QUARTO {#QUARTO}
 ```
@@ -180,7 +303,7 @@ public static int QUARTO
 ```
 
 
-8,47 х 10,83 дюйма.
+8.47 x 10.83 дюйма.
 
 ### STATEMENT {#STATEMENT}
 ```
@@ -188,7 +311,7 @@ public static int STATEMENT
 ```
 
 
-8,5 х 5,5 дюймов.
+8.5 x 5.5 дюйма.
 
 ### TABLOID {#TABLOID}
 ```
@@ -196,7 +319,7 @@ public static int TABLOID
 ```
 
 
-11 х 17 дюймов.
+11 x 17 дюймов.
 
 ### length {#length}
 ```
@@ -204,23 +327,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String paperSizeName) {#fromName-java.lang.String-}
+### fromName(String paperSizeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String paperSizeName)
 ```
@@ -228,25 +335,14 @@ public static int fromName(String paperSizeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | paperSizeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int paperSize) {#getName-int-}
+**Returns:**
+int
+### getName(int paperSize) {#getName-int}
 ```
 public static String getName(int paperSize)
 ```
@@ -254,15 +350,14 @@ public static String getName(int paperSize)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | paperSize | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -270,45 +365,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int paperSize) {#toString-int-}
+**Returns:**
+int[]
+### toString(int paperSize) {#toString-int}
 ```
 public static String toString(int paperSize)
 ```
@@ -316,47 +375,10 @@ public static String toString(int paperSize)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | paperSize | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

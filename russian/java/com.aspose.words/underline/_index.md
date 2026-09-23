@@ -1,19 +1,44 @@
 ---
-title: Underline
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип подчеркивания, примененного к шрифту.
+title: "Подчеркивание"
+linktitle: "Подчеркивание"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип подчеркивания, применяемого к шрифту в Java."
 type: docs
-weight: 588
+weight: 698
 url: /ru/java/com.aspose.words/underline/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Underline
 ```
 
-Указывает тип подчеркивания, примененного к шрифту.
+Указывает тип подчеркивания, применяемого к шрифту.
+
+ **Examples:** 
+
+Показывает, как вставить поле гиперссылки.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -41,19 +66,10 @@ public class Underline
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String underlineName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int underline)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int underline)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String underlineName)](#fromName-java.lang.String) |  |
+| [getName(int underline)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int underline)](#toString-int) |  |
 ### DASH {#DASH}
 ```
 public static int DASH
@@ -204,23 +220,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String underlineName) {#fromName-java.lang.String-}
+### fromName(String underlineName) {#fromName-java.lang.String}
 ```
 public static int fromName(String underlineName)
 ```
@@ -228,25 +228,14 @@ public static int fromName(String underlineName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | underlineName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int underline) {#getName-int-}
+**Returns:**
+int
+### getName(int underline) {#getName-int}
 ```
 public static String getName(int underline)
 ```
@@ -254,15 +243,14 @@ public static String getName(int underline)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | underline | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -270,45 +258,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int underline) {#toString-int-}
+**Returns:**
+int[]
+### toString(int underline) {#toString-int}
 ```
 public static String toString(int underline)
 ```
@@ -316,47 +268,10 @@ public static String toString(int underline)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | underline | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
