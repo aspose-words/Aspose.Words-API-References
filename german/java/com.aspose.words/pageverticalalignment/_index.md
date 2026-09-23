@@ -1,0 +1,160 @@
+---
+title: "PageVerticalAlignment"
+linktitle: "PageVerticalAlignment"
+second_title: "Aspose.Words für Java"
+description: "Gibt die vertikale Ausrichtung von Text auf jeder Seite in Java an."
+type: docs
+weight: 520
+url: /de/java/com.aspose.words/pageverticalalignment/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class PageVerticalAlignment
+```
+
+Gibt die vertikale Ausrichtung des Textes auf jeder Seite an.
+
+ **Examples:** 
+
+Zeigt, wie man Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument anwendet und zurücksetzt.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Modify the page setup properties for the builder's current section and add text.
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setVerticalAlignment(PageVerticalAlignment.CENTER);
+ builder.writeln("This is the first section, which landscape oriented with vertically centered text.");
+
+ // If we start a new section using a document builder,
+ // it will inherit the builder's current page setup properties.
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+
+ Assert.assertEquals(Orientation.LANDSCAPE, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.CENTER, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ // We can revert its page setup properties to their default values using the "ClearFormatting" method.
+ builder.getPageSetup().clearFormatting();
+
+ Assert.assertEquals(Orientation.PORTRAIT, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.TOP, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
+ 
+```
+## Felder
+
+| Feld | Beschreibung |
+| --- | --- |
+| [BOTTOM](#BOTTOM) | Der Text ist am unteren Rand der Seite ausgerichtet. |
+| [CENTER](#CENTER) | Der Text ist in der Mitte der Seite ausgerichtet. |
+| [JUSTIFY](#JUSTIFY) | Der Text wird verteilt, um die Seite zu füllen. |
+| [TOP](#TOP) | Der Text ist am oberen Rand der Seite ausgerichtet. |
+| [length](#length) |  |
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int pageVerticalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pageVerticalAlignment)](#toString-int) |  |
+### BOTTOM {#BOTTOM}
+```
+public static int BOTTOM
+```
+
+
+Der Text ist am unteren Rand der Seite ausgerichtet.
+
+### CENTER {#CENTER}
+```
+public static int CENTER
+```
+
+
+Der Text ist in der Mitte der Seite ausgerichtet.
+
+### JUSTIFY {#JUSTIFY}
+```
+public static int JUSTIFY
+```
+
+
+Der Text wird verteilt, um die Seite zu füllen.
+
+### TOP {#TOP}
+```
+public static int TOP
+```
+
+
+Der Text ist am oberen Rand der Seite ausgerichtet.
+
+### length {#length}
+```
+public static int length
+```
+
+
+### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String}
+```
+public static int fromName(String pageVerticalAlignmentName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| pageVerticalAlignmentName | java.lang.String |  |
+
+**Returns:**
+int
+### getName(int pageVerticalAlignment) {#getName-int}
+```
+public static String getName(int pageVerticalAlignment)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| pageVerticalAlignment | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### toString(int pageVerticalAlignment) {#toString-int}
+```
+public static String toString(int pageVerticalAlignment)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| pageVerticalAlignment | int |  |
+
+**Returns:**
+java.lang.String
