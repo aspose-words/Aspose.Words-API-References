@@ -1,13 +1,14 @@
 ---
-title: TextWatermarkOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит параметры, которые можно указать при добавлении водяного знака с текстом.
+title: "TextWatermarkOptions"
+linktitle: "TextWatermarkOptions"
+second_title: "Aspose.Words для Java"
+description: "Содержит параметры, которые можно указать при добавлении текстового водяного знака в Java."
 type: docs
-weight: 569
+weight: 678
 url: /ru/java/com.aspose.words/textwatermarkoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextWatermarkOptions
@@ -15,253 +16,406 @@ public class TextWatermarkOptions
 
 Содержит параметры, которые можно указать при добавлении водяного знака с текстом.
 
- Чтобы узнать больше, посетите**Working with Watermark** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Watermark ][Working with Watermark].
+
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+
+[Working with Watermark]: https://docs.aspose.com/words/java/working-with-watermark/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Получает цвет шрифта. |
-| [getFontFamily()](#getFontFamily--) | Получает имя семейства шрифтов. |
-| [getFontSize()](#getFontSize--) | Получает размер шрифта. |
-| [getLayout()](#getLayout--) | Получает макет водяного знака. |
-| [hashCode()](#hashCode--) |  |
-| [isSemitrasparent()](#isSemitrasparent--) | Получает логическое значение, отвечающее за непрозрачность водяного знака. |
-| [isSemitrasparent(boolean value)](#isSemitrasparent-boolean-) | Устанавливает логическое значение, отвечающее за непрозрачность водяного знака. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Устанавливает цвет шрифта. |
-| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | Устанавливает имя семейства шрифтов. |
-| [setFontSize(float value)](#setFontSize-float-) | Устанавливает размер шрифта. |
-| [setLayout(int value)](#setLayout-int-) | Устанавливает макет водяного знака. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColor() {#getColor--}
+| [getColor()](#getColor) | Получает цвет шрифта. |
+| [getFontFamily()](#getFontFamily) | Получает название семейства шрифта. |
+| [getFontSize()](#getFontSize) | Получает размер шрифта. |
+| [getLayout()](#getLayout) | Получает расположение водяного знака. |
+| [isSemitrasparent()](#isSemitrasparent) | Получает логическое значение, отвечающее за непрозрачность водяного знака. |
+| [isSemitrasparent(boolean value)](#isSemitrasparent-boolean) | Устанавливает логическое значение, отвечающее за непрозрачность водяного знака. |
+| [setColor(Color value)](#setColor-java.awt.Color) | Устанавливает цвет шрифта. |
+| [setFontFamily(String value)](#setFontFamily-java.lang.String) | Устанавливает название семейства шрифта. |
+| [setFontSize(float value)](#setFontSize-float) | Устанавливает размер шрифта. |
+| [setLayout(int value)](#setLayout-int) | Устанавливает расположение водяного знака. |
+### getColor() {#getColor}
 ```
 public Color getColor()
 ```
 
 
-Получает цвет шрифта. Значение по умолчанию — Color.Silver.
+Получает цвет шрифта. Значение по умолчанию — java.awt.Color\#getSilver().getSilver().
 
-**Возвращает:**
-java.awt.Color — цвет шрифта.
-### getFontFamily() {#getFontFamily--}
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Returns:**
+java.awt.Color - Цвет шрифта.
+### getFontFamily() {#getFontFamily}
 ```
 public String getFontFamily()
 ```
 
 
-Получает имя семейства шрифтов. Значение по умолчанию — «Калибри».
+Получает название семейства шрифта. Значение по умолчанию — "Calibri".
 
-**Возвращает:**
-java.lang.String — название семейства шрифтов.
-### getFontSize() {#getFontSize--}
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Returns:**
+java.lang.String - Название семейства шрифта.
+### getFontSize() {#getFontSize}
 ```
 public float getFontSize()
 ```
 
 
-Получает размер шрифта. Значение по умолчанию: 0 — автоматически.
+Получает размер шрифта. Значение по умолчанию — 0 — авто.
 
-Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
-
-Автоматический размер шрифта означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
-
-**Возвращает:**
+**Returns:**
 float — размер шрифта.
-### getLayout() {#getLayout--}
+### getLayout() {#getLayout}
 ```
 public int getLayout()
 ```
 
 
- Получает макет водяного знака. Значение по умолчанию[WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+Получает расположение водяного знака. Значение по умолчанию — [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout/\#DIAGONAL).
 
-**Возвращает:**
- int — макет водяного знака. Возвращаемое значение является одним из[WatermarkLayout](../../com.aspose.words/watermarklayout) константы.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isSemitrasparent() {#isSemitrasparent--}
+**Returns:**
+int — расположение водяного знака. Возвращаемое значение — одна из констант [WatermarkLayout](../../com.aspose.words/watermarklayout/).
+### isSemitrasparent() {#isSemitrasparent}
 ```
 public boolean isSemitrasparent()
 ```
 
 
-Получает логическое значение, отвечающее за непрозрачность водяного знака. Значение по умолчанию верно.
+Получает логическое значение, отвечающее за непрозрачность водяного знака. Значение по умолчанию — true.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Returns:**
 boolean — логическое значение, отвечающее за непрозрачность водяного знака.
-### isSemitrasparent(boolean value) {#isSemitrasparent-boolean-}
+### isSemitrasparent(boolean value) {#isSemitrasparent-boolean}
 ```
 public void isSemitrasparent(boolean value)
 ```
 
 
-Устанавливает логическое значение, отвечающее за непрозрачность водяного знака. Значение по умолчанию верно.
+Устанавливает логическое значение, отвечающее за непрозрачность водяного знака. Значение по умолчанию — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Логическое значение, отвечающее за непрозрачность водяного знака. |
+| значение | boolean | Логическое значение, отвечающее за непрозрачность водяного знака. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setColor(Color value) {#setColor-java.awt.Color-}
+### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
 ```
 
 
-Устанавливает цвет шрифта. Значение по умолчанию — Color.Silver.
+Устанавливает цвет шрифта. Значение по умолчанию — java.awt.Color\#getSilver().getSilver().
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Цвет шрифта. |
+| значение | java.awt.Color | Цвет шрифта. |
 
-### setFontFamily(String value) {#setFontFamily-java.lang.String-}
+### setFontFamily(String value) {#setFontFamily-java.lang.String}
 ```
 public void setFontFamily(String value)
 ```
 
 
-Устанавливает имя семейства шрифтов. Значение по умолчанию — «Калибри».
+Устанавливает название семейства шрифта. Значение по умолчанию — "Calibri".
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Название семейства шрифтов. |
+| значение | java.lang.String | Название семейства шрифта. |
 
-### setFontSize(float value) {#setFontSize-float-}
+### setFontSize(float value) {#setFontSize-float}
 ```
 public void setFontSize(float value)
 ```
 
 
-Устанавливает размер шрифта. Значение по умолчанию: 0 — автоматически.
+Устанавливает размер шрифта. Значение по умолчанию — 0 — авто.
 
-Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
-
-Автоматический размер шрифта означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | float | Размер шрифта. |
+| значение | float | Размер шрифта. |
 
-### setLayout(int value) {#setLayout-int-}
+### setLayout(int value) {#setLayout-int}
 ```
 public void setLayout(int value)
 ```
 
 
- Устанавливает макет водяного знака. Значение по умолчанию[WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+Устанавливает расположение водяного знака. Значение по умолчанию — [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout/\#DIAGONAL).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Макет водяного знака. Значение должно быть одним из[WatermarkLayout](../../com.aspose.words/watermarklayout) константы. |
+| value | int | Расположение водяного знака. Значение должно быть одной из констант [WatermarkLayout](../../com.aspose.words/watermarklayout/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

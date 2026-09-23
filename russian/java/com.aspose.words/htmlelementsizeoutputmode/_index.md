@@ -1,51 +1,103 @@
 ---
-title: HtmlElementSizeOutputMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как Aspose.Words экспортирует ширину и высоту элементов в HTML, MHTML и EPUB.
+title: "HtmlElementSizeOutputMode"
+linktitle: "HtmlElementSizeOutputMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как Aspose.Words экспортирует ширину и высоту элементов в HTML, MHTML и EPUB в Java."
 type: docs
-weight: 324
+weight: 378
 url: /ru/java/com.aspose.words/htmlelementsizeoutputmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlElementSizeOutputMode
 ```
 
 Указывает, как Aspose.Words экспортирует ширину и высоту элементов в HTML, MHTML и EPUB.
+
+ **Examples:** 
+
+Показывает, как сохранить отрицательные отступы в выходном .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table with a negative indent, which will push it to the left past the left page boundary.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(-36);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+ // Insert a table with a positive indent, which will push the table to the right.
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(36.0);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ // When we save a document to HTML, Aspose.Words will only preserve negative indents
+ // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag
+ // in a SaveOptions object that we will pass to "true".
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setAllowNegativeIndent(allowNegativeIndent);
+     options.setTableWidthOutputMode(HtmlElementSizeOutputMode.RELATIVE_ONLY);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html"), StandardCharsets.UTF_8);
+
+ if (allowNegativeIndent) {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ }
+ else
+ {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [ALL](#ALL) | Экспортируются все размеры элементов, как в абсолютных, так и в относительных единицах, указанные в документе. |
+| [ALL](#ALL) | Все размеры элементов, как в абсолютных, так и в относительных единицах, указанные в документе, экспортируются. |
 | [NONE](#NONE) | Размеры элементов не экспортируются. |
-| [RELATIVE_ONLY](#RELATIVE-ONLY) | Размеры элементов экспортируются, только если они указаны в документе в относительных единицах. |
+| [RELATIVE_ONLY](#RELATIVE-ONLY) | Размеры элементов экспортируются только в том случае, если они указаны в документе в относительных единицах. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlElementSizeOutputModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlElementSizeOutputMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlElementSizeOutputMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlElementSizeOutputModeName)](#fromName-java.lang.String) |  |
+| [getName(int htmlElementSizeOutputMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlElementSizeOutputMode)](#toString-int) |  |
 ### ALL {#ALL}
 ```
 public static int ALL
 ```
 
 
-Экспортируются все размеры элементов, как в абсолютных, так и в относительных единицах, указанные в документе.
+Все размеры элементов, как в абсолютных, так и в относительных единицах, указанные в документе, экспортируются.
 
 ### NONE {#NONE}
 ```
@@ -53,7 +105,7 @@ public static int NONE
 ```
 
 
-Размеры элементов не экспортируются. Визуальные агенты будут автоматически строить макет в соответствии с отношениями между элементами.
+Размеры элементов не экспортируются. Визуальные агенты автоматически построят макет в соответствии с взаимосвязью между элементами.
 
 ### RELATIVE_ONLY {#RELATIVE-ONLY}
 ```
@@ -61,7 +113,7 @@ public static int RELATIVE_ONLY
 ```
 
 
-Размеры элементов экспортируются, только если они указаны в документе в относительных единицах. Фиксированные размеры не экспортируются в этом режиме. Визуальные агенты будут вычислять недостающие размеры, чтобы сделать макет документа более естественным.
+Размеры элементов экспортируются только в том случае, если они указаны в относительных единицах в документе. Фиксированные размеры в этом режиме не экспортируются. Визуальные агенты вычислят недостающие размеры, чтобы сделать макет документа более естественным.
 
 ### length {#length}
 ```
@@ -69,23 +121,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlElementSizeOutputModeName) {#fromName-java.lang.String-}
+### fromName(String htmlElementSizeOutputModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlElementSizeOutputModeName)
 ```
@@ -93,25 +129,14 @@ public static int fromName(String htmlElementSizeOutputModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlElementSizeOutputModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlElementSizeOutputMode) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlElementSizeOutputMode) {#getName-int}
 ```
 public static String getName(int htmlElementSizeOutputMode)
 ```
@@ -119,15 +144,14 @@ public static String getName(int htmlElementSizeOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlElementSizeOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +159,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlElementSizeOutputMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlElementSizeOutputMode) {#toString-int}
 ```
 public static String toString(int htmlElementSizeOutputMode)
 ```
@@ -181,47 +169,10 @@ public static String toString(int htmlElementSizeOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlElementSizeOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,60 +1,80 @@
 ---
-title: DocumentSplitCriteria
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как документ разбивается на части при сохранении или форматировании.
+title: "DocumentSplitCriteria"
+linktitle: "DocumentSplitCriteria"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как документ разбивается на части при сохранении в формат SaveFormat.HTML, SaveFormat.EPUB или SaveFormat.AZW_3 в Java."
 type: docs
-weight: 131
+weight: 174
 url: /ru/java/com.aspose.words/documentsplitcriteria/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentSplitCriteria
 ```
 
- Указывает, как документ разбивается на части при сохранении в[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) или же[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) формат.
+Указывает, как документ разбивается на части при сохранении в формат [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) или [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) формат.
 
-[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) представляет собой набор флагов, которые можно комбинировать. Например, вы можете разделить документ на разрывы страниц и абзацы заголовков в одной и той же операции экспорта.
+ **Remarks:** 
 
- Различные критерии могут частично совпадать. Например,**Heading 1** стиль часто дается[ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-) свойство, поэтому оно подпадает под два критерия:[PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria\#PAGE-BREAK) а также[HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH). Некоторые разрывы разделов могут привести к разрывам страниц и так далее. В типичных случаях наиболее практичным вариантом является указание только одного флага.
+[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria/) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
+
+Разные критерии могут частично перекрываться. Например, стиль **Heading 1** часто получает свойство [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat/\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat/\#setPageBreakBefore-boolean) , поэтому он попадает под два критерия: [PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria/\#PAGE-BREAK) и [HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH). Некоторые разрывы разделов могут вызывать разрывы страниц и т.д. В типичных случаях указание только одного флага является наиболее практичным вариантом.
+
+ **Examples:** 
+
+Показывает, как использовать определённую кодировку при сохранении документа в .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [COLUMN_BREAK](#COLUMN-BREAK) | Документ разбивается на части по разрывам столбцов. |
-| [HEADING_PARAGRAPH](#HEADING-PARAGRAPH) |  Документ разбит на части по абзацу, отформатированному с использованием стиля заголовка.**Heading 1**, **Heading 2** и т.п. |
-| [NONE](#NONE) | Документ не разделен. |
-| [PAGE_BREAK](#PAGE-BREAK) | Документ разбит на части по явным разрывам страниц. |
+| [COLUMN_BREAK](#COLUMN-BREAK) | Документ разбивается на части при разрывах колонок. |
+| [HEADING_PARAGRAPH](#HEADING-PARAGRAPH) | Документ разбивается на части в абзаце, отформатированном с помощью стиля заголовка **Heading 1**, **Heading 2** и т.д. |
+| [NONE](#NONE) | Документ не разбивается. |
+| [PAGE_BREAK](#PAGE-BREAK) | Документ разбивается на части при явных разрывах страниц. |
 | [SECTION_BREAK](#SECTION-BREAK) | Документ разбивается на части при разрыве раздела любого типа. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int documentSplitCriteria)](#getName-int-) |  |
-| [getNames(int documentSplitCriteria)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int documentSplitCriteria)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String) |  |
+| [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set) |  |
+| [getName(int documentSplitCriteria)](#getName-int) |  |
+| [getNames(int documentSplitCriteria)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int documentSplitCriteria)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### COLUMN_BREAK {#COLUMN-BREAK}
 ```
 public static int COLUMN_BREAK
 ```
 
 
- Документ разбивается на части по разрывам столбцов. Разрыв столбца может быть указан с помощью[ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar\#COLUMN-BREAK) символ или разрыв раздела, указывающий начало нового раздела в новом столбце.
+Документ разбивается на части при разрывах колонок. Разрыв колонки можно задать символом [ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar/\#COLUMN-BREAK) или разрывом раздела, указывающим начало нового раздела в новой колонке.
 
 ### HEADING_PARAGRAPH {#HEADING-PARAGRAPH}
 ```
@@ -62,7 +82,7 @@ public static int HEADING_PARAGRAPH
 ```
 
 
- Документ разбит на части по абзацу, отформатированному с использованием стиля заголовка.**Heading 1**, **Heading 2** и т.д. Используйте вместе с[HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitHeadingLevel--) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitHeadingLevel-int-) чтобы указать уровни заголовков (от 1 до указанного уровня), на которых следует разделить.
+Документ разбивается на части в абзаце, отформатированном стилем заголовка **Heading 1**, **Heading 2** и т.д. Используйте совместно с [HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions/\#getDocumentSplitHeadingLevel) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setDocumentSplitHeadingLevel-int) для указания уровней заголовков (от 1 до указанного уровня), на которых выполнять разбиение.
 
 ### NONE {#NONE}
 ```
@@ -70,7 +90,7 @@ public static int NONE
 ```
 
 
-Документ не разделен.
+Документ не разбивается.
 
 ### PAGE_BREAK {#PAGE-BREAK}
 ```
@@ -78,7 +98,7 @@ public static int PAGE_BREAK
 ```
 
 
- Документ разбит на части по явным разрывам страниц. Разрыв страницы может быть указан с помощью[ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK) символ разрыва раздела, указывающий начало нового раздела на новой странице, или абзац, который имеет свой[ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore--) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean-) свойство установлено в true .
+Документ разбивается на части при явных разрывах страниц. Разрыв страницы можно задать символом [ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar/\#PAGE-BREAK) , разрывом раздела, указывающим начало нового раздела на новой странице, или абзацем, у которого свойство [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat/\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat/\#setPageBreakBefore-boolean) установлено в true .
 
 ### SECTION_BREAK {#SECTION-BREAK}
 ```
@@ -94,23 +114,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String-}
+### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String}
 ```
 public static int fromName(String documentSplitCriteriaName)
 ```
@@ -118,15 +122,14 @@ public static int fromName(String documentSplitCriteriaName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSplitCriteriaName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set documentSplitCriteriaNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set documentSplitCriteriaNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set documentSplitCriteriaNames)
 ```
@@ -134,25 +137,14 @@ public static int fromNames(Set documentSplitCriteriaNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSplitCriteriaNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int documentSplitCriteria) {#getName-int-}
+**Returns:**
+int
+### getName(int documentSplitCriteria) {#getName-int}
 ```
 public static String getName(int documentSplitCriteria)
 ```
@@ -160,15 +152,14 @@ public static String getName(int documentSplitCriteria)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int documentSplitCriteria) {#getNames-int-}
+### getNames(int documentSplitCriteria) {#getNames-int}
 ```
 public static Set getNames(int documentSplitCriteria)
 ```
@@ -176,15 +167,14 @@ public static Set getNames(int documentSplitCriteria)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -192,45 +182,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int documentSplitCriteria) {#toString-int-}
+**Returns:**
+int[]
+### toString(int documentSplitCriteria) {#toString-int}
 ```
 public static String toString(int documentSplitCriteria)
 ```
@@ -238,15 +192,14 @@ public static String toString(int documentSplitCriteria)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSplitCriteria | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -254,47 +207,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,51 +1,97 @@
 ---
-title: ShowInBalloons
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, какие ревизии отображаются во всплывающих подсказках.
+title: "ShowInBalloons"
+linktitle: "ShowInBalloons"
+second_title: "Aspose.Words для Java"
+description: "Указывает, какие изменения отображаются в виде баллонов в Java."
 type: docs
-weight: 522
+weight: 619
 url: /ru/java/com.aspose.words/showinballoons/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ShowInBalloons
 ```
 
- Указывает, какие ревизии отображаются во всплывающих подсказках. Обратите внимание, что исправления не отображаются во всплывающих подсказках для[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Указывает, какие версии отображаются в облачках.
+
+ **Remarks:** 
+
+Обратите внимание, что правки не отображаются в облачках для [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode/\#SHOW-IN-ANNOTATIONS).
+
+ **Examples:** 
+
+Показывает, как изменить внешний вид исправлений.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ // Get the RevisionOptions object that controls the appearance of revisions.
+ RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
+
+ // Render insertion revisions in green and italic.
+ revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
+ revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
+
+ // Render deletion revisions in red and bold.
+ revisionOptions.setDeletedTextColor(RevisionColor.RED);
+ revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
+
+ // The same text will appear twice in a movement revision:
+ // once at the departure point and once at the arrival destination.
+ // Render the text at the moved-from revision yellow with a double strike through
+ // and double-underlined blue at the moved-to revision.
+ revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
+ revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
+ revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
+ revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
+
+ // Render format revisions in dark red and bold.
+ revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
+ revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
+
+ // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
+ revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
+ revisionOptions.setRevisionBarsWidth(15.0f);
+
+ // Show revision marks and original text.
+ revisionOptions.setShowOriginalRevision(true);
+ revisionOptions.setShowRevisionMarks(true);
+
+ // Get movement, deletion, formatting revisions, and comments to show up in green balloons
+ // on the right side of the page.
+ revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
+ revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
+
+ // These features are only applicable to formats such as .pdf or .jpg.
+ doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FORMAT](#FORMAT) | Визуализирует встроенные вставки и удаления ревизий, форматирует ревизии во всплывающих подсказках. |
-| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | Визуализирует встроенные исправления, удаляет и форматирует исправления во всплывающих подсказках. |
-| [NONE](#NONE) | Визуализирует встроенные вставки, удаления и форматирования ревизий. |
+| [FORMAT](#FORMAT) | Отображает вставки и удаления изменений в строке, а изменения форматирования — в баллонах. |
+| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | Отображает вставки изменений в строке, а удаления и изменения форматирования — в баллонах. |
+| [NONE](#NONE) | Отображает вставки, удаления и изменения форматирования в строке. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String showInBalloonsName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int showInBalloons)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int showInBalloons)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String showInBalloonsName)](#fromName-java.lang.String) |  |
+| [getName(int showInBalloons)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int showInBalloons)](#toString-int) |  |
 ### FORMAT {#FORMAT}
 ```
 public static int FORMAT
 ```
 
 
-Визуализирует встроенные вставки и удаления ревизий, форматирует ревизии во всплывающих подсказках.
+Отображает вставки и удаления изменений в строке, а изменения форматирования — в баллонах.
 
 ### FORMAT_AND_DELETE {#FORMAT-AND-DELETE}
 ```
@@ -53,7 +99,7 @@ public static int FORMAT_AND_DELETE
 ```
 
 
-Визуализирует встроенные исправления, удаляет и форматирует исправления во всплывающих подсказках.
+Отображает вставки изменений в строке, а удаления и изменения форматирования — в баллонах.
 
 ### NONE {#NONE}
 ```
@@ -61,7 +107,7 @@ public static int NONE
 ```
 
 
-Визуализирует встроенные вставки, удаления и форматирования ревизий.
+Отображает вставки, удаления и изменения форматирования в строке.
 
 ### length {#length}
 ```
@@ -69,23 +115,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String showInBalloonsName) {#fromName-java.lang.String-}
+### fromName(String showInBalloonsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String showInBalloonsName)
 ```
@@ -93,25 +123,14 @@ public static int fromName(String showInBalloonsName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | showInBalloonsName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int showInBalloons) {#getName-int-}
+**Returns:**
+int
+### getName(int showInBalloons) {#getName-int}
 ```
 public static String getName(int showInBalloons)
 ```
@@ -119,15 +138,14 @@ public static String getName(int showInBalloons)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +153,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int showInBalloons) {#toString-int-}
+**Returns:**
+int[]
+### toString(int showInBalloons) {#toString-int}
 ```
 public static String toString(int showInBalloons)
 ```
@@ -181,47 +163,10 @@ public static String toString(int showInBalloons)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

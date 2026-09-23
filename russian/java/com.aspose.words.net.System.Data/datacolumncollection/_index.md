@@ -1,123 +1,111 @@
 ---
-title: DataColumnCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет коллекцию объектов для .
+title: "DataColumnCollection"
+linktitle: "DataColumnCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию объектов DataColumn для DataTable в Java."
 type: docs
 weight: 15
 url: /ru/java/com.aspose.words.net.system.data/datacolumncollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DataColumnCollection implements Iterable
 ```
 
- Представляет собой совокупность[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для[DataTable](../../com.aspose.words.net.system.data/datatable).
+Представляет коллекцию объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для [DataTable](../../com.aspose.words.net.system.data/datatable/).
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(System.Data.DataColumn column)](#add-com.aspose.words.net.System.Data.DataColumn-) |  Создает и добавляет указанный[DataColumn](../../com.aspose.words.net.system.data/datacolumn) возражать против[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [add(String columnName)](#add-java.lang.String-) |  Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем для[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [add(String columnName, Class type)](#add-java.lang.String-java.lang.Class-) |  Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем и типом для[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.Class-int-boolean-boolean-) |  Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) с указанным именем, типом и конкретными значениями в коллекцию столбцов. |
-| [clear()](#clear--) | Очищает коллекцию любых столбцов. |
-| [contains(String name)](#contains-java.lang.String-) | Проверяет, содержит ли коллекция столбец с указанным именем. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) |  Получает[DataColumn](../../com.aspose.words.net.system.data/datacolumn) из коллекции по указанному индексу. |
-| [get(String name)](#get-java.lang.String-) |  Получает[DataColumn](../../com.aspose.words.net.system.data/datacolumn) из коллекции с указанным именем. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn-) | Получает индекс столбца, указанного по имени. |
-| [indexOf(String columnName)](#indexOf-java.lang.String-) | Получает индекс столбца с определенным именем (имя не чувствительно к регистру). |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(System.Data.DataColumn column)](#remove-com.aspose.words.net.System.Data.DataColumn-) |  Удаляет указанный[DataColumn](../../com.aspose.words.net.system.data/datacolumn) предмет из коллекции. |
-| [remove(String name)](#remove-java.lang.String-) |  Удаляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем из коллекции. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(System.Data.DataColumn column) {#add-com.aspose.words.net.System.Data.DataColumn-}
+| [add(System.Data.DataColumn column)](#add-com.aspose.words.net.System.Data.DataColumn) | Создаёт и добавляет указанный объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [add(String columnName)](#add-java.lang.String) | Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [add(String columnName, Class type)](#add-java.lang.String-java.lang.Class) | Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем и типом в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
+| [add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.Class-int-boolean-boolean) | Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем, типом и конкретными значениями в коллекцию столбцов. |
+| [clear()](#clear) | Очищает коллекцию от всех столбцов. |
+| [contains(String name)](#contains-java.lang.String) | Проверяет, содержит ли коллекция столбец с указанным именем. |
+| [get(int index)](#get-int) | Возвращает [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции по указанному индексу. |
+| [get(String name)](#get-java.lang.String) | Возвращает [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции с указанным именем. |
+| [getCount()](#getCount) |  |
+| [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn) | Получает индекс столбца, указанного по имени. |
+| [indexOf(String columnName)](#indexOf-java.lang.String) | Получает индекс столбца с указанным именем (имя не чувствительно к регистру). |
+| [iterator()](#iterator) |  |
+| [remove(System.Data.DataColumn column)](#remove-com.aspose.words.net.System.Data.DataColumn) | Удаляет указанный объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции. |
+| [remove(String name)](#remove-java.lang.String) | Удаляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), имеющий указанное имя, из коллекции. |
+### add(System.Data.DataColumn column) {#add-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void add(System.Data.DataColumn column)
 ```
 
 
- Создает и добавляет указанный[DataColumn](../../com.aspose.words.net.system.data/datacolumn) возражать против[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+Создаёт и добавляет указанный объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) добавить. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для добавления. |
 
-### add(String columnName) {#add-java.lang.String-}
+### add(String columnName) {#add-java.lang.String}
 ```
 public void add(String columnName)
 ```
 
 
- Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем для[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | columnName | java.lang.String | Имя столбца. |
 
-### add(String columnName, Class type) {#add-java.lang.String-java.lang.Class-}
+### add(String columnName, Class type) {#add-java.lang.String-java.lang.Class}
 ```
 public System.Data.DataColumn add(String columnName, Class type)
 ```
 
 
- Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем и типом для[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем и типом в [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnName | java.lang.String | [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) для использования при создании столбца. |
-| type | java.lang.Class | [DataColumn.getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [DataColumn.setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-) новой колонки. |
+| columnName | java.lang.String | Методы [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String), используемые при создании столбца. |
+| type | java.lang.Class | Методы [DataColumn.getDataType()](../../com.aspose.words.net.system.data/datacolumn/\#getDataType) / [DataColumn.setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn/\#setDataType-java.lang.Class) нового столбца. |
 
-**Возвращает:**
-[DataColumn](../../com.aspose.words.net.system.data/datacolumn) - Вновь созданный[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
-### add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull) {#add-java.lang.String-java.lang.Class-int-boolean-boolean-}
+**Returns:**
+[DataColumn](../../com.aspose.words.net.system.data/datacolumn/) - The newly created [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
+### add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull) {#add-java.lang.String-java.lang.Class-int-boolean-boolean}
 ```
 public System.Data.DataColumn add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)
 ```
 
 
- Создает и добавляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) с указанным именем, типом и конкретными значениями в коллекцию столбцов.
+Создаёт и добавляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) с указанным именем, типом и конкретными значениями в коллекцию столбцов.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnName | java.lang.String | имя |
-| type | java.lang.Class | тип данных |
+| columnName | java.lang.String | name |
+| тип | java.lang.Class | тип данных |
 | columnMapping | int | тип сопоставления столбцов |
-| allowAutoIncrement | boolean | разрешено ли автоматическое увеличение |
-| allowDBNull | boolean | допустимо ли значение DBNull |
+| allowAutoIncrement | boolean | разрешён ли автоинкремент |
+| allowDBNull | boolean | разрешено ли значение DBNull |
 
-**Возвращает:**
-[DataColumn](../../com.aspose.words.net.system.data/datacolumn) - создал[DataColumn](../../com.aspose.words.net.system.data/datacolumn) пример.
-### clear() {#clear--}
+**Returns:**
+[DataColumn](../../com.aspose.words.net.system.data/datacolumn/) - created a [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) instance.
+### clear() {#clear}
 ```
 public void clear()
 ```
 
 
-Очищает коллекцию любых столбцов.
+Очищает коллекцию от всех столбцов.
 
-### contains(String name) {#contains-java.lang.String-}
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
@@ -125,73 +113,44 @@ public boolean contains(String name)
 
 Проверяет, содержит ли коллекция столбец с указанным именем.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) столбца для поиска. |
+| name | java.lang.String | Методы [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String) столбца, который нужно найти. |
 
-**Возвращает:**
-boolean - true, если столбец с таким именем существует; в противном случае ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean — true, если столбец с таким именем существует; иначе false.
+### get(int index) {#get-int}
 ```
 public System.Data.DataColumn get(int index)
 ```
 
 
- Получает[DataColumn](../../com.aspose.words.net.system.data/datacolumn) из коллекции по указанному индексу.
+Возвращает [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции по указанному индексу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс возвращаемого столбца. |
+| индекс | int | Нулевой индекс столбца, который нужно вернуть. |
 
-**Возвращает:**
-[DataColumn](../../com.aspose.words.net.system.data/datacolumn) -[DataColumn](../../com.aspose.words.net.system.data/datacolumn) по указанному индексу.
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+[DataColumn](../../com.aspose.words.net.system.data/datacolumn/) - The [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) at the specified index.
+### get(String name) {#get-java.lang.String}
 ```
 public System.Data.DataColumn get(String name)
 ```
 
 
- Получает[DataColumn](../../com.aspose.words.net.system.data/datacolumn) из коллекции с указанным именем.
+Возвращает [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции с указанным именем.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) столбца для возврата. |
+| name | java.lang.String | Методы [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String) столбца, который нужно вернуть. |
 
-**Возвращает:**
-[DataColumn](../../com.aspose.words.net.system.data/datacolumn) -[DataColumn](../../com.aspose.words.net.system.data/datacolumn) в сборе с указанным[DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) ; в противном случае нулевое значение, если[DataColumn](../../com.aspose.words.net.system.data/datacolumn) не существует.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[DataColumn](../../com.aspose.words.net.system.data/datacolumn/) - The [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) in the collection with the specified [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String); otherwise a null value if the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) does not exist.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -199,19 +158,9 @@ public int getCount()
 
 
 
-**Возвращает:**
-int - общее количество элементов в коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### indexOf(System.Data.DataColumn column) {#indexOf-com.aspose.words.net.System.Data.DataColumn-}
+**Returns:**
+int — общее количество элементов в коллекции.
+### indexOf(System.Data.DataColumn column) {#indexOf-com.aspose.words.net.System.Data.DataColumn}
 ```
 public int indexOf(System.Data.DataColumn column)
 ```
@@ -219,31 +168,29 @@ public int indexOf(System.Data.DataColumn column)
 
 Получает индекс столбца, указанного по имени.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | Имя возвращаемого столбца. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Имя столбца, который нужно вернуть. |
 
-**Возвращает:**
-int - Индекс столбца, заданный столбцом, если он найден; иначе -1.
-### indexOf(String columnName) {#indexOf-java.lang.String-}
+**Returns:**
+int — индекс столбца, указанного по имени, если он найден; иначе -1.
+### indexOf(String columnName) {#indexOf-java.lang.String}
 ```
 public int indexOf(String columnName)
 ```
 
 
-Получает индекс столбца с определенным именем (имя не чувствительно к регистру).
+Получает индекс столбца с указанным именем (имя не чувствительно к регистру).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnName | java.lang.String | Имя столбца, который необходимо найти. |
+| columnName | java.lang.String | Имя столбца для поиска. |
 
-**Возвращает:**
-int — отсчитываемый от нуля индекс столбца с указанным именем или -1, если столбец не существует в коллекции.
-### iterator() {#iterator--}
+**Returns:**
+int — нулевой индекс столбца с указанным именем, или -1, если столбец не существует в коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -251,95 +198,31 @@ public Iterator iterator()
 
 
 
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(System.Data.DataColumn column) {#remove-com.aspose.words.net.System.Data.DataColumn-}
+### remove(System.Data.DataColumn column) {#remove-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void remove(System.Data.DataColumn column)
 ```
 
 
- Удаляет указанный[DataColumn](../../com.aspose.words.net.system.data/datacolumn) предмет из коллекции.
+Удаляет указанный объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) из коллекции.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) удалять. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для удаления. |
 
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
 
 
- Удаляет[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объект с указанным именем из коллекции.
+Удаляет объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/), имеющий указанное имя, из коллекции.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Имя столбца, который необходимо удалить. |
+| name | java.lang.String | Имя столбца, который нужно удалить. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

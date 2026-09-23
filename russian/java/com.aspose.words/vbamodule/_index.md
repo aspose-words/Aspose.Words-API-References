@@ -1,94 +1,143 @@
 ---
-title: VbaModule
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет доступ к модулю проекта VBA.
+title: "VbaModule"
+linktitle: "VbaModule"
+second_title: "Aspose.Words для Java"
+description: "Обеспечивает доступ к модулю проекта VBA в Java."
 type: docs
-weight: 593
+weight: 706
 url: /ru/java/com.aspose.words/vbamodule/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class VbaModule implements Cloneable
 ```
 
-Предоставляет доступ к модулю проекта VBA.
+Обеспечивает доступ к модулю проекта VBA.
 
- Чтобы узнать больше, посетите**Working with VBA Macros** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with VBA Macros ][Working with VBA Macros].
+
+ **Examples:** 
+
+Показывает, как получить доступ к информации о VBA‑проекте документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+
+[Working with VBA Macros]: https://docs.aspose.com/words/java/working-with-vba-macros/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [VbaModule()](#VbaModule--) | Создает пустой модуль. |
+| [VbaModule()](#VbaModule) | Создаёт пустой модуль. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) |  Выполняет копию[VbaModule](../../com.aspose.words/vbamodule). |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Получает имя модуля проекта VBA. |
-| [getSourceCode()](#getSourceCode--) | Получает исходный код модуля проекта VBA. |
-| [getType()](#getType--) | Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или модулем конструктора. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Задает имя модуля проекта VBA. |
-| [setSourceCode(String value)](#setSourceCode-java.lang.String-) | Задает исходный код модуля проекта VBA. |
-| [setType(int value)](#setType-int-) | Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или модулем конструктора. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VbaModule() {#VbaModule--}
+| [deepClone()](#deepClone) | Выполняет копирование [VbaModule](../../com.aspose.words/vbamodule/). |
+| [getName()](#getName) | Получает имя модуля проекта VBA. |
+| [getSourceCode()](#getSourceCode) | Получает исходный код модуля проекта VBA. |
+| [getType()](#getType) | Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или дизайнерским модулем. |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает имя модуля проекта VBA. |
+| [setSourceCode(String value)](#setSourceCode-java.lang.String) | Устанавливает исходный код модуля проекта VBA. |
+| [setType(int value)](#setType-int) | Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или дизайнерским модулем. |
+### VbaModule() {#VbaModule}
 ```
 public VbaModule()
 ```
 
 
-Создает пустой модуль.
+Создаёт пустой модуль.
 
-### deepClone() {#deepClone--}
+ **Examples:** 
+
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+### deepClone() {#deepClone}
 ```
 public VbaModule deepClone()
 ```
 
 
- Выполняет копию[VbaModule](../../com.aspose.words/vbamodule).
+Выполняет копирование [VbaModule](../../com.aspose.words/vbamodule/).
 
-**Возвращает:**
-[VbaModule](../../com.aspose.words/vbamodule) - Клонированный VbaModule.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как глубоко клонировать проект VBA и модуль.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+ Document destDoc = new Document();
 
+ VbaProject copyVbaProject = doc.getVbaProject().deepClone();
+ destDoc.setVbaProject(copyVbaProject);
 
+ // In the destination document, we already have a module named "Module1"
+ // because we cloned it along with the project. We will need to remove the module.
+ VbaModule oldVbaModule = destDoc.getVbaProject().getModules().get("Module1");
+ VbaModule copyVbaModule = doc.getVbaProject().getModules().get("Module1").deepClone();
+ destDoc.getVbaProject().getModules().remove(oldVbaModule);
+ destDoc.getVbaProject().getModules().add(copyVbaModule);
 
-**Возвращает:**
-java.lang.Класс<?>
-### getName() {#getName--}
+ destDoc.save(getArtifactsDir() + "VbaProject.CloneVbaProject.docm");
+ 
+```
+
+**Returns:**
+[VbaModule](../../com.aspose.words/vbamodule/) - The cloned [VbaModule](../../com.aspose.words/vbamodule/).
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -96,9 +145,64 @@ public String getName()
 
 Получает имя модуля проекта VBA.
 
-**Возвращает:**
-java.lang.String — имя модуля проекта VBA.
-### getSourceCode() {#getSourceCode--}
+ **Examples:** 
+
+Показывает, как получить доступ к информации о VBA‑проекте документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+**Returns:**
+java.lang.String - имя модуля проекта VBA.
+### getSourceCode() {#getSourceCode}
 ```
 public String getSourceCode()
 ```
@@ -106,129 +210,271 @@ public String getSourceCode()
 
 Получает исходный код модуля проекта VBA.
 
-**Возвращает:**
-java.lang.String — исходный код модуля проекта VBA.
-### getType() {#getType--}
+ **Examples:** 
+
+Показывает, как получить доступ к информации о VBA‑проекте документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+**Returns:**
+java.lang.String - исходный код модуля проекта VBA.
+### getType() {#getType}
 ```
 public int getType()
 ```
 
 
-Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или модулем конструктора.
+Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или дизайнерским модулем.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[VbaModuleType](../../com.aspose.words/vbamoduletype) константы.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как создать проект VBA с использованием макросов.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
 
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
 
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
 
-### notifyAll() {#notifyAll--}
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setName(String value) {#setName-java.lang.String-}
+**Returns:**
+int - Соответствующее значение int. Возвращаемое значение является одной из констант [VbaModuleType](../../com.aspose.words/vbamoduletype/).
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
 
 
-Задает имя модуля проекта VBA.
+Устанавливает имя модуля проекта VBA.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к информации о VBA‑проекте документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя модуля проекта VBA. |
+| значение | java.lang.String | Имя модуля проекта VBA. |
 
-### setSourceCode(String value) {#setSourceCode-java.lang.String-}
+### setSourceCode(String value) {#setSourceCode-java.lang.String}
 ```
 public void setSourceCode(String value)
 ```
 
 
-Задает исходный код модуля проекта VBA.
+Устанавливает исходный код модуля проекта VBA.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к информации о VBA‑проекте документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Исходный код модуля проекта VBA. |
+| значение | java.lang.String | Исходный код модуля проекта VBA. |
 
-### setType(int value) {#setType-int-}
+### setType(int value) {#setType-int}
 ```
 public void setType(int value)
 ```
 
 
-Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или модулем конструктора.
+Указывает, является ли модуль процедурным модулем, модулем документа, модулем класса или дизайнерским модулем.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать проект VBA с использованием макросов.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[VbaModuleType](../../com.aspose.words/vbamoduletype) константы. |
+| value | int | Соответствующее значение int. Значение должно быть одной из констант [VbaModuleType](../../com.aspose.words/vbamoduletype/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

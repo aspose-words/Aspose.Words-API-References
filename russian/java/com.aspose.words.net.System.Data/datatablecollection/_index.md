@@ -1,44 +1,37 @@
 ---
-title: DataTableCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет коллекцию таблиц для .
+title: "DataTableCollection"
+linktitle: "DataTableCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию таблиц для DataSet в Java."
 type: docs
 weight: 26
 url: /ru/java/com.aspose.words.net.system.data/datatablecollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DataTableCollection implements Iterable
 ```
 
- Представляет набор таблиц для[DataSet](../../com.aspose.words.net.system.data/dataset).
+Представляет коллекцию таблиц для [DataSet](../../com.aspose.words.net.system.data/dataset/).
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable-) | Добавляет указанный DataTable в коллекцию. |
-| [add(String name)](#add-java.lang.String-) |  Создает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с использованием указанного имени и добавляет его в коллекцию. |
-| [contains(String name)](#contains-java.lang.String-) |  Получает значение, указывающее, является ли[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем существует в коллекции. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) |  Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект по указанному индексу. |
-| [get(String name)](#get-java.lang.String-) |  Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем. |
-| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String-) |  Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем в указанном пространстве имен. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(System.Data.DataTable table) {#add-com.aspose.words.net.System.Data.DataTable-}
+| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable) | Добавляет указанный DataTable в коллекцию. |
+| [add(String name)](#add-java.lang.String) | Создаёт объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем и добавляет его в коллекцию. |
+| [contains(String name)](#contains-java.lang.String) | Возвращает значение, указывающее, существует ли объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем в коллекции. |
+| [get(int index)](#get-int) | Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) по указанному индексу. |
+| [get(String name)](#get-java.lang.String) | Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем. |
+| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String) | Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем в указанном пространстве имён. |
+| [getCount()](#getCount) |  |
+| [iterator()](#iterator) |  |
+| [remove(String name)](#remove-java.lang.String) | Удаляет объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем из коллекции. |
+### add(System.Data.DataTable table) {#add-com.aspose.words.net.System.Data.DataTable}
 ```
 public void add(System.Data.DataTable table)
 ```
@@ -46,120 +39,88 @@ public void add(System.Data.DataTable table)
 
 Добавляет указанный DataTable в коллекцию.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | Добавляемый объект DataTable. |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Объект DataTable для добавления. |
 
-### add(String name) {#add-java.lang.String-}
+### add(String name) {#add-java.lang.String}
 ```
 public System.Data.DataTable add(String name)
 ```
 
 
- Создает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с использованием указанного имени и добавляет его в коллекцию.
+Создаёт объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем и добавляет его в коллекцию.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String |  Имя, которое нужно дать созданному[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| name | java.lang.String | Имя, которое будет присвоено созданному объекту [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - Вновь созданный[DataTable](../../com.aspose.words.net.system.data/datatable).
-### contains(String name) {#contains-java.lang.String-}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - The newly created [DataTable](../../com.aspose.words.net.system.data/datatable/).
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
- Получает значение, указывающее, является ли[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем существует в коллекции.
+Возвращает значение, указывающее, существует ли объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем в коллекции.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String |  Имя[DataTable](../../com.aspose.words.net.system.data/datatable) найти. |
+| name | java.lang.String | Имя [DataTable](../../com.aspose.words.net.system.data/datatable/) для поиска. |
 
-**Возвращает:**
-boolean - true, если указанная таблица существует; иначе ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean — true, если указанная таблица существует; иначе false.
+### get(int index) {#get-int}
 ```
 public System.Data.DataTable get(int index)
 ```
 
 
- Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект по указанному индексу.
+Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) по указанному индексу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  Отсчитываемый от нуля индекс[DataTable](../../com.aspose.words.net.system.data/datatable) найти. |
+| index | int | Нулевой индекс [DataTable](../../com.aspose.words.net.system.data/datatable/) для поиска. |
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - А[DataTable](../../com.aspose.words.net.system.data/datatable).
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/).
+### get(String name) {#get-java.lang.String}
 ```
 public System.Data.DataTable get(String name)
 ```
 
 
- Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем.
+Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | java.lang.String | Имя DataTable для поиска. |
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - А[DataTable](../../com.aspose.words.net.system.data/datatable) с указанным именем; в противном случае null, если[DataTable](../../com.aspose.words.net.system.data/datatable) не существует.
-### get(String name, String tableNamespace) {#get-java.lang.String-java.lang.String-}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable/) does not exist.
+### get(String name, String tableNamespace) {#get-java.lang.String-java.lang.String}
 ```
 public System.Data.DataTable get(String name, String tableNamespace)
 ```
 
 
- Получает[DataTable](../../com.aspose.words.net.system.data/datatable) объект с указанным именем в указанном пространстве имен.
+Возвращает объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем в указанном пространстве имён.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | java.lang.String | Имя DataTable для поиска. |
-| tableNamespace | java.lang.String |  Имя[DataTable](../../com.aspose.words.net.system.data/datatable) пространство имен для поиска. |
+| tableNamespace | java.lang.String | Имя пространства имён [DataTable](../../com.aspose.words.net.system.data/datatable/), в котором следует искать. |
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - А[DataTable](../../com.aspose.words.net.system.data/datatable) с указанным именем; в противном случае null, если[DataTable](../../com.aspose.words.net.system.data/datatable) не существует.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable/) does not exist.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -167,19 +128,9 @@ public int getCount()
 
 
 
-**Возвращает:**
-int - общее количество элементов в этой коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int — общее количество элементов в этой коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -187,67 +138,20 @@ public Iterator iterator()
 
 
 
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
+### remove(String name) {#remove-java.lang.String}
 ```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
+public System.Data.DataTable remove(String name)
 ```
 
 
+Удаляет объект [DataTable](../../com.aspose.words.net.system.data/datatable/) с указанным именем из коллекции.
 
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | long |  |
+| name | java.lang.String | Имя объекта [DataTable](../../com.aspose.words.net.system.data/datatable/) для удаления. |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/)

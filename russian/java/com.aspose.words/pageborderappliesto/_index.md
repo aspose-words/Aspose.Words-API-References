@@ -1,19 +1,43 @@
 ---
-title: PageBorderAppliesTo
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, на каких страницах печатается граница страницы.
+title: "PageBorderAppliesTo"
+linktitle: "PageBorderAppliesTo"
+second_title: "Aspose.Words для Java"
+description: "Указывает, на каких страницах печатается граница страницы в Java."
 type: docs
-weight: 432
+weight: 510
 url: /ru/java/com.aspose.words/pageborderappliesto/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageBorderAppliesTo
 ```
 
 Указывает, на каких страницах печатается граница страницы.
+
+ **Examples:** 
+
+Показывает, как создать широкую синюю полосу‑границу в верхней части первой страницы.
+
+```
+
+ Document doc = new Document();
+
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setBorderAlwaysInFront(false);
+ pageSetup.setBorderDistanceFrom(PageBorderDistanceFrom.PAGE_EDGE);
+ pageSetup.setBorderAppliesTo(PageBorderAppliesTo.FIRST_PAGE);
+
+ Border border = pageSetup.getBorders().getByBorderType(BorderType.TOP);
+ border.setLineStyle(LineStyle.SINGLE);
+ border.setLineWidth(30.0);
+ border.setColor(Color.BLUE);
+ border.setDistanceFromText(0.0);
+
+ doc.save(getArtifactsDir() + "PageSetup.PageBorderProperties.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -26,19 +50,10 @@ public class PageBorderAppliesTo
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pageBorderAppliesToName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pageBorderAppliesTo)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pageBorderAppliesTo)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pageBorderAppliesToName)](#fromName-java.lang.String) |  |
+| [getName(int pageBorderAppliesTo)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pageBorderAppliesTo)](#toString-int) |  |
 ### ALL_PAGES {#ALL-PAGES}
 ```
 public static int ALL_PAGES
@@ -69,23 +84,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pageBorderAppliesToName) {#fromName-java.lang.String-}
+### fromName(String pageBorderAppliesToName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pageBorderAppliesToName)
 ```
@@ -93,25 +92,14 @@ public static int fromName(String pageBorderAppliesToName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderAppliesToName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pageBorderAppliesTo) {#getName-int-}
+**Returns:**
+int
+### getName(int pageBorderAppliesTo) {#getName-int}
 ```
 public static String getName(int pageBorderAppliesTo)
 ```
@@ -119,15 +107,14 @@ public static String getName(int pageBorderAppliesTo)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +122,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pageBorderAppliesTo) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pageBorderAppliesTo) {#toString-int}
 ```
 public static String toString(int pageBorderAppliesTo)
 ```
@@ -181,47 +132,10 @@ public static String toString(int pageBorderAppliesTo)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,19 +1,52 @@
 ---
-title: PdfImageCompression
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип сжатия, применяемый к изображениям в файле PDF.
+title: "PdfImageCompression"
+linktitle: "PdfImageCompression"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип сжатия, применяемого к изображениям в PDF‑файле в Java."
 type: docs
-weight: 457
+weight: 537
 url: /ru/java/com.aspose.words/pdfimagecompression/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfImageCompression
 ```
 
-Указывает тип сжатия, применяемый к изображениям в файле PDF.
+Указывает тип сжатия, применяемый к изображениям в PDF‑файле.
+
+ **Examples:** 
+
+Показывает, как указать тип сжатия для всех изображений в документе, который мы конвертируем в PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageCompression" property to "PdfImageCompression.Auto" to use the
+ // "ImageCompression" property to control the quality of the Jpeg images that end up in the output PDF.
+ // Set the "ImageCompression" property to "PdfImageCompression.Jpeg" to use the
+ // "ImageCompression" property to control the quality of all images that end up in the output PDF.
+ pdfSaveOptions.setImageCompression(pdfImageCompression);
+
+ // Set the "JpegQuality" property to "10" to strengthen compression at the cost of image quality.
+ pdfSaveOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +58,10 @@ public class PdfImageCompression
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfImageCompressionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfImageCompression)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfImageCompression)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfImageCompressionName)](#fromName-java.lang.String) |  |
+| [getName(int pdfImageCompression)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfImageCompression)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -60,23 +84,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfImageCompressionName) {#fromName-java.lang.String-}
+### fromName(String pdfImageCompressionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfImageCompressionName)
 ```
@@ -84,25 +92,14 @@ public static int fromName(String pdfImageCompressionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageCompressionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfImageCompression) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfImageCompression) {#getName-int}
 ```
 public static String getName(int pdfImageCompression)
 ```
@@ -110,15 +107,14 @@ public static String getName(int pdfImageCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +122,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfImageCompression) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfImageCompression) {#toString-int}
 ```
 public static String toString(int pdfImageCompression)
 ```
@@ -172,47 +132,10 @@ public static String toString(int pdfImageCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

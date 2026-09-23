@@ -1,96 +1,163 @@
 ---
-title: ViewOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет различные параметры, управляющие отображением документа в Microsoft Word.
+title: "ViewOptions"
+linktitle: "ViewOptions"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет различные параметры, которые управляют тем, как документ отображается в Microsoft Word на Java."
 type: docs
-weight: 601
+weight: 714
 url: /ru/java/com.aspose.words/viewoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ViewOptions implements Cloneable
 ```
 
-Предоставляет различные параметры, управляющие отображением документа в Microsoft Word.
+Предоставляет различные параметры, контролирующие отображение документа в Microsoft Word.
 
- Чтобы узнать больше, посетите**Work with Options and Appearance of Word Documents** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Options and Appearance of Word Documents ][Work with Options and Appearance of Word Documents].
+
+ **Examples:** 
+
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+Показывает, как установить пользовательский тип масштабирования, который более старые версии Microsoft Word применят к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Set the "ZoomType" property to "ZoomType.PageWidth" to get Microsoft Word
+ // to automatically zoom the document to fit the width of the page.
+ // Set the "ZoomType" property to "ZoomType.FullPage" to get Microsoft Word
+ // to automatically zoom the document to make the entire first page visible.
+ // Set the "ZoomType" property to "ZoomType.TextFit" to get Microsoft Word
+ // to automatically zoom the document to fit the inner text margins of the first page.
+ doc.getViewOptions().setZoomType(zoomType);
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomType.doc");
+ 
+```
+
+
+[Work with Options and Appearance of Word Documents]: https://docs.aspose.com/words/java/work-with-word-document-options-and-appearance/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDisplayBackgroundShape()](#getDisplayBackgroundShape--) | Управляет отображением формы фона в представлении макета печати. |
-| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries--) | Отключает отображение пространства между верхней частью текста и верхним краем страницы. |
-| [getFormsDesign()](#getFormsDesign--) | Указывает, находится ли документ в режиме разработки форм. |
-| [getViewType()](#getViewType--) | Управляет режимом просмотра в Microsoft Word. |
-| [getZoomPercent()](#getZoomPercent--) | Получает процент (от 10 до 500), при котором вы хотите просмотреть документ. |
-| [getZoomType()](#getZoomType--) | Получает значение масштабирования в зависимости от размера окна. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean-) | Управляет отображением формы фона в представлении макета печати. |
-| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean-) | Отключает отображение пространства между верхней частью текста и верхним краем страницы. |
-| [setFormsDesign(boolean value)](#setFormsDesign-boolean-) | Указывает, находится ли документ в режиме разработки форм. |
-| [setViewType(int value)](#setViewType-int-) | Управляет режимом просмотра в Microsoft Word. |
-| [setZoomPercent(int value)](#setZoomPercent-int-) | Устанавливает процент (от 10 до 500), при котором вы хотите просмотреть документ. |
-| [setZoomType(int value)](#setZoomType-int-) | Устанавливает значение масштабирования в зависимости от размера окна. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDisplayBackgroundShape() {#getDisplayBackgroundShape--}
+| [getDisplayBackgroundShape()](#getDisplayBackgroundShape) | Управляет отображением фоновой формы в режиме разметки печати. |
+| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries) | Отключает отображение пространства между верхом текста и верхним краем страницы. |
+| [getFormsDesign()](#getFormsDesign) | Указывает, находится ли документ в режиме разработки форм. |
+| [getViewType()](#getViewType) | Управляет режимом просмотра в Microsoft Word. |
+| [getZoomPercent()](#getZoomPercent) | Получает процент, с которым вы хотите просматривать документ. |
+| [getZoomType()](#getZoomType) | Получает значение масштабирования, основанное на размере окна. |
+| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean) | Управляет отображением фоновой формы в режиме разметки печати. |
+| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean) | Отключает отображение пространства между верхом текста и верхним краем страницы. |
+| [setFormsDesign(boolean value)](#setFormsDesign-boolean) | Указывает, находится ли документ в режиме разработки форм. |
+| [setViewType(int value)](#setViewType-int) | Управляет режимом просмотра в Microsoft Word. |
+| [setZoomPercent(int value)](#setZoomPercent-int) | Устанавливает процент, с которым вы хотите просматривать документ. |
+| [setZoomType(int value)](#setZoomType-int) | Устанавливает значение масштабирования, основанное на размере окна. |
+### getDisplayBackgroundShape() {#getDisplayBackgroundShape}
 ```
 public boolean getDisplayBackgroundShape()
 ```
 
 
-Управляет отображением формы фона в представлении макета печати.
+Управляет отображением фоновой формы в режиме разметки печати.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries--}
+ **Examples:** 
+
+Показывает, как скрыть/отобразить фоновые изображения документа в параметрах просмотра.
+
+```
+
+ // Use an HTML string to create a new document with a flat background color.
+ final String HTML =
+         "\r\n                \r\n                    Hello world!\r\n                \r\n            ";
+
+ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes()));
+
+ // The source for the document has a flat color background,
+ // the presence of which will set the "DisplayBackgroundShape" flag to "true".
+ Assert.assertTrue(doc.getViewOptions().getDisplayBackgroundShape());
+
+ // Keep the "DisplayBackgroundShape" as "true" to get the document to display the background color.
+ // This may affect some text colors to improve visibility.
+ // Set the "DisplayBackgroundShape" to "false" to not display the background color.
+ doc.getViewOptions().setDisplayBackgroundShape(displayBackgroundShape);
+
+ doc.save(getArtifactsDir() + "ViewOptions.DisplayBackgroundShape.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries}
 ```
 public boolean getDoNotDisplayPageBoundaries()
 ```
 
 
-Отключает отображение пространства между верхней частью текста и верхним краем страницы.
+Отключает отображение пространства между верхом текста и верхним краем страницы.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getFormsDesign() {#getFormsDesign--}
+ **Examples:** 
+
+Показывает, как скрыть вертикальные пробелы и колонтитулы в параметрах просмотра.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert content that spans across 3 pages.
+ builder.writeln("Paragraph 1, Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Paragraph 2, Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Paragraph 3, Page 3.");
+
+ // Insert a header and a footer.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.writeln("This is the header.");
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ builder.writeln("This is the footer.");
+
+ // This document contains a small amount of content that takes up a few full pages worth of space.
+ // Set the "DoNotDisplayPageBoundaries" flag to "true" to get older versions of Microsoft Word to omit headers,
+ // footers, and much of the vertical whitespace when displaying our document.
+ // Set the "DoNotDisplayPageBoundaries" flag to "false" to get older versions of Microsoft Word
+ // to normally display our document.
+ doc.getViewOptions().setDoNotDisplayPageBoundaries(doNotDisplayPageBoundaries);
+
+ doc.save(getArtifactsDir() + "ViewOptions.DisplayPageBoundaries.doc");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getFormsDesign() {#getFormsDesign}
 ```
 public boolean getFormsDesign()
 ```
@@ -98,11 +165,31 @@ public boolean getFormsDesign()
 
 Указывает, находится ли документ в режиме разработки форм.
 
-В настоящее время работает только для документов в формате WordML.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getViewType() {#getViewType--}
+В настоящее время работает только с документами в формате WordML.
+
+ **Examples:** 
+
+Показывает, как включить/отключить режим разработки форм.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Set the "FormsDesign" property to "false" to keep forms design mode disabled.
+ // Set the "FormsDesign" property to "true" to enable forms design mode.
+ doc.getViewOptions().setFormsDesign(useFormsDesign);
+
+ doc.save(getArtifactsDir() + "ViewOptions.FormsDesign.xml");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getViewType() {#getViewType}
 ```
 public int getViewType()
 ```
@@ -110,89 +197,201 @@ public int getViewType()
 
 Управляет режимом просмотра в Microsoft Word.
 
-Хотя Aspose.Words может читать и записывать эту опцию, ее использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
+ **Remarks:** 
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[ViewType](../../com.aspose.words/viewtype) константы.
-### getZoomPercent() {#getZoomPercent--}
+Хотя Aspose.Words может читать и записывать эту опцию, её использование зависит от приложения. Например, MS Word 2013 не учитывает значение этой опции.
+
+ **Examples:** 
+
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+**Returns:**
+int — соответствующее значение int. Возвращаемое значение является одной из констант [ViewType](../../com.aspose.words/viewtype/).
+### getZoomPercent() {#getZoomPercent}
 ```
 public int getZoomPercent()
 ```
 
 
-Получает процент (от 10 до 500), при котором вы хотите просмотреть документ.
+Получает процент, с которым вы хотите просматривать документ.
 
-Если значение равно 0, то это свойство вместо этого использует 100, иначе, если значение меньше 10 или больше 500, это свойство выдает.
+ **Remarks:** 
 
-Хотя Aspose.Words может читать и записывать эту опцию, ее использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
+Хотя Aspose.Words может читать и записывать эту опцию, её использование зависит от приложения. Например, MS Word 2013 не учитывает значение этой опции.
 
-**Возвращает:**
-int — процент (от 10 до 500), с которым вы хотите просмотреть документ.
-### getZoomType() {#getZoomType--}
+ **Examples:** 
+
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+**Returns:**
+int — процент, с которым вы хотите просматривать документ.
+### getZoomType() {#getZoomType}
 ```
 public int getZoomType()
 ```
 
 
-Получает значение масштабирования в зависимости от размера окна.
+Получает значение масштабирования, основанное на размере окна.
 
-**Возвращает:**
-int — значение масштабирования, основанное на размере окна. Возвращаемое значение является одним из[ZoomType](../../com.aspose.words/zoomtype) константы.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
 
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
 
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
 
-### notifyAll() {#notifyAll--}
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
 ```
-public final native void notifyAll()
+
+Показывает, как установить пользовательский тип масштабирования, который более старые версии Microsoft Word применят к документу при загрузке.
+
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
 
+ // Set the "ZoomType" property to "ZoomType.PageWidth" to get Microsoft Word
+ // to automatically zoom the document to fit the width of the page.
+ // Set the "ZoomType" property to "ZoomType.FullPage" to get Microsoft Word
+ // to automatically zoom the document to make the entire first page visible.
+ // Set the "ZoomType" property to "ZoomType.TextFit" to get Microsoft Word
+ // to automatically zoom the document to fit the inner text margins of the first page.
+ doc.getViewOptions().setZoomType(zoomType);
 
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomType.doc");
+ 
+```
 
-### setDisplayBackgroundShape(boolean value) {#setDisplayBackgroundShape-boolean-}
+**Returns:**
+int — значение масштабирования, основанное на размере окна. Возвращаемое значение является одной из констант [ZoomType](../../com.aspose.words/zoomtype/).
+### setDisplayBackgroundShape(boolean value) {#setDisplayBackgroundShape-boolean}
 ```
 public void setDisplayBackgroundShape(boolean value)
 ```
 
 
-Управляет отображением формы фона в представлении макета печати.
+Управляет отображением фоновой формы в режиме разметки печати.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как скрыть/отобразить фоновые изображения документа в параметрах просмотра.
+
+```
+
+ // Use an HTML string to create a new document with a flat background color.
+ final String HTML =
+         "\r\n                \r\n                    Hello world!\r\n                \r\n            ";
+
+ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes()));
+
+ // The source for the document has a flat color background,
+ // the presence of which will set the "DisplayBackgroundShape" flag to "true".
+ Assert.assertTrue(doc.getViewOptions().getDisplayBackgroundShape());
+
+ // Keep the "DisplayBackgroundShape" as "true" to get the document to display the background color.
+ // This may affect some text colors to improve visibility.
+ // Set the "DisplayBackgroundShape" to "false" to not display the background color.
+ doc.getViewOptions().setDisplayBackgroundShape(displayBackgroundShape);
+
+ doc.save(getArtifactsDir() + "ViewOptions.DisplayBackgroundShape.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setDoNotDisplayPageBoundaries(boolean value) {#setDoNotDisplayPageBoundaries-boolean-}
+### setDoNotDisplayPageBoundaries(boolean value) {#setDoNotDisplayPageBoundaries-boolean}
 ```
 public void setDoNotDisplayPageBoundaries(boolean value)
 ```
 
 
-Отключает отображение пространства между верхней частью текста и верхним краем страницы.
+Отключает отображение пространства между верхом текста и верхним краем страницы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как скрыть вертикальные пробелы и колонтитулы в параметрах просмотра.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert content that spans across 3 pages.
+ builder.writeln("Paragraph 1, Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Paragraph 2, Page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Paragraph 3, Page 3.");
+
+ // Insert a header and a footer.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.writeln("This is the header.");
+ builder.moveToHeaderFooter(HeaderFooterType.FOOTER_PRIMARY);
+ builder.writeln("This is the footer.");
+
+ // This document contains a small amount of content that takes up a few full pages worth of space.
+ // Set the "DoNotDisplayPageBoundaries" flag to "true" to get older versions of Microsoft Word to omit headers,
+ // footers, and much of the vertical whitespace when displaying our document.
+ // Set the "DoNotDisplayPageBoundaries" flag to "false" to get older versions of Microsoft Word
+ // to normally display our document.
+ doc.getViewOptions().setDoNotDisplayPageBoundaries(doNotDisplayPageBoundaries);
+
+ doc.save(getArtifactsDir() + "ViewOptions.DisplayPageBoundaries.doc");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setFormsDesign(boolean value) {#setFormsDesign-boolean-}
+### setFormsDesign(boolean value) {#setFormsDesign-boolean}
 ```
 public void setFormsDesign(boolean value)
 ```
@@ -200,15 +399,34 @@ public void setFormsDesign(boolean value)
 
 Указывает, находится ли документ в режиме разработки форм.
 
-В настоящее время работает только для документов в формате WordML.
+ **Remarks:** 
 
-**Параметры:**
+В настоящее время работает только с документами в формате WordML.
 
+ **Examples:** 
+
+Показывает, как включить/отключить режим разработки форм.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Set the "FormsDesign" property to "false" to keep forms design mode disabled.
+ // Set the "FormsDesign" property to "true" to enable forms design mode.
+ doc.getViewOptions().setFormsDesign(useFormsDesign);
+
+ doc.save(getArtifactsDir() + "ViewOptions.FormsDesign.xml");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setViewType(int value) {#setViewType-int-}
+### setViewType(int value) {#setViewType-int}
 ```
 public void setViewType(int value)
 ```
@@ -216,89 +434,122 @@ public void setViewType(int value)
 
 Управляет режимом просмотра в Microsoft Word.
 
-Хотя Aspose.Words может читать и записывать эту опцию, ее использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
+ **Remarks:** 
 
-**Параметры:**
+Хотя Aspose.Words может читать и записывать эту опцию, её использование зависит от приложения. Например, MS Word 2013 не учитывает значение этой опции.
 
+ **Examples:** 
+
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[ViewType](../../com.aspose.words/viewtype) константы. |
+| value | int | Соответствующее значение int. Значение должно быть одной из констант [ViewType](../../com.aspose.words/viewtype/). |
 
-### setZoomPercent(int value) {#setZoomPercent-int-}
+### setZoomPercent(int value) {#setZoomPercent-int}
 ```
 public void setZoomPercent(int value)
 ```
 
 
-Устанавливает процент (от 10 до 500), при котором вы хотите просмотреть документ.
+Устанавливает процент, с которым вы хотите просматривать документ.
 
-Если значение равно 0, то это свойство вместо этого использует 100, иначе, если значение меньше 10 или больше 500, это свойство выдает.
+ **Remarks:** 
 
-Хотя Aspose.Words может читать и записывать эту опцию, ее использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
+Хотя Aspose.Words может читать и записывать эту опцию, её использование зависит от приложения. Например, MS Word 2013 не учитывает значение этой опции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Процент (от 10 до 500), с которым вы хотите просмотреть документ. |
+| значение | int | Процент, с которым вы хотите просматривать документ. |
 
-### setZoomType(int value) {#setZoomType-int-}
+### setZoomType(int value) {#setZoomType-int}
 ```
 public void setZoomType(int value)
 ```
 
 
-Устанавливает значение масштабирования в зависимости от размера окна.
+Устанавливает значение масштабирования, основанное на размере окна.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
+
+Показывает, как установить пользовательский тип масштабирования, который более старые версии Microsoft Word применят к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Set the "ZoomType" property to "ZoomType.PageWidth" to get Microsoft Word
+ // to automatically zoom the document to fit the width of the page.
+ // Set the "ZoomType" property to "ZoomType.FullPage" to get Microsoft Word
+ // to automatically zoom the document to make the entire first page visible.
+ // Set the "ZoomType" property to "ZoomType.TextFit" to get Microsoft Word
+ // to automatically zoom the document to fit the inner text margins of the first page.
+ doc.getViewOptions().setZoomType(zoomType);
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomType.doc");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Значение масштабирования, основанное на размере окна. Значение должно быть одним из[ZoomType](../../com.aspose.words/zoomtype) константы. |
+| value | int | Значение масштабирования, основанное на размере окна. Значение должно быть одной из констант [ZoomType](../../com.aspose.words/zoomtype/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

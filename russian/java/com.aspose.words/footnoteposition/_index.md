@@ -1,19 +1,50 @@
 ---
-title: FootnotePosition
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет положение сноски.
+title: "FootnotePosition"
+linktitle: "FootnotePosition"
+second_title: "Aspose.Words для Java"
+description: "Определяет положение сноски в Java."
 type: docs
-weight: 294
+weight: 342
 url: /ru/java/com.aspose.words/footnoteposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FootnotePosition
 ```
 
 Определяет положение сноски.
+
+ **Examples:** 
+
+Показывает, как выбрать другое место, где документ собирает и отображает свои сноски.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // A footnote is a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote.
+ // Each footnote also creates an entry at the bottom of the page, consisting of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertFootnote" method.
+ builder.write("Hello world!");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote contents.");
+
+ // We can use the "Position" property to determine where the document will place all its footnotes.
+ // If we set the value of the "Position" property to "FootnotePosition.BottomOfPage",
+ // every footnote will show up at the bottom of the page that contains its reference mark. This is the default value.
+ // If we set the value of the "Position" property to "FootnotePosition.BeneathText",
+ // every footnote will show up at the end of the page's text that contains its reference mark.
+ doc.getFootnoteOptions().setPosition(footnotePosition);
+
+ doc.save(getArtifactsDir() + "InlineStory.PositionFootnote.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +56,10 @@ public class FootnotePosition
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String footnotePositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int footnotePosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int footnotePosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String footnotePositionName)](#fromName-java.lang.String) |  |
+| [getName(int footnotePosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int footnotePosition)](#toString-int) |  |
 ### BENEATH_TEXT {#BENEATH-TEXT}
 ```
 public static int BENEATH_TEXT
@@ -60,23 +82,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String footnotePositionName) {#fromName-java.lang.String-}
+### fromName(String footnotePositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String footnotePositionName)
 ```
@@ -84,25 +90,14 @@ public static int fromName(String footnotePositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnotePositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int footnotePosition) {#getName-int-}
+**Returns:**
+int
+### getName(int footnotePosition) {#getName-int}
 ```
 public static String getName(int footnotePosition)
 ```
@@ -110,15 +105,14 @@ public static String getName(int footnotePosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnotePosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +120,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int footnotePosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int footnotePosition) {#toString-int}
 ```
 public static String toString(int footnotePosition)
 ```
@@ -172,47 +130,10 @@ public static String toString(int footnotePosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnotePosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

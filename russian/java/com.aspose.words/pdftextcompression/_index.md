@@ -1,50 +1,69 @@
 ---
-title: PdfTextCompression
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений.
+title: "PdfTextCompression"
+linktitle: "PdfTextCompression"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип сжатия, применяемый ко всему содержимому PDF‑файла, кроме изображений, в Java."
 type: docs
-weight: 462
+weight: 543
 url: /ru/java/com.aspose.words/pdftextcompression/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfTextCompression
 ```
 
-Указывает тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений.
+Указывает тип сжатия, применяемый ко всему содержимому PDF‑файла, кроме изображений.
+
+ **Examples:** 
+
+Показывает, как применять сжатие текста при сохранении документа в PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ for (int i = 0; i < 100; i++)
+     builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+             "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+ // compression to text when we save the document to PDF.
+ // Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+ // to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+ options.setTextCompression(pdfTextCompression);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.TextCompression.pdf", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FLATE](#FLATE) | Плоское (ZIP) сжатие. |
-| [NONE](#NONE) | Нет компрессии. |
+| [FLATE](#FLATE) | Сжатие Flate (ZIP). |
+| [NONE](#NONE) | Без сжатия. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfTextCompressionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfTextCompression)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfTextCompression)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfTextCompressionName)](#fromName-java.lang.String) |  |
+| [getName(int pdfTextCompression)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfTextCompression)](#toString-int) |  |
 ### FLATE {#FLATE}
 ```
 public static int FLATE
 ```
 
 
-Плоское (ZIP) сжатие.
+Сжатие Flate (ZIP).
 
 ### NONE {#NONE}
 ```
@@ -52,7 +71,7 @@ public static int NONE
 ```
 
 
-Нет компрессии.
+Без сжатия.
 
 ### length {#length}
 ```
@@ -60,23 +79,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfTextCompressionName) {#fromName-java.lang.String-}
+### fromName(String pdfTextCompressionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfTextCompressionName)
 ```
@@ -84,25 +87,14 @@ public static int fromName(String pdfTextCompressionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfTextCompressionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfTextCompression) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfTextCompression) {#getName-int}
 ```
 public static String getName(int pdfTextCompression)
 ```
@@ -110,15 +102,14 @@ public static String getName(int pdfTextCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfTextCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +117,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfTextCompression) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfTextCompression) {#toString-int}
 ```
 public static String toString(int pdfTextCompression)
 ```
@@ -172,47 +127,10 @@ public static String toString(int pdfTextCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfTextCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

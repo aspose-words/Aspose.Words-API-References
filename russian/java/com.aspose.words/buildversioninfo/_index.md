@@ -1,63 +1,42 @@
 ---
-title: BuildVersionInfo
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет информацию о текущем названии и версии продукта.
+title: "BuildVersionInfo"
+linktitle: "BuildVersionInfo"
+second_title: "Aspose.Words для Java"
+description: "Provides information about the current product name and version in Java."
 type: docs
-weight: 40
+weight: 51
 url: /ru/java/com.aspose.words/buildversioninfo/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BuildVersionInfo
 ```
 
-Предоставляет информацию о текущем названии и версии продукта.
+Предоставляет информацию о текущем названии продукта и его версии.
 
- Чтобы узнать больше, посетите**Generator or Producer Name Included in Output Documents** документальная статья.
+Чтобы узнать больше, посетите [ Generator or Producer Name Included in Output Documents ][Generator or Producer Name Included in Output Documents] статью документации.
+
+ **Examples:** 
+
+Показывает, как отобразить информацию о установленной версии Aspose.Words.
+
+```
+
+ System.out.println(MessageFormat.format("I am currently using {0}, version number {1}!", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()));
+ 
+```
+
+
+[Generator or Producer Name Included in Output Documents]: https://docs.aspose.com/words/java/generator-or-producer-name-included-in-output-documents/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getProduct()](#getProduct--) | Получает полное название продукта. |
-| [getVersion()](#getVersion--) | Получает версию продукта. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getProduct() {#getProduct--}
+| [getProduct()](#getProduct) | Получает полное название продукта. |
+| [getVersion()](#getVersion) | Получает версию продукта. |
+### getProduct() {#getProduct}
 ```
 public static String getProduct()
 ```
@@ -65,9 +44,19 @@ public static String getProduct()
 
 Получает полное название продукта.
 
-**Возвращает:**
-java.lang.String — Полное название продукта.
-### getVersion() {#getVersion--}
+ **Examples:** 
+
+Показывает, как отобразить информацию о установленной версии Aspose.Words.
+
+```
+
+ System.out.println(MessageFormat.format("I am currently using {0}, version number {1}!", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()));
+ 
+```
+
+**Returns:**
+java.lang.String - Полное название продукта.
+### getVersion() {#getVersion}
 ```
 public static String getVersion()
 ```
@@ -75,79 +64,19 @@ public static String getVersion()
 
 Получает версию продукта.
 
-Версия продукта имеет формат «Major.Minor.Hotfix.0».
+ **Remarks:** 
 
-**Возвращает:**
-java.lang.String — версия продукта.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+Версия продукта имеет формат "Major.Minor.Hotfix.0".
 
+ **Examples:** 
 
+Показывает, как отобразить информацию о установленной версии Aspose.Words.
 
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
+ System.out.println(MessageFormat.format("I am currently using {0}, version number {1}!", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()));
+ 
 ```
 
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+java.lang.String - Версия продукта.

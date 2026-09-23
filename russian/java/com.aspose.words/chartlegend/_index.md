@@ -1,16 +1,17 @@
 ---
-title: ChartLegend
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет свойства легенды диаграммы.
+title: "ChartLegend"
+linktitle: "ChartLegend"
+second_title: "Aspose.Words для Java"
+description: "Представляет свойства легенды диаграммы в Java."
 type: docs
-weight: 63
+weight: 79
 url: /ru/java/com.aspose.words/chartlegend/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartLegend implements Cloneable
@@ -18,191 +19,390 @@ public class ChartLegend implements Cloneable
 
 Представляет свойства легенды диаграммы.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
-## Конструкторы
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
 
-| Конструктор | Описание |
-| --- | --- |
-| [ChartLegend()](#ChartLegend--) |  Инициализирует новый экземпляр[ChartLegend](../../com.aspose.words/chartlegend) учебный класс. |
+ **Examples:** 
+
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLegendEntries()](#getLegendEntries--) | Возвращает набор записей легенды для всех рядов и линий тренда родительской диаграммы. |
-| [getOverlay()](#getOverlay--) | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. |
-| [getPosition()](#getPosition--) | Указывает положение легенды на диаграмме. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setOverlay(boolean value)](#setOverlay-boolean-) | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. |
-| [setPosition(int value)](#setPosition-int-) | Указывает положение легенды на диаграмме. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ChartLegend() {#ChartLegend--}
+| [getFont()](#getFont) | Обеспечивает доступ к форматированию шрифта по умолчанию для элементов легенды. |
+| [getFormat()](#getFormat) | Обеспечивает доступ к заполнению и форматированию линий легенды. |
+| [getLegendEntries()](#getLegendEntries) | Возвращает коллекцию элементов легенды для всех рядов и трендовых линий родительской диаграммы. |
+| [getOverlay()](#getOverlay) | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. |
+| [getPosition()](#getPosition) | Указывает положение легенды на диаграмме. |
+| [getShapeType()](#getShapeType) |  |
+| [isFillSupported()](#isFillSupported) |  |
+| [isFormatDefined()](#isFormatDefined) |  |
+| [materializeSpPr()](#materializeSpPr) |  |
+| [setOverlay(boolean value)](#setOverlay-boolean) | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. |
+| [setPosition(int value)](#setPosition-int) | Указывает положение легенды на диаграмме. |
+| [setShapeType(int value)](#setShapeType-int) |  |
+### getFont() {#getFont}
 ```
-public ChartLegend()
+public Font getFont()
 ```
 
 
- Инициализирует новый экземпляр[ChartLegend](../../com.aspose.words/chartlegend) учебный класс.
+Обеспечивает доступ к форматированию шрифта по умолчанию для элементов легенды. Чтобы переопределить форматирование шрифта для конкретного элемента легенды, используйте свойство [ChartLegendEntry.getFont()](../../com.aspose.words/chartlegendentry/\#getFont).
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как работать со шрифтом легенды.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ ChartLegend chartLegend = chart.getLegend();
+ // Set default font size all legend entries.
+ chartLegend.getFont().setSize(14.0);
+ // Change font for specific legend entry.
+ chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
+ chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+ // Get legend entry for chart series.
+ ChartLegendEntry legendEntry = chart.getSeries().get(0).getLegendEntry();
+
+ doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getFormat() {#getFormat}
+```
+public ChartFormat getFormat()
+```
 
 
+Обеспечивает доступ к заполнению и форматированию линий легенды.
 
-**Возвращает:**
-java.lang.Класс<?>
-### getLegendEntries() {#getLegendEntries--}
+ **Examples:** 
+
+Показывает, как использовать форматирование диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete series generated by default.
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2" };
+ series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+
+ // Format chart background.
+ chart.getFormat().getFill().solid(Color.darkGray);
+
+ // Hide axis tick labels.
+ chart.getAxisX().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+ chart.getAxisY().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+
+ // Format chart title.
+ chart.getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format axis title.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format legend.
+ chart.getLegend().getFormat().getFill().solid(Color.yellow);
+
+ doc.save(getArtifactsDir() + "Charts.ChartFormat.docx");
+ 
+```
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getLegendEntries() {#getLegendEntries}
 ```
 public ChartLegendEntryCollection getLegendEntries()
 ```
 
 
-Возвращает набор записей легенды для всех рядов и линий тренда родительской диаграммы.
+Возвращает коллекцию элементов легенды для всех рядов и трендовых линий родительской диаграммы.
 
-**Возвращает:**
-[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection) - Коллекция записей легенды для всех рядов и линий тренда родительской диаграммы.
-### getOverlay() {#getOverlay--}
+ **Examples:** 
+
+Показывает, как работать с элементом легенды для рядов диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "AW Category 1", "AW Category 2" };
+
+ ChartSeries series1 = series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+ series.add("Series 3", categories, new double[] { 5.0, 6.0 });
+ series.add("Series 4", categories, new double[] { 0.0, 0.0 });
+
+ ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
+ legendEntries.get(3).isHidden(true);
+
+ doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
+ 
+```
+
+**Returns:**
+[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection/) - A collection of legend entries for all series and trendlines of the parent chart.
+### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
 ```
 
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию — ложь.
+Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию — false.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getPosition() {#getPosition--}
+ **Examples:** 
+
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getPosition() {#getPosition}
 ```
 public int getPosition()
 ```
 
 
- Указывает положение легенды на диаграмме. Значение по умолчанию[LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Указывает положение легенды на диаграмме.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[LegendPosition](../../com.aspose.words/legendposition) константы.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Remarks:** 
 
+Значение по умолчанию — [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT) для диаграмм до Word 2016 и [LegendPosition.TOP](../../com.aspose.words/legendposition/\#TOP) для диаграмм Word 2016.
 
+ **Examples:** 
 
+Показывает, как изменить внешний вид легенды диаграммы.
 
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
 
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
 
-### notifyAll() {#notifyAll--}
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
 ```
-public final native void notifyAll()
+
+**Returns:**
+int — соответствующее значение типа int. Возвращаемое значение является одной из констант [LegendPosition](../../com.aspose.words/legendposition/).
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
 ```
 
 
 
 
-### setOverlay(boolean value) {#setOverlay-boolean-}
+**Returns:**
+int
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
+```
+
+
+
+
+**Returns:**
+boolean
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
+### materializeSpPr() {#materializeSpPr}
+```
+public void materializeSpPr()
+```
+
+
+
+
+### setOverlay(boolean value) {#setOverlay-boolean}
 ```
 public void setOverlay(boolean value)
 ```
 
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию — ложь.
+Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию — false.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setPosition(int value) {#setPosition-int-}
+### setPosition(int value) {#setPosition-int}
 ```
 public void setPosition(int value)
 ```
 
 
- Указывает положение легенды на диаграмме. Значение по умолчанию[LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Указывает положение легенды на диаграмме.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT) для диаграмм до Word 2016 и [LegendPosition.TOP](../../com.aspose.words/legendposition/\#TOP) для диаграмм Word 2016.
+
+ **Examples:** 
+
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[LegendPosition](../../com.aspose.words/legendposition) константы. |
+| value | int | Соответствующее значение типа int. Значение должно быть одной из констант [LegendPosition](../../com.aspose.words/legendposition/). |
 
-### toString() {#toString--}
+### setShapeType(int value) {#setShapeType-int}
 ```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
+public void setShapeType(int value)
 ```
 
 
 
 
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | long |  |
+| значение | int |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

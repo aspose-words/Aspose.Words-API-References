@@ -1,50 +1,72 @@
 ---
-title: WatermarkLayout
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет расположение водяного знака относительно центра водяного знака.
+title: "WatermarkLayout"
+linktitle: "WatermarkLayout"
+second_title: "Aspose.Words для Java"
+description: "Определяет расположение водяного знака относительно его центра в Java."
 type: docs
-weight: 609
+weight: 722
 url: /ru/java/com.aspose.words/watermarklayout/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WatermarkLayout
 ```
 
-Определяет расположение водяного знака относительно центра водяного знака.
+Определяет расположение водяного знака относительно его центра.
+
+ **Examples:** 
+
+Показывает, как создать текстовый водяной знак.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DIAGONAL](#DIAGONAL) | Диагональное расположение водяных знаков. |
-| [HORIZONTAL](#HORIZONTAL) | Горизонтальное расположение водяных знаков. |
+| [DIAGONAL](#DIAGONAL) | Диагональное расположение водяного знака. |
+| [HORIZONTAL](#HORIZONTAL) | Горизонтальное расположение водяного знака. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String watermarkLayoutName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int watermarkLayout)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int watermarkLayout)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String watermarkLayoutName)](#fromName-java.lang.String) |  |
+| [getName(int watermarkLayout)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int watermarkLayout)](#toString-int) |  |
 ### DIAGONAL {#DIAGONAL}
 ```
 public static int DIAGONAL
 ```
 
 
-Диагональное расположение водяных знаков. Соответствует 315 градусам вращения.
+Диагональное расположение водяного знака. Соответствует повороту на 315 градусов.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -52,7 +74,7 @@ public static int HORIZONTAL
 ```
 
 
-Горизонтальное расположение водяных знаков. Соответствует 0 градусов вращения.
+Горизонтальное расположение водяного знака. Соответствует повороту на 0 градусов.
 
 ### length {#length}
 ```
@@ -60,23 +82,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String watermarkLayoutName) {#fromName-java.lang.String-}
+### fromName(String watermarkLayoutName) {#fromName-java.lang.String}
 ```
 public static int fromName(String watermarkLayoutName)
 ```
@@ -84,25 +90,14 @@ public static int fromName(String watermarkLayoutName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkLayoutName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int watermarkLayout) {#getName-int-}
+**Returns:**
+int
+### getName(int watermarkLayout) {#getName-int}
 ```
 public static String getName(int watermarkLayout)
 ```
@@ -110,15 +105,14 @@ public static String getName(int watermarkLayout)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkLayout | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +120,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int watermarkLayout) {#toString-int-}
+**Returns:**
+int[]
+### toString(int watermarkLayout) {#toString-int}
 ```
 public static String toString(int watermarkLayout)
 ```
@@ -172,47 +130,10 @@ public static String toString(int watermarkLayout)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | watermarkLayout | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

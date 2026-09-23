@@ -1,26 +1,135 @@
 ---
-title: BuildingBlockGallery
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает предопределенную галерею, в которую классифицируется стандартный блок.
+title: "BuildingBlockGallery"
+linktitle: "BuildingBlockGallery"
+second_title: "Aspose.Words для Java"
+description: "Указывает предопределённую галерею, в которую классифицируется блок в Java."
 type: docs
-weight: 44
+weight: 55
 url: /ru/java/com.aspose.words/buildingblockgallery/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BuildingBlockGallery
 ```
 
-Указывает предопределенную галерею, в которую классифицируется стандартный блок.
+Указывает предопределённую галерею, в которую классифицируется строительный блок.
 
- Соответствует**ST\_DocPartGallery** введите OOXML.
+ **Remarks:** 
+
+Соответствует типу **ST\\_DocPartGallery** в OOXML.
+
+ **Examples:** 
+
+Показывает способы доступа к строительным блокам в глоссарном документе.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [ALL](#ALL) | Указывает, что эта запись документа глоссария должна быть связана со всеми возможными значениями классификации галереи. |
+| [ALL](#ALL) | Указывает, что эта запись глоссария должна быть связана со всеми возможными значениями классификации галереи. |
 | [AUTO_TEXT](#AUTO-TEXT) |  |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) |  |
 | [COVER_PAGE](#COVER-PAGE) |  |
@@ -44,7 +153,7 @@ public class BuildingBlockGallery
 | [CUSTOM_TABLE_OF_CONTENTS](#CUSTOM-TABLE-OF-CONTENTS) |  |
 | [CUSTOM_TEXT_BOX](#CUSTOM-TEXT-BOX) |  |
 | [CUSTOM_WATERMARKS](#CUSTOM-WATERMARKS) |  |
-| [DEFAULT](#DEFAULT) |  Такой же как[ALL](../../com.aspose.words/buildingblockgallery\#ALL). |
+| [DEFAULT](#DEFAULT) | То же, что [ALL](../../com.aspose.words/buildingblockgallery/\#ALL). |
 | [EQUATIONS](#EQUATIONS) |  |
 | [FOOTERS](#FOOTERS) |  |
 | [HEADERS](#HEADERS) |  |
@@ -64,26 +173,17 @@ public class BuildingBlockGallery
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int buildingBlockGallery)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int buildingBlockGallery)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String) |  |
+| [getName(int buildingBlockGallery)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int buildingBlockGallery)](#toString-int) |  |
 ### ALL {#ALL}
 ```
 public static int ALL
 ```
 
 
-Указывает, что эта запись документа глоссария должна быть связана со всеми возможными значениями классификации галереи.
+Указывает, что эта запись глоссария должна быть связана со всеми возможными значениями классификации галереи.
 
 ### AUTO_TEXT {#AUTO-TEXT}
 ```
@@ -275,7 +375,7 @@ public static int DEFAULT
 ```
 
 
- Такой же как[ALL](../../com.aspose.words/buildingblockgallery\#ALL).
+То же, что [ALL](../../com.aspose.words/buildingblockgallery/\#ALL).
 
 ### EQUATIONS {#EQUATIONS}
 ```
@@ -395,23 +495,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String buildingBlockGalleryName) {#fromName-java.lang.String-}
+### fromName(String buildingBlockGalleryName) {#fromName-java.lang.String}
 ```
 public static int fromName(String buildingBlockGalleryName)
 ```
@@ -419,25 +503,14 @@ public static int fromName(String buildingBlockGalleryName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | buildingBlockGalleryName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int buildingBlockGallery) {#getName-int-}
+**Returns:**
+int
+### getName(int buildingBlockGallery) {#getName-int}
 ```
 public static String getName(int buildingBlockGallery)
 ```
@@ -445,15 +518,14 @@ public static String getName(int buildingBlockGallery)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | buildingBlockGallery | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -461,45 +533,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int buildingBlockGallery) {#toString-int-}
+**Returns:**
+int[]
+### toString(int buildingBlockGallery) {#toString-int}
 ```
 public static String toString(int buildingBlockGallery)
 ```
@@ -507,47 +543,10 @@ public static String toString(int buildingBlockGallery)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | buildingBlockGallery | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

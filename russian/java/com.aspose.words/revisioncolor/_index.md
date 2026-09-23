@@ -1,19 +1,45 @@
 ---
-title: RevisionColor
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать цвет ревизий документа.
+title: "RevisionColor"
+linktitle: "RevisionColor"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать цвет исправлений документа в Java."
 type: docs
-weight: 485
+weight: 581
 url: /ru/java/com.aspose.words/revisioncolor/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RevisionColor
 ```
 
 Позволяет указать цвет ревизий документа.
+
+ **Examples:** 
+
+Показывает, как изменить внешний вид ревизий в отрендеренном выходном документе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a revision, then change the color of all revisions to green.
+ builder.writeln("This is not a revision.");
+ doc.startTrackRevisions("John Doe", new Date());
+ builder.writeln("This is a revision.");
+ doc.stopTrackRevisions();
+ builder.writeln("This is not a revision.");
+
+ // Remove the bar that appears to the left of every revised line.
+ doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
+ doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+ doc.getLayoutOptions().getRevisionOptions().setRevisionBarsPosition(HorizontalAlignment.RIGHT);
+
+ doc.save(getArtifactsDir() + "Revision.LayoutOptionsRevisions.pdf");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -22,21 +48,28 @@ public class RevisionColor
 | [BLACK](#BLACK) | Представляет цвет 000000. |
 | [BLUE](#BLUE) | Представляет цвет 2e97d3. |
 | [BRIGHT_GREEN](#BRIGHT-GREEN) | Представляет цвет 84a35b. |
-| [BY_AUTHOR](#BY-AUTHOR) | Ревизии каждого автора получают свой цвет для выделения из предопределенного набора высококонтрастных цветов. |
+| [BY_AUTHOR](#BY-AUTHOR) | Исправления каждого автора получают собственный цвет для выделения из предопределённого набора контрастных цветов. |
 | [CLASSIC_BLUE](#CLASSIC-BLUE) | Представляет цвет 0000ff. |
 | [CLASSIC_RED](#CLASSIC-RED) | Представляет цвет ff0000. |
 | [DARK_BLUE](#DARK-BLUE) | Представляет цвет 376e96. |
-| [DARK_RED](#DARK-RED) | Представляет 881824 цвета. |
+| [DARK_RED](#DARK-RED) | Представляет цвет 881824. |
 | [DARK_YELLOW](#DARK-YELLOW) | Представляет цвет e09a2b. |
+| [GRAY](#GRAY) | Представляет цвет efeded. |
 | [GRAY_25](#GRAY-25) | Представляет цвет a0a3a9. |
 | [GRAY_50](#GRAY-50) | Представляет цвет 50565e. |
 | [GREEN](#GREEN) | Представляет цвет 2c6234. |
-| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | Для выделения изменений версии не используется цвет. |
+| [LIGHT_BLUE](#LIGHT-BLUE) | Представляет цвет e1f2fa. |
+| [LIGHT_GREEN](#LIGHT-GREEN) | Представляет цвет e9f8ce. |
+| [LIGHT_ORANGE](#LIGHT-ORANGE) | Представляет цвет fce3d0. |
+| [LIGHT_PINK](#LIGHT-PINK) | Представляет цвет fce6f4. |
+| [LIGHT_PURPLE](#LIGHT-PURPLE) | Представляет цвет eadfef. |
+| [LIGHT_YELLOW](#LIGHT-YELLOW) | Представляет цвет fef4de. |
+| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | Для выделения изменений исправлений цвет не используется. |
 | [PINK](#PINK) | Представляет цвет ce338f. |
 | [RED](#RED) | Представляет цвет b5082e. |
 | [TEAL](#TEAL) | Представляет цвет 1b9cab. |
 | [TURQUOISE](#TURQUOISE) | Представляет цвет 3eafc2. |
-| [VIOLET](#VIOLET) | Представляет 633277 цветов. |
+| [VIOLET](#VIOLET) | Представляет цвет 633277. |
 | [WHITE](#WHITE) | Представляет цвет ffffff. |
 | [YELLOW](#YELLOW) | Представляет цвет fad272. |
 | [length](#length) |  |
@@ -44,19 +77,10 @@ public class RevisionColor
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String revisionColorName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int revisionColor)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int revisionColor)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String revisionColorName)](#fromName-java.lang.String) |  |
+| [getName(int revisionColor)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int revisionColor)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -95,7 +119,7 @@ public static int BY_AUTHOR
 ```
 
 
-Ревизии каждого автора получают свой цвет для выделения из предопределенного набора высококонтрастных цветов.
+Исправления каждого автора получают собственный цвет для выделения из предопределённого набора контрастных цветов.
 
 ### CLASSIC_BLUE {#CLASSIC-BLUE}
 ```
@@ -127,7 +151,7 @@ public static int DARK_RED
 ```
 
 
-Представляет 881824 цвета.
+Представляет цвет 881824.
 
 ### DARK_YELLOW {#DARK-YELLOW}
 ```
@@ -136,6 +160,14 @@ public static int DARK_YELLOW
 
 
 Представляет цвет e09a2b.
+
+### GRAY {#GRAY}
+```
+public static int GRAY
+```
+
+
+Представляет цвет efeded.
 
 ### GRAY_25 {#GRAY-25}
 ```
@@ -161,13 +193,61 @@ public static int GREEN
 
 Представляет цвет 2c6234.
 
+### LIGHT_BLUE {#LIGHT-BLUE}
+```
+public static int LIGHT_BLUE
+```
+
+
+Представляет цвет e1f2fa.
+
+### LIGHT_GREEN {#LIGHT-GREEN}
+```
+public static int LIGHT_GREEN
+```
+
+
+Представляет цвет e9f8ce.
+
+### LIGHT_ORANGE {#LIGHT-ORANGE}
+```
+public static int LIGHT_ORANGE
+```
+
+
+Представляет цвет fce3d0.
+
+### LIGHT_PINK {#LIGHT-PINK}
+```
+public static int LIGHT_PINK
+```
+
+
+Представляет цвет fce6f4.
+
+### LIGHT_PURPLE {#LIGHT-PURPLE}
+```
+public static int LIGHT_PURPLE
+```
+
+
+Представляет цвет eadfef.
+
+### LIGHT_YELLOW {#LIGHT-YELLOW}
+```
+public static int LIGHT_YELLOW
+```
+
+
+Представляет цвет fef4de.
+
 ### NO_HIGHLIGHT {#NO-HIGHLIGHT}
 ```
 public static int NO_HIGHLIGHT
 ```
 
 
-Для выделения изменений версии не используется цвет.
+Для выделения изменений исправлений цвет не используется.
 
 ### PINK {#PINK}
 ```
@@ -207,7 +287,7 @@ public static int VIOLET
 ```
 
 
-Представляет 633277 цветов.
+Представляет цвет 633277.
 
 ### WHITE {#WHITE}
 ```
@@ -231,23 +311,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String revisionColorName) {#fromName-java.lang.String-}
+### fromName(String revisionColorName) {#fromName-java.lang.String}
 ```
 public static int fromName(String revisionColorName)
 ```
@@ -255,25 +319,14 @@ public static int fromName(String revisionColorName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionColorName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int revisionColor) {#getName-int-}
+**Returns:**
+int
+### getName(int revisionColor) {#getName-int}
 ```
 public static String getName(int revisionColor)
 ```
@@ -281,15 +334,14 @@ public static String getName(int revisionColor)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionColor | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -297,45 +349,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int revisionColor) {#toString-int-}
+**Returns:**
+int[]
+### toString(int revisionColor) {#toString-int}
 ```
 public static String toString(int revisionColor)
 ```
@@ -343,47 +359,10 @@ public static String toString(int revisionColor)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionColor | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

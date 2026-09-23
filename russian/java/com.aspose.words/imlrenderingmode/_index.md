@@ -1,50 +1,66 @@
 ---
-title: ImlRenderingMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как рукописные объекты InkML отображаются в фиксированных форматах страниц.
+title: "ImlRenderingMode"
+linktitle: "ImlRenderingMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как объекты InkML чернил отображаются в фиксированные форматы страниц в Java."
 type: docs
-weight: 345
+weight: 399
 url: /ru/java/com.aspose.words/imlrenderingmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImlRenderingMode
 ```
 
-Указывает, как объекты рукописного ввода (InkML) отображаются в фиксированных форматах страниц.
+Указывает, как объекты чернил (InkML) рендерятся в фиксированные форматы страниц.
+
+ **Examples:** 
+
+Показывает, как отрисовывать объект Ink.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FALLBACK](#FALLBACK) | Если для объекта рукописного ввода (InkML) доступна резервная форма, Aspose.Words отображает резервную форму вместо InkML. |
-| [INK_ML](#INK-ML) | Aspose.Words игнорирует резервную форму рукописного объекта (InkML) и отображает сам InkML. |
+| [FALLBACK](#FALLBACK) | Если для объекта ink (InkML) доступна резервная форма, Aspose.Words отрисовывает резервную форму вместо InkML. |
+| [INK_ML](#INK-ML) | Aspose.Words игнорирует резервную форму объекта ink (InkML) и отрисовывает сам InkML. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String imlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int imlRenderingMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int imlRenderingMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String imlRenderingModeName)](#fromName-java.lang.String) |  |
+| [getName(int imlRenderingMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int imlRenderingMode)](#toString-int) |  |
 ### FALLBACK {#FALLBACK}
 ```
 public static int FALLBACK
 ```
 
 
-Если для объекта рукописного ввода (InkML) доступна резервная форма, Aspose.Words отображает резервную форму вместо InkML. Обратите внимание, что после сохранения документа в фиксированном формате страницы с резервным режимом рендеринга объекты InkML в модели документа AW навсегда заменяются их резервными аналогами. В результате при повторном сохранении того же документа всегда будут использоваться резервные фигуры, даже если для ImlRenderingMode установлено значение InkML.
+Если для объекта ink (InkML) доступна резервная форма, Aspose.Words отрисовывает резервную форму вместо InkML.
+
+ **Remarks:** 
+
+Обратите внимание, что после сохранения документа в фиксированный формат страницы с режимом резервного рендеринга объекты InkML в модели документа AW навсегда заменяются их резервными аналогами. В результате повторное сохранение того же документа всегда будет использовать резервные формы, даже если [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) установлен в [INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 ### INK_ML {#INK-ML}
 ```
@@ -52,7 +68,7 @@ public static int INK_ML
 ```
 
 
-Aspose.Words игнорирует резервную форму рукописного объекта (InkML) и отображает сам InkML. Это режим "по умолчанию".
+Aspose.Words игнорирует резервную форму объекта ink (InkML) и отрисовывает сам InkML. Это режим по умолчанию.
 
 ### length {#length}
 ```
@@ -60,23 +76,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String imlRenderingModeName) {#fromName-java.lang.String-}
+### fromName(String imlRenderingModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String imlRenderingModeName)
 ```
@@ -84,25 +84,14 @@ public static int fromName(String imlRenderingModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imlRenderingModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int imlRenderingMode) {#getName-int-}
+**Returns:**
+int
+### getName(int imlRenderingMode) {#getName-int}
 ```
 public static String getName(int imlRenderingMode)
 ```
@@ -110,15 +99,14 @@ public static String getName(int imlRenderingMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imlRenderingMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +114,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int imlRenderingMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int imlRenderingMode) {#toString-int}
 ```
 public static String toString(int imlRenderingMode)
 ```
@@ -172,47 +124,10 @@ public static String toString(int imlRenderingMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imlRenderingMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

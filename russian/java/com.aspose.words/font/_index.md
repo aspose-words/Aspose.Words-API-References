@@ -1,205 +1,288 @@
 ---
-title: Font
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит атрибуты шрифта, имя шрифта, размер шрифта, цвет и т. д. для объекта.
+title: "Font"
+linktitle: "Font"
+second_title: "Aspose.Words для Java"
+description: "Содержит атрибуты шрифта: имя шрифта, размер шрифта, цвет и т.д. для объекта в Java."
 type: docs
-weight: 275
+weight: 319
 url: /ru/java/com.aspose.words/font/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Font
 ```
 
-Содержит атрибуты шрифта (имя шрифта, размер шрифта, цвет и т. д.) для объекта.
+Содержит атрибуты шрифта (название шрифта, размер шрифта, цвет и т.д.) для объекта.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
 
- Вы не создаете экземпляры[Font](../../com.aspose.words/font) класс напрямую. Вы просто используете[Font](../../com.aspose.words/font) для доступа к свойствам шрифта различных объектов, таких как[Run](../../com.aspose.words/run), [Paragraph](../../com.aspose.words/paragraph), [Style](../../com.aspose.words/style), [DocumentBuilder](../../com.aspose.words/documentbuilder).
+ **Remarks:** 
+
+Вы не создаёте экземпляры класса [Font](../../com.aspose.words/font/) напрямую. Вы просто используете [Font](../../com.aspose.words/font/) для доступа к свойствам шрифта различных объектов, таких как [Run](../../com.aspose.words/run/), [Paragraph](../../com.aspose.words/paragraph/), [Style](../../com.aspose.words/style/), [DocumentBuilder](../../com.aspose.words/documentbuilder/).
+
+ **Examples:** 
+
+Показывает, как вставить строку, окружённую границей, в документ.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().getBorder().setColor(Color.GREEN);
+ builder.getFont().getBorder().setLineWidth(2.5);
+ builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
+
+ builder.write("Text surrounded by green border.");
+
+ doc.save(getArtifactsDir() + "Border.FontBorder.docx");
+ 
+```
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+Показывает, как создать и использовать стиль абзаца с форматированием списка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Сбрасывает форматирование шрифта по умолчанию. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [getAllCaps()](#getAllCaps--) | Истинно, если шрифт отформатирован как все заглавные буквы. |
-| [getAutoColor()](#getAutoColor--) | Возвращает текущий рассчитанный цвет текста (черный или белый), который будет использоваться для «автоцвета». |
-| [getBidi()](#getBidi--) | Указывает, должно ли содержимое этого цикла иметь характеристики письма справа налево. |
-| [getBold()](#getBold--) | Истинно, если шрифт отформатирован как полужирный. |
-| [getBoldBi()](#getBoldBi--) | Истинно, если текст справа налево выделен полужирным шрифтом. |
-| [getBorder()](#getBorder--) | Возвращает объект Border, указывающий границу для шрифта. |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Получает цвет шрифта. |
-| [getComplexScript()](#getComplexScript--) | Указывает, должно ли содержимое этого запуска рассматриваться как сложный текст скрипта независимо от их значений символов Unicode при определении форматирования для этого запуска. |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDoubleStrikeThrough()](#getDoubleStrikeThrough--) | Истинно, если шрифт отформатирован как двойной зачеркнутый текст. |
-| [getEmboss()](#getEmboss--) | Истинно, если шрифт отформатирован как рельефный. |
-| [getEmphasisMark()](#getEmphasisMark--) | Получает знак акцента, применяемый к этому форматированию. |
-| [getEngrave()](#getEngrave--) | Истинно, если шрифт отформатирован как выгравированный. |
-| [getFill()](#getFill--) | Получает форматирование заливки для шрифта. |
-| [getFillType()](#getFillType--) |  |
-| [getFillableBackColor()](#getFillableBackColor--) |  |
-| [getFillableForeColor()](#getFillableForeColor--) |  |
-| [getFillableImageBytes()](#getFillableImageBytes--) |  |
-| [getFillableTransparency()](#getFillableTransparency--) |  |
-| [getFillableVisible()](#getFillableVisible--) |  |
-| [getFilledColor()](#getFilledColor--) |  |
-| [getGradientAngle()](#getGradientAngle--) |  |
-| [getGradientStops()](#getGradientStops--) |  |
-| [getGradientStyle()](#getGradientStyle--) |  |
-| [getGradientVariant()](#getGradientVariant--) |  |
-| [getHidden()](#getHidden--) | Истинно, если шрифт отформатирован как скрытый текст. |
-| [getHighlightColor()](#getHighlightColor--) | Получает цвет выделения (маркера). |
-| [getItalic()](#getItalic--) | Истинно, если шрифт отформатирован как курсив. |
-| [getItalicBi()](#getItalicBi--) | Истина, если текст справа налево отформатирован курсивом. |
-| [getKerning()](#getKerning--) | Получает размер шрифта, с которого начинается кернинг. |
-| [getLineSpacing()](#getLineSpacing--) | Возвращает межстрочный интервал данного шрифта (в пунктах). |
-| [getLocaleId()](#getLocaleId--) | Получает идентификатор локали (язык) отформатированных символов. |
-| [getLocaleIdBi()](#getLocaleIdBi--) | Получает идентификатор локали (язык) отформатированных символов, написанных справа налево. |
-| [getLocaleIdFarEast()](#getLocaleIdFarEast--) | Получает идентификатор локали (язык) отформатированных азиатских символов. |
-| [getName()](#getName--) | Получает имя шрифта. |
-| [getNameAscii()](#getNameAscii--) | Получает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
-| [getNameBi()](#getNameBi--) | Получает имя шрифта в документе на языке с написанием справа налево. |
-| [getNameFarEast()](#getNameFarEast--) | Получает имя восточноазиатского шрифта. |
-| [getNameOther()](#getNameOther--) | Получает шрифт, используемый для символов с кодами символов от 128 до 255. |
-| [getNoProofing()](#getNoProofing--) | Истинно, если отформатированные символы не должны проверяться на орфографию. |
-| [getOn()](#getOn--) |  |
-| [getOpacity()](#getOpacity--) |  |
-| [getOutline()](#getOutline--) | Истинно, если шрифт отформатирован как контур. |
-| [getPatternType()](#getPatternType--) |  |
-| [getPosition()](#getPosition--) | Получает положение текста (в пунктах) относительно базовой линии. |
-| [getPresetTexture()](#getPresetTexture--) |  |
-| [getRotateWithObject()](#getRotateWithObject--) |  |
-| [getScaling()](#getScaling--) | Получает масштабирование ширины символа в процентах. |
-| [getShading()](#getShading--) | Возвращает объект Shading, который ссылается на форматирование заливки для шрифта. |
-| [getShadow()](#getShadow--) | Истинно, если шрифт отформатирован как затененный. |
-| [getSize()](#getSize--) | Получает размер шрифта в пунктах. |
-| [getSizeBi()](#getSizeBi--) | Получает размер шрифта в пунктах, используемый в документе с письмом справа налево. |
-| [getSmallCaps()](#getSmallCaps--) | Истинно, если шрифт отформатирован как маленькие заглавные буквы. |
-| [getSnapToGrid()](#getSnapToGrid--) | Указывает, должен ли текущий шрифт использовать параметры сетки документа на строку при компоновке. |
-| [getSpacing()](#getSpacing--) | Получает расстояние (в пунктах) между символами. |
-| [getStrikeThrough()](#getStrikeThrough--) | Истинно, если шрифт отформатирован как зачеркнутый текст. |
-| [getStyle()](#getStyle--) | Получает стиль символа, применяемый к этому форматированию. |
-| [getStyleIdentifier()](#getStyleIdentifier--) | Получает независимый от языкового стандарта идентификатор стиля символа, примененного к этому форматированию. |
-| [getStyleName()](#getStyleName--) | Получает имя стиля символа, примененного к этому форматированию. |
-| [getSubscript()](#getSubscript--) | Истинно, если шрифт отформатирован как нижний индекс. |
-| [getSuperscript()](#getSuperscript--) | Истинно, если шрифт отформатирован как надстрочный. |
-| [getTextEffect()](#getTextEffect--) | Получает эффект анимации шрифта. |
-| [getTextureAlignment()](#getTextureAlignment--) |  |
-| [getThemeColor()](#getThemeColor--) | Получает цвет темы в применяемой цветовой схеме, связанной с этим объектом Font. |
-| [getThemeFont()](#getThemeFont--) | Получает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [getThemeFontAscii()](#getThemeFontAscii--) | Получает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [getThemeFontBi()](#getThemeFontBi--) | Получает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font в документе на языке с письмом справа налево. |
-| [getThemeFontFarEast()](#getThemeFontFarEast--) | Получает шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [getThemeFontOther()](#getThemeFontOther--) | Получает шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифта, связанной с этим объектом Font. |
-| [getTintAndShade()](#getTintAndShade--) | Получает двойное значение, которое делает цвет светлее или темнее. |
-| [getUnderline()](#getUnderline--) | Получает тип подчеркивания, примененного к шрифту. |
-| [getUnderlineColor()](#getUnderlineColor--) | Получает цвет подчеркивания, примененного к шрифту. |
-| [hasDmlEffect(int dmlEffectType)](#hasDmlEffect-int-) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int patternType)](#patterned-int-) |  |
-| [presetTextured(int presetTexture)](#presetTextured-int-) |  |
-| [setAllCaps(boolean value)](#setAllCaps-boolean-) | Истинно, если шрифт отформатирован как все заглавные буквы. |
-| [setBidi(boolean value)](#setBidi-boolean-) | Указывает, должно ли содержимое этого цикла иметь характеристики письма справа налево. |
-| [setBold(boolean value)](#setBold-boolean-) | Истинно, если шрифт отформатирован как полужирный. |
-| [setBoldBi(boolean value)](#setBoldBi-boolean-) | Истинно, если текст справа налево выделен полужирным шрифтом. |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Устанавливает цвет шрифта. |
-| [setComplexScript(boolean value)](#setComplexScript-boolean-) | Указывает, должно ли содержимое этого запуска рассматриваться как сложный текст скрипта независимо от их значений символов Unicode при определении форматирования для этого запуска. |
-| [setDoubleStrikeThrough(boolean value)](#setDoubleStrikeThrough-boolean-) | Истинно, если шрифт отформатирован как двойной зачеркнутый текст. |
-| [setEmboss(boolean value)](#setEmboss-boolean-) | Истинно, если шрифт отформатирован как рельефный. |
-| [setEmphasisMark(int value)](#setEmphasisMark-int-) | Устанавливает знак акцента, применяемый к этому форматированию. |
-| [setEngrave(boolean value)](#setEngrave-boolean-) | Истинно, если шрифт отформатирован как выгравированный. |
-| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
-| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
-| [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
-| [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
-| [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
-| [setGradientAngle(double value)](#setGradientAngle-double-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | Истинно, если шрифт отформатирован как скрытый текст. |
-| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | Устанавливает цвет выделения (маркера). |
-| [setImage(byte[] imageBytes)](#setImage-byte---) |  |
-| [setItalic(boolean value)](#setItalic-boolean-) | Истинно, если шрифт отформатирован как курсив. |
-| [setItalicBi(boolean value)](#setItalicBi-boolean-) | Истина, если текст справа налево отформатирован курсивом. |
-| [setKerning(double value)](#setKerning-double-) | Устанавливает размер шрифта, с которого начинается кернинг. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Задает идентификатор локали (язык) отформатированных символов. |
-| [setLocaleIdBi(int value)](#setLocaleIdBi-int-) | Задает идентификатор локали (язык) отформатированных символов, написанных справа налево. |
-| [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int-) | Задает идентификатор локали (язык) отформатированных азиатских символов. |
-| [setName(String value)](#setName-java.lang.String-) | Устанавливает имя шрифта. |
-| [setNameAscii(String value)](#setNameAscii-java.lang.String-) | Устанавливает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
-| [setNameBi(String value)](#setNameBi-java.lang.String-) | Задает имя шрифта в документе на языке с письмом справа налево. |
-| [setNameFarEast(String value)](#setNameFarEast-java.lang.String-) | Задает имя восточноазиатского шрифта. |
-| [setNameOther(String value)](#setNameOther-java.lang.String-) | Устанавливает шрифт, используемый для символов с кодами символов от 128 до 255. |
-| [setNoProofing(boolean value)](#setNoProofing-boolean-) | Истинно, если отформатированные символы не должны проверяться на орфографию. |
-| [setOn(boolean value)](#setOn-boolean-) |  |
-| [setOpacity(double value)](#setOpacity-double-) |  |
-| [setOutline(boolean value)](#setOutline-boolean-) | Истинно, если шрифт отформатирован как контур. |
-| [setPosition(double value)](#setPosition-double-) | Устанавливает положение текста (в пунктах) относительно базовой линии. |
-| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [setScaling(int value)](#setScaling-int-) | Устанавливает масштабирование ширины символов в процентах. |
-| [setShadow(boolean value)](#setShadow-boolean-) | Истинно, если шрифт отформатирован как затененный. |
-| [setSize(double value)](#setSize-double-) | Устанавливает размер шрифта в пунктах. |
-| [setSizeBi(double value)](#setSizeBi-double-) | Устанавливает размер шрифта в пунктах, используемых в документе с написанием справа налево. |
-| [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | Истинно, если шрифт отформатирован как маленькие заглавные буквы. |
-| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | Указывает, должен ли текущий шрифт использовать параметры сетки документа на строку при компоновке. |
-| [setSpacing(double value)](#setSpacing-double-) | Устанавливает интервал (в пунктах) между символами. |
-| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | Истинно, если шрифт отформатирован как зачеркнутый текст. |
-| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | Задает стиль символов, применяемый к этому форматированию. |
-| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | Задает независимый от локали идентификатор стиля символа, примененного к этому форматированию. |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | Задает имя стиля символов, применяемого к этому форматированию. |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | Истинно, если шрифт отформатирован как нижний индекс. |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) | Истинно, если шрифт отформатирован как надстрочный. |
-| [setTextEffect(int value)](#setTextEffect-int-) | Устанавливает эффект анимации шрифта. |
-| [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [setThemeColor(int value)](#setThemeColor-int-) | Задает цвет темы в применяемой цветовой схеме, связанной с этим объектом Font. |
-| [setThemeFont(int value)](#setThemeFont-int-) | Задает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [setThemeFontAscii(int value)](#setThemeFontAscii-int-) | Задает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [setThemeFontBi(int value)](#setThemeFontBi-int-) | Задает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font в документе на языке с письмом справа налево. |
-| [setThemeFontFarEast(int value)](#setThemeFontFarEast-int-) | Задает шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [setThemeFontOther(int value)](#setThemeFontOther-int-) | Задает шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов, связанной с этим объектом Font. |
-| [setTintAndShade(double value)](#setTintAndShade-double-) | Устанавливает двойное значение, которое делает цвет светлее или темнее. |
-| [setUnderline(int value)](#setUnderline-int-) | Устанавливает тип подчеркивания, применяемого к шрифту. |
-| [setUnderlineColor(Color value)](#setUnderlineColor-java.awt.Color-) | Устанавливает цвет подчеркивания, применяемого к шрифту. |
-| [solid()](#solid--) |  |
-| [toString()](#toString--) |  |
-| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearFormatting() {#clearFormatting--}
+| [clearFormatting()](#clearFormatting) | Сбрасывает форматирование шрифта к значениям по умолчанию. |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
+| [getAllCaps()](#getAllCaps) | True, если шрифт отформатирован заглавными буквами. |
+| [getAutoColor()](#getAutoColor) | Возвращает текущий вычисленный цвет текста (чёрный или белый), используемый для 'auto color'. |
+| [getBidi()](#getBidi) | Указывает, должны ли содержимое этого фрагмента иметь характеристики справа налево. |
+| [getBold()](#getBold) | True, если шрифт оформлен как жирный. |
+| [getBoldBi()](#getBoldBi) | True, если текст справа налево отформатирован полужирным. |
+| [getBorder()](#getBorder) | Возвращает объект [Border](../../com.aspose.words/border/), который задаёт границу для шрифта. |
+| [getColor()](#getColor) | Получает цвет шрифта. |
+| [getComplexScript()](#getComplexScript) | Указывает, следует ли рассматривать содержимое этого фрагмента как текст сложного скрипта независимо от их значений Unicode при определении форматирования этого фрагмента. |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getDoubleStrikeThrough()](#getDoubleStrikeThrough) | True, если шрифт отформатирован двойным зачеркиванием. |
+| [getEmboss()](#getEmboss) | True, если шрифт отформатирован как рельефный. |
+| [getEmphasisMark()](#getEmphasisMark) | Получает знак выделения, примененный к этому форматированию. |
+| [getEngrave()](#getEngrave) | True, если шрифт отформатирован как гравированный. |
+| [getFill()](#getFill) | Получает формат заполнения для [Font](../../com.aspose.words/font/). |
+| [getFillType()](#getFillType) |  |
+| [getFillableBackColor()](#getFillableBackColor) |  |
+| [getFillableBackThemeColor()](#getFillableBackThemeColor) |  |
+| [getFillableBackTintAndShade()](#getFillableBackTintAndShade) |  |
+| [getFillableBaseForeColor()](#getFillableBaseForeColor) |  |
+| [getFillableForeColor()](#getFillableForeColor) |  |
+| [getFillableForeThemeColor()](#getFillableForeThemeColor) |  |
+| [getFillableForeTintAndShade()](#getFillableForeTintAndShade) |  |
+| [getFillableImageBytes()](#getFillableImageBytes) |  |
+| [getFillableTransparency()](#getFillableTransparency) |  |
+| [getFillableVisible()](#getFillableVisible) |  |
+| [getFilledColor()](#getFilledColor) |  |
+| [getGradientAngle()](#getGradientAngle) |  |
+| [getGradientStops()](#getGradientStops) |  |
+| [getGradientStyle()](#getGradientStyle) |  |
+| [getGradientVariant()](#getGradientVariant) |  |
+| [getHidden()](#getHidden) | True, если шрифт отформатирован как скрытый текст. |
+| [getHighlightColor()](#getHighlightColor) | Получает цвет выделения (маркер). |
+| [getItalic()](#getItalic) | Истина, если шрифт оформлен курсивом. |
+| [getItalicBi()](#getItalicBi) | True, если текст справа налево отформатирован как курсив. |
+| [getKerning()](#getKerning) | Получает размер шрифта, при котором начинается кернинг. |
+| [getLineSpacing()](#getLineSpacing) | Возвращает межстрочный интервал этого шрифта (в пунктах). |
+| [getLocaleId()](#getLocaleId) | Получает идентификатор локали (язык) отформатированных символов. |
+| [getLocaleIdBi()](#getLocaleIdBi) | Получает идентификатор локали (язык) отформатированных символов справа налево. |
+| [getLocaleIdFarEast()](#getLocaleIdFarEast) | Получает идентификатор локали (язык) отформатированных азиатских символов. |
+| [getName()](#getName) | Получает название шрифта. |
+| [getNameAscii()](#getNameAscii) | Получает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
+| [getNameBi()](#getNameBi) | Получает имя шрифта в документе с языком справа налево. |
+| [getNameFarEast()](#getNameFarEast) | Получает имя восточно-азиатского шрифта. |
+| [getNameOther()](#getNameOther) | Получает шрифт, используемый для символов с кодами от 128 до 255. |
+| [getNoProofing()](#getNoProofing) | True, когда отформатированные символы не подлежат проверке орфографии. |
+| [getNumberSpacing()](#getNumberSpacing) | Получает тип интервала отображаемой цифры. |
+| [getOldOn()](#getOldOn) |  |
+| [getOldOpacity()](#getOldOpacity) |  |
+| [getOutline()](#getOutline) | True, если шрифт отформатирован как контур. |
+| [getPatternType()](#getPatternType) |  |
+| [getPosition()](#getPosition) | Получает позицию текста (в пунктах) относительно базовой линии. |
+| [getPresetTexture()](#getPresetTexture) |  |
+| [getRotateWithObject()](#getRotateWithObject) |  |
+| [getScaling()](#getScaling) | Получает масштабирование ширины символов в процентах. |
+| [getShading()](#getShading) | Возвращает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения для шрифта. |
+| [getShadow()](#getShadow) | True, если шрифт отформатирован как с тенью. |
+| [getSize()](#getSize) | Получает размер шрифта в пунктах. |
+| [getSizeBi()](#getSizeBi) | Получает размер шрифта в пунктах, используемый в документе с направлением справа налево. |
+| [getSmallCaps()](#getSmallCaps) | Истина, если шрифт оформлен малыми заглавными буквами. |
+| [getSnapToGrid()](#getSnapToGrid) | Указывает, следует ли текущему шрифту использовать настройки количества символов в строке сетки документа при размещении. |
+| [getSpacing()](#getSpacing) | Получает интервал (в пунктах) между символами. |
+| [getStrikeThrough()](#getStrikeThrough) | Истина, если шрифт оформлен как перечёркнутый. |
+| [getStyle()](#getStyle) | Получает стиль символов, примененный к этому форматированию. |
+| [getStyleIdentifier()](#getStyleIdentifier) | Получает независимый от локали идентификатор стиля символов, примененный к этому форматированию. |
+| [getStyleName()](#getStyleName) | Получает имя стиля символов, примененного к этому форматированию. |
+| [getSubscript()](#getSubscript) | Истина, если шрифт отформатирован как нижний индекс. |
+| [getSuperscript()](#getSuperscript) | Истина, если шрифт отформатирован как верхний индекс. |
+| [getTextEffect()](#getTextEffect) | Получает эффект анимации шрифта. |
+| [getTextureAlignment()](#getTextureAlignment) |  |
+| [getThemeColor()](#getThemeColor) | Получает цвет темы в примененной цветовой схеме, связанной с объектом [Font](../../com.aspose.words/font/). |
+| [getThemeFont()](#getThemeFont) | Получает шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/). |
+| [getThemeFontAscii()](#getThemeFontAscii) | Получает шрифт темы, используемый для латинского текста (символы с кодами от 0 (ноль) до 127) в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/). |
+| [getThemeFontBi()](#getThemeFontBi) | Получает шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/) в документе с языком справа налево. |
+| [getThemeFontFarEast()](#getThemeFontFarEast) | Получает восточноазиатский шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/). |
+| [getThemeFontOther()](#getThemeFontOther) | Получает шрифт темы, используемый для символов с кодами от 128 до 255 в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/). |
+| [getTintAndShade()](#getTintAndShade) | Получает двойное значение, которое осветляет или затемняет цвет. |
+| [getUnderline()](#getUnderline) | Получает тип подчеркивания, примененного к шрифту. |
+| [getUnderlineColor()](#getUnderlineColor) | Получает цвет подчеркивания, примененного к шрифту. |
+| [hasDmlEffect(int dmlEffectType)](#hasDmlEffect-int) |  |
+| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
+| [patterned(int patternType)](#patterned-int) |  |
+| [presetTextured(int presetTexture)](#presetTextured-int) |  |
+| [setAllCaps(boolean value)](#setAllCaps-boolean) | True, если шрифт отформатирован заглавными буквами. |
+| [setBidi(boolean value)](#setBidi-boolean) | Указывает, должны ли содержимое этого фрагмента иметь характеристики справа налево. |
+| [setBold(boolean value)](#setBold-boolean) | True, если шрифт оформлен как жирный. |
+| [setBoldBi(boolean value)](#setBoldBi-boolean) | True, если текст справа налево отформатирован полужирным. |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setColor(Color value)](#setColor-java.awt.Color) | Устанавливает цвет шрифта. |
+| [setComplexScript(boolean value)](#setComplexScript-boolean) | Указывает, следует ли рассматривать содержимое этого фрагмента как текст сложного скрипта независимо от их значений Unicode при определении форматирования этого фрагмента. |
+| [setDoubleStrikeThrough(boolean value)](#setDoubleStrikeThrough-boolean) | True, если шрифт отформатирован двойным зачеркиванием. |
+| [setEmboss(boolean value)](#setEmboss-boolean) | True, если шрифт отформатирован как рельефный. |
+| [setEmphasisMark(int value)](#setEmphasisMark-int) | Устанавливает знак акцента, применяемый к этому форматированию. |
+| [setEngrave(boolean value)](#setEngrave-boolean) | True, если шрифт отформатирован как гравированный. |
+| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color) |  |
+| [setFillableBackThemeColor(int value)](#setFillableBackThemeColor-int) |  |
+| [setFillableBackTintAndShade(double value)](#setFillableBackTintAndShade-double) |  |
+| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color) |  |
+| [setFillableForeThemeColor(int value)](#setFillableForeThemeColor-int) |  |
+| [setFillableForeTintAndShade(double value)](#setFillableForeTintAndShade-double) |  |
+| [setFillableTransparency(double value)](#setFillableTransparency-double) |  |
+| [setFillableVisible(boolean value)](#setFillableVisible-boolean) |  |
+| [setFilledColor(Color value)](#setFilledColor-java.awt.Color) |  |
+| [setGradientAngle(double value)](#setGradientAngle-double) |  |
+| [setHidden(boolean value)](#setHidden-boolean) | True, если шрифт отформатирован как скрытый текст. |
+| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color) | Устанавливает цвет выделения (маркировки). |
+| [setImage(byte[] imageBytes)](#setImage-byte) |  |
+| [setItalic(boolean value)](#setItalic-boolean) | Истина, если шрифт оформлен курсивом. |
+| [setItalicBi(boolean value)](#setItalicBi-boolean) | True, если текст справа налево отформатирован как курсив. |
+| [setKerning(double value)](#setKerning-double) | Устанавливает размер шрифта, при котором начинается кёрнинг. |
+| [setLocaleId(int value)](#setLocaleId-int) | Устанавливает идентификатор локали (язык) отформатированных символов. |
+| [setLocaleIdBi(int value)](#setLocaleIdBi-int) | Устанавливает идентификатор локали (язык) отформатированных символов справа налево. |
+| [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int) | Устанавливает идентификатор локали (язык) отформатированных азиатских символов. |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает имя шрифта. |
+| [setNameAscii(String value)](#setNameAscii-java.lang.String) | Устанавливает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
+| [setNameBi(String value)](#setNameBi-java.lang.String) | Устанавливает имя шрифта в документе с языком, пишущимся справа налево. |
+| [setNameFarEast(String value)](#setNameFarEast-java.lang.String) | Устанавливает имя восточноазиатского шрифта. |
+| [setNameOther(String value)](#setNameOther-java.lang.String) | Устанавливает шрифт, используемый для символов с кодами от 128 до 255. |
+| [setNoProofing(boolean value)](#setNoProofing-boolean) | True, когда отформатированные символы не подлежат проверке орфографии. |
+| [setNumberSpacing(int value)](#setNumberSpacing-int) | Устанавливает тип интервала цифры, отображаемой. |
+| [setOldOn(boolean value)](#setOldOn-boolean) |  |
+| [setOldOpacity(double value)](#setOldOpacity-double) |  |
+| [setOutline(boolean value)](#setOutline-boolean) | True, если шрифт отформатирован как контур. |
+| [setPosition(double value)](#setPosition-double) | Устанавливает позицию текста (в пунктах) относительно базовой линии. |
+| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) |  |
+| [setScaling(int value)](#setScaling-int) | Устанавливает масштабирование ширины символов в процентах. |
+| [setShadow(boolean value)](#setShadow-boolean) | True, если шрифт отформатирован как с тенью. |
+| [setSize(double value)](#setSize-double) | Устанавливает размер шрифта в пунктах. |
+| [setSizeBi(double value)](#setSizeBi-double) | Устанавливает размер шрифта в пунктах, используемый в документе с языком, пишущимся справа налево. |
+| [setSmallCaps(boolean value)](#setSmallCaps-boolean) | Истина, если шрифт оформлен малыми заглавными буквами. |
+| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean) | Указывает, следует ли текущему шрифту использовать настройки количества символов в строке сетки документа при размещении. |
+| [setSpacing(double value)](#setSpacing-double) | Устанавливает интервал (в пунктах) между символами. |
+| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean) | Истина, если шрифт оформлен как перечёркнутый. |
+| [setStyle(Style value)](#setStyle-com.aspose.words.Style) | Устанавливает стиль символов, применяемый к этому форматированию. |
+| [setStyleIdentifier(int value)](#setStyleIdentifier-int) | Устанавливает независимый от локали идентификатор стиля символов, применяемый к этому форматированию. |
+| [setStyleName(String value)](#setStyleName-java.lang.String) | Устанавливает имя стиля символов, применяемого к этому форматированию. |
+| [setSubscript(boolean value)](#setSubscript-boolean) | Истина, если шрифт отформатирован как нижний индекс. |
+| [setSuperscript(boolean value)](#setSuperscript-boolean) | Истина, если шрифт отформатирован как верхний индекс. |
+| [setTextEffect(int value)](#setTextEffect-int) | Устанавливает эффект анимации шрифта. |
+| [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
+| [setThemeColor(int value)](#setThemeColor-int) | Устанавливает цвет темы в примененной цветовой схеме, связанной с этим объектом [Font](../../com.aspose.words/font/). |
+| [setThemeFont(int value)](#setThemeFont-int) | Устанавливает шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). |
+| [setThemeFontAscii(int value)](#setThemeFontAscii-int) | Устанавливает шрифт темы, используемый для латинского текста (символы с кодами от 0 (ноль) до 127) в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). |
+| [setThemeFontBi(int value)](#setThemeFontBi-int) | Устанавливает шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/) в документе с языком, пишущимся справа налево. |
+| [setThemeFontFarEast(int value)](#setThemeFontFarEast-int) | Устанавливает восточноазиатский шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). |
+| [setThemeFontOther(int value)](#setThemeFontOther-int) | Устанавливает шрифт темы, используемый для символов с кодами от 128 до 255 в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). |
+| [setTintAndShade(double value)](#setTintAndShade-double) | Устанавливает двойное значение, которое осветляет или затемняет цвет. |
+| [setUnderline(int value)](#setUnderline-int) | Устанавливает тип подчеркивания, применяемый к шрифту. |
+| [setUnderlineColor(Color value)](#setUnderlineColor-java.awt.Color) | Устанавливает цвет подчеркивания, применяемого к шрифту. |
+| [solid()](#solid) |  |
+| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int) |  |
+### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
 ```
 
 
-Сбрасывает форматирование шрифта по умолчанию.
+Сбрасывает форматирование шрифта к значениям по умолчанию.
 
-Удаляет все форматирование шрифта, указанное явно для объекта, из которого**Font** был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родителя.
+ **Remarks:** 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+Удаляет все явно указанные форматирования шрифта на объекте, из которого был получен [Font](../../com.aspose.words/font/), чтобы форматирование шрифта наследовалось от соответствующего родителя.
+
+ **Examples:** 
+
+Показывает, как вставить поле гиперссылки.
+
 ```
-public boolean equals(Object arg0)
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
 ```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -207,15 +290,14 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int}
 ```
 public Object fetchInheritedShadingAttr(int key)
 ```
@@ -223,93 +305,264 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getAllCaps() {#getAllCaps--}
+**Returns:**
+java.lang.Object
+### getAllCaps() {#getAllCaps}
 ```
 public boolean getAllCaps()
 ```
 
 
-Истинно, если шрифт отформатирован как все заглавные буквы.
+True, если шрифт отформатирован заглавными буквами.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getAutoColor() {#getAutoColor--}
+ **Examples:** 
+
+Показывает, как отформатировать фрагмент текста для отображения его содержимого заглавными буквами.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // There are two ways of getting a run to display its lowercase text in uppercase without changing the contents.
+ // 1 -  Set the AllCaps flag to display all characters in regular capitals:
+ Run run = new Run(doc, "all capitals");
+ run.getFont().setAllCaps(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ // 2 -  Set the SmallCaps flag to display all characters in small capitals:
+ // If a character is lower case, it will appear in its upper case form
+ // but will have the same height as the lower case (the font's x-height).
+ // Characters that were in upper case originally will look the same.
+ run = new Run(doc, "Small Capitals");
+ run.getFont().setSmallCaps(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.Caps.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getAutoColor() {#getAutoColor}
 ```
 public Color getAutoColor()
 ```
 
 
- Возвращает текущий рассчитанный цвет текста (черный или белый), который будет использоваться для «автоцвета». Если цвет не «авто», возвращается[getColor()](../../com.aspose.words/font\#getColor--) / [setColor(java.awt.Color)](../../com.aspose.words/font\#setColor-java.awt.Color-).
+Возвращает текущий вычисленный цвет текста (черный или белый), используемый для 'автоцвета'. Если цвет не 'авто', то возвращает [getColor()](../../com.aspose.words/font/\#getColor) / [setColor(java.awt.Color)](../../com.aspose.words/font/\#setColor-java.awt.Color).
 
-Когда текст имеет «автоматический цвет», фактический цвет текста рассчитывается автоматически, чтобы его можно было прочитать на фоне цвета фона. Когда вы меняете цвет фона, цвет текста автоматически меняется на черный или белый в MS Word, чтобы обеспечить максимальную читаемость.
+ **Remarks:** 
 
-**Возвращает:**
-java.awt.Color — Текущий вычисленный цвет текста (черный или белый), который будет использоваться для «автоматического цвета».
-### getBidi() {#getBidi--}
+Когда у текста установлен 'автоматический цвет', фактический цвет текста вычисляется автоматически, чтобы он был читаемым на фоне цвета фона. При изменении цвета фона цвет текста в MS Word автоматически переключается на черный или белый, чтобы обеспечить максимальную разборчивость.
+
+ **Examples:** 
+
+Показывает, как улучшить читаемость, автоматически выбирая цвет текста в зависимости от яркости его фона.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If a run's Font object does not specify text color, it will automatically
+ // select either black or white depending on the background color's color.
+ Assert.assertEquals(0, builder.getFont().getColor().getRGB());
+
+ // The default color for text is black. If the color of the background is dark, black text will be difficult to see.
+ // To solve this problem, the AutoColor property will display this text in white.
+ builder.getFont().getShading().setBackgroundPatternColor(Color.BLUE);
+
+ builder.writeln("The text color automatically chosen for this run is white.");
+
+ Assert.assertEquals(Color.WHITE.getRGB(), doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getAutoColor().getRGB());
+
+ // If we change the background to a light color, black will be a more
+ // suitable text color than white so that the auto color will display it in black.
+ builder.getFont().getShading().setBackgroundPatternColor(Color.RED);
+
+ builder.writeln("The text color automatically chosen for this run is black.");
+
+ Assert.assertEquals(Color.BLACK.getRGB(), doc.getFirstSection().getBody().getParagraphs().get(1).getRuns().get(0).getFont().getAutoColor().getRGB());
+
+ doc.save(getArtifactsDir() + "Font.SetFontAutoColor.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - Текущий вычисленный цвет текста (чёрный или белый), используемый для 'auto color'.
+### getBidi() {#getBidi}
 ```
 public boolean getBidi()
 ```
 
 
-Указывает, должно ли содержимое этого цикла иметь характеристики письма справа налево.
+Указывает, должны ли содержимое этого фрагмента иметь характеристики справа налево.
 
-Если это свойство включено, его нельзя использовать с текстом, написанным строго слева направо. Любое поведение в этом состоянии не определено. Если это свойство отключено, его нельзя использовать с сильным текстом, написанным справа налево. Любое поведение в этом состоянии не определено.
+ **Remarks:** 
 
-При отображении содержимого этого цикла все символы должны рассматриваться как сложные символы сценария для целей форматирования. Это означает, что[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-) и соответствующее имя шрифта будет использоваться при рендеринге этого прогона.
+Это свойство, когда включено, не должно использоваться с сильно направленным слева направо текстом. Любое поведение в этом случае не определено. Это свойство, когда выключено, не должно использоваться с сильным текстом справа налево. Любое поведение в этом случае не определено.
 
-Кроме того, когда отображается содержимое этого цикла, это свойство действует как переопределение справа налево для символов, которые классифицируются как «слабые типы» и «нейтральные типы».
+Когда содержимое этого фрагмента отображается, все символы должны рассматриваться как символы сложного скрипта для целей форматирования. Это означает, что [getBoldBi()](../../com.aspose.words/font/\#getBoldBi) / [setBoldBi(boolean)](../../com.aspose.words/font/\#setBoldBi-boolean), [getItalicBi()](../../com.aspose.words/font/\#getItalicBi) / [setItalicBi(boolean)](../../com.aspose.words/font/\#setItalicBi-boolean), [getSizeBi()](../../com.aspose.words/font/\#getSizeBi) / [setSizeBi(double)](../../com.aspose.words/font/\#setSizeBi-double) и соответствующее имя шрифта будут использоваться при рендеринге этого фрагмента.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getBold() {#getBold--}
+Также, когда содержимое этого фрагмента отображается, это свойство действует как переопределение справа налево для символов, классифицированных как "слабые типы" и "нейтральные типы".
+
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getBold() {#getBold}
 ```
 public boolean getBold()
 ```
 
 
-Истинно, если шрифт отформатирован как полужирный.
+True, если шрифт оформлен как жирный.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getBoldBi() {#getBoldBi--}
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getBoldBi() {#getBoldBi}
 ```
 public boolean getBoldBi()
 ```
 
 
-Истинно, если текст справа налево выделен полужирным шрифтом.
+True, если текст справа налево отформатирован полужирным.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getBorder() {#getBorder--}
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getBorder() {#getBorder}
 ```
 public Border getBorder()
 ```
 
 
-Возвращает объект Border, указывающий границу для шрифта.
+Возвращает объект [Border](../../com.aspose.words/border/), который задаёт границу для шрифта.
 
-**Возвращает:**
-[Border](../../com.aspose.words/border) - Объект Border, указывающий границу для шрифта.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как вставить строку, окружённую границей, в документ.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().getBorder().setColor(Color.GREEN);
+ builder.getFont().getBorder().setLineWidth(2.5);
+ builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
+
+ builder.write("Text surrounded by green border.");
+
+ doc.save(getArtifactsDir() + "Border.FontBorder.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColor() {#getColor--}
+**Returns:**
+[Border](../../com.aspose.words/border/) - A [Border](../../com.aspose.words/border/) object that specifies border for the font.
+### getColor() {#getColor}
 ```
 public Color getColor()
 ```
@@ -317,19 +570,79 @@ public Color getColor()
 
 Получает цвет шрифта.
 
-**Возвращает:**
-java.awt.Color — цвет шрифта.
-### getComplexScript() {#getComplexScript--}
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как вставить поле гиперссылки.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - Цвет шрифта.
+### getComplexScript() {#getComplexScript}
 ```
 public boolean getComplexScript()
 ```
 
 
-Указывает, должно ли содержимое этого запуска рассматриваться как сложный текст скрипта независимо от их значений символов Unicode при определении форматирования для этого запуска.
+Указывает, следует ли рассматривать содержимое этого фрагмента как текст сложного скрипта независимо от их значений Unicode при определении форматирования этого фрагмента.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+ **Examples:** 
+
+Показывает, как добавить текст, который всегда рассматривается как сложный скрипт.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setComplexScript(true);
+
+ builder.writeln("Text treated as complex script.");
+
+ doc.save(getArtifactsDir() + "Font.ComplexScript.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -337,65 +650,191 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDoubleStrikeThrough() {#getDoubleStrikeThrough--}
+**Returns:**
+java.lang.Object
+### getDoubleStrikeThrough() {#getDoubleStrikeThrough}
 ```
 public boolean getDoubleStrikeThrough()
 ```
 
 
-Истинно, если шрифт отформатирован как двойной зачеркнутый текст.
+True, если шрифт отформатирован двойным зачеркиванием.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getEmboss() {#getEmboss--}
+ **Examples:** 
+
+Показывает, как добавить зачёркнутую линию к тексту.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ Run run = new Run(doc, "Text with a single-line strikethrough.");
+ run.getFont().setStrikeThrough(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ run = new Run(doc, "Text with a double-line strikethrough.");
+ run.getFont().setDoubleStrikeThrough(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.StrikeThrough.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getEmboss() {#getEmboss}
 ```
 public boolean getEmboss()
 ```
 
 
-Истинно, если шрифт отформатирован как рельефный.
+True, если шрифт отформатирован как рельефный.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getEmphasisMark() {#getEmphasisMark--}
+ **Examples:** 
+
+Показывает, как применить эффекты гравировки/тиснения к тексту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setColor(Color.WHITE);
+
+ // Below are two ways of using shadows to apply a 3D-like effect to the text.
+ // 1 -  Engrave text to make it look like the letters are sunken into the page:
+ builder.getFont().setEngrave(true);
+
+ builder.writeln("This text is engraved.");
+
+ // 2 -  Emboss text to make it look like the letters pop out of the page:
+ builder.getFont().setEngrave(false);
+ builder.getFont().setEmboss(true);
+
+ builder.writeln("This text is embossed.");
+
+ doc.save(getArtifactsDir() + "Font.EngraveEmboss.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getEmphasisMark() {#getEmphasisMark}
 ```
 public int getEmphasisMark()
 ```
 
 
-Получает знак акцента, применяемый к этому форматированию.
+Получает знак выделения, примененный к этому форматированию.
 
-**Возвращает:**
- int - Знак акцента, примененный к этому форматированию. Возвращаемое значение является одним из[EmphasisMark](../../com.aspose.words/emphasismark) константы.
-### getEngrave() {#getEngrave--}
+ **Examples:** 
+
+Показывает, как добавить дополнительный символ, отображаемый над/под глифом.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ // Possible types of emphasis mark:
+ // https://apireference.aspose.com/words/net/aspose.words/emphasismark
+ builder.getFont().setEmphasisMark(emphasisMark);
+
+ builder.write("Emphasis text");
+ builder.writeln();
+ builder.getFont().clearFormatting();
+ builder.write("Simple text");
+
+ builder.getDocument().save(getArtifactsDir() + "Fonts.SetEmphasisMark.docx");
+ 
+```
+
+**Returns:**
+int - Маркер акцента, применяемый к этому форматированию. Возвращаемое значение является одной из констант [EmphasisMark](../../com.aspose.words/emphasismark/).
+### getEngrave() {#getEngrave}
 ```
 public boolean getEngrave()
 ```
 
 
-Истинно, если шрифт отформатирован как выгравированный.
+True, если шрифт отформатирован как гравированный.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getFill() {#getFill--}
+ **Examples:** 
+
+Показывает, как применить эффекты гравировки/тиснения к тексту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setColor(Color.WHITE);
+
+ // Below are two ways of using shadows to apply a 3D-like effect to the text.
+ // 1 -  Engrave text to make it look like the letters are sunken into the page:
+ builder.getFont().setEngrave(true);
+
+ builder.writeln("This text is engraved.");
+
+ // 2 -  Emboss text to make it look like the letters pop out of the page:
+ builder.getFont().setEngrave(false);
+ builder.getFont().setEmboss(true);
+
+ builder.writeln("This text is embossed.");
+
+ doc.save(getArtifactsDir() + "Font.EngraveEmboss.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getFill() {#getFill}
 ```
 public Fill getFill()
 ```
 
 
-Получает форматирование заливки для шрифта.
+Получает формат заполнения для [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
-[Fill](../../com.aspose.words/fill) - Заполнить форматирование шрифта.
-### getFillType() {#getFillType--}
+ **Examples:** 
+
+Показывает, как преобразовать любую из заливок обратно в сплошную заливку.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
+
+**Returns:**
+[Fill](../../com.aspose.words/fill/) - Fill formatting for the [Font](../../com.aspose.words/font/).
+### getFillType() {#getFillType}
 ```
 public int getFillType()
 ```
@@ -403,9 +842,9 @@ public int getFillType()
 
 
 
-**Возвращает:**
-инт
-### getFillableBackColor() {#getFillableBackColor--}
+**Returns:**
+int
+### getFillableBackColor() {#getFillableBackColor}
 ```
 public Color getFillableBackColor()
 ```
@@ -413,9 +852,39 @@ public Color getFillableBackColor()
 
 
 
-**Возвращает:**
+**Returns:**
 java.awt.Color
-### getFillableForeColor() {#getFillableForeColor--}
+### getFillableBackThemeColor() {#getFillableBackThemeColor}
+```
+public int getFillableBackThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getFillableBackTintAndShade() {#getFillableBackTintAndShade}
+```
+public double getFillableBackTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
+### getFillableBaseForeColor() {#getFillableBaseForeColor}
+```
+public Color getFillableBaseForeColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
+### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()
 ```
@@ -423,9 +892,29 @@ public Color getFillableForeColor()
 
 
 
-**Возвращает:**
+**Returns:**
 java.awt.Color
-### getFillableImageBytes() {#getFillableImageBytes--}
+### getFillableForeThemeColor() {#getFillableForeThemeColor}
+```
+public int getFillableForeThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getFillableForeTintAndShade() {#getFillableForeTintAndShade}
+```
+public double getFillableForeTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
+### getFillableImageBytes() {#getFillableImageBytes}
 ```
 public byte[] getFillableImageBytes()
 ```
@@ -433,9 +922,9 @@ public byte[] getFillableImageBytes()
 
 
 
-**Возвращает:**
-байт[]
-### getFillableTransparency() {#getFillableTransparency--}
+**Returns:**
+byte[]
+### getFillableTransparency() {#getFillableTransparency}
 ```
 public double getFillableTransparency()
 ```
@@ -443,9 +932,9 @@ public double getFillableTransparency()
 
 
 
-**Возвращает:**
-двойной
-### getFillableVisible() {#getFillableVisible--}
+**Returns:**
+double
+### getFillableVisible() {#getFillableVisible}
 ```
 public boolean getFillableVisible()
 ```
@@ -453,9 +942,9 @@ public boolean getFillableVisible()
 
 
 
-**Возвращает:**
-логический
-### getFilledColor() {#getFilledColor--}
+**Returns:**
+boolean
+### getFilledColor() {#getFilledColor}
 ```
 public Color getFilledColor()
 ```
@@ -463,9 +952,9 @@ public Color getFilledColor()
 
 
 
-**Возвращает:**
+**Returns:**
 java.awt.Color
-### getGradientAngle() {#getGradientAngle--}
+### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
 ```
@@ -473,9 +962,9 @@ public double getGradientAngle()
 
 
 
-**Возвращает:**
-двойной
-### getGradientStops() {#getGradientStops--}
+**Returns:**
+double
+### getGradientStops() {#getGradientStops}
 ```
 public GradientStopCollection getGradientStops()
 ```
@@ -483,9 +972,9 @@ public GradientStopCollection getGradientStops()
 
 
 
-**Возвращает:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection)
-### getGradientStyle() {#getGradientStyle--}
+**Returns:**
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection/)
+### getGradientStyle() {#getGradientStyle}
 ```
 public int getGradientStyle()
 ```
@@ -493,9 +982,9 @@ public int getGradientStyle()
 
 
 
-**Возвращает:**
-инт
-### getGradientVariant() {#getGradientVariant--}
+**Returns:**
+int
+### getGradientVariant() {#getGradientVariant}
 ```
 public int getGradientVariant()
 ```
@@ -503,113 +992,575 @@ public int getGradientVariant()
 
 
 
-**Возвращает:**
-инт
-### getHidden() {#getHidden--}
+**Returns:**
+int
+### getHidden() {#getHidden}
 ```
 public boolean getHidden()
 ```
 
 
-Истинно, если шрифт отформатирован как скрытый текст.
+True, если шрифт отформатирован как скрытый текст.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getHighlightColor() {#getHighlightColor--}
+ **Examples:** 
+
+Показывает, как создать фрагмент скрытого текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // With the Hidden flag set to true, any text that we create using this Font object will be invisible in the document.
+ // We will not see or highlight hidden text unless we enable the "Hidden text" option
+ // found in Microsoft Word via "File" -> "Options" -> "Display". The text will still be there,
+ // and we will be able to access this text programmatically.
+ // It is not advised to use this method to hide sensitive information.
+ builder.getFont().setHidden(true);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text will not be visible in the document.");
+
+ doc.save(getArtifactsDir() + "Font.Hidden.docx");
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getHighlightColor() {#getHighlightColor}
 ```
 public Color getHighlightColor()
 ```
 
 
-Получает цвет выделения (маркера).
+Получает цвет выделения (маркер).
 
-**Возвращает:**
-java.awt.Color — цвет выделения (маркера).
-### getItalic() {#getItalic--}
+ **Examples:** 
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - Цвет выделения (маркировки).
+### getItalic() {#getItalic}
 ```
 public boolean getItalic()
 ```
 
 
-Истинно, если шрифт отформатирован как курсив.
+Истина, если шрифт оформлен курсивом.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getItalicBi() {#getItalicBi--}
+ **Examples:** 
+
+Показывает, как написать курсивный текст с помощью document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setItalic(true);
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Italic.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getItalicBi() {#getItalicBi}
 ```
 public boolean getItalicBi()
 ```
 
 
-Истина, если текст справа налево отформатирован курсивом.
+True, если текст справа налево отформатирован как курсив.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getKerning() {#getKerning--}
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getKerning() {#getKerning}
 ```
 public double getKerning()
 ```
 
 
-Получает размер шрифта, с которого начинается кернинг.
+Получает размер шрифта, при котором начинается кернинг.
 
-**Возвращает:**
-double - Размер шрифта, с которого начинается кернинг.
-### getLineSpacing() {#getLineSpacing--}
+ **Examples:** 
+
+Показывает, как указать размер шрифта, при котором начинается кернинг.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setName("Arial Black");
+
+ // Set the builder's font size, and minimum size at which kerning will take effect.
+ // The font size falls below the kerning threshold, so the run bellow will not have kerning.
+ builder.getFont().setSize(18.0);
+ builder.getFont().setKerning(24.0);
+
+ builder.writeln("TALLY. (Kerning not applied)");
+
+ // Set the kerning threshold so that the builder's current font size is above it.
+ // Any text we add from this point will have kerning applied. The spaces between characters
+ // will be adjusted, normally resulting in a slightly more aesthetically pleasing text run.
+ builder.getFont().setKerning(12.0);
+
+ builder.writeln("TALLY. (Kerning applied)");
+
+ doc.save(getArtifactsDir() + "Font.Kerning.docx");
+ 
+```
+
+**Returns:**
+double - Размер шрифта, при котором начинается кернинг.
+### getLineSpacing() {#getLineSpacing}
 ```
 public double getLineSpacing()
 ```
 
 
-Возвращает межстрочный интервал данного шрифта (в пунктах).
+Возвращает межстрочный интервал этого шрифта (в пунктах).
 
-**Возвращает:**
-double - межстрочный интервал данного шрифта (в пунктах).
-### getLocaleId() {#getLocaleId--}
+ **Examples:** 
+
+Показывает, как получить межстрочный интервал шрифта в пунктах.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Set different fonts for the DocumentBuilder, and verify their line spacing.
+ builder.getFont().setName("Calibri");
+ Assert.assertEquals(13.7d, builder.getFont().getLineSpacing(), 1);
+
+ builder.getFont().setName("Times New Roman");
+ Assert.assertEquals(13.7d, builder.getFont().getLineSpacing(), 1);
+ 
+```
+
+**Returns:**
+double - Межстрочный интервал этого шрифта (в пунктах).
+### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
 ```
 
 
-Получает идентификатор локали (язык) отформатированных символов. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Получает идентификатор локали (язык) отформатированных символов.
 
-**Возвращает:**
-int - Идентификатор локали (языка) отформатированных символов.
-### getLocaleIdBi() {#getLocaleIdBi--}
+ **Remarks:** 
+
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как установить локаль текста, который мы добавляем с помощью document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If we set the font's locale to English and insert some Russian text,
+ // the English locale spell checker will not recognize the text and detect it as a spelling error.
+ builder.getFont().setLocaleId(1033);
+ builder.writeln("\u041f\u0440\u0438\u0432\u0435\u0442!");
+
+ // Set a matching locale for the text that we are about to add to apply the appropriate spell checker.
+ builder.getFont().setLocaleId(1049);
+ builder.writeln("\u041f\u0440\u0438\u0432\u0435\u0442!");
+
+ doc.save(getArtifactsDir() + "Font.LocaleId.docx");
+ 
+```
+
+**Returns:**
+int - Идентификатор локали (язык) отформатированных символов.
+### getLocaleIdBi() {#getLocaleIdBi}
 ```
 public int getLocaleIdBi()
 ```
 
 
-Получает идентификатор локали (язык) отформатированных символов, написанных справа налево. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Получает идентификатор локали (язык) отформатированных символов справа налево.
 
-**Возвращает:**
+ **Remarks:** 
+
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
 int - Идентификатор локали (язык) отформатированных символов справа налево.
-### getLocaleIdFarEast() {#getLocaleIdFarEast--}
+### getLocaleIdFarEast() {#getLocaleIdFarEast}
 ```
 public int getLocaleIdFarEast()
 ```
 
 
-Получает идентификатор локали (язык) отформатированных азиатских символов. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Получает идентификатор локали (язык) отформатированных азиатских символов.
 
-**Возвращает:**
+ **Remarks:** 
+
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как вставлять и форматировать текст на языке Дальнего Востока.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font settings that the document builder will apply to any text that it inserts.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setLocaleId(1033);
+
+ // Name "FarEast" equivalents for our font and locale.
+ // If the builder inserts Asian characters with this Font configuration, then each run that contains
+ // these characters will display them using the "FarEast" font/locale instead of the default.
+ // This could be useful when a western font does not have ideal representations for Asian characters.
+ builder.getFont().setNameFarEast("SimSun");
+ builder.getFont().setLocaleIdFarEast(2052);
+
+ // This text will be displayed in the default font/locale.
+ builder.writeln("Hello world!");
+
+ // Since these are Asian characters, this run will apply our "FarEast" font/locale equivalents.
+ builder.writeln("\u4f60\u597d\u4e16\u754c");
+
+ doc.save(getArtifactsDir() + "Font.FarEast.docx");
+ 
+```
+
+**Returns:**
 int - Идентификатор локали (язык) отформатированных азиатских символов.
-### getName() {#getName--}
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
-Получает имя шрифта.
+Получает название шрифта.
 
- При получении возвращает[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
+ **Remarks:** 
 
- При настройке устанавливает[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-) а также[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-) к указанному значению.
+При получении возвращает [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) / [setNameAscii(java.lang.String)](../../com.aspose.words/font/\#setNameAscii-java.lang.String).
 
-**Возвращает:**
-java.lang.String — Имя шрифта.
-### getNameAscii() {#getNameAscii--}
+При установке задает [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) / [setNameAscii(java.lang.String)](../../com.aspose.words/font/\#setNameAscii-java.lang.String), [getNameBi()](../../com.aspose.words/font/\#getNameBi) / [setNameBi(java.lang.String)](../../com.aspose.words/font/\#setNameBi-java.lang.String), [getNameFarEast()](../../com.aspose.words/font/\#getNameFarEast) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font/\#setNameFarEast-java.lang.String) и [getNameOther()](../../com.aspose.words/font/\#getNameOther) / [setNameOther(java.lang.String)](../../com.aspose.words/font/\#setNameOther-java.lang.String) указанным значением.
+
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Returns:**
+java.lang.String - Название шрифта.
+### getNameAscii() {#getNameAscii}
 ```
 public String getNameAscii()
 ```
@@ -617,79 +1568,279 @@ public String getNameAscii()
 
 Получает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127).
 
-**Возвращает:**
-java.lang.String — шрифт, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127).
-### getNameBi() {#getNameBi--}
+ **Examples:** 
+
+Показывает, как Microsoft Word может объединять два разных шрифта в одном фрагменте.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Suppose a run that we use the builder to insert while using this font configuration
+ // contains characters within the ASCII characters' range. In that case,
+ // it will display those characters using this font.
+ builder.getFont().setNameAscii("Calibri");
+
+ // With no other font specified, the builder will also apply this font to all characters that it inserts.
+ Assert.assertEquals("Calibri", builder.getFont().getName());
+
+ // Specify a font to use for all characters outside of the ASCII range.
+ // Ideally, this font should have a glyph for each required non-ASCII character code.
+ builder.getFont().setNameOther("Courier New");
+
+ // Insert a run with one word consisting of ASCII characters, and one word with all characters outside that range.
+ // Each character will be displayed using either of the fonts, depending on.
+ builder.writeln("Hello, \u041f\u0440\u0438\u0432\u0435\u0442");
+
+ doc.save(getArtifactsDir() + "Font.NameAscii.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — Шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127).
+### getNameBi() {#getNameBi}
 ```
 public String getNameBi()
 ```
 
 
-Получает имя шрифта в документе на языке с написанием справа налево.
+Получает имя шрифта в документе с языком справа налево.
 
-**Возвращает:**
-java.lang.String — имя шрифта в документе на языке с написанием справа налево.
-### getNameFarEast() {#getNameFarEast--}
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — Имя шрифта в документе с языком, пишущимся справа налево.
+### getNameFarEast() {#getNameFarEast}
 ```
 public String getNameFarEast()
 ```
 
 
-Получает имя восточноазиатского шрифта.
+Получает имя восточно-азиатского шрифта.
 
-**Возвращает:**
-java.lang.String — название восточноазиатского шрифта.
-### getNameOther() {#getNameOther--}
+ **Examples:** 
+
+Показывает, как вставлять и форматировать текст на языке Дальнего Востока.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font settings that the document builder will apply to any text that it inserts.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setLocaleId(1033);
+
+ // Name "FarEast" equivalents for our font and locale.
+ // If the builder inserts Asian characters with this Font configuration, then each run that contains
+ // these characters will display them using the "FarEast" font/locale instead of the default.
+ // This could be useful when a western font does not have ideal representations for Asian characters.
+ builder.getFont().setNameFarEast("SimSun");
+ builder.getFont().setLocaleIdFarEast(2052);
+
+ // This text will be displayed in the default font/locale.
+ builder.writeln("Hello world!");
+
+ // Since these are Asian characters, this run will apply our "FarEast" font/locale equivalents.
+ builder.writeln("\u4f60\u597d\u4e16\u754c");
+
+ doc.save(getArtifactsDir() + "Font.FarEast.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — Имя восточноазиатского шрифта.
+### getNameOther() {#getNameOther}
 ```
 public String getNameOther()
 ```
 
 
-Получает шрифт, используемый для символов с кодами символов от 128 до 255.
+Получает шрифт, используемый для символов с кодами от 128 до 255.
 
-**Возвращает:**
-java.lang.String — шрифт, используемый для символов с кодами символов от 128 до 255.
-### getNoProofing() {#getNoProofing--}
+ **Examples:** 
+
+Показывает, как Microsoft Word может объединять два разных шрифта в одном фрагменте.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Suppose a run that we use the builder to insert while using this font configuration
+ // contains characters within the ASCII characters' range. In that case,
+ // it will display those characters using this font.
+ builder.getFont().setNameAscii("Calibri");
+
+ // With no other font specified, the builder will also apply this font to all characters that it inserts.
+ Assert.assertEquals("Calibri", builder.getFont().getName());
+
+ // Specify a font to use for all characters outside of the ASCII range.
+ // Ideally, this font should have a glyph for each required non-ASCII character code.
+ builder.getFont().setNameOther("Courier New");
+
+ // Insert a run with one word consisting of ASCII characters, and one word with all characters outside that range.
+ // Each character will be displayed using either of the fonts, depending on.
+ builder.writeln("Hello, \u041f\u0440\u0438\u0432\u0435\u0442");
+
+ doc.save(getArtifactsDir() + "Font.NameAscii.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — Шрифт, используемый для символов с кодами от 128 до 255.
+### getNoProofing() {#getNoProofing}
 ```
 public boolean getNoProofing()
 ```
 
 
-Истинно, если отформатированные символы не должны проверяться на орфографию.
+True, когда отформатированные символы не подлежат проверке орфографии.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getOn() {#getOn--}
-```
-public boolean getOn()
-```
+ **Examples:** 
 
+Показывает, как предотвратить проверку орфографии текста в Microsoft Word.
 
-
-
-**Возвращает:**
-логический
-### getOpacity() {#getOpacity--}
-```
-public double getOpacity()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Normally, Microsoft Word emphasizes spelling errors with a jagged red underline.
+ // We can un-set the "NoProofing" flag to create a portion of text that
+ // bypasses the spell checker while completely disabling it.
+ builder.getFont().setNoProofing(true);
+
+ builder.writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");
+
+ doc.save(getArtifactsDir() + "Font.NoProofing.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getNumberSpacing() {#getNumberSpacing}
+```
+public int getNumberSpacing()
+```
+
+
+Получает тип интервала отображаемой цифры.
+
+ **Examples:** 
+
+Показывает, как установить тип интервала цифр.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // This effect is only supported in newer versions of MS Word.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2019);
+
+ builder.write("1 ");
+ builder.write("This is an example");
+
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ if (run.getFont().getNumberSpacing() == NumSpacing.DEFAULT)
+     run.getFont().setNumberSpacing(NumSpacing.PROPORTIONAL);
+
+ doc.save(getArtifactsDir() + "Fonts.NumberSpacing.docx");
+ 
+```
+
+**Returns:**
+int — Тип интервала цифры, отображаемой. Возвращаемое значение является одной из констант [NumSpacing](../../com.aspose.words/numspacing/).
+### getOldOn() {#getOldOn}
+```
+public boolean getOldOn()
+```
 
 
 
-**Возвращает:**
-двойной
-### getOutline() {#getOutline--}
+
+**Returns:**
+boolean
+### getOldOpacity() {#getOldOpacity}
+```
+public double getOldOpacity()
+```
+
+
+
+
+**Returns:**
+double
+### getOutline() {#getOutline}
 ```
 public boolean getOutline()
 ```
 
 
-Истинно, если шрифт отформатирован как контур.
+True, если шрифт отформатирован как контур.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getPatternType() {#getPatternType--}
+ **Examples:** 
+
+Показывает, как создать фрагмент текста, отформатированный как контур.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Set the Outline flag to change the text's fill color to white and
+ // leave a thin outline around each character in the original color of the text.
+ builder.getFont().setOutline(true);
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text has an outline.");
+
+ doc.save(getArtifactsDir() + "Font.Outline.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getPatternType() {#getPatternType}
 ```
 public int getPatternType()
 ```
@@ -697,19 +1848,56 @@ public int getPatternType()
 
 
 
-**Возвращает:**
-инт
-### getPosition() {#getPosition--}
+**Returns:**
+int
+### getPosition() {#getPosition}
 ```
 public double getPosition()
 ```
 
 
-Получает положение текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, отрицательное — опускает.
+Получает позицию текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, отрицательное — опускает.
 
-**Возвращает:**
-double - Положение текста (в пунктах) относительно базовой линии.
-### getPresetTexture() {#getPresetTexture--}
+ **Examples:** 
+
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Returns:**
+double — Позиция текста (в пунктах) относительно базовой линии.
+### getPresetTexture() {#getPresetTexture}
 ```
 public int getPresetTexture()
 ```
@@ -717,9 +1905,9 @@ public int getPresetTexture()
 
 
 
-**Возвращает:**
-инт
-### getRotateWithObject() {#getRotateWithObject--}
+**Returns:**
+int
+### getRotateWithObject() {#getRotateWithObject}
 ```
 public boolean getRotateWithObject()
 ```
@@ -727,39 +1915,108 @@ public boolean getRotateWithObject()
 
 
 
-**Возвращает:**
-логический
-### getScaling() {#getScaling--}
+**Returns:**
+boolean
+### getScaling() {#getScaling}
 ```
 public int getScaling()
 ```
 
 
-Получает масштабирование ширины символа в процентах.
+Получает масштабирование ширины символов в процентах.
 
-**Возвращает:**
-int - Масштабирование ширины символа в процентах.
-### getShading() {#getShading--}
+ **Examples:** 
+
+Показывает, как задать горизонтальное масштабирование и интервал между символами.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add run of text and increase character width to 150%.
+ builder.getFont().setScaling(150);
+ builder.writeln("Wide characters");
+
+ // Add run of text and add 1pt of extra horizontal spacing between each character.
+ builder.getFont().setSpacing(1.0);
+ builder.writeln("Expanded by 1pt");
+
+ // Add run of text and bring characters closer together by 1pt.
+ builder.getFont().setSpacing(-1);
+ builder.writeln("Condensed by 1pt");
+
+ doc.save(getArtifactsDir() + "Font.ScalingSpacing.docx");
+ 
+```
+
+**Returns:**
+int — Масштаб ширины символа в процентах.
+### getShading() {#getShading}
 ```
 public Shading getShading()
 ```
 
 
-Возвращает объект Shading, который ссылается на форматирование заливки для шрифта.
+Возвращает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения для шрифта.
 
-**Возвращает:**
-[Shading](../../com.aspose.words/shading) - Объект Shading, который ссылается на форматирование заливки для шрифта.
-### getShadow() {#getShadow--}
+ **Examples:** 
+
+Показывает, как применить затенение к тексту, созданному построителем документов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setColor(Color.WHITE);
+
+ // One way to make the text created using our white font color visible
+ // is to apply a background shading effect.
+ Shading shading = builder.getFont().getShading();
+ shading.setTexture(TextureIndex.TEXTURE_DIAGONAL_UP);
+ shading.setBackgroundPatternColor(Color.RED);
+ shading.setForegroundPatternColor(Color.BLUE);
+
+ builder.writeln("White text on an orange background with a two-tone texture.");
+
+ doc.save(getArtifactsDir() + "Font.Shading.docx");
+ 
+```
+
+**Returns:**
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the font.
+### getShadow() {#getShadow}
 ```
 public boolean getShadow()
 ```
 
 
-Истинно, если шрифт отформатирован как затененный.
+True, если шрифт отформатирован как с тенью.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSize() {#getSize--}
+ **Examples:** 
+
+Показывает, как создать фрагмент текста, отформатированный с тенью.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Set the Shadow flag to apply an offset shadow effect,
+ // making it look like the letters are floating above the page.
+ builder.getFont().setShadow(true);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text has a shadow.");
+
+ doc.save(getArtifactsDir() + "Font.Shadow.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSize() {#getSize}
 ```
 public double getSize()
 ```
@@ -767,109 +2024,429 @@ public double getSize()
 
 Получает размер шрифта в пунктах.
 
-**Возвращает:**
-double - Размер шрифта в пунктах.
-### getSizeBi() {#getSizeBi--}
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Returns:**
+double — Размер шрифта в пунктах.
+### getSizeBi() {#getSizeBi}
 ```
 public double getSizeBi()
 ```
 
 
-Получает размер шрифта в пунктах, используемый в документе с письмом справа налево.
+Получает размер шрифта в пунктах, используемый в документе с направлением справа налево.
 
-**Возвращает:**
-double — размер шрифта в пунктах, используемый в документе с написанием справа налево.
-### getSmallCaps() {#getSmallCaps--}
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Returns:**
+double — Размер шрифта в пунктах, используемый в документе с направлением справа налево.
+### getSmallCaps() {#getSmallCaps}
 ```
 public boolean getSmallCaps()
 ```
 
 
-Истинно, если шрифт отформатирован как маленькие заглавные буквы.
+Истина, если шрифт оформлен малыми заглавными буквами.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSnapToGrid() {#getSnapToGrid--}
+ **Examples:** 
+
+Показывает, как отформатировать фрагмент текста для отображения его содержимого заглавными буквами.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // There are two ways of getting a run to display its lowercase text in uppercase without changing the contents.
+ // 1 -  Set the AllCaps flag to display all characters in regular capitals:
+ Run run = new Run(doc, "all capitals");
+ run.getFont().setAllCaps(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ // 2 -  Set the SmallCaps flag to display all characters in small capitals:
+ // If a character is lower case, it will appear in its upper case form
+ // but will have the same height as the lower case (the font's x-height).
+ // Characters that were in upper case originally will look the same.
+ run = new Run(doc, "Small Capitals");
+ run.getFont().setSmallCaps(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.Caps.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSnapToGrid() {#getSnapToGrid}
 ```
 public boolean getSnapToGrid()
 ```
 
 
-Указывает, должен ли текущий шрифт использовать параметры сетки документа на строку при компоновке.
+Указывает, следует ли текущему шрифту использовать настройки количества символов в строке сетки документа при размещении.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSpacing() {#getSpacing--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSpacing() {#getSpacing}
 ```
 public double getSpacing()
 ```
 
 
-Получает расстояние (в пунктах) между символами.
+Получает интервал (в пунктах) между символами.
 
-**Возвращает:**
-double - Расстояние (в пунктах) между символами.
-### getStrikeThrough() {#getStrikeThrough--}
+ **Examples:** 
+
+Показывает, как задать горизонтальное масштабирование и интервал между символами.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add run of text and increase character width to 150%.
+ builder.getFont().setScaling(150);
+ builder.writeln("Wide characters");
+
+ // Add run of text and add 1pt of extra horizontal spacing between each character.
+ builder.getFont().setSpacing(1.0);
+ builder.writeln("Expanded by 1pt");
+
+ // Add run of text and bring characters closer together by 1pt.
+ builder.getFont().setSpacing(-1);
+ builder.writeln("Condensed by 1pt");
+
+ doc.save(getArtifactsDir() + "Font.ScalingSpacing.docx");
+ 
+```
+
+**Returns:**
+double — Интервал (в пунктах) между символами.
+### getStrikeThrough() {#getStrikeThrough}
 ```
 public boolean getStrikeThrough()
 ```
 
 
-Истинно, если шрифт отформатирован как зачеркнутый текст.
+Истина, если шрифт оформлен как перечёркнутый.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getStyle() {#getStyle--}
+ **Examples:** 
+
+Показывает, как добавить зачёркнутую линию к тексту.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ Run run = new Run(doc, "Text with a single-line strikethrough.");
+ run.getFont().setStrikeThrough(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ run = new Run(doc, "Text with a double-line strikethrough.");
+ run.getFont().setDoubleStrikeThrough(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.StrikeThrough.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getStyle() {#getStyle}
 ```
 public Style getStyle()
 ```
 
 
-Получает стиль символа, применяемый к этому форматированию.
+Получает стиль символов, примененный к этому форматированию.
 
-**Возвращает:**
-[Style](../../com.aspose.words/style) - Стиль символов, примененный к этому форматированию.
-### getStyleIdentifier() {#getStyleIdentifier--}
+ **Examples:** 
+
+Применяет двойное подчеркивание ко всем фрагментам в документе, отформатированным пользовательскими стилями символов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a custom style and apply it to text created using a document builder.
+ Style style = doc.getStyles().add(StyleType.CHARACTER, "MyStyle");
+ style.getFont().setColor(Color.RED);
+ style.getFont().setName("Courier New");
+
+ builder.getFont().setStyleName("MyStyle");
+ builder.write("This text is in a custom style.");
+
+ // Iterate over every run and add a double underline to every custom style.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     Style charStyle = run.getFont().getStyle();
+
+     if (!charStyle.getBuiltIn())
+         run.getFont().setUnderline(Underline.DOUBLE);
+ }
+
+ doc.save(getArtifactsDir() + "Font.Style.docx");
+ 
+```
+
+**Returns:**
+[Style](../../com.aspose.words/style/) - The character style applied to this formatting.
+### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
 ```
 
 
-Получает независимый от языкового стандарта идентификатор стиля символа, примененного к этому форматированию.
+Получает независимый от локали идентификатор стиля символов, примененный к этому форматированию.
 
-**Возвращает:**
- int — независимый от локали идентификатор стиля символа, примененного к этому форматированию. Возвращаемое значение является одним из[StyleIdentifier](../../com.aspose.words/styleidentifier) константы.
-### getStyleName() {#getStyleName--}
+ **Examples:** 
+
+Показывает, как изменить стиль существующего текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
+
+**Returns:**
+int — Независимый от локали идентификатор стиля символов, применяемый к этому форматированию. Возвращаемое значение является одной из констант [StyleIdentifier](../../com.aspose.words/styleidentifier/).
+### getStyleName() {#getStyleName}
 ```
 public String getStyleName()
 ```
 
 
-Получает имя стиля символа, примененного к этому форматированию.
+Получает имя стиля символов, примененного к этому форматированию.
 
-**Возвращает:**
-java.lang.String — имя стиля символа, примененного к этому форматированию.
-### getSubscript() {#getSubscript--}
+ **Examples:** 
+
+Показывает, как изменить стиль существующего текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — Имя стиля символов, применяемого к этому форматированию.
+### getSubscript() {#getSubscript}
 ```
 public boolean getSubscript()
 ```
 
 
-Истинно, если шрифт отформатирован как нижний индекс.
+Истина, если шрифт отформатирован как нижний индекс.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSuperscript() {#getSuperscript--}
+ **Examples:** 
+
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSuperscript() {#getSuperscript}
 ```
 public boolean getSuperscript()
 ```
 
 
-Истинно, если шрифт отформатирован как надстрочный.
+Истина, если шрифт отформатирован как верхний индекс.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getTextEffect() {#getTextEffect--}
+ **Examples:** 
+
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getTextEffect() {#getTextEffect}
 ```
 public int getTextEffect()
 ```
@@ -877,9 +2454,28 @@ public int getTextEffect()
 
 Получает эффект анимации шрифта.
 
-**Возвращает:**
- int - Эффект анимации шрифта. Возвращаемое значение является одним из[TextEffect](../../com.aspose.words/texteffect) константы.
-### getTextureAlignment() {#getTextureAlignment--}
+ **Examples:** 
+
+Показывает, как применить визуальный эффект к фрагменту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setTextEffect(TextEffect.SPARKLE_TEXT);
+
+ builder.writeln("Text with a sparkle effect.");
+
+ // Older versions of Microsoft Word only support font animation effects.
+ doc.save(getArtifactsDir() + "Font.SparklingText.doc");
+ 
+```
+
+**Returns:**
+int — Эффект анимации шрифта. Возвращаемое значение является одной из констант [TextEffect](../../com.aspose.words/texteffect/).
+### getTextureAlignment() {#getTextureAlignment}
 ```
 public int getTextureAlignment()
 ```
@@ -887,83 +2483,629 @@ public int getTextureAlignment()
 
 
 
-**Возвращает:**
-инт
-### getThemeColor() {#getThemeColor--}
+**Returns:**
+int
+### getThemeColor() {#getThemeColor}
 ```
 public int getThemeColor()
 ```
 
 
-Получает цвет темы в применяемой цветовой схеме, связанной с этим объектом Font.
+Получает цвет темы в примененной цветовой схеме, связанной с объектом [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
-int — цвет темы в применяемой цветовой схеме, связанной с этим объектом Font. Возвращаемое значение является одним из[ThemeColor](../../com.aspose.words/themecolor) константы.
-### getThemeFont() {#getThemeFont--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Показывает, как создавать и использовать стили темы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
+ 
+```
+
+**Returns:**
+int — Цвет темы в примененной цветовой схеме, связанный с этим объектом [Font](../../com.aspose.words/font/). Возвращаемое значение является одной из констант [ThemeColor](../../com.aspose.words/themecolor/).
+### getThemeFont() {#getThemeFont}
 ```
 public int getThemeFont()
 ```
 
 
-Получает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font.
+Получает шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
- int — шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font. Возвращаемое значение является одним из[ThemeFont](../../com.aspose.words/themefont) константы.
-### getThemeFontAscii() {#getThemeFontAscii--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Показывает, как создавать и использовать стили темы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
+ 
+```
+
+**Returns:**
+int — Шрифт темы в примененной схеме шрифтов, связанный с этим объектом [Font](../../com.aspose.words/font/). Возвращаемое значение является одной из констант [ThemeFont](../../com.aspose.words/themefont/).
+### getThemeFontAscii() {#getThemeFontAscii}
 ```
 public int getThemeFontAscii()
 ```
 
 
-Получает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом Font.
+Получает шрифт темы, используемый для латинского текста (символы с кодами от 0 (ноль) до 127) в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
- int — шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом Font. Возвращаемое значение является одним из[ThemeFont](../../com.aspose.words/themefont) константы.
-### getThemeFontBi() {#getThemeFontBi--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Returns:**
+int - Тема шрифта, используемая для латинского текста (символы с кодами от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Возвращаемое значение является одной из констант [ThemeFont](../../com.aspose.words/themefont/).
+### getThemeFontBi() {#getThemeFontBi}
 ```
 public int getThemeFontBi()
 ```
 
 
-Получает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font в документе на языке с письмом справа налево.
+Получает шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/) в документе с языком справа налево.
 
-**Возвращает:**
- int — шрифт темы в применяемой схеме шрифтов, связанный с этим объектом Font в документе на языке с письмом справа налево. Возвращаемое значение является одним из[ThemeFont](../../com.aspose.words/themefont) константы.
-### getThemeFontFarEast() {#getThemeFontFarEast--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Returns:**
+int - Тема шрифта в применяемой схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/) в документе с языком справа налево. Возвращаемое значение является одной из констант [ThemeFont](../../com.aspose.words/themefont/).
+### getThemeFontFarEast() {#getThemeFontFarEast}
 ```
 public int getThemeFontFarEast()
 ```
 
 
-Получает шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font.
+Получает восточноазиатский шрифт темы в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
- int — шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font. Возвращаемое значение является одним из[ThemeFont](../../com.aspose.words/themefont) константы.
-### getThemeFontOther() {#getThemeFontOther--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Returns:**
+int - Тема шрифта Восточной Азии в применяемой схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Возвращаемое значение является одной из констант [ThemeFont](../../com.aspose.words/themefont/).
+### getThemeFontOther() {#getThemeFontOther}
 ```
 public int getThemeFontOther()
 ```
 
 
-Получает шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифта, связанной с этим объектом Font.
+Получает шрифт темы, используемый для символов с кодами от 128 до 255 в примененной схеме шрифтов, связанной с объектом [Font](../../com.aspose.words/font/).
 
-**Возвращает:**
- int — шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов, связанной с этим объектом Font. Возвращаемое значение является одним из[ThemeFont](../../com.aspose.words/themefont) константы.
-### getTintAndShade() {#getTintAndShade--}
+ **Examples:** 
+
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Returns:**
+int - Тема шрифта, используемая для символов с кодами от 128 до 255 в применяемой схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Возвращаемое значение является одной из констант [ThemeFont](../../com.aspose.words/themefont/).
+### getTintAndShade() {#getTintAndShade}
 ```
 public double getTintAndShade()
 ```
 
 
-Получает двойное значение, которое делает цвет светлее или темнее.
+Получает двойное значение, которое осветляет или затемняет цвет.
 
-Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) нейтрален. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит к исключению java.lang.IllegalArgumentException.
-
-Установка этого свойства для объекта Font с цветами, не относящимися к теме, приводит к исключению java.lang.IllegalStateException.
-
-**Возвращает:**
+**Returns:**
 double — двойное значение, которое осветляет или затемняет цвет.
-### getUnderline() {#getUnderline--}
+### getUnderline() {#getUnderline}
 ```
 public int getUnderline()
 ```
@@ -971,9 +3113,68 @@ public int getUnderline()
 
 Получает тип подчеркивания, примененного к шрифту.
 
-**Возвращает:**
- int — Тип подчеркивания, примененный к шрифту. Возвращаемое значение является одним из[Underline](../../com.aspose.words/underline) константы.
-### getUnderlineColor() {#getUnderlineColor--}
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как вставить поле гиперссылки.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+Показывает, как настроить стиль и цвет подчеркивания текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
+ 
+```
+
+**Returns:**
+int - Тип подчеркивания, применяемого к шрифту. Возвращаемое значение является одной из констант [Underline](../../com.aspose.words/underline/).
+### getUnderlineColor() {#getUnderlineColor}
 ```
 public Color getUnderlineColor()
 ```
@@ -981,9 +3182,27 @@ public Color getUnderlineColor()
 
 Получает цвет подчеркивания, примененного к шрифту.
 
-**Возвращает:**
-java.awt.Color — цвет подчеркивания шрифта.
-### hasDmlEffect(int dmlEffectType) {#hasDmlEffect-int-}
+ **Examples:** 
+
+Показывает, как настроить стиль и цвет подчеркивания текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - Цвет подчеркивания, применяемого к шрифту.
+### hasDmlEffect(int dmlEffectType) {#hasDmlEffect-int}
 ```
 public boolean hasDmlEffect(int dmlEffectType)
 ```
@@ -991,41 +3210,14 @@ public boolean hasDmlEffect(int dmlEffectType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dmlEffectType | int |  |
 
-**Возвращает:**
-логический
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double-}
+**Returns:**
+boolean
+### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
 ```
@@ -1033,15 +3225,14 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | int |  |
+| стиль | int |  |
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int patternType) {#patterned-int-}
+### patterned(int patternType) {#patterned-int}
 ```
 public void patterned(int patternType)
 ```
@@ -1049,13 +3240,12 @@ public void patterned(int patternType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | patternType | int |  |
 
-### presetTextured(int presetTexture) {#presetTextured-int-}
+### presetTextured(int presetTexture) {#presetTextured-int}
 ```
 public void presetTextured(int presetTexture)
 ```
@@ -1063,75 +3253,198 @@ public void presetTextured(int presetTexture)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | presetTexture | int |  |
 
-### setAllCaps(boolean value) {#setAllCaps-boolean-}
+### setAllCaps(boolean value) {#setAllCaps-boolean}
 ```
 public void setAllCaps(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как все заглавные буквы.
+True, если шрифт отформатирован заглавными буквами.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отформатировать фрагмент текста для отображения его содержимого заглавными буквами.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // There are two ways of getting a run to display its lowercase text in uppercase without changing the contents.
+ // 1 -  Set the AllCaps flag to display all characters in regular capitals:
+ Run run = new Run(doc, "all capitals");
+ run.getFont().setAllCaps(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ // 2 -  Set the SmallCaps flag to display all characters in small capitals:
+ // If a character is lower case, it will appear in its upper case form
+ // but will have the same height as the lower case (the font's x-height).
+ // Characters that were in upper case originally will look the same.
+ run = new Run(doc, "Small Capitals");
+ run.getFont().setSmallCaps(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.Caps.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setBidi(boolean value) {#setBidi-boolean-}
+### setBidi(boolean value) {#setBidi-boolean}
 ```
 public void setBidi(boolean value)
 ```
 
 
-Указывает, должно ли содержимое этого цикла иметь характеристики письма справа налево.
+Указывает, должны ли содержимое этого фрагмента иметь характеристики справа налево.
 
-Если это свойство включено, его нельзя использовать с текстом, написанным строго слева направо. Любое поведение в этом состоянии не определено. Если это свойство отключено, его нельзя использовать с сильным текстом, написанным справа налево. Любое поведение в этом состоянии не определено.
+ **Remarks:** 
 
-При отображении содержимого этого цикла все символы должны рассматриваться как сложные символы сценария для целей форматирования. Это означает, что[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-) и соответствующее имя шрифта будет использоваться при рендеринге этого прогона.
+Это свойство, когда включено, не должно использоваться с сильно направленным слева направо текстом. Любое поведение в этом случае не определено. Это свойство, когда выключено, не должно использоваться с сильным текстом справа налево. Любое поведение в этом случае не определено.
 
-Кроме того, когда отображается содержимое этого цикла, это свойство действует как переопределение справа налево для символов, которые классифицируются как «слабые типы» и «нейтральные типы».
+Когда содержимое этого фрагмента отображается, все символы должны рассматриваться как символы сложного скрипта для целей форматирования. Это означает, что [getBoldBi()](../../com.aspose.words/font/\#getBoldBi) / [setBoldBi(boolean)](../../com.aspose.words/font/\#setBoldBi-boolean), [getItalicBi()](../../com.aspose.words/font/\#getItalicBi) / [setItalicBi(boolean)](../../com.aspose.words/font/\#setItalicBi-boolean), [getSizeBi()](../../com.aspose.words/font/\#getSizeBi) / [setSizeBi(double)](../../com.aspose.words/font/\#setSizeBi-double) и соответствующее имя шрифта будут использоваться при рендеринге этого фрагмента.
 
-**Параметры:**
+Также, когда содержимое этого фрагмента отображается, это свойство действует как переопределение справа налево для символов, классифицированных как "слабые типы" и "нейтральные типы".
 
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setBold(boolean value) {#setBold-boolean-}
+### setBold(boolean value) {#setBold-boolean}
 ```
 public void setBold(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как полужирный.
+True, если шрифт оформлен как жирный.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setBoldBi(boolean value) {#setBoldBi-boolean-}
+### setBoldBi(boolean value) {#setBoldBi-boolean}
 ```
 public void setBoldBi(boolean value)
 ```
 
 
-Истинно, если текст справа налево выделен полужирным шрифтом.
+True, если текст справа налево отформатирован полужирным.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -1139,14 +3452,13 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setColor(Color value) {#setColor-java.awt.Color-}
+### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
 ```
@@ -1154,55 +3466,162 @@ public void setColor(Color value)
 
 Устанавливает цвет шрифта.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как вставить поле гиперссылки.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Цвет шрифта. |
+| значение | java.awt.Color | Цвет шрифта. |
 
-### setComplexScript(boolean value) {#setComplexScript-boolean-}
+### setComplexScript(boolean value) {#setComplexScript-boolean}
 ```
 public void setComplexScript(boolean value)
 ```
 
 
-Указывает, должно ли содержимое этого запуска рассматриваться как сложный текст скрипта независимо от их значений символов Unicode при определении форматирования для этого запуска.
+Указывает, следует ли рассматривать содержимое этого фрагмента как текст сложного скрипта независимо от их значений Unicode при определении форматирования этого фрагмента.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить текст, который всегда рассматривается как сложный скрипт.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setComplexScript(true);
+
+ builder.writeln("Text treated as complex script.");
+
+ doc.save(getArtifactsDir() + "Font.ComplexScript.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setDoubleStrikeThrough(boolean value) {#setDoubleStrikeThrough-boolean-}
+### setDoubleStrikeThrough(boolean value) {#setDoubleStrikeThrough-boolean}
 ```
 public void setDoubleStrikeThrough(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как двойной зачеркнутый текст.
+True, если шрифт отформатирован двойным зачеркиванием.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить зачёркнутую линию к тексту.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ Run run = new Run(doc, "Text with a single-line strikethrough.");
+ run.getFont().setStrikeThrough(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ run = new Run(doc, "Text with a double-line strikethrough.");
+ run.getFont().setDoubleStrikeThrough(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.StrikeThrough.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setEmboss(boolean value) {#setEmboss-boolean-}
+### setEmboss(boolean value) {#setEmboss-boolean}
 ```
 public void setEmboss(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как рельефный.
+True, если шрифт отформатирован как рельефный.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как применить эффекты гравировки/тиснения к тексту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setColor(Color.WHITE);
+
+ // Below are two ways of using shadows to apply a 3D-like effect to the text.
+ // 1 -  Engrave text to make it look like the letters are sunken into the page:
+ builder.getFont().setEngrave(true);
+
+ builder.writeln("This text is engraved.");
+
+ // 2 -  Emboss text to make it look like the letters pop out of the page:
+ builder.getFont().setEngrave(false);
+ builder.getFont().setEmboss(true);
+
+ builder.writeln("This text is embossed.");
+
+ doc.save(getArtifactsDir() + "Font.EngraveEmboss.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setEmphasisMark(int value) {#setEmphasisMark-int-}
+### setEmphasisMark(int value) {#setEmphasisMark-int}
 ```
 public void setEmphasisMark(int value)
 ```
@@ -1210,27 +3629,74 @@ public void setEmphasisMark(int value)
 
 Устанавливает знак акцента, применяемый к этому форматированию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить дополнительный символ, отображаемый над/под глифом.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ // Possible types of emphasis mark:
+ // https://apireference.aspose.com/words/net/aspose.words/emphasismark
+ builder.getFont().setEmphasisMark(emphasisMark);
+
+ builder.write("Emphasis text");
+ builder.writeln();
+ builder.getFont().clearFormatting();
+ builder.write("Simple text");
+
+ builder.getDocument().save(getArtifactsDir() + "Fonts.SetEmphasisMark.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Знак акцента применяется к этому форматированию. Значение должно быть одним из[EmphasisMark](../../com.aspose.words/emphasismark) константы. |
+| value | int | Маркер акцента, применяемый к этому форматированию. Значение должно быть одной из констант [EmphasisMark](../../com.aspose.words/emphasismark/). |
 
-### setEngrave(boolean value) {#setEngrave-boolean-}
+### setEngrave(boolean value) {#setEngrave-boolean}
 ```
 public void setEngrave(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как выгравированный.
+True, если шрифт отформатирован как гравированный.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как применить эффекты гравировки/тиснения к тексту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setColor(Color.WHITE);
+
+ // Below are two ways of using shadows to apply a 3D-like effect to the text.
+ // 1 -  Engrave text to make it look like the letters are sunken into the page:
+ builder.getFont().setEngrave(true);
+
+ builder.writeln("This text is engraved.");
+
+ // 2 -  Emboss text to make it look like the letters pop out of the page:
+ builder.getFont().setEngrave(false);
+ builder.getFont().setEmboss(true);
+
+ builder.writeln("This text is embossed.");
+
+ doc.save(getArtifactsDir() + "Font.EngraveEmboss.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
+### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color}
 ```
 public void setFillableBackColor(Color value)
 ```
@@ -1238,13 +3704,38 @@ public void setFillableBackColor(Color value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color |  |
+| значение | java.awt.Color |  |
 
-### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color-}
+### setFillableBackThemeColor(int value) {#setFillableBackThemeColor-int}
+```
+public void setFillableBackThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | int |  |
+
+### setFillableBackTintAndShade(double value) {#setFillableBackTintAndShade-double}
+```
+public void setFillableBackTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | double |  |
+
+### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color}
 ```
 public void setFillableForeColor(Color value)
 ```
@@ -1252,13 +3743,38 @@ public void setFillableForeColor(Color value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color |  |
+| значение | java.awt.Color |  |
 
-### setFillableTransparency(double value) {#setFillableTransparency-double-}
+### setFillableForeThemeColor(int value) {#setFillableForeThemeColor-int}
+```
+public void setFillableForeThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | int |  |
+
+### setFillableForeTintAndShade(double value) {#setFillableForeTintAndShade-double}
+```
+public void setFillableForeTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | double |  |
+
+### setFillableTransparency(double value) {#setFillableTransparency-double}
 ```
 public void setFillableTransparency(double value)
 ```
@@ -1266,13 +3782,12 @@ public void setFillableTransparency(double value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double |  |
+| значение | double |  |
 
-### setFillableVisible(boolean value) {#setFillableVisible-boolean-}
+### setFillableVisible(boolean value) {#setFillableVisible-boolean}
 ```
 public void setFillableVisible(boolean value)
 ```
@@ -1280,13 +3795,12 @@ public void setFillableVisible(boolean value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean |  |
+| значение | boolean |  |
 
-### setFilledColor(Color value) {#setFilledColor-java.awt.Color-}
+### setFilledColor(Color value) {#setFilledColor-java.awt.Color}
 ```
 public void setFilledColor(Color value)
 ```
@@ -1294,13 +3808,12 @@ public void setFilledColor(Color value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color |  |
+| значение | java.awt.Color |  |
 
-### setGradientAngle(double value) {#setGradientAngle-double-}
+### setGradientAngle(double value) {#setGradientAngle-double}
 ```
 public void setGradientAngle(double value)
 ```
@@ -1308,41 +3821,257 @@ public void setGradientAngle(double value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double |  |
+| значение | double |  |
 
-### setHidden(boolean value) {#setHidden-boolean-}
+### setHidden(boolean value) {#setHidden-boolean}
 ```
 public void setHidden(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как скрытый текст.
+True, если шрифт отформатирован как скрытый текст.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать фрагмент скрытого текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // With the Hidden flag set to true, any text that we create using this Font object will be invisible in the document.
+ // We will not see or highlight hidden text unless we enable the "Hidden text" option
+ // found in Microsoft Word via "File" -> "Options" -> "Display". The text will still be there,
+ // and we will be able to access this text programmatically.
+ // It is not advised to use this method to hide sensitive information.
+ builder.getFont().setHidden(true);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text will not be visible in the document.");
+
+ doc.save(getArtifactsDir() + "Font.Hidden.docx");
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setHighlightColor(Color value) {#setHighlightColor-java.awt.Color-}
+### setHighlightColor(Color value) {#setHighlightColor-java.awt.Color}
 ```
 public void setHighlightColor(Color value)
 ```
 
 
-Устанавливает цвет выделения (маркера).
+Устанавливает цвет выделения (маркировки).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Цвет выделения (маркера). |
+| значение | java.awt.Color | Цвет выделения (маркер). |
 
-### setImage(byte[] imageBytes) {#setImage-byte---}
+### setImage(byte[] imageBytes) {#setImage-byte}
 ```
 public void setImage(byte[] imageBytes)
 ```
@@ -1350,97 +4079,275 @@ public void setImage(byte[] imageBytes)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
-### setItalic(boolean value) {#setItalic-boolean-}
+### setItalic(boolean value) {#setItalic-boolean}
 ```
 public void setItalic(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как курсив.
+Истина, если шрифт оформлен курсивом.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как написать курсивный текст с помощью document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setItalic(true);
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Italic.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setItalicBi(boolean value) {#setItalicBi-boolean-}
+### setItalicBi(boolean value) {#setItalicBi-boolean}
 ```
 public void setItalicBi(boolean value)
 ```
 
 
-Истина, если текст справа налево отформатирован курсивом.
+True, если текст справа налево отформатирован как курсив.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setKerning(double value) {#setKerning-double-}
+### setKerning(double value) {#setKerning-double}
 ```
 public void setKerning(double value)
 ```
 
 
-Устанавливает размер шрифта, с которого начинается кернинг.
+Устанавливает размер шрифта, при котором начинается кёрнинг.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как указать размер шрифта, при котором начинается кернинг.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setName("Arial Black");
+
+ // Set the builder's font size, and minimum size at which kerning will take effect.
+ // The font size falls below the kerning threshold, so the run bellow will not have kerning.
+ builder.getFont().setSize(18.0);
+ builder.getFont().setKerning(24.0);
+
+ builder.writeln("TALLY. (Kerning not applied)");
+
+ // Set the kerning threshold so that the builder's current font size is above it.
+ // Any text we add from this point will have kerning applied. The spaces between characters
+ // will be adjusted, normally resulting in a slightly more aesthetically pleasing text run.
+ builder.getFont().setKerning(12.0);
+
+ builder.writeln("TALLY. (Kerning applied)");
+
+ doc.save(getArtifactsDir() + "Font.Kerning.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Размер шрифта, с которого начинается кернинг. |
+| значение | double | Размер шрифта, при котором начинается кернинг. |
 
-### setLocaleId(int value) {#setLocaleId-int-}
+### setLocaleId(int value) {#setLocaleId-int}
 ```
 public void setLocaleId(int value)
 ```
 
 
-Задает идентификатор локали (язык) отформатированных символов. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Устанавливает идентификатор локали (язык) отформатированных символов.
 
-**Параметры:**
+ **Remarks:** 
 
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как установить локаль текста, который мы добавляем с помощью document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If we set the font's locale to English and insert some Russian text,
+ // the English locale spell checker will not recognize the text and detect it as a spelling error.
+ builder.getFont().setLocaleId(1033);
+ builder.writeln("\u041f\u0440\u0438\u0432\u0435\u0442!");
+
+ // Set a matching locale for the text that we are about to add to apply the appropriate spell checker.
+ builder.getFont().setLocaleId(1049);
+ builder.writeln("\u041f\u0440\u0438\u0432\u0435\u0442!");
+
+ doc.save(getArtifactsDir() + "Font.LocaleId.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Идентификатор локали (язык) отформатированных символов. |
+| значение | int | Идентификатор локали (язык) отформатированных символов. |
 
-### setLocaleIdBi(int value) {#setLocaleIdBi-int-}
+### setLocaleIdBi(int value) {#setLocaleIdBi-int}
 ```
 public void setLocaleIdBi(int value)
 ```
 
 
-Задает идентификатор локали (язык) отформатированных символов, написанных справа налево. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Устанавливает идентификатор локали (язык) отформатированных символов справа налево.
 
-**Параметры:**
+ **Remarks:** 
 
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Идентификатор локали (язык) отформатированных символов, написанных справа налево. |
+| значение | int | Идентификатор локали (язык) отформатированных символов справа налево. |
 
-### setLocaleIdFarEast(int value) {#setLocaleIdFarEast-int-}
+### setLocaleIdFarEast(int value) {#setLocaleIdFarEast-int}
 ```
 public void setLocaleIdFarEast(int value)
 ```
 
 
-Задает идентификатор локали (язык) отформатированных азиатских символов. Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx.
+Устанавливает идентификатор локали (язык) отформатированных азиатских символов.
 
-**Параметры:**
+ **Remarks:** 
 
+Список идентификаторов локали см. https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+ **Examples:** 
+
+Показывает, как вставлять и форматировать текст на языке Дальнего Востока.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font settings that the document builder will apply to any text that it inserts.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setLocaleId(1033);
+
+ // Name "FarEast" equivalents for our font and locale.
+ // If the builder inserts Asian characters with this Font configuration, then each run that contains
+ // these characters will display them using the "FarEast" font/locale instead of the default.
+ // This could be useful when a western font does not have ideal representations for Asian characters.
+ builder.getFont().setNameFarEast("SimSun");
+ builder.getFont().setLocaleIdFarEast(2052);
+
+ // This text will be displayed in the default font/locale.
+ builder.writeln("Hello world!");
+
+ // Since these are Asian characters, this run will apply our "FarEast" font/locale equivalents.
+ builder.writeln("\u4f60\u597d\u4e16\u754c");
+
+ doc.save(getArtifactsDir() + "Font.FarEast.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Идентификатор локали (язык) отформатированных азиатских символов. |
+| значение | int | Идентификатор локали (язык) отформатированных азиатских символов. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -1448,17 +4355,56 @@ public void setName(String value)
 
 Устанавливает имя шрифта.
 
- При получении возвращает[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
+ **Remarks:** 
 
- При настройке устанавливает[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-) а также[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-) к указанному значению.
+При получении возвращает [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) / [setNameAscii(java.lang.String)](../../com.aspose.words/font/\#setNameAscii-java.lang.String).
 
-**Параметры:**
+При установке задает [getNameAscii()](../../com.aspose.words/font/\#getNameAscii) / [setNameAscii(java.lang.String)](../../com.aspose.words/font/\#setNameAscii-java.lang.String), [getNameBi()](../../com.aspose.words/font/\#getNameBi) / [setNameBi(java.lang.String)](../../com.aspose.words/font/\#setNameBi-java.lang.String), [getNameFarEast()](../../com.aspose.words/font/\#getNameFarEast) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font/\#setNameFarEast-java.lang.String) и [getNameOther()](../../com.aspose.words/font/\#getNameOther) / [setNameOther(java.lang.String)](../../com.aspose.words/font/\#setNameOther-java.lang.String) указанным значением.
 
+ **Examples:** 
+
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Название шрифта. |
+| значение | java.lang.String | Имя шрифта. |
 
-### setNameAscii(String value) {#setNameAscii-java.lang.String-}
+### setNameAscii(String value) {#setNameAscii-java.lang.String}
 ```
 public void setNameAscii(String value)
 ```
@@ -1466,125 +4412,356 @@ public void setNameAscii(String value)
 
 Устанавливает шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как Microsoft Word может объединять два разных шрифта в одном фрагменте.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Suppose a run that we use the builder to insert while using this font configuration
+ // contains characters within the ASCII characters' range. In that case,
+ // it will display those characters using this font.
+ builder.getFont().setNameAscii("Calibri");
+
+ // With no other font specified, the builder will also apply this font to all characters that it inserts.
+ Assert.assertEquals("Calibri", builder.getFont().getName());
+
+ // Specify a font to use for all characters outside of the ASCII range.
+ // Ideally, this font should have a glyph for each required non-ASCII character code.
+ builder.getFont().setNameOther("Courier New");
+
+ // Insert a run with one word consisting of ASCII characters, and one word with all characters outside that range.
+ // Each character will be displayed using either of the fonts, depending on.
+ builder.writeln("Hello, \u041f\u0440\u0438\u0432\u0435\u0442");
+
+ doc.save(getArtifactsDir() + "Font.NameAscii.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
+| значение | java.lang.String | Шрифт, используемый для латинского текста (символы с кодами от 0 (ноль) до 127). |
 
-### setNameBi(String value) {#setNameBi-java.lang.String-}
+### setNameBi(String value) {#setNameBi-java.lang.String}
 ```
 public void setNameBi(String value)
 ```
 
 
-Задает имя шрифта в документе на языке с письмом справа налево.
+Устанавливает имя шрифта в документе с языком, пишущимся справа налево.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя шрифта в документе на языке с написанием справа налево. |
+| значение | java.lang.String | Имя шрифта в документе с языком справа налево. |
 
-### setNameFarEast(String value) {#setNameFarEast-java.lang.String-}
+### setNameFarEast(String value) {#setNameFarEast-java.lang.String}
 ```
 public void setNameFarEast(String value)
 ```
 
 
-Задает имя восточноазиатского шрифта.
+Устанавливает имя восточноазиатского шрифта.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять и форматировать текст на языке Дальнего Востока.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font settings that the document builder will apply to any text that it inserts.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setLocaleId(1033);
+
+ // Name "FarEast" equivalents for our font and locale.
+ // If the builder inserts Asian characters with this Font configuration, then each run that contains
+ // these characters will display them using the "FarEast" font/locale instead of the default.
+ // This could be useful when a western font does not have ideal representations for Asian characters.
+ builder.getFont().setNameFarEast("SimSun");
+ builder.getFont().setLocaleIdFarEast(2052);
+
+ // This text will be displayed in the default font/locale.
+ builder.writeln("Hello world!");
+
+ // Since these are Asian characters, this run will apply our "FarEast" font/locale equivalents.
+ builder.writeln("\u4f60\u597d\u4e16\u754c");
+
+ doc.save(getArtifactsDir() + "Font.FarEast.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Название восточноазиатского шрифта. |
+| значение | java.lang.String | Имя шрифта Восточной Азии. |
 
-### setNameOther(String value) {#setNameOther-java.lang.String-}
+### setNameOther(String value) {#setNameOther-java.lang.String}
 ```
 public void setNameOther(String value)
 ```
 
 
-Устанавливает шрифт, используемый для символов с кодами символов от 128 до 255.
+Устанавливает шрифт, используемый для символов с кодами от 128 до 255.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как Microsoft Word может объединять два разных шрифта в одном фрагменте.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Suppose a run that we use the builder to insert while using this font configuration
+ // contains characters within the ASCII characters' range. In that case,
+ // it will display those characters using this font.
+ builder.getFont().setNameAscii("Calibri");
+
+ // With no other font specified, the builder will also apply this font to all characters that it inserts.
+ Assert.assertEquals("Calibri", builder.getFont().getName());
+
+ // Specify a font to use for all characters outside of the ASCII range.
+ // Ideally, this font should have a glyph for each required non-ASCII character code.
+ builder.getFont().setNameOther("Courier New");
+
+ // Insert a run with one word consisting of ASCII characters, and one word with all characters outside that range.
+ // Each character will be displayed using either of the fonts, depending on.
+ builder.writeln("Hello, \u041f\u0440\u0438\u0432\u0435\u0442");
+
+ doc.save(getArtifactsDir() + "Font.NameAscii.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Шрифт, используемый для символов с кодами символов от 128 до 255. |
+| значение | java.lang.String | Шрифт, используемый для символов с кодами от 128 до 255. |
 
-### setNoProofing(boolean value) {#setNoProofing-boolean-}
+### setNoProofing(boolean value) {#setNoProofing-boolean}
 ```
 public void setNoProofing(boolean value)
 ```
 
 
-Истинно, если отформатированные символы не должны проверяться на орфографию.
+True, когда отформатированные символы не подлежат проверке орфографии.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как предотвратить проверку орфографии текста в Microsoft Word.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Normally, Microsoft Word emphasizes spelling errors with a jagged red underline.
+ // We can un-set the "NoProofing" flag to create a portion of text that
+ // bypasses the spell checker while completely disabling it.
+ builder.getFont().setNoProofing(true);
+
+ builder.writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");
+
+ doc.save(getArtifactsDir() + "Font.NoProofing.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setOn(boolean value) {#setOn-boolean-}
+### setNumberSpacing(int value) {#setNumberSpacing-int}
 ```
-public void setOn(boolean value)
+public void setNumberSpacing(int value)
 ```
 
 
+Устанавливает тип интервала цифры, отображаемой.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как установить тип интервала цифр.
 
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // This effect is only supported in newer versions of MS Word.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2019);
+
+ builder.write("1 ");
+ builder.write("This is an example");
+
+ Run run = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0);
+ if (run.getFont().getNumberSpacing() == NumSpacing.DEFAULT)
+     run.getFont().setNumberSpacing(NumSpacing.PROPORTIONAL);
+
+ doc.save(getArtifactsDir() + "Fonts.NumberSpacing.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean |  |
+| value | int | Тип интервала цифр, отображаемых в числе. Значение должно быть одной из констант [NumSpacing](../../com.aspose.words/numspacing/). |
 
-### setOpacity(double value) {#setOpacity-double-}
+### setOldOn(boolean value) {#setOldOn-boolean}
 ```
-public void setOpacity(double value)
+public void setOldOn(boolean value)
 ```
 
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double |  |
+| значение | boolean |  |
 
-### setOutline(boolean value) {#setOutline-boolean-}
+### setOldOpacity(double value) {#setOldOpacity-double}
+```
+public void setOldOpacity(double value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | double |  |
+
+### setOutline(boolean value) {#setOutline-boolean}
 ```
 public void setOutline(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как контур.
+True, если шрифт отформатирован как контур.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать фрагмент текста, отформатированный как контур.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Set the Outline flag to change the text's fill color to white and
+ // leave a thin outline around each character in the original color of the text.
+ builder.getFont().setOutline(true);
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text has an outline.");
+
+ doc.save(getArtifactsDir() + "Font.Outline.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setPosition(double value) {#setPosition-double-}
+### setPosition(double value) {#setPosition-double}
 ```
 public void setPosition(double value)
 ```
 
 
-Устанавливает положение текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, отрицательное — опускает.
+Устанавливает позицию текста (в пунктах) относительно базовой линии. Положительное число поднимает текст, отрицательное опускает его.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Положение текста (в пунктах) относительно базовой линии. |
+| значение | double | Позиция текста (в пунктах) относительно базовой линии. |
 
-### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
+### setRotateWithObject(boolean value) {#setRotateWithObject-boolean}
 ```
 public void setRotateWithObject(boolean value)
 ```
@@ -1592,13 +4769,12 @@ public void setRotateWithObject(boolean value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean |  |
+| значение | boolean |  |
 
-### setScaling(int value) {#setScaling-int-}
+### setScaling(int value) {#setScaling-int}
 ```
 public void setScaling(int value)
 ```
@@ -1606,27 +4782,70 @@ public void setScaling(int value)
 
 Устанавливает масштабирование ширины символов в процентах.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать горизонтальное масштабирование и интервал между символами.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add run of text and increase character width to 150%.
+ builder.getFont().setScaling(150);
+ builder.writeln("Wide characters");
+
+ // Add run of text and add 1pt of extra horizontal spacing between each character.
+ builder.getFont().setSpacing(1.0);
+ builder.writeln("Expanded by 1pt");
+
+ // Add run of text and bring characters closer together by 1pt.
+ builder.getFont().setSpacing(-1);
+ builder.writeln("Condensed by 1pt");
+
+ doc.save(getArtifactsDir() + "Font.ScalingSpacing.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Масштабирование ширины символов в процентах. |
+| значение | int | Масштабирование ширины символов в процентах. |
 
-### setShadow(boolean value) {#setShadow-boolean-}
+### setShadow(boolean value) {#setShadow-boolean}
 ```
 public void setShadow(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как затененный.
+True, если шрифт отформатирован как с тенью.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать фрагмент текста, отформатированный с тенью.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Set the Shadow flag to apply an offset shadow effect,
+ // making it look like the letters are floating above the page.
+ builder.getFont().setShadow(true);
+ builder.getFont().setSize(36.0);
+
+ builder.writeln("This text has a shadow.");
+
+ doc.save(getArtifactsDir() + "Font.Shadow.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSize(double value) {#setSize-double-}
+### setSize(double value) {#setSize-double}
 ```
 public void setSize(double value)
 ```
@@ -1634,55 +4853,156 @@ public void setSize(double value)
 
 Устанавливает размер шрифта в пунктах.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как форматировать последовательность текста, используя её свойство шрифта.
+
+```
+
+ Document doc = new Document();
+ Run run = new Run(doc, "Hello world!");
+
+ Font font = run.getFont();
+ font.setName("Courier New");
+ font.setSize(36.0);
+ font.setHighlightColor(Color.YELLOW);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
+ doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Размер шрифта в пунктах. |
+| значение | double | Размер шрифта в пунктах. |
 
-### setSizeBi(double value) {#setSizeBi-double-}
+### setSizeBi(double value) {#setSizeBi-double}
 ```
 public void setSizeBi(double value)
 ```
 
 
-Устанавливает размер шрифта в пунктах, используемых в документе с написанием справа налево.
+Устанавливает размер шрифта в пунктах, используемый в документе с языком, пишущимся справа налево.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить отдельные наборы параметров шрифта для текста справа налево и текста слева направо.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Define a set of font settings for left-to-right text.
+ builder.getFont().setName("Courier New");
+ builder.getFont().setSize(16.0);
+ builder.getFont().setItalic(false);
+ builder.getFont().setBold(false);
+ builder.getFont().setLocaleId(1033);
+
+ // Define another set of font settings for right-to-left text.
+ builder.getFont().setNameBi("Andalus");
+ builder.getFont().setSizeBi(24.0);
+ builder.getFont().setItalicBi(true);
+ builder.getFont().setBoldBi(true);
+ builder.getFont().setLocaleIdBi(1025);
+
+ // We can use the Bidi flag to indicate whether the text we are about to add
+ // with the document builder is right-to-left. When we add text with this flag set to true,
+ // it will be formatted using the right-to-left set of font settings.
+ builder.getFont().setBidi(true);
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+
+ // Set the flag to false, and then add left-to-right text.
+ // The document builder will format these using the left-to-right set of font settings.
+ builder.getFont().setBidi(false);
+ builder.write(" Hello world!");
+
+ doc.save(getArtifactsDir() + "Font.Bidi.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Размер шрифта в пунктах, используемый в документе с написанием справа налево. |
+| значение | double | Размер шрифта в пунктах, используемый в документе с написанием справа налево. |
 
-### setSmallCaps(boolean value) {#setSmallCaps-boolean-}
+### setSmallCaps(boolean value) {#setSmallCaps-boolean}
 ```
 public void setSmallCaps(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как маленькие заглавные буквы.
+Истина, если шрифт оформлен малыми заглавными буквами.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отформатировать фрагмент текста для отображения его содержимого заглавными буквами.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // There are two ways of getting a run to display its lowercase text in uppercase without changing the contents.
+ // 1 -  Set the AllCaps flag to display all characters in regular capitals:
+ Run run = new Run(doc, "all capitals");
+ run.getFont().setAllCaps(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ // 2 -  Set the SmallCaps flag to display all characters in small capitals:
+ // If a character is lower case, it will appear in its upper case form
+ // but will have the same height as the lower case (the font's x-height).
+ // Characters that were in upper case originally will look the same.
+ run = new Run(doc, "Small Capitals");
+ run.getFont().setSmallCaps(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.Caps.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSnapToGrid(boolean value) {#setSnapToGrid-boolean-}
+### setSnapToGrid(boolean value) {#setSnapToGrid-boolean}
 ```
 public void setSnapToGrid(boolean value)
 ```
 
 
-Указывает, должен ли текущий шрифт использовать параметры сетки документа на строку при компоновке.
+Указывает, следует ли текущему шрифту использовать настройки количества символов в строке сетки документа при размещении.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSpacing(double value) {#setSpacing-double-}
+### setSpacing(double value) {#setSpacing-double}
 ```
 public void setSpacing(double value)
 ```
@@ -1690,97 +5010,305 @@ public void setSpacing(double value)
 
 Устанавливает интервал (в пунктах) между символами.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать горизонтальное масштабирование и интервал между символами.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add run of text and increase character width to 150%.
+ builder.getFont().setScaling(150);
+ builder.writeln("Wide characters");
+
+ // Add run of text and add 1pt of extra horizontal spacing between each character.
+ builder.getFont().setSpacing(1.0);
+ builder.writeln("Expanded by 1pt");
+
+ // Add run of text and bring characters closer together by 1pt.
+ builder.getFont().setSpacing(-1);
+ builder.writeln("Condensed by 1pt");
+
+ doc.save(getArtifactsDir() + "Font.ScalingSpacing.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Интервал (в пунктах) между символами. |
+| значение | double | Интервал (в пунктах) между символами. |
 
-### setStrikeThrough(boolean value) {#setStrikeThrough-boolean-}
+### setStrikeThrough(boolean value) {#setStrikeThrough-boolean}
 ```
 public void setStrikeThrough(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как зачеркнутый текст.
+Истина, если шрифт оформлен как перечёркнутый.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить зачёркнутую линию к тексту.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ Run run = new Run(doc, "Text with a single-line strikethrough.");
+ run.getFont().setStrikeThrough(true);
+ para.appendChild(run);
+
+ para = (Paragraph) para.getParentNode().appendChild(new Paragraph(doc));
+
+ run = new Run(doc, "Text with a double-line strikethrough.");
+ run.getFont().setDoubleStrikeThrough(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.StrikeThrough.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setStyle(Style value) {#setStyle-com.aspose.words.Style-}
+### setStyle(Style value) {#setStyle-com.aspose.words.Style}
 ```
 public void setStyle(Style value)
 ```
 
 
-Задает стиль символов, применяемый к этому форматированию.
+Устанавливает стиль символов, применяемый к этому форматированию.
 
-**Параметры:**
+ **Examples:** 
 
+Применяет двойное подчеркивание ко всем фрагментам в документе, отформатированным пользовательскими стилями символов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a custom style and apply it to text created using a document builder.
+ Style style = doc.getStyles().add(StyleType.CHARACTER, "MyStyle");
+ style.getFont().setColor(Color.RED);
+ style.getFont().setName("Courier New");
+
+ builder.getFont().setStyleName("MyStyle");
+ builder.write("This text is in a custom style.");
+
+ // Iterate over every run and add a double underline to every custom style.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     Style charStyle = run.getFont().getStyle();
+
+     if (!charStyle.getBuiltIn())
+         run.getFont().setUnderline(Underline.DOUBLE);
+ }
+
+ doc.save(getArtifactsDir() + "Font.Style.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | Стиль символа, примененный к этому форматированию. |
+| value | [Style](../../com.aspose.words/style/) | Стиль символов, примененный к этому форматированию. |
 
-### setStyleIdentifier(int value) {#setStyleIdentifier-int-}
+### setStyleIdentifier(int value) {#setStyleIdentifier-int}
 ```
 public void setStyleIdentifier(int value)
 ```
 
 
-Задает независимый от локали идентификатор стиля символа, примененного к этому форматированию.
+Устанавливает независимый от локали идентификатор стиля символов, применяемый к этому форматированию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как изменить стиль существующего текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Независимый от локали идентификатор стиля символа, применяемого к этому форматированию. Значение должно быть одним из[StyleIdentifier](../../com.aspose.words/styleidentifier) константы. |
+| value | int | Независимый от локали идентификатор стиля символов, примененный к этому форматированию. Значение должно быть одним из констант [StyleIdentifier](../../com.aspose.words/styleidentifier/). |
 
-### setStyleName(String value) {#setStyleName-java.lang.String-}
+### setStyleName(String value) {#setStyleName-java.lang.String}
 ```
 public void setStyleName(String value)
 ```
 
 
-Задает имя стиля символов, применяемого к этому форматированию.
+Устанавливает имя стиля символов, применяемого к этому форматированию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как изменить стиль существующего текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя стиля символа, примененного к этому форматированию. |
+| значение | java.lang.String | Имя стиля символов, примененного к этому форматированию. |
 
-### setSubscript(boolean value) {#setSubscript-boolean-}
+### setSubscript(boolean value) {#setSubscript-boolean}
 ```
 public void setSubscript(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как нижний индекс.
+Истина, если шрифт отформатирован как нижний индекс.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSuperscript(boolean value) {#setSuperscript-boolean-}
+### setSuperscript(boolean value) {#setSuperscript-boolean}
 ```
 public void setSuperscript(boolean value)
 ```
 
 
-Истинно, если шрифт отформатирован как надстрочный.
+Истина, если шрифт отформатирован как верхний индекс.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отформатировать текст, сместив его позицию.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+
+ // Raise this run of text 5 points above the baseline.
+ Run run = new Run(doc, "Raised text. ");
+ run.getFont().setPosition(5.0);
+ para.appendChild(run);
+
+ // Lower this run of text 10 points below the baseline.
+ run = new Run(doc, "Lowered text. ");
+ run.getFont().setPosition(-10);
+ para.appendChild(run);
+
+ // Add a run of normal text.
+ run = new Run(doc, "Text in its default position. ");
+ para.appendChild(run);
+
+ // Add a run of text that appears as subscript.
+ run = new Run(doc, "Subscript. ");
+ run.getFont().setSubscript(true);
+ para.appendChild(run);
+
+ // Add a run of text that appears as superscript.
+ run = new Run(doc, "Superscript.");
+ run.getFont().setSuperscript(true);
+ para.appendChild(run);
+
+ doc.save(getArtifactsDir() + "Font.PositionSubscript.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setTextEffect(int value) {#setTextEffect-int-}
+### setTextEffect(int value) {#setTextEffect-int}
 ```
 public void setTextEffect(int value)
 ```
@@ -1788,13 +5316,31 @@ public void setTextEffect(int value)
 
 Устанавливает эффект анимации шрифта.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как применить визуальный эффект к фрагменту.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(36.0);
+ builder.getFont().setTextEffect(TextEffect.SPARKLE_TEXT);
+
+ builder.writeln("Text with a sparkle effect.");
+
+ // Older versions of Microsoft Word only support font animation effects.
+ doc.save(getArtifactsDir() + "Font.SparklingText.doc");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Эффект анимации шрифта. Значение должно быть одним из[TextEffect](../../com.aspose.words/texteffect) константы. |
+| value | int | Эффект анимации шрифта. Значение должно быть одним из констант [TextEffect](../../com.aspose.words/texteffect/). |
 
-### setTextureAlignment(int value) {#setTextureAlignment-int-}
+### setTextureAlignment(int value) {#setTextureAlignment-int}
 ```
 public void setTextureAlignment(int value)
 ```
@@ -1802,129 +5348,725 @@ public void setTextureAlignment(int value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  |
+| значение | int |  |
 
-### setThemeColor(int value) {#setThemeColor-int-}
+### setThemeColor(int value) {#setThemeColor-int}
 ```
 public void setThemeColor(int value)
 ```
 
 
-Задает цвет темы в применяемой цветовой схеме, связанной с этим объектом Font.
+Устанавливает цвет темы в примененной цветовой схеме, связанной с этим объектом [Font](../../com.aspose.words/font/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Показывает, как создавать и использовать стили темы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Цвет темы в применяемой цветовой схеме, связанной с этим объектом Font. Значение должно быть одним из[ThemeColor](../../com.aspose.words/themecolor) константы. |
+| value | int | Цвет темы в примененной цветовой схеме, связанной с этим объектом [Font](../../com.aspose.words/font/). Значение должно быть одним из констант [ThemeColor](../../com.aspose.words/themecolor/). |
 
-### setThemeFont(int value) {#setThemeFont-int-}
+### setThemeFont(int value) {#setThemeFont-int}
 ```
 public void setThemeFont(int value)
 ```
 
 
-Задает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font.
+Устанавливает шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+Показывает, как создавать и использовать стили темы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln();
+
+ // Create some style with theme font properties.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "ThemedStyle");
+ style.getFont().setThemeFont(ThemeFont.MAJOR);
+ style.getFont().setThemeColor(ThemeColor.ACCENT_5);
+ style.getFont().setTintAndShade(0.3);
+
+ builder.getParagraphFormat().setStyleName("ThemedStyle");
+ builder.writeln("Text with themed style");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Шрифт темы в применяемой схеме шрифтов, связанный с этим объектом Font. Значение должно быть одним из[ThemeFont](../../com.aspose.words/themefont) константы. |
+| value | int | Шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Значение должно быть одним из констант [ThemeFont](../../com.aspose.words/themefont/). |
 
-### setThemeFontAscii(int value) {#setThemeFontAscii-int-}
+### setThemeFontAscii(int value) {#setThemeFontAscii-int}
 ```
 public void setThemeFontAscii(int value)
 ```
 
 
-Задает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифтов, связанной с этим объектом Font.
+Устанавливает шрифт темы, используемый для латинского текста (символы с кодами от 0 (ноль) до 127) в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (ноль) до 127) в применяемой схеме шрифта, связанной с этим объектом Font. Значение должно быть одним из[ThemeFont](../../com.aspose.words/themefont) константы. |
+| value | int | Шрифт темы, используемый для латинского текста (символы с кодами от 0 (ноль) до 127) в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Значение должно быть одним из констант [ThemeFont](../../com.aspose.words/themefont/). |
 
-### setThemeFontBi(int value) {#setThemeFontBi-int-}
+### setThemeFontBi(int value) {#setThemeFontBi-int}
 ```
 public void setThemeFontBi(int value)
 ```
 
 
-Задает шрифт темы в применяемой схеме шрифтов, связанной с этим объектом Font в документе на языке с письмом справа налево.
+Устанавливает шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/) в документе с языком, пишущимся справа налево.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Шрифт темы в применяемой схеме шрифтов, связанный с этим объектом Font в документе с письмом справа налево. Значение должно быть одним из[ThemeFont](../../com.aspose.words/themefont) константы. |
+| value | int | Шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/) в документе на языке с написанием справа налево. Значение должно быть одним из констант [ThemeFont](../../com.aspose.words/themefont/). |
 
-### setThemeFontFarEast(int value) {#setThemeFontFarEast-int-}
+### setThemeFontFarEast(int value) {#setThemeFontFarEast-int}
 ```
 public void setThemeFontFarEast(int value)
 ```
 
 
-Задает шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font.
+Устанавливает восточноазиатский шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим объектом Font. Значение должно быть одним из[ThemeFont](../../com.aspose.words/themefont) константы. |
+| value | int | Восточноазиатский шрифт темы в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Значение должно быть одним из констант [ThemeFont](../../com.aspose.words/themefont/). |
 
-### setThemeFontOther(int value) {#setThemeFontOther-int-}
+### setThemeFontOther(int value) {#setThemeFontOther-int}
 ```
 public void setThemeFontOther(int value)
 ```
 
 
-Задает шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов, связанной с этим объектом Font.
+Устанавливает шрифт темы, используемый для символов с кодами от 128 до 255 в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с шрифтами темы и цветами.
+
+```
+
+ Document doc = new Document();
+
+ // Define fonts for languages uses by default.
+ doc.getTheme().getMinorFonts().setLatin("Algerian");
+ doc.getTheme().getMinorFonts().setEastAsian("Aharoni");
+ doc.getTheme().getMinorFonts().setComplexScript("Andalus");
+
+ Font font = doc.getStyles().get("Normal").getFont();
+ System.out.println(MessageFormat.format("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.getThemeColor(), font.getColor()));
+
+ // We can use theme font and color instead of default values.
+ font.setThemeFont(ThemeFont.MINOR);
+ font.setThemeColor(ThemeColor.ACCENT_2);
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.MINOR, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.ACCENT_2, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // There are several ways of reset them font and color.
+ // 1 -  By setting ThemeFont.None/ThemeColor.None:
+ font.setThemeFont(ThemeFont.NONE);
+ font.setThemeColor(ThemeColor.NONE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Algerian", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Algerian", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Andalus", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Aharoni", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Algerian", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(0, font.getColor().getRGB());
+
+ // 2 -  By setting non-theme font/color names:
+ font.setName("Arial");
+ font.setColor(Color.BLUE);
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFont());
+ Assert.assertEquals("Arial", font.getName());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontAscii());
+ Assert.assertEquals("Arial", font.getNameAscii());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontBi());
+ Assert.assertEquals("Arial", font.getNameBi());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontFarEast());
+ Assert.assertEquals("Arial", font.getNameFarEast());
+
+ Assert.assertEquals(ThemeFont.NONE, font.getThemeFontOther());
+ Assert.assertEquals("Arial", font.getNameOther());
+
+ Assert.assertEquals(ThemeColor.NONE, font.getThemeColor());
+ Assert.assertEquals(Color.BLUE.getRGB(), font.getColor().getRGB());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифта, связанной с этим объектом Font. Значение должно быть одним из[ThemeFont](../../com.aspose.words/themefont) константы. |
+| value | int | Шрифт темы, используемый для символов с кодами от 128 до 255 в примененной схеме шрифтов, связанной с этим объектом [Font](../../com.aspose.words/font/). Значение должно быть одним из констант [ThemeFont](../../com.aspose.words/themefont/). |
 
-### setTintAndShade(double value) {#setTintAndShade-double-}
+### setTintAndShade(double value) {#setTintAndShade-double}
 ```
 public void setTintAndShade(double value)
 ```
 
 
-Устанавливает двойное значение, которое делает цвет светлее или темнее.
+Устанавливает двойное значение, которое осветляет или затемняет цвет.
 
-Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) нейтрален. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит к исключению java.lang.IllegalArgumentException.
-
-Установка этого свойства для объекта Font с цветами, не относящимися к теме, приводит к исключению java.lang.IllegalStateException.
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Двойное значение, которое осветляет или затемняет цвет. |
+| значение | double | Двойное значение, которое осветляет или затемняет цвет. |
 
-### setUnderline(int value) {#setUnderline-int-}
+### setUnderline(int value) {#setUnderline-int}
 ```
 public void setUnderline(int value)
 ```
 
 
-Устанавливает тип подчеркивания, применяемого к шрифту.
+Устанавливает тип подчеркивания, применяемый к шрифту.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять отформатированный текст с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify font formatting, then add text.
+ Font font = builder.getFont();
+ font.setSize(16.0);
+ font.setBold(true);
+ font.setColor(Color.BLUE);
+ font.setName("Courier New");
+ font.setUnderline(Underline.DASH);
+
+ builder.write("Hello world!");
+ 
+```
+
+Показывает, как вставить поле гиперссылки.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
+
+Показывает, как настроить стиль и цвет подчеркивания текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Тип подчеркивания, примененный к шрифту. Значение должно быть одним из[Underline](../../com.aspose.words/underline) константы. |
+| value | int | Тип подчеркивания, применяемого к шрифту. Значение должно быть одним из констант [Underline](../../com.aspose.words/underline/). |
 
-### setUnderlineColor(Color value) {#setUnderlineColor-java.awt.Color-}
+### setUnderlineColor(Color value) {#setUnderlineColor-java.awt.Color}
 ```
 public void setUnderlineColor(Color value)
 ```
@@ -1932,13 +6074,30 @@ public void setUnderlineColor(Color value)
 
 Устанавливает цвет подчеркивания, применяемого к шрифту.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить стиль и цвет подчеркивания текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setUnderline(Underline.DOTTED);
+ builder.getFont().setUnderlineColor(Color.RED);
+
+ builder.writeln("Underlined text.");
+
+ doc.save(getArtifactsDir() + "Font.Underlines.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Цвет подчеркивания, примененный к шрифту. |
+| значение | java.awt.Color | Цвет подчеркивания, применяемого к шрифту. |
 
-### solid() {#solid--}
+### solid() {#solid}
 ```
 public void solid()
 ```
@@ -1946,17 +6105,7 @@ public void solid()
 
 
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
+### twoColorGradient(int style, int variant) {#twoColorGradient-int-int}
 ```
 public void twoColorGradient(int style, int variant)
 ```
@@ -1964,46 +6113,9 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | int |  |
+| стиль | int |  |
 | variant | int |  |
 
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

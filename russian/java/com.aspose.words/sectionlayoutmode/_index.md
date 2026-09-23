@@ -1,52 +1,89 @@
 ---
-title: SectionLayoutMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает режим макета для раздела, позволяющий определить поведение сетки документа.
+title: "SectionLayoutMode"
+linktitle: "SectionLayoutMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает режим компоновки для раздела, позволяющий определить поведение сетки документа в Java."
 type: docs
-weight: 511
+weight: 607
 url: /ru/java/com.aspose.words/sectionlayoutmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SectionLayoutMode
 ```
 
-Указывает режим макета для раздела, позволяющий определить поведение сетки документа.
+Указывает режим компоновки раздела, позволяющий задавать поведение сетки документа.
+
+ **Examples:** 
+
+Показывает, как задать ограничение для количества символов, которое может содержать каждая строка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Enable pitching, and then use it to set the number of characters per line in this section.
+ builder.getPageSetup().setLayoutMode(SectionLayoutMode.GRID);
+ builder.getPageSetup().setCharactersPerLine(10);
+
+ // The number of characters also depends on the size of the font.
+ doc.getStyles().get("Normal").getFont().setSize(20.0);
+
+ Assert.assertEquals(8, doc.getFirstSection().getPageSetup().getCharactersPerLine());
+
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CharactersPerLine.docx");
+ 
+```
+
+Показывает, как задать ограничение количества строк, которое может быть на каждой странице.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Enable pitching, and then use it to set the number of lines per page in this section.
+ // A large enough font size will push some lines down onto the next page to avoid overlapping characters.
+ builder.getPageSetup().setLayoutMode(SectionLayoutMode.LINE_GRID);
+ builder.getPageSetup().setLinesPerPage(15);
+
+ builder.getParagraphFormat().setSnapToGrid(true);
+
+ for (int i = 0; i < 30; i++)
+     builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+
+ doc.save(getArtifactsDir() + "PageSetup.LinesPerPage.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Указывает, что сетка документа не должна применяться к содержимому соответствующего раздела в документе. |
-| [GRID](#GRID) | Указывает, что в соответствующем разделе должен быть добавлен как дополнительный шаг строки, так и шаг символа к каждой строке и символу внутри нее, чтобы поддерживать определенное количество строк на странице и символов в строке. |
-| [LINE_GRID](#LINE-GRID) | Указывает, что в соответствующем разделе к каждой строке должен быть добавлен дополнительный шаг строки, чтобы сохранить указанное количество строк на странице. |
-| [SNAP_TO_CHARS](#SNAP-TO-CHARS) | Указывает, что в соответствующем разделе должен быть добавлен как дополнительный шаг строки, так и шаг символа к каждой строке и символу внутри нее, чтобы поддерживать определенное количество строк на странице и символов в строке. |
+| [DEFAULT](#DEFAULT) | Указывает, что к содержимому соответствующего раздела в документе не будет применяться сетка документа. |
+| [GRID](#GRID) | Указывает, что соответствующий раздел будет иметь как дополнительный межстрочный интервал, так и межсимвольный интервал, добавленные к каждой строке и каждому символу внутри него, чтобы поддерживать определённое количество строк на страницу и символов в строке. |
+| [LINE_GRID](#LINE-GRID) | Указывает, что к каждой строке соответствующего раздела будет добавлен дополнительный межстрочный интервал, чтобы поддерживать указанное количество строк на страницу. |
+| [SNAP_TO_CHARS](#SNAP-TO-CHARS) | Указывает, что соответствующий раздел будет иметь как дополнительный межстрочный интервал, так и межсимвольный интервал, добавленные к каждой строке и каждому символу внутри него, чтобы поддерживать определённое количество строк на страницу и символов в строке. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sectionLayoutModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int sectionLayoutMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int sectionLayoutMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String sectionLayoutModeName)](#fromName-java.lang.String) |  |
+| [getName(int sectionLayoutMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int sectionLayoutMode)](#toString-int) |  |
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
 ```
 
 
-Указывает, что сетка документа не должна применяться к содержимому соответствующего раздела в документе.
+Указывает, что к содержимому соответствующего раздела в документе не будет применяться сетка документа.
 
 ### GRID {#GRID}
 ```
@@ -54,7 +91,7 @@ public static int GRID
 ```
 
 
-Указывает, что в соответствующем разделе должен быть добавлен как дополнительный шаг строки, так и шаг символа к каждой строке и символу внутри нее, чтобы поддерживать определенное количество строк на странице и символов в строке. Символы не будут автоматически выравниваться по линиям сетки при наборе текста.
+Указывает, что соответствующий раздел будет иметь как дополнительный межстрочный интервал, так и межсимвольный интервал, добавленные к каждой строке и каждому символу внутри него, чтобы поддерживать определённое количество строк на страницу и символов в строке. Символы не будут автоматически выравниваться по линиям сетки при вводе.
 
 ### LINE_GRID {#LINE-GRID}
 ```
@@ -62,7 +99,7 @@ public static int LINE_GRID
 ```
 
 
-Указывает, что в соответствующем разделе к каждой строке должен быть добавлен дополнительный шаг строки, чтобы сохранить указанное количество строк на странице.
+Указывает, что к каждой строке соответствующего раздела будет добавлен дополнительный межстрочный интервал, чтобы поддерживать указанное количество строк на страницу.
 
 ### SNAP_TO_CHARS {#SNAP-TO-CHARS}
 ```
@@ -70,7 +107,7 @@ public static int SNAP_TO_CHARS
 ```
 
 
-Указывает, что в соответствующем разделе должен быть добавлен как дополнительный шаг строки, так и шаг символа к каждой строке и символу внутри нее, чтобы поддерживать определенное количество строк на странице и символов в строке. Символы будут автоматически выравниваться по линиям сетки при наборе текста.
+Указывает, что соответствующий раздел будет иметь как дополнительный межстрочный интервал, так и межсимвольный интервал, добавленные к каждой строке и каждому символу внутри него, чтобы поддерживать определённое количество строк на страницу и символов в строке. Символы будут автоматически выравниваться по линиям сетки при вводе.
 
 ### length {#length}
 ```
@@ -78,23 +115,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String sectionLayoutModeName) {#fromName-java.lang.String-}
+### fromName(String sectionLayoutModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String sectionLayoutModeName)
 ```
@@ -102,25 +123,14 @@ public static int fromName(String sectionLayoutModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sectionLayoutModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int sectionLayoutMode) {#getName-int-}
+**Returns:**
+int
+### getName(int sectionLayoutMode) {#getName-int}
 ```
 public static String getName(int sectionLayoutMode)
 ```
@@ -128,15 +138,14 @@ public static String getName(int sectionLayoutMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sectionLayoutMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +153,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int sectionLayoutMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int sectionLayoutMode) {#toString-int}
 ```
 public static String toString(int sectionLayoutMode)
 ```
@@ -190,47 +163,10 @@ public static String toString(int sectionLayoutMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sectionLayoutMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

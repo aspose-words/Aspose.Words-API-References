@@ -1,13 +1,14 @@
 ---
-title: PdfDigitalSignatureTimestampSettings
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит настройки временной метки цифровой подписи.
+title: "PdfDigitalSignatureTimestampSettings"
+linktitle: "PdfDigitalSignatureTimestampSettings"
+second_title: "Aspose.Words для Java"
+description: "Содержит настройки временной метки цифровой подписи в Java."
 type: docs
-weight: 453
+weight: 533
 url: /ru/java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfDigitalSignatureTimestampSettings
@@ -15,36 +16,67 @@ public class PdfDigitalSignatureTimestampSettings
 
 Содержит настройки временной метки цифровой подписи.
 
- Чтобы узнать больше, посетите**Work with Digital Signatures** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Digital Signatures ][Work with Digital Signatures].
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+
+[Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | Инициализирует экземпляр этого класса. |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | Инициализирует экземпляр этого класса. |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String) | Инициализирует экземпляр этого класса. |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long) | Инициализирует экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getPassword()](#getPassword--) | Пароль сервера временной метки. |
-| [getServerUrl()](#getServerUrl--) | URL-адрес сервера меток времени. |
-| [getTimeout()](#getTimeout--) | Значение времени ожидания в миллисекундах для доступа к серверу меток времени. |
-| [getUserName()](#getUserName--) | Имя пользователя сервера меток времени. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Пароль сервера временной метки. |
-| [setServerUrl(String value)](#setServerUrl-java.lang.String-) | URL-адрес сервера меток времени. |
-| [setTimeout(long value)](#setTimeout-long-) | Значение времени ожидания в миллисекундах для доступа к серверу меток времени. |
-| [setUserName(String value)](#setUserName-java.lang.String-) | Имя пользователя сервера меток времени. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PdfDigitalSignatureTimestampSettings() {#PdfDigitalSignatureTimestampSettings--}
+| [getPassword()](#getPassword) | Пароль сервера временной метки. |
+| [getServerUrl()](#getServerUrl) | URL сервера временной метки. |
+| [getTimeout()](#getTimeout) | Значение тайм‑аута в миллисекундах для доступа к серверу меток времени. |
+| [getUserName()](#getUserName) | Имя пользователя сервера меток времени. |
+| [setPassword(String value)](#setPassword-java.lang.String) | Пароль сервера временной метки. |
+| [setServerUrl(String value)](#setServerUrl-java.lang.String) | URL сервера временной метки. |
+| [setTimeout(long value)](#setTimeout-long) | Значение тайм‑аута в миллисекундах для доступа к серверу меток времени. |
+| [setUserName(String value)](#setUserName-java.lang.String) | Имя пользователя сервера меток времени. |
+### PdfDigitalSignatureTimestampSettings() {#PdfDigitalSignatureTimestampSettings}
 ```
 public PdfDigitalSignatureTimestampSettings()
 ```
@@ -52,7 +84,44 @@ public PdfDigitalSignatureTimestampSettings()
 
 Инициализирует экземпляр этого класса.
 
-### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-}
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String}
 ```
 public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)
 ```
@@ -60,15 +129,51 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 
 Инициализирует экземпляр этого класса.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| serverUrl | java.lang.String | URL-адрес сервера меток времени. |
+| serverUrl | java.lang.String | URL сервера временной метки. |
 | userName | java.lang.String | Имя пользователя сервера меток времени. |
-| password | java.lang.String | Пароль сервера временной метки. |
+| пароль | java.lang.String | Пароль сервера временной метки. |
 
-### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-}
+### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long}
 ```
 public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)
 ```
@@ -76,206 +181,468 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 
 Инициализирует экземпляр этого класса.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| serverUrl | java.lang.String | URL-адрес сервера меток времени. |
+| serverUrl | java.lang.String | URL сервера временной метки. |
 | userName | java.lang.String | Имя пользователя сервера меток времени. |
-| password | java.lang.String | Пароль сервера временной метки. |
-| timeout | long | Значение времени ожидания в миллисекундах для доступа к серверу меток времени. |
+| пароль | java.lang.String | Пароль сервера временной метки. |
+| timeout | long | Значение тайм‑аута в миллисекундах для доступа к серверу меток времени. |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getPassword() {#getPassword--}
+### getPassword() {#getPassword}
 ```
 public String getPassword()
 ```
 
 
-Пароль сервера временной метки. Значение по умолчанию равно нулю.
+Пароль сервера временной метки.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getServerUrl() {#getServerUrl--}
+ **Remarks:** 
+
+Значение по умолчанию равно  null .
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getServerUrl() {#getServerUrl}
 ```
 public String getServerUrl()
 ```
 
 
-URL-адрес сервера меток времени. Значение по умолчанию равно нулю. Если значение равно null, то цифровая подпись не будет иметь отметку времени.
+URL сервера временной метки.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getTimeout() {#getTimeout--}
+ **Remarks:** 
+
+Значение по умолчанию —  null . Если  null , то цифровая подпись не будет снабжена меткой времени.
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getTimeout() {#getTimeout}
 ```
 public long getTimeout()
 ```
 
 
-Значение времени ожидания в миллисекундах для доступа к серверу меток времени. Значение по умолчанию — 100 секунд.
+Значение тайм‑аута в миллисекундах для доступа к серверу меток времени.
 
-**Возвращает:**
-long — соответствующее длинное значение.
-### getUserName() {#getUserName--}
+ **Remarks:** 
+
+Значение по умолчанию — 100 секунд.
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Returns:**
+long — соответствующее значение типа long.
+### getUserName() {#getUserName}
 ```
 public String getUserName()
 ```
 
 
-Имя пользователя сервера меток времени. Значение по умолчанию равно нулю.
+Имя пользователя сервера меток времени.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Remarks:** 
 
+Значение по умолчанию равно  null .
 
+ **Examples:** 
 
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
 
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
 
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
 
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
 
-### notifyAll() {#notifyAll--}
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setPassword(String value) {#setPassword-java.lang.String-}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### setPassword(String value) {#setPassword-java.lang.String}
 ```
 public void setPassword(String value)
 ```
 
 
-Пароль сервера временной метки. Значение по умолчанию равно нулю.
+Пароль сервера временной метки.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию равно  null .
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setServerUrl(String value) {#setServerUrl-java.lang.String-}
+### setServerUrl(String value) {#setServerUrl-java.lang.String}
 ```
 public void setServerUrl(String value)
 ```
 
 
-URL-адрес сервера меток времени. Значение по умолчанию равно нулю. Если значение равно null, то цифровая подпись не будет иметь отметку времени.
+URL сервера временной метки.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию —  null . Если  null , то цифровая подпись не будет снабжена меткой времени.
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setTimeout(long value) {#setTimeout-long-}
+### setTimeout(long value) {#setTimeout-long}
 ```
 public void setTimeout(long value)
 ```
 
 
-Значение времени ожидания в миллисекундах для доступа к серверу меток времени. Значение по умолчанию — 100 секунд.
+Значение тайм‑аута в миллисекундах для доступа к серверу меток времени.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — 100 секунд.
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | long | Соответствующее длинное значение. |
+| значение | long | Соответствующее значение типа long. |
 
-### setUserName(String value) {#setUserName-java.lang.String-}
+### setUserName(String value) {#setUserName-java.lang.String}
 ```
 public void setUserName(String value)
 ```
 
 
-Имя пользователя сервера меток времени. Значение по умолчанию равно нулю.
+Имя пользователя сервера меток времени.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию равно  null .
+
+ **Examples:** 
+
+Показывает, как цифрово подписать сохранённый PDF‑документ и добавить к нему временную метку.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Signed PDF contents.");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Create a digital signature and assign it to our SaveOptions object to sign the document when we save it to PDF.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", new Date()));
+
+ // Create a timestamp authority-verified timestamp.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword"));
+
+ // The default lifespan of the timestamp is 100 seconds.
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 100000);
+
+ // We can set our own timeout period via the constructor.
+ options.getDigitalSignatureDetails().setTimestampSettings(new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", (long) 1800.0));
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getTimeout(), 1800);
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getServerUrl(), "https://freetsa.org/tsr");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getUserName(), "JohnDoe");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getTimestampSettings().getPassword(), "MyPassword");
+
+ // The "Save" method will apply our signature to the output document at this time.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
