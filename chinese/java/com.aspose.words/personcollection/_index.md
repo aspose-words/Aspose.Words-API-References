@@ -1,0 +1,786 @@
+---
+title: "PersonCollection"
+linktitle: "PersonCollection"
+second_title: "Aspose.Words for Java"
+description: "表示在 Java 中作为参考文献来源贡献者的人员列表。"
+type: docs
+weight: 546
+url: /zh/java/com.aspose.words/personcollection/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Contributor](../../com.aspose.words/contributor/)
+
+**All Implemented Interfaces:**
+java.lang.Iterable
+```
+public class PersonCollection extends Contributor implements Iterable
+```
+
+表示作为参考文献来源贡献者的人员列表。
+
+ **Examples:** 
+
+展示如何获取文档中可用的参考文献来源。
+
+```
+
+ Document document = new Document(getMyDir() + "Bibliography sources.docx");
+
+ Bibliography bibliography = document.getBibliography();
+ Assert.assertEquals(12, bibliography.getSources().size());
+
+ // Get default data from bibliography sources.
+ Collection sources = bibliography.getSources();
+ Source source = (Source)sources.toArray()[0];
+ Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
+ Assert.assertEquals(SourceType.BOOK, source.getSourceType());
+ Assert.assertNull(source.getAbbreviatedCaseNumber());
+ Assert.assertNull(source.getAlbumTitle());
+ Assert.assertNull(source.getBookTitle());
+ Assert.assertNull(source.getBroadcaster());
+ Assert.assertNull(source.getBroadcastTitle());
+ Assert.assertNull(source.getCaseNumber());
+ Assert.assertNull(source.getChapterNumber());
+ Assert.assertNull(source.getComments());
+ Assert.assertNull(source.getConferenceName());
+ Assert.assertNull(source.getCountryOrRegion());
+ Assert.assertNull(source.getCourt());
+ Assert.assertNull(source.getDay());
+ Assert.assertNull(source.getDayAccessed());
+ Assert.assertNull(source.getDepartment());
+ Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
+ Assert.assertNull(source.getEdition());
+ Assert.assertNull(source.getGuid());
+ Assert.assertNull(source.getInstitution());
+ Assert.assertNull(source.getInternetSiteTitle());
+ Assert.assertNull(source.getIssue());
+ Assert.assertNull(source.getJournalName());
+ Assert.assertNull(source.getLcid());
+ Assert.assertNull(source.getMedium());
+ Assert.assertNull(source.getMonth());
+ Assert.assertNull(source.getMonthAccessed());
+ Assert.assertNull(source.getNumberVolumes());
+ Assert.assertNull(source.getPages());
+ Assert.assertNull(source.getPatentNumber());
+ Assert.assertNull(source.getPeriodicalTitle());
+ Assert.assertNull(source.getProductionCompany());
+ Assert.assertNull(source.getPublicationTitle());
+ Assert.assertNull(source.getPublisher());
+ Assert.assertNull(source.getRecordingNumber());
+ Assert.assertNull(source.getRefOrder());
+ Assert.assertNull(source.getReporter());
+ Assert.assertNull(source.getShortTitle());
+ Assert.assertNull(source.getStandardNumber());
+ Assert.assertNull(source.getStateOrProvince());
+ Assert.assertNull(source.getStation());
+ Assert.assertEquals("BookNoLCID", source.getTag());
+ Assert.assertNull(source.getTheater());
+ Assert.assertNull(source.getThesisType());
+ Assert.assertNull(source.getType());
+ Assert.assertNull(source.getUrl());
+ Assert.assertNull(source.getVersion());
+ Assert.assertNull(source.getVolume());
+ Assert.assertNull(source.getYear());
+ Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
+
+ ContributorCollection contributors = source.getContributors();
+ Assert.assertNull(contributors.getArtist());
+ Assert.assertNull(contributors.getBookAuthor());
+ Assert.assertNull(contributors.getCompiler());
+ Assert.assertNull(contributors.getComposer());
+ Assert.assertNull(contributors.getConductor());
+ Assert.assertNull(contributors.getCounsel());
+ Assert.assertNull(contributors.getDirector());
+ Assert.assertNotNull(contributors.getEditor());
+ Assert.assertNull(contributors.getInterviewee());
+ Assert.assertNull(contributors.getInterviewer());
+ Assert.assertNull(contributors.getInventor());
+ Assert.assertNull(contributors.getPerformer());
+ Assert.assertNull(contributors.getProducer());
+ Assert.assertNotNull(contributors.getTranslator());
+ Assert.assertNull(contributors.getWriter());
+
+ Contributor editor  = contributors.getEditor();
+ Assert.assertEquals(2, ((PersonCollection)editor).getCount());
+
+ PersonCollection authors = (PersonCollection)contributors.getAuthor();
+ Assert.assertEquals(2, authors.getCount());
+
+ Person person = authors.get(0);
+ Assert.assertEquals("Roxanne", person.getFirst());
+ Assert.assertEquals("Brielle", person.getMiddle());
+ Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+## 构造函数
+
+| 构造函数 | 描述 |
+| --- | --- |
+| [PersonCollection()](#PersonCollection) | 初始化 [PersonCollection](../../com.aspose.words/personcollection/) 类的新实例。 |
+| [PersonCollection(Iterable persons)](#PersonCollection-java.lang.Iterable) | 初始化此类的新实例。 |
+| [PersonCollection(Person[] persons)](#PersonCollection-com.aspose.words.Person...) | 初始化 [PersonCollection](../../com.aspose.words/personcollection/) 类的新实例。 |
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+| [add(Person person)](#add-com.aspose.words.Person) | 向集合中添加一个 [Person](../../com.aspose.words/person/)。 |
+| [clear()](#clear) | 从集合中移除所有项。 |
+| [contains(Person person)](#contains-com.aspose.words.Person) | 确定集合是否包含特定人员。 |
+| [get(int index)](#get-int) | 获取指定索引处的人员。 |
+| [getCount()](#getCount) | 获取集合中包含的人员数量。 |
+| [iterator()](#iterator) |  |
+| [remove(Person person)](#remove-com.aspose.words.Person) | 从集合中移除该人员。 |
+| [removeAt(int index)](#removeAt-int) | 移除指定索引处的人员。 |
+| [set(int index, Person value)](#set-int-com.aspose.words.Person) | 在指定索引处设置人员。 |
+### PersonCollection() {#PersonCollection}
+```
+public PersonCollection()
+```
+
+
+初始化 [PersonCollection](../../com.aspose.words/personcollection/) 类的新实例。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+### PersonCollection(Iterable persons) {#PersonCollection-java.lang.Iterable}
+```
+public PersonCollection(Iterable persons)
+```
+
+
+初始化此类的新实例。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 人员 | java.lang.Iterable |  |
+
+### PersonCollection(Person[] persons) {#PersonCollection-com.aspose.words.Person...}
+```
+public PersonCollection(Person[] persons)
+```
+
+
+初始化 [PersonCollection](../../com.aspose.words/personcollection/) 类的新实例。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| persons | [Person\[\]](../../com.aspose.words/person/) |  |
+
+### add(Person person) {#add-com.aspose.words.Person}
+```
+public void add(Person person)
+```
+
+
+向集合中添加一个 [Person](../../com.aspose.words/person/)。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| person | [Person](../../com.aspose.words/person/) | 要添加到集合中的人员。 |
+
+### clear() {#clear}
+```
+public void clear()
+```
+
+
+从集合中移除所有项。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+### contains(Person person) {#contains-com.aspose.words.Person}
+```
+public boolean contains(Person person)
+```
+
+
+确定集合是否包含特定人员。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| person | [Person](../../com.aspose.words/person/) | 要在集合中定位的人员。 |
+
+**Returns:**
+boolean
+### get(int index) {#get-int}
+```
+public Person get(int index)
+```
+
+
+获取指定索引处的人员。
+
+ **Examples:** 
+
+展示如何获取文档中可用的参考文献来源。
+
+```
+
+ Document document = new Document(getMyDir() + "Bibliography sources.docx");
+
+ Bibliography bibliography = document.getBibliography();
+ Assert.assertEquals(12, bibliography.getSources().size());
+
+ // Get default data from bibliography sources.
+ Collection sources = bibliography.getSources();
+ Source source = (Source)sources.toArray()[0];
+ Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
+ Assert.assertEquals(SourceType.BOOK, source.getSourceType());
+ Assert.assertNull(source.getAbbreviatedCaseNumber());
+ Assert.assertNull(source.getAlbumTitle());
+ Assert.assertNull(source.getBookTitle());
+ Assert.assertNull(source.getBroadcaster());
+ Assert.assertNull(source.getBroadcastTitle());
+ Assert.assertNull(source.getCaseNumber());
+ Assert.assertNull(source.getChapterNumber());
+ Assert.assertNull(source.getComments());
+ Assert.assertNull(source.getConferenceName());
+ Assert.assertNull(source.getCountryOrRegion());
+ Assert.assertNull(source.getCourt());
+ Assert.assertNull(source.getDay());
+ Assert.assertNull(source.getDayAccessed());
+ Assert.assertNull(source.getDepartment());
+ Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
+ Assert.assertNull(source.getEdition());
+ Assert.assertNull(source.getGuid());
+ Assert.assertNull(source.getInstitution());
+ Assert.assertNull(source.getInternetSiteTitle());
+ Assert.assertNull(source.getIssue());
+ Assert.assertNull(source.getJournalName());
+ Assert.assertNull(source.getLcid());
+ Assert.assertNull(source.getMedium());
+ Assert.assertNull(source.getMonth());
+ Assert.assertNull(source.getMonthAccessed());
+ Assert.assertNull(source.getNumberVolumes());
+ Assert.assertNull(source.getPages());
+ Assert.assertNull(source.getPatentNumber());
+ Assert.assertNull(source.getPeriodicalTitle());
+ Assert.assertNull(source.getProductionCompany());
+ Assert.assertNull(source.getPublicationTitle());
+ Assert.assertNull(source.getPublisher());
+ Assert.assertNull(source.getRecordingNumber());
+ Assert.assertNull(source.getRefOrder());
+ Assert.assertNull(source.getReporter());
+ Assert.assertNull(source.getShortTitle());
+ Assert.assertNull(source.getStandardNumber());
+ Assert.assertNull(source.getStateOrProvince());
+ Assert.assertNull(source.getStation());
+ Assert.assertEquals("BookNoLCID", source.getTag());
+ Assert.assertNull(source.getTheater());
+ Assert.assertNull(source.getThesisType());
+ Assert.assertNull(source.getType());
+ Assert.assertNull(source.getUrl());
+ Assert.assertNull(source.getVersion());
+ Assert.assertNull(source.getVolume());
+ Assert.assertNull(source.getYear());
+ Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
+
+ ContributorCollection contributors = source.getContributors();
+ Assert.assertNull(contributors.getArtist());
+ Assert.assertNull(contributors.getBookAuthor());
+ Assert.assertNull(contributors.getCompiler());
+ Assert.assertNull(contributors.getComposer());
+ Assert.assertNull(contributors.getConductor());
+ Assert.assertNull(contributors.getCounsel());
+ Assert.assertNull(contributors.getDirector());
+ Assert.assertNotNull(contributors.getEditor());
+ Assert.assertNull(contributors.getInterviewee());
+ Assert.assertNull(contributors.getInterviewer());
+ Assert.assertNull(contributors.getInventor());
+ Assert.assertNull(contributors.getPerformer());
+ Assert.assertNull(contributors.getProducer());
+ Assert.assertNotNull(contributors.getTranslator());
+ Assert.assertNull(contributors.getWriter());
+
+ Contributor editor  = contributors.getEditor();
+ Assert.assertEquals(2, ((PersonCollection)editor).getCount());
+
+ PersonCollection authors = (PersonCollection)contributors.getAuthor();
+ Assert.assertEquals(2, authors.getCount());
+
+ Person person = authors.get(0);
+ Assert.assertEquals("Roxanne", person.getFirst());
+ Assert.assertEquals("Brielle", person.getMiddle());
+ Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 索引 | int | 集合中的索引。 |
+
+**Returns:**
+[Person](../../com.aspose.words/person/) - A person at the specified index.
+### getCount() {#getCount}
+```
+public int getCount()
+```
+
+
+获取集合中包含的人员数量。
+
+ **Examples:** 
+
+展示如何获取文档中可用的参考文献来源。
+
+```
+
+ Document document = new Document(getMyDir() + "Bibliography sources.docx");
+
+ Bibliography bibliography = document.getBibliography();
+ Assert.assertEquals(12, bibliography.getSources().size());
+
+ // Get default data from bibliography sources.
+ Collection sources = bibliography.getSources();
+ Source source = (Source)sources.toArray()[0];
+ Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
+ Assert.assertEquals(SourceType.BOOK, source.getSourceType());
+ Assert.assertNull(source.getAbbreviatedCaseNumber());
+ Assert.assertNull(source.getAlbumTitle());
+ Assert.assertNull(source.getBookTitle());
+ Assert.assertNull(source.getBroadcaster());
+ Assert.assertNull(source.getBroadcastTitle());
+ Assert.assertNull(source.getCaseNumber());
+ Assert.assertNull(source.getChapterNumber());
+ Assert.assertNull(source.getComments());
+ Assert.assertNull(source.getConferenceName());
+ Assert.assertNull(source.getCountryOrRegion());
+ Assert.assertNull(source.getCourt());
+ Assert.assertNull(source.getDay());
+ Assert.assertNull(source.getDayAccessed());
+ Assert.assertNull(source.getDepartment());
+ Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
+ Assert.assertNull(source.getEdition());
+ Assert.assertNull(source.getGuid());
+ Assert.assertNull(source.getInstitution());
+ Assert.assertNull(source.getInternetSiteTitle());
+ Assert.assertNull(source.getIssue());
+ Assert.assertNull(source.getJournalName());
+ Assert.assertNull(source.getLcid());
+ Assert.assertNull(source.getMedium());
+ Assert.assertNull(source.getMonth());
+ Assert.assertNull(source.getMonthAccessed());
+ Assert.assertNull(source.getNumberVolumes());
+ Assert.assertNull(source.getPages());
+ Assert.assertNull(source.getPatentNumber());
+ Assert.assertNull(source.getPeriodicalTitle());
+ Assert.assertNull(source.getProductionCompany());
+ Assert.assertNull(source.getPublicationTitle());
+ Assert.assertNull(source.getPublisher());
+ Assert.assertNull(source.getRecordingNumber());
+ Assert.assertNull(source.getRefOrder());
+ Assert.assertNull(source.getReporter());
+ Assert.assertNull(source.getShortTitle());
+ Assert.assertNull(source.getStandardNumber());
+ Assert.assertNull(source.getStateOrProvince());
+ Assert.assertNull(source.getStation());
+ Assert.assertEquals("BookNoLCID", source.getTag());
+ Assert.assertNull(source.getTheater());
+ Assert.assertNull(source.getThesisType());
+ Assert.assertNull(source.getType());
+ Assert.assertNull(source.getUrl());
+ Assert.assertNull(source.getVersion());
+ Assert.assertNull(source.getVolume());
+ Assert.assertNull(source.getYear());
+ Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
+
+ ContributorCollection contributors = source.getContributors();
+ Assert.assertNull(contributors.getArtist());
+ Assert.assertNull(contributors.getBookAuthor());
+ Assert.assertNull(contributors.getCompiler());
+ Assert.assertNull(contributors.getComposer());
+ Assert.assertNull(contributors.getConductor());
+ Assert.assertNull(contributors.getCounsel());
+ Assert.assertNull(contributors.getDirector());
+ Assert.assertNotNull(contributors.getEditor());
+ Assert.assertNull(contributors.getInterviewee());
+ Assert.assertNull(contributors.getInterviewer());
+ Assert.assertNull(contributors.getInventor());
+ Assert.assertNull(contributors.getPerformer());
+ Assert.assertNull(contributors.getProducer());
+ Assert.assertNotNull(contributors.getTranslator());
+ Assert.assertNull(contributors.getWriter());
+
+ Contributor editor  = contributors.getEditor();
+ Assert.assertEquals(2, ((PersonCollection)editor).getCount());
+
+ PersonCollection authors = (PersonCollection)contributors.getAuthor();
+ Assert.assertEquals(2, authors.getCount());
+
+ Person person = authors.get(0);
+ Assert.assertEquals("Roxanne", person.getFirst());
+ Assert.assertEquals("Brielle", person.getMiddle());
+ Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+
+**Returns:**
+int - 集合中包含的人员数量。
+### iterator() {#iterator}
+```
+public Iterator iterator()
+```
+
+
+
+
+**Returns:**
+java.util.Iterator
+### remove(Person person) {#remove-com.aspose.words.Person}
+```
+public boolean remove(Person person)
+```
+
+
+从集合中移除该人员。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| person | [Person](../../com.aspose.words/person/) | 要从集合中移除的人员。 |
+
+**Returns:**
+boolean
+### removeAt(int index) {#removeAt-int}
+```
+public void removeAt(int index)
+```
+
+
+移除指定索引处的人员。
+
+ **Examples:** 
+
+展示如何使用人员集合。
+
+```
+
+ // Create a new person collection.
+ PersonCollection persons = new PersonCollection();
+ Person person = new Person("Roxanne", "Brielle", "Tejeda_updated");
+ // Add new person to the collection.
+ persons.add(person);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove person from the collection if it exists.
+ if (persons.contains(person))
+     persons.remove(person);
+ Assert.assertEquals(0, persons.getCount());
+
+ // Create person collection with two persons.
+ persons = new PersonCollection(new Person[] { new Person("Roxanne_1", "Brielle_1", "Tejeda_1"), new Person("Roxanne_2", "Brielle_2", "Tejeda_2") });
+ Assert.assertEquals(2, persons.getCount());
+ // Remove person from the collection by the index.
+ persons.removeAt(0);
+ Assert.assertEquals(1, persons.getCount());
+ // Remove all persons from the collection.
+ persons.clear();
+ Assert.assertEquals(0, persons.getCount());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 索引 | int | 要移除的人员的零基索引。 |
+
+### set(int index, Person value) {#set-int-com.aspose.words.Person}
+```
+public void set(int index, Person value)
+```
+
+
+在指定索引处设置人员。
+
+ **Examples:** 
+
+展示如何获取文档中可用的参考文献来源。
+
+```
+
+ Document document = new Document(getMyDir() + "Bibliography sources.docx");
+
+ Bibliography bibliography = document.getBibliography();
+ Assert.assertEquals(12, bibliography.getSources().size());
+
+ // Get default data from bibliography sources.
+ Collection sources = bibliography.getSources();
+ Source source = (Source)sources.toArray()[0];
+ Assert.assertEquals("Book 0 (No LCID)", source.getTitle());
+ Assert.assertEquals(SourceType.BOOK, source.getSourceType());
+ Assert.assertNull(source.getAbbreviatedCaseNumber());
+ Assert.assertNull(source.getAlbumTitle());
+ Assert.assertNull(source.getBookTitle());
+ Assert.assertNull(source.getBroadcaster());
+ Assert.assertNull(source.getBroadcastTitle());
+ Assert.assertNull(source.getCaseNumber());
+ Assert.assertNull(source.getChapterNumber());
+ Assert.assertNull(source.getComments());
+ Assert.assertNull(source.getConferenceName());
+ Assert.assertNull(source.getCountryOrRegion());
+ Assert.assertNull(source.getCourt());
+ Assert.assertNull(source.getDay());
+ Assert.assertNull(source.getDayAccessed());
+ Assert.assertNull(source.getDepartment());
+ Assert.assertNull(source.getDistributor());
+ Assert.assertNull(source.getDoi());
+ Assert.assertNull(source.getEdition());
+ Assert.assertNull(source.getGuid());
+ Assert.assertNull(source.getInstitution());
+ Assert.assertNull(source.getInternetSiteTitle());
+ Assert.assertNull(source.getIssue());
+ Assert.assertNull(source.getJournalName());
+ Assert.assertNull(source.getLcid());
+ Assert.assertNull(source.getMedium());
+ Assert.assertNull(source.getMonth());
+ Assert.assertNull(source.getMonthAccessed());
+ Assert.assertNull(source.getNumberVolumes());
+ Assert.assertNull(source.getPages());
+ Assert.assertNull(source.getPatentNumber());
+ Assert.assertNull(source.getPeriodicalTitle());
+ Assert.assertNull(source.getProductionCompany());
+ Assert.assertNull(source.getPublicationTitle());
+ Assert.assertNull(source.getPublisher());
+ Assert.assertNull(source.getRecordingNumber());
+ Assert.assertNull(source.getRefOrder());
+ Assert.assertNull(source.getReporter());
+ Assert.assertNull(source.getShortTitle());
+ Assert.assertNull(source.getStandardNumber());
+ Assert.assertNull(source.getStateOrProvince());
+ Assert.assertNull(source.getStation());
+ Assert.assertEquals("BookNoLCID", source.getTag());
+ Assert.assertNull(source.getTheater());
+ Assert.assertNull(source.getThesisType());
+ Assert.assertNull(source.getType());
+ Assert.assertNull(source.getUrl());
+ Assert.assertNull(source.getVersion());
+ Assert.assertNull(source.getVolume());
+ Assert.assertNull(source.getYear());
+ Assert.assertNull(source.getYearAccessed());
+
+ // Also, you can create a new source.
+ Source newSource = new Source("New source", SourceType.MISC);
+
+ ContributorCollection contributors = source.getContributors();
+ Assert.assertNull(contributors.getArtist());
+ Assert.assertNull(contributors.getBookAuthor());
+ Assert.assertNull(contributors.getCompiler());
+ Assert.assertNull(contributors.getComposer());
+ Assert.assertNull(contributors.getConductor());
+ Assert.assertNull(contributors.getCounsel());
+ Assert.assertNull(contributors.getDirector());
+ Assert.assertNotNull(contributors.getEditor());
+ Assert.assertNull(contributors.getInterviewee());
+ Assert.assertNull(contributors.getInterviewer());
+ Assert.assertNull(contributors.getInventor());
+ Assert.assertNull(contributors.getPerformer());
+ Assert.assertNull(contributors.getProducer());
+ Assert.assertNotNull(contributors.getTranslator());
+ Assert.assertNull(contributors.getWriter());
+
+ Contributor editor  = contributors.getEditor();
+ Assert.assertEquals(2, ((PersonCollection)editor).getCount());
+
+ PersonCollection authors = (PersonCollection)contributors.getAuthor();
+ Assert.assertEquals(2, authors.getCount());
+
+ Person person = authors.get(0);
+ Assert.assertEquals("Roxanne", person.getFirst());
+ Assert.assertEquals("Brielle", person.getMiddle());
+ Assert.assertEquals("Tejeda", person.getLast());
+ 
+```
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 索引 | int | 集合中的索引。 |
+| value | [Person](../../com.aspose.words/person/) | 指定索引处的人员。 |
+
