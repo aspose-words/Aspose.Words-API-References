@@ -1,0 +1,759 @@
+---
+title: "BookmarkCollection"
+linktitle: "BookmarkCollection"
+second_title: "Aspose.Words para Java"
+description: "Una colección de objetos Bookmark que representan los marcadores en el rango especificado en Java."
+type: docs
+weight: 42
+url: /es/java/com.aspose.words/bookmarkcollection/
+---
+
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
+```
+public class BookmarkCollection implements Iterable
+```
+
+Una colección de objetos [Bookmark](../../com.aspose.words/bookmark/) que representan los marcadores en el rango especificado.
+
+Para obtener más información, visite el artículo de documentación [ Working with Bookmarks ][Working with Bookmarks].
+
+ **Examples:** 
+
+Muestra cómo agregar marcadores y actualizar su contenido.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+
+[Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
+## Métodos
+
+| Método | Descripción |
+| --- | --- |
+| [clear()](#clear) | Elimina todos los marcadores de esta colección y del documento. |
+| [get(int index)](#get-int) | Devuelve un marcador en el índice especificado. |
+| [get(String bookmarkName)](#get-java.lang.String) | Devuelve un marcador por nombre. |
+| [getCount()](#getCount) | Devuelve el número de marcadores en la colección. |
+| [iterator()](#iterator) | Devuelve un objeto enumerador. |
+| [remove(Bookmark bookmark)](#remove-com.aspose.words.Bookmark) | Elimina el marcador especificado del documento. |
+| [remove(String bookmarkName)](#remove-java.lang.String) | Elimina un marcador con el nombre especificado. |
+| [removeAt(int index)](#removeAt-int) | Elimina un marcador en el índice especificado. |
+### clear() {#clear}
+```
+public void clear()
+```
+
+
+Elimina todos los marcadores de esta colección y del documento.
+
+ **Examples:** 
+
+Muestra cómo eliminar marcadores de un documento.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert five bookmarks with text inside their boundaries.
+ for (int i = 1; i <= 5; i++) {
+     String bookmarkName = "MyBookmark_" + i;
+
+     builder.startBookmark(bookmarkName);
+     builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+     builder.endBookmark(bookmarkName);
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+ }
+
+ // This collection stores bookmarks.
+ BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+
+ Assert.assertEquals(5, bookmarks.getCount());
+
+ // There are several ways of removing bookmarks.
+ // 1 -  Calling the bookmark's Remove method:
+ bookmarks.get("MyBookmark_1").remove();
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_1"));
+
+ // 2 -  Passing the bookmark to the collection's Remove method:
+ Bookmark bookmark = doc.getRange().getBookmarks().get(0);
+ doc.getRange().getBookmarks().remove(bookmark);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_2"));
+
+ // 3 -  Removing a bookmark from the collection by name:
+ doc.getRange().getBookmarks().remove("MyBookmark_3");
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_3"));
+
+ // 4 -  Removing a bookmark at an index in the bookmark collection:
+ doc.getRange().getBookmarks().removeAt(0);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_4"));
+
+ // We can clear the entire bookmark collection.
+ bookmarks.clear();
+
+ // The text that was inside the bookmarks is still present in the document.
+ Assert.assertEquals(bookmarks.getCount(), 0);
+ Assert.assertEquals("Text inside MyBookmark_1.\r" +
+         "Text inside MyBookmark_2.\r" +
+         "Text inside MyBookmark_3.\r" +
+         "Text inside MyBookmark_4.\r" +
+         "Text inside MyBookmark_5.", doc.getText().trim());
+ 
+```
+
+### get(int index) {#get-int}
+```
+public Bookmark get(int index)
+```
+
+
+Devuelve un marcador en el índice especificado.
+
+ **Remarks:** 
+
+El índice comienza en cero.
+
+Se permiten índices negativos e indican acceso desde el final de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+
+Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+
+Si el índice es negativo y su valor absoluto es mayor que el número de elementos en la lista, esto devuelve una referencia nula.
+
+ **Examples:** 
+
+Muestra cómo agregar marcadores y actualizar su contenido.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| índice | int | Un índice en la colección. |
+
+**Returns:**
+[Bookmark](../../com.aspose.words/bookmark/) - A bookmark at the specified index.
+### get(String bookmarkName) {#get-java.lang.String}
+```
+public Bookmark get(String bookmarkName)
+```
+
+
+Devuelve un marcador por nombre.
+
+ **Remarks:** 
+
+Devuelve  null  si no se puede encontrar el marcador con el nombre especificado.
+
+ **Examples:** 
+
+Muestra cómo agregar marcadores y actualizar su contenido.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Nombre del marcador, sin distinción de mayúsculas. |
+
+**Returns:**
+[Bookmark](../../com.aspose.words/bookmark/) - A bookmark by name.
+### getCount() {#getCount}
+```
+public int getCount()
+```
+
+
+Devuelve el número de marcadores en la colección.
+
+ **Examples:** 
+
+Muestra cómo eliminar marcadores de un documento.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert five bookmarks with text inside their boundaries.
+ for (int i = 1; i <= 5; i++) {
+     String bookmarkName = "MyBookmark_" + i;
+
+     builder.startBookmark(bookmarkName);
+     builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+     builder.endBookmark(bookmarkName);
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+ }
+
+ // This collection stores bookmarks.
+ BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+
+ Assert.assertEquals(5, bookmarks.getCount());
+
+ // There are several ways of removing bookmarks.
+ // 1 -  Calling the bookmark's Remove method:
+ bookmarks.get("MyBookmark_1").remove();
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_1"));
+
+ // 2 -  Passing the bookmark to the collection's Remove method:
+ Bookmark bookmark = doc.getRange().getBookmarks().get(0);
+ doc.getRange().getBookmarks().remove(bookmark);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_2"));
+
+ // 3 -  Removing a bookmark from the collection by name:
+ doc.getRange().getBookmarks().remove("MyBookmark_3");
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_3"));
+
+ // 4 -  Removing a bookmark at an index in the bookmark collection:
+ doc.getRange().getBookmarks().removeAt(0);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_4"));
+
+ // We can clear the entire bookmark collection.
+ bookmarks.clear();
+
+ // The text that was inside the bookmarks is still present in the document.
+ Assert.assertEquals(bookmarks.getCount(), 0);
+ Assert.assertEquals("Text inside MyBookmark_1.\r" +
+         "Text inside MyBookmark_2.\r" +
+         "Text inside MyBookmark_3.\r" +
+         "Text inside MyBookmark_4.\r" +
+         "Text inside MyBookmark_5.", doc.getText().trim());
+ 
+```
+
+**Returns:**
+int - El número de marcadores en la colección.
+### iterator() {#iterator}
+```
+public Iterator iterator()
+```
+
+
+Devuelve un objeto enumerador.
+
+ **Examples:** 
+
+Muestra cómo agregar marcadores y actualizar su contenido.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Returns:**
+java.util.Iterator
+### remove(Bookmark bookmark) {#remove-com.aspose.words.Bookmark}
+```
+public void remove(Bookmark bookmark)
+```
+
+
+Elimina el marcador especificado del documento.
+
+ **Examples:** 
+
+Muestra cómo eliminar marcadores de un documento.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert five bookmarks with text inside their boundaries.
+ for (int i = 1; i <= 5; i++) {
+     String bookmarkName = "MyBookmark_" + i;
+
+     builder.startBookmark(bookmarkName);
+     builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+     builder.endBookmark(bookmarkName);
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+ }
+
+ // This collection stores bookmarks.
+ BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+
+ Assert.assertEquals(5, bookmarks.getCount());
+
+ // There are several ways of removing bookmarks.
+ // 1 -  Calling the bookmark's Remove method:
+ bookmarks.get("MyBookmark_1").remove();
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_1"));
+
+ // 2 -  Passing the bookmark to the collection's Remove method:
+ Bookmark bookmark = doc.getRange().getBookmarks().get(0);
+ doc.getRange().getBookmarks().remove(bookmark);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_2"));
+
+ // 3 -  Removing a bookmark from the collection by name:
+ doc.getRange().getBookmarks().remove("MyBookmark_3");
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_3"));
+
+ // 4 -  Removing a bookmark at an index in the bookmark collection:
+ doc.getRange().getBookmarks().removeAt(0);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_4"));
+
+ // We can clear the entire bookmark collection.
+ bookmarks.clear();
+
+ // The text that was inside the bookmarks is still present in the document.
+ Assert.assertEquals(bookmarks.getCount(), 0);
+ Assert.assertEquals("Text inside MyBookmark_1.\r" +
+         "Text inside MyBookmark_2.\r" +
+         "Text inside MyBookmark_3.\r" +
+         "Text inside MyBookmark_4.\r" +
+         "Text inside MyBookmark_5.", doc.getText().trim());
+ 
+```
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| bookmark | [Bookmark](../../com.aspose.words/bookmark/) | El marcador a eliminar. |
+
+### remove(String bookmarkName) {#remove-java.lang.String}
+```
+public void remove(String bookmarkName)
+```
+
+
+Elimina un marcador con el nombre especificado.
+
+ **Examples:** 
+
+Muestra cómo eliminar marcadores de un documento.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert five bookmarks with text inside their boundaries.
+ for (int i = 1; i <= 5; i++) {
+     String bookmarkName = "MyBookmark_" + i;
+
+     builder.startBookmark(bookmarkName);
+     builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+     builder.endBookmark(bookmarkName);
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+ }
+
+ // This collection stores bookmarks.
+ BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+
+ Assert.assertEquals(5, bookmarks.getCount());
+
+ // There are several ways of removing bookmarks.
+ // 1 -  Calling the bookmark's Remove method:
+ bookmarks.get("MyBookmark_1").remove();
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_1"));
+
+ // 2 -  Passing the bookmark to the collection's Remove method:
+ Bookmark bookmark = doc.getRange().getBookmarks().get(0);
+ doc.getRange().getBookmarks().remove(bookmark);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_2"));
+
+ // 3 -  Removing a bookmark from the collection by name:
+ doc.getRange().getBookmarks().remove("MyBookmark_3");
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_3"));
+
+ // 4 -  Removing a bookmark at an index in the bookmark collection:
+ doc.getRange().getBookmarks().removeAt(0);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_4"));
+
+ // We can clear the entire bookmark collection.
+ bookmarks.clear();
+
+ // The text that was inside the bookmarks is still present in the document.
+ Assert.assertEquals(bookmarks.getCount(), 0);
+ Assert.assertEquals("Text inside MyBookmark_1.\r" +
+         "Text inside MyBookmark_2.\r" +
+         "Text inside MyBookmark_3.\r" +
+         "Text inside MyBookmark_4.\r" +
+         "Text inside MyBookmark_5.", doc.getText().trim());
+ 
+```
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | El nombre sin distinción de mayúsculas del marcador a eliminar. |
+
+### removeAt(int index) {#removeAt-int}
+```
+public void removeAt(int index)
+```
+
+
+Elimina un marcador en el índice especificado.
+
+ **Examples:** 
+
+Muestra cómo eliminar marcadores de un documento.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert five bookmarks with text inside their boundaries.
+ for (int i = 1; i <= 5; i++) {
+     String bookmarkName = "MyBookmark_" + i;
+
+     builder.startBookmark(bookmarkName);
+     builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+     builder.endBookmark(bookmarkName);
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+ }
+
+ // This collection stores bookmarks.
+ BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+
+ Assert.assertEquals(5, bookmarks.getCount());
+
+ // There are several ways of removing bookmarks.
+ // 1 -  Calling the bookmark's Remove method:
+ bookmarks.get("MyBookmark_1").remove();
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_1"));
+
+ // 2 -  Passing the bookmark to the collection's Remove method:
+ Bookmark bookmark = doc.getRange().getBookmarks().get(0);
+ doc.getRange().getBookmarks().remove(bookmark);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_2"));
+
+ // 3 -  Removing a bookmark from the collection by name:
+ doc.getRange().getBookmarks().remove("MyBookmark_3");
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_3"));
+
+ // 4 -  Removing a bookmark at an index in the bookmark collection:
+ doc.getRange().getBookmarks().removeAt(0);
+
+ Assert.assertFalse(IterableUtils.matchesAny(bookmarks, b -> b.getName() == "MyBookmark_4"));
+
+ // We can clear the entire bookmark collection.
+ bookmarks.clear();
+
+ // The text that was inside the bookmarks is still present in the document.
+ Assert.assertEquals(bookmarks.getCount(), 0);
+ Assert.assertEquals("Text inside MyBookmark_1.\r" +
+         "Text inside MyBookmark_2.\r" +
+         "Text inside MyBookmark_3.\r" +
+         "Text inside MyBookmark_4.\r" +
+         "Text inside MyBookmark_5.", doc.getText().trim());
+ 
+```
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| índice | int | El índice basado en cero del marcador a eliminar. |
+
