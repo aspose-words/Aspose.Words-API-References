@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::CellFo
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:

@@ -14,7 +14,7 @@ Allows to specify formatting of a single data point on the chart. To learn more,
 
 ```cpp
 class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint,
-                       public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+                       public Core::IChartFormatSource
 ```
 
 ## Methods

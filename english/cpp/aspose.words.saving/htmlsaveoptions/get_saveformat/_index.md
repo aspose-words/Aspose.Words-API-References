@@ -23,7 +23,7 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat
 
 Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Use a SaveOptions object to specify the encoding for a document that we will save.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();

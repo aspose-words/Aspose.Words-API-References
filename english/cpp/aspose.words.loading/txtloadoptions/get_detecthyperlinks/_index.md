@@ -38,7 +38,7 @@ const System::String inputText = System::String(u"Some links in TXT:\n") + u"htt
     // Print hyperlinks text.
     for (auto&& field : System::IterateOver(doc->get_Range()->get_Fields()))
     {
-        std::cout << field->get_Result() << std::endl;
+        System::Console::WriteLine(field->get_Result());
     }
 
     ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result().Trim(), u"https://www.aspose.com/");

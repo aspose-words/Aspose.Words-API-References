@@ -29,7 +29,7 @@ Otherwise, [StructuredDocumentTag](../../../aspose.words.markup/structureddocume
 
 Shows how to ignore content of tags from replacement. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
 // This paragraph contains SDT.
 auto p = System::ExplicitCast<Aspose::Words::Paragraph>(doc->get_FirstSection()->get_Body()->GetChild(Aspose::Words::NodeType::Paragraph, 2, true));

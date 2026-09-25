@@ -20,13 +20,13 @@ enum class TableStyleOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No table style formatting is applied. |
-| FirstRow | 32 | Apply first row conditional formatting. |
-| LastRow | 64 | Apply last row conditional formatting. |
-| FirstColumn | 128 | Apply 1 first column conditional formatting. |
-| LastColumn | 256 | Apply last column conditional formatting. |
-| RowBands | 512 | Apply row banding conditional formatting. |
-| ColumnBands | 1024 | Apply column banding conditional formatting. |
+| None | n/a | No table style formatting is applied. |
+| FirstRow | n/a | Apply first row conditional formatting. |
+| LastRow | n/a | Apply last row conditional formatting. |
+| FirstColumn | n/a | Apply 1 first column conditional formatting. |
+| LastColumn | n/a | Apply last column conditional formatting. |
+| RowBands | n/a | Apply row banding conditional formatting. |
+| ColumnBands | n/a | Apply column banding conditional formatting. |
 | Default2003 | n/a | [Row](../row/) and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
 | Default | n/a | This is Microsoft Word defaults. |
 

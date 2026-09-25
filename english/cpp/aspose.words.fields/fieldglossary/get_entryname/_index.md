@@ -44,7 +44,8 @@ System::SharedPtr<Aspose::Words::Node> buildingBlockContent = doc->get_GlossaryD
 buildingBlock->AppendChild<System::SharedPtr<Aspose::Words::Node>>(buildingBlockContent);
 
 // Set a file which contains parts that our document, or its attached template may not contain.
-doc->get_FieldOptions()->set_BuiltInTemplatesPaths(System::MakeArray<System::String>({get_MyDir() + u"Busniess brochure.dotx"}));
+doc->get_FieldOptions()->set_BuiltInTemplatesPaths(System::MakeArray<System::String>({
+    get_MyDir() + u"Busniess brochure.dotx"}));
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 

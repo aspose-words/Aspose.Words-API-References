@@ -14,7 +14,7 @@ Implements the FILLIN field. To learn more, visit the [Working with Fields](http
 
 ```cpp
 class FieldFillIn : public Aspose::Words::Fields::Field,
-                    public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                    public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

@@ -54,7 +54,7 @@ class FramesetCollection : public System::Collections::Generic::IEnumerable<Syst
 Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Frameset.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
 
 ASSERT_EQ(3, doc->get_Frameset()->get_ChildFramesets()->get_Count());
 // We can check the default URL (a web page URL or local document) or if the frame is an external resource.

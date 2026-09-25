@@ -39,7 +39,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_PageNumberSeparator(u", on page(s) ");
 index->set_PageNumberListSeparator(u" & ");
 
-ASSERT_EQ(u" INDEX  \\e \", on page(s) \" \\l \" & \"", index->GetFieldCode());
+ASSERT_EQ((u" INDEX  \\e \", on page(s) \" \\l \" & \""), index->GetFieldCode());
 ASSERT_TRUE(index->get_HasPageNumberSeparator());
 
 // After we insert these XE fields, the INDEX field will display "First entry, on page(s) 2 & 3 & 4".

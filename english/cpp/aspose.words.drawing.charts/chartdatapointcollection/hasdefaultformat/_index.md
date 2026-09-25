@@ -23,7 +23,7 @@ bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::HasDefaultFormat(
 
 Shows how to copy data point format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"DataPoint format.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DataPoint format.docx"));
 
 // Get the chart and series to update format.
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));

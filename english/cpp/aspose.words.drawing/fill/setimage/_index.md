@@ -31,7 +31,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There are several ways of setting image.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 // 1 -  Using a local system filename:
 shape->get_Fill()->SetImage(get_ImageDir() + u"Logo.jpg");
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.FileName.docx");
@@ -77,7 +77,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There are several ways of setting image.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 // 1 -  Using a local system filename:
 shape->get_Fill()->SetImage(get_ImageDir() + u"Logo.jpg");
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.FileName.docx");
@@ -123,7 +123,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There are several ways of setting image.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 // 1 -  Using a local system filename:
 shape->get_Fill()->SetImage(get_ImageDir() + u"Logo.jpg");
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.FileName.docx");

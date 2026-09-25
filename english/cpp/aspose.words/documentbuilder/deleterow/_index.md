@@ -61,7 +61,7 @@ ASSERT_EQ(2, table->get_Rows()->get_Count());
 builder->DeleteRow(0, 0);
 
 ASSERT_EQ(1, table->get_Rows()->get_Count());
-ASSERT_EQ(u"Row 2, cell 1.\aRow 2, cell 2.\a\a", table->GetText().Trim());
+ASSERT_EQ((u"Row 2, cell 1.\aRow 2, cell 2.\a\a"), table->GetText().Trim());
 ```
 
 ## See Also

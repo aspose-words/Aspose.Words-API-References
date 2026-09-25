@@ -77,8 +77,8 @@ ASSERT_EQ(5, layoutCollector->GetNumPagesSpanned(doc));
 System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(Aspose::Words::NodeType::Any, true);
 for (auto&& node : System::IterateOver(nodes))
 {
-    std::cout << System::String::Format(u"->  NodeType.{0}: ", node->get_NodeType()) << std::endl;
-    std::cout << (System::String::Format(u"\tStarts on page {0}, ends on page {1},", layoutCollector->GetStartPageIndex(node), layoutCollector->GetEndPageIndex(node)) + System::String::Format(u" spanning {0} pages.", layoutCollector->GetNumPagesSpanned(node))) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"->  NodeType.{0}: ", node->get_NodeType()));
+    System::Console::WriteLine(System::String::Format(u"\tStarts on page {0}, ends on page {1},", layoutCollector->GetStartPageIndex(node), layoutCollector->GetEndPageIndex(node)) + System::String::Format(u" spanning {0} pages.", layoutCollector->GetNumPagesSpanned(node)));
 }
 
 // We can iterate over the layout entities using a LayoutEnumerator.

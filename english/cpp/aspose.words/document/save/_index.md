@@ -45,7 +45,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 Shows how to save a document to a stream. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 {
     auto dstStream = System::MakeObject<System::IO::MemoryStream>();
@@ -113,7 +113,7 @@ Additional information that you can optionally use.
 
 Shows how to open a document and convert it to .PDF. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
@@ -149,7 +149,7 @@ Additional information that you can optionally use.
 
 Shows how to convert from DOCX to HTML format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", Aspose::Words::SaveFormat::Html);
 ```
@@ -186,7 +186,7 @@ Additional information that you can optionally use.
 
 Shows how to improve the quality of a rendered document with SaveOptions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(60);
@@ -251,7 +251,7 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
     // which to start rendering the document from.
     options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i));
     // Export page at 2325x5325 pixels and 600 dpi.
-    options->set_Resolution(600.0f);
+    options->set_Resolution(600);
     options->set_ImageSize(System::Drawing::Size(2325, 5325));
 
     doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
@@ -302,13 +302,13 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Sav
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) method
+## Document::Save(std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
 ```
 
 ## See Also

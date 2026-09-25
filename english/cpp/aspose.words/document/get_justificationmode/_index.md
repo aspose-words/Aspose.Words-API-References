@@ -23,7 +23,7 @@ Aspose::Words::Settings::JustificationMode Aspose::Words::Document::get_Justific
 
 Shows how to manage character spacing control. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 Aspose::Words::Settings::JustificationMode justificationMode = doc->get_JustificationMode();
 if (justificationMode == Aspose::Words::Settings::JustificationMode::Expand)

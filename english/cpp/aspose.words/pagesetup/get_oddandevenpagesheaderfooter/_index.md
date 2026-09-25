@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_oddandevenpagesheaderfooter/
 True if the document has different headers and footers for odd-numbered and even-numbered pages.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_OddAndEvenPagesHeaderFooter() const
+bool Aspose::Words::PageSetup::get_OddAndEvenPagesHeaderFooter()
 ```
 
 

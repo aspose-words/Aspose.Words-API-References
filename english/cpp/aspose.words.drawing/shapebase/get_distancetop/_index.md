@@ -33,7 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a rectangle and, get the text to wrap tightly around its bounds.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 150, 150);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(150), static_cast<double>(150));
 shape->set_WrapType(Aspose::Words::Drawing::WrapType::Tight);
 
 // Set the minimum distance between the shape and surrounding text to 40pt from all sides.

@@ -53,7 +53,7 @@ doc->get_Theme()->get_MinorFonts()->set_EastAsian(u"Aharoni");
 doc->get_Theme()->get_MinorFonts()->set_ComplexScript(u"Andalus");
 
 System::SharedPtr<Aspose::Words::Font> font = doc->get_Styles()->idx_get(u"Normal")->get_Font();
-std::cout << System::String::Format(u"Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font->get_ThemeColor(), font->get_Color()) << std::endl;
+System::Console::WriteLine(u"Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font->get_ThemeColor(), font->get_Color());
 
 // We can use theme font and color instead of default values.
 font->set_ThemeFont(Aspose::Words::Themes::ThemeFont::Minor);

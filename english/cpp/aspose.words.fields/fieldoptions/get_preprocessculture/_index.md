@@ -29,7 +29,7 @@ The default value is **null**. When this property is set to **null**, the [Field
 
 Shows how to set the preprocess culture. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set the culture according to which some fields will format their displayed values.

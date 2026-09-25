@@ -29,7 +29,7 @@ Returns **null** if the image is not stored in the document (e.g the image is pr
 
 Shows how to create an image file from a shape's raw image data. 
 ```cpp
-auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 

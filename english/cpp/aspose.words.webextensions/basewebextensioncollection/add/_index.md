@@ -63,7 +63,7 @@ doc->get_WebExtensionTaskPanes()->Clear();
 
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.WebExtension.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.WebExtension.docx"));
 
 myScriptTaskPane = doc->get_WebExtensionTaskPanes()->idx_get(0);
 ASSERT_EQ(Aspose::Words::WebExtensions::TaskPaneDockState::Right, myScriptTaskPane->get_DockState());

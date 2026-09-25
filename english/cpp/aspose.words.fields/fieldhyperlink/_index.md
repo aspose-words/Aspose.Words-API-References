@@ -14,8 +14,8 @@ Implements the HYPERLINK field To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldHyperlink : public Aspose::Words::Fields::Field,
-                       public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                       public Aspose::Words::Fields::IFieldResultFormatProvider
+                       public IFieldCodeTokenInfoProvider,
+                       public IFieldResultFormatProvider
 ```
 
 ## Methods

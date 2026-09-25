@@ -37,7 +37,7 @@ If index is negative and its absolute value is greater than the number of items 
 
 Shows how to check whether a paragraph is a move revision. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 // This document contains "Move" revisions, which appear when we highlight text with the cursor,
 // and then drag it to move it to another location

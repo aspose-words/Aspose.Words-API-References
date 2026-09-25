@@ -24,7 +24,6 @@ The **Aspose.Words.Notes** namespace provides classes to work with Microsoft Wor
 | Enum | Description |
 | --- | --- |
 | [EndnotePosition](./endnoteposition/) | Defines the endnote position. |
-| [FootnoteLocation](./footnotelocation/) | FootnoteLocation enumeration. |
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Determines when automatic footnote or endnote numbering restarts. |
 | [FootnotePosition](./footnoteposition/) | Defines the footnote position. |
 | [FootnoteSeparatorType](./footnoteseparatortype/) | Specifies the type of the footnote/endnote separator. |

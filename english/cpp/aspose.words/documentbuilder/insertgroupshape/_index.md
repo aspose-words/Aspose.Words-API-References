@@ -36,12 +36,12 @@ Shows how to insert DML group shape.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 250);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(250));
 shape1->set_Left(20);
 shape1->set_Top(20);
 shape1->get_Stroke()->set_Color(System::Drawing::Color::get_Red());
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, 150, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, static_cast<double>(150), static_cast<double>(200));
 shape2->set_Left(40);
 shape2->set_Top(50);
 shape2->get_Stroke()->set_Color(System::Drawing::Color::get_Green());
@@ -67,12 +67,12 @@ Shows how to combine group shape with the shape.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 250);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(250));
 shape1->set_Left(20);
 shape1->set_Top(20);
 shape1->get_Stroke()->set_Color(System::Drawing::Color::get_Red());
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, 150, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, static_cast<double>(150), static_cast<double>(200));
 shape2->set_Left(40);
 shape2->set_Top(50);
 shape2->get_Stroke()->set_Color(System::Drawing::Color::get_Green());
@@ -121,12 +121,12 @@ Shows how to insert DML group shape.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 250);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(250));
 shape1->set_Left(20);
 shape1->set_Top(20);
 shape1->get_Stroke()->set_Color(System::Drawing::Color::get_Red());
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, 150, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, static_cast<double>(150), static_cast<double>(200));
 shape2->set_Left(40);
 shape2->set_Top(50);
 shape2->get_Stroke()->set_Color(System::Drawing::Color::get_Green());

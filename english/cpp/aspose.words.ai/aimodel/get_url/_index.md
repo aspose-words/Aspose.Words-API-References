@@ -24,7 +24,7 @@ virtual System::String Aspose::Words::AI::AiModel::get_Url()=0
 Shows how to change model default url. 
 ```cpp
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
-System::SharedPtr<Aspose::Words::AI::AiModel> model = Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey);
+System::SharedPtr<Aspose::Words::AI::AiModel> model = AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey);
 // Default value "https://api.openai.com/".
 model->set_Url(u"https://my.a.com/");
 ```

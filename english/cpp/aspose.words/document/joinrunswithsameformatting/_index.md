@@ -35,7 +35,7 @@ Shows how to join runs in a document to reduce unneeded runs.
 ```cpp
 // Open a document that contains adjacent runs of text with identical formatting,
 // which commonly occurs if we edit the same paragraph multiple times in Microsoft Word.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // If any number of these runs are adjacent with identical formatting,
 // then the document may be simplified.

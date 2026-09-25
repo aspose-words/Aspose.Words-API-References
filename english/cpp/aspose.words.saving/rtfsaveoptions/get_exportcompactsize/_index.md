@@ -27,7 +27,7 @@ If the document that you want to convert to RTF using Aspose.Words does not cont
 
 Shows how to save a document to .rtf with custom options. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto options = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();

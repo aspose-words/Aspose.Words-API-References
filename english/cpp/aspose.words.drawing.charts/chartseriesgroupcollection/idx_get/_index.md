@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> Aspose::Word
 
 Show how to remove secondary axis. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Combo chart.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Combo chart.docx"));
 
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();

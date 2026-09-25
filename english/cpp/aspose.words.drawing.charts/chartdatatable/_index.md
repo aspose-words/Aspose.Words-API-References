@@ -13,8 +13,8 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/
 Allows to specify properties of a chart data table.
 
 ```cpp
-class ChartDataTable : public Aspose::Words::Drawing::Charts::Core::IChartItemTextProperties,
-                       public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+class ChartDataTable : public Core::IChartItemTextProperties,
+                       public Core::IChartFormatSource
 ```
 
 ## Methods
@@ -46,7 +46,7 @@ Shows how to show data table with chart series data.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> series = chart->get_Series();

@@ -75,7 +75,7 @@ If this is an English name of a built in style that does not yet exist, automati
 
 Shows when to recalculate the page layout of the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Saving a document to PDF, to an image, or printing for the first time will automatically
 // cache the layout of the document within its pages.

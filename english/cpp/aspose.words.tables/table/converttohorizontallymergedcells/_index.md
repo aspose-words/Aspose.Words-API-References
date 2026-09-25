@@ -31,7 +31,7 @@ Use this method to transforms table cells horizontally merged by width to cells 
 
 Shows how to convert cells horizontally merged by width to cells merged by CellFormat.HorizontalMerge. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table with merged cells.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table with merged cells.docx"));
 
 // Microsoft Word does not write merge flags anymore, defining merged cells by width instead.
 // Aspose.Words by default define only 5 cells in a row, and none of them have the horizontal merge flag,

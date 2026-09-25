@@ -76,7 +76,7 @@ ASSERT_EQ(u"London", variables->idx_get(u"City"));
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::Collections::Generic::KeyValuePair<System::String, System::String>>> enumerator = doc->get_Variables()->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << System::String::Format(u"Name: {0}, Value: {1}", enumerator->get_Current().get_Key(), enumerator->get_Current().get_Value()) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"Name: {0}, Value: {1}", enumerator->get_Current().get_Key(), enumerator->get_Current().get_Value()));
     }
 }
 

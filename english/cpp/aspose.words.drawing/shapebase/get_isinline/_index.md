@@ -33,7 +33,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Below are two wrapping types that shapes may have.
 // 1 -  Inline:
 builder->Write(u"Hello world! ");
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(100));
 shape->set_FillColor(System::Drawing::Color::get_LightBlue());
 builder->Write(u" Hello again.");
 
@@ -45,7 +45,7 @@ ASSERT_EQ(Aspose::Words::Drawing::WrapType::Inline, shape->get_WrapType());
 ASSERT_TRUE(shape->get_IsInline());
 
 // 2 -  Floating:
-shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 200, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 200, 100, 100, Aspose::Words::Drawing::WrapType::None);
+shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, static_cast<double>(200), Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, static_cast<double>(200), static_cast<double>(100), static_cast<double>(100), Aspose::Words::Drawing::WrapType::None);
 shape->set_FillColor(System::Drawing::Color::get_Orange());
 
 // A floating shape belongs to the paragraph that we insert it into,

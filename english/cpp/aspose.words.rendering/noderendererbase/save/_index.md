@@ -28,8 +28,8 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<Sy
 
 Shows how to use a shape renderer to export shapes to files in the local file system. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Various shapes.docx");
-System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
 ASSERT_EQ(7, shapes->get_Length());
 
@@ -37,7 +37,7 @@ ASSERT_EQ(7, shapes->get_Length());
 // We will render every shape to an image file in the local file system
 // while ignoring the group shapes since they have no appearance.
 // This will produce 6 image files.
-for (auto&& shape : System::IterateOver(doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
+for (auto&& shape : System::IterateOver(doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
 {
     System::SharedPtr<Aspose::Words::Rendering::ShapeRenderer> renderer = shape->GetShapeRenderer();
     auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
@@ -72,7 +72,7 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::SharedPtr<Sy
 
 Shows how to pass save options when rendering office math. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
 
@@ -114,7 +114,7 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &file
 
 Shows how to render an Office [Math](../../../aspose.words.math/) object into an image file in the local file system. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
 
@@ -123,7 +123,7 @@ auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
 
 // Set the "Scale" property to 5 to render the object to five times its original size.
-saveOptions->set_Scale(5.0f);
+saveOptions->set_Scale(5);
 
 math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png", saveOptions);
 ```
@@ -155,7 +155,7 @@ void Aspose::Words::Rendering::NodeRendererBase::Save(const System::String &file
 
 Shows how to pass save options when rendering office math. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
 

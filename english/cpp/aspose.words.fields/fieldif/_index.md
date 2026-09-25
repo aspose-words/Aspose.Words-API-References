@@ -14,7 +14,7 @@ Implements the IF field. To learn more, visit the [Working with Fields](https://
 
 ```cpp
 class FieldIf : public Aspose::Words::Fields::Field,
-                public Aspose::Words::Fields::IMergeFieldSurrogate
+                public IMergeFieldSurrogate
 ```
 
 ## Methods

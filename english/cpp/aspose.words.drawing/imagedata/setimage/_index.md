@@ -81,7 +81,7 @@ builder->InsertNode(shape);
 doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx");
 
 // Every image that we store in shape will increase the size of our document.
-ASSERT_TRUE(70000 < System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx")->get_Length());
+ASSERT_TRUE(static_cast<int64_t>(70000) < System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx")->get_Length());
 
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->RemoveAllChildren();
 
@@ -96,7 +96,7 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // Linking to images will save space and result in a smaller document.
 // However, the document can only display the image correctly while
 // the image file is present at the location that the shape's "SourceFullName" property points to.
-ASSERT_TRUE(10000 > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
+ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
 
 ## See Also

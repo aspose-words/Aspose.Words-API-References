@@ -14,7 +14,7 @@ Represents a single section in a document. To learn more, visit the [Working wit
 
 ```cpp
 class Section : public Aspose::Words::CompositeNode,
-                public Aspose::Words::ISectionAttrSource
+                public ISectionAttrSource
 ```
 
 ## Methods
@@ -80,7 +80,6 @@ class Section : public Aspose::Words::CompositeNode,
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_ProtectedForForms](./set_protectedforforms/)(bool) | Setter for [Aspose::Words::Section::get_ProtectedForForms](./get_protectedforforms/). |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

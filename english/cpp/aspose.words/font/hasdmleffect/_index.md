@@ -31,7 +31,7 @@ bool Aspose::Words::Font::HasDmlEffect(Aspose::Words::TextDmlEffect dmlEffectTyp
 
 Shows how to check if a run displays a DrawingML text effect. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"DrawingML text effects.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DrawingML text effects.docx"));
 
 System::SharedPtr<Aspose::Words::RunCollection> runs = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs();
 

@@ -23,7 +23,7 @@ double Aspose::Words::Tables::Table::get_DistanceRight()
 
 Shows how to set distance between table boundaries and text. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table wrapped by text.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 ASPOSE_ASSERT_EQ(25.9, table->get_DistanceTop());

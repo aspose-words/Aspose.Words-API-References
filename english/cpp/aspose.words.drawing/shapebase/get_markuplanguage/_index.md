@@ -29,7 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
 ASSERT_EQ(Aspose::Words::Drawing::ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
-ASPOSE_ASSERT_EQ(System::Drawing::SizeF(300.0f, 300.0f), shape->get_SizeInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::SizeF(static_cast<float>(300.0f), static_cast<float>(300.0f)), shape->get_SizeInPoints());
 ```
 
 ## See Also

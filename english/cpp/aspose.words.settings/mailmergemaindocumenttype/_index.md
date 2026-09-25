@@ -20,13 +20,13 @@ enum class MailMergeMainDocumentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotAMergeDocument | 0 | This document is not a mail merge document. |
-| FormLetters | 1 | Specifies that the mail merge source document is of the form letter type. |
-| MailingLabels | 2 | Specifies that the mail merge source document is of the mailing label type. |
-| Envelopes | 4 | Specifies that the mail merge source document is of the envelope type. |
-| Catalog | 8 | Specifies that the mail merge source document is of the catalog type. |
-| Email | 16 | Specifies that the mail merge source document is of the e-mail message type. |
-| Fax | 32 | Specifies that the mail merge source document is of the fax type. |
+| NotAMergeDocument | n/a | This document is not a mail merge document. |
+| FormLetters | n/a | Specifies that the mail merge source document is of the form letter type. |
+| MailingLabels | n/a | Specifies that the mail merge source document is of the mailing label type. |
+| Envelopes | n/a | Specifies that the mail merge source document is of the envelope type. |
+| Catalog | n/a | Specifies that the mail merge source document is of the catalog type. |
+| Email | n/a | Specifies that the mail merge source document is of the e-mail message type. |
+| Fax | n/a | Specifies that the mail merge source document is of the fax type. |
 | Default | n/a | Equals to [NotAMergeDocument](./) |
 
 

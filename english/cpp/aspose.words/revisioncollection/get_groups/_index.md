@@ -23,26 +23,26 @@ System::SharedPtr<Aspose::Words::RevisionGroupCollection> Aspose::Words::Revisio
 
 Shows how to work with a document's collection of revisions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
 
 // This collection itself has a collection of revision groups.
 // Each group is a sequence of adjacent revisions.
-std::cout << System::String::Format(u"{0} revision groups:", revisions->get_Groups()->get_Count()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"{0} revision groups:", revisions->get_Groups()->get_Count()));
 
 // Iterate over the collection of groups and print the text that the revision concerns.
 {
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::RevisionGroup>>> e = revisions->get_Groups()->GetEnumerator();
     while (e->MoveNext())
     {
-        std::cout << (System::String::Format(u"\tGroup type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, contents: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_Text().Trim())) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"\tGroup type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, contents: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_Text().Trim()));
     }
 }
 
 // Each Run that a revision affects gets a corresponding Revision object.
 // The revisions' collection is considerably larger than the condensed form we printed above,
 // depending on how many Runs we have segmented the document into during Microsoft Word editing.
-std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"\n{0} revisions:", revisions->get_Count()));
 
 {
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Revision>>> e = revisions->GetEnumerator();
@@ -53,11 +53,11 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
         // Since all other changes affect nodes, ParentNode will conversely be in use, and ParentStyle will be null.
         if (e->get_Current()->get_RevisionType() == Aspose::Words::RevisionType::StyleDefinitionChange)
         {
-            std::cout << (System::String::Format(u"\tRevision type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, style: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_ParentStyle()->get_Name())) << std::endl;
+            System::Console::WriteLine(System::String::Format(u"\tRevision type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, style: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_ParentStyle()->get_Name()));
         }
         else
         {
-            std::cout << (System::String::Format(u"\tRevision type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, contents: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_ParentNode()->GetText().Trim())) << std::endl;
+            System::Console::WriteLine(System::String::Format(u"\tRevision type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, contents: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_ParentNode()->GetText().Trim()));
         }
     }
 }

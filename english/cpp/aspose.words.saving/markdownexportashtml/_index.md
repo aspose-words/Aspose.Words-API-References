@@ -20,9 +20,9 @@ enum class MarkdownExportAsHtml
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Export all elements using Markdown syntax without any raw HTML. |
-| Tables | 1 | Export tables as raw HTML. |
-| NonCompatibleTables | 2 | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
+| None | n/a | Export all elements using Markdown syntax without any raw HTML. |
+| Tables | n/a | Export tables as raw HTML. |
+| NonCompatibleTables | n/a | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 
 
 ## Examples

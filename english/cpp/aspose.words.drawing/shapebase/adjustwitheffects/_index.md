@@ -23,9 +23,9 @@ System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::AdjustWithEffects
 
 Shows how to check how a shape's bounds are affected by shape effects. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape shadow effect.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape shadow effect.docx"));
 
-System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
 ASSERT_EQ(2, shapes->get_Length());
 
@@ -48,7 +48,7 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> shape = shapes[0];
 
 // Create a RectangleF object, representing a rectangle,
 // which we could potentially use as the coordinates and bounds for a shape.
-System::Drawing::RectangleF rectangleF(200.0f, 200.0f, 1000.0f, 1000.0f);
+System::Drawing::RectangleF rectangleF(static_cast<float>(200.0f), static_cast<float>(200.0f), static_cast<float>(1000.0f), static_cast<float>(1000.0f));
 
 // Run this method to get the size of the rectangle adjusted for all our shape effects.
 System::Drawing::RectangleF rectangleFOut = shape->AdjustWithEffects(rectangleF);
@@ -66,7 +66,7 @@ ASPOSE_ASSERT_EQ(147, shape->get_BoundsWithEffects().get_Width());
 ASPOSE_ASSERT_EQ(147, shape->get_BoundsWithEffects().get_Height());
 
 shape = shapes[1];
-rectangleF = System::Drawing::RectangleF(200.0f, 200.0f, 1000.0f, 1000.0f);
+rectangleF = System::Drawing::RectangleF(static_cast<float>(200.0f), static_cast<float>(200.0f), static_cast<float>(1000.0f), static_cast<float>(1000.0f));
 rectangleFOut = shape->AdjustWithEffects(rectangleF);
 
 // The shape effects have moved the apparent top left corner of the shape slightly.

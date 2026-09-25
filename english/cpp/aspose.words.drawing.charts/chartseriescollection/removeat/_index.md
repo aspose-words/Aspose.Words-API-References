@@ -31,7 +31,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a column chart that will contain three series of demo data by default.
-System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 400, 300);
+System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(400), static_cast<double>(300));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get_Chart();
 
 // Each series has four decimal values: one for each of the four categories.
@@ -45,7 +45,7 @@ ASSERT_EQ(3, chartData->get_Count());
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries>>> enumerator = chart->get_Series()->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << enumerator->get_Current()->get_Name() << std::endl;
+        System::Console::WriteLine(enumerator->get_Current()->get_Name());
     }
 }
 

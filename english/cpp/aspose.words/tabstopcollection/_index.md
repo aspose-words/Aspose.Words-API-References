@@ -14,7 +14,7 @@ A collection of [TabStop](../tabstop/) objects that represent custom tabs for a 
 
 ```cpp
 class TabStopCollection : public Aspose::Words::InternableComplexAttr,
-                          public Aspose::Words::IExpandableAttr
+                          public IExpandableAttr
 ```
 
 ## Methods

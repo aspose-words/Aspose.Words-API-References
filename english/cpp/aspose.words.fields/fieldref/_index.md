@@ -14,8 +14,8 @@ Implements the REF field. To learn more, visit the [Working with Fields](https:/
 
 ```cpp
 class FieldRef : public Aspose::Words::Fields::Field,
-                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                 public Aspose::Words::Fields::IMergeFieldSurrogate
+                 public IFieldCodeTokenInfoProvider,
+                 public IMergeFieldSurrogate
 ```
 
 ## Methods

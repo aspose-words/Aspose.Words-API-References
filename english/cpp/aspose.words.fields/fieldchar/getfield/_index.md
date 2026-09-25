@@ -44,7 +44,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
-ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ((u" DATE  \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 
 // Update the field to show the current date.
 field->Update();

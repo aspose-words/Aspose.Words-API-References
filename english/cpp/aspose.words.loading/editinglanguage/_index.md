@@ -20,233 +20,233 @@ enum class EditingLanguage
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Afrikaans | 1078 | Language: Afrikaans. |
-| Albanian | 1052 | Language: Albanian. |
-| Alsatian | 1156 | Language: Alsatian. |
-| Amharic | 1118 | Language: Amharic. |
-| ArabicAlgeria | 5121 | Language: Arabic (Algeria) |
-| ArabicBahrain | 15361 | Language: Arabic (Bahrain) |
-| ArabicEgypt | 3073 | Language: Arabic (Egypt) |
-| ArabicIraq | 2049 | Language: Arabic (Iraq) |
-| ArabicJordan | 11265 | Language: Arabic (Jordan) |
-| ArabicKuwait | 13313 | Language: Arabic (Kuwait) |
-| ArabicLebanon | 12289 | Language: Arabic (Lebanon) |
-| ArabicLibya | 4097 | Language: Arabic (Libya) |
-| ArabicMorocco | 6145 | Language: Arabic (Morocco) |
-| ArabicOman | 8193 | Language: Arabic (Oman) |
-| ArabicQatar | 16385 | Language: Arabic (Qatar) |
-| ArabicSaudiArabia | 1025 | Language: Arabic (Saudi Arabia) |
-| ArabicSyria | 10241 | Language: Arabic (Syria) |
-| ArabicTunisia | 7169 | Language: Arabic (Tunisia) |
-| ArabicUAE | 14337 | Language: Arabic (United Arab Emirates) |
-| ArabicYemen | 9217 | Language: Arabic (Yemen) |
-| Armenian | 1067 | Language: Armenian. |
-| Assamese | 1101 | Language: Assamese. |
-| AzerbaijaniCyrillic | 2092 | Language: Azerbaijani (Cyrillic) |
-| AzerbaijaniLatin | 1068 | Language: Azerbaijani (Latin) |
-| BanglaBangladesh | 2117 | Language: Bangla (Bangladesh) |
-| BanglaIndia | 1093 | Language: Bangla (India) |
-| Bashkir | 1133 | Language: Bashkir. |
-| Basque | 1069 | Language: Basque. |
-| Belarusian | 1059 | Language: Belarusian. |
-| BosnianCyrillic | 8218 | Language: Bosnian (Cyrillic) |
-| BosnianLatin | 5146 | Language: Bosnian (Latin) |
-| Breton | 1150 | Language: Breton. |
-| Bulgarian | 1026 | Language: Bulgarian. |
-| Burmese | 1109 | Language: Burmese. |
-| Catalan | 1027 | Language: Catalan. |
-| CentralKurdishIraq | 1170 | Language: Central Kurdish (Iraq) |
-| Cherokee | 1116 | Language: Cherokee. |
-| ChineseHongKong | 3076 | Language: Chinese (Hong Kong) |
-| ChineseMacao | 5124 | Language: Chinese (Macao) |
-| ChinesePRC | 2052 | Language: Chinese (PRC) |
-| ChineseSingapore | 4100 | Language: Chinese (Singapore) |
-| ChineseTaiwan | 1028 | Language: Chinese (Taiwan) |
-| Corsican | 1155 | Language: Corsican. |
-| CroatianBozniaAndHerzegovina | 4122 | Language: Croatian (Bosnia and Herzegovina) |
-| Croatian | 1050 | Language: Croatian. |
-| Czech | 1029 | Language: Czech. |
-| Danish | 1030 | Language: Danish. |
-| Divehi | 1125 | Language: Divehi. |
-| DutchBelgium | 2067 | Language: Dutch (Belgium) |
-| DutchNetherlands | 1043 | Language: Dutch (Netherlands) |
-| Edo | 1126 | Language: Edo. |
-| EnglishAustralia | 3081 | Language: English (Australia) |
-| EnglishBelize | 10249 | Language: English (Belize) |
-| EnglishCanada | 4105 | Language: English (Canada) |
-| EnglishCaribbean | 9225 | Language: English (Caribbean) |
-| EnglishHongKong | 15369 | Language: English (Hong Kong) |
-| EnglishIndia | 16393 | Language: English (India) |
-| EnglishIndonesia | 14345 | Language: English (Indonesia) |
-| EnglishIreland | 6153 | Language: English (Ireland) |
-| EnglishJamaica | 8201 | Language: English (Jamaica) |
-| EnglishMalaysia | 17417 | Language: English (Malaysia) |
-| EnglishNewZealand | 5129 | Language: English (New Zealand) |
-| EnglishPhilippines | 13321 | Language: English (Philippines) |
-| EnglishSingapore | 18441 | Language: English (Singapore) |
-| EnglishSouthAfrica | 7177 | Language: English (South Africa) |
-| EnglishTrinidadAndTobago | 11273 | Language: English (Trinidad and Tobago) |
-| EnglishUK | 2057 | Language: English (UK) |
-| EnglishUS | 1033 | Language: English (US) |
-| EnglishZimbabwe | 12297 | Language: English (Zimbabwe) |
-| Estonian | 1061 | Language: Estonian. |
-| Faeroese | 1080 | Language: Faeroese. |
-| Filipino | 1124 | Language: Filipino. |
-| Finnish | 1035 | Language: Finnish. |
-| FrenchBelgium | 2060 | Language: French (Belgium) |
-| FrenchCanada | 3084 | Language: French (Canada) |
-| FrenchFrance | 1036 | Language: French (France) |
-| FrenchLuxembourg | 5132 | Language: French (Luxembourg) |
-| FrenchMonaco | 6156 | Language: French (Monaco) |
-| FrenchSwitzerland | 4108 | Language: French (Switzerland) |
-| Frisian | 1122 | Language: Frisian. |
-| FulahLatinSenegal | 2151 | Language: Fulah (Latin, Senegal) |
-| FulahNigeria | 1127 | Language: Fulah (Nigeria) |
-| Galician | 1110 | Language: Galician. |
-| Georgian | 1079 | Language: Georgian. |
-| GermanAustria | 3079 | Language: German (Austria) |
-| GermanGermany | 1031 | Language: German (Germany) |
-| GermanLiechtenstein | 5127 | Language: German (Liechtenstein) |
-| GermanLuxembourg | 4103 | Language: German (Luxembourg) |
-| GermanSwitzerland | 2055 | Language: German (Switzerland) |
-| Greek | 1032 | Language: Greek. |
-| Greenlandic | 1135 | Language: Greenlandic. |
-| Guarani | 1140 | Language: Guarani. |
-| Gujarati | 1095 | Language: Gujarati. |
-| Hausa | 1128 | Language: Hausa. |
-| Hawaiian | 1141 | Language: Hawaiian. |
-| Hebrew | 1037 | Language: Hebrew. |
-| Hindi | 1081 | Language: Hindi. |
-| Hungarian | 1038 | Language: Hungarian. |
-| Icelandic | 1039 | Language: Icelandic. |
-| Igbo | 1136 | Language: Igbo. |
-| InariSamiFinland | 9275 | Language: Inari Sami (Finland) |
-| Indonesian | 1057 | Language: Indonesian. |
-| InuktitutLatin | 31837 | Language: Inuktitut (Latin) |
-| InuktitutSyllabics | 30813 | Language: Inuktitut (Syllabics) |
-| Irish | 2108 | Language: Irish. |
-| IsiXhosa | 1076 | Language: IsiXhosa. |
-| IsiZulu | 1077 | Language: IsiZulu. |
-| ItalianItaly | 1040 | Language: Italian (Italy) |
-| ItalianSwitzerland | 2064 | Language: Italian (Switzerland) |
-| Japanese | 1041 | Language: Japanese. |
-| Kannada | 1099 | Language: Kannada. |
-| Kanuri | 1137 | Language: Kanuri. |
-| Kashmiri | 2144 | Language: Kashmiri. |
-| KashmiriArabic | 1120 | Language: Kashmiri (Arabic) |
-| Kazakh | 1087 | Language: Kazakh. |
-| Khmer | 1107 | Language: Khmer. |
-| Kiche | 31878 | Language: Kiche. |
-| Kinyarwanda | 1159 | Language: Kinyarwanda. |
-| Kiswahili | 1089 | Language: Kiswahili. |
-| Konkani | 1111 | Language: Konkani. |
-| Korean | 1042 | Language: Korean. |
-| Kyrgyz | 1088 | Language: Kyrgyz. |
-| Lao | 1108 | Language: Lao. |
-| Latin | 1142 | Language: Latin. |
-| Latvian | 1062 | Language: Latvian. |
-| Lithuanian | 1063 | Language: Lithuanian. |
-| LowerSorbian | 31790 | Language: Lower Sorbian. |
-| LuleSamiNorway | 4155 | Language: Lule Sami (Norway) |
-| LuleSamiSweden | 5179 | Language: Lule Sami (Sweden) |
-| Luxembougish | 1134 | Language: Luxembourgish. |
-| Macedonian | 1071 | Language: Macedonian. |
-| MalayMalaysia | 1086 | Language: Malay (Malaysia) |
-| MalayBruneiDarussalam | 2110 | Language: Malay (Brunei Darussalam) |
-| Malayalam | 1100 | Language: Malayalam. |
-| Maltese | 1082 | Language: Maltese. |
-| Manipuri | 1112 | Language: Manipuri. |
-| Maori | 1153 | Language: Maori. |
-| MapudungunChile | 1146 | Language: Mapudungun (Chile) |
-| Marathi | 1102 | Language: Marathi. |
-| Mohawk | 1148 | Language: Mohawk. |
-| MongolianCyrillic | 1104 | Language: Mongolian (Cyrillic) |
-| MongolianMongolian | 2128 | Language: Mongolian (Mongolian) |
-| Nepali | 1121 | Language: Nepali. |
-| NorthernSamiFinland | 3131 | Language: Northern Sami (Finland) |
-| NorthernSamiNorway | 1083 | Language: Northern Sami (Norway) |
-| NorthernSamiSweden | 2107 | Language: Northern Sami (Sweden) |
-| NorwegianBokmal | 1044 | Language: Norwegian Bokmal. |
-| NorwegianNynorsk | 2068 | Language: Norwegian Nynorsk. |
-| Oriya | 1096 | Language: Oriya. |
-| Oromo | 1138 | Language: Oromo. |
-| Papiamentu | 1145 | Language: Papiamentu. |
-| Pashto | 1123 | Language: Pashto. |
-| Persian | 1065 | Language: Persian. |
-| Polish | 1045 | Language: Polish. |
-| PortugueseBrazil | 1046 | Language: Portuguese (Brazil) |
-| PortuguesePortugal | 2070 | Language: Portuguese (Portugal) |
-| PunjabiIndia | 1094 | Language: Punjabi (India) |
-| PunjabiPakistan | 2118 | Language: Punjabi (Pakistan) |
-| QuechuaBolivia | 1131 | Language: Quechua (Bolivia) |
-| QuechuaEcuador | 2155 | Language: Quechua (Ecuador) |
-| QuechuaPeru | 3179 | Language: Quechua (Peru) |
-| Romanian | 1048 | Language: Romanian. |
-| Romansh | 1047 | Language: Romansh. |
-| Russian | 1049 | Language: Russian. |
-| Sakha | 1157 | Language: Sakha. |
-| Sanskrit | 1103 | Language: Sanskrit. |
-| ScottishGaelic | 1169 | Language: Scottish Gaelic. |
-| SerbianCyrillicBosniaAndHerzegovina | 7194 | Language: Serbian (Cyrillic, Bosnia and Herzegovina) |
-| SerbianCyrillicSerbiaAndMontenegro | 3098 | Language: Serbian (Cyrillic, Serbia and Montenegro) |
-| SerbianLatinBosniaAndHerzegovina | 6170 | Language: Serbian (Latin, Bosnia and Herzegovina) |
-| SerbianLatinSerbiaAndMontenegro | 2074 | Language: Serbian (Latin, Serbia and Montenegro) |
-| Sindhi | 2137 | Language: Sindhi. |
-| SindhiDevanagaric | 1113 | Language: Sindhi (Devanagari) |
-| Sinhalese | 1115 | Language: Sinhalese. |
-| Slovak | 1051 | Language: Slovak. |
-| Slovenian | 1060 | Language: Slovenian. |
-| Somali | 1143 | Language: Somali. |
-| Sorbian | 1070 | Language: Sorbian. |
-| SpanishArgentina | 11274 | Language: Spanish (Argentina) |
-| SpanishBolivia | 16394 | Language: Spanish (Bolivia) |
-| SpanishChile | 13322 | Language: Spanish (Chile) |
-| SpanishColombia | 9226 | Language: Spanish (Colombia) |
-| SpanishCostaRica | 5130 | Language: Spanish (Costa Rica) |
-| SpanishDominicanRepublic | 7178 | Language: Spanish (Dominican Republic) |
-| SpanishEcuador | 12298 | Language: Spanish (Ecuador) |
-| SpanishElSalvador | 17418 | Language: Spanish (El Salvador) |
-| SpanishGuatemala | 4106 | Language: Spanish (Guatemala) |
-| SpanishHonduras | 18442 | Language: Spanish (Honduras) |
-| SpanishMexico | 2058 | Language: Spanish (Mexico) |
-| SpanishNicaragua | 19466 | Language: Spanish (Nicaragua) |
-| SpanishPanama | 6154 | Language: Spanish (Panama) |
-| SpanishParaguay | 15370 | Language: Spanish (Paraguay) |
-| SpanishPeru | 10250 | Language: Spanish (Peru) |
-| SpanishPuertoRico | 20490 | Language: Spanish (Puerto Rico) |
-| SpanishSpainModernSort | 3082 | Language: Spanish (Spain, Modern Sort) |
-| SpanishSpainTraditionalSort | 1034 | Language: Spanish (Spain, Traditional Sort) |
-| SpanishUruguay | 14346 | Language: Spanish (Uruguay) |
-| SpanishVenezuela | 8202 | Language: Spanish (Venezuela) |
-| Sutu | 1072 | Language: Sutu. |
-| SwedishFinland | 2077 | Language: Swedish (Finland) |
-| SwedishSweden | 1053 | Language: Swedish (Sweden) |
-| Syriac | 1114 | Language: Syriac. |
-| Tajik | 1064 | Language: Tajik. |
-| Tamazight | 1119 | Language: Tamazight. |
-| TamazightLatin | 2143 | Language: Tamazight (Latin) |
-| Tamil | 1097 | Language: Tamil. |
-| Tatar | 1092 | Language: Tatar. |
-| Telugu | 1098 | Language: Telugu. |
-| Thai | 1054 | Language: Thai. |
-| TibetanButan | 2129 | Language: Tibetan (Bhutan) |
-| TibetanChina | 1105 | Language: Tibetan (China) |
-| TigrignaEritrea | 2163 | Language: Tigrigna (Eritrea) |
-| TigrignaEthiopia | 1139 | Language: Tigrigna (Ethiopia) |
-| Tsonga | 1073 | Language: Tsonga. |
-| Tswana | 1074 | Language: Tswana. |
-| Turkish | 1055 | Language: Turkish. |
-| Turkmen | 1090 | Language: Turkmen. |
-| Ukrainian | 1058 | Language: Ukrainian. |
-| Urdu | 1056 | Language: Urdu. |
-| UzbekCyrillic | 2115 | Language: Uzbek (Cyrillic) |
-| UzbekLatin | 1091 | Language: Uzbek (Latin) |
-| Venda | 1075 | Language: Venda. |
-| Vietnamese | 1066 | Language: Vietnamese. |
-| Welsh | 1106 | Language: Welsh. |
-| Yi | 1144 | Language: Yi. |
-| Yiddish | 1085 | Language: Yiddish. |
-| Yoruba | 1130 | Language: Yoruba. |
+| Afrikaans | n/a | Language: Afrikaans. |
+| Albanian | n/a | Language: Albanian. |
+| Alsatian | n/a | Language: Alsatian. |
+| Amharic | n/a | Language: Amharic. |
+| ArabicAlgeria | n/a | Language: Arabic (Algeria) |
+| ArabicBahrain | n/a | Language: Arabic (Bahrain) |
+| ArabicEgypt | n/a | Language: Arabic (Egypt) |
+| ArabicIraq | n/a | Language: Arabic (Iraq) |
+| ArabicJordan | n/a | Language: Arabic (Jordan) |
+| ArabicKuwait | n/a | Language: Arabic (Kuwait) |
+| ArabicLebanon | n/a | Language: Arabic (Lebanon) |
+| ArabicLibya | n/a | Language: Arabic (Libya) |
+| ArabicMorocco | n/a | Language: Arabic (Morocco) |
+| ArabicOman | n/a | Language: Arabic (Oman) |
+| ArabicQatar | n/a | Language: Arabic (Qatar) |
+| ArabicSaudiArabia | n/a | Language: Arabic (Saudi Arabia) |
+| ArabicSyria | n/a | Language: Arabic (Syria) |
+| ArabicTunisia | n/a | Language: Arabic (Tunisia) |
+| ArabicUAE | n/a | Language: Arabic (United Arab Emirates) |
+| ArabicYemen | n/a | Language: Arabic (Yemen) |
+| Armenian | n/a | Language: Armenian. |
+| Assamese | n/a | Language: Assamese. |
+| AzerbaijaniCyrillic | n/a | Language: Azerbaijani (Cyrillic) |
+| AzerbaijaniLatin | n/a | Language: Azerbaijani (Latin) |
+| BanglaBangladesh | n/a | Language: Bangla (Bangladesh) |
+| BanglaIndia | n/a | Language: Bangla (India) |
+| Bashkir | n/a | Language: Bashkir. |
+| Basque | n/a | Language: Basque. |
+| Belarusian | n/a | Language: Belarusian. |
+| BosnianCyrillic | n/a | Language: Bosnian (Cyrillic) |
+| BosnianLatin | n/a | Language: Bosnian (Latin) |
+| Breton | n/a | Language: Breton. |
+| Bulgarian | n/a | Language: Bulgarian. |
+| Burmese | n/a | Language: Burmese. |
+| Catalan | n/a | Language: Catalan. |
+| CentralKurdishIraq | n/a | Language: Central Kurdish (Iraq) |
+| Cherokee | n/a | Language: Cherokee. |
+| ChineseHongKong | n/a | Language: Chinese (Hong Kong) |
+| ChineseMacao | n/a | Language: Chinese (Macao) |
+| ChinesePRC | n/a | Language: Chinese (PRC) |
+| ChineseSingapore | n/a | Language: Chinese (Singapore) |
+| ChineseTaiwan | n/a | Language: Chinese (Taiwan) |
+| Corsican | n/a | Language: Corsican. |
+| CroatianBozniaAndHerzegovina | n/a | Language: Croatian (Bosnia and Herzegovina) |
+| Croatian | n/a | Language: Croatian. |
+| Czech | n/a | Language: Czech. |
+| Danish | n/a | Language: Danish. |
+| Divehi | n/a | Language: Divehi. |
+| DutchBelgium | n/a | Language: Dutch (Belgium) |
+| DutchNetherlands | n/a | Language: Dutch (Netherlands) |
+| Edo | n/a | Language: Edo. |
+| EnglishAustralia | n/a | Language: English (Australia) |
+| EnglishBelize | n/a | Language: English (Belize) |
+| EnglishCanada | n/a | Language: English (Canada) |
+| EnglishCaribbean | n/a | Language: English (Caribbean) |
+| EnglishHongKong | n/a | Language: English (Hong Kong) |
+| EnglishIndia | n/a | Language: English (India) |
+| EnglishIndonesia | n/a | Language: English (Indonesia) |
+| EnglishIreland | n/a | Language: English (Ireland) |
+| EnglishJamaica | n/a | Language: English (Jamaica) |
+| EnglishMalaysia | n/a | Language: English (Malaysia) |
+| EnglishNewZealand | n/a | Language: English (New Zealand) |
+| EnglishPhilippines | n/a | Language: English (Philippines) |
+| EnglishSingapore | n/a | Language: English (Singapore) |
+| EnglishSouthAfrica | n/a | Language: English (South Africa) |
+| EnglishTrinidadAndTobago | n/a | Language: English (Trinidad and Tobago) |
+| EnglishUK | n/a | Language: English (UK) |
+| EnglishUS | n/a | Language: English (US) |
+| EnglishZimbabwe | n/a | Language: English (Zimbabwe) |
+| Estonian | n/a | Language: Estonian. |
+| Faeroese | n/a | Language: Faeroese. |
+| Filipino | n/a | Language: Filipino. |
+| Finnish | n/a | Language: Finnish. |
+| FrenchBelgium | n/a | Language: French (Belgium) |
+| FrenchCanada | n/a | Language: French (Canada) |
+| FrenchFrance | n/a | Language: French (France) |
+| FrenchLuxembourg | n/a | Language: French (Luxembourg) |
+| FrenchMonaco | n/a | Language: French (Monaco) |
+| FrenchSwitzerland | n/a | Language: French (Switzerland) |
+| Frisian | n/a | Language: Frisian. |
+| FulahLatinSenegal | n/a | Language: Fulah (Latin, Senegal) |
+| FulahNigeria | n/a | Language: Fulah (Nigeria) |
+| Galician | n/a | Language: Galician. |
+| Georgian | n/a | Language: Georgian. |
+| GermanAustria | n/a | Language: German (Austria) |
+| GermanGermany | n/a | Language: German (Germany) |
+| GermanLiechtenstein | n/a | Language: German (Liechtenstein) |
+| GermanLuxembourg | n/a | Language: German (Luxembourg) |
+| GermanSwitzerland | n/a | Language: German (Switzerland) |
+| Greek | n/a | Language: Greek. |
+| Greenlandic | n/a | Language: Greenlandic. |
+| Guarani | n/a | Language: Guarani. |
+| Gujarati | n/a | Language: Gujarati. |
+| Hausa | n/a | Language: Hausa. |
+| Hawaiian | n/a | Language: Hawaiian. |
+| Hebrew | n/a | Language: Hebrew. |
+| Hindi | n/a | Language: Hindi. |
+| Hungarian | n/a | Language: Hungarian. |
+| Icelandic | n/a | Language: Icelandic. |
+| Igbo | n/a | Language: Igbo. |
+| InariSamiFinland | n/a | Language: Inari Sami (Finland) |
+| Indonesian | n/a | Language: Indonesian. |
+| InuktitutLatin | n/a | Language: Inuktitut (Latin) |
+| InuktitutSyllabics | n/a | Language: Inuktitut (Syllabics) |
+| Irish | n/a | Language: Irish. |
+| IsiXhosa | n/a | Language: IsiXhosa. |
+| IsiZulu | n/a | Language: IsiZulu. |
+| ItalianItaly | n/a | Language: Italian (Italy) |
+| ItalianSwitzerland | n/a | Language: Italian (Switzerland) |
+| Japanese | n/a | Language: Japanese. |
+| Kannada | n/a | Language: Kannada. |
+| Kanuri | n/a | Language: Kanuri. |
+| Kashmiri | n/a | Language: Kashmiri. |
+| KashmiriArabic | n/a | Language: Kashmiri (Arabic) |
+| Kazakh | n/a | Language: Kazakh. |
+| Khmer | n/a | Language: Khmer. |
+| Kiche | n/a | Language: Kiche. |
+| Kinyarwanda | n/a | Language: Kinyarwanda. |
+| Kiswahili | n/a | Language: Kiswahili. |
+| Konkani | n/a | Language: Konkani. |
+| Korean | n/a | Language: Korean. |
+| Kyrgyz | n/a | Language: Kyrgyz. |
+| Lao | n/a | Language: Lao. |
+| Latin | n/a | Language: Latin. |
+| Latvian | n/a | Language: Latvian. |
+| Lithuanian | n/a | Language: Lithuanian. |
+| LowerSorbian | n/a | Language: Lower Sorbian. |
+| LuleSamiNorway | n/a | Language: Lule Sami (Norway) |
+| LuleSamiSweden | n/a | Language: Lule Sami (Sweden) |
+| Luxembougish | n/a | Language: Luxembourgish. |
+| Macedonian | n/a | Language: Macedonian. |
+| MalayMalaysia | n/a | Language: Malay (Malaysia) |
+| MalayBruneiDarussalam | n/a | Language: Malay (Brunei Darussalam) |
+| Malayalam | n/a | Language: Malayalam. |
+| Maltese | n/a | Language: Maltese. |
+| Manipuri | n/a | Language: Manipuri. |
+| Maori | n/a | Language: Maori. |
+| MapudungunChile | n/a | Language: Mapudungun (Chile) |
+| Marathi | n/a | Language: Marathi. |
+| Mohawk | n/a | Language: Mohawk. |
+| MongolianCyrillic | n/a | Language: Mongolian (Cyrillic) |
+| MongolianMongolian | n/a | Language: Mongolian (Mongolian) |
+| Nepali | n/a | Language: Nepali. |
+| NorthernSamiFinland | n/a | Language: Northern Sami (Finland) |
+| NorthernSamiNorway | n/a | Language: Northern Sami (Norway) |
+| NorthernSamiSweden | n/a | Language: Northern Sami (Sweden) |
+| NorwegianBokmal | n/a | Language: Norwegian Bokmal. |
+| NorwegianNynorsk | n/a | Language: Norwegian Nynorsk. |
+| Oriya | n/a | Language: Oriya. |
+| Oromo | n/a | Language: Oromo. |
+| Papiamentu | n/a | Language: Papiamentu. |
+| Pashto | n/a | Language: Pashto. |
+| Persian | n/a | Language: Persian. |
+| Polish | n/a | Language: Polish. |
+| PortugueseBrazil | n/a | Language: Portuguese (Brazil) |
+| PortuguesePortugal | n/a | Language: Portuguese (Portugal) |
+| PunjabiIndia | n/a | Language: Punjabi (India) |
+| PunjabiPakistan | n/a | Language: Punjabi (Pakistan) |
+| QuechuaBolivia | n/a | Language: Quechua (Bolivia) |
+| QuechuaEcuador | n/a | Language: Quechua (Ecuador) |
+| QuechuaPeru | n/a | Language: Quechua (Peru) |
+| Romanian | n/a | Language: Romanian. |
+| Romansh | n/a | Language: Romansh. |
+| Russian | n/a | Language: Russian. |
+| Sakha | n/a | Language: Sakha. |
+| Sanskrit | n/a | Language: Sanskrit. |
+| ScottishGaelic | n/a | Language: Scottish Gaelic. |
+| SerbianCyrillicBosniaAndHerzegovina | n/a | Language: Serbian (Cyrillic, Bosnia and Herzegovina) |
+| SerbianCyrillicSerbiaAndMontenegro | n/a | Language: Serbian (Cyrillic, Serbia and Montenegro) |
+| SerbianLatinBosniaAndHerzegovina | n/a | Language: Serbian (Latin, Bosnia and Herzegovina) |
+| SerbianLatinSerbiaAndMontenegro | n/a | Language: Serbian (Latin, Serbia and Montenegro) |
+| Sindhi | n/a | Language: Sindhi. |
+| SindhiDevanagaric | n/a | Language: Sindhi (Devanagari) |
+| Sinhalese | n/a | Language: Sinhalese. |
+| Slovak | n/a | Language: Slovak. |
+| Slovenian | n/a | Language: Slovenian. |
+| Somali | n/a | Language: Somali. |
+| Sorbian | n/a | Language: Sorbian. |
+| SpanishArgentina | n/a | Language: Spanish (Argentina) |
+| SpanishBolivia | n/a | Language: Spanish (Bolivia) |
+| SpanishChile | n/a | Language: Spanish (Chile) |
+| SpanishColombia | n/a | Language: Spanish (Colombia) |
+| SpanishCostaRica | n/a | Language: Spanish (Costa Rica) |
+| SpanishDominicanRepublic | n/a | Language: Spanish (Dominican Republic) |
+| SpanishEcuador | n/a | Language: Spanish (Ecuador) |
+| SpanishElSalvador | n/a | Language: Spanish (El Salvador) |
+| SpanishGuatemala | n/a | Language: Spanish (Guatemala) |
+| SpanishHonduras | n/a | Language: Spanish (Honduras) |
+| SpanishMexico | n/a | Language: Spanish (Mexico) |
+| SpanishNicaragua | n/a | Language: Spanish (Nicaragua) |
+| SpanishPanama | n/a | Language: Spanish (Panama) |
+| SpanishParaguay | n/a | Language: Spanish (Paraguay) |
+| SpanishPeru | n/a | Language: Spanish (Peru) |
+| SpanishPuertoRico | n/a | Language: Spanish (Puerto Rico) |
+| SpanishSpainModernSort | n/a | Language: Spanish (Spain, Modern Sort) |
+| SpanishSpainTraditionalSort | n/a | Language: Spanish (Spain, Traditional Sort) |
+| SpanishUruguay | n/a | Language: Spanish (Uruguay) |
+| SpanishVenezuela | n/a | Language: Spanish (Venezuela) |
+| Sutu | n/a | Language: Sutu. |
+| SwedishFinland | n/a | Language: Swedish (Finland) |
+| SwedishSweden | n/a | Language: Swedish (Sweden) |
+| Syriac | n/a | Language: Syriac. |
+| Tajik | n/a | Language: Tajik. |
+| Tamazight | n/a | Language: Tamazight. |
+| TamazightLatin | n/a | Language: Tamazight (Latin) |
+| Tamil | n/a | Language: Tamil. |
+| Tatar | n/a | Language: Tatar. |
+| Telugu | n/a | Language: Telugu. |
+| Thai | n/a | Language: Thai. |
+| TibetanButan | n/a | Language: Tibetan (Bhutan) |
+| TibetanChina | n/a | Language: Tibetan (China) |
+| TigrignaEritrea | n/a | Language: Tigrigna (Eritrea) |
+| TigrignaEthiopia | n/a | Language: Tigrigna (Ethiopia) |
+| Tsonga | n/a | Language: Tsonga. |
+| Tswana | n/a | Language: Tswana. |
+| Turkish | n/a | Language: Turkish. |
+| Turkmen | n/a | Language: Turkmen. |
+| Ukrainian | n/a | Language: Ukrainian. |
+| Urdu | n/a | Language: Urdu. |
+| UzbekCyrillic | n/a | Language: Uzbek (Cyrillic) |
+| UzbekLatin | n/a | Language: Uzbek (Latin) |
+| Venda | n/a | Language: Venda. |
+| Vietnamese | n/a | Language: Vietnamese. |
+| Welsh | n/a | Language: Welsh. |
+| Yi | n/a | Language: Yi. |
+| Yiddish | n/a | Language: Yiddish. |
+| Yoruba | n/a | Language: Yoruba. |
 
 
 ## Examples
@@ -261,7 +261,7 @@ loadOptions->get_LanguagePreferences()->AddEditingLanguage(Aspose::Words::Loadin
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"No default editing language.docx", loadOptions);
 
 int32_t localeIdFarEast = doc->get_Styles()->get_DefaultFont()->get_LocaleIdFarEast();
-std::cout << (localeIdFarEast == (int32_t)Aspose::Words::Loading::EditingLanguage::Japanese ? System::String(u"The document either has no any FarEast language set in defaults or it was set to Japanese originally.") : System::String(u"The document default FarEast language was set to another than Japanese language originally, so it is not overridden.")) << std::endl;
+System::Console::WriteLine(localeIdFarEast == (int32_t)Aspose::Words::Loading::EditingLanguage::Japanese ? System::String(u"The document either has no any FarEast language set in defaults or it was set to Japanese originally.") : System::String(u"The document default FarEast language was set to another than Japanese language originally, so it is not overridden."));
 ```
 
 ## See Also

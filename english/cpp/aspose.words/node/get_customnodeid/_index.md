@@ -58,19 +58,17 @@ for (auto&& child : System::IterateOver(children))
     switch (child->get_NodeType())
     {
         case Aspose::Words::NodeType::Run:
-            std::cout << "Run contents:" << std::endl;
-            std::cout << System::String::Format(u"\t\"{0}\"", child->GetText().Trim()) << std::endl;
+            System::Console::WriteLine(u"Run contents:");
+            System::Console::WriteLine(System::String::Format(u"\t\"{0}\"", child->GetText().Trim()));
             break;
-
         case Aspose::Words::NodeType::Shape:
         {
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
-            std::cout << "Shape:" << std::endl;
-            std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
+            System::Console::WriteLine(u"Shape:");
+            System::Console::WriteLine(System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()));
             ASSERT_EQ(100, shape->get_CustomNodeId());
             break;
         }
-
         default:
             break;
     }

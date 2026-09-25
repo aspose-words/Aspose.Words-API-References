@@ -26,7 +26,7 @@ Shows how to set soft line break character.
 {
     auto stream = System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_UTF8()->GetBytes(u"line1\nline2"));
     auto loadOptions = System::MakeObject<Aspose::Words::Loading::MarkdownLoadOptions>();
-    loadOptions->set_SoftLineBreakCharacter(Aspose::Words::ControlChar::LineBreakChar);
+    loadOptions->set_SoftLineBreakCharacter(ControlChar::LineBreakChar);
     auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
     ASSERT_EQ(u"line1\u000bline2", doc->GetText().Trim());

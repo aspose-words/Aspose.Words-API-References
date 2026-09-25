@@ -36,7 +36,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_Size(32);
 builder->Writeln(u"Hello world!");
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::CloudCallout, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 25, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 25, 250, 150, Aspose::Words::Drawing::WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::CloudCallout, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, static_cast<double>(25), Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, static_cast<double>(25), static_cast<double>(250), static_cast<double>(150), Aspose::Words::Drawing::WrapType::None);
 
 // Use the "StrokeColor" property to set the color of the outline of the shape.
 shape->set_StrokeColor(System::Drawing::Color::get_CadetBlue());

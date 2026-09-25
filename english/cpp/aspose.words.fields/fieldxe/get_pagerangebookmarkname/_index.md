@@ -38,7 +38,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_PageNumberSeparator(u", on page(s) ");
 index->set_PageRangeSeparator(u" to ");
 
-ASSERT_EQ(u" INDEX  \\e \", on page(s) \" \\g \" to \"", index->GetFieldCode());
+ASSERT_EQ((u" INDEX  \\e \", on page(s) \" \\g \" to \""), index->GetFieldCode());
 
 builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));

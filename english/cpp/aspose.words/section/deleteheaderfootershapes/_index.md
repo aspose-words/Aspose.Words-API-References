@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a primary header with a shape.
 builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 100);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(100));
 
 // Create a primary footer with an image.
 builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);

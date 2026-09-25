@@ -31,7 +31,7 @@ If the folder specified by [ResourceFolder](./) doesn't exist, it will be create
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::External);

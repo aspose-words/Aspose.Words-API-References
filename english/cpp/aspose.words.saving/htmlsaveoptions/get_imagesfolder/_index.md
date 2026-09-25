@@ -35,7 +35,7 @@ If the folder specified by [ImagesFolder](./) doesn't exist, it will be created 
 
 Shows how to specify the folder for storing linked images after saving to .html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 System::String imagesDir = System::IO::Path::Combine(get_ArtifactsDir(), u"SaveHtmlWithOptions");
 

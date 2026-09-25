@@ -23,7 +23,7 @@ bool Aspose::Words::Fields::FieldPrintDate::get_UseUmAlQuraCalendar() override
 
 Shows read PRINTDATE fields. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - PRINTDATE.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - PRINTDATE.docx"));
 
 // When a document is printed by a printer or printed as a PDF (but not exported to PDF),
 // PRINTDATE fields will display the print operation's date/time.

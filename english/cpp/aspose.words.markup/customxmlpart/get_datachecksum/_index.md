@@ -32,12 +32,12 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 richText->get_XmlMapping()->SetMapping(doc->get_CustomXmlParts()->Add(System::ObjectExt::ToString(System::Guid::NewGuid()), u"<root><text>ContentControl</text></root>"), u"/root/text", u"");
 
 int64_t checksum = richText->get_XmlMapping()->get_CustomXmlPart()->get_DataChecksum();
-std::cout << checksum << std::endl;
+System::Console::WriteLine(checksum);
 
 richText->get_XmlMapping()->SetMapping(doc->get_CustomXmlParts()->Add(System::ObjectExt::ToString(System::Guid::NewGuid()), u"<root><text>Updated ContentControl</text></root>"), u"/root/text", u"");
 
 int64_t updatedChecksum = richText->get_XmlMapping()->get_CustomXmlPart()->get_DataChecksum();
-std::cout << updatedChecksum << std::endl;
+System::Console::WriteLine(updatedChecksum);
 
 // We changed the XmlPart of the tag, and the checksum was updated at runtime.
 ASSERT_NE(checksum, updatedChecksum);

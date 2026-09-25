@@ -14,7 +14,7 @@ Implements an unknown or unrecognized field. To learn more, visit the [Working w
 
 ```cpp
 class FieldUnknown : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IMergeFieldSurrogate
+                     public IMergeFieldSurrogate
 ```
 
 ## Methods

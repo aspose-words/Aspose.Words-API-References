@@ -82,8 +82,8 @@ for (System::String filename : fontFileNames)
     // Subsetting will reduce them all to under 30MB.
     auto fontFileInfo = System::MakeObject<System::IO::FileInfo>(filename);
 
-    ASSERT_TRUE(fontFileInfo->get_Length() > 700000 || fontFileInfo->get_Length() < 30000);
-    ASSERT_TRUE(System::Math::Max(fontResourcesSubsettingSizeThreshold, 30000) > System::MakeObject<System::IO::FileInfo>(filename)->get_Length());
+    ASSERT_TRUE(fontFileInfo->get_Length() > static_cast<int64_t>(700000) || fontFileInfo->get_Length() < static_cast<int64_t>(30000));
+    ASSERT_TRUE(static_cast<int64_t>(System::Math::Max(fontResourcesSubsettingSizeThreshold, 30000)) > System::MakeObject<System::IO::FileInfo>(filename)->get_Length());
 }
 ```
 

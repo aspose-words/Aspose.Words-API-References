@@ -48,7 +48,7 @@ rtfSaveOptions->set_SaveImagesAsWmf(saveImagesAsWmf);
 
 doc->Save(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf"));
 
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
 

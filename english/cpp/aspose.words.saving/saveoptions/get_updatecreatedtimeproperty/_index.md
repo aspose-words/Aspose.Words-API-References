@@ -37,7 +37,7 @@ saveOptions->set_UpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
 doc->Save(get_ArtifactsDir() + u"DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
 
 // Open the saved document, then verify the value of the property.
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.UpdateCreatedTimeProperty.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.UpdateCreatedTimeProperty.docx"));
 
 if (isUpdateCreatedTimeProperty)
 {

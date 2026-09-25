@@ -48,11 +48,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a chart in the Black style.
-builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 400, 250, Aspose::Words::Drawing::Charts::ChartStyle::Black);
+builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(400), static_cast<double>(250), Aspose::Words::Drawing::Charts::ChartStyle::Black);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SetChartStyle.docx");
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Charts.SetChartStyle.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Charts.SetChartStyle.docx"));
 
 // Get a chart to update.
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));

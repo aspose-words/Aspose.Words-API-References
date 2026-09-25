@@ -23,10 +23,10 @@ const System::ArrayPtr<uint8_t> & Aspose::Words::Fields::FieldStart::get_FieldDa
 
 Shows how to get data associated with the field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - Field with data.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - Field with data.docx"));
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = doc->get_Range()->get_Fields()->idx_get(2);
-std::cout << System::Text::Encoding::get_Default()->GetString(field->get_Start()->get_FieldData()) << std::endl;
+System::Console::WriteLine(System::Text::Encoding::get_Default()->GetString(field->get_Start()->get_FieldData()));
 ```
 
 ## See Also

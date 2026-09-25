@@ -34,9 +34,9 @@ ASSERT_EQ(0, doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetEffec
 // Each unit on this ruler is two default tab stops, which is 72 points.
 // We can add custom tab stops programmatically like this.
 System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_TabStops();
-tabStops->Add(72, Aspose::Words::TabAlignment::Left, Aspose::Words::TabLeader::Dots);
-tabStops->Add(216, Aspose::Words::TabAlignment::Center, Aspose::Words::TabLeader::Dashes);
-tabStops->Add(360, Aspose::Words::TabAlignment::Right, Aspose::Words::TabLeader::Line);
+tabStops->Add(static_cast<double>(72), Aspose::Words::TabAlignment::Left, Aspose::Words::TabLeader::Dots);
+tabStops->Add(static_cast<double>(216), Aspose::Words::TabAlignment::Center, Aspose::Words::TabLeader::Dashes);
+tabStops->Add(static_cast<double>(360), Aspose::Words::TabAlignment::Right, Aspose::Words::TabLeader::Line);
 
 // We can see these tab stops in Microsoft Word by enabling the ruler via "View" -> "Show" -> "Ruler".
 ASSERT_EQ(3, para->GetEffectiveTabStops()->get_Length());

@@ -29,7 +29,7 @@ When exporting to EPUB, text input form fields are always saved as text due to r
 
 Shows how to specify the folder for storing linked images after saving to .html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 System::String imagesDir = System::IO::Path::Combine(get_ArtifactsDir(), u"SaveHtmlWithOptions");
 

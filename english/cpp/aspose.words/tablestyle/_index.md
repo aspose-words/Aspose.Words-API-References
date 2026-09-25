@@ -14,10 +14,10 @@ Represents a table style. To learn more, visit the [Working with Tables](https:/
 
 ```cpp
 class TableStyle : public Aspose::Words::Style,
-                   public Aspose::Words::ICellAttrSource,
-                   public Aspose::Words::IRowAttrSource,
-                   public Aspose::Words::IBorderAttrSource,
-                   public Aspose::Words::IShadingAttrSource
+                   public ICellAttrSource,
+                   public IRowAttrSource,
+                   public IBorderAttrSource,
+                   public IShadingAttrSource
 ```
 
 ## Methods

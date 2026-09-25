@@ -189,7 +189,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
 
 // Move to the primary footer and insert a shape that uses theme colors.
 builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 50);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(50));
 shape->get_Stroke()->set_ForeThemeColor(Aspose::Words::Themes::ThemeColor::Dark1);
 
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();

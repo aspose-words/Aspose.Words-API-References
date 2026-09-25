@@ -36,7 +36,7 @@ Shows how to fill a shape with a gradients.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 // Apply One-color gradient fill to the shape with ForeColor of gradient fill.
 shape->get_Fill()->OneColorGradient(System::Drawing::Color::get_Red(), Aspose::Words::Drawing::GradientStyle::Horizontal, Aspose::Words::Drawing::GradientVariant::Variant2, 0.1);
 
@@ -45,7 +45,7 @@ ASSERT_EQ(Aspose::Words::Drawing::GradientStyle::Horizontal, shape->get_Fill()->
 ASSERT_EQ(Aspose::Words::Drawing::GradientVariant::Variant2, shape->get_Fill()->get_GradientVariant());
 ASPOSE_ASSERT_EQ(270, shape->get_Fill()->get_GradientAngle());
 
-shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 // Apply Two-color gradient fill to the shape.
 shape->get_Fill()->TwoColorGradient(Aspose::Words::Drawing::GradientStyle::FromCorner, Aspose::Words::Drawing::GradientVariant::Variant4);
 // Change BackColor of gradient fill.

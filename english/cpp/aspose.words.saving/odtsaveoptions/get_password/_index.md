@@ -36,13 +36,13 @@ builder->Writeln(u"Hello world!");
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>(saveFormat);
 saveOptions->set_Password(u"@sposeEncrypted_1145");
 
-System::String extensionString = Aspose::Words::FileFormatUtil::SaveFormatToExtension(saveFormat);
+System::String extensionString = FileFormatUtil::SaveFormatToExtension(saveFormat);
 
 // If we open this document with an appropriate editor,
 // it will prompt us for the password we specified in the SaveOptions object.
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
-System::SharedPtr<Aspose::Words::FileFormatInfo> docInfo = Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString);
+System::SharedPtr<Aspose::Words::FileFormatInfo> docInfo = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString);
 
 ASSERT_TRUE(docInfo->get_IsEncrypted());
 

@@ -20,10 +20,10 @@ enum class VbaReferenceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Registered | 13 | Specifies an Automation type library reference type. |
-| Project | 14 | Specified an external VBA project reference type. |
-| Original | 51 | Specifies an original Automation type library reference type. |
-| Control | 47 | Specifies a twiddled type library reference type. |
+| Registered | n/a | Specifies an Automation type library reference type. |
+| Project | n/a | Specified an external VBA project reference type. |
+| Original | n/a | Specifies an original Automation type library reference type. |
+| Control | n/a | Specifies a twiddled type library reference type. |
 
 ## See Also
 

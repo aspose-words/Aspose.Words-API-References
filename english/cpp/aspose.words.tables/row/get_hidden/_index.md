@@ -23,14 +23,14 @@ bool Aspose::Words::Tables::Row::get_Hidden()
 
 Shows how to hide a table row. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 System::SharedPtr<Aspose::Words::Tables::Row> row = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0)->get_FirstRow();
 row->set_Hidden(true);
 
 doc->Save(get_ArtifactsDir() + u"Table.HiddenRow.docx");
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Table.HiddenRow.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Table.HiddenRow.docx"));
 
 row = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0)->get_FirstRow();
 ASSERT_TRUE(row->get_Hidden());

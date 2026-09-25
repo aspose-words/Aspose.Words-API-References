@@ -53,8 +53,8 @@ Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words:
 
 Shows how resolve a clash when importing documents that have lists with the same list definition identifier. 
 ```cpp
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List with the same definition identifier - source.docx");
-auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List with the same definition identifier - destination.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - source.docx"));
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - destination.docx"));
 
 // Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
 // to identical styles as Aspose.Words imports them into destination documents.
@@ -70,7 +70,7 @@ Shows how to resolve list numbering clashes in source and destination documents.
 ```cpp
 // Open a document with a custom list numbering scheme, and then clone it.
 // Since both have the same numbering format, the formats will clash if we import one document into the other.
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom list numbering.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom list numbering.docx"));
 System::SharedPtr<Aspose::Words::Document> dstDoc = srcDoc->Clone();
 
 // When we import the document's clone into the original and then append it,

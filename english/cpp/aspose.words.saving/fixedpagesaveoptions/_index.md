@@ -135,7 +135,7 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
     // which to start rendering the document from.
     options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i));
     // Export page at 2325x5325 pixels and 600 dpi.
-    options->set_Resolution(600.0f);
+    options->set_Resolution(600);
     options->set_ImageSize(System::Drawing::Size(2325, 5325));
 
     doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);

@@ -14,8 +14,8 @@ Denotes the end of a region of text that has a comment associated with it. To le
 
 ```cpp
 class CommentRangeEnd : public Aspose::Words::Node,
-                        public Aspose::Words::IDisplaceableByCustomXml,
-                        public Aspose::Words::INodeWithAnnotationId
+                        public IDisplaceableByCustomXml,
+                        public INodeWithAnnotationId
 ```
 
 ## Methods

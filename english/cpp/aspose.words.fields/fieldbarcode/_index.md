@@ -14,7 +14,7 @@ Implements the BARCODE field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldBarcode : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                     public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

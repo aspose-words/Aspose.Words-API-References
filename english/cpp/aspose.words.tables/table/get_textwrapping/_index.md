@@ -32,7 +32,7 @@ builder->Write(u"Cell 1");
 builder->InsertCell();
 builder->Write(u"Cell 2");
 builder->EndTable();
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(300));
+table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 
 builder->get_Font()->set_Size(16);
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");

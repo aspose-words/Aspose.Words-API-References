@@ -23,7 +23,7 @@ bool Aspose::Words::Document::get_PunctuationKerning()
 
 Shows how to work with kerning applies to both Latin text and punctuation. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 ASSERT_TRUE(doc->get_PunctuationKerning());
 ```
 

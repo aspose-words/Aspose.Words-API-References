@@ -41,7 +41,7 @@ auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
 ASSERT_EQ(Aspose::Words::Drawing::WrapType::None, group->get_WrapType());
 
 // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
-group->set_Bounds(System::Drawing::RectangleF(0.0f, 0.0f, 400.0f, 400.0f));
+group->set_Bounds(System::Drawing::RectangleF(static_cast<float>(0.0f), static_cast<float>(0.0f), static_cast<float>(400.0f), static_cast<float>(400.0f)));
 
 // Set the group's internal coordinate plane size to 500 x 500pt.
 // The top left corner of the group will have an x and y coordinate of (0, 0),
@@ -119,19 +119,19 @@ Shows how to verify shape containing block boundaries.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Line, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 50, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 50, 100, 100, Aspose::Words::Drawing::WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Line, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, static_cast<double>(50), Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, static_cast<double>(50), static_cast<double>(100), static_cast<double>(100), Aspose::Words::Drawing::WrapType::None);
 shape->set_StrokeColor(System::Drawing::Color::get_Orange());
 
 // Even though the line itself takes up little space on the document page,
 // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(50.0f, 50.0f, 100.0f, 100.0f), shape->get_Bounds());
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(50.0f, 50.0f, 100.0f, 100.0f), shape->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(50.0f), static_cast<float>(50.0f), static_cast<float>(100.0f), static_cast<float>(100.0f)), shape->get_Bounds());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(50.0f), static_cast<float>(50.0f), static_cast<float>(100.0f), static_cast<float>(100.0f)), shape->get_BoundsInPoints());
 
 // Create a group shape, and then set the size of its containing block using the "Bounds" property.
 auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
-group->set_Bounds(System::Drawing::RectangleF(0.0f, 100.0f, 250.0f, 250.0f));
+group->set_Bounds(System::Drawing::RectangleF(static_cast<float>(0.0f), static_cast<float>(100.0f), static_cast<float>(250.0f), static_cast<float>(250.0f)));
 
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(0.0f, 100.0f, 250.0f, 250.0f), group->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(0.0f), static_cast<float>(100.0f), static_cast<float>(250.0f), static_cast<float>(250.0f)), group->get_BoundsInPoints());
 
 // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
 shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
@@ -140,7 +140,7 @@ shape->set_Height(100);
 shape->set_Left(700);
 shape->set_Top(700);
 
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(700.0f, 700.0f, 100.0f, 100.0f), shape->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(700.0f), static_cast<float>(700.0f), static_cast<float>(100.0f), static_cast<float>(100.0f)), shape->get_BoundsInPoints());
 
 group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 
@@ -150,7 +150,7 @@ group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 // translates to 1pt in the document body's coordinate plane.
 // Every shape that we insert will also shrink in size by a factor of 4.
 // The change in the shape's "BoundsInPoints" property will reflect this.
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(175.0f, 275.0f, 25.0f, 25.0f), shape->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(175.0f), static_cast<float>(275.0f), static_cast<float>(25.0f), static_cast<float>(25.0f)), shape->get_BoundsInPoints());
 
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::GroupShape>>(group);
 
@@ -164,8 +164,8 @@ shape->set_Top(1000);
 group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 
 // The group shape's footprint in the document body has increased, but the containing block remains the same.
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(0.0f, 100.0f, 250.0f, 250.0f), group->get_BoundsInPoints());
-ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(250.0f, 350.0f, 25.0f, 25.0f), shape->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(0.0f), static_cast<float>(100.0f), static_cast<float>(250.0f), static_cast<float>(250.0f)), group->get_BoundsInPoints());
+ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(250.0f), static_cast<float>(350.0f), static_cast<float>(25.0f), static_cast<float>(25.0f)), shape->get_BoundsInPoints());
 
 doc->Save(get_ArtifactsDir() + u"Shape.Bounds.docx");
 ```

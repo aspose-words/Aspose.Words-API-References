@@ -14,7 +14,7 @@ Represents a container for text of a footnote or endnote. To learn more, visit t
 
 ```cpp
 class Footnote : public Aspose::Words::InlineStory,
-                 public Aspose::Words::Revisions::ITrackableNode
+                 public Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -85,7 +85,6 @@ class Footnote : public Aspose::Words::InlineStory,
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_ReferenceMark](./set_referencemark/)(const System::String\&) | Setter for [Aspose::Words::Notes::Footnote::get_ReferenceMark](./get_referencemark/). |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

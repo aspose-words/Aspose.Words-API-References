@@ -23,7 +23,7 @@ const System::ArrayPtr<uint8_t> & Aspose::Words::DigitalSignatures::DigitalSigna
 
 Shows how to get a digital signature value from a digitally signed document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Digitally signed.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
 for (auto&& digitalSignature : doc->get_DigitalSignatures())
 {

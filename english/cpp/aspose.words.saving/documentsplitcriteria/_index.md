@@ -20,11 +20,11 @@ enum class DocumentSplitCriteria
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | The document is not split. |
-| PageBreak | 1 | The document is split into parts at explicit page breaks. A page break can be specified by a [PageBreak](../../aspose.words/controlchar/pagebreak/) character, a section break specifying start of new section on a new page, or a paragraph that has its [PageBreakBefore](../../aspose.words/paragraphformat/get_pagebreakbefore/) property set to **true**. |
-| ColumnBreak | 2 | The document is split into parts at column breaks. A column break can be specified by a [ColumnBreak](../../aspose.words/controlchar/columnbreak/) character or a section break specifying start of new section in a new column. |
-| SectionBreak | 4 | The document is split into parts at a section break of any type. |
-| HeadingParagraph | 8 | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [DocumentSplitHeadingLevel](../htmlsaveoptions/get_documentsplitheadinglevel/) to specify the heading levels (from 1 to the specified level) at which to split. |
+| None | n/a | The document is not split. |
+| PageBreak | n/a | The document is split into parts at explicit page breaks. A page break can be specified by a [PageBreak](../../aspose.words/controlchar/pagebreak/) character, a section break specifying start of new section on a new page, or a paragraph that has its [PageBreakBefore](../../aspose.words/paragraphformat/get_pagebreakbefore/) property set to **true**. |
+| ColumnBreak | n/a | The document is split into parts at column breaks. A column break can be specified by a [ColumnBreak](../../aspose.words/controlchar/columnbreak/) character or a section break specifying start of new section in a new column. |
+| SectionBreak | n/a | The document is split into parts at a section break of any type. |
+| HeadingParagraph | n/a | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [DocumentSplitHeadingLevel](../htmlsaveoptions/get_documentsplitheadinglevel/) to specify the heading levels (from 1 to the specified level) at which to split. |
 
 ## Remarks
 
@@ -39,7 +39,7 @@ Different criteria can partially overlap. For instance, **Heading 1** style is f
 
 Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Use a SaveOptions object to specify the encoding for a document that we will save.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();

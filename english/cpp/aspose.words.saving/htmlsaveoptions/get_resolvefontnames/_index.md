@@ -29,7 +29,7 @@ If this option is set to **true**, Aspose.Words uses [FontSettings](../../../asp
 
 Shows how to resolve all font names before writing them to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
 
 // This document contains text that names a font that we do not have.
 ASSERT_FALSE(System::TestTools::IsNull(doc->get_FontInfos()->idx_get(u"28 Days Later")));

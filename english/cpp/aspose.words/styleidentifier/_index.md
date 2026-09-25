@@ -396,8 +396,8 @@ enum class StyleIdentifier
 | SmartHyperlink | 373 | The SmartHyperlink style. |
 | Hashtag | 374 | The Hashtag style. |
 | UnresolvedMention | 375 | The UnresolvedMention style. |
-| User | 4094 | A user defined style. |
-| Nil | 12287 | Reserved for internal use. |
+| User | n/a | A user defined style. |
+| Nil | n/a | Reserved for internal use. |
 
 ## Remarks
 

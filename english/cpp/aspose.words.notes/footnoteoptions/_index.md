@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnoteoptions/
 Represents the footnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article.
 
 ```cpp
-class FootnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
+class FootnoteOptions : public IFootnoteOptions
 ```
 
 ## Methods
@@ -40,7 +40,7 @@ class FootnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
 
 Shows how to split the footnote section into a given number of columns. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
 doc->get_FootnoteOptions()->set_Columns(2);
 doc->Save(get_ArtifactsDir() + u"Document.FootnoteColumns.docx");

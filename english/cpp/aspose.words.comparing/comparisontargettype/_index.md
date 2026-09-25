@@ -47,7 +47,7 @@ builder->Write(u"Original cell 2 text");
 builder->EndTable();
 
 // Textbox:
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 150, 20);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(150), static_cast<double>(20));
 builder->MoveTo(textBox->get_FirstParagraph());
 builder->Write(u"Original textbox contents");
 

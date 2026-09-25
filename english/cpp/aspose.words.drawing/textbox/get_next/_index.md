@@ -26,19 +26,19 @@ Shows how to link text boxes.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox1 = textBoxShape1->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox2 = textBoxShape2->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape3 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape3 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox3 = textBoxShape3->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape4 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape4 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox4 = textBoxShape4->get_TextBox();
 
 // Create links between some of the text boxes.
@@ -62,17 +62,17 @@ ASSERT_FALSE(textBox3->IsValidLinkTarget(textBox4));
 
 if (textBox1->get_Next() != nullptr && textBox1->get_Previous() == nullptr)
 {
-    std::cout << "This TextBox is the head of the sequence" << std::endl;
+    System::Console::WriteLine(u"This TextBox is the head of the sequence");
 }
 
 if (textBox2->get_Next() != nullptr && textBox2->get_Previous() != nullptr)
 {
-    std::cout << "This TextBox is the middle of the sequence" << std::endl;
+    System::Console::WriteLine(u"This TextBox is the middle of the sequence");
 }
 
 if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 {
-    std::cout << "This TextBox is the tail of the sequence" << std::endl;
+    System::Console::WriteLine(u"This TextBox is the tail of the sequence");
 
     // Break the forward link between textBox2 and textBox3, and then verify that they are no longer linked.
     textBox3->get_Previous()->BreakForwardLink();

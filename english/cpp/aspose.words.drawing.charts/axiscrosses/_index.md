@@ -35,14 +35,15 @@ Shows how to insert a chart and modify the appearance of its axes.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 500, 300);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(500), static_cast<double>(300));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 // Clear the chart's demo data series to start with a clean chart.
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+    u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
 // such as their direction, major/minor unit ticks, and tick marks.

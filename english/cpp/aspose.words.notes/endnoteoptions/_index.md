@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/endnoteoptions/
 Represents the endnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article.
 
 ```cpp
-class EndnoteOptions : public Aspose::Words::Notes::IFootnoteOptions
+class EndnoteOptions : public IFootnoteOptions
 ```
 
 ## Methods

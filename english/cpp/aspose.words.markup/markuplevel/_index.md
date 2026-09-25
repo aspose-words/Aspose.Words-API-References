@@ -57,7 +57,7 @@ for (auto&& node : System::IterateOver(tags))
 {
     auto sdt = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(node);
 
-    std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
+    System::Console::WriteLine(sdt->get_WordOpenXMLMinimal());
 
     ASSERT_EQ(Aspose::Words::StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());

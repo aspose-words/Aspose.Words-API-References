@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_multiplepages/
 For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
 
 ```cpp
-Aspose::Words::Settings::MultiplePagesType Aspose::Words::PageSetup::get_MultiplePages() const
+Aspose::Words::Settings::MultiplePagesType Aspose::Words::PageSetup::get_MultiplePages()
 ```
 
 

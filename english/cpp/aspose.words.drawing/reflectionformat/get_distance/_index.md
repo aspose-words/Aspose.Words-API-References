@@ -23,7 +23,7 @@ double Aspose::Words::Drawing::ReflectionFormat::get_Distance()
 
 Shows how to interact with reflection shape effect. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Various shapes.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 shape->get_Reflection()->set_Transparency(0.37);
@@ -33,7 +33,7 @@ shape->get_Reflection()->set_Distance(9.2);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Reflection.docx");
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.Reflection.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Reflection.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 System::SharedPtr<Aspose::Words::Drawing::ReflectionFormat> reflectionFormat = shape->get_Reflection();

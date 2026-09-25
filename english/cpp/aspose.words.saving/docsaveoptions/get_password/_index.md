@@ -46,7 +46,7 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", options);
 // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword");

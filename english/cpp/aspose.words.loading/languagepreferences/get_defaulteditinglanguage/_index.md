@@ -29,7 +29,7 @@ loadOptions->get_LanguagePreferences()->set_DefaultEditingLanguage(Aspose::Words
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"No default editing language.docx", loadOptions);
 
 int32_t localeId = doc->get_Styles()->get_DefaultFont()->get_LocaleId();
-std::cout << (localeId == (int32_t)Aspose::Words::Loading::EditingLanguage::Russian ? System::String(u"The document either has no any language set in defaults or it was set to Russian originally.") : System::String(u"The document default language was set to another than Russian language originally, so it is not overridden.")) << std::endl;
+System::Console::WriteLine(localeId == (int32_t)Aspose::Words::Loading::EditingLanguage::Russian ? System::String(u"The document either has no any language set in defaults or it was set to Russian originally.") : System::String(u"The document default language was set to another than Russian language originally, so it is not overridden."));
 ```
 
 ## See Also

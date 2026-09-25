@@ -14,7 +14,7 @@ Implements the MACROBUTTON field. To learn more, visit the [Working with Fields]
 
 ```cpp
 class FieldMacroButton : public Aspose::Words::Fields::Field,
-                         public Aspose::Words::Fields::IMergeFieldSurrogate
+                         public IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -65,7 +65,7 @@ In Aspose.Words this field can also act as a merge field.
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Macro.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 ASSERT_TRUE(doc->get_HasMacros());

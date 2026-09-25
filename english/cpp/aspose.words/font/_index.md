@@ -13,8 +13,8 @@ url: /cpp/aspose.words/font/
 Contains font attributes (font name, font size, color, and so on) for an object. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
-class Font : public Aspose::Words::IBorderAttrSource,
-             public Aspose::Words::IShadingAttrSource,
+class Font : public IBorderAttrSource,
+             public IShadingAttrSource,
              public Aspose::Words::Drawing::Core::IFillable
 ```
 

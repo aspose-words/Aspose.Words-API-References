@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag> Aspose::Words::D
 
 Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There is a several ways to move the cursor:

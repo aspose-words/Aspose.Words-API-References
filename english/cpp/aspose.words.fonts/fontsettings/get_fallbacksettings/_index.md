@@ -58,15 +58,12 @@ for (int32_t i = 0x0021; i < 0x0530; i++)
         case 0x0021:
             builder->Writeln(u"\n\n0x0021 - 0x00FF: \nBasic Latin/Latin-1 Supplement Unicode blocks in \"AllegroOpen\" font:");
             break;
-
         case 0x0100:
             builder->Writeln(u"\n\n0x0100 - 0x024F: \nLatin Extended A/B blocks, mostly in \"AllegroOpen\" font:");
             break;
-
         case 0x0250:
             builder->Writeln(u"\n\n0x0250 - 0x052F: \nIPA/Greek/Cyrillic blocks in \"M+ 2m\" font:");
             break;
-
     }
 
     builder->Write(System::String::Format(u"{0}", System::Convert::ToChar(i)));

@@ -38,7 +38,7 @@ builder->InsertCell();
 builder->Write(u"Row 1, Cell 2");
 builder->EndTable();
 table->set_LeftIndent(-36);
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(144));
+table->set_PreferredWidth(PreferredWidth::FromPoints(144));
 
 builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 
@@ -50,7 +50,7 @@ builder->InsertCell();
 builder->Write(u"Row 1, Cell 2");
 builder->EndTable();
 table->set_LeftIndent(36);
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(144));
+table->set_PreferredWidth(PreferredWidth::FromPoints(144));
 
 // When we save a document to HTML, Aspose.Words will only preserve negative indents
 // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag

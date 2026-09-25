@@ -23,7 +23,7 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<T>> Aspose::Words::W
 
 Shows how to work with a document's collection of web extensions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Web extension.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
 ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
 
@@ -34,7 +34,7 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
     while (enumerator->MoveNext())
     {
         System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionProperty> webExtensionProperty = enumerator->get_Current();
-        std::cout << System::String::Format(u"Binding name: {0}; Binding value: {1}", webExtensionProperty->get_Name(), webExtensionProperty->get_Value()) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"Binding name: {0}; Binding value: {1}", webExtensionProperty->get_Name(), webExtensionProperty->get_Value()));
     }
 }
 

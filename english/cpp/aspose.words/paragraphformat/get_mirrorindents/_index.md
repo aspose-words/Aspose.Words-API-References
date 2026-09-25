@@ -23,7 +23,7 @@ bool Aspose::Words::ParagraphFormat::get_MirrorIndents()
 
 Show how to make left and right indents the same. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 System::SharedPtr<Aspose::Words::ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat();
 
 format->set_MirrorIndents(true);

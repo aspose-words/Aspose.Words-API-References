@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::DoclingSaveOptions::get_RenderNonImageShapes() const
 
 Shows how to save a document into a Docling JSON format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::DoclingSaveOptions>();
 saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Docling);

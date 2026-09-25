@@ -13,9 +13,9 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/
 Represents data label on a chart point or trendline. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class ChartDataLabel : public Aspose::Words::Drawing::Charts::Core::INumberFormatProvider,
-                       public Aspose::Words::Drawing::Charts::Core::IChartItemTextProperties,
-                       public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+class ChartDataLabel : public Core::INumberFormatProvider,
+                       public Core::IChartItemTextProperties,
+                       public Core::IChartFormatSource
 ```
 
 ## Methods

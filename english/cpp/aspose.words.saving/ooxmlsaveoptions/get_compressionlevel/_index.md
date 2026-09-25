@@ -23,7 +23,7 @@ Aspose::Words::Saving::CompressionLevel Aspose::Words::Saving::OoxmlSaveOptions:
 
 Shows how to specify the compression level to use while saving an OOXML document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
 // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 // and then pass it to the document's saving method to modify how we save the document.
@@ -42,9 +42,9 @@ st->Stop();
 
 auto fileInfo = System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"OoxmlSaveOptions.DocumentCompression.docx");
 
-std::cout << System::String::Format(u"Saving operation done using the \"{0}\" compression level:", compressionLevel) << std::endl;
-std::cout << System::String::Format(u"\tDuration:\t{0} ms", st->get_ElapsedMilliseconds()) << std::endl;
-std::cout << System::String::Format(u"\tFile Size:\t{0} bytes", fileInfo->get_Length()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"Saving operation done using the \"{0}\" compression level:", compressionLevel));
+System::Console::WriteLine(System::String::Format(u"\tDuration:\t{0} ms", st->get_ElapsedMilliseconds()));
+System::Console::WriteLine(System::String::Format(u"\tFile Size:\t{0} bytes", fileInfo->get_Length()));
 ```
 
 ## See Also

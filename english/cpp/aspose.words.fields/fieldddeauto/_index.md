@@ -14,7 +14,7 @@ Implements the DDEAUTO field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldDdeAuto : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                     public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

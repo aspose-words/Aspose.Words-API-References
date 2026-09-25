@@ -33,7 +33,7 @@ comment->SetText(u"My comment.");
 builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
 
 doc->Save(get_ArtifactsDir() + u"Comment.UtcDateTime.docx");
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Comment.UtcDateTime.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Comment.UtcDateTime.docx"));
 
 comment = System::ExplicitCast<Aspose::Words::Comment>(doc->GetChild(Aspose::Words::NodeType::Comment, 0, true));
 // DateTimeUtc return data without milliseconds.

@@ -24,7 +24,7 @@ double Aspose::Words::Drawing::SoftEdgeFormat::get_Radius()
 Shows how to work with soft edge formatting. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(200));
 
 // Apply soft edge to the shape.
 shape->get_SoftEdge()->set_Radius(30);
@@ -32,7 +32,7 @@ shape->get_SoftEdge()->set_Radius(30);
 builder->get_Document()->Save(get_ArtifactsDir() + u"Shape.SoftEdge.docx");
 
 // Load document with rectangle shape with soft edge.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.SoftEdge.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.SoftEdge.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::SoftEdgeFormat> softEdgeFormat = shape->get_SoftEdge();
 
@@ -49,7 +49,7 @@ ASPOSE_ASSERT_EQ(0, softEdgeFormat->get_Radius());
 
 Shows how to set limit for image resolution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
 saveOptions->set_MaxImageResolution(72);

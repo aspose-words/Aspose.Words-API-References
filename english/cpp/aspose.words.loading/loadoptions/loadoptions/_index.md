@@ -37,8 +37,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
 }
 ```
 
@@ -117,7 +117,7 @@ System::SharedPtr<Aspose::Words::Document> doc;
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.

@@ -55,7 +55,7 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::Tables::Cell> firstCell = table->get_FirstRow()->get_FirstCell();
 
@@ -70,7 +70,7 @@ doc->Save(get_ArtifactsDir() + u"Table.CellFormat.docx");
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:

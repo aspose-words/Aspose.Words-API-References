@@ -33,7 +33,7 @@ Aspose.Words does not update this property.
 
 Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Heading pairs and titles of parts.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Heading pairs and titles of parts.docx"));
 
 // We can find the combined values of these collections via
 // "File" -> "Properties" -> "Advanced Properties" -> "Contents" tab.
@@ -48,12 +48,12 @@ int32_t headingPairsIndex = 0;
 int32_t titlesOfPartsIndex = 0;
 while (headingPairsIndex < headingPairs->get_Length())
 {
-    std::cout << System::String::Format(u"Parts for {0}:", headingPairs[headingPairsIndex++]) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"Parts for {0}:", headingPairs[headingPairsIndex++]));
     int32_t partsCount = System::Convert::ToInt32(headingPairs[headingPairsIndex++]);
 
     for (int32_t i = 0; i < partsCount; i++)
     {
-        std::cout << System::String::Format(u"\t\"{0}\"", titlesOfParts[titlesOfPartsIndex++]) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"\t\"{0}\"", titlesOfParts[titlesOfPartsIndex++]));
     }
 }
 ```

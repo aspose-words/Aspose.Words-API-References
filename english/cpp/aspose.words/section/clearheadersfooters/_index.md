@@ -86,7 +86,7 @@ This makes headers and footers of this section linked to headers and footers of 
 
 Shows how to clear the contents of header and footer with or without a watermark. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Header and footer types.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
 // Add a plain text watermark.
 doc->get_Watermark()->SetText(u"Aspose Watermark");

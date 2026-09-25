@@ -41,8 +41,8 @@ if (docOriginal->get_Revisions()->get_Count() == 0 && docEdited->get_Revisions()
 // for every element that is different in the edited document.
 for (auto&& r : System::IterateOver(docOriginal->get_Revisions()))
 {
-    std::cout << System::String::Format(u"Revision type: {0}, on a node of type \"{1}\"", r->get_RevisionType(), r->get_ParentNode()->get_NodeType()) << std::endl;
-    std::cout << System::String::Format(u"\tChanged text: \"{0}\"", r->get_ParentNode()->GetText()) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"Revision type: {0}, on a node of type \"{1}\"", r->get_RevisionType(), r->get_ParentNode()->get_NodeType()));
+    System::Console::WriteLine(System::String::Format(u"\tChanged text: \"{0}\"", r->get_ParentNode()->GetText()));
 }
 
 // Accepting these revisions will transform the original document into the edited document.

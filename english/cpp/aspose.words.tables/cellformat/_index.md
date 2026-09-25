@@ -13,8 +13,8 @@ url: /cpp/aspose.words.tables/cellformat/
 Represents all formatting for a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
-class CellFormat : public Aspose::Words::IBorderAttrSource,
-                   public Aspose::Words::IShadingAttrSource
+class CellFormat : public IBorderAttrSource,
+                   public IShadingAttrSource
 ```
 
 ## Methods
@@ -154,7 +154,7 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::Tables::Cell> firstCell = table->get_FirstRow()->get_FirstCell();
 

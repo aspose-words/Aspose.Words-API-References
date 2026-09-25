@@ -49,11 +49,11 @@ index->set_RunSubentriesOnSameLine(runSubentriesOnTheSameLine);
 
 if (runSubentriesOnTheSameLine)
 {
-    ASSERT_EQ(u" INDEX  \\e \", see page \" \\h A \\r", index->GetFieldCode());
+    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A \\r"), index->GetFieldCode());
 }
 else
 {
-    ASSERT_EQ(u" INDEX  \\e \", see page \" \\h A", index->GetFieldCode());
+    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A"), index->GetFieldCode());
 }
 
 // Insert two XE fields, each on a new page, and with the same heading named "Heading 1",
@@ -74,7 +74,7 @@ indexEntry->set_Text(u"Heading 1:Subheading 2");
 
 doc->UpdatePageLayout();
 doc->UpdateFields();
-doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheading.docx"));
+doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheading.docx", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)));
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.themes/theme/
 Represents document [Theme](./), and provides access to main theme parts including [MajorFonts](./get_majorfonts/), [MinorFonts](./get_minorfonts/) and [Colors](./get_colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
-class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider,
+class Theme : public Drawing::Core::Dml::Themes::IThemeProvider,
               public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
 ```
 
@@ -35,7 +35,7 @@ class Theme : public Aspose::Words::Drawing::Core::Dml::Themes::IThemeProvider,
 
 Shows how to set custom colors and fonts for themes. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Theme colors.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
 // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
 System::SharedPtr<Aspose::Words::Themes::Theme> theme = doc->get_Theme();

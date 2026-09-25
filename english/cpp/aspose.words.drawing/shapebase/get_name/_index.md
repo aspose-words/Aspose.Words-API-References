@@ -31,7 +31,7 @@ Shows how to use a shape's alternative text.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Cube, 150, 150);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Cube, static_cast<double>(150), static_cast<double>(150));
 shape->set_Name(u"MyCube");
 
 shape->set_AlternativeText(u"Alt text for MyCube.");

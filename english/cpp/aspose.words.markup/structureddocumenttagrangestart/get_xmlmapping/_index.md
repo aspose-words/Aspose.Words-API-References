@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Markup::XmlMapping> Aspose::Words::Markup::Stru
 
 Shows how to set XML mappings for the range start of a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
 System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");

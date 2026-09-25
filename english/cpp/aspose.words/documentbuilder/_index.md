@@ -13,10 +13,10 @@ url: /cpp/aspose.words/documentbuilder/
 Provides methods to insert text, images and other content, specify font, paragraph and section formatting. To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/cpp/document-builder-overview/) documentation article.
 
 ```cpp
-class DocumentBuilder : public Aspose::Words::IRunAttrSource,
-                        public Aspose::Words::IParaAttrSource,
-                        public Aspose::Words::IRowAttrSource,
-                        public Aspose::Words::ICellAttrSource
+class DocumentBuilder : public IRunAttrSource,
+                        public IParaAttrSource,
+                        public IRowAttrSource,
+                        public ICellAttrSource
 ```
 
 ## Methods
@@ -97,13 +97,13 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertOleObject](./insertoleobject/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::String\&, bool, const System::SharedPtr\<System::IO::Stream\>\&) | Inserts an embedded OLE object from a stream into the document. |
 | [InsertOleObject](./insertoleobject/)(const System::String\&, bool, bool, const System::SharedPtr\<System::IO::Stream\>\&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
 | [InsertOleObject](./insertoleobject/)(const System::String\&, const System::String\&, bool, bool, const System::SharedPtr\<System::IO::Stream\>\&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
-| [InsertOleObject](./insertoleobject/)(std::basic_istream\<CharType, Traits\>\&, System::String, bool, std::basic_istream\<CharType, Traits\>\&) |  |
-| [InsertOleObject](./insertoleobject/)(System::String, bool, bool, std::basic_istream\<CharType, Traits\>\&) |  |
-| [InsertOleObject](./insertoleobject/)(System::String, System::String, bool, bool, std::basic_istream\<CharType, Traits\>\&) |  |
+| [InsertOleObject](./insertoleobject/)(std::basic_istream\<CharType, Traits\>\&, const System::String\&, bool, std::basic_istream\<CharType, Traits\>\&) |  |
+| [InsertOleObject](./insertoleobject/)(const System::String\&, bool, bool, std::basic_istream\<CharType, Traits\>\&) |  |
+| [InsertOleObject](./insertoleobject/)(const System::String\&, const System::String\&, bool, bool, std::basic_istream\<CharType, Traits\>\&) |  |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::String\&, bool, const System::String\&, const System::String\&) | Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension. |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::String\&, const System::String\&, bool, const System::String\&, const System::String\&) | Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::String\&, const System::String\&, const System::String\&) | Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
-| [InsertOleObjectAsIcon](./insertoleobjectasicon/)(std::basic_istream\<CharType, Traits\>\&, System::String, System::String, System::String) |  |
+| [InsertOleObjectAsIcon](./insertoleobjectasicon/)(std::basic_istream\<CharType, Traits\>\&, const System::String\&, const System::String\&, const System::String\&) |  |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String\&, double, double) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, double, double) | Inserts an online video object into the document and scales it to the specified size. |

@@ -51,7 +51,7 @@ System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 // Create an OpenAI model instance using the constructor with model name and API key.
 auto model = System::MakeObject<Aspose::Words::AI::OpenAiModel>(u"gpt-4o-mini", apiKey);
 
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 // Summarize the document using the OpenAI model with short summary length.
 auto summarizeOptions = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
 summarizeOptions->set_SummaryLength(Aspose::Words::AI::SummaryLength::VeryShort);

@@ -23,7 +23,7 @@ System::String Aspose::Words::Drawing::OleFormat::get_SuggestedFileName()
 
 Shows how to get an OLE object's suggested file name. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE shape.rtf");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE shape.rtf"));
 
 auto oleShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->get_FirstSection()->get_Body()->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 

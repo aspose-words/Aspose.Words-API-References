@@ -30,7 +30,7 @@ Shows how to disable text rotation when the shape is rotate.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, 20, 20);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, static_cast<double>(20), static_cast<double>(20));
 shape->get_TextBox()->set_NoTextRotation(true);
 
 doc->Save(get_ArtifactsDir() + u"Shape.NoTextRotation.docx");

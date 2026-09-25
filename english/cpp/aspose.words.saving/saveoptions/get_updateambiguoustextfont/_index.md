@@ -23,22 +23,22 @@ bool Aspose::Words::Saving::SaveOptions::get_UpdateAmbiguousTextFont() const
 
 Shows how to update the font to match the character code being used. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Special symbol.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Special symbol.docx"));
 System::SharedPtr<Aspose::Words::Run> run = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0);
-std::cout << run->get_Text() << std::endl;
+System::Console::WriteLine(run->get_Text());
 // ฿
-std::cout << run->get_Font()->get_Name() << std::endl;
+System::Console::WriteLine(run->get_Font()->get_Name());
 // Arial
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_UpdateAmbiguousTextFont(true);
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.UpdateAmbiguousTextFont.docx", saveOptions);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OoxmlSaveOptions.UpdateAmbiguousTextFont.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.UpdateAmbiguousTextFont.docx"));
 run = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0);
-std::cout << run->get_Text() << std::endl;
+System::Console::WriteLine(run->get_Text());
 // ฿
-std::cout << run->get_Font()->get_Name() << std::endl;
+System::Console::WriteLine(run->get_Font()->get_Name());
 // Angsana New
 ```
 

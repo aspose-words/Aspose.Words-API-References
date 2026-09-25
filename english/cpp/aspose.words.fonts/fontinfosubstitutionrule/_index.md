@@ -33,7 +33,7 @@ class FontInfoSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRu
 Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
 
 // Assign a callback for handling font substitution warnings.
 auto warningCollector = System::MakeObject<Aspose::Words::WarningInfoCollection>();
@@ -55,7 +55,7 @@ for (auto&& info : warningCollector)
 {
     if (info->get_WarningType() == Aspose::Words::WarningType::FontSubstitution)
     {
-        std::cout << info->get_Description() << std::endl;
+        System::Console::WriteLine(info->get_Description());
     }
 }
 ```

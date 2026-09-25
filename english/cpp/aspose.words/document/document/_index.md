@@ -52,7 +52,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
 // 2 -  Load a document that exists in the local file system:
-doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Loaded documents will have contents that we can access and edit.
 ASSERT_EQ(u"Hello World!", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
@@ -160,8 +160,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
 }
 ```
 
@@ -173,7 +173,7 @@ System::SharedPtr<Aspose::Words::Document> doc;
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
@@ -216,7 +216,7 @@ Aspose::Words::Document::Document(const System::String &fileName)
 
 Shows how to open a document and convert it to .PDF. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
@@ -256,7 +256,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
 // 2 -  Load a document that exists in the local file system:
-doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Loaded documents will have contents that we can access and edit.
 ASSERT_EQ(u"Hello World!", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
@@ -276,7 +276,7 @@ System::SharedPtr<Aspose::Words::Document> doc;
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.

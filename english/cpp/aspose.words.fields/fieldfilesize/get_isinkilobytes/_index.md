@@ -23,7 +23,7 @@ bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
 
 Shows how to display the file size of a document with a FILESIZE field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 ASSERT_EQ(18105, doc->get_BuiltInDocumentProperties()->get_Bytes());
 

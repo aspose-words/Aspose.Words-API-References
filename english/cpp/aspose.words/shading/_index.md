@@ -14,7 +14,7 @@ Contains shading attributes for an object. To learn more, visit the [Programming
 
 ```cpp
 class Shading : public Aspose::Words::InternableComplexAttr,
-                public Aspose::Words::IComplexAttr
+                public IComplexAttr
 ```
 
 ## Methods

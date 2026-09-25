@@ -23,7 +23,7 @@ Aspose::Words::Layout::ShowInBalloons Aspose::Words::Layout::RevisionOptions::ge
 
 Shows how to display revisions in balloons. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 // By default, text that is a revision has a different color to differentiate it from the other non-revision text.
 // Set a revision option to show more details about each revision in a balloon on the page's right margin.
@@ -34,7 +34,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.ShowRevisionBalloons.pdf");
 
 Shows how to modify the appearance of revisions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 // Get the RevisionOptions object that controls the appearance of revisions.
 System::SharedPtr<Aspose::Words::Layout::RevisionOptions> revisionOptions = doc->get_LayoutOptions()->get_RevisionOptions();

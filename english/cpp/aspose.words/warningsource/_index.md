@@ -57,7 +57,7 @@ enum class WarningSource
 
 Shows how to work with the warning source. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Emphases markdown warning.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Emphases markdown warning.docx"));
 
 auto warnings = System::MakeObject<Aspose::Words::WarningInfoCollection>();
 doc->set_WarningCallback(warnings);
@@ -75,7 +75,7 @@ for (auto&& warningInfo : warnings)
 
 Shows how to get additional information about font substitution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto callback = System::MakeObject<Aspose::Words::WarningInfoCollection>();
 doc->set_WarningCallback(callback);

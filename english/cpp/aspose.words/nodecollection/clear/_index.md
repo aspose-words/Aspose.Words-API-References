@@ -23,7 +23,7 @@ void Aspose::Words::NodeCollection::Clear()
 
 Shows how to remove all sections from a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // This document has one section with a few child nodes containing and displaying all the document's contents.
 ASSERT_EQ(1, doc->get_Sections()->get_Count());

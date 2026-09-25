@@ -44,25 +44,22 @@ for (auto&& node : System::IterateOver(section))
             {
                 auto body = System::ExplicitCast<Aspose::Words::Body>(node);
 
-                std::cout << "Body:" << std::endl;
-                std::cout << System::String::Format(u"\t\"{0}\"", body->GetText().Trim()) << std::endl;
+                System::Console::WriteLine(u"Body:");
+                System::Console::WriteLine(System::String::Format(u"\t\"{0}\"", body->GetText().Trim()));
                 break;
             }
-
         case Aspose::Words::NodeType::HeaderFooter:
             {
                 auto headerFooter = System::ExplicitCast<Aspose::Words::HeaderFooter>(node);
 
-                std::cout << System::String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
-                std::cout << System::String::Format(u"\t\"{0}\"", headerFooter->GetText().Trim()) << std::endl;
+                System::Console::WriteLine(System::String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()));
+                System::Console::WriteLine(System::String::Format(u"\t\"{0}\"", headerFooter->GetText().Trim()));
                 break;
             }
-
         default:
             {
                 throw System::Exception(u"Unexpected node type in a section.");
             }
-
     }
 }
 ```

@@ -29,7 +29,7 @@ When this property is set to [MarkdownSyntax](../../markdownlistexportmode/), wr
 
 Shows how to list items will be written to the markdown document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 
 // Use MarkdownListExportMode.PlainText or MarkdownListExportMode.MarkdownSyntax to export list.
 auto options = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();

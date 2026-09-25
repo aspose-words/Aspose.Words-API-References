@@ -24,7 +24,7 @@ int32_t Aspose::Words::AI::AiModel::get_Timeout() const
 Shows how to change model default timeout. 
 ```cpp
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
-System::SharedPtr<Aspose::Words::AI::AiModel> model = Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey);
+System::SharedPtr<Aspose::Words::AI::AiModel> model = AiModel::Create(Aspose::Words::AI::AiModelType::Gpt4OMini)->WithApiKey(apiKey);
 // Default value 100000ms.
 model->set_Timeout(250000);
 ```

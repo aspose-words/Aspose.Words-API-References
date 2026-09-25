@@ -14,7 +14,7 @@ Implements the DISPLAYBARCODE field. To learn more, visit the [Working with Fiel
 
 ```cpp
 class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
-                            public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                            public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

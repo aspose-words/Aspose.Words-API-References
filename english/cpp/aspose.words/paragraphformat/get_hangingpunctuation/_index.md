@@ -23,7 +23,7 @@ bool Aspose::Words::ParagraphFormat::get_HangingPunctuation()
 
 Shows how to set special properties for Asian typography. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 System::SharedPtr<Aspose::Words::ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat();
 format->set_FarEastLineBreakControl(true);

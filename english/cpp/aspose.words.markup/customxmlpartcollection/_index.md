@@ -99,8 +99,8 @@ ASSERT_EQ(2, doc->get_CustomXmlParts()->get_Count());
     int32_t index = 0;
     while (enumerator->MoveNext())
     {
-        std::cout << System::String::Format(u"XML part index {0}, ID: {1}", index, enumerator->get_Current()->get_Id()) << std::endl;
-        std::cout << System::String::Format(u"\tContent: {0}", System::Text::Encoding::get_UTF8()->GetString(enumerator->get_Current()->get_Data())) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"XML part index {0}, ID: {1}", index, enumerator->get_Current()->get_Id()));
+        System::Console::WriteLine(System::String::Format(u"\tContent: {0}", System::Text::Encoding::get_UTF8()->GetString(enumerator->get_Current()->get_Data())));
         index++;
     }
 }

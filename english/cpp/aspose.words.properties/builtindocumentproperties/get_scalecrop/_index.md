@@ -27,7 +27,7 @@ Aspose.Words does not update this property.
 
 Shows how to get extended properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Extended properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Extended properties.docx"));
 ASSERT_TRUE(doc->get_BuiltInDocumentProperties()->get_ScaleCrop());
 ASSERT_TRUE(doc->get_BuiltInDocumentProperties()->get_SharedDocument());
 ASSERT_TRUE(doc->get_BuiltInDocumentProperties()->get_HyperlinksChanged());

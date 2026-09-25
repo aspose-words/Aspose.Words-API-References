@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chart/
 Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class Chart : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+class Chart : public Core::IChartFormatSource
 ```
 
 ## Methods
@@ -48,7 +48,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a chart shape with a document builder and get its chart.
-System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Bar, 400, 300);
+System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Bar, static_cast<double>(400), static_cast<double>(300));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get_Chart();
 
 // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.

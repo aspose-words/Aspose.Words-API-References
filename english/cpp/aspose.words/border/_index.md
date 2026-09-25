@@ -14,7 +14,7 @@ Represents a border of an object. To learn more, visit the [Programming with Doc
 
 ```cpp
 class Border : public Aspose::Words::InternableComplexAttr,
-               public Aspose::Words::IComplexAttr
+               public IComplexAttr
 ```
 
 ## Methods

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldargumentbuilder/
 Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
-class FieldArgumentBuilder : public Aspose::Words::Fields::IFieldBuildingBlock
+class FieldArgumentBuilder : public IFieldBuildingBlock
 ```
 
 ## Methods
@@ -101,7 +101,7 @@ builder->AddArgument(trueOutput);
 builder->AddArgument(falseOutput);
 field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
 
-ASSERT_EQ(System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field->GetFieldCode());
+ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "), field->GetFieldCode());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");

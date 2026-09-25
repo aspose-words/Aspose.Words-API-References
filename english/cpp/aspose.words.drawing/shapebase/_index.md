@@ -14,15 +14,15 @@ Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE
 
 ```cpp
 class ShapeBase : public Aspose::Words::CompositeNode,
-                  public Aspose::Words::IInline,
-                  public Aspose::Words::Drawing::Core::IShape,
-                  public Aspose::Words::IShapeAttrSource,
-                  public Aspose::Words::Revisions::ITrackableNode,
+                  public IInline,
+                  public Core::IShape,
+                  public IShapeAttrSource,
+                  public Revisions::ITrackableNode,
                   public Aspose::Words::Drawing::Core::IFillable,
-                  public Aspose::Words::Drawing::Core::IGlow,
-                  public Aspose::Words::Drawing::Core::IReflection,
-                  public Aspose::Words::Drawing::Core::ISoftEdge,
-                  public Aspose::Words::Drawing::Core::IShadow
+                  public Core::IGlow,
+                  public Core::IReflection,
+                  public Core::ISoftEdge,
+                  public Core::IShadow
 ```
 
 ## Methods
@@ -181,7 +181,6 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [set_WrapType](./set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](./get_wraptype/). |
 | [set_ZOrder](./set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](./get_zorder/). |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

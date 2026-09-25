@@ -44,7 +44,7 @@ builder->InsertNode(shape);
 // Aspose.Words will store that title in the shape's Alt Text.
 doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.Title.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Title.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 ASSERT_EQ(System::String::Empty, shape->get_Title());

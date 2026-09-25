@@ -15,7 +15,7 @@ Base class for nodes that can contain other nodes. To learn more, visit the [Asp
 ```cpp
 class CompositeNode : public Aspose::Words::Node,
                       public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>,
-                      public Aspose::Words::INodeCollection
+                      public INodeCollection
 ```
 
 ## Methods
@@ -67,7 +67,6 @@ class CompositeNode : public Aspose::Words::Node,
 | [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |
@@ -119,19 +118,17 @@ for (auto&& child : System::IterateOver(children))
     switch (child->get_NodeType())
     {
         case Aspose::Words::NodeType::Run:
-            std::cout << "Run contents:" << std::endl;
-            std::cout << System::String::Format(u"\t\"{0}\"", child->GetText().Trim()) << std::endl;
+            System::Console::WriteLine(u"Run contents:");
+            System::Console::WriteLine(System::String::Format(u"\t\"{0}\"", child->GetText().Trim()));
             break;
-
         case Aspose::Words::NodeType::Shape:
         {
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
-            std::cout << "Shape:" << std::endl;
-            std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
+            System::Console::WriteLine(u"Shape:");
+            System::Console::WriteLine(System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()));
             ASSERT_EQ(100, shape->get_CustomNodeId());
             break;
         }
-
         default:
             break;
     }

@@ -44,7 +44,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ExportFontsAsBase64](./get_exportfontsasbase64/)() const | Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is **false**. |
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ExportHeadersFootersMode](./get_exportheadersfootersmode/)() const | Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [PerSection](../exportheadersfootersmode/) for HTML/MHTML and [None](../exportheadersfootersmode/) for EPUB. |
-| [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() const | Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is **false**. |
+| [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() | Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is **false**. |
 | [get_ExportLanguageInformation](./get_exportlanguageinformation/)() const | Specifies whether language information is exported to HTML, MHTML or EPUB. Default is **false**. |
 | [get_ExportListLabels](./get_exportlistlabels/)() const | Controls how list labels are output to HTML, MHTML or EPUB. Default value is [Auto](../exportlistlabels/). |
 | [get_ExportOriginalUrlForLinkedImages](./get_exportoriginalurlforlinkedimages/)() const | Specifies whether original URL should be used as the URL of the linked images. Default value is **false**. |
@@ -52,7 +52,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ExportPageSetup](./get_exportpagesetup/)() const | Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is **false**. |
 | [get_ExportRelativeFontSize](./get_exportrelativefontsize/)() const | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is **false**. |
 | [get_ExportRoundtripInformation](./get_exportroundtripinformation/)() const | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is **true** for HTML and **false** for MHTML and EPUB. |
-| [get_ExportShapesAsSvg](./get_exportshapesassvg/)() const | Controls whether [Shape](../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is **false**. |
+| [get_ExportShapesAsSvg](./get_exportshapesassvg/)() | Controls whether [Shape](../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is **false**. |
 | [get_ExportTextInputFormFieldAsText](./get_exporttextinputformfieldastext/)() const | Controls how text input form fields are saved to HTML or MHTML. Default value is **false**. |
 | [get_ExportTocPageNumbers](./get_exporttocpagenumbers/)() const | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is **false**. |
 | [get_ExportXhtmlTransitional](./get_exportxhtmltransitional/)() const | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When **true**, writes a DOCTYPE declaration in the document prior to the root element. Default value is **false**. When saving to EPUB or HTML5 ([Html5](../htmlversion/)) the DOCTYPE declaration is always written. |
@@ -61,13 +61,13 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_FontsFolder](./get_fontsfolder/)() const | Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string. |
 | [get_FontsFolderAlias](./get_fontsfolderalias/)() const | Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string. |
 | [get_HtmlVersion](./get_htmlversion/)() const | Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is [Xhtml](../htmlversion/). |
-| [get_ImageResolution](./get_imageresolution/)() const | Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is **%96 dpi**. |
-| [get_ImageSavingCallback](./get_imagesavingcallback/)() const | Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB. |
+| [get_ImageResolution](./get_imageresolution/)() | Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is **%96 dpi**. |
+| [get_ImageSavingCallback](./get_imagesavingcallback/)() | Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB. |
 | [get_ImagesFolder](./get_imagesfolder/)() const | Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string. |
 | [get_ImagesFolderAlias](./get_imagesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string. |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [get_MemoryOptimization](../saveoptions/get_memoryoptimization/)() const | Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
-| [get_MetafileFormat](./get_metafileformat/)() const | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [Png](../htmlmetafileformat/), meaning that metafiles are rendered to raster PNG images. |
+| [get_MetafileFormat](./get_metafileformat/)() | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [Png](../htmlmetafileformat/), meaning that metafiles are rendered to raster PNG images. |
 | [get_NavigationMapLevel](./get_navigationmaplevel/)() const | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is **%3**. |
 | [get_OfficeMathOutputMode](./get_officemathoutputmode/)() const | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [Image](../htmlofficemathoutputmode/). |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
@@ -78,7 +78,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [get_ResourceFolder](./get_resourcefolder/)() const | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [get_ResourceFolderAlias](./get_resourcefolderalias/)() const | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
 | [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can be [Html](../../aspose.words/saveformat/), [Mhtml](../../aspose.words/saveformat/), [Epub](../../aspose.words/saveformat/), [Azw3](../../aspose.words/saveformat/) or [Mobi](../../aspose.words/saveformat/). |
-| [get_ScaleImageToShapeSize](./get_scaleimagetoshapesize/)() const | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**. |
+| [get_ScaleImageToShapeSize](./get_scaleimagetoshapesize/)() | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**. |
 | [get_TableWidthOutputMode](./get_tablewidthoutputmode/)() const | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [All](../htmlelementsizeoutputmode/). |
 | [get_TempFolder](../saveoptions/get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default, this property is **null** and no temporary files are used. |
 | [get_UpdateAmbiguousTextFont](../saveoptions/get_updateambiguoustextfont/)() const | Determines whether the font attributes will be changed according to the character code being used. |
@@ -168,7 +168,7 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 
 Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Use a SaveOptions object to specify the encoding for a document that we will save.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
@@ -190,7 +190,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", save
 
 Shows how to specify the folder for storing linked images after saving to .html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 System::String imagesDir = System::IO::Path::Combine(get_ArtifactsDir(), u"SaveHtmlWithOptions");
 

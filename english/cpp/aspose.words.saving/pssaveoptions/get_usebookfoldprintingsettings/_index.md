@@ -27,7 +27,7 @@ If this option is specified, [PageSet](../../fixedpagesaveoptions/get_pageset/) 
 
 Shows how to save a document to the Postscript format in the form of a book fold. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
 // Create a "PsSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to PostScript.

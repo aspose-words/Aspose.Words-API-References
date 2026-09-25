@@ -49,7 +49,7 @@ table->set_Style(tableStyle);
 
 builder->MoveTo(table->get_FirstRow()->get_FirstCell()->get_FirstParagraph());
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 50, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 100, 100, 100, Aspose::Words::Drawing::WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, static_cast<double>(50), Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), Aspose::Words::Drawing::WrapType::None);
 
 // Set the "IsLayoutInCell" property to "true" to display the shape as an inline element inside the cell's paragraph.
 // The coordinate origin that will determine the shape's location will be the top left corner of the shape's cell.

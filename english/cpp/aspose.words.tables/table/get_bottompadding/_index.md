@@ -39,7 +39,7 @@ table->set_LeftPadding(30);
 table->set_RightPadding(60);
 table->set_TopPadding(10);
 table->set_BottomPadding(90);
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(250));
+table->set_PreferredWidth(PreferredWidth::FromPoints(250));
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```

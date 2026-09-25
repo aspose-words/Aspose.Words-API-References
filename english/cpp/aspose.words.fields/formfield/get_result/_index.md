@@ -41,7 +41,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Please select a fruit: ");
 
 // Insert a combo box which will allow a user to choose an option from a collection of strings.
-System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"Apple", u"Banana", u"Cherry"}), 0);
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
+    u"Apple", u"Banana", u"Cherry"}), 0);
 
 ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
 ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldFormDropDown, comboBox->get_Type());

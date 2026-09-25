@@ -14,8 +14,8 @@ Implements the CREATEDATE field. To learn more, visit the [Working with Fields](
 
 ```cpp
 class FieldCreateDate : public Aspose::Words::Fields::Field,
-                        public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                        public Aspose::Words::Fields::IFieldWithCalendar
+                        public IFieldCodeTokenInfoProvider,
+                        public IFieldWithCalendar
 ```
 
 ## Methods
@@ -60,7 +60,7 @@ class FieldCreateDate : public Aspose::Words::Fields::Field,
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u" Date this document was created:");

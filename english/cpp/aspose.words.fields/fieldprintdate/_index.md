@@ -14,8 +14,8 @@ Implements the PRINTDATE field. To learn more, visit the [Working with Fields](h
 
 ```cpp
 class FieldPrintDate : public Aspose::Words::Fields::Field,
-                       public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                       public Aspose::Words::Fields::IFieldWithCalendar
+                       public IFieldCodeTokenInfoProvider,
+                       public IFieldWithCalendar
 ```
 
 ## Methods
@@ -60,7 +60,7 @@ class FieldPrintDate : public Aspose::Words::Fields::Field,
 
 Shows read PRINTDATE fields. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - PRINTDATE.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - PRINTDATE.docx"));
 
 // When a document is printed by a printer or printed as a PDF (but not exported to PDF),
 // PRINTDATE fields will display the print operation's date/time.

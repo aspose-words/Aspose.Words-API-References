@@ -61,7 +61,7 @@ ASSERT_EQ(u"Value 4", listItems->get_SelectedValue()->get_Value());
     {
         if (enumerator->get_Current() != nullptr)
         {
-            std::cout << System::String::Format(u"List item: {0}, value: {1}", enumerator->get_Current()->get_DisplayText(), enumerator->get_Current()->get_Value()) << std::endl;
+            System::Console::WriteLine(System::String::Format(u"List item: {0}, value: {1}", enumerator->get_Current()->get_DisplayText(), enumerator->get_Current()->get_Value()));
         }
     }
 }

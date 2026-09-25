@@ -14,7 +14,7 @@ Represents a chart legend entry. To learn more, visit the [Working with Charts](
 
 ```cpp
 class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
-                         public Aspose::Words::Drawing::Charts::Core::IChartItemTextProperties
+                         public Core::IChartItemTextProperties
 ```
 
 ## Methods
@@ -40,7 +40,7 @@ The text of the entry is the name of the series or trendline. The text cannot be
 
 Shows how to work with a legend font. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Reporting engine template - Chart series.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Reporting engine template - Chart series.docx"));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_Chart();
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegend> chartLegend = chart->get_Legend();

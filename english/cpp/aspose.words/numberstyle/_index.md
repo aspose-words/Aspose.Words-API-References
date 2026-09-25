@@ -81,7 +81,7 @@ enum class NumberStyle
 | LowercaseRussian | 58 | Lowercase Russian alphabet. |
 | UppercaseRussian | 59 | Uppercase Russian alphabet. |
 | None | 255 | No bullet or number. |
-| Custom | 65280 | Custom number format. It is supported by DOCX format only. |
+| Custom | n/a | Custom number format. It is supported by DOCX format only. |
 
 
 ## Examples

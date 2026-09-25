@@ -27,7 +27,7 @@ The returned collection is a "live" collection, which means if you remove parts 
 
 Shows how to work with revisions in range. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 for (auto&& revision : System::IterateOver(paragraph->get_Range()->get_Revisions()))

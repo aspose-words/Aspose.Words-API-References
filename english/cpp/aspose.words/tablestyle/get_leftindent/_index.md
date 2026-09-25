@@ -38,7 +38,7 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Aligned to the center of the page");
 builder->EndTable();
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(300));
+table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 
 table->set_Style(tableStyle);
 
@@ -52,7 +52,7 @@ table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Aligned according to left indent");
 builder->EndTable();
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(300));
+table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 
 table->set_Style(tableStyle);
 

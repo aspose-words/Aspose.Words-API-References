@@ -20,11 +20,11 @@ enum class DocumentSecurity
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | There are no security states specified by the property. |
-| PasswordProtected | 1 | The document is password protected. (Note has never been seen in a document so far). |
-| ReadOnlyRecommended | 2 | The document to be opened read-only if possible, but the setting can be overridden. |
-| ReadOnlyEnforced | 4 | The document to always be opened read-only. |
-| ReadOnlyExceptAnnotations | 8 | The document to always be opened read-only except for annotations. |
+| None | n/a | There are no security states specified by the property. |
+| PasswordProtected | n/a | The document is password protected. (Note has never been seen in a document so far). |
+| ReadOnlyRecommended | n/a | The document to be opened read-only if possible, but the setting can be overridden. |
+| ReadOnlyEnforced | n/a | The document to always be opened read-only. |
+| ReadOnlyExceptAnnotations | n/a | The document to always be opened read-only except for annotations. |
 
 
 ## Examples
@@ -41,7 +41,7 @@ ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::None, doc->get_BuiltInDoc
 doc->get_WriteProtection()->set_ReadOnlyRecommended(true);
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyRecommended.docx");
 
-ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyRecommended, System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyRecommended.docx")->get_BuiltInDocumentProperties()->get_Security());
+ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyRecommended, System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyRecommended.docx"))->get_BuiltInDocumentProperties()->get_Security());
 
 // Write-protect a document, and then verify its security level.
 doc = System::MakeObject<Aspose::Words::Document>();
@@ -55,7 +55,7 @@ ASSERT_TRUE(doc->get_WriteProtection()->get_IsWriteProtected());
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyEnforced.docx");
 
-ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyEnforced, System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyEnforced.docx")->get_BuiltInDocumentProperties()->get_Security());
+ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyEnforced, System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyEnforced.docx"))->get_BuiltInDocumentProperties()->get_Security());
 
 // "Security" is a descriptive property. We can edit its value manually.
 doc = System::MakeObject<Aspose::Words::Document>();
@@ -64,7 +64,7 @@ doc->Protect(Aspose::Words::ProtectionType::AllowOnlyComments, u"MyPassword");
 doc->get_BuiltInDocumentProperties()->set_Security(Aspose::Words::Properties::DocumentSecurity::ReadOnlyExceptAnnotations);
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnotations.docx");
 
-ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyExceptAnnotations, System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnotations.docx")->get_BuiltInDocumentProperties()->get_Security());
+ASSERT_EQ(Aspose::Words::Properties::DocumentSecurity::ReadOnlyExceptAnnotations, System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnotations.docx"))->get_BuiltInDocumentProperties()->get_Security());
 ```
 
 ## See Also

@@ -28,7 +28,7 @@ You need to know the password to open an encrypted document. If the document is 
 Shows how to sign encrypted document file. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
 
 // Create a comment, date, and decryption password which will be applied with our new digital signature.
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -40,7 +40,7 @@ signOptions->set_DecryptionPassword(u"docPassword");
 System::String inputFileName = get_MyDir() + u"Encrypted.docx";
 System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.DecryptionPassword.docx";
 
-Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
+DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
 ## See Also

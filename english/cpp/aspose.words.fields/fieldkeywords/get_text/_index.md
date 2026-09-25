@@ -34,7 +34,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder-
 field->Update();
 
 ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());
-ASSERT_EQ(u"Keyword1, Keyword2", field->get_Result());
+ASSERT_EQ((u"Keyword1, Keyword2"), field->get_Result());
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.

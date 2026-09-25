@@ -14,7 +14,7 @@ Implements the ADVANCE field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldAdvance : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                     public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

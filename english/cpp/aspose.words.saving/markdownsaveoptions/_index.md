@@ -33,11 +33,11 @@ class MarkdownSaveOptions : public Aspose::Words::Saving::TxtSaveOptionsBase
 | [get_ExportAsHtml](./get_exportashtml/)() const | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [None](../markdownexportashtml/). |
 | [get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
-| [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() const | Specifies whether images are saved in Base64 format to the output file. Default value is **false**. |
+| [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() | Specifies whether images are saved in Base64 format to the output file. Default value is **false**. |
 | [get_ExportUnderlineFormatting](./get_exportunderlineformatting/)() const | Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is **false**. |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export. The default value is **false**. |
-| [get_ImageResolution](./get_imageresolution/)() const | Specifies the output resolution for images when exporting to Markdown. Default is **%96 dpi**. |
-| [get_ImageSavingCallback](./get_imagesavingcallback/)() const | Allows to control how images are saved when a document is saved to [Markdown](../../aspose.words/saveformat/) format. |
+| [get_ImageResolution](./get_imageresolution/)() | Specifies the output resolution for images when exporting to Markdown. Default is **%96 dpi**. |
+| [get_ImageSavingCallback](./get_imagesavingcallback/)() | Allows to control how images are saved when a document is saved to [Markdown](../../aspose.words/saveformat/) format. |
 | [get_ImagesFolder](./get_imagesfolder/)() const | Specifies the physical folder where images are saved when exporting a document to the [Markdown](../../aspose.words/saveformat/) format. Default is an empty string. |
 | [get_ImagesFolderAlias](./get_imagesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
 | [get_ImlRenderingMode](../saveoptions/get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |

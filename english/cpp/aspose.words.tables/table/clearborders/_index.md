@@ -23,7 +23,7 @@ void Aspose::Words::Tables::Table::ClearBorders()
 
 Shows how to apply an outline border to a table. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Align the table to the center of the page.
@@ -69,7 +69,7 @@ table->ClearBorders();
 doc->Save(get_ArtifactsDir() + u"Table.ClearBorders.docx");
 
 // Verify the values of the table's properties after re-opening the document.
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Table.ClearBorders.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Table.ClearBorders.docx"));
 table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(Aspose::Words::BorderType::Top);
 

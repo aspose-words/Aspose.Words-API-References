@@ -33,7 +33,7 @@ builder->Writeln(u"Hello world!");
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 builder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 300, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, static_cast<double>(300), static_cast<double>(100));
 builder->MoveTo(textBox->get_FirstParagraph());
 builder->get_ParagraphFormat()->get_Style()->get_Font()->set_Name(u"Courier New");
 builder->get_ParagraphFormat()->get_Style()->get_Font()->set_Size(24);

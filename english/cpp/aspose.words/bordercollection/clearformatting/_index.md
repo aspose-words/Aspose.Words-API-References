@@ -23,7 +23,7 @@ void Aspose::Words::BorderCollection::ClearFormatting()
 
 Shows how to remove all borders from all paragraphs in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Borders.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Borders.docx"));
 
 // The first paragraph of this document has visible borders with these settings.
 System::SharedPtr<Aspose::Words::BorderCollection> firstParagraphBorders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();

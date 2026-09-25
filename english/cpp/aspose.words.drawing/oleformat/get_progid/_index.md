@@ -31,7 +31,7 @@ The default value is an empty string.
 
 Shows how to extract embedded OLE objects into files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE spreadsheet.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.

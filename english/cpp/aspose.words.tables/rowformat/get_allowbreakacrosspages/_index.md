@@ -23,7 +23,7 @@ bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
 
 Shows how to disable rows breaking across pages for every row in a table. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table spanning two pages.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Set the "AllowBreakAcrossPages" property to "false" to keep the row

@@ -54,7 +54,7 @@ ASSERT_EQ(2, schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadat
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> enumerator = schemas->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << enumerator->get_Current() << std::endl;
+        System::Console::WriteLine(enumerator->get_Current());
     }
 }
 

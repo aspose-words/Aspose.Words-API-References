@@ -27,7 +27,7 @@ The default value for a [Shape](../../shape/) is **White**.
 
 Shows how to process shape stroke features. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape stroke pattern border.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();
 

@@ -20,11 +20,11 @@ enum class EmphasisMark
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No emphasis mark. |
-| OverSolidCircle | 1 | Emphasis mark is a solid black circle displayed above text. |
-| OverComma | 2 | Emphasis mark is a comma character displayed above text. |
-| OverWhiteCircle | 3 | Emphasis mark is an empty white circle displayed above text. |
-| UnderSolidCircle | 4 | Emphasis mark is a solid black circle displayed below text. |
+| None | n/a | No emphasis mark. |
+| OverSolidCircle | n/a | Emphasis mark is a solid black circle displayed above text. |
+| OverComma | n/a | Emphasis mark is a comma character displayed above text. |
+| OverWhiteCircle | n/a | Emphasis mark is an empty white circle displayed above text. |
+| UnderSolidCircle | n/a | Emphasis mark is a solid black circle displayed below text. |
 
 
 ## Examples

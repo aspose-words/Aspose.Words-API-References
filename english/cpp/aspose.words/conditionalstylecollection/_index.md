@@ -94,7 +94,7 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
         System::SharedPtr<Aspose::Words::ConditionalStyle> currentStyle = enumerator->get_Current();
         if (currentStyle != nullptr)
         {
-            std::cout << System::EnumGetName(currentStyle->get_Type()) << std::endl;
+            System::Console::WriteLine(System::ExplicitCast<System::Object>(currentStyle->get_Type()));
         }
     }
 }

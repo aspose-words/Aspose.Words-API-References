@@ -38,7 +38,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 // specify a custom separator between the XE field's Text property value and the string.
 index->set_CrossReferenceSeparator(u", see: ");
 
-ASSERT_EQ(u" INDEX  \\k \", see: \"", index->GetFieldCode());
+ASSERT_EQ((u" INDEX  \\k \", see: \""), index->GetFieldCode());
 
 // Insert an XE field, which creates a regular INDEX entry which displays this field's page number,
 // and does not invoke the CrossReferenceSeparator value.

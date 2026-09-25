@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_sheetsperbooklet/
 Returns or sets the number of pages to be included in each booklet.
 
 ```cpp
-int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet() const
+int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet()
 ```
 
 

@@ -53,12 +53,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Legal);
 builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
-builder->get_PageSetup()->set_TopMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_BottomMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_LeftMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_RightMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_HeaderDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
-builder->get_PageSetup()->set_FooterDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_TopMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_BottomMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_LeftMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_RightMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_HeaderDistance(ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_FooterDistance(ConvertUtil::InchToPoint(0.2));
 
 builder->Writeln(u"Hello world!");
 

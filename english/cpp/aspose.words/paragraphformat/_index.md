@@ -13,8 +13,8 @@ url: /cpp/aspose.words/paragraphformat/
 Represents all the formatting for a paragraph. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
 
 ```cpp
-class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
-                        public Aspose::Words::IShadingAttrSource
+class ParagraphFormat : public IBorderAttrSource,
+                        public IShadingAttrSource
 ```
 
 ## Methods

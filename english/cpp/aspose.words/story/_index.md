@@ -14,7 +14,7 @@ Base class for elements that contain block-level nodes [Paragraph](../paragraph/
 
 ```cpp
 class Story : public Aspose::Words::CompositeNode,
-              public Aspose::Words::IStory
+              public IStory
 ```
 
 ## Methods
@@ -73,7 +73,6 @@ class Story : public Aspose::Words::CompositeNode,
 | [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |

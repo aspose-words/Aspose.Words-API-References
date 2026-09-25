@@ -46,7 +46,7 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt", saveOptions);
 
 // If we load a plaintext document with page breaks,
 // the "Document" object will use them to split the body into pages.
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt"));
 
 ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
 ```

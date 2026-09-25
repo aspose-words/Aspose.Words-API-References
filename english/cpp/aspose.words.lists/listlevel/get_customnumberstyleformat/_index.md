@@ -23,7 +23,7 @@ System::String Aspose::Words::Lists::ListLevel::get_CustomNumberStyleFormat()
 
 Shows how to get the format for a list with the custom number style. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List with leading zero.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with leading zero.docx"));
 
 System::SharedPtr<Aspose::Words::Lists::ListLevel> listLevel = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ListFormat()->get_ListLevel();
 
@@ -34,17 +34,17 @@ if (listLevel->get_NumberStyle() == Aspose::Words::NumberStyle::Custom)
     customNumberStyleFormat = listLevel->get_CustomNumberStyleFormat();
 }
 
-ASSERT_EQ(u"001, 002, 003, ...", customNumberStyleFormat);
+ASSERT_EQ((u"001, 002, 003, ..."), customNumberStyleFormat);
 
 // We can get value for the specified index of the list item.
-ASSERT_EQ(u"iv", Aspose::Words::Lists::ListLevel::GetEffectiveValue(4, Aspose::Words::NumberStyle::LowercaseRoman, nullptr));
-ASSERT_EQ(u"005", Aspose::Words::Lists::ListLevel::GetEffectiveValue(5, Aspose::Words::NumberStyle::Custom, customNumberStyleFormat));
+ASSERT_EQ(u"iv", ListLevel::GetEffectiveValue(4, Aspose::Words::NumberStyle::LowercaseRoman, nullptr));
+ASSERT_EQ(u"005", ListLevel::GetEffectiveValue(5, Aspose::Words::NumberStyle::Custom, customNumberStyleFormat));
 ```
 
 
 Shows how to set customer number style format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List with leading zero.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with leading zero.docx"));
 
 doc->UpdateListLabels();
 

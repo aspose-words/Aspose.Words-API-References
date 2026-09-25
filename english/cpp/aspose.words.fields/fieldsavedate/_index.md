@@ -14,8 +14,8 @@ Implements the SAVEDATE field. To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldSaveDate : public Aspose::Words::Fields::Field,
-                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                      public Aspose::Words::Fields::IFieldWithCalendar
+                      public IFieldCodeTokenInfoProvider,
+                      public IFieldWithCalendar
 ```
 
 ## Methods
@@ -60,7 +60,7 @@ class FieldSaveDate : public Aspose::Words::Fields::Field,
 
 Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u" Date this document was last saved:");

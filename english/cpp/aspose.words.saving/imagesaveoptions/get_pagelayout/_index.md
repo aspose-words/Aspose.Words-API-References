@@ -31,13 +31,13 @@ This property has effect only when saving to the following formats: [Jpeg](../..
 
 Shows how to save the document into JPG image with multi-page layout settings. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
 // Set up a grid layout with:
 // - 3 columns per row.
 // - 10pts spacing between pages (horizontal and vertical).
-options->set_PageLayout(Aspose::Words::Saving::MultiPageLayout::Grid(3, 10.0f, 10.0f));
+options->set_PageLayout(MultiPageLayout::Grid(3, 10.0f, 10.0f));
 
 // Alternative layouts:
 // options.PageLayout = MultiPageLayout.Horizontal(10);
@@ -46,7 +46,7 @@ options->set_PageLayout(Aspose::Words::Saving::MultiPageLayout::Grid(3, 10.0f, 1
 // Customize the background and border.
 options->get_PageLayout()->set_BackColor(System::Drawing::Color::get_LightGray());
 options->get_PageLayout()->set_BorderColor(System::Drawing::Color::get_Blue());
-options->get_PageLayout()->set_BorderWidth(2.0f);
+options->get_PageLayout()->set_BorderWidth(2);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.GridLayout.jpg", options);
 ```

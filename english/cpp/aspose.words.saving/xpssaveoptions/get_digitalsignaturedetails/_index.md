@@ -23,9 +23,9 @@ const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> & Aspose
 
 Shows how to sign XPS document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
 auto options = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 options->set_SignTime(System::DateTime::get_Now());
 options->set_Comments(u"Some comments");

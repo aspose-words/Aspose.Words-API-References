@@ -23,7 +23,7 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::FileFormatInfo::get_Enc
 
 Shows how to detect encoding in an html file. 
 ```cpp
-System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.html");
+System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.html");
 
 ASSERT_EQ(Aspose::Words::LoadFormat::Html, info->get_LoadFormat());
 

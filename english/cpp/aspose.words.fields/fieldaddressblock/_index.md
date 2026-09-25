@@ -14,8 +14,8 @@ Implements the ADDRESSBLOCK field. To learn more, visit the [Working with Fields
 
 ```cpp
 class FieldAddressBlock : public Aspose::Words::Fields::Field,
-                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                          public Aspose::Words::Fields::IFormattableMergeField
+                          public IFieldCodeTokenInfoProvider,
+                          public IFormattableMergeField
 ```
 
 ## Methods

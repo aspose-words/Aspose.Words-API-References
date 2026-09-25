@@ -26,7 +26,7 @@ Shows how to add/remove chart data values.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> department1Series = chart->get_Series()->idx_get(0);
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> department2Series = chart->get_Series()->idx_get(1);
@@ -36,9 +36,9 @@ department1Series->Remove(0);
 department2Series->Remove(0);
 
 // Add new values to the both series.
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> newXCategory = Aspose::Words::Drawing::Charts::ChartXValue::FromString(u"Q1, 2023");
-department1Series->Add(newXCategory, Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10.3));
-department2Series->Add(newXCategory, Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(5.7));
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> newXCategory = ChartXValue::FromString(u"Q1, 2023");
+department1Series->Add(newXCategory, ChartYValue::FromDouble(10.3));
+department2Series->Add(newXCategory, ChartYValue::FromDouble(5.7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartDataValues.docx");
 ```

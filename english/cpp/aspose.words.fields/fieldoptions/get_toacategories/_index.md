@@ -38,8 +38,8 @@ toaCategories->idx_set(1, u"My Category 1");
 toaCategories->idx_set(2, u"My Category 2");
 
 // We can always access the default values via this collection.
-ASSERT_EQ(u"Cases", Aspose::Words::Fields::ToaCategories::get_DefaultCategories()->idx_get(1));
-ASSERT_EQ(u"Statutes", Aspose::Words::Fields::ToaCategories::get_DefaultCategories()->idx_get(2));
+ASSERT_EQ(u"Cases", ToaCategories::get_DefaultCategories()->idx_get(1));
+ASSERT_EQ(u"Statutes", ToaCategories::get_DefaultCategories()->idx_get(2));
 
 // Insert 2 TOA fields. TOA fields create an entry for each TA field in the document.
 // Use the "\c" switch to select the index of a category from our collection.

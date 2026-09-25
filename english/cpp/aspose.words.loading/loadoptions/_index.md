@@ -74,7 +74,7 @@ System::SharedPtr<Aspose::Words::Document> doc;
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.

@@ -23,7 +23,7 @@ int32_t Aspose::Words::Properties::DocumentPropertyCollection::get_Count()
 
 Shows how to work with custom document properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties.
@@ -31,12 +31,12 @@ ASSERT_EQ(u"Value of custom document property", System::ObjectExt::ToString(doc-
 
 doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", System::String(u"Value of custom document property #2"));
 
-std::cout << "Custom Properties:" << std::endl;
+System::Console::WriteLine(u"Custom Properties:");
 for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocumentProperties()))
 {
-    std::cout << customDocumentProperty->get_Name() << std::endl;
-    std::cout << System::String::Format(u"\tType:\t{0}", customDocumentProperty->get_Type()) << std::endl;
-    std::cout << System::String::Format(u"\tValue:\t\"{0}\"", customDocumentProperty->get_Value()) << std::endl;
+    System::Console::WriteLine(customDocumentProperty->get_Name());
+    System::Console::WriteLine(System::String::Format(u"\tType:\t{0}", customDocumentProperty->get_Type()));
+    System::Console::WriteLine(System::String::Format(u"\tValue:\t\"{0}\"", customDocumentProperty->get_Value()));
 }
 ```
 

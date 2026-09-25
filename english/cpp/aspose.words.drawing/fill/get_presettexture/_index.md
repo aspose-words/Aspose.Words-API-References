@@ -26,7 +26,7 @@ Shows how to fill and tiling the texture inside the shape.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
 
 // Apply texture alignment to the shape fill.
 shape->get_Fill()->PresetTextured(Aspose::Words::Drawing::PresetTexture::Canvas);
@@ -39,7 +39,7 @@ saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_200
 
 doc->Save(get_ArtifactsDir() + u"Shape.TextureFill.docx", saveOptions);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.TextureFill.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.TextureFill.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 ASSERT_EQ(Aspose::Words::Drawing::TextureAlignment::TopRight, shape->get_Fill()->get_TextureAlignment());

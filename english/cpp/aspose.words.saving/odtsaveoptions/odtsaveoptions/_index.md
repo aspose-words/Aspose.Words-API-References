@@ -23,7 +23,7 @@ Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions()
 
 Shows how to make a saved document conform to an older ODT schema. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>();
 saveOptions->set_MeasureUnit(Aspose::Words::Saving::OdtSaveMeasureUnit::Centimeters);
@@ -31,7 +31,7 @@ saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt"));
 ASSERT_EQ(Aspose::Words::MeasurementUnits::Centimeters, doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit());
 ```
 
@@ -69,13 +69,13 @@ builder->Writeln(u"Hello world!");
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>(saveFormat);
 saveOptions->set_Password(u"@sposeEncrypted_1145");
 
-System::String extensionString = Aspose::Words::FileFormatUtil::SaveFormatToExtension(saveFormat);
+System::String extensionString = FileFormatUtil::SaveFormatToExtension(saveFormat);
 
 // If we open this document with an appropriate editor,
 // it will prompt us for the password we specified in the SaveOptions object.
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
-System::SharedPtr<Aspose::Words::FileFormatInfo> docInfo = Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString);
+System::SharedPtr<Aspose::Words::FileFormatInfo> docInfo = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString);
 
 ASSERT_TRUE(docInfo->get_IsEncrypted());
 

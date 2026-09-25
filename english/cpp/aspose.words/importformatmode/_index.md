@@ -53,13 +53,13 @@ Using [KeepDifferentStyles](./) option allows to reuse destination styles if the
 
 Shows how to insert a document into another document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
-auto docToInsert = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Formatted elements.docx");
+auto docToInsert = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Formatted elements.docx"));
 
 builder->InsertDocument(docToInsert, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
 builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocument.docx");

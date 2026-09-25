@@ -14,7 +14,7 @@ Implements the AUTOTEXTLIST field. To learn more, visit the [Working with Fields
 
 ```cpp
 class FieldAutoTextList : public Aspose::Words::Fields::Field,
-                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                          public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

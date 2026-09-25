@@ -14,8 +14,8 @@ Implements the MERGEBARCODE field. To learn more, visit the [Working with Fields
 
 ```cpp
 class FieldMergeBarcode : public Aspose::Words::Fields::Field,
-                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                          public Aspose::Words::Fields::IMergeFieldSurrogate
+                          public IFieldCodeTokenInfoProvider,
+                          public IMergeFieldSurrogate
 ```
 
 ## Methods

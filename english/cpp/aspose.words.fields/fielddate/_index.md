@@ -14,8 +14,8 @@ Implements the DATE field. To learn more, visit the [Working with Fields](https:
 
 ```cpp
 class FieldDate : public Aspose::Words::Fields::Field,
-                  public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                  public Aspose::Words::Fields::IFieldWithCalendar
+                  public IFieldCodeTokenInfoProvider,
+                  public IFieldWithCalendar
 ```
 
 ## Methods

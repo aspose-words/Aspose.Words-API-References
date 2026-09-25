@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/rowformat/
 Represents all formatting for a table row. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
-class RowFormat : public Aspose::Words::IBorderAttrSource
+class RowFormat : public IBorderAttrSource
 ```
 
 ## Methods
@@ -133,7 +133,7 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table row. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.

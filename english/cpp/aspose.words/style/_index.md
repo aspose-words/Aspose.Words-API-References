@@ -13,8 +13,8 @@ url: /cpp/aspose.words/style/
 Represents a single built-in or user-defined style. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
-class Style : public Aspose::Words::IParaAttrSource,
-              public Aspose::Words::IRunAttrSource
+class Style : public IParaAttrSource,
+              public IRunAttrSource
 ```
 
 ## Methods

@@ -115,7 +115,7 @@ Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(const System::String &p
 Shows how to encrypt an Html document, and then open it using a password. 
 ```cpp
 // Create and sign an encrypted HTML document from an encrypted .docx.
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
 
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_Comments(u"Comment");
@@ -124,7 +124,7 @@ signOptions->set_DecryptionPassword(u"docPassword");
 
 System::String inputFileName = get_MyDir() + u"Encrypted.docx";
 System::String outputFileName = get_ArtifactsDir() + u"HtmlLoadOptions.EncryptedHtml.html";
-Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
+DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
 // To load and read this document, we will need to pass its decryption
 // password using a HtmlLoadOptions object.

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportimagesasbase64/
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64()
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ When this property is set to **true** images data are exported directly into the
 
 Shows how to save a .html document with images embedded inside it. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportImagesAsBase64(exportImagesAsBase64);
@@ -43,7 +43,7 @@ ASSERT_TRUE(exportImagesAsBase64 ? outDocContents.Contains(u"<img src=\"data:ima
 
 Shows how to embed fonts inside a saved HTML document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportFontsAsBase64(true);

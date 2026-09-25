@@ -33,7 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 doc->get_CustomDocumentProperties()->Add(u"AuthorizationDate", System::DateTime::get_Now());
 System::DateTime authorizationDate = doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime();
-std::cout << System::String::Format(u"Document authorized on {0}", authorizationDate) << std::endl;
+System::Console::WriteLine(System::String::Format(u"Document authorized on {0}", authorizationDate));
 ```
 
 

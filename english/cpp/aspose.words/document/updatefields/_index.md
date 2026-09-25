@@ -132,10 +132,10 @@ ASSERT_EQ(userInformation->get_Initials(), builder->InsertField(u" USERINITIALS 
 ASSERT_EQ(userInformation->get_Address(), builder->InsertField(u" USERADDRESS ")->get_Result());
 
 // The field options object also has a static default user that fields from all documents can refer to.
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Name(u"Default User");
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
-doc->get_FieldOptions()->set_CurrentUser(Aspose::Words::Fields::UserInformation::get_DefaultUser());
+UserInformation::get_DefaultUser()->set_Name(u"Default User");
+UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
+UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
+doc->get_FieldOptions()->set_CurrentUser(UserInformation::get_DefaultUser());
 
 ASSERT_EQ(u"Default User", builder->InsertField(u" USERNAME ")->get_Result());
 ASSERT_EQ(u"D. U.", builder->InsertField(u" USERINITIALS ")->get_Result());

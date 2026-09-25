@@ -20,6 +20,7 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 
 | Method | Description |
 | --- | --- |
+| [CompareTo](./compareto/)(const System::SharedPtr\<System::Object\>\&) | Compares the specified object to the current object. |
 | [CompareTo](./compareto/)(System::SharedPtr\<Aspose::Words::Lists::List\>) override | Compares the specified list to the current list. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Compares with the specified list. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |

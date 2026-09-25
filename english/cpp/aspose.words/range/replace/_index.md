@@ -54,7 +54,7 @@ builder->Writeln(u"I decided to get the curtains in gray, ideal for the grey-acc
 
 doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::Regex>(u"gr(a|e)y"), u"lavender");
 
-ASSERT_EQ(u"I decided to get the curtains in lavender, ideal for the lavender-accented room.", doc->GetText().Trim());
+ASSERT_EQ((u"I decided to get the curtains in lavender, ideal for the lavender-accented room."), doc->GetText().Trim());
 ```
 
 ## See Also
@@ -155,7 +155,7 @@ builder->Writeln(u"Greetings, _FullName_!");
 int32_t replacementCount = doc->get_Range()->Replace(u"_FullName_", u"John Doe");
 
 ASSERT_EQ(1, replacementCount);
-ASSERT_EQ(u"Greetings, John Doe!", doc->GetText().Trim());
+ASSERT_EQ((u"Greetings, John Doe!"), doc->GetText().Trim());
 ```
 
 
@@ -238,7 +238,7 @@ You should use special meta-characters if you need to work with breaks:
 
 Shows how to replace text in a document's footer. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footer.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
 System::SharedPtr<Aspose::Words::HeaderFooterCollection> headersFooters = doc->get_FirstSection()->get_HeadersFooters();
 System::SharedPtr<Aspose::Words::HeaderFooter> footer = headersFooters->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);

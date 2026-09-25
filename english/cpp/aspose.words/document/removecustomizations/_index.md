@@ -23,7 +23,7 @@ void Aspose::Words::Document::RemoveCustomizations()
 
 Shows how to remove toolbar and keyboard command customizations from the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Customized menu.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Customized menu.docx"));
 
 // Remove all custom document UI customizations, including custom context menu entries.
 doc->RemoveCustomizations();

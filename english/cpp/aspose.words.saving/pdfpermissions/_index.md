@@ -21,7 +21,7 @@ enum class PdfPermissions
 | Name | Value | Description |
 | --- | --- | --- |
 | DisallowAll | 0 | Disallows all operations on the PDF document. This is the default value. |
-| AllowAll | 65535 | Allows all operations on the PDF document. |
+| AllowAll | n/a | Allows all operations on the PDF document. |
 | ContentCopy | n/a | Copy or otherwise extract text and graphics from the document by operations other than that controlled by [ContentCopyForAccessibility](./). |
 | ContentCopyForAccessibility | n/a | Extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
 | ModifyContents | n/a | Modify the contents of the document by operations other than those controlled by [ModifyAnnotations](./), [FillIn](./), and [DocumentAssembly](./). |

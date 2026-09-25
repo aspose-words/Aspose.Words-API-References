@@ -14,8 +14,8 @@ Represents a container for text of a comment. To learn more, visit the [Working 
 
 ```cpp
 class Comment : public Aspose::Words::InlineStory,
-                public Aspose::Words::INodeWithAnnotationId,
-                public Aspose::Words::Revisions::IMoveTrackableNode
+                public INodeWithAnnotationId,
+                public Revisions::IMoveTrackableNode
 ```
 
 ## Methods
@@ -99,7 +99,6 @@ class Comment : public Aspose::Words::InlineStory,
 | [set_ParentId](./set_parentid/)(int32_t) | Sets the parent comment ID. A value of **%-1** means the comment has no parent. |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [SetText](./settext/)(const System::String\&) | This is a convenience method that allows to easily set text of the comment. |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |

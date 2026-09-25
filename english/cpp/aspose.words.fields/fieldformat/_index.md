@@ -60,8 +60,8 @@ format = field->get_Format();
 format->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
-ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
-std::cout << System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()) << std::endl;
+ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
+System::Console::WriteLine(System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()));
 
 // 3 -  General format:
 field = builder->InsertField(u"= 25 + 33");
@@ -75,7 +75,7 @@ int32_t index = 0;
     System::SharedPtr<System::Collections::Generic::IEnumerator<Aspose::Words::Fields::GeneralFormat>> generalFormatEnumerator = format->get_GeneralFormats()->GetEnumerator();
     while (generalFormatEnumerator->MoveNext())
     {
-        std::cout << System::String::Format(u"General format index {0}: {1}", index++, generalFormatEnumerator->get_Current()) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"General format index {0}: {1}", index++, generalFormatEnumerator->get_Current()));
     }
 }
 

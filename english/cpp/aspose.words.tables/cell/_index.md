@@ -14,8 +14,8 @@ Represents a table cell. To learn more, visit the [Working with Tables](https://
 
 ```cpp
 class Cell : public Aspose::Words::CompositeNode,
-             public Aspose::Words::ICellAttrSource,
-             public Aspose::Words::Revisions::ITrackableNode
+             public ICellAttrSource,
+             public Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -79,7 +79,6 @@ class Cell : public Aspose::Words::CompositeNode,
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |
@@ -125,14 +124,14 @@ doc->Save(get_ArtifactsDir() + u"Table.CreateTable.docx");
 
 Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
 ASSERT_EQ(2, tables->ToArray()->get_Length());
 
 for (int32_t i = 0; i < tables->get_Count(); i++)
 {
-    std::cout << System::String::Format(u"Start of Table {0}", i) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"Start of Table {0}", i));
 
     System::SharedPtr<Aspose::Words::Tables::RowCollection> rows = tables->idx_get(i)->get_Rows();
 
@@ -142,7 +141,7 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 
     for (int32_t j = 0; j < rows->get_Count(); j++)
     {
-        std::cout << System::String::Format(u"\tStart of Row {0}", j) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"\tStart of Row {0}", j));
 
         System::SharedPtr<Aspose::Words::Tables::CellCollection> cells = rows->idx_get(j)->get_Cells();
 
@@ -153,13 +152,13 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
         for (int32_t k = 0; k < cells->get_Count(); k++)
         {
             System::String cellText = cells->idx_get(k)->ToString(Aspose::Words::SaveFormat::Text).Trim();
-            std::cout << System::String::Format(u"\t\tContents of Cell:{0} = \"{1}\"", k, cellText) << std::endl;
+            System::Console::WriteLine(System::String::Format(u"\t\tContents of Cell:{0} = \"{1}\"", k, cellText));
         }
 
-        std::cout << System::String::Format(u"\tEnd of Row {0}", j) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"\tEnd of Row {0}", j));
     }
 
-    std::cout << System::String::Format(u"End of Table {0}\n", i) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"End of Table {0}\n", i));
 }
 ```
 

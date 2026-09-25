@@ -28,7 +28,7 @@ void Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag(const System::S
 
 Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There is a several ways to move the cursor:
@@ -85,7 +85,7 @@ When *structuredDocumentTagIndex* is greater than or equal to 0, it specifies an
 
 Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There is a several ways to move the cursor:

@@ -26,7 +26,7 @@ Sows how to set series color.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesColl = chart->get_Series();
@@ -35,7 +35,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesC
 seriesColl->Clear();
 
 // Create category names array.
-auto categories = System::MakeArray<System::String>({u"Category 1", u"Category 2"});
+System::ArrayPtr<System::String> categories = System::MakeArray<System::String>({u"Category 1", u"Category 2"});
 
 // Adding new series. Value and category arrays must be the same size.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series1 = seriesColl->Add(u"Series 1", categories, System::MakeArray<double>({1, 2}));

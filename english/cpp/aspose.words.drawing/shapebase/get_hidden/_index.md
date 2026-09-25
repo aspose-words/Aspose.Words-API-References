@@ -23,7 +23,7 @@ bool Aspose::Words::Drawing::ShapeBase::get_Hidden()
 
 Shows how to hide the shape. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shadow color.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 if (!shape->get_Hidden())

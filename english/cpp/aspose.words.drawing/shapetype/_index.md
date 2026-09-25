@@ -300,11 +300,11 @@ Shows how Aspose.Words identify shapes.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Heptagon, Aspose::Words::Drawing::RelativeHorizontalPosition::Page, 0, Aspose::Words::Drawing::RelativeVerticalPosition::Page, 0, 0, 0, Aspose::Words::Drawing::WrapType::None);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Heptagon, Aspose::Words::Drawing::RelativeHorizontalPosition::Page, static_cast<double>(0), Aspose::Words::Drawing::RelativeVerticalPosition::Page, static_cast<double>(0), static_cast<double>(0), static_cast<double>(0), Aspose::Words::Drawing::WrapType::None);
 
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Cloud, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, 0, Aspose::Words::Drawing::RelativeVerticalPosition::Page, 0, 0, 0, Aspose::Words::Drawing::WrapType::None);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Cloud, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, static_cast<double>(0), Aspose::Words::Drawing::RelativeVerticalPosition::Page, static_cast<double>(0), static_cast<double>(0), static_cast<double>(0), Aspose::Words::Drawing::WrapType::None);
 
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::MathPlus, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, 0, Aspose::Words::Drawing::RelativeVerticalPosition::Page, 0, 0, 0, Aspose::Words::Drawing::WrapType::None);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::MathPlus, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, static_cast<double>(0), Aspose::Words::Drawing::RelativeVerticalPosition::Page, static_cast<double>(0), static_cast<double>(0), static_cast<double>(0), Aspose::Words::Drawing::WrapType::None);
 
 // To correct identify shape types you need to work with shapes as DML.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx);
@@ -312,13 +312,13 @@ auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(A
 saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Transitional);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShapeTypes.docx", saveOptions);
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.ShapeTypes.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.ShapeTypes.docx"));
 
-System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
 for (System::SharedPtr<Aspose::Words::Drawing::Shape> shape : shapes)
 {
-    std::cout << System::EnumGetName(shape->get_ShapeType()) << std::endl;
+    System::Console::WriteLine(System::ExplicitCast<System::Object>(shape->get_ShapeType()));
 }
 ```
 

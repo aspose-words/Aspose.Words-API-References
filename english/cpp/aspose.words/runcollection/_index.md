@@ -41,7 +41,7 @@ class RunCollection : public Aspose::Words::NodeCollection
 
 Shows how to determine the revision type of an inline node. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revision runs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
 // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
 // is turned on in Microsoft Word, the changes we apply count as revisions.

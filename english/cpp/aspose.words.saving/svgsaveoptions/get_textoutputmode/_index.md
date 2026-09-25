@@ -29,7 +29,7 @@ The default value is [UseTargetMachineFonts](../../svgtextoutputmode/).
 
 Shows how to mimic the properties of images when converting a .docx document to .svg. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Configure the SvgSaveOptions object to save with no page borders or selectable text.
 auto options = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();

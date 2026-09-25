@@ -14,7 +14,7 @@ Implements the DDE field. To learn more, visit the [Working with Fields](https:/
 
 ```cpp
 class FieldDde : public Aspose::Words::Fields::Field,
-                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                 public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

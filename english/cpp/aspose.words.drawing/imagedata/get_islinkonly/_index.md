@@ -23,7 +23,7 @@ bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 
 Shows how to edit a shape's image data. 
 ```cpp
-auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->idx_get(0));
 
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();

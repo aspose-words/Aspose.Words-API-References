@@ -33,7 +33,7 @@ You can disable export of headers and footers altogether by setting this propert
 
 Shows how to omit headers/footers when saving a document to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Header and footer types.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
 // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
 ASSERT_EQ(u"First header", doc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::HeaderFirst)->GetText().Trim());
@@ -48,7 +48,7 @@ saveOptions->set_ExportHeadersFootersMode(Aspose::Words::Saving::ExportHeadersFo
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.ExportMode.html", saveOptions);
 
 // Open our saved document and verify that it does not contain the header's text
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HeaderFooter.ExportMode.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HeaderFooter.ExportMode.html"));
 
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```

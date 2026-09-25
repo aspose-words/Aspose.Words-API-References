@@ -40,7 +40,7 @@ ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose
 doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
 System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
 
-for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()))
+for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()))
 {
     paragraph->get_ListFormat()->set_List(list);
     paragraph->get_ListFormat()->set_ListLevelNumber(2);
@@ -63,10 +63,10 @@ ASPOSE_ASSERT_EQ(doc, lists->get_Document());
 System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(Aspose::Words::Lists::ListTemplate::BulletDefault);
 ASPOSE_ASSERT_EQ(doc, list->get_Document());
 
-std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;
-std::cout << (System::String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list))) << std::endl;
-std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
-std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
+System::Console::WriteLine(System::String(u"Current list count: ") + lists->get_Count());
+System::Console::WriteLine(System::String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list)));
+System::Console::WriteLine(System::String(u"ListId: ") + list->get_ListId());
+System::Console::WriteLine(System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list)));
 ```
 
 ## See Also

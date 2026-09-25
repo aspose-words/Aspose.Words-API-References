@@ -26,17 +26,17 @@ Shows how to insert data into a chart series.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series1 = chart->get_Series()->idx_get(0);
 
 // Clear X and Y values of the first series.
 series1->ClearValues();
 // Populate the series with data.
-series1->Insert(0, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3));
-series1->Insert(1, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(2, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(3, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10), 10);
+series1->Insert(0, ChartXValue::FromDouble(3));
+series1->Insert(1, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(2, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), static_cast<double>(10));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
@@ -66,17 +66,17 @@ Shows how to insert data into a chart series.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series1 = chart->get_Series()->idx_get(0);
 
 // Clear X and Y values of the first series.
 series1->ClearValues();
 // Populate the series with data.
-series1->Insert(0, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3));
-series1->Insert(1, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(2, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(3, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10), 10);
+series1->Insert(0, ChartXValue::FromDouble(3));
+series1->Insert(1, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(2, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), static_cast<double>(10));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
@@ -107,17 +107,17 @@ Shows how to insert data into a chart series.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series1 = chart->get_Series()->idx_get(0);
 
 // Clear X and Y values of the first series.
 series1->ClearValues();
 // Populate the series with data.
-series1->Insert(0, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3));
-series1->Insert(1, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(2, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10));
-series1->Insert(3, Aspose::Words::Drawing::Charts::ChartXValue::FromDouble(3), Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(10), 10);
+series1->Insert(0, ChartXValue::FromDouble(3));
+series1->Insert(1, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(2, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10));
+series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), static_cast<double>(10));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```

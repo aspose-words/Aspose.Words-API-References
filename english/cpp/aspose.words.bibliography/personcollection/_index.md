@@ -34,7 +34,6 @@ class PersonCollection : public Aspose::Words::Bibliography::Contributor,
 | [PersonCollection](./personcollection/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\&) | Initialize a new instance of the [PersonCollection](./) class. |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\>\&) | Removes the person from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the person at the specified index. |
-| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -43,7 +42,7 @@ class PersonCollection : public Aspose::Words::Bibliography::Contributor,
 
 Shows how to get bibliography sources available in the document. 
 ```cpp
-auto document = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bibliography sources.docx");
+auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
 ASSERT_EQ(12, bibliography->get_Sources()->get_Count());

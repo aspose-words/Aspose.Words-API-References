@@ -26,7 +26,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Scatter, 450, 250);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Scatter, static_cast<double>(450), static_cast<double>(250));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 ASSERT_EQ(1, chart->get_Series()->get_Count());
@@ -44,8 +44,8 @@ axis->set_MinorUnit(1);
 
 // Set the Y-axis bounds to -10 and 20.
 // This Y-axis will now display 4 major tick marks and 27 minor tick marks.
-axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(-10.0));
-axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(20.0));
+axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(-10)));
+axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(20)));
 
 // For the X-axis, set the major tick marks at every 10 units,
 // every minor tick mark at 2.5 units.
@@ -58,8 +58,8 @@ axis->set_MajorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Inside);
 axis->set_MinorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Inside);
 
 // Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
-axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(-10.0));
-axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(30.0));
+axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(-10)));
+axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(30)));
 axis->get_TickLabels()->set_Alignment(Aspose::Words::ParagraphAlignment::Right);
 
 ASSERT_EQ(1, axis->get_TickLabels()->get_Spacing());

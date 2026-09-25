@@ -27,7 +27,7 @@ The allowed values are within the range from -1 (the darkest) to 1 (the lightest
 
 Shows how to set back theme color and tint and shade. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Stroke gradient outline.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Stroke gradient outline.docx"));
 
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();

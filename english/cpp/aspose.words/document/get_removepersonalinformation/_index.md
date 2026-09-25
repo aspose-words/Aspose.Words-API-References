@@ -41,7 +41,7 @@ doc->set_RemovePersonalInformation(saveWithoutPersonalInfo);
 // This option will not take effect during a save operation made using Aspose.Words.
 // Personal data will be removed from our document with the flag set when we save it manually using Microsoft Word.
 doc->Save(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx"));
 
 ASPOSE_ASSERT_EQ(saveWithoutPersonalInfo, doc->get_RemovePersonalInformation());
 ASSERT_EQ(u"John Doe", doc->get_BuiltInDocumentProperties()->get_Author());

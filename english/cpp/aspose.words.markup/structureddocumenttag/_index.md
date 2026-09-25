@@ -14,9 +14,9 @@ Represents a structured document tag (SDT or content control) in a document. To 
 
 ```cpp
 class StructuredDocumentTag : public Aspose::Words::CompositeNode,
-                              public Aspose::Words::Markup::IMarkupNode,
-                              public Aspose::Words::Revisions::ITrackableNode,
-                              public Aspose::Words::IRunAttrSource,
+                              public IMarkupNode,
+                              public Revisions::ITrackableNode,
+                              public IRunAttrSource,
                               public Aspose::Words::Markup::IStructuredDocumentTag
 ```
 
@@ -122,7 +122,6 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [set_Title](./set_title/)(System::String) override | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Title](./get_title/). |
 | [SetCheckedSymbol](./setcheckedsymbol/)(int32_t, const System::String\&) | Sets the symbol used to represent the checked state of a check box content control. |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [SetUncheckedSymbol](./setuncheckedsymbol/)(int32_t, const System::String\&) | Sets the symbol used to represent the unchecked state of a check box content control. |
 | [StructuredDocumentTag](./structureddocumenttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Markup::SdtType, Aspose::Words::Markup::MarkupLevel) | Initializes a new instance of the **Structured document tag** class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
@@ -175,7 +174,7 @@ for (auto&& node : System::IterateOver(tags))
 {
     auto sdt = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(node);
 
-    std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
+    System::Console::WriteLine(sdt->get_WordOpenXMLMinimal());
 
     ASSERT_EQ(Aspose::Words::StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());

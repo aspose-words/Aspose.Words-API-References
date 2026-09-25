@@ -23,7 +23,7 @@ Aspose::Words::RevisionsView Aspose::Words::Document::get_RevisionsView() const
 
 Shows how to switch between the revised and the original view of a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions at list levels.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions at list levels.docx"));
 doc->UpdateListLabels();
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();

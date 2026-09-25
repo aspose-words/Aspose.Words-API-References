@@ -29,7 +29,7 @@ This property is used when the document is exported to the following formats: [T
 
 Shows how to improve the quality of a rendered document with [SaveOptions](../). 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(60);

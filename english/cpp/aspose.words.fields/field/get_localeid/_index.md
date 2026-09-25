@@ -29,7 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Insert a DATE field, and then print the date it will display.
 // Your thread's current culture determines the formatting of the date.
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE");
-std::cout << System::String::Format(u"Today's date, as displayed in the \"{0}\" culture: {1}", System::Globalization::CultureInfo::get_CurrentCulture()->get_EnglishName(), field->get_Result()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"Today's date, as displayed in the \"{0}\" culture: {1}", System::Globalization::CultureInfo::get_CurrentCulture()->get_EnglishName(), field->get_Result()));
 
 ASSERT_EQ(1033, field->get_LocaleId());
 
@@ -41,7 +41,7 @@ auto de = System::MakeObject<System::Globalization::CultureInfo>(u"de-DE");
 field->set_LocaleId(de->get_LCID());
 field->Update();
 
-std::cout << System::String::Format(u"Today's date, as displayed according to the \"{0}\" culture: {1}", System::Globalization::CultureInfo::GetCultureInfo(field->get_LocaleId())->get_EnglishName(), field->get_Result()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"Today's date, as displayed according to the \"{0}\" culture: {1}", System::Globalization::CultureInfo::GetCultureInfo(field->get_LocaleId())->get_EnglishName(), field->get_Result()));
 ```
 
 ## See Also

@@ -23,7 +23,7 @@ Aspose::Words::Saving::XlsxDateTimeParsingMode Aspose::Words::Saving::XlsxSaveOp
 
 Shows how to specify autodetection of the date time format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Xlsx DateTime.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Xlsx DateTime.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::XlsxSaveOptions>();
 // Specify using datetime format autodetection.

@@ -66,15 +66,12 @@ switch (txtExportHeadersFootersMode)
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::AllAtEnd:
         ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Even header{0}{1}", newLine, newLine) + System::String::Format(u"Primary header{0}{1}", newLine, newLine) + System::String::Format(u"Even footer{0}{1}", newLine, newLine) + System::String::Format(u"Primary footer{0}{1}", newLine, newLine), docText);
         break;
-
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::PrimaryOnly:
         ASSERT_EQ(System::String::Format(u"Primary header{0}", newLine) + System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Primary footer{0}", newLine), docText);
         break;
-
     case Aspose::Words::Saving::TxtExportHeadersFootersMode::None:
         ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine), docText);
         break;
-
 }
 ```
 

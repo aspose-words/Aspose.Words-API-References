@@ -29,7 +29,7 @@ If the value is not **null** or empty, it must be a valid CSS identifier.
 
 Shows how to save a document to HTML, and add a prefix to all of its CSS class names. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 saveOptions->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::External);

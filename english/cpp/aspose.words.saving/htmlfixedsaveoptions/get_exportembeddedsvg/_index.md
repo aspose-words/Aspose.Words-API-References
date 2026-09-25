@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg() const
 
 Shows how to determine where to store SVG objects when exporting a document to Html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 // When we export a document with SVG objects to .html,
 // Aspose.Words can place these objects in two possible locations.

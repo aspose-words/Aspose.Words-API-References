@@ -14,8 +14,8 @@ Implements the INCLUDETEXT field. To learn more, visit the [Working with Fields]
 
 ```cpp
 class FieldIncludeText : public Aspose::Words::Fields::Field,
-                         public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                         public Aspose::Words::Fields::IFieldIncludeTextCode
+                         public IFieldCodeTokenInfoProvider,
+                         public IFieldIncludeTextCode
 ```
 
 ## Methods

@@ -14,8 +14,8 @@ Represents a Word document. To learn more, visit the [Working with Document](htt
 
 ```cpp
 class Document : public Aspose::Words::DocumentBase,
-                 public Aspose::Words::ISectionAttrSource,
-                 public Aspose::Words::IWatermarkProvider
+                 public ISectionAttrSource,
+                 public IWatermarkProvider
 ```
 
 ## Methods
@@ -161,7 +161,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) | Saves the document to a stream using the specified format. |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Saves the document to a stream using the specified save options. |
 | [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, Aspose::Words::SaveFormat) |  |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) |  |
 | [SelectNodes](../compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../node/) that matches the XPath expression. |
 | [set_AttachedTemplate](./set_attachedtemplate/)(const System::String\&) | Setter for [Aspose::Words::Document::get_AttachedTemplate](./get_attachedtemplate/). |
@@ -193,7 +193,6 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_VbaProject](./set_vbaproject/)(const System::SharedPtr\<Aspose::Words::Vba::VbaProject\>\&) | Setter for [Aspose::Words::Document::get_VbaProject](./get_vbaproject/). |
 | [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../documentbase/get_warningcallback/). |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&, System::DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StopTrackRevisions](./stoptrackrevisions/)() | Stops automatic marking of document changes as revisions. |

@@ -13,10 +13,10 @@ url: /cpp/aspose.words/conditionalstyle/
 Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
-class ConditionalStyle : public Aspose::Words::IBorderAttrSource,
-                         public Aspose::Words::IShadingAttrSource,
-                         public Aspose::Words::IParaAttrSource,
-                         public Aspose::Words::IRunAttrSource
+class ConditionalStyle : public IBorderAttrSource,
+                         public IShadingAttrSource,
+                         public IParaAttrSource,
+                         public IRunAttrSource
 ```
 
 ## Methods
@@ -96,7 +96,7 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
         System::SharedPtr<Aspose::Words::ConditionalStyle> currentStyle = enumerator->get_Current();
         if (currentStyle != nullptr)
         {
-            std::cout << System::EnumGetName(currentStyle->get_Type()) << std::endl;
+            System::Console::WriteLine(System::ExplicitCast<System::Object>(currentStyle->get_Type()));
         }
     }
 }

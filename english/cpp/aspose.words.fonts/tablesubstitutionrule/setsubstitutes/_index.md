@@ -36,7 +36,7 @@ builder->Writeln(u"Hello world!");
 builder->get_Font()->set_Name(u"Amethysta");
 builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 
-System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> fontSources = Aspose::Words::Fonts::FontSettings::get_DefaultInstance()->GetFontsSources();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> fontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 // The default font sources contain the first font that the document uses.
 ASSERT_EQ(1, fontSources->get_Length());
@@ -56,7 +56,8 @@ ASSERT_FALSE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::F
 // Set two substitution fonts for "Amethysta": "Arvo", and "Courier New".
 // If the first substitute is unavailable, Aspose.Words attempts to use the second substitute, and so on.
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
-doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"Amethysta", System::MakeArray<System::String>({u"Arvo", u"Courier New"}));
+doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"Amethysta", System::MakeArray<System::String>({
+    u"Arvo", u"Courier New"}));
 
 // "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo".
 ASSERT_FALSE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool

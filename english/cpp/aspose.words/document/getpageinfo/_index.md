@@ -27,7 +27,7 @@ System::SharedPtr<Aspose::Words::Rendering::PageInfo> Aspose::Words::Document::G
 
 Shows how to check whether the page is in color or not. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Check that the first page of the document is not colored.
 ASSERT_FALSE(doc->GetPageInfo(0)->get_Colored());

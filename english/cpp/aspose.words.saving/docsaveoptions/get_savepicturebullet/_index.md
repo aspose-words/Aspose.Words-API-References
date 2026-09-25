@@ -27,7 +27,7 @@ This option is provided for Word 97, which cannot work correctly with PictureBul
 
 Shows how to omit PictureBullet data from the document when saving. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Image bullet points.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Image bullet points.docx"));
 
 // Some word processors, such as Microsoft Word 97, are incompatible with PictureBullet data.
 // By setting a flag in the SaveOptions object,

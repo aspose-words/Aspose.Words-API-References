@@ -66,7 +66,7 @@ ASSERT_EQ(System::String::Empty, doc->get_AttachedTemplate());
 // Since there is no template document, the document had nowhere to track style changes.
 // Use a SaveOptions object to automatically set a template
 // if a document that we are saving does not have one.
-System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = Aspose::Words::Saving::SaveOptions::CreateSaveOptions(u"Document.DefaultTemplate.docx");
+System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = SaveOptions::CreateSaveOptions(u"Document.DefaultTemplate.docx");
 options->set_DefaultTemplate(get_MyDir() + u"Business brochure.dotx");
 
 doc->Save(get_ArtifactsDir() + u"Document.DefaultTemplate.docx", options);

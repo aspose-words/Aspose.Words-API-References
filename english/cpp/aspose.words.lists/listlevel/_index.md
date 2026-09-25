@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listlevel/
 Defines formatting for a list level. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
-class ListLevel : public Aspose::Words::IRunAttrSource
+class ListLevel : public IRunAttrSource
 ```
 
 ## Methods

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_imageresolution/
 Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is **%96 dpi**.
 
 ```cpp
-int32_t Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution() const
+int32_t Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution()
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ This property effects raster images when [ScaleImageToShapeSize](../get_scaleima
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::External);

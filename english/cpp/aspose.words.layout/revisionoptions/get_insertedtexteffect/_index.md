@@ -23,7 +23,7 @@ Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions
 
 Shows how to modify the appearance of revisions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 // Get the RevisionOptions object that controls the appearance of revisions.
 System::SharedPtr<Aspose::Words::Layout::RevisionOptions> revisionOptions = doc->get_LayoutOptions()->get_RevisionOptions();

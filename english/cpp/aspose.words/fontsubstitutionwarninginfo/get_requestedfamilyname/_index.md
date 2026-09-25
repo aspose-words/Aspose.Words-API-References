@@ -23,7 +23,7 @@ System::String Aspose::Words::FontSubstitutionWarningInfo::get_RequestedFamilyNa
 
 Shows how to get additional information about font substitution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto callback = System::MakeObject<Aspose::Words::WarningInfoCollection>();
 doc->set_WarningCallback(callback);

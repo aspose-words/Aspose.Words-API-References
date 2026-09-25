@@ -121,7 +121,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Please select a fruit: ");
 
 // Insert a combo box which will allow a user to choose an option from a collection of strings.
-System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"Apple", u"Banana", u"Cherry"}), 0);
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
+    u"Apple", u"Banana", u"Cherry"}), 0);
 
 ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
 ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldFormDropDown, comboBox->get_Type());
@@ -134,7 +135,7 @@ doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 
 Shows how to formatting the entire [FormField](./), including the field value. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Form fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));
 
 System::SharedPtr<Aspose::Words::Fields::FormField> formField = doc->get_Range()->get_FormFields()->idx_get(0);
 formField->get_Font()->set_Bold(true);
@@ -143,7 +144,7 @@ formField->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 formField->set_Result(u"Aspose.FormField");
 
-doc = Aspose::Words::ApiExamples::DocumentHelper::SaveOpen(doc);
+doc = DocumentHelper::SaveOpen(doc);
 
 System::SharedPtr<Aspose::Words::Run> formFieldRun = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1);
 

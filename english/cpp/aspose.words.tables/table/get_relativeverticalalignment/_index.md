@@ -30,7 +30,7 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Table 1, cell 1");
 builder->EndTable();
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(300));
+table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 
 // Set the table's location to a place on the page, such as, in this case, the bottom right corner.
 table->set_RelativeVerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Bottom);
@@ -40,7 +40,7 @@ table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Table 2, cell 1");
 builder->EndTable();
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(300));
+table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 
 // We can also set a horizontal and vertical offset in points from the paragraph's location where we inserted the table.
 table->set_AbsoluteVerticalDistance(50);

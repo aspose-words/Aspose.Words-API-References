@@ -20,14 +20,14 @@ enum class MailMergeCleanupOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Specifies a default value. |
-| RemoveEmptyParagraphs | 1 | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed. |
-| RemoveUnusedRegions | 2 | Specifies whether unused mail merge regions should be removed from the document. |
-| RemoveUnusedFields | 4 | Specifies whether unused merge fields should be removed from the document. |
-| RemoveContainingFields | 8 | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
-| RemoveStaticFields | 16 | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. [Fields](../../aspose.words.fields/), which do not store their results in a document and are calculated on the fly (like [FieldListNum](../../aspose.words.fields/fieldtype/), [FieldSymbol](../../aspose.words.fields/fieldtype/), etc.) are not considered to be static. |
-| RemoveEmptyTableRows | 32 | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
-| RemoveEmptyTables | 64 | Specifies whether to remove from the document tables that contain mail merge regions that were removed using either the [RemoveUnusedRegions](./) or the [RemoveEmptyTableRows](./) option. |
+| None | n/a | Specifies a default value. |
+| RemoveEmptyParagraphs | n/a | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed. |
+| RemoveUnusedRegions | n/a | Specifies whether unused mail merge regions should be removed from the document. |
+| RemoveUnusedFields | n/a | Specifies whether unused merge fields should be removed from the document. |
+| RemoveContainingFields | n/a | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
+| RemoveStaticFields | n/a | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. [Fields](../../aspose.words.fields/), which do not store their results in a document and are calculated on the fly (like [FieldListNum](../../aspose.words.fields/fieldtype/), [FieldSymbol](../../aspose.words.fields/fieldtype/), etc.) are not considered to be static. |
+| RemoveEmptyTableRows | n/a | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
+| RemoveEmptyTables | n/a | Specifies whether to remove from the document tables that contain mail merge regions that were removed using either the [RemoveUnusedRegions](./) or the [RemoveEmptyTableRows](./) option. |
 
 ## See Also
 

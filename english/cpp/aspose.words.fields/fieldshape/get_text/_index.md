@@ -55,7 +55,7 @@ doc->Save(get_ArtifactsDir() + u"Field.BIDIOUTLINE.docx");
 Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading. 
 ```cpp
 // Open a document that was created in Microsoft Word 2003.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Legacy fields.doc");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Legacy fields.doc"));
 
 // If we open the Word document and press Alt+F9, we will see a SHAPE and an EMBED field.
 // A SHAPE field is the anchor/canvas for an AutoShape object with the "In line with text" wrapping style enabled.

@@ -66,23 +66,23 @@ You do not create instances of this class directly. Use the [FontInfos](../../as
 
 Shows how to print the details of what fonts are present in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Embedded font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
 System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> allFonts = doc->get_FontInfos();
 
 // Print all the used and unused fonts in the document.
 for (int32_t i = 0; i < allFonts->get_Count(); i++)
 {
-    std::cout << System::String::Format(u"Font index #{0}", i) << std::endl;
-    std::cout << System::String::Format(u"\tName: {0}", allFonts->idx_get(i)->get_Name()) << std::endl;
-    std::cout << System::String::Format(u"\tIs {0}a trueType font", (allFonts->idx_get(i)->get_IsTrueType() ? System::String(u"") : System::String(u"not "))) << std::endl;
+    System::Console::WriteLine(System::String::Format(u"Font index #{0}", i));
+    System::Console::WriteLine(System::String::Format(u"\tName: {0}", allFonts->idx_get(i)->get_Name()));
+    System::Console::WriteLine(System::String::Format(u"\tIs {0}a trueType font", allFonts->idx_get(i)->get_IsTrueType() ? System::String(u"") : System::String(u"not ")));
 }
 ```
 
 
 Shows how to save a document with embedded TrueType fonts. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> fontInfos = doc->get_FontInfos();
 fontInfos->set_EmbedTrueTypeFonts(embedAllFonts);

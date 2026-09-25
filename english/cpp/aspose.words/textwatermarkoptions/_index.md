@@ -50,7 +50,7 @@ doc->get_Watermark()->SetText(u"Aspose Watermark");
 // we can do so by passing a TextWatermarkOptions object when creating the watermark.
 auto textWatermarkOptions = System::MakeObject<Aspose::Words::TextWatermarkOptions>();
 textWatermarkOptions->set_FontFamily(u"Arial");
-textWatermarkOptions->set_FontSize(36.0f);
+textWatermarkOptions->set_FontSize(36);
 textWatermarkOptions->set_Color(System::Drawing::Color::get_Black());
 textWatermarkOptions->set_Layout(Aspose::Words::WatermarkLayout::Diagonal);
 textWatermarkOptions->set_IsSemitrasparent(false);

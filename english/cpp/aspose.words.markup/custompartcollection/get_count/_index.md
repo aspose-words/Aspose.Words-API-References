@@ -23,7 +23,7 @@ int32_t Aspose::Words::Markup::CustomPartCollection::get_Count()
 
 Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom parts OOXML package.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
 ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
 
@@ -39,11 +39,11 @@ ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
     int32_t index = 0;
     while (enumerator->MoveNext())
     {
-        std::cout << System::String::Format(u"Part index {0}:", index) << std::endl;
-        std::cout << System::String::Format(u"\tName:\t\t\t\t{0}", enumerator->get_Current()->get_Name()) << std::endl;
-        std::cout << System::String::Format(u"\tContent type:\t\t{0}", enumerator->get_Current()->get_ContentType()) << std::endl;
-        std::cout << System::String::Format(u"\tRelationship type:\t{0}", enumerator->get_Current()->get_RelationshipType()) << std::endl;
-        std::cout << (enumerator->get_Current()->get_IsExternal() ? u"\tSourced from outside the document" : System::String::Format(u"\tStored within the document, length: {0} bytes", enumerator->get_Current()->get_Data()->get_Length())) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"Part index {0}:", index));
+        System::Console::WriteLine(System::String::Format(u"\tName:\t\t\t\t{0}", enumerator->get_Current()->get_Name()));
+        System::Console::WriteLine(System::String::Format(u"\tContent type:\t\t{0}", enumerator->get_Current()->get_ContentType()));
+        System::Console::WriteLine(System::String::Format(u"\tRelationship type:\t{0}", enumerator->get_Current()->get_RelationshipType()));
+        System::Console::WriteLine(enumerator->get_Current()->get_IsExternal() ? System::String(u"\tSourced from outside the document") : System::String::Format(u"\tStored within the document, length: {0} bytes", enumerator->get_Current()->get_Data()->get_Length()));
         index++;
     }
 }

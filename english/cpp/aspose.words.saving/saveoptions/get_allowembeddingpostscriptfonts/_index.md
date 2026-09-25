@@ -45,7 +45,7 @@ doc->get_FontInfos()->set_EmbedTrueTypeFonts(true);
 
 // Allow embedding PostScript fonts while embedding TrueType fonts.
 // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
-System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions = Aspose::Words::Saving::SaveOptions::CreateSaveOptions(Aspose::Words::SaveFormat::Docx);
+System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions = SaveOptions::CreateSaveOptions(Aspose::Words::SaveFormat::Docx);
 saveOptions->set_AllowEmbeddingPostScriptFonts(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);

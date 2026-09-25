@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Drawing::Ole::OleControl> Aspose::Words::Drawin
 
 Shows how to verify the properties of an ActiveX control. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"ActiveX controls.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"ActiveX controls.docx"));
 
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Ole::OleControl> oleControl = shape->get_OleFormat()->get_OleControl();

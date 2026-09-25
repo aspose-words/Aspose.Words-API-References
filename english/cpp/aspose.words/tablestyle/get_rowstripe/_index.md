@@ -37,8 +37,8 @@ for (int32_t i = 0; i < 15; i++)
     for (int32_t j = 0; j < 4; j++)
     {
         builder->InsertCell();
-        builder->Writeln(System::String::Format(u"{0} column.", (j % 2 == 0 ? System::String(u"Even") : System::String(u"Odd"))));
-        builder->Write(System::String::Format(u"Row banding {0}.", (i % 3 == 0 ? System::String(u"start") : System::String(u"continuation"))));
+        builder->Writeln(System::String::Format(u"{0} column.", j % 2 == 0 ? System::String(u"Even") : System::String(u"Odd")));
+        builder->Write(System::String::Format(u"Row banding {0}.", i % 3 == 0 ? System::String(u"start") : System::String(u"continuation")));
     }
     builder->EndRow();
 }

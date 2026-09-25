@@ -33,10 +33,11 @@ Shows how to links will be written to the .md file.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, 100, 100);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, static_cast<double>(100), static_cast<double>(100));
 
 // Image will be written as reference:
 // ![ref1]
+//
 // [ref1]: aw_ref.001.png
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
 saveOptions->set_LinkExportMode(Aspose::Words::Saving::MarkdownLinkExportMode::Reference);

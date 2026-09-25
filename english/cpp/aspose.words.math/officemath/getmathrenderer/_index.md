@@ -31,7 +31,7 @@ This method just invokes the [OfficeMathRenderer](../../../aspose.words.renderin
 
 Shows how to render an Office [Math](../../) object into an image file in the local file system. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
 
@@ -40,7 +40,7 @@ auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
 
 // Set the "Scale" property to 5 to render the object to five times its original size.
-saveOptions->set_Scale(5.0f);
+saveOptions->set_Scale(5);
 
 math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png", saveOptions);
 ```

@@ -14,7 +14,7 @@ A collection of strings that represent all the items in a drop-down form field. 
 
 ```cpp
 class DropDownItemCollection : public System::Collections::Generic::IEnumerable<System::String>,
-                               public Aspose::Words::IComplexAttr
+                               public IComplexAttr
 ```
 
 ## Methods
@@ -90,7 +90,7 @@ ASSERT_EQ(5, dropDownItems->get_Count());
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> dropDownCollectionEnumerator = dropDownItems->GetEnumerator();
     while (dropDownCollectionEnumerator->MoveNext())
     {
-        std::cout << dropDownCollectionEnumerator->get_Current() << std::endl;
+        System::Console::WriteLine(dropDownCollectionEnumerator->get_Current());
     }
 }
 

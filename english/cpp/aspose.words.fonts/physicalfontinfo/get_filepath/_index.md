@@ -28,10 +28,10 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> folder
 
 for (auto&& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFonts()))
 {
-    std::cout << "FontFamilyName : " << fontInfo->get_FontFamilyName() << std::endl;
-    std::cout << "FullFontName  : " << fontInfo->get_FullFontName() << std::endl;
-    std::cout << "Version  : " << fontInfo->get_Version() << std::endl;
-    std::cout << "FilePath : " << fontInfo->get_FilePath() << "\n" << std::endl;
+    System::Console::WriteLine(u"FontFamilyName : {0}", fontInfo->get_FontFamilyName());
+    System::Console::WriteLine(u"FullFontName  : {0}", fontInfo->get_FullFontName());
+    System::Console::WriteLine(u"Version  : {0}", fontInfo->get_Version());
+    System::Console::WriteLine(u"FilePath : {0}\n", fontInfo->get_FilePath());
 }
 ```
 

@@ -29,17 +29,17 @@ This collection is never **null**. If the document is not signed, it will contai
 
 Shows how to validate and display information about each signature in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Digitally signed.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
 for (auto&& signature : doc->get_DigitalSignatures())
 {
-    std::cout << System::String::Format(u"{0} signature: ", (signature->get_IsValid() ? System::String(u"Valid") : System::String(u"Invalid"))) << std::endl;
-    std::cout << System::String::Format(u"\tReason:\t{0}", signature->get_Comments()) << std::endl;
-    std::cout << System::String::Format(u"\tType:\t{0}", signature->get_SignatureType()) << std::endl;
-    std::cout << System::String::Format(u"\tSign time:\t{0}", signature->get_SignTime()) << std::endl;
-    std::cout << System::String::Format(u"\tSubject name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_SubjectName()) << std::endl;
-    std::cout << System::String::Format(u"\tIssuer name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_IssuerName()->get_Name()) << std::endl;
-    std::cout << std::endl;
+    System::Console::WriteLine(System::String::Format(u"{0} signature: ", signature->get_IsValid() ? System::String(u"Valid") : System::String(u"Invalid")));
+    System::Console::WriteLine(System::String::Format(u"\tReason:\t{0}", signature->get_Comments()));
+    System::Console::WriteLine(System::String::Format(u"\tType:\t{0}", signature->get_SignatureType()));
+    System::Console::WriteLine(System::String::Format(u"\tSign time:\t{0}", signature->get_SignTime()));
+    System::Console::WriteLine(System::String::Format(u"\tSubject name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_SubjectName()));
+    System::Console::WriteLine(System::String::Format(u"\tIssuer name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_IssuerName()->get_Name()));
+    System::Console::WriteLine();
 }
 ```
 
@@ -47,32 +47,32 @@ for (auto&& signature : doc->get_DigitalSignatures())
 Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
-ASSERT_FALSE(Aspose::Words::FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
+ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
 
 // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw", nullptr);
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw", nullptr);
 
 // There are two ways of saving a signed copy of a document to the local file system:
 // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_SignTime(System::DateTime::get_Now());
-Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(get_MyDir() + u"Document.docx", get_ArtifactsDir() + u"Document.DigitalSignature.docx", certificateHolder, signOptions);
+DigitalSignatureUtil::Sign(get_MyDir() + u"Document.docx", get_ArtifactsDir() + u"Document.DigitalSignature.docx", certificateHolder, signOptions);
 
-ASSERT_TRUE(Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"Document.DigitalSignature.docx")->get_HasDigitalSignature());
+ASSERT_TRUE(FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"Document.DigitalSignature.docx")->get_HasDigitalSignature());
 
 // 2 - Take a document from a stream and save a signed copy to another stream.
 {
     auto inDoc = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Document.docx", System::IO::FileMode::Open);
     {
         auto outDoc = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"Document.DigitalSignature.docx", System::IO::FileMode::Create);
-        Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(inDoc, outDoc, certificateHolder);
+        DigitalSignatureUtil::Sign(inDoc, outDoc, certificateHolder);
     }
 }
 
-ASSERT_TRUE(Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"Document.DigitalSignature.docx")->get_HasDigitalSignature());
+ASSERT_TRUE(FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"Document.DigitalSignature.docx")->get_HasDigitalSignature());
 
 // Please verify that all of the document's digital signatures are valid and check their details.
-auto signedDoc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.DigitalSignature.docx");
+auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.DigitalSignature.docx"));
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());

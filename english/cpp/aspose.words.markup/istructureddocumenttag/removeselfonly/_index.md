@@ -23,7 +23,7 @@ virtual void Aspose::Words::Markup::IStructuredDocumentTag::RemoveSelfOnly()=0
 
 Shows how to remove structured document tag, but keeps content inside. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags.
 System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag>>> sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();

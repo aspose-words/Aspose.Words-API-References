@@ -23,7 +23,7 @@ Aspose::Words::Saving::HtmlVersion Aspose::Words::Saving::HtmlSaveOptions::get_H
 
 Shows how to save a document to a specific version of HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
 options->set_HtmlVersion(htmlVersion);
@@ -41,13 +41,11 @@ switch (htmlVersion)
         ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
-
     case Aspose::Words::Saving::HtmlVersion::Xhtml:
         ASSERT_TRUE(outDocContents.Contains(u"<a name=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
         ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
         break;
-
 }
 ```
 

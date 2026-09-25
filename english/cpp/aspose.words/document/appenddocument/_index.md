@@ -60,13 +60,13 @@ System::SharedPtr<System::Collections::Generic::List<System::String>> docFiles =
 })))->LINQ_ToList();
 for (auto&& fileName : docFiles)
 {
-    System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(fileName);
+    System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(fileName);
     if (info->get_IsEncrypted())
     {
         continue;
     }
 
-    auto srcDoc = System::MakeObject<Aspose::Words::Document>(fileName);
+    auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(fileName));
     dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::UseDestinationStyles);
 }
 
@@ -103,7 +103,7 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 Shows how to manage list style clashes while appending a document. 
 ```cpp
 // Load a document with text in a custom style and clone it.
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom list numbering.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom list numbering.docx"));
 System::SharedPtr<Aspose::Words::Document> dstDoc = srcDoc->Clone();
 
 // We now have two documents, each with an identical style named "CustomStyle".
@@ -160,8 +160,8 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocumentAndResolveStyl
 
 Shows how to manage list style clashes while appending a clone of a document to itself. 
 ```cpp
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
-auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.

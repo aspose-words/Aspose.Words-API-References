@@ -108,7 +108,7 @@ System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(g
         // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
         // that will play when we click on the shape in Microsoft Word.
         // 1 -  Insert an inline shape at the builder's node insertion cursor:
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, static_cast<double>(image->get_Width()), static_cast<double>(image->get_Height()));
 
         builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
@@ -116,7 +116,7 @@ System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(g
         double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
         double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
 
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), Aspose::Words::Drawing::WrapType::Square);
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, static_cast<double>(image->get_Width()), static_cast<double>(image->get_Height()), Aspose::Words::Drawing::WrapType::Square);
     }
 }
 
@@ -179,7 +179,7 @@ System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(g
         // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
         // that will play when we click on the shape in Microsoft Word.
         // 1 -  Insert an inline shape at the builder's node insertion cursor:
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, static_cast<double>(image->get_Width()), static_cast<double>(image->get_Height()));
 
         builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
@@ -187,7 +187,7 @@ System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(g
         double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
         double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
 
-        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), Aspose::Words::Drawing::WrapType::Square);
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, static_cast<double>(image->get_Width()), static_cast<double>(image->get_Height()), Aspose::Words::Drawing::WrapType::Square);
     }
 }
 
@@ -244,7 +244,7 @@ Shows how to insert an online video into a document using a URL.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->InsertOnlineVideo(u"https://youtu.be/g1N9ke8Prmk", 360, 270);
+builder->InsertOnlineVideo(u"https://youtu.be/g1N9ke8Prmk", static_cast<double>(360), static_cast<double>(270));
 
 // We can watch the video from Microsoft Word by clicking on the shape.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertVideoWithUrl.docx");

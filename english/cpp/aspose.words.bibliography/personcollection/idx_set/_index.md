@@ -27,7 +27,7 @@ void Aspose::Words::Bibliography::PersonCollection::idx_set(int32_t index, const
 
 Shows how to get bibliography sources available in the document. 
 ```cpp
-auto document = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bibliography sources.docx");
+auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
 ASSERT_EQ(12, bibliography->get_Sources()->get_Count());

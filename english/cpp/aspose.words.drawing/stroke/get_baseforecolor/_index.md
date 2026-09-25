@@ -26,7 +26,7 @@ Shows how to get foreground color without modifiers.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 40);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(40));
 shape->get_Fill()->set_ForeColor(System::Drawing::Color::get_Red());
 shape->get_Fill()->set_ForeTintAndShade(0.5);
 shape->get_Stroke()->get_Fill()->set_ForeColor(System::Drawing::Color::get_Green());

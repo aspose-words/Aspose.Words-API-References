@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Drawing::ImageData> Aspose::Words::Drawing::Sha
 
 Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 // Get the collection of shapes from the document,
 // and save the image data of every shape with an image as a file to the local file system.
@@ -35,13 +35,13 @@ ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspos
 }))));
 
 int32_t imageIndex = 0;
-for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
 {
     if (shape->get_HasImage())
     {
         // The image data of shapes may contain images of many possible image formats.
         // We can determine a file extension for each image automatically, based on its format.
-        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, Aspose::Words::FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
+        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
         shape->get_ImageData()->Save(get_ArtifactsDir() + imageFileName);
         imageIndex++;
     }
@@ -67,7 +67,7 @@ builder->InsertNode(shape);
 doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx");
 
 // Every image that we store in shape will increase the size of our document.
-ASSERT_TRUE(70000 < System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx")->get_Length());
+ASSERT_TRUE(static_cast<int64_t>(70000) < System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Embedded.docx")->get_Length());
 
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->RemoveAllChildren();
 
@@ -82,7 +82,7 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // Linking to images will save space and result in a smaller document.
 // However, the document can only display the image correctly while
 // the image file is present at the location that the shape's "SourceFullName" property points to.
-ASSERT_TRUE(10000 > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
+ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
 
 ## See Also

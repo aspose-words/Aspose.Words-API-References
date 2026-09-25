@@ -23,30 +23,30 @@ Aspose::Words::Properties::PropertyType Aspose::Words::Properties::DocumentPrope
 
 Shows how to work with built-in document properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
 // The "Document" object contains some of its metadata in its members.
-std::cout << System::String::Format(u"Document filename:\n\t \"{0}\"", doc->get_OriginalFileName()) << std::endl;
+System::Console::WriteLine(System::String::Format(u"Document filename:\n\t \"{0}\"", doc->get_OriginalFileName()));
 
 // The document also stores metadata in its built-in properties.
 // Each built-in property is a member of the document's "BuiltInDocumentProperties" object.
-std::cout << "Built-in Properties:" << std::endl;
+System::Console::WriteLine(u"Built-in Properties:");
 for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties()))
 {
-    std::cout << docProperty->get_Name() << std::endl;
-    std::cout << System::String::Format(u"\tType:\t{0}", docProperty->get_Type()) << std::endl;
+    System::Console::WriteLine(docProperty->get_Name());
+    System::Console::WriteLine(System::String::Format(u"\tType:\t{0}", docProperty->get_Type()));
 
     // Some properties may store multiple values.
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (auto&& value : System::IterateOver(System::AsCast<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
-            std::cout << System::String::Format(u"\tValue:\t\"{0}\"", value) << std::endl;
+            System::Console::WriteLine(System::String::Format(u"\tValue:\t\"{0}\"", value));
         }
     }
     else
     {
-        std::cout << System::String::Format(u"\tValue:\t\"{0}\"", docProperty->get_Value()) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"\tValue:\t\"{0}\"", docProperty->get_Value()));
     }
 }
 ```
@@ -75,7 +75,7 @@ ASSERT_EQ(5, properties->get_Count());
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Properties::DocumentProperty>>> enumerator = properties->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << System::String::Format(u"Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", enumerator->get_Current()->get_Name(), enumerator->get_Current()->get_Type(), enumerator->get_Current()->get_Value()) << std::endl;
+        System::Console::WriteLine(System::String::Format(u"Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", enumerator->get_Current()->get_Name(), enumerator->get_Current()->get_Type(), enumerator->get_Current()->get_Value()));
     }
 }
 

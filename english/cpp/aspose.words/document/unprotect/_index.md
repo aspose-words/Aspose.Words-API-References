@@ -40,7 +40,7 @@ doc->Save(get_ArtifactsDir() + u"Document.Protect.docx");
 
 // Note that the protection only applies to Microsoft Word users opening our document.
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
-auto protectedDoc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.Protect.docx");
+auto protectedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.Protect.docx"));
 
 ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
 
@@ -113,7 +113,7 @@ doc->Save(get_ArtifactsDir() + u"Document.Protect.docx");
 
 // Note that the protection only applies to Microsoft Word users opening our document.
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
-auto protectedDoc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.Protect.docx");
+auto protectedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.Protect.docx"));
 
 ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
 

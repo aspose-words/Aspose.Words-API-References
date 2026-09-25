@@ -23,7 +23,7 @@ bool Aspose::Words::Fields::FieldCreateDate::get_UseSakaEraCalendar() override
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u" Date this document was created:");

@@ -39,7 +39,7 @@ options->set_IgnoreFieldCodes(ignoreFieldCodes);
 
 // Replace 'T' in document ignoring text inside field code or not.
 doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::Regex>(u"T"), u"*", options);
-std::cout << doc->GetText() << std::endl;
+System::Console::WriteLine(doc->GetText());
 
 ASSERT_EQ(ignoreFieldCodes ? System::String(u"\u0013INCLUDETEXT\u0014*est I*!\u0015") : System::String(u"\u0013INCLUDE*EX*\u0014*est I*!\u0015"), doc->GetText().Trim());
 ```

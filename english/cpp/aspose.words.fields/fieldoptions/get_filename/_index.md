@@ -27,7 +27,7 @@ This property is used by the [FieldFileName](../../fieldfilename/) field with hi
 
 Shows how to use [FieldOptions](../) to override the default value for the FILENAME field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->MoveToDocumentEnd();

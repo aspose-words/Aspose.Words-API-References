@@ -23,7 +23,7 @@ bool Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber() const
 
 Show how to reset the initial page numbering and save the NUMPAGE field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Page fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Page fields.docx"));
 
 // Default behavior:
 // The extracted page numbering is the same as in the original document, as if we had selected "Print 2 pages" in MS Word.
