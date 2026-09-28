@@ -1,0 +1,39 @@
+﻿---
+title: PhoneticGuide.baseText property
+linktitle: baseText property
+articleTitle: baseText property
+second_title: Aspose.Words for Node.js
+description: "PhoneticGuide.baseText property. Gets base text of the phonetic guide."
+type: docs
+weight: 10
+url: /it/nodejs-net/aspose.words/phoneticguide/baseText/
+---
+
+## PhoneticGuide.baseText property
+
+Gets base text of the phonetic guide.
+
+
+```js
+get baseText(): string
+```
+
+### Examples
+
+Shows how to get properties of the phonetic guide.
+
+```js
+let doc = new aw.Document(base.myDir + "Phonetic guide.docx");
+
+let runs = doc.firstSection.body.firstParagraph.runs;
+// Use phonetic guide in the Asian text.
+expect(runs.at(0).isPhoneticGuide).toEqual(true);
+expect(runs.at(0).phoneticGuide.baseText).toEqual("base");
+expect(runs.at(0).phoneticGuide.rubyText).toEqual("ruby");
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [PhoneticGuide](../)
+
