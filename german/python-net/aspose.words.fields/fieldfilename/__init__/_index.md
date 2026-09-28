@@ -1,0 +1,23 @@
+﻿---
+title: FieldFileName constructor
+linktitle: FieldFileName constructor
+articleTitle: FieldFileName constructor
+second_title: Aspose.Words for Python
+description: "FieldFileName constructor. "
+type: docs
+weight: 10
+url: /de/python-net/aspose.words.fields/fieldfilename/__init__/
+---
+
+## FieldFileName() {#default}
+
+```python
+def __init__(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldFileName](../)
+

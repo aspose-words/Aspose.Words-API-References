@@ -1,0 +1,27 @@
+﻿---
+title: Field.as_field_data method
+linktitle: as_field_data method
+articleTitle: as_field_data method
+second_title: Aspose.Words for Python
+description: "Field.as_field_data method. Cast Field to [FieldData](../../fielddata/)."
+type: docs
+weight: 290
+url: /de/python-net/aspose.words.fields/field/as_field_data/
+---
+
+## as_field_data() {#default}
+
+Cast Field to [FieldData](../../fielddata/).
+
+
+
+```python
+def as_field_data(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+
