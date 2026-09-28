@@ -1,0 +1,80 @@
+﻿---
+title: TableCollection indexer
+linktitle: TableCollection indexer
+articleTitle: TableCollection indexer
+second_title: Aspose.Words for Python
+description: "TableCollection indexer. Retrieves a [Table](../../table/) at the given index."
+type: docs
+weight: 10
+url: /fr/python-net/aspose.words.tables/tablecollection/__getitem__/
+---
+
+## \_\_getitem\_\_(index) {#int}
+
+Retrieves a [Table](../../table/) at the given index.
+
+
+
+```python
+def __getitem__(self, index: int):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
+
+### Remarks
+
+The index is zero-based.
+
+Negative indexes are allowed and indicate access from the back of the collection. 
+For example -1 means the last item, -2 means the second before last and so on.
+
+If index is greater than or equal to the number of items in the list, this returns a null reference.
+
+If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+
+
+
+
+### Examples
+
+Shows how to iterate through all tables in the document and print the contents of each cell.
+
+```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+tables = doc.first_section.body.tables
+self.assertEqual(2, len(list(tables)))
+i = 0
+while i < tables.count:
+    print(f'Start of Table {i}')
+    rows = tables[i].rows
+    # Nous pouvons utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    assert rows == rows.to_array()
+    self.assertNotEqual(rows, list(rows))
+    j = 0
+    while j < rows.count:
+        print(f'\tStart of Row {j}')
+        cells = rows[j].cells
+        # Nous pouvons utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        assert cells == cells.to_array()
+        self.assertNotEqual(cells, list(cells))
+        k = 0
+        while k < cells.count:
+            cell_text = cells[k].to_string(save_format=aw.SaveFormat.TEXT).strip()
+            print(f'\t\tContents of Cell:{k} = "{cell_text}"')
+            k += 1
+        print(f'\tEnd of Row {j}')
+        j += 1
+    print(f'End of Table {i}\n')
+    i += 1
+```
+
+### See Also
+
+* module [aspose.words.tables](../../)
+* class [TableCollection](../)
+

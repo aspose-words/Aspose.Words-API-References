@@ -1,0 +1,81 @@
+﻿---
+title: ParagraphFormat.space_after_auto property
+linktitle: space_after_auto property
+articleTitle: space_after_auto property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.space_after_auto property. True if the amount of spacing after the paragraph is set automatically."
+type: docs
+weight: 320
+url: /fr/python-net/aspose.words/paragraphformat/space_after_auto/
+---
+
+## ParagraphFormat.space_after_auto property
+
+True if the amount of spacing after the paragraph is set automatically.
+
+
+```python
+@property
+def space_after_auto(self) -> bool:
+    ...
+
+@space_after_auto.setter
+def space_after_auto(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
+When set to ``True``, overrides the effect of [ParagraphFormat.space_after](../space_after/).
+
+
+
+
+When you set paragraph Space Before and Space After to Auto,
+Microsoft Word adds 14 points spacing between paragraphs automatically
+according to the following rules:
+
+
+* Normally, spacing is added after all paragraphs.
+  
+* In a bulleted or numbered list, spacing is added only after the last item in the list.
+  Spacing is not added between the list items.
+  
+* In a nested bulleted or numbered list spacing is not added.
+  
+* Spacing is normally added after a table.
+  
+* Spacing is not added after a table if it is the last block in a table cell.
+  
+* Spacing is not added after the last paragraph in a table cell.
+  
+
+
+
+### Examples
+
+Shows how to set automatic paragraph spacing.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# Appliquez une grande quantité d'espacement avant et après les paragraphes que ce constructeur créera.
+builder.paragraph_format.space_before = 24
+builder.paragraph_format.space_after = 24
+# Définissez ces drapeaux sur "true" pour appliquer un espacement automatique,
+# ignorant ainsi efficacement l’espacement dans les propriétés que nous avons définies ci‑dessus.
+# Les laisser à "false" appliquera notre espacement de paragraphe personnalisé.
+builder.paragraph_format.space_after_auto = auto_spacing
+builder.paragraph_format.space_before_auto = auto_spacing
+# Insérez deux paragraphes qui auront un espacement au-dessus et en dessous d’eux et enregistrez le document.
+builder.writeln('Paragraph 1.')
+builder.writeln('Paragraph 2.')
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.ParagraphSpacingAuto.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [ParagraphFormat](../)
+
