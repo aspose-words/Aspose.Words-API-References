@@ -1,0 +1,65 @@
+﻿---
+title: Range.normalize_field_types method
+linktitle: normalize_field_types method
+articleTitle: normalize_field_types method
+second_title: Aspose.Words for Python
+description: "Range.normalize_field_types method. Changes field type values [FieldChar.field_type](../../../aspose.words.fields/fieldchar/field_type/) of [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes."
+type: docs
+weight: 80
+url: /ar/python-net/aspose.words/range/normalize_field_types/
+---
+
+## normalize_field_types() {#default}
+
+Changes field type values [FieldChar.field_type](../../../aspose.words.fields/fieldchar/field_type/) of [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/)
+in this range so that they correspond to the field types contained in the field codes.
+
+
+
+```python
+def normalize_field_types(self):
+    ...
+```
+
+### Remarks
+
+Use this method after document changes that affect field types.
+
+To change field type values in the whole document use [Document.normalize_field_types()](../../document/normalize_field_types/#default).
+
+
+
+
+### Examples
+
+Shows how to get the keep a field's type up to date with its field code.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_code='DATE', field_value=None)
+# يقوم Aspose.Words تلقائيًا باكتشاف أنواع الحقول بناءً على رموز الحقول.
+self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.type)
+# قم بتغيير النص الأصلي للحقل يدويًا، والذي يحدد رمز الحقل.
+field_text = doc.first_section.body.first_paragraph.get_child_nodes(aw.NodeType.RUN, True)[0].as_run()
+field_text.text = 'PAGE'
+# تغيير رمز الحقل قد حول هذا الحقل إلى نوع مختلف،
+# لكن خصائص نوع الحقل لا تزال تعرض النوع القديم.
+self.assertEqual('PAGE', field.get_field_code())
+self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.type)
+self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.start.field_type)
+self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.separator.field_type)
+self.assertEqual(aw.fields.FieldType.FIELD_DATE, field.end.field_type)
+# حدّث تلك الخصائص بهذه الطريقة لعرض القيمة الحالية.
+doc.normalize_field_types()
+self.assertEqual(aw.fields.FieldType.FIELD_PAGE, field.type)
+self.assertEqual(aw.fields.FieldType.FIELD_PAGE, field.start.field_type)
+self.assertEqual(aw.fields.FieldType.FIELD_PAGE, field.separator.field_type)
+self.assertEqual(aw.fields.FieldType.FIELD_PAGE, field.end.field_type)
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Range](../)
+

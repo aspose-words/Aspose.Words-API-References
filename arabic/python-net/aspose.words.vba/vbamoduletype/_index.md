@@ -1,0 +1,49 @@
+﻿---
+title: VbaModuleType enumeration
+linktitle: VbaModuleType enumeration
+articleTitle: VbaModuleType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.vba.VbaModuleType enumeration. Specifies the type of a model in a VBA project."
+type: docs
+weight: 40
+url: /ar/python-net/aspose.words.vba/vbamoduletype/
+---
+
+## VbaModuleType enumeration
+
+Specifies the type of a model in a VBA project.
+
+
+### Members
+
+| Name | Description |
+| --- | --- |
+| DOCUMENT_MODULE | A type of VBA project item that specifies a module for embedded macros and programmatic access operations  that are associated with a document. |
+| PROCEDURAL_MODULE | A collection of subroutines and functions. |
+| CLASS_MODULE | A module that contains the definition for a new object. Each instance of a class creates a new object, and procedures that are defined in the module become properties and methods of the object. |
+| DESIGNER_MODULE | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
+
+### Examples
+
+Shows how to create a VBA project using macros.
+
+```python
+doc = aw.Document()
+# أنشئ مشروع VBA جديد.
+project = aw.vba.VbaProject()
+project.name = 'Aspose.Project'
+doc.vba_project = project
+# أنشئ وحدة جديدة وحدد شفرة المصدر للماكرو.
+module = aw.vba.VbaModule()
+module.name = 'Aspose.Module'
+module.type = aw.vba.VbaModuleType.PROCEDURAL_MODULE
+module.source_code = 'New source code'
+# أضف الوحدة إلى مشروع VBA.
+doc.vba_project.modules.add(module)
+doc.save(file_name=ARTIFACTS_DIR + 'VbaProject.CreateVBAMacros.docm')
+```
+
+### See Also
+
+* module [aspose.words.vba](../)
+
