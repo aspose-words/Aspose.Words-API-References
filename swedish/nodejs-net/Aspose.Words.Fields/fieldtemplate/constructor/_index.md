@@ -1,0 +1,22 @@
+﻿---
+title: FieldTemplate constructor
+linktitle: FieldTemplate constructor
+articleTitle: FieldTemplate constructor
+second_title: Aspose.Words for Node.js
+description: "FieldTemplate constructor. "
+type: docs
+weight: 10
+url: /sv/nodejs-net/aspose.words.fields/fieldtemplate/constructor/
+---
+
+## FieldTemplate() {#default}
+
+```js
+FieldTemplate()
+```
+
+### See Also
+
+* module [Aspose.Words.Fields](../../)
+* class [FieldTemplate](../)
+

@@ -1,0 +1,18 @@
+﻿---
+title: ChartDataLabelCollection.this[] property
+linktitle: this[] property
+articleTitle: this[] property
+second_title: Aspose.Words for Node.js
+description: "ChartDataLabelCollection.this[] property. "
+type: docs
+weight: 170
+url: /sv/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/this[]/
+---
+
+## ChartDataLabelCollection.this[] property
+
+### See Also
+
+* module [Aspose.Words.Drawing.Charts](../../)
+* class [ChartDataLabelCollection](../)
+
