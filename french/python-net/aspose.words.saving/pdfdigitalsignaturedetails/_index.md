@@ -1,0 +1,76 @@
+﻿---
+title: PdfDigitalSignatureDetails class
+linktitle: PdfDigitalSignatureDetails class
+articleTitle: PdfDigitalSignatureDetails class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.PdfDigitalSignatureDetails class. Contains details for signing a PDF document with a digital signature."
+type: docs
+weight: 650
+url: /fr/python-net/aspose.words.saving/pdfdigitalsignaturedetails/
+---
+
+## PdfDigitalSignatureDetails class
+
+Contains details for signing a PDF document with a digital signature.
+
+
+### Remarks
+
+At the moment digitally signing PDF documents is only available on .NET 3.5 or higher.
+
+To digitally sign a PDF document when it is created by Aspose.Words, set the [PdfSaveOptions.digital_signature_details](../pdfsaveoptions/digital_signature_details/) 
+property to a valid [PdfDigitalSignatureDetails](./) object and then save the document in the PDF format passing 
+the [PdfSaveOptions](../pdfsaveoptions/) as a parameter into the [Document.save()](../../aspose.words/document/save/#str_saveoptions) method.
+
+Aspose.Words creates a PKCS#7 signature over the whole PDF document and uses the "Adobe.PPKMS" filter and 
+"adbe.pkcs7.sha1" subfilter when creating a digital signature.
+
+
+
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [PdfDigitalSignatureDetails()](./__init__/#default) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails(certificate_holder, reason, location, signature_date)](./__init__/#certificateholder_str_str_datetime) | Initializes an instance of this class. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [certificate_holder](./certificate_holder/) | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [hash_algorithm](./hash_algorithm/) | Gets or sets the hash algorithm. |
+| [location](./location/) | Gets or sets the location of the signing. |
+| [reason](./reason/) | Gets or sets the reason for the signing. |
+| [signature_date](./signature_date/) | Gets or sets the date of the signing. |
+| [timestamp_settings](./timestamp_settings/) | Gets or sets the digital signature timestamp settings. |
+
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Contents of signed PDF.')
+certificate_holder = aw.digitalsignatures.CertificateHolder.create(file_name=MY_DIR + 'morzal.pfx', password='aw')
+# Créez un objet "PdfSaveOptions" que nous pouvons transmettre à la méthode "Save" du document
+# pour modifier la façon dont cette méthode convertit le document en .PDF.
+options = aw.saving.PdfSaveOptions()
+# Configurez l'objet "DigitalSignatureDetails" de l'objet "SaveOptions" pour
+# signer numériquement le document lors de son rendu avec la méthode "Save".
+signing_time = datetime.datetime(2015, 7, 20)
+options.digital_signature_details = aw.saving.PdfDigitalSignatureDetails(certificate_holder, 'Test Signing', 'My Office', signing_time)
+options.digital_signature_details.hash_algorithm = aw.saving.PdfDigitalSignatureHashAlgorithm.RIPE_MD160
+self.assertEqual('Test Signing', options.digital_signature_details.reason)
+self.assertEqual('My Office', options.digital_signature_details.location)
+self.assertEqual(signing_time, options.digital_signature_details.signature_date.replace(tzinfo=None))
+self.assertEqual(certificate_holder, options.digital_signature_details.certificate_holder)
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.PdfDigitalSignature.pdf', save_options=options)
+```
+
+### See Also
+
+* module [aspose.words.saving](../)
+* property [PdfSaveOptions.digital_signature_details](../pdfsaveoptions/digital_signature_details/)
+
