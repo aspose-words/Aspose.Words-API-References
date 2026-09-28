@@ -4,7 +4,7 @@ linktitle: ReadabilityStatistics
 second_title: Aspose.Words for Java
 description: Provides information about document readability score in Java.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.words/readabilitystatistics/
 ---
 

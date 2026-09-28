@@ -4,7 +4,7 @@ linktitle: Person
 second_title: Aspose.Words for Java
 description: Represents individual a person bibliography source contributor in Java.
 type: docs
-weight: 545
+weight: 546
 url: /java/com.aspose.words/person/
 ---
 

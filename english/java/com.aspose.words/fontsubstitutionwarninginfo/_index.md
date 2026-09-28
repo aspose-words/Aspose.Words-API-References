@@ -4,7 +4,7 @@ linktitle: FontSubstitutionWarningInfo
 second_title: Aspose.Words for Java
 description: Contains information about a font substitution warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 338
+weight: 339
 url: /java/com.aspose.words/fontsubstitutionwarninginfo/
 ---
 

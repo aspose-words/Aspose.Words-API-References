@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 394
+weight: 395
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 
@@ -2333,7 +2333,7 @@ Shows how to choose a renderer when converting a document to .emf.
 
  // The GDI+ renderer usually creates larger files.
  if (useGdiEmfRenderer)
-     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 300000);
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 650000);
  else
      Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() <= 30000);
  
@@ -4608,7 +4608,7 @@ Shows how to choose a renderer when converting a document to .emf.
 
  // The GDI+ renderer usually creates larger files.
  if (useGdiEmfRenderer)
-     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 300000);
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 650000);
  else
      Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() <= 30000);
  

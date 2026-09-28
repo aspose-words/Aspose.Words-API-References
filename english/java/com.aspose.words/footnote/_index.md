@@ -4,7 +4,7 @@ linktitle: Footnote
 second_title: Aspose.Words for Java
 description: Represents a container for text of a footnote or endnote in Java.
 type: docs
-weight: 339
+weight: 340
 url: /java/com.aspose.words/footnote/
 ---
 

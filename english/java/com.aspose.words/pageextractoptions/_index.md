@@ -4,7 +4,7 @@ linktitle: PageExtractOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document page extracting in Java.
 type: docs
-weight: 512
+weight: 513
 url: /java/com.aspose.words/pageextractoptions/
 ---
 

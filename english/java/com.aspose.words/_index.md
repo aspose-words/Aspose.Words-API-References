@@ -174,6 +174,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [DigitalSignature](../com.aspose.words/digitalsignature/) | Represents a digital signature on a document and the result of its verification. |
 | [DigitalSignatureCollection](../com.aspose.words/digitalsignaturecollection/) | Provides a read-only collection of digital signatures attached to a document. |
 | [DigitalSignatureDetails](../com.aspose.words/digitalsignaturedetails/) | Contains details for signing a document with a digital signature. |
+| [DigitalSignatureTimestampSettings](../com.aspose.words/digitalsignaturetimestampsettings/) | Contains settings of the digital signature timestamp. |
 | [DigitalSignatureType](../com.aspose.words/digitalsignaturetype/) | Specifies the type of a digital signature. |
 | [DigitalSignatureUtil](../com.aspose.words/digitalsignatureutil/) | Provides methods for signing document. |
 | [Direction](../com.aspose.words/direction/) | Text direction. |

@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document signing in Java.
 type: docs
-weight: 620
+weight: 621
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -66,9 +66,10 @@ Shows how to digitally sign documents.
 | [getSignTime()](#getSignTime) | The date of signing. |
 | [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
 | [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [getTimestampSettings()](#getTimestampSettings) | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). |
 | [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the digital signature. |
 | [getWindowsVersion()](#getWindowsVersion) | Gets the Windows version for the digital signature. |
-| [getXmlDsigLevel()](#getXmlDsigLevel) | Specifies the level of a digital signature based on XML-DSig standard. |
+| [getXmlDsigLevel()](#getXmlDsigLevel) | Specifies the level of a digital signature based on the XML-DSig standard. |
 | [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String) | Sets the application version for the digital signature. |
 | [setColorDepth(int value)](#setColorDepth-int) | Sets the color depth for the digital signature. |
 | [setComments(String value)](#setComments-java.lang.String) | Specifies comments on the digital signature. |
@@ -79,9 +80,10 @@ Shows how to digitally sign documents.
 | [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
 | [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
 | [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
+| [setTimestampSettings(DigitalSignatureTimestampSettings value)](#setTimestampSettings-com.aspose.words.DigitalSignatureTimestampSettings) | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). |
 | [setVerticalResolution(int value)](#setVerticalResolution-int) | Sets the vertical resolution for the digital signature. |
 | [setWindowsVersion(String value)](#setWindowsVersion-java.lang.String) | Sets the Windows version for the digital signature. |
-| [setXmlDsigLevel(int value)](#setXmlDsigLevel-int) | Specifies the level of a digital signature based on XML-DSig standard. |
+| [setXmlDsigLevel(int value)](#setXmlDsigLevel-int) | Specifies the level of a digital signature based on the XML-DSig standard. |
 ### getApplicationVersion() {#getApplicationVersion}
 ```
 public String getApplicationVersion()
@@ -641,6 +643,61 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 **Returns:**
 byte[] - The corresponding byte[] value.
+### getTimestampSettings() {#getTimestampSettings}
+```
+public DigitalSignatureTimestampSettings getTimestampSettings()
+```
+
+
+Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is  null  and the digital signature will not be time-stamped.
+
+ **Remarks:** 
+
+When this property is set to a valid [DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) object, and [getXmlDsigLevel()](../../com.aspose.words/signoptions/\#getXmlDsigLevel) / [setXmlDsigLevel(int)](../../com.aspose.words/signoptions/\#setXmlDsigLevel-int) is set to [XmlDsigLevel.X\_AD\_ES\_T](../../com.aspose.words/xmldsiglevel/\#X-AD-ES-T) or higher, the digital signature will be time-stamped.
+
+ **Examples:** 
+
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setXmlDsigLevel(XmlDsigLevel.X_AD_ES_T);
+     signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+             "https://freetsa.org/tsr",
+             "JohnDoe",
+             "MyPassword"));
+ }
+
+ CertificateHolder cert = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx");
+
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signedDoc.getDigitalSignatures().get(0).isValid());
+
+ // Verify timestamp settings are applied.
+ Assert.assertEquals("https://freetsa.org/tsr", signOptions.getTimestampSettings().getServerUrl());
+ Assert.assertEquals("JohnDoe", signOptions.getTimestampSettings().getUserName());
+ Assert.assertEquals("MyPassword", signOptions.getTimestampSettings().getPassword());
+ Assert.assertEquals(100.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+
+ // Test with custom timeout.
+ signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+         "https://freetsa.org/tsr",
+         "JohnDoe",
+         "MyPassword",
+         Duration.ofMinutes(30)));
+
+ Assert.assertEquals(1800.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+ 
+```
+
+**Returns:**
+[DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) - The corresponding [DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) value.
 ### getVerticalResolution() {#getVerticalResolution}
 ```
 public int getVerticalResolution()
@@ -735,11 +792,13 @@ public int getXmlDsigLevel()
 ```
 
 
-Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
+Specifies the level of a digital signature based on the XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
 
  **Remarks:** 
 
-Different levels of XAdES signatures can be created starting from Office 2010.
+Different levels of XAdES signatures can be created starting with Office 2010.
+
+This is only relevant for the following document formats: DOC, DOCX, and XPS. It is ignored in other document formats, which always produce a plain XML-DSig signature regardless of this setting.
 
  **Examples:** 
 
@@ -1347,6 +1406,64 @@ Shows how to add a signature line to a document, and then sign it using a digita
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
 
+### setTimestampSettings(DigitalSignatureTimestampSettings value) {#setTimestampSettings-com.aspose.words.DigitalSignatureTimestampSettings}
+```
+public void setTimestampSettings(DigitalSignatureTimestampSettings value)
+```
+
+
+Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is  null  and the digital signature will not be time-stamped.
+
+ **Remarks:** 
+
+When this property is set to a valid [DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) object, and [getXmlDsigLevel()](../../com.aspose.words/signoptions/\#getXmlDsigLevel) / [setXmlDsigLevel(int)](../../com.aspose.words/signoptions/\#setXmlDsigLevel-int) is set to [XmlDsigLevel.X\_AD\_ES\_T](../../com.aspose.words/xmldsiglevel/\#X-AD-ES-T) or higher, the digital signature will be time-stamped.
+
+ **Examples:** 
+
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setXmlDsigLevel(XmlDsigLevel.X_AD_ES_T);
+     signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+             "https://freetsa.org/tsr",
+             "JohnDoe",
+             "MyPassword"));
+ }
+
+ CertificateHolder cert = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx");
+
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signedDoc.getDigitalSignatures().get(0).isValid());
+
+ // Verify timestamp settings are applied.
+ Assert.assertEquals("https://freetsa.org/tsr", signOptions.getTimestampSettings().getServerUrl());
+ Assert.assertEquals("JohnDoe", signOptions.getTimestampSettings().getUserName());
+ Assert.assertEquals("MyPassword", signOptions.getTimestampSettings().getPassword());
+ Assert.assertEquals(100.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+
+ // Test with custom timeout.
+ signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+         "https://freetsa.org/tsr",
+         "JohnDoe",
+         "MyPassword",
+         Duration.ofMinutes(30)));
+
+ Assert.assertEquals(1800.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) | The corresponding [DigitalSignatureTimestampSettings](../../com.aspose.words/digitalsignaturetimestampsettings/) value. |
+
 ### setVerticalResolution(int value) {#setVerticalResolution-int}
 ```
 public void setVerticalResolution(int value)
@@ -1447,11 +1564,13 @@ public void setXmlDsigLevel(int value)
 ```
 
 
-Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
+Specifies the level of a digital signature based on the XML-DSig standard. The default value is [XmlDsigLevel.XML\_D\_SIG](../../com.aspose.words/xmldsiglevel/\#XML-D-SIG).
 
  **Remarks:** 
 
-Different levels of XAdES signatures can be created starting from Office 2010.
+Different levels of XAdES signatures can be created starting with Office 2010.
+
+This is only relevant for the following document formats: DOC, DOCX, and XPS. It is ignored in other document formats, which always produce a plain XML-DSig signature regardless of this setting.
 
  **Examples:** 
 
