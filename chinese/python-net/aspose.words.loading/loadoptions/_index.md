@@ -1,0 +1,73 @@
+﻿---
+title: LoadOptions class
+linktitle: LoadOptions class
+articleTitle: LoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.LoadOptions class. Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
+type: docs
+weight: 120
+url: /zh/python-net/aspose.words.loading/loadoptions/
+---
+
+## LoadOptions class
+
+Allows to specify additional options (such as password or base URI) when
+loading a document into a [Document](../../aspose.words/document/) object.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/python-net/specify-load-options/) documentation article.
+
+
+
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [LoadOptions()](./__init__/#default) | Initializes a new instance of this class with default values. |
+| [LoadOptions(password)](./__init__/#str) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions(load_format, password, base_uri)](./__init__/#loadformat_str_str) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [base_uri](./base_uri/) | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be ``None`` or empty string. Default is ``None``. |
+| [convert_metafiles_to_png](./convert_metafiles_to_png/) | Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format. |
+| [convert_shape_to_office_math](./convert_shape_to_office_math/) | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
+| [encoding](./encoding/) | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be ``None``. Default is ``None``. |
+| [font_settings](./font_settings/) | Allows to specify document font settings. |
+| [ignore_ole_data](./ignore_ole_data/) | Specifies whether to ignore the OLE data. |
+| [language_preferences](./language_preferences/) | Gets language preferences that will be used when document is loading. |
+| [load_format](./load_format/) | Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../aspose.words/loadformat/#AUTO). |
+| [msw_version](./msw_version/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD2019](../../aspose.words.settings/mswordversion/#WORD2019) |
+| [password](./password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``. |
+| [preserve_include_picture_field](./preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``. |
+| [progress_callback](./progress_callback/) | Called during loading a document and accepts data about loading progress. |
+| [recovery_mode](./recovery_mode/) | Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is [DocumentRecoveryMode.TRY_RECOVER](../documentrecoverymode/#TRY_RECOVER). |
+| [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [temp_folder](./temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used. |
+| [update_dirty_fields](./update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute. |
+| [use_system_lcid](./use_system_lcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins. |
+| [warning_callback](./warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+
+### Examples
+
+Shows how to load an encrypted Microsoft Word document.
+
+```python
+doc = None
+# 如果尝试在没有密码的情况下打开加密文档，Aspose.Words 会抛出异常。
+with self.assertRaises(Exception):
+    doc = aw.Document(file_name=MY_DIR + 'Encrypted.docx')
+# 加载此类文档时，密码通过 LoadOptions 对象传递给文档的构造函数。
+options = aw.loading.LoadOptions(password='docPassword')
+# 使用 LoadOptions 对象加载加密文档有两种方式。
+# 1 -  通过文件名从本地文件系统加载文档：
+doc = aw.Document(file_name=MY_DIR + 'Encrypted.docx', load_options=options)
+# 2 -  从流中加载文档：
+with system_helper.io.File.open_read(MY_DIR + 'Encrypted.docx') as stream:
+    doc = aw.Document(stream=stream, load_options=options)
+```
+
+### See Also
+
+* module [aspose.words.loading](../)
+

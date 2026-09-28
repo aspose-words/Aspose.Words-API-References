@@ -1,0 +1,49 @@
+﻿---
+title: OleFormat.clsid property
+linktitle: clsid property
+articleTitle: clsid property
+second_title: Aspose.Words for Python
+description: "OleFormat.clsid property. Gets the CLSID of the OLE object."
+type: docs
+weight: 20
+url: /zh/python-net/aspose.words.drawing/oleformat/clsid/
+---
+
+## OleFormat.clsid property
+
+Gets the CLSID of the OLE object.
+
+
+```python
+@property
+def clsid(self) -> uuid.UUID:
+    ...
+
+```
+
+### Examples
+
+Shows how to access an OLE control embedded in a document and its child controls.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'OLE ActiveX controls.docm')
+# Shapes 在文档主体中存储和显示 OLE 对象。
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+self.assertEqual('6e182020-f460-11ce-9bcd-00aa00608e01', str(shape.ole_format.clsid))
+ole_control = shape.ole_format.ole_control.as_forms2_ole_control()
+# 某些 OLE 控件可能包含子控件，例如本文件中具有三个选项按钮的控件。
+ole_control_collection = ole_control.child_nodes
+self.assertEqual(3, ole_control_collection.count)
+self.assertEqual('C#', ole_control_collection[0].caption)
+self.assertEqual('1', ole_control_collection[0].value)
+self.assertEqual('Visual Basic', ole_control_collection[1].caption)
+self.assertEqual('0', ole_control_collection[1].value)
+self.assertEqual('Delphi', ole_control_collection[2].caption)
+self.assertEqual('0', ole_control_collection[2].value)
+```
+
+### See Also
+
+* module [aspose.words.drawing](../../)
+* class [OleFormat](../)
+

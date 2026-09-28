@@ -1,0 +1,70 @@
+﻿---
+title: FontConfigSubstitutionRule class
+linktitle: FontConfigSubstitutionRule class
+articleTitle: FontConfigSubstitutionRule class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontConfigSubstitutionRule class. Font config substitution rule"
+type: docs
+weight: 60
+url: /zh/python-net/aspose.words.fonts/fontconfigsubstitutionrule/
+---
+
+## FontConfigSubstitutionRule class
+
+Font config substitution rule.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
+
+
+
+
+### Remarks
+
+This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution
+if the original font is not available.
+
+If fontconfig utility is not available then this rule will be ignored.
+
+
+
+
+**Inheritance:** [FontConfigSubstitutionRule](./) → [FontSubstitutionRule](../fontsubstitutionrule/)
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [enabled](./enabled/) | Specifies whether the rule is enabled or not. |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ is_font_config_available()](./is_font_config_available/#default) | Check if fontconfig utility is available or not. |
+|[ reset_cache()](./reset_cache/#default) | Resets the cache of fontconfig calling results. |
+
+### Examples
+
+Shows operating system-dependent font config substitution.
+
+```python
+font_settings = aw.fonts.FontSettings()
+font_config_substitution = font_settings.substitution_settings.font_config_substitution
+# FontConfigSubstitutionRule 对象在 Windows 与非 Windows 平台上的工作方式不同。
+# 在 Windows 上，它不可用。
+# 在 Linux/Mac 上，我们可以访问它，并能够执行操作。
+is_windows = os.name == 'nt'
+is_linux_or_mac = not is_windows
+if is_windows:
+    assert not font_config_substitution.enabled
+    assert not font_config_substitution.is_font_config_available()
+if is_linux_or_mac:
+    assert font_config_substitution.enabled
+    assert font_config_substitution.is_font_config_available()
+font_config_substitution.reset_cache()
+```
+
+### See Also
+
+* module [aspose.words.fonts](../)
+* class [FontSubstitutionRule](../fontsubstitutionrule/)
+
