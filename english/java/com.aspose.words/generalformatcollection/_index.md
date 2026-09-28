@@ -4,7 +4,7 @@ linktitle: GeneralFormatCollection
 second_title: Aspose.Words for Java
 description: Represents a typed collection of general formats in Java.
 type: docs
-weight: 356
+weight: 357
 url: /java/com.aspose.words/generalformatcollection/
 ---
 

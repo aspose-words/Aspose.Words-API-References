@@ -47,10 +47,56 @@ Shows how to compare SDT with same content but different store item id.
 
 | Method | Description |
 | --- | --- |
+| [getCompareListDefinitions()](#getCompareListDefinitions) | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [getIgnoreDmlUniqueId()](#getIgnoreDmlUniqueId) | Specifies whether to ignore difference in DrawingML unique Id. |
 | [getIgnoreStoreItemId()](#getIgnoreStoreItemId) | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
+| [setCompareListDefinitions(boolean value)](#setCompareListDefinitions-boolean) | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [setIgnoreDmlUniqueId(boolean value)](#setIgnoreDmlUniqueId-boolean) | Specifies whether to ignore difference in DrawingML unique Id. |
 | [setIgnoreStoreItemId(boolean value)](#setIgnoreStoreItemId-boolean) | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
+### getCompareListDefinitions() {#getCompareListDefinitions}
+```
+public boolean getCompareListDefinitions()
+```
+
+
+Specifies whether list definition contents are compared instead of list definition Ids.
+
+ **Remarks:** 
+
+Default value is  false .
+
+ **Examples:** 
+
+Shows how to control whether list definition content will be compared during document comparison.
+
+```
+
+ Document docA = new Document();
+ DocumentBuilder builderA = new DocumentBuilder(docA);
+ builderA.getListFormat().applyNumberDefault();
+ builderA.writeln("Item 1");
+ builderA.writeln("Item 2");
+ builderA.getListFormat().removeNumbers();
+
+ Document docB = new Document();
+ DocumentBuilder builderB = new DocumentBuilder(docB);
+ builderB.getListFormat().applyBulletDefault();
+ builderB.writeln("Item 1");
+ builderB.writeln("Item 2");
+ builderB.getListFormat().removeNumbers();
+
+ // Compare documents with CompareListDefinitions enabled.
+ CompareOptions options = new CompareOptions();
+ AdvancedCompareOptions advanced = options.getAdvancedOptions();
+ advanced.setCompareListDefinitions(isCompareListDefinitions);
+ options.setAdvancedOptions(advanced);
+
+ docA.compare(docB, "test", new Date(), options);
+ 
+```
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getIgnoreDmlUniqueId() {#getIgnoreDmlUniqueId}
 ```
 public boolean getIgnoreDmlUniqueId()
@@ -123,6 +169,53 @@ Shows how to compare SDT with same content but different store item id.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### setCompareListDefinitions(boolean value) {#setCompareListDefinitions-boolean}
+```
+public void setCompareListDefinitions(boolean value)
+```
+
+
+Specifies whether list definition contents are compared instead of list definition Ids.
+
+ **Remarks:** 
+
+Default value is  false .
+
+ **Examples:** 
+
+Shows how to control whether list definition content will be compared during document comparison.
+
+```
+
+ Document docA = new Document();
+ DocumentBuilder builderA = new DocumentBuilder(docA);
+ builderA.getListFormat().applyNumberDefault();
+ builderA.writeln("Item 1");
+ builderA.writeln("Item 2");
+ builderA.getListFormat().removeNumbers();
+
+ Document docB = new Document();
+ DocumentBuilder builderB = new DocumentBuilder(docB);
+ builderB.getListFormat().applyBulletDefault();
+ builderB.writeln("Item 1");
+ builderB.writeln("Item 2");
+ builderB.getListFormat().removeNumbers();
+
+ // Compare documents with CompareListDefinitions enabled.
+ CompareOptions options = new CompareOptions();
+ AdvancedCompareOptions advanced = options.getAdvancedOptions();
+ advanced.setCompareListDefinitions(isCompareListDefinitions);
+ options.setAdvancedOptions(advanced);
+
+ docA.compare(docB, "test", new Date(), options);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setIgnoreDmlUniqueId(boolean value) {#setIgnoreDmlUniqueId-boolean}
 ```
 public void setIgnoreDmlUniqueId(boolean value)

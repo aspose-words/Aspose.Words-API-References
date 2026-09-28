@@ -4,7 +4,7 @@ linktitle: JoinRunsOptions
 second_title: Aspose.Words for Java
 description: Provides configuration flags for the join runs operation in Java.
 type: docs
-weight: 406
+weight: 407
 url: /java/com.aspose.words/joinrunsoptions/
 ---
 

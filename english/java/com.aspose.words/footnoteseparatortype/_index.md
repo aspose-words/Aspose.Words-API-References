@@ -4,7 +4,7 @@ linktitle: FootnoteSeparatorType
 second_title: Aspose.Words for Java
 description: Specifies the type of the footnote/endnote separator in Java.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.words/footnoteseparatortype/
 ---
 

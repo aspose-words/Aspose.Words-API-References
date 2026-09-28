@@ -4,7 +4,7 @@ linktitle: FontSubstitutionReason
 second_title: Aspose.Words for Java
 description: Specifies the reason of font substitution in Java.
 type: docs
-weight: 335
+weight: 336
 url: /java/com.aspose.words/fontsubstitutionreason/
 ---
 

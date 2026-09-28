@@ -4,7 +4,7 @@ linktitle: TxtOfficeMathExportMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports OfficeMath to SaveFormat.TEXT in Java.
 type: docs
-weight: 694
+weight: 695
 url: /java/com.aspose.words/txtofficemathexportmode/
 ---
 

@@ -4,7 +4,7 @@ linktitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when generating thumbnail for a document in Java.
 type: docs
-weight: 687
+weight: 688
 url: /java/com.aspose.words/thumbnailgeneratingoptions/
 ---
 

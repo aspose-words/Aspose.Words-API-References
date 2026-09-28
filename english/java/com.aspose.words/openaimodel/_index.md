@@ -4,7 +4,7 @@ linktitle: OpenAiModel
 second_title: Aspose.Words for Java
 description: Class representing OpenAi models integration within Aspose.Words in Java.
 type: docs
-weight: 505
+weight: 506
 url: /java/com.aspose.words/openaimodel/
 ---
 

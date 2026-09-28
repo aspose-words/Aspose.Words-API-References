@@ -4,7 +4,7 @@ linktitle: TableSubstitutionRule
 second_title: Aspose.Words for Java
 description: Table font substitution rule in Java.
 type: docs
-weight: 662
+weight: 663
 url: /java/com.aspose.words/tablesubstitutionrule/
 ---
 

@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.XPS format in Java.
 type: docs
-weight: 749
+weight: 750
 url: /java/com.aspose.words/xpssaveoptions/
 ---
 
@@ -77,6 +77,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
+| [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
 | [getCustomTimeZoneInfo()](#getCustomTimeZoneInfo) | Gets custom local time zone used for date/time fields. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDigitalSignatureDetails()](#getDigitalSignatureDetails) | Gets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
@@ -108,6 +109,7 @@ Shows how to limit the headings' level that will appear in the outline of a save
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
+| [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
 | [setCustomTimeZoneInfo(TimeZone value)](#setCustomTimeZoneInfo-java.util.TimeZone) |  |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDigitalSignatureDetails(DigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.DigitalSignatureDetails) | Sets [DigitalSignatureDetails](../../com.aspose.words/digitalsignaturedetails/) object used to sign a document. |
@@ -348,6 +350,35 @@ Shows how to change image color with saving options property.
 
 **Returns:**
 int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
+### getCompressionLevel() {#getCompressionLevel}
+```
+public int getCompressionLevel()
+```
+
+
+Specifies the compression level used to save document. The default value is [CompressionLevel.NORMAL](../../com.aspose.words/compressionlevel/\#NORMAL).
+
+ **Examples:** 
+
+Shows how to control the compression level when saving a document to XPS format.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample document for XPS compression test.");
+
+ // Create an XpsSaveOptions object and set the compression level.
+ XpsSaveOptions options = new XpsSaveOptions();
+ options.setCompressionLevel(CompressionLevel.MAXIMUM);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.CompressionLevelXps.xps", options);
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants.
 ### getCustomTimeZoneInfo() {#getCustomTimeZoneInfo}
 ```
 public TimeZone getCustomTimeZoneInfo()
@@ -1853,6 +1884,38 @@ Shows how to change image color with saving options property.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode/) constants. |
+
+### setCompressionLevel(int value) {#setCompressionLevel-int}
+```
+public void setCompressionLevel(int value)
+```
+
+
+Specifies the compression level used to save document. The default value is [CompressionLevel.NORMAL](../../com.aspose.words/compressionlevel/\#NORMAL).
+
+ **Examples:** 
+
+Shows how to control the compression level when saving a document to XPS format.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample document for XPS compression test.");
+
+ // Create an XpsSaveOptions object and set the compression level.
+ XpsSaveOptions options = new XpsSaveOptions();
+ options.setCompressionLevel(CompressionLevel.MAXIMUM);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.CompressionLevelXps.xps", options);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [CompressionLevel](../../com.aspose.words/compressionlevel/) constants. |
 
 ### setCustomTimeZoneInfo(TimeZone value) {#setCustomTimeZoneInfo-java.util.TimeZone}
 ```

@@ -1,0 +1,71 @@
+---
+title: "Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Position метод"
+linktitle: "get_Position"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Position метод. Получает или задает позицию подписи данных в C++."
+type: docs
+weight: 5501
+url: /ru/cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_position/
+---
+## ChartDataLabelCollection::get_Position method
+
+
+Получает или задает позицию подписей данных.
+
+```cpp
+Aspose::Words::Drawing::Charts::ChartDataLabelPosition Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Position()
+```
+
+## Примечания
+
+
+Позицию можно установить для подписей данных следующих типов рядов диаграммы:
+
+* [Bar](../../chartseriestype/), [Column](../../chartseriestype/), [Histogram](../../chartseriestype/), [Pareto](../../chartseriestype/), [Waterfall](../../chartseriestype/); allowed values: [Center](../../chartdatalabelposition/), [InsideBase](../../chartdatalabelposition/), [InsideEnd](../../chartdatalabelposition/) and [OutsideEnd](../../chartdatalabelposition/);
+* [BarStacked](../../chartseriestype/), [BarPercentStacked](../../chartseriestype/), [ColumnStacked](../../chartseriestype/), [ColumnPercentStacked](../../chartseriestype/); allowed values: [Center](../../chartdatalabelposition/), [InsideBase](../../chartdatalabelposition/) and [InsideEnd](../../chartdatalabelposition/);
+* [Bubble](../../chartseriestype/), [Bubble3D](../../chartseriestype/), [Line](../../chartseriestype/), [LineStacked](../../chartseriestype/), [LinePercentStacked](../../chartseriestype/), [Scatter](../../chartseriestype/), [Stock](../../chartseriestype/); allowed values: [Center](../../chartdatalabelposition/), [Left](../../chartdatalabelposition/), [Right](../../chartdatalabelposition/), [Above](../../chartdatalabelposition/) and [Below](../../chartdatalabelposition/);
+* [Pie](../../chartseriestype/), [Pie3D](../../chartseriestype/), [PieOfBar](../../chartseriestype/), [PieOfPie](../../chartseriestype/); allowed values: [Center](../../chartdatalabelposition/), [InsideEnd](../../chartdatalabelposition/), [OutsideEnd](../../chartdatalabelposition/) and [BestFit](../../chartdatalabelposition/);
+* [BoxAndWhisker](../../chartseriestype/); allowed values: [Left](../../chartdatalabelposition/), [Right](../../chartdatalabelposition/), [Above](../../chartdatalabelposition/) and [Below](../../chartdatalabelposition/).
+
+
+
+## Примеры
+
+
+
+Показывает, как задать позицию подписи данных.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Вставить столбчатую диаграмму.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesColl = chart->get_Series();
+
+// Удалить автоматически сгенерированную серию.
+seriesColl->Clear();
+
+// Добавить серию.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = seriesColl->Add(u"Series 1", System::MakeArray<System::String>({u"Category 1", u"Category 2", u"Category 3"}), System::MakeArray<double>({4, 5, 6}));
+
+// Показать подписи данных и задать цвет шрифта.
+series->set_HasDataLabels(true);
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabelCollection> dataLabels = series->get_DataLabels();
+dataLabels->set_ShowValue(true);
+dataLabels->get_Font()->set_Color(System::Drawing::Color::get_White());
+
+// Задать позицию подписи данных.
+dataLabels->set_Position(Aspose::Words::Drawing::Charts::ChartDataLabelPosition::InsideBase);
+dataLabels->idx_get(0)->set_Position(Aspose::Words::Drawing::Charts::ChartDataLabelPosition::OutsideEnd);
+dataLabels->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_DarkRed());
+
+doc->Save(get_ArtifactsDir() + u"Charts.LabelPosition.docx");
+```
+
+## См. также
+
+* Enum [ChartDataLabelPosition](../../chartdatalabelposition/)
+* Class [ChartDataLabelCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)

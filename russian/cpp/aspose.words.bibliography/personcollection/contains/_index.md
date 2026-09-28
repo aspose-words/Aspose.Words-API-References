@@ -1,0 +1,59 @@
+---
+title: "Aspose::Words::Bibliography::PersonCollection::Contains метод"
+linktitle: "Contains"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Aspose::Words::Bibliography::PersonCollection::Contains метод. Определяет, содержит ли коллекция конкретного человека в C++."
+type: docs
+weight: 5000
+url: /ru/cpp/aspose.words.bibliography/personcollection/contains/
+---
+## PersonCollection::Contains method
+
+
+Определяет, содержит ли коллекция конкретного человека.
+
+```cpp
+bool Aspose::Words::Bibliography::PersonCollection::Contains(const System::SharedPtr<Aspose::Words::Bibliography::Person> &person)
+```
+
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| человек | const System::SharedPtr\<Aspose::Words::Bibliography::Person\>\& | Человек, которого нужно найти в коллекции. |
+
+## Примеры
+
+
+
+Показывает, как работать с коллекцией персон.
+```cpp
+// Создайте новую коллекцию персон.
+auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
+auto person = System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne", u"Brielle", u"Tejeda_updated");
+// Добавьте нового человека в коллекцию.
+persons->Add(person);
+ASSERT_EQ(1, persons->get_Count());
+// Удалите человека из коллекции, если он существует.
+if (persons->Contains(person))
+{
+    persons->Remove(person);
+}
+ASSERT_EQ(0, persons->get_Count());
+
+// Создайте коллекцию персон с двумя людьми.
+persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>(System::MakeArray<System::SharedPtr<Aspose::Words::Bibliography::Person>>({System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne_1", u"Brielle_1", u"Tejeda_1"), System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne_2", u"Brielle_2", u"Tejeda_2")}));
+ASSERT_EQ(2, persons->get_Count());
+// Удалить лицо из коллекции по индексу.
+persons->RemoveAt(0);
+ASSERT_EQ(1, persons->get_Count());
+// Удалить всех лиц из коллекции.
+persons->Clear();
+ASSERT_EQ(0, persons->get_Count());
+```
+
+## См. также
+
+* Class [Person](../../person/)
+* Class [PersonCollection](../)
+* Namespace [Aspose::Words::Bibliography](../../)
+* Library [Aspose.Words for C++](../../../)

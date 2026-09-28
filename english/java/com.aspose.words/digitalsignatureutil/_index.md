@@ -4,7 +4,7 @@ linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for Java
 description: Provides methods for signing document in Java.
 type: docs
-weight: 154
+weight: 155
 url: /java/com.aspose.words/digitalsignatureutil/
 ---
 
@@ -375,6 +375,45 @@ Shows how to sign a document with additional signing options.
  Assert.assertEquals(1024, signature.getHorizontalResolution());
  Assert.assertEquals(768, signature.getVerticalResolution());
  Assert.assertEquals(24, signature.getColorDepth());
+ 
+```
+
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
+
+```
+
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setXmlDsigLevel(XmlDsigLevel.X_AD_ES_T);
+     signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+             "https://freetsa.org/tsr",
+             "JohnDoe",
+             "MyPassword"));
+ }
+
+ CertificateHolder cert = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx", cert, signOptions);
+
+ Document signedDoc = new Document(getArtifactsDir() + "DigitalSignatureUtil.Timestamped.docx");
+
+ Assert.assertEquals(1, signedDoc.getDigitalSignatures().getCount());
+ Assert.assertTrue(signedDoc.getDigitalSignatures().get(0).isValid());
+
+ // Verify timestamp settings are applied.
+ Assert.assertEquals("https://freetsa.org/tsr", signOptions.getTimestampSettings().getServerUrl());
+ Assert.assertEquals("JohnDoe", signOptions.getTimestampSettings().getUserName());
+ Assert.assertEquals("MyPassword", signOptions.getTimestampSettings().getPassword());
+ Assert.assertEquals(100.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+
+ // Test with custom timeout.
+ signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
+         "https://freetsa.org/tsr",
+         "JohnDoe",
+         "MyPassword",
+         Duration.ofMinutes(30)));
+
+ Assert.assertEquals(1800.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
  
 ```
 

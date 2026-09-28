@@ -4,7 +4,7 @@ linktitle: DocumentRecoveryMode
 second_title: Aspose.Words for Java
 description: Specifies the available recovery options when a document encounters errors during loading in Java.
 type: docs
-weight: 171
+weight: 172
 url: /java/com.aspose.words/documentrecoverymode/
 ---
 

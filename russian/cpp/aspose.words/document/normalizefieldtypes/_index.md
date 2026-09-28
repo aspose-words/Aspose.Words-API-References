@@ -1,0 +1,65 @@
+---
+title: "Метод Aspose::Words::Document::NormalizeFieldTypes"
+linktitle: "NormalizeFieldTypes"
+second_title: "Справочник API Aspose.Words для C++"
+description: "Метод Aspose::Words::Document::NormalizeFieldTypes. Изменяет значения типа поля FieldType у FieldStart, FieldSeparator, FieldEnd во всем документе, чтобы они соответствовали типам полей, содержащимся в кодах полей, на C++."
+type: docs
+weight: 66000
+url: /ru/cpp/aspose.words/document/normalizefieldtypes/
+---
+## Document::NormalizeFieldTypes method
+
+
+Изменяет значения типа полей [FieldType](../../../aspose.words.fields/fieldchar/get_fieldtype/) элементов [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/) во всём документе, чтобы они соответствовали типам полей, содержащимся в кодах полей.
+
+```cpp
+void Aspose::Words::Document::NormalizeFieldTypes()
+```
+
+## Примечания
+
+
+Используйте этот метод после изменений документа, влияющих на типы полей.
+
+Чтобы изменить значения типа полей в определённой части документа, используйте [NormalizeFieldTypes](../../range/normalizefieldtypes/).
+
+## Примеры
+
+
+
+Показывает, как поддерживать тип поля в актуальном состоянии с его кодом поля.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE", nullptr);
+
+// Aspose.Words автоматически определяет типы полей на основе кодов полей.
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
+
+// Вручную измените необработанный текст поля, который определяет код поля.
+auto fieldText = System::ExplicitCast<Aspose::Words::Run>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(Aspose::Words::NodeType::Run, true)->idx_get(0));
+fieldText->set_Text(u"PAGE");
+
+// Изменение кода поля изменило это поле на тип другого типа,
+// но свойства типа поля всё ещё отображают старый тип.
+ASSERT_EQ(u"PAGE", field->GetFieldCode());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Start()->get_FieldType());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Separator()->get_FieldType());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_End()->get_FieldType());
+
+// Обновите эти свойства с помощью этого метода, чтобы отобразить текущее значение.
+doc->NormalizeFieldTypes();
+
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldPage, field->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldPage, field->get_Start()->get_FieldType());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldPage, field->get_Separator()->get_FieldType());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldPage, field->get_End()->get_FieldType());
+```
+
+## См. также
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
