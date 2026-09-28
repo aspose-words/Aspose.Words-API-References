@@ -1,0 +1,112 @@
+﻿---
+title: HtmlSaveOptions.export_font_resources property
+linktitle: export_font_resources property
+articleTitle: export_font_resources property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_font_resources property. Specifies whether font resources should be exported to HTML, MHTML or EPUB"
+type: docs
+weight: 140
+url: /de/python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/
+---
+
+## HtmlSaveOptions.export_font_resources property
+
+Specifies whether font resources should be exported to HTML, MHTML or EPUB.
+Default is ``False``.
+
+
+
+```python
+@property
+def export_font_resources(self) -> bool:
+    ...
+
+@export_font_resources.setter
+def export_font_resources(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
+Exporting font resources allows for consistent document rendering independent of the fonts available
+in a given user's environment.
+
+If [HtmlSaveOptions.export_font_resources](./) is set to ``True``, main HTML document will refer to every font via
+the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML
+formats, fonts will be embedded into the corresponding package along with other subsidiary files.
+
+If [HtmlSaveOptions.export_fonts_as_base64](../export_fonts_as_base64/) is set to ``True``, fonts will not be saved to separate files.
+Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
+
+**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable
+font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not
+allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules
+in CSS style sheets is not allowed. Font subsetting can also violate license terms.
+
+
+
+
+
+### Examples
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```python
+def handle_font_saving(self, args):
+    # Benutzerdefinierte Logik: Schriftart in ARTIFACTS_DIR exportieren
+    # args ist FontSavingArgs
+    if args.is_export_needed:
+        font_file_name = args.font_file_name
+        if not font_file_name:
+            font_file_name = args.font_family_name + '.ttf'
+        font_path = Path(ARTIFACTS_DIR) / font_file_name
+        with open(font_path, 'wb') as f:
+            # args.font_stream ist ein Stream-Objekt (ähnlich wie io.BytesIO)
+            f.write(args.font_stream.read())
+        # Optional: args.keep_font_stream_open = True, falls später benötigt
+        args.keep_font_stream_open = False
+
+def export_fonts_to_separate_files(self):
+    doc = aw.Document(MY_DIR + 'Rendering.docx')
+    options = aw.saving.HtmlSaveOptions()
+    options.export_font_resources = True
+    options.font_saving_callback = self.handle_font_saving
+    # Der Callback exportiert .ttf-Dateien und speichert sie neben dem Ausgabedokument.
+    doc.save(ARTIFACTS_DIR + 'HtmlSaveOptions.SaveExportedFonts.html', save_options=options)
+    for font_filename in [str(f) for f in Path(ARTIFACTS_DIR).iterdir() if f.suffix == '.ttf']:
+        print(font_filename)
+```
+
+Shows how to define custom logic for exporting fonts when saving to HTML (HandleFontSaving).
+
+```python
+class HandleFontSaving(aw.saving.IFontSavingCallback):
+
+    def font_saving(self, args):
+        from pathlib import Path
+        from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+        print(f'Font:\t{args.font_family_name}')
+        if args.bold:
+            print(', bold')
+        if args.italic:
+            print(', italic')
+        print(f'\nSource:\t{args.original_file_name}, {args.original_file_size} bytes\n')
+        # Wir können hier auch auf das Quelldokument zugreifen.
+        self.assertTrue(args.document.original_file_name.endswith('Rendering.docx'))
+        self.assertTrue(args.is_export_needed)
+        self.assertTrue(args.is_subsetting_needed)
+        # Es gibt zwei Möglichkeiten, eine exportierte Schriftart zu speichern.
+        # 1 -  Speichere sie an einem lokalen Dateisystemort:
+        args.font_file_name = Path(args.original_file_name).name
+        # 2 -  Speichere sie in einen Stream:
+        args.font_stream = open(Path(ARTIFACTS_DIR) / Path(args.original_file_name).name, 'wb')
+        self.assertFalse(args.keep_font_stream_open)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [HtmlSaveOptions](../)
+* property [HtmlSaveOptions.font_resources_subsetting_size_threshold](../font_resources_subsetting_size_threshold/)
+

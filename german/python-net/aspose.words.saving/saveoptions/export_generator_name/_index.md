@@ -1,0 +1,46 @@
+﻿---
+title: SaveOptions.export_generator_name property
+linktitle: export_generator_name property
+articleTitle: export_generator_name property
+second_title: Aspose.Words for Python
+description: "SaveOptions.export_generator_name property. When ``True``, causes the name and version of Aspose.Words to be embedded into produced files"
+type: docs
+weight: 60
+url: /de/python-net/aspose.words.saving/saveoptions/export_generator_name/
+---
+
+## SaveOptions.export_generator_name property
+
+When ``True``, causes the name and version of Aspose.Words to be embedded into produced files.
+Default value is ``True``.
+
+
+
+```python
+@property
+def export_generator_name(self) -> bool:
+    ...
+
+@export_generator_name.setter
+def export_generator_name(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```python
+doc = aw.Document()
+# Verwenden Sie https:#docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/, um zu erfahren, wie das Ergebnis überprüft wird.
+save_options = aw.saving.OoxmlSaveOptions()
+save_options.export_generator_name = False
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.ExportGeneratorName.docx', save_options=save_options)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [SaveOptions](../)
+
