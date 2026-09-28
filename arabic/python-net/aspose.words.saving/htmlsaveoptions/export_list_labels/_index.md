@@ -1,0 +1,81 @@
+﻿---
+title: HtmlSaveOptions.export_list_labels property
+linktitle: export_list_labels property
+articleTitle: export_list_labels property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_list_labels property. Controls how list labels are output to HTML, MHTML or EPUB"
+type: docs
+weight: 190
+url: /ar/python-net/aspose.words.saving/htmlsaveoptions/export_list_labels/
+---
+
+## HtmlSaveOptions.export_list_labels property
+
+Controls how list labels are output to HTML, MHTML or EPUB.
+Default value is [ExportListLabels.AUTO](../../exportlistlabels/#AUTO).
+
+
+
+```python
+@property
+def export_list_labels(self) -> aspose.words.saving.ExportListLabels:
+    ...
+
+@export_list_labels.setter
+def export_list_labels(self, value: aspose.words.saving.ExportListLabels):
+    ...
+
+```
+
+### Examples
+
+Shows how to configure list exporting to HTML.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.NUMBER_DEFAULT)
+builder.list_format.list = doc_list
+builder.writeln('Default numbered list item 1.')
+builder.writeln('Default numbered list item 2.')
+builder.list_format.list_indent()
+builder.writeln('Default numbered list item 3.')
+builder.list_format.remove_numbers()
+doc_list = doc.lists.add(list_template=aw.lists.ListTemplate.OUTLINE_HEADINGS_LEGAL)
+builder.list_format.list = doc_list
+builder.writeln('Outline legal heading list item 1.')
+builder.writeln('Outline legal heading list item 2.')
+builder.list_format.list_indent()
+builder.writeln('Outline legal heading list item 3.')
+builder.list_format.list_indent()
+builder.writeln('Outline legal heading list item 4.')
+builder.list_format.list_indent()
+builder.writeln('Outline legal heading list item 5.')
+builder.list_format.remove_numbers()
+# عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+# لتحديد أي عناصر HTML سيستخدمها المستند لتمثيل القوائم.
+# ضبط الخاصية "ExportListLabels" إلى "ExportListLabels.AsInlineText"
+# سوف ينشئ القوائم عن طريق تنسيق الـ spans.
+# ضبط الخاصية "ExportListLabels" إلى "ExportListLabels.Auto" سيستخدم الوسم <p>
+# لبناء القوائم في الحالات التي قد يتسبب فيها استخدام وسمي <ol> و <li> بفقدان التنسيق.
+# ضبط الخاصية "ExportListLabels" إلى "ExportListLabels.ByHtmlTags"
+# سيستخدم وسمي <ol> و <li> لبناء جميع القوائم.
+options = aw.saving.HtmlSaveOptions()
+options.export_list_labels = export_list_labels
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlSaveOptions.List.html', save_options=options)
+out_doc_contents = system_helper.io.File.read_all_text(ARTIFACTS_DIR + 'HtmlSaveOptions.List.html')
+switch_condition = export_list_labels
+if switch_condition == aw.saving.ExportListLabels.AS_INLINE_TEXT:
+    self.assertTrue('<p style="margin-top:0pt; margin-left:72pt; margin-bottom:0pt; text-indent:-18pt; -aw-import:list-item; -aw-list-level-number:1; -aw-list-number-format:\'%1.\'; -aw-list-number-styles:\'lowerLetter\'; -aw-list-number-values:\'1\'; -aw-list-padding-sml:9.67pt">' + '<span style="-aw-import:ignore">' + '<span>a.</span>' + '<span style="width:9.67pt; font:7pt \'Times New Roman\'; display:inline-block; -aw-import:spaces">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>' + '</span>' + '<span>Default numbered list item 3.</span>' + '</p>' in out_doc_contents)
+    self.assertTrue('<p style="margin-top:0pt; margin-left:43.2pt; margin-bottom:0pt; text-indent:-43.2pt; -aw-import:list-item; -aw-list-level-number:3; -aw-list-number-format:\'%0.%1.%2.%3\'; -aw-list-number-styles:\'decimal decimal decimal decimal\'; -aw-list-number-values:\'2 1 1 1\'; -aw-list-padding-sml:10.2pt">' + '<span style="-aw-import:ignore">' + '<span>2.1.1.1</span>' + '<span style="width:10.2pt; font:7pt \'Times New Roman\'; display:inline-block; -aw-import:spaces">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>' + '</span>' + '<span>Outline legal heading list item 5.</span>' + '</p>' in out_doc_contents)
+elif switch_condition == aw.saving.ExportListLabels.AUTO:
+    self.assertTrue('<ol type="a" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">' + '<li style="margin-left:31.33pt; padding-left:4.67pt">' + '<span>Default numbered list item 3.</span>' + '</li>' + '</ol>' in out_doc_contents)
+elif switch_condition == aw.saving.ExportListLabels.BY_HTML_TAGS:
+    self.assertTrue('<ol type="a" style="margin-right:0pt; margin-left:0pt; padding-left:0pt">' + '<li style="margin-left:31.33pt; padding-left:4.67pt">' + '<span>Default numbered list item 3.</span>' + '</li>' + '</ol>' in out_doc_contents)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [HtmlSaveOptions](../)
+

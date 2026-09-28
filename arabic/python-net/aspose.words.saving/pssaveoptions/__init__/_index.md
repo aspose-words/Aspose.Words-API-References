@@ -1,0 +1,23 @@
+﻿---
+title: PsSaveOptions constructor
+linktitle: PsSaveOptions constructor
+articleTitle: PsSaveOptions constructor
+second_title: Aspose.Words for Python
+description: "PsSaveOptions constructor. "
+type: docs
+weight: 10
+url: /ar/python-net/aspose.words.saving/pssaveoptions/__init__/
+---
+
+## PsSaveOptions() {#default}
+
+```python
+def __init__(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [PsSaveOptions](../)
+

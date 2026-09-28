@@ -1,0 +1,28 @@
+﻿---
+title: MustacheTag.reference_run property
+linktitle: reference_run property
+articleTitle: reference_run property
+second_title: Aspose.Words for Python
+description: "MustacheTag.reference_run property. Gets the run that contains the beginning of the tag."
+type: docs
+weight: 20
+url: /ar/python-net/aspose.words.mailmerging/mustachetag/reference_run/
+---
+
+## MustacheTag.reference_run property
+
+Gets the run that contains the beginning of the tag.
+
+
+```python
+@property
+def reference_run(self) -> aspose.words.Run:
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.mailmerging](../../)
+* class [MustacheTag](../)
+

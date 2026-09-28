@@ -1,0 +1,23 @@
+﻿---
+title: CustomPart constructor
+linktitle: CustomPart constructor
+articleTitle: CustomPart constructor
+second_title: Aspose.Words for Python
+description: "CustomPart constructor. "
+type: docs
+weight: 10
+url: /ar/python-net/aspose.words.markup/custompart/__init__/
+---
+
+## CustomPart() {#default}
+
+```python
+def __init__(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.markup](../../)
+* class [CustomPart](../)
+

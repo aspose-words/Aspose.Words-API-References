@@ -1,0 +1,51 @@
+﻿---
+title: FontInfo.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "FontInfo.name property. Gets the name of the font."
+type: docs
+weight: 60
+url: /ar/python-net/aspose.words.fonts/fontinfo/name/
+---
+
+## FontInfo.name property
+
+Gets the name of the font.
+
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+```
+
+### Remarks
+
+Cannot be ``None``. Can be an empty string.
+
+
+
+
+### Examples
+
+Shows how to print the details of what fonts are present in a document.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Embedded font.docx')
+all_fonts = doc.font_infos
+# طباعة جميع الخطوط المستخدمة وغير المستخدمة في المستند.
+i = 0
+while i < all_fonts.count:
+    print(f'Font index #{i}')
+    print(f'\tName: {all_fonts[i].name}')
+    print(f"\tIs {('' if all_fonts[i].is_true_type else 'not ')}a trueType font")
+    i += 1
+```
+
+### See Also
+
+* module [aspose.words.fonts](../../)
+* class [FontInfo](../)
+

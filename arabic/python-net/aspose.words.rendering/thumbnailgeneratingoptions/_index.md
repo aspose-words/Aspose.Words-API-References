@@ -1,0 +1,60 @@
+﻿---
+title: ThumbnailGeneratingOptions class
+linktitle: ThumbnailGeneratingOptions class
+articleTitle: ThumbnailGeneratingOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.rendering.ThumbnailGeneratingOptions class. Can be used to specify additional options when generating thumbnail for a document."
+type: docs
+weight: 50
+url: /ar/python-net/aspose.words.rendering/thumbnailgeneratingoptions/
+---
+
+## ThumbnailGeneratingOptions class
+
+Can be used to specify additional options when generating thumbnail for a document.
+
+
+### Remarks
+
+User can call method [Document.update_thumbnail()](../../aspose.words/document/update_thumbnail/#thumbnailgeneratingoptions) to generate 
+[BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) for a document.
+
+
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [ThumbnailGeneratingOptions()](./__init__/#default) | The default constructor. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [generate_from_first_page](./generate_from_first_page/) | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [thumbnail_size](./thumbnail_size/) | Size of generated thumbnail in pixels. Default is 600x900. |
+
+### Examples
+
+Shows how to update a document's thumbnail.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Hello world!')
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
+# 1 -  استخدم الصفحة الأولى للمستند:
+doc.update_thumbnail()
+doc.save(file_name=ARTIFACTS_DIR + 'Document.UpdateThumbnail.FirstPage.epub')
+# 2 -  استخدم الصورة الأولى الموجودة في المستند:
+options = aw.rendering.ThumbnailGeneratingOptions()
+options.thumbnail_size = aspose.pydrawing.Size(400, 400)
+options.generate_from_first_page = False
+doc.update_thumbnail(options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.UpdateThumbnail.FirstImage.epub')
+```
+
+### See Also
+
+* module [aspose.words.rendering](../)
+
