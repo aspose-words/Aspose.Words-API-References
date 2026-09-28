@@ -1,0 +1,22 @@
+﻿---
+title: WarningInfoCollection constructor
+linktitle: WarningInfoCollection constructor
+articleTitle: WarningInfoCollection constructor
+second_title: Aspose.Words for Node.js
+description: "WarningInfoCollection constructor. "
+type: docs
+weight: 10
+url: /tr/nodejs-net/aspose.words/warninginfocollection/constructor/
+---
+
+## WarningInfoCollection() {#default}
+
+```js
+WarningInfoCollection()
+```
+
+### See Also
+
+* module [Aspose.Words](../../)
+* class [WarningInfoCollection](../)
+
