@@ -1,0 +1,22 @@
+﻿---
+title: OleControl.asCheckBoxControl method
+linktitle: asCheckBoxControl method
+articleTitle: asCheckBoxControl method
+second_title: Aspose.Words for Node.js
+description: "OleControl.asCheckBoxControl method. "
+type: docs
+weight: 30
+url: /fr/nodejs-net/aspose.words.drawing.ole/olecontrol/asCheckBoxControl/
+---
+
+## asCheckBoxControl() {#default}
+
+```js
+asCheckBoxControl()
+```
+
+### See Also
+
+* module [Aspose.Words.Drawing.Ole](../../)
+* class [OleControl](../)
+
