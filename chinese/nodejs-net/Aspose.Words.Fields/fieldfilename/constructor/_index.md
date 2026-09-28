@@ -1,0 +1,22 @@
+﻿---
+title: FieldFileName constructor
+linktitle: FieldFileName constructor
+articleTitle: FieldFileName constructor
+second_title: Aspose.Words for Node.js
+description: "FieldFileName constructor. "
+type: docs
+weight: 10
+url: /zh/nodejs-net/aspose.words.fields/fieldfilename/constructor/
+---
+
+## FieldFileName() {#default}
+
+```js
+FieldFileName()
+```
+
+### See Also
+
+* module [Aspose.Words.Fields](../../)
+* class [FieldFileName](../)
+
