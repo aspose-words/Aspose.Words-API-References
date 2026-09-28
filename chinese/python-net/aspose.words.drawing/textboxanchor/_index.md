@@ -1,0 +1,57 @@
+﻿---
+title: TextBoxAnchor enumeration
+linktitle: TextBoxAnchor enumeration
+articleTitle: TextBoxAnchor enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.TextBoxAnchor enumeration. Specifies values used for shape text vertical alignment."
+type: docs
+weight: 460
+url: /zh/python-net/aspose.words.drawing/textboxanchor/
+---
+
+## TextBoxAnchor enumeration
+
+Specifies values used for shape text vertical alignment.
+
+
+### Members
+
+| Name | Description |
+| --- | --- |
+| TOP | Text is aligned to the top of the textbox. |
+| MIDDLE | Text is aligned to the middle of the textbox. |
+| BOTTOM | Text is aligned to the bottom of the textbox. |
+| TOP_CENTERED | Text is aligned to the top centered of the textbox. |
+| MIDDLE_CENTERED | Text is aligned to the middle centered of the textbox. |
+| BOTTOM_CENTERED | Text is aligned to the bottom centered of the textbox. |
+| TOP_BASELINE | Text is aligned to the top baseline of the textbox. |
+| BOTTOM_BASELINE | Text is aligned to the bottom baseline of the textbox. |
+| TOP_CENTERED_BASELINE | Text is aligned to the top centered baseline of the textbox. |
+| BOTTOM_CENTERED_BASELINE | Text is aligned to the bottom centered baseline of the textbox. |
+
+### Examples
+
+Shows how to vertically align the text contents of a text box.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.TEXT_BOX, width=200, height=200)
+# 将 "VerticalAnchor" 属性设置为 "TextBoxAnchor.Top" 以
+# 使此文本框中的文字与形状的顶部对齐。
+# 将 "VerticalAnchor" 属性设置为 "TextBoxAnchor.Middle" 以
+# 使此文本框中的文字居中对齐形状。
+# 将 "VerticalAnchor" 属性设置为 "TextBoxAnchor.Bottom" 以
+# 将此文本框中的文本对齐到形状的底部。
+shape.text_box.vertical_anchor = vertical_anchor
+builder.move_to(shape.first_paragraph)
+builder.write('Hello world!')
+# 从 Microsoft Word 2007 开始，文本框内文本的垂直对齐可用。
+doc.compatibility_options.optimize_for(aw.settings.MsWordVersion.WORD2007)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.VerticalAnchor.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing](../)
+

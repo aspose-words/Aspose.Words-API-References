@@ -1,0 +1,83 @@
+﻿---
+title: Paragraph.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "Paragraph.get_text method. Gets the text of this paragraph including the end of paragraph character."
+type: docs
+weight: 280
+url: /zh/python-net/aspose.words/paragraph/get_text/
+---
+
+## get_text() {#default}
+
+Gets the text of this paragraph including the end of paragraph character.
+
+
+```python
+def get_text(self):
+    ...
+```
+
+### Remarks
+
+The text of all child nodes is concatenated and the end of paragraph character is appended as follows:
+
+
+* If the paragraph is the last paragraph of [Body](../../body/), then
+  [ControlChar.SECTION_BREAK](../../controlchar/SECTION_BREAK/) (\\x000c) is appended.
+  
+* If the paragraph is the last paragraph of [Cell](../../../aspose.words.tables/cell/), then
+  [ControlChar.CELL](../../controlchar/CELL/) (\\x0007) is appended.
+  
+* For all other paragraphs
+  [ControlChar.PARAGRAPH_BREAK](../../controlchar/PARAGRAPH_BREAK/) (\\r) is appended.
+  
+The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
+
+
+
+
+### Examples
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```python
+doc = aw.Document()
+# 空文档默认包含一个段落。
+self.assertEqual(1, doc.first_section.body.paragraphs.count)
+# 复合节点（例如我们的段落）可以包含其他复合节点和内联节点作为子节点。
+paragraph = doc.first_section.body.first_paragraph
+paragraph_text = aw.Run(doc=doc, text='Initial text. ')
+paragraph.append_child(paragraph_text)
+# 创建另外三个运行节点。
+run1 = aw.Run(doc=doc, text='Run 1. ')
+run2 = aw.Run(doc=doc, text='Run 2. ')
+run3 = aw.Run(doc=doc, text='Run 3. ')
+# 文档主体在我们将这些运行插入到复合节点之前不会显示它们
+# 该节点本身是文档节点树的一部分，就像我们对第一个运行所做的那样。
+# 我们可以确定插入的节点的文本内容位于何处
+# 通过相对于段落中另一个节点指定插入位置，来决定它在文档中的出现位置。
+self.assertEqual('Initial text.', paragraph.get_text().strip())
+# 将第二个运行插入段落中，位于初始运行之前。
+paragraph.insert_before(run2, paragraph_text)
+self.assertEqual('Run 2. Initial text.', paragraph.get_text().strip())
+# 将第三个运行插入初始运行之后。
+paragraph.insert_after(run3, paragraph_text)
+self.assertEqual('Run 2. Initial text. Run 3.', paragraph.get_text().strip())
+# 将第一个运行插入到段落子节点集合的开头。
+paragraph.prepend_child(run1)
+self.assertEqual('Run 1. Run 2. Initial text. Run 3.', paragraph.get_text().strip())
+self.assertEqual(4, paragraph.get_child_nodes(aw.NodeType.ANY, True).count)
+# 我们可以通过编辑和删除现有子节点来修改运行的内容。
+paragraph.get_child_nodes(aw.NodeType.RUN, True)[1].as_run().text = 'Updated run 2. '
+paragraph.get_child_nodes(aw.NodeType.RUN, True).remove(paragraph_text)
+self.assertEqual('Run 1. Updated run 2. Run 3.', paragraph.get_text().strip())
+self.assertEqual(3, paragraph.get_child_nodes(aw.NodeType.ANY, True).count)
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Paragraph](../)
+

@@ -1,0 +1,23 @@
+﻿---
+title: FieldAsk constructor
+linktitle: FieldAsk constructor
+articleTitle: FieldAsk constructor
+second_title: Aspose.Words for Python
+description: "FieldAsk constructor. "
+type: docs
+weight: 10
+url: /zh/python-net/aspose.words.fields/fieldask/__init__/
+---
+
+## FieldAsk() {#default}
+
+```python
+def __init__(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldAsk](../)
+

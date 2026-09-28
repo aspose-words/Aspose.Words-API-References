@@ -1,0 +1,58 @@
+﻿---
+title: ChartFormat.stroke property
+linktitle: stroke property
+articleTitle: stroke property
+second_title: Aspose.Words for Python
+description: "ChartFormat.stroke property. Gets line formatting for the parent chart element."
+type: docs
+weight: 40
+url: /zh/python-net/aspose.words.drawing.charts/chartformat/stroke/
+---
+
+## ChartFormat.stroke property
+
+Gets line formatting for the parent chart element.
+
+
+```python
+@property
+def stroke(self) -> aspose.words.drawing.Stroke:
+    ...
+
+```
+
+### Examples
+
+Show how to set marker formatting.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.SCATTER, width=432, height=252)
+chart = shape.chart
+# 删除默认生成的系列。
+chart.series.clear()
+series = chart.series.add_double(series_name='AW Series 1', x_values=[0.7, 1.8, 2.6, 3.9], y_values=[2.7, 3.2, 0.8, 1.7])
+# 设置标记格式。
+series.marker.size = 40
+series.marker.symbol = aw.drawing.charts.MarkerSymbol.SQUARE
+data_points = series.data_points
+data_points[0].marker.format.fill.preset_textured(aw.drawing.PresetTexture.DENIM)
+data_points[0].marker.format.stroke.fore_color = aspose.pydrawing.Color.yellow
+data_points[0].marker.format.stroke.back_color = aspose.pydrawing.Color.red
+data_points[1].marker.format.fill.preset_textured(aw.drawing.PresetTexture.WATER_DROPLETS)
+data_points[1].marker.format.stroke.fore_color = aspose.pydrawing.Color.yellow
+data_points[1].marker.format.stroke.visible = False
+data_points[2].marker.format.fill.preset_textured(aw.drawing.PresetTexture.GREEN_MARBLE)
+data_points[2].marker.format.stroke.fore_color = aspose.pydrawing.Color.yellow
+data_points[3].marker.format.fill.preset_textured(aw.drawing.PresetTexture.OAK)
+data_points[3].marker.format.stroke.fore_color = aspose.pydrawing.Color.yellow
+data_points[3].marker.format.stroke.transparency = 0.5
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.MarkerFormatting.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing.charts](../../)
+* class [ChartFormat](../)
+

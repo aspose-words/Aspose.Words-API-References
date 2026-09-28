@@ -1,0 +1,87 @@
+﻿---
+title: TxtLoadOptions.leading_spaces_options property
+linktitle: leading_spaces_options property
+articleTitle: leading_spaces_options property
+second_title: Aspose.Words for Python
+description: "TxtLoadOptions.leading_spaces_options property. Gets or sets preferred option of a leading space handling"
+type: docs
+weight: 60
+url: /zh/python-net/aspose.words.loading/txtloadoptions/leading_spaces_options/
+---
+
+## TxtLoadOptions.leading_spaces_options property
+
+Gets or sets preferred option of a leading space handling.
+Default value is [TxtLeadingSpacesOptions.CONVERT_TO_INDENT](../../txtleadingspacesoptions/#CONVERT_TO_INDENT).
+
+
+
+```python
+@property
+def leading_spaces_options(self) -> aspose.words.loading.TxtLeadingSpacesOptions:
+    ...
+
+@leading_spaces_options.setter
+def leading_spaces_options(self, value: aspose.words.loading.TxtLeadingSpacesOptions):
+    ...
+
+```
+
+### Examples
+
+Shows how to trim whitespace when loading plaintext documents.
+
+```python
+text_doc = '      Line 1 \n' + '    Line 2   \n' + ' Line 3       '
+# 创建一个 "TxtLoadOptions" 对象，可将其传递给文档的构造函数
+# 以修改加载纯文本文档的方式。
+load_options = aw.loading.TxtLoadOptions()
+# 将 "LeadingSpacesOptions" 属性设置为 "TxtLeadingSpacesOptions.Preserve"
+# 以保留每行开头的所有空白字符。
+# 将 "LeadingSpacesOptions" 属性设置为 "TxtLeadingSpacesOptions.ConvertToIndent"
+# 以移除每行开头的所有空白字符，
+# 然后对段落应用左侧首行缩进，以模拟空白字符的效果。
+# 将 "LeadingSpacesOptions" 属性设置为 "TxtLeadingSpacesOptions.Trim"
+# 删除每行开头的所有空白字符。
+load_options.leading_spaces_options = txt_leading_spaces_options
+# 将 \"TrailingSpacesOptions\" 属性设置为 \"TxtTrailingSpacesOptions.Preserve\"
+# 保留每行末尾的所有空白字符。
+# 将 \"TrailingSpacesOptions\" 属性设置为 \"TxtTrailingSpacesOptions.Trim\" 以
+# 删除每行末尾的所有空白字符。
+load_options.trailing_spaces_options = txt_trailing_spaces_options
+doc = aw.Document(stream=io.BytesIO(system_helper.text.Encoding.get_bytes(text_doc, system_helper.text.Encoding.utf_8())), load_options=load_options)
+paragraphs = doc.first_section.body.paragraphs
+switch_condition = txt_leading_spaces_options
+if switch_condition == aw.loading.TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+    self.assertEqual(37.8, paragraphs[0].paragraph_format.first_line_indent)
+    self.assertEqual(25.2, paragraphs[1].paragraph_format.first_line_indent)
+    self.assertEqual(6.3, paragraphs[2].paragraph_format.first_line_indent)
+    self.assertTrue(paragraphs[0].get_text().startswith('Line 1'))
+    self.assertTrue(paragraphs[1].get_text().startswith('Line 2'))
+    self.assertTrue(paragraphs[2].get_text().startswith('Line 3'))
+elif switch_condition == aw.loading.TxtLeadingSpacesOptions.PRESERVE:
+    self.assertTrue(all([p.as_paragraph().paragraph_format.first_line_indent == 0 for p in paragraphs]))
+    self.assertTrue(paragraphs[0].get_text().startswith('      Line 1'))
+    self.assertTrue(paragraphs[1].get_text().startswith('    Line 2'))
+    self.assertTrue(paragraphs[2].get_text().startswith(' Line 3'))
+elif switch_condition == aw.loading.TxtLeadingSpacesOptions.TRIM:
+    self.assertTrue(all([p.as_paragraph().paragraph_format.first_line_indent == 0 for p in paragraphs]))
+    self.assertTrue(paragraphs[0].get_text().startswith('Line 1'))
+    self.assertTrue(paragraphs[1].get_text().startswith('Line 2'))
+    self.assertTrue(paragraphs[2].get_text().startswith('Line 3'))
+switch_condition = txt_trailing_spaces_options
+if switch_condition == aw.loading.TxtTrailingSpacesOptions.PRESERVE:
+    self.assertTrue(paragraphs[0].get_text().endswith('Line 1 \r'))
+    self.assertTrue(paragraphs[1].get_text().endswith('Line 2   \r'))
+    self.assertTrue(paragraphs[2].get_text().endswith('Line 3       \x0c'))
+elif switch_condition == aw.loading.TxtTrailingSpacesOptions.TRIM:
+    self.assertTrue(paragraphs[0].get_text().endswith('Line 1\r'))
+    self.assertTrue(paragraphs[1].get_text().endswith('Line 2\r'))
+    self.assertTrue(paragraphs[2].get_text().endswith('Line 3\x0c'))
+```
+
+### See Also
+
+* module [aspose.words.loading](../../)
+* class [TxtLoadOptions](../)
+

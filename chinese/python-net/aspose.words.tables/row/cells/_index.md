@@ -1,0 +1,64 @@
+﻿---
+title: Row.cells property
+linktitle: cells property
+articleTitle: cells property
+second_title: Aspose.Words for Python
+description: "Row.cells property. Provides typed access to the [Cell](../../cell/) child nodes of the row."
+type: docs
+weight: 20
+url: /zh/python-net/aspose.words.tables/row/cells/
+---
+
+## Row.cells property
+
+Provides typed access to the [Cell](../../cell/) child nodes of the row.
+
+
+
+```python
+@property
+def cells(self) -> aspose.words.tables.CellCollection:
+    ...
+
+```
+
+### Examples
+
+Shows how to iterate through all tables in the document and print the contents of each cell.
+
+```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+tables = doc.first_section.body.tables
+self.assertEqual(2, len(list(tables)))
+i = 0
+while i < tables.count:
+    print(f'Start of Table {i}')
+    rows = tables[i].rows
+    # 我们可以在行集合上使用 "ToArray" 方法将其克隆为数组。
+    assert rows == rows.to_array()
+    self.assertNotEqual(rows, list(rows))
+    j = 0
+    while j < rows.count:
+        print(f'\tStart of Row {j}')
+        cells = rows[j].cells
+        # 我们可以在单元格集合上使用 "ToArray" 方法将其克隆为数组。
+        assert cells == cells.to_array()
+        self.assertNotEqual(cells, list(cells))
+        k = 0
+        while k < cells.count:
+            cell_text = cells[k].to_string(save_format=aw.SaveFormat.TEXT).strip()
+            print(f'\t\tContents of Cell:{k} = "{cell_text}"')
+            k += 1
+        print(f'\tEnd of Row {j}')
+        j += 1
+    print(f'End of Table {i}\n')
+    i += 1
+```
+
+### See Also
+
+* module [aspose.words.tables](../../)
+* class [Row](../)
+

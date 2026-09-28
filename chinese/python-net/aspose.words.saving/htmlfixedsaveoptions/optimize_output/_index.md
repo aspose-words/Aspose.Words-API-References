@@ -1,0 +1,51 @@
+﻿---
+title: HtmlFixedSaveOptions.optimize_output property
+linktitle: optimize_output property
+articleTitle: optimize_output property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.optimize_output property. Flag indicates whether it is required to optimize output"
+type: docs
+weight: 110
+url: /zh/python-net/aspose.words.saving/htmlfixedsaveoptions/optimize_output/
+---
+
+## HtmlFixedSaveOptions.optimize_output property
+
+Flag indicates whether it is required to optimize output.
+If this flag is set redundant nested canvases and empty canvases are removed,
+also neighbor glyphs with the same formating are concatenated.
+Note: The accuracy of the content display may be affected if this property is set to ``True``.
+
+Default is ``True``.
+
+
+
+```python
+@property
+def optimize_output(self) -> bool:
+    ...
+
+@optimize_output.setter
+def optimize_output(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to simplify a document when saving it to HTML by removing various redundant objects.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Rendering.docx')
+save_options = aw.saving.HtmlFixedSaveOptions()
+save_options.optimize_output = optimize_output
+doc.save(file_name=ARTIFACTS_DIR + 'HtmlFixedSaveOptions.OptimizeGraphicsOutput.html', save_options=save_options)
+# 文档的优化版本大小几乎是未优化文档大小的三分之一。
+self.assertAlmostEqual(60385 if optimize_output else 191000, Path(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.OptimizeGraphicsOutput.html').stat().st_size, delta=200)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [HtmlFixedSaveOptions](../)
+
