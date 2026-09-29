@@ -1,0 +1,35 @@
+﻿---
+title: FormFieldCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "FormFieldCollection.remove method. Removes a form field with the specified name."
+type: docs
+weight: 50
+url: /ru/python-net/aspose.words.fields/formfieldcollection/remove/
+---
+
+## remove(form_field) {#str}
+
+Removes a form field with the specified name.
+
+
+```python
+def remove(self, form_field: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| form_field | str | The case-insensitive name of the form field to remove. |
+
+### Remarks
+
+If there is a bookmark associated with the form field, the bookmark is not removed.
+
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FormFieldCollection](../)
+

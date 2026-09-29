@@ -1,0 +1,81 @@
+﻿---
+title: DocumentBuilder.end_bookmark method
+linktitle: end_bookmark method
+articleTitle: end_bookmark method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_bookmark method. Marks the current position in the document as a bookmark end."
+type: docs
+weight: 210
+url: /ru/python-net/aspose.words/documentbuilder/end_bookmark/
+---
+
+## end_bookmark(bookmark_name) {#str}
+
+Marks the current position in the document as a bookmark end.
+
+
+```python
+def end_bookmark(self, bookmark_name: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmark_name | str | Name of the bookmark. |
+
+### Remarks
+
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to
+call both [DocumentBuilder.start_bookmark()](../start_bookmark/#str) and [DocumentBuilder.end_bookmark()](./#str) with the same *bookmarkName*
+parameter.
+
+Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+
+
+
+
+### Returns
+
+The bookmark end node that was just created.
+
+
+### Examples
+
+Shows how create a bookmark.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# Действительная закладка должна иметь текст тела документа, заключённый в
+# узлы BookmarkStart и BookmarkEnd, созданные с совпадающим именем закладки.
+builder.start_bookmark('MyBookmark')
+builder.writeln('Hello world!')
+builder.end_bookmark('MyBookmark')
+self.assertEqual(1, doc.range.bookmarks.count)
+self.assertEqual('MyBookmark', doc.range.bookmarks[0].name)
+self.assertEqual('Hello world!', doc.range.bookmarks[0].text.strip())
+```
+
+Shows how to insert a hyperlink which references a local bookmark.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.start_bookmark('Bookmark1')
+builder.write('Bookmarked text. ')
+builder.end_bookmark('Bookmark1')
+builder.writeln('Text outside of the bookmark.')
+# Вставьте поле HYPERLINK, которое ссылается на закладку. Мы можем передать переключатели поля
+# в метод "InsertHyperlink" в качестве части аргумента, содержащего имя ссылочной закладки.
+builder.font.color = aspose.pydrawing.Color.blue
+builder.font.underline = aw.Underline.SINGLE
+hyperlink = builder.insert_hyperlink('Link to Bookmark1', 'Bookmark1', True).as_field_hyperlink()
+hyperlink.screen_tip = 'Hyperlink Tip'
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertHyperlinkToLocalBookmark.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [DocumentBuilder](../)
+
