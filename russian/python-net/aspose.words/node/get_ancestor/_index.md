@@ -1,0 +1,109 @@
+﻿---
+title: Node.get_ancestor method
+linktitle: get_ancestor method
+articleTitle: get_ancestor method
+second_title: Aspose.Words for Python
+description: "aspose.words.Node.get_ancestor method"
+type: docs
+weight: 440
+url: /ru/python-net/aspose.words/node/get_ancestor/
+---
+
+## get_ancestor(ancestor_type) {#object}
+
+Gets the first ancestor of the specified object type.
+
+
+```python
+def get_ancestor(self, ancestor_type: object):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestor_type | object | The object type of the ancestor to retrieve. |
+
+### Remarks
+
+The ancestor type matches if it is equal to *ancestorType* or derived from*ancestorType*.
+
+
+
+
+### Returns
+
+The ancestor of the specified type or ``None`` if no ancestor of this type was found.
+
+
+## get_ancestor(ancestor_type) {#nodetype}
+
+Gets the first ancestor of the specified [NodeType](../../nodetype/).
+
+
+
+```python
+def get_ancestor(self, ancestor_type: aspose.words.NodeType):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestor_type | [NodeType](../../nodetype/) | The node type of the ancestor to retrieve. |
+
+### Returns
+
+The ancestor of the specified type or ``None`` if no ancestor of this type was found.
+
+
+## Examples
+
+Shows how to find out if a tables are nested.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Nested tables.docx')
+tables = doc.get_child_nodes(aw.NodeType.TABLE, True)
+i = 0
+while i < tables.count:
+    table = tables[i].as_table()
+    # Выясните, есть ли в ячейках таблицы другие таблицы в качестве дочерних элементов.
+    count = ExTable._get_child_table_count(table)
+    print('Table #{0} has {1} tables directly within its cells'.format(i, count))
+    # Выясните, вложена ли таблица в другую таблицу, и, если да, на какой глубине.
+    table_depth = ExTable._get_nested_depth_of_table(table)
+    if table_depth > 0:
+        print('Table #{0} is nested inside another table at depth of {1}'.format(i, table_depth))
+    else:
+        print('Table #{0} is a non nested table (is not a child of another table)'.format(i))
+    i += 1
+```
+
+Shows how to find out if a tables are nested (GetNestedDepthOfTable).
+
+```python
+@staticmethod
+def _get_nested_depth_of_table(table):
+    depth = 0
+    parent = table.get_ancestor(aw.tables.Table)
+    while parent is not None:
+        depth += 1
+        parent = parent.get_ancestor(aw.tables.Table)
+    return depth
+
+@staticmethod
+def _get_child_table_count(table):
+    child_table_count = 0
+    for row in table.rows:
+        row = row.as_row()
+        for cell in row.cells:
+            cell = cell.as_cell()
+            child_tables = cell.tables
+            if child_tables.count > 0:
+                child_table_count += 1
+    return child_table_count
+```
+
+## See Also
+
+* module [aspose.words](../../)
+* class [Node](../)
+
