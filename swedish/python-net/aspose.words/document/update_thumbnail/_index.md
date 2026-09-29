@@ -1,0 +1,70 @@
+﻿---
+title: Document.update_thumbnail method
+linktitle: update_thumbnail method
+articleTitle: update_thumbnail method
+second_title: Aspose.Words for Python
+description: "aspose.words.Document.update_thumbnail method"
+type: docs
+weight: 840
+url: /sv/python-net/aspose.words/document/update_thumbnail/
+---
+
+## update_thumbnail(options) {#thumbnailgeneratingoptions}
+
+Updates [BuiltInDocumentProperties.thumbnail](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options.
+
+
+
+```python
+def update_thumbnail(self, options: aspose.words.rendering.ThumbnailGeneratingOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) | The generating options to use. |
+
+### Remarks
+
+The [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options.
+If attempt to generate thumbnail fails, doesn't change one.
+
+
+
+## update_thumbnail() {#default}
+
+Updates [BuiltInDocumentProperties.thumbnail](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document using default options.
+
+
+
+```python
+def update_thumbnail(self):
+    ...
+```
+
+## Examples
+
+Shows how to update a document's thumbnail.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Hello world!')
+builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+# Det finns två sätt att ange en miniatyrbild när du sparar ett dokument till .epub.
+# 1 -  Använd dokumentets första sida:
+doc.update_thumbnail()
+doc.save(file_name=ARTIFACTS_DIR + 'Document.UpdateThumbnail.FirstPage.epub')
+# 2 -  Använd den första bilden som hittas i dokumentet:
+options = aw.rendering.ThumbnailGeneratingOptions()
+options.thumbnail_size = aspose.pydrawing.Size(400, 400)
+options.generate_from_first_page = False
+doc.update_thumbnail(options)
+doc.save(file_name=ARTIFACTS_DIR + 'Document.UpdateThumbnail.FirstImage.epub')
+```
+
+## See Also
+
+* module [aspose.words](../../)
+* class [Document](../)
+

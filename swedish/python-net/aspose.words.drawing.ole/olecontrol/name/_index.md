@@ -1,0 +1,53 @@
+﻿---
+title: OleControl.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "OleControl.name property. Gets or sets name of the ActiveX control."
+type: docs
+weight: 20
+url: /sv/python-net/aspose.words.drawing.ole/olecontrol/name/
+---
+
+## OleControl.name property
+
+Gets or sets name of the ActiveX control.
+
+
+```python
+@property
+def name(self) -> str:
+    ...
+
+@name.setter
+def name(self, value: str):
+    ...
+
+```
+
+### Examples
+
+Shows how to verify the properties of an ActiveX control.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'ActiveX controls.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+ole_control = shape.ole_format.ole_control
+self.assertEqual('CheckBox1', ole_control.name)
+if ole_control.is_forms2_ole_control:
+    check_box = ole_control.as_forms2_ole_control()
+    self.assertEqual('First', check_box.caption)
+    self.assertEqual('0', check_box.value)
+    self.assertEqual(True, check_box.enabled)
+    self.assertEqual(aw.drawing.ole.Forms2OleControlType.CHECK_BOX, check_box.type)
+    self.assertEqual(None, check_box.child_nodes)
+    self.assertEqual('', check_box.group_name)
+    # Observera att du inte kan sätta GroupName för en ram.
+    check_box.group_name = 'Aspose group name'
+```
+
+### See Also
+
+* module [aspose.words.drawing.ole](../../)
+* class [OleControl](../)
+
