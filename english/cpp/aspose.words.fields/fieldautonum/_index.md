@@ -14,7 +14,7 @@ Implements the AUTONUM field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldAutoNum : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                     public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -61,12 +61,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Each AUTONUM field displays the current value of a running count of AUTONUM fields,
 // allowing us to automatically number items like a numbered list.
 // This field will display a number "1.".
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNum, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 1.");
 
 ASSERT_EQ(u" AUTONUM ", field->GetFieldCode());
 
-field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNum, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 2.");
 
 // The separator character, which appears in the field result immediately after the number,is a full stop by default.

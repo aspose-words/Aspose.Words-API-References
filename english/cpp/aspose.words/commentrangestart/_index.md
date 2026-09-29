@@ -14,8 +14,8 @@ Denotes the start of a region of text that has a comment associated with it. To 
 
 ```cpp
 class CommentRangeStart : public Aspose::Words::Node,
-                          public Aspose::Words::IDisplaceableByCustomXml,
-                          public Aspose::Words::INodeWithAnnotationId
+                          public IDisplaceableByCustomXml,
+                          public INodeWithAnnotationId
 ```
 
 ## Methods

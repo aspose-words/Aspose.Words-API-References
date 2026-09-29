@@ -38,7 +38,7 @@ class StructuredDocumentTagCollection : public System::Collections::Generic::IEn
 
 Shows how to get structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags by id.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags by id.docx"));
 
 // Get the structured document tag by Id.
 System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> sdt = doc->get_Range()->get_StructuredDocumentTags()->GetById(1160505028);

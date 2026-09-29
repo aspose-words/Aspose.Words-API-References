@@ -43,11 +43,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
 builder->Write(u"This document was written by ");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, updateInsertedFieldsImmediately);
+builder->InsertField(FieldType::FieldAuthor, updateInsertedFieldsImmediately);
 
 builder->InsertParagraph();
 builder->Write(u"\nThis is page ");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, updateInsertedFieldsImmediately);
+builder->InsertField(FieldType::FieldPage, updateInsertedFieldsImmediately);
 
 ASSERT_EQ(u" AUTHOR ", doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode());
 ASSERT_EQ(u" PAGE ", doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode());
@@ -137,8 +137,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
-ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ(FieldType::FieldDate, field->get_Type());
+ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
@@ -189,21 +189,21 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Section 1, page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 3.");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Writeln(u"Section 2, page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 3.");
 
 // Move the document builder to the first section's primary header,
 // which every page in that section will display.
 builder->MoveToSection(0);
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 
 // Insert a PAGE field, which will display the number of the current page.
 builder->Write(u"Page ");
@@ -214,12 +214,12 @@ builder->InsertField(u"PAGE", u"");
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 pageSetup->set_RestartPageNumbering(true);
 pageSetup->set_PageStartingNumber(5);
-pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
 
 // Create another primary header for the second section, with another PAGE field.
 builder->MoveToSection(1);
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 builder->Write(u" - ");
 builder->InsertField(u"PAGE", u"");
 builder->Write(u" - ");
@@ -229,7 +229,7 @@ builder->Write(u" - ");
 pageSetup = doc->get_Sections()->idx_get(1)->get_PageSetup();
 pageSetup->set_PageStartingNumber(10);
 pageSetup->set_RestartPageNumbering(true);
-pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::Arabic);
+pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```

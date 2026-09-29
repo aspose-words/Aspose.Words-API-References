@@ -24,7 +24,7 @@ Aspose::Words::Loading::DocumentRecoveryMode Aspose::Words::Loading::LoadOptions
 Shows how to try to recover a document if errors occurred during loading. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
-loadOptions->set_RecoveryMode(Aspose::Words::Loading::DocumentRecoveryMode::TryRecover);
+loadOptions->set_RecoveryMode(DocumentRecoveryMode::TryRecover);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Corrupted footnotes.docx", loadOptions);
 ```

@@ -32,7 +32,7 @@ To get or set the actual name of the attached template, use the [AttachedTemplat
 Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> properties = doc->get_BuiltInDocumentProperties();
 
 // The following built-in properties contain information regarding the creation and editing of this document.

@@ -23,12 +23,12 @@ Aspose::Words::Saving::ExportFontFormat Aspose::Words::Saving::HtmlFixedSaveOpti
 
 Shows how use fonts only from the target machine when saving a document to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bullet points with alternative font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bullet points with alternative font.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 saveOptions->set_ExportEmbeddedCss(true);
 saveOptions->set_UseTargetMachineFonts(useTargetMachineFonts);
-saveOptions->set_FontFormat(Aspose::Words::Saving::ExportFontFormat::Ttf);
+saveOptions->set_FontFormat(ExportFontFormat::Ttf);
 saveOptions->set_ExportEmbeddedFonts(false);
 
 doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);

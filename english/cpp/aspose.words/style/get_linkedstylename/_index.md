@@ -31,7 +31,7 @@ Assigning the empty string is equivalent to unlinking the previously linked styl
 
 Shows how to use style aliases. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Style with alias.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Style with alias.docx"));
 
 // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
 // If a style's name has multiple values separated by commas, each clause is a separate alias.
@@ -58,12 +58,12 @@ Shows how to link styles among themselves.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> styleHeading1 = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Heading1);
+System::SharedPtr<Aspose::Words::Style> styleHeading1 = doc->get_Styles()->idx_get(StyleIdentifier::Heading1);
 
-System::SharedPtr<Aspose::Words::Style> styleHeading1Char = doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"Heading 1 Char");
+System::SharedPtr<Aspose::Words::Style> styleHeading1Char = doc->get_Styles()->Add(StyleType::Character, u"Heading 1 Char");
 styleHeading1Char->get_Font()->set_Name(u"Verdana");
 styleHeading1Char->get_Font()->set_Bold(true);
-styleHeading1Char->get_Font()->get_Border()->set_LineStyle(Aspose::Words::LineStyle::Dot);
+styleHeading1Char->get_Font()->get_Border()->set_LineStyle(LineStyle::Dot);
 styleHeading1Char->get_Font()->get_Border()->set_LineWidth(15);
 
 styleHeading1->set_LinkedStyleName(u"Heading 1 Char");

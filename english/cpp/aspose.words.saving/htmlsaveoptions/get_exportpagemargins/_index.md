@@ -27,11 +27,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Use a builder to insert a shape with no wrapping.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Cube, 200, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Cube, static_cast<double>(200), static_cast<double>(200));
 
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_WrapType(WrapType::None);
 
 // Negative shape position values may place the shape outside of page boundaries.
 // If we export this to HTML, the shape will appear truncated.

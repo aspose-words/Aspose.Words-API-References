@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/
 Represents the page setup properties of a section. To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article.
 
 ```cpp
-class PageSetup : public Aspose::Words::IBorderAttrSource
+class PageSetup : public IBorderAttrSource
 ```
 
 ## Methods
@@ -47,8 +47,8 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_LinesPerPage](./get_linesperpage/)() | Gets or sets the number of lines per page in the document grid. |
 | [get_LineStartingNumber](./get_linestartingnumber/)() | Gets or sets the starting line number. |
 | [get_Margins](./get_margins/)() | Returns or sets preset [Margins](../margins/) of the page. |
-| [get_MultiplePages](./get_multiplepages/)() const | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/)() const | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
+| [get_MultiplePages](./get_multiplepages/)() | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
+| [get_OddAndEvenPagesHeaderFooter](./get_oddandevenpagesheaderfooter/)() | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [get_Orientation](./get_orientation/)() | Returns or sets the orientation of the page. |
 | [get_OtherPagesTray](./get_otherpagestray/)() | Gets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific. |
 | [get_PageHeight](./get_pageheight/)() | Returns or sets the height of the page in points. |
@@ -60,7 +60,7 @@ class PageSetup : public Aspose::Words::IBorderAttrSource
 | [get_RightMargin](./get_rightmargin/)() | Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
 | [get_RtlGutter](./get_rtlgutter/)() | Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
 | [get_SectionStart](./get_sectionstart/)() | Returns or sets the type of section break for the specified object. |
-| [get_SheetsPerBooklet](./get_sheetsperbooklet/)() const | Returns or sets the number of pages to be included in each booklet. |
+| [get_SheetsPerBooklet](./get_sheetsperbooklet/)() | Returns or sets the number of pages to be included in each booklet. |
 | [get_SuppressEndnotes](./get_suppressendnotes/)() | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [get_TextColumns](./get_textcolumns/)() | Returns a collection that represents the set of text columns. |
 | [get_TextOrientation](./get_textorientation/)() | Allows to specify [TextOrientation](./get_textorientation/) for the whole page. Default value is [Horizontal](../textorientation/) |
@@ -125,22 +125,22 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Modify the page setup properties for the builder's current section and add text.
-builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
-builder->get_PageSetup()->set_VerticalAlignment(Aspose::Words::PageVerticalAlignment::Center);
+builder->get_PageSetup()->set_Orientation(Orientation::Landscape);
+builder->get_PageSetup()->set_VerticalAlignment(PageVerticalAlignment::Center);
 builder->Writeln(u"This is the first section, which landscape oriented with vertically centered text.");
 
 // If we start a new section using a document builder,
 // it will inherit the builder's current page setup properties.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(Aspose::Words::Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
-ASSERT_EQ(Aspose::Words::PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
+ASSERT_EQ(Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 // We can revert its page setup properties to their default values using the "ClearFormatting" method.
 builder->get_PageSetup()->ClearFormatting();
 
-ASSERT_EQ(Aspose::Words::Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
-ASSERT_EQ(Aspose::Words::PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
+ASSERT_EQ(Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 builder->Writeln(u"This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 

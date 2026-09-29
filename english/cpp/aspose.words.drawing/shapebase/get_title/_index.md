@@ -33,7 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a shape, give it a title, and then add it to the document.
-auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Cube);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Cube);
 shape->set_Width(200);
 shape->set_Height(200);
 shape->set_Title(u"My cube");
@@ -44,8 +44,8 @@ builder->InsertNode(shape);
 // Aspose.Words will store that title in the shape's Alt Text.
 doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.Title.docx");
-shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Title.docx"));
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 ASSERT_EQ(System::String::Empty, shape->get_Title());
 ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());

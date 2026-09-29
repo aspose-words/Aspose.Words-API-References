@@ -38,9 +38,9 @@ builder->InsertCell();
 builder->Write(u"Row 1, Cell 2");
 builder->EndTable();
 table->set_LeftIndent(-36);
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(144));
+table->set_PreferredWidth(PreferredWidth::FromPoints(144));
 
-builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+builder->InsertBreak(BreakType::ParagraphBreak);
 
 // Insert a table with a positive indent, which will push the table to the right.
 table = builder->StartTable();
@@ -50,14 +50,14 @@ builder->InsertCell();
 builder->Write(u"Row 1, Cell 2");
 builder->EndTable();
 table->set_LeftIndent(36);
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(144));
+table->set_PreferredWidth(PreferredWidth::FromPoints(144));
 
 // When we save a document to HTML, Aspose.Words will only preserve negative indents
 // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag
 // in a SaveOptions object that we will pass to "true".
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Html);
 options->set_AllowNegativeIndent(allowNegativeIndent);
-options->set_TableWidthOutputMode(Aspose::Words::Saving::HtmlElementSizeOutputMode::RelativeOnly);
+options->set_TableWidthOutputMode(HtmlElementSizeOutputMode::RelativeOnly);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.NegativeIndent.html", options);
 

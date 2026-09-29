@@ -32,7 +32,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // When we save the document as an image, we can pass a SaveOptions object to
 // edit the image while the saving operation renders it.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 // We can adjust these properties to change the image's brightness and contrast.
 // Both are on a 0-1 scale and are at 0.5 by default.
 options->set_ImageBrightness(0.3f);
@@ -52,16 +52,16 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 
 Shows how to render an Office [Math](../../../aspose.words.math/) object into an image file in the local file system. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
+auto math = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
 // how it renders the OfficeMath node into an image.
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 
 // Set the "Scale" property to 5 to render the object to five times its original size.
-saveOptions->set_Scale(5.0f);
+saveOptions->set_Scale(5);
 
 math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png", saveOptions);
 ```

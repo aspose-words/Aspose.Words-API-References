@@ -23,8 +23,8 @@ bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId() c
 
 Shows how to compare SDT with same content but different store item id. 
 ```cpp
-auto docA = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document with SDT 1.docx");
-auto docB = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document with SDT 2.docx");
+auto docA = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document with SDT 1.docx"));
+auto docB = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document with SDT 2.docx"));
 
 // Configure options to compare SDT with same content but different store item id.
 auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOptions>();

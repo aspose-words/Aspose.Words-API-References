@@ -45,7 +45,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 // When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
 // If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
 // If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Emf);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Emf);
 saveOptions->set_UseGdiEmfRenderer(useGdiEmfRenderer);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Renderer.emf", saveOptions);

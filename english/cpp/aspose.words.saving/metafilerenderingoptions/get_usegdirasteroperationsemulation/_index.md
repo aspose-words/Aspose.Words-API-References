@@ -45,7 +45,7 @@ builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf");
 // If we set the "RenderingMode" property to "MetafileRenderingMode.Vector",
 // or "MetafileRenderingMode.VectorWithFallback", we will render all metafiles as vector graphics.
 // If we set the "RenderingMode" property to "MetafileRenderingMode.Bitmap", we will render all metafiles as bitmaps.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 options->get_MetafileRenderingOptions()->set_RenderingMode(metafileRenderingMode);
 // Aspose.Words uses GDI+ for raster operations emulation, when value is set to true.
 options->get_MetafileRenderingOptions()->set_UseGdiRasterOperationsEmulation(true);

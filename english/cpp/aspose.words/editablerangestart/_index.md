@@ -14,8 +14,8 @@ Represents a start of an editable range in a Word document. To learn more, visit
 
 ```cpp
 class EditableRangeStart : public Aspose::Words::Node,
-                           public Aspose::Words::IDisplaceableByCustomXml,
-                           public Aspose::Words::INodeWithAnnotationId
+                           public IDisplaceableByCustomXml,
+                           public INodeWithAnnotationId
 ```
 
 ## Methods

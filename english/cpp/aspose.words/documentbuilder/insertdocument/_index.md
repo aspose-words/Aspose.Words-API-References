@@ -32,15 +32,15 @@ First node of the inserted content.
 
 Shows how to insert a document into another document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
-auto docToInsert = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Formatted elements.docx");
+auto docToInsert = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Formatted elements.docx"));
 
-builder->InsertDocument(docToInsert, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+builder->InsertDocument(docToInsert, ImportFormatMode::KeepSourceFormatting);
 builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocument.docx");
 ```
 
@@ -81,7 +81,7 @@ Shows how to resolve duplicate styles while inserting documents.
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 
-System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
 myStyle->get_Font()->set_Size(14);
 myStyle->get_Font()->set_Name(u"Courier New");
 myStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
@@ -100,7 +100,7 @@ srcDoc->get_Styles()->idx_get(u"MyStyle")->get_Font()->set_Color(System::Drawing
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_SmartStyleBehavior(true);
 
-builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```

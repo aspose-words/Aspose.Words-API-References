@@ -38,7 +38,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto imgOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto imgOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 // Set the "PaperColor" property to a transparent color to apply a transparent
 // background to the document while rendering it to an image.
 imgOptions->set_PaperColor(System::Drawing::Color::get_Transparent());

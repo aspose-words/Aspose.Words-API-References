@@ -53,7 +53,7 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 comment->AddReply(u"Joe Bloggs", u"J.B.", System::DateTime::get_Now(), u"New reply");
 
 // Comments and replies are both Comment nodes.
-ASSERT_EQ(2, doc->GetChildNodes(Aspose::Words::NodeType::Comment, true)->get_Count());
+ASSERT_EQ(2, doc->GetChildNodes(NodeType::Comment, true)->get_Count());
 
 // Comments that do not reply to other comments are "top-level". They have no ancestor comments.
 ASSERT_TRUE(System::TestTools::IsNull(comment->get_Ancestor()));

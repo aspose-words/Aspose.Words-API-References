@@ -23,7 +23,7 @@ bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
 
 Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There is a several ways to move the cursor:
@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToStructuredDocumentTag(1, 1);
 
 // 2 -  Move to the first character of structured document tag by object.
-auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(doc->GetChild(Aspose::Words::NodeType::StructuredDocumentTag, 2, true));
+auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(doc->GetChild(NodeType::StructuredDocumentTag, 2, true));
 builder->MoveToStructuredDocumentTag(tag, 1);
 builder->Write(u" New text.");
 

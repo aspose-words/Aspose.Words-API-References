@@ -23,11 +23,11 @@ Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Stroke::get_BackThemeC
 
 Shows how to set back theme color and tint and shade. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Stroke gradient outline.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Stroke gradient outline.docx"));
 
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();
-stroke->set_BackThemeColor(Aspose::Words::Themes::ThemeColor::Dark2);
+stroke->set_BackThemeColor(ThemeColor::Dark2);
 stroke->set_BackTintAndShade(0.2);
 
 doc->Save(get_ArtifactsDir() + u"Shape.StrokeBackThemeColors.docx");

@@ -14,9 +14,9 @@ Represents a structured document tag (SDT or content control) in a document. To 
 
 ```cpp
 class StructuredDocumentTag : public Aspose::Words::CompositeNode,
-                              public Aspose::Words::Markup::IMarkupNode,
-                              public Aspose::Words::Revisions::ITrackableNode,
-                              public Aspose::Words::IRunAttrSource,
+                              public IMarkupNode,
+                              public Revisions::ITrackableNode,
+                              public IRunAttrSource,
                               public Aspose::Words::Markup::IStructuredDocumentTag
 ```
 
@@ -122,7 +122,6 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [set_Title](./set_title/)(System::String) override | Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Title](./get_title/). |
 | [SetCheckedSymbol](./setcheckedsymbol/)(int32_t, const System::String\&) | Sets the symbol used to represent the checked state of a check box content control. |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [SetUncheckedSymbol](./setuncheckedsymbol/)(int32_t, const System::String\&) | Sets the symbol used to represent the unchecked state of a check box content control. |
 | [StructuredDocumentTag](./structureddocumenttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Markup::SdtType, Aspose::Words::Markup::MarkupLevel) | Initializes a new instance of the **Structured document tag** class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
@@ -156,20 +155,20 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two ways to apply a style from the document to a structured document tag.
 // 1 -  Apply a style object from the document's style collection:
-System::SharedPtr<Aspose::Words::Style> quoteStyle = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Quote);
-auto sdtPlainText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
+System::SharedPtr<Aspose::Words::Style> quoteStyle = doc->get_Styles()->idx_get(StyleIdentifier::Quote);
+auto sdtPlainText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
 sdtPlainText->set_Style(quoteStyle);
 
 // 2 -  Reference a style in the document by name:
-auto sdtRichText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::RichText, Aspose::Words::Markup::MarkupLevel::Inline);
+auto sdtRichText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RichText, MarkupLevel::Inline);
 sdtRichText->set_StyleName(u"Quote");
 
 builder->InsertNode(sdtPlainText);
 builder->InsertNode(sdtRichText);
 
-ASSERT_EQ(Aspose::Words::NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
 
-System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTag, true);
+System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
 
 for (auto&& node : System::IterateOver(tags))
 {
@@ -177,7 +176,7 @@ for (auto&& node : System::IterateOver(tags))
 
     std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
 
-    ASSERT_EQ(Aspose::Words::StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
+    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
 }
 ```

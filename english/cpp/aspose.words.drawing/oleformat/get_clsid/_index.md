@@ -23,10 +23,10 @@ System::Guid Aspose::Words::Drawing::OleFormat::get_Clsid()
 
 Shows how to access an OLE control embedded in a document and its child controls. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE ActiveX controls.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE ActiveX controls.docm"));
 
 // Shapes store and display OLE objects in the document's body.
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 ASSERT_EQ(u"6e182020-f460-11ce-9bcd-00aa00608e01", System::ObjectExt::ToString(shape->get_OleFormat()->get_Clsid()));
 

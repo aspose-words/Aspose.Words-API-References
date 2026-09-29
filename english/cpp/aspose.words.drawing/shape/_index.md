@@ -14,7 +14,7 @@ Represents an object in the drawing layer, such as an AutoShape, textbox, freefo
 
 ```cpp
 class Shape : public Aspose::Words::Drawing::ShapeBase,
-              public Aspose::Words::Drawing::Core::ITextBox,
+              public Core::ITextBox,
               public Aspose::Words::Drawing::Core::IStrokable
 ```
 
@@ -201,7 +201,6 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_WrapType](../shapebase/set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](../shapebase/get_wraptype/). |
 | [set_ZOrder](../shapebase/set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](../shapebase/get_zorder/). |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [Shape](./shape/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::Drawing::ShapeType) | Creates a new shape object. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
@@ -222,11 +221,11 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 
 Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 // Get the collection of shapes from the document,
 // and save the image data of every shape with an image as a file to the local file system.
-System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
 ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
 {
@@ -234,13 +233,13 @@ ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspos
 }))));
 
 int32_t imageIndex = 0;
-for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
 {
     if (shape->get_HasImage())
     {
         // The image data of shapes may contain images of many possible image formats.
         // We can determine a file extension for each image automatically, based on its format.
-        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, Aspose::Words::FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
+        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
         shape->get_ImageData()->Save(get_ArtifactsDir() + imageFileName);
         imageIndex++;
     }
@@ -255,12 +254,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
-shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(HorizontalAlignment::Center);
+shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
@@ -272,14 +271,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert two shapes along with a group shape with another shape inside it.
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 400, 200);
-builder->InsertShape(Aspose::Words::Drawing::ShapeType::Star, 300, 300);
+builder->InsertShape(ShapeType::Rectangle, static_cast<double>(400), static_cast<double>(200));
+builder->InsertShape(ShapeType::Star, static_cast<double>(300), static_cast<double>(300));
 
 auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
-group->set_Bounds(System::Drawing::RectangleF(100.0f, 50.0f, 200.0f, 100.0f));
+group->set_Bounds(System::Drawing::RectangleF(static_cast<float>(100.0f), static_cast<float>(50.0f), static_cast<float>(200.0f), static_cast<float>(100.0f)));
 group->set_CoordOrigin(System::Drawing::Point(-1000, -500));
 
-auto subShape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Cube);
+auto subShape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Cube);
 subShape->set_Width(500);
 subShape->set_Height(700);
 subShape->set_Left(0);
@@ -288,23 +287,23 @@ subShape->set_Top(0);
 group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(subShape);
 builder->InsertNode(group);
 
-ASSERT_EQ(3, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
-ASSERT_EQ(1, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(3, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
 
 // Remove all Shape nodes from the document.
-System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 shapes->Clear();
 
 // All shapes are gone, but the group shape is still in the document.
-ASSERT_EQ(1, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 
 // Remove all group shapes separately.
-System::SharedPtr<Aspose::Words::NodeCollection> groupShapes = doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> groupShapes = doc->GetChildNodes(NodeType::GroupShape, true);
 groupShapes->Clear();
 
-ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
 
 ## See Also

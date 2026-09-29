@@ -55,24 +55,24 @@ Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Right);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 
 // A SECTION field displays the number of the section it is in.
 builder->Write(u"Section ");
-auto fieldSection = System::ExplicitCast<Aspose::Words::Fields::FieldSection>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSection, true));
+auto fieldSection = System::ExplicitCast<Aspose::Words::Fields::FieldSection>(builder->InsertField(FieldType::FieldSection, true));
 
 ASSERT_EQ(u" SECTION ", fieldSection->GetFieldCode());
 
 // A PAGE field displays the number of the page it is in.
 builder->Write(u"\nPage ");
-auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, true));
+auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 
 ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder->Write(u" of ");
-auto fieldSectionPages = System::ExplicitCast<Aspose::Words::Fields::FieldSectionPages>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSectionPages, true));
+auto fieldSectionPages = System::ExplicitCast<Aspose::Words::Fields::FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
 
 ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
 
@@ -80,17 +80,17 @@ ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
 // All these pages will be in the first section. Our fields, which appear once every header,
 // will number the current/total pages of this section.
 builder->MoveToDocumentEnd();
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // We can insert a new section with the document builder like this.
 // This will affect the values displayed in the SECTION and SECTIONPAGES fields in all upcoming headers.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
 // The PAGE field will keep counting pages across the whole document.
 // We can manually reset its count at each section to keep track of pages section-by-section.
 builder->get_CurrentSection()->get_PageSetup()->set_RestartPageNumbering(true);
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SECTION.SECTIONPAGES.docx");

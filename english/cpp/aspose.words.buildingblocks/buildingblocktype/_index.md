@@ -28,7 +28,7 @@ enum class BuildingBlockType
 | AutoCorrect | 5 | The building block is associated with the spelling and grammar tools. |
 | AutoText | 6 | The building block is an AutoText entry. |
 | All | 7 | The building block is associated with all types. |
-| Default | n/a | Save as [None](./). |
+| Default | 0 | Save as [None](./). |
 
 ## Remarks
 

@@ -31,34 +31,34 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Also, set its entries to be hyperlinks that will take us
 // to the location of the heading when left-clicked in Microsoft Word.
 builder->InsertTableOfContents(u"\\o \"1-3\" \\h \\z \\u");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // Populate the table of contents by adding paragraphs with heading styles.
 // Each such heading with a level between 1 and 3 will create an entry in the table.
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 1.1");
 builder->Writeln(u"Heading 1.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 2");
 builder->Writeln(u"Heading 3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading3);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
 builder->Writeln(u"Heading 3.1.1");
 builder->Writeln(u"Heading 3.1.2");
 builder->Writeln(u"Heading 3.1.3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading4);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading4);
 builder->Writeln(u"Heading 3.1.3.1");
 builder->Writeln(u"Heading 3.1.3.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.2");
 builder->Writeln(u"Heading 3.3");
 

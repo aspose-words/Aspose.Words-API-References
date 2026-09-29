@@ -38,13 +38,13 @@ A live collection is always in sync with the document. For example, if you selec
 
 Shows how to print all of a document's comments and their replies. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Comments.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
 
-System::SharedPtr<Aspose::Words::NodeCollection> comments = doc->GetChildNodes(Aspose::Words::NodeType::Comment, true);
+System::SharedPtr<Aspose::Words::NodeCollection> comments = doc->GetChildNodes(NodeType::Comment, true);
 
 // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
 // Print all top-level comments along with any replies they may have.
-for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Comment> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Comment>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Comment> c)>>([](System::SharedPtr<Aspose::Words::Comment> c) -> bool
+for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Comment>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Comment>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Comment> c)>>([](System::SharedPtr<Aspose::Words::Comment> c) -> bool
 {
     return c->get_Ancestor() == nullptr;
 })))->LINQ_ToList())
@@ -63,11 +63,11 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
 
 Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 // Get the collection of shapes from the document,
 // and save the image data of every shape with an image as a file to the local file system.
-System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
 ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
 {
@@ -75,13 +75,13 @@ ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspos
 }))));
 
 int32_t imageIndex = 0;
-for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
 {
     if (shape->get_HasImage())
     {
         // The image data of shapes may contain images of many possible image formats.
         // We can determine a file extension for each image automatically, based on its format.
-        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, Aspose::Words::FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
+        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
         shape->get_ImageData()->Save(get_ArtifactsDir() + imageFileName);
         imageIndex++;
     }
@@ -94,35 +94,34 @@ Shows how to traverse through a composite node's collection of child nodes.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Add two runs and one shape as child nodes to the first paragraph of this document.
-auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
+auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world! "));
 
-auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Rectangle);
 shape->set_Width(200);
 shape->set_Height(200);
 // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
 shape->set_CustomNodeId(100);
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::Inline);
+shape->set_WrapType(WrapType::Inline);
 paragraph->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 
 paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false);
+System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count());
+ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
 
 for (auto&& child : System::IterateOver(children))
 {
     switch (child->get_NodeType())
     {
-        case Aspose::Words::NodeType::Run:
+        case NodeType::Run:
             std::cout << "Run contents:" << std::endl;
             std::cout << System::String::Format(u"\t\"{0}\"", child->GetText().Trim()) << std::endl;
             break;
-
-        case Aspose::Words::NodeType::Shape:
+        case NodeType::Shape:
         {
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
@@ -130,7 +129,6 @@ for (auto&& child : System::IterateOver(children))
             ASSERT_EQ(100, shape->get_CustomNodeId());
             break;
         }
-
         default:
             break;
     }
@@ -175,14 +173,14 @@ ASSERT_EQ(u"Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 paragraph->PrependChild<System::SharedPtr<Aspose::Words::Run>>(run1);
 
 ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(4, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
-paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->Remove(paragraphText);
+(System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
 ## See Also

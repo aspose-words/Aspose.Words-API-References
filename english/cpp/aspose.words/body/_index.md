@@ -75,7 +75,6 @@ class Body : public Aspose::Words::Story
 | [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |
@@ -108,8 +107,8 @@ auto section = System::MakeObject<Aspose::Words::Section>(doc);
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
@@ -120,7 +119,7 @@ section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 

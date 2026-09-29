@@ -23,7 +23,7 @@ bool Aspose::Words::Vba::VbaProject::get_IsProtected()
 
 Shows whether the [VbaProject](../) is password protected. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Vba protected.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Vba protected.docm"));
 ASSERT_TRUE(doc->get_VbaProject()->get_IsProtected());
 ```
 

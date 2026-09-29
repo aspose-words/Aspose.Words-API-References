@@ -38,7 +38,7 @@ ASSERT_EQ(System::String::Empty, doc->get_BuiltInDocumentProperties()->get_Autho
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());

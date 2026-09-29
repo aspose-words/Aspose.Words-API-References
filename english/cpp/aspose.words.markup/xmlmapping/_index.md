@@ -47,7 +47,7 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_Custo
 ASSERT_EQ(u"<root><text>Text element #1</text><text>Text element #2</text></root>", System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()));
 
 // Create a structured document tag that will display the contents of our CustomXmlPart.
-auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Block);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Block);
 
 // Set a mapping for our structured document tag. This mapping will instruct
 // our structured document tag to display a portion of the XML part's text contents that the XPath points to.

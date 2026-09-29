@@ -38,9 +38,9 @@ doc->get_Watermark()->SetText(u"Aspose Watermark");
 // we can do so by passing a TextWatermarkOptions object when creating the watermark.
 auto textWatermarkOptions = System::MakeObject<Aspose::Words::TextWatermarkOptions>();
 textWatermarkOptions->set_FontFamily(u"Arial");
-textWatermarkOptions->set_FontSize(36.0f);
+textWatermarkOptions->set_FontSize(36);
 textWatermarkOptions->set_Color(System::Drawing::Color::get_Black());
-textWatermarkOptions->set_Layout(Aspose::Words::WatermarkLayout::Diagonal);
+textWatermarkOptions->set_Layout(WatermarkLayout::Diagonal);
 textWatermarkOptions->set_IsSemitrasparent(false);
 
 doc->get_Watermark()->SetText(u"Aspose Watermark", textWatermarkOptions);
@@ -48,7 +48,7 @@ doc->get_Watermark()->SetText(u"Aspose Watermark", textWatermarkOptions);
 doc->Save(get_ArtifactsDir() + u"Document.TextWatermark.docx");
 
 // We can remove a watermark from a document like this.
-if (doc->get_Watermark()->get_Type() == Aspose::Words::WatermarkType::Text)
+if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 {
     doc->get_Watermark()->Remove();
 }

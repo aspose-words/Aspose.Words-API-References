@@ -28,7 +28,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 Shows how to create nested editable ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
+doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only, ") + u"we cannot edit this paragraph without the password.");
@@ -53,8 +53,8 @@ builder->Writeln(u"This paragraph is outside any editable ranges, and cannot be 
 
 // If a region of text has two overlapping editable ranges with specified groups,
 // the combined group of users excluded by both groups are prevented from editing it.
-outerEditableRangeStart->get_EditableRange()->set_EditorGroup(Aspose::Words::EditorType::Everyone);
-innerEditableRangeStart->get_EditableRange()->set_EditorGroup(Aspose::Words::EditorType::Contributors);
+outerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Everyone);
+innerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Contributors);
 
 doc->Save(get_ArtifactsDir() + u"EditableRange.Nested.docx");
 ```

@@ -33,7 +33,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions->set_JpegQuality(10);

@@ -32,11 +32,11 @@ Shows how to set theme color for foreground/background shape color.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::RoundRectangle, 80, 80);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::RoundRectangle, static_cast<double>(80), static_cast<double>(80));
 
 System::SharedPtr<Aspose::Words::Drawing::Fill> fill = shape->get_Fill();
-fill->set_ForeThemeColor(Aspose::Words::Themes::ThemeColor::Dark1);
-fill->set_BackThemeColor(Aspose::Words::Themes::ThemeColor::Background2);
+fill->set_ForeThemeColor(ThemeColor::Dark1);
+fill->set_BackThemeColor(ThemeColor::Background2);
 
 // Note: do not use "BackThemeColor" and "BackTintAndShade" for font fill.
 if (fill->get_BackTintAndShade() == 0)

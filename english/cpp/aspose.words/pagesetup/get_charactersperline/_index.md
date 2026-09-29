@@ -33,7 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Enable pitching, and then use it to set the number of characters per line in this section.
-builder->get_PageSetup()->set_LayoutMode(Aspose::Words::SectionLayoutMode::Grid);
+builder->get_PageSetup()->set_LayoutMode(SectionLayoutMode::Grid);
 builder->get_PageSetup()->set_CharactersPerLine(10);
 
 // The number of characters also depends on the size of the font.

@@ -43,7 +43,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 builder->get_Font()->set_Name(u"Junction Light");
 builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 
-System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = Aspose::Words::Fonts::FontSettings::get_DefaultInstance()->GetFontsSources();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 ASSERT_EQ(1, originalFontSources->get_Length());
 
@@ -68,10 +68,10 @@ auto folderFontSource = System::MakeObject<Aspose::Words::Fonts::FolderFontSourc
 
 // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> updatedFontSources = System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({originalFontSources[0], folderFontSource});
-Aspose::Words::Fonts::FontSettings::get_DefaultInstance()->SetFontsSources(updatedFontSources);
+FontSettings::get_DefaultInstance()->SetFontsSources(updatedFontSources);
 
 // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
-updatedFontSources = Aspose::Words::Fonts::FontSettings::get_DefaultInstance()->GetFontsSources();
+updatedFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 ASSERT_TRUE(updatedFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
@@ -89,7 +89,7 @@ ASSERT_TRUE(updatedFontSources[1]->GetAvailableFonts()->LINQ_Any(static_cast<Sys
 doc->Save(get_ArtifactsDir() + u"FontSettings.AddFontSource.pdf");
 
 // Restore the original font sources.
-Aspose::Words::Fonts::FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
+FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 
 ## See Also

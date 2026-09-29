@@ -24,7 +24,7 @@ bool Aspose::Words::Saving::DocSaveOptions::get_AlwaysCompressMetafiles() const
 Shows how to change metafiles compression in a document while saving. 
 ```cpp
 // Open a document that contains a Microsoft Equation 3.0 formula.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Microsoft equation object.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Microsoft equation object.docx"));
 
 // When we save a document, smaller metafiles are not compressed for performance reasons.
 // We can set a flag in a SaveOptions object to compress every metafile when saving.

@@ -42,7 +42,7 @@ builder->EndTable();
 // of the contents of all cells in this row.
 System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
 rowFormat->set_Height(25);
-rowFormat->get_Borders()->idx_get(Aspose::Words::BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
+rowFormat->get_Borders()->idx_get(BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
 
 // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
 System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();
@@ -55,13 +55,13 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::Tables::Cell> firstCell = table->get_FirstRow()->get_FirstCell();
 
 // Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
 firstCell->get_CellFormat()->set_Width(30);
-firstCell->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
+firstCell->get_CellFormat()->set_Orientation(TextOrientation::Downward);
 firstCell->get_CellFormat()->get_Shading()->set_ForegroundPatternColor(System::Drawing::Color::get_LightGreen());
 
 doc->Save(get_ArtifactsDir() + u"Table.CellFormat.docx");
@@ -70,14 +70,14 @@ doc->Save(get_ArtifactsDir() + u"Table.CellFormat.docx");
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:
 System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())

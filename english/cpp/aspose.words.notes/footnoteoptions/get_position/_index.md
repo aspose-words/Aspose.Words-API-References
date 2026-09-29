@@ -34,7 +34,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // that matches the reference symbol in the main body text.
 // The reference text that we pass to the document builder's "InsertFootnote" method.
 builder->Write(u"Hello world!");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote contents.");
+builder->InsertFootnote(FootnoteType::Footnote, u"Footnote contents.");
 
 // We can use the "Position" property to determine where the document will place all its footnotes.
 // If we set the value of the "Position" property to "FootnotePosition.BottomOfPage",

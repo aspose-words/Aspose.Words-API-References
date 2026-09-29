@@ -34,20 +34,20 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 // There are two ways of applying the "PreferredWidth" class to table cells.
 // 1 -  Set an absolute preferred width based on points:
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(40));
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(40));
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightYellow());
 builder->Writeln(System::String::Format(u"Cell with a width of {0}.", builder->get_CellFormat()->get_PreferredWidth()));
 
 // 2 -  Set a relative preferred width based on percent of the table's width:
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPercent(20));
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPercent(20));
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightBlue());
 builder->Writeln(System::String::Format(u"Cell with a width of {0}.", builder->get_CellFormat()->get_PreferredWidth()));
 
 builder->InsertCell();
 
 // A cell with no preferred width specified will take up the rest of the available space.
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::Auto());
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
 
 // Each configuration of the "PreferredWidth" property creates a new object.
 ASSERT_NE(System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()));
@@ -65,7 +65,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(Aspose::Words::ConvertUtil::InchToPoint(3)));
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(ConvertUtil::InchToPoint(3)));
 builder->InsertCell();
 
 ASPOSE_ASSERT_EQ(216.0, table->get_FirstRow()->get_FirstCell()->get_CellFormat()->get_PreferredWidth()->get_Value());

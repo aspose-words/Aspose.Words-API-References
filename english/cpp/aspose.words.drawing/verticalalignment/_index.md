@@ -27,7 +27,7 @@ enum class VerticalAlignment
 | Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
 | Outside | 5 | Specifies that the object shall be outside of the vertical alignment base. |
 | Inline | -1 | Not documented. Seems to be a possible value for floating paragraphs and tables. |
-| Default | n/a | Same as [None](./). |
+| Default | 0 | Same as [None](./). |
 
 
 ## Examples
@@ -41,12 +41,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
-shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(HorizontalAlignment::Center);
+shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```

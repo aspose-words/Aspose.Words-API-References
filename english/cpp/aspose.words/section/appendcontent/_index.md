@@ -39,14 +39,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 3");
 
 System::SharedPtr<Aspose::Words::Section> section = doc->get_Sections()->idx_get(2);
 
-ASSERT_EQ(System::String(u"Section 3") + Aspose::Words::ControlChar::SectionBreak(), section->GetText());
+ASSERT_EQ(System::String(u"Section 3") + ControlChar::SectionBreak(), section->GetText());
 
 // Insert the contents of the first section to the beginning of the third section.
 System::SharedPtr<Aspose::Words::Section> sectionToPrepend = doc->get_Sections()->idx_get(0);
@@ -58,7 +58,7 @@ section->AppendContent(sectionToAppend);
 
 // The "PrependContent" and "AppendContent" methods did not create any new sections.
 ASSERT_EQ(3, doc->get_Sections()->get_Count());
-ASSERT_EQ(System::String(u"Section 1") + Aspose::Words::ControlChar::ParagraphBreak() + u"Section 3" + Aspose::Words::ControlChar::ParagraphBreak() + u"Section 2" + Aspose::Words::ControlChar::SectionBreak(), section->GetText());
+ASSERT_EQ(System::String(u"Section 1") + ControlChar::ParagraphBreak() + u"Section 3" + ControlChar::ParagraphBreak() + u"Section 2" + ControlChar::SectionBreak(), section->GetText());
 ```
 
 ## See Also

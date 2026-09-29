@@ -32,21 +32,21 @@ builder->get_Font()->set_StyleName(u"Emphasis");
 builder->Writeln(u"Text originally in \"Emphasis\" style");
 
 // 2 -  Using a built-in style identifier:
-builder->get_Font()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::IntenseEmphasis);
+builder->get_Font()->set_StyleIdentifier(StyleIdentifier::IntenseEmphasis);
 builder->Writeln(u"Text originally in \"Intense Emphasis\" style");
 
 // Convert all uses of one style to another,
 // using the above methods to reference old and new styles.
-for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(Aspose::Words::NodeType::Run, true)))
+for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(NodeType::Run, true)))
 {
     if (run->get_Font()->get_StyleName() == u"Emphasis")
     {
         run->get_Font()->set_StyleName(u"Strong");
     }
 
-    if (run->get_Font()->get_StyleIdentifier() == Aspose::Words::StyleIdentifier::IntenseEmphasis)
+    if (run->get_Font()->get_StyleIdentifier() == StyleIdentifier::IntenseEmphasis)
     {
-        run->get_Font()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Strong);
+        run->get_Font()->set_StyleIdentifier(StyleIdentifier::Strong);
     }
 }
 

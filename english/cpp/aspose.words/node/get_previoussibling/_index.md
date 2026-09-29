@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Section 1 text.");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakContinuous);
+builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Writeln(u"Section 2 text.");
 
 // Both sections are siblings of each other.

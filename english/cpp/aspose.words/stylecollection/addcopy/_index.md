@@ -69,7 +69,7 @@ Shows how to import a style from one document into a different document.
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a custom style for the source document.
-System::SharedPtr<Aspose::Words::Style> srcStyle = srcDoc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> srcStyle = srcDoc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
 srcStyle->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 // Import the source document's custom style into the destination document.

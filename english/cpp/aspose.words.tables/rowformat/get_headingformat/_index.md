@@ -31,7 +31,7 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 // Any rows inserted while the "HeadingFormat" flag is set to "true"
 // will show up at the top of the table on every page that it spans.
 builder->get_RowFormat()->set_HeadingFormat(true);
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 builder->get_CellFormat()->set_Width(100);
 builder->InsertCell();
 builder->Write(u"Heading row 1");

@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // and the number of the page that contains the XE field on the right.
 // The INDEX entry will collect all XE fields with matching values in the "Text" property
 // into one entry as opposed to making an entry for each XE field.
-auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndex, true));
+auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(FieldType::FieldIndex, true));
 index->set_PageNumberSeparator(u", see page ");
 index->set_Heading(u"A");
 
@@ -49,11 +49,11 @@ index->set_RunSubentriesOnSameLine(runSubentriesOnTheSameLine);
 
 if (runSubentriesOnTheSameLine)
 {
-    ASSERT_EQ(u" INDEX  \\e \", see page \" \\h A \\r", index->GetFieldCode());
+    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A \\r"), index->GetFieldCode());
 }
 else
 {
-    ASSERT_EQ(u" INDEX  \\e \", see page \" \\h A", index->GetFieldCode());
+    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A"), index->GetFieldCode());
 }
 
 // Insert two XE fields, each on a new page, and with the same heading named "Heading 1",
@@ -62,19 +62,19 @@ else
 // one line for the grouping heading "Heading 1", and one more line for each subheading.
 // If RunSubentriesOnSameLine is true, then the INDEX table will create a one-line
 // entry that encompasses the heading and every subheading.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Heading 1:Subheading 1");
 
 ASSERT_EQ(u" XE  \"Heading 1:Subheading 1\"", indexEntry->GetFieldCode());
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Heading 1:Subheading 2");
 
 doc->UpdatePageLayout();
 doc->UpdateFields();
-doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheading.docx"));
+doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheading.docx", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)));
 ```
 
 ## See Also

@@ -26,13 +26,13 @@ Shows how to preserve original section type.
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 
-srcDoc->get_FirstSection()->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::Continuous);
+srcDoc->get_FirstSection()->get_PageSetup()->set_SectionStart(SectionStart::Continuous);
 
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_AppendDocumentWithNewPage(false);
-dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
+dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
-ASSERT_EQ(Aspose::Words::SectionStart::Continuous, dstDoc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::Continuous, dstDoc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
 ```
 
 ## See Also

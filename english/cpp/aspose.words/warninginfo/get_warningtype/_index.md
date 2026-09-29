@@ -24,7 +24,7 @@ Aspose::Words::WarningType Aspose::Words::WarningInfo::get_WarningType() const
 Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
 
 // Assign a callback for handling font substitution warnings.
 auto warningCollector = System::MakeObject<Aspose::Words::WarningInfoCollection>();
@@ -44,7 +44,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.EnableFontSubstitution.pdf");
 
 for (auto&& info : warningCollector)
 {
-    if (info->get_WarningType() == Aspose::Words::WarningType::FontSubstitution)
+    if (info->get_WarningType() == WarningType::FontSubstitution)
     {
         std::cout << info->get_Description() << std::endl;
     }
@@ -54,7 +54,7 @@ for (auto&& info : warningCollector)
 
 Shows how to get additional information about font substitution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto callback = System::MakeObject<Aspose::Words::WarningInfoCollection>();
 doc->set_WarningCallback(callback);
@@ -68,9 +68,9 @@ doc->set_FontSettings(fontSettings);
 doc->Save(get_ArtifactsDir() + u"FontSettings.SubstitutionWarnings.pdf");
 
 auto warningInfo = System::ExplicitCast<Aspose::Words::FontSubstitutionWarningInfo>(callback->idx_get(0));
-ASSERT_EQ(Aspose::Words::WarningSource::Layout, warningInfo->get_Source());
-ASSERT_EQ(Aspose::Words::WarningType::FontSubstitution, warningInfo->get_WarningType());
-ASSERT_EQ(Aspose::Words::FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
+ASSERT_EQ(WarningSource::Layout, warningInfo->get_Source());
+ASSERT_EQ(WarningType::FontSubstitution, warningInfo->get_WarningType());
+ASSERT_EQ(FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
 ASSERT_EQ(u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo->get_Description());
 ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());

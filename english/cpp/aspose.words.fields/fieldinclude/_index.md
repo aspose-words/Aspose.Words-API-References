@@ -14,8 +14,8 @@ Implements the INCLUDE field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldInclude : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                     public Aspose::Words::Fields::IFieldIncludeTextCode
+                     public IFieldCodeTokenInfoProvider,
+                     public IFieldIncludeTextCode
 ```
 
 ## Methods
@@ -67,7 +67,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // We can use an INCLUDE field to import a portion of another document in the local file system.
 // The bookmark from the other document that we reference with this field contains this imported portion.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInclude>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldInclude, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
 field->set_SourceFullName(get_MyDir() + u"Bookmarks.docx");
 field->set_BookmarkName(u"MyBookmark1");
 field->set_LockFields(false);

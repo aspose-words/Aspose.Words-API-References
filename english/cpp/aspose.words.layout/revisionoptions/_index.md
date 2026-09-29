@@ -83,9 +83,9 @@ doc->StopTrackRevisions();
 builder->Writeln(u"This is not a revision.");
 
 // Remove the bar that appears to the left of every revised line.
-doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(Aspose::Words::Layout::RevisionColor::BrightGreen);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(RevisionColor::BrightGreen);
 doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
-doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Aspose::Words::Drawing::HorizontalAlignment::Right);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(HorizontalAlignment::Right);
 
 doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```

@@ -32,7 +32,7 @@ Shows how to delete contents of structured document tag elements.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a plain text structured document tag, and then append it to the document.
-auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Block);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Block);
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 
 // This structured document tag, which is in the form of a text box, already displays placeholder text.
@@ -56,7 +56,7 @@ ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Edit the text of the structured document tag and hide the placeholder text.
-auto run = System::ExplicitCast<Aspose::Words::Run>(tag->GetChild(Aspose::Words::NodeType::Run, 0, true));
+auto run = System::ExplicitCast<Aspose::Words::Run>(tag->GetChild(NodeType::Run, 0, true));
 run->set_Text(u"New text.");
 tag->set_IsShowingPlaceholderText(false);
 

@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Insert a plain text structured document tag of the "PlainText" type, which will function as a text box.
 // The contents that it will display by default are a "Click here to enter text." prompt.
-auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
 
 // We can get the tag to display the contents of a building block instead of the default text.
 // First, add a building block with contents to the glossary document.

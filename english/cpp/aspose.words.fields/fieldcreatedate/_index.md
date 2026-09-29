@@ -14,8 +14,8 @@ Implements the CREATEDATE field. To learn more, visit the [Working with Fields](
 
 ```cpp
 class FieldCreateDate : public Aspose::Words::Fields::Field,
-                        public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                        public Aspose::Words::Fields::IFieldWithCalendar
+                        public IFieldCodeTokenInfoProvider,
+                        public IFieldWithCalendar
 ```
 
 ## Methods
@@ -60,7 +60,7 @@ class FieldCreateDate : public Aspose::Words::Fields::Field,
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u" Date this document was created:");
@@ -69,21 +69,21 @@ builder->Writeln(u" Date this document was created:");
 // Below are three different calendar types according to which the CREATEDATE field can display the date/time.
 // 1 -  Islamic Lunar Calendar:
 builder->Write(u"According to the Lunar Calendar - ");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCreateDate, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseLunarCalendar(true);
 
 ASSERT_EQ(u" CREATEDATE  \\h", field->GetFieldCode());
 
 // 2 -  Umm al-Qura calendar:
 builder->Write(u"\nAccording to the Umm al-Qura Calendar - ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCreateDate, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseUmAlQuraCalendar(true);
 
 ASSERT_EQ(u" CREATEDATE  \\u", field->GetFieldCode());
 
 // 3 -  Indian National Calendar:
 builder->Write(u"\nAccording to the Indian National Calendar - ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCreateDate, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseSakaEraCalendar(true);
 
 ASSERT_EQ(u" CREATEDATE  \\s", field->GetFieldCode());

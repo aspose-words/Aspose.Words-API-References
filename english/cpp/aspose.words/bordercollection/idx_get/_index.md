@@ -36,13 +36,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::BorderCollection> borders = builder->get_ParagraphFormat()->get_Borders();
 borders->set_DistanceFromText(20);
-borders->idx_get(Aspose::Words::BorderType::Left)->set_LineStyle(Aspose::Words::LineStyle::Double);
-borders->idx_get(Aspose::Words::BorderType::Right)->set_LineStyle(Aspose::Words::LineStyle::Double);
-borders->idx_get(Aspose::Words::BorderType::Top)->set_LineStyle(Aspose::Words::LineStyle::Double);
-borders->idx_get(Aspose::Words::BorderType::Bottom)->set_LineStyle(Aspose::Words::LineStyle::Double);
+borders->idx_get(BorderType::Left)->set_LineStyle(LineStyle::Double);
+borders->idx_get(BorderType::Right)->set_LineStyle(LineStyle::Double);
+borders->idx_get(BorderType::Top)->set_LineStyle(LineStyle::Double);
+borders->idx_get(BorderType::Bottom)->set_LineStyle(LineStyle::Double);
 
 System::SharedPtr<Aspose::Words::Shading> shading = builder->get_ParagraphFormat()->get_Shading();
-shading->set_Texture(Aspose::Words::TextureIndex::TextureDiagonalCross);
+shading->set_Texture(TextureIndex::TextureDiagonalCross);
 shading->set_BackgroundPatternColor(System::Drawing::Color::get_LightCoral());
 shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 
@@ -97,7 +97,7 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 for (auto&& border : System::IterateOver(secondParagraphBorders))
 {
-    border->set_LineStyle(Aspose::Words::LineStyle::DotDash);
+    border->set_LineStyle(LineStyle::DotDash);
 }
 
 // After changing the line style of the borders in just the second paragraph,

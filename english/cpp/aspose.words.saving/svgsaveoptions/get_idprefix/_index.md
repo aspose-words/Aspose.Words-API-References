@@ -23,7 +23,7 @@ System::String Aspose::Words::Saving::SvgSaveOptions::get_IdPrefix() const
 
 Shows how to add a prefix that is prepended to all generated element IDs (svg). 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Id prefix.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Id prefix.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
 saveOptions->set_IdPrefix(u"pfx1_");

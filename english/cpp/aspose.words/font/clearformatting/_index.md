@@ -35,7 +35,7 @@ builder->Write(u"For more information, please visit the ");
 // Insert a hyperlink and emphasize it with custom formatting.
 // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
-builder->get_Font()->set_Underline(Aspose::Words::Underline::Single);
+builder->get_Font()->set_Underline(Underline::Single);
 builder->InsertHyperlink(u"Google website", u"https://www.google.com", false);
 builder->get_Font()->ClearFormatting();
 builder->Writeln(u".");

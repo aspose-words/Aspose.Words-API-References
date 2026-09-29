@@ -20,6 +20,7 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 
 | Method | Description |
 | --- | --- |
+| [CompareTo](./compareto/)(const System::SharedPtr\<System::Object\>\&) | Compares the specified object to the current object. |
 | [CompareTo](./compareto/)(System::SharedPtr\<Aspose::Words::Lists::List\>) override | Compares the specified list to the current list. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Compares with the specified list. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
@@ -68,7 +69,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -85,7 +86,7 @@ for (int32_t i = 0; i < 9; i++)
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 
 for (int32_t i = 0; i < 9; i++)
 {
@@ -111,12 +112,12 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize the first two of its list levels.
-System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(ListTemplate::NumberDefault);
 
 System::SharedPtr<Aspose::Words::Lists::ListLevel> listLevel = list->get_ListLevels()->idx_get(0);
 listLevel->get_Font()->set_Color(System::Drawing::Color::get_Red());
 listLevel->get_Font()->set_Size(24);
-listLevel->set_NumberStyle(Aspose::Words::NumberStyle::OrdinalText);
+listLevel->set_NumberStyle(NumberStyle::OrdinalText);
 listLevel->set_StartAt(21);
 listLevel->set_NumberFormat(u"\x0000");
 
@@ -125,15 +126,15 @@ listLevel->set_TextPosition(144);
 listLevel->set_TabPosition(144);
 
 listLevel = list->get_ListLevels()->idx_get(1);
-listLevel->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
-listLevel->set_NumberStyle(Aspose::Words::NumberStyle::Bullet);
+listLevel->set_Alignment(ListLevelAlignment::Right);
+listLevel->set_NumberStyle(NumberStyle::Bullet);
 listLevel->get_Font()->set_Name(u"Wingdings");
 listLevel->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 listLevel->get_Font()->set_Size(24);
 
 // This NumberFormat value will create star-shaped bullet list symbols.
 listLevel->set_NumberFormat(u"\xf0af");
-listLevel->set_TrailingCharacter(Aspose::Words::Lists::ListTrailingCharacter::Space);
+listLevel->set_TrailingCharacter(ListTrailingCharacter::Space);
 listLevel->set_NumberPosition(144);
 
 // Create paragraphs and apply both list levels of our custom list formatting to them.
@@ -165,9 +166,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize its first list level.
-System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberArabicParenthesis);
+System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(ListTemplate::NumberArabicParenthesis);
 list1->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Red());
-list1->get_ListLevels()->idx_get(0)->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
+list1->get_ListLevels()->idx_get(0)->set_Alignment(ListLevelAlignment::Right);
 
 // Apply our list to some paragraphs.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

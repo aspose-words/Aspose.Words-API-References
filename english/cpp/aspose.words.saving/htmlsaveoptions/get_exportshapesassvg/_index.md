@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportshapesassvg/
 Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportShapesAsSvg() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportShapesAsSvg()
 ```
 
 ## Remarks
@@ -30,7 +30,7 @@ Shows how to export shape as scalable vector graphics.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100.0, 60.0);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(ShapeType::TextBox, 100.0, 60.0);
 builder->MoveTo(textBox->get_FirstParagraph());
 builder->Write(u"My text box");
 

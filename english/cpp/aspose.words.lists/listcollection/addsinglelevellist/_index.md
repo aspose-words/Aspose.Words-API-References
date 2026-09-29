@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Lists::ListCollection> listCollection = doc->get_Lists();
 
 // Creates the bulleted list from BulletCircle template.
-System::SharedPtr<Aspose::Words::Lists::List> bulletedList = listCollection->AddSingleLevelList(Aspose::Words::Lists::ListTemplate::BulletCircle);
+System::SharedPtr<Aspose::Words::Lists::List> bulletedList = listCollection->AddSingleLevelList(ListTemplate::BulletCircle);
 
 // Writes the bulleted list to the resulting document.
 builder->Writeln(u"Bulleted list starts below:");
@@ -38,7 +38,7 @@ builder->Writeln(u"Item 2");
 builder->get_ListFormat()->RemoveNumbers();
 
 // Creates the numbered list from NumberUppercaseLetterDot template.
-System::SharedPtr<Aspose::Words::Lists::List> numberedList = listCollection->AddSingleLevelList(Aspose::Words::Lists::ListTemplate::NumberUppercaseLetterDot);
+System::SharedPtr<Aspose::Words::Lists::List> numberedList = listCollection->AddSingleLevelList(ListTemplate::NumberUppercaseLetterDot);
 
 // Writes the numbered list to the resulting document.
 builder->Writeln(u"Numbered list starts below:");

@@ -37,7 +37,7 @@ doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Asp
 
 ASSERT_EQ(get_FontsDir(), folderFontSource->get_FolderPath());
 ASPOSE_ASSERT_EQ(false, folderFontSource->get_ScanSubfolders());
-ASSERT_EQ(Aspose::Words::Fonts::FontSourceType::FontsFolder, folderFontSource->get_Type());
+ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 
@@ -77,7 +77,7 @@ doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Asp
 
 ASSERT_EQ(get_FontsDir(), folderFontSource->get_FolderPath());
 ASPOSE_ASSERT_EQ(false, folderFontSource->get_ScanSubfolders());
-ASSERT_EQ(Aspose::Words::Fonts::FontSourceType::FontsFolder, folderFontSource->get_Type());
+ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 

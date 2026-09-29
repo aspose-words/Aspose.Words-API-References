@@ -29,7 +29,7 @@ To unlink fields in the whole document use [UnlinkFields](./).
 
 Shows how to unlink all fields in a range. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Linked fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Linked fields.docx"));
 
 auto newSection = System::ExplicitCast<Aspose::Words::Section>(System::ExplicitCast<Aspose::Words::Node>(doc->get_Sections()->idx_get(0))->Clone(true));
 doc->get_Sections()->Add(newSection);

@@ -26,7 +26,7 @@ Shows how to export underline formatting as ++.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->set_Underline(Aspose::Words::Underline::Single);
+builder->set_Underline(Underline::Single);
 builder->Write(u"Lorem ipsum. Dolor sit amet.");
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();

@@ -23,13 +23,13 @@ Aspose::Words::Drawing::Charts::ChartSeriesType Aspose::Words::Drawing::Charts::
 
 Shows how to remove specific chart serie. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Reporting engine template - Chart series.docx");
-System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_Chart();
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Reporting engine template - Chart series.docx"));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_Chart();
 
 // Remove all series of the Column type.
 for (int32_t i = chart->get_Series()->get_Count() - 1; i >= 0; i--)
 {
-    if (chart->get_Series()->idx_get(i)->get_SeriesType() == Aspose::Words::Drawing::Charts::ChartSeriesType::Column)
+    if (chart->get_Series()->idx_get(i)->get_SeriesType() == ChartSeriesType::Column)
     {
         chart->get_Series()->RemoveAt(i);
     }

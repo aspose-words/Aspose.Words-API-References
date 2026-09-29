@@ -32,7 +32,7 @@ Shows how to create green wavy page border with a shadow.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 
-pageSetup->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::DoubleWave);
+pageSetup->get_Borders()->set_LineStyle(LineStyle::DoubleWave);
 pageSetup->get_Borders()->set_LineWidth(2);
 pageSetup->get_Borders()->set_Color(System::Drawing::Color::get_Green());
 pageSetup->get_Borders()->set_DistanceFromText(24);

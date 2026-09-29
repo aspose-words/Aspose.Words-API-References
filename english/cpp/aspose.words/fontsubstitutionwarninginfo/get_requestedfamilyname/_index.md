@@ -23,7 +23,7 @@ System::String Aspose::Words::FontSubstitutionWarningInfo::get_RequestedFamilyNa
 
 Shows how to get additional information about font substitution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto callback = System::MakeObject<Aspose::Words::WarningInfoCollection>();
 doc->set_WarningCallback(callback);
@@ -37,9 +37,9 @@ doc->set_FontSettings(fontSettings);
 doc->Save(get_ArtifactsDir() + u"FontSettings.SubstitutionWarnings.pdf");
 
 auto warningInfo = System::ExplicitCast<Aspose::Words::FontSubstitutionWarningInfo>(callback->idx_get(0));
-ASSERT_EQ(Aspose::Words::WarningSource::Layout, warningInfo->get_Source());
-ASSERT_EQ(Aspose::Words::WarningType::FontSubstitution, warningInfo->get_WarningType());
-ASSERT_EQ(Aspose::Words::FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
+ASSERT_EQ(WarningSource::Layout, warningInfo->get_Source());
+ASSERT_EQ(WarningType::FontSubstitution, warningInfo->get_WarningType());
+ASSERT_EQ(FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
 ASSERT_EQ(u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo->get_Description());
 ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());

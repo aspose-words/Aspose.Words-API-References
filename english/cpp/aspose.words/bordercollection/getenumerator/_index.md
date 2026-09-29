@@ -35,7 +35,7 @@ System::SharedPtr<Aspose::Words::BorderCollection> borders = builder->get_Paragr
     {
         System::SharedPtr<Aspose::Words::Border> border = enumerator->get_Current();
         border->set_Color(System::Drawing::Color::get_Green());
-        border->set_LineStyle(Aspose::Words::LineStyle::Wave);
+        border->set_LineStyle(LineStyle::Wave);
         border->set_LineWidth(3);
     }
 }

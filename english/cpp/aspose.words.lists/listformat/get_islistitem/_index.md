@@ -35,7 +35,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -52,7 +52,7 @@ for (int32_t i = 0; i < 9; i++)
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 
 for (int32_t i = 0; i < 9; i++)
 {
@@ -86,9 +86,9 @@ builder->Writeln(u"Bulleted list item 2");
 builder->Writeln(u"Bulleted list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
+for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
     return p->get_ListFormat()->get_IsListItem();
 })))->LINQ_ToList())

@@ -49,7 +49,7 @@ builder->Writeln(u"Easy to understand API");
 // End the bulleted list.
 builder->get_ListFormat()->RemoveNumbers();
 
-builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+builder->InsertBreak(BreakType::ParagraphBreak);
 builder->Writeln(u"Aspose.Words allows:");
 
 // 2 -  A numbered list:
@@ -116,7 +116,7 @@ builder->Writeln(u"Numbered list item 2");
 builder->Writeln(u"Numbered list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();

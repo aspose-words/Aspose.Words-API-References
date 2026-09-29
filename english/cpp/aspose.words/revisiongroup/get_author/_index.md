@@ -23,7 +23,7 @@ System::String Aspose::Words::RevisionGroup::get_Author()
 
 Shows how to print info about a group of revisions in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
 ASSERT_EQ(7, doc->get_Revisions()->get_Groups()->get_Count());
 

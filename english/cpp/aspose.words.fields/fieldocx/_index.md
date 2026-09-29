@@ -55,7 +55,7 @@ Shows how to insert an OCX field.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldOcx>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldOcx, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldOcx>(builder->InsertField(FieldType::FieldOcx, true));
 
 ASSERT_EQ(u" OCX ", field->GetFieldCode());
 ```

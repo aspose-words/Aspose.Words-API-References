@@ -36,7 +36,7 @@ ASSERT_EQ(1033, field->get_LocaleId());
 // Changing the culture of our thread will impact the result of the DATE field.
 // Another way to get the DATE field to display a date in a different culture is to use its LocaleId property.
 // This way allows us to avoid changing the thread's culture to get this effect.
-doc->get_FieldOptions()->set_FieldUpdateCultureSource(Aspose::Words::Fields::FieldUpdateCultureSource::FieldCode);
+doc->get_FieldOptions()->set_FieldUpdateCultureSource(FieldUpdateCultureSource::FieldCode);
 auto de = System::MakeObject<System::Globalization::CultureInfo>(u"de-DE");
 field->set_LocaleId(de->get_LCID());
 field->Update();

@@ -23,7 +23,7 @@ Aspose::Words::Saving::CompressionLevel Aspose::Words::Saving::OoxmlSaveOptions:
 
 Shows how to specify the compression level to use while saving an OOXML document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
 // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 // and then pass it to the document's saving method to modify how we save the document.
@@ -33,7 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big docum
 // Set the "CompressionLevel" property to "CompressionLevel.Fast" to apply a faster and weaker compression.
 // Set the "CompressionLevel" property to "CompressionLevel.SuperFast" to apply
 // the default compression that Microsoft Word uses.
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(SaveFormat::Docx);
 saveOptions->set_CompressionLevel(compressionLevel);
 
 System::SharedPtr<System::Diagnostics::Stopwatch> st = System::Diagnostics::Stopwatch::StartNew();

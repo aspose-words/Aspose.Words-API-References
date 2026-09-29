@@ -14,7 +14,7 @@ Implements the NOTEREF field. To learn more, visit the [Working with Fields](htt
 
 ```cpp
 class FieldNoteRef : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                     public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -66,7 +66,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"CrossReference: ");
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldNoteRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldNoteRef, false));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldNoteRef>(builder->InsertField(FieldType::FieldNoteRef, false));
 // <--- don't update field
 field->set_BookmarkName(u"CrossRefBookmark");
 field->set_InsertHyperlink(true);
@@ -76,7 +76,7 @@ builder->Writeln();
 
 builder->StartBookmark(u"CrossRefBookmark");
 builder->Write(u"Hello world!");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Cross referenced footnote.");
+builder->InsertFootnote(FootnoteType::Footnote, u"Cross referenced footnote.");
 builder->EndBookmark(u"CrossRefBookmark");
 builder->Writeln();
 

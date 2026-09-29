@@ -25,7 +25,7 @@ Shows how to lock style.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> styleHeading1 = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Heading1);
+System::SharedPtr<Aspose::Words::Style> styleHeading1 = doc->get_Styles()->idx_get(StyleIdentifier::Heading1);
 if (!styleHeading1->get_Locked())
 {
     styleHeading1->set_Locked(true);

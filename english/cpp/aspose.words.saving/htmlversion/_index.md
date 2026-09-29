@@ -30,9 +30,9 @@ enum class HtmlVersion
 
 Shows how to save a document to a specific version of HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Html);
 options->set_HtmlVersion(htmlVersion);
 options->set_PrettyFormat(true);
 
@@ -43,18 +43,16 @@ System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir()
 
 switch (htmlVersion)
 {
-    case Aspose::Words::Saving::HtmlVersion::Html5:
+    case HtmlVersion::Html5:
         ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
-
-    case Aspose::Words::Saving::HtmlVersion::Xhtml:
+    case HtmlVersion::Xhtml:
         ASSERT_TRUE(outDocContents.Contains(u"<a name=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
         ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
         break;
-
 }
 ```
 
@@ -66,8 +64,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
-options->set_HtmlVersion(Aspose::Words::Saving::HtmlVersion::Xhtml);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Html);
+options->set_HtmlVersion(HtmlVersion::Xhtml);
 options->set_ExportXhtmlTransitional(showDoctypeDeclaration);
 options->set_PrettyFormat(true);
 

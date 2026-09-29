@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
 auto button1 = System::MakeObject<Aspose::Words::Drawing::Ole::CommandButtonControl>();
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertForms2OleControl(button1);
-ASSERT_EQ(Aspose::Words::Drawing::Ole::Forms2OleControlType::CommandButton, button1->get_Type());
+ASSERT_EQ(Forms2OleControlType::CommandButton, button1->get_Type());
 ```
 
 ## See Also

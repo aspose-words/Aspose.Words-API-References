@@ -38,7 +38,7 @@ builder->Write(u"Cell #2");
 builder->InsertCell();
 builder->Write(u"Cell #3");
 
-table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPercent(50));
+table->set_PreferredWidth(PreferredWidth::FromPercent(50));
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```

@@ -46,8 +46,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
-options->set_HtmlVersion(Aspose::Words::Saving::HtmlVersion::Xhtml);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Html);
+options->set_HtmlVersion(HtmlVersion::Xhtml);
 options->set_ExportXhtmlTransitional(showDoctypeDeclaration);
 options->set_PrettyFormat(true);
 

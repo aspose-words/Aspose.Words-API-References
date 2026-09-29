@@ -27,9 +27,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3");
 
 // Create a "TxtSaveOptions" object, which we can pass to the document's "Save"
@@ -46,7 +46,7 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt", saveOptions);
 
 // If we load a plaintext document with page breaks,
 // the "Document" object will use them to split the body into pages.
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt"));
 
 ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
 ```

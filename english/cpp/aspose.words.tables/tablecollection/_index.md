@@ -41,14 +41,14 @@ class TableCollection : public Aspose::Words::NodeCollection
 
 Shows how to remove the first and last rows of all tables in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
 ASSERT_EQ(5, tables->idx_get(0)->get_Rows()->get_Count());
 ASSERT_EQ(4, tables->idx_get(1)->get_Rows()->get_Count());
 
-for (auto&& table : System::IterateOver(tables->LINQ_OfType<System::SharedPtr<Aspose::Words::Tables::Table> >()))
+for (auto&& table : System::IterateOver(tables->LINQ_OfType<System::SharedPtr<Aspose::Words::Tables::Table>>()))
 {
     System::SharedPtr<Aspose::Words::Tables::Row> condExpression = table->get_FirstRow();
     if (condExpression != nullptr)

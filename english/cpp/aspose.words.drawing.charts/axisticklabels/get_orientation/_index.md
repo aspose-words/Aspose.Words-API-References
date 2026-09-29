@@ -33,14 +33,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a column chart.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::AxisTickLabels> xTickLabels = shape->get_Chart()->get_AxisX()->get_TickLabels();
 System::SharedPtr<Aspose::Words::Drawing::Charts::AxisTickLabels> yTickLabels = shape->get_Chart()->get_AxisY()->get_TickLabels();
 
 // Set axis tick label orientation and rotation.
-xTickLabels->set_Orientation(Aspose::Words::Drawing::ShapeTextOrientation::VerticalFarEast);
+xTickLabels->set_Orientation(ShapeTextOrientation::VerticalFarEast);
 xTickLabels->set_Rotation(-30);
-yTickLabels->set_Orientation(Aspose::Words::Drawing::ShapeTextOrientation::Horizontal);
+yTickLabels->set_Orientation(ShapeTextOrientation::Horizontal);
 yTickLabels->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");

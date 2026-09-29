@@ -31,7 +31,7 @@ builder->Writeln(u"Hello world!");
 // Set the "TextOrientation" property to "TextOrientation.Upward" to rotate all the text 90 degrees
 // to the right so that all left-to-right text now goes top-to-bottom.
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
-pageSetup->set_TextOrientation(Aspose::Words::TextOrientation::Upward);
+pageSetup->set_TextOrientation(TextOrientation::Upward);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetTextOrientation.docx");
 ```

@@ -14,8 +14,8 @@ Represents an Office [Math](../) object such as function, equation, matrix or al
 
 ```cpp
 class OfficeMath : public Aspose::Words::CompositeNode,
-                   public Aspose::Words::IInline,
-                   public Aspose::Words::Revisions::ITrackableNode
+                   public IInline,
+                   public Revisions::ITrackableNode
 ```
 
 ## Methods
@@ -74,7 +74,6 @@ class OfficeMath : public Aspose::Words::CompositeNode,
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |
@@ -91,19 +90,19 @@ In this version of Aspose.Words, [OfficeMath](./) nodes do not provide public me
 
 Shows how to set office math display formatting. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
-ASSERT_EQ(Aspose::Words::Math::MathObjectType::OMathPara, officeMath->get_MathObjectType());
-ASSERT_EQ(Aspose::Words::NodeType::OfficeMath, officeMath->get_NodeType());
+ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
+ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
 ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
 
 // Change the location and display type of the OfficeMath node.
-officeMath->set_DisplayType(Aspose::Words::Math::OfficeMathDisplayType::Display);
-officeMath->set_Justification(Aspose::Words::Math::OfficeMathJustification::Left);
+officeMath->set_DisplayType(OfficeMathDisplayType::Display);
+officeMath->set_Justification(OfficeMathJustification::Left);
 
 doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```

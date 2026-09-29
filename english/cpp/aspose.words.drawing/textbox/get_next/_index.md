@@ -26,19 +26,19 @@ Shows how to link text boxes.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape1 = builder->InsertShape(ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox1 = textBoxShape1->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape2 = builder->InsertShape(ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox2 = textBoxShape2->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape3 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape3 = builder->InsertShape(ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox3 = textBoxShape3->get_TextBox();
 builder->Writeln();
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape4 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape4 = builder->InsertShape(ShapeType::TextBox, static_cast<double>(100), static_cast<double>(100));
 System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox4 = textBoxShape4->get_TextBox();
 
 // Create links between some of the text boxes.

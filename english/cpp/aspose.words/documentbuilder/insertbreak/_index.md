@@ -35,34 +35,34 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Also, set its entries to be hyperlinks that will take us
 // to the location of the heading when left-clicked in Microsoft Word.
 builder->InsertTableOfContents(u"\\o \"1-3\" \\h \\z \\u");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // Populate the table of contents by adding paragraphs with heading styles.
 // Each such heading with a level between 1 and 3 will create an entry in the table.
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 1.1");
 builder->Writeln(u"Heading 1.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 2");
 builder->Writeln(u"Heading 3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading3);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
 builder->Writeln(u"Heading 3.1.1");
 builder->Writeln(u"Heading 3.1.2");
 builder->Writeln(u"Heading 3.1.3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading4);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading4);
 builder->Writeln(u"Heading 3.1.3.1");
 builder->Writeln(u"Heading 3.1.3.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.2");
 builder->Writeln(u"Heading 3.3");
 
@@ -78,22 +78,22 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Modify the page setup properties for the builder's current section and add text.
-builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
-builder->get_PageSetup()->set_VerticalAlignment(Aspose::Words::PageVerticalAlignment::Center);
+builder->get_PageSetup()->set_Orientation(Orientation::Landscape);
+builder->get_PageSetup()->set_VerticalAlignment(PageVerticalAlignment::Center);
 builder->Writeln(u"This is the first section, which landscape oriented with vertically centered text.");
 
 // If we start a new section using a document builder,
 // it will inherit the builder's current page setup properties.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(Aspose::Words::Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
-ASSERT_EQ(Aspose::Words::PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
+ASSERT_EQ(Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 // We can revert its page setup properties to their default values using the "ClearFormatting" method.
 builder->get_PageSetup()->ClearFormatting();
 
-ASSERT_EQ(Aspose::Words::Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
-ASSERT_EQ(Aspose::Words::PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
+ASSERT_EQ(Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 builder->Writeln(u"This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 

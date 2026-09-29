@@ -33,19 +33,19 @@ Shows how to place data labels of doughnut chart outside doughnut.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-const int32_t chartWidth = 432;
-const int32_t chartHeight = 252;
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Doughnut, chartWidth, chartHeight);
+constexpr int32_t chartWidth = 432;
+constexpr int32_t chartHeight = 252;
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Doughnut, static_cast<double>(chartWidth), static_cast<double>(chartHeight));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesColl = chart->get_Series();
 // Delete default generated series.
 seriesColl->Clear();
 
 // Hide the legend.
-chart->get_Legend()->set_Position(Aspose::Words::Drawing::Charts::LegendPosition::None);
+chart->get_Legend()->set_Position(LegendPosition::None);
 
 // Generate data.
-const int32_t dataLength = 20;
+constexpr int32_t dataLength = 20;
 double totalValue = 0;
 auto categories = System::MakeArray<System::String>(dataLength);
 auto values = System::MakeArray<double>(dataLength, 0);
@@ -127,9 +127,9 @@ for (int32_t i = 0; i < series->get_YValues()->get_Count(); i++)
     }
 
     dataLabel->set_Left(labelLeft);
-    dataLabel->set_LeftMode(Aspose::Words::Drawing::Charts::ChartDataLabelLocationMode::Absolute);
+    dataLabel->set_LeftMode(ChartDataLabelLocationMode::Absolute);
     dataLabel->set_Top(labelTop);
-    dataLabel->set_TopMode(Aspose::Words::Drawing::Charts::ChartDataLabelLocationMode::Absolute);
+    dataLabel->set_TopMode(ChartDataLabelLocationMode::Absolute);
 
     totalAngle = totalAngle + labelSegmentAngle;
     previousLabel = dataLabel;

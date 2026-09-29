@@ -30,7 +30,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
 doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({memoryFontSource}));
 
-ASSERT_EQ(Aspose::Words::Fonts::FontSourceType::MemoryFont, memoryFontSource->get_Type());
+ASSERT_EQ(FontSourceType::MemoryFont, memoryFontSource->get_Type());
 ASSERT_EQ(0, memoryFontSource->get_Priority());
 ```
 

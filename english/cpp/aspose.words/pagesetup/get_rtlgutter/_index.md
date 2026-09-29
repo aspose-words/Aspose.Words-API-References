@@ -30,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 for (int32_t i = 0; i < 6; i++)
 {
     builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 }
 
 // A gutter adds whitespaces to either the left or right page margin,
@@ -47,7 +47,7 @@ pageSetup->set_RtlGutter(true);
 
 // Set the "MultiplePages" property to "MultiplePagesType.MirrorMargins" to alternate
 // the left/right page side position of margins every page.
-pageSetup->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::MirrorMargins);
+pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Gutter.docx");
 ```

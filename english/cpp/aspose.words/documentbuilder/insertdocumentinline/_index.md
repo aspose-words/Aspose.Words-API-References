@@ -55,7 +55,7 @@ ASSERT_EQ(u"Before  after", dstDoc->get_Document()->GetText().TrimEnd(System::Ma
 
 // Insert source document into destination inline.
 dstDoc->MoveToBookmark(u"src_place");
-dstDoc->InsertDocumentInline(srcDoc->get_Document(), Aspose::Words::ImportFormatMode::UseDestinationStyles, System::MakeObject<Aspose::Words::ImportFormatOptions>());
+dstDoc->InsertDocumentInline(srcDoc->get_Document(), ImportFormatMode::UseDestinationStyles, System::MakeObject<Aspose::Words::ImportFormatOptions>());
 
 ASSERT_EQ(u"Before [src content] after", dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)));
 ```

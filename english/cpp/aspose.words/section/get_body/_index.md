@@ -48,7 +48,7 @@ auto body = System::MakeObject<Aspose::Words::Body>(doc);
 section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 
 // This body has no children, so we cannot add runs to it yet.
-ASSERT_EQ(0, doc->get_FirstSection()->get_Body()->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(0, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // Call the "EnsureMinimum" to make sure that this body contains at least one empty paragraph.
 body->EnsureMinimum();

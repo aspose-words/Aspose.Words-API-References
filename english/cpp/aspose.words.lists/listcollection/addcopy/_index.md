@@ -44,9 +44,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize its first list level.
-System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberArabicParenthesis);
+System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(ListTemplate::NumberArabicParenthesis);
 list1->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Red());
-list1->get_ListLevels()->idx_get(0)->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
+list1->get_ListLevels()->idx_get(0)->set_Alignment(ListLevelAlignment::Right);
 
 // Apply our list to some paragraphs.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

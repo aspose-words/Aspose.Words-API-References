@@ -23,7 +23,7 @@ System::Drawing::Color Aspose::Words::Drawing::Fill::get_Color()
 
 Shows how to convert any of the fills back to solid fill. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Two color gradient.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
 // Get Fill object for Font of the first Run.
 System::SharedPtr<Aspose::Words::Drawing::Fill> fill = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_Fill();

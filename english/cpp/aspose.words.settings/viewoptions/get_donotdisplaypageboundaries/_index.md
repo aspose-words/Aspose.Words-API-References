@@ -28,15 +28,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert content that spans across 3 pages.
 builder->Writeln(u"Paragraph 1, Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Paragraph 2, Page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Paragraph 3, Page 3.");
 
 // Insert a header and a footer.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"This is the header.");
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->Writeln(u"This is the footer.");
 
 // This document contains a small amount of content that takes up a few full pages worth of space.

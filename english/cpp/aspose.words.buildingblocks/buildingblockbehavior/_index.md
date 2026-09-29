@@ -23,7 +23,7 @@ enum class BuildingBlockBehavior
 | Content | 0 | Specifies that the building block shall be inserted as inline content. |
 | Paragraph | 1 | Specifies that the building block shall be inserted into its own paragraph. |
 | Page | 2 | Specifies that the building block shall be added into its own page. |
-| Default | n/a | Same as [Content](./). |
+| Default | 0 | Same as [Content](./). |
 
 ## Remarks
 

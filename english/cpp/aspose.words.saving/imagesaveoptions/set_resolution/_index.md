@@ -38,14 +38,14 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 
 // Set the "Resolution" property to "72" to render the document in 72dpi.
-options->set_Resolution(72.0f);
+options->set_Resolution(72);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.72dpi.png", options);
 
 // Set the "Resolution" property to "300" to render the document in 300dpi.
-options->set_Resolution(300.0f);
+options->set_Resolution(300);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.300dpi.png", options);
 ```
 

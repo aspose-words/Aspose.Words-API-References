@@ -57,7 +57,7 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_Firs
 
 switch (txtLeadingSpacesOptions)
 {
-    case Aspose::Words::Loading::TxtLeadingSpacesOptions::ConvertToIndent:
+    case TxtLeadingSpacesOptions::ConvertToIndent:
         ASPOSE_ASSERT_EQ(37.8, paragraphs->idx_get(0)->get_ParagraphFormat()->get_FirstLineIndent());
         ASPOSE_ASSERT_EQ(25.2, paragraphs->idx_get(1)->get_ParagraphFormat()->get_FirstLineIndent());
         ASPOSE_ASSERT_EQ(6.3, paragraphs->idx_get(2)->get_ParagraphFormat()->get_FirstLineIndent());
@@ -65,8 +65,7 @@ switch (txtLeadingSpacesOptions)
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
         break;
-
-    case Aspose::Words::Loading::TxtLeadingSpacesOptions::Preserve:
+    case TxtLeadingSpacesOptions::Preserve:
         ASSERT_TRUE(paragraphs->LINQ_All(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
         {
             return (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0;
@@ -75,8 +74,7 @@ switch (txtLeadingSpacesOptions)
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"    Line 2"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u" Line 3"));
         break;
-
-    case Aspose::Words::Loading::TxtLeadingSpacesOptions::Trim:
+    case TxtLeadingSpacesOptions::Trim:
         ASSERT_TRUE(paragraphs->LINQ_All(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
         {
             return (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0;
@@ -85,23 +83,20 @@ switch (txtLeadingSpacesOptions)
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
         break;
-
 }
 
 switch (txtTrailingSpacesOptions)
 {
-    case Aspose::Words::Loading::TxtTrailingSpacesOptions::Preserve:
+    case TxtTrailingSpacesOptions::Preserve:
         ASSERT_TRUE(paragraphs->idx_get(0)->GetText().EndsWith(u"Line 1 \r"));
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().EndsWith(u"Line 2   \r"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().EndsWith(u"Line 3       \f"));
         break;
-
-    case Aspose::Words::Loading::TxtTrailingSpacesOptions::Trim:
+    case TxtTrailingSpacesOptions::Trim:
         ASSERT_TRUE(paragraphs->idx_get(0)->GetText().EndsWith(u"Line 1\r"));
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().EndsWith(u"Line 2\r"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().EndsWith(u"Line 3\f"));
         break;
-
 }
 ```
 

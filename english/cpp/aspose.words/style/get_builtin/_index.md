@@ -35,7 +35,7 @@ ASSERT_TRUE(style->get_BuiltIn());
 
 // Create a custom style and add it to the collection.
 // Custom styles such as this will have the "BuiltIn" flag set to "false".
-style = doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyStyle");
+style = doc->get_Styles()->Add(StyleType::Character, u"MyStyle");
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());
 style->get_Font()->set_Name(u"Courier New");
 
