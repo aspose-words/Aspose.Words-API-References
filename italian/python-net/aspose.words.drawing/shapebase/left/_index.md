@@ -1,0 +1,71 @@
+﻿---
+title: ShapeBase.left property
+linktitle: left property
+articleTitle: left property
+second_title: Aspose.Words for Python
+description: "ShapeBase.left property. Gets or sets the position of the left edge of the containing block of the shape."
+type: docs
+weight: 390
+url: /it/python-net/aspose.words.drawing/shapebase/left/
+---
+
+## ShapeBase.left property
+
+Gets or sets the position of the left edge of the containing block of the shape.
+
+
+```python
+@property
+def left(self) -> float:
+    ...
+
+@left.setter
+def left(self, value: float):
+    ...
+
+```
+
+### Remarks
+
+For a top-level shape, the value is in points and relative to the shape anchor.
+
+For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+The default value is 0.
+
+Has effect only for floating shapes.
+
+
+
+
+### Examples
+
+Shows how to insert a floating image, and specify its position and size.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_image(file_name=IMAGE_DIR + 'Logo.jpg')
+shape.wrap_type = aw.drawing.WrapType.NONE
+# Configura la proprietà "RelativeHorizontalPosition" della forma in modo che tratti il valore della proprietà "Left"
+# come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+shape.relative_horizontal_position = aw.drawing.RelativeHorizontalPosition.PAGE
+# Imposta la distanza orizzontale della forma dal lato sinistro della pagina a 100.
+shape.left = 100
+# Usa la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+shape.relative_vertical_position = aw.drawing.RelativeVerticalPosition.PAGE
+shape.top = 80
+# Imposta l'altezza della forma, che scalerà automaticamente la larghezza per preservare le dimensioni.
+shape.height = 125
+self.assertEqual(125, shape.width)
+# Le proprietà "Bottom" e "Right" contengono i bordi inferiore e destro dell'immagine.
+self.assertEqual(shape.top + shape.height, shape.bottom)
+self.assertEqual(shape.left + shape.width, shape.right)
+doc.save(file_name=ARTIFACTS_DIR + 'Image.CreateFloatingPositionSize.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing](../../)
+* class [ShapeBase](../)
+

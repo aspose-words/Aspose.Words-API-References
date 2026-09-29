@@ -1,0 +1,32 @@
+﻿---
+title: FieldDatabase.file_name property
+linktitle: file_name property
+articleTitle: file_name property
+second_title: Aspose.Words for Python
+description: "FieldDatabase.file_name property. Gets or sets the complete path and file name of the database"
+type: docs
+weight: 30
+url: /it/python-net/aspose.words.fields/fielddatabase/file_name/
+---
+
+## FieldDatabase.file_name property
+
+Gets or sets the complete path and file name of the database
+
+
+```python
+@property
+def file_name(self) -> str:
+    ...
+
+@file_name.setter
+def file_name(self, value: str):
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldDatabase](../)
+

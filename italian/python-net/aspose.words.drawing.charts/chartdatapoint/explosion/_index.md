@@ -1,0 +1,56 @@
+﻿---
+title: ChartDataPoint.explosion property
+linktitle: explosion property
+articleTitle: explosion property
+second_title: Aspose.Words for Python
+description: "ChartDataPoint.explosion property. Specifies the amount the data point shall be moved from the center of the pie"
+type: docs
+weight: 20
+url: /it/python-net/aspose.words.drawing.charts/chartdatapoint/explosion/
+---
+
+## ChartDataPoint.explosion property
+
+Specifies the amount the data point shall be moved from the center of the pie.
+Can be negative, negative means that property is not set and no explosion should be applied.
+Applies only to Pie charts.
+
+
+```python
+@property
+def explosion(self) -> int:
+    ...
+
+@explosion.setter
+def explosion(self, value: int):
+    ...
+
+```
+
+### Examples
+
+Shows how to move the slices of a pie chart away from the center.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.PIE, width=500, height=350)
+chart = shape.chart
+self.assertEqual(1, chart.series.count)
+self.assertEqual('Sales', chart.series[0].name)
+# \"Fette\" di un grafico a torta possono essere spostate dal centro di una certa distanza tramite l'attributo Explosion del relativo punto dati.
+# Aggiungi un punto dati alla prima porzione del grafico a torta e spostalo dal centro di 10 punti.
+# Aspose.Words crea automaticamente i punti dati se non esistono.
+data_point = chart.series[0].data_points[0]
+data_point.explosion = 10
+# Sposta la seconda porzione a una distanza maggiore.
+data_point = chart.series[0].data_points[1]
+data_point.explosion = 40
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.PieChartExplosion.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing.charts](../../)
+* class [ChartDataPoint](../)
+
