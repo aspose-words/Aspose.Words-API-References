@@ -1,0 +1,28 @@
+﻿---
+title: PersonCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "PersonCollection.count property. Gets the number of persons contained in the collection."
+type: docs
+weight: 30
+url: /sv/python-net/aspose.words.bibliography/personcollection/count/
+---
+
+## PersonCollection.count property
+
+Gets the number of persons contained in the collection.
+
+
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.bibliography](../../)
+* class [PersonCollection](../)
+

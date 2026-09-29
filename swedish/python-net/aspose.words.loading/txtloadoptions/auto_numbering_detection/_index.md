@@ -1,0 +1,45 @@
+﻿---
+title: TxtLoadOptions.auto_numbering_detection property
+linktitle: auto_numbering_detection property
+articleTitle: auto_numbering_detection property
+second_title: Aspose.Words for Python
+description: "TxtLoadOptions.auto_numbering_detection property. Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document"
+type: docs
+weight: 20
+url: /sv/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/
+---
+
+## TxtLoadOptions.auto_numbering_detection property
+
+Gets or sets a boolean value indicating either automatic numbering detection
+will be performed while loading a document.
+The default value is ``True``.
+
+
+
+```python
+@property
+def auto_numbering_detection(self) -> bool:
+    ...
+
+@auto_numbering_detection.setter
+def auto_numbering_detection(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to disable automatic numbering detection.
+
+```python
+options = aw.loading.TxtLoadOptions()
+options.auto_numbering_detection = False
+doc = aw.Document(file_name=MY_DIR + 'Number detection.txt', load_options=options)
+```
+
+### See Also
+
+* module [aspose.words.loading](../../)
+* class [TxtLoadOptions](../)
+

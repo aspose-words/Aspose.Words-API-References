@@ -1,0 +1,76 @@
+﻿---
+title: PdfSaveOptions.use_core_fonts property
+linktitle: use_core_fonts property
+articleTitle: use_core_fonts property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.use_core_fonts property. Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts."
+type: docs
+weight: 350
+url: /sv/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/
+---
+
+## PdfSaveOptions.use_core_fonts property
+
+Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman,
+Courier New and Symbol with core PDF Type 1 fonts.
+
+
+```python
+@property
+def use_core_fonts(self) -> bool:
+    ...
+
+@use_core_fonts.setter
+def use_core_fonts(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
+The default value is ``False``. When this value is set to ``True`` Arial, Times New Roman,
+Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
+
+Core PDF fonts, or their font metrics and suitable substitution fonts, are required to be available to any
+PDF viewer application.
+
+This setting works only for the text in ANSI (Windows-1252) encoding. Non-ANSI text will be written
+with embedded TrueType font regardless of this setting.
+
+PDF/A and PDF/UA compliance requires all fonts to be embedded. ``False`` value will be used
+automatically when saving to PDF/A and PDF/UA.
+
+Core fonts are not supported when saving to PDF 2.0 format. ``False`` value will be used
+automatically when saving to PDF 2.0.
+
+This option has a higher priority then [PdfSaveOptions.font_embedding_mode](../font_embedding_mode/) option.
+
+
+
+
+### Examples
+
+Shows how enable/disable PDF Type 1 font substitution.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.font.name = 'Arial'
+builder.writeln('Hello world!')
+builder.font.name = 'Courier New'
+builder.writeln('The quick brown fox jumps over the lazy dog.')
+# Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+# för att ändra hur den metoden konverterar dokumentet till .PDF.
+options = aw.saving.PdfSaveOptions()
+# Ställ in egenskapen "UseCoreFonts" till "true" för att ersätta vissa teckensnitt,
+# inklusive de två teckensnitten i vårt dokument, med deras PDF Type 1‑ekvivalenter.
+# Ställ in egenskapen "UseCoreFonts" till "false" för att inte använda PDF Type 1‑teckensnitt.
+options.use_core_fonts = use_core_fonts
+doc.save(file_name=ARTIFACTS_DIR + 'PdfSaveOptions.EmbedCoreFonts.pdf', save_options=options)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [PdfSaveOptions](../)
+
