@@ -1,0 +1,99 @@
+﻿---
+title: Range.replace_regex method
+linktitle: replace_regex method
+articleTitle: replace_regex method
+second_title: Aspose.Words for Python
+description: "aspose.words.Range.replace_regex method"
+type: docs
+weight: 100
+url: /it/python-net/aspose.words/range/replace_regex/
+---
+
+## replace_regex(pattern, replacement) {#str_str}
+
+Replaces all occurrences of a character pattern specified by a regular expression with another string.
+
+
+```python
+def replace_regex(self, pattern: str, replacement: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | str | A regular expression pattern used to find matches. |
+| replacement | str | A string to replace all occurrences of pattern. |
+
+### Remarks
+
+Replaces the whole match captured by the regular expression.
+
+Method is able to process breaks in both pattern and replacement strings.
+
+
+You should use special meta-characters if you need to work with breaks:
+* **&p** - paragraph break
+  
+* **&b** - section break
+  
+* **&m** - page break
+  
+* **&l** - manual line break
+  
+
+Use methodAspose.Words.Range.Replace(System.Text.RegularExpressions.Regex,System.String,Aspose.Words.Replacing.FindReplaceOptions) to have more flexible customization.
+
+
+
+### Returns
+
+The number of replacements made.
+
+
+## replace_regex(pattern, replacement, options) {#str_str_findreplaceoptions}
+
+Replaces all occurrences of a character pattern specified by a regular expression with another string.
+
+
+```python
+def replace_regex(self, pattern: str, replacement: str, options: aspose.words.replacing.FindReplaceOptions):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | str | A regular expression pattern used to find matches. |
+| replacement | str | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
+
+### Remarks
+
+Replaces the whole match captured by the regular expression.
+
+Method is able to process breaks in both pattern and replacement strings.
+
+
+You should use special meta-characters if you need to work with breaks:
+* **&p** - paragraph break
+  
+* **&b** - section break
+  
+* **&m** - page break
+  
+* **&l** - manual line break
+  
+* **&&** - & character
+  
+
+
+
+### Returns
+
+The number of replacements made.
+
+
+## See Also
+
+* module [aspose.words](../../)
+* class [Range](../)
+

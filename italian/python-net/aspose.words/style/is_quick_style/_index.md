@@ -1,0 +1,48 @@
+﻿---
+title: Style.is_quick_style property
+linktitle: is_quick_style property
+articleTitle: is_quick_style property
+second_title: Aspose.Words for Python
+description: "Style.is_quick_style property. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI."
+type: docs
+weight: 80
+url: /it/python-net/aspose.words/style/is_quick_style/
+---
+
+## Style.is_quick_style property
+
+Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
+
+
+```python
+@property
+def is_quick_style(self) -> bool:
+    ...
+
+@is_quick_style.setter
+def is_quick_style(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to access a document's style collection.
+
+```python
+doc = aw.Document()
+self.assertEqual(4, doc.styles.count)
+# Elenca e lista tutti gli stili che un documento creato usando Aspose.Words contiene per impostazione predefinita.
+for cur_style in doc.styles:
+    print(f'Style name:\t"{cur_style.name}", of type "{cur_style.type}"')
+    print(f'\tSubsequent style:\t{cur_style.next_paragraph_style_name}')
+    print(f'\tIs heading:\t\t\t{cur_style.is_heading}')
+    print(f'\tIs QuickStyle:\t\t{cur_style.is_quick_style}')
+    self.assertEqual(doc, cur_style.document)
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Style](../)
+

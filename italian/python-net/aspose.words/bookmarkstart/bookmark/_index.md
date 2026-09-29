@@ -1,0 +1,28 @@
+﻿---
+title: BookmarkStart.bookmark property
+linktitle: bookmark property
+articleTitle: bookmark property
+second_title: Aspose.Words for Python
+description: "BookmarkStart.bookmark property. Gets the facade object that encapsulates this bookmark start and end."
+type: docs
+weight: 20
+url: /it/python-net/aspose.words/bookmarkstart/bookmark/
+---
+
+## BookmarkStart.bookmark property
+
+Gets the facade object that encapsulates this bookmark start and end.
+
+
+```python
+@property
+def bookmark(self) -> aspose.words.Bookmark:
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [BookmarkStart](../)
+

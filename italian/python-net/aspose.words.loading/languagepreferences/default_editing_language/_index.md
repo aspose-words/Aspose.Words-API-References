@@ -1,0 +1,48 @@
+﻿---
+title: LanguagePreferences.default_editing_language property
+linktitle: default_editing_language property
+articleTitle: default_editing_language property
+second_title: Aspose.Words for Python
+description: "LanguagePreferences.default_editing_language property. Gets or sets default editing language."
+type: docs
+weight: 20
+url: /it/python-net/aspose.words.loading/languagepreferences/default_editing_language/
+---
+
+## LanguagePreferences.default_editing_language property
+
+Gets or sets default editing language.
+
+The default value is EnglishUS.
+
+
+
+
+```python
+@property
+def default_editing_language(self) -> aspose.words.loading.EditingLanguage:
+    ...
+
+@default_editing_language.setter
+def default_editing_language(self, value: aspose.words.loading.EditingLanguage):
+    ...
+
+```
+
+### Examples
+
+Shows how set a default language when loading a document.
+
+```python
+load_options = aw.loading.LoadOptions()
+load_options.language_preferences.default_editing_language = aw.loading.EditingLanguage.RUSSIAN
+doc = aw.Document(file_name=MY_DIR + 'No default editing language.docx', load_options=load_options)
+locale_id = doc.styles.default_font.locale_id
+print('The document either has no any language set in defaults or it was set to Russian originally.' if locale_id == int(aw.loading.EditingLanguage.RUSSIAN) else 'The document default language was set to another than Russian language originally, so it is not overridden.')
+```
+
+### See Also
+
+* module [aspose.words.loading](../../)
+* class [LanguagePreferences](../)
+
