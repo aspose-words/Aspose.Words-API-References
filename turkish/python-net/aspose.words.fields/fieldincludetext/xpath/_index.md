@@ -1,0 +1,47 @@
+﻿---
+title: FieldIncludeText.xpath property
+linktitle: xpath property
+articleTitle: xpath property
+second_title: Aspose.Words for Python
+description: "FieldIncludeText.xpath property. Gets or sets XPath for the desired portion of the XML file."
+type: docs
+weight: 90
+url: /tr/python-net/aspose.words.fields/fieldincludetext/xpath/
+---
+
+## FieldIncludeText.xpath property
+
+Gets or sets XPath for the desired portion of the XML file.
+
+
+```python
+@property
+def xpath(self) -> str:
+    ...
+
+@xpath.setter
+def xpath(self, value: str):
+    ...
+
+```
+
+### Examples
+
+Shows how to create an INCLUDETEXT field, and set its properties (CreateFieldIncludeText).
+
+```python
+def create_field_include_text(self, builder, source_full_name, lock_fields, mime_type, text_converter, encoding):
+    field_include_text = builder.insert_field(field_type=aw.fields.FieldType.FIELD_INCLUDE_TEXT, update_field=True).as_field_include_text()
+    field_include_text.source_full_name = source_full_name
+    field_include_text.lock_fields = lock_fields
+    field_include_text.mime_type = mime_type
+    field_include_text.text_converter = text_converter
+    field_include_text.encoding = encoding
+    return field_include_text
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldIncludeText](../)
+
