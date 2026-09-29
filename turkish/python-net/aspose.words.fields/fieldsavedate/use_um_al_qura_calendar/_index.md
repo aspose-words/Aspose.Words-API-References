@@ -1,0 +1,67 @@
+﻿---
+title: FieldSaveDate.use_um_al_qura_calendar property
+linktitle: use_um_al_qura_calendar property
+articleTitle: use_um_al_qura_calendar property
+second_title: Aspose.Words for Python
+description: "FieldSaveDate.use_um_al_qura_calendar property. Gets or sets whether to use the Um-al-Qura calendar."
+type: docs
+weight: 40
+url: /tr/python-net/aspose.words.fields/fieldsavedate/use_um_al_qura_calendar/
+---
+
+## FieldSaveDate.use_um_al_qura_calendar property
+
+Gets or sets whether to use the Um-al-Qura calendar.
+
+
+```python
+@property
+def use_um_al_qura_calendar(self) -> bool:
+    ...
+
+@use_um_al_qura_calendar.setter
+def use_um_al_qura_calendar(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+builder = aw.DocumentBuilder(doc=doc)
+builder.move_to_document_end()
+builder.writeln(' Date this document was last saved:')
+# Belge üzerinde son kaydetme işleminin tarih ve saatini göstermek için SAVEDATE alanını kullanabiliriz.
+# Bu alanların referans verdiği kaydetme işlemi, Microsoft Word gibi bir uygulamadaki manuel kaydetmedir,
+# belgenin Save metodundan değil.
+# Aşağıda, SAVEDATE alanının tarih/saat gösterebileceği üç farklı takvim türü bulunmaktadır.
+# 1 -  İslami Hicri Takvim:
+builder.write('According to the Lunar Calendar - ')
+field = builder.insert_field(field_type=FieldType.FIELD_SAVE_DATE, update_field=True).as_field_save_date()
+field.use_lunar_calendar = True
+self.assertEqual(' SAVEDATE  \\h', field.get_field_code())
+# 2 -  Umm al-Qura takvimi:
+builder.write('\nAccording to the Umm al-Qura calendar - ')
+field = builder.insert_field(field_type=FieldType.FIELD_SAVE_DATE, update_field=True).as_field_save_date()
+field.use_um_al_qura_calendar = True
+self.assertEqual(' SAVEDATE  \\u', field.get_field_code())
+# 3 -  Hindistan Ulusal takvimi:
+builder.write('\nAccording to the Indian National calendar - ')
+field = builder.insert_field(field_type=FieldType.FIELD_SAVE_DATE, update_field=True).as_field_save_date()
+field.use_saka_era_calendar = True
+self.assertEqual(' SAVEDATE  \\s', field.get_field_code())
+# SAVEDATE alanları tarih/saat değerlerini LastSavedTime yerleşik özelliğinden alır.
+# Belgenin Save yöntemi bu değeri güncellemez, ancak yine de manuel olarak güncelleyebiliriz.
+doc.built_in_document_properties.last_saved_time = datetime.datetime.now()
+doc.update_fields()
+doc.save(file_name=ARTIFACTS_DIR + 'Field.SAVEDATE.docx')
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldSaveDate](../)
+

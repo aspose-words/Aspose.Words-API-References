@@ -1,0 +1,27 @@
+﻿---
+title: Field.as_field_import method
+linktitle: as_field_import method
+articleTitle: as_field_import method
+second_title: Aspose.Words for Python
+description: "Field.as_field_import method. Cast Field to [FieldImport](../../fieldimport/)."
+type: docs
+weight: 530
+url: /tr/python-net/aspose.words.fields/field/as_field_import/
+---
+
+## as_field_import() {#default}
+
+Cast Field to [FieldImport](../../fieldimport/).
+
+
+
+```python
+def as_field_import(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+
