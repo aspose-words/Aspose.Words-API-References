@@ -1,0 +1,27 @@
+﻿---
+title: Field.as_field_private method
+linktitle: as_field_private method
+articleTitle: as_field_private method
+second_title: Aspose.Words for Python
+description: "Field.as_field_private method. Cast Field to [FieldPrivate](../../fieldprivate/)."
+type: docs
+weight: 790
+url: /es/python-net/aspose.words.fields/field/as_field_private/
+---
+
+## as_field_private() {#default}
+
+Cast Field to [FieldPrivate](../../fieldprivate/).
+
+
+
+```python
+def as_field_private(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+
