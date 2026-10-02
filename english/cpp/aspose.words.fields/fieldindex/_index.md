@@ -48,7 +48,7 @@ class FieldIndex : public Aspose::Words::Fields::Field,
 | [get_SequenceSeparator](./get_sequenceseparator/)() | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [get_UseYomi](./get_useyomi/)() | Gets or sets whether to enable the use of yomi text for index entries. |
+| [get_UseYomi](./get_useyomi/)() | Gets whether to enable the use of yomi text for index entries. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
@@ -71,7 +71,7 @@ class FieldIndex : public Aspose::Words::Fields::Field,
 | [set_RunSubentriesOnSameLine](./set_runsubentriesonsameline/)(bool) | Setter for [Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine](./get_runsubentriesonsameline/). |
 | [set_SequenceName](./set_sequencename/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceName](./get_sequencename/). |
 | [set_SequenceSeparator](./set_sequenceseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceSeparator](./get_sequenceseparator/). |
-| [set_UseYomi](./set_useyomi/)(bool) | Setter for [Aspose::Words::Fields::FieldIndex::get_UseYomi](./get_useyomi/). |
+| [set_UseYomi](./set_useyomi/)(bool) | Sets whether to enable the use of yomi text for index entries. |
 | static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |

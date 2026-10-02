@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel method
 linktitle: get_XmlDsigLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel method. Specifies the level of a digital signature based on XML-DSig standard. The default value is XmlDSig in C++.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel method. Specifies the level of a digital signature based on the XML-DSig standard. The default value is XmlDSig in C++.'
 type: docs
 weight: 8500
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_xmldsiglevel/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/get_xmldsiglevel/
 ## SignOptions::get_XmlDsigLevel method
 
 
-Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDSig](../../xmldsiglevel/).
+Specifies the level of a digital signature based on the XML-DSig standard. The default value is [XmlDSig](../../xmldsiglevel/).
 
 ```cpp
 Aspose::Words::DigitalSignatures::XmlDsigLevel Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel() const
 ```
 
+## Remarks
+
+
+Different levels of XAdES signatures can be created starting with Office 2010.
+
+This is only relevant for the following document formats: DOC, DOCX, and XPS. It is ignored in other document formats, which always produce a plain XML-DSig signature regardless of this setting.
 
 ## Examples
 

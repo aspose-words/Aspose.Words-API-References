@@ -69,11 +69,11 @@ class ImageData : public IBorderAttrSource
 
 Use the [ImageData](../shape/get_imagedata/) property to access and modify the image inside a shape. You do not create instances of the [ImageData](./) class directly.
 
-An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
+An image can be stored inside a shape, linked to external file or both(linked and stored in the document).
 
-Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [ToByteArray](./tobytearray/), [ToStream](./tostream/), [ToImage](./toimage/) or [Save()](../) methods. If the image is stored inside the shape, you can also directly access it using the [ImageBytes](./get_imagebytes/) property.
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [ToByteArray](./tobytearray/), [ToStream](./tostream/) or [Save()](../) methods. If the image is stored inside the shape, you can also directly access it using the [ImageBytes](./get_imagebytes/) property.
 
-To store an image inside a shape use the [SetImage()](../) method. To link an image to a shape, set the [SourceFullName](./get_sourcefullname/) property.
+To store an image inside a shape use the[SetImage()](../) method.To link an image to a shape, set the[SourceFullName](./get_sourcefullname/) property.
 
 ## Examples
 

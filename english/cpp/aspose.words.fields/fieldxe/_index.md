@@ -39,7 +39,7 @@ class FieldXE : public Aspose::Words::Fields::Field,
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | [get_Text](./get_text/)() | Gets or sets the text of the entry. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [get_Yomi](./get_yomi/)() | Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry. |
+| [get_Yomi](./get_yomi/)() | Gets the yomi (first phonetic character for sorting indexes) for the index entry. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [GetType](./gettype/)() const override |  |
@@ -55,7 +55,7 @@ class FieldXE : public Aspose::Words::Fields::Field,
 | [set_PageRangeBookmarkName](./set_pagerangebookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_PageRangeBookmarkName](./get_pagerangebookmarkname/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
 | [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_Text](./get_text/). |
-| [set_Yomi](./set_yomi/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldXE::get_Yomi](./get_yomi/). |
+| [set_Yomi](./set_yomi/)(const System::String\&) | Sets the yomi (first phonetic character for sorting indexes) for the index entry. |
 | static [Type](./type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |

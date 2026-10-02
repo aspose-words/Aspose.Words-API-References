@@ -1,47 +1,27 @@
 ---
-title: Aspose::Words::DigitalSignatures::XmlDsigLevel enum
-linktitle: XmlDsigLevel
+title: Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings method
+linktitle: get_TimestampSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::XmlDsigLevel enum. Specifies the level of a digital signature based on XML-DSig standard in C++.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings method. Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is null and the digital signature will not be time-stamped in C++.'
 type: docs
-weight: 7000
-url: /cpp/aspose.words.digitalsignatures/xmldsiglevel/
+weight: 8084
+url: /cpp/aspose.words.digitalsignatures/signoptions/get_timestampsettings/
 ---
-## XmlDsigLevel enum
+## SignOptions::get_TimestampSettings method
 
 
-Specifies the level of a digital signature based on XML-DSig standard.
+Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is **null** and the digital signature will not be time-stamped.
 
 ```cpp
-enum class XmlDsigLevel
+const System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings> & Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings() const
 ```
-
-### Values
-
-| Name | Value | Description |
-| --- | --- | --- |
-| XmlDSig | 0 | Specifies XML-DSig signature level. |
-| XAdEsEpes | 1 | Specifies XAdES-EPES signature level. |
-| XAdEsT | 2 | Specifies XAdES-T signature level. |
 
 
 ## Examples
 
 
 
-Shows how to sign document based on XML-DSig standard. 
-```cpp
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
-auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
-signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsEpes);
-
-System::String inputFileName = get_MyDir() + u"Document.docx";
-System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.XmlDsig.docx";
-DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
-```
-
-
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../digitalsignatureutil/). 
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -70,5 +50,7 @@ ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get
 
 ## See Also
 
-* Namespace [Aspose::Words::DigitalSignatures](../)
-* Library [Aspose.Words for C++](../../)
+* Class [DigitalSignatureTimestampSettings](../../digitalsignaturetimestampsettings/)
+* Class [SignOptions](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words for C++](../../../)

@@ -30,9 +30,10 @@ class SignOptions : public System::Object
 | [get_SignatureLineId](./get_signaturelineid/)() const | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [get_SignatureLineImage](./get_signaturelineimage/)() const | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [get_SignTime](./get_signtime/)() const | The date of signing. Default value is **current time** (**Now**) |
+| [get_TimestampSettings](./get_timestampsettings/)() const | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is **null** and the digital signature will not be time-stamped. |
 | [get_VerticalResolution](./get_verticalresolution/)() const | Gets or sets the vertical resolution for the digital signature. Default value is 1200. |
 | [get_WindowsVersion](./get_windowsversion/)() const | Gets or sets the Windows version for the digital signature. Default value is "6.1". |
-| [get_XmlDsigLevel](./get_xmldsiglevel/)() const | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDSig](../xmldsiglevel/). |
+| [get_XmlDsigLevel](./get_xmldsiglevel/)() const | Specifies the level of a digital signature based on the XML-DSig standard. The default value is [XmlDSig](../xmldsiglevel/). |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_ApplicationVersion](./set_applicationversion/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_ApplicationVersion](./get_applicationversion/). |
@@ -45,6 +46,7 @@ class SignOptions : public System::Object
 | [set_SignatureLineId](./set_signaturelineid/)(System::Guid) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\>\&) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [set_SignTime](./set_signtime/)(System::DateTime) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignTime](./get_signtime/). |
+| [set_TimestampSettings](./set_timestampsettings/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings\>\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings](./get_timestampsettings/). |
 | [set_VerticalResolution](./set_verticalresolution/)(int32_t) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_VerticalResolution](./get_verticalresolution/). |
 | [set_WindowsVersion](./set_windowsversion/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_WindowsVersion](./get_windowsversion/). |
 | [set_XmlDsigLevel](./set_xmldsiglevel/)(Aspose::Words::DigitalSignatures::XmlDsigLevel) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel](./get_xmldsiglevel/). |
