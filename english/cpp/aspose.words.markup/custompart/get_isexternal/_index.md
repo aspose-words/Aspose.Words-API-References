@@ -27,7 +27,7 @@ The default value is **false**.
 
 Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom parts OOXML package.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
 ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
 
@@ -47,7 +47,7 @@ ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
         std::cout << System::String::Format(u"\tName:\t\t\t\t{0}", enumerator->get_Current()->get_Name()) << std::endl;
         std::cout << System::String::Format(u"\tContent type:\t\t{0}", enumerator->get_Current()->get_ContentType()) << std::endl;
         std::cout << System::String::Format(u"\tRelationship type:\t{0}", enumerator->get_Current()->get_RelationshipType()) << std::endl;
-        std::cout << (enumerator->get_Current()->get_IsExternal() ? u"\tSourced from outside the document" : System::String::Format(u"\tStored within the document, length: {0} bytes", enumerator->get_Current()->get_Data()->get_Length())) << std::endl;
+        std::cout << (enumerator->get_Current()->get_IsExternal() ? System::String(u"\tSourced from outside the document") : System::String::Format(u"\tStored within the document, length: {0} bytes", enumerator->get_Current()->get_Data()->get_Length())) << std::endl;
         index++;
     }
 }

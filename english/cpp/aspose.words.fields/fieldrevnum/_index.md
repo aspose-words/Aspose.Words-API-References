@@ -58,7 +58,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Current revision #");
 
 // Insert a REVNUM field, which displays the document's current revision number property.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRevNum>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldRevisionNum, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRevNum>(builder->InsertField(FieldType::FieldRevisionNum, true));
 
 ASSERT_EQ(u" REVNUM ", field->GetFieldCode());
 ASSERT_EQ(u"1", field->get_Result());

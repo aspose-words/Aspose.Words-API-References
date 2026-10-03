@@ -27,10 +27,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertTableOfContents(u"\\o \\h \\z \\u");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // Insert a paragraph with a style that the TOC will pick up as an entry.
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 
 // Both these strings are in the same paragraph and will therefore show up on the same TOC entry.
 builder->Write(u"Heading 1. ");
@@ -40,7 +40,7 @@ builder->Write(u"Will appear in the TOC. ");
 // and use a different style without showing up in the TOC.
 // If we use a heading type style after the separator, we can draw multiple TOC entries from one document text line.
 builder->InsertStyleSeparator();
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Quote);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Quote);
 builder->Write(u"Won't appear in the TOC. ");
 
 ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_BreakIsStyleSeparator());

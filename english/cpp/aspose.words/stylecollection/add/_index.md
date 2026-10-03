@@ -43,7 +43,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // We can contain an entire List object within a style.
-System::SharedPtr<Aspose::Words::Style> listStyle = doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle");
+System::SharedPtr<Aspose::Words::Style> listStyle = doc->get_Styles()->Add(StyleType::List, u"MyListStyle");
 
 System::SharedPtr<Aspose::Words::Lists::List> list1 = listStyle->get_List();
 
@@ -101,7 +101,7 @@ styles->get_DefaultFont()->set_Name(u"Courier New");
 // its "DefaultParagraphFormat" property to the style's "ParagraphFormat" property.
 styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
-styles->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+styles->Add(StyleType::Paragraph, u"MyStyle");
 
 ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());

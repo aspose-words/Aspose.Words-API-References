@@ -26,7 +26,7 @@ Shows how to format text inserted by a document builder.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->set_Underline(Aspose::Words::Underline::Dash);
+builder->set_Underline(Underline::Dash);
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 builder->get_Font()->set_Size(32);
 

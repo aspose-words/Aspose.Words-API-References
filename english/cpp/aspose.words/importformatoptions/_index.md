@@ -52,7 +52,7 @@ Shows how to resolve duplicate styles while inserting documents.
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 
-System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
 myStyle->get_Font()->set_Size(14);
 myStyle->get_Font()->set_Name(u"Courier New");
 myStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
@@ -71,7 +71,7 @@ srcDoc->get_Styles()->idx_get(u"MyStyle")->get_Font()->set_Color(System::Drawing
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_SmartStyleBehavior(true);
 
-builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```

@@ -38,7 +38,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_FieldOptions()->set_IsBidiTextSupportedOnUpdate(true);
 
 // Use a document builder to insert a field that contains the right-to-left text.
-System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"עֶשְׂרִים", u"שְׁלוֹשִׁים", u"אַרְבָּעִים", u"חֲמִשִּׁים", u"שִׁשִּׁים"}), 0);
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
+    u"עֶשְׂרִים", u"שְׁלוֹשִׁים", u"אַרְבָּעִים", u"חֲמִשִּׁים", u"שִׁשִּׁים"}), 0);
 comboBox->set_CalculateOnExit(true);
 
 doc->UpdateFields();

@@ -29,7 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"My paragraph");
 
 // The PRINT field can send instructions to the printer.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldPrint>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldPrint, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldPrint>(builder->InsertField(FieldType::FieldPrint, true));
 
 // Set the area for the printer to perform instructions over.
 // In this case, it will be the paragraph that contains our PRINT field.

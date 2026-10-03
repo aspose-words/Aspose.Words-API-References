@@ -29,7 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // A Story is a type of node that has child Paragraph nodes, such as a Body.
 ASPOSE_ASSERT_EQ(builder->get_CurrentStory(), doc->get_FirstSection()->get_Body());
 ASPOSE_ASSERT_EQ(builder->get_CurrentStory(), builder->get_CurrentParagraph()->get_ParentNode());
-ASSERT_EQ(Aspose::Words::StoryType::MainText, builder->get_CurrentStory()->get_StoryType());
+ASSERT_EQ(StoryType::MainText, builder->get_CurrentStory()->get_StoryType());
 
 builder->get_CurrentStory()->AppendParagraph(u"Text added to current Story.");
 

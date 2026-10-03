@@ -38,14 +38,14 @@ builder->Writeln(u"Sample table:");
 
 // Create table.
 builder->InsertCell();
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Right);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 builder->Write(u"Cell1");
 builder->InsertCell();
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 builder->Write(u"Cell2");
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
-saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::Tables);
+saveOptions->set_ExportAsHtml(MarkdownExportAsHtml::Tables);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
 ```

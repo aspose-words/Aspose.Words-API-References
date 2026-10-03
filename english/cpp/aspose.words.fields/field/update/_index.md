@@ -30,11 +30,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
 builder->Write(u"This document was written by ");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, updateInsertedFieldsImmediately);
+builder->InsertField(FieldType::FieldAuthor, updateInsertedFieldsImmediately);
 
 builder->InsertParagraph();
 builder->Write(u"\nThis is page ");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, updateInsertedFieldsImmediately);
+builder->InsertField(FieldType::FieldPage, updateInsertedFieldsImmediately);
 
 ASSERT_EQ(u" AUTHOR ", doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode());
 ASSERT_EQ(u" PAGE ", doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode());
@@ -88,14 +88,14 @@ format = field->get_Format();
 format->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
-ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 std::cout << System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()) << std::endl;
 
 // 3 -  General format:
 field = builder->InsertField(u"= 25 + 33");
 format = field->get_Format();
-format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
-format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::Upper);
+format->get_GeneralFormats()->Add(GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Add(GeneralFormat::Upper);
 field->Update();
 
 int32_t index = 0;
@@ -110,10 +110,10 @@ int32_t index = 0;
 ASSERT_EQ(u"= 25 + 33 \\* roman \\* Upper", field->GetFieldCode());
 ASSERT_EQ(u"LVIII", field->get_Result());
 ASSERT_EQ(2, format->get_GeneralFormats()->get_Count());
-ASSERT_EQ(Aspose::Words::Fields::GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
+ASSERT_EQ(GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
 
 // We can remove our formats to revert the field's result to its original form.
-format->get_GeneralFormats()->Remove(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Remove(GeneralFormat::LowercaseRoman);
 format->get_GeneralFormats()->RemoveAt(0);
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 field->Update();
@@ -151,13 +151,13 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 includePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 includePicture->Update(true);
 
 {
     auto docStream = System::MakeObject<System::IO::MemoryStream>();
-    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx));
+    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(SaveFormat::Docx));
 
     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
     // into image shapes when loading a document that contains them.
@@ -170,7 +170,7 @@ includePicture->Update(true);
     {
         ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
         {
-            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+            return f->get_Type() == FieldType::FieldIncludePicture;
         }))));
 
         doc->UpdateFields();
@@ -180,7 +180,7 @@ includePicture->Update(true);
     {
         ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
         {
-            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+            return f->get_Type() == FieldType::FieldIncludePicture;
         }))));
     }
 }

@@ -30,19 +30,19 @@ builder->StartTable();
 
 // Setting table formatting options for a document builder
 // will apply them to every row and cell that we add with it.
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 builder->get_CellFormat()->ClearFormatting();
 builder->get_CellFormat()->set_Width(150);
-builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_GreenYellow());
 builder->get_CellFormat()->set_WrapText(false);
 builder->get_CellFormat()->set_FitText(true);
 
 builder->get_RowFormat()->ClearFormatting();
-builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Exactly);
+builder->get_RowFormat()->set_HeightRule(HeightRule::Exactly);
 builder->get_RowFormat()->set_Height(50);
-builder->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Engrave3D);
+builder->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::Engrave3D);
 builder->get_RowFormat()->get_Borders()->set_Color(System::Drawing::Color::get_Orange());
 
 builder->InsertCell();
@@ -68,11 +68,11 @@ builder->EndRow();
 // Increase row height to fit the vertical text.
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(150);
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Upward);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Upward);
 builder->Write(u"Row 3, Col 1");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Downward);
 builder->Write(u"Row 3, Col 2");
 
 builder->EndRow();
@@ -103,7 +103,7 @@ builder->EndTable();
 // of the contents of all cells in this row.
 System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
 rowFormat->set_Height(25);
-rowFormat->get_Borders()->idx_get(Aspose::Words::BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
+rowFormat->get_Borders()->idx_get(BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
 
 // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
 System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();

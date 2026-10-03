@@ -54,7 +54,7 @@ builder->Writeln(u"Heading #6");
 // We will also set the maximum heading level, which splits the document to 2.
 // Saving the document will split it at headings of levels 1 and 2, but not at 3 to 9.
 auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
-options->set_DocumentSplitCriteria(Aspose::Words::Saving::DocumentSplitCriteria::HeadingParagraph);
+options->set_DocumentSplitCriteria(DocumentSplitCriteria::HeadingParagraph);
 options->set_DocumentSplitHeadingLevel(2);
 
 // Our document has four headings of levels 1 - 2. One of those headings will not be
@@ -62,19 +62,19 @@ options->set_DocumentSplitHeadingLevel(2);
 // The saving operation will split our document at three places, into four smaller documents.
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html", options);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html"));
 
 ASSERT_EQ(u"Heading #1", doc->GetText().Trim());
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-01.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-01.html"));
 
 ASSERT_EQ(System::String(u"Heading #2\r") + u"Heading #3", doc->GetText().Trim());
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-02.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-02.html"));
 
 ASSERT_EQ(u"Heading #4", doc->GetText().Trim());
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-03.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-03.html"));
 
 ASSERT_EQ(System::String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
 ```

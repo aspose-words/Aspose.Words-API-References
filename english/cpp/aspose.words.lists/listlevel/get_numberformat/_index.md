@@ -38,12 +38,12 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize the first two of its list levels.
-System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(ListTemplate::NumberDefault);
 
 System::SharedPtr<Aspose::Words::Lists::ListLevel> listLevel = list->get_ListLevels()->idx_get(0);
 listLevel->get_Font()->set_Color(System::Drawing::Color::get_Red());
 listLevel->get_Font()->set_Size(24);
-listLevel->set_NumberStyle(Aspose::Words::NumberStyle::OrdinalText);
+listLevel->set_NumberStyle(NumberStyle::OrdinalText);
 listLevel->set_StartAt(21);
 listLevel->set_NumberFormat(u"\x0000");
 
@@ -52,15 +52,15 @@ listLevel->set_TextPosition(144);
 listLevel->set_TabPosition(144);
 
 listLevel = list->get_ListLevels()->idx_get(1);
-listLevel->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
-listLevel->set_NumberStyle(Aspose::Words::NumberStyle::Bullet);
+listLevel->set_Alignment(ListLevelAlignment::Right);
+listLevel->set_NumberStyle(NumberStyle::Bullet);
 listLevel->get_Font()->set_Name(u"Wingdings");
 listLevel->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 listLevel->get_Font()->set_Size(24);
 
 // This NumberFormat value will create star-shaped bullet list symbols.
 listLevel->set_NumberFormat(u"\xf0af");
-listLevel->set_TrailingCharacter(Aspose::Words::Lists::ListTrailingCharacter::Space);
+listLevel->set_TrailingCharacter(ListTrailingCharacter::Space);
 listLevel->set_NumberPosition(144);
 
 // Create paragraphs and apply both list levels of our custom list formatting to them.
@@ -92,18 +92,18 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // We can create nested lists by increasing the indent level.
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
-System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(ListTemplate::NumberDefault);
 
 // Level 1 labels will be formatted according to the "Heading 1" paragraph style and will have a prefix.
 // These will look like "Appendix A", "Appendix B"...
 list->get_ListLevels()->idx_get(0)->set_NumberFormat(u"Appendix \x0000");
-list->get_ListLevels()->idx_get(0)->set_NumberStyle(Aspose::Words::NumberStyle::UppercaseLetter);
+list->get_ListLevels()->idx_get(0)->set_NumberStyle(NumberStyle::UppercaseLetter);
 list->get_ListLevels()->idx_get(0)->set_LinkedStyle(doc->get_Styles()->idx_get(u"Heading 1"));
 
 // Level 2 labels will display the current numbers of the first and the second list levels and have leading zeroes.
 // If the first list level is at 1, then the list labels from these will look like "Section (1.01)", "Section (1.02)"...
 list->get_ListLevels()->idx_get(1)->set_NumberFormat(u"Section (\x0000" u".\x0001" u")");
-list->get_ListLevels()->idx_get(1)->set_NumberStyle(Aspose::Words::NumberStyle::LeadingZero);
+list->get_ListLevels()->idx_get(1)->set_NumberStyle(NumberStyle::LeadingZero);
 
 // Note that the higher-level uses UppercaseLetter numbering.
 // We can set the "IsLegal" property to use Arabic numbers for the higher list levels.
@@ -113,7 +113,7 @@ list->get_ListLevels()->idx_get(1)->set_RestartAfterLevel(0);
 // Level 3 labels will be upper case Roman numerals with a prefix and a suffix and will restart at each List level 1 item.
 // These list labels will look like "-I-", "-II-"...
 list->get_ListLevels()->idx_get(2)->set_NumberFormat(u"-\x0002" u"-");
-list->get_ListLevels()->idx_get(2)->set_NumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+list->get_ListLevels()->idx_get(2)->set_NumberStyle(NumberStyle::UppercaseRoman);
 list->get_ListLevels()->idx_get(2)->set_RestartAfterLevel(1);
 
 // Make labels of all list levels bold.

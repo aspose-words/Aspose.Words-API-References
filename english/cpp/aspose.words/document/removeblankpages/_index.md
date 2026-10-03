@@ -27,7 +27,7 @@ List of page numbers has been considered as blank and removed.
 
 Shows how to remove blank pages from the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Blank pages.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Blank pages.docx"));
 ASSERT_EQ(2, doc->get_PageCount());
 doc->RemoveBlankPages();
 doc->UpdatePageLayout();

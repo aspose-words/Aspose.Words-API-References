@@ -21,7 +21,7 @@ enum class ZoomType
 | Name | Value | Description |
 | --- | --- | --- |
 | Custom | 0 | Zoom percentage is set explicitly. It is not recalculated automatically when control size changes. |
-| None | n/a | Indicates to use the explicit zoom percentage. Same as [Custom](./). |
+| None | 0 | Indicates to use the explicit zoom percentage. Same as [Custom](./). |
 | FullPage | 1 | Zoom percentage is automatically recalculated to fit one full page. |
 | PageWidth | 2 | Zoom percentage is automatically recalculated to fit page width. |
 | TextFit | 3 | Zoom percentage is automatically recalculated to fit text. |
@@ -37,11 +37,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
-doc->get_ViewOptions()->set_ViewType(Aspose::Words::Settings::ViewType::PageLayout);
+doc->get_ViewOptions()->set_ViewType(ViewType::PageLayout);
 doc->get_ViewOptions()->set_ZoomPercent(50);
 
-ASSERT_EQ(Aspose::Words::Settings::ZoomType::Custom, doc->get_ViewOptions()->get_ZoomType());
-ASSERT_EQ(Aspose::Words::Settings::ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
+ASSERT_EQ(ZoomType::Custom, doc->get_ViewOptions()->get_ZoomType());
+ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```

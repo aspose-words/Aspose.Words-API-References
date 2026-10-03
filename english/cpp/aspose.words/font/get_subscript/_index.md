@@ -24,7 +24,7 @@ bool Aspose::Words::Font::get_Subscript()
 Shows how to format text to offset its position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
+auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // Raise this run of text 5 points above the baseline.
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Raised text. ");

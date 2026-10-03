@@ -13,8 +13,8 @@ url: /cpp/aspose.words/font/
 Contains font attributes (font name, font size, color, and so on) for an object. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
-class Font : public Aspose::Words::IBorderAttrSource,
-             public Aspose::Words::IShadingAttrSource,
+class Font : public IBorderAttrSource,
+             public IShadingAttrSource,
              public Aspose::Words::Drawing::Core::IFillable
 ```
 
@@ -148,7 +148,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->get_Border()->set_Color(System::Drawing::Color::get_Green());
 builder->get_Font()->get_Border()->set_LineWidth(2.5);
-builder->get_Font()->get_Border()->set_LineStyle(Aspose::Words::LineStyle::DashDotStroker);
+builder->get_Font()->get_Border()->set_LineStyle(LineStyle::DashDotStroker);
 
 builder->Write(u"Text surrounded by green border.");
 
@@ -177,13 +177,13 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a custom paragraph style.
-System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle1");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle1");
 style->get_Font()->set_Size(24);
 style->get_Font()->set_Name(u"Verdana");
 style->get_ParagraphFormat()->set_SpaceAfter(12);
 
 // Create a list and make sure the paragraphs that use this style will use this list.
-style->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+style->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 style->get_ListFormat()->set_ListLevelNumber(0);
 
 // Apply the paragraph style to the document builder's current paragraph, and then add some text.

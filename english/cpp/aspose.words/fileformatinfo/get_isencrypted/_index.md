@@ -31,15 +31,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Configure a SaveOptions object to encrypt the document
 // with a password when we save it, and then save the document.
-auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>(Aspose::Words::SaveFormat::Odt);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>(SaveFormat::Odt);
 saveOptions->set_Password(u"MyPassword");
 
 doc->Save(get_ArtifactsDir() + u"File.DetectDocumentEncryption.odt", saveOptions);
 
 // Verify the file type of our document, and its encryption status.
-System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDocumentEncryption.odt");
+System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDocumentEncryption.odt");
 
-ASSERT_EQ(u".odt", Aspose::Words::FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
+ASSERT_EQ(u".odt", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 

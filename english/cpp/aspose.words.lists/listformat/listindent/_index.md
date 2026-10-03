@@ -51,7 +51,7 @@ builder->Writeln(u"Easy to understand API");
 // End the bulleted list.
 builder->get_ListFormat()->RemoveNumbers();
 
-builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+builder->InsertBreak(BreakType::ParagraphBreak);
 builder->Writeln(u"Aspose.Words allows:");
 
 // 2 -  A numbered list:

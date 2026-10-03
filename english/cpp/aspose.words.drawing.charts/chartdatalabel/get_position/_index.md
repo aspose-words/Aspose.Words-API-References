@@ -39,7 +39,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert column chart.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesColl = chart->get_Series();
 
@@ -56,8 +56,8 @@ dataLabels->set_ShowValue(true);
 dataLabels->get_Font()->set_Color(System::Drawing::Color::get_White());
 
 // Set data label position.
-dataLabels->set_Position(Aspose::Words::Drawing::Charts::ChartDataLabelPosition::InsideBase);
-dataLabels->idx_get(0)->set_Position(Aspose::Words::Drawing::Charts::ChartDataLabelPosition::OutsideEnd);
+dataLabels->set_Position(ChartDataLabelPosition::InsideBase);
+dataLabels->idx_get(0)->set_Position(ChartDataLabelPosition::OutsideEnd);
 dataLabels->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_DarkRed());
 
 doc->Save(get_ArtifactsDir() + u"Charts.LabelPosition.docx");

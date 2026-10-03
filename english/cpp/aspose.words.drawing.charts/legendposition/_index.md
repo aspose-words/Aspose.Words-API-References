@@ -37,7 +37,7 @@ Shows how to edit the appearance of a chart's legend.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Line, 450, 300);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Line, static_cast<double>(450), static_cast<double>(300));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 ASSERT_EQ(3, chart->get_Series()->get_Count());
@@ -47,7 +47,7 @@ ASSERT_EQ(u"Series 3", chart->get_Series()->idx_get(2)->get_Name());
 
 // Move the chart's legend to the top right corner.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegend> legend = chart->get_Legend();
-legend->set_Position(Aspose::Words::Drawing::Charts::LegendPosition::TopRight);
+legend->set_Position(LegendPosition::TopRight);
 
 // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
 legend->set_Overlay(true);

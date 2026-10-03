@@ -14,7 +14,7 @@ Implements the TOC field. To learn more, visit the [Working with Fields](https:/
 
 ```cpp
 class FieldToc : public Aspose::Words::Fields::Field,
-                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                 public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -92,7 +92,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // A TOC field can create an entry in its table of contents for each SEQ field found in the document.
 // Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
-auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -114,14 +114,14 @@ fieldToc->set_SequenceSeparator(u">");
 
 ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // There are two ways of using SEQ fields to populate this TOC.
 // 1 -  Inserting a SEQ field that belongs to the TOC's prefix sequence:
 // This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
 // Since this field does not belong to the main sequence identified
 // by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
-auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
@@ -135,7 +135,7 @@ ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
 // The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
 // and the separator is ">", so entry will display "1>2".
 builder->Write(u"First TOC entry, MySequence #");
-fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
 ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
@@ -143,11 +143,11 @@ ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
 // so the TOC entry will display "2>3" at its page count.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+builder->InsertBreak(BreakType::PageBreak);
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
-fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 builder->Write(u"Second TOC entry, MySequence #");
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 

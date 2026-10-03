@@ -26,7 +26,7 @@ Shows how to include or exclude textboxes, footnotes and endnotes from word coun
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Lorem ipsum");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"sit amet");
+builder->InsertFootnote(FootnoteType::Footnote, u"sit amet");
 
 // By default option is set to 'false'.
 doc->UpdateWordCount();

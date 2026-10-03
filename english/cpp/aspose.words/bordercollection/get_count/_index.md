@@ -43,7 +43,7 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 for (auto&& border : System::IterateOver(secondParagraphBorders))
 {
-    border->set_LineStyle(Aspose::Words::LineStyle::DotDash);
+    border->set_LineStyle(LineStyle::DotDash);
 }
 
 // After changing the line style of the borders in just the second paragraph,

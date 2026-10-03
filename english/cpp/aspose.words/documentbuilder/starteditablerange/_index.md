@@ -34,7 +34,7 @@ Badly formed editable range will be ignored when the document is saved.
 Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
+doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only,") + u" we cannot edit this paragraph without the password.");
@@ -59,8 +59,8 @@ ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_EditableRangeEnd()->get
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-ASSERT_EQ(Aspose::Words::NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
-ASSERT_EQ(Aspose::Words::NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
+ASSERT_EQ(NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
+ASSERT_EQ(NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
 
 builder->Writeln(u"This paragraph is outside the editable range, and cannot be edited.");
 
@@ -74,7 +74,7 @@ editableRange->Remove();
 Shows how to create nested editable ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
+doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only, ") + u"we cannot edit this paragraph without the password.");
@@ -99,8 +99,8 @@ builder->Writeln(u"This paragraph is outside any editable ranges, and cannot be 
 
 // If a region of text has two overlapping editable ranges with specified groups,
 // the combined group of users excluded by both groups are prevented from editing it.
-outerEditableRangeStart->get_EditableRange()->set_EditorGroup(Aspose::Words::EditorType::Everyone);
-innerEditableRangeStart->get_EditableRange()->set_EditorGroup(Aspose::Words::EditorType::Contributors);
+outerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Everyone);
+innerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Contributors);
 
 doc->Save(get_ArtifactsDir() + u"EditableRange.Nested.docx");
 ```

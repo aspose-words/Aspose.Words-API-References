@@ -42,7 +42,7 @@ builder->EndTable();
 // of the contents of all cells in this row.
 System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
 rowFormat->set_Height(25);
-rowFormat->get_Borders()->idx_get(Aspose::Words::BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
+rowFormat->get_Borders()->idx_get(BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
 
 // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
 System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();
@@ -55,13 +55,13 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table row. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
 System::SharedPtr<Aspose::Words::Tables::Row> firstRow = table->get_FirstRow();
-firstRow->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::None);
-firstRow->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Auto);
+firstRow->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::None);
+firstRow->get_RowFormat()->set_HeightRule(HeightRule::Auto);
 firstRow->get_RowFormat()->set_AllowBreakAcrossPages(true);
 
 doc->Save(get_ArtifactsDir() + u"Table.RowFormat.docx");

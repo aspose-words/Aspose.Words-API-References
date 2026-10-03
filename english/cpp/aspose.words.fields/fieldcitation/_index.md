@@ -14,7 +14,7 @@ Implements the CITATION field. To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldCitation : public Aspose::Words::Fields::Field,
-                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                      public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

@@ -37,10 +37,10 @@ Shows how to add text to a text box, and change its orientation
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto textbox = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::TextBox);
+auto textbox = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::TextBox);
 textbox->set_Width(100);
 textbox->set_Height(100);
-textbox->get_TextBox()->set_LayoutFlow(Aspose::Words::Drawing::LayoutFlow::BottomToTop);
+textbox->get_TextBox()->set_LayoutFlow(LayoutFlow::BottomToTop);
 
 textbox->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc));
 builder->InsertNode(textbox);

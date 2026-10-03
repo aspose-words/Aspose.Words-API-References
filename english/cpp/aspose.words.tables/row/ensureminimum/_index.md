@@ -31,7 +31,7 @@ table->AppendChild<System::SharedPtr<Aspose::Words::Tables::Row>>(row);
 
 // Rows contain cells, containing paragraphs with typical elements such as runs, shapes, and even other tables.
 // Our new row has none of these nodes, and we cannot add contents to it until it does.
-ASSERT_EQ(0, row->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(0, row->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // Calling the "EnsureMinimum" method on a table will ensure that
 // the table has at least one cell with an empty paragraph.

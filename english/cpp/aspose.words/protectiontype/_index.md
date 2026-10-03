@@ -37,14 +37,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Section 1. Hello world!");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
 builder->Writeln(u"Section 2. Hello again!");
 builder->Write(u"Please enter text here: ");
-builder->InsertTextInput(u"TextInput1", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Placeholder text", 0);
+builder->InsertTextInput(u"TextInput1", TextFormFieldType::Regular, u"", u"Placeholder text", 0);
 
 // Apply write protection to every section in the document.
-doc->Protect(Aspose::Words::ProtectionType::AllowOnlyFormFields);
+doc->Protect(ProtectionType::AllowOnlyFormFields);
 
 // Turn off write protection for the first section.
 doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);

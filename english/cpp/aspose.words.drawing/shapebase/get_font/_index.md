@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 300, 50);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::TextBox, static_cast<double>(300), static_cast<double>(50));
 builder->MoveTo(shape->get_LastParagraph());
 builder->Write(u"This text is inside the text box.");
 
@@ -42,7 +42,7 @@ if (!hideShape)
 {
     shape->get_Font()->set_HighlightColor(System::Drawing::Color::get_LightGray());
     shape->get_Font()->set_Color(System::Drawing::Color::get_Red());
-    shape->get_Font()->set_Underline(Aspose::Words::Underline::Dash);
+    shape->get_Font()->set_Underline(Underline::Dash);
 }
 
 // Move the builder out of the text box back into the main document.

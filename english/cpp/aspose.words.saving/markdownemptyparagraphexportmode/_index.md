@@ -46,18 +46,15 @@ System::String result = System::IO::File::ReadAllText(get_ArtifactsDir() + u"Mar
 
 switch (exportMode)
 {
-    case Aspose::Words::Saving::MarkdownEmptyParagraphExportMode::None:
+    case MarkdownEmptyParagraphExportMode::None:
         ASSERT_EQ(u"First\r\n\r\nLast\r\n", result);
         break;
-
-    case Aspose::Words::Saving::MarkdownEmptyParagraphExportMode::EmptyLine:
+    case MarkdownEmptyParagraphExportMode::EmptyLine:
         ASSERT_EQ(u"First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
         break;
-
-    case Aspose::Words::Saving::MarkdownEmptyParagraphExportMode::MarkdownHardLineBreak:
+    case MarkdownEmptyParagraphExportMode::MarkdownHardLineBreak:
         ASSERT_EQ(u"First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
         break;
-
 }
 ```
 

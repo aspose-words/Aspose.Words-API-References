@@ -54,7 +54,7 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 ```cpp
 // These fields are legacy equivalents of the FormField. We can read, but not create these fields using Aspose.Words.
 // In Microsoft Word, we can insert these fields via the Legacy Tools menu in the Developer tab.
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Form fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));
 
 auto fieldFormCheckBox = System::ExplicitCast<Aspose::Words::Fields::FieldFormCheckBox>(doc->get_Range()->get_Fields()->idx_get(1));
 ASSERT_EQ(u" FORMCHECKBOX \u0001", fieldFormCheckBox->GetFieldCode());

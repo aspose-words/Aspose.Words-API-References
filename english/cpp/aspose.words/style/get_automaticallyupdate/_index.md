@@ -33,7 +33,7 @@ Shows how to create and apply a custom style.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
 style->get_Font()->set_Name(u"Times New Roman");
 style->get_Font()->set_Size(16);
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());

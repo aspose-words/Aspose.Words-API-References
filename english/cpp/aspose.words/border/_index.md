@@ -14,7 +14,7 @@ Represents a border of an object. To learn more, visit the [Programming with Doc
 
 ```cpp
 class Border : public Aspose::Words::InternableComplexAttr,
-               public Aspose::Words::IComplexAttr
+               public IComplexAttr
 ```
 
 ## Methods
@@ -59,7 +59,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->get_Border()->set_Color(System::Drawing::Color::get_Green());
 builder->get_Font()->get_Border()->set_LineWidth(2.5);
-builder->get_Font()->get_Border()->set_LineStyle(Aspose::Words::LineStyle::DashDotStroker);
+builder->get_Font()->get_Border()->set_LineStyle(LineStyle::DashDotStroker);
 
 builder->Write(u"Text surrounded by green border.");
 
@@ -74,9 +74,9 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Border> topBorder = builder->get_ParagraphFormat()->get_Borders()->get_Top();
 topBorder->set_LineWidth(4.0);
-topBorder->set_LineStyle(Aspose::Words::LineStyle::DashSmallGap);
+topBorder->set_LineStyle(LineStyle::DashSmallGap);
 // Set ThemeColor only when LineWidth or LineStyle setted.
-topBorder->set_ThemeColor(Aspose::Words::Themes::ThemeColor::Accent1);
+topBorder->set_ThemeColor(ThemeColor::Accent1);
 topBorder->set_TintAndShade(0.25);
 
 builder->Writeln(u"Text with a top border.");

@@ -29,15 +29,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Insert a table of contents, and then populate the document with paragraphs formatted using a "Heading"
 // style that the table of contents will pick up as entries. Each entry will display the heading paragraph on the left,
 // and the page number that contains the heading on the right.
-auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
 builder->get_ParagraphFormat()->set_Style(builder->get_Document()->get_Styles()->idx_get(u"Heading 1"));
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Entry 1");
 builder->Writeln(u"Entry 2");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Entry 3");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Entry 4");
 fieldToc->UpdatePageNumbers();
 doc->UpdateFields();

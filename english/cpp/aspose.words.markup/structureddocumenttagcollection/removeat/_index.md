@@ -27,7 +27,7 @@ void Aspose::Words::Markup::StructuredDocumentTagCollection::RemoveAt(int32_t in
 
 Shows how to remove structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
 System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagCollection> structuredDocumentTags = doc->get_Range()->get_StructuredDocumentTags();
 System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> sdt;

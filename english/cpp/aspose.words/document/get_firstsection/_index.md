@@ -23,10 +23,10 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::Document::get_FirstSect
 
 Shows how to replace text in a document's footer. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footer.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
 System::SharedPtr<Aspose::Words::HeaderFooterCollection> headersFooters = doc->get_FirstSection()->get_HeadersFooters();
-System::SharedPtr<Aspose::Words::HeaderFooter> footer = headersFooters->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+System::SharedPtr<Aspose::Words::HeaderFooter> footer = headersFooters->idx_get(HeaderFooterType::FooterPrimary);
 
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_MatchCase(false);
@@ -52,7 +52,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
 // Create a second section by inserting a section break.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
 ASSERT_EQ(2, doc->get_Sections()->get_Count());
 
@@ -61,7 +61,7 @@ ASSERT_EQ(2, doc->get_Sections()->get_Count());
 // This will not affect the text in the first section.
 doc->get_LastSection()->get_PageSetup()->get_TextColumns()->SetCount(2);
 builder->Writeln(u"Column 1.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Column 2.");
 
 ASSERT_EQ(1, doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count());
@@ -77,9 +77,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Write(u"Primary header");
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->Write(u"Primary footer");
 
 System::SharedPtr<Aspose::Words::Section> section = doc->get_FirstSection();
@@ -90,7 +90,7 @@ for (auto&& node : System::IterateOver(section))
 {
     switch (node->get_NodeType())
     {
-        case Aspose::Words::NodeType::Body:
+        case NodeType::Body:
             {
                 auto body = System::ExplicitCast<Aspose::Words::Body>(node);
 
@@ -98,8 +98,7 @@ for (auto&& node : System::IterateOver(section))
                 std::cout << System::String::Format(u"\t\"{0}\"", body->GetText().Trim()) << std::endl;
                 break;
             }
-
-        case Aspose::Words::NodeType::HeaderFooter:
+        case NodeType::HeaderFooter:
             {
                 auto headerFooter = System::ExplicitCast<Aspose::Words::HeaderFooter>(node);
 
@@ -107,12 +106,10 @@ for (auto&& node : System::IterateOver(section))
                 std::cout << System::String::Format(u"\t\"{0}\"", headerFooter->GetText().Trim()) << std::endl;
                 break;
             }
-
         default:
             {
                 throw System::Exception(u"Unexpected node type in a section.");
             }
-
     }
 }
 ```

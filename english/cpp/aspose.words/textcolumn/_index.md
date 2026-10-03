@@ -63,7 +63,7 @@ column = columns->idx_get(1);
 column->set_Width(contentWidth - column->get_Width() - column->get_SpaceAfter());
 
 builder->Writeln(u"Narrow column 1.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");

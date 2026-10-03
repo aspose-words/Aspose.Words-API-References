@@ -45,34 +45,34 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Also, set its entries to be hyperlinks that will take us
 // to the location of the heading when left-clicked in Microsoft Word.
 builder->InsertTableOfContents(u"\\o \"1-3\" \\h \\z \\u");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // Populate the table of contents by adding paragraphs with heading styles.
 // Each such heading with a level between 1 and 3 will create an entry in the table.
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 1.1");
 builder->Writeln(u"Heading 1.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 2");
 builder->Writeln(u"Heading 3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading3);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
 builder->Writeln(u"Heading 3.1.1");
 builder->Writeln(u"Heading 3.1.2");
 builder->Writeln(u"Heading 3.1.3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading4);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading4);
 builder->Writeln(u"Heading 3.1.3.1");
 builder->Writeln(u"Heading 3.1.3.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.2");
 builder->Writeln(u"Heading 3.3");
 
@@ -88,7 +88,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a QUOTE field, which will display the value of its Text property.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
 ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
@@ -98,9 +98,9 @@ ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 // Nesting the DATE field inside the QUOTE field like this will freeze its value
 // to the date when we created the document.
 builder->Write(u"\nDocument creation date: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 builder->MoveTo(field->get_Separator());
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldDate, true);
+builder->InsertField(FieldType::FieldDate, true);
 
 ASSERT_EQ(System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
 
@@ -132,10 +132,10 @@ ASSERT_EQ(userInformation->get_Initials(), builder->InsertField(u" USERINITIALS 
 ASSERT_EQ(userInformation->get_Address(), builder->InsertField(u" USERADDRESS ")->get_Result());
 
 // The field options object also has a static default user that fields from all documents can refer to.
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Name(u"Default User");
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
-Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
-doc->get_FieldOptions()->set_CurrentUser(Aspose::Words::Fields::UserInformation::get_DefaultUser());
+UserInformation::get_DefaultUser()->set_Name(u"Default User");
+UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
+UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
+doc->get_FieldOptions()->set_CurrentUser(UserInformation::get_DefaultUser());
 
 ASSERT_EQ(u"Default User", builder->InsertField(u" USERNAME ")->get_Result());
 ASSERT_EQ(u"D. U.", builder->InsertField(u" USERINITIALS ")->get_Result());

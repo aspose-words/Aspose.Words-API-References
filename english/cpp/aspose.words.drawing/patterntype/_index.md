@@ -83,19 +83,19 @@ enum class PatternType
 
 Shows how to set pattern for a shape. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape stroke pattern border.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Fill> fill = shape->get_Fill();
 
 std::cout << System::String::Format(u"Pattern value is: {0}", fill->get_Pattern()) << std::endl;
 
 // There are several ways specified fill to a pattern.
 // 1 -  Apply pattern to the shape fill:
-fill->Patterned(Aspose::Words::Drawing::PatternType::DiagonalBrick);
+fill->Patterned(PatternType::DiagonalBrick);
 
 // 2 -  Apply pattern with foreground and background colors to the shape fill:
-fill->Patterned(Aspose::Words::Drawing::PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), System::Drawing::Color::get_Bisque());
+fill->Patterned(PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), System::Drawing::Color::get_Bisque());
 
 doc->Save(get_ArtifactsDir() + u"Shape.FillPattern.docx");
 ```

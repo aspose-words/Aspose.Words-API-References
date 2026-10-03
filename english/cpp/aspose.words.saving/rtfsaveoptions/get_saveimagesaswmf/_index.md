@@ -29,13 +29,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Jpeg image:");
 System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, imageShape->get_ImageData()->get_ImageType());
+ASSERT_EQ(ImageType::Jpeg, imageShape->get_ImageData()->get_ImageType());
 
 builder->InsertParagraph();
 builder->Writeln(u"Png image:");
 imageShape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(Aspose::Words::Drawing::ImageType::Png, imageShape->get_ImageData()->get_ImageType());
+ASSERT_EQ(ImageType::Png, imageShape->get_ImageData()->get_ImageType());
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto rtfSaveOptions = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
@@ -48,19 +48,19 @@ rtfSaveOptions->set_SaveImagesAsWmf(saveImagesAsWmf);
 
 doc->Save(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);
 
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"RtfSaveOptions.SaveImagesAsWmf.rtf"));
 
-System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
 if (saveImagesAsWmf)
 {
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
 }
 ```
 

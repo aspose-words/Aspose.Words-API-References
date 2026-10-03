@@ -37,9 +37,9 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
 builder->Write(u"Our shape will have an anchor attached to this paragraph.");
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 160);
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
-builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(160));
+shape->set_WrapType(WrapType::None);
+builder->InsertBreak(BreakType::ParagraphBreak);
 
 builder->Writeln(u"Hello again!");
 

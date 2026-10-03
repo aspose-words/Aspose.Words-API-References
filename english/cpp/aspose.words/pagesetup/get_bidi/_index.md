@@ -34,9 +34,9 @@ pageSetup->get_TextColumns()->SetCount(3);
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Column 1.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Write(u"Column 2.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Write(u"Column 3.");
 
 // Set the "Bidi" property to "true" to arrange the columns starting from the page's right side.

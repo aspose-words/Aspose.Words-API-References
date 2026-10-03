@@ -26,7 +26,7 @@ Shows how to use HYPERLINK fields to link to documents in the local file system.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldHyperlink, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertField(FieldType::FieldHyperlink, true));
 
 // When we click this HYPERLINK field in Microsoft Word,
 // it will open the linked document and then place the cursor at the specified bookmark.
@@ -38,7 +38,7 @@ builder->Writeln();
 
 // When we click this HYPERLINK field in Microsoft Word,
 // it will open the linked document, and automatically scroll down to the specified iframe.
-field = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldHyperlink, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertField(FieldType::FieldHyperlink, true));
 field->set_Address(get_MyDir() + u"Iframes.html");
 field->set_ScreenTip(System::String(u"Open ") + field->get_Address());
 field->set_Target(u"iframe_3");

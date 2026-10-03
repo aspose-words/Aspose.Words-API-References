@@ -26,7 +26,7 @@ Shows how to configure the style and color of a text underline.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->get_Font()->set_Underline(Aspose::Words::Underline::Dotted);
+builder->get_Font()->set_Underline(Underline::Dotted);
 builder->get_Font()->set_UnderlineColor(System::Drawing::Color::get_Red());
 
 builder->Writeln(u"Underlined text.");

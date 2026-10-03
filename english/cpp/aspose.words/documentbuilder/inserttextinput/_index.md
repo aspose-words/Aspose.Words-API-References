@@ -44,7 +44,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 // Form fields are objects in the document that the user can interact with by being prompted to enter values.
 // We can create them using a document builder, and below are two ways of doing so.
 // 1 -  Basic text input:
-builder->InsertTextInput(u"My text input", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Enter your name here", 30);
+builder->InsertTextInput(u"My text input", TextFormFieldType::Regular, u"", u"Enter your name here", 30);
 
 // 2 -  Combo box with prompt text, and a range of possible values:
 System::ArrayPtr<System::String> items = System::MakeArray<System::String>({u"-- Select your favorite footwear --", u"Sneakers", u"Oxfords", u"Flip-flops", u"Other"});
@@ -62,7 +62,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a form that prompts the user to enter text.
-builder->InsertTextInput(u"TextInput", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Enter your text here", 0);
+builder->InsertTextInput(u"TextInput", TextFormFieldType::Regular, u"", u"Enter your text here", 0);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTextInput.docx");
 ```
@@ -78,7 +78,7 @@ builder->Write(u"Please enter text here: ");
 // Insert a text input field, which will allow the user to click it and enter text.
 // Assign some placeholder text that the user may overwrite and pass
 // a maximum text length of 0 to apply no limit on the form field's contents.
-builder->InsertTextInput(u"TextInput1", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Placeholder text", 0);
+builder->InsertTextInput(u"TextInput1", TextFormFieldType::Regular, u"", u"Placeholder text", 0);
 
 // The form field will appear in the form of an "input" html tag, with a type of "text".
 doc->Save(get_ArtifactsDir() + u"FormFields.TextInput.html");

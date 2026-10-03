@@ -66,7 +66,7 @@ ASSERT_FALSE(doc->get_TrackRevisions());
 System::SharedPtr<Aspose::Words::Revision> revision = doc->get_Revisions()->idx_get(0);
 ASSERT_EQ(u"John Doe", revision->get_Author());
 ASSERT_EQ(u"This is revision #1. ", revision->get_ParentNode()->GetText());
-ASSERT_EQ(Aspose::Words::RevisionType::Insertion, revision->get_RevisionType());
+ASSERT_EQ(RevisionType::Insertion, revision->get_RevisionType());
 ASSERT_EQ(revision->get_DateTime().get_Date(), System::DateTime::get_Now().get_Date());
 ASPOSE_ASSERT_EQ(doc->get_Revisions()->get_Groups()->idx_get(0), revision->get_Group());
 
@@ -74,7 +74,7 @@ ASPOSE_ASSERT_EQ(doc->get_Revisions()->get_Groups()->idx_get(0), revision->get_G
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->Remove();
 
 // Adding a new revision places it at the beginning of the revision collection.
-ASSERT_EQ(Aspose::Words::RevisionType::Deletion, doc->get_Revisions()->idx_get(0)->get_RevisionType());
+ASSERT_EQ(RevisionType::Deletion, doc->get_Revisions()->idx_get(0)->get_RevisionType());
 ASSERT_EQ(2, doc->get_Revisions()->get_Count());
 
 // Insert revisions show up in the document body even before we accept/reject the revision.
@@ -104,7 +104,7 @@ while (node != endNode)
     node = nextNode;
 }
 
-ASSERT_EQ(Aspose::Words::RevisionType::Moving, doc->get_Revisions()->idx_get(0)->get_RevisionType());
+ASSERT_EQ(RevisionType::Moving, doc->get_Revisions()->idx_get(0)->get_RevisionType());
 ASSERT_EQ(8, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 

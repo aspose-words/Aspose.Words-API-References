@@ -27,12 +27,12 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Add two styles to the document with identical properties,
 // but different names. The second style is considered a duplicate of the first.
-System::SharedPtr<Aspose::Words::Style> myStyle = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle1");
+System::SharedPtr<Aspose::Words::Style> myStyle = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle1");
 myStyle->get_Font()->set_Size(14);
 myStyle->get_Font()->set_Name(u"Courier New");
 myStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
-System::SharedPtr<Aspose::Words::Style> duplicateStyle = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle2");
+System::SharedPtr<Aspose::Words::Style> duplicateStyle = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle2");
 duplicateStyle->get_Font()->set_Size(14);
 duplicateStyle->get_Font()->set_Name(u"Courier New");
 duplicateStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());

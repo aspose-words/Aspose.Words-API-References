@@ -30,8 +30,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Document()->set_DefaultTabStop(72);
 
 // Each tab character snaps the text after it to the next closest tab stop position.
-builder->Writeln(System::String(u"Hello") + Aspose::Words::ControlChar::Tab() + u"World!");
-builder->Writeln(System::String(u"Hello") + Aspose::Words::ControlChar::TabChar + u"World!");
+builder->Writeln(System::String(u"Hello") + ControlChar::Tab() + u"World!");
+builder->Writeln(System::String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
 
 ## See Also

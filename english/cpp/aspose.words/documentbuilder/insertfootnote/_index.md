@@ -39,18 +39,18 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // so the marker seen in the body text will be auto-numbered at "1",
 // and the footnote will appear at the bottom of the page.
 builder->Write(u"This text will be referenced by a footnote.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
+builder->InsertFootnote(FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
 
 // Insert more text and mark it with an endnote with a custom reference mark,
 // which will be used in place of the number "2" and set "IsAuto" to false.
 builder->Write(u"This text will be referenced by an endnote.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
+builder->InsertFootnote(FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
 
 // Footnotes always appear at the bottom of their referenced text,
 // so this page break will not affect the footnote.
 // On the other hand, endnotes are always at the end of the document
 // so that this page break will push the endnote down to the next page.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
@@ -95,18 +95,18 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // so the marker seen in the body text will be auto-numbered at "1",
 // and the footnote will appear at the bottom of the page.
 builder->Write(u"This text will be referenced by a footnote.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
+builder->InsertFootnote(FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
 
 // Insert more text and mark it with an endnote with a custom reference mark,
 // which will be used in place of the number "2" and set "IsAuto" to false.
 builder->Write(u"This text will be referenced by an endnote.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
+builder->InsertFootnote(FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
 
 // Footnotes always appear at the bottom of their referenced text,
 // so this page break will not affect the footnote.
 // On the other hand, endnotes are always at the end of the document
 // so that this page break will push the endnote down to the next page.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```

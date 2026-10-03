@@ -24,7 +24,7 @@ bool Aspose::Words::Font::get_DoubleStrikeThrough()
 Shows how to add a line strikethrough to text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
+auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Text with a single-line strikethrough.");
 run->get_Font()->set_StrikeThrough(true);

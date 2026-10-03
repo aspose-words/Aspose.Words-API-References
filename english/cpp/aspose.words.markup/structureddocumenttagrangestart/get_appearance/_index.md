@@ -23,12 +23,12 @@ Aspose::Words::Markup::SdtAppearance Aspose::Words::Markup::StructuredDocumentTa
 
 Shows how to show tag around content. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
-auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
+auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));
 
-if (tag->get_Appearance() == Aspose::Words::Markup::SdtAppearance::Hidden)
+if (tag->get_Appearance() == SdtAppearance::Hidden)
 {
-    tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
+    tag->set_Appearance(SdtAppearance::Tags);
 }
 ```
 

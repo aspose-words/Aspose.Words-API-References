@@ -23,7 +23,7 @@ bool Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar() override
 
 Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u" Date this document was last saved:");
@@ -34,21 +34,21 @@ builder->Writeln(u" Date this document was last saved:");
 // Below are three different calendar types according to which the SAVEDATE field can display the date/time.
 // 1 -  Islamic Lunar Calendar:
 builder->Write(u"According to the Lunar Calendar - ");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSaveDate, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseLunarCalendar(true);
 
 ASSERT_EQ(u" SAVEDATE  \\h", field->GetFieldCode());
 
 // 2 -  Umm al-Qura calendar:
 builder->Write(u"\nAccording to the Umm al-Qura calendar - ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSaveDate, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseUmAlQuraCalendar(true);
 
 ASSERT_EQ(u" SAVEDATE  \\u", field->GetFieldCode());
 
 // 3 -  Indian National calendar:
 builder->Write(u"\nAccording to the Indian National calendar - ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSaveDate, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseSakaEraCalendar(true);
 
 ASSERT_EQ(u" SAVEDATE  \\s", field->GetFieldCode());

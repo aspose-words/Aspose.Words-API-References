@@ -51,14 +51,14 @@ Shows how to adjust paper size, orientation, margins, along with other settings 
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Legal);
-builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
-builder->get_PageSetup()->set_TopMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_BottomMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_LeftMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_RightMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_HeaderDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
-builder->get_PageSetup()->set_FooterDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_PaperSize(PaperSize::Legal);
+builder->get_PageSetup()->set_Orientation(Orientation::Landscape);
+builder->get_PageSetup()->set_TopMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_BottomMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_LeftMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_RightMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_HeaderDistance(ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_FooterDistance(ConvertUtil::InchToPoint(0.2));
 
 builder->Writeln(u"Hello world!");
 
@@ -73,7 +73,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // We can change the current page's size to a pre-defined size
 // by using the "PaperSize" property of this section's PageSetup object.
-builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Tabloid);
+builder->get_PageSetup()->set_PaperSize(PaperSize::Tabloid);
 
 ASPOSE_ASSERT_EQ(792.0, builder->get_PageSetup()->get_PageWidth());
 ASPOSE_ASSERT_EQ(1224.0, builder->get_PageSetup()->get_PageHeight());
@@ -82,23 +82,23 @@ builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_P
 
 // Each section has its own PageSetup object. When we use a document builder to make a new section,
 // that section's PageSetup object inherits all the previous section's PageSetup object's values.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
-ASSERT_EQ(Aspose::Words::PaperSize::Tabloid, builder->get_PageSetup()->get_PaperSize());
+ASSERT_EQ(PaperSize::Tabloid, builder->get_PageSetup()->get_PaperSize());
 
-builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::A5);
+builder->get_PageSetup()->set_PaperSize(PaperSize::A5);
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
 ASPOSE_ASSERT_EQ(419.55, builder->get_PageSetup()->get_PageWidth());
 ASPOSE_ASSERT_EQ(595.30, builder->get_PageSetup()->get_PageHeight());
 
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
 // Set a custom size for this section's pages.
 builder->get_PageSetup()->set_PageWidth(620);
 builder->get_PageSetup()->set_PageHeight(480);
 
-ASSERT_EQ(Aspose::Words::PaperSize::Custom, builder->get_PageSetup()->get_PaperSize());
+ASSERT_EQ(PaperSize::Custom, builder->get_PageSetup()->get_PaperSize());
 
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
@@ -122,8 +122,8 @@ auto section = System::MakeObject<Aspose::Words::Section>(doc);
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
@@ -134,7 +134,7 @@ section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 

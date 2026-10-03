@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // and the page containing the XE field on the right.
 // If the XE fields have the same value in their "Text" property,
 // the INDEX field will group them into one entry.
-auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndex, true));
+auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(FieldType::FieldIndex, true));
 
 // Configure the INDEX field only to display XE fields that are within the bounds
 // of a bookmark named "MainBookmark", and whose "EntryType" properties have a value of "A".
@@ -43,20 +43,20 @@ ASSERT_EQ(u" INDEX  \\b MainBookmark \\f A", index->GetFieldCode());
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->StartBookmark(u"MainBookmark");
 
 // The INDEX field will pick up this entry because it is inside the bookmark,
 // and its entry type also matches the INDEX field's entry type.
-auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Index entry 1");
 indexEntry->set_EntryType(u"A");
 
 ASSERT_EQ(u" XE  \"Index entry 1\" \\f A", indexEntry->GetFieldCode());
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Index entry 2");
 indexEntry->set_EntryType(u"B");
 
@@ -64,8 +64,8 @@ indexEntry->set_EntryType(u"B");
 // It is of the same type as the INDEX field, but will not appear
 // since it is outside the bookmark's boundaries.
 builder->EndBookmark(u"MainBookmark");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Index entry 3");
 indexEntry->set_EntryType(u"A");
 

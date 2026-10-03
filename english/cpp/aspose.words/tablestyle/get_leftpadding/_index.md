@@ -36,7 +36,7 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
 tableStyle->set_CellSpacing(5);
 tableStyle->set_BottomPadding(20);
@@ -45,8 +45,8 @@ tableStyle->set_RightPadding(10);
 tableStyle->set_TopPadding(20);
 tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
-tableStyle->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::DotDash);
-tableStyle->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
+tableStyle->get_Borders()->set_LineStyle(LineStyle::DotDash);
+tableStyle->set_VerticalAlignment(CellVerticalAlignment::Center);
 
 table->set_Style(tableStyle);
 

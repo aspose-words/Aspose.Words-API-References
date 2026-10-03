@@ -30,17 +30,17 @@ builder->Writeln(u"Paragraph 1");
 builder->Writeln(u"Paragraph 2");
 builder->Write(u"Paragraph 3");
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
 ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
 }))));
 
-doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+doc->get_Lists()->Add(ListTemplate::NumberDefault);
 System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
 
-for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()))
+for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()))
 {
     paragraph->get_ListFormat()->set_List(list);
     paragraph->get_ListFormat()->set_ListLevelNumber(2);
@@ -60,7 +60,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Lists::ListCollection> lists = doc->get_Lists();
 ASPOSE_ASSERT_EQ(doc, lists->get_Document());
 
-System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(Aspose::Words::Lists::ListTemplate::BulletDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(ListTemplate::BulletDefault);
 ASPOSE_ASSERT_EQ(doc, list->get_Document());
 
 std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;

@@ -14,8 +14,8 @@ Represents an end of a bookmark in a Word document. To learn more, visit the [Wo
 
 ```cpp
 class BookmarkEnd : public Aspose::Words::Node,
-                    public Aspose::Words::IBookmarkNode,
-                    public Aspose::Words::IDisplaceableByCustomXml
+                    public IBookmarkNode,
+                    public IDisplaceableByCustomXml
 ```
 
 ## Methods

@@ -34,7 +34,6 @@ class PersonCollection : public Aspose::Words::Bibliography::Contributor,
 | [PersonCollection](./personcollection/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\&) | Initialize a new instance of the [PersonCollection](./) class. |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\>\&) | Removes the person from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the person at the specified index. |
-| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -43,7 +42,7 @@ class PersonCollection : public Aspose::Words::Bibliography::Contributor,
 
 Shows how to get bibliography sources available in the document. 
 ```cpp
-auto document = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bibliography sources.docx");
+auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
 ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
@@ -51,7 +50,7 @@ ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
 // Get default data from bibliography sources.
 System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
 ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
-ASSERT_EQ(Aspose::Words::Bibliography::SourceType::Book, source->get_SourceType());
+ASSERT_EQ(SourceType::Book, source->get_SourceType());
 ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
@@ -104,7 +103,7 @@ ASSERT_TRUE(System::TestTools::IsNull(source->get_Year()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_YearAccessed()));
 
 // Also, you can create a new source.
-auto newSource = System::MakeObject<Aspose::Words::Bibliography::Source>(u"New source", Aspose::Words::Bibliography::SourceType::Misc);
+auto newSource = System::MakeObject<Aspose::Words::Bibliography::Source>(u"New source", SourceType::Misc);
 
 System::SharedPtr<Aspose::Words::Bibliography::ContributorCollection> contributors = source->get_Contributors();
 ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Artist()));

@@ -29,7 +29,7 @@ If the value of this property is zero, all raster images are exported without re
 
 Shows how to set limit for image resolution. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
 saveOptions->set_MaxImageResolution(72);

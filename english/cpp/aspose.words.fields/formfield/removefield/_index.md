@@ -23,7 +23,7 @@ void Aspose::Words::Fields::FormField::RemoveField()
 
 Shows how to delete a form field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Form fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));
 
 System::SharedPtr<Aspose::Words::Fields::FormField> formField = doc->get_Range()->get_FormFields()->idx_get(3);
 formField->RemoveField();

@@ -44,7 +44,7 @@ run->set_Text(u"This run was written by ");
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
-para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
+para->InsertField(FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
 run = System::MakeObject<Aspose::Words::Run>(doc);
@@ -111,7 +111,7 @@ run->set_Text(u"This run was written by ");
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
-para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
+para->InsertField(FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
 run = System::MakeObject<Aspose::Words::Run>(doc);
@@ -178,7 +178,7 @@ run->set_Text(u"This run was written by ");
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
-para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
+para->InsertField(FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
 run = System::MakeObject<Aspose::Words::Run>(doc);

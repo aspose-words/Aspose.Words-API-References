@@ -39,7 +39,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertField(u" DOCPROPERTY Category");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+builder->InsertBreak(BreakType::SectionBreakEvenPage);
 builder->InsertField(u" DOCPROPERTY Category");
 
 // The above DOCPROPERTY fields will display the value of this built-in document property.

@@ -27,11 +27,11 @@ Before you can create page numbers that include chapter numbers, the document he
 
 Shows how to work with page chapters. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_FirstSection()->get_PageSetup();
 
-pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
 pageSetup->set_ChapterPageSeparator(Aspose::Words::ChapterPageSeparator::Colon);
 pageSetup->set_HeadingLevelForChapter(1);
 ```

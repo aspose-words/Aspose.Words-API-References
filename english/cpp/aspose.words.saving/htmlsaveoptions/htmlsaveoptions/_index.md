@@ -23,18 +23,18 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions()
 
 Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Use a SaveOptions object to specify the encoding for a document that we will save.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
-saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Epub);
+saveOptions->set_SaveFormat(SaveFormat::Epub);
 saveOptions->set_Encoding(System::Text::Encoding::get_UTF8());
 
 // By default, an output .epub document will have all its contents in one HTML part.
 // A split criterion allows us to segment the document into several HTML parts.
 // We will set the criteria to split the document into heading paragraphs.
 // This is useful for readers who cannot read HTML files more significant than a specific size.
-saveOptions->set_DocumentSplitCriteria(Aspose::Words::Saving::DocumentSplitCriteria::HeadingParagraph);
+saveOptions->set_DocumentSplitCriteria(DocumentSplitCriteria::HeadingParagraph);
 
 // Specify that we want to export document properties.
 saveOptions->set_ExportDocumentProperties(true);
@@ -67,9 +67,9 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveForma
 
 Shows how to save a document to a specific version of HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Html);
 options->set_HtmlVersion(htmlVersion);
 options->set_PrettyFormat(true);
 
@@ -80,18 +80,16 @@ System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir()
 
 switch (htmlVersion)
 {
-    case Aspose::Words::Saving::HtmlVersion::Html5:
+    case HtmlVersion::Html5:
         ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<a id=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<table style=\"padding:0pt; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
-
-    case Aspose::Words::Saving::HtmlVersion::Xhtml:
+    case HtmlVersion::Xhtml:
         ASSERT_TRUE(outDocContents.Contains(u"<a name=\"_Toc76372689\"></a>"));
         ASSERT_TRUE(outDocContents.Contains(u"<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
         ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
         break;
-
 }
 ```
 

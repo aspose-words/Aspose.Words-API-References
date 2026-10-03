@@ -60,14 +60,14 @@ format = field->get_Format();
 format->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
-ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 std::cout << System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()) << std::endl;
 
 // 3 -  General format:
 field = builder->InsertField(u"= 25 + 33");
 format = field->get_Format();
-format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
-format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::Upper);
+format->get_GeneralFormats()->Add(GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Add(GeneralFormat::Upper);
 field->Update();
 
 int32_t index = 0;
@@ -82,10 +82,10 @@ int32_t index = 0;
 ASSERT_EQ(u"= 25 + 33 \\* roman \\* Upper", field->GetFieldCode());
 ASSERT_EQ(u"LVIII", field->get_Result());
 ASSERT_EQ(2, format->get_GeneralFormats()->get_Count());
-ASSERT_EQ(Aspose::Words::Fields::GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
+ASSERT_EQ(GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
 
 // We can remove our formats to revert the field's result to its original form.
-format->get_GeneralFormats()->Remove(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Remove(GeneralFormat::LowercaseRoman);
 format->get_GeneralFormats()->RemoveAt(0);
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 field->Update();

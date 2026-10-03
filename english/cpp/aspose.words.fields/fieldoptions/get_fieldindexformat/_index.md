@@ -26,13 +26,13 @@ Shows how to formatting [FieldIndex](../../fieldindex/) fields.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"A");
-builder->InsertBreak(Aspose::Words::BreakType::LineBreak);
+builder->InsertBreak(BreakType::LineBreak);
 builder->InsertField(u"XE \"A\"");
 builder->Write(u"B");
 
 builder->InsertField(u" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", nullptr);
 
-doc->get_FieldOptions()->set_FieldIndexFormat(Aspose::Words::Fields::FieldIndexFormat::Fancy);
+doc->get_FieldOptions()->set_FieldIndexFormat(FieldIndexFormat::Fancy);
 doc->UpdateFields();
 
 doc->Save(get_ArtifactsDir() + u"Field.SetFieldIndexFormat.docx");

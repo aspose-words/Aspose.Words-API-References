@@ -52,28 +52,28 @@ class FieldPage : public Aspose::Words::Fields::Field
 
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 // Below are three types of fields that we can use to track the size of our documents.
 // 1 -  Track the character count with a NUMCHARS field:
-auto fieldNumChars = System::ExplicitCast<Aspose::Words::Fields::FieldNumChars>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldNumChars, true));
+auto fieldNumChars = System::ExplicitCast<Aspose::Words::Fields::FieldNumChars>(builder->InsertField(FieldType::FieldNumChars, true));
 builder->Writeln(u" characters");
 
 // 2 -  Track the word count with a NUMWORDS field:
-auto fieldNumWords = System::ExplicitCast<Aspose::Words::Fields::FieldNumWords>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldNumWords, true));
+auto fieldNumWords = System::ExplicitCast<Aspose::Words::Fields::FieldNumWords>(builder->InsertField(FieldType::FieldNumWords, true));
 builder->Writeln(u" words");
 
 // 3 -  Use both PAGE and NUMPAGES fields to display what page the field is on,
 // and the total number of pages in the document:
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Right);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 builder->Write(u"Page ");
-auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, true));
+auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 builder->Write(u" of ");
-auto fieldNumPages = System::ExplicitCast<Aspose::Words::Fields::FieldNumPages>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldNumPages, true));
+auto fieldNumPages = System::ExplicitCast<Aspose::Words::Fields::FieldNumPages>(builder->InsertField(FieldType::FieldNumPages, true));
 
 ASSERT_EQ(u" NUMCHARS ", fieldNumChars->GetFieldCode());
 ASSERT_EQ(u" NUMWORDS ", fieldNumWords->GetFieldCode());

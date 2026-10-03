@@ -45,11 +45,11 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 Shows how to save a document to a stream. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 {
     auto dstStream = System::MakeObject<System::IO::MemoryStream>();
-    doc->Save(dstStream, Aspose::Words::SaveFormat::Docx);
+    doc->Save(dstStream, SaveFormat::Docx);
 
     // Verify that the stream contains the document.
     ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
@@ -113,7 +113,7 @@ Additional information that you can optionally use.
 
 Shows how to open a document and convert it to .PDF. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
@@ -149,9 +149,9 @@ Additional information that you can optionally use.
 
 Shows how to convert from DOCX to HTML format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", Aspose::Words::SaveFormat::Html);
+doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", SaveFormat::Html);
 ```
 
 ## See Also
@@ -186,13 +186,13 @@ Additional information that you can optionally use.
 
 Shows how to improve the quality of a rendered document with SaveOptions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(60);
 builder->Writeln(u"Some text.");
 
-System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 
 doc->Save(get_ArtifactsDir() + u"Document.ImageSaveOptions.Default.jpg", options);
 
@@ -209,15 +209,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
@@ -235,15 +235,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
 
 for (int32_t i = 0; i < doc->get_PageCount(); i++)
 {
@@ -251,7 +251,7 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
     // which to start rendering the document from.
     options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i));
     // Export page at 2325x5325 pixels and 600 dpi.
-    options->set_Resolution(600.0f);
+    options->set_Resolution(600);
     options->set_ImageSize(System::Drawing::Size(2325, 5325));
 
     doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
@@ -267,7 +267,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions->set_JpegQuality(10);
@@ -302,13 +302,13 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Sav
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) method
+## Document::Save(std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
 ```
 
 ## See Also

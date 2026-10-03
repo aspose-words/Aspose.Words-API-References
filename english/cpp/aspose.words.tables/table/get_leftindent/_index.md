@@ -32,10 +32,10 @@ table->set_LeftIndent(20);
 
 // Set some formatting options for text and table appearance.
 builder->get_RowFormat()->set_Height(40);
-builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::AtLeast);
+builder->get_RowFormat()->set_HeightRule(HeightRule::AtLeast);
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::FromArgb(198, 217, 241));
 
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 builder->get_Font()->set_Size(16);
 builder->get_Font()->set_Name(u"Arial");
 builder->get_Font()->set_Bold(true);
@@ -53,9 +53,9 @@ builder->EndRow();
 // Reconfigure the builder's formatting objects for new rows and cells that we are about to make.
 // The builder will not apply these to the first row already created so that it will stand out as a header row.
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_White());
-builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
 builder->get_RowFormat()->set_Height(30);
-builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Auto);
+builder->get_RowFormat()->set_HeightRule(HeightRule::Auto);
 builder->InsertCell();
 builder->get_Font()->set_Size(12);
 builder->get_Font()->set_Bold(false);

@@ -29,12 +29,12 @@ If you set this option to **false**, then only images in WMF, EMF and BMP format
 
 Shows how to save a document to .rtf with custom options. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto options = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
 
-ASSERT_EQ(Aspose::Words::SaveFormat::Rtf, options->get_SaveFormat());
+ASSERT_EQ(SaveFormat::Rtf, options->get_SaveFormat());
 
 // Set the "ExportCompactSize" property to "true" to
 // reduce the saved document's size at the cost of right-to-left text compatibility.

@@ -23,9 +23,9 @@ System::String Aspose::Words::Drawing::Charts::Chart::get_SourceFullName()
 
 Shows how to get/set the full name of the external xls/xlsx document if the chart is linked. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape with linked chart.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape with linked chart.docx"));
 
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 System::String sourceFullName = shape->get_Chart()->get_SourceFullName();
 ASSERT_TRUE(sourceFullName.Contains(u"Examples\\Data\\Spreadsheet.xlsx"));

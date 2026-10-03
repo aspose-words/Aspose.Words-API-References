@@ -38,9 +38,9 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 // adjust the dithering that Aspose.Words will apply when rendering this image.
 // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
 // Higher values tend to produce darker images.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
-options->set_TiffCompression(Aspose::Words::Saving::TiffCompression::Ccitt3);
-options->set_TiffBinarizationMethod(Aspose::Words::Saving::ImageBinarizationMethod::FloydSteinbergDithering);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
+options->set_TiffCompression(TiffCompression::Ccitt3);
+options->set_TiffBinarizationMethod(ImageBinarizationMethod::FloydSteinbergDithering);
 options->set_ThresholdForFloydSteinbergDithering(240);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);

@@ -24,7 +24,7 @@ int32_t Aspose::Words::Style::get_Priority() const
 Shows how to prioritize and hide a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-System::SharedPtr<Aspose::Words::Style> styleTitle = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Subtitle);
+System::SharedPtr<Aspose::Words::Style> styleTitle = doc->get_Styles()->idx_get(StyleIdentifier::Subtitle);
 
 if (styleTitle->get_Priority() == 9)
 {

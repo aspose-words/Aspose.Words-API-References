@@ -26,7 +26,7 @@ Shows how to get a graph axis to cross at a custom location.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 450, 250);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(450), static_cast<double>(250));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 ASSERT_EQ(3, chart->get_Series()->get_Count());
@@ -38,7 +38,7 @@ ASSERT_EQ(u"Series 3", chart->get_Series()->idx_get(2)->get_Name());
 // which means that columns for all values below zero point down to represent negative values.
 // We can set a different value for the Y-axis crossing. In this case, we will set it to 3.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> axis = chart->get_AxisX();
-axis->set_Crosses(Aspose::Words::Drawing::Charts::AxisCrosses::Custom);
+axis->set_Crosses(AxisCrosses::Custom);
 axis->set_CrossesAt(3);
 axis->set_AxisBetweenCategories(true);
 

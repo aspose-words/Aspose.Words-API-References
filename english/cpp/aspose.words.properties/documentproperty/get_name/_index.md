@@ -27,7 +27,7 @@ Cannot be **null** and cannot be an empty string.
 
 Shows how to work with built-in document properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
 // The "Document" object contains some of its metadata in its members.
 std::cout << System::String::Format(u"Document filename:\n\t \"{0}\"", doc->get_OriginalFileName()) << std::endl;
