@@ -27,15 +27,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world! This is the main body text.");
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Write(u"This is the header.");
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->Write(u"This is the footer.");
 builder->MoveToDocumentEnd();
 
 // Insert a blue double-line border.
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
-pageSetup->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Double);
+pageSetup->get_Borders()->set_LineStyle(LineStyle::Double);
 pageSetup->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
 
 // A section's PageSetup object has "BorderSurroundsHeader" and "BorderSurroundsFooter" flags that determine

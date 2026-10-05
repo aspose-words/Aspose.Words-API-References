@@ -28,8 +28,8 @@ enum class RelativeVerticalPosition
 | BottomMargin | 5 | Specifies that the vertical positioning shall be relative to the bottom margin of the current page. |
 | InsideMargin | 6 | Specifies that the vertical positioning shall be relative to the inside margin of the current page. |
 | OutsideMargin | 7 | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
-| TableDefault | n/a | Default value is [Margin](./). |
-| TextFrameDefault | n/a | Default value is [Paragraph](./). |
+| TableDefault | 0 | Default value is [Margin](./). |
+| TextFrameDefault | 2 | Default value is [Paragraph](./). |
 
 
 ## Examples
@@ -42,14 +42,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert the image into the header so that it will be visible on every page.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 shape->set_BehindText(true);
 
 // Place the image at the center of the page.
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
 shape->set_Left((builder->get_PageSetup()->get_PageWidth() - shape->get_Width()) / 2);
 shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()) / 2);
 
@@ -64,12 +64,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
-shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(HorizontalAlignment::Center);
+shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```

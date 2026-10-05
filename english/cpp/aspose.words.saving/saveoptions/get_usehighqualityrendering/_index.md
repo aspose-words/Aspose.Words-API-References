@@ -29,13 +29,13 @@ This property is used when the document is exported to image formats: [Tiff](../
 
 Shows how to improve the quality of a rendered document with [SaveOptions](../). 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(60);
 builder->Writeln(u"Some text.");
 
-System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 
 doc->Save(get_ArtifactsDir() + u"Document.ImageSaveOptions.Default.jpg", options);
 

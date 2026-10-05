@@ -23,7 +23,7 @@ System::String Aspose::Words::PhoneticGuide::get_RubyText()
 
 Shows how to get properties of the phonetic guide. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Phonetic guide.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Phonetic guide.docx"));
 
 System::SharedPtr<Aspose::Words::RunCollection> runs = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs();
 // Use phonetic guide in the Asian text.

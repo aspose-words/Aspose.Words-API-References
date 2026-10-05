@@ -32,12 +32,12 @@ Note, in this case it is not guaranteed that formatting of the imported node in 
 Shows how to copy source styles with unique names forcibly. 
 ```cpp
 // Both documents contain MyStyle1 and MyStyle2, MyStyle3 exists only in a source document.
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Styles source.docx");
-auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Styles destination.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Styles source.docx"));
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Styles destination.docx"));
 
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_ForceCopyStyles(true);
-dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
+dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paras = dstDoc->get_Sections()->idx_get(1)->get_Body()->get_Paragraphs();
 

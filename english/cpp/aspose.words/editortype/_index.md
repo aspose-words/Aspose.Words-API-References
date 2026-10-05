@@ -28,7 +28,7 @@ enum class EditorType
 | Everyone | 5 | Specifies that all users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | None | 6 | Specifies that none of the users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | Owners | 7 | Specifies that users associated with the Owners group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
-| Default | n/a | Same as [Unspecified](./). |
+| Default | 0 | Same as [Unspecified](./). |
 
 ## See Also
 

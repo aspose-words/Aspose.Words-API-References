@@ -14,7 +14,7 @@ A collection of [TabStop](../tabstop/) objects that represent custom tabs for a 
 
 ```cpp
 class TabStopCollection : public Aspose::Words::InternableComplexAttr,
-                          public Aspose::Words::IExpandableAttr
+                          public IExpandableAttr
 ```
 
 ## Methods
@@ -59,7 +59,7 @@ System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = builder->get_Para
 
 // 72 points is one "inch" on the Microsoft Word tab stop ruler.
 tabStops->Add(System::MakeObject<Aspose::Words::TabStop>(72.0));
-tabStops->Add(System::MakeObject<Aspose::Words::TabStop>(432.0, Aspose::Words::TabAlignment::Right, Aspose::Words::TabLeader::Dashes));
+tabStops->Add(System::MakeObject<Aspose::Words::TabStop>(432.0, TabAlignment::Right, TabLeader::Dashes));
 
 ASSERT_EQ(2, tabStops->get_Count());
 ASSERT_FALSE(tabStops->idx_get(0)->get_IsClear());

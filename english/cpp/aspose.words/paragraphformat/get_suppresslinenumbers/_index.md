@@ -34,7 +34,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = builder->get_PageSetup();
 pageSetup->set_LineStartingNumber(1);
 pageSetup->set_LineNumberCountBy(3);
-pageSetup->set_LineNumberRestartMode(Aspose::Words::LineNumberRestartMode::RestartPage);
+pageSetup->set_LineNumberRestartMode(LineNumberRestartMode::RestartPage);
 pageSetup->set_LineNumberDistanceFromText(50.0);
 
 for (int32_t i = 1; i <= 25; i++)

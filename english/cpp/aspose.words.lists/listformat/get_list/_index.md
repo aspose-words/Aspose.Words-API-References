@@ -43,7 +43,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -60,7 +60,7 @@ for (int32_t i = 0; i < 9; i++)
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 
 for (int32_t i = 0; i < 9; i++)
 {
@@ -87,15 +87,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create an outline list for the headings.
-System::SharedPtr<Aspose::Words::Lists::List> outlineList = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::OutlineNumbers);
+System::SharedPtr<Aspose::Words::Lists::List> outlineList = doc->get_Lists()->Add(ListTemplate::OutlineNumbers);
 builder->get_ListFormat()->set_List(outlineList);
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"This is my Chapter 1");
 
 // Create a numbered list.
-System::SharedPtr<Aspose::Words::Lists::List> numberedList = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> numberedList = doc->get_Lists()->Add(ListTemplate::NumberDefault);
 builder->get_ListFormat()->set_List(numberedList);
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Normal);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Normal);
 builder->Writeln(u"Numbered list item 1.");
 
 // Every paragraph that comprises a list will have this flag.
@@ -103,7 +103,7 @@ ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsListItem());
 ASSERT_TRUE(builder->get_ParagraphFormat()->get_IsListItem());
 
 // Create a bulleted list.
-System::SharedPtr<Aspose::Words::Lists::List> bulletedList = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault);
+System::SharedPtr<Aspose::Words::Lists::List> bulletedList = doc->get_Lists()->Add(ListTemplate::BulletDefault);
 builder->get_ListFormat()->set_List(bulletedList);
 builder->get_ParagraphFormat()->set_LeftIndent(72);
 builder->Writeln(u"Bulleted list item 1.");
@@ -117,7 +117,7 @@ builder->Writeln(u"Numbered list item 3.");
 
 // Revert to the outline list.
 builder->get_ListFormat()->set_List(outlineList);
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"This is my Chapter 2");
 
 builder->get_ParagraphFormat()->ClearFormatting();

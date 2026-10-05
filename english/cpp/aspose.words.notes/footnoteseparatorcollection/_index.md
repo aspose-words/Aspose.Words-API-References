@@ -33,11 +33,11 @@ class FootnoteSeparatorCollection : public System::Collections::Generic::IEnumer
 
 Shows how to manage footnote separator format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
-System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::FootnoteSeparator);
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(FootnoteSeparatorType::FootnoteSeparator);
 // Align footnote separator.
-footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 ```
 
 ## See Also

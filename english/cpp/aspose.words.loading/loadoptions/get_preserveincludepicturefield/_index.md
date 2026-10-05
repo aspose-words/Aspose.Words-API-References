@@ -32,13 +32,13 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 includePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 includePicture->Update(true);
 
 {
     auto docStream = System::MakeObject<System::IO::MemoryStream>();
-    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx));
+    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(SaveFormat::Docx));
 
     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
     // into image shapes when loading a document that contains them.
@@ -51,7 +51,7 @@ includePicture->Update(true);
     {
         ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
         {
-            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+            return f->get_Type() == FieldType::FieldIncludePicture;
         }))));
 
         doc->UpdateFields();
@@ -61,7 +61,7 @@ includePicture->Update(true);
     {
         ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
         {
-            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+            return f->get_Type() == FieldType::FieldIncludePicture;
         }))));
     }
 }

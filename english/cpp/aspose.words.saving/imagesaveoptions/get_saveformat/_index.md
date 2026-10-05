@@ -38,7 +38,7 @@ builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // When we save the document as an image, we can pass a SaveOptions object to
 // edit the image while the saving operation renders it.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
 // We can adjust these properties to change the image's brightness and contrast.
 // Both are on a 0-1 scale and are at 0.5 by default.
 options->set_ImageBrightness(0.3f);

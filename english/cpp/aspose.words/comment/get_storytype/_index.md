@@ -25,7 +25,7 @@ Shows how to insert [InlineStory](../../inlinestory/) nodes.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-System::SharedPtr<Aspose::Words::Notes::Footnote> footnote = builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, nullptr);
+System::SharedPtr<Aspose::Words::Notes::Footnote> footnote = builder->InsertFootnote(FootnoteType::Footnote, nullptr);
 
 // Table nodes have an "EnsureMinimum()" method that makes sure the table has at least one cell.
 auto table = System::MakeObject<Aspose::Words::Tables::Table>(doc);
@@ -35,13 +35,13 @@ table->EnsureMinimum();
 ASSERT_EQ(0, footnote->get_Tables()->get_Count());
 footnote->AppendChild<System::SharedPtr<Aspose::Words::Tables::Table>>(table);
 ASSERT_EQ(1, footnote->get_Tables()->get_Count());
-ASSERT_EQ(Aspose::Words::NodeType::Table, footnote->get_LastChild()->get_NodeType());
+ASSERT_EQ(NodeType::Table, footnote->get_LastChild()->get_NodeType());
 
 // An InlineStory has an "EnsureMinimum()" method as well, but in this case,
 // it makes sure the last child of the node is a paragraph,
 // for us to be able to click and write text easily in Microsoft Word.
 footnote->EnsureMinimum();
-ASSERT_EQ(Aspose::Words::NodeType::Paragraph, footnote->get_LastChild()->get_NodeType());
+ASSERT_EQ(NodeType::Paragraph, footnote->get_LastChild()->get_NodeType());
 
 // Edit the appearance of the anchor, which is the small superscript number
 // in the main text that points to the footnote.
@@ -49,7 +49,7 @@ footnote->get_Font()->set_Name(u"Arial");
 footnote->get_Font()->set_Color(System::Drawing::Color::get_Green());
 
 // All inline story nodes have their respective story types.
-ASSERT_EQ(Aspose::Words::StoryType::Footnotes, footnote->get_StoryType());
+ASSERT_EQ(StoryType::Footnotes, footnote->get_StoryType());
 
 // A comment is another type of inline story.
 auto comment = System::ExplicitCast<Aspose::Words::Comment>(builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J. D.", System::DateTime::get_Now())));
@@ -63,13 +63,13 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph(), comm
 // so we can apply the EnsureMinimum() method to place a paragraph here as well.
 ASSERT_TRUE(System::TestTools::IsNull(comment->get_LastParagraph()));
 comment->EnsureMinimum();
-ASSERT_EQ(Aspose::Words::NodeType::Paragraph, comment->get_LastChild()->get_NodeType());
+ASSERT_EQ(NodeType::Paragraph, comment->get_LastChild()->get_NodeType());
 
 // Once we have a paragraph, we can move the builder to do it and write our comment.
 builder->MoveTo(comment->get_LastParagraph());
 builder->Write(u"My comment.");
 
-ASSERT_EQ(Aspose::Words::StoryType::Comments, comment->get_StoryType());
+ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```

@@ -21,27 +21,27 @@ enum class ListTemplate
 | Name | Value | Description |
 | --- | --- | --- |
 | BulletDefault | 0 | Default bulleted list with 9 levels. Bullet of the first level is a disc, bullet of the second level is a circle, bullet of the third level is a square. Then formatting repeats for the remaining levels. Each level is indented to the right by 0.25" relative to the previous level. Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletDisk | n/a | Same as [BulletDefault](./). Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletCircle | n/a | The bullet of the first level is a circle. The remaining levels are same as in [BulletDefault](./). Corresponds to the 2nd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletSquare | n/a | The bullet of the first level is a square. The remaining levels are same as in [BulletDefault](./). Corresponds to the 3rd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletDiamonds | n/a | The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 5th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletArrowHead | n/a | The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 6th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| BulletTick | n/a | The bullet of the first level is a tick Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 7th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberDefault | n/a | Default numbered list with 9 levels. Arabic numbering (1., 2., 3., ...) for the first level, lowercase letter numbering (a., b., c., ...) for the second level, lowercase roman numbering (i., ii., iii., ...) for the third level. Then formatting repeats for the remaining levels. Each level is indented to the right by 0.25" relative to the previous level. Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberArabicDot | n/a | Same as [NumberDefault](./). Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberArabicParenthesis | n/a | The number of the first level is "1)". The remaining levels are same as in [NumberDefault](./). Corresponds to the 2nd numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberUppercaseRomanDot | n/a | The number of the first level is "I.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 3rd numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberUppercaseLetterDot | n/a | The number of the first level is "A.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 4th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberLowercaseLetterParenthesis | n/a | The number of the first level is "a)". The remaining levels are same as in [NumberDefault](./). Corresponds to the 5th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberLowercaseLetterDot | n/a | The number of the first level is "a.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 6th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| NumberLowercaseRomanDot | n/a | The number of the first level is "i.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 7th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineNumbers | n/a | An outline list with levels numbered "1), a), i), (1), (a), (i), 1., a., i.". Corresponds to the 1st outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineLegal | n/a | An outline list with levels are numbered "1., 1.1., 1.1.1, ...". Corresponds to the 2nd outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineBullets | n/a | An outline lists with various bullets for different levels. Corresponds to the 3rd outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineHeadingsArticleSection | n/a | An outline list with levels linked to Heading styles. Corresponds to the 4th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineHeadingsLegal | n/a | An outline list with levels linked to Heading styles. Corresponds to the 5th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineHeadingsNumbers | n/a | An outline list with levels linked to Heading styles. Corresponds to the 6th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
-| OutlineHeadingsChapter | n/a | An outline list with levels linked to Heading styles. Corresponds to the 7th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletDisk | 0 | Same as [BulletDefault](./). Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletCircle | 1 | The bullet of the first level is a circle. The remaining levels are same as in [BulletDefault](./). Corresponds to the 2nd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletSquare | 2 | The bullet of the first level is a square. The remaining levels are same as in [BulletDefault](./). Corresponds to the 3rd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletDiamonds | 3 | The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 5th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletArrowHead | 4 | The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 6th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| BulletTick | 5 | The bullet of the first level is a tick Wingding character. The remaining levels are same as in [BulletDefault](./). Corresponds to the 7th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberDefault | 6 | Default numbered list with 9 levels. Arabic numbering (1., 2., 3., ...) for the first level, lowercase letter numbering (a., b., c., ...) for the second level, lowercase roman numbering (i., ii., iii., ...) for the third level. Then formatting repeats for the remaining levels. Each level is indented to the right by 0.25" relative to the previous level. Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberArabicDot | 6 | Same as [NumberDefault](./). Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberArabicParenthesis | 7 | The number of the first level is "1)". The remaining levels are same as in [NumberDefault](./). Corresponds to the 2nd numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberUppercaseRomanDot | 8 | The number of the first level is "I.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 3rd numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberUppercaseLetterDot | 9 | The number of the first level is "A.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 4th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberLowercaseLetterParenthesis | 10 | The number of the first level is "a)". The remaining levels are same as in [NumberDefault](./). Corresponds to the 5th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberLowercaseLetterDot | 11 | The number of the first level is "a.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 6th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| NumberLowercaseRomanDot | 12 | The number of the first level is "i.". The remaining levels are same as in [NumberDefault](./). Corresponds to the 7th numbered list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineNumbers | 13 | An outline list with levels numbered "1), a), i), (1), (a), (i), 1., a., i.". Corresponds to the 1st outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineLegal | 14 | An outline list with levels are numbered "1., 1.1., 1.1.1, ...". Corresponds to the 2nd outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineBullets | 15 | An outline lists with various bullets for different levels. Corresponds to the 3rd outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineHeadingsArticleSection | 16 | An outline list with levels linked to Heading styles. Corresponds to the 4th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineHeadingsLegal | 17 | An outline list with levels linked to Heading styles. Corresponds to the 5th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineHeadingsNumbers | 18 | An outline list with levels linked to Heading styles. Corresponds to the 6th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
+| OutlineHeadingsChapter | 19 | An outline list with levels linked to Heading styles. Corresponds to the 7th outline list template in the Bullets and Numbering dialog box in Microsoft Word. |
 
 ## Remarks
 
@@ -68,7 +68,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -85,7 +85,7 @@ for (int32_t i = 0; i < 9; i++)
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 
 for (int32_t i = 0; i < 9; i++)
 {
@@ -111,9 +111,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize its first list level.
-System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberArabicParenthesis);
+System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(ListTemplate::NumberArabicParenthesis);
 list1->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Red());
-list1->get_ListLevels()->idx_get(0)->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
+list1->get_ListLevels()->idx_get(0)->set_Alignment(ListLevelAlignment::Right);
 
 // Apply our list to some paragraphs.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

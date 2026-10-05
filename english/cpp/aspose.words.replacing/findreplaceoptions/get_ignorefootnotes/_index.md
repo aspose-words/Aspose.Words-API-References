@@ -27,12 +27,12 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+builder->InsertFootnote(FootnoteType::Footnote, u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
 builder->InsertParagraph();
 
 builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+builder->InsertFootnote(FootnoteType::Endnote, u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
 // Set the "IgnoreFootnotes" flag to "true" to get the find-and-replace
 // operation to ignore text inside footnotes.

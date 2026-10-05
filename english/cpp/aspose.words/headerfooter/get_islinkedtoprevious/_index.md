@@ -33,19 +33,19 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 3");
 
 // Move to the first section and create a header and a footer. By default,
 // the header and the footer will only appear on pages in the section that contains them.
 builder->MoveToSection(0);
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Write(u"This is the header, which will be displayed in sections 1 and 2.");
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->Write(u"This is the footer, which will be displayed in sections 1, 2 and 3.");
 
 // We can link a section's headers/footers to the previous section's headers/footers
@@ -68,7 +68,7 @@ doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(false);
 
 // We can also select only a specific type of header/footer to link using this method.
 // The third section now will have the same footer as the second and first sections, but not the header.
-doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(Aspose::Words::HeaderFooterType::FooterPrimary, true);
+doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(HeaderFooterType::FooterPrimary, true);
 
 // The first section's header/footers cannot link themselves to anything because there is no previous section.
 ASSERT_EQ(2, doc->get_Sections()->idx_get(0)->get_HeadersFooters()->get_Count());

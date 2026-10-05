@@ -13,8 +13,8 @@ url: /cpp/aspose.words.tables/cellformat/
 Represents all formatting for a table cell. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
-class CellFormat : public Aspose::Words::IBorderAttrSource,
-                   public Aspose::Words::IShadingAttrSource
+class CellFormat : public IBorderAttrSource,
+                   public IShadingAttrSource
 ```
 
 ## Methods
@@ -68,19 +68,19 @@ builder->StartTable();
 
 // Setting table formatting options for a document builder
 // will apply them to every row and cell that we add with it.
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 builder->get_CellFormat()->ClearFormatting();
 builder->get_CellFormat()->set_Width(150);
-builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_GreenYellow());
 builder->get_CellFormat()->set_WrapText(false);
 builder->get_CellFormat()->set_FitText(true);
 
 builder->get_RowFormat()->ClearFormatting();
-builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Exactly);
+builder->get_RowFormat()->set_HeightRule(HeightRule::Exactly);
 builder->get_RowFormat()->set_Height(50);
-builder->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Engrave3D);
+builder->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::Engrave3D);
 builder->get_RowFormat()->get_Borders()->set_Color(System::Drawing::Color::get_Orange());
 
 builder->InsertCell();
@@ -106,11 +106,11 @@ builder->EndRow();
 // Increase row height to fit the vertical text.
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(150);
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Upward);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Upward);
 builder->Write(u"Row 3, Col 1");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Downward);
 builder->Write(u"Row 3, Col 2");
 
 builder->EndRow();
@@ -141,7 +141,7 @@ builder->EndTable();
 // of the contents of all cells in this row.
 System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
 rowFormat->set_Height(25);
-rowFormat->get_Borders()->idx_get(Aspose::Words::BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
+rowFormat->get_Borders()->idx_get(BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
 
 // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
 System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();
@@ -154,13 +154,13 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 
 Shows how to modify formatting of a table cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::Tables::Cell> firstCell = table->get_FirstRow()->get_FirstCell();
 
 // Use a cell's "CellFormat" property to set formatting that modifies the appearance of that cell.
 firstCell->get_CellFormat()->set_Width(30);
-firstCell->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
+firstCell->get_CellFormat()->set_Orientation(TextOrientation::Downward);
 firstCell->get_CellFormat()->get_Shading()->set_ForegroundPatternColor(System::Drawing::Color::get_LightGreen());
 
 doc->Save(get_ArtifactsDir() + u"Table.CellFormat.docx");

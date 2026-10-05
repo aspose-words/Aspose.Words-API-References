@@ -31,7 +31,7 @@ When **false**, causes no roundtrip information to be output into produced files
 
 Shows how to preserve hidden elements when converting to .html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // When converting a document to .html, some elements such as hidden bookmarks, original shape positions,
 // or footnotes will be either removed or converted to plain text and effectively be lost.
@@ -50,7 +50,7 @@ options->set_ExportRoundtripInformation(exportRoundtripInformation);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html", options);
 
 System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html");
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html"));
 
 if (exportRoundtripInformation)
 {
@@ -67,7 +67,7 @@ if (exportRoundtripInformation)
 
     ASSERT_EQ(1, doc->get_Range()->get_Fields()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
     {
-        return f->get_Type() == Aspose::Words::Fields::FieldType::FieldPage;
+        return f->get_Type() == FieldType::FieldPage;
     }))));
 }
 else
@@ -85,7 +85,7 @@ else
 
     ASSERT_EQ(0, doc->get_Range()->get_Fields()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
     {
-        return f->get_Type() == Aspose::Words::Fields::FieldType::FieldPage;
+        return f->get_Type() == FieldType::FieldPage;
     }))));
 }
 ```

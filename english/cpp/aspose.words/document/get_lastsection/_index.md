@@ -34,7 +34,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
 // Create a second section by inserting a section break.
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
 ASSERT_EQ(2, doc->get_Sections()->get_Count());
 
@@ -43,7 +43,7 @@ ASSERT_EQ(2, doc->get_Sections()->get_Count());
 // This will not affect the text in the first section.
 doc->get_LastSection()->get_PageSetup()->get_TextColumns()->SetCount(2);
 builder->Writeln(u"Column 1.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Column 2.");
 
 ASSERT_EQ(1, doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count());

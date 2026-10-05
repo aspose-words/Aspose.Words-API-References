@@ -58,19 +58,19 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
 // but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
 // The following field will display ".1", the RTL equivalent of list number "1.".
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldBidiOutline>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
 builder->Writeln(u"שלום");
 
 ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());
 
 // Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true);
+builder->InsertField(FieldType::FieldBidiOutline, true);
 builder->Writeln(u"שלום");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldBidiOutline, true);
+builder->InsertField(FieldType::FieldBidiOutline, true);
 builder->Writeln(u"שלום");
 
 // Set the horizontal text alignment for every paragraph in the document to RTL.
-for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)))
+for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(NodeType::Paragraph, true)))
 {
     para->get_ParagraphFormat()->set_Bidi(true);
 }

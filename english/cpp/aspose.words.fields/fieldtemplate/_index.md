@@ -14,7 +14,7 @@ Implements the TEMPLATE field. To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldTemplate : public Aspose::Words::Fields::Field,
-                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                      public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -62,11 +62,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // If this property is empty the default template file name "Normal.dotm" is used.
 doc->get_FieldOptions()->set_TemplateName(System::String::Empty);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTemplate, false));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
 
 builder->Writeln();
-field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTemplate, false));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 field->set_IncludeFullPath(true);
 
 ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());

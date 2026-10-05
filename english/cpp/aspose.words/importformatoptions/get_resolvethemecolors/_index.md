@@ -33,18 +33,18 @@ auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
 
 // Move to the primary footer and insert a shape that uses theme colors.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 50);
-shape->get_Stroke()->set_ForeThemeColor(Aspose::Words::Themes::ThemeColor::Dark1);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(50));
+shape->get_Stroke()->set_ForeThemeColor(ThemeColor::Dark1);
 
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 // Import the source footer into the destination document with theme colors resolved,
 // so the shape preserves its actual color from the source document.
-System::SharedPtr<Aspose::Words::HeaderFooter> footer = srcDoc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+System::SharedPtr<Aspose::Words::HeaderFooter> footer = srcDoc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary);
 
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_ResolveThemeColors(true);
-auto importedFooter = System::ExplicitCast<Aspose::Words::HeaderFooter>(dstDoc->ImportNode(footer, true, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options));
+auto importedFooter = System::ExplicitCast<Aspose::Words::HeaderFooter>(dstDoc->ImportNode(footer, true, ImportFormatMode::KeepSourceFormatting, options));
 
 dstDoc->get_FirstSection()->get_HeadersFooters()->Add(importedFooter);
 

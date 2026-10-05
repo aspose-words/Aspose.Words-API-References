@@ -35,7 +35,7 @@ loadOptions->set_Encoding(System::Text::Encoding::get_ASCII());
 // Load the document while passing the LoadOptions object, then verify the document's contents.
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English text.txt", loadOptions);
 
-ASSERT_TRUE(doc->ToString(Aspose::Words::SaveFormat::Text).Contains(u"This is a sample text in English."));
+ASSERT_TRUE(doc->ToString(SaveFormat::Text).Contains(u"This is a sample text in English."));
 ```
 
 ## See Also

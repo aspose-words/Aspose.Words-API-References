@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a custom style and apply it to text created using a document builder.
-System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Character, u"MyStyle");
 style->get_Font()->set_Color(System::Drawing::Color::get_Red());
 style->get_Font()->set_Name(u"Courier New");
 
@@ -35,13 +35,13 @@ builder->get_Font()->set_StyleName(u"MyStyle");
 builder->Write(u"This text is in a custom style.");
 
 // Iterate over every run and add a double underline to every custom style.
-for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(Aspose::Words::NodeType::Run, true)))
+for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(NodeType::Run, true)))
 {
     System::SharedPtr<Aspose::Words::Style> charStyle = run->get_Font()->get_Style();
 
     if (!charStyle->get_BuiltIn())
     {
-        run->get_Font()->set_Underline(Aspose::Words::Underline::Double);
+        run->get_Font()->set_Underline(Underline::Double);
     }
 }
 

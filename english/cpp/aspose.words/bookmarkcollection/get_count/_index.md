@@ -34,7 +34,7 @@ for (int32_t i = 1; i <= 5; i++)
     builder->StartBookmark(bookmarkName);
     builder->Write(System::String::Format(u"Text inside {0}.", bookmarkName));
     builder->EndBookmark(bookmarkName);
-    builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+    builder->InsertBreak(BreakType::ParagraphBreak);
 }
 
 // This collection stores bookmarks.

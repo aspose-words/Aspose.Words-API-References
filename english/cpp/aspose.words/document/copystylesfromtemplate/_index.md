@@ -23,8 +23,8 @@ void Aspose::Words::Document::CopyStylesFromTemplate(const System::SharedPtr<Asp
 
 Shows how to copies styles from the template to a document via [Document](../). 
 ```cpp
-auto template_ = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
-auto target = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto template_ = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+auto target = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 target->CopyStylesFromTemplate(template_);
 ```
@@ -35,15 +35,15 @@ Shows how to copy styles from one document to another.
 // Create a document, and then add styles that we will copy to another document.
 auto template_ = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle1");
+System::SharedPtr<Aspose::Words::Style> style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle1");
 style->get_Font()->set_Name(u"Times New Roman");
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());
 
-style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle2");
+style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle2");
 style->get_Font()->set_Name(u"Arial");
 style->get_Font()->set_Color(System::Drawing::Color::get_DeepSkyBlue());
 
-style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle3");
+style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Courier New");
 style->get_Font()->set_Color(System::Drawing::Color::get_RoyalBlue());
 
@@ -53,7 +53,7 @@ ASSERT_EQ(7, template_->get_Styles()->get_Count());
 auto target = System::MakeObject<Aspose::Words::Document>();
 
 // Create a style with the same name as a style from the template document and add it to the target document.
-style = target->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle3");
+style = target->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Calibri");
 style->get_Font()->set_Color(System::Drawing::Color::get_Orange());
 
@@ -101,15 +101,15 @@ Shows how to copy styles from one document to another.
 // Create a document, and then add styles that we will copy to another document.
 auto template_ = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle1");
+System::SharedPtr<Aspose::Words::Style> style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle1");
 style->get_Font()->set_Name(u"Times New Roman");
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());
 
-style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle2");
+style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle2");
 style->get_Font()->set_Name(u"Arial");
 style->get_Font()->set_Color(System::Drawing::Color::get_DeepSkyBlue());
 
-style = template_->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle3");
+style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Courier New");
 style->get_Font()->set_Color(System::Drawing::Color::get_RoyalBlue());
 
@@ -119,7 +119,7 @@ ASSERT_EQ(7, template_->get_Styles()->get_Count());
 auto target = System::MakeObject<Aspose::Words::Document>();
 
 // Create a style with the same name as a style from the template document and add it to the target document.
-style = target->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"TemplateStyle3");
+style = target->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Calibri");
 style->get_Font()->set_Color(System::Drawing::Color::get_Orange());
 

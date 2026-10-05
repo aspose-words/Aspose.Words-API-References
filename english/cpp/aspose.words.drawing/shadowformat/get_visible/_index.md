@@ -23,15 +23,15 @@ bool Aspose::Words::Drawing::ShadowFormat::get_Visible()
 
 Shows how to work with a shadow formatting for the shape. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape stroke pattern border.docx");
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->idx_get(0));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 
-if (shape->get_ShadowFormat()->get_Visible() && shape->get_ShadowFormat()->get_Type() == Aspose::Words::Drawing::ShadowType::Shadow2)
+if (shape->get_ShadowFormat()->get_Visible() && shape->get_ShadowFormat()->get_Type() == ShadowType::Shadow2)
 {
-    shape->get_ShadowFormat()->set_Type(Aspose::Words::Drawing::ShadowType::Shadow7);
+    shape->get_ShadowFormat()->set_Type(ShadowType::Shadow7);
 }
 
-if (shape->get_ShadowFormat()->get_Type() == Aspose::Words::Drawing::ShadowType::ShadowMixed)
+if (shape->get_ShadowFormat()->get_Type() == ShadowType::ShadowMixed)
 {
     shape->get_ShadowFormat()->Clear();
 }

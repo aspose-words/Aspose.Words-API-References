@@ -25,7 +25,7 @@ Shows how to convert WMF/EMF to PNG during loading document.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Image);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Image);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Windows MetaFile.wmf");
 shape->set_Width(100);
 shape->set_Height(100);
@@ -34,17 +34,17 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateImageDirectly.docx");
 
-shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-Aspose::Words::ApiExamples::TestUtil::VerifyImageInShape(1600, 1600, Aspose::Words::Drawing::ImageType::Wmf, shape);
+TestUtil::VerifyImageInShape(1600, 1600, ImageType::Wmf, shape);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_ConvertMetafilesToPng(true);
 
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Image.CreateImageDirectly.docx", loadOptions);
-shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-Aspose::Words::ApiExamples::TestUtil::VerifyImageInShape(1666, 1666, Aspose::Words::Drawing::ImageType::Png, shape);
+TestUtil::VerifyImageInShape(1666, 1666, ImageType::Png, shape);
 ```
 
 ## See Also

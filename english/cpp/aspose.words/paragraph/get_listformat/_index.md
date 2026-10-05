@@ -38,9 +38,9 @@ builder->Writeln(u"Bulleted list item 2");
 builder->Writeln(u"Bulleted list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
+for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
     return p->get_ListFormat()->get_IsListItem();
 })))->LINQ_ToList())

@@ -30,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 for (int32_t i = 0; i < 6; i++)
 {
     builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 }
 
 // A gutter adds whitespaces to either the left or right page margin,
@@ -47,7 +47,7 @@ pageSetup->set_RtlGutter(true);
 
 // Set the "MultiplePages" property to "MultiplePagesType.MirrorMargins" to alternate
 // the left/right page side position of margins every page.
-pageSetup->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::MirrorMargins);
+pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Gutter.docx");
 ```
@@ -63,7 +63,7 @@ builder->Writeln(u"My Booklet:");
 
 for (int32_t i = 0; i < 15; i++)
 {
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
     builder->Write(System::String::Format(u"Booklet face #{0}", i));
 }
 
@@ -71,7 +71,7 @@ for (int32_t i = 0; i < 15; i++)
 // When we print this document on both sides, we can take the pages to stack them
 // and fold them all down the middle at once. The contents of the document will line up into a book fold.
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
-pageSetup->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::BookFoldPrinting);
+pageSetup->set_MultiplePages(MultiplePagesType::BookFoldPrinting);
 
 // We can only specify the number of sheets in multiples of 4.
 pageSetup->set_SheetsPerBooklet(4);

@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world! ");
-builder->InsertTextInput(u"My form field", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Text contents of form field, which are shaded in grey by default.", 0);
+builder->InsertTextInput(u"My form field", TextFormFieldType::Regular, u"", u"Text contents of form field, which are shaded in grey by default.", 0);
 
 // We can turn the grey shading off, so the bookmarked text will blend in with the other text.
 doc->set_ShadeFormData(useGreyShading);

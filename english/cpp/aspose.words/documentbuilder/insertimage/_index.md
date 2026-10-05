@@ -38,21 +38,21 @@ Shows how to insert an image from a byte array into a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::ArrayPtr<uint8_t> imageByteArray = Aspose::Words::ApiExamples::TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
+System::ArrayPtr<uint8_t> imageByteArray = TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageByteArray);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageByteArray, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
@@ -101,21 +101,21 @@ Shows how to insert an image from a byte array into a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::ArrayPtr<uint8_t> imageByteArray = Aspose::Words::ApiExamples::TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
+System::ArrayPtr<uint8_t> imageByteArray = TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageByteArray);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageByteArray, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
@@ -162,21 +162,21 @@ Shows how to insert an image from a byte array into a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::ArrayPtr<uint8_t> imageByteArray = Aspose::Words::ApiExamples::TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
+System::ArrayPtr<uint8_t> imageByteArray = TestUtil::ImageToByteArray(get_ImageDir() + u"Logo.jpg");
 
 // Below are three ways of inserting an image from a byte array.
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageByteArray);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageByteArray, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageByteArray, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
@@ -224,15 +224,15 @@ System::String imageFile = get_ImageDir() + u"Logo.jpg";
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageFile);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
@@ -287,15 +287,15 @@ System::String imageFile = get_ImageDir() + u"Logo.jpg";
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageFile);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
@@ -348,15 +348,15 @@ System::String imageFile = get_ImageDir() + u"Logo.jpg";
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(imageFile);
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
@@ -404,15 +404,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
     // 1 -  Inline shape with a default size based on the image's original dimensions:
     builder->InsertImage(stream);
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 2 -  Inline shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 3 -  Floating shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 }
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
@@ -483,15 +483,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
     // 1 -  Inline shape with a default size based on the image's original dimensions:
     builder->InsertImage(stream);
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 2 -  Inline shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 3 -  Floating shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 }
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
@@ -545,15 +545,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
     // 1 -  Inline shape with a default size based on the image's original dimensions:
     builder->InsertImage(stream);
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 2 -  Inline shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 
     // 3 -  Floating shape with custom dimensions:
-    builder->InsertImage(stream, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 }
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
@@ -602,15 +602,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```
@@ -630,7 +630,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertSvgImage.SvgWithSvg
 // Aspose.Words insert SVG image to the document as PNG, just like Microsoft Word does for old format.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
-doc->get_CompatibilityOptions()->OptimizeFor(Aspose::Words::Settings::MsWordVersion::Word2003);
+doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 
 // Aspose.Words insert SVG image to the document as EMF metafile to keep the image in vector representation.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertSvgImage.Emf.docx");
@@ -680,12 +680,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
-shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(HorizontalAlignment::Center);
+shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
@@ -747,10 +747,10 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // There are two ways of using a document builder to source an image and then insert it as a floating shape.
 // 1 -  From a file in the local file system:
-builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 0.0, 200.0, 200.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(0), static_cast<double>(200), static_cast<double>(200), WrapType::Square);
 
 // 2 -  From a URL:
-builder->InsertImage(get_ImageUrl(), Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 250.0, 200.0, 200.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(get_ImageUrl(), RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(250), static_cast<double>(200), static_cast<double>(200), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFloatingImage.docx");
 ```
@@ -763,7 +763,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // The InsertImage method creates a floating shape with the passed image in its image data.
 // We can specify the dimensions of the shape can be passing them to this method.
-System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg", Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 0.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 0.0, -1.0, -1.0, Aspose::Words::Drawing::WrapType::Square);
+System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg", RelativeHorizontalPosition::Margin, static_cast<double>(0), RelativeVerticalPosition::Margin, static_cast<double>(0), static_cast<double>(-1), static_cast<double>(-1), WrapType::Square);
 
 // Passing negative values as the intended dimensions will automatically define
 // the shape's dimensions based on the dimensions of its image.
@@ -783,15 +783,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```
@@ -842,15 +842,15 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Inline shape with a default size based on the image's original dimensions:
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 2 -  Inline shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", Aspose::Words::ConvertUtil::PixelToPoint(250), Aspose::Words::ConvertUtil::PixelToPoint(144));
+builder->InsertImage(get_ImageDir() + u"Transparent background logo.png", ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
 
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // 3 -  Floating shape with custom dimensions:
-builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100.0, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100.0, 200.0, 100.0, Aspose::Words::Drawing::WrapType::Square);
+builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```

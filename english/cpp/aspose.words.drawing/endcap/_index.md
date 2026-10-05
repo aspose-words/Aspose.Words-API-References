@@ -23,7 +23,7 @@ enum class EndCap
 | Round | 0 | Rounded ends. |
 | Square | 1 | Square protrudes by half line width. |
 | Flat | 2 | Line ends at end point. |
-| Default | n/a | Default value is [Flat](./). |
+| Default | 2 | Default value is [Flat](./). |
 
 
 ## See Also

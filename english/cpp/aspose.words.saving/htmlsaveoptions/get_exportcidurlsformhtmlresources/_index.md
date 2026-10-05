@@ -33,13 +33,13 @@ In theory, there should be no difference between the two referencing methods and
 
 Shows how to enable content IDs for output MHTML documents. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Setting this flag will replace "Content-Location" tags
 // with "Content-ID" tags for each resource from the input document.
-auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Mhtml);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(SaveFormat::Mhtml);
 options->set_ExportCidUrlsForMhtmlResources(exportCidUrlsForMhtmlResources);
-options->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::External);
+options->set_CssStyleSheetType(CssStyleSheetType::External);
 options->set_ExportFontResources(true);
 options->set_PrettyFormat(true);
 

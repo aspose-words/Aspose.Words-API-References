@@ -52,7 +52,7 @@ class FieldAddIn : public Aspose::Words::Fields::Field
 
 Shows how to process an ADDIN field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - ADDIN.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - ADDIN.docx"));
 
 // Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddIn>(doc->get_Range()->get_Fields()->idx_get(0));

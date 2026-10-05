@@ -23,7 +23,7 @@ bool Aspose::Words::Lists::List::HasSameTemplate(const System::SharedPtr<Aspose:
 
 Shows how to define lists with the same ListDefId. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Different lists.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Different lists.docx"));
 
 ASSERT_TRUE(doc->get_Lists()->idx_get(0)->HasSameTemplate(doc->get_Lists()->idx_get(1)));
 ASSERT_FALSE(doc->get_Lists()->idx_get(1)->HasSameTemplate(doc->get_Lists()->idx_get(2)));

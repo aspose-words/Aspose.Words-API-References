@@ -29,7 +29,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Create a red horizontal border for the paragraph. Any paragraphs created afterwards will inherit these border settings.
 System::SharedPtr<Aspose::Words::BorderCollection> borders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();
 borders->get_Horizontal()->set_Color(System::Drawing::Color::get_Red());
-borders->get_Horizontal()->set_LineStyle(Aspose::Words::LineStyle::DashSmallGap);
+borders->get_Horizontal()->set_LineStyle(LineStyle::DashSmallGap);
 borders->get_Horizontal()->set_LineWidth(3);
 
 // Write text to the document without creating a new paragraph afterward.
@@ -64,12 +64,12 @@ for (int32_t i = 0; i < 3; i++)
 
     // Adjust the appearance of borders that will appear between rows.
     borders->get_Horizontal()->set_Color(System::Drawing::Color::get_Red());
-    borders->get_Horizontal()->set_LineStyle(Aspose::Words::LineStyle::Dot);
+    borders->get_Horizontal()->set_LineStyle(LineStyle::Dot);
     borders->get_Horizontal()->set_LineWidth(2.0);
 
     // Adjust the appearance of borders that will appear between cells.
     borders->get_Vertical()->set_Color(System::Drawing::Color::get_Blue());
-    borders->get_Vertical()->set_LineStyle(Aspose::Words::LineStyle::Dot);
+    borders->get_Vertical()->set_LineStyle(LineStyle::Dot);
     borders->get_Vertical()->set_LineWidth(2.0);
 }
 
@@ -78,7 +78,7 @@ System::SharedPtr<Aspose::Words::Border> border = table->get_FirstRow()->get_Fir
 
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), border->get_Color().ToArgb());
 ASPOSE_ASSERT_EQ(0.0, border->get_LineWidth());
-ASSERT_EQ(Aspose::Words::LineStyle::None, border->get_LineStyle());
+ASSERT_EQ(LineStyle::None, border->get_LineStyle());
 
 doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```

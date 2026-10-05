@@ -51,7 +51,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
 
 ASSERT_EQ(u"Section 1\x000c" u"Section 2", doc->GetText().Trim());

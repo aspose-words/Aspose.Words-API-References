@@ -58,7 +58,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a QUOTE field, which will display the value of its Text property.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
 ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
@@ -68,9 +68,9 @@ ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 // Nesting the DATE field inside the QUOTE field like this will freeze its value
 // to the date when we created the document.
 builder->Write(u"\nDocument creation date: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 builder->MoveTo(field->get_Separator());
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldDate, true);
+builder->InsertField(FieldType::FieldDate, true);
 
 ASSERT_EQ(System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
 

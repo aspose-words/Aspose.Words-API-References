@@ -24,7 +24,7 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::DropDownList, Aspose::Words::Markup::MarkupLevel::Block);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 
 // A drop-down list structured document tag is a form that allows the user to

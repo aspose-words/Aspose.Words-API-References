@@ -42,13 +42,13 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 
 // ShowInAnnotations is only available in Pdf1.7 and Pdf1.5 formats.
 // In other formats, it will work similarly to Hide.
-doc->get_LayoutOptions()->set_CommentDisplayMode(Aspose::Words::Layout::CommentDisplayMode::ShowInAnnotations);
+doc->get_LayoutOptions()->set_CommentDisplayMode(CommentDisplayMode::ShowInAnnotations);
 
 doc->Save(get_ArtifactsDir() + u"Document.ShowCommentsInAnnotations.pdf");
 
 // Note that it's required to rebuild the document page layout (via Document.UpdatePageLayout() method)
 // after changing the Document.LayoutOptions values.
-doc->get_LayoutOptions()->set_CommentDisplayMode(Aspose::Words::Layout::CommentDisplayMode::ShowInBalloons);
+doc->get_LayoutOptions()->set_CommentDisplayMode(CommentDisplayMode::ShowInBalloons);
 doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.ShowCommentsInBalloons.pdf");

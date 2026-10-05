@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartmarker/
 Represents a chart data marker. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
-class ChartMarker : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
+class ChartMarker : public Core::IChartFormatSource
 ```
 
 ## Methods

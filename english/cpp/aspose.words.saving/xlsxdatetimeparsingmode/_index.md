@@ -30,11 +30,11 @@ enum class XlsxDateTimeParsingMode
 
 Shows how to specify autodetection of the date time format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Xlsx DateTime.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Xlsx DateTime.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::XlsxSaveOptions>();
 // Specify using datetime format autodetection.
-saveOptions->set_DateTimeParsingMode(Aspose::Words::Saving::XlsxDateTimeParsingMode::Auto);
+saveOptions->set_DateTimeParsingMode(XlsxDateTimeParsingMode::Auto);
 
 doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.DateTimeParsingMode.xlsx", saveOptions);
 ```

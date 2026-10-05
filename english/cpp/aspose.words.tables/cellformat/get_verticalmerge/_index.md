@@ -35,24 +35,24 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Insert a cell into the first column of the first row.
 // This cell will be the first in a range of vertically merged cells.
 builder->InsertCell();
-builder->get_CellFormat()->set_VerticalMerge(Aspose::Words::Tables::CellMerge::First);
+builder->get_CellFormat()->set_VerticalMerge(CellMerge::First);
 builder->Write(u"Text in merged cells.");
 
 // Insert a cell into the second column of the first row, then end the row.
 // Also, configure the builder to disable vertical merging in created cells.
 builder->InsertCell();
-builder->get_CellFormat()->set_VerticalMerge(Aspose::Words::Tables::CellMerge::None);
+builder->get_CellFormat()->set_VerticalMerge(CellMerge::None);
 builder->Write(u"Text in unmerged cell.");
 builder->EndRow();
 
 // Insert a cell into the first column of the second row.
 // Instead of adding text contents, we will merge this cell with the first cell that we added directly above.
 builder->InsertCell();
-builder->get_CellFormat()->set_VerticalMerge(Aspose::Words::Tables::CellMerge::Previous);
+builder->get_CellFormat()->set_VerticalMerge(CellMerge::Previous);
 
 // Insert another independent cell in the second column of the second row.
 builder->InsertCell();
-builder->get_CellFormat()->set_VerticalMerge(Aspose::Words::Tables::CellMerge::None);
+builder->get_CellFormat()->set_VerticalMerge(CellMerge::None);
 builder->Write(u"Text in unmerged cell.");
 builder->EndRow();
 builder->EndTable();

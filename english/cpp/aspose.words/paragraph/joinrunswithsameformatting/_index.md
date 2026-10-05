@@ -44,7 +44,7 @@ System::SharedPtr<Aspose::Words::Paragraph> para = builder->get_CurrentParagraph
 ASSERT_EQ(4, para->get_Runs()->get_Count());
 
 // Change the style of the last run to set it apart from the first three.
-para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Emphasis);
+para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::Emphasis);
 
 // We can run the "JoinRunsWithSameFormatting" method to optimize the document's contents
 // by merging similar runs into one, reducing their overall count.

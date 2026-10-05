@@ -34,7 +34,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Start a table and set a default color/thickness for its borders.
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
-table->SetBorders(Aspose::Words::LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
+table->SetBorders(LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
 
 // Create a row with two cells with different background colors.
 builder->InsertCell();
@@ -65,14 +65,14 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.TableBordersAndShading.docx");
 
 Shows how to format of all of a table's borders at once. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Clear all existing borders from the table.
 table->ClearBorders();
 
 // Set a single green line to serve as every outer and inner border of this table.
-table->SetBorders(Aspose::Words::LineStyle::Single, 1.5, System::Drawing::Color::get_Green());
+table->SetBorders(LineStyle::Single, 1.5, System::Drawing::Color::get_Green());
 
 doc->Save(get_ArtifactsDir() + u"Table.SetBorders.docx");
 ```

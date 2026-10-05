@@ -23,13 +23,13 @@ void Aspose::Words::CompositeNode::RemoveSmartTags()
 
 Removes all smart tags from descendant nodes of a composite node. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Smart tags.doc");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
-ASSERT_EQ(8, doc->GetChildNodes(Aspose::Words::NodeType::SmartTag, true)->get_Count());
+ASSERT_EQ(8, doc->GetChildNodes(NodeType::SmartTag, true)->get_Count());
 
 doc->RemoveSmartTags();
 
-ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::SmartTag, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::SmartTag, true)->get_Count());
 ```
 
 ## See Also

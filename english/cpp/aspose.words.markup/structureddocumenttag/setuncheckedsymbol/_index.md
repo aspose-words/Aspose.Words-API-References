@@ -37,7 +37,7 @@ Show how to create a structured document tag in the form of a check box.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto sdtCheckBox = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::Checkbox, Aspose::Words::Markup::MarkupLevel::Inline);
+auto sdtCheckBox = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::Checkbox, MarkupLevel::Inline);
 sdtCheckBox->set_Checked(true);
 
 // We can set the symbols used to represent the checked/unchecked state of a checkbox content control.

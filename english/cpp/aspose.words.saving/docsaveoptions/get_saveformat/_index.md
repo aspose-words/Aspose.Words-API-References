@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Hello world!");
 
-auto options = System::MakeObject<Aspose::Words::Saving::DocSaveOptions>(Aspose::Words::SaveFormat::Doc);
+auto options = System::MakeObject<Aspose::Words::Saving::DocSaveOptions>(SaveFormat::Doc);
 
 // Set a password which will protect the loading of the document by Microsoft Word or Aspose.Words.
 // Note that this does not encrypt the contents of the document in any way.
@@ -42,7 +42,7 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", options);
 // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
 ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
-    doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc");
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc"));
 })(), Aspose::Words::IncorrectPasswordException);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword");

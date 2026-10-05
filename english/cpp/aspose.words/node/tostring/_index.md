@@ -36,20 +36,20 @@ builder->InsertField(u"MERGEFIELD Field");
 ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim());
 
 // ToString will give us the document's appearance if saved to a passed save format.
-ASSERT_EQ(u"«Field»", doc->ToString(Aspose::Words::SaveFormat::Text).Trim());
+ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
 ```
 
 
 Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
 // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
 // which start at three and ends at six.
-for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
+for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
     return p->get_ListFormat()->get_IsListItem();
 })))->LINQ_ToList())
@@ -58,7 +58,7 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
 
     // This is the text we get when getting when we output this node to text format.
     // This text output will omit list labels. Trim any paragraph formatting characters.
-    System::String paragraphText = paragraph->ToString(Aspose::Words::SaveFormat::Text).Trim();
+    System::String paragraphText = paragraph->ToString(SaveFormat::Text).Trim();
     std::cout << System::String::Format(u"\tExported Text: {0}", paragraphText) << std::endl;
 
     System::SharedPtr<Aspose::Words::Lists::ListLabel> label = paragraph->get_ListLabel();
@@ -75,13 +75,13 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
 
 Exports the content of a node to String in HTML format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()->get_LastParagraph();
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(Aspose::Words::SaveFormat::Html));
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
@@ -120,13 +120,13 @@ The content of the node in the specified format.
 
 Exports the content of a node to String in HTML format. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()->get_LastParagraph();
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(Aspose::Words::SaveFormat::Html));
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();

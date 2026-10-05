@@ -23,11 +23,11 @@ Aspose::Words::DigitalSignatures::DigitalSignatureType Aspose::Words::DigitalSig
 
 Shows how to validate and display information about each signature in a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Digitally signed.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
 for (auto&& signature : doc->get_DigitalSignatures())
 {
-    std::cout << System::String::Format(u"{0} signature: ", (signature->get_IsValid() ? System::String(u"Valid") : System::String(u"Invalid"))) << std::endl;
+    std::cout << System::String::Format(u"{0} signature: ", signature->get_IsValid() ? System::String(u"Valid") : System::String(u"Invalid")) << std::endl;
     std::cout << System::String::Format(u"\tReason:\t{0}", signature->get_Comments()) << std::endl;
     std::cout << System::String::Format(u"\tType:\t{0}", signature->get_SignatureType()) << std::endl;
     std::cout << System::String::Format(u"\tSign time:\t{0}", signature->get_SignTime()) << std::endl;

@@ -34,7 +34,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 for (int32_t i = 1; i < 6; i++)
 {
     builder->Write(System::String(u"Page ") + i);
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 }
 
 // Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
@@ -73,9 +73,9 @@ Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<System::SharedPtr
 
 Shows how to extract pages based on exact page ranges. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
-auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
 auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeArray<System::SharedPtr<Aspose::Words::Saving::PageRange>>({System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 4), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1)}));
 
 imageOptions->set_PageSet(pageSet);
@@ -112,15 +112,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));

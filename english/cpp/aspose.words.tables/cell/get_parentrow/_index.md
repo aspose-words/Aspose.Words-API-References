@@ -23,12 +23,12 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Cell::get_P
 
 Shows how to set a table to stay together on the same page. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table spanning two pages.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Enabling KeepWithNext for every paragraph in the table except for the
 // last ones in the last row will prevent the table from splitting across multiple pages.
-for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetChildNodes(Aspose::Words::NodeType::Cell, true)))
+for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetChildNodes(NodeType::Cell, true)))
 {
     for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(cell->get_Paragraphs()))
     {

@@ -14,8 +14,8 @@ Implements the REF field. To learn more, visit the [Working with Fields](https:/
 
 ```cpp
 class FieldRef : public Aspose::Words::Fields::Field,
-                 public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                 public Aspose::Words::Fields::IMergeFieldSurrogate
+                 public IFieldCodeTokenInfoProvider,
+                 public IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -79,7 +79,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Name bookmarked text with a SET field.
 // This field refers to the "bookmark" not a bookmark structure that appears within the text, but a named variable.
-auto fieldSet = System::ExplicitCast<Aspose::Words::Fields::FieldSet>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSet, false));
+auto fieldSet = System::ExplicitCast<Aspose::Words::Fields::FieldSet>(builder->InsertField(FieldType::FieldSet, false));
 fieldSet->set_BookmarkName(u"MyBookmark");
 fieldSet->set_BookmarkText(u"Hello world!");
 fieldSet->Update();
@@ -87,7 +87,7 @@ fieldSet->Update();
 ASSERT_EQ(u" SET  MyBookmark \"Hello world!\"", fieldSet->GetFieldCode());
 
 // Refer to the bookmark by name in a REF field and display its contents.
-auto fieldRef = System::ExplicitCast<Aspose::Words::Fields::FieldRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldRef, true));
+auto fieldRef = System::ExplicitCast<Aspose::Words::Fields::FieldRef>(builder->InsertField(FieldType::FieldRef, true));
 fieldRef->set_BookmarkName(u"MyBookmark");
 fieldRef->Update();
 

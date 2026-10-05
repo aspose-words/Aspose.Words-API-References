@@ -26,7 +26,7 @@ Shows how to set fill, stroke and callout formatting for chart data labels.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 // Delete default generated series.
@@ -41,7 +41,7 @@ series->get_DataLabels()->set_ShowValue(true);
 
 // Format data labels as callouts.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> format = series->get_DataLabels()->get_Format();
-format->set_ShapeType(Aspose::Words::Drawing::Charts::ChartShapeType::WedgeRectCallout);
+format->set_ShapeType(ChartShapeType::WedgeRectCallout);
 format->get_Stroke()->set_Color(System::Drawing::Color::get_DarkGreen());
 format->get_Fill()->Solid(System::Drawing::Color::get_Green());
 series->get_DataLabels()->get_Font()->set_Color(System::Drawing::Color::get_Yellow());

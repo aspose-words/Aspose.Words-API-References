@@ -27,7 +27,7 @@ The value may be null if font is not embedded.
 
 Shows how to get license rights information for embedded fonts ([FontInfo](../)). 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Embedded font rights.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
 // Get the list of document fonts.
 System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> fontInfos = doc->get_FontInfos();
@@ -35,7 +35,8 @@ for (auto&& fontInfo : fontInfos)
 {
     if (fontInfo->get_EmbeddingLicensingRights() != nullptr)
     {
-        std::cout << System::EnumGetName(fontInfo->get_EmbeddingLicensingRights()->get_EmbeddingUsagePermissions()) << std::endl;
+        Aspose::Words::Fonts::FontEmbeddingUsagePermissions usagePermissions = fontInfo->get_EmbeddingLicensingRights()->get_EmbeddingUsagePermissions();
+        std::cout << System::EnumGetName(usagePermissions) << std::endl;
         std::cout << System::Convert::ToString(fontInfo->get_EmbeddingLicensingRights()->get_BitmapEmbeddingOnly()) << std::endl;
         std::cout << System::Convert::ToString(fontInfo->get_EmbeddingLicensingRights()->get_NoSubsetting()) << std::endl;
     }

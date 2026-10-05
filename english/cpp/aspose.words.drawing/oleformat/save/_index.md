@@ -31,8 +31,8 @@ It is the responsibility of the caller to dispose the stream.
 
 Shows how to extract embedded OLE objects into files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE spreadsheet.docm");
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
@@ -83,8 +83,8 @@ void Aspose::Words::Drawing::OleFormat::Save(const System::String &fileName)
 
 Shows how to extract embedded OLE objects into files. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE spreadsheet.docm");
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();

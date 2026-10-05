@@ -30,10 +30,10 @@ enum class TxtOfficeMathExportMode
 
 Shows how to export OfficeMath object as Latex in TXT. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
-saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::TxtOfficeMathExportMode::Latex);
+saveOptions->set_OfficeMathExportMode(TxtOfficeMathExportMode::Latex);
 
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.ExportOfficeMathAsLatexToText.txt", saveOptions);
 ```

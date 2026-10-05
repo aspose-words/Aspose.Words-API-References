@@ -33,17 +33,17 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // and reference text, which we will pass to the document builder's "InsertFootnote" method.
 // 1 -  A footnote, whose entry will appear on the same page as the text that it references:
 builder->Write(u"Footnote referenced main body text.");
-System::SharedPtr<Aspose::Words::Notes::Footnote> footnote = builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote text, will appear at the bottom of the page that contains the referenced text.");
+System::SharedPtr<Aspose::Words::Notes::Footnote> footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text, will appear at the bottom of the page that contains the referenced text.");
 
 // 2 -  An endnote, whose entry will appear at the end of the document:
 builder->Write(u"Endnote referenced main body text.");
-System::SharedPtr<Aspose::Words::Notes::Footnote> endnote = builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote text, will appear at the very end of the document.");
+System::SharedPtr<Aspose::Words::Notes::Footnote> endnote = builder->InsertFootnote(FootnoteType::Endnote, u"Endnote text, will appear at the very end of the document.");
 
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(Aspose::Words::Notes::FootnoteType::Footnote, footnote->get_FootnoteType());
-ASSERT_EQ(Aspose::Words::Notes::FootnoteType::Endnote, endnote->get_FootnoteType());
+ASSERT_EQ(FootnoteType::Footnote, footnote->get_FootnoteType());
+ASSERT_EQ(FootnoteType::Endnote, endnote->get_FootnoteType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.FootnoteEndnote.docx");
 ```

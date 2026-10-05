@@ -27,8 +27,8 @@ enum class TableStyleOptions
 | LastColumn | 256 | Apply last column conditional formatting. |
 | RowBands | 512 | Apply row banding conditional formatting. |
 | ColumnBands | 1024 | Apply column banding conditional formatting. |
-| Default2003 | n/a | [Row](../row/) and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
-| Default | n/a | This is Microsoft Word defaults. |
+| Default2003 | 1536 | [Row](../row/) and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
+| Default | 672 | This is Microsoft Word defaults. |
 
 
 ## Examples
@@ -46,11 +46,11 @@ builder->InsertCell();
 
 // Set the table style used based on the style identifier.
 // Note that not all table styles are available when saving to .doc format.
-table->set_StyleIdentifier(Aspose::Words::StyleIdentifier::MediumShading1Accent1);
+table->set_StyleIdentifier(StyleIdentifier::MediumShading1Accent1);
 
 // Partially apply the style to features of the table based on predicates, then build the table.
-table->set_StyleOptions(Aspose::Words::Tables::TableStyleOptions::FirstColumn | Aspose::Words::Tables::TableStyleOptions::RowBands | Aspose::Words::Tables::TableStyleOptions::FirstRow);
-table->AutoFit(Aspose::Words::Tables::AutoFitBehavior::AutoFitToContents);
+table->set_StyleOptions(TableStyleOptions::FirstColumn | TableStyleOptions::RowBands | TableStyleOptions::FirstRow);
+table->AutoFit(AutoFitBehavior::AutoFitToContents);
 
 builder->Writeln(u"Item");
 builder->get_CellFormat()->set_RightPadding(40);

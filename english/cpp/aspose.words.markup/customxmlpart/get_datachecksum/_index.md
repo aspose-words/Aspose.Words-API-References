@@ -25,7 +25,7 @@ Shows how the checksum is calculated in a runtime.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto richText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::RichText, Aspose::Words::Markup::MarkupLevel::Block);
+auto richText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RichText, MarkupLevel::Block);
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(richText);
 
 // The checksum is read-only and computed using the data of the corresponding custom XML data part.

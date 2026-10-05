@@ -30,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 for (int32_t i = 1; i < 6; i++)
 {
     builder->Write(System::String(u"Page ") + i);
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
 }
 
 // Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method

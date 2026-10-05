@@ -14,8 +14,8 @@ Represents an end of an editable range in a Word document. To learn more, visit 
 
 ```cpp
 class EditableRangeEnd : public Aspose::Words::Node,
-                         public Aspose::Words::IDisplaceableByCustomXml,
-                         public Aspose::Words::INodeWithAnnotationId
+                         public IDisplaceableByCustomXml,
+                         public INodeWithAnnotationId
 ```
 
 ## Methods

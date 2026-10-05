@@ -31,7 +31,7 @@ enum class Zip64Mode
 
 Shows how to use ZIP64 format extensions. 
 ```cpp
-System::Random random;
+auto random = System::MakeObject<System::Random>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
 for (int32_t i = 0; i < 10000; i++)
@@ -40,7 +40,7 @@ for (int32_t i = 0; i < 10000; i++)
         auto bmp = System::MakeObject<System::Drawing::Bitmap>(5, 5);
         {
             System::SharedPtr<System::Drawing::Graphics> g = System::Drawing::Graphics::FromImage(bmp);
-            g->Clear(System::Drawing::Color::FromArgb(random.Next(0, 254), random.Next(0, 254), random.Next(0, 254)));
+            g->Clear(System::Drawing::Color::FromArgb(random->Next(0, 254), random->Next(0, 254), random->Next(0, 254)));
             {
                 auto ms = System::MakeObject<System::IO::MemoryStream>();
                 bmp->Save(ms, System::Drawing::Imaging::ImageFormat::get_Png());
@@ -50,7 +50,7 @@ for (int32_t i = 0; i < 10000; i++)
     }
 }
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
-saveOptions->set_Zip64Mode(Aspose::Words::Saving::Zip64Mode::Always);
+saveOptions->set_Zip64Mode(Zip64Mode::Always);
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
 ```

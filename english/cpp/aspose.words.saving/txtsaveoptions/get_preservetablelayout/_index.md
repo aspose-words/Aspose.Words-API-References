@@ -54,11 +54,11 @@ System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"Tx
 
 if (preserveTableLayout)
 {
-    ASSERT_EQ(System::String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") + u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n", docText);
+    ASSERT_EQ((System::String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") + u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n"), docText);
 }
 else
 {
-    ASSERT_EQ(System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n", docText);
+    ASSERT_EQ((System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n"), docText);
 }
 ```
 

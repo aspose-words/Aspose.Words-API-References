@@ -21,7 +21,7 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::get_ImageBytes()
 
 Setting the value to **null** or an empty array will remove the image from the shape.
 
-Returns **null** if the image is not stored in the document (e.g the image is probably linked in this case).
+Returns<c>null if the image is not stored in the document (e.g the image is probably linked in this case).
 
 ## Examples
 
@@ -29,9 +29,9 @@ Returns **null** if the image is not stored in the document (e.g the image is pr
 
 Shows how to create an image file from a shape's raw image data. 
 ```cpp
-auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
-auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChild(NodeType::Shape, 0, true));
 
 ASSERT_TRUE(imgShape->get_HasImage());
 

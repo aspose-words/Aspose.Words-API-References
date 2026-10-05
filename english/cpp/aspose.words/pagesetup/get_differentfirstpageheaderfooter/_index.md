@@ -28,25 +28,25 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two types of header/footers.
 // 1 -  The "First" header/footer, which appears on the first page of the section.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderFirst);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderFirst);
 builder->Writeln(u"First page header.");
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterFirst);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterFirst);
 builder->Writeln(u"First page footer.");
 
 // 2 -  The "Primary" header/footer, which appears on every page in the section.
 // We can override the primary header/footer by a first and an even page header/footer.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"Primary header.");
 
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->Writeln(u"Primary footer.");
 
 builder->MoveToSection(0);
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Each section has a "PageSetup" object that specifies page appearance-related properties

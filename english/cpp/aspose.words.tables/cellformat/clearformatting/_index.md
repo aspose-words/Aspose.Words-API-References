@@ -23,14 +23,14 @@ void Aspose::Words::Tables::CellFormat::ClearFormatting()
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:
 System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())

@@ -47,8 +47,8 @@ auto section = System::MakeObject<Aspose::Words::Section>(doc);
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
@@ -59,7 +59,7 @@ section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 

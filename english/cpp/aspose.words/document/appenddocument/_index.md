@@ -36,7 +36,7 @@ dstDoc->get_FirstSection()->get_Body()->AppendParagraph(u"Destination document t
 
 // Append the source document to the destination document while preserving its formatting,
 // then save the source document to the local file system.
-dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting);
 
 dstDoc->Save(get_ArtifactsDir() + u"Document.AppendDocument.docx");
 ```
@@ -47,9 +47,9 @@ Shows how to append all the documents in a folder to the end of a template docum
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 builder->Writeln(u"Template Document");
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Normal);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Normal);
 builder->Writeln(u"Some content here");
 
 // Append all unencrypted documents with the .doc extension
@@ -60,14 +60,14 @@ System::SharedPtr<System::Collections::Generic::List<System::String>> docFiles =
 })))->LINQ_ToList();
 for (auto&& fileName : docFiles)
 {
-    System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(fileName);
+    System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(fileName);
     if (info->get_IsEncrypted())
     {
         continue;
     }
 
-    auto srcDoc = System::MakeObject<Aspose::Words::Document>(fileName);
-    dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::UseDestinationStyles);
+    auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(fileName));
+    dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles);
 }
 
 dstDoc->Save(get_ArtifactsDir() + u"Document.AppendAllDocumentsInFolder.doc");
@@ -103,7 +103,7 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 Shows how to manage list style clashes while appending a document. 
 ```cpp
 // Load a document with text in a custom style and clone it.
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom list numbering.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom list numbering.docx"));
 System::SharedPtr<Aspose::Words::Document> dstDoc = srcDoc->Clone();
 
 // We now have two documents, each with an identical style named "CustomStyle".
@@ -119,7 +119,7 @@ options->set_KeepSourceNumbering(keepSourceNumbering);
 
 // Joining two documents that have different styles that share the same name causes a style clash.
 // We can specify an import format mode while appending documents to resolve this clash.
-dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepDifferentStyles, options);
+dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepDifferentStyles, options);
 dstDoc->UpdateListLabels();
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.AppendDocumentAndResolveStyles.docx");
@@ -130,9 +130,9 @@ Shows how to manage list style clashes while inserting a document.
 ```cpp
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
-builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
+builder->InsertBreak(BreakType::ParagraphBreak);
 
-dstDoc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+dstDoc->get_Lists()->Add(ListTemplate::NumberDefault);
 System::SharedPtr<Aspose::Words::Lists::List> list = dstDoc->get_Lists()->idx_get(0);
 
 builder->get_ListFormat()->set_List(list);
@@ -151,8 +151,8 @@ auto attachDoc = System::ExplicitCast<Aspose::Words::Document>(System::ExplicitC
 auto importOptions = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 importOptions->set_KeepSourceNumbering(keepSourceNumbering);
 
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
-builder->InsertDocument(attachDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, importOptions);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertDocument(attachDoc, ImportFormatMode::KeepSourceFormatting, importOptions);
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
@@ -160,8 +160,8 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocumentAndResolveStyl
 
 Shows how to manage list style clashes while appending a clone of a document to itself. 
 ```cpp
-auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
-auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
@@ -169,11 +169,11 @@ auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List i
 // list style numbering with the same appearance that it had in the source document.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 builder->MoveToDocumentEnd();
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_KeepSourceNumbering(keepSourceNumbering);
-builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 dstDoc->UpdateListLabels();
 ```

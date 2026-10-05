@@ -23,9 +23,9 @@ System::SharedPtr<Aspose::Words::Drawing::Ole::OleControl> Aspose::Words::Drawin
 
 Shows how to verify the properties of an ActiveX control. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"ActiveX controls.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"ActiveX controls.docx"));
 
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Ole::OleControl> oleControl = shape->get_OleFormat()->get_OleControl();
 
 ASSERT_EQ(u"CheckBox1", oleControl->get_Name());
@@ -36,7 +36,7 @@ if (oleControl->get_IsForms2OleControl())
     ASSERT_EQ(u"First", checkBox->get_Caption());
     ASSERT_EQ(u"0", checkBox->get_Value());
     ASPOSE_ASSERT_EQ(true, checkBox->get_Enabled());
-    ASSERT_EQ(Aspose::Words::Drawing::Ole::Forms2OleControlType::CheckBox, checkBox->get_Type());
+    ASSERT_EQ(Forms2OleControlType::CheckBox, checkBox->get_Type());
     ASPOSE_ASSERT_EQ(nullptr, checkBox->get_ChildNodes());
     ASSERT_EQ(System::String::Empty, checkBox->get_GroupName());
 

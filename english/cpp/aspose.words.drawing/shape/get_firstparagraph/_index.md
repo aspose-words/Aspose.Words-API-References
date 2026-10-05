@@ -26,19 +26,19 @@ Shows how to create and format a text box.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a floating text box.
-auto textBox = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::TextBox);
-textBox->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+auto textBox = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::TextBox);
+textBox->set_WrapType(WrapType::None);
 textBox->set_Height(50);
 textBox->set_Width(200);
 
 // Set the horizontal, and vertical alignment of the text inside the shape.
-textBox->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
-textBox->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Top);
+textBox->set_HorizontalAlignment(HorizontalAlignment::Center);
+textBox->set_VerticalAlignment(VerticalAlignment::Top);
 
 // Add a paragraph to the text box and add a run of text that the text box will display.
 textBox->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc));
 System::SharedPtr<Aspose::Words::Paragraph> para = textBox->get_FirstParagraph();
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"Hello world!");
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);

@@ -41,10 +41,10 @@ Shows how to remove all unused custom styles from a document.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle1");
-doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle2");
-doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle1");
-doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle2");
+doc->get_Styles()->Add(StyleType::List, u"MyListStyle1");
+doc->get_Styles()->Add(StyleType::List, u"MyListStyle2");
+doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle1");
+doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style is marked as "used" while there is any text within the document

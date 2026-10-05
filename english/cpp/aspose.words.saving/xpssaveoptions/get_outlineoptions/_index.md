@@ -31,18 +31,18 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
 
 ASSERT_TRUE(builder->get_ParagraphFormat()->get_IsHeading());
 
 builder->Writeln(u"Heading 1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
 
 builder->Writeln(u"Heading 1.1");
 builder->Writeln(u"Heading 1.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading3);
+builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
 
 builder->Writeln(u"Heading 1.2.1");
 builder->Writeln(u"Heading 1.2.2");
@@ -51,7 +51,7 @@ builder->Writeln(u"Heading 1.2.2");
 // to modify how that method converts the document to .XPS.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>();
 
-ASSERT_EQ(Aspose::Words::SaveFormat::Xps, saveOptions->get_SaveFormat());
+ASSERT_EQ(SaveFormat::Xps, saveOptions->get_SaveFormat());
 
 // The output XPS document will contain an outline, a table of contents that lists headings in the document body.
 // Clicking on an entry in this outline will take us to the location of its respective heading.

@@ -33,10 +33,10 @@ enum class MarkdownOfficeMathExportMode
 
 Shows how OfficeMath will be written to the document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
-saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::MarkdownOfficeMathExportMode::Image);
+saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Image);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
 ```
@@ -44,10 +44,10 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", s
 
 Shows how to export OfficeMath object as Latex. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
-saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::MarkdownOfficeMathExportMode::Latex);
+saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Latex);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
 ```
@@ -55,10 +55,10 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsLatex.md"
 
 Shows how to export OfficeMath object as MarkItDown. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
-saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::MarkdownOfficeMathExportMode::MarkItDown);
+saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::MarkItDown);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
 ```

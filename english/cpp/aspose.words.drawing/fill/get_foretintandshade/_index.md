@@ -29,10 +29,10 @@ Zero (0) is neutral.
 
 Shows how to manage lightening and darkening foreground font color. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
 System::SharedPtr<Aspose::Words::Drawing::Fill> textFill = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Fill();
-textFill->set_ForeThemeColor(Aspose::Words::Themes::ThemeColor::Accent1);
+textFill->set_ForeThemeColor(ThemeColor::Accent1);
 if (textFill->get_ForeTintAndShade() == 0)
 {
     textFill->set_ForeTintAndShade(0.5);

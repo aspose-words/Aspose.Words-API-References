@@ -23,16 +23,16 @@ void Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::RemoveAt(int32_
 
 Show how to remove secondary axis. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Combo chart.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Combo chart.docx"));
 
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection> seriesGroups = chart->get_SeriesGroups();
 
 // Find secondary axis and remove from the collection.
 for (int32_t i = 0; i < seriesGroups->get_Count(); i++)
 {
-    if (seriesGroups->idx_get(i)->get_AxisGroup() == Aspose::Words::Drawing::Charts::AxisGroup::Secondary)
+    if (seriesGroups->idx_get(i)->get_AxisGroup() == AxisGroup::Secondary)
     {
         seriesGroups->RemoveAt(i);
     }

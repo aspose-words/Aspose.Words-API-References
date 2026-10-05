@@ -35,7 +35,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a header and append a paragraph to it. The text in that paragraph
 // will appear at the top of every page of this section, above the main body text.
-auto header = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::HeaderPrimary);
+auto header = System::MakeObject<Aspose::Words::HeaderFooter>(doc, HeaderFooterType::HeaderPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(header);
 
 System::SharedPtr<Aspose::Words::Paragraph> para = header->AppendParagraph(u"My header.");
@@ -45,7 +45,7 @@ ASSERT_TRUE(para->get_IsEndOfHeaderFooter());
 
 // Create a footer and append a paragraph to it. The text in that paragraph
 // will appear at the bottom of every page of this section, below the main body text.
-auto footer = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::FooterPrimary);
+auto footer = System::MakeObject<Aspose::Words::HeaderFooter>(doc, HeaderFooterType::FooterPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(footer);
 
 para = footer->AppendParagraph(u"My footer.");

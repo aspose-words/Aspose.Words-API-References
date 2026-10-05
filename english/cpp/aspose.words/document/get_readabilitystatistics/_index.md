@@ -33,7 +33,7 @@ builder->Writeln(u"This document serves as an illustrative example for calculati
 // Calculate readability statistics.
 System::SharedPtr<Aspose::Words::ReadabilityStatistics> stats = doc->get_ReadabilityStatistics();
 // Verify that the scores are within expected valid ranges.
-// CSPORTCPP: Unsupported expression type Assert.That (stats.FleschReadingEasy, Is.GreaterThanOrEqualTo (0).And.LessThanOrEqualTo (190));
+ASSERT_LE(stats->get_FleschReadingEasy(), 190);
 ASSERT_LE(stats->get_FleschKincaidGradeLevel(), 0);
 ```
 

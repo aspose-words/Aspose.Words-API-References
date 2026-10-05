@@ -30,7 +30,7 @@ builder->Writeln(u"Sample document for XPS compression test.");
 
 // Create an XpsSaveOptions object and set the compression level.
 auto options = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>();
-options->set_CompressionLevel(Aspose::Words::Saving::CompressionLevel::Maximum);
+options->set_CompressionLevel(CompressionLevel::Maximum);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.CompressionLevelXps.xps", options);
 ```

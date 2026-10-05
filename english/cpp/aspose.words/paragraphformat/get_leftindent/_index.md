@@ -30,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // The indent configuration below will create a body of text that will sit asymmetrically on the page.
 // The "center" that we align the text to will be the middle of the body of text, not the middle of the page.
 System::SharedPtr<Aspose::Words::ParagraphFormat> paragraphFormat = builder->get_ParagraphFormat();
-paragraphFormat->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+paragraphFormat->set_Alignment(ParagraphAlignment::Center);
 paragraphFormat->set_LeftIndent(100);
 paragraphFormat->set_RightIndent(50);
 paragraphFormat->set_SpaceAfter(25);

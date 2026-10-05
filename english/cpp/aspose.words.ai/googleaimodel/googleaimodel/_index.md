@@ -30,9 +30,9 @@ Shows how to use google [AI](../../) model.
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 auto model = System::MakeObject<Aspose::Words::AI::GoogleAiModel>(u"gemini-flash-latest", apiKey);
 
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto summarizeOptions = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
-summarizeOptions->set_SummaryLength(Aspose::Words::AI::SummaryLength::VeryShort);
+summarizeOptions->set_SummaryLength(SummaryLength::VeryShort);
 System::SharedPtr<Aspose::Words::Document> summary = model->Summarize(doc, summarizeOptions);
 ```
 
@@ -65,9 +65,9 @@ Shows how to use google [AI](../../) model.
 System::String apiKey = System::Environment::GetEnvironmentVariable(u"API_KEY");
 auto model = System::MakeObject<Aspose::Words::AI::GoogleAiModel>(u"gemini-flash-latest", apiKey);
 
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto summarizeOptions = System::MakeObject<Aspose::Words::AI::SummarizeOptions>();
-summarizeOptions->set_SummaryLength(Aspose::Words::AI::SummaryLength::VeryShort);
+summarizeOptions->set_SummaryLength(SummaryLength::VeryShort);
 System::SharedPtr<Aspose::Words::Document> summary = model->Summarize(doc, summarizeOptions);
 ```
 

@@ -14,7 +14,7 @@ Implements the STYLEREF field. To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldStyleRef : public Aspose::Words::Fields::Field,
-                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                      public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -71,7 +71,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a list based using a Microsoft Word list template.
-System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Lists::ListTemplate::NumberDefault);
 
 // This generated list will display "1.a )".
 // Space before the bracket is a non-delimiter character, which we can suppress.
@@ -91,13 +91,13 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"));
 
 // Place a STYLEREF field in the header and display the first "List Paragraph"-styled text in the document.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"List Paragraph");
 
 // Place a STYLEREF field in the footer, and have it display the last text.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
-field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"List Paragraph");
 field->set_SearchFromBottom(true);
 
@@ -105,22 +105,22 @@ builder->MoveToDocumentEnd();
 
 // We can also use STYLEREF fields to reference the list numbers of lists.
 builder->Write(u"\nParagraph number: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"Quote");
 field->set_InsertParagraphNumber(true);
 
 builder->Write(u"\nParagraph number, relative context: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"Quote");
 field->set_InsertParagraphNumberInRelativeContext(true);
 
 builder->Write(u"\nParagraph number, full context: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"Quote");
 field->set_InsertParagraphNumberInFullContext(true);
 
 builder->Write(u"\nParagraph number, full context, non-delimiter chars suppressed: ");
-field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldStyleRef, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldStyleRef>(builder->InsertField(FieldType::FieldStyleRef, true));
 field->set_StyleName(u"Quote");
 field->set_InsertParagraphNumberInFullContext(true);
 field->set_SuppressNonDelimiters(true);

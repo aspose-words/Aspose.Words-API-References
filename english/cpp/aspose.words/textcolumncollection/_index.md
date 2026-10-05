@@ -58,7 +58,7 @@ columns->set_Spacing(100);
 columns->SetCount(2);
 
 builder->Writeln(u"Column 1.");
-builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
+builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");

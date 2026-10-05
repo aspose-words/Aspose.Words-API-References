@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listlabel/
 Defines properties specific to a list label. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
-class ListLabel : public Aspose::Words::IRunAttrSource
+class ListLabel : public IRunAttrSource
 ```
 
 ## Methods
@@ -33,14 +33,14 @@ class ListLabel : public Aspose::Words::IRunAttrSource
 
 Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
 
-System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
 // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
 // which start at three and ends at six.
-for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
+for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
     return p->get_ListFormat()->get_IsListItem();
 })))->LINQ_ToList())
@@ -49,7 +49,7 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
 
     // This is the text we get when getting when we output this node to text format.
     // This text output will omit list labels. Trim any paragraph formatting characters.
-    System::String paragraphText = paragraph->ToString(Aspose::Words::SaveFormat::Text).Trim();
+    System::String paragraphText = paragraph->ToString(SaveFormat::Text).Trim();
     std::cout << System::String::Format(u"\tExported Text: {0}", paragraphText) << std::endl;
 
     System::SharedPtr<Aspose::Words::Lists::ListLabel> label = paragraph->get_ListLabel();

@@ -24,7 +24,7 @@ bool Aspose::Words::Font::get_AllCaps()
 Shows how to format a run to display its contents in capitals. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
+auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // There are two ways of getting a run to display its lowercase text in uppercase without changing the contents.
 // 1 -  Set the AllCaps flag to display all characters in regular capitals:

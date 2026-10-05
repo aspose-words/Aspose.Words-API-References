@@ -65,7 +65,7 @@ builder->Writeln(u"Text outside of the bookmark.");
 // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
 // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
-builder->get_Font()->set_Underline(Aspose::Words::Underline::Single);
+builder->get_Font()->set_Underline(Underline::Single);
 auto hyperlink = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1", true));
 hyperlink->set_ScreenTip(u"Hyperlink Tip");
 

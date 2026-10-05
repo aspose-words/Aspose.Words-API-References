@@ -92,7 +92,7 @@ class PsSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 
 Shows how to save a document to the Postscript format in the form of a book fold. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
 // Create a "PsSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to PostScript.
@@ -100,14 +100,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraph
 // in the output Postscript document in a way that helps us make a booklet out of it.
 // Set the "UseBookFoldPrintingSettings" property to "false" to save the document normally.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::PsSaveOptions>();
-saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Ps);
+saveOptions->set_SaveFormat(SaveFormat::Ps);
 saveOptions->set_UseBookFoldPrintingSettings(renderTextAsBookFold);
 
 // If we are rendering the document as a booklet, we must set the "MultiplePages"
 // properties of the page setup objects of all sections to "MultiplePagesType.BookFoldPrinting".
 for (auto&& s : System::IterateOver<Aspose::Words::Section>(doc->get_Sections()))
 {
-    s->get_PageSetup()->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::BookFoldPrinting);
+    s->get_PageSetup()->set_MultiplePages(MultiplePagesType::BookFoldPrinting);
 }
 
 // Once we print this document on both sides of the pages, we can fold all the pages down the middle at once,

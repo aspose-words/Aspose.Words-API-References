@@ -50,20 +50,20 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two ways to apply a style from the document to a structured document tag.
 // 1 -  Apply a style object from the document's style collection:
-System::SharedPtr<Aspose::Words::Style> quoteStyle = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Quote);
-auto sdtPlainText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
+System::SharedPtr<Aspose::Words::Style> quoteStyle = doc->get_Styles()->idx_get(StyleIdentifier::Quote);
+auto sdtPlainText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
 sdtPlainText->set_Style(quoteStyle);
 
 // 2 -  Reference a style in the document by name:
-auto sdtRichText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::RichText, Aspose::Words::Markup::MarkupLevel::Inline);
+auto sdtRichText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RichText, MarkupLevel::Inline);
 sdtRichText->set_StyleName(u"Quote");
 
 builder->InsertNode(sdtPlainText);
 builder->InsertNode(sdtRichText);
 
-ASSERT_EQ(Aspose::Words::NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
 
-System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTag, true);
+System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
 
 for (auto&& node : System::IterateOver(tags))
 {
@@ -71,7 +71,7 @@ for (auto&& node : System::IterateOver(tags))
 
     std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
 
-    ASSERT_EQ(Aspose::Words::StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
+    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
 }
 ```
@@ -94,25 +94,25 @@ builder->EndRow();
 builder->EndTable();
 
 // Create a table with a repeating section inside.
-auto repeatingSectionSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::RepeatingSection, Aspose::Words::Markup::MarkupLevel::Row);
+auto repeatingSectionSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RepeatingSection, MarkupLevel::Row);
 repeatingSectionSdt->get_XmlMapping()->SetMapping(xmlPart, u"/books[1]/book", System::String::Empty);
 table->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(repeatingSectionSdt);
 
 // Add repeating section item inside the repeating section and mark it as a row.
 // This table will have a row for each element that we can find in the XML document
 // using the "/books[1]/book" XPath, of which there are three.
-auto repeatingSectionItemSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::RepeatingSectionItem, Aspose::Words::Markup::MarkupLevel::Row);
+auto repeatingSectionItemSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RepeatingSectionItem, MarkupLevel::Row);
 repeatingSectionSdt->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(repeatingSectionItemSdt);
 
 auto row = System::MakeObject<Aspose::Words::Tables::Row>(doc);
 repeatingSectionItemSdt->AppendChild<System::SharedPtr<Aspose::Words::Tables::Row>>(row);
 
 // Map XML data with created table cells for the title and author of each book.
-auto titleSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Cell);
+auto titleSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Cell);
 titleSdt->get_XmlMapping()->SetMapping(xmlPart, u"/books[1]/book[1]/title[1]", System::String::Empty);
 row->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(titleSdt);
 
-auto authorSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Cell);
+auto authorSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Cell);
 authorSdt->get_XmlMapping()->SetMapping(xmlPart, u"/books[1]/book[1]/author[1]", System::String::Empty);
 row->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(authorSdt);
 
@@ -128,7 +128,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 
 // Create a Group structured document tag at the Row level.
-auto groupSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::Group, Aspose::Words::Markup::MarkupLevel::Row);
+auto groupSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::Group, MarkupLevel::Row);
 table->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(groupSdt);
 groupSdt->set_IsShowingPlaceholderText(false);
 groupSdt->RemoveAllChildren();
@@ -159,7 +159,7 @@ Shows how to create a structured document tag of the Citation type.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto sdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::Citation, Aspose::Words::Markup::MarkupLevel::Inline);
+auto sdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::Citation, MarkupLevel::Inline);
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 paragraph->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(sdt);
 

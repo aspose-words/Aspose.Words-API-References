@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Give the document's built-in "Author" property value, and then display it with a field.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 
 ASSERT_FALSE(field->get_IsDirty());
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -46,7 +46,7 @@ field->set_IsDirty(true);
     auto docStream = System::MakeObject<System::IO::MemoryStream>();
     // If we save without calling an update method,
     // the field will keep displaying the out of date value in the output document.
-    doc->Save(docStream, Aspose::Words::SaveFormat::Docx);
+    doc->Save(docStream, SaveFormat::Docx);
 
     // The LoadOptions object has an option to update all fields
     // marked as "dirty" when loading the document.

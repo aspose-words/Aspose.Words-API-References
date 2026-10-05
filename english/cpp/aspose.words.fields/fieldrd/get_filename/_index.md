@@ -28,14 +28,14 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Use a document builder to insert a table of contents,
 // and then add one entry for the table of contents on the following page.
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true);
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertField(FieldType::FieldTOC, true);
+builder->InsertBreak(BreakType::PageBreak);
 builder->get_CurrentParagraph()->get_ParagraphFormat()->set_StyleName(u"Heading 1");
 builder->Writeln(u"TOC entry from within this document");
 
 // Insert an RD field, which references another local file system document in its FileName property.
 // The TOC will also now accept all headings from the referenced document as entries for its table.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRD>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldRefDoc, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRD>(builder->InsertField(FieldType::FieldRefDoc, true));
 field->set_FileName(get_ArtifactsDir() + u"ReferencedDocument.docx");
 
 ASSERT_EQ(System::String::Format(u" RD  {0}ReferencedDocument.docx", get_ArtifactsDir().Replace(u"\\", u"\\\\")), field->GetFieldCode());

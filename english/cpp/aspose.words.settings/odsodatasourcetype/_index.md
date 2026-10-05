@@ -30,7 +30,7 @@ enum class OdsoDataSourceType
 | None | 7 | The type of the external data source is not specified. Possibly wdMergeSubTypeWord. |
 | Legacy | 8 | Specifies that a given document has been connected to a legacy document format supported by the producing application Possibly wdMergeSubTypeWord2000. |
 | Master | 9 | Specifies that a given document has been connected to a data source which aggregates other data sources. |
-| Default | n/a | Equals to [None](./). |
+| Default | 7 | Equals to [None](./). |
 
 ## Remarks
 

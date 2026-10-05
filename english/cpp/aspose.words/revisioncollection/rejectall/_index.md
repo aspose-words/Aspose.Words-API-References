@@ -23,7 +23,7 @@ void Aspose::Words::RevisionCollection::RejectAll()
 
 Shows how to work with a document's collection of revisions. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
 
 // This collection itself has a collection of revision groups.
@@ -51,7 +51,7 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
         // A StyleDefinitionChange strictly affects styles and not document nodes. This means the "ParentStyle"
         // property will always be in use, while the ParentNode will always be null.
         // Since all other changes affect nodes, ParentNode will conversely be in use, and ParentStyle will be null.
-        if (e->get_Current()->get_RevisionType() == Aspose::Words::RevisionType::StyleDefinitionChange)
+        if (e->get_Current()->get_RevisionType() == RevisionType::StyleDefinitionChange)
         {
             std::cout << (System::String::Format(u"\tRevision type \"{0}\", ", e->get_Current()->get_RevisionType()) + System::String::Format(u"author: {0}, style: [{1}]", e->get_Current()->get_Author(), e->get_Current()->get_ParentStyle()->get_Name())) << std::endl;
         }

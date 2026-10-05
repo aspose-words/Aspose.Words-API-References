@@ -32,7 +32,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Lists::ListCollection> lists = doc->get_Lists();
 ASPOSE_ASSERT_EQ(doc, lists->get_Document());
 
-System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(Aspose::Words::Lists::ListTemplate::BulletDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(ListTemplate::BulletDefault);
 ASPOSE_ASSERT_EQ(doc, list->get_Document());
 
 std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;

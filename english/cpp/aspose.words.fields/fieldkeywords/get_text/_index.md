@@ -30,11 +30,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_Keywords(u"Keyword1, Keyword2");
 
 // The KEYWORDS field displays the value of this property.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldKeyword, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
 field->Update();
 
 ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());
-ASSERT_EQ(u"Keyword1, Keyword2", field->get_Result());
+ASSERT_EQ((u"Keyword1, Keyword2"), field->get_Result());
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.

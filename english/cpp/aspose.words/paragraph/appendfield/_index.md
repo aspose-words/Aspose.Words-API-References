@@ -37,7 +37,7 @@ System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()-
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
+paragraph->AppendField(FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");
@@ -91,7 +91,7 @@ System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()-
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
+paragraph->AppendField(FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");
@@ -145,7 +145,7 @@ System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()-
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
+paragraph->AppendField(FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");

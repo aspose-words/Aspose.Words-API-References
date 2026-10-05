@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Markup::XmlMapping> Aspose::Words::Markup::Stru
 
 Shows how to set XML mappings for the range start of a structured document tag. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 // Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
 System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
@@ -33,7 +33,7 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_Custo
 ASSERT_EQ(u"<root><text>Text element #1</text><text>Text element #2</text></root>", System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()));
 
 // Create a structured document tag that will display the contents of our CustomXmlPart in the document.
-auto sdtRangeStart = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, 0, true));
+auto sdtRangeStart = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));
 
 // If we set a mapping for our structured document tag,
 // it will only display a portion of the CustomXmlPart that the XPath points to.

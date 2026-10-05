@@ -14,7 +14,7 @@ This element specifies the presence of a smart tag around one or more inline str
 
 ```cpp
 class SmartTag : public Aspose::Words::CompositeNode,
-                 public Aspose::Words::Markup::IMarkupNode
+                 public IMarkupNode
 ```
 
 ## Methods
@@ -71,7 +71,6 @@ class SmartTag : public Aspose::Words::CompositeNode,
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_Uri](./set_uri/)(const System::String\&) | Setter for [Aspose::Words::Markup::SmartTag::get_Uri](./get_uri/). |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [SmartTag](./smarttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [SmartTag](./) class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |

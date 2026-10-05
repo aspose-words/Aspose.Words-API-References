@@ -41,8 +41,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // that matches the reference symbol in the main body text.
 // The reference text that we pass to the document builder's "InsertEndnote" method.
 builder->Write(u"Hello world!");
-builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote contents.");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertFootnote(FootnoteType::Endnote, u"Endnote contents.");
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"This is the second section.");
 
 // We can use the "Position" property to determine where the document will place all its endnotes.

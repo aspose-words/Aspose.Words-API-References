@@ -34,7 +34,7 @@ When *paragraphIndex* is greater than or equal to 0, it specifies an index from 
 
 Shows how to move a builder's cursor position to a specified paragraph. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
 ASSERT_EQ(22, paragraphs->get_Count());

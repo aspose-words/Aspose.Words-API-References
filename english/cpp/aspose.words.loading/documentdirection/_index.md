@@ -38,7 +38,7 @@ auto loadOptions = System::MakeObject<Aspose::Words::Loading::TxtLoadOptions>();
 // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
 // the direction of every paragraph of text that Aspose.Words loads from plaintext.
 // Each paragraph's "Bidi" property will store its direction.
-loadOptions->set_DocumentDirection(Aspose::Words::Loading::DocumentDirection::Auto);
+loadOptions->set_DocumentDirection(DocumentDirection::Auto);
 
 // Detect Hebrew text as right-to-left.
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Hebrew text.txt", loadOptions);

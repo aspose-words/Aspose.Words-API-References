@@ -14,8 +14,8 @@ Implements the INCLUDEPICTURE field. To learn more, visit the [Working with Fiel
 
 ```cpp
 class FieldIncludePicture : public Aspose::Words::Fields::Field,
-                            public Aspose::Words::Fields::IFieldCodeTokenInfoProvider,
-                            public Aspose::Words::Fields::IFieldIncludePictureCode
+                            public IFieldCodeTokenInfoProvider,
+                            public IFieldIncludePictureCode
 ```
 
 ## Methods
@@ -69,7 +69,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two similar field types that we can use to display images linked from the local file system.
 // 1 -  The INCLUDEPICTURE field:
-auto fieldIncludePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+auto fieldIncludePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 fieldIncludePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldIncludePicture->GetFieldCode(), u" INCLUDEPICTURE  .*")->get_Success());
@@ -81,7 +81,7 @@ fieldIncludePicture->set_ResizeHorizontally(true);
 fieldIncludePicture->set_ResizeVertically(true);
 
 // 2 -  The IMPORT field:
-auto fieldImport = System::ExplicitCast<Aspose::Words::Fields::FieldImport>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldImport, true));
+auto fieldImport = System::ExplicitCast<Aspose::Words::Fields::FieldImport>(builder->InsertField(FieldType::FieldImport, true));
 fieldImport->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 fieldImport->set_GraphicFilter(u"PNG32");
 fieldImport->set_IsLinked(true);
