@@ -8,7 +8,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.ai/
 ---
-The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing.
+The **Aspose.Words.AI** namespace provides seamless integration with large language models (LLMs) for AI-powered document processing. It supports AI models from providers such as OpenAI, Google Gemini, and Anthropic, as well as on-premise LLM inference through Aspose.LLM.
 
 ## Classes
 
