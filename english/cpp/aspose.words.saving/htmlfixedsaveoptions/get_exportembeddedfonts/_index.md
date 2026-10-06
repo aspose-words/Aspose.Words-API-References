@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts() cons
 
 Shows how to determine where to store embedded fonts when exporting a document to Html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Embedded font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
 // When we export a document with embedded fonts to .html,
 // Aspose.Words can place the fonts in two possible locations.

@@ -26,7 +26,7 @@ Shows how to insert an ADDRESSBLOCK field.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddressBlock>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAddressBlock, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
 
 ASSERT_EQ(u" ADDRESSBLOCK ", field->GetFieldCode());
 

@@ -65,7 +65,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a USERNAME field to display the current user's name,
 // taken from the UserInformation object we created above.
-auto fieldUserName = System::ExplicitCast<Aspose::Words::Fields::FieldUserName>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldUserName, true));
+auto fieldUserName = System::ExplicitCast<Aspose::Words::Fields::FieldUserName>(builder->InsertField(FieldType::FieldUserName, true));
 ASSERT_EQ(userInformation->get_Name(), fieldUserName->get_Result());
 
 ASSERT_EQ(u" USERNAME ", fieldUserName->GetFieldCode());

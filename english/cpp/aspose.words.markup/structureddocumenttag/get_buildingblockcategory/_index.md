@@ -31,7 +31,7 @@ Shows how to insert a structured document tag as a building block, and set its c
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto buildingBlockSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::BuildingBlockGallery, Aspose::Words::Markup::MarkupLevel::Block);
+auto buildingBlockSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::BuildingBlockGallery, MarkupLevel::Block);
 buildingBlockSdt->set_BuildingBlockCategory(u"Built-in");
 buildingBlockSdt->set_BuildingBlockGallery(u"Table of Contents");
 

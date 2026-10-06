@@ -5,7 +5,7 @@ articleTitle: SourceType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Bibliography.SourceType enum for diverse bibliography source types. Enhance your document management with powerful features!
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.bibliography/sourcetype/
 ---
 ## SourceType enumeration

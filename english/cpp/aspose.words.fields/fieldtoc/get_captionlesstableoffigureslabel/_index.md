@@ -26,7 +26,7 @@ Shows how to set the name of the sequence identifier.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 fieldToc->set_CaptionlessTableOfFiguresLabel(u"Test");
 
 ASSERT_EQ(u" TOC  \\a Test", fieldToc->GetFieldCode());

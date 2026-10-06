@@ -37,7 +37,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Set a minimum amount of spacing.
 // This will give vertical padding to lines of text of any size
 // that is too small to maintain the minimum line-height.
-builder->get_ParagraphFormat()->set_LineSpacingRule(Aspose::Words::LineSpacingRule::AtLeast);
+builder->get_ParagraphFormat()->set_LineSpacingRule(LineSpacingRule::AtLeast);
 builder->get_ParagraphFormat()->set_LineSpacing(20);
 
 builder->Writeln(u"Minimum line spacing of 20.");
@@ -45,7 +45,7 @@ builder->Writeln(u"Minimum line spacing of 20.");
 
 // 2 -  Set exact spacing.
 // Using font sizes that are too large for the spacing will truncate the text.
-builder->get_ParagraphFormat()->set_LineSpacingRule(Aspose::Words::LineSpacingRule::Exactly);
+builder->get_ParagraphFormat()->set_LineSpacingRule(LineSpacingRule::Exactly);
 builder->get_ParagraphFormat()->set_LineSpacing(5);
 
 builder->Writeln(u"Line spacing of exactly 5.");
@@ -53,7 +53,7 @@ builder->Writeln(u"Line spacing of exactly 5.");
 
 // 3 -  Set spacing as a multiple of default line spacing, which is 12 points by default.
 // This kind of spacing will scale to different font sizes.
-builder->get_ParagraphFormat()->set_LineSpacingRule(Aspose::Words::LineSpacingRule::Multiple);
+builder->get_ParagraphFormat()->set_LineSpacingRule(LineSpacingRule::Multiple);
 builder->get_ParagraphFormat()->set_LineSpacing(18);
 
 builder->Writeln(u"Line spacing of 1.5 default lines.");

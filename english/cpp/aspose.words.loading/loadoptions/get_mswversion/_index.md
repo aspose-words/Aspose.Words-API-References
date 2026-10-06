@@ -26,11 +26,11 @@ Shows how to emulate the loading procedure of a specific Microsoft Word version 
 // By default, Aspose.Words load documents according to Microsoft Word 2019 specification.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 
-ASSERT_EQ(Aspose::Words::Settings::MsWordVersion::Word2019, loadOptions->get_MswVersion());
+ASSERT_EQ(MsWordVersion::Word2019, loadOptions->get_MswVersion());
 
 // This document is missing the default paragraph formatting style.
 // This default style will be regenerated when we load the document either with Microsoft Word or Aspose.Words.
-loadOptions->set_MswVersion(Aspose::Words::Settings::MsWordVersion::Word2007);
+loadOptions->set_MswVersion(MsWordVersion::Word2007);
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", loadOptions);
 
 // The style's line spacing will have this value when loaded by Microsoft Word 2007 specification.

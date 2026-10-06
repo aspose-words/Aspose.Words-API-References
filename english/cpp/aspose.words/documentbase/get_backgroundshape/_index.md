@@ -36,7 +36,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 ASSERT_TRUE(System::TestTools::IsNull(doc->get_BackgroundShape()));
 
 // The only shape type that we can use as a background is a rectangle.
-auto shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
+auto shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Rectangle);
 
 // There are two ways of using this shape as a page background.
 // 1 -  A flat color:
@@ -46,7 +46,7 @@ doc->set_BackgroundShape(shapeRectangle);
 doc->Save(get_ArtifactsDir() + u"DocumentBase.BackgroundShape.FlatColor.docx");
 
 // 2 -  An image:
-shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
+shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Rectangle);
 shapeRectangle->get_ImageData()->SetImage(get_ImageDir() + u"Transparent background logo.png");
 
 // Adjust the image's appearance to make it more suitable as a watermark.

@@ -39,7 +39,7 @@ saveOptions->set_UpdateLastPrintedProperty(isUpdateLastPrintedProperty);
 doc->Save(get_ArtifactsDir() + u"DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
 
 // Open the saved document, then verify the value of the property.
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.UpdateLastPrintedProperty.doc");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.UpdateLastPrintedProperty.doc"));
 
 if (isUpdateLastPrintedProperty)
 {

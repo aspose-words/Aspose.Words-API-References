@@ -42,7 +42,7 @@ doc->set_VbaProject(project);
 // Create a new module and specify a macro source code.
 auto module_ = System::MakeObject<Aspose::Words::Vba::VbaModule>();
 module_->set_Name(u"Aspose.Module");
-module_->set_Type(Aspose::Words::Vba::VbaModuleType::ProceduralModule);
+module_->set_Type(VbaModuleType::ProceduralModule);
 module_->set_SourceCode(u"New source code");
 
 // Add the module to the VBA project.

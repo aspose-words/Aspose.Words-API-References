@@ -5,7 +5,7 @@ articleTitle: GoogleAiModel
 second_title: Aspose.Words for .NET
 description: Unlock the power of Aspose.Words.AI.GoogleAiModel class to seamlessly integrate Google AI models, enhancing your document processing capabilities effortlessly.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.ai/googleaimodel/
 ---
 ## GoogleAiModel class

@@ -54,7 +54,7 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 
 Shows how to access a document's VBA project information. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VBA project.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
 // A VBA project contains a collection of VBA modules.
 System::SharedPtr<Aspose::Words::Vba::VbaProject> vbaProject = doc->get_VbaProject();

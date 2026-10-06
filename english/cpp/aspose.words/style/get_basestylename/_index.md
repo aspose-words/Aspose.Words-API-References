@@ -23,7 +23,7 @@ System::String Aspose::Words::Style::get_BaseStyleName()
 
 Shows how to use style aliases. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Style with alias.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Style with alias.docx"));
 
 // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
 // If a style's name has multiple values separated by commas, each clause is a separate alias.

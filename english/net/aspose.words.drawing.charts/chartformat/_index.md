@@ -5,7 +5,7 @@ articleTitle: ChartFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartFormat class for advanced chart element styling. Enhance your documents with professional, customizable chart designs.
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.words.drawing.charts/chartformat/
 ---
 ## ChartFormat class

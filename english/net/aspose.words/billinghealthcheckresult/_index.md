@@ -5,7 +5,7 @@ articleTitle: BillingHealthCheckResult
 second_title: Aspose.Words for .NET
 description: Aspose.Words.BillingHealthCheckResult class. Represents the result of a billing system health check indicating whether the billing service is operational.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words/billinghealthcheckresult/
 ---
 ## BillingHealthCheckResult class

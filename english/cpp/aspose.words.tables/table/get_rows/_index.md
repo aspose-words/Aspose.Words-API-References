@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Tables::RowCollection> Aspose::Words::Tables::T
 
 Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
 ASSERT_EQ(2, tables->ToArray()->get_Length());
@@ -50,7 +50,7 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 
         for (int32_t k = 0; k < cells->get_Count(); k++)
         {
-            System::String cellText = cells->idx_get(k)->ToString(Aspose::Words::SaveFormat::Text).Trim();
+            System::String cellText = cells->idx_get(k)->ToString(SaveFormat::Text).Trim();
             std::cout << System::String::Format(u"\t\tContents of Cell:{0} = \"{1}\"", k, cellText) << std::endl;
         }
 
@@ -64,14 +64,14 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:
 System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())

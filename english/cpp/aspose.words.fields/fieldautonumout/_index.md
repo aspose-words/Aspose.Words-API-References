@@ -61,16 +61,16 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // This allows us to automatically number items like a numbered list.
 // LISTNUM fields are a newer alternative to AUTONUMOUT fields.
 // This field will display "1.".
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNumOutline, true);
+builder->InsertField(FieldType::FieldAutoNumOutline, true);
 builder->Writeln(u"\tParagraph 1.");
 
 // This field will display "2.".
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNumOutline, true);
+builder->InsertField(FieldType::FieldAutoNumOutline, true);
 builder->Writeln(u"\tParagraph 2.");
 
 for (auto&& field : System::IterateOver<Aspose::Words::Fields::FieldAutoNumOut>(doc->get_Range()->get_Fields()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
 {
-    return f->get_Type() == Aspose::Words::Fields::FieldType::FieldAutoNumOutline;
+    return f->get_Type() == FieldType::FieldAutoNumOutline;
 })))->LINQ_ToList()))
 {
     ASSERT_EQ(u" AUTONUMOUT ", field->GetFieldCode());

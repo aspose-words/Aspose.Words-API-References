@@ -26,7 +26,7 @@ Shows how to create a structured document tag in a plain text box and modify its
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a structured document tag that will contain plain text.
-auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
 
 // Set the title and color of the frame that appears when you mouse over the structured document tag in Microsoft Word.
 tag->set_Title(u"My plain text");
@@ -56,7 +56,7 @@ tag->set_Multiline(true);
 
 // Set the "Appearance" property to "SdtAppearance.Tags" to show tags around content.
 // By default structured document tag shows as BoundingBox.
-tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
+tag->set_Appearance(SdtAppearance::Tags);
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertNode(tag);

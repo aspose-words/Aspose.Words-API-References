@@ -5,7 +5,7 @@ articleTitle: FieldDocProperty
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDocProperty class, designed for seamless integration of DOCPROPERTY fields in your documents for enhanced functionality.
 type: docs
-weight: 2230
+weight: 2250
 url: /net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_sheetsperbooklet/
 Returns or sets the number of pages to be included in each booklet.
 
 ```cpp
-int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet() const
+int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet()
 ```
 
 
@@ -31,7 +31,7 @@ builder->Writeln(u"My Booklet:");
 
 for (int32_t i = 0; i < 15; i++)
 {
-    builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+    builder->InsertBreak(BreakType::PageBreak);
     builder->Write(System::String::Format(u"Booklet face #{0}", i));
 }
 
@@ -39,7 +39,7 @@ for (int32_t i = 0; i < 15; i++)
 // When we print this document on both sides, we can take the pages to stack them
 // and fold them all down the middle at once. The contents of the document will line up into a book fold.
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
-pageSetup->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::BookFoldPrinting);
+pageSetup->set_MultiplePages(MultiplePagesType::BookFoldPrinting);
 
 // We can only specify the number of sheets in multiples of 4.
 pageSetup->set_SheetsPerBooklet(4);

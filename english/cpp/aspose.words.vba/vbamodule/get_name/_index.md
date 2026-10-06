@@ -23,7 +23,7 @@ System::String Aspose::Words::Vba::VbaModule::get_Name() const
 
 Shows how to access a document's VBA project information. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VBA project.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
 // A VBA project contains a collection of VBA modules.
 System::SharedPtr<Aspose::Words::Vba::VbaProject> vbaProject = doc->get_VbaProject();
@@ -59,7 +59,7 @@ doc->set_VbaProject(project);
 // Create a new module and specify a macro source code.
 auto module_ = System::MakeObject<Aspose::Words::Vba::VbaModule>();
 module_->set_Name(u"Aspose.Module");
-module_->set_Type(Aspose::Words::Vba::VbaModuleType::ProceduralModule);
+module_->set_Type(VbaModuleType::ProceduralModule);
 module_->set_SourceCode(u"New source code");
 
 // Add the module to the VBA project.

@@ -55,7 +55,7 @@ Shows how to insert a DATA field into a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldData>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldData, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldData>(builder->InsertField(FieldType::FieldData, true));
 ASSERT_EQ(u" DATA ", field->GetFieldCode());
 ```
 

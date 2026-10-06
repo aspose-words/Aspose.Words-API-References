@@ -23,7 +23,7 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath() const
 
 Shows how to find and replace text within OfficeMath. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 ASSERT_EQ(u"i+b-c≥iM+bM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 

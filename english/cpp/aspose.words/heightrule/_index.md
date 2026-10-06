@@ -44,7 +44,7 @@ builder->EndRow();
 
 System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = builder->get_RowFormat();
 rowFormat->set_Height(100);
-rowFormat->set_HeightRule(Aspose::Words::HeightRule::Exactly);
+rowFormat->set_HeightRule(HeightRule::Exactly);
 
 builder->InsertCell();
 builder->Write(u"Row 2, cell 1.");
@@ -52,10 +52,10 @@ builder->EndTable();
 
 // The first row was unaffected by the padding reconfiguration and still holds the default values.
 ASPOSE_ASSERT_EQ(0.0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
-ASSERT_EQ(Aspose::Words::HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
+ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
 
 ASPOSE_ASSERT_EQ(100.0, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
-ASSERT_EQ(Aspose::Words::HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
+ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```

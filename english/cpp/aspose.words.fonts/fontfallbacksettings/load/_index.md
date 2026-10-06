@@ -27,7 +27,7 @@ void Aspose::Words::Fonts::FontFallbackSettings::Load(const System::SharedPtr<Sy
 
 Shows how to load and save font fallback settings to/from a stream. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Load an XML document that defines a set of font fallback settings.
 {
@@ -72,7 +72,7 @@ void Aspose::Words::Fonts::FontFallbackSettings::Load(const System::String &file
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // Load an XML document that defines a set of font fallback settings.
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();

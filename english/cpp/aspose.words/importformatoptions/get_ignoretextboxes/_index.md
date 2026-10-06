@@ -33,7 +33,7 @@ builder->Writeln(u"Hello world!");
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 builder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 300, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(ShapeType::TextBox, static_cast<double>(300), static_cast<double>(100));
 builder->MoveTo(textBox->get_FirstParagraph());
 builder->get_ParagraphFormat()->get_Style()->get_Font()->set_Name(u"Courier New");
 builder->get_ParagraphFormat()->get_Style()->get_Font()->set_Size(24);
@@ -46,7 +46,7 @@ importFormatOptions->set_IgnoreTextBoxes(ignoreTextBoxes);
 
 // Import the text box from the source document into the destination document,
 // and then verify whether we have preserved the styling of its text contents.
-auto importer = System::MakeObject<Aspose::Words::NodeImporter>(srcDoc, dstDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, importFormatOptions);
+auto importer = System::MakeObject<Aspose::Words::NodeImporter>(srcDoc, dstDoc, ImportFormatMode::KeepSourceFormatting, importFormatOptions);
 auto importedTextBox = System::ExplicitCast<Aspose::Words::Drawing::Shape>(importer->ImportNode(textBox, true));
 dstDoc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(importedTextBox);
 

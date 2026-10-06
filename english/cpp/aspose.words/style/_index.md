@@ -13,8 +13,8 @@ url: /cpp/aspose.words/style/
 Represents a single built-in or user-defined style. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
-class Style : public Aspose::Words::IParaAttrSource,
-              public Aspose::Words::IRunAttrSource
+class Style : public IParaAttrSource,
+              public IRunAttrSource
 ```
 
 ## Methods
@@ -66,7 +66,7 @@ Shows how to create and apply a custom style.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
 style->get_Font()->set_Name(u"Times New Roman");
 style->get_Font()->set_Size(16);
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());
@@ -105,13 +105,13 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a custom paragraph style.
-System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle1");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle1");
 style->get_Font()->set_Size(24);
 style->get_Font()->set_Name(u"Verdana");
 style->get_ParagraphFormat()->set_SpaceAfter(12);
 
 // Create a list and make sure the paragraphs that use this style will use this list.
-style->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+style->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 style->get_ListFormat()->set_ListLevelNumber(0);
 
 // Apply the paragraph style to the document builder's current paragraph, and then add some text.

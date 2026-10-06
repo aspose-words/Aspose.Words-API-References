@@ -36,7 +36,7 @@ ASSERT_TRUE(doc->get_WriteProtection()->ValidatePassword(u"MyPassword"));
 
 // Protection does not prevent the document from being edited programmatically, nor does it encrypt the contents.
 doc->Save(get_ArtifactsDir() + u"Document.WriteProtection.docx");
-doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.WriteProtection.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.WriteProtection.docx"));
 
 ASSERT_TRUE(doc->get_WriteProtection()->get_IsWriteProtected());
 

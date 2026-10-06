@@ -5,7 +5,7 @@ articleTitle: DocumentVisitor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.DocumentVisitor class, your foundation for creating custom document visitors to enhance document processing and manipulation.
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.words/documentvisitor/
 ---
 ## DocumentVisitor class

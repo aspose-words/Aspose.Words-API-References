@@ -36,9 +36,9 @@ This method converts [SizeInPoints](../get_sizeinpoints/) into size in pixels an
 
 Shows how to measure and scale shapes. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = System::MakeObject<Aspose::Words::Rendering::OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
@@ -111,9 +111,9 @@ This method converts [SizeInPoints](../get_sizeinpoints/) into size in pixels an
 
 Shows how to measure and scale shapes. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = System::MakeObject<Aspose::Words::Rendering::OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.

@@ -33,7 +33,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Below are two wrapping types that shapes may have.
 // 1 -  Inline:
 builder->Write(u"Hello world! ");
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(100));
 shape->set_FillColor(System::Drawing::Color::get_LightBlue());
 builder->Write(u" Hello again.");
 
@@ -41,11 +41,11 @@ builder->Write(u" Hello again.");
 // In Microsoft Word, we may click and drag the shape to any paragraph as if it is a character.
 // If the shape is large, it will affect vertical paragraph spacing.
 // We cannot move this shape to a place with no paragraph.
-ASSERT_EQ(Aspose::Words::Drawing::WrapType::Inline, shape->get_WrapType());
+ASSERT_EQ(WrapType::Inline, shape->get_WrapType());
 ASSERT_TRUE(shape->get_IsInline());
 
 // 2 -  Floating:
-shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 200, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 200, 100, 100, Aspose::Words::Drawing::WrapType::None);
+shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(200), RelativeVerticalPosition::TopMargin, static_cast<double>(200), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->set_FillColor(System::Drawing::Color::get_Orange());
 
 // A floating shape belongs to the paragraph that we insert it into,
@@ -53,7 +53,7 @@ shape->set_FillColor(System::Drawing::Color::get_Orange());
 // If the shape does not have a visible anchor symbol to its left,
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
 // In Microsoft Word, we may left click and drag this shape freely to any location.
-ASSERT_EQ(Aspose::Words::Drawing::WrapType::None, shape->get_WrapType());
+ASSERT_EQ(WrapType::None, shape->get_WrapType());
 ASSERT_FALSE(shape->get_IsInline());
 
 doc->Save(get_ArtifactsDir() + u"Shape.IsInline.docx");

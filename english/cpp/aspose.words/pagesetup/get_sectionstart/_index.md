@@ -30,37 +30,37 @@ builder->Writeln(u"This text is in section 1.");
 // Section break types determine how a new section separates itself from the previous section.
 // Below are five types of section breaks.
 // 1 -  Starts the next section on a new page:
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Writeln(u"This text is in section 2.");
 
-ASSERT_EQ(Aspose::Words::SectionStart::NewPage, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::NewPage, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
 
 // 2 -  Starts the next section on the current page:
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakContinuous);
+builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Writeln(u"This text is in section 3.");
 
-ASSERT_EQ(Aspose::Words::SectionStart::Continuous, doc->get_Sections()->idx_get(2)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::Continuous, doc->get_Sections()->idx_get(2)->get_PageSetup()->get_SectionStart());
 
 // 3 -  Starts the next section on a new even page:
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakEvenPage);
+builder->InsertBreak(BreakType::SectionBreakEvenPage);
 builder->Writeln(u"This text is in section 4.");
 
-ASSERT_EQ(Aspose::Words::SectionStart::EvenPage, doc->get_Sections()->idx_get(3)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::EvenPage, doc->get_Sections()->idx_get(3)->get_PageSetup()->get_SectionStart());
 
 // 4 -  Starts the next section on a new odd page:
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakOddPage);
+builder->InsertBreak(BreakType::SectionBreakOddPage);
 builder->Writeln(u"This text is in section 5.");
 
-ASSERT_EQ(Aspose::Words::SectionStart::OddPage, doc->get_Sections()->idx_get(4)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::OddPage, doc->get_Sections()->idx_get(4)->get_PageSetup()->get_SectionStart());
 
 // 5 -  Starts the next section on a new column:
 System::SharedPtr<Aspose::Words::TextColumnCollection> columns = builder->get_PageSetup()->get_TextColumns();
 columns->SetCount(2);
 
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewColumn);
+builder->InsertBreak(BreakType::SectionBreakNewColumn);
 builder->Writeln(u"This text is in section 6.");
 
-ASSERT_EQ(Aspose::Words::SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetup()->get_SectionStart());
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetSectionStart.docx");
 ```
@@ -82,8 +82,8 @@ auto section = System::MakeObject<Aspose::Words::Section>(doc);
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
@@ -94,7 +94,7 @@ section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 

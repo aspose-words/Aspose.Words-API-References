@@ -26,13 +26,13 @@ Shows how to work with axes collection.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 500, 300);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(500), static_cast<double>(300));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 // Hide the major grid lines on the primary and secondary Y axes.
 for (auto&& axis : System::IterateOver(chart->get_Axes()))
 {
-    if (axis->get_Type() == Aspose::Words::Drawing::Charts::ChartAxisType::Value)
+    if (axis->get_Type() == ChartAxisType::Value)
     {
         axis->set_HasMajorGridlines(false);
     }

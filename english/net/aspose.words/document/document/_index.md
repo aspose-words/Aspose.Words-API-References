@@ -121,47 +121,6 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-Shows how to load a PDF.
-
-```csharp
-Document doc = new Aspose.Words.Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
-
-// Below are two ways of loading PDF documents using Aspose products.
-// 1 -  Load as an Aspose.Words document:
-Document asposeWordsDoc = new Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
-
-Assert.That(asposeWordsDoc.GetText().Trim(), Is.EqualTo("Hello world!"));
-
-// 2 -  Load as an Aspose.Pdf document:
-Aspose.Pdf.Document asposePdfDoc = new Aspose.Pdf.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
-
-TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber();
-asposePdfDoc.Pages.Accept(textFragmentAbsorber);
-
-Assert.That(textFragmentAbsorber.Text.Trim(), Is.EqualTo("Hello world!"));
-```
-
-Shows how to convert a PDF to a .docx.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-// Load the PDF document that we just saved, and convert it to .docx.
-Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
-```
-
 ### See Also
 
 * class [Document](../)

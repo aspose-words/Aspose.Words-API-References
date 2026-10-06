@@ -33,7 +33,7 @@ Depends on the value of [PageHorizontalAlignment](../get_pagehorizontalalignment
 
 Shows how to adjust page margins when saving a document to HTML. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 saveOptions->set_PageMargins(15);

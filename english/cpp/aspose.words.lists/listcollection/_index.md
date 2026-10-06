@@ -90,7 +90,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -107,7 +107,7 @@ for (int32_t i = 0; i < 9; i++)
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
 
 for (int32_t i = 0; i < 9; i++)
 {
@@ -133,9 +133,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize its first list level.
-System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberArabicParenthesis);
+System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(ListTemplate::NumberArabicParenthesis);
 list1->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Red());
-list1->get_ListLevels()->idx_get(0)->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
+list1->get_ListLevels()->idx_get(0)->set_Alignment(ListLevelAlignment::Right);
 
 // Apply our list to some paragraphs.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

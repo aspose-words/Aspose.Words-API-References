@@ -61,7 +61,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment.");
 
 // Create a COMMENTS field to display the value of that built-in property.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldComments>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldComments, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldComments>(builder->InsertField(FieldType::FieldComments, true));
 field->Update();
 
 ASSERT_EQ(u" COMMENTS ", field->GetFieldCode());

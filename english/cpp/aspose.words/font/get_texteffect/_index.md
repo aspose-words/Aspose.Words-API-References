@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(36);
-builder->get_Font()->set_TextEffect(Aspose::Words::TextEffect::SparkleText);
+builder->get_Font()->set_TextEffect(TextEffect::SparkleText);
 
 builder->Writeln(u"Text with a sparkle effect.");
 

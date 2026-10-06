@@ -14,7 +14,7 @@ Implements the BIBLIOGRAPHY field. To learn more, visit the [Working with Fields
 
 ```cpp
 class FieldBibliography : public Aspose::Words::Fields::Field,
-                          public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                          public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods

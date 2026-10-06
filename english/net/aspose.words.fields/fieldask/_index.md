@@ -5,7 +5,7 @@ articleTitle: FieldAsk
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAsk class for seamless implementation of the ASK field, enhancing document automation and efficiency.
 type: docs
-weight: 1980
+weight: 2000
 url: /net/aspose.words.fields/fieldask/
 ---
 ## FieldAsk class

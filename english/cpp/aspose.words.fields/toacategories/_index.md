@@ -49,8 +49,8 @@ toaCategories->idx_set(1, u"My Category 1");
 toaCategories->idx_set(2, u"My Category 2");
 
 // We can always access the default values via this collection.
-ASSERT_EQ(u"Cases", Aspose::Words::Fields::ToaCategories::get_DefaultCategories()->idx_get(1));
-ASSERT_EQ(u"Statutes", Aspose::Words::Fields::ToaCategories::get_DefaultCategories()->idx_get(2));
+ASSERT_EQ(u"Cases", ToaCategories::get_DefaultCategories()->idx_get(1));
+ASSERT_EQ(u"Statutes", ToaCategories::get_DefaultCategories()->idx_get(2));
 
 // Insert 2 TOA fields. TOA fields create an entry for each TA field in the document.
 // Use the "\c" switch to select the index of a category from our collection.
@@ -59,15 +59,15 @@ ASSERT_EQ(u"Statutes", Aspose::Words::Fields::ToaCategories::get_DefaultCategori
 // the name of the category that its "\c" switch points to.
 builder->InsertField(u"TOA \\c 1 \\h", nullptr);
 builder->InsertField(u"TOA \\c 2 \\h", nullptr);
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 
 // Insert TOA entries across 2 categories. Our first TOA field will receive one entry,
 // from the second TA field whose "\c" switch also points to the first category.
 // The second TOA field will have two entries from the other two TA fields.
 builder->InsertField(u"TA \\c 2 \\l \"entry 1\"");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->InsertField(u"TA \\c 1 \\l \"entry 2\"");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->InsertField(u"TA \\c 2 \\l \"entry 3\"");
 
 doc->UpdateFields();

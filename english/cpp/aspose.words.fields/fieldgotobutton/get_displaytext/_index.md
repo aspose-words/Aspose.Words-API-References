@@ -28,14 +28,14 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add a GOTOBUTTON field. When we double-click this field in Microsoft Word,
 // it will take the text cursor to the bookmark whose name the Location property references.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldGoToButton>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldGoToButton, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 
 ASSERT_EQ(u" GOTOBUTTON  MyBookmark My Button", field->GetFieldCode());
 
 // Insert a valid bookmark for the field to reference.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->StartBookmark(field->get_Location());
 builder->Writeln(u"Bookmark text contents.");
 builder->EndBookmark(field->get_Location());

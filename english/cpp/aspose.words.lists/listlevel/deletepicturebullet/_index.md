@@ -25,7 +25,7 @@ Shows how to set a custom image icon for list item labels.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletCircle);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(ListTemplate::BulletCircle);
 
 // Create a picture bullet for the current list level, and set an image from a local file system
 // as the icon that the bullets for this list level will display.

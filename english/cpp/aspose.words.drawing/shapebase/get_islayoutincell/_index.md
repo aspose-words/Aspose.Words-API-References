@@ -37,19 +37,19 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_BottomPadding(20);
 tableStyle->set_LeftPadding(10);
 tableStyle->set_RightPadding(10);
 tableStyle->set_TopPadding(20);
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Black());
-tableStyle->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Single);
+tableStyle->get_Borders()->set_LineStyle(LineStyle::Single);
 
 table->set_Style(tableStyle);
 
 builder->MoveTo(table->get_FirstRow()->get_FirstCell()->get_FirstParagraph());
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 50, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 100, 100, 100, Aspose::Words::Drawing::WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(50), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 
 // Set the "IsLayoutInCell" property to "true" to display the shape as an inline element inside the cell's paragraph.
 // The coordinate origin that will determine the shape's location will be the top left corner of the shape's cell.
@@ -60,7 +60,7 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(As
 shape->set_IsLayoutInCell(isLayoutInCell);
 
 // We can only apply the "IsLayoutInCell" property to floating shapes.
-shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+shape->set_WrapType(WrapType::None);
 
 doc->Save(get_ArtifactsDir() + u"Shape.LayoutInTableCell.docx");
 ```

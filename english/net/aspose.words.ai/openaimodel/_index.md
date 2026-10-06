@@ -5,7 +5,7 @@ articleTitle: OpenAiModel
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.AI.OpenAiModel class—your gateway to seamless integration with OpenAI's powerful language models for enhanced document processing.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.ai/openaimodel/
 ---
 ## OpenAiModel class

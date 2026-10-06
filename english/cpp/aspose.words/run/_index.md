@@ -125,14 +125,14 @@ ASSERT_EQ(u"Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 paragraph->PrependChild<System::SharedPtr<Aspose::Words::Run>>(run1);
 
 ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(4, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
-paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->Remove(paragraphText);
+(System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
+ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
 
@@ -152,8 +152,8 @@ auto section = System::MakeObject<Aspose::Words::Section>(doc);
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
@@ -164,7 +164,7 @@ section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 
 body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 

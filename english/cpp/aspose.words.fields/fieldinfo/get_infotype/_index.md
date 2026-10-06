@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set a value for the "Comments" built-in property and then insert an INFO field to display that property's value.
 doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldInfo, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->InsertField(FieldType::FieldInfo, true));
 field->set_InfoType(u"Comments");
 field->Update();
 
@@ -39,7 +39,7 @@ builder->Writeln();
 
 // Setting a value for the field's NewValue property and updating
 // the field will also overwrite the corresponding built-in property with the new value.
-field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldInfo, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->InsertField(FieldType::FieldInfo, true));
 field->set_InfoType(u"Comments");
 field->set_NewValue(u"New comment");
 field->Update();

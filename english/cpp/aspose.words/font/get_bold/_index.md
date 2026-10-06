@@ -32,7 +32,7 @@ font->set_Size(16);
 font->set_Bold(true);
 font->set_Color(System::Drawing::Color::get_Blue());
 font->set_Name(u"Courier New");
-font->set_Underline(Aspose::Words::Underline::Dash);
+font->set_Underline(Underline::Dash);
 
 builder->Write(u"Hello world!");
 ```

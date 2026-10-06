@@ -56,7 +56,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a header and append a paragraph to it. The text in that paragraph
 // will appear at the top of every page of this section, above the main body text.
-auto header = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::HeaderPrimary);
+auto header = System::MakeObject<Aspose::Words::HeaderFooter>(doc, HeaderFooterType::HeaderPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(header);
 
 System::SharedPtr<Aspose::Words::Paragraph> para = header->AppendParagraph(u"My header.");
@@ -66,7 +66,7 @@ ASSERT_TRUE(para->get_IsEndOfHeaderFooter());
 
 // Create a footer and append a paragraph to it. The text in that paragraph
 // will appear at the bottom of every page of this section, below the main body text.
-auto footer = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::FooterPrimary);
+auto footer = System::MakeObject<Aspose::Words::HeaderFooter>(doc, HeaderFooterType::FooterPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(footer);
 
 para = footer->AppendParagraph(u"My footer.");
@@ -84,14 +84,14 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 
 Shows how to delete all footers from a document. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Header and footer types.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
 // Iterate through each section and remove footers of every kind.
-for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Aspose::Words::Section> >()))
+for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Aspose::Words::Section>>()))
 {
     // There are three kinds of footer and header types.
     // 1 -  The "First" header/footer, which only appears on the first page of a section.
-    System::SharedPtr<Aspose::Words::HeaderFooter> footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterFirst);
+    System::SharedPtr<Aspose::Words::HeaderFooter> footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterFirst);
     System::SharedPtr<Aspose::Words::HeaderFooter> condExpression = footer;
     if (condExpression != nullptr)
     {
@@ -99,7 +99,7 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
     }
 
     // 2 -  The "Primary" header/footer, which appears on odd pages.
-    footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+    footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary);
     System::SharedPtr<Aspose::Words::HeaderFooter> condExpression2 = footer;
     if (condExpression2 != nullptr)
     {
@@ -107,7 +107,7 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
     }
 
     // 3 -  The "Even" header/footer, which appears on even pages.
-    footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterEven);
+    footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterEven);
     System::SharedPtr<Aspose::Words::HeaderFooter> condExpression3 = footer;
     if (condExpression3 != nullptr)
     {

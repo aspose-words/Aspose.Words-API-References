@@ -133,7 +133,6 @@ class Table : public Aspose::Words::CompositeNode
 | [SetBorders](./setborders/)(Aspose::Words::LineStyle, double, System::Drawing::Color) | Sets all table borders to the specified line style, width and color. |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetShading](./setshading/)(Aspose::Words::TextureIndex, System::Drawing::Color, System::Drawing::Color) | Sets shading to the specified values on whole table. |
-| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [Table](./table/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Table](./) class. |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
@@ -158,7 +157,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
-builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
 builder->Write(u"Row 1, cell 1.");
 builder->InsertCell();
 builder->Write(u"Row 1, cell 2.");
@@ -166,27 +165,27 @@ builder->EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-ASSERT_EQ(Aspose::Words::Tables::CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment());
-ASSERT_EQ(Aspose::Words::Tables::CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment());
+ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment());
+ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment());
 
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(100);
-builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Exactly);
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Upward);
+builder->get_RowFormat()->set_HeightRule(HeightRule::Exactly);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Upward);
 builder->Write(u"Row 2, cell 1.");
 builder->InsertCell();
-builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
+builder->get_CellFormat()->set_Orientation(TextOrientation::Downward);
 builder->Write(u"Row 2, cell 2.");
 builder->EndRow();
 builder->EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
 ASPOSE_ASSERT_EQ(0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
-ASSERT_EQ(Aspose::Words::HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
+ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
 ASPOSE_ASSERT_EQ(100, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
-ASSERT_EQ(Aspose::Words::HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
-ASSERT_EQ(Aspose::Words::TextOrientation::Upward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation());
-ASSERT_EQ(Aspose::Words::TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation());
+ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
+ASSERT_EQ(TextOrientation::Upward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation());
+ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation());
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
@@ -221,7 +220,7 @@ doc->Save(get_ArtifactsDir() + u"Table.CreateTable.docx");
 
 Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
 ASSERT_EQ(2, tables->ToArray()->get_Length());
@@ -248,7 +247,7 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 
         for (int32_t k = 0; k < cells->get_Count(); k++)
         {
-            System::String cellText = cells->idx_get(k)->ToString(Aspose::Words::SaveFormat::Text).Trim();
+            System::String cellText = cells->idx_get(k)->ToString(SaveFormat::Text).Trim();
             std::cout << System::String::Format(u"\t\tContents of Cell:{0} = \"{1}\"", k, cellText) << std::endl;
         }
 

@@ -32,11 +32,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(100));
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(100));
 builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::Auto());
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
 builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 builder->EndRow();
 builder->EndTable();

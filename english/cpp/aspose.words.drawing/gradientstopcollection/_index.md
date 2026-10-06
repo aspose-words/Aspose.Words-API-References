@@ -41,8 +41,8 @@ Shows how to add gradient stops to the gradient fill.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
-shape->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Green(), System::Drawing::Color::get_Red(), Aspose::Words::Drawing::GradientStyle::Horizontal, Aspose::Words::Drawing::GradientVariant::Variant2);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
+shape->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Green(), System::Drawing::Color::get_Red(), GradientStyle::Horizontal, GradientVariant::Variant2);
 
 // Get gradient stops collection.
 System::SharedPtr<Aspose::Words::Drawing::GradientStopCollection> gradientStops = shape->get_Fill()->get_GradientStops();
@@ -79,7 +79,7 @@ ASSERT_NEAR(0.3, gradientStops->idx_get(1)->get_Transparency(), 0.01);
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
-saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Strict);
+saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```

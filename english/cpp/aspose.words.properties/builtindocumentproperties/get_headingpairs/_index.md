@@ -33,7 +33,7 @@ Aspose.Words does not update this property.
 
 Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Heading pairs and titles of parts.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Heading pairs and titles of parts.docx"));
 
 // We can find the combined values of these collections via
 // "File" -> "Properties" -> "Advanced Properties" -> "Contents" tab.

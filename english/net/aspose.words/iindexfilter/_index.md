@@ -5,7 +5,7 @@ articleTitle: IIndexFilter
 second_title: Aspose.Words for .NET
 description: Defines filters in Aspose.Words to skip document items by index for faster, flexible processing.
 type: docs
-weight: 3670
+weight: 3690
 url: /net/aspose.words/iindexfilter/
 ---
 ## IIndexFilter interface

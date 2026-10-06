@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // and the number of the page that contains the XE field on the right.
 // If the XE fields have the same value in their "Text" property,
 // the INDEX field will group them into one entry.
-auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndex, true));
+auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(FieldType::FieldIndex, true));
 
 // In the SequenceName property, name a SEQ field sequence. Each entry of this INDEX field will now also display
 // the number that the sequence count is on at the XE field location that created this entry.
@@ -51,8 +51,8 @@ ASSERT_EQ(u" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"", 
 // identified by the SEQ field's "SequenceIdentifier" property.
 // Insert a SEQ field which moves the "MySequence" sequence to 1.
 // This field no different from normal document text. It will not appear on an INDEX field's table of contents.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-auto sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+builder->InsertBreak(BreakType::PageBreak);
+auto sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 sequenceField->set_SequenceIdentifier(u"MySequence");
 
 ASSERT_EQ(u" SEQ  MySequence", sequenceField->GetFieldCode());
@@ -60,16 +60,16 @@ ASSERT_EQ(u" SEQ  MySequence", sequenceField->GetFieldCode());
 // Insert an XE field which will create an entry in the INDEX field.
 // Since "MySequence" is at 1 and this XE field is on page 2, along with the custom separators we defined above,
 // this field's INDEX entry will display "Cat" on the left side, and "MySequence at 1 on page 2" on the right.
-auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Cat");
 
 ASSERT_EQ(u" XE  Cat", indexEntry->GetFieldCode());
 
 // Insert a page break and use SEQ fields to advance "MySequence" to 3.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+builder->InsertBreak(BreakType::PageBreak);
+sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 sequenceField->set_SequenceIdentifier(u"MySequence");
-sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 sequenceField->set_SequenceIdentifier(u"MySequence");
 
 // Insert an XE field with the same Text property as the one above.
@@ -77,13 +77,13 @@ sequenceField->set_SequenceIdentifier(u"MySequence");
 // into one entry as opposed to making an entry for each XE field.
 // Since we are on page 2 with "MySequence" at 3, ", 3 on page 3" will be appended to the same INDEX entry as above.
 // The page number portion of that INDEX entry will now display "MySequence at 1 on page 2, 3 on page 3".
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Cat");
 
 // Insert an XE field with a new and unique Text property value.
 // This will add a new entry, with MySequence at 3 on page 4.
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Dog");
 
 doc->UpdatePageLayout();

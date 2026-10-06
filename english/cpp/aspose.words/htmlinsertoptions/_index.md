@@ -35,7 +35,7 @@ Shows how to allows better preserve borders and margins seen.
 const System::String html = u"\r\n                <html>\r\n                    <div style='border:dotted'>\r\n                    <div style='border:solid'>\r\n                        <p>paragraph 1</p>\r\n                        <p>paragraph 2</p>\r\n                    </div>\r\n                    </div>\r\n                </html>";
 
 // Set the new mode of import HTML block-level elements.
-Aspose::Words::HtmlInsertOptions insertOptions = Aspose::Words::HtmlInsertOptions::PreserveBlocks;
+Aspose::Words::HtmlInsertOptions insertOptions = HtmlInsertOptions::PreserveBlocks;
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 builder->InsertHtml(html, insertOptions);

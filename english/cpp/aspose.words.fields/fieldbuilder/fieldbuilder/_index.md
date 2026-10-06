@@ -36,7 +36,7 @@ builder->Write(u" Hello world! This text is one Run, which is an inline node.");
 // Fields have their builder, which we can use to construct a field code piece by piece.
 // In this case, we will construct a BARCODE field representing a US postal code,
 // and then insert it in front of a Run.
-auto fieldBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldBarcode);
+auto fieldBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(FieldType::FieldBarcode);
 fieldBuilder->AddArgument(u"90210");
 fieldBuilder->AddSwitch(u"\\f", u"A");
 fieldBuilder->AddSwitch(u"\\u");

@@ -58,7 +58,7 @@ enum class BuildingBlockGallery
 | Tables | 35 |  |
 | TextBox | 36 |  |
 | Watermarks | 37 |  |
-| Default | n/a | Same as [All](./). |
+| Default | 0 | Same as [All](./). |
 
 ## Remarks
 

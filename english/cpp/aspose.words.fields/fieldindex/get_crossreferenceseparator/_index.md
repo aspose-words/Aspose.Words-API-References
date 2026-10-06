@@ -31,20 +31,20 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // and the number of the page that contains the XE field on the right.
 // The INDEX entry will collect all XE fields with matching values in the "Text" property
 // into one entry as opposed to making an entry for each XE field.
-auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndex, true));
+auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->InsertField(FieldType::FieldIndex, true));
 
 // We can configure an XE field to get its INDEX entry to display a string instead of a page number.
 // First, for entries that substitute a page number with a string,
 // specify a custom separator between the XE field's Text property value and the string.
 index->set_CrossReferenceSeparator(u", see: ");
 
-ASSERT_EQ(u" INDEX  \\k \", see: \"", index->GetFieldCode());
+ASSERT_EQ((u" INDEX  \\k \", see: \""), index->GetFieldCode());
 
 // Insert an XE field, which creates a regular INDEX entry which displays this field's page number,
 // and does not invoke the CrossReferenceSeparator value.
 // The entry for this XE field will display "Apple, 2".
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Apple");
 
 ASSERT_EQ(u" XE  Apple", indexEntry->GetFieldCode());
@@ -53,8 +53,8 @@ ASSERT_EQ(u" XE  Apple", indexEntry->GetFieldCode());
 // This value will show up instead of the number of the page that this field is on,
 // and the INDEX field's CrossReferenceSeparator value will appear in front of it.
 // The entry for this XE field will display "Banana, see: Tropical fruit".
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
-indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIndexEntry, true));
+builder->InsertBreak(BreakType::PageBreak);
+indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Banana");
 indexEntry->set_PageNumberReplacement(u"Tropical fruit");
 

@@ -27,7 +27,7 @@ The cloned [VbaProject](../).
 
 Shows how to deep clone a VBA project and module. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VBA project.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 auto destDoc = System::MakeObject<Aspose::Words::Document>();
 
 System::SharedPtr<Aspose::Words::Vba::VbaProject> copyVbaProject = doc->get_VbaProject()->Clone();

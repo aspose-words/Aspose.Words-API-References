@@ -14,7 +14,7 @@ Implements an unknown or unrecognized field. To learn more, visit the [Working w
 
 ```cpp
 class FieldUnknown : public Aspose::Words::Fields::Field,
-                     public Aspose::Words::Fields::IMergeFieldSurrogate
+                     public IMergeFieldSurrogate
 ```
 
 ## Methods
@@ -62,7 +62,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u" NOTAREALFIELD //a");
 
 // The "FieldNone" field type is reserved for fields such as these.
-ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldNone, field->get_Type());
+ASSERT_EQ(FieldType::FieldNone, field->get_Type());
 
 // We can also still work with these fields and assign them as instances of the FieldUnknown class.
 auto fieldUnknown = System::ExplicitCast<Aspose::Words::Fields::FieldUnknown>(field);

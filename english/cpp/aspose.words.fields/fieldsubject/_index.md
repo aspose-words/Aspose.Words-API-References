@@ -61,7 +61,7 @@ doc->get_BuiltInDocumentProperties()->set_Subject(u"My subject");
 
 // Create a SUBJECT field to display the value of that built-in property.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSubject>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSubject, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
 field->Update();
 
 ASSERT_EQ(u" SUBJECT ", field->GetFieldCode());

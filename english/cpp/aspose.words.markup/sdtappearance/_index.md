@@ -23,7 +23,7 @@ enum class SdtAppearance
 | BoundingBox | 0 | Represents a structured document tag shown as a shaded rectangle or bounding box. |
 | Tags | 1 | Represents a structured document tag shown as start and end markers. |
 | Hidden | 2 | Represents a structured document tag that is not shown. |
-| Default | n/a | Defaults to [BoundingBox](./). |
+| Default | 0 | Defaults to [BoundingBox](./). |
 
 
 ## Examples
@@ -32,12 +32,12 @@ enum class SdtAppearance
 
 Shows how to show tag around content. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
-auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
+auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));
 
-if (tag->get_Appearance() == Aspose::Words::Markup::SdtAppearance::Hidden)
+if (tag->get_Appearance() == SdtAppearance::Hidden)
 {
-    tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
+    tag->set_Appearance(SdtAppearance::Tags);
 }
 ```
 

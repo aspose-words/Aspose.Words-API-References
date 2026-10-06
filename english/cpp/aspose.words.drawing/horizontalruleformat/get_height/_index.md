@@ -36,7 +36,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertHorizontalRule();
 
 System::SharedPtr<Aspose::Words::Drawing::HorizontalRuleFormat> horizontalRuleFormat = shape->get_HorizontalRuleFormat();
-horizontalRuleFormat->set_Alignment(Aspose::Words::Drawing::HorizontalRuleAlignment::Center);
+horizontalRuleFormat->set_Alignment(HorizontalRuleAlignment::Center);
 horizontalRuleFormat->set_WidthPercent(70);
 horizontalRuleFormat->set_Height(3);
 horizontalRuleFormat->set_Color(System::Drawing::Color::get_Blue());

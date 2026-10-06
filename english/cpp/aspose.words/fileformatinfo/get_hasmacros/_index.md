@@ -23,7 +23,7 @@ bool Aspose::Words::FileFormatInfo::get_HasMacros() const
 
 Shows how to check VBA macro presence without loading document. 
 ```cpp
-System::SharedPtr<Aspose::Words::FileFormatInfo> fileFormatInfo = Aspose::Words::FileFormatUtil::DetectFileFormat(get_MyDir() + u"Macro.docm");
+System::SharedPtr<Aspose::Words::FileFormatInfo> fileFormatInfo = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Macro.docm");
 ASSERT_TRUE(fileFormatInfo->get_HasMacros());
 ```
 

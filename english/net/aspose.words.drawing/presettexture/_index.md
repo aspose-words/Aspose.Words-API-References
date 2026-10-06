@@ -5,7 +5,7 @@ articleTitle: PresetTexture
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.PresetTexture enum to enhance your shapes with customizable textures for stunning document designs.
 type: docs
-weight: 1570
+weight: 1590
 url: /net/aspose.words.drawing/presettexture/
 ---
 ## PresetTexture enumeration

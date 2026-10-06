@@ -27,7 +27,7 @@ enum class MailMergeDataType
 | Query | 3 | Specifies that a given document has been connected to an external data source using an external query tool. |
 | Odbc | 4 | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
 | Native | 5 | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
-| Default | n/a | Equals to [None](./). |
+| Default | -1 | Equals to [None](./). |
 
 
 ## See Also

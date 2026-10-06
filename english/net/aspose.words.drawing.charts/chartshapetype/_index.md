@@ -5,7 +5,7 @@ articleTitle: ChartShapeType
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.Drawing.Charts.ChartShapeType enum to define diverse chart element shapes, enhancing your document's visual appeal and data clarity.
 type: docs
-weight: 1130
+weight: 1150
 url: /net/aspose.words.drawing.charts/chartshapetype/
 ---
 ## ChartShapeType enumeration

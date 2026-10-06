@@ -5,7 +5,7 @@ articleTitle: FieldChar
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldChar class, the essential base for document field characters, enhancing your document processing and customization.
 type: docs
-weight: 2090
+weight: 2110
 url: /net/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class

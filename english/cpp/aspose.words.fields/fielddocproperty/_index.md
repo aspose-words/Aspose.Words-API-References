@@ -73,7 +73,7 @@ builder->InsertParagraph();
 ASSERT_EQ(0, doc->get_Variables()->get_Count());
 doc->get_Variables()->Add(u"My variable", u"My variable's value");
 
-auto fieldDocVariable = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDocVariable, true));
+auto fieldDocVariable = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 fieldDocVariable->set_VariableName(u"My Variable");
 fieldDocVariable->Update();
 

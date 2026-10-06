@@ -27,11 +27,11 @@ If this option is specified, [PageSet](../../fixedpagesaveoptions/get_pageset/) 
 
 Shows how to save a document to the XPS format in the form of a book fold. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
 // Create an "XpsSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .XPS.
-auto xpsOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>(Aspose::Words::SaveFormat::Xps);
+auto xpsOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>(SaveFormat::Xps);
 
 // Set the "UseBookFoldPrintingSettings" property to "true" to arrange the contents
 // in the output XPS in a way that helps us use it to make a booklet.
@@ -44,7 +44,7 @@ if (renderTextAsBookFold)
 {
     for (auto&& s : System::IterateOver<Aspose::Words::Section>(doc->get_Sections()))
     {
-        s->get_PageSetup()->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::BookFoldPrinting);
+        s->get_PageSetup()->set_MultiplePages(MultiplePagesType::BookFoldPrinting);
     }
 }
 

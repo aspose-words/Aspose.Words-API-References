@@ -24,7 +24,7 @@ enum class MailMergeDestination
 | Printer | 1 | Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source. |
 | Email | 2 | Specifies that conforming hosting applications shall generate emails using the documents that result from populating the fields within a given document with data from the specified external data source. |
 | Fax | 4 | Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source. |
-| Default | n/a | Equals to the [NewDocument](./) value. |
+| Default | 0 | Equals to the [NewDocument](./) value. |
 
 
 ## See Also

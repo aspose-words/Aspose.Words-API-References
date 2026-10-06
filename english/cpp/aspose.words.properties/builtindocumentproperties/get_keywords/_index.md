@@ -31,22 +31,22 @@ System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> properti
 // 1 -  "Author" property, which we can display using an AUTHOR field:
 properties->set_Author(u"John Doe");
 builder->Write(u"Author:\t");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true);
+builder->InsertField(FieldType::FieldAuthor, true);
 
 // 2 -  "Title" property, which we can display using a TITLE field:
 properties->set_Title(u"John's Document");
 builder->Write(u"\nDoc title:\t");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldTitle, true);
+builder->InsertField(FieldType::FieldTitle, true);
 
 // 3 -  "Subject" property, which we can display using a SUBJECT field:
 properties->set_Subject(u"My subject");
 builder->Write(u"\nSubject:\t");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldSubject, true);
+builder->InsertField(FieldType::FieldSubject, true);
 
 // 4 -  "Comments" property, which we can display using a COMMENTS field:
 properties->set_Comments(System::String::Format(u"This is {0}'s document about {1}", properties->get_Author(), properties->get_Subject()));
 builder->Write(u"\nComments:\t\"");
-builder->InsertField(Aspose::Words::Fields::FieldType::FieldComments, true);
+builder->InsertField(FieldType::FieldComments, true);
 builder->Write(u"\"");
 
 // The "Category" built-in property does not have a field that can display its value.

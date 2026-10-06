@@ -106,7 +106,7 @@ builder->Write(u"Paragraph 3.");
 // to modify how we save the document to plaintext.
 auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 
-ASSERT_EQ(Aspose::Words::SaveFormat::Text, txtSaveOptions->get_SaveFormat());
+ASSERT_EQ(SaveFormat::Text, txtSaveOptions->get_SaveFormat());
 
 // Set the "ParagraphBreak" to a custom value that we wish to put at the end of every paragraph.
 txtSaveOptions->set_ParagraphBreak(u" End of paragraph.\n\n\t");

@@ -30,9 +30,9 @@ Shows how to set fore theme color and tint and shade.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 40);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::TextBox, static_cast<double>(100), static_cast<double>(40));
 System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();
-stroke->set_ForeThemeColor(Aspose::Words::Themes::ThemeColor::Dark1);
+stroke->set_ForeThemeColor(ThemeColor::Dark1);
 stroke->set_ForeTintAndShade(0.5);
 
 doc->Save(get_ArtifactsDir() + u"Shape.StrokeForeThemeColors.docx");

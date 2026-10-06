@@ -5,7 +5,7 @@ articleTitle: FieldMergeField
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMergeField class for seamless document automation. Enhance your workflows with powerful MERGEFIELD functionality.
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class

@@ -26,7 +26,7 @@ Shows how to compare expressions using a COMPARE field.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCompare, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
 field->set_LeftExpression(u"3");
 field->set_ComparisonOperator(u"<");
 field->set_RightExpression(u"2");
@@ -39,7 +39,7 @@ ASSERT_EQ(u"0", field->get_Result());
 
 builder->Writeln();
 
-field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCompare, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");

@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Row::get_Ne
 
 Shows how to enumerate through all table cells. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Enumerate through all cells of the table.

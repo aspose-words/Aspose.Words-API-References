@@ -5,7 +5,7 @@ articleTitle: ComHelper
 second_title: Aspose.Words for .NET
 description: Unlock seamless document integration with Aspose.Words.ComHelper. Effortlessly load and manage documents for COM clients with powerful features.
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/comhelper/
 ---
 ## ComHelper class

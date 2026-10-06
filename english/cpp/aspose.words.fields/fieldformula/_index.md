@@ -56,7 +56,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Use a field builder to construct a mathematical equation,
 // then create a formula field to display the equation's result in the document.
-auto fieldBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(Aspose::Words::Fields::FieldType::FieldFormula);
+auto fieldBuilder = System::MakeObject<Aspose::Words::Fields::FieldBuilder>(FieldType::FieldFormula);
 fieldBuilder->AddArgument(2);
 fieldBuilder->AddArgument(u"*");
 fieldBuilder->AddArgument(5);

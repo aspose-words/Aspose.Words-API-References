@@ -5,7 +5,7 @@ articleTitle: ClearFormat
 second_title: Aspose.Words for .NET
 description: Discover how the ChartDataPoint ClearFormat method resets your data point's format to default, enhancing clarity and consistency in your charts.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.drawing.charts/chartdatapoint/clearformat/
 ---
 ## ChartDataPoint.ClearFormat method

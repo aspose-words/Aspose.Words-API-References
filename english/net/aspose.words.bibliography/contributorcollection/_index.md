@@ -5,7 +5,7 @@ articleTitle: ContributorCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.ContributorCollection class to efficiently manage bibliography contributors and enhance your document's references.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.bibliography/contributorcollection/
 ---
 ## ContributorCollection class

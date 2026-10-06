@@ -31,7 +31,7 @@ builder->Writeln(u"Hello world!");
 // to modify how we save the document to the WordML save format.
 auto options = System::MakeObject<Aspose::Words::Saving::WordML2003SaveOptions>();
 
-ASSERT_EQ(Aspose::Words::SaveFormat::WordML, options->get_SaveFormat());
+ASSERT_EQ(SaveFormat::WordML, options->get_SaveFormat());
 
 // Set the "PrettyFormat" property to "true" to apply tab character indentation and
 // newlines to make the output document's raw content easier to read.

@@ -33,13 +33,13 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
 
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 pageSetup->set_TopMargin(36.0);
 pageSetup->set_BottomMargin(36.0);
-pageSetup->set_PaperSize(Aspose::Words::PaperSize::A5);
+pageSetup->set_PaperSize(PaperSize::A5);
 
 // When saving the document to HTML, we can pass a SaveOptions object
 // to decide whether to preserve or discard page setup settings.

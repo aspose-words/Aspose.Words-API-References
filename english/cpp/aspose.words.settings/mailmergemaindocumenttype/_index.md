@@ -27,7 +27,7 @@ enum class MailMergeMainDocumentType
 | Catalog | 8 | Specifies that the mail merge source document is of the catalog type. |
 | Email | 16 | Specifies that the mail merge source document is of the e-mail message type. |
 | Fax | 32 | Specifies that the mail merge source document is of the fax type. |
-| Default | n/a | Equals to [NotAMergeDocument](./) |
+| Default | 0 | Equals to [NotAMergeDocument](./) |
 
 
 ## See Also

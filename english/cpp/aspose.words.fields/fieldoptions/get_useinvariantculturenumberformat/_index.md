@@ -40,7 +40,7 @@ field->Update();
 
 // Sometimes, fields may not format their numbers correctly under certain cultures.
 ASSERT_FALSE(doc->get_FieldOptions()->get_UseInvariantCultureNumberFormat());
-ASSERT_EQ(u"$1.234.567,89 ,     ", field->get_Result());
+ASSERT_EQ((u"$1.234.567,89 ,     "), field->get_Result());
 
 // To fix this, we could change the culture for the entire thread.
 // Another way to fix this is to set this flag,
@@ -48,7 +48,7 @@ ASSERT_EQ(u"$1.234.567,89 ,     ", field->get_Result());
 // This way allows us to avoid changing the culture for the entire thread.
 doc->get_FieldOptions()->set_UseInvariantCultureNumberFormat(true);
 field->Update();
-ASSERT_EQ(u"$1.234.567,89", field->get_Result());
+ASSERT_EQ((u"$1.234.567,89"), field->get_Result());
 ```
 
 ## See Also

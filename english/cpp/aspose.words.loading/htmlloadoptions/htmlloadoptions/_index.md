@@ -36,11 +36,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VML condi
 
 if (supportVml)
 {
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
 
@@ -74,14 +74,14 @@ Shows how to specify a base URI when opening an html document.
 // Suppose we want to load an .html document that contains an image linked by a relative URI
 // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
 // We can provide a base URI using an HtmlLoadOptions object.
-auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(Aspose::Words::LoadFormat::Html, u"", get_ImageDir());
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(Aspose::Words::LoadFormat::Html, loadOptions->get_LoadFormat());
+ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.
@@ -115,7 +115,7 @@ Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(const System::String &p
 Shows how to encrypt an Html document, and then open it using a password. 
 ```cpp
 // Create and sign an encrypted HTML document from an encrypted .docx.
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
 
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_Comments(u"Comment");
@@ -124,7 +124,7 @@ signOptions->set_DecryptionPassword(u"docPassword");
 
 System::String inputFileName = get_MyDir() + u"Encrypted.docx";
 System::String outputFileName = get_ArtifactsDir() + u"HtmlLoadOptions.EncryptedHtml.html";
-Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
+DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
 // To load and read this document, we will need to pass its decryption
 // password using a HtmlLoadOptions object.

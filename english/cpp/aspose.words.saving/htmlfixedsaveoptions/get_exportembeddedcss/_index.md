@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
 
 Shows how to determine where to store CSS stylesheets when exporting a document to Html. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
 // When we export a document to html, Aspose.Words will also create a CSS stylesheet to format the document with.
 // Setting the "ExportEmbeddedCss" flag to "true" save the CSS stylesheet to a .css file,

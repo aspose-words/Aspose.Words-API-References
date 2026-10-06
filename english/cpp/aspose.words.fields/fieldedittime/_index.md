@@ -57,9 +57,9 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // The EDITTIME field will show, in minutes,
 // the time spent with the document open in a Microsoft Word window.
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Write(u"You've been editing this document for ");
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldEditTime>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldEditTime, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldEditTime>(builder->InsertField(FieldType::FieldEditTime, true));
 builder->Writeln(u" minutes.");
 
 // This built in document property tracks the minutes. Microsoft Word uses this property

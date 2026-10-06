@@ -5,7 +5,7 @@ articleTitle: CheckGrammarOptions
 second_title: Aspose.Words for .NET
 description: Optimize your documents with Aspose.Words.AI.CheckGrammarOptions. Discover customizable AI grammar checks for flawless writing and enhanced clarity.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.ai/checkgrammaroptions/
 ---
 ## CheckGrammarOptions class

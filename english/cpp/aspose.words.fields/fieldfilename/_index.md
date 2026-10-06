@@ -14,7 +14,7 @@ Implements the FILENAME field. To learn more, visit the [Working with Fields](ht
 
 ```cpp
 class FieldFileName : public Aspose::Words::Fields::Field,
-                      public Aspose::Words::Fields::IFieldCodeTokenInfoProvider
+                      public IFieldCodeTokenInfoProvider
 ```
 
 ## Methods
@@ -61,14 +61,14 @@ In the current implementation, uses the [OriginalFileName](../../aspose.words/do
 
 Shows how to use [FieldOptions](../fieldoptions/) to override the default value for the FILENAME field. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->MoveToDocumentEnd();
 builder->Writeln();
 
 // This FILENAME field will display the local system file name of the document we loaded.
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldFileName, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->Update();
 
 ASSERT_EQ(u" FILENAME ", field->GetFieldCode());
@@ -78,7 +78,7 @@ builder->Writeln();
 
 // By default, the FILENAME field shows the file's name, but not its full local file system path.
 // We can set a flag to make it show the full file path.
-field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldFileName, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->set_IncludeFullPath(true);
 field->Update();
 

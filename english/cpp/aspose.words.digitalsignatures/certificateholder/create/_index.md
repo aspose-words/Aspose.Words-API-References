@@ -83,7 +83,7 @@ An instance of [CertificateHolder](../)
 Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
 
 // Create a comment and date which will be applied with our new digital signature.
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -96,7 +96,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
     System::SharedPtr<System::IO::Stream> streamIn = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Document.docx", System::IO::FileMode::Open);
     {
         System::SharedPtr<System::IO::Stream> streamOut = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"DigitalSignatureUtil.SignDocument.docx", System::IO::FileMode::OpenOrCreate);
-        Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(streamIn, streamOut, certificateHolder, signOptions);
+        DigitalSignatureUtil::Sign(streamIn, streamOut, certificateHolder, signOptions);
     }
 }
 ```

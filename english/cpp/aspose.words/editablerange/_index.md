@@ -43,7 +43,7 @@ class EditableRange : public System::Object
 Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
-doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
+doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only,") + u" we cannot edit this paragraph without the password.");
@@ -68,8 +68,8 @@ ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_EditableRangeEnd()->get
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-ASSERT_EQ(Aspose::Words::NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
-ASSERT_EQ(Aspose::Words::NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
+ASSERT_EQ(NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
+ASSERT_EQ(NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
 
 builder->Writeln(u"This paragraph is outside the editable range, and cannot be edited.");
 

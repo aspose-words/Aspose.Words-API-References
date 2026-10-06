@@ -5,7 +5,7 @@ articleTitle: Fill
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Drawing.Fill class for advanced fill formatting options, enhancing your document design and visual appeal effortlessly.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.words.drawing/fill/
 ---
 ## Fill class

@@ -23,12 +23,12 @@ System::SharedPtr<Aspose::Words::TabStopCollection> Aspose::Words::ParagraphForm
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table of contents.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table of contents.docx"));
 
 // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
-for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)))
+for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(NodeType::Paragraph, true)))
 {
-    if (para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() >= Aspose::Words::StyleIdentifier::Toc1 && para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() <= Aspose::Words::StyleIdentifier::Toc9)
+    if (para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() >= StyleIdentifier::Toc1 && para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() <= StyleIdentifier::Toc9)
     {
         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
         System::SharedPtr<Aspose::Words::TabStop> tab = para->get_ParagraphFormat()->get_TabStops()->idx_get(0);

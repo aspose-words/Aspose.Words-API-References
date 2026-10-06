@@ -130,8 +130,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
-ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ(FieldType::FieldDate, field->get_Type());
+ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
@@ -143,13 +143,13 @@ Shows how to work with a [FieldStart](../fieldstart/) node.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDate, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
 System::SharedPtr<Aspose::Words::Fields::FieldChar> fieldStart = field->get_Start();
 
-ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, fieldStart->get_FieldType());
+ASSERT_EQ(FieldType::FieldDate, fieldStart->get_FieldType());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
@@ -157,7 +157,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
-ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
+ASSERT_EQ((u" DATE  \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 
 // Update the field to show the current date.
 field->Update();

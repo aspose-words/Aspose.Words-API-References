@@ -27,21 +27,21 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Section 1, page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 3.");
-builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Writeln(u"Section 2, page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 2.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 3.");
 
 // Move the document builder to the first section's primary header,
 // which every page in that section will display.
 builder->MoveToSection(0);
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 
 // Insert a PAGE field, which will display the number of the current page.
 builder->Write(u"Page ");
@@ -52,12 +52,12 @@ builder->InsertField(u"PAGE", u"");
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 pageSetup->set_RestartPageNumbering(true);
 pageSetup->set_PageStartingNumber(5);
-pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
 
 // Create another primary header for the second section, with another PAGE field.
 builder->MoveToSection(1);
-builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
-builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 builder->Write(u" - ");
 builder->InsertField(u"PAGE", u"");
 builder->Write(u" - ");
@@ -67,7 +67,7 @@ builder->Write(u" - ");
 pageSetup = doc->get_Sections()->idx_get(1)->get_PageSetup();
 pageSetup->set_PageStartingNumber(10);
 pageSetup->set_RestartPageNumbering(true);
-pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::Arabic);
+pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```

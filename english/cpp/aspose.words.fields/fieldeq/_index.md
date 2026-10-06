@@ -53,8 +53,8 @@ class FieldEQ : public Aspose::Words::Fields::Field
 
 Shows how to replace the EQ field with Office [Math](../../aspose.words.math/). 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - EQ.docx");
-System::SharedPtr<Aspose::Words::Fields::FieldEQ> fieldEQ = doc->get_Range()->get_Fields()->LINQ_OfType<System::SharedPtr<Aspose::Words::Fields::FieldEQ> >()->LINQ_First();
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - EQ.docx"));
+System::SharedPtr<Aspose::Words::Fields::FieldEQ> fieldEQ = doc->get_Range()->get_Fields()->LINQ_OfType<System::SharedPtr<Aspose::Words::Fields::FieldEQ>>()->LINQ_First();
 
 System::SharedPtr<Aspose::Words::Math::OfficeMath> officeMath = fieldEQ->AsOfficeMath();
 

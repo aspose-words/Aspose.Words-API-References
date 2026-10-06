@@ -5,7 +5,7 @@ articleTitle: Source
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.Source class, your go-to solution for managing individual sources like books, journal articles, and interviews effortlessly.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.bibliography/source/
 ---
 ## Source class

@@ -33,12 +33,12 @@ enum class BaselineAlignment
 
 Shows how to set fonts vertical position on a line. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
 System::SharedPtr<Aspose::Words::ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat();
-if (format->get_BaselineAlignment() == Aspose::Words::BaselineAlignment::Auto)
+if (format->get_BaselineAlignment() == BaselineAlignment::Auto)
 {
-    format->set_BaselineAlignment(Aspose::Words::BaselineAlignment::Top);
+    format->set_BaselineAlignment(BaselineAlignment::Top);
 }
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphBaselineAlignment.docx");

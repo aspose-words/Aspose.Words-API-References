@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Start a table and set a default color/thickness for its borders.
 System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
-table->SetBorders(Aspose::Words::LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
+table->SetBorders(LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
 
 // Create a row with two cells with different background colors.
 builder->InsertCell();

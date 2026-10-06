@@ -93,15 +93,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Jpeg);
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
 options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
@@ -119,15 +119,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
-builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
 
 for (int32_t i = 0; i < doc->get_PageCount(); i++)
 {
@@ -135,7 +135,7 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
     // which to start rendering the document from.
     options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i));
     // Export page at 2325x5325 pixels and 600 dpi.
-    options->set_Resolution(600.0f);
+    options->set_Resolution(600);
     options->set_ImageSize(System::Drawing::Size(2325, 5325));
 
     doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);

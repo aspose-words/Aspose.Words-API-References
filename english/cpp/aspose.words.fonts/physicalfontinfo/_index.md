@@ -43,7 +43,8 @@ for (auto&& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFont
     std::cout << "FontFamilyName : " << fontInfo->get_FontFamilyName() << std::endl;
     std::cout << "FullFontName  : " << fontInfo->get_FullFontName() << std::endl;
     std::cout << "Version  : " << fontInfo->get_Version() << std::endl;
-    std::cout << "FilePath : " << fontInfo->get_FilePath() << "\n" << std::endl;
+    std::cout << "FilePath : " << fontInfo->get_FilePath() << std::endl;
+    std::cout << std::endl;
 }
 ```
 

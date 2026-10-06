@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportimagesasbase64/
 Specifies whether images are saved in Base64 format to the output file. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64() const
+bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64()
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ When this property is set to **true** images data are exported directly into the
 
 Shows how to save a .md document with images embedded inside it. 
 ```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
 saveOptions->set_ExportImagesAsBase64(exportImagesAsBase64);

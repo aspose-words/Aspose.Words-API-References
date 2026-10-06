@@ -35,6 +35,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [ChartMarker](./chartmarker/) | Represents a chart data marker. |
 | [ChartMultilevelValue](./chartmultilevelvalue/) | Represents a value for charts that display multilevel data. |
 | [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. |
+| [ChartPlotArea](./chartplotarea/) | Provides access to the plot area properties of a chart. |
 | [ChartSeries](./chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [`ChartSeries`](../aspose.words.drawing.charts/chartseries/). |
 | [ChartSeriesGroup](./chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |
