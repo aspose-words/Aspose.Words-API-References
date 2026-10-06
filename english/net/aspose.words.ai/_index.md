@@ -3,7 +3,7 @@ title: Aspose.Words.AI
 linktitle: Aspose.Words.AI
 articleTitle: Aspose.Words.AI
 second_title: Aspose.Words for .NET
-description: Integrate AI-powered document processing effortlessly with Aspose.Words.AI, supporting top LLMs like OpenAI and Gemini for enhanced productivity.
+description: The Aspose.Words.AI namespace provides seamless integration with large language models for AIpowered document processing. It supports AI models from providers such as OpenAI, Google Gemini, and Anthropic, as well as onpremise LLM inference through Aspose.LLM.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/
