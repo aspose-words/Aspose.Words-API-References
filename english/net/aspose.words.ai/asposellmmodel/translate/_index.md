@@ -20,6 +20,20 @@ public override Document Translate(Document sourceDocument, Language targetLangu
 
 Same approach as [`Translate`](../../openaimodel/translate/): the whole document is sent as one piece of text marked with run separators, to preserve the original formatting by restoring the translation back into the original runs. A small local model damages a run separator more often than a cloud model, so any run that could not be restored this way is translated again individually, by Language).
 
+## Examples
+
+Shows how to translate a document with a local model.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+using (AsposeLlmModel model = new AsposeLlmModel("Qwen25_3BPresetCpu"))
+{
+    Document translatedDoc = model.Translate(doc, Language.German);
+    translatedDoc.Save(ArtifactsDir + "AI.AsposeLlmTranslate.docx");
+}
+```
+
 ### See Also
 
 * class [Document](../../../aspose.words/document/)

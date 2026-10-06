@@ -15,7 +15,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Words](./aspose.words/) | The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
-| [Aspose.Words.AI](./aspose.words.ai/) | The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing. |
+| [Aspose.Words.AI](./aspose.words.ai/) | The **Aspose.Words.AI** namespace provides seamless integration with large language models (LLMs) for AI-powered document processing. It supports AI models from providers such as OpenAI, Google Gemini, and Anthropic, as well as on-premise LLM inference through Aspose.LLM. |
 | [Aspose.Words.Bibliography](./aspose.words.bibliography/) | The **Aspose.Words.Bibliography** namespace provides classes that allow to access a list of bibliography sources available in a document. |
 | [Aspose.Words.BuildingBlocks](./aspose.words.buildingblocks/) | The **Aspose.Words.BuildingBlocks** namespace provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [Aspose.Words.Comparing](./aspose.words.comparing/) | The **Aspose.Words.Comparing** namespace provides classes and enumerations that allow to specify additional options when comparing documents. |

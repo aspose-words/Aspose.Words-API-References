@@ -26,8 +26,9 @@ FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
 Assert.That(info.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 // The Encoding property is used only when we create a FileFormatInfo object for an html document.
-Assert.That(info.Encoding.EncodingName, Is.EqualTo("Western European (Windows)"));
-Assert.That(info.Encoding.CodePage, Is.EqualTo(1252));
+// On Windows, the detected ISO-8859-1 encoding is reported as its Windows-1252 superset.
+Assert.That(info.Encoding.EncodingName, Is.EqualTo(isLinux ? "Western European (ISO)" : "Western European (Windows)"));
+Assert.That(info.Encoding.CodePage, Is.EqualTo(isLinux ? 28591 : 1252));
 ```
 
 ### See Also
