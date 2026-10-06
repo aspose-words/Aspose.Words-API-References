@@ -5,7 +5,7 @@ articleTitle: Chart
 second_title: Aspose.Words for .NET
 description: Unlock powerful chart shape properties with Aspose.Words.Drawing.Charts.Chart class. Enhance your documents with dynamic visual data representation.
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
@@ -29,6 +29,7 @@ public class Chart
 | [DataTable](../../aspose.words.drawing.charts/chart/datatable/) { get; } | Provides access to properties of a data table of this chart. The data table can be shown using the [`Show`](../chartdatatable/show/) property. |
 | [Format](../../aspose.words.drawing.charts/chart/format/) { get; } | Provides access to fill and line formatting of the chart. |
 | [Legend](../../aspose.words.drawing.charts/chart/legend/) { get; } | Provides access to the chart legend properties. |
+| [PlotArea](../../aspose.words.drawing.charts/chart/plotarea/) { get; } | Provides access to the plot area properties. |
 | [Series](../../aspose.words.drawing.charts/chart/series/) { get; } | Provides access to series collection. |
 | [SeriesGroups](../../aspose.words.drawing.charts/chart/seriesgroups/) { get; } | Provides access to a series group collection of this chart. |
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |

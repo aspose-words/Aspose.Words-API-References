@@ -5,7 +5,7 @@ articleTitle: FontInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontInfo class, your key to detailed font insights for documents, enhancing text quality and visual appeal.
 type: docs
-weight: 3380
+weight: 3400
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class

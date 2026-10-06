@@ -5,7 +5,7 @@ articleTitle: BuildingBlockGallery
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words BuildingBlockGallery enum, your guide to predefined galleries for efficient document management and organization. Enhance your workflow today!
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 ## BuildingBlockGallery enumeration

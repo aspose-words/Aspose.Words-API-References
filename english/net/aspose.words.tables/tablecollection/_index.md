@@ -5,7 +5,7 @@ articleTitle: TableCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.TableCollection class for easy, typed access to Table nodes, enhancing document processing efficiency and flexibility.
 type: docs
-weight: 7330
+weight: 7350
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
@@ -53,8 +53,12 @@ Assert.That(tables[1].Rows.Count, Is.EqualTo(4));
 
 foreach (Table table in tables.OfType<Table>())
 {
-    table.FirstRow?.Remove();
-    table.LastRow?.Remove();
+    Row first = table.FirstRow;
+    if (first!= null)
+        first.Remove();
+    Row last = table.LastRow;
+    if (last!= null)
+        last.Remove();
 }
 
 Assert.That(tables[0].Rows.Count, Is.EqualTo(3));

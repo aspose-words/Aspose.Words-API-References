@@ -5,7 +5,7 @@ articleTitle: TabStopCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TabStopCollection. Easily manage custom tab stops for paragraphs and styles, enhancing your document formatting with precision.
 type: docs
-weight: 7180
+weight: 7200
 url: /net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class

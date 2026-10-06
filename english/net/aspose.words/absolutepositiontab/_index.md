@@ -5,7 +5,7 @@ articleTitle: AbsolutePositionTab
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.AbsolutePositionTab class, enabling precise text positioning in WordprocessingML for enhanced document formatting and control.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words/absolutepositiontab/
 ---
 ## AbsolutePositionTab class

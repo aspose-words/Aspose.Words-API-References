@@ -5,7 +5,7 @@ articleTitle: XmlDsigLevel
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.DigitalSignatures.XmlDsigLevel enum to enhance your digital signatures with XMLDSig standards for secure and reliable document integrity.
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.words.digitalsignatures/xmldsiglevel/
 ---
 ## XmlDsigLevel enumeration

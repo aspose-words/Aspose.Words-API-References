@@ -34,22 +34,6 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-Shows how to convert a PDF to a .docx.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-// Load the PDF document that we just saved, and convert it to .docx.
-Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
-
-pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
-```
-
 ### See Also
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
@@ -208,27 +192,6 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imag
 // This will improve the quality of the image at the cost of an increased file size.
 imageOptions.JpegQuality = 100;
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-```
-
-Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Hello world!");
-
-doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
-
-// Load the PDF document that we just saved, and convert it to .docx.
-Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
-
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
-
-// Set the "Password" property to encrypt the saved document with a password.
-saveOptions.Password = "MyPassword";
-
-pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
 Shows how to convert a whole document to PDF with three levels in the document outline.

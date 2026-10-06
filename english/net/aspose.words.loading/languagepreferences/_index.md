@@ -5,7 +5,7 @@ articleTitle: LanguagePreferences
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LanguagePreferences class to effortlessly customize and manage language settings for enhanced document processing.
 type: docs
-weight: 4160
+weight: 4180
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class

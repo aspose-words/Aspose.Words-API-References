@@ -5,7 +5,7 @@ articleTitle: FieldEnd
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEnd class, which efficiently handles Word field endings in documents, enhancing your document processing capabilities.
 type: docs
-weight: 2280
+weight: 2300
 url: /net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
@@ -99,7 +99,9 @@ using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
         if (fieldEnumerator.Current != null)
         {
             fieldEnumerator.Current.Start.Accept(fieldVisitor);
-            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            FieldSeparator separator = fieldEnumerator.Current.Separator;
+            if (separator != null)
+                separator.Accept(fieldVisitor);
             fieldEnumerator.Current.End.Accept(fieldVisitor);
         }
         else

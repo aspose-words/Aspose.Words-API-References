@@ -5,7 +5,7 @@ articleTitle: ChartMarker
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartMarker class, your go-to solution for enhancing chart data visualization with customizable markers.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class

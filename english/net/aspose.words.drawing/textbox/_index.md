@@ -5,7 +5,7 @@ articleTitle: TextBox
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.TextBox class to easily customize text display within shapes, enhancing your document's visual appeal and functionality.
 type: docs
-weight: 1740
+weight: 1760
 url: /net/aspose.words.drawing/textbox/
 ---
 ## TextBox class

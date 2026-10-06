@@ -5,7 +5,7 @@ articleTitle: EmbeddedFontStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words EmbeddedFontStyle enum to easily manage embedded font styles in FontInfo objects, enhancing your document formatting capabilities.
 type: docs
-weight: 3300
+weight: 3320
 url: /net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration

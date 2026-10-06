@@ -5,7 +5,7 @@ articleTitle: PersonCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.PersonCollection class, designed to streamline bibliography management by efficiently listing source contributors.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.bibliography/personcollection/
 ---
 ## PersonCollection class

@@ -5,7 +5,7 @@ articleTitle: Style
 second_title: Aspose.Words for .NET
 description: Customize chart appearance in Aspose.Words. Get or set Chart.Style for polished, visually appealing document charts.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.drawing.charts/chart/style/
 ---
 ## Chart.Style property

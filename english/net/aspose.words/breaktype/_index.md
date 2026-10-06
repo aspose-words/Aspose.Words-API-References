@@ -5,7 +5,7 @@ articleTitle: BreakType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.BreakType enum to enhance your document formatting with precise break types for improved readability and layout control.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.words/breaktype/
 ---
 ## BreakType enumeration

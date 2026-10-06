@@ -5,7 +5,7 @@ articleTitle: ConvertUtil
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ConvertUtil class for seamless unit conversion. Enhance your document processing with essential helper functions today!
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.words/convertutil/
 ---
 ## ConvertUtil class

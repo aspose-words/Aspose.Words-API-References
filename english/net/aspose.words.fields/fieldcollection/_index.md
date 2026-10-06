@@ -5,7 +5,7 @@ articleTitle: FieldCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.FieldCollection, a powerful class for managing Field objects within specified document ranges, enhancing your document automation.
 type: docs
-weight: 2110
+weight: 2130
 url: /net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
@@ -73,7 +73,9 @@ using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
         if (fieldEnumerator.Current != null)
         {
             fieldEnumerator.Current.Start.Accept(fieldVisitor);
-            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            FieldSeparator separator = fieldEnumerator.Current.Separator;
+            if (separator != null)
+                separator.Accept(fieldVisitor);
             fieldEnumerator.Current.End.Accept(fieldVisitor);
         }
         else
