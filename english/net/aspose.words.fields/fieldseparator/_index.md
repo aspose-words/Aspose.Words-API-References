@@ -5,7 +5,7 @@ articleTitle: FieldSeparator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSeparator class, designed to enhance your Word documents by effectively separating field codes from results.
 type: docs
-weight: 2800
+weight: 2820
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
@@ -98,7 +98,9 @@ using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
         if (fieldEnumerator.Current != null)
         {
             fieldEnumerator.Current.Start.Accept(fieldVisitor);
-            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            FieldSeparator separator = fieldEnumerator.Current.Separator;
+            if (separator != null)
+                separator.Accept(fieldVisitor);
             fieldEnumerator.Current.End.Accept(fieldVisitor);
         }
         else

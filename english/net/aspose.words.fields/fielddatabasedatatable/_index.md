@@ -5,7 +5,7 @@ articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDatabaseDataTable class, your go-to solution for efficient FieldDatabase field results. Unlock seamless data integration today!
 type: docs
-weight: 2180
+weight: 2200
 url: /net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class

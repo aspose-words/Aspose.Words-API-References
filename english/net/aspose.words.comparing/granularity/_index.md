@@ -5,7 +5,7 @@ articleTitle: Granularity
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Comparing.Granularity enum to effortlessly track document changes with precision. Enhance your document comparison today!
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration

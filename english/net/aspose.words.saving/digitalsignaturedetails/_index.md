@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DigitalSignatureDetails class for seamless digital document signing. Enhance security and authenticity effortlessly!
 type: docs
-weight: 5720
+weight: 5740
 url: /net/aspose.words.saving/digitalsignaturedetails/
 ---
 ## DigitalSignatureDetails class

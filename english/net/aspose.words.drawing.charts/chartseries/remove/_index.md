@@ -5,7 +5,7 @@ articleTitle: Remove
 second_title: Aspose.Words for .NET
 description: Effortlessly remove X values, Y values, and bubble sizes from your chart series with the ChartSeries Remove method. Streamline your data visualization today!
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method

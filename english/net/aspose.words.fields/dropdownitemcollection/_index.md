@@ -5,7 +5,7 @@ articleTitle: DropDownItemCollection
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Fields.DropDownItemCollection class—your go-to solution for managing dropdown items in form fields effortlessly!
 type: docs
-weight: 1920
+weight: 1940
 url: /net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class

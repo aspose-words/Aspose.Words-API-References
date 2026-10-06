@@ -5,7 +5,7 @@ articleTitle: FieldMergeBarcode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldMergeBarcode class to effortlessly implement MERGEBARCODE fields for enhanced document automation and efficiency.
 type: docs
-weight: 2560
+weight: 2580
 url: /net/aspose.words.fields/fieldmergebarcode/
 ---
 ## FieldMergeBarcode class

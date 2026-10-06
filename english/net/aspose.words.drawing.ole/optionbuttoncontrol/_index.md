@@ -5,7 +5,7 @@ articleTitle: OptionButtonControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.OptionButtonControl class, perfect for creating exclusive choice options in your applications. Enhance user experience today!
 type: docs
-weight: 1520
+weight: 1540
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/
 ---
 ## OptionButtonControl class

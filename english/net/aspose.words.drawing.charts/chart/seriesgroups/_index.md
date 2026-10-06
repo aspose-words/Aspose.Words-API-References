@@ -5,7 +5,7 @@ articleTitle: SeriesGroups
 second_title: Aspose.Words for .NET
 description: Explore the Chart SeriesGroups property for easy access to a rich collection of series groups, enhancing your data visualization experience.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.drawing.charts/chart/seriesgroups/
 ---
 ## Chart.SeriesGroups property

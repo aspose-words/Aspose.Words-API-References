@@ -5,7 +5,7 @@ articleTitle: FieldStart
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldStart class, your key to efficiently managing Word fields in documents. Enhance your document processing today!
 type: docs
-weight: 2850
+weight: 2870
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -99,7 +99,9 @@ using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
         if (fieldEnumerator.Current != null)
         {
             fieldEnumerator.Current.Start.Accept(fieldVisitor);
-            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            FieldSeparator separator = fieldEnumerator.Current.Separator;
+            if (separator != null)
+                separator.Accept(fieldVisitor);
             fieldEnumerator.Current.End.Accept(fieldVisitor);
         }
         else

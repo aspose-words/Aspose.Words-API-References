@@ -5,7 +5,7 @@ articleTitle: Person
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.Person class for managing individual contributors in bibliographies. Enhance your document's citation accuracy!
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.bibliography/person/
 ---
 ## Person class

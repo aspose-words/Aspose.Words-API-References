@@ -5,7 +5,7 @@ articleTitle: Marker
 second_title: Aspose.Words for .NET
 description: Discover the ChartDataPoint Marker property to enhance your charts with customizable data markers for clearer insights and impactful visualizations.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker property

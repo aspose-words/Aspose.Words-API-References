@@ -5,7 +5,7 @@ articleTitle: LineSpacingRule
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.LineSpacingRule enum for customizable paragraph line spacing. Enhance document formatting with precise control and improved readability.
 type: docs
-weight: 3940
+weight: 3960
 url: /net/aspose.words/linespacingrule/
 ---
 ## LineSpacingRule enumeration

@@ -5,7 +5,7 @@ articleTitle: FieldQuote
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldQuote class, your solution for efficiently implementing QUOTE fields in documents. Enhance your workflow today!
 type: docs
-weight: 2730
+weight: 2750
 url: /net/aspose.words.fields/fieldquote/
 ---
 ## FieldQuote class

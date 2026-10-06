@@ -16,6 +16,7 @@ The **Aspose.Words.AI** namespace enables seamless integration with large langua
 | --- | --- |
 | [AiModel](./aimodel/) | An abstract class representing the integration with various AI models within the Aspose.Words. |
 | [AnthropicAiModel](./anthropicaimodel/) | An abstract class representing the integration with Anthropic’s AI models within the Aspose.Words. |
+| [AsposeLlmModel](./asposellmmodel/) | Provides AI-powered document processing backed by Aspose.LLM - an on-premise LLM inference engine that runs entirely inside the current process, so document content never leaves the machine. |
 | [CheckGrammarOptions](./checkgrammaroptions/) | Allows to specify various options while checking grammar of a document using AI. |
 | [GoogleAiModel](./googleaimodel/) | Class representing Google AI Models (Gemini) integration within Aspose.Words. |
 | [OpenAiModel](./openaimodel/) | Class representing OpenAi models integration within Aspose.Words. |

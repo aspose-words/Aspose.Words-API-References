@@ -5,7 +5,7 @@ articleTitle: Contributor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.Contributor class, your go-to solution for managing bibliography contributors, including organizations and individuals.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.bibliography/contributor/
 ---
 ## Contributor class

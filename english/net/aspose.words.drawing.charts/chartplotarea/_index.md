@@ -1,0 +1,30 @@
+---
+title: ChartPlotArea Class
+linktitle: ChartPlotArea
+articleTitle: ChartPlotArea
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartPlotArea class. Provides access to the plot area properties of a chart.
+type: docs
+weight: 1090
+url: /net/aspose.words.drawing.charts/chartplotarea/
+---
+## ChartPlotArea class
+
+Provides access to the plot area properties of a chart.
+
+To learn more, visit the [Working with Charts ](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+```csharp
+public class ChartPlotArea
+```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Format](../../aspose.words.drawing.charts/chartplotarea/format/) { get; } | Provides access to fill and line formatting of the plot area. |
+
+### See Also
+
+* namespace [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
+* assembly [Aspose.Words](../../)

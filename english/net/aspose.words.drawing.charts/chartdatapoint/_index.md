@@ -5,7 +5,7 @@ articleTitle: ChartDataPoint
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartDataPoint class to easily format individual chart data points, enhancing your data visualization with precision.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
@@ -27,6 +27,7 @@ public class ChartDataPoint : IChartDataPoint
 | [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Provides access to fill and line formatting of this data point. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index of the data point this object applies formatting to. |
 | [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [IsTotal](../../aspose.words.drawing.charts/chartdatapoint/istotal/) { get; } | Gets a flag indicating whether the data point is a total. Applies only to Waterfall charts. |
 | [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Specifies chart data marker. |
 
 ## Methods

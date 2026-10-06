@@ -5,7 +5,7 @@ articleTitle: ChartSeries
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartSeries class, your key to enhancing chart series properties for dynamic document creation and visualization.
 type: docs
-weight: 1080
+weight: 1100
 url: /net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
@@ -51,6 +51,7 @@ public class ChartSeries : IChartDataPoint
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
+| [IsTotal](../../aspose.words.drawing.charts/chartseries/istotal/)(*int*) | Determines whether the data point at the specified index is a total. Applies only to Waterfall charts. |
 | [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed. |
 
 ## Examples

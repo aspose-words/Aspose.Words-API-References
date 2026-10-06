@@ -47,7 +47,9 @@ using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
         if (fieldEnumerator.Current != null)
         {
             fieldEnumerator.Current.Start.Accept(fieldVisitor);
-            fieldEnumerator.Current.Separator?.Accept(fieldVisitor);
+            FieldSeparator separator = fieldEnumerator.Current.Separator;
+            if (separator != null)
+                separator.Accept(fieldVisitor);
             fieldEnumerator.Current.End.Accept(fieldVisitor);
         }
         else

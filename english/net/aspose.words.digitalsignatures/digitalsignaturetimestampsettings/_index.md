@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET
 description: Aspose.Words.DigitalSignatures.DigitalSignatureTimestampSettings class. Contains settings of the digital signature timestamp.
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/
 ---
 ## DigitalSignatureTimestampSettings class

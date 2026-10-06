@@ -5,7 +5,7 @@ articleTitle: Bibliography
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography class, your essential tool for managing bibliography sources in documents efficiently and effortlessly.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.bibliography/bibliography/
 ---
 ## Bibliography class
