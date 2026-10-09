@@ -42,6 +42,7 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [ChartMarker](./chartmarker/) | Represents a chart data marker. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartMultilevelValue](./chartmultilevelvalue/) | Represents a value for charts that display multilevel data. |
 | [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
+| [ChartPlotArea](./chartplotarea/) | Provides access to the plot area properties of a chart. To learn more, visit the [Working with Charts             ](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartSeries](./chartseries/) | Represents chart series properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [ChartSeries](./chartseries/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartSeriesGroup](./chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |

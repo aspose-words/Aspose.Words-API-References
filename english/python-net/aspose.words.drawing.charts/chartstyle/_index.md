@@ -5,7 +5,7 @@ articleTitle: ChartStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartStyle enumeration. Specifies predefined styles of a chart."
 type: docs
-weight: 390
+weight: 400
 url: /python-net/aspose.words.drawing.charts/chartstyle/
 ---
 

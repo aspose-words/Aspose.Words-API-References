@@ -5,7 +5,7 @@ articleTitle: ChartSeriesCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeriesCollection class. Represents collection of a [ChartSeries](../chartseries/)"
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/
 ---
 

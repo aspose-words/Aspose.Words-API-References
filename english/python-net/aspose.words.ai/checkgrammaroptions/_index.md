@@ -5,7 +5,7 @@ articleTitle: CheckGrammarOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.CheckGrammarOptions class. Allows to specify various options while checking grammar of a document using AI."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.ai/checkgrammaroptions/
 ---
 
