@@ -35,6 +35,7 @@ The [ChartDataPointCollection](../chartdatapointcollection/) contains a [ChartDa
 | [format](./format/) | Provides access to fill and line formatting of this data point. |
 | [index](./index/) | Index of the data point this object applies formatting to. |
 | [invert_if_negative](./invert_if_negative/) | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [is_total](./is_total/) | Gets a flag indicating whether the data point is a total. Applies only to Waterfall charts. |
 | [marker](./marker/) | Specifies chart data marker. |
 
 ### Methods

@@ -5,7 +5,7 @@ articleTitle: marker property
 second_title: Aspose.Words for Python
 description: "ChartDataPoint.marker property. Specifies chart data marker."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
 

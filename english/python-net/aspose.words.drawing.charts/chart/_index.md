@@ -28,6 +28,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [data_table](./data_table/) | Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.show](../chartdatatable/show/) property. |
 | [format](./format/) | Provides access to fill and line formatting of the chart. |
 | [legend](./legend/) | Provides access to the chart legend properties. |
+| [plot_area](./plot_area/) | Provides access to the plot area properties. |
 | [series](./series/) | Provides access to series collection. |
 | [series_groups](./series_groups/) | Provides access to a series group collection of this chart. |
 | [source_full_name](./source_full_name/) | Gets the path and name of an xls/xlsx file this chart is linked to. |
