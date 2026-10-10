@@ -1,0 +1,63 @@
+﻿---
+title: OoxmlSaveOptions constructor
+linktitle: OoxmlSaveOptions constructor
+articleTitle: OoxmlSaveOptions constructor
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.OoxmlSaveOptions constructor"
+type: docs
+weight: 10
+url: /fr/python-net/aspose.words.saving/ooxmlsaveoptions/__init__/
+---
+
+## OoxmlSaveOptions() {#default}
+
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.DOCX](../../../aspose.words/saveformat/#DOCX) format.
+
+
+
+```python
+def __init__(self):
+    ...
+```
+
+## OoxmlSaveOptions(save_format) {#saveformat}
+
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.DOCX](../../../aspose.words/saveformat/#DOCX),
+[SaveFormat.DOCM](../../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../../aspose.words/saveformat/#DOTM) or
+[SaveFormat.FLAT_OPC](../../../aspose.words/saveformat/#FLAT_OPC) format.
+
+
+
+```python
+def __init__(self, save_format: aspose.words.SaveFormat):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| save_format | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.DOCX](../../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../../aspose.words/saveformat/#FLAT_OPC). |
+
+## Examples
+
+Shows how to support legacy control characters when converting to .docx.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Legacy control character.doc')
+# Lorsque nous enregistrons le document au format OOXML, nous pouvons créer un objet OoxmlSaveOptions
+# et le transmettre ensuite à la méthode d'enregistrement du document pour modifier la façon dont nous enregistrons le document.
+# Définissez la propriété "KeepLegacyControlChars" sur "true" pour préserver
+# le caractère hérité "ShortDateTime" lors de l'enregistrement.
+# Définissez la propriété "KeepLegacyControlChars" sur "false" pour supprimer
+# le caractère hérité "ShortDateTime" du document de sortie.
+so = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
+so.keep_legacy_control_chars = keep_legacy_control_chars
+doc.save(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.KeepLegacyControlChars.docx', save_options=so)
+doc = aw.Document(file_name=ARTIFACTS_DIR + 'OoxmlSaveOptions.KeepLegacyControlChars.docx')
+self.assertEqual('\x13date \\@ "MM/dd/yyyy"\x14\x15\x0c' if keep_legacy_control_chars else '\x1e\x0c', doc.first_section.body.get_text())
+```
+
+## See Also
+
+* module [aspose.words.saving](../../)
+* class [OoxmlSaveOptions](../)
+

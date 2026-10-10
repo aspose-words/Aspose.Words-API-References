@@ -1,0 +1,28 @@
+﻿---
+title: FormFieldCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "FormFieldCollection.count property. Returns the number of form fields in the collection."
+type: docs
+weight: 20
+url: /fr/python-net/aspose.words.fields/formfieldcollection/count/
+---
+
+## FormFieldCollection.count property
+
+Returns the number of form fields in the collection.
+
+
+```python
+@property
+def count(self) -> int:
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FormFieldCollection](../)
+

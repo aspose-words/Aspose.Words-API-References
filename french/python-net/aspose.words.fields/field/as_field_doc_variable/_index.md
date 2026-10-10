@@ -1,0 +1,27 @@
+﻿---
+title: Field.as_field_doc_variable method
+linktitle: as_field_doc_variable method
+articleTitle: as_field_doc_variable method
+second_title: Aspose.Words for Python
+description: "Field.as_field_doc_variable method. Cast Field to [FieldDocVariable](../../fielddocvariable/)."
+type: docs
+weight: 360
+url: /fr/python-net/aspose.words.fields/field/as_field_doc_variable/
+---
+
+## as_field_doc_variable() {#default}
+
+Cast Field to [FieldDocVariable](../../fielddocvariable/).
+
+
+
+```python
+def as_field_doc_variable(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+
