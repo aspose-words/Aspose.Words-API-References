@@ -1,0 +1,57 @@
+﻿---
+title: CustomXmlSchemaCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "CustomXmlSchemaCollection.clear method. Removes all elements from the collection."
+type: docs
+weight: 40
+url: /ar/python-net/aspose.words.markup/customxmlschemacollection/clear/
+---
+
+## clear() {#default}
+
+Removes all elements from the collection.
+
+
+```python
+def clear(self):
+    ...
+```
+
+### Examples
+
+Shows how to work with an XML schema collection.
+
+```python
+doc = aw.Document()
+xml_part_id = '{' + str(uuid.uuid4()) + '}'
+xml_part_content = '<root><text>Hello, World!</text></root>'
+xml_part = doc.custom_xml_parts.add(id=xml_part_id, xml=xml_part_content)
+# إضافة ارتباط مخطط XML.
+xml_part.schemas.add('http://www.w3.org/2001/XMLSchema')
+# استنساخ مجموعة ارتباطات مخطط XML للجزء المخصص من XML،
+# ثم إضافة بعض المخططات الجديدة إلى النسخة المستنسخة.
+schemas = xml_part.schemas.clone()
+schemas.add('http://www.w3.org/2001/XMLSchema-instance')
+schemas.add('http://schemas.microsoft.com/office/2006/metadata/contentType')
+self.assertEqual(3, schemas.count)
+self.assertEqual(2, schemas.index_of('http://schemas.microsoft.com/office/2006/metadata/contentType'))
+# تعداد المخططات وطباعة كل عنصر.
+for schema in schemas:
+    print(schema)
+# فيما يلي ثلاث طرق لإزالة المخططات من المجموعة.
+# 1 - إزالة مخطط حسب الفهرس:
+schemas.remove_at(2)
+# 2 - إزالة مخطط حسب القيمة:
+schemas.remove('http://www.w3.org/2001/XMLSchema')
+# 3 - استخدام طريقة "Clear" لتفريغ المجموعة دفعة واحدة.
+schemas.clear()
+self.assertEqual(0, schemas.count)
+```
+
+### See Also
+
+* module [aspose.words.markup](../../)
+* class [CustomXmlSchemaCollection](../)
+

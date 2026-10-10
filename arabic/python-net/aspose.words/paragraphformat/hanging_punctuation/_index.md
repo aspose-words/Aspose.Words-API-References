@@ -1,0 +1,45 @@
+﻿---
+title: ParagraphFormat.hanging_punctuation property
+linktitle: hanging_punctuation property
+articleTitle: hanging_punctuation property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.hanging_punctuation property. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph."
+type: docs
+weight: 130
+url: /ar/python-net/aspose.words/paragraphformat/hanging_punctuation/
+---
+
+## ParagraphFormat.hanging_punctuation property
+
+Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
+
+
+```python
+@property
+def hanging_punctuation(self) -> bool:
+    ...
+
+@hanging_punctuation.setter
+def hanging_punctuation(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to set special properties for Asian typography.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Document.docx')
+format = doc.first_section.body.first_paragraph.paragraph_format
+format.far_east_line_break_control = True
+format.word_wrap = False
+format.hanging_punctuation = True
+doc.save(file_name=ARTIFACTS_DIR + 'ParagraphFormat.AsianTypographyProperties.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [ParagraphFormat](../)
+

@@ -1,0 +1,95 @@
+﻿---
+title: PreferredWidth class
+linktitle: PreferredWidth class
+articleTitle: PreferredWidth class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.PreferredWidth class. Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell"
+type: docs
+weight: 70
+url: /ar/python-net/aspose.words.tables/preferredwidth/
+---
+
+## PreferredWidth class
+
+Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
+
+
+
+
+### Remarks
+
+Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
+
+The instances of this class are immutable.
+
+
+
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [AUTO](./AUTO/) | Returns an instance that represents the "preferred width is not specified" value. |
+| [type](./type/) | Gets the unit of measure used for this preferred width value. |
+| [value](./value/) | Gets the preferred width value. The unit of measure is specified in the [PreferredWidth.type](./type/) property. |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ equals(other)](./equals/#preferredwidth) | Determines whether the specified [PreferredWidth](./) is equal in value to the current [PreferredWidth](./). |
+|[ from_percent(percent)](./from_percent/#float) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
+|[ from_points(points)](./from_points/#float) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
+
+### Examples
+
+Shows how to set a table to auto fit to 50% of the width of the page.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+table = builder.start_table()
+builder.insert_cell()
+builder.write('Cell #1')
+builder.insert_cell()
+builder.write('Cell #2')
+builder.insert_cell()
+builder.write('Cell #3')
+table.preferred_width = aw.tables.PreferredWidth.from_percent(50)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTableWithPreferredWidth.docx')
+```
+
+Shows how to set a preferred width for table cells.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+table = builder.start_table()
+# هناك طريقتان لتطبيق الفئة "PreferredWidth" على خلايا الجدول.
+# 1 -  ضبط عرض مفضل ثابت بناءً على النقاط:
+builder.insert_cell()
+builder.cell_format.preferred_width = aw.tables.PreferredWidth.from_points(40)
+builder.cell_format.shading.background_pattern_color = aspose.pydrawing.Color.light_yellow
+builder.writeln(f'Cell with a width of {builder.cell_format.preferred_width}.')
+# 2 -  ضبط عرض مفضل نسبي بناءً على نسبة من عرض الجدول:
+builder.insert_cell()
+builder.cell_format.preferred_width = aw.tables.PreferredWidth.from_percent(20)
+builder.cell_format.shading.background_pattern_color = aspose.pydrawing.Color.light_blue
+builder.writeln(f'Cell with a width of {builder.cell_format.preferred_width}.')
+builder.insert_cell()
+# الخلية التي لا يُحدد لها عرض مفضل ستشغل باقي المساحة المتاحة.
+builder.cell_format.preferred_width = aw.tables.PreferredWidth.AUTO
+# كل تكوين لخاصية "PreferredWidth" ينشئ كائنًا جديدًا.
+self.assertNotEqual(hash(table.first_row.cells[1].cell_format.preferred_width), hash(builder.cell_format.preferred_width))
+builder.cell_format.shading.background_pattern_color = aspose.pydrawing.Color.light_green
+builder.writeln('Automatically sized cell.')
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertCellsWithPreferredWidths.docx')
+```
+
+### See Also
+
+* module [aspose.words.tables](../)
+* property [Table.preferred_width](../table/preferred_width/)
+* property [CellFormat.preferred_width](../cellformat/preferred_width/)
+

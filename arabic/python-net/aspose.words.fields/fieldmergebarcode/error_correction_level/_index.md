@@ -1,0 +1,32 @@
+﻿---
+title: FieldMergeBarcode.error_correction_level property
+linktitle: error_correction_level property
+articleTitle: error_correction_level property
+second_title: Aspose.Words for Python
+description: "FieldMergeBarcode.error_correction_level property. Gets or sets an error correction level of QR Code"
+type: docs
+weight: 80
+url: /ar/python-net/aspose.words.fields/fieldmergebarcode/error_correction_level/
+---
+
+## FieldMergeBarcode.error_correction_level property
+
+Gets or sets an error correction level of QR Code. Valid values are [0, 3].
+
+
+```python
+@property
+def error_correction_level(self) -> str:
+    ...
+
+@error_correction_level.setter
+def error_correction_level(self, value: str):
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldMergeBarcode](../)
+
