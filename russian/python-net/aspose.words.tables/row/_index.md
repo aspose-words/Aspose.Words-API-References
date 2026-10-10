@@ -1,0 +1,197 @@
+﻿---
+title: Row class
+linktitle: Row class
+articleTitle: Row class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.Row class. Represents a table row"
+type: docs
+weight: 90
+url: /ru/python-net/aspose.words.tables/row/
+---
+
+## Row class
+
+Represents a table row.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
+
+
+
+
+### Remarks
+
+[Row](./) can only be a child of a [Table](../table/).
+
+[Row](./) can contain one or more [Cell](../cell/) nodes.
+
+A minimal valid row needs to have at least one [Cell](../cell/).
+
+
+
+
+**Inheritance:** [Row](./) → [CompositeNode](../../aspose.words/compositenode/) → [Node](../../aspose.words/node/)
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [Row(doc)](./__init__/#documentbase) | Initializes a new instance of the [Row](./) class. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [cells](./cells/) | Provides typed access to the [Cell](../cell/) child nodes of the row. |
+| [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [first_cell](./first_cell/) | Returns the first [Cell](../cell/) in the row. |
+| [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hidden](./hidden/) | Gets or sets a flag indicating whether this row is hidden or not. |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_first_row](./is_first_row/) | True if this is the first row in a table; false otherwise. |
+| [is_last_row](./is_last_row/) | True if this is the last row in a table; false otherwise. |
+| [last_cell](./last_cell/) | Returns the last [Cell](../cell/) in the row. |
+| [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [next_row](./next_row/) | Gets the next [Row](./) node. |
+| [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [node_type](./node_type/) | Returns [NodeType.ROW](../../aspose.words/nodetype/#ROW). |
+| [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [parent_table](./parent_table/) | Returns the immediate parent table of the row. |
+| [previous_row](./previous_row/) | Gets the previous [Row](./) node. |
+| [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [row_format](./row_format/) | Provides access to the formatting properties of the row. |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
+|[ accept_end(visitor)](./accept_end/#documentvisitor) | Accepts a visitor for visiting the end of the row. |
+|[ accept_start(visitor)](./accept_start/#documentvisitor) | Accepts a visitor for visiting the start of the row. |
+|[ append_child(new_child)](../../aspose.words/compositenode/append_child/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ ensure_minimum()](./ensure_minimum/#default) | If the [Row](./) has no cells, creates and appends one [Cell](../cell/). |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#object) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ get_text()](./get_text/#default) | Gets the text of all cells in this row including the end of row character. |
+|[ index_of(child)](../../aspose.words/compositenode/index_of/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ insert_after(new_child, ref_child)](../../aspose.words/compositenode/insert_after/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ insert_before(new_child, ref_child)](../../aspose.words/compositenode/insert_before/#node_node) | Inserts the specified node immediately before the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ next_pre_order(root_node)](../../aspose.words/node/next_pre_order/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ node_type_to_string(node_type)](../../aspose.words/node/node_type_to_string/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ prepend_child(new_child)](../../aspose.words/compositenode/prepend_child/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ previous_pre_order(root_node)](../../aspose.words/node/previous_pre_order/#node) | Gets the previous node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ remove()](../../aspose.words/node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ remove_all_children()](../../aspose.words/compositenode/remove_all_children/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
+
+### Examples
+
+Shows how to create a table.
+
+```python
+doc = aw.Document()
+table = aw.tables.Table(doc)
+doc.first_section.body.append_child(table)
+# Таблицы содержат строки, которые содержат ячейки, которые могут иметь абзацы
+# с типичными элементами, такими как текстовые фрагменты, фигуры и даже другие таблицы.
+# Вызов метода "EnsureMinimum" у таблицы гарантирует, что
+# у таблицы будет как минимум одна строка, ячейка и абзац.
+first_row = aw.tables.Row(doc)
+table.append_child(first_row)
+first_cell = aw.tables.Cell(doc)
+first_row.append_child(first_cell)
+paragraph = aw.Paragraph(doc)
+first_cell.append_child(paragraph)
+# Добавьте текст в первую ячейку первой строки таблицы.
+run = aw.Run(doc=doc, text='Hello world!')
+paragraph.append_child(run)
+doc.save(file_name=ARTIFACTS_DIR + 'Table.CreateTable.docx')
+```
+
+Shows how to iterate through all tables in the document and print the contents of each cell.
+
+```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+tables = doc.first_section.body.tables
+self.assertEqual(2, len(list(tables)))
+i = 0
+while i < tables.count:
+    print(f'Start of Table {i}')
+    rows = tables[i].rows
+    # Мы можем использовать метод "ToArray" для коллекции строк, чтобы клонировать её в массив.
+    assert rows == rows.to_array()
+    self.assertNotEqual(rows, list(rows))
+    j = 0
+    while j < rows.count:
+        print(f'\tStart of Row {j}')
+        cells = rows[j].cells
+        # Мы можем использовать метод "ToArray" для коллекции ячеек, чтобы клонировать её в массив.
+        assert cells == cells.to_array()
+        self.assertNotEqual(cells, list(cells))
+        k = 0
+        while k < cells.count:
+            cell_text = cells[k].to_string(save_format=aw.SaveFormat.TEXT).strip()
+            print(f'\t\tContents of Cell:{k} = "{cell_text}"')
+            k += 1
+        print(f'\tEnd of Row {j}')
+        j += 1
+    print(f'End of Table {i}\n')
+    i += 1
+```
+
+Shows how to build a nested table without using a document builder.
+
+```python
+doc = aw.Document()
+# Создайте внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавьте её в документ.
+outer_table = ExTable._create_table(doc, 3, 4, 'Outer Table')
+doc.first_section.body.append_child(outer_table)
+# Создайте другую таблицу с двумя строками и двумя столбцами и вставьте её в первую ячейку первой таблицы.
+inner_table = ExTable._create_table(doc, 2, 2, 'Inner Table')
+outer_table.first_row.first_cell.append_child(inner_table)
+doc.save(file_name=ARTIFACTS_DIR + 'Table.CreateNestedTable.docx')
+```
+
+Shows how to build a nested table without using a document builder (CreateTable).
+
+```python
+@staticmethod
+def _create_table(doc, row_count, cell_count, cell_text):
+    table = aw.tables.Table(doc)
+    row_id = 1
+    while row_id <= row_count:
+        row = aw.tables.Row(doc)
+        table.append_child(row)
+        cell_id = 1
+        while cell_id <= cell_count:
+            cell = aw.tables.Cell(doc)
+            cell.append_child(aw.Paragraph(doc))
+            cell.first_paragraph.append_child(aw.Run(doc=doc, text=cell_text))
+            row.append_child(cell)
+            cell_id += 1
+        row_id += 1
+    # Вы можете использовать свойства "Title" и "Description", чтобы соответственно добавить заголовок и описание к вашей таблице.
+    # Таблица должна иметь как минимум одну строку, прежде чем мы сможем использовать эти свойства.
+    # Эти свойства имеют смысл для .docx‑документов, соответствующих ISO / IEC 29500 (см. класс OoxmlCompliance).
+    # Если мы сохраняем документ в форматы до ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    table.title = 'Aspose table title'
+    table.description = 'Aspose table description'
+    return table
+```
+
+### See Also
+
+* module [aspose.words.tables](../)
+* class [CompositeNode](../../aspose.words/compositenode/)
+
