@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Style::set_IsQuickStyle 方法"
+linktitle: "set_IsQuickStyle"
+second_title: "Aspose.Words for C++ API 参考"
+description: "Aspose::Words::Style::set_IsQuickStyle 方法。用于在 C++ 中设置 Aspose::Words::Style::get_IsQuickStyle 的 setter。"
+type: docs
+weight: 25000
+url: /zh/cpp/aspose.words/style/set_isquickstyle/
+---
+## Style::set_IsQuickStyle method
+
+
+用于设置 [Aspose::Words::Style::get_IsQuickStyle](../get_isquickstyle/) 的 setter。
+
+```cpp
+void Aspose::Words::Style::set_IsQuickStyle(bool value)
+```
+
+## 另见
+
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

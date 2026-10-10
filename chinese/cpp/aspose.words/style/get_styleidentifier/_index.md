@@ -1,0 +1,54 @@
+---
+title: "Aspose::Words::Style::get_StyleIdentifier 方法"
+linktitle: "get_StyleIdentifier"
+second_title: "Aspose.Words for C++ API 参考"
+description: "Aspose::Words::Style::get_StyleIdentifier 方法。获取内置样式的与区域无关的样式标识符（C++）。"
+type: docs
+weight: 17000
+url: /zh/cpp/aspose.words/style/get_styleidentifier/
+---
+## Style::get_StyleIdentifier method
+
+
+获取内置样式的区域无关标识符。
+
+```cpp
+Aspose::Words::StyleIdentifier Aspose::Words::Style::get_StyleIdentifier() const
+```
+
+## 备注
+
+
+对于用户自定义（自定义）样式，此属性返回 [User](../../styleidentifier/)。
+
+## 示例
+
+
+
+展示如何修改目录相关段落中右侧制表位的位置。
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table of contents.docx");
+
+// 遍历所有使用基于目录结果的样式的段落；这些样式介于 TOC 和 TOC9 之间。
+for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)))
+{
+    if (para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() >= Aspose::Words::StyleIdentifier::Toc1 && para->get_ParagraphFormat()->get_Style()->get_StyleIdentifier() <= Aspose::Words::StyleIdentifier::Toc9)
+    {
+        // 获取此段落使用的第一个制表位，它应当用于对齐页码。
+        System::SharedPtr<Aspose::Words::TabStop> tab = para->get_ParagraphFormat()->get_TabStops()->idx_get(0);
+
+        // 将第一个默认制表位替换为自定义制表位。
+        para->get_ParagraphFormat()->get_TabStops()->RemoveByPosition(tab->get_Position());
+        para->get_ParagraphFormat()->get_TabStops()->Add(tab->get_Position() - 50, tab->get_Alignment(), tab->get_Leader());
+    }
+}
+
+doc->Save(get_ArtifactsDir() + u"Styles.ChangeTocsTabStops.docx");
+```
+
+## 另见
+
+* Enum [StyleIdentifier](../../styleidentifier/)
+* Class [Style](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
