@@ -1,0 +1,48 @@
+﻿---
+title: Paragraph.is_in_cell property
+linktitle: is_in_cell property
+articleTitle: is_in_cell property
+second_title: Aspose.Words for Python
+description: "Paragraph.is_in_cell property. True if this paragraph is an immediate child of [Cell](../../../aspose.words.tables/cell/); false otherwise."
+type: docs
+weight: 100
+url: /tr/python-net/aspose.words/paragraph/is_in_cell/
+---
+
+## Paragraph.is_in_cell property
+
+True if this paragraph is an immediate child of [Cell](../../../aspose.words.tables/cell/); false otherwise.
+
+
+
+```python
+@property
+def is_in_cell(self) -> bool:
+    ...
+
+```
+
+### Examples
+
+Shows how to set a table to stay together on the same page.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Table spanning two pages.docx')
+table = doc.first_section.body.tables[0]
+# Tablodaki her paragraf için KeepWithNext'i etkinleştirmek, ancak
+# son satırdaki son paragraf dışındakiler, tablonun birden fazla sayfaya bölünmesini önleyecek.
+for cell in table.get_child_nodes(aw.NodeType.CELL, True):
+    cell = cell.as_cell()
+    for para in cell.paragraphs:
+        para = para.as_paragraph()
+        self.assertTrue(para.is_in_cell)
+        if not (cell.parent_row.is_last_row and para.is_end_of_cell):
+            para.paragraph_format.keep_with_next = True
+doc.save(file_name=ARTIFACTS_DIR + 'Table.KeepTableTogether.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Paragraph](../)
+

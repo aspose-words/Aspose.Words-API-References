@@ -1,0 +1,47 @@
+﻿---
+title: Cell.paragraphs property
+linktitle: paragraphs property
+articleTitle: paragraphs property
+second_title: Aspose.Words for Python
+description: "Cell.paragraphs property. Gets a collection of paragraphs that are immediate children of the cell."
+type: docs
+weight: 90
+url: /tr/python-net/aspose.words.tables/cell/paragraphs/
+---
+
+## Cell.paragraphs property
+
+Gets a collection of paragraphs that are immediate children of the cell.
+
+
+```python
+@property
+def paragraphs(self) -> aspose.words.ParagraphCollection:
+    ...
+
+```
+
+### Examples
+
+Shows how to set a table to stay together on the same page.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Table spanning two pages.docx')
+table = doc.first_section.body.tables[0]
+# Tablodaki her paragraf için KeepWithNext'i etkinleştirmek, ancak
+# son satırdaki son paragraf dışındakiler, tablonun birden fazla sayfaya bölünmesini önleyecek.
+for cell in table.get_child_nodes(aw.NodeType.CELL, True):
+    cell = cell.as_cell()
+    for para in cell.paragraphs:
+        para = para.as_paragraph()
+        self.assertTrue(para.is_in_cell)
+        if not (cell.parent_row.is_last_row and para.is_end_of_cell):
+            para.paragraph_format.keep_with_next = True
+doc.save(file_name=ARTIFACTS_DIR + 'Table.KeepTableTogether.docx')
+```
+
+### See Also
+
+* module [aspose.words.tables](../../)
+* class [Cell](../)
+

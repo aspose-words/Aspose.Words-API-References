@@ -1,0 +1,65 @@
+﻿---
+title: ParagraphFormat.line_unit_before property
+linktitle: line_unit_before property
+articleTitle: line_unit_before property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.line_unit_before property. Gets or sets the amount of spacing (in gridlines) before the paragraphs."
+type: docs
+weight: 220
+url: /tr/python-net/aspose.words/paragraphformat/line_unit_before/
+---
+
+## ParagraphFormat.line_unit_before property
+
+Gets or sets the amount of spacing (in gridlines) before the paragraphs.
+
+
+```python
+@property
+def line_unit_before(self) -> float:
+    ...
+
+@line_unit_before.setter
+def line_unit_before(self, value: float):
+    ...
+
+```
+
+### Examples
+
+Shows how to change paragraph spacing and indents.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+format = doc.first_section.body.first_paragraph.paragraph_format
+# Aşağıda, yapılandırmalarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı boşluk seçeneği verilmiştir.
+# 1 -  Sol girinti:
+self.assertEqual(format.left_indent, 0)
+format.character_unit_left_indent = 10
+self.assertEqual(format.left_indent, 120)
+# 2 -  Sağ girinti:
+self.assertEqual(format.right_indent, 0)
+format.character_unit_right_indent = -5.5
+self.assertEqual(format.right_indent, -66)
+# 3 -  Asılı girinti:
+self.assertEqual(format.first_line_indent, 0)
+format.character_unit_first_line_indent = 20.3
+self.assertAlmostEqual(format.first_line_indent, 243.59, delta=0.1)
+# 4 -  Paragraflardan önceki satır aralığı:
+self.assertEqual(format.space_before, 0)
+format.line_unit_before = 5.1
+self.assertAlmostEqual(format.space_before, 61.1, delta=0.1)
+# 5 -  Paragraflardan sonraki satır aralığı:
+self.assertEqual(format.space_after, 0)
+format.line_unit_after = 10.9
+self.assertAlmostEqual(format.space_after, 130.8, delta=0.1)
+builder.writeln('Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' + 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+builder.write('测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试' + '文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [ParagraphFormat](../)
+
