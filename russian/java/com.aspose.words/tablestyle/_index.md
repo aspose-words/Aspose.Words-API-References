@@ -1,111 +1,160 @@
 ---
-title: TableStyle
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет стиль таблицы.
+title: "TableStyle"
+linktitle: "TableStyle"
+second_title: "Aspose.Words для Java"
+description: "Представляет стиль таблицы в Java."
 type: docs
-weight: 552
+weight: 660
 url: /ru/java/com.aspose.words/tablestyle/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.Style](../../com.aspose.words/style)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Style](../../com.aspose.words/style/)
 ```
 public class TableStyle extends Style
 ```
 
 Представляет стиль таблицы.
 
- Чтобы узнать больше, посетите**Working with Tables** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Tables ][Working with Tables].
+
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+
+[Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearCellAttrs()](#clearCellAttrs--) |  |
-| [clearParaAttrs()](#clearParaAttrs--) |  |
-| [clearRowAttrs()](#clearRowAttrs--) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Style style)](#equals-com.aspose.words.Style-) | Сравнивается с указанным стилем. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
-| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int-) |  |
-| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int-) |  |
-| [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [fetchRowAttr(int key)](#fetchRowAttr-int-) |  |
-| [getAliases()](#getAliases--) | Получает все псевдонимы этого стиля. |
-| [getAlignment()](#getAlignment--) | Задает выравнивание для стиля таблицы. |
-| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | Получает флаг, указывающий, разрешено ли разбиение текста в строке таблицы на разрыв страницы. |
-| [getBaseStyleName()](#getBaseStyleName--) | Получает/задает имя стиля, на котором основан этот стиль. |
-| [getBidi()](#getBidi--) | Получает, является ли это стилем для таблицы с письмом справа налево. |
-| [getBorders()](#getBorders--) | Получает коллекцию границ ячеек по умолчанию для стиля. |
-| [getBottomPadding()](#getBottomPadding--) | Получает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
-| [getBuiltIn()](#getBuiltIn--) | Истинно, если этот стиль является одним из встроенных стилей в MS Word. |
-| [getCellSpacing()](#getCellSpacing--) | Получает расстояние (в пунктах) между ячейками. |
-| [getClass()](#getClass--) |  |
-| [getColumnStripe()](#getColumnStripe--) | Получает количество столбцов для включения в полосу, когда стиль указывает полосу нечетных/четных столбцов. |
-| [getConditionalStyles()](#getConditionalStyles--) | Коллекция условных стилей, которые могут быть определены для этого стиля таблицы. |
-| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDirectCellAttr(int key)](#getDirectCellAttr-int-) |  |
-| [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
-| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
-| [getDirectRowAttr(int key)](#getDirectRowAttr-int-) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Получает документ владельца. |
-| [getFont()](#getFont--) | Получает форматирование символов стиля. |
-| [getLeftIndent()](#getLeftIndent--) | Получает значение, представляющее левый отступ таблицы. |
-| [getLeftPadding()](#getLeftPadding--) | Получает количество места (в пунктах), которое нужно добавить слева от содержимого ячеек таблицы. |
-| [getLinkedStyleName()](#getLinkedStyleName--) | Получает имя стиля, связанного с этим. |
-| [getList()](#getList--) | Получает список, определяющий форматирование этого стиля списка. |
-| [getListFormat()](#getListFormat--) | Предоставляет доступ к свойствам форматирования списка стиля абзаца. |
-| [getName()](#getName--) | Получает имя стиля. |
-| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | Получает/задает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного с использованием указанного стиля. |
-| [getParagraphFormat()](#getParagraphFormat--) | Получает форматирование абзаца стиля. |
-| [getRightPadding()](#getRightPadding--) | Получает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы. |
-| [getRowStripe()](#getRowStripe--) | Получает количество строк для включения в полосу, когда стиль указывает полосу нечетных/четных строк. |
-| [getShading()](#getShading--) | Получает[Shading](../../com.aspose.words/shading) объект, который относится к форматированию затенения для ячеек таблицы. |
-| [getStyleIdentifier()](#getStyleIdentifier--) | Получает независимый от языкового стандарта идентификатор стиля для встроенного стиля. |
-| [getStyles()](#getStyles--) | Получает коллекцию стилей, к которым принадлежит этот стиль. |
-| [getTopPadding()](#getTopPadding--) | Получает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
-| [getType()](#getType--) | Получает тип стиля (абзац или символ). |
-| [getVerticalAlignment()](#getVerticalAlignment--) | Указывает вертикальное выравнивание ячеек. |
-| [hashCode()](#hashCode--) |  |
-| [isHeading()](#isHeading--) | True, если стиль является одним из встроенных стилей заголовков. |
-| [isQuickStyle()](#isQuickStyle--) | Указывает, отображается ли этот стиль в галерее экспресс-стилей в пользовательском интерфейсе MS Word. |
-| [isQuickStyle(boolean value)](#isQuickStyle-boolean-) | Указывает, отображается ли этот стиль в галерее экспресс-стилей в пользовательском интерфейсе MS Word. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Удаляет указанный стиль из документа. |
-| [removeParaAttr(int key)](#removeParaAttr-int-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [resetToDefaultAttrs()](#resetToDefaultAttrs--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | Задает выравнивание для стиля таблицы. |
-| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | Устанавливает флаг, указывающий, разрешено ли разбивать текст в строке таблицы через разрыв страницы. |
-| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String-) | Получает/задает имя стиля, на котором основан этот стиль. |
-| [setBidi(boolean value)](#setBidi-boolean-) | Устанавливает, является ли это стилем для таблицы с письмом справа налево. |
-| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | Устанавливает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
-| [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object-) |  |
-| [setCellSpacing(double value)](#setCellSpacing-double-) | Устанавливает расстояние (в пунктах) между ячейками. |
-| [setColumnStripe(int value)](#setColumnStripe-int-) | Устанавливает количество столбцов для включения в полосу, когда стиль определяет полосу нечетных/четных столбцов. |
-| [setLeftIndent(double value)](#setLeftIndent-double-) | Задает значение, представляющее левый отступ таблицы. |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | Задает количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
-| [setName(String value)](#setName-java.lang.String-) | Устанавливает имя стиля. |
-| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | Получает/задает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного с использованием указанного стиля. |
-| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRightPadding(double value)](#setRightPadding-double-) | Задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
-| [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object-) |  |
-| [setRowStripe(int value)](#setRowStripe-int-) | Устанавливает количество строк для включения в полосу, когда стиль определяет полосу нечетных/четных строк. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setTopPadding(double value)](#setTopPadding-double-) | Устанавливает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Указывает вертикальное выравнивание ячеек. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearCellAttrs() {#clearCellAttrs--}
+| [clearCellAttrs()](#clearCellAttrs) |  |
+| [clearParaAttrs()](#clearParaAttrs) |  |
+| [clearRowAttrs()](#clearRowAttrs) |  |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [equals(Style style)](#equals-com.aspose.words.Style) | Сравнивает с указанным стилем. |
+| [fetchCellAttr(int key)](#fetchCellAttr-int) |  |
+| [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
+| [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int) |  |
+| [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
+| [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
+| [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
+| [fetchRowAttr(int key)](#fetchRowAttr-int) |  |
+| [getAliases()](#getAliases) | Получает все псевдонимы этого стиля. |
+| [getAlignment()](#getAlignment) | Указывает выравнивание для стиля таблицы. |
+| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages) | Возвращает флаг, указывающий, разрешено ли разбивать текст в строке таблицы на разрыв страницы. |
+| [getAutomaticallyUpdate()](#getAutomaticallyUpdate) | Указывает, будет ли этот стиль автоматически переопределён на основе соответствующего значения. |
+| [getBaseStyleName()](#getBaseStyleName) | Получает/устанавливает имя стиля, на котором основан данный стиль. |
+| [getBorders()](#getBorders) | Возвращает коллекцию границ ячеек по умолчанию для стиля. |
+| [getBottomPadding()](#getBottomPadding) | Получает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы. |
+| [getBuiltIn()](#getBuiltIn) | True, если этот стиль является одним из встроенных стилей в MS Word. |
+| [getCellSpacing()](#getCellSpacing) | Возвращает количество пространства (в пунктах) между ячейками. |
+| [getColumnStripe()](#getColumnStripe) | Возвращает количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов. |
+| [getConditionalStyles()](#getConditionalStyles) | Коллекция условных стилей, которые могут быть определены для этого стиля таблицы. |
+| [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
+| [getDirectCellAttr(int key)](#getDirectCellAttr-int) |  |
+| [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
+| [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
+| [getDirectRowAttr(int key)](#getDirectRowAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
+| [getDocument()](#getDocument) | Получает документ‑владельца. |
+| [getFont()](#getFont) | Получает форматирование символов стиля. |
+| [getLeftIndent()](#getLeftIndent) | Возвращает значение, представляющее левый отступ таблицы. |
+| [getLeftPadding()](#getLeftPadding) | Получает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| [getLinkedStyleName()](#getLinkedStyleName) | Получает/устанавливает имя [Style](../../com.aspose.words/style/) связанного с этим. |
+| [getList()](#getList) | Получает список, определяющий форматирование этого стиля списка. |
+| [getListFormat()](#getListFormat) | Предоставляет доступ к свойствам форматирования списка абзацного стиля. |
+| [getLocked()](#getLocked) | Указывает, заблокирован ли этот стиль. |
+| [getName()](#getName) | Получает имя стиля. |
+| [getNextParagraphStyleName()](#getNextParagraphStyleName) | Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного указанным стилем. |
+| [getParagraphFormat()](#getParagraphFormat) | Получает форматирование абзаца стиля. |
+| [getPriority()](#getPriority) | Получает/устанавливает целочисленное значение, представляющее приоритет сортировки стилей в панели задач Styles. |
+| [getRightPadding()](#getRightPadding) | Получает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
+| [getRowStripe()](#getRowStripe) | Возвращает количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк. |
+| [getSemiHidden()](#getSemiHidden) | Получает/устанавливает, скрывается ли стиль в галерее Styles и в панели задач Styles. |
+| [getShading()](#getShading) | Возвращает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения ячеек таблицы. |
+| [getStyleIdentifier()](#getStyleIdentifier) | Получает независимый от локали идентификатор стиля для встроенного стиля. |
+| [getStyles()](#getStyles) | Получает коллекцию стилей, к которым принадлежит этот стиль. |
+| [getTopPadding()](#getTopPadding) | Получает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы. |
+| [getType()](#getType) | Получает тип стиля (абзацный или символьный). |
+| [getUnhideWhenUsed()](#getUnhideWhenUsed) | Получает/устанавливает, отображается ли стиль, используемый в текущем документе, в галерее Styles и в панели задач Styles. |
+| [getVerticalAlignment()](#getVerticalAlignment) | Указывает вертикальное выравнивание ячеек. |
+| [isHeading()](#isHeading) | True, когда стиль является одним из встроенных стилей Heading. |
+| [isQuickStyle()](#isQuickStyle) | Указывает, отображается ли этот стиль в галерее Quick Style в пользовательском интерфейсе MS Word. |
+| [isQuickStyle(boolean value)](#isQuickStyle-boolean) | Указывает, отображается ли этот стиль в галерее Quick Style в пользовательском интерфейсе MS Word. |
+| [remove()](#remove) | Удаляет указанный стиль из документа. |
+| [removeParaAttr(int key)](#removeParaAttr-int) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [resetToDefaultAttrs()](#resetToDefaultAttrs) |  |
+| [setAlignment(int value)](#setAlignment-int) | Указывает выравнивание для стиля таблицы. |
+| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean) | Устанавливает флаг, указывающий, разрешено ли разбивать текст в строке таблицы на разрыв страницы. |
+| [setAutomaticallyUpdate(boolean value)](#setAutomaticallyUpdate-boolean) | Указывает, будет ли этот стиль автоматически переопределён на основе соответствующего значения. |
+| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String) | Получает/устанавливает имя стиля, на котором основан данный стиль. |
+| [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
+| [setBottomPadding(double value)](#setBottomPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы. |
+| [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object) |  |
+| [setCellSpacing(double value)](#setCellSpacing-double) | Устанавливает количество пространства (в пунктах) между ячейками. |
+| [setColumnStripe(int value)](#setColumnStripe-int) | Устанавливает количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов. |
+| [setLeftIndent(double value)](#setLeftIndent-double) | Устанавливает значение, представляющее левый отступ таблицы. |
+| [setLeftPadding(double value)](#setLeftPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| [setLinkedStyleName(String value)](#setLinkedStyleName-java.lang.String) | Получает/устанавливает имя [Style](../../com.aspose.words/style/) связанного с этим. |
+| [setLocked(boolean value)](#setLocked-boolean) | Указывает, заблокирован ли этот стиль. |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает имя стиля. |
+| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного указанным стилем. |
+| [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
+| [setPriority(int value)](#setPriority-int) | Получает/устанавливает целочисленное значение, представляющее приоритет сортировки стилей в панели задач Styles. |
+| [setRightPadding(double value)](#setRightPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
+| [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object) |  |
+| [setRowStripe(int value)](#setRowStripe-int) | Устанавливает количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк. |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setSemiHidden(boolean value)](#setSemiHidden-boolean) | Получает/устанавливает, скрывается ли стиль в галерее Styles и в панели задач Styles. |
+| [setTopPadding(double value)](#setTopPadding-double) | Устанавливает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы. |
+| [setUnhideWhenUsed(boolean value)](#setUnhideWhenUsed-boolean) | Получает/устанавливает, отображается ли стиль, используемый в текущем документе, в галерее Styles и в панели задач Styles. |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Указывает вертикальное выравнивание ячеек. |
+### clearCellAttrs() {#clearCellAttrs}
 ```
 public void clearCellAttrs()
 ```
@@ -113,7 +162,7 @@ public void clearCellAttrs()
 
 
 
-### clearParaAttrs() {#clearParaAttrs--}
+### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
 ```
@@ -121,7 +170,7 @@ public void clearParaAttrs()
 
 
 
-### clearRowAttrs() {#clearRowAttrs--}
+### clearRowAttrs() {#clearRowAttrs}
 ```
 public void clearRowAttrs()
 ```
@@ -129,7 +178,7 @@ public void clearRowAttrs()
 
 
 
-### clearRunAttrs() {#clearRunAttrs--}
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -137,39 +186,52 @@ public void clearRunAttrs()
 
 
 
-### equals(Style style) {#equals-com.aspose.words.Style-}
+### equals(Style style) {#equals-com.aspose.words.Style}
 ```
 public boolean equals(Style style)
 ```
 
 
-Сравнивается с указанным стилем. Стили Istds сравниваются только для встроенных стилей. Стили по умолчанию не включены в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца сравниваются рекурсивно.
+Сравнивает с указанным стилем. Styles Istds сравниваются только для встроенных стилей. Значения по умолчанию стилей не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца сравниваются рекурсивно.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| style | [Style](../../com.aspose.words/style) |  |
+Показывает, как использовать псевдонимы стилей.
 
-**Возвращает:**
-логический
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
 
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
 
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
 
-**Параметры:**
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
 
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| style | [Style](../../com.aspose.words/style/) |  |
 
-**Возвращает:**
-логический
-### fetchCellAttr(int key) {#fetchCellAttr-int-}
+**Returns:**
+boolean
+### fetchCellAttr(int key) {#fetchCellAttr-int}
 ```
 public Object fetchCellAttr(int key)
 ```
@@ -177,15 +239,14 @@ public Object fetchCellAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
 ```
@@ -193,15 +254,14 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int}
 ```
 public Object fetchInheritedCellAttr(int key)
 ```
@@ -209,15 +269,14 @@ public Object fetchInheritedCellAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
 ```
@@ -225,15 +284,14 @@ public Object fetchInheritedParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int}
 ```
 public Object fetchInheritedRowAttr(int key)
 ```
@@ -241,15 +299,14 @@ public Object fetchInheritedRowAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -257,15 +314,14 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int}
 ```
 public Object fetchInheritedShadingAttr(int key)
 ```
@@ -273,15 +329,14 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchParaAttr(int key) {#fetchParaAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchParaAttr(int key) {#fetchParaAttr-int}
 ```
 public Object fetchParaAttr(int key)
 ```
@@ -289,15 +344,14 @@ public Object fetchParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### fetchRowAttr(int key) {#fetchRowAttr-int-}
+**Returns:**
+java.lang.Object
+### fetchRowAttr(int key) {#fetchRowAttr-int}
 ```
 public Object fetchRowAttr(int key)
 ```
@@ -305,129 +359,531 @@ public Object fetchRowAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getAliases() {#getAliases--}
+**Returns:**
+java.lang.Object
+### getAliases() {#getAliases}
 ```
 public String[] getAliases()
 ```
 
 
-Получает все псевдонимы этого стиля. Если стиль не имеет псевдонимов, то возвращается пустой массив строк.
+Получает все псевдонимы этого стиля. Если у стиля нет псевдонимов, возвращается пустой массив строк.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как использовать псевдонимы стилей.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Returns:**
 java.lang.String[] - Все псевдонимы этого стиля.
-### getAlignment() {#getAlignment--}
+### getAlignment() {#getAlignment}
 ```
 public int getAlignment()
 ```
 
 
- Задает выравнивание для стиля таблицы. Значение по умолчанию[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Указывает выравнивание для стиля таблицы.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[TableAlignment](../../com.aspose.words/tablealignment) константы.
-### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages--}
+ **Remarks:** 
+
+Значение по умолчанию — [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+
+ **Examples:** 
+
+Показывает, как установить позицию таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
+**Returns:**
+int - Соответствующее значение int. Возвращаемое значение является одной из констант [TableAlignment](../../com.aspose.words/tablealignment/).
+### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages}
 ```
 public boolean getAllowBreakAcrossPages()
 ```
 
 
- Получает флаг, указывающий, разрешено ли разбиение текста в строке таблицы на разрыв страницы. Значение по умолчанию**true**.
+Возвращает флаг, указывающий, разрешено ли разбивать текст в строке таблицы на разрыв страницы.
 
-**Возвращает:**
-boolean — Флаг, указывающий, разрешено ли разбивать текст в строке таблицы через разрыв страницы.
-### getBaseStyleName() {#getBaseStyleName--}
+ **Remarks:** 
+
+Значение по умолчанию —  true .
+
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+boolean - Флаг, указывающий, разрешено ли разбивать текст в строке таблицы на разрыв страницы.
+### getAutomaticallyUpdate() {#getAutomaticallyUpdate}
+```
+public boolean getAutomaticallyUpdate()
+```
+
+
+Указывает, будет ли этот стиль автоматически переопределён на основе соответствующего значения.
+
+ **Remarks:** 
+
+Если значение свойства установлено в true, MS Word автоматически переопределяет текущий стиль, когда соответствующее форматирование абзаца изменяется.
+
+Свойство AutomaticallyUpdate применимо только к абзацным стилям.
+
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как создать и применить пользовательский стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getBaseStyleName() {#getBaseStyleName}
 ```
 public String getBaseStyleName()
 ```
 
 
-Получает/задает имя стиля, на котором основан этот стиль. Это будет пустая строка, если стиль не основан ни на каком другом стиле и может быть установлен в пустую строку.
+Получает/устанавливает имя стиля, на котором основан данный стиль.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getBidi() {#getBidi--}
+ **Remarks:** 
+
+Это будет пустой строкой, если стиль не основан на каком-либо другом стиле, и его можно установить в пустую строку.
+
+ **Examples:** 
+
+Показывает, как использовать псевдонимы стилей.
+
 ```
-public boolean getBidi()
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
 ```
 
-
-Получает, является ли это стилем для таблицы с письмом справа налево.
-
- Когда**true**, ячейки в строках располагаются справа налево.
-
- Значение по умолчанию**false**.
-
-**Возвращает:**
-boolean - Является ли это стилем для таблицы с письмом справа налево.
-### getBorders() {#getBorders--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getBorders() {#getBorders}
 ```
 public BorderCollection getBorders()
 ```
 
 
-Получает коллекцию границ ячеек по умолчанию для стиля.
+Возвращает коллекцию границ ячеек по умолчанию для стиля.
 
-**Возвращает:**
-[BorderCollection](../../com.aspose.words/bordercollection) - Коллекция границ ячеек по умолчанию для стиля.
-### getBottomPadding() {#getBottomPadding--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the style.
+### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
 ```
 
 
-Получает количество места (в пунктах) для добавления под содержимым ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
 
-**Возвращает:**
-double - количество места (в пунктах), которое нужно добавить под содержимым ячеек таблицы.
-### getBuiltIn() {#getBuiltIn--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
+### getBuiltIn() {#getBuiltIn}
 ```
 public boolean getBuiltIn()
 ```
 
 
-Истинно, если этот стиль является одним из встроенных стилей в MS Word.
+True, если этот стиль является одним из встроенных стилей в MS Word.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getCellSpacing() {#getCellSpacing--}
+ **Examples:** 
+
+Показывает, как различать пользовательские стили и встроенные стили.
+
+```
+
+ Document doc = new Document();
+
+ // When we create a document using Microsoft Word, or programmatically using Aspose.Words,
+ // the document will come with a collection of styles to apply to its text to modify its appearance.
+ // We can access these built-in styles via the document's "Styles" collection.
+ // These styles will all have the "BuiltIn" flag set to "true".
+ Style style = doc.getStyles().get("Emphasis");
+
+ Assert.assertTrue(style.getBuiltIn());
+
+ // Create a custom style and add it to the collection.
+ // Custom styles such as this will have the "BuiltIn" flag set to "false".
+ style = doc.getStyles().add(StyleType.CHARACTER, "MyStyle");
+ style.getFont().setColor(Color.RED);
+ style.getFont().setName("Courier New");
+
+ Assert.assertFalse(style.getBuiltIn());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getCellSpacing() {#getCellSpacing}
 ```
 public double getCellSpacing()
 ```
 
 
-Получает расстояние (в пунктах) между ячейками.
+Возвращает количество пространства (в пунктах) между ячейками.
 
-**Возвращает:**
-double - количество пробелов (в пунктах) между ячейками.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColumnStripe() {#getColumnStripe--}
+**Returns:**
+double - Количество пространства (в пунктах) между ячейками.
+### getColumnStripe() {#getColumnStripe}
 ```
 public int getColumnStripe()
 ```
 
 
-Получает количество столбцов для включения в полосу, когда стиль указывает полосу нечетных/четных столбцов.
+Возвращает количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов.
 
-**Возвращает:**
-int — количество столбцов для включения в полосу, когда стиль определяет полосу нечетных/четных столбцов.
-### getConditionalStyles() {#getConditionalStyles--}
+ **Examples:** 
+
+Показывает, как создать условные стили таблицы, чередующиеся между строками.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
+
+**Returns:**
+int - Количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов.
+### getConditionalStyles() {#getConditionalStyles}
 ```
 public ConditionalStyleCollection getConditionalStyles()
 ```
@@ -435,9 +891,75 @@ public ConditionalStyleCollection getConditionalStyles()
 
 Коллекция условных стилей, которые могут быть определены для этого стиля таблицы.
 
-**Возвращает:**
-[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) - соответствующий[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) ценность.
-### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
+
+**Returns:**
+[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) - The corresponding [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) value.
+### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
 ```
@@ -445,15 +967,14 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectCellAttr(int key) {#getDirectCellAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectCellAttr(int key) {#getDirectCellAttr-int}
 ```
 public Object getDirectCellAttr(int key)
 ```
@@ -461,15 +982,14 @@ public Object getDirectCellAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
 ```
@@ -477,15 +997,14 @@ public Object getDirectParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
+**Returns:**
+java.lang.Object
+### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int}
 ```
 public Object getDirectParaAttr(int key, int revisionsView)
 ```
@@ -493,16 +1012,15 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 | revisionsView | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectRowAttr(int key) {#getDirectRowAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectRowAttr(int key) {#getDirectRowAttr-int}
 ```
 public Object getDirectRowAttr(int key)
 ```
@@ -510,15 +1028,14 @@ public Object getDirectRowAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -526,25 +1043,54 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDocument() {#getDocument--}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ключ | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
 
 
-Получает документ владельца.
+Получает документ‑владельца.
 
-**Возвращает:**
-[DocumentBase](../../com.aspose.words/documentbase) - Документ собственника.
-### getFont() {#getFont--}
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -552,41 +1098,256 @@ public Font getFont()
 
 Получает форматирование символов стиля.
 
-Для стилей списка это свойство возвращает значение null.
+ **Remarks:** 
 
-**Возвращает:**
-[Font](../../com.aspose.words/font) - Форматирование символов стиля.
-### getLeftIndent() {#getLeftIndent--}
+Для стилей списков это свойство возвращает null.
+
+ **Examples:** 
+
+Показывает, как создать и применить пользовательский стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
+
+Показывает, как создать и использовать стиль абзаца с форматированием списка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The character formatting of the style.
+### getLeftIndent() {#getLeftIndent}
 ```
 public double getLeftIndent()
 ```
 
 
-Получает значение, представляющее левый отступ таблицы.
+Возвращает значение, представляющее левый отступ таблицы.
 
-**Возвращает:**
-double — значение, представляющее левый отступ таблицы.
-### getLeftPadding() {#getLeftPadding--}
+ **Examples:** 
+
+Показывает, как установить позицию таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
+**Returns:**
+double - Значение, представляющее левый отступ таблицы.
+### getLeftPadding() {#getLeftPadding}
 ```
 public double getLeftPadding()
 ```
 
 
-Получает количество места (в пунктах), которое нужно добавить слева от содержимого ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
 
-**Возвращает:**
-double - Количество места (в пунктах) для добавления слева от содержимого ячеек таблицы.
-### getLinkedStyleName() {#getLinkedStyleName--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
+### getLinkedStyleName() {#getLinkedStyleName}
 ```
 public String getLinkedStyleName()
 ```
 
 
-Получает имя стиля, связанного с этим. Возвращает пустую строку, если стили не связаны.
+Получает/устанавливает имя [Style](../../com.aspose.words/style/), связанного с этим. Возвращает пустую строку, если стили не связаны.
 
-**Возвращает:**
-java.lang.String — имя стиля, связанного с этим.
-### getList() {#getList--}
+ **Remarks:** 
+
+Разрешено связывать только стиль абзаца со стилем символов и наоборот.
+
+Установка LinkedStyleName для текущего стиля автоматически приводит к установке LinkedStyleName для связанного стиля.
+
+Присвоение пустой строки эквивалентно отсоединению ранее связанного стиля.
+
+ **Examples:** 
+
+Показывает, как использовать псевдонимы стилей.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+Показывает, как связывать стили между собой.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getList() {#getList}
 ```
 public List getList()
 ```
@@ -594,23 +1355,143 @@ public List getList()
 
 Получает список, определяющий форматирование этого стиля списка.
 
-Это свойство допустимо только для стилей списка. Для других типов стилей это свойство возвращает значение null.
+ **Remarks:** 
 
-**Возвращает:**
-[List](../../com.aspose.words/list) - Список, определяющий форматирование этого стиля списка.
-### getListFormat() {#getListFormat--}
+Это свойство действительно только для стилей списков. Для других типов стилей оно возвращает null.
+
+ **Examples:** 
+
+Показывает, как создать стиль списка и использовать его в документе.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // We can contain an entire List object within a style.
+ Style listStyle = doc.getStyles().add(StyleType.LIST, "MyListStyle");
+
+ List list1 = listStyle.getList();
+
+ Assert.assertTrue(list1.isListStyleDefinition());
+ Assert.assertFalse(list1.isListStyleReference());
+ Assert.assertTrue(list1.isMultiLevel());
+ Assert.assertEquals(listStyle, list1.getStyle());
+
+ // Change the appearance of all list levels in our list.
+ for (ListLevel level : list1.getListLevels()) {
+     level.getFont().setName("Verdana");
+     level.getFont().setColor(Color.BLUE);
+     level.getFont().setBold(true);
+ }
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Using list style first time:");
+
+ // Create another list from a list within a style.
+ List list2 = doc.getLists().add(listStyle);
+
+ Assert.assertFalse(list2.isListStyleDefinition());
+ Assert.assertTrue(list2.isListStyleReference());
+ Assert.assertEquals(listStyle, list2.getStyle());
+
+ // Add some list items that our list will format.
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ builder.writeln("Using list style second time:");
+
+ // Create and apply another list based on the list style.
+ List list3 = doc.getLists().add(listStyle);
+ builder.getListFormat().setList(list3);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ builder.getDocument().save(getArtifactsDir() + "Lists.CreateAndUseListStyle.docx");
+ 
+```
+
+**Returns:**
+[List](../../com.aspose.words/list/) - The list that defines formatting of this list style.
+### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
 ```
 
 
-Предоставляет доступ к свойствам форматирования списка стиля абзаца.
+Предоставляет доступ к свойствам форматирования списка абзацного стиля.
 
-Это свойство допустимо только для стилей абзаца. Для других типов стилей это свойство возвращает значение null.
+ **Remarks:** 
 
-**Возвращает:**
-[ListFormat](../../com.aspose.words/listformat) - соответствующий[ListFormat](../../com.aspose.words/listformat) ценность.
-### getName() {#getName--}
+Это свойство действительно только для стилей абзацев. Для других типов стилей оно возвращает null.
+
+ **Examples:** 
+
+Показывает, как создать и использовать стиль абзаца с форматированием списка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
+
+**Returns:**
+[ListFormat](../../com.aspose.words/listformat/) - The corresponding [ListFormat](../../com.aspose.words/listformat/) value.
+### getLocked() {#getLocked}
+```
+public boolean getLocked()
+```
+
+
+Указывает, заблокирован ли этот стиль.
+
+ **Examples:** 
+
+Показывает, как заблокировать стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+ if (!styleHeading1.getLocked())
+     styleHeading1.setLocked(true);
+
+ doc.save(getArtifactsDir() + "Styles.LockStyle.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getName() {#getName}
 ```
 public String getName()
 ```
@@ -618,23 +1499,57 @@ public String getName()
 
 Получает имя стиля.
 
+ **Remarks:** 
+
 Не может быть пустой строкой.
 
-Если в коллекции уже есть стиль с таким именем, то этот стиль переопределит его. Все затронутые узлы будут ссылаться на новый стиль.
+Если в коллекции уже существует стиль с таким именем, этот стиль заменит его. Все затронутые узлы будут ссылаться на новый стиль.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
 java.lang.String — имя стиля.
-### getNextParagraphStyleName() {#getNextParagraphStyleName--}
+### getNextParagraphStyleName() {#getNextParagraphStyleName}
 ```
 public String getNextParagraphStyleName()
 ```
 
 
-Получает/задает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного с использованием указанного стиля. Это свойство не используется Aspose.Words. Следующий стиль абзаца будет применяться автоматически только при редактировании документа в MS Word.
+Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного указанным стилем.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getParagraphFormat() {#getParagraphFormat--}
+ **Remarks:** 
+
+Это свойство не используется Aspose.Words. Следующий стиль абзаца будет применяться автоматически только при редактировании документа в MS Word.
+
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getParagraphFormat() {#getParagraphFormat}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
@@ -642,53 +1557,319 @@ public ParagraphFormat getParagraphFormat()
 
 Получает форматирование абзаца стиля.
 
-Для стилей символов и списков это свойство возвращает значение null.
+ **Remarks:** 
 
-**Возвращает:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - Стиль форматирования абзаца.
-### getRightPadding() {#getRightPadding--}
+Для стилей символов и списков это свойство возвращает null.
+
+ **Examples:** 
+
+Показывает, как создать и использовать стиль абзаца с форматированием списка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
+
+**Returns:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
+### getPriority() {#getPriority}
+```
+public int getPriority()
+```
+
+
+Получает/устанавливает целочисленное значение, представляющее приоритет сортировки стилей в панели задач Styles.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+int — соответствующее значение  int .
+### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
 ```
 
 
-Получает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
 
-**Возвращает:**
-double - Количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы.
-### getRowStripe() {#getRowStripe--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
+### getRowStripe() {#getRowStripe}
 ```
 public int getRowStripe()
 ```
 
 
-Получает количество строк для включения в полосу, когда стиль указывает полосу нечетных/четных строк.
+Возвращает количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк.
 
-**Возвращает:**
-int — количество строк для включения в полосу, когда стиль определяет полосу нечетных/четных строк.
-### getShading() {#getShading--}
+ **Examples:** 
+
+Показывает, как создать условные стили таблицы, чередующиеся между строками.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
+
+**Returns:**
+int - Количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк.
+### getSemiHidden() {#getSemiHidden}
+```
+public boolean getSemiHidden()
+```
+
+
+Получает/устанавливает, скрывается ли стиль в галерее Styles и в панели задач Styles.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getShading() {#getShading}
 ```
 public Shading getShading()
 ```
 
 
-Получает[Shading](../../com.aspose.words/shading) объект, который относится к форматированию затенения для ячеек таблицы.
+Возвращает объект [Shading](../../com.aspose.words/shading/), который относится к форматированию затенения ячеек таблицы.
 
-**Возвращает:**
-[Shading](../../com.aspose.words/shading) - А[Shading](../../com.aspose.words/shading) объект, который относится к форматированию затенения для ячеек таблицы.
-### getStyleIdentifier() {#getStyleIdentifier--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells.
+### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
 ```
 
 
-Получает независимый от языкового стандарта идентификатор стиля для встроенного стиля.
+Получает независимый от локали идентификатор стиля для встроенного стиля.
 
- Для пользовательских (настраиваемых) стилей это свойство возвращает[StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
+ **Remarks:** 
 
-**Возвращает:**
-int — независимый от локали идентификатор стиля для встроенного стиля. Возвращаемое значение является одним из[StyleIdentifier](../../com.aspose.words/styleidentifier) константы.
-### getStyles() {#getStyles--}
+Для пользовательских (кастомных) стилей это свойство возвращает [StyleIdentifier.USER](../../com.aspose.words/styleidentifier/\#USER).
+
+ **Examples:** 
+
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+**Returns:**
+int — независимый от локали идентификатор стиля для встроенного стиля. Возвращаемое значение является одной из констант [StyleIdentifier](../../com.aspose.words/styleidentifier/).
+### getStyles() {#getStyles}
 ```
 public StyleCollection getStyles()
 ```
@@ -696,111 +1877,320 @@ public StyleCollection getStyles()
 
 Получает коллекцию стилей, к которым принадлежит этот стиль.
 
-**Возвращает:**
-[StyleCollection](../../com.aspose.words/stylecollection) - Коллекция стилей, к которым принадлежит этот стиль.
-### getTopPadding() {#getTopPadding--}
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+[StyleCollection](../../com.aspose.words/stylecollection/) - The collection of styles this style belongs to.
+### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
 ```
 
 
-Получает количество места (в пунктах) для добавления над содержимым ячеек таблицы.
+Получает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
-**Возвращает:**
-double — количество места (в пунктах), которое нужно добавить над содержимым ячеек таблицы.
-### getType() {#getType--}
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Returns:**
+double - Величина пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
+### getType() {#getType}
 ```
 public int getType()
 ```
 
 
-Получает тип стиля (абзац или символ).
+Получает тип стиля (абзацный или символьный).
 
-**Возвращает:**
- int - Тип стиля (абзац или символ). Возвращаемое значение является одним из[StyleType](../../com.aspose.words/styletype) константы.
-### getVerticalAlignment() {#getVerticalAlignment--}
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+int — тип стиля (абзац или символ). Возвращаемое значение является одной из констант [StyleType](../../com.aspose.words/styletype/).
+### getUnhideWhenUsed() {#getUnhideWhenUsed}
+```
+public boolean getUnhideWhenUsed()
+```
+
+
+Получает/устанавливает, отображается ли стиль, используемый в текущем документе, в галерее Стилей и на панели задач Стилей. Истина, когда используемый стиль должен быть показан в галерее Стилей.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getVerticalAlignment() {#getVerticalAlignment}
 ```
 public int getVerticalAlignment()
 ```
 
 
- Указывает вертикальное выравнивание ячеек. Значение по умолчанию[CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Указывает вертикальное выравнивание ячеек.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) константы.
-### hashCode() {#hashCode--}
+ **Remarks:** 
+
+Значение по умолчанию — [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isHeading() {#isHeading--}
+**Returns:**
+int — соответствующее значение типа int. Возвращаемое значение является одной из констант [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/).
+### isHeading() {#isHeading}
 ```
 public boolean isHeading()
 ```
 
 
-True, если стиль является одним из встроенных стилей заголовков.
+True, когда стиль является одним из встроенных стилей Heading.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isQuickStyle() {#isQuickStyle--}
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isQuickStyle() {#isQuickStyle}
 ```
 public boolean isQuickStyle()
 ```
 
 
-Указывает, отображается ли этот стиль в галерее экспресс-стилей в пользовательском интерфейсе MS Word.
+Указывает, отображается ли этот стиль в галерее Quick Style в пользовательском интерфейсе MS Word.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isQuickStyle(boolean value) {#isQuickStyle-boolean-}
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isQuickStyle(boolean value) {#isQuickStyle-boolean}
 ```
 public void isQuickStyle(boolean value)
 ```
 
 
-Указывает, отображается ли этот стиль в галерее экспресс-стилей в пользовательском интерфейсе MS Word.
+Указывает, отображается ли этот стиль в галерее Quick Style в пользовательском интерфейсе MS Word.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove() {#remove--}
+### remove() {#remove}
 ```
 public void remove()
 ```
 
 
-Удаляет указанный стиль из документа. Удаление стиля влияет на модель документа следующим образом:
+Удаляет указанный стиль из документа.
 
- *  Все ссылки на стиль удаляются из соответствующих абзацев, прогонов и таблиц.
- *  Если базовый стиль удаляется, его форматирование перемещается в дочерние стили.
- *  Если стиль, подлежащий удалению, имеет связанный стиль, то удаляются оба стиля.
+ **Remarks:** 
 
-### removeParaAttr(int key) {#removeParaAttr-int-}
+Удаление стиля оказывает следующие эффекты на модель документа:
+
+ *  All references to the style are removed from corresponding paragraphs, runs and tables.
+ *  If base style is removed its formatting is moved to child styles.
+ *  If style to be deleted has a linked style, then both of these are deleted.
+
+ **Examples:** 
+
+Показывает, как создать и применить пользовательский стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
+
+### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
 ```
@@ -808,13 +2198,12 @@ public void removeParaAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -822,13 +2211,12 @@ public void removeRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### resetToDefaultAttrs() {#resetToDefaultAttrs--}
+### resetToDefaultAttrs() {#resetToDefaultAttrs}
 ```
 public void resetToDefaultAttrs()
 ```
@@ -836,67 +2224,234 @@ public void resetToDefaultAttrs()
 
 
 
-### setAlignment(int value) {#setAlignment-int-}
+### setAlignment(int value) {#setAlignment-int}
 ```
 public void setAlignment(int value)
 ```
 
 
- Задает выравнивание для стиля таблицы. Значение по умолчанию[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Указывает выравнивание для стиля таблицы.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+
+ **Examples:** 
+
+Показывает, как установить позицию таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[TableAlignment](../../com.aspose.words/tablealignment) константы. |
+| value | int | Соответствующее значение типа int. Значение должно быть одной из констант [TableAlignment](../../com.aspose.words/tablealignment/). |
 
-### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean-}
+### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean}
 ```
 public void setAllowBreakAcrossPages(boolean value)
 ```
 
 
- Устанавливает флаг, указывающий, разрешено ли разбивать текст в строке таблицы через разрыв страницы. Значение по умолчанию**true**.
+Устанавливает флаг, указывающий, разрешено ли разбивать текст в строке таблицы на разрыв страницы.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию —  true .
+
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Флаг, указывающий, разрешено ли разбивать текст в строке таблицы через разрыв страницы. |
+| значение | boolean | Флаг, указывающий, разрешено ли разбивать текст в строке таблицы при разрыве страницы. |
 
-### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String-}
+### setAutomaticallyUpdate(boolean value) {#setAutomaticallyUpdate-boolean}
+```
+public void setAutomaticallyUpdate(boolean value)
+```
+
+
+Указывает, будет ли этот стиль автоматически переопределён на основе соответствующего значения.
+
+ **Remarks:** 
+
+Если значение свойства установлено в true, MS Word автоматически переопределяет текущий стиль, когда соответствующее форматирование абзаца изменяется.
+
+Свойство AutomaticallyUpdate применимо только к абзацным стилям.
+
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как создать и применить пользовательский стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String}
 ```
 public void setBaseStyleName(String value)
 ```
 
 
-Получает/задает имя стиля, на котором основан этот стиль. Это будет пустая строка, если стиль не основан ни на каком другом стиле и может быть установлен в пустую строку.
+Получает/устанавливает имя стиля, на котором основан данный стиль.
 
-**Параметры:**
+ **Remarks:** 
 
+Это будет пустой строкой, если стиль не основан на каком-либо другом стиле, и его можно установить в пустую строку.
+
+ **Examples:** 
+
+Показывает, как использовать псевдонимы стилей.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setBidi(boolean value) {#setBidi-boolean-}
-```
-public void setBidi(boolean value)
-```
-
-
-Устанавливает, является ли это стилем для таблицы с письмом справа налево.
-
- Когда**true**, ячейки в строках располагаются справа налево.
-
- Значение по умолчанию**false**.
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| value | boolean | Является ли это стилем для таблицы справа налево. |
-
-### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
+### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
 ```
@@ -904,28 +2459,70 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setBottomPadding(double value) {#setBottomPadding-double-}
+### setBottomPadding(double value) {#setBottomPadding-double}
 ```
 public void setBottomPadding(double value)
 ```
 
 
-Устанавливает количество места (в пунктах) для добавления под содержимым ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого под содержимым ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить под содержимым ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить ниже содержимого ячеек таблицы. |
 
-### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object-}
+### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object}
 ```
 public void setCellAttr(int key, Object value)
 ```
@@ -933,70 +2530,351 @@ public void setCellAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setCellSpacing(double value) {#setCellSpacing-double-}
+### setCellSpacing(double value) {#setCellSpacing-double}
 ```
 public void setCellSpacing(double value)
 ```
 
 
-Устанавливает расстояние (в пунктах) между ячейками.
+Устанавливает количество пространства (в пунктах) между ячейками.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Расстояние (в пунктах) между ячейками. |
+| значение | double | Количество пространства (в пунктах) между ячейками. |
 
-### setColumnStripe(int value) {#setColumnStripe-int-}
+### setColumnStripe(int value) {#setColumnStripe-int}
 ```
 public void setColumnStripe(int value)
 ```
 
 
-Устанавливает количество столбцов для включения в полосу, когда стиль определяет полосу нечетных/четных столбцов.
+Устанавливает количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать условные стили таблицы, чередующиеся между строками.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Количество столбцов, которые необходимо включить в полосу, когда стиль определяет полосу нечетных/четных столбцов. |
+| значение | int | Количество столбцов, включаемых в чередование, когда стиль задает чередование нечётных/чётных столбцов. |
 
-### setLeftIndent(double value) {#setLeftIndent-double-}
+### setLeftIndent(double value) {#setLeftIndent-double}
 ```
 public void setLeftIndent(double value)
 ```
 
 
-Задает значение, представляющее левый отступ таблицы.
+Устанавливает значение, представляющее левый отступ таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить позицию таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Значение, представляющее левый отступ таблицы. |
+| значение | double | Значение, представляющее левый отступ таблицы. |
 
-### setLeftPadding(double value) {#setLeftPadding-double-}
+### setLeftPadding(double value) {#setLeftPadding-double}
 ```
 public void setLeftPadding(double value)
 ```
 
 
-Задает количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), добавляемого слева от содержимого ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить слева от содержимого ячеек таблицы. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setLinkedStyleName(String value) {#setLinkedStyleName-java.lang.String}
+```
+public void setLinkedStyleName(String value)
+```
+
+
+Получает/устанавливает имя [Style](../../com.aspose.words/style/), связанного с этим. Возвращает пустую строку, если стили не связаны.
+
+ **Remarks:** 
+
+Разрешено связывать только стиль абзаца со стилем символов и наоборот.
+
+Установка LinkedStyleName для текущего стиля автоматически приводит к установке LinkedStyleName для связанного стиля.
+
+Присвоение пустой строки эквивалентно отсоединению ранее связанного стиля.
+
+ **Examples:** 
+
+Показывает, как использовать псевдонимы стилей.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
+Показывает, как связывать стили между собой.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+
+ Style styleHeading1Char = doc.getStyles().add(StyleType.CHARACTER, "Heading 1 Char");
+ styleHeading1Char.getFont().setName("Verdana");
+ styleHeading1Char.getFont().setBold(true);
+ styleHeading1Char.getFont().getBorder().setLineStyle(LineStyle.DOT);
+ styleHeading1Char.getFont().getBorder().setLineWidth(15.0);
+
+ styleHeading1.setLinkedStyleName("Heading 1 Char");
+
+ Assert.assertEquals("Heading 1 Char", styleHeading1.getLinkedStyleName());
+ Assert.assertEquals("Heading 1", styleHeading1Char.getLinkedStyleName());
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
+
+### setLocked(boolean value) {#setLocked-boolean}
+```
+public void setLocked(boolean value)
+```
+
+
+Указывает, заблокирован ли этот стиль.
+
+ **Examples:** 
+
+Показывает, как заблокировать стиль.
+
+```
+
+ Document doc = new Document();
+
+ Style styleHeading1 = doc.getStyles().getByStyleIdentifier(StyleIdentifier.HEADING_1);
+ if (!styleHeading1.getLocked())
+     styleHeading1.setLocked(true);
+
+ doc.save(getArtifactsDir() + "Styles.LockStyle.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
@@ -1004,31 +2882,63 @@ public void setName(String value)
 
 Устанавливает имя стиля.
 
+ **Remarks:** 
+
 Не может быть пустой строкой.
 
-Если в коллекции уже есть стиль с таким именем, то этот стиль переопределит его. Все затронутые узлы будут ссылаться на новый стиль.
+Если в коллекции уже существует стиль с таким именем, этот стиль заменит его. Все затронутые узлы будут ссылаться на новый стиль.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Название стиля. |
+| значение | java.lang.String | Имя стиля. |
 
-### setNextParagraphStyleName(String value) {#setNextParagraphStyleName-java.lang.String-}
+### setNextParagraphStyleName(String value) {#setNextParagraphStyleName-java.lang.String}
 ```
 public void setNextParagraphStyleName(String value)
 ```
 
 
-Получает/задает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного с использованием указанного стиля. Это свойство не используется Aspose.Words. Следующий стиль абзаца будет применяться автоматически только при редактировании документа в MS Word.
+Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца, отформатированного указанным стилем.
 
-**Параметры:**
+ **Remarks:** 
 
+Это свойство не используется Aspose.Words. Следующий стиль абзаца будет применяться автоматически только при редактировании документа в MS Word.
+
+ **Examples:** 
+
+Показывает, как получить доступ к коллекции стилей документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
+### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object}
 ```
 public void setParaAttr(int key, Object value)
 ```
@@ -1036,28 +2946,105 @@ public void setParaAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setRightPadding(double value) {#setRightPadding-double-}
+### setPriority(int value) {#setPriority-int}
+```
+public void setPriority(int value)
+```
+
+
+Получает/устанавливает целочисленное значение, представляющее приоритет сортировки стилей в панели задач Styles.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | int | Соответствующее  int  значение. |
+
+### setRightPadding(double value) {#setRightPadding-double}
 ```
 public void setRightPadding(double value)
 ```
 
 
-Задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого справа от содержимого ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить справа от содержимого ячеек таблицы. |
 
-### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object-}
+### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object}
 ```
 public void setRowAttr(int key, Object value)
 ```
@@ -1065,28 +3052,80 @@ public void setRowAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setRowStripe(int value) {#setRowStripe-int-}
+### setRowStripe(int value) {#setRowStripe-int}
 ```
 public void setRowStripe(int value)
 ```
 
 
-Устанавливает количество строк для включения в полосу, когда стиль определяет полосу нечетных/четных строк.
+Устанавливает количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать условные стили таблицы, чередующиеся между строками.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Количество строк, которые следует включить в полосу, когда стиль указывает полосу нечетных/четных строк. |
+| значение | int | Количество строк, включаемых в чередование, когда стиль задает чередование нечётных/чётных строк. |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -1094,84 +3133,197 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setTopPadding(double value) {#setTopPadding-double-}
+### setSemiHidden(boolean value) {#setSemiHidden-boolean}
+```
+public void setSemiHidden(boolean value)
+```
+
+
+Получает/устанавливает, скрывается ли стиль в галерее Styles и в панели задач Styles.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setTopPadding(double value) {#setTopPadding-double}
 ```
 public void setTopPadding(double value)
 ```
 
 
-Устанавливает количество места (в пунктах) для добавления над содержимым ячеек таблицы.
+Устанавливает величину пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Количество места (в пунктах), которое нужно добавить над содержимым ячеек таблицы. |
+| значение | double | Количество пространства (в пунктах), которое следует добавить выше содержимого ячеек таблицы. |
 
-### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
+### setUnhideWhenUsed(boolean value) {#setUnhideWhenUsed-boolean}
+```
+public void setUnhideWhenUsed(boolean value)
+```
+
+
+Получает/устанавливает, отображается ли стиль, используемый в текущем документе, в галерее Стилей и на панели задач Стилей. Истина, когда используемый стиль должен быть показан в галерее Стилей.
+
+ **Examples:** 
+
+Показывает, как задать приоритет и скрыть стиль.
+
+```
+
+ Document doc = new Document();
+ Style styleTitle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.SUBTITLE);
+
+ if (styleTitle.getPriority() == 9)
+     styleTitle.setPriority(10);
+
+ if (!styleTitle.getUnhideWhenUsed())
+     styleTitle.setUnhideWhenUsed(true);
+
+ if (styleTitle.getSemiHidden())
+     styleTitle.setSemiHidden(true);
+
+ doc.save(getArtifactsDir() + "Styles.StylePriority.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setVerticalAlignment(int value) {#setVerticalAlignment-int}
 ```
 public void setVerticalAlignment(int value)
 ```
 
 
- Указывает вертикальное выравнивание ячеек. Значение по умолчанию[CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Указывает вертикальное выравнивание ячеек.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+
+ **Examples:** 
+
+Показывает, как создать пользовательские настройки стиля для таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ table.setBidi(true);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) константы. |
+| value | int | Соответствующее значение типа int. Значение должно быть одной из констант [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

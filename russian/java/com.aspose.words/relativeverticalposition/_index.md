@@ -1,51 +1,88 @@
 ---
-title: RelativeVerticalPosition
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает относительное положение фигуры или текстового фрейма по вертикали.
+title: "RelativeVerticalPosition"
+linktitle: "RelativeVerticalPosition"
+second_title: "Aspose.Words для Java"
+description: "Указывает, к чему относится вертикальное положение фигуры или текстового фрейма в Java."
 type: docs
-weight: 474
+weight: 563
 url: /ru/java/com.aspose.words/relativeverticalposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RelativeVerticalPosition
 ```
 
-Указывает относительное положение фигуры или текстового фрейма по вертикали.
+Указывает, относительно чего определяется вертикальное положение фигуры или текстового кадра.
+
+ **Examples:** 
+
+Показывает, как вставить изображение и использовать его как водяной знак.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert the image into the header so that it will be visible on every page.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+
+ // Place the image at the center of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setLeft((builder.getPageSetup().getPageWidth() - shape.getWidth()) / 2.0);
+ shape.setTop((builder.getPageSetup().getPageHeight() - shape.getHeight()) / 2.0);
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertWatermark.docx");
+ 
+```
+
+Показывает, как вставить плавающее изображение в центр страницы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [BOTTOM_MARGIN](#BOTTOM-MARGIN) | Указывает, что вертикальное позиционирование должно быть относительно нижнего поля текущей страницы. |
 | [INSIDE_MARGIN](#INSIDE-MARGIN) | Указывает, что вертикальное позиционирование должно быть относительно внутреннего поля текущей страницы. |
-| [LINE](#LINE) | Недокументированный. |
+| [LINE](#LINE) | Не документировано. |
 | [MARGIN](#MARGIN) | Указывает, что вертикальное позиционирование должно быть относительно полей страницы. |
 | [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Указывает, что вертикальное позиционирование должно быть относительно внешнего поля текущей страницы. |
-| [PAGE](#PAGE) | Объект позиционируется относительно верхнего края страницы. |
-| [PARAGRAPH](#PARAGRAPH) | Объект позиционируется относительно верхней части абзаца, содержащего привязку. |
-| [TABLE_DEFAULT](#TABLE-DEFAULT) |  Значение по умолчанию[MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN). |
-| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) |  Значение по умолчанию[PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH). |
+| [PAGE](#PAGE) | Объект расположен относительно верхнего края страницы. |
+| [PARAGRAPH](#PARAGRAPH) | Объект расположен относительно верхней части абзаца, содержащего якорь. |
+| [TABLE_DEFAULT](#TABLE-DEFAULT) | Значение по умолчанию — [MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN). |
+| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | Значение по умолчанию — [PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH). |
 | [TOP_MARGIN](#TOP-MARGIN) | Указывает, что вертикальное позиционирование должно быть относительно верхнего поля текущей страницы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String relativeVerticalPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int relativeVerticalPosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int relativeVerticalPosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String relativeVerticalPositionName)](#fromName-java.lang.String) |  |
+| [getName(int relativeVerticalPosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int relativeVerticalPosition)](#toString-int) |  |
 ### BOTTOM_MARGIN {#BOTTOM-MARGIN}
 ```
 public static int BOTTOM_MARGIN
@@ -68,7 +105,7 @@ public static int LINE
 ```
 
 
-Недокументированный.
+Не документировано.
 
 ### MARGIN {#MARGIN}
 ```
@@ -92,7 +129,7 @@ public static int PAGE
 ```
 
 
-Объект позиционируется относительно верхнего края страницы.
+Объект расположен относительно верхнего края страницы.
 
 ### PARAGRAPH {#PARAGRAPH}
 ```
@@ -100,7 +137,7 @@ public static int PARAGRAPH
 ```
 
 
-Объект позиционируется относительно верхней части абзаца, содержащего привязку.
+Объект расположен относительно верхней части абзаца, содержащего якорь.
 
 ### TABLE_DEFAULT {#TABLE-DEFAULT}
 ```
@@ -108,7 +145,7 @@ public static int TABLE_DEFAULT
 ```
 
 
- Значение по умолчанию[MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Значение по умолчанию — [MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN).
 
 ### TEXT_FRAME_DEFAULT {#TEXT-FRAME-DEFAULT}
 ```
@@ -116,7 +153,7 @@ public static int TEXT_FRAME_DEFAULT
 ```
 
 
- Значение по умолчанию[PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+Значение по умолчанию — [PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 ### TOP_MARGIN {#TOP-MARGIN}
 ```
@@ -132,23 +169,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String relativeVerticalPositionName) {#fromName-java.lang.String-}
+### fromName(String relativeVerticalPositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String relativeVerticalPositionName)
 ```
@@ -156,25 +177,14 @@ public static int fromName(String relativeVerticalPositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeVerticalPositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int relativeVerticalPosition) {#getName-int-}
+**Returns:**
+int
+### getName(int relativeVerticalPosition) {#getName-int}
 ```
 public static String getName(int relativeVerticalPosition)
 ```
@@ -182,15 +192,14 @@ public static String getName(int relativeVerticalPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeVerticalPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -198,45 +207,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int relativeVerticalPosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int relativeVerticalPosition) {#toString-int}
 ```
 public static String toString(int relativeVerticalPosition)
 ```
@@ -244,47 +217,10 @@ public static String toString(int relativeVerticalPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeVerticalPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

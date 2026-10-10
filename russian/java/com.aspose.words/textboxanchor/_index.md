@@ -1,19 +1,48 @@
 ---
-title: TextBoxAnchor
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает значения, используемые для вертикального выравнивания текста фигуры.
+title: "TextBoxAnchor"
+linktitle: "TextBoxAnchor"
+second_title: "Aspose.Words для Java"
+description: "Указывает значения, используемые для вертикального выравнивания текста формы в Java."
 type: docs
-weight: 559
+weight: 667
 url: /ru/java/com.aspose.words/textboxanchor/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextBoxAnchor
 ```
 
-Указывает значения, используемые для вертикального выравнивания текста фигуры.
+Указывает значения, используемые для вертикального выравнивания текста в фигуре.
+
+ **Examples:** 
+
+Показывает, как вертикально выровнять текстовое содержимое текстового поля.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 200.0, 200.0);
+
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
+ // align the text in this text box with the top side of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
+ // align the text in this text box to the center of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
+ // align the text in this text box to the bottom of the shape.
+ shape.getTextBox().setVerticalAnchor(verticalAnchor);
+
+ builder.moveTo(shape.getFirstParagraph());
+ builder.write("Hello world!");
+
+ // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2007);
+ doc.save(getArtifactsDir() + "Shape.VerticalAnchor.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -23,7 +52,7 @@ public class TextBoxAnchor
 | [BOTTOM_CENTERED](#BOTTOM-CENTERED) | Текст выравнивается по нижнему центру текстового поля. |
 | [BOTTOM_CENTERED_BASELINE](#BOTTOM-CENTERED-BASELINE) | Текст выравнивается по нижней центральной базовой линии текстового поля. |
 | [MIDDLE](#MIDDLE) | Текст выравнивается по середине текстового поля. |
-| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | Текст выравнивается по центру текстового поля по центру. |
+| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | Текст выравнивается по центральному середине текстового поля. |
 | [TOP](#TOP) | Текст выравнивается по верхнему краю текстового поля. |
 | [TOP_BASELINE](#TOP-BASELINE) | Текст выравнивается по верхней базовой линии текстового поля. |
 | [TOP_CENTERED](#TOP-CENTERED) | Текст выравнивается по верхнему центру текстового поля. |
@@ -33,19 +62,10 @@ public class TextBoxAnchor
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textBoxAnchorName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textBoxAnchor)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textBoxAnchor)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textBoxAnchorName)](#fromName-java.lang.String) |  |
+| [getName(int textBoxAnchor)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textBoxAnchor)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
@@ -92,7 +112,7 @@ public static int MIDDLE_CENTERED
 ```
 
 
-Текст выравнивается по центру текстового поля по центру.
+Текст выравнивается по центральному середине текстового поля.
 
 ### TOP {#TOP}
 ```
@@ -132,23 +152,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textBoxAnchorName) {#fromName-java.lang.String-}
+### fromName(String textBoxAnchorName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textBoxAnchorName)
 ```
@@ -156,25 +160,14 @@ public static int fromName(String textBoxAnchorName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textBoxAnchorName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textBoxAnchor) {#getName-int-}
+**Returns:**
+int
+### getName(int textBoxAnchor) {#getName-int}
 ```
 public static String getName(int textBoxAnchor)
 ```
@@ -182,15 +175,14 @@ public static String getName(int textBoxAnchor)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -198,45 +190,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textBoxAnchor) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textBoxAnchor) {#toString-int}
 ```
 public static String toString(int textBoxAnchor)
 ```
@@ -244,47 +200,10 @@ public static String toString(int textBoxAnchor)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

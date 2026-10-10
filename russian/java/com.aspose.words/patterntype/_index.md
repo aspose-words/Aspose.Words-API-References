@@ -1,96 +1,112 @@
 ---
-title: PatternType
-second_title: Справочник по API Aspose.Words для Java
-description: Задает образец заливки, который будет использоваться для заливки фигуры.
+title: "PatternType"
+linktitle: "PatternType"
+second_title: "Aspose.Words для Java"
+description: "Указывает шаблон заливки, который будет использоваться для заполнения фигуры в Java."
 type: docs
-weight: 447
+weight: 526
 url: /ru/java/com.aspose.words/patterntype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PatternType
 ```
 
-Задает образец заливки, который будет использоваться для заливки фигуры.
+Указывает шаблон заливки, используемый для заполнения фигуры.
+
+ **Examples:** 
+
+Показывает, как установить узор для фигуры.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ Fill fill = shape.getFill();
+
+ System.out.println(MessageFormat.format("Pattern value is: {0}",fill.getPattern()));
+
+ // There are several ways specified fill to a pattern.
+ // 1 -  Apply pattern to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK);
+
+ // 2 -  Apply pattern with foreground and background colors to the shape fill:
+ fill.patterned(PatternType.DIAGONAL_BRICK, Color.yellow, Color.blue);
+
+ doc.save(getArtifactsDir() + "Shape.FillPattern.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [CROSS](#CROSS) | Крест. |
 | [DARK_DOWNWARD_DIAGONAL](#DARK-DOWNWARD-DIAGONAL) | Темная нисходящая диагональ. |
-| [DARK_HORIZONTAL](#DARK-HORIZONTAL) | Темная горизонталь. |
-| [DARK_UPWARD_DIAGONAL](#DARK-UPWARD-DIAGONAL) | Темная диагональ вверх. |
-| [DARK_VERTICAL](#DARK-VERTICAL) | Темная вертикаль. |
-| [DASHED_DOWNWARD_DIAGONAL](#DASHED-DOWNWARD-DIAGONAL) | Перечеркнутая диагональ вниз. |
-| [DASHED_HORIZONTAL](#DASHED-HORIZONTAL) | Штриховая горизонталь. |
-| [DASHED_UPWARD_DIAGONAL](#DASHED-UPWARD-DIAGONAL) | Перечеркнутая вверх диагональ. |
-| [DASHED_VERTICAL](#DASHED-VERTICAL) | Штриховая вертикаль. |
-| [DIAGONAL_BRICK](#DIAGONAL-BRICK) | Диагональный кирпич. |
+| [DARK_HORIZONTAL](#DARK-HORIZONTAL) | Темная горизонтальная. |
+| [DARK_UPWARD_DIAGONAL](#DARK-UPWARD-DIAGONAL) | Темная восходящая диагональ. |
+| [DARK_VERTICAL](#DARK-VERTICAL) | Темная вертикальная. |
+| [DASHED_DOWNWARD_DIAGONAL](#DASHED-DOWNWARD-DIAGONAL) | Пунктирная нисходящая диагональ. |
+| [DASHED_HORIZONTAL](#DASHED-HORIZONTAL) | Пунктирная горизонтальная. |
+| [DASHED_UPWARD_DIAGONAL](#DASHED-UPWARD-DIAGONAL) | Пунктирная восходящая диагональ. |
+| [DASHED_VERTICAL](#DASHED-VERTICAL) | Пунктирная вертикальная. |
+| [DIAGONAL_BRICK](#DIAGONAL-BRICK) | Диагональная кирпичная. |
 | [DIAGONAL_CROSS](#DIAGONAL-CROSS) | Диагональный крест. |
-| [DIVOT](#DIVOT) | Выкройка. |
-| [DOTTED_DIAMOND](#DOTTED-DIAMOND) | Алмаз с точками. |
-| [DOTTED_GRID](#DOTTED-GRID) | Пунктирная сетка. |
-| [DOWNWARD_DIAGONAL](#DOWNWARD-DIAGONAL) | Диагональ вниз. |
-| [HORIZONTAL](#HORIZONTAL) | Горизонтальный. |
-| [HORIZONTAL_BRICK](#HORIZONTAL-BRICK) | Горизонтальный кирпич. |
+| [DIVOT](#DIVOT) | Вмятина шаблона. |
+| [DOTTED_DIAMOND](#DOTTED-DIAMOND) | Точечный ромб. |
+| [DOTTED_GRID](#DOTTED-GRID) | Точечная сетка. |
+| [DOWNWARD_DIAGONAL](#DOWNWARD-DIAGONAL) | Нисходящая диагональ. |
+| [HORIZONTAL](#HORIZONTAL) | Горизонтальная. |
+| [HORIZONTAL_BRICK](#HORIZONTAL-BRICK) | Горизонтальная кирпичная. |
 | [LARGE_CHECKER_BOARD](#LARGE-CHECKER-BOARD) | Большая шахматная доска. |
-| [LARGE_CONFETTI](#LARGE-CONFETTI) | Большое конфетти. |
+| [LARGE_CONFETTI](#LARGE-CONFETTI) | Большой конфетти. |
 | [LARGE_GRID](#LARGE-GRID) | Большая сетка. |
-| [LIGHT_DOWNWARD_DIAGONAL](#LIGHT-DOWNWARD-DIAGONAL) | Светлая нисходящая диагональ. |
-| [LIGHT_HORIZONTAL](#LIGHT-HORIZONTAL) | Светлая горизонталь. |
+| [LIGHT_DOWNWARD_DIAGONAL](#LIGHT-DOWNWARD-DIAGONAL) | Светлая диагональ вниз. |
+| [LIGHT_HORIZONTAL](#LIGHT-HORIZONTAL) | Светлая горизонтальная. |
 | [LIGHT_UPWARD_DIAGONAL](#LIGHT-UPWARD-DIAGONAL) | Светлая диагональ вверх. |
-| [LIGHT_VERTICAL](#LIGHT-VERTICAL) | Светлая вертикаль. |
-| [NARROW_HORIZONTAL](#NARROW-HORIZONTAL) | Узкая горизонталь. |
-| [NARROW_VERTICAL](#NARROW-VERTICAL) | Узкая вертикаль. |
-| [NONE](#NONE) | Нет шаблона. |
-| [OUTLINED_DIAMOND](#OUTLINED-DIAMOND) | Очерченный алмаз. |
-| [PERCENT_10](#PERCENT-10) | 10% от основного цвета. |
-| [PERCENT_20](#PERCENT-20) | 20% основного цвета. |
-| [PERCENT_25](#PERCENT-25) | 25% основного цвета. |
-| [PERCENT_30](#PERCENT-30) | 30% основного цвета. |
-| [PERCENT_40](#PERCENT-40) | 40% основного цвета |
-| [PERCENT_5](#PERCENT-5) | 5% от основного цвета. |
-| [PERCENT_50](#PERCENT-50) | 50% основного цвета |
-| [PERCENT_60](#PERCENT-60) | 60% основного цвета. |
-| [PERCENT_70](#PERCENT-70) | 70% основного цвета. |
-| [PERCENT_75](#PERCENT-75) | 75% основного цвета. |
-| [PERCENT_80](#PERCENT-80) | 80% основного цвета. |
-| [PERCENT_90](#PERCENT-90) | 90% основного цвета. |
-| [PLAID](#PLAID) | Плед. |
-| [SHINGLE](#SHINGLE) | Галька. |
-| [SMALL_CHECKER_BOARD](#SMALL-CHECKER-BOARD) | Маленькая шахматная доска. |
+| [LIGHT_VERTICAL](#LIGHT-VERTICAL) | Светлая вертикальная. |
+| [NARROW_HORIZONTAL](#NARROW-HORIZONTAL) | Узкая горизонтальная. |
+| [NARROW_VERTICAL](#NARROW-VERTICAL) | Узкая вертикальная. |
+| [NONE](#NONE) | Без узора. |
+| [OUTLINED_DIAMOND](#OUTLINED-DIAMOND) | Контурный ромб. |
+| [PERCENT_10](#PERCENT-10) | 10% цвета переднего плана. |
+| [PERCENT_20](#PERCENT-20) | 20% цвета переднего плана. |
+| [PERCENT_25](#PERCENT-25) | 25% цвета переднего плана. |
+| [PERCENT_30](#PERCENT-30) | 30% цвета переднего плана. |
+| [PERCENT_40](#PERCENT-40) | 40% цвета переднего плана |
+| [PERCENT_5](#PERCENT-5) | 5% цвета переднего плана. |
+| [PERCENT_50](#PERCENT-50) | 50% цвета переднего плана |
+| [PERCENT_60](#PERCENT-60) | 60% цвета переднего плана. |
+| [PERCENT_70](#PERCENT-70) | 70% цвета переднего плана. |
+| [PERCENT_75](#PERCENT-75) | 75% цвета переднего плана. |
+| [PERCENT_80](#PERCENT-80) | 80% цвета переднего плана. |
+| [PERCENT_90](#PERCENT-90) | 90% цвета переднего плана. |
+| [PLAID](#PLAID) | Клетка. |
+| [SHINGLE](#SHINGLE) | Гонт. |
+| [SMALL_CHECKER_BOARD](#SMALL-CHECKER-BOARD) | Небольшая шахматная доска. |
 | [SMALL_CONFETTI](#SMALL-CONFETTI) | Мелкие конфетти. |
-| [SMALL_GRID](#SMALL-GRID) | Мелкая сетка. |
-| [SOLID_DIAMOND](#SOLID-DIAMOND) | Твердый алмаз. |
+| [SMALL_GRID](#SMALL-GRID) | Маленькая сетка. |
+| [SOLID_DIAMOND](#SOLID-DIAMOND) | Сплошной ромб. |
 | [SPHERE](#SPHERE) | Сфера. |
-| [TRELLIS](#TRELLIS) | решетка. |
+| [TRELLIS](#TRELLIS) | Решетка. |
 | [UPWARD_DIAGONAL](#UPWARD-DIAGONAL) | Диагональ вверх. |
-| [VERTICAL](#VERTICAL) | Вертикальный. |
+| [VERTICAL](#VERTICAL) | Вертикальная. |
 | [WAVE](#WAVE) | Волна. |
-| [WEAVE](#WEAVE) | ткать. |
-| [WIDE_DOWNWARD_DIAGONAL](#WIDE-DOWNWARD-DIAGONAL) | Широкая нисходящая диагональ. |
-| [WIDE_UPWARD_DIAGONAL](#WIDE-UPWARD-DIAGONAL) | Широкая восходящая диагональ. |
+| [WEAVE](#WEAVE) | Плетение. |
+| [WIDE_DOWNWARD_DIAGONAL](#WIDE-DOWNWARD-DIAGONAL) | Широкая диагональ вниз. |
+| [WIDE_UPWARD_DIAGONAL](#WIDE-UPWARD-DIAGONAL) | Широкая диагональ вверх. |
 | [ZIG_ZAG](#ZIG-ZAG) | Зигзаг. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String patternTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int patternType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int patternType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String patternTypeName)](#fromName-java.lang.String) |  |
+| [getName(int patternType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int patternType)](#toString-int) |  |
 ### CROSS {#CROSS}
 ```
 public static int CROSS
@@ -113,7 +129,7 @@ public static int DARK_HORIZONTAL
 ```
 
 
-Темная горизонталь.
+Темная горизонтальная.
 
 ### DARK_UPWARD_DIAGONAL {#DARK-UPWARD-DIAGONAL}
 ```
@@ -121,7 +137,7 @@ public static int DARK_UPWARD_DIAGONAL
 ```
 
 
-Темная диагональ вверх.
+Темная восходящая диагональ.
 
 ### DARK_VERTICAL {#DARK-VERTICAL}
 ```
@@ -129,7 +145,7 @@ public static int DARK_VERTICAL
 ```
 
 
-Темная вертикаль.
+Темная вертикальная.
 
 ### DASHED_DOWNWARD_DIAGONAL {#DASHED-DOWNWARD-DIAGONAL}
 ```
@@ -137,7 +153,7 @@ public static int DASHED_DOWNWARD_DIAGONAL
 ```
 
 
-Перечеркнутая диагональ вниз.
+Пунктирная нисходящая диагональ.
 
 ### DASHED_HORIZONTAL {#DASHED-HORIZONTAL}
 ```
@@ -145,7 +161,7 @@ public static int DASHED_HORIZONTAL
 ```
 
 
-Штриховая горизонталь.
+Пунктирная горизонтальная.
 
 ### DASHED_UPWARD_DIAGONAL {#DASHED-UPWARD-DIAGONAL}
 ```
@@ -153,7 +169,7 @@ public static int DASHED_UPWARD_DIAGONAL
 ```
 
 
-Перечеркнутая вверх диагональ.
+Пунктирная восходящая диагональ.
 
 ### DASHED_VERTICAL {#DASHED-VERTICAL}
 ```
@@ -161,7 +177,7 @@ public static int DASHED_VERTICAL
 ```
 
 
-Штриховая вертикаль.
+Пунктирная вертикальная.
 
 ### DIAGONAL_BRICK {#DIAGONAL-BRICK}
 ```
@@ -169,7 +185,7 @@ public static int DIAGONAL_BRICK
 ```
 
 
-Диагональный кирпич.
+Диагональная кирпичная.
 
 ### DIAGONAL_CROSS {#DIAGONAL-CROSS}
 ```
@@ -185,7 +201,7 @@ public static int DIVOT
 ```
 
 
-Выкройка.
+Вмятина шаблона.
 
 ### DOTTED_DIAMOND {#DOTTED-DIAMOND}
 ```
@@ -193,7 +209,7 @@ public static int DOTTED_DIAMOND
 ```
 
 
-Алмаз с точками.
+Точечный ромб.
 
 ### DOTTED_GRID {#DOTTED-GRID}
 ```
@@ -201,7 +217,7 @@ public static int DOTTED_GRID
 ```
 
 
-Пунктирная сетка.
+Точечная сетка.
 
 ### DOWNWARD_DIAGONAL {#DOWNWARD-DIAGONAL}
 ```
@@ -209,7 +225,7 @@ public static int DOWNWARD_DIAGONAL
 ```
 
 
-Диагональ вниз.
+Нисходящая диагональ.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -217,7 +233,7 @@ public static int HORIZONTAL
 ```
 
 
-Горизонтальный.
+Горизонтальная.
 
 ### HORIZONTAL_BRICK {#HORIZONTAL-BRICK}
 ```
@@ -225,7 +241,7 @@ public static int HORIZONTAL_BRICK
 ```
 
 
-Горизонтальный кирпич.
+Горизонтальная кирпичная.
 
 ### LARGE_CHECKER_BOARD {#LARGE-CHECKER-BOARD}
 ```
@@ -241,7 +257,7 @@ public static int LARGE_CONFETTI
 ```
 
 
-Большое конфетти.
+Большой конфетти.
 
 ### LARGE_GRID {#LARGE-GRID}
 ```
@@ -257,7 +273,7 @@ public static int LIGHT_DOWNWARD_DIAGONAL
 ```
 
 
-Светлая нисходящая диагональ.
+Светлая диагональ вниз.
 
 ### LIGHT_HORIZONTAL {#LIGHT-HORIZONTAL}
 ```
@@ -265,7 +281,7 @@ public static int LIGHT_HORIZONTAL
 ```
 
 
-Светлая горизонталь.
+Светлая горизонтальная.
 
 ### LIGHT_UPWARD_DIAGONAL {#LIGHT-UPWARD-DIAGONAL}
 ```
@@ -281,7 +297,7 @@ public static int LIGHT_VERTICAL
 ```
 
 
-Светлая вертикаль.
+Светлая вертикальная.
 
 ### NARROW_HORIZONTAL {#NARROW-HORIZONTAL}
 ```
@@ -289,7 +305,7 @@ public static int NARROW_HORIZONTAL
 ```
 
 
-Узкая горизонталь.
+Узкая горизонтальная.
 
 ### NARROW_VERTICAL {#NARROW-VERTICAL}
 ```
@@ -297,7 +313,7 @@ public static int NARROW_VERTICAL
 ```
 
 
-Узкая вертикаль.
+Узкая вертикальная.
 
 ### NONE {#NONE}
 ```
@@ -305,7 +321,7 @@ public static int NONE
 ```
 
 
-Нет шаблона.
+Без узора.
 
 ### OUTLINED_DIAMOND {#OUTLINED-DIAMOND}
 ```
@@ -313,7 +329,7 @@ public static int OUTLINED_DIAMOND
 ```
 
 
-Очерченный алмаз.
+Контурный ромб.
 
 ### PERCENT_10 {#PERCENT-10}
 ```
@@ -321,7 +337,7 @@ public static int PERCENT_10
 ```
 
 
-10% от основного цвета.
+10% цвета переднего плана.
 
 ### PERCENT_20 {#PERCENT-20}
 ```
@@ -329,7 +345,7 @@ public static int PERCENT_20
 ```
 
 
-20% основного цвета.
+20% цвета переднего плана.
 
 ### PERCENT_25 {#PERCENT-25}
 ```
@@ -337,7 +353,7 @@ public static int PERCENT_25
 ```
 
 
-25% основного цвета.
+25% цвета переднего плана.
 
 ### PERCENT_30 {#PERCENT-30}
 ```
@@ -345,7 +361,7 @@ public static int PERCENT_30
 ```
 
 
-30% основного цвета.
+30% цвета переднего плана.
 
 ### PERCENT_40 {#PERCENT-40}
 ```
@@ -353,7 +369,7 @@ public static int PERCENT_40
 ```
 
 
-40% основного цвета
+40% цвета переднего плана
 
 ### PERCENT_5 {#PERCENT-5}
 ```
@@ -361,7 +377,7 @@ public static int PERCENT_5
 ```
 
 
-5% от основного цвета.
+5% цвета переднего плана.
 
 ### PERCENT_50 {#PERCENT-50}
 ```
@@ -369,7 +385,7 @@ public static int PERCENT_50
 ```
 
 
-50% основного цвета
+50% цвета переднего плана
 
 ### PERCENT_60 {#PERCENT-60}
 ```
@@ -377,7 +393,7 @@ public static int PERCENT_60
 ```
 
 
-60% основного цвета.
+60% цвета переднего плана.
 
 ### PERCENT_70 {#PERCENT-70}
 ```
@@ -385,7 +401,7 @@ public static int PERCENT_70
 ```
 
 
-70% основного цвета.
+70% цвета переднего плана.
 
 ### PERCENT_75 {#PERCENT-75}
 ```
@@ -393,7 +409,7 @@ public static int PERCENT_75
 ```
 
 
-75% основного цвета.
+75% цвета переднего плана.
 
 ### PERCENT_80 {#PERCENT-80}
 ```
@@ -401,7 +417,7 @@ public static int PERCENT_80
 ```
 
 
-80% основного цвета.
+80% цвета переднего плана.
 
 ### PERCENT_90 {#PERCENT-90}
 ```
@@ -409,7 +425,7 @@ public static int PERCENT_90
 ```
 
 
-90% основного цвета.
+90% цвета переднего плана.
 
 ### PLAID {#PLAID}
 ```
@@ -417,7 +433,7 @@ public static int PLAID
 ```
 
 
-Плед.
+Клетка.
 
 ### SHINGLE {#SHINGLE}
 ```
@@ -425,7 +441,7 @@ public static int SHINGLE
 ```
 
 
-Галька.
+Гонт.
 
 ### SMALL_CHECKER_BOARD {#SMALL-CHECKER-BOARD}
 ```
@@ -433,7 +449,7 @@ public static int SMALL_CHECKER_BOARD
 ```
 
 
-Маленькая шахматная доска.
+Небольшая шахматная доска.
 
 ### SMALL_CONFETTI {#SMALL-CONFETTI}
 ```
@@ -449,7 +465,7 @@ public static int SMALL_GRID
 ```
 
 
-Мелкая сетка.
+Маленькая сетка.
 
 ### SOLID_DIAMOND {#SOLID-DIAMOND}
 ```
@@ -457,7 +473,7 @@ public static int SOLID_DIAMOND
 ```
 
 
-Твердый алмаз.
+Сплошной ромб.
 
 ### SPHERE {#SPHERE}
 ```
@@ -473,7 +489,7 @@ public static int TRELLIS
 ```
 
 
-решетка.
+Решетка.
 
 ### UPWARD_DIAGONAL {#UPWARD-DIAGONAL}
 ```
@@ -489,7 +505,7 @@ public static int VERTICAL
 ```
 
 
-Вертикальный.
+Вертикальная.
 
 ### WAVE {#WAVE}
 ```
@@ -505,7 +521,7 @@ public static int WEAVE
 ```
 
 
-ткать.
+Плетение.
 
 ### WIDE_DOWNWARD_DIAGONAL {#WIDE-DOWNWARD-DIAGONAL}
 ```
@@ -513,7 +529,7 @@ public static int WIDE_DOWNWARD_DIAGONAL
 ```
 
 
-Широкая нисходящая диагональ.
+Широкая диагональ вниз.
 
 ### WIDE_UPWARD_DIAGONAL {#WIDE-UPWARD-DIAGONAL}
 ```
@@ -521,7 +537,7 @@ public static int WIDE_UPWARD_DIAGONAL
 ```
 
 
-Широкая восходящая диагональ.
+Широкая диагональ вверх.
 
 ### ZIG_ZAG {#ZIG-ZAG}
 ```
@@ -537,23 +553,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String patternTypeName) {#fromName-java.lang.String-}
+### fromName(String patternTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String patternTypeName)
 ```
@@ -561,25 +561,14 @@ public static int fromName(String patternTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | patternTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int patternType) {#getName-int-}
+**Returns:**
+int
+### getName(int patternType) {#getName-int}
 ```
 public static String getName(int patternType)
 ```
@@ -587,15 +576,14 @@ public static String getName(int patternType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | patternType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -603,45 +591,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int patternType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int patternType) {#toString-int}
 ```
 public static String toString(int patternType)
 ```
@@ -649,47 +601,10 @@ public static String toString(int patternType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | patternType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

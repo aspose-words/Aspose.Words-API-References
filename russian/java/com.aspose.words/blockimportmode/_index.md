@@ -1,19 +1,37 @@
 ---
-title: BlockImportMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как свойства элементов уровня блока импортируются из документов на основе HTML.
+title: "BlockImportMode"
+linktitle: "BlockImportMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как свойства блочных элементов импортируются из HTML‑документов в Java."
 type: docs
-weight: 29
+weight: 39
 url: /ru/java/com.aspose.words/blockimportmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BlockImportMode
 ```
 
-Указывает, как свойства элементов уровня блока импортируются из документов на основе HTML.
+Указывает, как свойства блочных элементов импортируются из HTML‑документов.
+
+ **Examples:** 
+
+Показывает, как свойства блочных элементов импортируются из HTML‑документов.
+
+```
+
+ final String html = "\n\n \n \n paragraph 1\n paragraph 2\n\n\n";
+
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ // Set the new mode of import HTML block-level elements.
+ loadOptions.setBlockImportMode(blockImportMode);
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes(StandardCharsets.UTF_8)), loadOptions);
+ doc.save(getArtifactsDir() + "HtmlLoadOptions.BlockImport.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,30 +43,23 @@ public class BlockImportMode
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String blockImportModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int blockImportMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int blockImportMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String blockImportModeName)](#fromName-java.lang.String) |  |
+| [getName(int blockImportMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int blockImportMode)](#toString-int) |  |
 ### MERGE {#MERGE}
 ```
 public static int MERGE
 ```
 
 
-Свойства родительских блоков объединяются и сохраняются в дочерних элементах (например, в абзацах или таблицах).
+Свойства родительских блоков объединяются и сохраняются в дочерних элементах (т.е. в абзацах или таблицах).
 
-Свойства родительских блоков объединяются следующим образом: поля складываются вместе; границы блоков более высокого уровня отбрасываются, и сохраняются только границы самого внутреннего уровня. В результате при указании этого режима будет потеряно некоторое форматирование блоков исходного документа.
+ **Remarks:** 
 
-С другой стороны, поскольку все объединенные свойства уровня блока хранятся в узлах документа, все форматирование в результирующем документе будет доступно для модификации.
+Свойства родительских блоков объединяются следующим образом: отступы суммируются; границы блоков более высокого уровня отбрасываются, сохраняются только границы самого внутреннего уровня. В результате, когда указан этот режим, часть форматирования блоков исходного документа будет утеряна.
+
+С другой стороны, поскольку все объединённые свойства блочного уровня хранятся в узлах документа, всё форматирование в результирующем документе будет доступно для изменения.
 
 ### PRESERVE {#PRESERVE}
 ```
@@ -58,11 +69,13 @@ public static int PRESERVE
 
 Свойства родительских блоков импортируются в специальную логическую структуру и хранятся отдельно от узлов документа.
 
-Импортируются только поля и границы HTML-элементов body, div и blockquote. Свойства каждого элемента HTML хранятся отдельно.
+ **Remarks:** 
 
-Этот режим позволяет лучше сохранить границы и поля, видимые в документе HTML, и получить лучшие результаты преобразования. Недостатком является то, что результирующий документ становится сложнее модифицировать, так как границы и поля, хранящиеся в логической структуре, недоступны для редактирования.
+Импортируются только отступы и границы HTML‑элементов 'body', 'div' и 'blockquote'. Свойства каждого HTML‑элемента хранятся отдельно.
 
-Этот режим имитирует поведение MS Word в отношении импорта свойств блока.
+Этот режим позволяет лучше сохранять границы и отступы, видимые в HTML‑документе, и получать более качественные результаты конвертации. Недостаток заключается в том, что результирующий документ становится труднее изменять, поскольку границы и отступы, хранящиеся в логической структуре, недоступны для редактирования.
+
+Этот режим имитирует поведение MS Word при импорте свойств блоков.
 
 ### length {#length}
 ```
@@ -70,23 +83,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String blockImportModeName) {#fromName-java.lang.String-}
+### fromName(String blockImportModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String blockImportModeName)
 ```
@@ -94,25 +91,14 @@ public static int fromName(String blockImportModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | blockImportModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int blockImportMode) {#getName-int-}
+**Returns:**
+int
+### getName(int blockImportMode) {#getName-int}
 ```
 public static String getName(int blockImportMode)
 ```
@@ -120,15 +106,14 @@ public static String getName(int blockImportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | blockImportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -136,45 +121,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int blockImportMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int blockImportMode) {#toString-int}
 ```
 public static String toString(int blockImportMode)
 ```
@@ -182,47 +131,10 @@ public static String toString(int blockImportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | blockImportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

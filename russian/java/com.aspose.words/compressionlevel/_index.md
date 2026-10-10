@@ -1,49 +1,90 @@
 ---
-title: CompressionLevel
-second_title: Справочник по API Aspose.Words для Java
-description: Уровень сжатия для файлов OOXML.
+title: "CompressionLevel"
+linktitle: "CompressionLevel"
+second_title: "Aspose.Words для Java"
+description: "Уровень сжатия для файлов OOXML и XPS в Java."
 type: docs
-weight: 88
+weight: 122
 url: /ru/java/com.aspose.words/compressionlevel/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CompressionLevel
 ```
 
-Уровень сжатия для файлов OOXML.
+Уровень сжатия для файлов OOXML и XPS.
 
-(Файлы DOCX и DOTX внутри являются ZIP-архивом, это свойство определяет уровень сжатия архива.
+(Файлы DOCX, DOTX и XPS внутренно являются ZIP-архивом, это свойство управляет уровнем сжатия архива.
 
 Обратите внимание, что файл FlatOpc не является ZIP-архивом, поэтому это свойство не влияет на файлы FlatOpc.)
+
+ **Examples:** 
+
+Показывает, как указать уровень сжатия, используемый при сохранении документа OOXML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "CompressionLevel" property to "CompressionLevel.Maximum" to apply the strongest and slowest compression.
+ // Set the "CompressionLevel" property to "CompressionLevel.Normal" to apply
+ // the default compression that Aspose.Words uses while saving OOXML documents.
+ // Set the "CompressionLevel" property to "CompressionLevel.Fast" to apply a faster and weaker compression.
+ // Set the "CompressionLevel" property to "CompressionLevel.SuperFast" to apply
+ // the default compression that Microsoft Word uses.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
+ saveOptions.setCompressionLevel(compressionLevel);
+
+ StopWatch st = new StopWatch();
+ st.start();
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.DocumentCompression.docx", saveOptions);
+ st.stop();
+
+ File fileInfo = new File(getArtifactsDir() + "OoxmlSaveOptions.DocumentCompression.docx");
+
+ System.out.println(MessageFormat.format("Saving operation done using the \"{0}\" compression level:", compressionLevel));
+ System.out.println(MessageFormat.format("\tDuration:\t{0}", st.getTime()));
+ System.out.println(MessageFormat.format("\tFile Size:\t{0} bytes", fileInfo.length()));
+ 
+```
+
+Показывает, как управлять уровнем сжатия при сохранении документа в формате XPS.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Sample document for XPS compression test.");
+
+ // Create an XpsSaveOptions object and set the compression level.
+ XpsSaveOptions options = new XpsSaveOptions();
+ options.setCompressionLevel(CompressionLevel.MAXIMUM);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.CompressionLevelXps.xps", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [FAST](#FAST) | Быстрый уровень сжатия. |
 | [MAXIMUM](#MAXIMUM) | Максимальный уровень сжатия. |
-| [NORMAL](#NORMAL) | Нормальный уровень сжатия. |
+| [NORMAL](#NORMAL) | Обычный уровень сжатия. |
 | [SUPER_FAST](#SUPER-FAST) | Сверхбыстрый уровень сжатия. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String compressionLevelName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int compressionLevel)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int compressionLevel)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String compressionLevelName)](#fromName-java.lang.String) |  |
+| [getName(int compressionLevel)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int compressionLevel)](#toString-int) |  |
 ### FAST {#FAST}
 ```
 public static int FAST
@@ -66,7 +107,7 @@ public static int NORMAL
 ```
 
 
-Нормальный уровень сжатия. Уровень сжатия по умолчанию, используемый Aspose.Words.
+Обычный уровень сжатия. Уровень сжатия по умолчанию, используемый в Aspose.Words.
 
 ### SUPER_FAST {#SUPER-FAST}
 ```
@@ -82,23 +123,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String compressionLevelName) {#fromName-java.lang.String-}
+### fromName(String compressionLevelName) {#fromName-java.lang.String}
 ```
 public static int fromName(String compressionLevelName)
 ```
@@ -106,25 +131,14 @@ public static int fromName(String compressionLevelName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | compressionLevelName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int compressionLevel) {#getName-int-}
+**Returns:**
+int
+### getName(int compressionLevel) {#getName-int}
 ```
 public static String getName(int compressionLevel)
 ```
@@ -132,15 +146,14 @@ public static String getName(int compressionLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | compressionLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -148,45 +161,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int compressionLevel) {#toString-int-}
+**Returns:**
+int[]
+### toString(int compressionLevel) {#toString-int}
 ```
 public static String toString(int compressionLevel)
 ```
@@ -194,47 +171,10 @@ public static String toString(int compressionLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | compressionLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

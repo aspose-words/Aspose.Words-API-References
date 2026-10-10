@@ -1,24 +1,51 @@
 ---
-title: PdfCustomPropertiesExport
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает способ экспорта в файл PDF.
+title: "PdfCustomPropertiesExport"
+linktitle: "PdfCustomPropertiesExport"
+second_title: "Aspose.Words для Java"
+description: "Указывает способ, которым Document.getCustomDocumentProperties экспортируются в PDF‑файл в Java."
 type: docs
-weight: 450
+weight: 530
 url: /ru/java/com.aspose.words/pdfcustompropertiesexport/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfCustomPropertiesExport
 ```
 
- Указывает способ[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) экспортируются в файл PDF.
+Указывает способ, которым [Document.getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties) экспортируются в PDF‑файл.
+
+ **Examples:** 
+
+Показывает, как экспортировать пользовательские свойства при конвертации документа в PDF.
+
+```
+
+ Document doc = new Document();
+
+ doc.getCustomDocumentProperties().add("Company", "My value");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.None" to discard
+ // custom document properties as we save the document to .PDF.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Standard"
+ // to preserve custom properties within the output PDF document.
+ // Set the "CustomPropertiesExport" property to "PdfCustomPropertiesExport.Metadata"
+ // to preserve custom properties in an XMP packet.
+ options.setCustomPropertiesExport(pdfCustomPropertiesExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [METADATA](#METADATA) | Пользовательские свойства — это метаданные. |
+| [METADATA](#METADATA) | Пользовательские свойства являются метаданными. |
 | [NONE](#NONE) | Пользовательские свойства не экспортируются. |
 | [STANDARD](#STANDARD) | Пользовательские свойства экспортируются как записи в словаре /Info. |
 | [length](#length) |  |
@@ -26,28 +53,21 @@ public class PdfCustomPropertiesExport
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfCustomPropertiesExportName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfCustomPropertiesExport)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfCustomPropertiesExport)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfCustomPropertiesExportName)](#fromName-java.lang.String) |  |
+| [getName(int pdfCustomPropertiesExport)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfCustomPropertiesExport)](#toString-int) |  |
 ### METADATA {#METADATA}
 ```
 public static int METADATA
 ```
 
 
-Пользовательские свойства — это метаданные.
+Пользовательские свойства являются метаданными.
 
-Пространство имен экспортируемых свойств в пакете XMP — «custprops». С каждым свойством связан xml-элемент «custprops:Property1», «custprops:Property2» и так далее. Внутри элемента свойства находится элемент "rdf:Description". Элемент описания состоит из двух элементов «custprops:Name», содержащих имя пользовательского свойства в качестве значения этого xml-элемента, и «custprops:Value», содержащего значение пользовательского свойства в качестве значения этого xml-элемента.
+ **Remarks:** 
+
+Пространство имён экспортированных свойств в пакете XMP равно "custprops". Каждое свойство имеет связанный xml-элемент "custprops:Property1", "custprops:Property2" и т.д. Внутри элемента свойства находится элемент "rdf:Description". Элемент описания содержит два элемента "custprops:Name", содержащий имя пользовательского свойства как значение этого xml-элемента, и "custprops:Value", содержащий значение пользовательского свойства как значение этого xml-элемента.
 
 ### NONE {#NONE}
 ```
@@ -65,7 +85,7 @@ public static int STANDARD
 
 Пользовательские свойства экспортируются как записи в словаре /Info.
 
-Пользовательские свойства со следующими именами не экспортируются: «Заголовок», «Автор», «Тема», «Ключевые слова», «Создатель», «Производитель», «Дата создания», «Дата модификации», «В ловушке».
+Пользовательские свойства со следующими именами не экспортируются: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
 
 ### length {#length}
 ```
@@ -73,23 +93,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfCustomPropertiesExportName) {#fromName-java.lang.String-}
+### fromName(String pdfCustomPropertiesExportName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfCustomPropertiesExportName)
 ```
@@ -97,25 +101,14 @@ public static int fromName(String pdfCustomPropertiesExportName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfCustomPropertiesExportName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfCustomPropertiesExport) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfCustomPropertiesExport) {#getName-int}
 ```
 public static String getName(int pdfCustomPropertiesExport)
 ```
@@ -123,15 +116,14 @@ public static String getName(int pdfCustomPropertiesExport)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfCustomPropertiesExport | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -139,45 +131,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfCustomPropertiesExport) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfCustomPropertiesExport) {#toString-int}
 ```
 public static String toString(int pdfCustomPropertiesExport)
 ```
@@ -185,47 +141,10 @@ public static String toString(int pdfCustomPropertiesExport)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfCustomPropertiesExport | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

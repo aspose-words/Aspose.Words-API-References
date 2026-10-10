@@ -1,50 +1,65 @@
 ---
-title: RevisionsView
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать, следует ли работать с оригинальной или исправленной версией документа.
+title: "RevisionsView"
+linktitle: "RevisionsView"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать, работать ли с оригинальной или исправленной версией документа в Java."
 type: docs
-weight: 491
+weight: 587
 url: /ru/java/com.aspose.words/revisionsview/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RevisionsView
 ```
 
-Позволяет указать, следует ли работать с оригинальной или исправленной версией документа.
+Позволяет указать, работать ли с оригинальной или изменённой версией документа.
+
+ **Examples:** 
+
+Показывает, как переключаться между исправленным и оригинальным представлением документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions at list levels.docx");
+ doc.updateListLabels();
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+ Assert.assertEquals("1.", paragraphs.get(0).getListLabel().getLabelString());
+ Assert.assertEquals("a.", paragraphs.get(1).getListLabel().getLabelString());
+ Assert.assertEquals("", paragraphs.get(2).getListLabel().getLabelString());
+
+ // View the document object as if all the revisions are accepted. Currently supports list labels.
+ doc.setRevisionsView(RevisionsView.FINAL);
+
+ Assert.assertEquals("", paragraphs.get(0).getListLabel().getLabelString());
+ Assert.assertEquals("1.", paragraphs.get(1).getListLabel().getLabelString());
+ Assert.assertEquals("a.", paragraphs.get(2).getListLabel().getLabelString());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FINAL](#FINAL) | Определяет исправленную версию документа. |
-| [ORIGINAL](#ORIGINAL) | Указывает исходную версию документа. |
+| [FINAL](#FINAL) | Указывает исправленную версию документа. |
+| [ORIGINAL](#ORIGINAL) | Указывает оригинальную версию документа. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String revisionsViewName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int revisionsView)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int revisionsView)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String revisionsViewName)](#fromName-java.lang.String) |  |
+| [getName(int revisionsView)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int revisionsView)](#toString-int) |  |
 ### FINAL {#FINAL}
 ```
 public static int FINAL
 ```
 
 
-Определяет исправленную версию документа.
+Указывает исправленную версию документа.
 
 ### ORIGINAL {#ORIGINAL}
 ```
@@ -52,7 +67,7 @@ public static int ORIGINAL
 ```
 
 
-Указывает исходную версию документа.
+Указывает оригинальную версию документа.
 
 ### length {#length}
 ```
@@ -60,23 +75,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String revisionsViewName) {#fromName-java.lang.String-}
+### fromName(String revisionsViewName) {#fromName-java.lang.String}
 ```
 public static int fromName(String revisionsViewName)
 ```
@@ -84,25 +83,14 @@ public static int fromName(String revisionsViewName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionsViewName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int revisionsView) {#getName-int-}
+**Returns:**
+int
+### getName(int revisionsView) {#getName-int}
 ```
 public static String getName(int revisionsView)
 ```
@@ -110,15 +98,14 @@ public static String getName(int revisionsView)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionsView | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +113,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int revisionsView) {#toString-int-}
+**Returns:**
+int[]
+### toString(int revisionsView) {#toString-int}
 ```
 public static String toString(int revisionsView)
 ```
@@ -172,47 +123,10 @@ public static String toString(int revisionsView)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionsView | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

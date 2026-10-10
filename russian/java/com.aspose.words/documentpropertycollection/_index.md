@@ -1,62 +1,118 @@
 ---
-title: DocumentPropertyCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Базовый класс для и коллекций.
+title: "DocumentPropertyCollection"
+linktitle: "DocumentPropertyCollection"
+second_title: "Aspose.Words для Java"
+description: "Базовый класс для коллекций BuiltInDocumentProperties и CustomDocumentProperties в Java."
 type: docs
-weight: 127
+weight: 169
 url: /ru/java/com.aspose.words/documentpropertycollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public abstract class DocumentPropertyCollection implements Iterable
 ```
 
- Базовый класс для[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) а также[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) коллекции.
+Базовый класс для коллекций [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) и [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) .
 
- Чтобы узнать больше, посетите**Work with Document Properties** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Document Properties ][Work with Document Properties].
 
-Имена свойств нечувствительны к регистру.
+ **Remarks:** 
+
+Имена свойств не чувствительны к регистру.
 
 Свойства в коллекции отсортированы в алфавитном порядке по имени.
+
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+
+[Work with Document Properties]: https://docs.aspose.com/words/java/work-with-document-properties/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [DocumentPropertyCollection()](#DocumentPropertyCollection--) |  |
+| [DocumentPropertyCollection()](#DocumentPropertyCollection) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clear()](#clear--) | Удаляет все свойства из коллекции. |
-| [contains(String name)](#contains-java.lang.String-) | Возвращает true, если свойство с указанным именем существует в коллекции. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) |  Возвращает[DocumentProperty](../../com.aspose.words/documentproperty) объект по индексу. |
-| [get(String name)](#get-java.lang.String-) | Предоставляет доступ к элементам коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [indexOf(String name)](#indexOf-java.lang.String-) | Получает индекс свойства по имени. |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Удаляет свойство с указанным именем из коллекции. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет свойство по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DocumentPropertyCollection() {#DocumentPropertyCollection--}
+| [clear()](#clear) | Удаляет все свойства из коллекции. |
+| [contains(String name)](#contains-java.lang.String) | Возвращает  true  если свойство с указанным именем существует в коллекции. |
+| [get(int index)](#get-int) | Возвращает объект [DocumentProperty](../../com.aspose.words/documentproperty/) по индексу. |
+| [get(String name)](#get-java.lang.String) | Обеспечивает доступ к элементам коллекции. |
+| [getCount()](#getCount) | Получает количество элементов в коллекции. |
+| [indexOf(String name)](#indexOf-java.lang.String) | Получает индекс свойства по имени. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [remove(String name)](#remove-java.lang.String) | Удаляет свойство с указанным именем из коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет свойство по указанному индексу. |
+### DocumentPropertyCollection() {#DocumentPropertyCollection}
 ```
 public DocumentPropertyCollection()
 ```
 
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -64,85 +120,215 @@ public void clear()
 
 Удаляет все свойства из коллекции.
 
-### contains(String name) {#contains-java.lang.String-}
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
-Возвращает true, если свойство с указанным именем существует в коллекции.
+Возвращает  true  если свойство с указанным именем существует в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя свойства. |
+Показывает, как работать с пользовательскими свойствами документа.
 
-**Возвращает:**
-boolean — Истинно, если свойство существует в коллекции; ложно в противном случае.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
 
+ Assert.assertEquals(0, properties.getCount());
 
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
 
-**Параметры:**
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
 
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| name | java.lang.String | Имя свойства без учета регистра. |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean -  true  если свойство существует в коллекции;  false  в противном случае.
+### get(int index) {#get-int}
 ```
 public DocumentProperty get(int index)
 ```
 
 
- Возвращает[DocumentProperty](../../com.aspose.words/documentproperty) объект по индексу.
+Возвращает объект [DocumentProperty](../../com.aspose.words/documentproperty/) по индексу.
 
-**Note:** В Java этот метод медленный, потому что перебирает все узлы.
+ **Remarks:** 
 
-**Параметры:**
+**Note:**  In Java this method is slow because iterates over all nodes.
 
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Properties.docx");
+
+ // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
+ // The document has a fixed list of built-in properties. The user creates all of the custom properties.
+ Assert.assertEquals("Value of custom document property", doc.getCustomDocumentProperties().get("CustomProperty").toString());
+
+ doc.getCustomDocumentProperties().add("CustomProperty2", "Value of custom document property #2");
+
+ System.out.println("Custom Properties:");
+ for (DocumentProperty customDocumentProperty : doc.getCustomDocumentProperties()) {
+     System.out.println(customDocumentProperty.getName());
+     System.out.println(MessageFormat.format("\tType:\t{0}", customDocumentProperty.getType()));
+     System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  Отсчитываемый от нуля индекс[DocumentProperty](../../com.aspose.words/documentproperty) получить. |
+| index | int | Нулевой индекс [DocumentProperty](../../com.aspose.words/documentproperty/) для получения. |
 
-**Возвращает:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - А[DocumentProperty](../../com.aspose.words/documentproperty) объект по индексу.
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty/) - A [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
+### get(String name) {#get-java.lang.String}
 ```
 public DocumentProperty get(String name)
 ```
 
 
- Предоставляет доступ к элементам коллекции. Возвращает[DocumentProperty](../../com.aspose.words/documentproperty) объект по имени свойства.
+Обеспечивает доступ к элементам коллекции.  Возвращает объект [DocumentProperty](../../com.aspose.words/documentproperty/) по имени свойства.
 
-Возвращает null, если свойство с указанным именем не найдено.
+ **Remarks:** 
 
-**Параметры:**
+Возвращает  null  если свойство с указанным именем не найдено.
 
+ **Examples:** 
+
+Показывает, как создать пользовательское свойство документа, содержащее дату и время.
+
+```
+
+ Document doc = new Document();
+
+ doc.getCustomDocumentProperties().add("AuthorizationDate", new Date());
+
+ System.out.println(MessageFormat.format("Document authorized on {0}", doc.getCustomDocumentProperties().get("AuthorizationDate")));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя извлекаемого свойства. |
+| name | java.lang.String | Имя свойства без учета регистра для получения. |
 
-**Возвращает:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - соответствующий[DocumentProperty](../../com.aspose.words/documentproperty) ценность.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -150,19 +336,32 @@ public int getCount()
 
 Получает количество элементов в коллекции.
 
-**Возвращает:**
-int - количество элементов в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Properties.docx");
+
+ // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
+ // The document has a fixed list of built-in properties. The user creates all of the custom properties.
+ Assert.assertEquals("Value of custom document property", doc.getCustomDocumentProperties().get("CustomProperty").toString());
+
+ doc.getCustomDocumentProperties().add("CustomProperty2", "Value of custom document property #2");
+
+ System.out.println("Custom Properties:");
+ for (DocumentProperty customDocumentProperty : doc.getCustomDocumentProperties()) {
+     System.out.println(customDocumentProperty.getName());
+     System.out.println(MessageFormat.format("\tType:\t{0}", customDocumentProperty.getType()));
+     System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### indexOf(String name) {#indexOf-java.lang.String-}
+**Returns:**
+int - Количество элементов в коллекции.
+### indexOf(String name) {#indexOf-java.lang.String}
 ```
 public int indexOf(String name)
 ```
@@ -170,43 +369,146 @@ public int indexOf(String name)
 
 Получает индекс свойства по имени.
 
-**Note:** В Java этот метод медленный, потому что перебирает все узлы.
+ **Remarks:** 
 
-**Параметры:**
+**Note:**  In Java this method is slow because iterates over all nodes.
 
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя свойства. |
+| name | java.lang.String | Имя свойства без учета регистра. |
 
-**Возвращает:**
-int - индекс, основанный на нуле. Отрицательное значение, если не найдено.
-### iterator() {#iterator--}
+**Returns:**
+int - Индекс, начинающийся с нуля. Отрицательное значение, если не найден.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -214,13 +516,71 @@ public void remove(String name)
 
 Удаляет свойство с указанным именем из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя свойства. |
+| name | java.lang.String | Имя свойства без учета регистра. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -228,57 +588,71 @@ public void removeAt(int index)
 
 Удаляет свойство по указанному индексу.
 
-**Note:** В Java этот метод медленный, потому что перебирает все узлы.
+ **Remarks:** 
 
-**Параметры:**
+**Note:**  In Java this method is slow because iterates over all nodes.
 
+ **Examples:** 
+
+Показывает, как работать с пользовательскими свойствами документа.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс с отсчетом от нуля. |
+| индекс | int | Нулевой индекс. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

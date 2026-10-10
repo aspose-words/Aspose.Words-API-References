@@ -1,50 +1,65 @@
 ---
-title: PageBorderDistanceFrom
-second_title: Справочник по API Aspose.Words для Java
-description: Задает положение границы страницы относительно поля страницы.
+title: "PageBorderDistanceFrom"
+linktitle: "PageBorderDistanceFrom"
+second_title: "Aspose.Words для Java"
+description: "Указывает позиционирование границы страницы относительно полей страницы в Java."
 type: docs
-weight: 433
+weight: 511
 url: /ru/java/com.aspose.words/pageborderdistancefrom/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageBorderDistanceFrom
 ```
 
-Задает положение границы страницы относительно поля страницы.
+Указывает позиционирование границы страницы относительно полей страницы.
+
+ **Examples:** 
+
+Показывает, как создать широкую синюю полосу‑границу в верхней части первой страницы.
+
+```
+
+ Document doc = new Document();
+
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setBorderAlwaysInFront(false);
+ pageSetup.setBorderDistanceFrom(PageBorderDistanceFrom.PAGE_EDGE);
+ pageSetup.setBorderAppliesTo(PageBorderAppliesTo.FIRST_PAGE);
+
+ Border border = pageSetup.getBorders().getByBorderType(BorderType.TOP);
+ border.setLineStyle(LineStyle.SINGLE);
+ border.setLineWidth(30.0);
+ border.setColor(Color.BLUE);
+ border.setDistanceFromText(0.0);
+
+ doc.save(getArtifactsDir() + "PageSetup.PageBorderProperties.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [PAGE_EDGE](#PAGE-EDGE) | Положение границы измеряется от края страницы. |
-| [TEXT](#TEXT) | Положение границы измеряется от поля страницы. |
+| [PAGE_EDGE](#PAGE-EDGE) | Позиция границы измеряется от края страницы. |
+| [TEXT](#TEXT) | Позиция границы измеряется от полей страницы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pageBorderDistanceFromName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pageBorderDistanceFrom)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pageBorderDistanceFrom)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pageBorderDistanceFromName)](#fromName-java.lang.String) |  |
+| [getName(int pageBorderDistanceFrom)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pageBorderDistanceFrom)](#toString-int) |  |
 ### PAGE_EDGE {#PAGE-EDGE}
 ```
 public static int PAGE_EDGE
 ```
 
 
-Положение границы измеряется от края страницы.
+Позиция границы измеряется от края страницы.
 
 ### TEXT {#TEXT}
 ```
@@ -52,7 +67,7 @@ public static int TEXT
 ```
 
 
-Положение границы измеряется от поля страницы.
+Позиция границы измеряется от полей страницы.
 
 ### length {#length}
 ```
@@ -60,23 +75,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pageBorderDistanceFromName) {#fromName-java.lang.String-}
+### fromName(String pageBorderDistanceFromName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pageBorderDistanceFromName)
 ```
@@ -84,25 +83,14 @@ public static int fromName(String pageBorderDistanceFromName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderDistanceFromName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pageBorderDistanceFrom) {#getName-int-}
+**Returns:**
+int
+### getName(int pageBorderDistanceFrom) {#getName-int}
 ```
 public static String getName(int pageBorderDistanceFrom)
 ```
@@ -110,15 +98,14 @@ public static String getName(int pageBorderDistanceFrom)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderDistanceFrom | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +113,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pageBorderDistanceFrom) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pageBorderDistanceFrom) {#toString-int}
 ```
 public static String toString(int pageBorderDistanceFrom)
 ```
@@ -172,47 +123,10 @@ public static String toString(int pageBorderDistanceFrom)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageBorderDistanceFrom | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

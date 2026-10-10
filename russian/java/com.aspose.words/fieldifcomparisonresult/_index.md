@@ -1,44 +1,81 @@
 ---
-title: FieldIfComparisonResult
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает результат оценки условия поля IF.
+title: "FieldIfComparisonResult"
+linktitle: "FieldIfComparisonResult"
+second_title: "Aspose.Words для Java"
+description: "Указывает результат оценки условия поля IF в Java."
 type: docs
-weight: 201
+weight: 244
 url: /ru/java/com.aspose.words/fieldifcomparisonresult/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FieldIfComparisonResult
 ```
 
 Указывает результат оценки условия поля IF.
+
+ **Examples:** 
+
+Показывает, как вставить поле IF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Statement 1: ");
+ FieldIf field = (FieldIf) builder.insertField(FieldType.FIELD_IF, true);
+ field.setLeftExpression("0");
+ field.setComparisonOperator("=");
+ field.setRightExpression("1");
+
+ // The IF field will display a string from either its "TrueText" property,
+ // or its "FalseText" property, depending on the truth of the statement that we have constructed.
+ field.setTrueText("True");
+ field.setFalseText("False");
+ field.update();
+
+ // In this case, "0 = 1" is incorrect, so the displayed result will be "False".
+ Assert.assertEquals(" IF  0 = 1 True False", field.getFieldCode());
+ Assert.assertEquals(FieldIfComparisonResult.FALSE, field.evaluateCondition());
+ Assert.assertEquals("False", field.getResult());
+
+ builder.write("\nStatement 2: ");
+ field = (FieldIf) builder.insertField(FieldType.FIELD_IF, true);
+ field.setLeftExpression("5");
+ field.setComparisonOperator("=");
+ field.setRightExpression("2 + 3");
+ field.setTrueText("True");
+ field.setFalseText("False");
+ field.update();
+
+ // This time the statement is correct, so the displayed result will be "True".
+ Assert.assertEquals(" IF  5 = \"2 + 3\" True False", field.getFieldCode());
+ Assert.assertEquals(FieldIfComparisonResult.TRUE, field.evaluateCondition());
+ Assert.assertEquals("True", field.getResult());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.IF.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [ERROR](#ERROR) | В условии есть ошибка. |
 | [FALSE](#FALSE) | Условие ложно. |
-| [TRUE](#TRUE) | Условие верное. |
+| [TRUE](#TRUE) | Условие истинно. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fieldIfComparisonResultName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fieldIfComparisonResult)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int fieldIfComparisonResult)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String fieldIfComparisonResultName)](#fromName-java.lang.String) |  |
+| [getName(int fieldIfComparisonResult)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int fieldIfComparisonResult)](#toString-int) |  |
 ### ERROR {#ERROR}
 ```
 public static int ERROR
@@ -61,7 +98,7 @@ public static int TRUE
 ```
 
 
-Условие верное.
+Условие истинно.
 
 ### length {#length}
 ```
@@ -69,23 +106,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String fieldIfComparisonResultName) {#fromName-java.lang.String-}
+### fromName(String fieldIfComparisonResultName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fieldIfComparisonResultName)
 ```
@@ -93,25 +114,14 @@ public static int fromName(String fieldIfComparisonResultName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fieldIfComparisonResultName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int fieldIfComparisonResult) {#getName-int-}
+**Returns:**
+int
+### getName(int fieldIfComparisonResult) {#getName-int}
 ```
 public static String getName(int fieldIfComparisonResult)
 ```
@@ -119,15 +129,14 @@ public static String getName(int fieldIfComparisonResult)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fieldIfComparisonResult | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +144,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int fieldIfComparisonResult) {#toString-int-}
+**Returns:**
+int[]
+### toString(int fieldIfComparisonResult) {#toString-int}
 ```
 public static String toString(int fieldIfComparisonResult)
 ```
@@ -181,47 +154,10 @@ public static String toString(int fieldIfComparisonResult)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fieldIfComparisonResult | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,19 +1,44 @@
 ---
-title: LayoutFlow
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет поток макета текста в текстовом поле.
+title: "LayoutFlow"
+linktitle: "LayoutFlow"
+second_title: "Aspose.Words для Java"
+description: "Определяет поток текстовой разметки в текстовом поле в Java."
 type: docs
-weight: 361
+weight: 418
 url: /ru/java/com.aspose.words/layoutflow/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LayoutFlow
 ```
 
-Определяет поток макета текста в текстовом поле.
+Определяет поток компоновки текста в текстовом поле.
+
+ **Examples:** 
+
+Показывает, как добавить текст в текстовое поле и изменить его ориентацию.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape textbox = new Shape(doc, ShapeType.TEXT_BOX);
+ textbox.setWidth(100.0);
+ textbox.setHeight(100.0);
+ textbox.getTextBox().setLayoutFlow(LayoutFlow.BOTTOM_TO_TOP);
+
+ textbox.appendChild(new Paragraph(doc));
+ builder.insertNode(textbox);
+
+ builder.moveTo(textbox.getFirstParagraph());
+ builder.write("This text is flipped 90 degrees to the left.");
+
+ doc.save(getArtifactsDir() + "Drawing.TextBox.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -29,19 +54,10 @@ public class LayoutFlow
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String layoutFlowName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int layoutFlow)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int layoutFlow)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String layoutFlowName)](#fromName-java.lang.String) |  |
+| [getName(int layoutFlow)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int layoutFlow)](#toString-int) |  |
 ### BOTTOM_TO_TOP {#BOTTOM-TO-TOP}
 ```
 public static int BOTTOM_TO_TOP
@@ -96,23 +112,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String layoutFlowName) {#fromName-java.lang.String-}
+### fromName(String layoutFlowName) {#fromName-java.lang.String}
 ```
 public static int fromName(String layoutFlowName)
 ```
@@ -120,25 +120,14 @@ public static int fromName(String layoutFlowName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | layoutFlowName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int layoutFlow) {#getName-int-}
+**Returns:**
+int
+### getName(int layoutFlow) {#getName-int}
 ```
 public static String getName(int layoutFlow)
 ```
@@ -146,15 +135,14 @@ public static String getName(int layoutFlow)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | layoutFlow | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +150,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int layoutFlow) {#toString-int-}
+**Returns:**
+int[]
+### toString(int layoutFlow) {#toString-int}
 ```
 public static String toString(int layoutFlow)
 ```
@@ -208,47 +160,10 @@ public static String toString(int layoutFlow)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | layoutFlow | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

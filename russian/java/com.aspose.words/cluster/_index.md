@@ -1,43 +1,37 @@
 ---
-title: Cluster
-second_title: Справочник по API Aspose.Words для Java
-description: 
+title: "Cluster"
+linktitle: "Cluster"
+second_title: "Aspose.Words для Java"
+description: "Инкапсулирует кодовые точки и глифы, составляющие графему, в Java."
 type: docs
-weight: 74
+weight: 104
 url: /ru/java/com.aspose.words/cluster/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Cluster
 ```
+
+Инкапсулирует кодовые точки и глифы, составляющие графему.
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph---) | Инициализирует новый экземпляр этого класса. |
+| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCodepoints()](#getCodepoints--) |  |
-| [getCodepointsLength()](#getCodepointsLength--) |  |
-| [getGlyphs()](#getGlyphs--) |  |
-| [getString()](#getString--) |  |
-| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster---) |  |
-| [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Cluster(int[] codepoints, Glyph[] glyphs) {#Cluster-int---com.aspose.words.Glyph---}
+| [deepClone()](#deepClone) | Возвращает глубокую копию этого экземпляра. |
+| [getCodepoints()](#getCodepoints) | Получает кодовые точки кластера. |
+| [getCodepointsLength()](#getCodepointsLength) | Получает общее количество кодовых точек в [Cluster](../../com.aspose.words/cluster/). |
+| [getGlyphs()](#getGlyphs) | Получает глифы кластера. |
+| [getString()](#getString) | Создаёт java.lang.String, используя кодовые точки из этого кластера. |
+| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster) | Создаёт java.lang.String, используя кодовые точки из указанных кластеров. |
+| [getWidth(int em, float fontSize)](#getWidth-int-float) | Возвращает ширину кластера. |
+### Cluster(int[] codepoints, Glyph[] glyphs) {#Cluster-int---com.aspose.words.Glyph}
 ```
 public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
@@ -45,191 +39,90 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 Инициализирует новый экземпляр этого класса.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| codepoints | int[] |  |
-| glyphs | [Glyph\[\]](../../com.aspose.words/glyph) |  |
+| кодовые точки | int[] | Массив Unicode‑точек, составляющих графему. |
+| glyphs | [Glyph\[\]](../../com.aspose.words/glyph/) | Массив [Glyph](../../com.aspose.words/glyph/) >, составляющих графему. |
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public Cluster deepClone()
 ```
 
 
+Возвращает глубокую копию этого экземпляра.
 
-
-**Возвращает:**
-[Cluster](../../com.aspose.words/cluster)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCodepoints() {#getCodepoints--}
+**Returns:**
+[Cluster](../../com.aspose.words/cluster/)
+### getCodepoints() {#getCodepoints}
 ```
 public int[] getCodepoints()
 ```
 
 
+Получает кодовые точки кластера.
 
-
-**Возвращает:**
-инт[]
-### getCodepointsLength() {#getCodepointsLength--}
+**Returns:**
+int[] - Кодовые точки кластера.
+### getCodepointsLength() {#getCodepointsLength}
 ```
 public int getCodepointsLength()
 ```
 
 
+Получает общее количество кодовых точек в [Cluster](../../com.aspose.words/cluster/).
 
-
-**Возвращает:**
-инт
-### getGlyphs() {#getGlyphs--}
+**Returns:**
+int - Общее количество кодовых точек в [Cluster](../../com.aspose.words/cluster/).
+### getGlyphs() {#getGlyphs}
 ```
 public Glyph[] getGlyphs()
 ```
 
 
+Получает глифы кластера.
 
-
-**Возвращает:**
-com.aspose.words.Glyph[]
-### getString() {#getString--}
+**Returns:**
+com.aspose.words.Glyph[] - Глифы кластера.
+### getString() {#getString}
 ```
 public String getString()
 ```
 
 
+Создаёт java.lang.String, используя кодовые точки из этого кластера.
 
-
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
+### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster}
 ```
 public static String getString(Cluster[] clusters)
 ```
 
 
+Создаёт java.lang.String, используя кодовые точки из указанных кластеров.
 
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
+| clusters | [Cluster\[\]](../../com.aspose.words/cluster/) |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getWidth(int em, float fontSize) {#getWidth-int-float-}
+### getWidth(int em, float fontSize) {#getWidth-int-float}
 ```
 public float getWidth(int em, float fontSize)
 ```
 
 
+Возвращает ширину кластера.
 
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**Возвращает:**
-плавать
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+float

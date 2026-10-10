@@ -1,25 +1,94 @@
 ---
-title: INodeChangingCallback
-second_title: Справочник по API Aspose.Words для Java
-description: Реализуйте этот интерфейс, если хотите получать уведомления о вставке или удалении узлов в документе.
+title: "INodeChangingCallback"
+linktitle: "INodeChangingCallback"
+second_title: "Aspose.Words для Java"
+description: "Реализуйте этот интерфейс, если хотите получать уведомления о вставке или удалении узлов в документе на Java."
 type: docs
-weight: 652
+weight: 778
 url: /ru/java/com.aspose.words/inodechangingcallback/
 ---
 ```
 public interface INodeChangingCallback
 ```
 
-Реализуйте этот интерфейс, если хотите получать уведомления о вставке или удалении узлов в документе.
+Реализуйте этот интерфейс, если вы хотите получать уведомления, когда узлы вставляются или удаляются в документе.
+
+ **Examples:** 
+
+Показывает, как настроить изменение узлов с помощью обратного вызова.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [nodeInserted(NodeChangingArgs args)](#nodeInserted-com.aspose.words.NodeChangingArgs-) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
-| [nodeInserting(NodeChangingArgs args)](#nodeInserting-com.aspose.words.NodeChangingArgs-) | Вызывается непосредственно перед вставкой узла, принадлежащего этому документу, в другой узел. |
-| [nodeRemoved(NodeChangingArgs args)](#nodeRemoved-com.aspose.words.NodeChangingArgs-) | Вызывается, когда узел, принадлежащий этому документу, был удален из своего родителя. |
-| [nodeRemoving(NodeChangingArgs args)](#nodeRemoving-com.aspose.words.NodeChangingArgs-) | Вызывается непосредственно перед удалением из документа узла, принадлежащего этому документу. |
-### nodeInserted(NodeChangingArgs args) {#nodeInserted-com.aspose.words.NodeChangingArgs-}
+| [nodeInserted(NodeChangingArgs args)](#nodeInserted-com.aspose.words.NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
+| [nodeInserting(NodeChangingArgs args)](#nodeInserting-com.aspose.words.NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет вставлен в другой узел. |
+| [nodeRemoved(NodeChangingArgs args)](#nodeRemoved-com.aspose.words.NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был удалён из своего родителя. |
+| [nodeRemoving(NodeChangingArgs args)](#nodeRemoving-com.aspose.words.NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удалён из документа. |
+### nodeInserted(NodeChangingArgs args) {#nodeInserted-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeInserted(NodeChangingArgs args)
 ```
@@ -27,50 +96,319 @@ public abstract void nodeInserted(NodeChangingArgs args)
 
 Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить изменение узлов с помощью обратного вызова.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
-### nodeInserting(NodeChangingArgs args) {#nodeInserting-com.aspose.words.NodeChangingArgs-}
+### nodeInserting(NodeChangingArgs args) {#nodeInserting-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeInserting(NodeChangingArgs args)
 ```
 
 
-Вызывается непосредственно перед вставкой узла, принадлежащего этому документу, в другой узел.
+Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет вставлен в другой узел.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить изменение узлов с помощью обратного вызова.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
-### nodeRemoved(NodeChangingArgs args) {#nodeRemoved-com.aspose.words.NodeChangingArgs-}
+### nodeRemoved(NodeChangingArgs args) {#nodeRemoved-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeRemoved(NodeChangingArgs args)
 ```
 
 
-Вызывается, когда узел, принадлежащий этому документу, был удален из своего родителя.
+Вызывается, когда узел, принадлежащий этому документу, был удалён из своего родителя.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить изменение узлов с помощью обратного вызова.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
-### nodeRemoving(NodeChangingArgs args) {#nodeRemoving-com.aspose.words.NodeChangingArgs-}
+### nodeRemoving(NodeChangingArgs args) {#nodeRemoving-com.aspose.words.NodeChangingArgs}
 ```
 public abstract void nodeRemoving(NodeChangingArgs args)
 ```
 
 
-Вызывается непосредственно перед удалением из документа узла, принадлежащего этому документу.
+Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удалён из документа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить изменение узлов с помощью обратного вызова.
+
+```
+
+ public void fontChangeViaCallback() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Set the node changing callback to custom implementation,
+     // then add/remove nodes to get it to generate a log.
+     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
+     doc.setNodeChangingCallback(callback);
+
+     builder.writeln("Hello world!");
+     builder.writeln("Hello again!");
+     builder.insertField(" HYPERLINK \"https://www.google.com/\" ");
+     builder.insertShape(ShapeType.RECTANGLE, 300.0, 300.0);
+
+     doc.getRange().getFields().get(0).remove();
+
+     System.out.println(callback.getLog());
+ }
+
+ /// 
+ /// Logs the date and time of each node insertion and removal.
+ /// Sets a custom font name/size for the text contents of Run nodes.
+ /// 
+ public static class HandleNodeChangingFontChanger implements INodeChangingCallback {
+     public void nodeInserted(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+
+         if (args.getNode().getNodeType() == NodeType.RUN) {
+             Font font = ((Run) args.getNode()).getFont();
+             mLog.append(MessageFormat.format("\tFont:\tChanged from \"{0}\" {1}pt", font.getName(), font.getSize()));
+
+             font.setSize(24.0);
+             font.setName("Arial");
+
+             mLog.append(MessageFormat.format(" to \"{0}\" {1}pt", font.getName(), font.getSize()));
+             mLog.append(MessageFormat.format("\tContents:\n\t\t\"{0}\"", args.getNode().getText()));
+         }
+     }
+
+     public void nodeInserting(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode insertion:", new Date()));
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+         mLog.append(MessageFormat.format("\tHash code:\t{0}", args.getNode().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         mLog.append(MessageFormat.format("\n{0}\tNode removal:", new Date()));
+     }
+
+     public String getLog() {
+         return mLog.toString();
+     }
+
+     private final StringBuilder mLog = new StringBuilder();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
+

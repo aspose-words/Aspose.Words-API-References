@@ -1,19 +1,50 @@
 ---
-title: TextWrapping
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как текст обтекает таблицу.
+title: "TextWrapping"
+linktitle: "TextWrapping"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как текст обтекает таблицу в Java."
 type: docs
-weight: 570
+weight: 679
 url: /ru/java/com.aspose.words/textwrapping/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextWrapping
 ```
 
 Указывает, как текст обтекает таблицу.
+
+ **Examples:** 
+
+Показывает, как работать с обтеканием текста таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ builder.getFont().setSize(16.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Set the "TextWrapping" property to "TextWrapping.Around" to get the table to wrap text around it,
+ // and push it down into the paragraph below by setting the position.
+ table.setTextWrapping(TextWrapping.AROUND);
+ table.setAbsoluteHorizontalDistance(100.0);
+ table.setAbsoluteVerticalDistance(20.0);
+
+ doc.save(getArtifactsDir() + "Table.WrapText.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -26,19 +57,10 @@ public class TextWrapping
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textWrappingName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textWrapping)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textWrapping)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textWrappingName)](#fromName-java.lang.String) |  |
+| [getName(int textWrapping)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textWrapping)](#toString-int) |  |
 ### AROUND {#AROUND}
 ```
 public static int AROUND
@@ -69,23 +91,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textWrappingName) {#fromName-java.lang.String-}
+### fromName(String textWrappingName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textWrappingName)
 ```
@@ -93,25 +99,14 @@ public static int fromName(String textWrappingName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textWrappingName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textWrapping) {#getName-int-}
+**Returns:**
+int
+### getName(int textWrapping) {#getName-int}
 ```
 public static String getName(int textWrapping)
 ```
@@ -119,15 +114,14 @@ public static String getName(int textWrapping)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +129,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textWrapping) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textWrapping) {#toString-int}
 ```
 public static String toString(int textWrapping)
 ```
@@ -181,47 +139,10 @@ public static String toString(int textWrapping)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

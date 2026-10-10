@@ -1,13 +1,14 @@
 ---
-title: DataSet
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет кэш данных в памяти.
+title: "DataSet"
+linktitle: "DataSet"
+second_title: "Aspose.Words для Java"
+description: "Представляет кэш данных в памяти в Java."
 type: docs
 weight: 24
 url: /ru/java/com.aspose.words.net.system.data/dataset/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DataSet
@@ -18,102 +19,90 @@ public class DataSet
 
 | Конструктор | Описание |
 | --- | --- |
-| [DataSet()](#DataSet--) |  Инициализирует новый экземпляр[DataSet](../../com.aspose.words.net.system.data/dataset) учебный класс. |
-| [DataSet(Connection connection)](#DataSet-java.sql.Connection-) | Инициализирует новый экземпляр класса DataSet данными, взятыми из Connection. |
-| [DataSet(Connection connection, String schemaName)](#DataSet-java.sql.Connection-java.lang.String-) | Инициализирует новый экземпляр класса DataSet данными, взятыми из Connection. |
-| [DataSet(String dataSetName)](#DataSet-java.lang.String-) |  Инициализирует новый экземпляр[DataSet](../../com.aspose.words.net.system.data/dataset) класс с заданным именем. |
+| [DataSet()](#DataSet) | Инициализирует новый экземпляр класса [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [DataSet(Connection connection)](#DataSet-java.sql.Connection) | Инициализирует новый экземпляр класса DataSet с данными, полученными из Connection. |
+| [DataSet(Connection connection, String schemaName)](#DataSet-java.sql.Connection-java.lang.String) | Инициализирует новый экземпляр класса DataSet с данными, полученными из Connection. |
+| [DataSet(String dataSetName)](#DataSet-java.lang.String) | Инициализирует новый экземпляр класса [DataSet](../../com.aspose.words.net.system.data/dataset/) с указанным именем. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [IsSchemaWasRead()](#IsSchemaWasRead--) |  |
-| [clear()](#clear--) |  Очищает[DataSet](../../com.aspose.words.net.system.data/dataset) любых данных, удалив все строки во всех таблицах. |
-| [close()](#close--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDataSetName()](#getDataSetName--) |  Получает имя текущего[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getEnforceConstraints()](#getEnforceConstraints--) | Получает значение, указывающее, соблюдаются ли правила ограничения при попытке выполнения любой операции обновления. |
-| [getNamespace()](#getNamespace--) |  Получает пространство имен[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getRelations()](#getRelations--) | Получите коллекцию отношений, которые связывают таблицы и позволяют переходить от родительских таблиц к дочерним. |
-| [getTables()](#getTables--) |  Получает коллекцию таблиц, содержащихся в[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [hashCode()](#hashCode--) |  |
-| [isLocaleSpecified()](#isLocaleSpecified--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [readXml(InputStream stream)](#readXml-java.io.InputStream-) |  Считывает XML-схему и данные в[DataSet](../../com.aspose.words.net.system.data/dataset) используя указанный java.io.InputStream. |
-| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) |  Считывает XML-схему и данные в DataSet, используя указанный java.io.InputStream и[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
-| [readXml(String fileName)](#readXml-java.lang.String-) |  Считывает XML-схему и данные в[DataSet](../../com.aspose.words.net.system.data/dataset) используя указанный файл. |
-| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | Считывает XML-схему и данные в DataSet, используя указанный файл и[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
-| [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream-) |  Считывает XML-схему из указанного java.io.InputStream в[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String-) |  Считывает XML-схему из указанного файла в[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [reset()](#reset--) |  Сбрасывает[DataSet](../../com.aspose.words.net.system.data/dataset) в исходное состояние. |
-| [setDataSetName(String value)](#setDataSetName-java.lang.String-) |  Устанавливает имя текущего[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | Задает значение, указывающее, соблюдаются ли правила ограничения при попытке выполнения любой операции обновления. |
-| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Задает информацию о локали, используемую для сравнения строк в таблице. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataSet() {#DataSet--}
+| [IsSchemaWasRead()](#IsSchemaWasRead) |  |
+| [clear()](#clear) | Очищает [DataSet](../../com.aspose.words.net.system.data/dataset/) от всех данных, удаляя все строки во всех таблицах. |
+| [close()](#close) |  |
+| [getDataSetName()](#getDataSetName) | Получает имя текущего [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [getEnforceConstraints()](#getEnforceConstraints) | Получает значение, указывающее, соблюдаются ли правила ограничений при попытке любой операции обновления. |
+| [getNamespace()](#getNamespace) | Получает пространство имён [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [getRelations()](#getRelations) | Получить коллекцию связей, которые связывают таблицы и позволяют навигацию от родительских таблиц к дочерним. |
+| [getTables()](#getTables) | Получает коллекцию таблиц, содержащихся в [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [isLocaleSpecified()](#isLocaleSpecified) |  |
+| [readXml(InputStream stream)](#readXml-java.io.InputStream) | Читает схему XML и данные в [DataSet](../../com.aspose.words.net.system.data/dataset/) с использованием указанного java.io.InputStream. |
+| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode) | Читает схему XML и данные в DataSet с использованием указанного java.io.InputStream и [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/). |
+| [readXml(String fileName)](#readXml-java.lang.String) | Читает схему XML и данные в [DataSet](../../com.aspose.words.net.system.data/dataset/) с использованием указанного файла. |
+| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode) | Читает схему XML и данные в DataSet с использованием указанного файла и [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/). |
+| [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream) | Читает схему XML из указанного java.io.InputStream в [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String) | Читает схему XML из указанного файла в [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [reset()](#reset) | Сбрасывает [DataSet](../../com.aspose.words.net.system.data/dataset/) в исходное состояние. |
+| [setDataSetName(String value)](#setDataSetName-java.lang.String) | Устанавливает имя текущего [DataSet](../../com.aspose.words.net.system.data/dataset/). |
+| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean) | Устанавливает значение, указывающее, соблюдаются ли правила ограничений при попытке любой операции обновления. |
+| [setLocale(Locale locale)](#setLocale-java.util.Locale) | Устанавливает информацию о локали, используемую для сравнения строк в таблице. |
+### DataSet() {#DataSet}
 ```
 public DataSet()
 ```
 
 
- Инициализирует новый экземпляр[DataSet](../../com.aspose.words.net.system.data/dataset) учебный класс.
+Инициализирует новый экземпляр класса [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-### DataSet(Connection connection) {#DataSet-java.sql.Connection-}
+### DataSet(Connection connection) {#DataSet-java.sql.Connection}
 ```
 public DataSet(Connection connection)
 ```
 
 
-Инициализирует новый экземпляр класса DataSet данными, взятыми из Connection. Таблицы, отношения, ограничения и индексы будут скопированы в DataSet.
+Инициализирует новый экземпляр класса DataSet с данными, полученными из Connection. Таблицы, связи, ограничения и индексы будут скопированы в DataSet.
 
-По умолчанию имя схемы не используется.
+По умолчанию имя схемы не будет использоваться.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | java.sql.Connection | который содержит данные БД. |
+| connection | java.sql.Connection | которая содержит данные БД. |
 
-### DataSet(Connection connection, String schemaName) {#DataSet-java.sql.Connection-java.lang.String-}
+### DataSet(Connection connection, String schemaName) {#DataSet-java.sql.Connection-java.lang.String}
 ```
 public DataSet(Connection connection, String schemaName)
 ```
 
 
-Инициализирует новый экземпляр класса DataSet данными, взятыми из Connection. Таблицы, отношения, ограничения и индексы будут скопированы в DataSet.
+Инициализирует новый экземпляр класса DataSet с данными, полученными из Connection. Таблицы, связи, ограничения и индексы будут скопированы в DataSet.
 
 `DataSet dataSet = new DataSet(conn, "PUBLIC"); // HSQLDB`
 
-или же
+или
 
 `DataSet dataSet = new DataSet(conn); // MYSQL's default schema name.`
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | java.sql.Connection | который содержит данные БД. |
-| schemaName | java.lang.String | который содержит таблицы для импорта. |
+| connection | java.sql.Connection | которая содержит данные БД. |
+| schemaName | java.lang.String | которая содержит таблицы для импорта. |
 
-### DataSet(String dataSetName) {#DataSet-java.lang.String-}
+### DataSet(String dataSetName) {#DataSet-java.lang.String}
 ```
 public DataSet(String dataSetName)
 ```
 
 
- Инициализирует новый экземпляр[DataSet](../../com.aspose.words.net.system.data/dataset) класс с заданным именем.
+Инициализирует новый экземпляр класса [DataSet](../../com.aspose.words.net.system.data/dataset/) с указанным именем.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSetName | java.lang.String |  Имя[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| dataSetName | java.lang.String | Имя [DataSet](../../com.aspose.words.net.system.data/dataset/). |
 
-### IsSchemaWasRead() {#IsSchemaWasRead--}
+### IsSchemaWasRead() {#IsSchemaWasRead}
 ```
 public boolean IsSchemaWasRead()
 ```
@@ -121,17 +110,17 @@ public boolean IsSchemaWasRead()
 
 
 
-**Возвращает:**
-boolean - истина, если схема была прочитана
-### clear() {#clear--}
+**Returns:**
+boolean - true, если схема была прочитана
+### clear() {#clear}
 ```
 public void clear()
 ```
 
 
- Очищает[DataSet](../../com.aspose.words.net.system.data/dataset) любых данных, удалив все строки во всех таблицах.
+Очищает [DataSet](../../com.aspose.words.net.system.data/dataset/) от всех данных, удаляя все строки во всех таблицах.
 
-### close() {#close--}
+### close() {#close}
 ```
 public void close()
 ```
@@ -139,93 +128,57 @@ public void close()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDataSetName() {#getDataSetName--}
+### getDataSetName() {#getDataSetName}
 ```
 public String getDataSetName()
 ```
 
 
- Получает имя текущего[DataSet](../../com.aspose.words.net.system.data/dataset).
+Получает имя текущего [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Возвращает:**
- java.lang.String — Имя[DataSet](../../com.aspose.words.net.system.data/dataset).
-### getEnforceConstraints() {#getEnforceConstraints--}
+**Returns:**
+java.lang.String - Имя [DataSet](../../com.aspose.words.net.system.data/dataset/).
+### getEnforceConstraints() {#getEnforceConstraints}
 ```
 public boolean getEnforceConstraints()
 ```
 
 
-Получает значение, указывающее, соблюдаются ли правила ограничения при попытке выполнения любой операции обновления.
+Получает значение, указывающее, соблюдаются ли правила ограничений при попытке любой операции обновления.
 
-**Возвращает:**
-boolean - true, если правила применяются; иначе ложно. Значение по умолчанию верно.
-### getNamespace() {#getNamespace--}
+**Returns:**
+boolean - true, если правила применяются; иначе false. По умолчанию true.
+### getNamespace() {#getNamespace}
 ```
 public String getNamespace()
 ```
 
 
- Получает пространство имен[DataSet](../../com.aspose.words.net.system.data/dataset).
+Получает пространство имён [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Возвращает:**
- java.lang.String — пространство имен[DataSet](../../com.aspose.words.net.system.data/dataset).
-### getRelations() {#getRelations--}
+**Returns:**
+java.lang.String - Пространство имён [DataSet](../../com.aspose.words.net.system.data/dataset/).
+### getRelations() {#getRelations}
 ```
 public System.Data.DataRelationCollection getRelations()
 ```
 
 
-Получите коллекцию отношений, которые связывают таблицы и позволяют переходить от родительских таблиц к дочерним.
+Получить коллекцию связей, которые связывают таблицы и позволяют навигацию от родительских таблиц к дочерним.
 
-**Возвращает:**
-[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - А[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) который содержит коллекцию[DataRelation](../../com.aspose.words.net.system.data/datarelation) объекты. Пустая коллекция возвращается, если нет[DataRelation](../../com.aspose.words.net.system.data/datarelation) объекты существуют.
-### getTables() {#getTables--}
+**Returns:**
+[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection/) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection/) that contains a collection of [DataRelation](../../com.aspose.words.net.system.data/datarelation/) objects. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation/) objects exist.
+### getTables() {#getTables}
 ```
 public System.Data.DataTableCollection getTables()
 ```
 
 
- Получает коллекцию таблиц, содержащихся в[DataSet](../../com.aspose.words.net.system.data/dataset).
+Получает коллекцию таблиц, содержащихся в [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Возвращает:**
-[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) -[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection)содержится в этом[DataSet](../../com.aspose.words.net.system.data/dataset) . Пустая коллекция возвращается, если нет[DataTable](../../com.aspose.words.net.system.data/datatable) объекты существуют.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### isLocaleSpecified() {#isLocaleSpecified--}
+**Returns:**
+[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection/) - The [DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection/) contained by this [DataSet](../../com.aspose.words.net.system.data/dataset/). An empty collection is returned if no [DataTable](../../com.aspose.words.net.system.data/datatable/) objects exist.
+### isLocaleSpecified() {#isLocaleSpecified}
 ```
 public boolean isLocaleSpecified()
 ```
@@ -233,211 +186,140 @@ public boolean isLocaleSpecified()
 
 
 
-**Возвращает:**
+**Returns:**
 boolean - true, если локаль была установлена
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### readXml(InputStream stream) {#readXml-java.io.InputStream-}
+### readXml(InputStream stream) {#readXml-java.io.InputStream}
 ```
 public System.Data.XmlReadMode readXml(InputStream stream)
 ```
 
 
- Считывает XML-схему и данные в[DataSet](../../com.aspose.words.net.system.data/dataset) используя указанный java.io.InputStream.
+Читает схему XML и данные в [DataSet](../../com.aspose.words.net.system.data/dataset/) с использованием указанного java.io.InputStream.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | java.io.InputStream | Объект, производный от java.io.InputStream. |
 
-**Возвращает:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) -[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) используется для чтения данных. Возвращаемое значение является одним из[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) константы.
-### readXml(InputStream xmlStream, System.Data.XmlReadMode mode) {#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-}
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) - The [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) constants.
+### readXml(InputStream xmlStream, System.Data.XmlReadMode mode) {#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode}
 ```
 public System.Data.XmlReadMode readXml(InputStream xmlStream, System.Data.XmlReadMode mode)
 ```
 
 
- Считывает XML-схему и данные в DataSet, используя указанный java.io.InputStream и[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
+Читает схему XML и данные в DataSet с использованием указанного java.io.InputStream и [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlStream | java.io.InputStream | Поток, из которого нужно читать. |
-| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) |  Один из[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) ценности. |
+| xmlStream | java.io.InputStream | Поток, из которого читать. |
+| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) | Одно из значений [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/). |
 
-**Возвращает:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - XmlReadMode, используемый для чтения данных.
-### readXml(String fileName) {#readXml-java.lang.String-}
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) - The XmlReadMode used to read the data.
+### readXml(String fileName) {#readXml-java.lang.String}
 ```
 public System.Data.XmlReadMode readXml(String fileName)
 ```
 
 
- Считывает XML-схему и данные в[DataSet](../../com.aspose.words.net.system.data/dataset) используя указанный файл.
+Читает схему XML и данные в [DataSet](../../com.aspose.words.net.system.data/dataset/) с использованием указанного файла.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | java.lang.String | Имя файла (включая путь), из которого следует читать. |
+| fileName | java.lang.String | Имя файла (включая путь), из которого читать. |
 
-**Возвращает:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - XmlReadMode, используемый для чтения данных. Возвращаемое значение является одним из[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) константы.
-### readXml(String xmlPath, System.Data.XmlReadMode readMode) {#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-}
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) - The XmlReadMode used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) constants.
+### readXml(String xmlPath, System.Data.XmlReadMode readMode) {#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode}
 ```
 public System.Data.XmlReadMode readXml(String xmlPath, System.Data.XmlReadMode readMode)
 ```
 
 
-Считывает XML-схему и данные в DataSet, используя указанный файл и[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
+Читает схему XML и данные в DataSet с использованием указанного файла и [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | xmlPath | java.lang.String | указанный файл |
-| readMode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | \{[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) |
+| readMode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) |
 
-**Возвращает:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - режим, который использовался при чтении
-### readXmlSchema(InputStream stream) {#readXmlSchema-java.io.InputStream-}
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) - mode which was used while reading
+### readXmlSchema(InputStream stream) {#readXmlSchema-java.io.InputStream}
 ```
 public void readXmlSchema(InputStream stream)
 ```
 
 
- Считывает XML-схему из указанного java.io.InputStream в[DataSet](../../com.aspose.words.net.system.data/dataset).
+Читает схему XML из указанного java.io.InputStream в [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | java.io.InputStream | java.io.InputStream, из которого следует читать. |
+| stream | java.io.InputStream | java.io.InputStream, из которого читать. |
 
-### readXmlSchema(String fileName) {#readXmlSchema-java.lang.String-}
+### readXmlSchema(String fileName) {#readXmlSchema-java.lang.String}
 ```
 public void readXmlSchema(String fileName)
 ```
 
 
- Считывает XML-схему из указанного файла в[DataSet](../../com.aspose.words.net.system.data/dataset).
+Читает схему XML из указанного файла в [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | java.lang.String | Имя файла (включая путь), из которого следует читать. |
+| fileName | java.lang.String | Имя файла (включая путь), из которого читать. |
 
-### reset() {#reset--}
+### reset() {#reset}
 ```
 public void reset()
 ```
 
 
- Сбрасывает[DataSet](../../com.aspose.words.net.system.data/dataset) в исходное состояние. Подклассы должны переопределять[reset()](../../com.aspose.words.net.system.data/dataset\#reset--) восстановить[DataSet](../../com.aspose.words.net.system.data/dataset) в исходное состояние.
+Сбрасывает [DataSet](../../com.aspose.words.net.system.data/dataset/) до его исходного состояния. Подклассы должны переопределить [reset()](../../com.aspose.words.net.system.data/dataset/\#reset), чтобы восстановить [DataSet](../../com.aspose.words.net.system.data/dataset/) до его исходного состояния.
 
-### setDataSetName(String value) {#setDataSetName-java.lang.String-}
+### setDataSetName(String value) {#setDataSetName-java.lang.String}
 ```
 public void setDataSetName(String value)
 ```
 
 
- Устанавливает имя текущего[DataSet](../../com.aspose.words.net.system.data/dataset).
+Устанавливает имя текущего [DataSet](../../com.aspose.words.net.system.data/dataset/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String |  Имя[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| value | java.lang.String | Имя [DataSet](../../com.aspose.words.net.system.data/dataset/). |
 
-### setEnforceConstraints(boolean value) {#setEnforceConstraints-boolean-}
+### setEnforceConstraints(boolean value) {#setEnforceConstraints-boolean}
 ```
 public void setEnforceConstraints(boolean value)
 ```
 
 
-Задает значение, указывающее, соблюдаются ли правила ограничения при попытке выполнения любой операции обновления.
+Устанавливает значение, указывающее, соблюдаются ли правила ограничений при попытке любой операции обновления.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | true, если правила применяются; иначе ложно. Значение по умолчанию верно. |
+| значение | boolean | true, если правила применяются; иначе false. По умолчанию true. |
 
-### setLocale(Locale locale) {#setLocale-java.util.Locale-}
+### setLocale(Locale locale) {#setLocale-java.util.Locale}
 ```
 public void setLocale(Locale locale)
 ```
 
 
-Задает информацию о локали, используемую для сравнения строк в таблице.
+Устанавливает информацию о локали, используемую для сравнения строк в таблице.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | locale | java.util.Locale | этого набора данных |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

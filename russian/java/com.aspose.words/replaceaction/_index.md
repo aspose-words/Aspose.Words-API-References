@@ -1,44 +1,100 @@
 ---
-title: ReplaceAction
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены.
+title: "ReplaceAction"
+linktitle: "ReplaceAction"
+second_title: "Aspose.Words для Java"
+description: "Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены в Java."
 type: docs
-weight: 475
+weight: 565
 url: /ru/java/com.aspose.words/replaceaction/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ReplaceAction
 ```
 
 Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены.
+
+ **Examples:** 
+
+Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
+
+```
+
+ public void insertDocumentAtReplace() throws Exception {
+     Document mainDoc = new Document(getMyDir() + "Document insertion destination.docx");
+
+     // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+     FindReplaceOptions options = new FindReplaceOptions();
+     options.setReplacingCallback(new InsertDocumentAtReplaceHandler());
+
+     mainDoc.getRange().replace(Pattern.compile("\[MY_DOCUMENT\]"), "", options);
+     mainDoc.save(getArtifactsDir() + "InsertDocument.InsertDocumentAtReplace.docx");
+
+ }
+
+ private static class InsertDocumentAtReplaceHandler implements IReplacingCallback {
+     public int replacing(ReplacingArgs args) throws Exception {
+         Document subDoc = new Document(getMyDir() + "Document.docx");
+
+         // Insert a document after the paragraph containing the matched text.
+         Paragraph para = (Paragraph) args.getMatchNode().getParentNode();
+         insertDocument(para, subDoc);
+
+         // Remove the paragraph with the matched text.
+         para.remove();
+
+         return ReplaceAction.SKIP;
+     }
+ }
+
+ /// 
+ /// Inserts all the nodes of another document after a paragraph or table.
+ /// 
+ private static void insertDocument(Node insertionDestination, Document docToInsert) {
+     if (((insertionDestination.getNodeType()) == (NodeType.PARAGRAPH)) || ((insertionDestination.getNodeType()) == (NodeType.TABLE))) {
+         CompositeNode dstStory = insertionDestination.getParentNode();
+
+         NodeImporter importer =
+                 new NodeImporter(docToInsert, insertionDestination.getDocument(), ImportFormatMode.KEEP_SOURCE_FORMATTING);
+
+         for (Section srcSection : docToInsert.getSections())
+             for (Node srcNode : srcSection.getBody()) {
+                 // Skip the node if it is the last empty paragraph in a section.
+                 if (((srcNode.getNodeType()) == (NodeType.PARAGRAPH))) {
+                     Paragraph para = (Paragraph) srcNode;
+                     if (para.isEndOfSection() && !para.hasChildNodes())
+                         continue;
+                 }
+
+                 Node newNode = importer.importNode(srcNode, true);
+
+                 dstStory.insertAfter(newNode, insertionDestination);
+                 insertionDestination = newNode;
+             }
+     } else {
+         throw new IllegalArgumentException("The destination node must be either a paragraph or table.");
+     }
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [REPLACE](#REPLACE) | Заменить текущее совпадение. |
-| [SKIP](#SKIP) | Пропустить текущий матч. |
-| [STOP](#STOP) | Завершите операцию замены. |
+| [SKIP](#SKIP) | Пропустить текущее совпадение. |
+| [STOP](#STOP) | Завершить операцию замены. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String replaceActionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int replaceAction)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int replaceAction)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String replaceActionName)](#fromName-java.lang.String) |  |
+| [getName(int replaceAction)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int replaceAction)](#toString-int) |  |
 ### REPLACE {#REPLACE}
 ```
 public static int REPLACE
@@ -53,7 +109,7 @@ public static int SKIP
 ```
 
 
-Пропустить текущий матч.
+Пропустить текущее совпадение.
 
 ### STOP {#STOP}
 ```
@@ -61,7 +117,7 @@ public static int STOP
 ```
 
 
-Завершите операцию замены.
+Завершить операцию замены.
 
 ### length {#length}
 ```
@@ -69,23 +125,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String replaceActionName) {#fromName-java.lang.String-}
+### fromName(String replaceActionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String replaceActionName)
 ```
@@ -93,25 +133,14 @@ public static int fromName(String replaceActionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | replaceActionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int replaceAction) {#getName-int-}
+**Returns:**
+int
+### getName(int replaceAction) {#getName-int}
 ```
 public static String getName(int replaceAction)
 ```
@@ -119,15 +148,14 @@ public static String getName(int replaceAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | replaceAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +163,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int replaceAction) {#toString-int-}
+**Returns:**
+int[]
+### toString(int replaceAction) {#toString-int}
 ```
 public static String toString(int replaceAction)
 ```
@@ -181,47 +173,10 @@ public static String toString(int replaceAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | replaceAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

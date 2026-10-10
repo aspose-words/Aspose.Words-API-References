@@ -1,50 +1,64 @@
 ---
-title: ColorMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как отображаются цвета.
+title: "ColorMode"
+linktitle: "ColorMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как отображаются цвета в Java."
 type: docs
-weight: 75
+weight: 105
 url: /ru/java/com.aspose.words/colormode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ColorMode
 ```
 
 Указывает, как отображаются цвета.
+
+ **Examples:** 
+
+Показывает, как изменить цвет изображения с помощью свойства параметров сохранения.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ColorMode" property to "Grayscale" to render all images from the document in black and white.
+ // The size of the output document may be larger with this setting.
+ // Set the "ColorMode" property to "Normal" to render all images in color.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ {
+     pdfSaveOptions.setColorMode(colorMode);
+ }
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [GRAYSCALE](#GRAYSCALE) | Рендеринг с использованием цветов в диапазоне оттенков серого от белого до черного. |
-| [NORMAL](#NORMAL) | Рендеринг с неизмененными цветами. |
+| [GRAYSCALE](#GRAYSCALE) | Отображение с цветами в диапазоне оттенков серого от белого до чёрного. |
+| [NORMAL](#NORMAL) | Отображение с неизменёнными цветами. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String colorModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int colorMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int colorMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String colorModeName)](#fromName-java.lang.String) |  |
+| [getName(int colorMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int colorMode)](#toString-int) |  |
 ### GRAYSCALE {#GRAYSCALE}
 ```
 public static int GRAYSCALE
 ```
 
 
-Рендеринг с использованием цветов в диапазоне оттенков серого от белого до черного.
+Отображение с цветами в диапазоне оттенков серого от белого до чёрного.
 
 ### NORMAL {#NORMAL}
 ```
@@ -52,7 +66,7 @@ public static int NORMAL
 ```
 
 
-Рендеринг с неизмененными цветами.
+Отображение с неизменёнными цветами.
 
 ### length {#length}
 ```
@@ -60,23 +74,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String colorModeName) {#fromName-java.lang.String-}
+### fromName(String colorModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String colorModeName)
 ```
@@ -84,25 +82,14 @@ public static int fromName(String colorModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | colorModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int colorMode) {#getName-int-}
+**Returns:**
+int
+### getName(int colorMode) {#getName-int}
 ```
 public static String getName(int colorMode)
 ```
@@ -110,15 +97,14 @@ public static String getName(int colorMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | colorMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +112,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int colorMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int colorMode) {#toString-int}
 ```
 public static String toString(int colorMode)
 ```
@@ -172,47 +122,10 @@ public static String toString(int colorMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | colorMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

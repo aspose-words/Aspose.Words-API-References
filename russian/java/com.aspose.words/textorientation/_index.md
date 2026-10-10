@@ -1,54 +1,91 @@
 ---
-title: TextOrientation
-second_title: Справочник по API Aspose.Words для Java
-description: Задает ориентацию текста на странице в ячейке таблицы или текстовом фрейме.
+title: "TextOrientation"
+linktitle: "TextOrientation"
+second_title: "Aspose.Words для Java"
+description: "Указывает ориентацию текста на странице в ячейке таблицы или текстовой рамке в Java."
 type: docs
-weight: 566
+weight: 675
 url: /ru/java/com.aspose.words/textorientation/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextOrientation
 ```
 
-Задает ориентацию текста на странице, в ячейке таблицы или текстовом фрейме.
+Указывает ориентацию текста на странице, в ячейке таблицы или в текстовой рамке.
+
+ **Examples:** 
+
+Показывает, как построить отформатированную таблицу 2x2.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.getCellFormat().setVerticalAlignment(CellVerticalAlignment.CENTER);
+ builder.write("Row 1, cell 1.");
+ builder.insertCell();
+ builder.write("Row 1, cell 2.");
+ builder.endRow();
+
+ // While building the table, the document builder will apply its current RowFormat/CellFormat property values
+ // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(0).getCellFormat().getVerticalAlignment());
+ Assert.assertEquals(CellVerticalAlignment.CENTER, table.getRows().get(0).getCells().get(1).getCellFormat().getVerticalAlignment());
+
+ builder.insertCell();
+ builder.getRowFormat().setHeight(100.0);
+ builder.getRowFormat().setHeightRule(HeightRule.EXACTLY);
+ builder.getCellFormat().setOrientation(TextOrientation.UPWARD);
+ builder.write("Row 2, cell 1.");
+ builder.insertCell();
+ builder.getCellFormat().setOrientation(TextOrientation.DOWNWARD);
+ builder.write("Row 2, cell 2.");
+ builder.endRow();
+ builder.endTable();
+
+ // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+ Assert.assertEquals(0.0, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+ Assert.assertEquals(100.0, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+ Assert.assertEquals(TextOrientation.UPWARD, table.getRows().get(1).getCells().get(0).getCellFormat().getOrientation());
+ Assert.assertEquals(TextOrientation.DOWNWARD, table.getRows().get(1).getCells().get(1).getCellFormat().getOrientation());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DOWNWARD](#DOWNWARD) | Текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl). |
+| [DOWNWARD](#DOWNWARD) | Текст вращается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl). |
 | [HORIZONTAL](#HORIZONTAL) | Текст располагается горизонтально (lr-tb). |
-| [HORIZONTAL_ROTATED_FAR_EAST](#HORIZONTAL-ROTATED-FAR-EAST) | Текст расположен горизонтально, но дальневосточные символы повернуты на 90 градусов влево (lr-tb-v). |
-| [UPWARD](#UPWARD) | Текст поворачивается на 90 градусов влево и отображается снизу вверх (bt-lr). |
-| [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | Символы Дальнего Востока отображаются вертикально, остальной текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl-v). |
-| [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | Дальневосточные символы отображаются вертикально, другой текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз по вертикали, а затем слева направо по горизонтали (tb-lr-v). |
+| [HORIZONTAL_ROTATED_FAR_EAST](#HORIZONTAL-ROTATED-FAR-EAST) | Текст располагается горизонтально, но символы Дальнего Востока вращаются на 90 градусов влево (lr-tb-v). |
+| [UPWARD](#UPWARD) | Текст вращается на 90 градусов влево, чтобы отображаться снизу вверх (bt-lr). |
+| [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | Символы Дальнего Востока отображаются вертикально, остальной текст вращается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl-v). |
+| [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | Символы Дальнего Востока отображаются вертикально, другой текст повернут на 90 градусов вправо, чтобы отображаться сверху вниз вертикально, затем слева направо горизонтально (tb-lr-v). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textOrientationName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textOrientation)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textOrientation)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textOrientationName)](#fromName-java.lang.String) |  |
+| [getName(int textOrientation)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textOrientation)](#toString-int) |  |
 ### DOWNWARD {#DOWNWARD}
 ```
 public static int DOWNWARD
 ```
 
 
-Текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl).
+Текст вращается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl).
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -64,7 +101,7 @@ public static int HORIZONTAL_ROTATED_FAR_EAST
 ```
 
 
-Текст расположен горизонтально, но дальневосточные символы повернуты на 90 градусов влево (lr-tb-v).
+Текст располагается горизонтально, но символы Дальнего Востока вращаются на 90 градусов влево (lr-tb-v).
 
 ### UPWARD {#UPWARD}
 ```
@@ -72,7 +109,7 @@ public static int UPWARD
 ```
 
 
-Текст поворачивается на 90 градусов влево и отображается снизу вверх (bt-lr).
+Текст вращается на 90 градусов влево, чтобы отображаться снизу вверх (bt-lr).
 
 ### VERTICAL_FAR_EAST {#VERTICAL-FAR-EAST}
 ```
@@ -80,7 +117,7 @@ public static int VERTICAL_FAR_EAST
 ```
 
 
-Символы Дальнего Востока отображаются вертикально, остальной текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl-v).
+Символы Дальнего Востока отображаются вертикально, остальной текст вращается на 90 градусов вправо, чтобы отображаться сверху вниз (tb-rl-v).
 
 ### VERTICAL_ROTATED_FAR_EAST {#VERTICAL-ROTATED-FAR-EAST}
 ```
@@ -88,7 +125,7 @@ public static int VERTICAL_ROTATED_FAR_EAST
 ```
 
 
-Дальневосточные символы отображаются вертикально, другой текст поворачивается на 90 градусов вправо, чтобы отображаться сверху вниз по вертикали, а затем слева направо по горизонтали (tb-lr-v).
+Символы Дальнего Востока отображаются вертикально, другой текст повернут на 90 градусов вправо, чтобы отображаться сверху вниз вертикально, затем слева направо горизонтально (tb-lr-v).
 
 ### length {#length}
 ```
@@ -96,23 +133,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textOrientationName) {#fromName-java.lang.String-}
+### fromName(String textOrientationName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textOrientationName)
 ```
@@ -120,25 +141,14 @@ public static int fromName(String textOrientationName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textOrientationName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textOrientation) {#getName-int-}
+**Returns:**
+int
+### getName(int textOrientation) {#getName-int}
 ```
 public static String getName(int textOrientation)
 ```
@@ -146,15 +156,14 @@ public static String getName(int textOrientation)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textOrientation | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +171,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textOrientation) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textOrientation) {#toString-int}
 ```
 public static String toString(int textOrientation)
 ```
@@ -208,47 +181,10 @@ public static String toString(int textOrientation)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textOrientation | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

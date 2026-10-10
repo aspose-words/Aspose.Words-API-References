@@ -1,77 +1,111 @@
 ---
-title: FileFormatInfo
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит данные, возвращаемые методами определения формата документа.
+title: "FileFormatInfo"
+linktitle: "FileFormatInfo"
+second_title: "Aspose.Words для Java"
+description: "Содержит данные, возвращаемые методами обнаружения формата документа FileFormatUtil в Java."
 type: docs
-weight: 265
+weight: 309
 url: /ru/java/com.aspose.words/fileformatinfo/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FileFormatInfo
 ```
 
-Содержит данные, возвращаемые[FileFormatUtil](../../com.aspose.words/fileformatutil) методы определения формата документа.
+Содержит данные, возвращаемые методами обнаружения формата документа [FileFormatUtil](../../com.aspose.words/fileformatutil/).
 
- Чтобы узнать больше, посетите**Detect File Format and Check Format Compatibility** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Detect File Format and Check Format Compatibility ][Detect File Format and Check Format Compatibility].
 
- Вы не создаете экземпляры этого класса напрямую. Объекты этого класса возвращаются**M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)** методы.
+ **Remarks:** 
+
+Вы не создаёте экземпляры этого класса напрямую. Объекты этого класса возвращаются методами **M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)**.
+
+ **Examples:** 
+
+Показывает, как использовать класс FileFormatUtil для определения формата документа и шифрования.
+
+```
+
+ Document doc = new Document();
+
+ // Configure a SaveOptions object to encrypt the document
+ // with a password when we save it, and then save the document.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.ODT);
+ saveOptions.setPassword("MyPassword");
+
+ doc.save(getArtifactsDir() + "File.DetectDocumentEncryption.odt", saveOptions);
+
+ // Verify the file type of our document, and its encryption status.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDocumentEncryption.odt");
+
+ Assert.assertEquals(".odt", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertTrue(info.isEncrypted());
+ 
+```
+
+Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
+
+```
+
+ // Use a FileFormatInfo instance to verify that a document is not digitally signed.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
+
+ Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertFalse(info.hasDigitalSignature());
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
+         certificateHolder);
+
+ // Use a new FileFormatInstance to confirm that it is signed.
+ info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
+
+ Assert.assertTrue(info.hasDigitalSignature());
+
+ // We can load and access the signatures of a signed document in a collection like this.
+ Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
+ 
+```
+
+
+[Detect File Format and Check Format Compatibility]: https://docs.aspose.com/words/java/detect-file-format-and-check-format-compatibility/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Получает обнаруженную кодировку, если она применима к текущему формату документа. |
-| [getLoadFormat()](#getLoadFormat--) | Получает обнаруженный формат документа. |
-| [hasDigitalSignature()](#hasDigitalSignature--) | Возвращает true, если этот документ содержит цифровую подпись. |
-| [hashCode()](#hashCode--) |  |
-| [isEncrypted()](#isEncrypted--) | Возвращает true, если документ зашифрован и для его открытия требуется пароль. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getEncoding() {#getEncoding--}
+| [getEncoding()](#getEncoding) | Получает обнаруженную кодировку, если она применима к текущему формату документа. |
+| [getLoadFormat()](#getLoadFormat) | Получает обнаруженный формат документа. |
+| [hasDigitalSignature()](#hasDigitalSignature) | Возвращает  true  если этот документ содержит цифровую подпись. |
+| [hasMacros()](#hasMacros) | Возвращает  true  если этот документ содержит макросы VBA. |
+| [isEncrypted()](#isEncrypted) | Возвращает  true  если документ зашифрован и требует пароль для открытия. |
+### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
 ```
 
 
-Получает обнаруженную кодировку, если она применима к текущему формату документа. На данный момент определяет кодировку только для документов HTML.
+Получает обнаруженную кодировку, если она применима к текущему формату документа. В данный момент кодировка определяется только для HTML‑документов.
 
-**Возвращает:**
-java.nio.charset.Charset — обнаруженная кодировка, если она применима к текущему формату документа.
-### getLoadFormat() {#getLoadFormat--}
+ **Examples:** 
+
+Показывает, как определить кодировку в HTML‑файле.
+
+```
+
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.html");
+
+ Assert.assertEquals(LoadFormat.HTML, info.getLoadFormat());
+
+ // The Encoding property is used only when we create a FileFormatInfo object for an html document.
+ Assert.assertEquals("windows-1252", info.getEncoding().name());
+ 
+```
+
+**Returns:**
+java.nio.charset.Charset - Обнаруженная кодировка, если она применима к текущему формату документа.
+### getLoadFormat() {#getLoadFormat}
 ```
 public int getLoadFormat()
 ```
@@ -79,103 +113,185 @@ public int getLoadFormat()
 
 Получает обнаруженный формат документа.
 
- Когда документ OOXML зашифрован, невозможно определить, является ли он документом Excel, Word или PowerPoint, без его предварительной расшифровки, поэтому для зашифрованного документа OOXML это свойство всегда будет возвращаться.[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+ **Remarks:** 
 
-**Возвращает:**
- int — Обнаруженный формат документа. Возвращаемое значение является одним из[LoadFormat](../../com.aspose.words/loadformat) константы.
-### hasDigitalSignature() {#hasDigitalSignature--}
+Когда OOXML‑документ зашифрован, невозможно определить, является ли он документом Excel, Word или PowerPoint без предварительного расшифрования, поэтому для зашифрованного OOXML‑документа это свойство всегда будет возвращать [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
+
+ **Examples:** 
+
+Показывает, как использовать класс FileFormatUtil для определения формата документа и шифрования.
+
+```
+
+ Document doc = new Document();
+
+ // Configure a SaveOptions object to encrypt the document
+ // with a password when we save it, and then save the document.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.ODT);
+ saveOptions.setPassword("MyPassword");
+
+ doc.save(getArtifactsDir() + "File.DetectDocumentEncryption.odt", saveOptions);
+
+ // Verify the file type of our document, and its encryption status.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDocumentEncryption.odt");
+
+ Assert.assertEquals(".odt", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertTrue(info.isEncrypted());
+ 
+```
+
+Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
+
+```
+
+ // Use a FileFormatInfo instance to verify that a document is not digitally signed.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
+
+ Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertFalse(info.hasDigitalSignature());
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
+         certificateHolder);
+
+ // Use a new FileFormatInstance to confirm that it is signed.
+ info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
+
+ Assert.assertTrue(info.hasDigitalSignature());
+
+ // We can load and access the signatures of a signed document in a collection like this.
+ Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
+ 
+```
+
+Показывает, как использовать методы FileFormatUtil для определения формата документа.
+
+```
+
+ // Load a document from a file that is missing a file extension, and then detect its file format.
+ FileInputStream docStream = new FileInputStream(getMyDir() + "Word document with missing file extension");
+
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(docStream);
+
+ int loadFormat = info.getLoadFormat();
+
+ Assert.assertEquals(LoadFormat.DOC, loadFormat);
+
+ // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
+ // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
+ String fileExtension = FileFormatUtil.loadFormatToExtension(loadFormat);
+
+ int saveFormat = FileFormatUtil.extensionToSaveFormat(fileExtension);
+
+ // 2 -  Convert the LoadFormat directly to its SaveFormat:
+ saveFormat = FileFormatUtil.loadFormatToSaveFormat(loadFormat);
+
+ // Load a document from the stream, and then save it to the automatically detected file extension.
+ Document doc = new Document(docStream);
+
+ Assert.assertEquals(".doc", FileFormatUtil.saveFormatToExtension(saveFormat));
+
+ doc.save(getArtifactsDir() + "File.SaveToDetectedFileFormat" + FileFormatUtil.saveFormatToExtension(saveFormat));
+ 
+```
+
+**Returns:**
+int - обнаруженный формат документа. Возвращаемое значение является одной из констант [LoadFormat](../../com.aspose.words/loadformat/).
+### hasDigitalSignature() {#hasDigitalSignature}
 ```
 public boolean hasDigitalSignature()
 ```
 
 
-Возвращает true, если этот документ содержит цифровую подпись. Это свойство просто информирует о том, что в документе присутствует цифровая подпись, но не указывает, является ли подпись действительной или нет.
+Возвращает  true  если этот документ содержит цифровую подпись. Это свойство лишь сообщает, что цифровая подпись присутствует в документе, но не указывает, действительна она или нет.
 
-Это свойство существует, чтобы помочь вам сортировать документы с цифровой подписью от тех, которые не подписаны. Если вы используете Aspose.Words для изменения и сохранения документа с цифровой подписью, цифровая подпись будет потеряна. Это сделано намеренно, потому что цифровая подпись существует для защиты подлинности документа. Используя это свойство, вы можете обнаруживать документы с цифровой подписью перед их обработкой так же, как и обычные документы, и предпринимать какие-либо действия, чтобы избежать потери цифровой подписи, например, уведомлять пользователя.
+ **Remarks:** 
 
-**Возвращает:**
-boolean — Истинно, если этот документ содержит цифровую подпись.
-### hashCode() {#hashCode--}
+Это свойство существует, чтобы помочь вам сортировать документы, подписанные цифровой подписью, от неподписанных. Если вы используете Aspose.Words для изменения и сохранения документа, подписанного цифровой подписью, цифровая подпись будет потеряна. Это сделано намеренно, поскольку цифровая подпись предназначена для защиты подлинности документа. С помощью этого свойства вы можете обнаружить цифрово подписанные документы перед их обработкой так же, как обычные документы, и предпринять некоторые действия, чтобы избежать потери цифровой подписи, например, уведомить пользователя.
+
+ **Examples:** 
+
+Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
+
 ```
-public native int hashCode()
+
+ // Use a FileFormatInfo instance to verify that a document is not digitally signed.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
+
+ Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertFalse(info.hasDigitalSignature());
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
+         certificateHolder);
+
+ // Use a new FileFormatInstance to confirm that it is signed.
+ info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
+
+ Assert.assertTrue(info.hasDigitalSignature());
+
+ // We can load and access the signatures of a signed document in a collection like this.
+ Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
+ 
+```
+
+**Returns:**
+boolean -  true  если этот документ содержит цифровую подпись.
+### hasMacros() {#hasMacros}
+```
+public boolean hasMacros()
 ```
 
 
+Возвращает  true  если этот документ содержит макросы VBA.
 
+ **Examples:** 
 
-**Возвращает:**
-инт
-### isEncrypted() {#isEncrypted--}
+Показывает, как проверить наличие макросов VBA без загрузки документа.
+
+```
+
+ FileFormatInfo fileFormatInfo = FileFormatUtil.detectFileFormat(getMyDir() + "Macro.docm");
+ Assert.assertTrue(fileFormatInfo.hasMacros());
+ 
+```
+
+**Returns:**
+boolean -  true  если этот документ содержит макросы VBA.
+### isEncrypted() {#isEncrypted}
 ```
 public boolean isEncrypted()
 ```
 
 
-Возвращает true, если документ зашифрован и для его открытия требуется пароль.
+Возвращает  true  если документ зашифрован и требует пароль для открытия.
 
-Это свойство существует, чтобы помочь вам отсортировать зашифрованные документы от незашифрованных. Если вы попытаетесь загрузить зашифрованный документ с помощью Aspose.Words без указания пароля, будет выдано исключение. Вы можете использовать это свойство, чтобы определить, требует ли документ пароль, и выполнить какое-либо действие перед загрузкой документа, например запросить у пользователя пароль.
+ **Remarks:** 
 
-**Возвращает:**
-boolean — True, если документ зашифрован и для его открытия требуется пароль.
-### notify() {#notify--}
-```
-public final native void notify()
-```
+Это свойство существует, чтобы помочь вам сортировать документы, зашифрованные, от незашифрованных. Если вы попытаетесь загрузить зашифрованный документ с помощью Aspose.Words без указания пароля, будет выброшено исключение. Вы можете использовать это свойство, чтобы определить, требуется ли документу пароль, и выполнить некоторые действия до загрузки документа, например, запросить пароль у пользователя.
 
+ **Examples:** 
 
+Показывает, как использовать класс FileFormatUtil для определения формата документа и шифрования.
 
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document();
 
+ // Configure a SaveOptions object to encrypt the document
+ // with a password when we save it, and then save the document.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.ODT);
+ saveOptions.setPassword("MyPassword");
 
+ doc.save(getArtifactsDir() + "File.DetectDocumentEncryption.odt", saveOptions);
 
-### toString() {#toString--}
-```
-public String toString()
-```
+ // Verify the file type of our document, and its encryption status.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDocumentEncryption.odt");
 
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
+ Assert.assertEquals(".odt", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertTrue(info.isEncrypted());
+ 
 ```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+boolean -  true  если документ зашифрован и требует пароль для открытия.

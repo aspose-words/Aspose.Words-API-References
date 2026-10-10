@@ -1,13 +1,14 @@
 ---
-title: FontFamily
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет семейство шрифтов.
+title: "FontFamily"
+linktitle: "FontFamily"
+second_title: "Aspose.Words для Java"
+description: "Представляет семейство шрифтов в Java."
 type: docs
-weight: 278
+weight: 324
 url: /ru/java/com.aspose.words/fontfamily/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FontFamily
@@ -15,42 +16,71 @@ public class FontFamily
 
 Представляет семейство шрифтов.
 
-Семейство шрифтов — это набор шрифтов, имеющих общие характеристики ширины штриха и засечек.
+ **Remarks:** 
+
+Семейство шрифтов — это набор шрифтов с одинаковой толщиной штриха и характеристиками засечек.
+
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [AUTO](#AUTO) | Указывает общее имя семейства. |
-| [DECORATIVE](#DECORATIVE) | Задает новый шрифт. |
-| [MODERN](#MODERN) | Определяет моноширинный шрифт с засечками или без них. |
-| [ROMAN](#ROMAN) | Определяет пропорциональный шрифт с засечками. |
-| [SCRIPT](#SCRIPT) | Определяет шрифт, который должен выглядеть как рукописный; примеры включают Script и Cursive. |
-| [SWISS](#SWISS) | Определяет пропорциональный шрифт без засечек. |
+| [AUTO](#AUTO) | Указывает общее название семейства. |
+| [DECORATIVE](#DECORATIVE) | Указывает декоративный шрифт. |
+| [MODERN](#MODERN) | Указывает моноширинный шрифт с засечками или без них. |
+| [ROMAN](#ROMAN) | Указывает пропорциональный шрифт с засечками. |
+| [SCRIPT](#SCRIPT) | Указывает шрифт, имитирующий рукописный текст; примеры включают Script и Cursive. |
+| [SWISS](#SWISS) | Указывает пропорциональный шрифт без засечек. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fontFamilyName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fontFamily)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int fontFamily)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String fontFamilyName)](#fromName-java.lang.String) |  |
+| [getName(int fontFamily)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int fontFamily)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
 ```
 
 
-Указывает общее имя семейства. Это имя используется, когда информация о шрифте не существует или не имеет значения. Используется шрифт по умолчанию.
+Указывает общее семейство шрифтов. Это имя используется, когда информация о шрифте отсутствует или не важна. Используется шрифт по умолчанию.
 
 ### DECORATIVE {#DECORATIVE}
 ```
@@ -58,7 +88,7 @@ public static int DECORATIVE
 ```
 
 
-Задает новый шрифт. Например, древнеанглийский.
+Указывает декоративный шрифт. Примером является Old English.
 
 ### MODERN {#MODERN}
 ```
@@ -66,7 +96,7 @@ public static int MODERN
 ```
 
 
-Определяет моноширинный шрифт с засечками или без них. Моноширинные шрифты обычно современные; примеры включают Pica, Elite и Courier New.
+Указывает моноширинный шрифт с засечками или без них. Моноширинные шрифты обычно современные; примеры включают Pica, Elite и Courier New.
 
 ### ROMAN {#ROMAN}
 ```
@@ -74,7 +104,7 @@ public static int ROMAN
 ```
 
 
-Определяет пропорциональный шрифт с засечками. Например, Times New Roman.
+Указывает пропорциональный шрифт с засечками. Примером является Times New Roman.
 
 ### SCRIPT {#SCRIPT}
 ```
@@ -82,7 +112,7 @@ public static int SCRIPT
 ```
 
 
-Определяет шрифт, который должен выглядеть как рукописный; примеры включают Script и Cursive.
+Указывает шрифт, имитирующий рукописный текст; примеры включают Script и Cursive.
 
 ### SWISS {#SWISS}
 ```
@@ -90,7 +120,7 @@ public static int SWISS
 ```
 
 
-Определяет пропорциональный шрифт без засечек. Пример - Ариал.
+Указывает пропорциональный шрифт без засечек. Примером является Arial.
 
 ### length {#length}
 ```
@@ -98,23 +128,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String fontFamilyName) {#fromName-java.lang.String-}
+### fromName(String fontFamilyName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fontFamilyName)
 ```
@@ -122,25 +136,14 @@ public static int fromName(String fontFamilyName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontFamilyName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int fontFamily) {#getName-int-}
+**Returns:**
+int
+### getName(int fontFamily) {#getName-int}
 ```
 public static String getName(int fontFamily)
 ```
@@ -148,15 +151,14 @@ public static String getName(int fontFamily)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontFamily | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -164,45 +166,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int fontFamily) {#toString-int-}
+**Returns:**
+int[]
+### toString(int fontFamily) {#toString-int}
 ```
 public static String toString(int fontFamily)
 ```
@@ -210,47 +176,10 @@ public static String toString(int fontFamily)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontFamily | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

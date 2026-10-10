@@ -1,60 +1,101 @@
 ---
-title: TableStyleOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как стиль таблицы применяется к таблице.
+title: "TableStyleOptions"
+linktitle: "TableStyleOptions"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как стиль таблицы применяется к таблице в Java."
 type: docs
-weight: 553
+weight: 661
 url: /ru/java/com.aspose.words/tablestyleoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TableStyleOptions
 ```
 
 Указывает, как стиль таблицы применяется к таблице.
+
+ **Examples:** 
+
+Показывает, как создать новую таблицу, применяя стиль.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Table table = builder.startTable();
+
+ // We must insert at least one row before setting any table formatting.
+ builder.insertCell();
+
+ // Set the table style used based on the style identifier.
+ // Note that not all table styles are available when saving to .doc format.
+ table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
+
+ // Partially apply the style to features of the table based on predicates, then build the table.
+ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+ table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
+
+ builder.writeln("Item");
+ builder.getCellFormat().setRightPadding(40.0);
+ builder.insertCell();
+ builder.writeln("Quantity (kg)");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Apples");
+ builder.insertCell();
+ builder.writeln("20");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Bananas");
+ builder.insertCell();
+ builder.writeln("40");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Carrots");
+ builder.insertCell();
+ builder.writeln("50");
+ builder.endRow();
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertTableWithStyle.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [COLUMN_BANDS](#COLUMN-BANDS) | Применить условное форматирование для группирования столбцов. |
-| [DEFAULT](#DEFAULT) | Это настройки Microsoft Word по умолчанию. |
-| [DEFAULT_2003](#DEFAULT-2003) | Применяется чередование строк и столбцов. |
-| [FIRST_COLUMN](#FIRST-COLUMN) | Примените условное форматирование к первому столбцу. |
+| [COLUMN_BANDS](#COLUMN-BANDS) | Применить условное форматирование полосы столбцов. |
+| [DEFAULT](#DEFAULT) | Это настройки по умолчанию Microsoft Word. |
+| [DEFAULT_2003](#DEFAULT-2003) | Применено полосатое форматирование строк и столбцов. |
+| [FIRST_COLUMN](#FIRST-COLUMN) | Применить условное форматирование первого столбца. |
 | [FIRST_ROW](#FIRST-ROW) | Применить условное форматирование первой строки. |
 | [LAST_COLUMN](#LAST-COLUMN) | Применить условное форматирование последнего столбца. |
 | [LAST_ROW](#LAST-ROW) | Применить условное форматирование последней строки. |
-| [NONE](#NONE) | Форматирование стиля таблицы не применяется. |
-| [ROW_BANDS](#ROW-BANDS) | Применить условное форматирование для группирования строк. |
+| [NONE](#NONE) | Стиль таблицы не применяется. |
+| [ROW_BANDS](#ROW-BANDS) | Применить условное форматирование полосы строк. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tableStyleOptionsName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set tableStyleOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tableStyleOptions)](#getName-int-) |  |
-| [getNames(int tableStyleOptions)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tableStyleOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String tableStyleOptionsName)](#fromName-java.lang.String) |  |
+| [fromNames(Set tableStyleOptionsNames)](#fromNames-java.util.Set) |  |
+| [getName(int tableStyleOptions)](#getName-int) |  |
+| [getNames(int tableStyleOptions)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int tableStyleOptions)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### COLUMN_BANDS {#COLUMN-BANDS}
 ```
 public static int COLUMN_BANDS
 ```
 
 
-Применить условное форматирование для группирования столбцов.
+Применить условное форматирование полосы столбцов.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +103,7 @@ public static int DEFAULT
 ```
 
 
-Это настройки Microsoft Word по умолчанию.
+Это настройки по умолчанию Microsoft Word.
 
 ### DEFAULT_2003 {#DEFAULT-2003}
 ```
@@ -70,7 +111,7 @@ public static int DEFAULT_2003
 ```
 
 
-Применяется чередование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF.
+Применено полосатое форматирование строк и столбцов. Это значение по умолчанию Microsoft Word для старых форматов, таких как DOC, WML и RTF.
 
 ### FIRST_COLUMN {#FIRST-COLUMN}
 ```
@@ -78,7 +119,7 @@ public static int FIRST_COLUMN
 ```
 
 
-Примените условное форматирование к первому столбцу.
+Применить условное форматирование первого столбца.
 
 ### FIRST_ROW {#FIRST-ROW}
 ```
@@ -110,7 +151,7 @@ public static int NONE
 ```
 
 
-Форматирование стиля таблицы не применяется.
+Стиль таблицы не применяется.
 
 ### ROW_BANDS {#ROW-BANDS}
 ```
@@ -118,7 +159,7 @@ public static int ROW_BANDS
 ```
 
 
-Применить условное форматирование для группирования строк.
+Применить условное форматирование полосы строк.
 
 ### length {#length}
 ```
@@ -126,23 +167,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String tableStyleOptionsName) {#fromName-java.lang.String-}
+### fromName(String tableStyleOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tableStyleOptionsName)
 ```
@@ -150,15 +175,14 @@ public static int fromName(String tableStyleOptionsName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableStyleOptionsName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set tableStyleOptionsNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set tableStyleOptionsNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set tableStyleOptionsNames)
 ```
@@ -166,25 +190,14 @@ public static int fromNames(Set tableStyleOptionsNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableStyleOptionsNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int tableStyleOptions) {#getName-int-}
+**Returns:**
+int
+### getName(int tableStyleOptions) {#getName-int}
 ```
 public static String getName(int tableStyleOptions)
 ```
@@ -192,15 +205,14 @@ public static String getName(int tableStyleOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int tableStyleOptions) {#getNames-int-}
+### getNames(int tableStyleOptions) {#getNames-int}
 ```
 public static Set getNames(int tableStyleOptions)
 ```
@@ -208,15 +220,14 @@ public static Set getNames(int tableStyleOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -224,45 +235,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int tableStyleOptions) {#toString-int-}
+**Returns:**
+int[]
+### toString(int tableStyleOptions) {#toString-int}
 ```
 public static String toString(int tableStyleOptions)
 ```
@@ -270,15 +245,14 @@ public static String toString(int tableStyleOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -286,47 +260,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

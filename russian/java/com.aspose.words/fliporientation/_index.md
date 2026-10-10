@@ -1,55 +1,91 @@
 ---
-title: FlipOrientation
-second_title: Справочник по API Aspose.Words для Java
-description: Возможные значения для ориентации фигуры.
+title: "FlipOrientation"
+linktitle: "FlipOrientation"
+second_title: "Aspose.Words для Java"
+description: "Возможные значения ориентации фигуры в Java."
 type: docs
-weight: 273
+weight: 317
 url: /ru/java/com.aspose.words/fliporientation/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FlipOrientation
 ```
 
-Возможные значения для ориентации фигуры.
+Возможные значения ориентации фигуры.
+
+ **Examples:** 
+
+Показывает, как отразить фигуру по оси.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert an image shape and leave its orientation in its default state.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertEquals(FlipOrientation.NONE, shape.getFlipOrientation());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the second shape on the y-axis,
+ // making it into a horizontal mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.HORIZONTAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the third shape on the x-axis,
+ // making it into a vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.VERTICAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the fourth shape on both the x and y axes,
+ // making it into a horizontal and vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.BOTH);
+
+ doc.save(getArtifactsDir() + "Shape.FlipShapeOrientation.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTH](#BOTH) | Отразите по обеим осям Y и X. |
-| [HORIZONTAL](#HORIZONTAL) | Отразите по оси Y, поменяв координаты x на противоположные. |
-| [NONE](#NONE) | Координаты не переворачиваются. |
-| [VERTICAL](#VERTICAL) | Отразите по оси x, поменяв местами координаты y. |
+| [BOTH](#BOTH) | Отразить вдоль обеих осей y и x. |
+| [HORIZONTAL](#HORIZONTAL) | Отразить вдоль оси y, инвертируя координаты x. |
+| [NONE](#NONE) | Координаты не отражаются. |
+| [VERTICAL](#VERTICAL) | Отразить вдоль оси x, инвертируя координаты y. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String flipOrientationName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set flipOrientationNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int flipOrientation)](#getName-int-) |  |
-| [getNames(int flipOrientation)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int flipOrientation)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String flipOrientationName)](#fromName-java.lang.String) |  |
+| [fromNames(Set flipOrientationNames)](#fromNames-java.util.Set) |  |
+| [getName(int flipOrientation)](#getName-int) |  |
+| [getNames(int flipOrientation)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int flipOrientation)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### BOTH {#BOTH}
 ```
 public static int BOTH
 ```
 
 
-Отразите по обеим осям Y и X.
+Отразить вдоль обеих осей y и x.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -57,7 +93,7 @@ public static int HORIZONTAL
 ```
 
 
-Отразите по оси Y, поменяв координаты x на противоположные.
+Отразить вдоль оси y, инвертируя координаты x.
 
 ### NONE {#NONE}
 ```
@@ -65,7 +101,7 @@ public static int NONE
 ```
 
 
-Координаты не переворачиваются.
+Координаты не отражаются.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -73,7 +109,7 @@ public static int VERTICAL
 ```
 
 
-Отразите по оси x, поменяв местами координаты y.
+Отразить вдоль оси x, инвертируя координаты y.
 
 ### length {#length}
 ```
@@ -81,23 +117,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String flipOrientationName) {#fromName-java.lang.String-}
+### fromName(String flipOrientationName) {#fromName-java.lang.String}
 ```
 public static int fromName(String flipOrientationName)
 ```
@@ -105,15 +125,14 @@ public static int fromName(String flipOrientationName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | flipOrientationName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set flipOrientationNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set flipOrientationNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set flipOrientationNames)
 ```
@@ -121,25 +140,14 @@ public static int fromNames(Set flipOrientationNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | flipOrientationNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int flipOrientation) {#getName-int-}
+**Returns:**
+int
+### getName(int flipOrientation) {#getName-int}
 ```
 public static String getName(int flipOrientation)
 ```
@@ -147,15 +155,14 @@ public static String getName(int flipOrientation)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int flipOrientation) {#getNames-int-}
+### getNames(int flipOrientation) {#getNames-int}
 ```
 public static Set getNames(int flipOrientation)
 ```
@@ -163,15 +170,14 @@ public static Set getNames(int flipOrientation)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -179,45 +185,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int flipOrientation) {#toString-int-}
+**Returns:**
+int[]
+### toString(int flipOrientation) {#toString-int}
 ```
 public static String toString(int flipOrientation)
 ```
@@ -225,15 +195,14 @@ public static String toString(int flipOrientation)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -241,47 +210,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

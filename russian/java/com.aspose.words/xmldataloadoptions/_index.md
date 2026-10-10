@@ -1,13 +1,14 @@
 ---
-title: XmlDataLoadOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет параметры загрузки XML-данных.
+title: "XmlDataLoadOptions"
+linktitle: "XmlDataLoadOptions"
+second_title: "Aspose.Words для Java"
+description: "Представляет параметры загрузки XML-данных в Java."
 type: docs
-weight: 627
+weight: 745
 url: /ru/java/com.aspose.words/xmldataloadoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class XmlDataLoadOptions
@@ -15,30 +16,26 @@ public class XmlDataLoadOptions
 
 Представляет параметры загрузки XML-данных.
 
- Чтобы узнать больше, посетите**LINQ Reporting Engine** документальная статья.
+Чтобы узнать больше, посетите статью документации [ LINQ Reporting Engine ][LINQ Reporting Engine].
 
- Экземпляр этого класса может быть передан в конструкторы[XmlDataSource](../../com.aspose.words/xmldatasource).
+ **Remarks:** 
+
+Экземпляр этого класса может быть передан в конструкторы [XmlDataSource](../../com.aspose.words/xmldatasource/).
+
+
+[LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [XmlDataLoadOptions()](#XmlDataLoadOptions--) | Инициализирует новый экземпляр этого класса с параметрами по умолчанию. |
+| [XmlDataLoadOptions()](#XmlDataLoadOptions) | Инициализирует новый экземпляр этого класса с параметрами по умолчанию. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | Получает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML. |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | Устанавливает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### XmlDataLoadOptions() {#XmlDataLoadOptions--}
+| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Получает флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML. |
+| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Устанавливает флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML. |
+### XmlDataLoadOptions() {#XmlDataLoadOptions}
 ```
 public XmlDataLoadOptions()
 ```
@@ -46,125 +43,34 @@ public XmlDataLoadOptions()
 
 Инициализирует новый экземпляр этого класса с параметрами по умолчанию.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject--}
+### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject}
 ```
 public boolean getAlwaysGenerateRootObject()
 ```
 
 
- Получает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML. Если корневой элемент XML не имеет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создается. Значение по умолчанию**false**.
+Получает флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML. Если у корневого элемента XML нет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создаётся.
 
-**Возвращает:**
-boolean — флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
+ **Remarks:** 
 
+Значение по умолчанию — false.
 
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean-}
+**Returns:**
+boolean — Флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML.
+### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean}
 ```
 public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-Устанавливает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML. Если корневой элемент XML не имеет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создается. Значение по умолчанию**false**.
+Устанавливает флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML. Если у корневого элемента XML нет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создаётся.
 
-**Параметры:**
+ **Remarks:** 
 
+Значение по умолчанию — false.
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML. |
+| значение | boolean | Флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

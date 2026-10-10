@@ -1,58 +1,79 @@
 ---
-title: TextureAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет выравнивание для мозаичного заполнения текстурной заливки.
+title: "TextureAlignment"
+linktitle: "TextureAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает выравнивание для замощения текстурного заполнения в Java."
 type: docs
-weight: 571
+weight: 680
 url: /ru/java/com.aspose.words/texturealignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextureAlignment
 ```
 
-Определяет выравнивание для мозаичного заполнения текстурной заливки.
+Указывает выравнивание при черепичной заливке текстурой.
+
+ **Examples:** 
+
+Показывает, как заполнять и замощать текстуру внутри фигуры.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+
+ // Apply texture alignment to the shape fill.
+ shape.getFill().presetTextured(PresetTexture.CANVAS);
+ shape.getFill().setTextureAlignment(TextureAlignment.TOP_RIGHT);
+
+ // Use the compliance option to define the shape using DML if you want to get "TextureAlignment"
+ // property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+
+ doc = new Document(getArtifactsDir() + "Shape.TextureFill.docx");
+ shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals(TextureAlignment.TOP_RIGHT, shape.getFill().getTextureAlignment());
+ Assert.assertEquals(PresetTexture.CANVAS, shape.getFill().getPresetTexture());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Выравнивание текстуры по низу. |
-| [BOTTOM_LEFT](#BOTTOM-LEFT) | Выравнивание текстуры по нижнему левому краю. |
-| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | Выравнивание текстуры справа внизу. |
-| [CENTER](#CENTER) | Выравнивание текстур по центру. |
+| [BOTTOM](#BOTTOM) | Выравнивание текстуры по нижнему краю. |
+| [BOTTOM_LEFT](#BOTTOM-LEFT) | Выравнивание текстуры по нижнему левому углу. |
+| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | Выравнивание текстуры по нижнему правому углу. |
+| [CENTER](#CENTER) | Выравнивание текстуры по центру. |
 | [LEFT](#LEFT) | Выравнивание текстуры по левому краю. |
-| [NONE](#NONE) | Нет выравнивания текстур. |
-| [RIGHT](#RIGHT) | Правильное выравнивание текстур. |
-| [TOP](#TOP) | Верхнее выравнивание текстуры. |
-| [TOP_LEFT](#TOP-LEFT) | Выравнивание текстуры по верхнему левому краю. |
-| [TOP_RIGHT](#TOP-RIGHT) | Выравнивание текстуры вверху справа. |
+| [NONE](#NONE) | Отсутствие выравнивания текстуры. |
+| [RIGHT](#RIGHT) | Выравнивание текстуры по правому краю. |
+| [TOP](#TOP) | Выравнивание текстуры по верхнему краю. |
+| [TOP_LEFT](#TOP-LEFT) | Выравнивание текстуры по верхнему левому углу. |
+| [TOP_RIGHT](#TOP-RIGHT) | Выравнивание текстуры по верхнему правому углу. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textureAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textureAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textureAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textureAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int textureAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textureAlignment)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
 ```
 
 
-Выравнивание текстуры по низу.
+Выравнивание текстуры по нижнему краю.
 
 ### BOTTOM_LEFT {#BOTTOM-LEFT}
 ```
@@ -60,7 +81,7 @@ public static int BOTTOM_LEFT
 ```
 
 
-Выравнивание текстуры по нижнему левому краю.
+Выравнивание текстуры по нижнему левому углу.
 
 ### BOTTOM_RIGHT {#BOTTOM-RIGHT}
 ```
@@ -68,7 +89,7 @@ public static int BOTTOM_RIGHT
 ```
 
 
-Выравнивание текстуры справа внизу.
+Выравнивание текстуры по нижнему правому углу.
 
 ### CENTER {#CENTER}
 ```
@@ -76,7 +97,7 @@ public static int CENTER
 ```
 
 
-Выравнивание текстур по центру.
+Выравнивание текстуры по центру.
 
 ### LEFT {#LEFT}
 ```
@@ -92,7 +113,7 @@ public static int NONE
 ```
 
 
-Нет выравнивания текстур.
+Отсутствие выравнивания текстуры.
 
 ### RIGHT {#RIGHT}
 ```
@@ -100,7 +121,7 @@ public static int RIGHT
 ```
 
 
-Правильное выравнивание текстур.
+Выравнивание текстуры по правому краю.
 
 ### TOP {#TOP}
 ```
@@ -108,7 +129,7 @@ public static int TOP
 ```
 
 
-Верхнее выравнивание текстуры.
+Выравнивание текстуры по верхнему краю.
 
 ### TOP_LEFT {#TOP-LEFT}
 ```
@@ -116,7 +137,7 @@ public static int TOP_LEFT
 ```
 
 
-Выравнивание текстуры по верхнему левому краю.
+Выравнивание текстуры по верхнему левому углу.
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -124,7 +145,7 @@ public static int TOP_RIGHT
 ```
 
 
-Выравнивание текстуры вверху справа.
+Выравнивание текстуры по верхнему правому углу.
 
 ### length {#length}
 ```
@@ -132,23 +153,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textureAlignmentName) {#fromName-java.lang.String-}
+### fromName(String textureAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textureAlignmentName)
 ```
@@ -156,25 +161,14 @@ public static int fromName(String textureAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textureAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int textureAlignment) {#getName-int}
 ```
 public static String getName(int textureAlignment)
 ```
@@ -182,15 +176,14 @@ public static String getName(int textureAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -198,45 +191,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textureAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textureAlignment) {#toString-int}
 ```
 public static String toString(int textureAlignment)
 ```
@@ -244,47 +201,10 @@ public static String toString(int textureAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

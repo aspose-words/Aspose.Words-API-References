@@ -1,56 +1,207 @@
 ---
-title: FontSettings
-second_title: Справочник по API Aspose.Words для Java
-description: Задает настройки шрифта для документа.
+title: "FontSettings"
+linktitle: "FontSettings"
+second_title: "Aspose.Words для Java"
+description: "Указывает настройки шрифтов для документа в Java."
 type: docs
-weight: 286
+weight: 332
 url: /ru/java/com.aspose.words/fontsettings/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FontSettings
 ```
 
-Задает настройки шрифта для документа.
+Указывает настройки шрифта для документа.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
 
- Aspose.Words использует настройки шрифта для разрешения шрифтов в документе. Шрифты разрешаются в основном при создании макета документа или рендеринга в фиксированные форматы страниц. Но при загрузке некоторых форматов Aspose.Words также может потребовать разрешения шрифтов. Например, при загрузке HTML-документов Aspose.Words может разрешить шрифты для выполнения резервного шрифта. Поэтому рекомендуется установить настройки шрифта в[LoadOptions](../../com.aspose.words/loadoptions)при загрузке документа. Или, по крайней мере, перед созданием макета или рендерингом документа в формате фиксированной страницы.
+ **Remarks:** 
 
- По умолчанию во всех документах используется один экземпляр настроек статического шрифта. Доступ к нему мог получить[getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) имущество.
+Aspose.Words использует настройки шрифтов для определения шрифтов в документе. Шрифты в основном определяются при построении макета документа или рендеринге в форматы фиксированных страниц. Однако при загрузке некоторых форматов Aspose.Words также может потребоваться определить шрифты. Например, при загрузке HTML‑документов Aspose.Words может определять шрифты для выполнения подстановки шрифтов. Поэтому рекомендуется задавать настройки шрифтов в [LoadOptions](../../com.aspose.words/loadoptions/) при загрузке документа. Или хотя бы перед построением макета или рендерингом документа в формат фиксированных страниц.
 
-Изменение настроек шрифта безопасно в любое время из любой темы. Но рекомендуется не изменять настройки шрифта при обработке некоторых документов, использующих эти настройки. Это может привести к тому, что один и тот же шрифт будет по-разному разрешаться в разных частях документа.
+По умолчанию все документы используют единственный статический экземпляр настроек шрифтов. К нему можно получить доступ через свойство [getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance).
+
+Изменение настроек шрифтов безопасно в любое время из любого потока. Однако рекомендуется не изменять настройки шрифтов во время обработки некоторых документов, использующих эти настройки. Это может привести к тому, что один и тот же шрифт будет определяться по‑разному в разных частях документа.
+
+ **Examples:** 
+
+Показывает, как задать каталог источника шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arvo");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Our font sources do not contain the font that we have used for text in this document.
+ // If we use these font settings while rendering this document,
+ // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font sources are missing the two fonts that we are using in this document.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+
+ // Use the "SetFontsFolder" method to set a directory which will act as a new font source.
+ // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directory
+ // that we are passing in the first argument, but not include any fonts in any of that directory's subfolders.
+ // Pass "true" as the "recursive" argument to include all font files in the directory that we are passing
+ // in the first argument, as well as all the fonts in its subdirectories.
+ FontSettings.getDefaultInstance().setFontsFolder(getFontsDir(), recursive);
+
+ FontSourceBase[] newFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, newFontSources.length);
+ Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+
+ // The "Amethysta" font is in a subfolder of the font directory.
+ if (recursive) {
+     Assert.assertEquals(30, newFontSources[0].getAvailableFonts().size());
+     Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ } else {
+     Assert.assertEquals(18, newFontSources[0].getAvailableFonts().size());
+     Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ }
+
+ doc.save(getArtifactsDir() + "FontSettings.SetFontsFolder.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+Показывает, как задать несколько каталогов источников шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Our font sources do not contain the font that we have used for text in this document.
+ // If we use these font settings while rendering this document,
+ // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font sources are missing the two fonts that we are using in this document.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Use the "SetFontsFolders" method to create a font source from each font directory that we pass as the first argument.
+ // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directories
+ // that we are passing in the first argument, but not include any fonts from any of the directories' subfolders.
+ // Pass "true" as the "recursive" argument to include all font files in the directories that we are passing
+ // in the first argument, as well as all the fonts in their subdirectories.
+ FontSettings.getDefaultInstance().setFontsFolders(new String[]{getFontsDir() + "/Amethysta", getFontsDir() + "/Junction"}, recursive);
+
+ FontSourceBase[] newFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(2, newFontSources.length);
+ Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertEquals(1, newFontSources[0].getAvailableFonts().size());
+ Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+
+ // The "Junction" folder itself contains no font files, but has subfolders that do.
+ if (recursive) {
+     Assert.assertEquals(11, newFontSources[1].getAvailableFonts().size());
+     Assert.assertTrue(IterableUtils.matchesAny(newFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+ } else {
+     Assert.assertEquals(0, newFontSources[1].getAvailableFonts().size());
+ }
+
+ doc.save(getArtifactsDir() + "FontSettings.SetFontsFolders.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+Показывает, как добавить источник шрифтов к существующим источникам шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font source is missing two of the fonts that we are using in our document.
+ // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Create a font source from a folder that contains fonts.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+
+ // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+ FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
+ FontSettings.getDefaultInstance().setFontsSources(updatedFontSources);
+
+ // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+ updatedFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ doc.save(getArtifactsDir() + "FontSettings.AddFontSource.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [FontSettings()](#FontSettings--) | Инициализирует новый экземпляр этого класса. |
+| [FontSettings()](#FontSettings) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDefaultInstance()](#getDefaultInstance--) | Статические настройки шрифта по умолчанию. |
-| [getFallbackSettings()](#getFallbackSettings--) | Настройки, связанные с резервным механизмом шрифта. |
-| [getFontsSources()](#getFontsSources--) | Получает копию массива, содержащего список источников, в которых Aspose.Words ищет шрифты TrueType. |
-| [getSubstitutionSettings()](#getSubstitutionSettings--) | Настройки, связанные с механизмом замены шрифтов. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [resetFontSources()](#resetFontSources--) | Сбрасывает источники шрифтов к системным значениям по умолчанию. |
-| [saveSearchCache(OutputStream outputStream)](#saveSearchCache-java.io.OutputStream-) |  |
-| [setFontsFolder(String fontFolder, boolean recursive)](#setFontsFolder-java.lang.String-boolean-) | Устанавливает папку, в которой Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. |
-| [setFontsFolders(String[] fontsFolders, boolean recursive)](#setFontsFolders-java.lang.String---boolean-) | Задает папки, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. |
-| [setFontsSources(FontSourceBase[] sources)](#setFontsSources-com.aspose.words.FontSourceBase---) | Задает источники, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. |
-| [setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream)](#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FontSettings() {#FontSettings--}
+| [getDefaultInstance()](#getDefaultInstance) | Статические настройки шрифтов по умолчанию. |
+| [getFallbackSettings()](#getFallbackSettings) | Настройки, связанные с механизмом подстановки шрифтов. |
+| [getFontsSources()](#getFontsSources) | Получает копию массива, содержащего список источников, где Aspose.Words ищет TrueType‑шрифты. |
+| [getSubstitutionSettings()](#getSubstitutionSettings) | Настройки, связанные с механизмом замены шрифтов. |
+| [resetFontSources()](#resetFontSources) | Сбрасывает источники шрифтов к системным настройкам по умолчанию. |
+| [saveSearchCache(OutputStream outputStream)](#saveSearchCache-java.io.OutputStream) |  |
+| [setFontsFolder(String fontFolder, boolean recursive)](#setFontsFolder-java.lang.String-boolean) | Устанавливает каталог, в котором Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов. |
+| [setFontsFolders(String[] fontsFolders, boolean recursive)](#setFontsFolders-java.lang.String---boolean) | Устанавливает каталоги, в которых Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов. |
+| [setFontsSources(FontSourceBase[] sources)](#setFontsSources-com.aspose.words.FontSourceBase) | Устанавливает источники, где Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов. |
+| [setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream)](#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream) |  |
+### FontSettings() {#FontSettings}
 ```
 public FontSettings()
 ```
@@ -58,65 +209,220 @@ public FontSettings()
 
 Инициализирует новый экземпляр этого класса.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDefaultInstance() {#getDefaultInstance--}
+### getDefaultInstance() {#getDefaultInstance}
 ```
 public static FontSettings getDefaultInstance()
 ```
 
 
- Статические настройки шрифта по умолчанию. Этот экземпляр используется по умолчанию в документе, если[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) указано.
+Статические настройки шрифтов по умолчанию.
 
-**Возвращает:**
-[FontSettings](../../com.aspose.words/fontsettings) - соответствующий[FontSettings](../../com.aspose.words/fontsettings) ценность.
-### getFallbackSettings() {#getFallbackSettings--}
+ **Remarks:** 
+
+Этот экземпляр используется по умолчанию в документе, если не указаны [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings).
+
+ **Examples:** 
+
+Показывает, как настроить экземпляр настроек шрифтов по умолчанию.
+
+```
+
+ // Configure the default font settings instance to use the "Courier New" font
+ // as a backup substitute when we attempt to use an unknown font.
+ FontSettings.getDefaultInstance().getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Courier New");
+
+ Assert.assertTrue(FontSettings.getDefaultInstance().getSubstitutionSettings().getDefaultFontSubstitution().getEnabled());
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Non-existent font");
+ builder.write("Hello world!");
+
+ // This document does not have a FontSettings configuration. When we render the document,
+ // the default FontSettings instance will resolve the missing font.
+ // Aspose.Words will use "Courier New" to render text that uses the unknown font.
+ Assert.assertNull(doc.getFontSettings());
+
+ doc.save(getArtifactsDir() + "FontSettings.DefaultFontInstance.pdf");
+ 
+```
+
+Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о замене шрифтов.
+
+```
+
+ public void substitutionWarning() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.getFont().setName("Times New Roman");
+     builder.writeln("Hello world!");
+
+     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
+     doc.setWarningCallback(callback);
+
+     // Store the current collection of font sources, which will be the default font source for every document
+     // for which we do not specify a different font source.
+     FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+     // For testing purposes, we will set Aspose.Words to look for fonts only in a folder that does not exist.
+     FontSettings.getDefaultInstance().setFontsFolder("", false);
+
+     // When rendering the document, there will be no place to find the "Times New Roman" font.
+     // This will cause a font substitution warning, which our callback will detect.
+     doc.save(getArtifactsDir() + "FontSettings.SubstitutionWarning.pdf");
+
+     FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+
+     Assert.assertTrue(callback.FontSubstitutionWarnings.get(0).getWarningType() == WarningType.FONT_SUBSTITUTION);
+     Assert.assertTrue(callback.FontSubstitutionWarnings.get(0).getDescription()
+             .equals("Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+ }
+
+ private static class FontSubstitutionWarningCollector implements IWarningCallback {
+     /// 
+     /// Called every time a warning occurs during loading/saving.
+     /// 
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+             FontSubstitutionWarnings.warning(info);
+     }
+
+     public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+**Returns:**
+[FontSettings](../../com.aspose.words/fontsettings/) - The corresponding [FontSettings](../../com.aspose.words/fontsettings/) value.
+### getFallbackSettings() {#getFallbackSettings}
 ```
 public FontFallbackSettings getFallbackSettings()
 ```
 
 
-Настройки, связанные с резервным механизмом шрифта.
+Настройки, связанные с механизмом подстановки шрифтов.
 
-**Возвращает:**
-[FontFallbackSettings](../../com.aspose.words/fontfallbacksettings) - соответствующий[FontFallbackSettings](../../com.aspose.words/fontfallbacksettings) ценность.
-### getFontsSources() {#getFontsSources--}
+ **Examples:** 
+
+Показывает, как распределять резервные шрифты по диапазонам кодов символов Unicode.
+
+```
+
+ Document doc = new Document();
+
+ FontSettings fontSettings = new FontSettings();
+ doc.setFontSettings(fontSettings);
+ FontFallbackSettings fontFallbackSettings = fontSettings.getFallbackSettings();
+
+ // Configure our font settings to source fonts only from the "MyFonts" folder.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), false);
+ fontSettings.setFontsSources(new FontSourceBase[]{folderFontSource});
+
+ // Calling the "BuildAutomatic" method will generate a fallback scheme that
+ // distributes accessible fonts across as many Unicode character codes as possible.
+ // In our case, it only has access to the handful of fonts inside the "MyFonts" folder.
+ fontFallbackSettings.buildAutomatic();
+ fontFallbackSettings.save(getArtifactsDir() + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
+
+ // We can also load a custom substitution scheme from a file like this.
+ // This scheme applies the "AllegroOpen" font across the "0000-00ff" Unicode blocks, the "AllegroOpen" font across "0100-024f",
+ // and the "M+ 2m" font in all other ranges that other fonts in the scheme do not cover.
+ fontFallbackSettings.load(getMyDir() + "Custom font fallback settings.xml");
+
+ // Create a document builder and set its font to one that does not exist in any of our sources.
+ // Our font settings will invoke the fallback scheme for characters that we type using the unavailable font.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setName("Missing Font");
+
+ // Use the builder to print every Unicode character from 0x0021 to 0x052F,
+ // with descriptive lines dividing Unicode blocks we defined in our custom font fallback scheme.
+ for (int i = 0x0021; i < 0x0530; i++) {
+     switch (i) {
+         case 0x0021:
+             builder.writeln("\n\n0x0021 - 0x00FF: \nBasic Latin/Latin-1 Supplement Unicode blocks in \"AllegroOpen\" font:");
+             break;
+         case 0x0100:
+             builder.writeln("\n\n0x0100 - 0x024F: \nLatin Extended A/B blocks, mostly in \"AllegroOpen\" font:");
+             break;
+         case 0x0250:
+             builder.writeln("\n\n0x0250 - 0x052F: \nIPA/Greek/Cyrillic blocks in \"M+ 2m\" font:");
+             break;
+     }
+
+     builder.write(MessageFormat.format("{0}", (char) i));
+ }
+
+ doc.save(getArtifactsDir() + "FontSettings.FallbackSettingsCustom.pdf");
+ 
+```
+
+**Returns:**
+[FontFallbackSettings](../../com.aspose.words/fontfallbacksettings/) - The corresponding [FontFallbackSettings](../../com.aspose.words/fontfallbacksettings/) value.
+### getFontsSources() {#getFontsSources}
 ```
 public FontSourceBase[] getFontsSources()
 ```
 
 
-Получает копию массива, содержащего список источников, в которых Aspose.Words ищет шрифты TrueType.
+Получает копию массива, содержащего список источников, где Aspose.Words ищет TrueType‑шрифты.
 
- Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените записи в возвращаемом массиве, это не повлияет на визуализацию документа. Чтобы указать новые источники шрифтов, используйте[setFontsSources(com.aspose.words.FontSourceBase[])](../../com.aspose.words/fontsettings\#setFontsSources-com.aspose.words.FontSourceBase---) метод.
+ **Remarks:** 
 
-**Возвращает:**
-com.aspose.words.FontSourceBase[] - Копия текущих источников шрифтов.
-### getSubstitutionSettings() {#getSubstitutionSettings--}
+Возвращаемое значение является копией данных, которые использует Aspose.Words. Если изменить элементы в возвращённом массиве, это не повлияет на рендеринг документа. Чтобы указать новые источники шрифтов, используйте метод [setFontsSources(com.aspose.words.FontSourceBase[])](../../com.aspose.words/fontsettings/\#setFontsSources-com.aspose.words.FontSourceBase).
+
+ **Examples:** 
+
+Показывает, как добавить источник шрифтов к существующим источникам шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font source is missing two of the fonts that we are using in our document.
+ // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Create a font source from a folder that contains fonts.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+
+ // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+ FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
+ FontSettings.getDefaultInstance().setFontsSources(updatedFontSources);
+
+ // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+ updatedFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ doc.save(getArtifactsDir() + "FontSettings.AddFontSource.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+**Returns:**
+com.aspose.words.FontSourceBase[] — копия текущих источников шрифтов.
+### getSubstitutionSettings() {#getSubstitutionSettings}
 ```
 public FontSubstitutionSettings getSubstitutionSettings()
 ```
@@ -124,43 +430,111 @@ public FontSubstitutionSettings getSubstitutionSettings()
 
 Настройки, связанные с механизмом замены шрифтов.
 
-**Возвращает:**
-[FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings) - соответствующий[FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
 
+ // By default, a blank document always contains a system font source.
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
 
+ SystemFontSource systemFontSource = (SystemFontSource) doc.getFontSettings().getFontsSources()[0];
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, systemFontSource.getType());
+ Assert.assertEquals(0, systemFontSource.getPriority());
 
-### notifyAll() {#notifyAll--}
+ if (SystemUtils.IS_OS_WINDOWS) {
+     final String FONTS_PATH = "C:\\WINDOWS\\Fonts";
+     Assert.assertEquals(FONTS_PATH.toLowerCase(), SystemFontSource.getSystemFontFolders()[0].toLowerCase());
+ }
+
+ for (String systemFontFolder : SystemFontSource.getSystemFontFolders()) {
+     System.out.println(systemFontFolder);
+ }
+
+ // Set a font that exists in the Windows Fonts directory as a substitute for one that does not.
+ doc.getFontSettings().getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+ doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().addSubstitutes("Kreon-Regular", "Calibri");
+
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(IterableUtils.toString(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")).contains("Calibri"));
+
+ // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), false);
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{systemFontSource, folderFontSource});
+ Assert.assertEquals(2, doc.getFontSettings().getFontsSources().length);
+
+ // Resetting the font sources still leaves us with the system font source as well as our substitutes.
+ doc.getFontSettings().resetFontSources();
+
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### resetFontSources() {#resetFontSources--}
+**Returns:**
+[FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings/) - The corresponding [FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings/) value.
+### resetFontSources() {#resetFontSources}
 ```
 public void resetFontSources()
 ```
 
 
-Сбрасывает источники шрифтов к системным значениям по умолчанию.
+Сбрасывает источники шрифтов к системным настройкам по умолчанию.
 
-### saveSearchCache(OutputStream outputStream) {#saveSearchCache-java.io.OutputStream-}
+ **Examples:** 
+
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
+
+```
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+
+ // By default, a blank document always contains a system font source.
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+
+ SystemFontSource systemFontSource = (SystemFontSource) doc.getFontSettings().getFontsSources()[0];
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, systemFontSource.getType());
+ Assert.assertEquals(0, systemFontSource.getPriority());
+
+ if (SystemUtils.IS_OS_WINDOWS) {
+     final String FONTS_PATH = "C:\\WINDOWS\\Fonts";
+     Assert.assertEquals(FONTS_PATH.toLowerCase(), SystemFontSource.getSystemFontFolders()[0].toLowerCase());
+ }
+
+ for (String systemFontFolder : SystemFontSource.getSystemFontFolders()) {
+     System.out.println(systemFontFolder);
+ }
+
+ // Set a font that exists in the Windows Fonts directory as a substitute for one that does not.
+ doc.getFontSettings().getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+ doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().addSubstitutes("Kreon-Regular", "Calibri");
+
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(IterableUtils.toString(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")).contains("Calibri"));
+
+ // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), false);
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{systemFontSource, folderFontSource});
+ Assert.assertEquals(2, doc.getFontSettings().getFontsSources().length);
+
+ // Resetting the font sources still leaves us with the system font source as well as our substitutes.
+ doc.getFontSettings().resetFontSources();
+
+ Assert.assertEquals(1, doc.getFontSettings().getFontsSources().length);
+ Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
+ Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
+ Assert.assertTrue(doc.getFontSettings().getSubstitutionSettings().getFontNameSubstitution().getEnabled());
+ 
+```
+
+### saveSearchCache(OutputStream outputStream) {#saveSearchCache-java.io.OutputStream}
 ```
 public void saveSearchCache(OutputStream outputStream)
 ```
@@ -168,65 +542,223 @@ public void saveSearchCache(OutputStream outputStream)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
 
-### setFontsFolder(String fontFolder, boolean recursive) {#setFontsFolder-java.lang.String-boolean-}
+### setFontsFolder(String fontFolder, boolean recursive) {#setFontsFolder-java.lang.String-boolean}
 ```
 public void setFontsFolder(String fontFolder, boolean recursive)
 ```
 
 
- Устанавливает папку, в которой Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. Это ярлык для[setFontsFolders(java.lang.String[], boolean)](../../com.aspose.words/fontsettings\#setFontsFolders-java.lang.String----boolean-) для установки только одного каталога шрифтов.
+Устанавливает каталог, в котором Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов. Это сокращение для вызова [setFontsFolders(java.lang.String[], boolean)](../../com.aspose.words/fontsettings/\#setFontsFolders-java.lang.String----boolean) при указании только одного каталога шрифтов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать каталог источника шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arvo");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Our font sources do not contain the font that we have used for text in this document.
+ // If we use these font settings while rendering this document,
+ // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font sources are missing the two fonts that we are using in this document.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+
+ // Use the "SetFontsFolder" method to set a directory which will act as a new font source.
+ // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directory
+ // that we are passing in the first argument, but not include any fonts in any of that directory's subfolders.
+ // Pass "true" as the "recursive" argument to include all font files in the directory that we are passing
+ // in the first argument, as well as all the fonts in its subdirectories.
+ FontSettings.getDefaultInstance().setFontsFolder(getFontsDir(), recursive);
+
+ FontSourceBase[] newFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, newFontSources.length);
+ Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arvo")));
+
+ // The "Amethysta" font is in a subfolder of the font directory.
+ if (recursive) {
+     Assert.assertEquals(30, newFontSources[0].getAvailableFonts().size());
+     Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ } else {
+     Assert.assertEquals(18, newFontSources[0].getAvailableFonts().size());
+     Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ }
+
+ doc.save(getArtifactsDir() + "FontSettings.SetFontsFolder.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFolder | java.lang.String | Папка, содержащая шрифты TrueType. |
-| recursive | boolean | Значение true для рекурсивного сканирования указанных папок на наличие шрифтов. |
+| fontFolder | java.lang.String | Каталог, содержащий TrueType‑шрифты. |
+| рекурсивный | boolean | True, чтобы сканировать указанные папки на наличие шрифтов рекурсивно. |
 
-### setFontsFolders(String[] fontsFolders, boolean recursive) {#setFontsFolders-java.lang.String---boolean-}
+### setFontsFolders(String[] fontsFolders, boolean recursive) {#setFontsFolders-java.lang.String---boolean}
 ```
 public void setFontsFolders(String[] fontsFolders, boolean recursive)
 ```
 
 
-Задает папки, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
+Устанавливает каталоги, в которых Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов.
+
+ **Remarks:** 
 
 По умолчанию Aspose.Words ищет шрифты, установленные в системе.
 
-Установка этого свойства сбрасывает кеш всех ранее загруженных шрифтов.
+Установка этого свойства сбрасывает кэш всех ранее загруженных шрифтов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать несколько каталогов источников шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ // Our font sources do not contain the font that we have used for text in this document.
+ // If we use these font settings while rendering this document,
+ // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font sources are missing the two fonts that we are using in this document.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Use the "SetFontsFolders" method to create a font source from each font directory that we pass as the first argument.
+ // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directories
+ // that we are passing in the first argument, but not include any fonts from any of the directories' subfolders.
+ // Pass "true" as the "recursive" argument to include all font files in the directories that we are passing
+ // in the first argument, as well as all the fonts in their subdirectories.
+ FontSettings.getDefaultInstance().setFontsFolders(new String[]{getFontsDir() + "/Amethysta", getFontsDir() + "/Junction"}, recursive);
+
+ FontSourceBase[] newFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(2, newFontSources.length);
+ Assert.assertFalse(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertEquals(1, newFontSources[0].getAvailableFonts().size());
+ Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+
+ // The "Junction" folder itself contains no font files, but has subfolders that do.
+ if (recursive) {
+     Assert.assertEquals(11, newFontSources[1].getAvailableFonts().size());
+     Assert.assertTrue(IterableUtils.matchesAny(newFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+ } else {
+     Assert.assertEquals(0, newFontSources[1].getAvailableFonts().size());
+ }
+
+ doc.save(getArtifactsDir() + "FontSettings.SetFontsFolders.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontsFolders | java.lang.String[] | Массив папок, содержащих шрифты TrueType. |
-| recursive | boolean | Значение true для рекурсивного сканирования указанных папок на наличие шрифтов. |
+| рекурсивный | boolean | True, чтобы сканировать указанные папки на наличие шрифтов рекурсивно. |
 
-### setFontsSources(FontSourceBase[] sources) {#setFontsSources-com.aspose.words.FontSourceBase---}
+### setFontsSources(FontSourceBase[] sources) {#setFontsSources-com.aspose.words.FontSourceBase}
 ```
 public void setFontsSources(FontSourceBase[] sources)
 ```
 
 
-Задает источники, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов.
+Устанавливает источники, где Aspose.Words ищет TrueType‑шрифты при рендеринге документов или встраивании шрифтов.
+
+ **Remarks:** 
 
 По умолчанию Aspose.Words ищет шрифты, установленные в системе.
 
-Установка этого свойства сбрасывает кеш всех ранее загруженных шрифтов.
+Установка этого свойства сбрасывает кэш всех ранее загруженных шрифтов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить источник шрифтов к существующим источникам шрифтов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Amethysta");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+ builder.getFont().setName("Junction Light");
+ builder.writeln("The quick brown fox jumps over the lazy dog.");
+
+ FontSourceBase[] originalFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertEquals(1, originalFontSources.length);
+
+ Assert.assertTrue(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+
+ // The default font source is missing two of the fonts that we are using in our document.
+ // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertFalse(IterableUtils.matchesAny(originalFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ // Create a font source from a folder that contains fonts.
+ FolderFontSource folderFontSource = new FolderFontSource(getFontsDir(), true);
+
+ // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+ FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
+ FontSettings.getDefaultInstance().setFontsSources(updatedFontSources);
+
+ // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+ updatedFontSources = FontSettings.getDefaultInstance().getFontsSources();
+
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Arial")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
+ Assert.assertTrue(IterableUtils.matchesAny(updatedFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
+
+ doc.save(getArtifactsDir() + "FontSettings.AddFontSource.pdf");
+
+ // Restore the original font sources.
+ FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase) | Массив источников, содержащих шрифты TrueType. |
+| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase/) | Массив источников, содержащих шрифты TrueType. |
 
-### setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream) {#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream-}
+### setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream) {#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream}
 ```
 public void setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream)
 ```
@@ -234,56 +766,9 @@ public void setFontsSources(FontSourceBase[] sources, InputStream cacheInputStre
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase) |  |
+| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase/) |  |
 | cacheInputStream | java.io.InputStream |  |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

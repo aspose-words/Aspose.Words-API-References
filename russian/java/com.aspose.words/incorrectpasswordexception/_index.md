@@ -1,47 +1,75 @@
 ---
-title: IncorrectPasswordException
-second_title: Справочник по API Aspose.Words для Java
-description: Возникает, если документ зашифрован паролем, а пароль, указанный при открытии документа, неверный или отсутствует.
+title: "IncorrectPasswordException"
+linktitle: "IncorrectPasswordException"
+second_title: "Aspose.Words для Java"
+description: "Выбрасывается, если документ зашифрован паролем, а указанный при открытии документа пароль неверен или отсутствует в Java."
 type: docs
-weight: 348
+weight: 402
 url: /ru/java/com.aspose.words/incorrectpasswordexception/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception
 ```
 public class IncorrectPasswordException extends Exception
 ```
 
-Возникает, если документ зашифрован паролем, а пароль, указанный при открытии документа, неверный или отсутствует.
+Выбрасывается, если документ зашифрован паролем, а указанный при открытии документа пароль неверен или отсутствует.
 
- Чтобы узнать больше, посетите**Programming with Documents** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Programming with Documents ][Programming with Documents].
+
+ **Examples:** 
+
+Показывает, как задавать параметры сохранения для более старых форматов Microsoft Word.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write("Hello world!");
+
+ DocSaveOptions options = new DocSaveOptions(SaveFormat.DOC);
+
+ // Set a password which will protect the loading of the document by Microsoft Word or Aspose.Words.
+ // Note that this does not encrypt the contents of the document in any way.
+ options.setPassword("MyPassword");
+
+ // If the document contains a routing slip, we can preserve it while saving by setting this flag to true.
+ options.setSaveRoutingSlip(true);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.SaveAsDoc.doc", options);
+
+ // To be able to load the document,
+ // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
+ Assert.assertThrows(IncorrectPasswordException.class, () -> new Document(getArtifactsDir() + "DocSaveOptions.SaveAsDoc.doc"));
+
+ LoadOptions loadOptions = new LoadOptions("MyPassword");
+ doc = new Document(getArtifactsDir() + "DocSaveOptions.SaveAsDoc.doc", loadOptions);
+
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
+
+
+[Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fillInStackTrace()](#fillInStackTrace--) |  |
-| [getCause()](#getCause--) |  |
-| [getClass()](#getClass--) |  |
-| [getLocalizedMessage()](#getLocalizedMessage--) |  |
-| [getMessage()](#getMessage--) |  |
-| [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressed()](#getSuppressed--) |  |
-| [hashCode()](#hashCode--) |  |
-| [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [printStackTrace()](#printStackTrace--) |  |
-| [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
-| [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
-| [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
+| [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable) |  |
+| [fillInStackTrace()](#fillInStackTrace) |  |
+| [getCause()](#getCause) |  |
+| [getLocalizedMessage()](#getLocalizedMessage) |  |
+| [getMessage()](#getMessage) |  |
+| [getStackTrace()](#getStackTrace) |  |
+| [getSuppressed()](#getSuppressed) |  |
+| [initCause(Throwable arg0)](#initCause-java.lang.Throwable) |  |
+| [printStackTrace()](#printStackTrace) |  |
+| [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream) |  |
+| [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter) |  |
+| [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement) |  |
+| [toString()](#toString) |  |
+### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable}
 ```
 public final synchronized void addSuppressed(Throwable arg0)
 ```
@@ -49,29 +77,12 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fillInStackTrace() {#fillInStackTrace--}
+### fillInStackTrace() {#fillInStackTrace}
 ```
 public synchronized Throwable fillInStackTrace()
 ```
@@ -79,9 +90,9 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.Throwable
-### getCause() {#getCause--}
+### getCause() {#getCause}
 ```
 public synchronized Throwable getCause()
 ```
@@ -89,19 +100,9 @@ public synchronized Throwable getCause()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.Throwable
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getLocalizedMessage() {#getLocalizedMessage--}
+### getLocalizedMessage() {#getLocalizedMessage}
 ```
 public String getLocalizedMessage()
 ```
@@ -109,9 +110,9 @@ public String getLocalizedMessage()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getMessage() {#getMessage--}
+### getMessage() {#getMessage}
 ```
 public String getMessage()
 ```
@@ -119,9 +120,9 @@ public String getMessage()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getStackTrace() {#getStackTrace--}
+### getStackTrace() {#getStackTrace}
 ```
 public StackTraceElement[] getStackTrace()
 ```
@@ -129,9 +130,9 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.StackTraceElement[]
-### getSuppressed() {#getSuppressed--}
+### getSuppressed() {#getSuppressed}
 ```
 public final synchronized Throwable[] getSuppressed()
 ```
@@ -139,19 +140,9 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.Throwable[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
+### initCause(Throwable arg0) {#initCause-java.lang.Throwable}
 ```
 public synchronized Throwable initCause(Throwable arg0)
 ```
@@ -159,31 +150,14 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.Throwable
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### printStackTrace() {#printStackTrace--}
+### printStackTrace() {#printStackTrace}
 ```
 public void printStackTrace()
 ```
@@ -191,7 +165,7 @@ public void printStackTrace()
 
 
 
-### printStackTrace(PrintStream arg0) {#printStackTrace-java.io.PrintStream-}
+### printStackTrace(PrintStream arg0) {#printStackTrace-java.io.PrintStream}
 ```
 public void printStackTrace(PrintStream arg0)
 ```
@@ -199,13 +173,12 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
-### printStackTrace(PrintWriter arg0) {#printStackTrace-java.io.PrintWriter-}
+### printStackTrace(PrintWriter arg0) {#printStackTrace-java.io.PrintWriter}
 ```
 public void printStackTrace(PrintWriter arg0)
 ```
@@ -213,13 +186,12 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
-### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement---}
+### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement}
 ```
 public void setStackTrace(StackTraceElement[] arg0)
 ```
@@ -227,13 +199,12 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -241,41 +212,5 @@ public String toString()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

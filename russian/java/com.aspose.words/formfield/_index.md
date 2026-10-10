@@ -1,121 +1,166 @@
 ---
-title: FormField
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет одно поле формы.
+title: "FormField"
+linktitle: "FormField"
+second_title: "Aspose.Words для Java"
+description: "Представляет отдельное поле формы в Java."
 type: docs
-weight: 296
+weight: 347
 url: /ru/java/com.aspose.words/formfield/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.Inline](../../com.aspose.words/inline/), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar/)
 ```
 public class FormField extends SpecialChar
 ```
 
-Представляет одно поле формы.
+Представляет отдельное поле формы.
 
- Чтобы узнать больше, посетите**Working with Form Fields** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Form Fields ][Working with Form Fields].
 
-Microsoft Word предоставляет следующие поля формы: флажок, ввод текста и раскрывающийся список (поле со списком).
+ **Remarks:** 
 
-**FormField** является встроенным узлом и может быть только потомком**Paragraph**.
+Microsoft Word предоставляет следующие поля формы: флажок, текстовый ввод и выпадающий список (комбобокс).
 
-**FormField** представлен в документе специальным символом и расположен как символ в строке текста.
+[FormField](../../com.aspose.words/formfield/) is an inline-node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
-Полное поле формы в документе Word представляет собой сложную структуру, представленную несколькими узлами: начало поля, код поля, такой как FORMTEXT, данные поля формы, разделитель полей, результат поля, конец поля и закладка. Чтобы программно создать поля формы в документе Word, используйте[DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder\#insertCheckBox-java.lang.String--boolean--int-), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.Fields.TextFormFieldType,System.String,System.String,System.Int32)** а также[DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder\#insertComboBox-java.lang.String--java.lang.String----int-) которые гарантируют, что все узлы поля формы созданы в правильном порядке и в подходящем состоянии.
+[FormField](../../com.aspose.words/formfield/) is represented in a document by a special character and positioned as a character within a line of text.
+
+Полное поле формы в документе Word представляет собой сложную структуру, состоящую из нескольких узлов: начало поля, код поля, такой как FORMTEXT, данные поля формы, разделитель поля, результат поля, конец поля и закладка. Чтобы программно создавать поля формы в документе Word, используйте [DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder/\#insertCheckBox-java.lang.String--boolean--int), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.Fields.TextFormFieldType,System.String,System.String,System.Int32)** и [DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder/\#insertComboBox-java.lang.String--java.lang.String----int), которые гарантируют, что все узлы поля формы созданы в правильном порядке и находятся в надлежащем состоянии.
+
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
+```
+
+Показывает, как форматировать весь FormField, включая значение поля.
+
+```
+
+ Document doc = new Document(getMyDir() + "Form fields.docx");
+
+ FormField formField = doc.getRange().getFormFields().get(0);
+ formField.getFont().setBold(true);
+ formField.getFont().setSize(24.0);
+ formField.getFont().setColor(Color.RED);
+
+ formField.setResult("Aspose.FormField");
+
+ doc = DocumentHelper.saveOpen(doc);
+
+ Run formFieldRun = doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(1);
+
+ Assert.assertEquals("Aspose.FormField", formFieldRun.getText());
+ Assert.assertEquals(true, formFieldRun.getFont().getBold());
+ Assert.assertEquals(24.0, formFieldRun.getFont().getSize());
+ Assert.assertEquals(Color.RED.getRGB(), formFieldRun.getFont().getColor().getRGB());
+ 
+```
+
+
+[Working with Form Fields]: https://docs.aspose.com/words/java/working-with-form-fields/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Принимает посетителя. |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Создает дубликат узла. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Получает первого предка указанного типа объекта. |
-| [getCalculateOnExit()](#getCalculateOnExit--) | Истинно, если ссылки на указанное поле формы автоматически обновляются при выходе из поля. |
-| [getCheckBoxSize()](#getCheckBoxSize--) | Получает размер флажка в пунктах. |
-| [getChecked()](#getChecked--) | Получает проверенный статус поля формы флажка. |
-| [getClass()](#getClass--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Задает идентификатор пользовательского узла. |
-| [getDefault()](#getDefault--) | Получает значение по умолчанию для поля формы флажка. |
-| [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Получает документ, которому принадлежит этот узел. |
-| [getDocument_IInline()](#getDocument-IInline--) |  |
-| [getDropDownItems()](#getDropDownItems--) | Предоставляет доступ к элементам раскрывающегося поля формы. |
-| [getDropDownSelectedIndex()](#getDropDownSelectedIndex--) | Получает индекс, указывающий текущий выбранный элемент в поле раскрывающейся формы. |
-| [getEnabled()](#getEnabled--) | Истинно, если поле формы включено. |
-| [getEntryMacro()](#getEntryMacro--) | Получает имя макроса записи для поля формы. |
-| [getExitMacro()](#getExitMacro--) | Получает имя макроса выхода для поля формы. |
-| [getFont()](#getFont--) | Предоставляет доступ к форматированию шрифта этого объекта. |
-| [getHelpText()](#getHelpText--) | Получает текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1. |
-| [getMaxLength()](#getMaxLength--) | Максимальная длина текстового поля. |
-| [getName()](#getName--) | Получает имя поля формы. |
-| [getNextSibling()](#getNextSibling--) | Получает узел, следующий сразу за этим узлом. |
-| [getNodeType()](#getNodeType--) |  Возвращает**NodeType.FormField**. |
-| [getOwnHelp()](#getOwnHelp--) | Указывает источник текста, отображаемого в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1. |
-| [getOwnStatus()](#getOwnStatus--) | Указывает источник текста, который отображается в строке состояния, когда поле формы находится в фокусе. |
-| [getParentNode()](#getParentNode--) | Получает непосредственного родителя этого узла. |
-| [getParentParagraph()](#getParentParagraph--) |  Извлекает родителя[Paragraph](../../com.aspose.words/paragraph) этого узла. |
-| [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | Получает узел, непосредственно предшествующий этому узлу. |
-| [getRange()](#getRange--) |  Возвращает**Range** объект, который представляет часть документа, содержащегося в этом узле. |
-| [getResult()](#getResult--) | Получает строку, представляющую результат этого поля формы. |
-| [getStatusText()](#getStatusText--) | Получает текст, отображаемый в строке состояния, когда поле формы имеет фокус. |
-| [getText()](#getText--) | Получает специальный символ, который представляет этот узел. |
-| [getTextInputDefault()](#getTextInputDefault--) | Получает строку по умолчанию или выражение вычисления поля текстовой формы. |
-| [getTextInputFormat()](#getTextInputFormat--) | Получает форматирование текста для поля текстовой формы. |
-| [getTextInputType()](#getTextInputType--) | Получает тип поля текстовой формы. |
-| [getType()](#getType--) | Возвращает тип поля формы. |
-| [hashCode()](#hashCode--) |  |
-| [isCheckBoxExactSize()](#isCheckBoxExactSize--) | Получает логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно. |
-| [isCheckBoxExactSize(boolean value)](#isCheckBoxExactSize-boolean-) | Задает логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно. |
-| [isComposite()](#isComposite--) | Возвращает true, если этот узел может содержать другие узлы. |
-| [isDeleteRevision()](#isDeleteRevision--) | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
-| [isFormatRevision()](#isFormatRevision--) | Возвращает true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
-| [isInsertRevision()](#isInsertRevision--) | Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [isMoveFromRevision()](#isMoveFromRevision--) |  Возвращает**true** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [isMoveToRevision()](#isMoveToRevision--) |  Возвращает**true** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [remove()](#remove--) | Удаляет себя из родителя. |
-| [removeField()](#removeField--) | Удаляет все поле формы, а не только специальный символ поля формы. |
-| [removeMoveRevisions()](#removeMoveRevisions--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setCalculateOnExit(boolean value)](#setCalculateOnExit-boolean-) | Истинно, если ссылки на указанное поле формы автоматически обновляются при выходе из поля. |
-| [setCheckBoxSize(double value)](#setCheckBoxSize-double-) | Устанавливает размер флажка в пунктах. |
-| [setChecked(boolean value)](#setChecked-boolean-) | Устанавливает проверенный статус поля формы флажка. |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Задает идентификатор пользовательского узла. |
-| [setDefault(boolean value)](#setDefault-boolean-) | Задает значение по умолчанию для поля формы флажка. |
-| [setDropDownSelectedIndex(int value)](#setDropDownSelectedIndex-int-) | Задает индекс, указывающий текущий выбранный элемент в поле раскрывающейся формы. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Истинно, если поле формы включено. |
-| [setEntryMacro(String value)](#setEntryMacro-java.lang.String-) | Задает имя макроса записи для поля формы. |
-| [setExitMacro(String value)](#setExitMacro-java.lang.String-) | Задает имя макроса выхода для поля формы. |
-| [setHelpText(String value)](#setHelpText-java.lang.String-) | Задает текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1. |
-| [setMaxLength(int value)](#setMaxLength-int-) | Максимальная длина текстового поля. |
-| [setName(String value)](#setName-java.lang.String-) | Задает имя поля формы. |
-| [setOwnHelp(boolean value)](#setOwnHelp-boolean-) | Указывает источник текста, отображаемого в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1. |
-| [setOwnStatus(boolean value)](#setOwnStatus-boolean-) | Указывает источник текста, который отображается в строке состояния, когда поле формы находится в фокусе. |
-| [setResult(String value)](#setResult-java.lang.String-) | Задает строку, представляющую результат этого поля формы. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setStatusText(String value)](#setStatusText-java.lang.String-) | Задает текст, отображаемый в строке состояния, когда поле формы находится в фокусе. |
-| [setTextInputDefault(String value)](#setTextInputDefault-java.lang.String-) | Задает строку по умолчанию или выражение вычисления поля текстовой формы. |
-| [setTextInputFormat(String value)](#setTextInputFormat-java.lang.String-) | Задает форматирование текста для поля текстовой формы. |
-| [setTextInputType(int value)](#setTextInputType-int-) | Задает тип поля текстовой формы. |
-| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object-) |  Применяет формат текста, указанный в[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) и сохраняет значение в[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-). |
-| [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Принимает посетителя. |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Создаёт дубликат узла. |
+| [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Получает первого предка указанного типа объекта. |
+| [getCalculateOnExit()](#getCalculateOnExit) | True, если ссылки на указанное поле формы автоматически обновляются каждый раз, когда поле теряется фокус. |
+| [getCheckBoxSize()](#getCheckBoxSize) | Получает размер флажка в пунктах. |
+| [getChecked()](#getChecked) | Получает состояние отметки флажка в поле формы. |
+| [getCustomNodeId()](#getCustomNodeId) | Указывает пользовательский идентификатор узла. |
+| [getDefault()](#getDefault) | Получает значение по умолчанию флажка в поле формы. |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
+| [getDocument()](#getDocument) | Получает документ, к которому принадлежит этот узел. |
+| [getDocument_IInline()](#getDocument-IInline) |  |
+| [getDropDownItems()](#getDropDownItems) | Предоставляет доступ к элементам раскрывающегося списка в поле формы. |
+| [getDropDownSelectedIndex()](#getDropDownSelectedIndex) | Получает индекс, указывающий текущий выбранный элемент в раскрывающемся списке поля формы. |
+| [getEnabled()](#getEnabled) | True, если поле формы включено. |
+| [getEntryMacro()](#getEntryMacro) | Получает имя макроса входа для поля формы. |
+| [getExitMacro()](#getExitMacro) | Получает имя макроса выхода для поля формы. |
+| [getFont()](#getFont) | Предоставляет доступ к форматированию шрифта этого объекта. |
+| [getHelpText()](#getHelpText) | Получает текст, отображаемый в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1. |
+| [getMaxLength()](#getMaxLength) | Максимальная длина текстового поля. |
+| [getName()](#getName) | Получает имя поля формы. |
+| [getNextSibling()](#getNextSibling) | Получает узел, непосредственно следующий за этим узлом. |
+| [getNodeType()](#getNodeType) | Возвращает [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD). |
+| [getOwnHelp()](#getOwnHelp) | Указывает источник текста, отображаемого в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1. |
+| [getOwnStatus()](#getOwnStatus) | Указывает источник текста, отображаемого в строке состояния, когда поле формы имеет фокус. |
+| [getParentNode()](#getParentNode) | Получает непосредственного родителя этого узла. |
+| [getParentParagraph()](#getParentParagraph) | Получает родительский [Paragraph](../../com.aspose.words/paragraph/) этого узла. |
+| [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
+| [getPreviousSibling()](#getPreviousSibling) | Получает узел, непосредственно предшествующий этому узлу. |
+| [getRange()](#getRange) | Возвращает объект [Range](../../com.aspose.words/range/), представляющий часть документа, содержащуюся в этом узле. |
+| [getResult()](#getResult) | Получает строку, представляющую результат этого поля формы. |
+| [getStatusText()](#getStatusText) | Получает текст, отображаемый в строке состояния, когда поле формы имеет фокус. |
+| [getText()](#getText) | Получает специальный символ, который представляет этот узел. |
+| [getTextInputDefault()](#getTextInputDefault) | Получает строку по умолчанию или выражение расчёта текстового поля формы. |
+| [getTextInputFormat()](#getTextInputFormat) | Получает форматирование текста для текстового поля формы. |
+| [getTextInputType()](#getTextInputType) | Получает тип текстового поля формы. |
+| [getType()](#getType) | Возвращает тип поля формы. |
+| [isCheckBoxExactSize()](#isCheckBoxExactSize) | Получает логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно. |
+| [isCheckBoxExactSize(boolean value)](#isCheckBoxExactSize-boolean) | Устанавливает логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно. |
+| [isComposite()](#isComposite) | Возвращает  true  если этот узел может содержать другие узлы. |
+| [isDeleteRevision()](#isDeleteRevision) | Возвращает true, если этот объект был удалён в Microsoft Word при включённом отслеживании изменений. |
+| [isFormatRevision()](#isFormatRevision) | Возвращает true, если форматирование объекта было изменено в Microsoft Word при включённом отслеживании изменений. |
+| [isInsertRevision()](#isInsertRevision) | Возвращает true, если этот объект был вставлен в Microsoft Word при включённом отслеживании изменений. |
+| [isMoveFromRevision()](#isMoveFromRevision) | Возвращает  true  если этот объект был перемещён (удалён) в Microsoft Word при включённом отслеживании изменений. |
+| [isMoveToRevision()](#isMoveToRevision) | Возвращает  true  если этот объект был перемещён (вставлен) в Microsoft Word при включённом отслеживании изменений. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Получает следующий узел согласно алгоритму обхода дерева в порядке предобхода. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева в порядке предобхода. |
+| [remove()](#remove) | Удаляет себя из родителя. |
+| [removeField()](#removeField) | Удаляет полностью поле формы, а не только специальный символ поля формы. |
+| [removeMoveRevisions()](#removeMoveRevisions) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setCalculateOnExit(boolean value)](#setCalculateOnExit-boolean) | True, если ссылки на указанное поле формы автоматически обновляются каждый раз, когда поле теряется фокус. |
+| [setCheckBoxSize(double value)](#setCheckBoxSize-double) | Устанавливает размер флажка в пунктах. |
+| [setChecked(boolean value)](#setChecked-boolean) | Устанавливает состояние отметки флажка в поле формы. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int) | Указывает пользовательский идентификатор узла. |
+| [setDefault(boolean value)](#setDefault-boolean) | Устанавливает значение по умолчанию для флажка в поле формы. |
+| [setDropDownSelectedIndex(int value)](#setDropDownSelectedIndex-int) | Устанавливает индекс, указывающий текущий выбранный элемент в раскрывающемся поле формы. |
+| [setEnabled(boolean value)](#setEnabled-boolean) | True, если поле формы включено. |
+| [setEntryMacro(String value)](#setEntryMacro-java.lang.String) | Устанавливает имя макроса входа для поля формы. |
+| [setExitMacro(String value)](#setExitMacro-java.lang.String) | Устанавливает имя макроса выхода для поля формы. |
+| [setHelpText(String value)](#setHelpText-java.lang.String) | Устанавливает текст, отображаемый в сообщении, когда поле формы в фокусе и пользователь нажимает F1. |
+| [setMaxLength(int value)](#setMaxLength-int) | Максимальная длина текстового поля. |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает имя поля формы. |
+| [setOwnHelp(boolean value)](#setOwnHelp-boolean) | Указывает источник текста, отображаемого в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1. |
+| [setOwnStatus(boolean value)](#setOwnStatus-boolean) | Указывает источник текста, отображаемого в строке состояния, когда поле формы имеет фокус. |
+| [setResult(String value)](#setResult-java.lang.String) | Устанавливает строку, представляющую результат этого поля формы. |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+| [setStatusText(String value)](#setStatusText-java.lang.String) | Устанавливает текст, отображаемый в строке состояния, когда поле формы в фокусе. |
+| [setTextInputDefault(String value)](#setTextInputDefault-java.lang.String) | Устанавливает строку по умолчанию или выражение вычисления текстового поля формы. |
+| [setTextInputFormat(String value)](#setTextInputFormat-java.lang.String) | Устанавливает форматирование текста для текстового поля формы. |
+| [setTextInputType(int value)](#setTextInputType-int) | Устанавливает тип текстового поля формы. |
+| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object) | Применяет текстовый формат, указанный в [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String) и сохраняет значение в [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String). |
+| [toString()](#toString) |  |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [toString(int saveFormat)](#toString-int) |  |
+### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
 ```
@@ -123,19 +168,146 @@ public boolean accept(DocumentVisitor visitor)
 
 Принимает посетителя.
 
-Вызывает DocumentVisitor.VisitFormField.
+ **Remarks:** 
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Вызывает [DocumentVisitor.visitFormField(com.aspose.words.FormField)](../../com.aspose.words/documentvisitor/\#visitFormField-com.aspose.words.FormField).
 
-**Параметры:**
+Для получения дополнительной информации см. шаблон проектирования Visitor.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | Посетитель, который посетит узел. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | Посетитель, который будет обходить узел. |
 
-**Возвращает:**
-boolean — False, если посетитель запросил остановку перечисления.
-### clearRunAttrs() {#clearRunAttrs--}
+**Returns:**
+boolean — false, если посетитель запросил остановку перечисления.
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -143,51 +315,53 @@ public void clearRunAttrs()
 
 
 
-### dd() {#dd--}
-```
-public void dd()
-```
-
-
-
-
-### deepClone(boolean isCloneChildren) {#deepClone-boolean-}
+### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
 ```
 
 
-Создает дубликат узла.
+Создаёт дубликат узла.
 
-Этот метод служит конструктором копирования для узлов. Клонированный узел не имеет родителя, но принадлежит к тому же документу, что и исходный узел.
+ **Remarks:** 
 
- Этот метод всегда выполняет глубокую копию узла.*isCloneChildren* Параметр указывает, следует ли также выполнять копирование всех дочерних узлов.
+Этот метод служит конструктором копирования для узлов. Клонированный узел не имеет родителя, но принадлежит тому же документу, что и оригинальный узел.
 
-**Параметры:**
+Этот метод всегда выполняет глубокое копирование узла. Параметр  isCloneChildren  указывает, следует ли также копировать все дочерние узлы.
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| isCloneChildren | boolean | Значение true, чтобы рекурсивно клонировать поддерево в указанном узле; false, чтобы клонировать только сам узел. |
+ **Examples:** 
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - Клонированный узел.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
+Показывает, как клонировать составной узел.
+
 ```
 
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+ para.appendChild(new Run(doc, "Hello world!"));
 
+ // Below are two ways of cloning a composite node.
+ // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
+ Node cloneWithChildren = para.deepClone(true);
 
+ Assert.assertTrue(((CompositeNode) cloneWithChildren).hasChildNodes());
+ Assert.assertEquals("Hello world!", cloneWithChildren.getText().trim());
 
-**Параметры:**
+ // 2 -  Create a clone of a node just by itself without any children.
+ Node cloneWithoutChildren = para.deepClone(false);
 
+ Assert.assertFalse(((CompositeNode) cloneWithoutChildren).hasChildNodes());
+ Assert.assertEquals("", cloneWithoutChildren.getText().trim());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| isCloneChildren | boolean | true, чтобы рекурсивно клонировать поддерево под указанным узлом; false, чтобы клонировать только сам узел. |
 
-**Возвращает:**
-логический
-### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
+### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
 ```
@@ -195,15 +369,14 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getAncestor(int ancestorType) {#getAncestor-int-}
+**Returns:**
+java.lang.Object
+### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
 ```
@@ -211,15 +384,14 @@ public CompositeNode getAncestor(int ancestorType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ancestorType | int |  |
 
-**Возвращает:**
-[CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/)
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
 ```
@@ -227,119 +399,780 @@ public CompositeNode getAncestor(Class ancestorType)
 
 Получает первого предка указанного типа объекта.
 
-**Параметры:**
+ **Remarks:** 
 
+Тип предка совпадает, если он равен  ancestorType  или наследуется от  ancestorType .
+
+ **Examples:** 
+
+Показывает, как определить, вложены ли таблицы.
+
+```
+
+ public void calculateDepthOfNestedTables() throws Exception {
+     Document doc = new Document(getMyDir() + "Nested tables.docx");
+     NodeCollection tables = doc.getChildNodes(NodeType.TABLE, true);
+     for (int i = 0; i < tables.getCount(); i++) {
+         Table table = (Table) tables.get(i);
+
+         // Find out if any cells in the table have other tables as children.
+         int count = getChildTableCount(table);
+         System.out.print(MessageFormat.format("Table #{0} has {1} tables directly within its cells", i, count));
+
+         // Find out if the table is nested inside another table, and, if so, at what depth.
+         int tableDepth = getNestedDepthOfTable(table);
+
+         if (tableDepth > 0)
+             System.out.println(MessageFormat.format("Table #{0} is nested inside another table at depth of {1}", i, tableDepth));
+         else
+             System.out.println(MessageFormat.format("Table #{0} is a non nested table (is not a child of another table)", i));
+     }
+ }
+
+ // Calculates what level a table is nested inside other tables.
+ //
+ // Returns An integer containing the level the table is nested at.
+ // 0 = Table is not nested inside any other table
+ // 1 = Table is nested within one parent table
+ // 2 = Table is nested within two parent tables etc..
+ private static int getNestedDepthOfTable(final Table table) {
+     int depth = 0;
+     Node parent = table.getAncestor(table.getNodeType());
+
+     while (parent != null) {
+         depth++;
+         parent = parent.getAncestor(Table.class);
+     }
+
+     return depth;
+ }
+
+ // Determines if a table contains any immediate child table within its cells.
+ // Does not recursively traverse through those tables to check for further tables.
+ //
+ // Returns true if at least one child cell contains a table.
+ // Returns false if no cells in the table contains a table.
+ private static int getChildTableCount(final Table table) {
+     int childTableCount = 0;
+
+     for (Row row : table.getRows()) {
+         for (Cell cell : row.getCells()) {
+             TableCollection childTables = cell.getTables();
+
+             if (childTables.getCount() > 0) childTableCount++;
+         }
+     }
+
+     return childTableCount;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ancestorType | java.lang.Class | Тип объекта-предка для извлечения. |
+| ancestorType | java.lang.Class | Тип объекта предка, который нужно получить. |
 
-**Возвращает:**
-[CompositeNode](../../com.aspose.words/compositenode) - предок указанного типа или ноль, если предок этого типа не найден.
-
-Тип предка совпадает, если он равен ancestorType или является производным от ancestorType.
-### getCalculateOnExit() {#getCalculateOnExit--}
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+### getCalculateOnExit() {#getCalculateOnExit}
 ```
 public boolean getCalculateOnExit()
 ```
 
 
-Истинно, если ссылки на указанное поле формы автоматически обновляются при выходе из поля.
+True, если ссылки на указанное поле формы автоматически обновляются каждый раз, когда поле теряется фокус.
 
- Параметр**CalculateOnExit** влияет только на поведение поля формы при открытии документа в Microsoft Word. Aspose.Words никогда не обновляет ссылки на поле формы.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getCheckBoxSize() {#getCheckBoxSize--}
+Установка [getCalculateOnExit()](../../com.aspose.words/formfield/\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield/\#setCalculateOnExit-boolean) влияет только на поведение поля формы, когда документ открыт в Microsoft Word. Aspose.Words никогда не обновляет ссылки на поле формы.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getCheckBoxSize() {#getCheckBoxSize}
 ```
 public double getCheckBoxSize()
 ```
 
 
- Получает размер флажка в пунктах. Имеет эффект только тогда, когда[isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-) правда.
+Получает размер флажка в пунктах. Действует только когда [isCheckBoxExactSize()](../../com.aspose.words/formfield/\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield/\#isCheckBoxExactSize-boolean) равно true.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Возвращает:**
-double - Размер флажка в пунктах.
-### getChecked() {#getChecked--}
+Применимо только к полю формы типа флажок.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+double — Размер флажка в пунктах.
+### getChecked() {#getChecked}
 ```
 public boolean getChecked()
 ```
 
 
- Получает проверенный статус поля формы флажка. Значение по умолчанию для этого свойства**false**.
+Получает состояние отметки флажка в поле формы. Значение по умолчанию для этого свойства — false.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - проверенный статус поля формы флажка.
-### getClass() {#getClass--}
+Применимо только к полю формы типа флажок.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
 ```
-public final native Class<?> getClass()
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCustomNodeId() {#getCustomNodeId--}
+**Returns:**
+boolean — Состояние отметки флажка в поле формы.
+### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
 ```
 
 
-Задает идентификатор пользовательского узла.
+Указывает пользовательский идентификатор узла.
 
-По умолчанию ноль.
+ **Remarks:** 
 
-Этот идентификатор можно установить и использовать произвольно. Например, как ключ для получения внешних данных.
+По умолчанию равно нулю.
 
-Важное примечание: указанное значение не сохраняется в выходной файл и существует только в течение срока службы узла.
+Этот идентификатор можно установить и использовать произвольно. Например, в качестве ключа для получения внешних данных.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getDefault() {#getDefault--}
+Важно: указанное значение не сохраняется в выходной файл и существует только в течение жизни узла.
+
+ **Examples:** 
+
+Показывает, как пройтись по коллекции дочерних узлов составного узла.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
+
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape)child;
+             System.out.println("Shape:");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
+             break;
+     }
+ 
+```
+
+**Returns:**
+int — соответствующее значение  int .
+### getDefault() {#getDefault}
 ```
 public boolean getDefault()
 ```
 
 
- Получает значение по умолчанию для поля формы флажка. Значение по умолчанию для этого свойства**false**.
+Получает значение по умолчанию поля формы флажка. Значение по умолчанию для этого свойства — false.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Возвращает:**
-boolean — значение по умолчанию для поля формы флажка.
-### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
+Применимо только к полю формы типа флажок.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
 ```
-public Object getDirectRunAttr(int fontAttr)
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean — значение по умолчанию поля формы флажка.
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
+```
+public Object getDirectRunAttr(int key)
 ```
 
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontAttr | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getDocument() {#getDocument--}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ключ | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
 ```
 
 
-Получает документ, которому принадлежит этот узел.
+Получает документ, к которому принадлежит этот узел.
 
-Узел всегда принадлежит документу, даже если он только что создан и еще не добавлен в дерево или удален из дерева.
+ **Remarks:** 
 
-**Возвращает:**
-[DocumentBase](../../com.aspose.words/documentbase) - Документ, которому принадлежит этот узел.
-### getDocument_IInline() {#getDocument-IInline--}
+Узел всегда принадлежит документу, даже если он только что создан и ещё не добавлен в дерево, или если он был удалён из дерева.
+
+ **Examples:** 
+
+Показывает, как создать узел и установить его владелец‑документ.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = new Paragraph(doc);
+ para.appendChild(new Run(doc, "Hello world!"));
+
+ // We have not yet appended this paragraph as a child to any composite node.
+ Assert.assertNull(para.getParentNode());
+
+ // If a node is an appropriate child node type of another composite node,
+ // we can attach it as a child only if both nodes have the same owner document.
+ // The owner document is the document we passed to the node's constructor.
+ // We have not attached this paragraph to the document, so the document does not contain its text.
+ Assert.assertEquals(para.getDocument(), doc);
+ Assert.assertEquals("", doc.getText().trim());
+
+ // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
+ para.getParagraphFormat().setStyleName("Heading 1");
+
+ // Add this node to the document, and then verify its contents.
+ doc.getFirstSection().getBody().appendChild(para);
+
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
+
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
+### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
 ```
@@ -347,57 +1180,567 @@ public DocumentBase getDocument_IInline()
 
 
 
-**Возвращает:**
-[DocumentBase](../../com.aspose.words/documentbase)
-### getDropDownItems() {#getDropDownItems--}
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase/)
+### getDropDownItems() {#getDropDownItems}
 ```
 public DropDownItemCollection getDropDownItems()
 ```
 
 
-Предоставляет доступ к элементам раскрывающегося поля формы.
+Предоставляет доступ к элементам раскрывающегося списка в поле формы.
 
-Microsoft Word допускает не более 25 элементов в раскрывающемся поле формы.
+ **Remarks:** 
 
-**Возвращает:**
-[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) - соответствующий[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) ценность.
-### getDropDownSelectedIndex() {#getDropDownSelectedIndex--}
+Microsoft Word допускает максимум 25 элементов в поле формы выпадающего списка.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection/) - The corresponding [DropDownItemCollection](../../com.aspose.words/dropdownitemcollection/) value.
+### getDropDownSelectedIndex() {#getDropDownSelectedIndex}
 ```
 public int getDropDownSelectedIndex()
 ```
 
 
-Получает индекс, указывающий текущий выбранный элемент в поле раскрывающейся формы.
+Получает индекс, указывающий текущий выбранный элемент в раскрывающемся списке поля формы.
 
-**Возвращает:**
-int - индекс, указывающий текущий выбранный элемент в поле выпадающей формы.
-### getEnabled() {#getEnabled--}
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+int — индекс, указывающий текущий выбранный элемент в поле формы выпадающего списка.
+### getEnabled() {#getEnabled}
 ```
 public boolean getEnabled()
 ```
 
 
-Истинно, если поле формы включено.
+True, если поле формы включено.
 
-Если поле формы включено, его содержимое может быть изменено по мере заполнения формы.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getEntryMacro() {#getEntryMacro--}
+Если поле формы включено, его содержимое может изменяться по мере заполнения формы.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getEntryMacro() {#getEntryMacro}
 ```
 public String getEntryMacro()
 ```
 
 
-Получает имя макроса записи для поля формы.
+Получает имя макроса входа для поля формы.
 
-Макрос ввода запускается, когда поле формы получает фокус в Microsoft Word.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 32 символов.
+Макрос входа запускается, когда поле формы получает фокус в Microsoft Word.
 
-**Возвращает:**
-java.lang.String — Имя макроса записи для поля формы.
-### getExitMacro() {#getExitMacro--}
+Microsoft Word допускает строки длиной не более 32 символов.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — имя макроса входа для поля формы.
+### getExitMacro() {#getExitMacro}
 ```
 public String getExitMacro()
 ```
@@ -405,13 +1748,141 @@ public String getExitMacro()
 
 Получает имя макроса выхода для поля формы.
 
+ **Remarks:** 
+
 Макрос выхода запускается, когда поле формы теряет фокус в Microsoft Word.
 
-Microsoft Word позволяет использовать строки длиной не более 32 символов.
+Microsoft Word допускает строки длиной не более 32 символов.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
 java.lang.String — имя макроса выхода для поля формы.
-### getFont() {#getFont--}
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -419,87 +1890,765 @@ public Font getFont()
 
 Предоставляет доступ к форматированию шрифта этого объекта.
 
-**Возвращает:**
-[Font](../../com.aspose.words/font) - соответствующий[Font](../../com.aspose.words/font) ценность.
-### getHelpText() {#getHelpText--}
+ **Examples:** 
+
+Показывает, как вручную создать документ Aspose.Words.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getHelpText() {#getHelpText}
 ```
 public String getHelpText()
 ```
 
 
-Получает текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1.
+Получает текст, отображаемый в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1.
 
-Если для свойства OwnHelp установлено значение True, HelpText указывает значение текстовой строки. Если для параметра OwnHelp задано значение False, HelpText указывает имя записи автотекста, которая содержит текст справки для поля формы.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 255 символов.
+Если свойство [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) установлено в true, [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) задаёт строковое значение текста. Если [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) установлено в false, [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) задаёт имя записи AutoText, содержащей справочный текст для поля формы.
 
-**Возвращает:**
-java.lang.String — текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает F1.
-### getMaxLength() {#getMaxLength--}
+Microsoft Word допускает строки длиной не более 255 символов.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — текст, отображаемый в диалоговом окне, когда поле формы имеет фокус и пользователь нажимает F1.
+### getMaxLength() {#getMaxLength}
 ```
 public int getMaxLength()
 ```
 
 
-Максимальная длина текстового поля. Ноль, когда длина не ограничена.
+Максимальная длина текстового поля. Ноль, если длина не ограничена.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getName() {#getName--}
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+int — соответствующее значение  int .
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
-Получает имя поля формы. Microsoft Word позволяет использовать строки длиной не более 20 символов.
+Получает имя поля формы.
 
-**Возвращает:**
+ **Remarks:** 
+
+Microsoft Word допускает строки длиной не более 20 символов.
+
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
+```
+
+**Returns:**
 java.lang.String — имя поля формы.
-### getNextSibling() {#getNextSibling--}
+### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
 ```
 
 
-Получает узел, следующий сразу за этим узлом. Если следующего узла нет, возвращается нуль.
+Получает узел, непосредственно следующий за этим узлом.
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - Узел, непосредственно следующий за этим узлом.
-### getNodeType() {#getNodeType--}
+ **Remarks:** 
+
+Если следующего узла нет, возвращается  null  .
+
+ **Examples:** 
+
+Показывает, как обходить дерево дочерних узлов составного узла.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
+
+Показывает, как использовать свойство NextSibling узла для перечисления его непосредственных дочерних элементов.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
+### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
- Возвращает**NodeType.FormField**.
+Возвращает [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD).
 
-**Возвращает:**
- инт -**NodeType.FormField** . Возвращаемое значение является одним из[NodeType](../../com.aspose.words/nodetype) константы.
-### getOwnHelp() {#getOwnHelp--}
+ **Examples:** 
+
+Показывает, как обходить дерево дочерних узлов составного узла.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
+
+**Returns:**
+int — [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD). Возвращаемое значение является одной из констант [NodeType](../../com.aspose.words/nodetype/).
+### getOwnHelp() {#getOwnHelp}
 ```
 public boolean getOwnHelp()
 ```
 
 
-Указывает источник текста, отображаемого в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1.
+Указывает источник текста, отображаемого в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1.
 
-Если True, отображается текст, заданный свойством HelpText. Если задано значение False, отображается текст в записи автотекста, заданный свойством HelpText.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getOwnStatus() {#getOwnStatus--}
+Если true, текст, указанный свойством [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String), отображается. Если false, отображается текст из записи AutoText, указанной тем же свойством.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getOwnStatus() {#getOwnStatus}
 ```
 public boolean getOwnStatus()
 ```
 
 
-Указывает источник текста, который отображается в строке состояния, когда поле формы находится в фокусе.
+Указывает источник текста, отображаемого в строке состояния, когда поле формы имеет фокус.
 
-Если true, отображается текст, заданный свойством StatusText. Если установлено значение false, отображается текст записи автотекста, заданный свойством StatusText.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getParentNode() {#getParentNode--}
+Если true, текст, указанный свойством [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String), отображается. Если false, отображается текст из записи AutoText, указанной тем же свойством.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
 ```
@@ -507,21 +2656,129 @@ public CompositeNode getParentNode()
 
 Получает непосредственного родителя этого узла.
 
-Если узел был только что создан и еще не добавлен в дерево, или если он был удален из дерева, родитель имеет значение null.
+ **Remarks:** 
 
-**Возвращает:**
-[CompositeNode](../../com.aspose.words/compositenode) - Непосредственный родитель этого узла.
-### getParentParagraph() {#getParentParagraph--}
+Если узел только что создан и ещё не добавлен в дерево, или если он был удалён из дерева, родитель является  null .
+
+ **Examples:** 
+
+Показывает, как получить доступ к родительскому узлу.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+
+ // Append a child Run node to the document's first paragraph.
+ Run run = new Run(doc, "Hello world!");
+ para.appendChild(run);
+
+ // The paragraph is the parent node of the run node. We can trace this lineage
+ // all the way to the document node, which is the root of the document's node tree.
+ Assert.assertEquals(para, run.getParentNode());
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals(doc.getFirstSection(), doc.getFirstSection().getBody().getParentNode());
+ Assert.assertEquals(doc, doc.getFirstSection().getParentNode());
+ 
+```
+
+Показывает, как создать узел и установить его владелец‑документ.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = new Paragraph(doc);
+ para.appendChild(new Run(doc, "Hello world!"));
+
+ // We have not yet appended this paragraph as a child to any composite node.
+ Assert.assertNull(para.getParentNode());
+
+ // If a node is an appropriate child node type of another composite node,
+ // we can attach it as a child only if both nodes have the same owner document.
+ // The owner document is the document we passed to the node's constructor.
+ // We have not attached this paragraph to the document, so the document does not contain its text.
+ Assert.assertEquals(para.getDocument(), doc);
+ Assert.assertEquals("", doc.getText().trim());
+
+ // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
+ para.getParagraphFormat().setStyleName("Heading 1");
+
+ // Add this node to the document, and then verify its contents.
+ doc.getFirstSection().getBody().appendChild(para);
+
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
+### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
- Извлекает родителя[Paragraph](../../com.aspose.words/paragraph) этого узла.
+Получает родительский [Paragraph](../../com.aspose.words/paragraph/) этого узла.
 
-**Возвращает:**
-[Paragraph](../../com.aspose.words/paragraph) - соответствующий[Paragraph](../../com.aspose.words/paragraph) ценность.
-### getParentParagraph_IInline() {#getParentParagraph-IInline--}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
+### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
 ```
@@ -529,29 +2786,84 @@ public Paragraph getParentParagraph_IInline()
 
 
 
-**Возвращает:**
-[Paragraph](../../com.aspose.words/paragraph)
-### getPreviousSibling() {#getPreviousSibling--}
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph/)
+### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Получает узел, непосредственно предшествующий этому узлу. Если предыдущего узла нет, возвращается нуль.
+Получает узел, непосредственно предшествующий этому узлу.
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - Узел, непосредственно предшествующий этому узлу.
-### getRange() {#getRange--}
+ **Remarks:** 
+
+Если предыдущего узла нет, возвращается  null .
+
+ **Examples:** 
+
+Показывает, как использовать методы Node и CompositeNode для удаления раздела перед последним разделом в документе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Section 1 text.");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.writeln("Section 2 text.");
+
+ // Both sections are siblings of each other.
+ Section lastSection = (Section) doc.getLastChild();
+ Section firstSection = (Section) lastSection.getPreviousSibling();
+
+ // Remove a section based on its sibling relationship with another section.
+ if (lastSection.getPreviousSibling() != null)
+     doc.removeChild(firstSection);
+
+ // The section we removed was the first one, leaving the document with only the second.
+ Assert.assertEquals("Section 2 text.", doc.getText().trim());
+ 
+```
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
+### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
- Возвращает**Range** объект, который представляет часть документа, содержащегося в этом узле.
+Возвращает объект [Range](../../com.aspose.words/range/), представляющий часть документа, содержащуюся в этом узле.
 
-**Возвращает:**
-[Range](../../com.aspose.words/range) - А**Range** объект, который представляет часть документа, содержащегося в этом узле.
-### getResult() {#getResult--}
+ **Examples:** 
+
+Показывает, как удалить все узлы из диапазона.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add text to the first section in the document, and then add another section.
+ builder.write("Section 1. ");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.write("Section 2.");
+
+ Assert.assertEquals("Section 1. \fSection 2.", doc.getText().trim());
+
+ // Remove the first section entirely by removing all the nodes
+ // within its range, including the section itself.
+ doc.getSections().get(0).getRange().delete();
+
+ Assert.assertEquals(1, doc.getSections().getCount());
+ Assert.assertEquals("Section 2.", doc.getText().trim());
+ 
+```
+
+**Returns:**
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
+### getResult() {#getResult}
 ```
 public String getResult()
 ```
@@ -559,19 +2871,44 @@ public String getResult()
 
 Получает строку, представляющую результат этого поля формы.
 
-Для поля текстовой формы результатом является текст, который находится в поле.
+ **Remarks:** 
 
-Для поля формы флажка результат может быть «1» или «0», чтобы указать, отмечен или не отмечен.
+Для текстового поля формы результатом является текст, находящийся в поле.
 
-Для раскрывающегося поля формы результатом является строка, выбранная в раскрывающемся списке.
+Для поля формы‑флажка результат может быть "1" или "0", указывая на отмечено или не отмечено.
 
- Параметр[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-) для поля текстовой формы не применяется текстовый формат, указанный в[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) . Если вы хотите установить значение и применить формат, используйте[setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-) метод.
+Для поля формы‑выпадающего списка результатом является выбранная в списке строка.
 
- Для поля текстовой формы[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) значение применяется, если значение равно null .
+Установка [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String) для текстового поля формы не применяет формат текста, указанный в [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String). Если нужно задать значение и применить формат, используйте метод [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield/\#setTextInputValue-java.lang.Object).
 
-**Возвращает:**
+Для текстового поля формы значение [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) применяется, если значение равно null.
+
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
+```
+
+**Returns:**
 java.lang.String — строка, представляющая результат этого поля формы.
-### getStatusText() {#getStatusText--}
+### getStatusText() {#getStatusText}
 ```
 public String getStatusText()
 ```
@@ -579,13 +2916,141 @@ public String getStatusText()
 
 Получает текст, отображаемый в строке состояния, когда поле формы имеет фокус.
 
-Если для свойства OwnStatus установлено значение true, свойство StatusText определяет текст строки состояния. Если для свойства OwnStatus задано значение false, свойство StatusText указывает имя записи автотекста, которая содержит текст строки состояния для поля формы.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 138 символов.
+Если свойство [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) установлено в true, свойство [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) задаёт текст строки состояния. Если свойство [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) установлено в false, свойство [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) задаёт имя записи AutoText, содержащей текст строки состояния для поля формы.
 
-**Возвращает:**
+Microsoft Word допускает строки длиной не более 138 символов.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
 java.lang.String — текст, отображаемый в строке состояния, когда поле формы находится в фокусе.
-### getText() {#getText--}
+### getText() {#getText}
 ```
 public String getText()
 ```
@@ -593,53 +3058,614 @@ public String getText()
 
 Получает специальный символ, который представляет этот узел.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Returns:**
 java.lang.String — строка, содержащая символ, который представляет этот узел.
-### getTextInputDefault() {#getTextInputDefault--}
+### getTextInputDefault() {#getTextInputDefault}
 ```
 public String getTextInputDefault()
 ```
 
 
-Получает строку по умолчанию или выражение вычисления поля текстовой формы.
+Получает строку по умолчанию или выражение расчёта текстового поля формы.
 
- Смысл этого свойства зависит от значения[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) имущество.
+ **Remarks:** 
 
- Когда[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) является[TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) или же[TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), эта строка указывает строку по умолчанию для поля текстовой формы. Эта строка представляет собой содержимое, которое Microsoft Word будет отображать в документе, когда поле формы пусто.
+Значение этого свойства зависит от значения свойства [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int).
 
- Когда[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) является[TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), то эта строка содержит вычисляемое выражение. Выражение должно быть формулой, допустимой в соответствии с требованиями поля формулы Microsoft Word. Когда вы устанавливаете новое выражение с помощью этого свойства, Aspose.Words автоматически вычисляет результат формулы и вставляет его в поле формы.
+Когда [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) имеет значение [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype/\#REGULAR) или [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype/\#NUMBER), эта строка задаёт строку по умолчанию для текстового поля формы. Эта строка является содержимым, которое Microsoft Word будет отображать в документе, когда поле формы пусто.
 
-Microsoft Word позволяет использовать строки длиной не более 255 символов.
+Когда [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) имеет значение [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype/\#CALCULATED), эта строка содержит выражение для вычисления. Выражение должно быть формулой, действительной согласно требованиям полей формул Microsoft Word. При установке нового выражения через это свойство Aspose.Words автоматически вычисляет результат формулы и вставляет его в поле формы.
 
-**Возвращает:**
-java.lang.String — строка по умолчанию или расчетное выражение поля текстовой формы.
-### getTextInputFormat() {#getTextInputFormat--}
+Microsoft Word допускает строки длиной не более 255 символов.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — строка по умолчанию или выражение вычисления текстового поля формы.
+### getTextInputFormat() {#getTextInputFormat}
 ```
 public String getTextInputFormat()
 ```
 
 
-Получает форматирование текста для поля текстовой формы.
+Получает форматирование текста для текстового поля формы.
 
-Если поле текстовой формы содержит обычный текст, допустимыми строками формата являются "", "ВЕРХНИЙ РЕГИСТР", "НИЖНИЙ РЕГИСТР", "ПЕРВАЯ ЗАГЛАВНАЯ" и "ЗАГЛАВНЫЙ РЕГИСТР". Строки нечувствительны к регистру.
+ **Remarks:** 
 
-Если поле текстовой формы содержит число или значение даты/времени, допустимыми строками формата являются числа или строки формата даты и времени.
+Если текстовое поле формы содержит обычный текст, допустимыми строками формата являются "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" и "TITLE CASE". Строки не чувствительны к регистру.
 
-Microsoft Word позволяет использовать строки длиной не более 64 символов.
+Если текстовое поле формы содержит число или значение даты/времени, допустимыми строками формата являются строки формата числа или даты и времени.
 
-**Возвращает:**
-java.lang.String — Форматирование текста для поля текстовой формы.
-### getTextInputType() {#getTextInputType--}
+Microsoft Word допускает строки длиной не более 64 символов.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — форматирование текста для текстового поля формы.
+### getTextInputType() {#getTextInputType}
 ```
 public int getTextInputType()
 ```
 
 
-Получает тип поля текстовой формы.
+Получает тип текстового поля формы.
 
-**Возвращает:**
- int - Тип поля текстовой формы. Возвращаемое значение является одним из[TextFormFieldType](../../com.aspose.words/textformfieldtype) константы.
-### getType() {#getType--}
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+int — тип текстового поля формы. Возвращаемое значение является одной из констант [TextFormFieldType](../../com.aspose.words/textformfieldtype/).
+### getType() {#getType}
 ```
 public int getType()
 ```
@@ -647,123 +3673,747 @@ public int getType()
 
 Возвращает тип поля формы.
 
-**Возвращает:**
- int - Тип поля формы. Возвращаемое значение является одним из[FieldType](../../com.aspose.words/fieldtype) константы.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isCheckBoxExactSize() {#isCheckBoxExactSize--}
+**Returns:**
+int — тип поля формы. Возвращаемое значение является одной из констант [FieldType](../../com.aspose.words/fieldtype/).
+### isCheckBoxExactSize() {#isCheckBoxExactSize}
 ```
 public boolean isCheckBoxExactSize()
 ```
 
 
-Получает логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно.
+Получает логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Возвращает:**
-boolean — логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно.
-### isCheckBoxExactSize(boolean value) {#isCheckBoxExactSize-boolean-}
+Применимо только к полю формы типа флажок.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
+boolean — логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно.
+### isCheckBoxExactSize(boolean value) {#isCheckBoxExactSize-boolean}
 ```
 public void isCheckBoxExactSize(boolean value)
 ```
 
 
-Задает логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно.
+Устанавливает логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Параметры:**
+Применимо только к полю формы типа флажок.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Логическое значение, указывающее, является ли размер текстового поля автоматическим или заданным явно. |
+| значение | boolean | Логическое значение, указывающее, является ли размер текстового поля автоматическим или задан явно. |
 
-### isComposite() {#isComposite--}
+### isComposite() {#isComposite}
 ```
 public boolean isComposite()
 ```
 
 
-Возвращает true, если этот узел может содержать другие узлы. (31110,6)
+Возвращает  true  , если этот узел может содержать другие узлы. (197141,6)
 
-**Возвращает:**
-boolean — Истинно, если этот узел может содержать другие узлы.
-### isDeleteRevision() {#isDeleteRevision--}
+ **Examples:** 
+
+Показывает, как обходить дерево дочерних узлов составного узла.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(MessageFormat.format(" - \"{0}\"", childNode.getText().trim()));
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean -  true , если этот узел может содержать другие узлы.
+### isDeleteRevision() {#isDeleteRevision}
 ```
 public boolean isDeleteRevision()
 ```
 
 
-Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+Возвращает true, если этот объект был удалён в Microsoft Word при включённом отслеживании изменений.
 
-**Возвращает:**
-boolean — Истинно, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
-### isFormatRevision() {#isFormatRevision--}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+boolean - true если этот объект был удалён в Microsoft Word при включённом отслеживании изменений.
+### isFormatRevision() {#isFormatRevision}
 ```
 public boolean isFormatRevision()
 ```
 
 
-Возвращает true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений.
+Возвращает true, если форматирование объекта было изменено в Microsoft Word при включённом отслеживании изменений.
 
-**Возвращает:**
-boolean — Истинно, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений.
-### isInsertRevision() {#isInsertRevision--}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+boolean - true если форматирование объекта было изменено в Microsoft Word при включённом отслеживании изменений.
+### isInsertRevision() {#isInsertRevision}
 ```
 public boolean isInsertRevision()
 ```
 
 
-Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+Возвращает true, если этот объект был вставлен в Microsoft Word при включённом отслеживании изменений.
 
-**Возвращает:**
-boolean — True, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
-### isMoveFromRevision() {#isMoveFromRevision--}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+boolean - true если этот объект был вставлен в Microsoft Word при включённом отслеживании изменений.
+### isMoveFromRevision() {#isMoveFromRevision}
 ```
 public boolean isMoveFromRevision()
 ```
 
 
- Возвращает**true** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений.
+Возвращает  true  если этот объект был перемещён (удалён) в Microsoft Word при включённом отслеживании изменений.
 
-**Возвращает:**
- логический -**true** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений.
-### isMoveToRevision() {#isMoveToRevision--}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+boolean -  true  если этот объект был перемещён (удалён) в Microsoft Word при включённом отслеживании изменений.
+### isMoveToRevision() {#isMoveToRevision}
 ```
 public boolean isMoveToRevision()
 ```
 
 
- Возвращает**true** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений.
+Возвращает  true  если этот объект был перемещён (вставлен) в Microsoft Word при включённом отслеживании изменений.
 
-**Возвращает:**
- логический -**true** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений.
-### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
+ **Examples:** 
+
+Показывает, как определить тип ревизии встроенного узла.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revision runs.docx");
+
+ // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
+ // is turned on in Microsoft Word, the changes we apply count as revisions.
+ // When editing a document using Aspose.Words, we can begin tracking revisions by
+ // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
+ // We can either accept revisions to assimilate them into the document
+ // or reject them to change the proposed change effectively.
+ Assert.assertEquals(6, doc.getRevisions().getCount());
+
+ // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
+ Run run = (Run) doc.getRevisions().get(0).getParentNode();
+
+ Paragraph firstParagraph = run.getParentParagraph();
+ RunCollection runs = firstParagraph.getRuns();
+
+ Assert.assertEquals(runs.getCount(), 6);
+
+ // Below are five types of revisions that can flag an Inline node.
+ // 1 -  An "insert" revision:
+ // This revision occurs when we insert text while tracking changes.
+ Assert.assertTrue(runs.get(2).isInsertRevision());
+
+ // 2 -  A "format" revision:
+ // This revision occurs when we change the formatting of text while tracking changes.
+ Assert.assertTrue(runs.get(2).isFormatRevision());
+
+ // 3 -  A "move from" revision:
+ // When we highlight text in Microsoft Word, and then drag it to a different place in the document
+ // while tracking changes, two revisions appear.
+ // The "move from" revision is a copy of the text originally before we moved it.
+ Assert.assertTrue(runs.get(4).isMoveFromRevision());
+
+ // 4 -  A "move to" revision:
+ // The "move to" revision is the text that we moved in its new position in the document.
+ // "Move from" and "move to" revisions appear in pairs for every move revision we carry out.
+ // Accepting a move revision deletes the "move from" revision and its text,
+ // and keeps the text from the "move to" revision.
+ // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
+ Assert.assertTrue(runs.get(1).isMoveToRevision());
+
+ // 5 -  A "delete" revision:
+ // This revision occurs when we delete text while tracking changes. When we delete text like this,
+ // it will stay in the document as a revision until we either accept the revision,
+ // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
+ Assert.assertTrue(runs.get(5).isDeleteRevision());
+ 
+```
+
+**Returns:**
+boolean -  true  если этот объект был перемещён (вставлен) в Microsoft Word, когда отслеживание изменений было включено.
+### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
 
 
-Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка.
+Получает следующий узел согласно алгоритму обхода дерева в порядке предобхода.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как обходить дерево узлов документа, используя алгоритм обхода в порядке предшествования, и удалять любые найденные фигуры с изображением.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ Node curNode = doc;
+ while (curNode != null) {
+     Node nextNode = curNode.nextPreOrder(doc);
+
+     if (curNode.previousPreOrder(doc) != null && nextNode != null)
+         Assert.assertEquals(curNode, nextNode.previousPreOrder(doc));
+
+     if (curNode.getNodeType() == NodeType.SHAPE && ((Shape) curNode).hasImage())
+         curNode.remove();
+
+     curNode = nextNode;
+ }
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | Верхний узел (предел) обхода. |
+| rootNode | [Node](../../com.aspose.words/node/) | Верхний узел (ограничение) обхода. |
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - Следующий узел в порядке предварительного заказа. Null, если достигнут rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
 ```
@@ -771,47 +4421,73 @@ public static String nodeTypeToString(int nodeType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | nodeType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
+### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
 
 
-Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка.
+Получает предыдущий узел в соответствии с алгоритмом обхода дерева в порядке предобхода.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как обходить дерево узлов документа, используя алгоритм обхода в порядке предшествования, и удалять любые найденные фигуры с изображением.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ Node curNode = doc;
+ while (curNode != null) {
+     Node nextNode = curNode.nextPreOrder(doc);
+
+     if (curNode.previousPreOrder(doc) != null && nextNode != null)
+         Assert.assertEquals(curNode, nextNode.previousPreOrder(doc));
+
+     if (curNode.getNodeType() == NodeType.SHAPE && ((Shape) curNode).hasImage())
+         curNode.remove();
+
+     curNode = nextNode;
+ }
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | Верхний узел (предел) обхода. |
+| rootNode | [Node](../../com.aspose.words/node/) | Верхний узел (ограничение) обхода. |
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - Предыдущий узел в порядке предварительного заказа. Null, если достигнут rootNode.
-### remove() {#remove--}
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
+### remove() {#remove}
 ```
 public void remove()
 ```
@@ -819,15 +4495,94 @@ public void remove()
 
 Удаляет себя из родителя.
 
-### removeField() {#removeField--}
+ **Examples:** 
+
+Показывает, как удалить из документа все фигуры с изображениями.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ for (Shape shape : shapes)
+     if (shape.hasImage())
+         shape.remove();
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
+
+Показывает, как удалить из составного узла все дочерние узлы определённого типа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
+ 
+```
+
+### removeField() {#removeField}
 ```
 public void removeField()
 ```
 
 
-Удаляет все поле формы, а не только специальный символ поля формы. Если есть закладка, связанная с полем формы, закладка не удаляется.
+Удаляет полностью поле формы, а не только специальный символ поля формы.
 
-### removeMoveRevisions() {#removeMoveRevisions--}
+ **Remarks:** 
+
+Если у поля формы есть связанная закладка, закладка не удаляется.
+
+ **Examples:** 
+
+Показывает, как удалить поле формы.
+
+```
+
+ Document doc = new Document(getMyDir() + "Form fields.docx");
+
+ FormField formField = doc.getRange().getFormFields().get(3);
+ formField.removeField();
+ 
+```
+
+### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
 ```
@@ -835,7 +4590,7 @@ public void removeMoveRevisions()
 
 
 
-### removeRunAttr(int key) {#removeRunAttr-int-}
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -843,265 +4598,1878 @@ public void removeRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### setCalculateOnExit(boolean value) {#setCalculateOnExit-boolean-}
+### setCalculateOnExit(boolean value) {#setCalculateOnExit-boolean}
 ```
 public void setCalculateOnExit(boolean value)
 ```
 
 
-Истинно, если ссылки на указанное поле формы автоматически обновляются при выходе из поля.
+True, если ссылки на указанное поле формы автоматически обновляются каждый раз, когда поле теряется фокус.
 
- Параметр**CalculateOnExit** влияет только на поведение поля формы при открытии документа в Microsoft Word. Aspose.Words никогда не обновляет ссылки на поле формы.
+ **Remarks:** 
 
-**Параметры:**
+Установка [getCalculateOnExit()](../../com.aspose.words/formfield/\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield/\#setCalculateOnExit-boolean) влияет только на поведение поля формы, когда документ открыт в Microsoft Word. Aspose.Words никогда не обновляет ссылки на поле формы.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setCheckBoxSize(double value) {#setCheckBoxSize-double-}
+### setCheckBoxSize(double value) {#setCheckBoxSize-double}
 ```
 public void setCheckBoxSize(double value)
 ```
 
 
- Устанавливает размер флажка в пунктах. Имеет эффект только тогда, когда[isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-) правда.
+Устанавливает размер флажка в пунктах. Имеет эффект только когда [isCheckBoxExactSize()](../../com.aspose.words/formfield/\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield/\#isCheckBoxExactSize-boolean) равно true.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Параметры:**
+Применимо только к полю формы типа флажок.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Размер флажка в пунктах. |
+| значение | double | Размер флажка в пунктах. |
 
-### setChecked(boolean value) {#setChecked-boolean-}
+### setChecked(boolean value) {#setChecked-boolean}
 ```
 public void setChecked(boolean value)
 ```
 
 
- Устанавливает проверенный статус поля формы флажка. Значение по умолчанию для этого свойства**false**.
+Устанавливает состояние отмеченности поля формы флажка. Значение по умолчанию для этого свойства — false.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Параметры:**
+Применимо только к полю формы типа флажок.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Отмеченный статус поля формы флажка. |
+| значение | boolean | Состояние отмеченности поля формы флажка. |
 
-### setCustomNodeId(int value) {#setCustomNodeId-int-}
+### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
 ```
 
 
-Задает идентификатор пользовательского узла.
+Указывает пользовательский идентификатор узла.
 
-По умолчанию ноль.
+ **Remarks:** 
 
-Этот идентификатор можно установить и использовать произвольно. Например, как ключ для получения внешних данных.
+По умолчанию равно нулю.
 
-Важное примечание: указанное значение не сохраняется в выходной файл и существует только в течение срока службы узла.
+Этот идентификатор можно установить и использовать произвольно. Например, в качестве ключа для получения внешних данных.
 
-**Параметры:**
+Важно: указанное значение не сохраняется в выходной файл и существует только в течение жизни узла.
 
+ **Examples:** 
+
+Показывает, как пройтись по коллекции дочерних узлов составного узла.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes(NodeType.ANY, false);
+
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, false).getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println(MessageFormat.format("\t\"{0}\"", child.getText().trim()));
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape)child;
+             System.out.println("Shape:");
+             System.out.println(MessageFormat.format("\t{0}, {1}x{2}", childShape.getShapeType(), childShape.getWidth(), childShape.getHeight()));
+             break;
+     }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setDefault(boolean value) {#setDefault-boolean-}
+### setDefault(boolean value) {#setDefault-boolean}
 ```
 public void setDefault(boolean value)
 ```
 
 
- Задает значение по умолчанию для поля формы флажка. Значение по умолчанию для этого свойства**false**.
+Устанавливает значение по умолчанию для поля формы флажка. Значение по умолчанию для этого свойства — false.
 
-Применимо только к полю формы флажка.
+ **Remarks:** 
 
-**Параметры:**
+Применимо только к полю формы типа флажок.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение по умолчанию поля формы флажка. |
+| значение | boolean | Значение по умолчанию для поля формы флажка. |
 
-### setDropDownSelectedIndex(int value) {#setDropDownSelectedIndex-int-}
+### setDropDownSelectedIndex(int value) {#setDropDownSelectedIndex-int}
 ```
 public void setDropDownSelectedIndex(int value)
 ```
 
 
-Задает индекс, указывающий текущий выбранный элемент в поле раскрывающейся формы.
+Устанавливает индекс, указывающий текущий выбранный элемент в раскрывающемся поле формы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Индекс, указывающий текущий выбранный элемент в раскрывающемся поле формы. |
+| значение | int | Индекс, указывающий текущий выбранный элемент в раскрывающемся поле формы. |
 
-### setEnabled(boolean value) {#setEnabled-boolean-}
+### setEnabled(boolean value) {#setEnabled-boolean}
 ```
 public void setEnabled(boolean value)
 ```
 
 
-Истинно, если поле формы включено.
+True, если поле формы включено.
 
-Если поле формы включено, его содержимое может быть изменено по мере заполнения формы.
+ **Remarks:** 
 
-**Параметры:**
+Если поле формы включено, его содержимое может изменяться по мере заполнения формы.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setEntryMacro(String value) {#setEntryMacro-java.lang.String-}
+### setEntryMacro(String value) {#setEntryMacro-java.lang.String}
 ```
 public void setEntryMacro(String value)
 ```
 
 
-Задает имя макроса записи для поля формы.
+Устанавливает имя макроса входа для поля формы.
 
-Макрос ввода запускается, когда поле формы получает фокус в Microsoft Word.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 32 символов.
+Макрос входа запускается, когда поле формы получает фокус в Microsoft Word.
 
-**Параметры:**
+Microsoft Word допускает строки длиной не более 32 символов.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя макроса записи для поля формы. |
+| значение | java.lang.String | Имя макроса входа для поля формы. |
 
-### setExitMacro(String value) {#setExitMacro-java.lang.String-}
+### setExitMacro(String value) {#setExitMacro-java.lang.String}
 ```
 public void setExitMacro(String value)
 ```
 
 
-Задает имя макроса выхода для поля формы.
+Устанавливает имя макроса выхода для поля формы.
+
+ **Remarks:** 
 
 Макрос выхода запускается, когда поле формы теряет фокус в Microsoft Word.
 
-Microsoft Word позволяет использовать строки длиной не более 32 символов.
+Microsoft Word допускает строки длиной не более 32 символов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя макроса выхода для поля формы. |
+| значение | java.lang.String | Имя макроса выхода для поля формы. |
 
-### setHelpText(String value) {#setHelpText-java.lang.String-}
+### setHelpText(String value) {#setHelpText-java.lang.String}
 ```
 public void setHelpText(String value)
 ```
 
 
-Задает текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1.
+Устанавливает текст, отображаемый в сообщении, когда поле формы в фокусе и пользователь нажимает F1.
 
-Если для свойства OwnHelp установлено значение True, HelpText указывает значение текстовой строки. Если для параметра OwnHelp задано значение False, HelpText указывает имя записи автотекста, которая содержит текст справки для поля формы.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 255 символов.
+Если свойство [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) установлено в true, [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) задаёт строковое значение текста. Если [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) установлено в false, [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) задаёт имя записи AutoText, содержащей справочный текст для поля формы.
 
-**Параметры:**
+Microsoft Word допускает строки длиной не более 255 символов.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Текст, отображаемый в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1. |
+| значение | java.lang.String | Текст, отображаемый в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1. |
 
-### setMaxLength(int value) {#setMaxLength-int-}
+### setMaxLength(int value) {#setMaxLength-int}
 ```
 public void setMaxLength(int value)
 ```
 
 
-Максимальная длина текстового поля. Ноль, когда длина не ограничена.
+Максимальная длина текстового поля. Ноль, если длина не ограничена.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
 
 
-Задает имя поля формы. Microsoft Word позволяет использовать строки длиной не более 20 символов.
+Устанавливает имя поля формы.
 
-**Параметры:**
+ **Remarks:** 
 
+Microsoft Word допускает строки длиной не более 20 символов.
+
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя поля формы. |
+| значение | java.lang.String | Имя поля формы. |
 
-### setOwnHelp(boolean value) {#setOwnHelp-boolean-}
+### setOwnHelp(boolean value) {#setOwnHelp-boolean}
 ```
 public void setOwnHelp(boolean value)
 ```
 
 
-Указывает источник текста, отображаемого в окне сообщения, когда поле формы находится в фокусе и пользователь нажимает клавишу F1.
+Указывает источник текста, отображаемого в диалоговом окне сообщения, когда поле формы имеет фокус и пользователь нажимает F1.
 
-Если True, отображается текст, заданный свойством HelpText. Если задано значение False, отображается текст в записи автотекста, заданный свойством HelpText.
+ **Remarks:** 
 
-**Параметры:**
+Если true, текст, указанный свойством [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String), отображается. Если false, отображается текст из записи AutoText, указанной тем же свойством.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setOwnStatus(boolean value) {#setOwnStatus-boolean-}
+### setOwnStatus(boolean value) {#setOwnStatus-boolean}
 ```
 public void setOwnStatus(boolean value)
 ```
 
 
-Указывает источник текста, который отображается в строке состояния, когда поле формы находится в фокусе.
+Указывает источник текста, отображаемого в строке состояния, когда поле формы имеет фокус.
 
-Если true, отображается текст, заданный свойством StatusText. Если установлено значение false, отображается текст записи автотекста, заданный свойством StatusText.
+ **Remarks:** 
 
-**Параметры:**
+Если true, текст, указанный свойством [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String), отображается. Если false, отображается текст из записи AutoText, указанной тем же свойством.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setResult(String value) {#setResult-java.lang.String-}
+### setResult(String value) {#setResult-java.lang.String}
 ```
 public void setResult(String value)
 ```
 
 
-Задает строку, представляющую результат этого поля формы.
+Устанавливает строку, представляющую результат этого поля формы.
 
-Для поля текстовой формы результатом является текст, который находится в поле.
+ **Remarks:** 
 
-Для поля формы флажка результат может быть «1» или «0», чтобы указать, отмечен или не отмечен.
+Для текстового поля формы результатом является текст, находящийся в поле.
 
-Для раскрывающегося поля формы результатом является строка, выбранная в раскрывающемся списке.
+Для поля формы‑флажка результат может быть "1" или "0", указывая на отмечено или не отмечено.
 
- Параметр[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-) для поля текстовой формы не применяется текстовый формат, указанный в[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) . Если вы хотите установить значение и применить формат, используйте[setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-) метод.
+Для поля формы‑выпадающего списка результатом является выбранная в списке строка.
 
- Для поля текстовой формы[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) значение применяется, если значение равно null .
+Установка [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String) для текстового поля формы не применяет формат текста, указанный в [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String). Если нужно задать значение и применить формат, используйте метод [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield/\#setTextInputValue-java.lang.Object).
 
-**Параметры:**
+Для текстового поля формы значение [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) применяется, если значение равно null.
 
+ **Examples:** 
+
+Показывает, как вставить комбинированный список.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Please select a fruit: ");
+
+ // Insert a combo box which will allow a user to choose an option from a collection of strings.
+ FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"Apple", "Banana", "Cherry"}, 0);
+
+ Assert.assertEquals("MyComboBox", comboBox.getName());
+ Assert.assertEquals(FieldType.FIELD_FORM_DROP_DOWN, comboBox.getType());
+ Assert.assertEquals("Apple", comboBox.getResult());
+
+ // The form field will appear in the form of a "select" html tag.
+ doc.save(getArtifactsDir() + "FormFields.Create.html");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Строка, представляющая результат этого поля формы. |
+| значение | java.lang.String | Строка, представляющая результат этого поля формы. |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -1109,102 +6477,736 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### setStatusText(String value) {#setStatusText-java.lang.String-}
+### setStatusText(String value) {#setStatusText-java.lang.String}
 ```
 public void setStatusText(String value)
 ```
 
 
-Задает текст, отображаемый в строке состояния, когда поле формы находится в фокусе.
+Устанавливает текст, отображаемый в строке состояния, когда поле формы в фокусе.
 
-Если для свойства OwnStatus установлено значение true, свойство StatusText определяет текст строки состояния. Если для свойства OwnStatus задано значение false, свойство StatusText указывает имя записи автотекста, которая содержит текст строки состояния для поля формы.
+ **Remarks:** 
 
-Microsoft Word позволяет использовать строки длиной не более 138 символов.
+Если свойство [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) установлено в true, свойство [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) задаёт текст строки состояния. Если свойство [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) установлено в false, свойство [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) задаёт имя записи AutoText, содержащей текст строки состояния для поля формы.
 
-**Параметры:**
+Microsoft Word допускает строки длиной не более 138 символов.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Текст, отображаемый в строке состояния, когда поле формы находится в фокусе. |
+| значение | java.lang.String | Текст, отображаемый в строке состояния, когда поле формы имеет фокус. |
 
-### setTextInputDefault(String value) {#setTextInputDefault-java.lang.String-}
+### setTextInputDefault(String value) {#setTextInputDefault-java.lang.String}
 ```
 public void setTextInputDefault(String value)
 ```
 
 
-Задает строку по умолчанию или выражение вычисления поля текстовой формы.
+Устанавливает строку по умолчанию или выражение вычисления текстового поля формы.
 
- Смысл этого свойства зависит от значения[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) имущество.
+ **Remarks:** 
 
- Когда[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) является[TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) или же[TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), эта строка указывает строку по умолчанию для поля текстовой формы. Эта строка представляет собой содержимое, которое Microsoft Word будет отображать в документе, когда поле формы пусто.
+Значение этого свойства зависит от значения свойства [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int).
 
- Когда[getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) является[TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), то эта строка содержит вычисляемое выражение. Выражение должно быть формулой, допустимой в соответствии с требованиями поля формулы Microsoft Word. Когда вы устанавливаете новое выражение с помощью этого свойства, Aspose.Words автоматически вычисляет результат формулы и вставляет его в поле формы.
+Когда [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) имеет значение [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype/\#REGULAR) или [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype/\#NUMBER), эта строка задаёт строку по умолчанию для текстового поля формы. Эта строка является содержимым, которое Microsoft Word будет отображать в документе, когда поле формы пусто.
 
-Microsoft Word позволяет использовать строки длиной не более 255 символов.
+Когда [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) имеет значение [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype/\#CALCULATED), эта строка содержит выражение для вычисления. Выражение должно быть формулой, действительной согласно требованиям полей формул Microsoft Word. При установке нового выражения через это свойство Aspose.Words автоматически вычисляет результат формулы и вставляет его в поле формы.
 
-**Параметры:**
+Microsoft Word допускает строки длиной не более 255 символов.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Строка по умолчанию или расчетное выражение поля текстовой формы. |
+| значение | java.lang.String | Строка по умолчанию или вычислительное выражение текстового поля формы. |
 
-### setTextInputFormat(String value) {#setTextInputFormat-java.lang.String-}
+### setTextInputFormat(String value) {#setTextInputFormat-java.lang.String}
 ```
 public void setTextInputFormat(String value)
 ```
 
 
-Задает форматирование текста для поля текстовой формы.
+Устанавливает форматирование текста для текстового поля формы.
 
-Если поле текстовой формы содержит обычный текст, допустимыми строками формата являются "", "ВЕРХНИЙ РЕГИСТР", "НИЖНИЙ РЕГИСТР", "ПЕРВАЯ ЗАГЛАВНАЯ" и "ЗАГЛАВНЫЙ РЕГИСТР". Строки нечувствительны к регистру.
+ **Remarks:** 
 
-Если поле текстовой формы содержит число или значение даты/времени, допустимыми строками формата являются числа или строки формата даты и времени.
+Если текстовое поле формы содержит обычный текст, допустимыми строками формата являются "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" и "TITLE CASE". Строки не чувствительны к регистру.
 
-Microsoft Word позволяет использовать строки длиной не более 64 символов.
+Если текстовое поле формы содержит число или значение даты/времени, допустимыми строками формата являются строки формата числа или даты и времени.
 
-**Параметры:**
+Microsoft Word допускает строки длиной не более 64 символов.
 
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Форматирование текста для поля текстовой формы. |
+| значение | java.lang.String | Форматирование текста для текстового поля формы. |
 
-### setTextInputType(int value) {#setTextInputType-int-}
+### setTextInputType(int value) {#setTextInputType-int}
 ```
 public void setTextInputType(int value)
 ```
 
 
-Задает тип поля текстовой формы.
+Устанавливает тип текстового поля формы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Тип поля текстовой формы. Значение должно быть одним из[TextFormFieldType](../../com.aspose.words/textformfieldtype) константы. |
+| value | int | Тип текстового поля формы. Значение должно быть одной из констант [TextFormFieldType](../../com.aspose.words/textformfieldtype/). |
 
-### setTextInputValue(Object newValue) {#setTextInputValue-java.lang.Object-}
+### setTextInputValue(Object newValue) {#setTextInputValue-java.lang.Object}
 ```
 public void setTextInputValue(Object newValue)
 ```
 
 
- Применяет формат текста, указанный в[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) и сохраняет значение в[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-).
+Применяет текстовый формат, указанный в [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String) и сохраняет значение в [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String).
 
-**Параметры:**
+ **Remarks:** 
 
+Значение [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) применяется, если newValue равно null.
+
+ **Examples:** 
+
+Показывает, как вставлять различные типы полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
+
+```
+
+ public void visitor() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Use a document builder to insert a combo box.
+     builder.write("Choose a value from this combo box: ");
+     FormField comboBox = builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 0);
+     comboBox.setCalculateOnExit(true);
+     Assert.assertEquals(3, comboBox.getDropDownItems().getCount());
+     Assert.assertEquals(0, comboBox.getDropDownSelectedIndex());
+     Assert.assertTrue(comboBox.getEnabled());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert a check box.
+     builder.write("Click this check box to tick/untick it: ");
+     FormField checkBox = builder.insertCheckBox("MyCheckBox", false, 50);
+     checkBox.isCheckBoxExactSize(true);
+     checkBox.setHelpText("Right click to check this box");
+     checkBox.setOwnHelp(true);
+     checkBox.setStatusText("Checkbox status text");
+     checkBox.setOwnStatus(true);
+     Assert.assertEquals(50.0d, checkBox.getCheckBoxSize());
+     Assert.assertFalse(checkBox.getChecked());
+     Assert.assertFalse(checkBox.getDefault());
+
+     builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+     // Use a document builder to insert text input form field.
+     builder.write("Enter text here: ");
+     FormField textInput = builder.insertTextInput("MyTextInput", TextFormFieldType.REGULAR, "", "Placeholder text", 50);
+     textInput.setEntryMacro("EntryMacro");
+     textInput.setExitMacro("ExitMacro");
+     textInput.setTextInputDefault("Regular");
+     textInput.setTextInputFormat("FIRST CAPITAL");
+     textInput.setTextInputValue("New placeholder text");
+     Assert.assertEquals(TextFormFieldType.REGULAR, textInput.getTextInputType());
+     Assert.assertEquals(50, textInput.getMaxLength());
+
+     // This collection contains all our form fields.
+     FormFieldCollection formFields = doc.getRange().getFormFields();
+     Assert.assertEquals(3, formFields.getCount());
+
+     // Fields display our form fields. We can see their field codes by opening this document
+     // in Microsoft and pressing Alt + F9. These fields have no switches,
+     // and members of the FormField object fully govern their form fields' content.
+     Assert.assertEquals(3, doc.getRange().getFields().getCount());
+     Assert.assertEquals(" FORMDROPDOWN ", doc.getRange().getFields().get(0).getFieldCode());
+     Assert.assertEquals(" FORMCHECKBOX ", doc.getRange().getFields().get(1).getFieldCode());
+     Assert.assertEquals(" FORMTEXT ", doc.getRange().getFields().get(2).getFieldCode());
+
+     // Allow each form field to accept a document visitor.
+     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
+
+     Iterator fieldEnumerator = formFields.iterator();
+     while (fieldEnumerator.hasNext())
+         fieldEnumerator.next().accept(formFieldVisitor);
+
+     System.out.println(formFieldVisitor.getText());
+
+     doc.updateFields();
+     doc.save(getArtifactsDir() + "FormFields.Visitor.html");
+ }
+
+ /// 
+ /// Visitor implementation that prints details of form fields that it visits.
+ /// 
+ public static class FormFieldVisitor extends DocumentVisitor {
+     public FormFieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a FormField node is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         appendLine(formField.getType() + ": \"" + formField.getName() + "\"");
+         appendLine("\tStatus: " + (formField.getEnabled() ? "Enabled" : "Disabled"));
+         appendLine("\tHelp Text:  " + formField.getHelpText());
+         appendLine("\tEntry macro name: " + formField.getEntryMacro());
+         appendLine("\tExit macro name: " + formField.getExitMacro());
+
+         switch (formField.getType()) {
+             case FieldType.FIELD_FORM_DROP_DOWN:
+                 appendLine("\tDrop down items count: " + formField.getDropDownItems().getCount() + ", default selected item index: " + formField.getDropDownSelectedIndex());
+                 appendLine("\tDrop down items: " + String.join(", ", formField.getDropDownItems()));
+                 break;
+             case FieldType.FIELD_FORM_CHECK_BOX:
+                 appendLine("\tCheckbox size: " + formField.getCheckBoxSize());
+                 appendLine("\t" + "Checkbox is currently: " + (formField.getChecked() ? "checked, " : "unchecked, ") + "by default: " + (formField.getDefault() ? "checked" : "unchecked"));
+                 break;
+             case FieldType.FIELD_FORM_TEXT_INPUT:
+                 appendLine("\tInput format: " + formField.getTextInputFormat());
+                 appendLine("\tCurrent contents: " + formField.getResult());
+                 break;
+         }
+
+         // Let the visitor continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds newline char-terminated text to the current output.
+     /// 
+     private void appendLine(String text) {
+         mBuilder.append(text + '\n');
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newValue | java.lang.Object |  Может быть строкой, числом или объектом DateTime.[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) value применяется, если newValue равно null . |
+| newValue | java.lang.Object | Может быть строкой, числом или объектом **DateTime**. |
 
-### toString() {#toString--}
+### toString() {#toString}
 ```
 public String toString()
 ```
@@ -1212,9 +7214,9 @@ public String toString()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
+### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions}
 ```
 public String toString(SaveOptions saveOptions)
 ```
@@ -1222,15 +7224,40 @@ public String toString(SaveOptions saveOptions)
 
 Экспортирует содержимое узла в строку, используя указанные параметры сохранения.
 
-**Параметры:**
+ **Examples:** 
 
+Экспортирует содержимое узла в String в формате HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Node node = doc.getLastSection().getBody().getLastParagraph();
+
+ // When we call the ToString method using the html SaveFormat overload,
+ // it converts the node's contents to their raw html representation.
+ Assert.assertEquals(" " +
+         "Hello World!" +
+         "", node.toString(SaveFormat.HTML));
+
+ // We can also modify the result of this conversion using a SaveOptions object.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setExportRelativeFontSize(true);
+
+ Assert.assertEquals(" " +
+         "Hello World!" +
+         "", node.toString(saveOptions));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Указывает параметры, управляющие способом сохранения узла. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Указывает параметры, которые управляют тем, как сохраняется узел. |
 
-**Возвращает:**
-java.lang.String — содержимое узла в указанном формате.
-### toString(int saveFormat) {#toString-int-}
+**Returns:**
+java.lang.String - Содержимое узла в указанном формате.
+### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
 ```
@@ -1238,47 +7265,10 @@ public String toString(int saveFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

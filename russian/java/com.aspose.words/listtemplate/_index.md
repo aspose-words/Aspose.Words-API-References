@@ -1,76 +1,204 @@
 ---
-title: ListTemplate
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает один из предопределенных форматов списка, доступных в Microsoft Word.
+title: "ListTemplate"
+linktitle: "ListTemplate"
+second_title: "Aspose.Words для Java"
+description: "Указывает один из предопределённых форматов списков, доступных в Microsoft Word для Java."
 type: docs
-weight: 375
+weight: 432
 url: /ru/java/com.aspose.words/listtemplate/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ListTemplate
 ```
 
-Указывает один из предопределенных форматов списка, доступных в Microsoft Word.
+Указывает один из предопределённых форматов списков, доступных в Microsoft Word.
 
- Значение шаблона списка используется в качестве параметра в**M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)** метод.
+ **Remarks:** 
 
-Шаблоны списков Aspose.Words соответствуют 21 шаблону списков, доступным в диалоговом окне «Маркеры и нумерация» в Microsoft Word 2003.
+Значение шаблона списка используется в качестве параметра метода **M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)**.
+
+Шаблоны списков Aspose.Words соответствуют 21 шаблону списков, доступным в диалоговом окне Маркеры и нумерация в Microsoft Word 2003.
+
+ **Examples:** 
+
+Показывает, как работать с уровнями списка.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Below are two types of lists that we can create using a document builder.
+ // 1 -  A numbered list:
+ // Numbered lists create a logical order for their paragraphs by numbering each item.
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
+
+ Assert.assertTrue(builder.getListFormat().isListItem());
+
+ // By setting the "ListLevelNumber" property, we can increase the list level
+ // to begin a self-contained sub-list at the current list item.
+ // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
+ // Deeper list levels use letters and lowercase Roman numerals.
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // 2 -  A bulleted list:
+ // This list will apply an indent and a bullet symbol ("\u2022") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\u25a0" and "\u25cb".
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
+ builder.getListFormat().setList(null);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
+
+Показывает, как перезапустить нумерацию в списке, копируя список.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Create a list from a Microsoft Word template, and customize its first list level.
+ List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
+ list1.getListLevels().get(0).getFont().setColor(Color.RED);
+ list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
+
+ // Apply our list to some paragraphs.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("List 1 starts below:");
+ builder.getListFormat().setList(list1);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ // We can add a copy of an existing list to the document's list collection
+ // to create a similar list without making changes to the original.
+ List list2 = doc.getLists().addCopy(list1);
+ list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
+ list2.getListLevels().get(0).setStartAt(10);
+
+ // Apply the second list to new paragraphs.
+ builder.writeln("List 2 starts below:");
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
+ 
+```
+
+Показывает, как создать документ, содержащий все шаблоны списков заголовков структуры.
+
+```
+
+ public void outlineHeadingTemplates() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     List docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
+
+     builder.insertBreak(BreakType.PAGE_BREAK);
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
+
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
+
+     doc.save(getArtifactsDir() + "Lists.OutlineHeadingTemplates.docx");
+ }
+
+ private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List docList, final String title) {
+     builder.getParagraphFormat().clearFormatting();
+     builder.writeln(title);
+
+     for (int i = 0; i < 9; i++) {
+         builder.getListFormat().setList(docList);
+         builder.getListFormat().setListLevelNumber(i);
+
+         String styleName = "Heading " + (i + 1);
+         builder.getParagraphFormat().setStyleName(styleName);
+         builder.writeln(styleName);
+     }
+
+     builder.getListFormat().removeNumbers();
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | Пуля первого уровня представляет собой наконечник стрелы персонажа Wingding. |
-| [BULLET_CIRCLE](#BULLET-CIRCLE) | Пуля первого уровня представляет собой круг. |
-| [BULLET_DEFAULT](#BULLET-DEFAULT) | Маркированный список по умолчанию с 9 уровнями. |
-| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | Пуля первого уровня представляет собой 4-х алмазный символ Wingding. |
-| [BULLET_DISK](#BULLET-DISK) | То же, что и BulletDefault. |
-| [BULLET_SQUARE](#BULLET-SQUARE) | Пуля первого уровня представляет собой квадрат. |
-| [BULLET_TICK](#BULLET-TICK) | Пуля первого уровня представляет собой галочку Wingding персонажа. |
-| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | То же, что и NumberDefault. |
-| [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | Номер первого уровня "1)". |
-| [NUMBER_DEFAULT](#NUMBER-DEFAULT) | Нумерованный список по умолчанию с 9 уровнями. |
-| [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | Номер первого уровня – «а.». |
-| [NUMBER_LOWERCASE_LETTER_PARENTHESIS](#NUMBER-LOWERCASE-LETTER-PARENTHESIS) | Номер первого уровня – «а)». |
-| [NUMBER_LOWERCASE_ROMAN_DOT](#NUMBER-LOWERCASE-ROMAN-DOT) | Номер первого уровня – «i.». |
-| [NUMBER_UPPERCASE_LETTER_DOT](#NUMBER-UPPERCASE-LETTER-DOT) | Номер первого уровня – «А.». |
-| [NUMBER_UPPERCASE_ROMAN_DOT](#NUMBER-UPPERCASE-ROMAN-DOT) | Номер первого уровня – «И.». |
-| [OUTLINE_BULLETS](#OUTLINE-BULLETS) | Наброски списки с различными маркерами для разных уровней. |
-| [OUTLINE_HEADINGS_ARTICLE_SECTION](#OUTLINE-HEADINGS-ARTICLE-SECTION) | Список структуры с уровнями, связанными со стилями заголовков. |
-| [OUTLINE_HEADINGS_CHAPTER](#OUTLINE-HEADINGS-CHAPTER) | Список структуры с уровнями, связанными со стилями заголовков. |
-| [OUTLINE_HEADINGS_LEGAL](#OUTLINE-HEADINGS-LEGAL) | Список структуры с уровнями, связанными со стилями заголовков. |
-| [OUTLINE_HEADINGS_NUMBERS](#OUTLINE-HEADINGS-NUMBERS) | Список структуры с уровнями, связанными со стилями заголовков. |
-| [OUTLINE_LEGAL](#OUTLINE-LEGAL) | Схематический список с уровнями пронумерован «1., 1.1., 1.1.1, ...». |
-| [OUTLINE_NUMBERS](#OUTLINE-NUMBERS) | Плановый список с уровнями, пронумерованными «1), а), i), (1), (а), (i), 1., а., i.». |
+| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | Маркер первого уровня — символ Wingding в виде стрелки. |
+| [BULLET_CIRCLE](#BULLET-CIRCLE) | Маркер первого уровня — круг. |
+| [BULLET_DEFAULT](#BULLET-DEFAULT) | Список с маркерами по умолчанию, содержащий 9 уровней. |
+| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | Маркер первого уровня — символ Wingding в виде четырёх ромбов. |
+| [BULLET_DISK](#BULLET-DISK) | То же, что и [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT). |
+| [BULLET_SQUARE](#BULLET-SQUARE) | Маркер первого уровня — квадрат. |
+| [BULLET_TICK](#BULLET-TICK) | Маркер первого уровня — символ Wingding в виде галочки. |
+| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | То же, что и [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT). |
+| [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | Номер первого уровня — "1)". |
+| [NUMBER_DEFAULT](#NUMBER-DEFAULT) | Нумерованный список по умолчанию, содержащий 9 уровней. |
+| [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | Номер первого уровня — "a.". |
+| [NUMBER_LOWERCASE_LETTER_PARENTHESIS](#NUMBER-LOWERCASE-LETTER-PARENTHESIS) | Номер первого уровня — "a)". |
+| [NUMBER_LOWERCASE_ROMAN_DOT](#NUMBER-LOWERCASE-ROMAN-DOT) | Номер первого уровня — "i.". |
+| [NUMBER_UPPERCASE_LETTER_DOT](#NUMBER-UPPERCASE-LETTER-DOT) | Номер первого уровня — "A.". |
+| [NUMBER_UPPERCASE_ROMAN_DOT](#NUMBER-UPPERCASE-ROMAN-DOT) | Номер первого уровня — "I.". |
+| [OUTLINE_BULLETS](#OUTLINE-BULLETS) | Контурный список содержит различные маркеры для разных уровней. |
+| [OUTLINE_HEADINGS_ARTICLE_SECTION](#OUTLINE-HEADINGS-ARTICLE-SECTION) | Контурный список с уровнями, связанными со стилями заголовков. |
+| [OUTLINE_HEADINGS_CHAPTER](#OUTLINE-HEADINGS-CHAPTER) | Контурный список с уровнями, связанными со стилями заголовков. |
+| [OUTLINE_HEADINGS_LEGAL](#OUTLINE-HEADINGS-LEGAL) | Контурный список с уровнями, связанными со стилями заголовков. |
+| [OUTLINE_HEADINGS_NUMBERS](#OUTLINE-HEADINGS-NUMBERS) | Контурный список с уровнями, связанными со стилями заголовков. |
+| [OUTLINE_LEGAL](#OUTLINE-LEGAL) | Контурный список, где уровни нумеруются "1., 1.1., 1.1.1, ...". |
+| [OUTLINE_NUMBERS](#OUTLINE-NUMBERS) | Контурный список, где уровни нумеруются "1), a), i), (1), (a), (i), 1., a., i.". |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String listTemplateName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int listTemplate)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int listTemplate)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String listTemplateName)](#fromName-java.lang.String) |  |
+| [getName(int listTemplate)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int listTemplate)](#toString-int) |  |
 ### BULLET_ARROW_HEAD {#BULLET-ARROW-HEAD}
 ```
 public static int BULLET_ARROW_HEAD
 ```
 
 
-Пуля первого уровня представляет собой наконечник стрелы персонажа Wingding. Остальные уровни такие же, как в BulletDefault.
+Маркер первого уровня — символ Wingding в виде стрелки. Остальные уровни такие же, как в [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует шестому шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 6‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_CIRCLE {#BULLET-CIRCLE}
 ```
@@ -78,9 +206,9 @@ public static int BULLET_CIRCLE
 ```
 
 
-Пуля первого уровня представляет собой круг. Остальные уровни такие же, как в BulletDefault.
+Маркер первого уровня — круг. Остальные уровни такие же, как в [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует второму шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 2‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_DEFAULT {#BULLET-DEFAULT}
 ```
@@ -88,11 +216,11 @@ public static int BULLET_DEFAULT
 ```
 
 
-Маркированный список по умолчанию с 9 уровнями. Пуля первого уровня – диск, пуля второго уровня – круг, пуля третьего уровня – квадрат. Затем форматирование повторяется для остальных уровней.
+Стандартный маркированный список с 9 уровнями. Маркер первого уровня — диск, маркер второго уровня — круг, маркер третьего уровня — квадрат. Затем форматирование повторяется для остальных уровней.
 
-Каждый уровень отступает вправо на 0,25 дюйма относительно предыдущего уровня.
+Каждый уровень отступает вправо на 0.25" относительно предыдущего уровня.
 
-Соответствует первому шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 1‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_DIAMONDS {#BULLET-DIAMONDS}
 ```
@@ -100,9 +228,9 @@ public static int BULLET_DIAMONDS
 ```
 
 
-Пуля первого уровня представляет собой 4-х алмазный символ Wingding. Остальные уровни такие же, как в BulletDefault.
+Маркер первого уровня — символ Wingding в виде 4‑угольного ромба. Остальные уровни такие же, как в [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует 5-му шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 5‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_DISK {#BULLET-DISK}
 ```
@@ -110,9 +238,9 @@ public static int BULLET_DISK
 ```
 
 
-То же, что и BulletDefault.
+То же, что и [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует первому шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 1‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_SQUARE {#BULLET-SQUARE}
 ```
@@ -120,9 +248,9 @@ public static int BULLET_SQUARE
 ```
 
 
-Пуля первого уровня представляет собой квадрат. Остальные уровни такие же, как в BulletDefault.
+Маркер первого уровня — квадрат. Остальные уровни такие же, как в [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует третьему шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 3‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### BULLET_TICK {#BULLET-TICK}
 ```
@@ -130,9 +258,9 @@ public static int BULLET_TICK
 ```
 
 
-Пуля первого уровня представляет собой галочку Wingding персонажа. Остальные уровни такие же, как в BulletDefault.
+Маркер первого уровня — символ Wingding в виде галочки. Остальные уровни такие же, как в [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
-Соответствует 7-му шаблону маркированного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 7‑му шаблону маркированного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_ARABIC_DOT {#NUMBER-ARABIC-DOT}
 ```
@@ -140,9 +268,9 @@ public static int NUMBER_ARABIC_DOT
 ```
 
 
-То же, что и NumberDefault.
+То же, что и [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует первому шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 1‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_ARABIC_PARENTHESIS {#NUMBER-ARABIC-PARENTHESIS}
 ```
@@ -150,9 +278,9 @@ public static int NUMBER_ARABIC_PARENTHESIS
 ```
 
 
-Номер первого уровня "1)". Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "1)". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует второму шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 2‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_DEFAULT {#NUMBER-DEFAULT}
 ```
@@ -160,11 +288,11 @@ public static int NUMBER_DEFAULT
 ```
 
 
-Нумерованный список по умолчанию с 9 уровнями. Арабская нумерация (1., 2., 3., ...) для первого уровня, строчная буквенная нумерация (a., b., c., ...) для второго уровня, строчная римская нумерация (i., II., III., ...) для третьего уровня. Затем форматирование повторяется для остальных уровней.
+Стандартный нумерованный список с 9 уровнями. Арабская нумерация (1., 2., 3., ...) для первого уровня, нумерация строчными буквами (a., b., c., ...) для второго уровня, нумерация строчными римскими цифрами (i., ii., iii., ...) для третьего уровня. Затем форматирование повторяется для остальных уровней.
 
-Каждый уровень отступает вправо на 0,25 дюйма относительно предыдущего уровня.
+Каждый уровень отступает вправо на 0.25" относительно предыдущего уровня.
 
-Соответствует первому шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 1‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_LOWERCASE_LETTER_DOT {#NUMBER-LOWERCASE-LETTER-DOT}
 ```
@@ -172,9 +300,9 @@ public static int NUMBER_LOWERCASE_LETTER_DOT
 ```
 
 
-Номер первого уровня – «а.». Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "a.". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует 6-му шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 6‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_LOWERCASE_LETTER_PARENTHESIS {#NUMBER-LOWERCASE-LETTER-PARENTHESIS}
 ```
@@ -182,9 +310,9 @@ public static int NUMBER_LOWERCASE_LETTER_PARENTHESIS
 ```
 
 
-Номер первого уровня – «а)». Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "a)". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует 5-му шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 5‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_LOWERCASE_ROMAN_DOT {#NUMBER-LOWERCASE-ROMAN-DOT}
 ```
@@ -192,9 +320,9 @@ public static int NUMBER_LOWERCASE_ROMAN_DOT
 ```
 
 
-Номер первого уровня – «i.». Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "i.". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует 7-му шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 7‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_UPPERCASE_LETTER_DOT {#NUMBER-UPPERCASE-LETTER-DOT}
 ```
@@ -202,9 +330,9 @@ public static int NUMBER_UPPERCASE_LETTER_DOT
 ```
 
 
-Номер первого уровня – «А.». Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "A.". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует 4-му шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 4‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### NUMBER_UPPERCASE_ROMAN_DOT {#NUMBER-UPPERCASE-ROMAN-DOT}
 ```
@@ -212,9 +340,9 @@ public static int NUMBER_UPPERCASE_ROMAN_DOT
 ```
 
 
-Номер первого уровня – «И.». Остальные уровни такие же, как в NumberDefault.
+Номер первого уровня — "I.". Остальные уровни такие же, как в [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
-Соответствует 3-му шаблону нумерованного списка в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 3‑му шаблону нумерованного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_BULLETS {#OUTLINE-BULLETS}
 ```
@@ -222,9 +350,9 @@ public static int OUTLINE_BULLETS
 ```
 
 
-Наброски списки с различными маркерами для разных уровней.
+Контурный список содержит различные маркеры для разных уровней.
 
-Соответствует 3-му шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 3‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_HEADINGS_ARTICLE_SECTION {#OUTLINE-HEADINGS-ARTICLE-SECTION}
 ```
@@ -232,9 +360,9 @@ public static int OUTLINE_HEADINGS_ARTICLE_SECTION
 ```
 
 
-Список структуры с уровнями, связанными со стилями заголовков.
+Контурный список с уровнями, связанными со стилями заголовков.
 
-Соответствует 4-му шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 4‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_HEADINGS_CHAPTER {#OUTLINE-HEADINGS-CHAPTER}
 ```
@@ -242,9 +370,9 @@ public static int OUTLINE_HEADINGS_CHAPTER
 ```
 
 
-Список структуры с уровнями, связанными со стилями заголовков.
+Контурный список с уровнями, связанными со стилями заголовков.
 
-Соответствует 7-му шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 7‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_HEADINGS_LEGAL {#OUTLINE-HEADINGS-LEGAL}
 ```
@@ -252,9 +380,9 @@ public static int OUTLINE_HEADINGS_LEGAL
 ```
 
 
-Список структуры с уровнями, связанными со стилями заголовков.
+Контурный список с уровнями, связанными со стилями заголовков.
 
-Соответствует 5-му шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 5‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_HEADINGS_NUMBERS {#OUTLINE-HEADINGS-NUMBERS}
 ```
@@ -262,9 +390,9 @@ public static int OUTLINE_HEADINGS_NUMBERS
 ```
 
 
-Список структуры с уровнями, связанными со стилями заголовков.
+Контурный список с уровнями, связанными со стилями заголовков.
 
-Соответствует 6-му шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 6‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_LEGAL {#OUTLINE-LEGAL}
 ```
@@ -272,9 +400,9 @@ public static int OUTLINE_LEGAL
 ```
 
 
-Схематический список с уровнями пронумерован «1., 1.1., 1.1.1, ...».
+Контурный список, где уровни нумеруются "1., 1.1., 1.1.1, ...".
 
-Соответствует второму шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 2‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### OUTLINE_NUMBERS {#OUTLINE-NUMBERS}
 ```
@@ -282,9 +410,9 @@ public static int OUTLINE_NUMBERS
 ```
 
 
-Плановый список с уровнями, пронумерованными «1), а), i), (1), (а), (i), 1., а., i.».
+Контурный список, где уровни нумеруются "1), a), i), (1), (a), (i), 1., a., i.".
 
-Соответствует первому шаблону списка структуры в диалоговом окне «Маркеры и нумерация» в Microsoft Word.
+Соответствует 1‑му шаблону контурного списка в диалоговом окне Маркеры и нумерация в Microsoft Word.
 
 ### length {#length}
 ```
@@ -292,23 +420,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String listTemplateName) {#fromName-java.lang.String-}
+### fromName(String listTemplateName) {#fromName-java.lang.String}
 ```
 public static int fromName(String listTemplateName)
 ```
@@ -316,25 +428,14 @@ public static int fromName(String listTemplateName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | listTemplateName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int listTemplate) {#getName-int-}
+**Returns:**
+int
+### getName(int listTemplate) {#getName-int}
 ```
 public static String getName(int listTemplate)
 ```
@@ -342,15 +443,14 @@ public static String getName(int listTemplate)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | listTemplate | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -358,45 +458,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int listTemplate) {#toString-int-}
+**Returns:**
+int[]
+### toString(int listTemplate) {#toString-int}
 ```
 public static String toString(int listTemplate)
 ```
@@ -404,47 +468,10 @@ public static String toString(int listTemplate)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | listTemplate | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

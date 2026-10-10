@@ -1,30 +1,76 @@
 ---
-title: RelativeHorizontalPosition
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает относительное положение фигуры или текстового фрейма по горизонтали.
+title: "RelativeHorizontalPosition"
+linktitle: "RelativeHorizontalPosition"
+second_title: "Aspose.Words для Java"
+description: "Указывает, к чему относительно задаётся горизонтальное положение фигуры или текстовой рамки в Java."
 type: docs
-weight: 473
+weight: 561
 url: /ru/java/com.aspose.words/relativehorizontalposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RelativeHorizontalPosition
 ```
 
-Указывает относительное положение фигуры или текстового фрейма по горизонтали.
+Указывает, относительно чего определяется горизонтальное положение фигуры или текстового кадра.
+
+ **Examples:** 
+
+Показывает, как вставить изображение и использовать его как водяной знак.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert the image into the header so that it will be visible on every page.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+
+ // Place the image at the center of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setLeft((builder.getPageSetup().getPageWidth() - shape.getWidth()) / 2.0);
+ shape.setTop((builder.getPageSetup().getPageHeight() - shape.getHeight()) / 2.0);
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertWatermark.docx");
+ 
+```
+
+Показывает, как вставить плавающее изображение в центр страницы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [CHARACTER](#CHARACTER) | Объект позиционируется относительно левой стороны абзаца. |
-| [COLUMN](#COLUMN) | Объект позиционируется относительно левой стороны столбца. |
-| [DEFAULT](#DEFAULT) |  Значение по умолчанию[COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN). |
-| [INSIDE_MARGIN](#INSIDE-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно внутреннего поля текущей страницы (левое поле на нечетных страницах, правое на четных страницах). |
+| [COLUMN](#COLUMN) | Объект позиционируется относительно левой стороны колонки. |
+| [DEFAULT](#DEFAULT) | Значение по умолчанию — [COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN). |
+| [INSIDE_MARGIN](#INSIDE-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно внутреннего поля текущей страницы (левое поле на нечётных страницах, правое — на чётных). |
 | [LEFT_MARGIN](#LEFT-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно левого поля страницы. |
 | [MARGIN](#MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно полей страницы. |
-| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно внешнего поля текущей страницы (правое поле на нечетных страницах, левое на четных страницах). |
+| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно внешнего поля текущей страницы (правое поле на нечётных страницах, левое — на чётных). |
 | [PAGE](#PAGE) | Объект позиционируется относительно левого края страницы. |
 | [RIGHT_MARGIN](#RIGHT-MARGIN) | Указывает, что горизонтальное позиционирование должно быть относительно правого поля страницы. |
 | [length](#length) |  |
@@ -32,19 +78,10 @@ public class RelativeHorizontalPosition
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String relativeHorizontalPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int relativeHorizontalPosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int relativeHorizontalPosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String relativeHorizontalPositionName)](#fromName-java.lang.String) |  |
+| [getName(int relativeHorizontalPosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int relativeHorizontalPosition)](#toString-int) |  |
 ### CHARACTER {#CHARACTER}
 ```
 public static int CHARACTER
@@ -59,7 +96,7 @@ public static int COLUMN
 ```
 
 
-Объект позиционируется относительно левой стороны столбца.
+Объект позиционируется относительно левой стороны колонки.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -67,7 +104,7 @@ public static int DEFAULT
 ```
 
 
- Значение по умолчанию[COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Значение по умолчанию — [COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 ### INSIDE_MARGIN {#INSIDE-MARGIN}
 ```
@@ -75,7 +112,7 @@ public static int INSIDE_MARGIN
 ```
 
 
-Указывает, что горизонтальное позиционирование должно быть относительно внутреннего поля текущей страницы (левое поле на нечетных страницах, правое на четных страницах).
+Указывает, что горизонтальное позиционирование должно быть относительно внутреннего поля текущей страницы (левое поле на нечётных страницах, правое — на чётных).
 
 ### LEFT_MARGIN {#LEFT-MARGIN}
 ```
@@ -99,7 +136,7 @@ public static int OUTSIDE_MARGIN
 ```
 
 
-Указывает, что горизонтальное позиционирование должно быть относительно внешнего поля текущей страницы (правое поле на нечетных страницах, левое на четных страницах).
+Указывает, что горизонтальное позиционирование должно быть относительно внешнего поля текущей страницы (правое поле на нечётных страницах, левое — на чётных).
 
 ### PAGE {#PAGE}
 ```
@@ -123,23 +160,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String relativeHorizontalPositionName) {#fromName-java.lang.String-}
+### fromName(String relativeHorizontalPositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String relativeHorizontalPositionName)
 ```
@@ -147,25 +168,14 @@ public static int fromName(String relativeHorizontalPositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeHorizontalPositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int relativeHorizontalPosition) {#getName-int-}
+**Returns:**
+int
+### getName(int relativeHorizontalPosition) {#getName-int}
 ```
 public static String getName(int relativeHorizontalPosition)
 ```
@@ -173,15 +183,14 @@ public static String getName(int relativeHorizontalPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeHorizontalPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -189,45 +198,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int relativeHorizontalPosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int relativeHorizontalPosition) {#toString-int}
 ```
 public static String toString(int relativeHorizontalPosition)
 ```
@@ -235,47 +208,10 @@ public static String toString(int relativeHorizontalPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | relativeHorizontalPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

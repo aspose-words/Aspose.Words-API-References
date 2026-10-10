@@ -1,244 +1,339 @@
 ---
-title: HyphenationOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет настроить параметры переноса документа.
+title: "HyphenationOptions"
+linktitle: "HyphenationOptions"
+second_title: "Aspose.Words для Java"
+description: "Позволяет настраивать параметры переноса слов в документе на Java."
 type: docs
-weight: 334
+weight: 388
 url: /ru/java/com.aspose.words/hyphenationoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class HyphenationOptions implements Cloneable
 ```
 
-Позволяет настроить параметры переноса документа.
+Позволяет настроить параметры переносов в документе.
 
- Чтобы узнать больше, посетите**Working with Hyphenation** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Hyphenation ][Working with Hyphenation].
+
+ **Examples:** 
+
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+
+[Working with Hyphenation]: https://docs.aspose.com/words/java/working-with-hyphenation/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoHyphenation()](#getAutoHyphenation--) | Получает значение, определяющее, включена ли для документа автоматическая расстановка переносов. |
-| [getClass()](#getClass--) |  |
-| [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit--) | Получает максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
-| [getHyphenateCaps()](#getHyphenateCaps--) | Получает значение, определяющее, переносятся ли слова, написанные заглавными буквами. |
-| [getHyphenationZone()](#getHyphenationZone--) | Получает расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean-) | Устанавливает значение, определяющее, включена ли автоматическая расстановка переносов для документа. |
-| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int-) | Устанавливает максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
-| [setHyphenateCaps(boolean value)](#setHyphenateCaps-boolean-) | Устанавливает значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. |
-| [setHyphenationZone(int value)](#setHyphenationZone-int-) | Устанавливает расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAutoHyphenation() {#getAutoHyphenation--}
+| [getAutoHyphenation()](#getAutoHyphenation) | Получает значение, определяющее, включён ли автоматический перенос слов для документа. |
+| [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit) | Получает максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
+| [getHyphenateCaps()](#getHyphenateCaps) | Получает значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами. |
+| [getHyphenationZone()](#getHyphenationZone) | Получает расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги. |
+| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean) | Устанавливает значение, определяющее, включено ли автоматическое перенесение слов в документе. |
+| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int) | Устанавливает максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
+| [setHyphenateCaps(boolean value)](#setHyphenateCaps-boolean) | Устанавливает значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами. |
+| [setHyphenationZone(int value)](#setHyphenationZone-int) | Устанавливает расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги. |
+### getAutoHyphenation() {#getAutoHyphenation}
 ```
 public boolean getAutoHyphenation()
 ```
 
 
- Получает значение, определяющее, включена ли для документа автоматическая расстановка переносов. Значение по умолчанию для этого свойства**false**.
+Получает значение, определяющее, включено ли автоматическое перенесение слов в документе. Значение по умолчанию для этого свойства — false.
 
-**Возвращает:**
-boolean — значение, определяющее, включена ли для документа автоматическая расстановка переносов.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как настроить автоматический перенос слов.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getConsecutiveHyphenLimit() {#getConsecutiveHyphenLimit--}
+**Returns:**
+boolean — значение, определяющее, включено ли автоматическое перенесение слов в документе.
+### getConsecutiveHyphenLimit() {#getConsecutiveHyphenLimit}
 ```
 public int getConsecutiveHyphenLimit()
 ```
 
 
-Получает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства равно 0.
+Получает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0.
 
-Если значение этого свойства равно 0, любое количество последовательных строк может заканчиваться дефисами.
+ **Remarks:** 
 
-Это свойство не действует при сохранении в фиксированных форматах страниц, например PDF.
+Если значение этого свойства установлено в 0, любое количество последовательных строк может заканчиваться дефисами.
 
-**Возвращает:**
+Это свойство не оказывает влияния при сохранении в форматы фиксированных страниц, например PDF.
+
+ **Examples:** 
+
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Returns:**
 int — максимальное количество последовательных строк, которые могут заканчиваться дефисами.
-### getHyphenateCaps() {#getHyphenateCaps--}
+### getHyphenateCaps() {#getHyphenateCaps}
 ```
 public boolean getHyphenateCaps()
 ```
 
 
- Получает значение, определяющее, переносятся ли слова, написанные заглавными буквами. Значение по умолчанию для этого свойства**true**.
+Получает значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами. Значение по умолчанию для этого свойства — true.
 
-**Возвращает:**
-boolean — значение, определяющее, переносятся ли слова, написанные заглавными буквами.
-### getHyphenationZone() {#getHyphenationZone--}
+ **Examples:** 
+
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Returns:**
+boolean — значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами.
+### getHyphenationZone() {#getHyphenationZone}
 ```
 public int getHyphenationZone()
 ```
 
 
-Получает расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
+Получает расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
 
-**Возвращает:**
-int - Расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как настроить автоматический перенос слов.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
 
-### notifyAll() {#notifyAll--}
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setAutoHyphenation(boolean value) {#setAutoHyphenation-boolean-}
+**Returns:**
+int — расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги.
+### setAutoHyphenation(boolean value) {#setAutoHyphenation-boolean}
 ```
 public void setAutoHyphenation(boolean value)
 ```
 
 
- Устанавливает значение, определяющее, включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойства**false**.
+Устанавливает значение, определяющее, включено ли автоматическое перенесение слов в документе. Значение по умолчанию для этого свойства — false.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, определяющее, включена ли для документа автоматическая расстановка переносов. |
+| значение | boolean | Значение, определяющее, включено ли автоматическое перенесение слов в документе. |
 
-### setConsecutiveHyphenLimit(int value) {#setConsecutiveHyphenLimit-int-}
+### setConsecutiveHyphenLimit(int value) {#setConsecutiveHyphenLimit-int}
 ```
 public void setConsecutiveHyphenLimit(int value)
 ```
 
 
-Устанавливает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства равно 0.
+Устанавливает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0.
 
-Если значение этого свойства равно 0, любое количество последовательных строк может заканчиваться дефисами.
+ **Remarks:** 
 
-Это свойство не действует при сохранении в фиксированных форматах страниц, например PDF.
+Если значение этого свойства установлено в 0, любое количество последовательных строк может заканчиваться дефисами.
 
-**Параметры:**
+Это свойство не оказывает влияния при сохранении в форматы фиксированных страниц, например PDF.
 
+ **Examples:** 
+
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
+| значение | int | Максимальное количество последовательных строк, которые могут заканчиваться дефисами. |
 
-### setHyphenateCaps(boolean value) {#setHyphenateCaps-boolean-}
+### setHyphenateCaps(boolean value) {#setHyphenateCaps-boolean}
 ```
 public void setHyphenateCaps(boolean value)
 ```
 
 
- Устанавливает значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. Значение по умолчанию для этого свойства**true**.
+Устанавливает значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами. Значение по умолчанию для этого свойства — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. |
+| значение | boolean | Значение, определяющее, разбиваются ли на слоги слова, написанные заглавными буквами. |
 
-### setHyphenationZone(int value) {#setHyphenationZone-int-}
+### setHyphenationZone(int value) {#setHyphenationZone-int}
 ```
 public void setHyphenationZone(int value)
 ```
 
 
-Устанавливает расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
+Устанавливает расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить автоматический перенос слов.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+         "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ doc.getHyphenationOptions().setAutoHyphenation(true);
+ doc.getHyphenationOptions().setConsecutiveHyphenLimit(2);
+ doc.getHyphenationOptions().setHyphenationZone(720);
+ doc.getHyphenationOptions().setHyphenateCaps(true);
+
+ doc.save(getArtifactsDir() + "Document.HyphenationOptions.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. |
+| значение | int | Расстояние в 1/20 пункта от правого поля, в пределах которого не следует разбивать слова на слоги. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,54 +1,91 @@
 ---
-title: WrapType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как текст обтекает фигуру или изображение.
+title: "WrapType"
+linktitle: "WrapType"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как текст обтекает форму или изображение в Java."
 type: docs
-weight: 622
+weight: 737
 url: /ru/java/com.aspose.words/wraptype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WrapType
 ```
 
-Указывает, как текст обтекает фигуру или изображение.
+Указывает, как текст обтекает форму или изображение.
+
+ **Examples:** 
+
+Показывает, как вставить изображение и использовать его как водяной знак.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert the image into the header so that it will be visible on every page.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+
+ // Place the image at the center of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setLeft((builder.getPageSetup().getPageWidth() - shape.getWidth()) / 2.0);
+ shape.setTop((builder.getPageSetup().getPageHeight() - shape.getHeight()) / 2.0);
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertWatermark.docx");
+ 
+```
+
+Показывает, как вставить плавающее изображение в центр страницы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [INLINE](#INLINE) | Фигура остается на том же слое, что и текст, и рассматривается как символ. |
-| [NONE](#NONE) | Текст не обтекает фигуру. |
-| [SQUARE](#SQUARE) | Оборачивает текст вокруг всех сторон квадратной ограничивающей рамки фигуры. |
-| [THROUGH](#THROUGH) | То же, что и Tight, но охватывает все открытые части фигуры. |
-| [TIGHT](#TIGHT) | Плотно обтекает края фигуры, а не ограничивающую рамку. |
-| [TOP_BOTTOM](#TOP-BOTTOM) | Текст останавливается в верхней части фигуры и возобновляется в строке под фигурой. |
+| [INLINE](#INLINE) | Фигура остаётся на том же слое, что и текст, и рассматривается как символ. |
+| [NONE](#NONE) | Текст не обтекает форму. |
+| [SQUARE](#SQUARE) | Обтекает текст со всех сторон квадратного ограничивающего прямоугольника формы. |
+| [THROUGH](#THROUGH) | То же, что и Tight, но обтекает внутри всех открытых частей формы. |
+| [TIGHT](#TIGHT) | Плотно обтекает края формы, вместо обтекания ограничивающего прямоугольника. |
+| [TOP_BOTTOM](#TOP-BOTTOM) | Текст останавливается в верхней части формы и продолжается на строке под формой. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String wrapTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int wrapType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int wrapType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String wrapTypeName)](#fromName-java.lang.String) |  |
+| [getName(int wrapType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int wrapType)](#toString-int) |  |
 ### INLINE {#INLINE}
 ```
 public static int INLINE
 ```
 
 
-Фигура остается на том же слое, что и текст, и рассматривается как символ.
+Фигура остаётся на том же слое, что и текст, и рассматривается как символ.
 
 ### NONE {#NONE}
 ```
@@ -56,7 +93,7 @@ public static int NONE
 ```
 
 
-Текст не обтекает фигуру. Фигура размещается позади или перед текстом.
+Текст не обтекает форму. Форма размещается позади или перед текстом.
 
 ### SQUARE {#SQUARE}
 ```
@@ -64,7 +101,7 @@ public static int SQUARE
 ```
 
 
-Оборачивает текст вокруг всех сторон квадратной ограничивающей рамки фигуры.
+Обтекает текст со всех сторон квадратного ограничивающего прямоугольника формы.
 
 ### THROUGH {#THROUGH}
 ```
@@ -72,7 +109,7 @@ public static int THROUGH
 ```
 
 
-То же, что и Tight, но охватывает все открытые части фигуры.
+То же, что и Tight, но обтекает внутри всех открытых частей формы.
 
 ### TIGHT {#TIGHT}
 ```
@@ -80,7 +117,7 @@ public static int TIGHT
 ```
 
 
-Плотно обтекает края фигуры, а не ограничивающую рамку.
+Плотно обтекает края формы, вместо обтекания ограничивающего прямоугольника.
 
 ### TOP_BOTTOM {#TOP-BOTTOM}
 ```
@@ -88,7 +125,7 @@ public static int TOP_BOTTOM
 ```
 
 
-Текст останавливается в верхней части фигуры и возобновляется в строке под фигурой.
+Текст останавливается в верхней части формы и продолжается на строке под формой.
 
 ### length {#length}
 ```
@@ -96,23 +133,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String wrapTypeName) {#fromName-java.lang.String-}
+### fromName(String wrapTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String wrapTypeName)
 ```
@@ -120,25 +141,14 @@ public static int fromName(String wrapTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int wrapType) {#getName-int-}
+**Returns:**
+int
+### getName(int wrapType) {#getName-int}
 ```
 public static String getName(int wrapType)
 ```
@@ -146,15 +156,14 @@ public static String getName(int wrapType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +171,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int wrapType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int wrapType) {#toString-int}
 ```
 public static String toString(int wrapType)
 ```
@@ -208,47 +181,10 @@ public static String toString(int wrapType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | wrapType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

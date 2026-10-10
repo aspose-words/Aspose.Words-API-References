@@ -1,181 +1,271 @@
 ---
-title: TxtListIndentation
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет отступ уровней списка при экспорте документа в формат.
+title: "TxtListIndentation"
+linktitle: "TxtListIndentation"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как уровни списка отступаются при экспорте документа в формат SaveFormat.TEXT в Java."
 type: docs
-weight: 583
+weight: 692
 url: /ru/java/com.aspose.words/txtlistindentation/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TxtListIndentation
 ```
 
- Определяет отступ уровней списка при экспорте документа в[SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT) формат.
+Указывает, как уровни списка отступаются при экспорте документа в формат [SaveFormat.TEXT](../../com.aspose.words/saveformat/\#TEXT).
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
+
+ **Examples:** 
+
+Показывает, как настроить отступы списка при сохранении документа в простой текст.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a list with three levels of indentation.
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Item 1");
+ builder.getListFormat().listIndent();
+ builder.writeln("Item 2");
+ builder.getListFormat().listIndent();
+ builder.write("Item 3");
+
+ // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+ // to modify how we save the document to plaintext.
+ TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
+
+ // Set the "Character" property to assign a character to use
+ // for padding that simulates list indentation in plaintext.
+ txtSaveOptions.getListIndentation().setCharacter(' ');
+
+ // Set the "Count" property to specify the number of times
+ // to place the padding character for each list indent level.
+ txtSaveOptions.getListIndentation().setCount(3);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+ String docText = getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt";
+
+ TestUtil.fileContainsString("1. Item 1\r\n" +
+         "   a. Item 2\r\n" +
+         "      i. Item 3", docText);
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCharacter()](#getCharacter--) | Получает, какой символ использовать для отступов уровней списка. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  Получает сколько[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) для использования в качестве отступа на один уровень списка. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setCharacter(char value)](#setCharacter-char-) | Устанавливает, какой символ использовать для отступа уровней списка. |
-| [setCount(int value)](#setCount-int-) |  Устанавливает, сколько[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) для использования в качестве отступа на один уровень списка. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getCharacter() {#getCharacter--}
+| [getCharacter()](#getCharacter) | Получает, какой символ использовать для отступа уровней списка. |
+| [getCount()](#getCount) | Получает, сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка. |
+| [setCharacter(char value)](#setCharacter-char) | Устанавливает, какой символ использовать для отступа уровней списка. |
+| [setCount(int value)](#setCount-int) | Устанавливает, сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка. |
+### getCharacter() {#getCharacter}
 ```
 public char getCharacter()
 ```
 
 
-Получает, какой символ использовать для отступов уровней списка. Значение по умолчанию: '\\0', что означает отсутствие отступа.
+Получает, какой символ использовать для отступа уровней списка. Значение по умолчанию '\\0', что означает отсутствие отступа.
 
-**Возвращает:**
-char — Какой символ использовать для отступов уровней списка.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как настроить отступы списка при сохранении документа в простой текст.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a list with three levels of indentation.
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Item 1");
+ builder.getListFormat().listIndent();
+ builder.writeln("Item 2");
+ builder.getListFormat().listIndent();
+ builder.write("Item 3");
+
+ // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+ // to modify how we save the document to plaintext.
+ TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
+
+ // Set the "Character" property to assign a character to use
+ // for padding that simulates list indentation in plaintext.
+ txtSaveOptions.getListIndentation().setCharacter(' ');
+
+ // Set the "Count" property to specify the number of times
+ // to place the padding character for each list indent level.
+ txtSaveOptions.getListIndentation().setCount(3);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+ String docText = getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt";
+
+ TestUtil.fileContainsString("1. Item 1\r\n" +
+         "   a. Item 2\r\n" +
+         "      i. Item 3", docText);
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+char - Какой символ использовать для отступа уровней списка.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
- Получает сколько[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)для использования в качестве отступа на один уровень списка. Значение по умолчанию равно 0, что означает отсутствие отступа.
+Получает, сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка. Значение по умолчанию 0, что означает отсутствие отступа.
 
-**Возвращает:**
- int - сколько[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) для использования в качестве отступа на один уровень списка.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как настроить отступы списка при сохранении документа в простой текст.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Create a list with three levels of indentation.
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Item 1");
+ builder.getListFormat().listIndent();
+ builder.writeln("Item 2");
+ builder.getListFormat().listIndent();
+ builder.write("Item 3");
 
+ // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+ // to modify how we save the document to plaintext.
+ TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-### notifyAll() {#notifyAll--}
+ // Set the "Character" property to assign a character to use
+ // for padding that simulates list indentation in plaintext.
+ txtSaveOptions.getListIndentation().setCharacter(' ');
+
+ // Set the "Count" property to specify the number of times
+ // to place the padding character for each list indent level.
+ txtSaveOptions.getListIndentation().setCount(3);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+ String docText = getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt";
+
+ TestUtil.fileContainsString("1. Item 1\r\n" +
+         "   a. Item 2\r\n" +
+         "      i. Item 3", docText);
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setCharacter(char value) {#setCharacter-char-}
+**Returns:**
+int - Сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка.
+### setCharacter(char value) {#setCharacter-char}
 ```
 public void setCharacter(char value)
 ```
 
 
-Устанавливает, какой символ использовать для отступа уровней списка. Значение по умолчанию: '\\0', что означает отсутствие отступа.
+Устанавливает, какой символ использовать для отступа уровней списка. Значение по умолчанию '\\0', что означает отсутствие отступа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить отступы списка при сохранении документа в простой текст.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a list with three levels of indentation.
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Item 1");
+ builder.getListFormat().listIndent();
+ builder.writeln("Item 2");
+ builder.getListFormat().listIndent();
+ builder.write("Item 3");
+
+ // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+ // to modify how we save the document to plaintext.
+ TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
+
+ // Set the "Character" property to assign a character to use
+ // for padding that simulates list indentation in plaintext.
+ txtSaveOptions.getListIndentation().setCharacter(' ');
+
+ // Set the "Count" property to specify the number of times
+ // to place the padding character for each list indent level.
+ txtSaveOptions.getListIndentation().setCount(3);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+ String docText = getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt";
+
+ TestUtil.fileContainsString("1. Item 1\r\n" +
+         "   a. Item 2\r\n" +
+         "      i. Item 3", docText);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | char | Какой символ использовать для отступа уровней списка. |
+| значение | char | Какой символ использовать для отступа уровней списка. |
 
-### setCount(int value) {#setCount-int-}
+### setCount(int value) {#setCount-int}
 ```
 public void setCount(int value)
 ```
 
 
- Устанавливает, сколько[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)для использования в качестве отступа на один уровень списка. Значение по умолчанию равно 0, что означает отсутствие отступа.
+Устанавливает, сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка. Значение по умолчанию 0, что означает отсутствие отступа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как настроить отступы списка при сохранении документа в простой текст.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a list with three levels of indentation.
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Item 1");
+ builder.getListFormat().listIndent();
+ builder.writeln("Item 2");
+ builder.getListFormat().listIndent();
+ builder.write("Item 3");
+
+ // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+ // to modify how we save the document to plaintext.
+ TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
+
+ // Set the "Character" property to assign a character to use
+ // for padding that simulates list indentation in plaintext.
+ txtSaveOptions.getListIndentation().setCharacter(' ');
+
+ // Set the "Count" property to specify the number of times
+ // to place the padding character for each list indent level.
+ txtSaveOptions.getListIndentation().setCount(3);
+
+ doc.save(getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
+
+ String docText = getArtifactsDir() + "TxtSaveOptions.TxtListIndentation.txt";
+
+ TestUtil.fileContainsString("1. Item 1\r\n" +
+         "   a. Item 2\r\n" +
+         "      i. Item 3", docText);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Как много[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) для использования в качестве отступа на один уровень списка. |
+| value | int | Сколько [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) использовать в качестве отступа для одного уровня списка. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,78 +1,88 @@
 ---
-title: SaveFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает формат, в котором сохранен документ.
+title: "SaveFormat"
+linktitle: "SaveFormat"
+second_title: "Aspose.Words для Java"
+description: "Указывает формат, в котором документ сохраняется в Java."
 type: docs
-weight: 499
+weight: 595
 url: /ru/java/com.aspose.words/saveformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SaveFormat
 ```
 
- Указывает формат, в котором сохранен документ.**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
+Указывает формат, в котором сохраняется документ.
+
+ **Examples:** 
+
+Показывает, как преобразовать из DOCX в формат HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Document.ConvertToHtml.html", SaveFormat.HTML);
+ 
+```
+
+**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [AZW_3](#AZW-3) | Сохраняет документ в формате AZW3. |
-| [BMP](#BMP) | Визуализирует страницу документа и сохраняет ее как файл BMP. |
-| [DOC](#DOC) | Сохраняет документ в формате документа Microsoft Word 97 - 2007. |
+| [BMP](#BMP) | Отрисовывает страницу документа и сохраняет её как BMP‑файл. |
+| [DOC](#DOC) | Сохраняет документ в формате Microsoft Word 97‑2007 Document. |
+| [DOCLING](#DOCLING) | Сохраняет документ в формате Docling JSON. |
 | [DOCM](#DOCM) | Сохраняет документ как документ Office Open XML WordprocessingML с поддержкой макросов. |
 | [DOCX](#DOCX) | Сохраняет документ как документ Office Open XML WordprocessingML (без макросов). |
-| [DOT](#DOT) | Сохраняет документ в формате шаблона Microsoft Word 97 - 2007. |
+| [DOT](#DOT) | Сохраняет документ в формате Microsoft Word 97‑2007 Template. |
 | [DOTM](#DOTM) | Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов. |
 | [DOTX](#DOTX) | Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов). |
-| [EMF](#EMF) | Визуализирует страницу документа и сохраняет ее в виде векторного файла EMF (Enhanced Meta File). |
+| [EMF](#EMF) | Отрисовывает страницу документа и сохраняет её как векторный файл EMF (Enhanced Meta File). |
+| [EPS](#EPS) | Отрисовывает страницу документа и сохраняет её как EPS‑файл. |
 | [EPUB](#EPUB) | Сохраняет документ в формате EPUB. |
-| [FLAT_OPC](#FLAT-OPC) | Сохраняет документ в формате Office Open XML WordprocessingML, хранящемся в простом XML-файле, а не в ZIP-архиве. |
-| [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Сохраняет документ как документ Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-архиве. |
-| [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML-файле, а не в ZIP-архиве. |
-| [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML-файле, а не в ZIP-архиве. |
-| [GIF](#GIF) | Визуализирует страницу документа и сохраняет ее в виде файла GIF. |
+| [FLAT_OPC](#FLAT-OPC) | Сохраняет документ как Office Open XML WordprocessingML, хранящийся в плоском XML‑файле вместо ZIP‑пакета. |
+| [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Сохраняет документ как Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML‑файле вместо ZIP‑пакета. |
+| [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML‑файле вместо ZIP‑пакета. |
+| [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML‑файле вместо ZIP‑пакета. |
+| [GIF](#GIF) | Отрисовывает страницу документа и сохраняет её в файл GIF. |
 | [HTML](#HTML) | Сохраняет документ в формате HTML. |
-| [HTML_FIXED](#HTML-FIXED) | Сохраняет документ в формате HTML, используя абсолютно позиционированные элементы. |
-| [JPEG](#JPEG) | Визуализирует страницу документа и сохраняет ее как файл JPEG. |
+| [HTML_FIXED](#HTML-FIXED) | Сохраняет документ в формате HTML, используя абсолютно позиционированные элементы |
+| [JPEG](#JPEG) | Отрисовывает страницу документа и сохраняет её в файл JPEG. |
 | [MARKDOWN](#MARKDOWN) | Сохраняет документ в формате Markdown. |
-| [MHTML](#MHTML) | Сохраняет документ в формате MHTML (веб-архив). |
+| [MHTML](#MHTML) | Сохраняет документ в формате MHTML (веб‑архив). |
+| [MOBI](#MOBI) | Сохраняет документ в формате MOBI. |
 | [ODT](#ODT) | Сохраняет документ как текстовый документ ODF. |
-| [OPEN_XPS](#OPEN-XPS) | Сохраняет документ в формате OpenXPS (Ecma-388). |
+| [OPEN_XPS](#OPEN-XPS) | Сохраняет документ в формате OpenXPS (Ecma‑388). |
 | [OTT](#OTT) | Сохраняет документ как шаблон текстового документа ODF. |
-| [PCL](#PCL) | Сохраняет документ в формате PCL (язык управления принтером). |
+| [PCL](#PCL) | Сохраняет документ в формате PCL (Printer Control Language). |
 | [PDF](#PDF) | Сохраняет документ в формате PDF (Adobe Portable Document). |
-| [PNG](#PNG) | Отображает страницу документа и сохраняет ее в виде файла PNG. |
+| [PNG](#PNG) | Отрисовывает страницу документа и сохраняет её в файл PNG. |
 | [PS](#PS) | Сохраняет документ в формате PS (PostScript). |
 | [RTF](#RTF) | Сохраняет документ в формате RTF. |
-| [SVG](#SVG) | Сохраняет документ в формате Svg (масштабируемая векторная графика). |
-| [TEXT](#TEXT) | Сохраняет документ в текстовом формате. |
-| [TIFF](#TIFF) | Визуализирует страницу или страницы документа и сохраняет их в одно- или многостраничный файл TIFF. |
-| [UNKNOWN](#UNKNOWN) | По умолчанию, недопустимое значение для формата файла. |
+| [SVG](#SVG) | Сохраняет документ в формате SVG (Scalable Vector Graphics). |
+| [TEXT](#TEXT) | Сохраняет документ в формате обычного текста. |
+| [TIFF](#TIFF) | Отрисовывает одну или несколько страниц документа и сохраняет их в один многостраничный файл TIFF. |
+| [UNKNOWN](#UNKNOWN) | По умолчанию, недопустимое значение формата файла. |
+| [WEB_P](#WEB-P) | Отрисовывает страницу документа и сохраняет её в файл WebP. |
 | [WORD_ML](#WORD-ML) | Сохраняет документ в формате Microsoft Word 2003 WordprocessingML. |
 | [XAML_FIXED](#XAML-FIXED) | Сохраняет документ в формате Extensible Application Markup Language (XAML) как фиксированный документ. |
-| [XAML_FLOW](#XAML-FLOW) | **Beta.** Сохраняет документ в формате Extensible Application Markup Language (XAML) в виде потокового документа. |
-| [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.**Сохраняет документ в формате пакета Extensible Application Markup Language (XAML) в виде потокового документа. |
+| [XAML_FLOW](#XAML-FLOW) | **Beta.** Сохраняет документ в формате Extensible Application Markup Language (XAML) как потоковый документ. |
+| [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.** Сохраняет документ в формате пакета Extensible Application Markup Language (XAML) как потоковый документ. |
+| [XLSX](#XLSX) | Сохраняет документ как документ Office Open XML SpreadsheetML (без макросов). |
 | [XPS](#XPS) | Сохраняет документ в формате XPS (XML Paper Specification). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String saveFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int saveFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int saveFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String saveFormatName)](#fromName-java.lang.String) |  |
+| [getName(int saveFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int saveFormat)](#toString-int) |  |
 ### AZW_3 {#AZW-3}
 ```
 public static int AZW_3
@@ -87,7 +97,7 @@ public static int BMP
 ```
 
 
-Визуализирует страницу документа и сохраняет ее как файл BMP.
+Отрисовывает страницу документа и сохраняет её как BMP‑файл.
 
 ### DOC {#DOC}
 ```
@@ -95,7 +105,15 @@ public static int DOC
 ```
 
 
-Сохраняет документ в формате документа Microsoft Word 97 - 2007.
+Сохраняет документ в формате Microsoft Word 97‑2007 Document.
+
+### DOCLING {#DOCLING}
+```
+public static int DOCLING
+```
+
+
+Сохраняет документ в формате Docling JSON.
 
 ### DOCM {#DOCM}
 ```
@@ -119,7 +137,7 @@ public static int DOT
 ```
 
 
-Сохраняет документ в формате шаблона Microsoft Word 97 - 2007.
+Сохраняет документ в формате Microsoft Word 97‑2007 Template.
 
 ### DOTM {#DOTM}
 ```
@@ -143,7 +161,15 @@ public static int EMF
 ```
 
 
-Визуализирует страницу документа и сохраняет ее в виде векторного файла EMF (Enhanced Meta File).
+Отрисовывает страницу документа и сохраняет её как векторный файл EMF (Enhanced Meta File).
+
+### EPS {#EPS}
+```
+public static int EPS
+```
+
+
+Отрисовывает страницу документа и сохраняет её как EPS‑файл.
 
 ### EPUB {#EPUB}
 ```
@@ -159,7 +185,7 @@ public static int FLAT_OPC
 ```
 
 
-Сохраняет документ в формате Office Open XML WordprocessingML, хранящемся в простом XML-файле, а не в ZIP-архиве.
+Сохраняет документ как Office Open XML WordprocessingML, хранящийся в плоском XML‑файле вместо ZIP‑пакета.
 
 ### FLAT_OPC_MACRO_ENABLED {#FLAT-OPC-MACRO-ENABLED}
 ```
@@ -167,7 +193,7 @@ public static int FLAT_OPC_MACRO_ENABLED
 ```
 
 
-Сохраняет документ как документ Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-архиве.
+Сохраняет документ как Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML‑файле вместо ZIP‑пакета.
 
 ### FLAT_OPC_TEMPLATE {#FLAT-OPC-TEMPLATE}
 ```
@@ -175,7 +201,7 @@ public static int FLAT_OPC_TEMPLATE
 ```
 
 
-Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML-файле, а не в ZIP-архиве.
+Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML‑файле вместо ZIP‑пакета.
 
 ### FLAT_OPC_TEMPLATE_MACRO_ENABLED {#FLAT-OPC-TEMPLATE-MACRO-ENABLED}
 ```
@@ -183,7 +209,7 @@ public static int FLAT_OPC_TEMPLATE_MACRO_ENABLED
 ```
 
 
-Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML-файле, а не в ZIP-архиве.
+Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в плоском XML‑файле вместо ZIP‑пакета.
 
 ### GIF {#GIF}
 ```
@@ -191,7 +217,7 @@ public static int GIF
 ```
 
 
-Визуализирует страницу документа и сохраняет ее в виде файла GIF.
+Отрисовывает страницу документа и сохраняет её в файл GIF.
 
 ### HTML {#HTML}
 ```
@@ -207,7 +233,7 @@ public static int HTML_FIXED
 ```
 
 
-Сохраняет документ в формате HTML, используя абсолютно позиционированные элементы.
+Сохраняет документ в формате HTML, используя абсолютно позиционированные элементы
 
 ### JPEG {#JPEG}
 ```
@@ -215,7 +241,7 @@ public static int JPEG
 ```
 
 
-Визуализирует страницу документа и сохраняет ее как файл JPEG.
+Отрисовывает страницу документа и сохраняет её в файл JPEG.
 
 ### MARKDOWN {#MARKDOWN}
 ```
@@ -231,7 +257,15 @@ public static int MHTML
 ```
 
 
-Сохраняет документ в формате MHTML (веб-архив).
+Сохраняет документ в формате MHTML (веб‑архив).
+
+### MOBI {#MOBI}
+```
+public static int MOBI
+```
+
+
+Сохраняет документ в формате MOBI.
 
 ### ODT {#ODT}
 ```
@@ -247,7 +281,7 @@ public static int OPEN_XPS
 ```
 
 
-Сохраняет документ в формате OpenXPS (Ecma-388).
+Сохраняет документ в формате OpenXPS (Ecma‑388).
 
 ### OTT {#OTT}
 ```
@@ -263,7 +297,7 @@ public static int PCL
 ```
 
 
-Сохраняет документ в формате PCL (язык управления принтером).
+Сохраняет документ в формате PCL (Printer Control Language).
 
 ### PDF {#PDF}
 ```
@@ -279,7 +313,7 @@ public static int PNG
 ```
 
 
-Отображает страницу документа и сохраняет ее в виде файла PNG.
+Отрисовывает страницу документа и сохраняет её в файл PNG.
 
 ### PS {#PS}
 ```
@@ -295,7 +329,7 @@ public static int RTF
 ```
 
 
-Сохраняет документ в формате RTF. Все символы выше 7 бит экранируются как шестнадцатеричные символы или символы Unicode.
+Сохраняет документ в формате RTF. Все символы выше 7‑бит экранируются в виде шестнадцатеричных или Unicode‑символов.
 
 ### SVG {#SVG}
 ```
@@ -303,7 +337,7 @@ public static int SVG
 ```
 
 
-Сохраняет документ в формате Svg (масштабируемая векторная графика).
+Сохраняет документ в формате SVG (Scalable Vector Graphics).
 
 ### TEXT {#TEXT}
 ```
@@ -311,7 +345,7 @@ public static int TEXT
 ```
 
 
-Сохраняет документ в текстовом формате.
+Сохраняет документ в формате обычного текста.
 
 ### TIFF {#TIFF}
 ```
@@ -319,7 +353,7 @@ public static int TIFF
 ```
 
 
-Визуализирует страницу или страницы документа и сохраняет их в одно- или многостраничный файл TIFF.
+Отрисовывает одну или несколько страниц документа и сохраняет их в один многостраничный файл TIFF.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -327,7 +361,15 @@ public static int UNKNOWN
 ```
 
 
-По умолчанию, недопустимое значение для формата файла.
+По умолчанию, недопустимое значение формата файла.
+
+### WEB_P {#WEB-P}
+```
+public static int WEB_P
+```
+
+
+Отрисовывает страницу документа и сохраняет её в файл WebP.
 
 ### WORD_ML {#WORD-ML}
 ```
@@ -351,7 +393,7 @@ public static int XAML_FLOW
 ```
 
 
-**Beta.** Сохраняет документ в формате Extensible Application Markup Language (XAML) в виде потокового документа.
+**Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document.
 
 ### XAML_FLOW_PACK {#XAML-FLOW-PACK}
 ```
@@ -359,7 +401,15 @@ public static int XAML_FLOW_PACK
 ```
 
 
-**Beta.**Сохраняет документ в формате пакета Extensible Application Markup Language (XAML) в виде потокового документа.
+**Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.
+
+### XLSX {#XLSX}
+```
+public static int XLSX
+```
+
+
+Сохраняет документ как документ Office Open XML SpreadsheetML (без макросов).
 
 ### XPS {#XPS}
 ```
@@ -375,23 +425,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String saveFormatName) {#fromName-java.lang.String-}
+### fromName(String saveFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String saveFormatName)
 ```
@@ -399,25 +433,14 @@ public static int fromName(String saveFormatName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | saveFormatName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int saveFormat) {#getName-int-}
+**Returns:**
+int
+### getName(int saveFormat) {#getName-int}
 ```
 public static String getName(int saveFormat)
 ```
@@ -425,15 +448,14 @@ public static String getName(int saveFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -441,45 +463,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int saveFormat) {#toString-int-}
+**Returns:**
+int[]
+### toString(int saveFormat) {#toString-int}
 ```
 public static String toString(int saveFormat)
 ```
@@ -487,47 +473,10 @@ public static String toString(int saveFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

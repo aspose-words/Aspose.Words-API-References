@@ -1,56 +1,92 @@
 ---
-title: DocumentSecurity
-second_title: Справочник по API Aspose.Words для Java
-description: Используется как значение свойства /.
+title: "DocumentSecurity"
+linktitle: "DocumentSecurity"
+second_title: "Aspose.Words для Java"
+description: "Используется в качестве значения для свойства BuiltInDocumentProperties.getSecurity / BuiltInDocumentProperties.setSecurityint в Java."
 type: docs
-weight: 130
+weight: 173
 url: /ru/java/com.aspose.words/documentsecurity/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentSecurity
 ```
 
- Используется как значение для[BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-) имущество. Указывает уровень безопасности документа в виде числового значения.
+Используется в качестве значения для свойства [BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties/\#getSecurity) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties/\#setSecurity-int). Указывает уровень защиты документа в виде числового значения.
+
+ **Examples:** 
+
+Показывает, как использовать свойства документа для отображения уровня безопасности документа.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(DocumentSecurity.NONE, doc.getBuiltInDocumentProperties().getSecurity());
+
+ // If we configure a document to be read-only, it will display this status using the "Security" built-in property.
+ doc.getWriteProtection().setReadOnlyRecommended(true);
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyRecommended.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_RECOMMENDED,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyRecommended.docx").getBuiltInDocumentProperties().getSecurity());
+
+ // Write-protect a document, and then verify its security level.
+ doc = new Document();
+
+ Assert.assertFalse(doc.getWriteProtection().isWriteProtected());
+
+ doc.getWriteProtection().setPassword("MyPassword");
+
+ Assert.assertTrue(doc.getWriteProtection().validatePassword("MyPassword"));
+ Assert.assertTrue(doc.getWriteProtection().isWriteProtected());
+
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyEnforced.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_ENFORCED,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyEnforced.docx").getBuiltInDocumentProperties().getSecurity());
+
+ // "Security" is a descriptive property. We can edit its value manually.
+ doc = new Document();
+
+ doc.protect(ProtectionType.ALLOW_ONLY_COMMENTS, "MyPassword");
+ doc.getBuiltInDocumentProperties().setSecurity(DocumentSecurity.READ_ONLY_EXCEPT_ANNOTATIONS);
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_EXCEPT_ANNOTATIONS,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx").getBuiltInDocumentProperties().getSecurity());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [NONE](#NONE) | Свойство не указывает состояния безопасности. |
-| [PASSWORD_PROTECTED](#PASSWORD-PROTECTED) | Документ защищен паролем. |
-| [READ_ONLY_ENFORCED](#READ-ONLY-ENFORCED) | Документ всегда должен открываться только для чтения. |
-| [READ_ONLY_EXCEPT_ANNOTATIONS](#READ-ONLY-EXCEPT-ANNOTATIONS) | Документ всегда должен открываться только для чтения, за исключением аннотаций. |
-| [READ_ONLY_RECOMMENDED](#READ-ONLY-RECOMMENDED) | Документ должен быть открыт только для чтения, если это возможно, но этот параметр можно переопределить. |
+| [NONE](#NONE) | Свойство не определяет никаких состояний защиты. |
+| [PASSWORD_PROTECTED](#PASSWORD-PROTECTED) | Документ защищён паролем. |
+| [READ_ONLY_ENFORCED](#READ-ONLY-ENFORCED) | Документ всегда открывается только для чтения. |
+| [READ_ONLY_EXCEPT_ANNOTATIONS](#READ-ONLY-EXCEPT-ANNOTATIONS) | Документ всегда открывается только для чтения, за исключением аннотаций. |
+| [READ_ONLY_RECOMMENDED](#READ-ONLY-RECOMMENDED) | Документ открывается только для чтения, если это возможно, но настройка может быть переопределена. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String documentSecurityName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set documentSecurityNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int documentSecurity)](#getName-int-) |  |
-| [getNames(int documentSecurity)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int documentSecurity)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String documentSecurityName)](#fromName-java.lang.String) |  |
+| [fromNames(Set documentSecurityNames)](#fromNames-java.util.Set) |  |
+| [getName(int documentSecurity)](#getName-int) |  |
+| [getNames(int documentSecurity)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int documentSecurity)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
 ```
 
 
-Свойство не указывает состояния безопасности.
+Свойство не определяет никаких состояний защиты.
 
 ### PASSWORD_PROTECTED {#PASSWORD-PROTECTED}
 ```
@@ -58,7 +94,7 @@ public static int PASSWORD_PROTECTED
 ```
 
 
-Документ защищен паролем. (Примечание никогда не было замечено в документе до сих пор).
+Документ защищён паролем. (Примечание: до сих пор такой случай в документах не наблюдался.)
 
 ### READ_ONLY_ENFORCED {#READ-ONLY-ENFORCED}
 ```
@@ -66,7 +102,7 @@ public static int READ_ONLY_ENFORCED
 ```
 
 
-Документ всегда должен открываться только для чтения.
+Документ всегда открывается только для чтения.
 
 ### READ_ONLY_EXCEPT_ANNOTATIONS {#READ-ONLY-EXCEPT-ANNOTATIONS}
 ```
@@ -74,7 +110,7 @@ public static int READ_ONLY_EXCEPT_ANNOTATIONS
 ```
 
 
-Документ всегда должен открываться только для чтения, за исключением аннотаций.
+Документ всегда открывается только для чтения, за исключением аннотаций.
 
 ### READ_ONLY_RECOMMENDED {#READ-ONLY-RECOMMENDED}
 ```
@@ -82,7 +118,7 @@ public static int READ_ONLY_RECOMMENDED
 ```
 
 
-Документ должен быть открыт только для чтения, если это возможно, но этот параметр можно переопределить.
+Документ открывается только для чтения, если это возможно, но настройка может быть переопределена.
 
 ### length {#length}
 ```
@@ -90,23 +126,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String documentSecurityName) {#fromName-java.lang.String-}
+### fromName(String documentSecurityName) {#fromName-java.lang.String}
 ```
 public static int fromName(String documentSecurityName)
 ```
@@ -114,15 +134,14 @@ public static int fromName(String documentSecurityName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSecurityName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set documentSecurityNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set documentSecurityNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set documentSecurityNames)
 ```
@@ -130,25 +149,14 @@ public static int fromNames(Set documentSecurityNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSecurityNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int documentSecurity) {#getName-int-}
+**Returns:**
+int
+### getName(int documentSecurity) {#getName-int}
 ```
 public static String getName(int documentSecurity)
 ```
@@ -156,15 +164,14 @@ public static String getName(int documentSecurity)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int documentSecurity) {#getNames-int-}
+### getNames(int documentSecurity) {#getNames-int}
 ```
 public static Set getNames(int documentSecurity)
 ```
@@ -172,15 +179,14 @@ public static Set getNames(int documentSecurity)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -188,45 +194,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int documentSecurity) {#toString-int-}
+**Returns:**
+int[]
+### toString(int documentSecurity) {#toString-int}
 ```
 public static String toString(int documentSecurity)
 ```
@@ -234,15 +204,14 @@ public static String toString(int documentSecurity)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -250,47 +219,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

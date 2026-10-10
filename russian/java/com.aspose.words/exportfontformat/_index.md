@@ -1,43 +1,64 @@
 ---
-title: ExportFontFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает формат, который используется для экспорта шрифтов при отображении в фиксированный формат HTML.
+title: "ExportFontFormat"
+linktitle: "ExportFontFormat"
+second_title: "Aspose.Words для Java"
+description: "Указывает формат, используемый для экспорта шрифтов при рендеринге в фиксированный формат HTML на Java."
 type: docs
-weight: 148
+weight: 191
 url: /ru/java/com.aspose.words/exportfontformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ExportFontFormat
 ```
 
-Указывает формат, который используется для экспорта шрифтов при отображении в фиксированный формат HTML.
+Указывает формат, используемый для экспорта шрифтов при рендеринге в фиксированный формат HTML.
+
+ **Examples:** 
+
+Показывает, как использовать шрифты только с целевой машины при сохранении документа в HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+ {
+     saveOptions.setExportEmbeddedCss(true);
+     saveOptions.setUseTargetMachineFonts(useTargetMachineFonts);
+     saveOptions.setFontFormat(ExportFontFormat.TTF);
+     saveOptions.setExportEmbeddedFonts(false);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html"), StandardCharsets.UTF_8);
+
+ if (useTargetMachineFonts)
+     Assert.assertFalse(Pattern.compile("@font-face").matcher(outDocContents).find());
+ else
+     Assert.assertTrue(Pattern.compile(
+         "@font-face [{] font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'\u263a'[)], " +
+         "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; [}]").matcher(outDocContents).find());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [TTF](#TTF) | TTF (формат шрифта TrueType). |
-| [WOFF](#WOFF) | WOFF (формат веб-открытого шрифта). |
+| [WOFF](#WOFF) | WOFF (формат веб‑открытых шрифтов). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String exportFontFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int exportFontFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int exportFontFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String exportFontFormatName)](#fromName-java.lang.String) |  |
+| [getName(int exportFontFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int exportFontFormat)](#toString-int) |  |
 ### TTF {#TTF}
 ```
 public static int TTF
@@ -52,7 +73,7 @@ public static int WOFF
 ```
 
 
-WOFF (формат веб-открытого шрифта).
+WOFF (формат веб‑открытых шрифтов).
 
 ### length {#length}
 ```
@@ -60,23 +81,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String exportFontFormatName) {#fromName-java.lang.String-}
+### fromName(String exportFontFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String exportFontFormatName)
 ```
@@ -84,25 +89,14 @@ public static int fromName(String exportFontFormatName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | exportFontFormatName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int exportFontFormat) {#getName-int-}
+**Returns:**
+int
+### getName(int exportFontFormat) {#getName-int}
 ```
 public static String getName(int exportFontFormat)
 ```
@@ -110,15 +104,14 @@ public static String getName(int exportFontFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | exportFontFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +119,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int exportFontFormat) {#toString-int-}
+**Returns:**
+int[]
+### toString(int exportFontFormat) {#toString-int}
 ```
 public static String toString(int exportFontFormat)
 ```
@@ -172,47 +129,10 @@ public static String toString(int exportFontFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | exportFontFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

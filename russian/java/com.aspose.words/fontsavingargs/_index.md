@@ -1,77 +1,117 @@
 ---
-title: FontSavingArgs
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет данные для события.
+title: "FontSavingArgs"
+linktitle: "FontSavingArgs"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет данные для события IFontSavingCallback.fontSavingcom.aspose.words.FontSavingArgs в Java."
 type: docs
-weight: 285
+weight: 331
 url: /ru/java/com.aspose.words/fontsavingargs/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FontSavingArgs
 ```
 
- Предоставляет данные для[IFontSavingCallback.fontSaving(com.aspose.words.FontSavingArgs)](../../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs-) мероприятие.
+Предоставляет данные для события [IFontSavingCallback.fontSaving(com.aspose.words.FontSavingArgs)](../../com.aspose.words/ifontsavingcallback/\\#fontSaving-com.aspose.words.FontSavingArgs).
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
 
- Когда Aspose.Words сохраняет документ в HTML или родственных форматах и[HtmlSaveOptions.getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [HtmlSaveOptions.setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) установлен на**true**, он сохраняет каждую тему шрифта для экспорта в отдельный файл.
+ **Remarks:** 
 
-[FontSavingArgs](../../com.aspose.words/fontsavingargs) определяет, следует ли экспортировать конкретный ресурс шрифта и каким образом.
+Когда Aspose.Words сохраняет документ в HTML или связанные форматы и [HtmlSaveOptions.getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\\#getExportFontResources) / [HtmlSaveOptions.setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\\#setExportFontResources-boolean) установлен в true, он сохраняет каждый шрифт, предназначенный для экспорта, в отдельный файл.
 
-[FontSavingArgs](../../com.aspose.words/fontsavingargs) также позволяет переопределить, как генерируются имена файлов шрифтов, или полностью обойти сохранение шрифтов в файлы, предоставив свои собственные потоковые объекты.
+[FontSavingArgs](../../com.aspose.words/fontsavingargs/) controls whether particular font resource should be exported and how.
 
- Чтобы решить, сохранять ли конкретный ресурс шрифта, используйте[isExportNeeded()](../../com.aspose.words/fontsavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isExportNeeded-boolean-) имущество.
+[FontSavingArgs](../../com.aspose.words/fontsavingargs/) also allows to redefine how font file names are generated or to completely circumvent saving of fonts into files by providing your own stream objects.
 
- Чтобы сохранить шрифты в потоки, а не в файлы, используйте**P:Aspose.Words.Saving.FontSavingArgs.FontStream** имущество.
+Чтобы решить, сохранять ли конкретный ресурс шрифта, используйте свойство [isExportNeeded()](../../com.aspose.words/fontsavingargs/\\#isExportNeeded) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs/\\#isExportNeeded-boolean).
+
+Чтобы сохранять шрифты в потоки вместо файлов, используйте свойство **P:Aspose.Words.Saving.FontSavingArgs.FontStream**.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBold()](#getBold--) | Указывает, является ли текущий шрифт полужирным. |
-| [getClass()](#getClass--) |  |
-| [getDocument()](#getDocument--) | Получает сохраняемый объект документа. |
-| [getFontFamilyName()](#getFontFamilyName--) | Указывает текущее имя семейства шрифтов. |
-| [getFontFileName()](#getFontFileName--) | Получает имя файла (без пути), в котором будет сохранен шрифт. |
-| [getFontStream()](#getFontStream--) |  |
-| [getItalic()](#getItalic--) | Указывает, является ли текущий шрифт курсивом. |
-| [getKeepFontStreamOpen()](#getKeepFontStreamOpen--) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения шрифта. |
-| [getOriginalFileName()](#getOriginalFileName--) | Получает исходное имя файла шрифта с расширением. |
-| [getOriginalFileSize()](#getOriginalFileSize--) | Получает исходный размер файла шрифта. |
-| [hashCode()](#hashCode--) |  |
-| [isExportNeeded()](#isExportNeeded--) | Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. |
-| [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. |
-| [isSubsettingNeeded()](#isSubsettingNeeded--) | Позволяет указать, будет ли текущий шрифт подмножаться перед экспортом в качестве ресурса шрифта. |
-| [isSubsettingNeeded(boolean value)](#isSubsettingNeeded-boolean-) | Позволяет указать, будет ли текущий шрифт подмножаться перед экспортом в качестве ресурса шрифта. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setFontFileName(String value)](#setFontFileName-java.lang.String-) | Устанавливает имя файла (без пути), в котором будет сохранен шрифт. |
-| [setFontStream(OutputStream value)](#setFontStream-java.io.OutputStream-) |  |
-| [setKeepFontStreamOpen(boolean value)](#setKeepFontStreamOpen-boolean-) | Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения шрифта. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getBold() {#getBold--}
+| [getBold()](#getBold) | Указывает, является ли текущий шрифт полужирным. |
+| [getDocument()](#getDocument) | Получает объект документа, который сохраняется. |
+| [getFontFamilyName()](#getFontFamilyName) | Указывает название текущего семейства шрифта. |
+| [getFontFileName()](#getFontFileName) | Получает имя файла (без пути), в который будет сохранён шрифт. |
+| [getFontStream()](#getFontStream) |  |
+| [getItalic()](#getItalic) | Указывает, является ли текущий шрифт курсивным. |
+| [getKeepFontStreamOpen()](#getKeepFontStreamOpen) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения шрифта. |
+| [getOriginalFileName()](#getOriginalFileName) | Получает оригинальное имя файла шрифта с расширением. |
+| [getOriginalFileSize()](#getOriginalFileSize) | Получает оригинальный размер файла шрифта. |
+| [isExportNeeded()](#isExportNeeded) | Позволяет указать, будет ли текущий шрифт экспортирован как ресурс шрифта. |
+| [isExportNeeded(boolean value)](#isExportNeeded-boolean) | Позволяет указать, будет ли текущий шрифт экспортирован как ресурс шрифта. |
+| [isSubsettingNeeded()](#isSubsettingNeeded) | Позволяет указать, будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта. |
+| [isSubsettingNeeded(boolean value)](#isSubsettingNeeded-boolean) | Позволяет указать, будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта. |
+| [setFontFileName(String value)](#setFontFileName-java.lang.String) | Устанавливает имя файла (без пути), в который будет сохранён шрифт. |
+| [setFontStream(OutputStream value)](#setFontStream-java.io.OutputStream) |  |
+| [setKeepFontStreamOpen(boolean value)](#setKeepFontStreamOpen-boolean) | Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения шрифта. |
+### getBold() {#getBold}
 ```
 public boolean getBold()
 ```
@@ -79,63 +119,291 @@ public boolean getBold()
 
 Указывает, является ли текущий шрифт полужирным.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
 ```
-public final native Class<?> getClass()
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDocument() {#getDocument--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getDocument() {#getDocument}
 ```
 public Document getDocument()
 ```
 
 
-Получает сохраняемый объект документа.
+Получает объект документа, который сохраняется.
 
-**Возвращает:**
-[Document](../../com.aspose.words/document) - Сохраняемый объект документа.
-### getFontFamilyName() {#getFontFamilyName--}
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+[Document](../../com.aspose.words/document/) - The document object that is being saved.
+### getFontFamilyName() {#getFontFamilyName}
 ```
 public String getFontFamilyName()
 ```
 
 
-Указывает текущее имя семейства шрифтов.
+Указывает название текущего семейства шрифта.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getFontFileName() {#getFontFileName--}
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getFontFileName() {#getFontFileName}
 ```
 public String getFontFileName()
 ```
 
 
-Получает имя файла (без пути), в котором будет сохранен шрифт.
+Получает имя файла (без пути), в который будет сохранён шрифт.
 
-Это свойство позволяет переопределить способ генерации имен файлов шрифтов при экспорте в HTML.
+ **Remarks:** 
 
-Когда событие запускается, это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить шрифт в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
+Это свойство позволяет переопределить способ генерации имён файлов шрифтов при экспорте в HTML.
 
-Aspose.Words автоматически генерирует уникальное имя файла для каждого встроенного шрифта при экспорте в формат HTML. Способ генерации имени файла шрифта зависит от того, сохраняете ли вы документ в файл или в поток.
+Когда событие вызывается, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить шрифт в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
 
-При сохранении документа в файл сгенерированное имя файла шрифта выглядит так:*..*.
+Aspose.Words автоматически генерирует уникальное имя файла для каждого встроенного шрифта при экспорте в формат HTML. Как генерируется имя файла шрифта, зависит от того, сохраняете ли вы документ в файл или в поток.
 
- При сохранении документа в поток сгенерированное имя файла шрифта выглядит так:*Aspose.Words...*.
+При сохранении документа в файл сгенерированное имя файла шрифта выглядит как *..*.
 
-[getFontFileName()](../../com.aspose.words/fontsavingargs\#getFontFileName--) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs\#setFontFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения по имени файла документа,[HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) а также[HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) характеристики.
+При сохранении документа в поток сгенерированное имя файла шрифта выглядит как *Aspose.Words...*.
+
+[getFontFileName()](../../com.aspose.words/fontsavingargs/\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs/\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
-**Возвращает:**
-java.lang.String — имя файла (без пути), в котором будет сохранен шрифт.
-### getFontStream() {#getFontStream--}
+**Returns:**
+java.lang.String — имя файла (без пути), в который будет сохранён шрифт.
+### getFontStream() {#getFontStream}
 ```
 public OutputStream getFontStream()
 ```
@@ -143,167 +411,681 @@ public OutputStream getFontStream()
 
 
 
-**Возвращает:**
+**Returns:**
 java.io.OutputStream
-### getItalic() {#getItalic--}
+### getItalic() {#getItalic}
 ```
 public boolean getItalic()
 ```
 
 
-Указывает, является ли текущий шрифт курсивом.
+Указывает, является ли текущий шрифт курсивным.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getKeepFontStreamOpen() {#getKeepFontStreamOpen--}
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getKeepFontStreamOpen() {#getKeepFontStreamOpen}
 ```
 public boolean getKeepFontStreamOpen()
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения шрифта.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения шрифта.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.FontSavingArgs.FontStream** свойство после записи в него шрифта. Укажите значение true, чтобы поток оставался открытым.
+ **Remarks:** 
+
+По умолчанию false, и Aspose.Words закроет поток, который вы предоставили в свойстве **P:Aspose.Words.Saving.FontSavingArgs.FontStream** после записи в него шрифта. Укажите true, чтобы оставить поток открытым.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getOriginalFileName() {#getOriginalFileName--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getOriginalFileName() {#getOriginalFileName}
 ```
 public String getOriginalFileName()
 ```
 
 
-Получает исходное имя файла шрифта с расширением.
+Получает оригинальное имя файла шрифта с расширением.
 
-Это свойство содержит исходное имя файла текущего шрифта, если оно известно. В противном случае это может быть пустая строка.
+ **Remarks:** 
 
-**Возвращает:**
-java.lang.String — исходное имя файла шрифта с расширением.
-### getOriginalFileSize() {#getOriginalFileSize--}
+Это свойство содержит оригинальное имя файла текущего шрифта, если оно известно. В противном случае оно может быть пустой строкой.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — оригинальное имя файла шрифта с расширением.
+### getOriginalFileSize() {#getOriginalFileSize}
 ```
 public int getOriginalFileSize()
 ```
 
 
-Получает исходный размер файла шрифта.
+Получает оригинальный размер файла шрифта.
 
-Это свойство содержит исходный размер файла текущего шрифта, если он известен. В противном случае он может быть равен нулю.
+ **Remarks:** 
 
-**Возвращает:**
-int - Исходный размер файла шрифта.
-### hashCode() {#hashCode--}
+Это свойство содержит оригинальный размер файла текущего шрифта, если он известен. В противном случае он может быть нулём.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
 ```
-public native int hashCode()
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isExportNeeded() {#isExportNeeded--}
+**Returns:**
+int — оригинальный размер файла шрифта.
+### isExportNeeded() {#isExportNeeded}
 ```
 public boolean isExportNeeded()
 ```
 
 
-Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчанию верно.
+Позволяет указать, будет ли текущий шрифт экспортирован как ресурс шрифта. По умолчанию true.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isExportNeeded(boolean value) {#isExportNeeded-boolean-}
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isExportNeeded(boolean value) {#isExportNeeded-boolean}
 ```
 public void isExportNeeded(boolean value)
 ```
 
 
-Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчанию верно.
+Позволяет указать, будет ли текущий шрифт экспортирован как ресурс шрифта. По умолчанию true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### isSubsettingNeeded() {#isSubsettingNeeded--}
+### isSubsettingNeeded() {#isSubsettingNeeded}
 ```
 public boolean isSubsettingNeeded()
 ```
 
 
-Позволяет указать, будет ли текущий шрифт подмножаться перед экспортом в качестве ресурса шрифта.
+Позволяет указать, будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта.
 
-Шрифты можно экспортировать как полные исходные файлы шрифтов или подмножества, чтобы включить только символы, которые используются в документе. Подмножество позволяет уменьшить результирующий размер ресурса шрифта.
+ **Remarks:** 
 
- По умолчанию Aspose.Words решает, выполнять ли подмножество или нет, сравнивая исходный размер файла шрифта с размером, указанным в[HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-) . Вы можете переопределить это поведение для отдельных шрифтов, установив[isSubsettingNeeded()](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded--) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded-boolean-) имущество.
+Шрифты могут быть экспортированы как полные оригинальные файлы шрифтов или как подмножества, включающие только символы, используемые в документе. Подмножество позволяет уменьшить размер получаемого ресурса шрифта.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isSubsettingNeeded(boolean value) {#isSubsettingNeeded-boolean-}
+По умолчанию Aspose.Words решает, выполнять ли подмножество, сравнивая оригинальный размер файла шрифта с указанным в [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int). Вы можете переопределить это поведение для отдельных шрифтов, установив свойство [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded-boolean).
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isSubsettingNeeded(boolean value) {#isSubsettingNeeded-boolean}
 ```
 public void isSubsettingNeeded(boolean value)
 ```
 
 
-Позволяет указать, будет ли текущий шрифт подмножаться перед экспортом в качестве ресурса шрифта.
+Позволяет указать, будет ли текущий шрифт подмножеством перед экспортом в качестве ресурса шрифта.
 
-Шрифты можно экспортировать как полные исходные файлы шрифтов или подмножества, чтобы включить только символы, которые используются в документе. Подмножество позволяет уменьшить результирующий размер ресурса шрифта.
+ **Remarks:** 
 
- По умолчанию Aspose.Words решает, выполнять ли подмножество или нет, сравнивая исходный размер файла шрифта с размером, указанным в[HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-) . Вы можете переопределить это поведение для отдельных шрифтов, установив[isSubsettingNeeded()](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded--) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded-boolean-) имущество.
+Шрифты могут быть экспортированы как полные оригинальные файлы шрифтов или как подмножества, включающие только символы, используемые в документе. Подмножество позволяет уменьшить размер получаемого ресурса шрифта.
 
-**Параметры:**
+По умолчанию Aspose.Words решает, выполнять ли подмножество, сравнивая оригинальный размер файла шрифта с указанным в [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int). Вы можете переопределить это поведение для отдельных шрифтов, установив свойство [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded-boolean).
 
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setFontFileName(String value) {#setFontFileName-java.lang.String-}
+### setFontFileName(String value) {#setFontFileName-java.lang.String}
 ```
 public void setFontFileName(String value)
 ```
 
 
-Устанавливает имя файла (без пути), в котором будет сохранен шрифт.
+Устанавливает имя файла (без пути), в который будет сохранён шрифт.
 
-Это свойство позволяет переопределить способ генерации имен файлов шрифтов при экспорте в HTML.
+ **Remarks:** 
 
-Когда событие запускается, это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить шрифт в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
+Это свойство позволяет переопределить способ генерации имён файлов шрифтов при экспорте в HTML.
 
-Aspose.Words автоматически генерирует уникальное имя файла для каждого встроенного шрифта при экспорте в формат HTML. Способ генерации имени файла шрифта зависит от того, сохраняете ли вы документ в файл или в поток.
+Когда событие вызывается, это свойство содержит имя файла, сгенерированное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить шрифт в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
 
-При сохранении документа в файл сгенерированное имя файла шрифта выглядит так:*..*.
+Aspose.Words автоматически генерирует уникальное имя файла для каждого встроенного шрифта при экспорте в формат HTML. Как генерируется имя файла шрифта, зависит от того, сохраняете ли вы документ в файл или в поток.
 
- При сохранении документа в поток сгенерированное имя файла шрифта выглядит так:*Aspose.Words...*.
+При сохранении документа в файл сгенерированное имя файла шрифта выглядит как *..*.
 
-[getFontFileName()](../../com.aspose.words/fontsavingargs\#getFontFileName--) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs\#setFontFileName-java.lang.String-) должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения по имени файла документа,[HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) а также[HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) характеристики.
+При сохранении документа в поток сгенерированное имя файла шрифта выглядит как *Aspose.Words...*.
+
+[getFontFileName()](../../com.aspose.words/fontsavingargs/\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs/\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Имя файла (без пути), в котором будет сохранен шрифт. |
+| значение | java.lang.String | Имя файла (без пути), в который будет сохранён шрифт. |
 
-### setFontStream(OutputStream value) {#setFontStream-java.io.OutputStream-}
+### setFontStream(OutputStream value) {#setFontStream-java.io.OutputStream}
 ```
 public void setFontStream(OutputStream value)
 ```
@@ -311,73 +1093,86 @@ public void setFontStream(OutputStream value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.io.OutputStream |  |
+| значение | java.io.OutputStream |  |
 
-### setKeepFontStreamOpen(boolean value) {#setKeepFontStreamOpen-boolean-}
+### setKeepFontStreamOpen(boolean value) {#setKeepFontStreamOpen-boolean}
 ```
 public void setKeepFontStreamOpen(boolean value)
 ```
 
 
-Указывает, должен ли Aspose.Words оставить поток открытым или закрыть его после сохранения шрифта.
+Указывает, должен ли Aspose.Words оставлять поток открытым или закрывать его после сохранения шрифта.
 
- По умолчанию установлено значение false, и Aspose.Words закроет поток, указанный вами в**P:Aspose.Words.Saving.FontSavingArgs.FontStream** свойство после записи в него шрифта. Укажите значение true, чтобы поток оставался открытым.
+ **Remarks:** 
+
+По умолчанию false, и Aspose.Words закроет поток, который вы предоставили в свойстве **P:Aspose.Words.Saving.FontSavingArgs.FontStream** после записи в него шрифта. Укажите true, чтобы оставить поток открытым.
+
+ **Examples:** 
+
+Показывает, как определить пользовательскую логику экспорта шрифтов при сохранении в HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,52 +1,82 @@
 ---
-title: SdtDateStorageFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как дата для SDT даты сохраняется/извлекается, когда SDT привязан к узлу XML в хранилище данных документов.
+title: "SdtDateStorageFormat"
+linktitle: "SdtDateStorageFormat"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как дата для date SDT хранится/извлекается, когда SDT привязан к узлу XML в хранилище данных документа в Java."
 type: docs
-weight: 505
+weight: 601
 url: /ru/java/com.aspose.words/sdtdatestorageformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SdtDateStorageFormat
 ```
 
-Указывает, как дата для SDT даты сохраняется/извлекается, когда SDT привязан к узлу XML в хранилище данных документа.
+Указывает, как дата для SDT типа «date» хранится/извлекается, когда SDT привязан к узлу XML в хранилище данных документа.
+
+ **Examples:** 
+
+Показывает, как запросить у пользователя ввод даты с помощью структурного тега документа.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a structured document tag that prompts the user to enter a date.
+ // In Microsoft Word, this element is known as a "Date picker content control".
+ // When we click on the arrow on the right end of this tag in Microsoft Word,
+ // we will see a pop up in the form of a clickable calendar.
+ // We can use that popup to select a date that the tag will display.
+ StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.DATE, MarkupLevel.INLINE);
+
+ // Display the date, according to the Saudi Arabian Arabic locale.
+ sdtDate.setDateDisplayLocale(1025);
+
+ // Set the format with which to display the date.
+ sdtDate.setDateDisplayFormat("dd MMMM, yyyy");
+ sdtDate.setDateStorageFormat(SdtDateStorageFormat.DATE_TIME);
+
+ // Display the date according to the Hijri calendar.
+ sdtDate.setCalendarType(SdtCalendarType.HIJRI);
+
+ // Before the user chooses a date in Microsoft Word, the tag will display the text "Click here to enter a date.".
+ // According to the tag's calendar, set the "FullDate" property to get the tag to display a default date.
+ Calendar cal = Calendar.getInstance();
+ cal.set(1440, 10, 20);
+ sdtDate.setFullDate(cal.getTime());
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(sdtDate);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.Date.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [DATE](#DATE) | Значение даты для SDT даты хранится как дата в стандартном формате даты схемы XML. |
-| [DATE_TIME](#DATE-TIME) | Значение даты для SDT даты хранится как дата в стандартном формате XML Schema DateTime. |
-| [DEFAULT](#DEFAULT) |  По умолчанию[DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME) |
-| [TEXT](#TEXT) | Значение даты для SDT даты хранится в виде текста. |
+| [DATE](#DATE) | Значение даты для date SDT хранится как дата в стандартном формате XML Schema Date. |
+| [DATE_TIME](#DATE-TIME) | Значение даты для date SDT хранится как дата в стандартном формате XML Schema DateTime. |
+| [DEFAULT](#DEFAULT) | По умолчанию: [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat/\#DATE-TIME) |
+| [TEXT](#TEXT) | Значение даты для date SDT хранится как текст. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sdtDateStorageFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int sdtDateStorageFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int sdtDateStorageFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String sdtDateStorageFormatName)](#fromName-java.lang.String) |  |
+| [getName(int sdtDateStorageFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int sdtDateStorageFormat)](#toString-int) |  |
 ### DATE {#DATE}
 ```
 public static int DATE
 ```
 
 
-Значение даты для SDT даты хранится как дата в стандартном формате даты схемы XML.
+Значение даты для date SDT хранится как дата в стандартном формате XML Schema Date.
 
 ### DATE_TIME {#DATE-TIME}
 ```
@@ -54,7 +84,7 @@ public static int DATE_TIME
 ```
 
 
-Значение даты для SDT даты хранится как дата в стандартном формате XML Schema DateTime.
+Значение даты для date SDT хранится как дата в стандартном формате XML Schema DateTime.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +92,7 @@ public static int DEFAULT
 ```
 
 
- По умолчанию[DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
+По умолчанию: [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat/\#DATE-TIME)
 
 ### TEXT {#TEXT}
 ```
@@ -70,7 +100,7 @@ public static int TEXT
 ```
 
 
-Значение даты для SDT даты хранится в виде текста.
+Значение даты для date SDT хранится как текст.
 
 ### length {#length}
 ```
@@ -78,23 +108,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String sdtDateStorageFormatName) {#fromName-java.lang.String-}
+### fromName(String sdtDateStorageFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String sdtDateStorageFormatName)
 ```
@@ -102,25 +116,14 @@ public static int fromName(String sdtDateStorageFormatName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtDateStorageFormatName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int sdtDateStorageFormat) {#getName-int-}
+**Returns:**
+int
+### getName(int sdtDateStorageFormat) {#getName-int}
 ```
 public static String getName(int sdtDateStorageFormat)
 ```
@@ -128,15 +131,14 @@ public static String getName(int sdtDateStorageFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtDateStorageFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +146,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int sdtDateStorageFormat) {#toString-int-}
+**Returns:**
+int[]
+### toString(int sdtDateStorageFormat) {#toString-int}
 ```
 public static String toString(int sdtDateStorageFormat)
 ```
@@ -190,47 +156,10 @@ public static String toString(int sdtDateStorageFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtDateStorageFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

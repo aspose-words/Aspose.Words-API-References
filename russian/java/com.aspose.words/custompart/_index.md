@@ -1,93 +1,152 @@
 ---
-title: CustomPart
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет пользовательскую произвольную часть содержимого, которая не определена стандартом ISO/IEC 29500.
+title: "CustomPart"
+linktitle: "CustomPart"
+second_title: "Aspose.Words для Java"
+description: "Представляет пользовательскую произвольную часть содержимого, которая не определена стандартом ISO/IEC 29500 в Java."
 type: docs
-weight: 102
+weight: 141
 url: /ru/java/com.aspose.words/custompart/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class CustomPart implements Cloneable
 ```
 
-Представляет пользовательскую часть (произвольное содержимое), которая не определена стандартом ISO/IEC 29500.
+Представляет пользовательскую (произвольного содержания) часть, которая не определена стандартом ISO/IEC 29500.
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
 
-Этот класс представляет часть OOXML, которая является целью "неизвестной связи". Все отношения, не определенные в ISO/IEC 29500, считаются «неизвестными отношениями». Неизвестные отношения разрешены в документе Office Open XML при условии, что они соответствуют рекомендациям по разметке отношений.
+ **Remarks:** 
 
-Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Некоторую дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+Этот класс представляет часть OOXML, являющуюся целью «неизвестного отношения». Все отношения, не определённые в ISO/IEC 29500, считаются «неизвестными отношениями». Неизвестные отношения допускаются в документе Office Open XML при условии соответствия рекомендациям по разметке отношений.
 
- Aspose.Words также поддерживает пользовательские части и, кроме того, позволяет программно обращаться к таким частям через[CustomPart](../../com.aspose.words/custompart) а также[CustomPartCollection](../../com.aspose.words/custompartcollection) объекты.
+Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
- Не путайте пользовательские части с пользовательскими XML-данными. Использовать[CustomXmlPart](../../com.aspose.words/customxmlpart)если вам нужен доступ к пользовательским XML-данным.
+Aspose.Words также поддерживает передачу пользовательских частей и, кроме того, позволяет программно получать доступ к таким частям через объекты [CustomPart](../../com.aspose.words/custompart/) и [CustomPartCollection](../../com.aspose.words/custompartcollection/).
+
+Не путайте пользовательские части с данными Custom XML. Используйте [CustomXmlPart](../../com.aspose.words/customxmlpart/), если необходимо получить доступ к данным Custom XML.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) | Делает «достаточно глубокую» копию объекта. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Указывает тип содержимого этой пользовательской части. |
-| [getData()](#getData--) | Содержит данные этой пользовательской детали. |
-| [getName()](#getName--) | Получает абсолютное имя этой части в пакете OOXML или целевой URL-адрес. |
-| [getRelationshipType()](#getRelationshipType--) | Получает тип отношения от родительской части к этой пользовательской части. |
-| [hashCode()](#hashCode--) |  |
-| [isExternal()](#isExternal--) | \{ False, если эта пользовательская часть хранится внутри пакета OOXML. |
-| [isExternal(boolean value)](#isExternal-boolean-) | \{ False, если эта пользовательская часть хранится внутри пакета OOXML. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setContentType(String value)](#setContentType-java.lang.String-) | Указывает тип содержимого этой пользовательской части. |
-| [setData(byte[] value)](#setData-byte---) | Содержит данные этой пользовательской детали. |
-| [setName(String value)](#setName-java.lang.String-) | Задает абсолютное имя этой части в пакете OOXML или целевой URL. |
-| [setRelationshipType(String value)](#setRelationshipType-java.lang.String-) | Задает тип отношения от родительской части к этой пользовательской части. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### deepClone() {#deepClone--}
+| [deepClone()](#deepClone) | Создаёт «достаточно глубокую» копию объекта. |
+| [getContentType()](#getContentType) | Указывает тип содержимого этой пользовательской части. |
+| [getData()](#getData) | Содержит данные этой пользовательской части. |
+| [getName()](#getName) | Получает абсолютное имя этой части внутри пакета OOXML или целевой URL. |
+| [getRelationshipType()](#getRelationshipType) | Получает тип отношения от родительской части к этой пользовательской части. |
+| [isExternal()](#isExternal) | Ложно, если эта пользовательская часть хранится внутри пакета OOXML. |
+| [isExternal(boolean value)](#isExternal-boolean) | Ложно, если эта пользовательская часть хранится внутри пакета OOXML. |
+| [setContentType(String value)](#setContentType-java.lang.String) | Указывает тип содержимого этой пользовательской части. |
+| [setData(byte[] value)](#setData-byte) | Содержит данные этой пользовательской части. |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает абсолютное имя этой части внутри пакета OOXML или целевой URL. |
+| [setRelationshipType(String value)](#setRelationshipType-java.lang.String) | Устанавливает тип отношения от родительской части к этой пользовательской части. |
+### deepClone() {#deepClone}
 ```
 public CustomPart deepClone()
 ```
 
 
- Делает «достаточно глубокую» копию объекта. Не дублирует байты[getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---) ценность.
+Создаёт «достаточно глубокую» копию объекта. Не дублирует байты значения [getData()](../../com.aspose.words/custompart/\#getData) / [setData(byte[])](../../com.aspose.words/custompart/\#setData-byte).
 
-**Возвращает:**
-[CustomPart](../../com.aspose.words/custompart)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
 
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
 
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
 
-**Возвращает:**
-java.lang.Класс<?>
-### getContentType() {#getContentType--}
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
+[CustomPart](../../com.aspose.words/custompart/)
+### getContentType() {#getContentType}
 ```
 public String getContentType()
 ```
@@ -95,41 +154,179 @@ public String getContentType()
 
 Указывает тип содержимого этой пользовательской части.
 
- Это свойство применимо только тогда, когда[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) является ложным.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Это свойство применимо только когда [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) равно false.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getData() {#getData--}
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getData() {#getData}
 ```
 public byte[] getData()
 ```
 
 
-Содержит данные этой пользовательской детали.
+Содержит данные этой пользовательской части.
 
- Это свойство применимо только тогда, когда[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) является ложным.
+ **Remarks:** 
 
-Значение по умолчанию — пустой массив байтов. Значение не может быть нулевым.
+Это свойство применимо только когда [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) равно false.
 
-**Возвращает:**
-байт[] - соответствующий байт[] ценность.
-### getName() {#getName--}
+Значение по умолчанию — пустой массив байтов. Значение не может быть null.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
+byte[] — соответствующее значение byte[].
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
-Получает абсолютное имя этой части в пакете OOXML или целевой URL-адрес.
+Получает абсолютное имя этой части внутри пакета OOXML или целевой URL.
 
-Если цель связи является внутренней, то это свойство является абсолютным именем части в пакете. Если цель отношения является внешней, то это свойство является целевым URL-адресом.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Если цель отношения внутренняя, то это свойство представляет собой абсолютное имя части внутри пакета. Если цель отношения внешняя, то это свойство представляет собой целевой URL.
 
-**Возвращает:**
-java.lang.String — абсолютное имя этой части в пакете OOXML или целевой URL.
-### getRelationshipType() {#getRelationshipType--}
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
+java.lang.String — абсолютное имя этой части внутри пакета OOXML или целевой URL.
+### getRelationshipType() {#getRelationshipType}
 ```
 public String getRelationshipType()
 ```
@@ -137,67 +334,178 @@ public String getRelationshipType()
 
 Получает тип отношения от родительской части к этой пользовательской части.
 
-Тип отношения для пользовательской детали должен быть «неизвестным», например, тип отношения пользователя, а не один из типов отношений, определенных в ISO/IEC 29500.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Тип отношения для пользовательской части должен быть «unknown», например пользовательский тип отношения, а не один из типов отношений, определённых в ISO/IEC 29500.
 
-**Возвращает:**
-java.lang.String — тип отношения между родительской частью и этой настраиваемой частью.
-### hashCode() {#hashCode--}
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isExternal() {#isExternal--}
+**Returns:**
+java.lang.String — тип отношения от родительской части к этой пользовательской части.
+### isExternal() {#isExternal}
 ```
 public boolean isExternal()
 ```
 
 
-\{ False, если эта пользовательская часть хранится внутри пакета OOXML. True, если эта настраиваемая часть является внешней целью.
+Ложно, если эта пользовательская часть хранится внутри пакета OOXML. Истинно, если эта пользовательская часть является внешней целью.
 
-Значение по умолчанию неверно .
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isExternal(boolean value) {#isExternal-boolean-}
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isExternal(boolean value) {#isExternal-boolean}
 ```
 public void isExternal(boolean value)
 ```
 
 
-\{ False, если эта пользовательская часть хранится внутри пакета OOXML. True, если эта настраиваемая часть является внешней целью.
+Ложно, если эта пользовательская часть хранится внутри пакета OOXML. Истинно, если эта пользовательская часть является внешней целью.
 
-Значение по умолчанию неверно .
+ **Remarks:** 
 
-**Параметры:**
+Значение по умолчанию — false.
 
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setContentType(String value) {#setContentType-java.lang.String-}
+### setContentType(String value) {#setContentType-java.lang.String}
 ```
 public void setContentType(String value)
 ```
@@ -205,113 +513,247 @@ public void setContentType(String value)
 
 Указывает тип содержимого этой пользовательской части.
 
- Это свойство применимо только тогда, когда[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) является ложным.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Это свойство применимо только когда [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) равно false.
 
-**Параметры:**
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
 
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setData(byte[] value) {#setData-byte---}
+### setData(byte[] value) {#setData-byte}
 ```
 public void setData(byte[] value)
 ```
 
 
-Содержит данные этой пользовательской детали.
+Содержит данные этой пользовательской части.
 
- Это свойство применимо только тогда, когда[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) является ложным.
+ **Remarks:** 
 
-Значение по умолчанию — пустой массив байтов. Значение не может быть нулевым.
+Это свойство применимо только когда [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) равно false.
 
-**Параметры:**
+Значение по умолчанию — пустой массив байтов. Значение не может быть null.
 
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | byte[] | Соответствующий байт[] ценность. |
+| значение | byte[] | Соответствующее значение byte[]. |
 
-### setName(String value) {#setName-java.lang.String-}
+### setName(String value) {#setName-java.lang.String}
 ```
 public void setName(String value)
 ```
 
 
-Задает абсолютное имя этой части в пакете OOXML или целевой URL.
+Устанавливает абсолютное имя этой части внутри пакета OOXML или целевой URL.
 
-Если цель связи является внутренней, то это свойство является абсолютным именем части в пакете. Если цель отношения является внешней, то это свойство является целевым URL-адресом.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Если цель отношения внутренняя, то это свойство представляет собой абсолютное имя части внутри пакета. Если цель отношения внешняя, то это свойство представляет собой целевой URL.
 
-**Параметры:**
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
 
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Абсолютное имя этой части в пакете OOXML или целевой URL. |
+| значение | java.lang.String | Абсолютное имя этой части внутри пакета OOXML или целевой URL. |
 
-### setRelationshipType(String value) {#setRelationshipType-java.lang.String-}
+### setRelationshipType(String value) {#setRelationshipType-java.lang.String}
 ```
 public void setRelationshipType(String value)
 ```
 
 
-Задает тип отношения от родительской части к этой пользовательской части.
+Устанавливает тип отношения от родительской части к этой пользовательской части.
 
-Тип отношения для пользовательской детали должен быть «неизвестным», например, тип отношения пользователя, а не один из типов отношений, определенных в ISO/IEC 29500.
+ **Remarks:** 
 
-Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
+Тип отношения для пользовательской части должен быть «unknown», например пользовательский тип отношения, а не один из типов отношений, определённых в ISO/IEC 29500.
 
-**Параметры:**
+Значение по умолчанию — пустая строка. Действительное значение должно быть непустой строкой.
 
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Тип связи между родительской деталью и этой настраиваемой деталью. |
+| значение | java.lang.String | Тип отношения от родительской части к этой пользовательской части. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

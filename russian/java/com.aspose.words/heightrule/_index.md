@@ -1,51 +1,79 @@
 ---
-title: HeightRule
-second_title: Справочник по API Aspose.Words для Java
-description: Задает правило определения высоты объекта.
+title: "HeightRule"
+linktitle: "HeightRule"
+second_title: "Aspose.Words для Java"
+description: "Указывает правило определения высоты объекта в Java."
 type: docs
-weight: 319
+weight: 373
 url: /ru/java/com.aspose.words/heightrule/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HeightRule
 ```
 
-Задает правило определения высоты объекта.
+Указывает правило определения высоты объекта.
+
+ **Examples:** 
+
+Показывает, как форматировать строки с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [AT_LEAST](#AT-LEAST) | Высота будет не меньше указанной высоты в пунктах. |
-| [AUTO](#AUTO) | Высота будет увеличиваться автоматически, чтобы вместить весь текст внутри объекта. |
+| [AT_LEAST](#AT-LEAST) | Высота будет как минимум указанной высоты в пунктах. |
+| [AUTO](#AUTO) | Высота будет автоматически увеличиваться, чтобы вместить весь текст внутри объекта. |
 | [EXACTLY](#EXACTLY) | Высота указана точно в пунктах. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String heightRuleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int heightRule)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int heightRule)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String heightRuleName)](#fromName-java.lang.String) |  |
+| [getName(int heightRule)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int heightRule)](#toString-int) |  |
 ### AT_LEAST {#AT-LEAST}
 ```
 public static int AT_LEAST
 ```
 
 
-Высота будет не меньше указанной высоты в пунктах. При необходимости он будет увеличиваться, чтобы вместить весь текст внутри объекта.
+Высота будет как минимум указанной высоты в пунктах. При необходимости она будет увеличиваться, чтобы вместить весь текст внутри объекта.
 
 ### AUTO {#AUTO}
 ```
@@ -53,7 +81,7 @@ public static int AUTO
 ```
 
 
-Высота будет увеличиваться автоматически, чтобы вместить весь текст внутри объекта.
+Высота будет автоматически увеличиваться, чтобы вместить весь текст внутри объекта.
 
 ### EXACTLY {#EXACTLY}
 ```
@@ -61,7 +89,7 @@ public static int EXACTLY
 ```
 
 
-Высота указана точно в пунктах. Обратите внимание, что если текст не помещается внутри объекта такой высоты, он будет отображаться обрезанным.
+Высота указана точно в пунктах. Обратите внимание, что если текст не помещается в объект этой высоты, он будет обрезан.
 
 ### length {#length}
 ```
@@ -69,23 +97,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String heightRuleName) {#fromName-java.lang.String-}
+### fromName(String heightRuleName) {#fromName-java.lang.String}
 ```
 public static int fromName(String heightRuleName)
 ```
@@ -93,25 +105,14 @@ public static int fromName(String heightRuleName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | heightRuleName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int heightRule) {#getName-int-}
+**Returns:**
+int
+### getName(int heightRule) {#getName-int}
 ```
 public static String getName(int heightRule)
 ```
@@ -119,15 +120,14 @@ public static String getName(int heightRule)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | heightRule | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +135,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int heightRule) {#toString-int-}
+**Returns:**
+int[]
+### toString(int heightRule) {#toString-int}
 ```
 public static String toString(int heightRule)
 ```
@@ -181,47 +145,10 @@ public static String toString(int heightRule)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | heightRule | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

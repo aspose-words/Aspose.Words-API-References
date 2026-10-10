@@ -1,19 +1,53 @@
 ---
-title: AxisScaleType
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет возможные типы шкалы для оси.
+title: "AxisScaleType"
+linktitle: "AxisScaleType"
+second_title: "Aspose.Words для Java"
+description: "Указывает возможные типы масштабирования для оси в Java."
 type: docs
-weight: 21
+weight: 28
 url: /ru/java/com.aspose.words/axisscaletype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class AxisScaleType
 ```
 
-Определяет возможные типы шкалы для оси.
+Указывает возможные типы шкалы для оси.
+
+ **Examples:** 
+
+Показывает, как применить логарифмическое масштабирование к оси диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape chartShape = builder.insertChart(ChartType.SCATTER, 450.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a series with X/Y coordinates for five points.
+ chart.getSeries().add("Series 1",
+         new double[]{1.0, 2.0, 3.0, 4.0, 5.0},
+         new double[]{1.0, 20.0, 400.0, 8000.0, 160000.0});
+
+ // The scaling of the X-axis is linear by default,
+ // displaying evenly incrementing values that cover our X-value range (0, 1, 2, 3...).
+ // A linear axis is not ideal for our Y-values
+ // since the points with the smaller Y-values will be harder to read.
+ // A logarithmic scaling with a base of 20 (1, 20, 400, 8000...)
+ // will spread the plotted points, allowing us to read their values on the chart more easily.
+ chart.getAxisY().getScaling().setType(AxisScaleType.LOGARITHMIC);
+ chart.getAxisY().getScaling().setLogBase(20.0);
+
+ doc.save(getArtifactsDir() + "Charts.AxisScaling.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +59,10 @@ public class AxisScaleType
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String axisScaleTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int axisScaleType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int axisScaleType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String axisScaleTypeName)](#fromName-java.lang.String) |  |
+| [getName(int axisScaleType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int axisScaleType)](#toString-int) |  |
 ### LINEAR {#LINEAR}
 ```
 public static int LINEAR
@@ -60,23 +85,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String axisScaleTypeName) {#fromName-java.lang.String-}
+### fromName(String axisScaleTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String axisScaleTypeName)
 ```
@@ -84,25 +93,14 @@ public static int fromName(String axisScaleTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisScaleTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int axisScaleType) {#getName-int-}
+**Returns:**
+int
+### getName(int axisScaleType) {#getName-int}
 ```
 public static String getName(int axisScaleType)
 ```
@@ -110,15 +108,14 @@ public static String getName(int axisScaleType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisScaleType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +123,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int axisScaleType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int axisScaleType) {#toString-int}
 ```
 public static String toString(int axisScaleType)
 ```
@@ -172,47 +133,10 @@ public static String toString(int axisScaleType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisScaleType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,52 +1,96 @@
 ---
-title: TableContentAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать выравнивание содержимого таблицы, которое будет использоваться при экспорте в формат Markdown.
+title: "TableContentAlignment"
+linktitle: "TableContentAlignment"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать выравнивание содержимого таблицы, которое будет использоваться при экспорте в формат Markdown в Java."
 type: docs
-weight: 551
+weight: 659
 url: /ru/java/com.aspose.words/tablecontentalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TableContentAlignment
 ```
 
-Позволяет указать выравнивание содержимого таблицы, которое будет использоваться при экспорте в формат Markdown.
+Позволяет указать выравнивание содержимого таблицы, используемое при экспорте в формат Markdown.
+
+ **Examples:** 
+
+Показывает, как выравнивать содержимое в таблицах.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
+ builder.write("Cell1");
+ builder.insertCell();
+ builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ builder.write("Cell2");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions(); { saveOptions.setTableContentAlignment(tableContentAlignment); }
+
+ builder.getDocument().save(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md", saveOptions);
+
+ Document doc = new Document(getArtifactsDir() + "MarkdownSaveOptions.MarkdownDocumentTableContentAlignment.md");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ switch (tableContentAlignment)
+ {
+     case TableContentAlignment.AUTO:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.LEFT:
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.LEFT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.CENTER:
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.CENTER,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+     case TableContentAlignment.RIGHT:
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(0).getFirstParagraph().getParagraphFormat().getAlignment());
+         Assert.assertEquals(ParagraphAlignment.RIGHT,
+             table.getFirstRow().getCells().get(1).getFirstParagraph().getParagraphFormat().getAlignment());
+         break;
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [AUTO](#AUTO) | Выравнивание будет взято из первого абзаца в соответствующем столбце таблицы. |
+| [AUTO](#AUTO) | Выравнивание будет взято из первого абзаца в соответствующей колонке таблицы. |
 | [CENTER](#CENTER) | Содержимое таблиц будет выровнено по центру. |
-| [LEFT](#LEFT) | Содержимое таблиц будет выровнено по левому краю. |
-| [RIGHT](#RIGHT) | Содержимое таблиц будет выровнено по правому краю. |
+| [LEFT](#LEFT) | Содержимое таблиц будет выровнено влево. |
+| [RIGHT](#RIGHT) | Содержимое таблиц будет выровнено вправо. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tableContentAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tableContentAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tableContentAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String tableContentAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int tableContentAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int tableContentAlignment)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
 ```
 
 
-Выравнивание будет взято из первого абзаца в соответствующем столбце таблицы.
+Выравнивание будет взято из первого абзаца в соответствующей колонке таблицы.
 
 ### CENTER {#CENTER}
 ```
@@ -62,7 +106,7 @@ public static int LEFT
 ```
 
 
-Содержимое таблиц будет выровнено по левому краю.
+Содержимое таблиц будет выровнено влево.
 
 ### RIGHT {#RIGHT}
 ```
@@ -70,7 +114,7 @@ public static int RIGHT
 ```
 
 
-Содержимое таблиц будет выровнено по правому краю.
+Содержимое таблиц будет выровнено вправо.
 
 ### length {#length}
 ```
@@ -78,23 +122,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String tableContentAlignmentName) {#fromName-java.lang.String-}
+### fromName(String tableContentAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tableContentAlignmentName)
 ```
@@ -102,25 +130,14 @@ public static int fromName(String tableContentAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableContentAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int tableContentAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int tableContentAlignment) {#getName-int}
 ```
 public static String getName(int tableContentAlignment)
 ```
@@ -128,15 +145,14 @@ public static String getName(int tableContentAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableContentAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +160,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int tableContentAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int tableContentAlignment) {#toString-int}
 ```
 public static String toString(int tableContentAlignment)
 ```
@@ -190,47 +170,10 @@ public static String toString(int tableContentAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tableContentAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

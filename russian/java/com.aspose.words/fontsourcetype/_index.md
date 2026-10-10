@@ -1,53 +1,63 @@
 ---
-title: FontSourceType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип источника шрифта.
+title: "FontSourceType"
+linktitle: "FontSourceType"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип источника шрифтов в Java."
 type: docs
-weight: 288
+weight: 334
 url: /ru/java/com.aspose.words/fontsourcetype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FontSourceType
 ```
 
 Указывает тип источника шрифта.
+
+ **Examples:** 
+
+Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифтов.
+
+```
+
+ FileFontSource fileFontSource = new FileFontSource(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{fileFontSource});
+
+ Assert.assertEquals(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.getFilePath());
+ Assert.assertEquals(FontSourceType.FONT_FILE, fileFontSource.getType());
+ Assert.assertEquals(0, fileFontSource.getPriority());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FONTS_FOLDER](#FONTS-FOLDER) |  А[FolderFontSource](../../com.aspose.words/folderfontsource) объект, представляющий папку с файлами шрифтов. |
-| [FONT_FILE](#FONT-FILE) |  А[FileFontSource](../../com.aspose.words/filefontsource) объект, представляющий один файл шрифта. |
-| [FONT_STREAM](#FONT-STREAM) |  А[StreamFontSource](../../com.aspose.words/streamfontsource) объект, представляющий поток с данными шрифта. |
-| [MEMORY_FONT](#MEMORY-FONT) |  А[MemoryFontSource](../../com.aspose.words/memoryfontsource) объект, представляющий один шрифт в памяти. |
-| [SYSTEM_FONTS](#SYSTEM-FONTS) |  А[SystemFontSource](../../com.aspose.words/systemfontsource) объект, представляющий все шрифты, установленные в системе. |
+| [FONTS_FOLDER](#FONTS-FOLDER) | Объект [FolderFontSource](../../com.aspose.words/folderfontsource/) , представляющий папку с файлами шрифтов. |
+| [FONT_FILE](#FONT-FILE) | Объект [FileFontSource](../../com.aspose.words/filefontsource/) , представляющий отдельный файл шрифта. |
+| [FONT_STREAM](#FONT-STREAM) | Объект [StreamFontSource](../../com.aspose.words/streamfontsource/) , представляющий поток с данными шрифта. |
+| [MEMORY_FONT](#MEMORY-FONT) | Объект [MemoryFontSource](../../com.aspose.words/memoryfontsource/) , представляющий отдельный шрифт в памяти. |
+| [SYSTEM_FONTS](#SYSTEM-FONTS) | Объект [SystemFontSource](../../com.aspose.words/systemfontsource/) , представляющий все шрифты, установленные в системе. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fontSourceTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fontSourceType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int fontSourceType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String fontSourceTypeName)](#fromName-java.lang.String) |  |
+| [getName(int fontSourceType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int fontSourceType)](#toString-int) |  |
 ### FONTS_FOLDER {#FONTS-FOLDER}
 ```
 public static int FONTS_FOLDER
 ```
 
 
- А[FolderFontSource](../../com.aspose.words/folderfontsource) объект, представляющий папку с файлами шрифтов.
+Объект [FolderFontSource](../../com.aspose.words/folderfontsource/) , представляющий папку с файлами шрифтов.
 
 ### FONT_FILE {#FONT-FILE}
 ```
@@ -55,7 +65,7 @@ public static int FONT_FILE
 ```
 
 
- А[FileFontSource](../../com.aspose.words/filefontsource) объект, представляющий один файл шрифта.
+Объект [FileFontSource](../../com.aspose.words/filefontsource/) , представляющий отдельный файл шрифта.
 
 ### FONT_STREAM {#FONT-STREAM}
 ```
@@ -63,7 +73,7 @@ public static int FONT_STREAM
 ```
 
 
- А[StreamFontSource](../../com.aspose.words/streamfontsource) объект, представляющий поток с данными шрифта.
+Объект [StreamFontSource](../../com.aspose.words/streamfontsource/) , представляющий поток с данными шрифта.
 
 ### MEMORY_FONT {#MEMORY-FONT}
 ```
@@ -71,7 +81,7 @@ public static int MEMORY_FONT
 ```
 
 
- А[MemoryFontSource](../../com.aspose.words/memoryfontsource) объект, представляющий один шрифт в памяти.
+Объект [MemoryFontSource](../../com.aspose.words/memoryfontsource/) , представляющий отдельный шрифт в памяти.
 
 ### SYSTEM_FONTS {#SYSTEM-FONTS}
 ```
@@ -79,7 +89,7 @@ public static int SYSTEM_FONTS
 ```
 
 
- А[SystemFontSource](../../com.aspose.words/systemfontsource) объект, представляющий все шрифты, установленные в системе.
+Объект [SystemFontSource](../../com.aspose.words/systemfontsource/) , представляющий все шрифты, установленные в системе.
 
 ### length {#length}
 ```
@@ -87,23 +97,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String fontSourceTypeName) {#fromName-java.lang.String-}
+### fromName(String fontSourceTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fontSourceTypeName)
 ```
@@ -111,25 +105,14 @@ public static int fromName(String fontSourceTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontSourceTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int fontSourceType) {#getName-int-}
+**Returns:**
+int
+### getName(int fontSourceType) {#getName-int}
 ```
 public static String getName(int fontSourceType)
 ```
@@ -137,15 +120,14 @@ public static String getName(int fontSourceType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontSourceType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +135,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int fontSourceType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int fontSourceType) {#toString-int}
 ```
 public static String toString(int fontSourceType)
 ```
@@ -199,47 +145,10 @@ public static String toString(int fontSourceType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontSourceType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

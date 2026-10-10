@@ -1,44 +1,69 @@
 ---
-title: LineNumberRestartMode
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет, когда перезапускается автоматическая нумерация строк.
+title: "LineNumberRestartMode"
+linktitle: "LineNumberRestartMode"
+second_title: "Aspose.Words для Java"
+description: "Определяет, когда автоматическая нумерация строк перезапускается в Java."
 type: docs
-weight: 365
+weight: 422
 url: /ru/java/com.aspose.words/linenumberrestartmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LineNumberRestartMode
 ```
 
-Определяет, когда перезапускается автоматическая нумерация строк.
+Определяет, когда автоматическая нумерация строк перезапускается.
+
+ **Examples:** 
+
+Показывает, как включить нумерацию строк для раздела.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can use the section's PageSetup object to display numbers to the left of the section's text lines.
+ // This is the same behavior as a List object,
+ // but it covers the entire section and does not modify the text in any way.
+ // Our section will restart the numbering on each new page from 1 and display the number,
+ // if it is a multiple of 3, at 50pt to the left of the line.
+ PageSetup pageSetup = builder.getPageSetup();
+ pageSetup.setLineStartingNumber(1);
+ pageSetup.setLineNumberCountBy(3);
+ pageSetup.setLineNumberRestartMode(LineNumberRestartMode.RESTART_PAGE);
+ pageSetup.setLineNumberDistanceFromText(50.0d);
+
+ for (int i = 1; i <= 25; i++)
+     builder.writeln(MessageFormat.format("Line {0}.", i));
+
+ // The line counter will skip any paragraph with the "SuppressLineNumbers" flag set to "true".
+ // This paragraph is on the 15th line, which is a multiple of 3, and thus would normally display a line number.
+ // The section's line counter will also ignore this line, treat the next line as the 15th,
+ // and continue the count from that point onward.
+ doc.getFirstSection().getBody().getParagraphs().get(14).getParagraphFormat().setSuppressLineNumbers(true);
+
+ doc.save(getArtifactsDir() + "PageSetup.LineNumbers.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [CONTINUOUS](#CONTINUOUS) | Нумерация строк продолжается с предыдущего раздела. |
-| [RESTART_PAGE](#RESTART-PAGE) | Нумерация строк возобновляется в начале каждой страницы. |
-| [RESTART_SECTION](#RESTART-SECTION) | Нумерация строк возобновляется с начала раздела. |
+| [RESTART_PAGE](#RESTART-PAGE) | Нумерация строк перезапускается в начале каждой страницы. |
+| [RESTART_SECTION](#RESTART-SECTION) | Нумерация строк перезапускается в начале раздела. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String lineNumberRestartModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int lineNumberRestartMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int lineNumberRestartMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String lineNumberRestartModeName)](#fromName-java.lang.String) |  |
+| [getName(int lineNumberRestartMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int lineNumberRestartMode)](#toString-int) |  |
 ### CONTINUOUS {#CONTINUOUS}
 ```
 public static int CONTINUOUS
@@ -53,7 +78,7 @@ public static int RESTART_PAGE
 ```
 
 
-Нумерация строк возобновляется в начале каждой страницы.
+Нумерация строк перезапускается в начале каждой страницы.
 
 ### RESTART_SECTION {#RESTART-SECTION}
 ```
@@ -61,7 +86,7 @@ public static int RESTART_SECTION
 ```
 
 
-Нумерация строк возобновляется с начала раздела.
+Нумерация строк перезапускается в начале раздела.
 
 ### length {#length}
 ```
@@ -69,23 +94,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String lineNumberRestartModeName) {#fromName-java.lang.String-}
+### fromName(String lineNumberRestartModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String lineNumberRestartModeName)
 ```
@@ -93,25 +102,14 @@ public static int fromName(String lineNumberRestartModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineNumberRestartModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int lineNumberRestartMode) {#getName-int-}
+**Returns:**
+int
+### getName(int lineNumberRestartMode) {#getName-int}
 ```
 public static String getName(int lineNumberRestartMode)
 ```
@@ -119,15 +117,14 @@ public static String getName(int lineNumberRestartMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +132,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int lineNumberRestartMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int lineNumberRestartMode) {#toString-int}
 ```
 public static String toString(int lineNumberRestartMode)
 ```
@@ -181,47 +142,10 @@ public static String toString(int lineNumberRestartMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

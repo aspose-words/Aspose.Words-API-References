@@ -1,49 +1,116 @@
 ---
-title: TxtLeadingSpacesOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет доступные параметры для обработки начального пробела во время импорта из файла.
+title: "TxtLeadingSpacesOptions"
+linktitle: "TxtLeadingSpacesOptions"
+second_title: "Aspose.Words для Java"
+description: "Указывает доступные параметры обработки начальных пробелов при импорте из файла LoadFormat.TEXT в Java."
 type: docs
-weight: 582
+weight: 691
 url: /ru/java/com.aspose.words/txtleadingspacesoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TxtLeadingSpacesOptions
 ```
 
- Определяет доступные параметры для обработки начального пробела во время импорта из[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) файл.
+Указывает доступные параметры обработки начальных пробелов при импорте из файла [LoadFormat.TEXT](../../com.aspose.words/loadformat/\#TEXT).
+
+ **Examples:** 
+
+Показывает, как удалять пробелы при загрузке документов простого текста.
+
+```
+
+ String textDoc = "      Line 1 \n" +
+         "    Line 2   \n" +
+         " Line 3       ";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the start of every line.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.ConvertToIndent"
+ // to remove all whitespace characters from the start of every line,
+ // and then apply a left first line indent to the paragraph to simulate the effect of the whitespaces.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Trim"
+ // to remove all whitespace characters from every line's start.
+ loadOptions.setLeadingSpacesOptions(txtLeadingSpacesOptions);
+
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the end of every line.
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Trim" to
+ // remove all whitespace characters from the end of every line.
+ loadOptions.setTrailingSpacesOptions(txtTrailingSpacesOptions);
+
+ Document doc = new Document(new ByteArrayInputStream(textDoc.getBytes()), loadOptions);
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ switch (txtLeadingSpacesOptions) {
+     case TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+         Assert.assertEquals(37.8d, paragraphs.get(0).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(25.2d, paragraphs.get(1).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(6.3d, paragraphs.get(2).getParagraphFormat().getFirstLineIndent());
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.PRESERVE:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("      Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("    Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith(" Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.TRIM:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+ }
+
+ switch (txtTrailingSpacesOptions) {
+     case TxtTrailingSpacesOptions.PRESERVE:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1 \r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2   \r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3       \f"));
+         break;
+     case TxtTrailingSpacesOptions.TRIM:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1\r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2\r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3\f"));
+         break;
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) |  |
-| [PRESERVE](#PRESERVE) |  |
-| [TRIM](#TRIM) |  |
+| [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) | Начальные пробелы удаляются и преобразуются в левый отступ. |
+| [PRESERVE](#PRESERVE) | Начальные пробелы сохраняются. |
+| [TRIM](#TRIM) | Начальные пробелы обрезаются |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String txtLeadingSpacesOptionsName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int txtLeadingSpacesOptions)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int txtLeadingSpacesOptions)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String txtLeadingSpacesOptionsName)](#fromName-java.lang.String) |  |
+| [getName(int txtLeadingSpacesOptions)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int txtLeadingSpacesOptions)](#toString-int) |  |
 ### CONVERT_TO_INDENT {#CONVERT-TO-INDENT}
 ```
 public static int CONVERT_TO_INDENT
 ```
 
+
+Начальные пробелы удаляются и преобразуются в левый отступ.
 
 ### PRESERVE {#PRESERVE}
 ```
@@ -51,11 +118,15 @@ public static int PRESERVE
 ```
 
 
+Начальные пробелы сохраняются.
+
 ### TRIM {#TRIM}
 ```
 public static int TRIM
 ```
 
+
+Начальные пробелы обрезаются
 
 ### length {#length}
 ```
@@ -63,23 +134,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String txtLeadingSpacesOptionsName) {#fromName-java.lang.String-}
+### fromName(String txtLeadingSpacesOptionsName) {#fromName-java.lang.String}
 ```
 public static int fromName(String txtLeadingSpacesOptionsName)
 ```
@@ -87,25 +142,14 @@ public static int fromName(String txtLeadingSpacesOptionsName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | txtLeadingSpacesOptionsName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int txtLeadingSpacesOptions) {#getName-int-}
+**Returns:**
+int
+### getName(int txtLeadingSpacesOptions) {#getName-int}
 ```
 public static String getName(int txtLeadingSpacesOptions)
 ```
@@ -113,15 +157,14 @@ public static String getName(int txtLeadingSpacesOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | txtLeadingSpacesOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -129,45 +172,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int txtLeadingSpacesOptions) {#toString-int-}
+**Returns:**
+int[]
+### toString(int txtLeadingSpacesOptions) {#toString-int}
 ```
 public static String toString(int txtLeadingSpacesOptions)
 ```
@@ -175,47 +182,10 @@ public static String toString(int txtLeadingSpacesOptions)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | txtLeadingSpacesOptions | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

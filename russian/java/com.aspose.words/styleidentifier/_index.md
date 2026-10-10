@@ -1,23 +1,58 @@
 ---
-title: StyleIdentifier
-second_title: Справочник по API Aspose.Words для Java
-description: Идентификатор стиля, не зависящий от локали.
+title: "StyleIdentifier"
+linktitle: "StyleIdentifier"
+second_title: "Aspose.Words для Java"
+description: "Идентификатор стиля, независимый от локали, в Java."
 type: docs
-weight: 538
+weight: 643
 url: /ru/java/com.aspose.words/styleidentifier/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class StyleIdentifier
 ```
 
-Идентификатор стиля, не зависящий от локали.
+Идентификатор стиля, независимый от локали.
 
-Названия встроенных стилей в MS Word локализованы для разных языков. Используя идентификатор стиля, вы можете найти правильный стиль независимо от языка документа.
+ **Remarks:** 
 
-Всем пользовательским стилям присваивается значение StyleIdentifier.User.
+Имена встроенных стилей в MS Word локализованы для разных языков. Используя идентификатор стиля, вы можете найти правильный стиль независимо от языка документа.
+
+Все пользовательские стили получают значение [USER](../../com.aspose.words/styleidentifier/\#USER).
+
+ **Examples:** 
+
+Показывает, как изменить стиль существующего текста.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -57,9 +92,9 @@ public class StyleIdentifier
 | [COLORFUL_SHADING_ACCENT_4](#COLORFUL-SHADING-ACCENT-4) |  |
 | [COLORFUL_SHADING_ACCENT_5](#COLORFUL-SHADING-ACCENT-5) |  |
 | [COLORFUL_SHADING_ACCENT_6](#COLORFUL-SHADING-ACCENT-6) |  |
-| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | Справочный стиль Annotation (Comment). |
+| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | Стиль ссылки на аннотацию (комментарий). |
 | [COMMENT_SUBJECT](#COMMENT-SUBJECT) |  |
-| [COMMENT_TEXT](#COMMENT-TEXT) | Стиль текста аннотации (комментария). |
+| [COMMENT_TEXT](#COMMENT-TEXT) | Стиль текста аннотации (комментарий). |
 | [DARK_LIST](#DARK-LIST) |  |
 | [DARK_LIST_ACCENT_1](#DARK-LIST-ACCENT-1) |  |
 | [DARK_LIST_ACCENT_2](#DARK-LIST-ACCENT-2) |  |
@@ -72,74 +107,74 @@ public class StyleIdentifier
 | [DOCUMENT_MAP](#DOCUMENT-MAP) |  |
 | [EMAIL_SIGNATURE](#EMAIL-SIGNATURE) |  |
 | [EMPHASIS](#EMPHASIS) |  |
-| [ENDNOTE_REFERENCE](#ENDNOTE-REFERENCE) | Стиль ссылки на концевую сноску. |
-| [ENDNOTE_TEXT](#ENDNOTE-TEXT) | Стиль текста концевой сноски. |
+| [ENDNOTE_REFERENCE](#ENDNOTE-REFERENCE) | Стиль ссылки на сноску. |
+| [ENDNOTE_TEXT](#ENDNOTE-TEXT) | Стиль текста сноски. |
 | [ENVELOPE_ADDRESS](#ENVELOPE-ADDRESS) | Стиль адреса конверта. |
-| [ENVELOPE_RETURN](#ENVELOPE-RETURN) | Стиль возврата конверта. |
+| [ENVELOPE_RETURN](#ENVELOPE-RETURN) | Стиль обратного адреса конверта. |
 | [FOLLOWED_HYPERLINK](#FOLLOWED-HYPERLINK) |  |
 | [FOOTER](#FOOTER) | Стиль нижнего колонтитула. |
 | [FOOTNOTE_REFERENCE](#FOOTNOTE-REFERENCE) | Стиль ссылки на сноску. |
 | [FOOTNOTE_TEXT](#FOOTNOTE-TEXT) | Стиль текста сноски. |
-| [GRID_TABLE_1_LIGHT](#GRID-TABLE-1-LIGHT) | Сетка Таблица 1 Свет |
-| [GRID_TABLE_1_LIGHT_ACCENT_1](#GRID-TABLE-1-LIGHT-ACCENT-1) | Сетка Таблица 1 Свет - Акцент 1 |
-| [GRID_TABLE_1_LIGHT_ACCENT_2](#GRID-TABLE-1-LIGHT-ACCENT-2) | Сетка Таблица 1 Свет - Акцент 2 |
-| [GRID_TABLE_1_LIGHT_ACCENT_3](#GRID-TABLE-1-LIGHT-ACCENT-3) | Сетка Таблица 1 Свет - Акцент 3 |
-| [GRID_TABLE_1_LIGHT_ACCENT_4](#GRID-TABLE-1-LIGHT-ACCENT-4) | Сетка Таблица 1 Свет - Акцент 4 |
-| [GRID_TABLE_1_LIGHT_ACCENT_5](#GRID-TABLE-1-LIGHT-ACCENT-5) | Сетка Таблица 1 Свет - Акцент 5 |
-| [GRID_TABLE_1_LIGHT_ACCENT_6](#GRID-TABLE-1-LIGHT-ACCENT-6) | Сетка Таблица 1 Свет - Акцент 6 |
-| [GRID_TABLE_2](#GRID-TABLE-2) | Сетка Таблица 2 |
-| [GRID_TABLE_2_ACCENT_1](#GRID-TABLE-2-ACCENT-1) | Сетка Таблица 2 - Акцент 1 |
-| [GRID_TABLE_2_ACCENT_2](#GRID-TABLE-2-ACCENT-2) | Сетка Таблица 2 - Акцент 2 |
-| [GRID_TABLE_2_ACCENT_3](#GRID-TABLE-2-ACCENT-3) | Сетка Таблица 2 - Акцент 3 |
-| [GRID_TABLE_2_ACCENT_4](#GRID-TABLE-2-ACCENT-4) | Сетка Таблица 2 - Акцент 4 |
-| [GRID_TABLE_2_ACCENT_5](#GRID-TABLE-2-ACCENT-5) | Сетка Таблица 2 - Акцент 5 |
-| [GRID_TABLE_2_ACCENT_6](#GRID-TABLE-2-ACCENT-6) | Сетка Таблица 2 - Акцент 6 |
-| [GRID_TABLE_3](#GRID-TABLE-3) | Сетка Таблица 3 |
-| [GRID_TABLE_3_ACCENT_1](#GRID-TABLE-3-ACCENT-1) | Сетка Таблица 3 - Акцент 1 |
-| [GRID_TABLE_3_ACCENT_2](#GRID-TABLE-3-ACCENT-2) | Сетка Таблица 3 - Акцент 2 |
-| [GRID_TABLE_3_ACCENT_3](#GRID-TABLE-3-ACCENT-3) | Сетка Таблица 3 - Акцент 3 |
-| [GRID_TABLE_3_ACCENT_4](#GRID-TABLE-3-ACCENT-4) | Сетка Таблица 3 - Акцент 4 |
-| [GRID_TABLE_3_ACCENT_5](#GRID-TABLE-3-ACCENT-5) | Сетка Таблица 3 - Акцент 5 |
-| [GRID_TABLE_3_ACCENT_6](#GRID-TABLE-3-ACCENT-6) | Сетка Таблица 3 - Акцент 6 |
-| [GRID_TABLE_4](#GRID-TABLE-4) | Сетка Таблица 4 |
-| [GRID_TABLE_4_ACCENT_1](#GRID-TABLE-4-ACCENT-1) | Сетка Таблица 4 - Акцент 1 |
-| [GRID_TABLE_4_ACCENT_2](#GRID-TABLE-4-ACCENT-2) | Сетка Таблица 4 - Акцент 2 |
-| [GRID_TABLE_4_ACCENT_3](#GRID-TABLE-4-ACCENT-3) | Сетка Таблица 4 - Акцент 3 |
-| [GRID_TABLE_4_ACCENT_4](#GRID-TABLE-4-ACCENT-4) | Сетка Таблица 4 - Акцент 4 |
-| [GRID_TABLE_4_ACCENT_5](#GRID-TABLE-4-ACCENT-5) | Сетка Таблица 4 - Акцент 5 |
-| [GRID_TABLE_4_ACCENT_6](#GRID-TABLE-4-ACCENT-6) | Сетка Таблица 4 - Акцент 6 |
-| [GRID_TABLE_5_DARK](#GRID-TABLE-5-DARK) | Сетка Таблица 5 Темный |
-| [GRID_TABLE_5_DARK_ACCENT_1](#GRID-TABLE-5-DARK-ACCENT-1) | Сетка Таблица 5 Темный - Акцент 1 |
-| [GRID_TABLE_5_DARK_ACCENT_2](#GRID-TABLE-5-DARK-ACCENT-2) | Сетка Таблица 5 Темный - Акцент 2 |
-| [GRID_TABLE_5_DARK_ACCENT_3](#GRID-TABLE-5-DARK-ACCENT-3) | Сетка Таблица 5 Темный - Акцент 3 |
-| [GRID_TABLE_5_DARK_ACCENT_4](#GRID-TABLE-5-DARK-ACCENT-4) | Сетка Таблица 5 Темный - Акцент 4 |
-| [GRID_TABLE_5_DARK_ACCENT_5](#GRID-TABLE-5-DARK-ACCENT-5) | Сетка Таблица 5 Темный - Акцент 5 |
-| [GRID_TABLE_5_DARK_ACCENT_6](#GRID-TABLE-5-DARK-ACCENT-6) | Сетка Таблица 5 Темный - Акцент 6 |
-| [GRID_TABLE_6_COLORFUL](#GRID-TABLE-6-COLORFUL) | Сетка Таблица 6 Цветной |
-| [GRID_TABLE_6_COLORFUL_ACCENT_1](#GRID-TABLE-6-COLORFUL-ACCENT-1) | Сетка Таблица 6 Красочный - Акцент 1 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_2](#GRID-TABLE-6-COLORFUL-ACCENT-2) | Сетка Таблица 6 Красочный - Акцент 2 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_3](#GRID-TABLE-6-COLORFUL-ACCENT-3) | Сетка Таблица 6 Красочный - Акцент 3 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_4](#GRID-TABLE-6-COLORFUL-ACCENT-4) | Сетка Таблица 6 Красочный - Акцент 4 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_5](#GRID-TABLE-6-COLORFUL-ACCENT-5) | Сетка Таблица 6 Красочный - Акцент 5 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_6](#GRID-TABLE-6-COLORFUL-ACCENT-6) | Сетка Таблица 6 Красочный - Акцент 6 |
-| [GRID_TABLE_7_COLORFUL](#GRID-TABLE-7-COLORFUL) | Сетка Таблица 7 Цветная |
-| [GRID_TABLE_7_COLORFUL_ACCENT_1](#GRID-TABLE-7-COLORFUL-ACCENT-1) | Сетка Таблица 7 Красочный - Акцент 1 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_2](#GRID-TABLE-7-COLORFUL-ACCENT-2) | Сетка Таблица 7 Красочный - Акцент 2 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_3](#GRID-TABLE-7-COLORFUL-ACCENT-3) | Сетка Таблица 7 Красочный - Акцент 3 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_4](#GRID-TABLE-7-COLORFUL-ACCENT-4) | Сетка Таблица 7 Красочный - Акцент 4 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_5](#GRID-TABLE-7-COLORFUL-ACCENT-5) | Сетка Таблица 7 Красочный - Акцент 5 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_6](#GRID-TABLE-7-COLORFUL-ACCENT-6) | Сетка Таблица 7 Красочный - Акцент 6 |
-| [HASHTAG](#HASHTAG) | Стиль хэштегов. |
+| [GRID_TABLE_1_LIGHT](#GRID-TABLE-1-LIGHT) | Таблица сетка 1 светлая |
+| [GRID_TABLE_1_LIGHT_ACCENT_1](#GRID-TABLE-1-LIGHT-ACCENT-1) | Таблица сетка 1 светлая - Акцент 1 |
+| [GRID_TABLE_1_LIGHT_ACCENT_2](#GRID-TABLE-1-LIGHT-ACCENT-2) | Таблица сетка 1 светлая - Акцент 2 |
+| [GRID_TABLE_1_LIGHT_ACCENT_3](#GRID-TABLE-1-LIGHT-ACCENT-3) | Таблица сетка 1 светлая - Акцент 3 |
+| [GRID_TABLE_1_LIGHT_ACCENT_4](#GRID-TABLE-1-LIGHT-ACCENT-4) | Таблица сетка 1 светлая - Акцент 4 |
+| [GRID_TABLE_1_LIGHT_ACCENT_5](#GRID-TABLE-1-LIGHT-ACCENT-5) | Таблица сетка 1 светлая - Акцент 5 |
+| [GRID_TABLE_1_LIGHT_ACCENT_6](#GRID-TABLE-1-LIGHT-ACCENT-6) | Таблица сетка 1 светлая - Акцент 6 |
+| [GRID_TABLE_2](#GRID-TABLE-2) | Таблица сетка 2 |
+| [GRID_TABLE_2_ACCENT_1](#GRID-TABLE-2-ACCENT-1) | Таблица сетка 2 - Акцент 1 |
+| [GRID_TABLE_2_ACCENT_2](#GRID-TABLE-2-ACCENT-2) | Таблица сетка 2 - Акцент 2 |
+| [GRID_TABLE_2_ACCENT_3](#GRID-TABLE-2-ACCENT-3) | Таблица сетка 2 - Акцент 3 |
+| [GRID_TABLE_2_ACCENT_4](#GRID-TABLE-2-ACCENT-4) | Таблица сетки 2 - Accent 4 |
+| [GRID_TABLE_2_ACCENT_5](#GRID-TABLE-2-ACCENT-5) | Таблица сетки 2 - Accent 5 |
+| [GRID_TABLE_2_ACCENT_6](#GRID-TABLE-2-ACCENT-6) | Таблица сетки 2 - Accent 6 |
+| [GRID_TABLE_3](#GRID-TABLE-3) | Таблица сетки 3 |
+| [GRID_TABLE_3_ACCENT_1](#GRID-TABLE-3-ACCENT-1) | Таблица сетки 3 - Accent 1 |
+| [GRID_TABLE_3_ACCENT_2](#GRID-TABLE-3-ACCENT-2) | Таблица сетки 3 - Accent 2 |
+| [GRID_TABLE_3_ACCENT_3](#GRID-TABLE-3-ACCENT-3) | Таблица сетки 3 - Accent 3 |
+| [GRID_TABLE_3_ACCENT_4](#GRID-TABLE-3-ACCENT-4) | Таблица сетки 3 - Accent 4 |
+| [GRID_TABLE_3_ACCENT_5](#GRID-TABLE-3-ACCENT-5) | Таблица сетки 3 - Accent 5 |
+| [GRID_TABLE_3_ACCENT_6](#GRID-TABLE-3-ACCENT-6) | Таблица сетки 3 - Accent 6 |
+| [GRID_TABLE_4](#GRID-TABLE-4) | Таблица сетки 4 |
+| [GRID_TABLE_4_ACCENT_1](#GRID-TABLE-4-ACCENT-1) | Таблица сетки 4 - Accent 1 |
+| [GRID_TABLE_4_ACCENT_2](#GRID-TABLE-4-ACCENT-2) | Таблица сетки 4 - Accent 2 |
+| [GRID_TABLE_4_ACCENT_3](#GRID-TABLE-4-ACCENT-3) | Таблица сетки 4 - Accent 3 |
+| [GRID_TABLE_4_ACCENT_4](#GRID-TABLE-4-ACCENT-4) | Таблица сетки 4 - Accent 4 |
+| [GRID_TABLE_4_ACCENT_5](#GRID-TABLE-4-ACCENT-5) | Таблица сетки 4 - Accent 5 |
+| [GRID_TABLE_4_ACCENT_6](#GRID-TABLE-4-ACCENT-6) | Таблица сетки 4 - Accent 6 |
+| [GRID_TABLE_5_DARK](#GRID-TABLE-5-DARK) | Таблица сетки 5 Тёмный |
+| [GRID_TABLE_5_DARK_ACCENT_1](#GRID-TABLE-5-DARK-ACCENT-1) | Таблица сетки 5 Тёмный - Accent 1 |
+| [GRID_TABLE_5_DARK_ACCENT_2](#GRID-TABLE-5-DARK-ACCENT-2) | Таблица сетки 5 Тёмный - Accent 2 |
+| [GRID_TABLE_5_DARK_ACCENT_3](#GRID-TABLE-5-DARK-ACCENT-3) | Таблица сетки 5 Тёмный - Accent 3 |
+| [GRID_TABLE_5_DARK_ACCENT_4](#GRID-TABLE-5-DARK-ACCENT-4) | Таблица сетки 5 Тёмный - Accent 4 |
+| [GRID_TABLE_5_DARK_ACCENT_5](#GRID-TABLE-5-DARK-ACCENT-5) | Таблица сетки 5 Тёмный - Accent 5 |
+| [GRID_TABLE_5_DARK_ACCENT_6](#GRID-TABLE-5-DARK-ACCENT-6) | Таблица сетки 5 Тёмный - Accent 6 |
+| [GRID_TABLE_6_COLORFUL](#GRID-TABLE-6-COLORFUL) | Таблица сетки 6 Красочный |
+| [GRID_TABLE_6_COLORFUL_ACCENT_1](#GRID-TABLE-6-COLORFUL-ACCENT-1) | Таблица сетки 6 Красочная - Акцент 1 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_2](#GRID-TABLE-6-COLORFUL-ACCENT-2) | Таблица сетки 6 Красочная - Акцент 2 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_3](#GRID-TABLE-6-COLORFUL-ACCENT-3) | Таблица сетки 6 Красочная - Акцент 3 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_4](#GRID-TABLE-6-COLORFUL-ACCENT-4) | Таблица сетки 6 Красочная - Акцент 4 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_5](#GRID-TABLE-6-COLORFUL-ACCENT-5) | Таблица сетки 6 Красочная - Акцент 5 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_6](#GRID-TABLE-6-COLORFUL-ACCENT-6) | Таблица сетки 6 Красочная - Акцент 6 |
+| [GRID_TABLE_7_COLORFUL](#GRID-TABLE-7-COLORFUL) | Таблица сетки 7 Красочная |
+| [GRID_TABLE_7_COLORFUL_ACCENT_1](#GRID-TABLE-7-COLORFUL-ACCENT-1) | Таблица сетки 7 Красочная - Акцент 1 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_2](#GRID-TABLE-7-COLORFUL-ACCENT-2) | Таблица сетки 7 Красочная - Акцент 2 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_3](#GRID-TABLE-7-COLORFUL-ACCENT-3) | Таблица сетки 7 Красочная - Акцент 3 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_4](#GRID-TABLE-7-COLORFUL-ACCENT-4) | Таблица сетки 7 Красочная - Акцент 4 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_5](#GRID-TABLE-7-COLORFUL-ACCENT-5) | Таблица сетки 7 Красочная - Акцент 5 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_6](#GRID-TABLE-7-COLORFUL-ACCENT-6) | Таблица сетки 7 Красочная - Акцент 6 |
+| [HASHTAG](#HASHTAG) | Стиль хэштега. |
 | [HEADER](#HEADER) | Стиль заголовка. |
-| [HEADING_1](#HEADING-1) | Стиль Заголовок 1. |
+| [HEADING_1](#HEADING-1) | Стиль заголовка 1. |
 | [HEADING_2](#HEADING-2) | Стиль заголовка 2. |
 | [HEADING_3](#HEADING-3) | Стиль заголовка 3. |
 | [HEADING_4](#HEADING-4) | Стиль заголовка 4. |
 | [HEADING_5](#HEADING-5) | Стиль заголовка 5. |
 | [HEADING_6](#HEADING-6) | Стиль заголовка 6. |
 | [HEADING_7](#HEADING-7) | Стиль заголовка 7. |
-| [HEADING_8](#HEADING-8) | Стиль «Заголовок 8». |
-| [HEADING_9](#HEADING-9) | Стиль «Заголовок 9». |
+| [HEADING_8](#HEADING-8) | Стиль заголовка 8. |
+| [HEADING_9](#HEADING-9) | Стиль заголовка 9. |
 | [HTML_ACRONYM](#HTML-ACRONYM) |  |
 | [HTML_ADDRESS](#HTML-ADDRESS) |  |
 | [HTML_BOTTOM_OF_FORM](#HTML-BOTTOM-OF-FORM) |  |
@@ -193,7 +228,7 @@ public class StyleIdentifier
 | [LIST_3](#LIST-3) |  |
 | [LIST_4](#LIST-4) |  |
 | [LIST_5](#LIST-5) |  |
-| [LIST_BULLET](#LIST-BULLET) | Стиль списка. |
+| [LIST_BULLET](#LIST-BULLET) | Стиль маркера списка. |
 | [LIST_BULLET_2](#LIST-BULLET-2) |  |
 | [LIST_BULLET_3](#LIST-BULLET-3) |  |
 | [LIST_BULLET_4](#LIST-BULLET-4) |  |
@@ -203,61 +238,61 @@ public class StyleIdentifier
 | [LIST_CONTINUE_3](#LIST-CONTINUE-3) |  |
 | [LIST_CONTINUE_4](#LIST-CONTINUE-4) |  |
 | [LIST_CONTINUE_5](#LIST-CONTINUE-5) |  |
-| [LIST_NUMBER](#LIST-NUMBER) | Стиль списка номеров. |
+| [LIST_NUMBER](#LIST-NUMBER) | Стиль нумерации списка. |
 | [LIST_NUMBER_2](#LIST-NUMBER-2) |  |
 | [LIST_NUMBER_3](#LIST-NUMBER-3) |  |
 | [LIST_NUMBER_4](#LIST-NUMBER-4) |  |
 | [LIST_NUMBER_5](#LIST-NUMBER-5) |  |
 | [LIST_PARAGRAPH](#LIST-PARAGRAPH) |  |
-| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | Список Таблица 1 Свет |
-| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | Список Таблица 1 Свет - Акцент 1 |
-| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | Список Таблица 1 Свет - Акцент 2 |
-| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | Список Таблица 1 Свет - Акцент 3 |
-| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | Список Таблица 1 Свет - Акцент 4 |
-| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | Список Таблица 1 Свет - Акцент 5 |
-| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | Список Таблица 1 Свет - Акцент 6 |
-| [LIST_TABLE_2](#LIST-TABLE-2) | Список Таблица 2 |
-| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | Список Таблица 2 - Акцент 1 |
-| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | Список Таблица 2 - Акцент 2 |
-| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | Список Таблица 2 - Акцент 3 |
-| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | Список Таблица 2 - Акцент 4 |
-| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | Список Таблица 2 - Акцент 5 |
-| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | Список Таблица 2 - Акцент 6 |
-| [LIST_TABLE_3](#LIST-TABLE-3) | Список Таблица 3 |
-| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | Список Таблица 3 - Акцент 1 |
-| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | Список Таблица 3 - Акцент 2 |
-| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | Список Таблица 3 - Акцент 3 |
-| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | Список Таблица 3 - Акцент 4 |
-| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | Список Таблица 3 - Акцент 5 |
-| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | Список Таблица 3 - Акцент 6 |
-| [LIST_TABLE_4](#LIST-TABLE-4) | Список Таблица 4 |
-| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | Список Таблица 4 - Акцент 1 |
-| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | Список Таблица 4 - Акцент 2 |
-| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | Список Таблица 4 - Акцент 3 |
-| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | Список Таблица 4 - Акцент 4 |
-| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | Список Таблица 4 - Акцент 5 |
-| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | Список Таблица 4 - Акцент 6 |
-| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | Список Таблица 5 Темный |
-| [LIST_TABLE_5_DARK_ACCENT_1](#LIST-TABLE-5-DARK-ACCENT-1) | Список Таблица 5 Темный - Акцент 1 |
-| [LIST_TABLE_5_DARK_ACCENT_2](#LIST-TABLE-5-DARK-ACCENT-2) | Список Таблица 5 Темный - Акцент 2 |
-| [LIST_TABLE_5_DARK_ACCENT_3](#LIST-TABLE-5-DARK-ACCENT-3) | Список Таблица 5 Темный - Акцент 3 |
-| [LIST_TABLE_5_DARK_ACCENT_4](#LIST-TABLE-5-DARK-ACCENT-4) | Список Таблица 5 Темный - Акцент 4 |
-| [LIST_TABLE_5_DARK_ACCENT_5](#LIST-TABLE-5-DARK-ACCENT-5) | Список Таблица 5 Темный - Акцент 5 |
-| [LIST_TABLE_5_DARK_ACCENT_6](#LIST-TABLE-5-DARK-ACCENT-6) | Список Таблица 5 Темный - Акцент 6 |
-| [LIST_TABLE_6_COLORFUL](#LIST-TABLE-6-COLORFUL) | Список Таблица 6 Красочный |
-| [LIST_TABLE_6_COLORFUL_ACCENT_1](#LIST-TABLE-6-COLORFUL-ACCENT-1) | Список Таблица 6 Красочный - Акцент 1 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_2](#LIST-TABLE-6-COLORFUL-ACCENT-2) | Список Таблица 6 Красочный - Акцент 2 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_3](#LIST-TABLE-6-COLORFUL-ACCENT-3) | Список Таблица 6 Красочный - Акцент 3 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_4](#LIST-TABLE-6-COLORFUL-ACCENT-4) | Список Таблица 6 Красочный - Акцент 4 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_5](#LIST-TABLE-6-COLORFUL-ACCENT-5) | Список Таблица 6 Красочный - Акцент 5 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_6](#LIST-TABLE-6-COLORFUL-ACCENT-6) | Список Таблица 6 Красочный - Акцент 6 |
-| [LIST_TABLE_7_COLORFUL](#LIST-TABLE-7-COLORFUL) | Список Таблица 7 Красочный |
-| [LIST_TABLE_7_COLORFUL_ACCENT_1](#LIST-TABLE-7-COLORFUL-ACCENT-1) | Список Таблица 7 Цветной - Акцент 1 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_2](#LIST-TABLE-7-COLORFUL-ACCENT-2) | Список Таблица 7 Красочный - Акцент 2 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_3](#LIST-TABLE-7-COLORFUL-ACCENT-3) | Список Таблица 7 Красочный - Акцент 3 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_4](#LIST-TABLE-7-COLORFUL-ACCENT-4) | Список Таблица 7 Красочный - Акцент 4 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_5](#LIST-TABLE-7-COLORFUL-ACCENT-5) | Список Таблица 7 Цветной - Акцент 5 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_6](#LIST-TABLE-7-COLORFUL-ACCENT-6) | Список Таблица 7 Красочный - Акцент 6 |
+| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | Таблица списка 1 Светлая |
+| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | Таблица списка 1 Светлая - Акцент 1 |
+| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | Таблица списка 1 Светлая - Акцент 2 |
+| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | Таблица списка 1 Светлая - Акцент 3 |
+| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | Таблица списка 1 Светлая - Акцент 4 |
+| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | Таблица списка 1 Светлая - Акцент 5 |
+| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | Таблица списка 1 Светлая - Акцент 6 |
+| [LIST_TABLE_2](#LIST-TABLE-2) | Таблица списка 2 |
+| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | Таблица списка 2 - Акцент 1 |
+| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | Таблица списка 2 - Акцент 2 |
+| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | Таблица списка 2 - Акцент 3 |
+| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | Таблица списка 2 - Акцент 4 |
+| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | Таблица списка 2 - Акцент 5 |
+| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | Таблица списка 2 - Акцент 6 |
+| [LIST_TABLE_3](#LIST-TABLE-3) | Таблица списка 3 |
+| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | Таблица списка 3 - Акцент 1 |
+| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | Таблица списка 3 - Акцент 2 |
+| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | Таблица списка 3 - Акцент 3 |
+| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | Таблица списка 3 - Акцент 4 |
+| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | Таблица списка 3 - Акцент 5 |
+| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | Таблица списка 3 - Акцент 6 |
+| [LIST_TABLE_4](#LIST-TABLE-4) | Таблица списка 4 |
+| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | Таблица списка 4 - Акцент 1 |
+| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | Таблица списка 4 - Акцент 2 |
+| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | Таблица списка 4 - Акцент 3 |
+| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | Таблица списка 4 - Акцент 4 |
+| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | Таблица списка 4 - Акцент 5 |
+| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | Таблица списка 4 - Акцент 6 |
+| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | Таблица списка 5 Тёмный |
+| [LIST_TABLE_5_DARK_ACCENT_1](#LIST-TABLE-5-DARK-ACCENT-1) | Таблица списка 5 Тёмный - Акцент 1 |
+| [LIST_TABLE_5_DARK_ACCENT_2](#LIST-TABLE-5-DARK-ACCENT-2) | Таблица списка 5 Тёмный - Акцент 2 |
+| [LIST_TABLE_5_DARK_ACCENT_3](#LIST-TABLE-5-DARK-ACCENT-3) | Таблица списка 5 Тёмный - Акцент 3 |
+| [LIST_TABLE_5_DARK_ACCENT_4](#LIST-TABLE-5-DARK-ACCENT-4) | Таблица списка 5 Тёмный - Акцент 4 |
+| [LIST_TABLE_5_DARK_ACCENT_5](#LIST-TABLE-5-DARK-ACCENT-5) | Таблица списка 5 Тёмный - Акцент 5 |
+| [LIST_TABLE_5_DARK_ACCENT_6](#LIST-TABLE-5-DARK-ACCENT-6) | Таблица списка 5 Тёмный - Акцент 6 |
+| [LIST_TABLE_6_COLORFUL](#LIST-TABLE-6-COLORFUL) | Таблица списка 6 Красочный |
+| [LIST_TABLE_6_COLORFUL_ACCENT_1](#LIST-TABLE-6-COLORFUL-ACCENT-1) | Таблица списка 6 Красочный - Акцент 1 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_2](#LIST-TABLE-6-COLORFUL-ACCENT-2) | Таблица списка 6 Красочный - Акцент 2 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_3](#LIST-TABLE-6-COLORFUL-ACCENT-3) | Таблица списка 6 Красочный - Акцент 3 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_4](#LIST-TABLE-6-COLORFUL-ACCENT-4) | Таблица списка 6 Красочный - Акцент 4 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_5](#LIST-TABLE-6-COLORFUL-ACCENT-5) | Таблица списка 6 Красочный - Акцент 5 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_6](#LIST-TABLE-6-COLORFUL-ACCENT-6) | Таблица списка 6 Красочный - Акцент 6 |
+| [LIST_TABLE_7_COLORFUL](#LIST-TABLE-7-COLORFUL) | Таблица списка 7 Красочный |
+| [LIST_TABLE_7_COLORFUL_ACCENT_1](#LIST-TABLE-7-COLORFUL-ACCENT-1) | Таблица списка 7 Красочный - Акцент 1 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_2](#LIST-TABLE-7-COLORFUL-ACCENT-2) | Таблица списка 7 Красочный - Акцент 2 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_3](#LIST-TABLE-7-COLORFUL-ACCENT-3) | Список Таблица 7 Цветная - Акцент 3 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_4](#LIST-TABLE-7-COLORFUL-ACCENT-4) | Список Таблица 7 Цветная - Акцент 4 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_5](#LIST-TABLE-7-COLORFUL-ACCENT-5) | Список Таблица 7 Цветная - Акцент 5 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_6](#LIST-TABLE-7-COLORFUL-ACCENT-6) | Список Таблица 7 Цветная - Акцент 6 |
 | [MACRO](#MACRO) |  |
 | [MEDIUM_GRID_1](#MEDIUM-GRID-1) |  |
 | [MEDIUM_GRID_1_ACCENT_1](#MEDIUM-GRID-1-ACCENT-1) |  |
@@ -311,29 +346,29 @@ public class StyleIdentifier
 | [MENTION](#MENTION) | Стиль упоминания. |
 | [MESSAGE_HEADER](#MESSAGE-HEADER) |  |
 | [NIL](#NIL) | Зарезервировано для внутреннего использования. |
-| [NORMAL](#NORMAL) | Нормальный стиль. |
-| [NORMAL_INDENT](#NORMAL-INDENT) | Нормальный стиль отступа. |
+| [NORMAL](#NORMAL) | Обычный стиль. |
+| [NORMAL_INDENT](#NORMAL-INDENT) | Стиль обычного отступа. |
 | [NORMAL_WEB](#NORMAL-WEB) |  |
 | [NOTE_HEADING](#NOTE-HEADING) |  |
 | [NO_LIST](#NO-LIST) |  |
 | [NO_SPACING](#NO-SPACING) |  |
-| [OUTLINE_LIST_1](#OUTLINE-LIST-1) | Стиль 1/а/я. |
-| [OUTLINE_LIST_2](#OUTLINE-LIST-2) | Стиль 1/1.1/1.1.1. |
-| [OUTLINE_LIST_3](#OUTLINE-LIST-3) | Стиль статьи/раздела. |
+| [OUTLINE_LIST_1](#OUTLINE-LIST-1) | Стиль 1 / a / i. |
+| [OUTLINE_LIST_2](#OUTLINE-LIST-2) | Стиль 1 / 1.1 / 1.1.1. |
+| [OUTLINE_LIST_3](#OUTLINE-LIST-3) | Стиль Статья / Раздел. |
 | [PAGE_NUMBER](#PAGE-NUMBER) | Стиль номера страницы. |
 | [PLACEHOLDER_TEXT](#PLACEHOLDER-TEXT) |  |
-| [PLAIN_TABLE_1](#PLAIN-TABLE-1) | Обычная таблица 1 |
-| [PLAIN_TABLE_2](#PLAIN-TABLE-2) | Обычная таблица 2 |
-| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | Обычная таблица 3 |
-| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | Обычная таблица 4 |
-| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | Обычная таблица 5 |
+| [PLAIN_TABLE_1](#PLAIN-TABLE-1) | Простая таблица 1 |
+| [PLAIN_TABLE_2](#PLAIN-TABLE-2) | Простая таблица 2 |
+| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | Простая таблица 3 |
+| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | Простая таблица 4 |
+| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | Простая таблица 5 |
 | [PLAIN_TEXT](#PLAIN-TEXT) |  |
 | [QUOTE](#QUOTE) |  |
 | [REVISION](#REVISION) |  |
 | [SALUTATION](#SALUTATION) |  |
 | [SIGNATURE](#SIGNATURE) |  |
 | [SMART_HYPERLINK](#SMART-HYPERLINK) | Стиль SmartHyperlink. |
-| [SMART_LINK](#SMART-LINK) | Стиль смарт-ссылки. |
+| [SMART_LINK](#SMART-LINK) | Стиль Smart Link. |
 | [STRONG](#STRONG) |  |
 | [SUBTITLE](#SUBTITLE) |  |
 | [SUBTLE_EMPHASIS](#SUBTLE-EMPHASIS) |  |
@@ -364,7 +399,7 @@ public class StyleIdentifier
 | [TABLE_GRID_6](#TABLE-GRID-6) |  |
 | [TABLE_GRID_7](#TABLE-GRID-7) |  |
 | [TABLE_GRID_8](#TABLE-GRID-8) |  |
-| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | Световая сетка стола |
+| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | Таблица Сетка Светлая |
 | [TABLE_LIST_1](#TABLE-LIST-1) |  |
 | [TABLE_LIST_2](#TABLE-LIST-2) |  |
 | [TABLE_LIST_3](#TABLE-LIST-3) |  |
@@ -375,7 +410,7 @@ public class StyleIdentifier
 | [TABLE_LIST_8](#TABLE-LIST-8) |  |
 | [TABLE_NORMAL](#TABLE-NORMAL) |  |
 | [TABLE_OF_AUTHORITIES](#TABLE-OF-AUTHORITIES) |  |
-| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | Стиль «Таблица цифр». |
+| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | Стиль Таблица рисунков. |
 | [TABLE_PROFESSIONAL](#TABLE-PROFESSIONAL) |  |
 | [TABLE_SIMPLE_1](#TABLE-SIMPLE-1) |  |
 | [TABLE_SIMPLE_2](#TABLE-SIMPLE-2) |  |
@@ -405,19 +440,10 @@ public class StyleIdentifier
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String styleIdentifierName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int styleIdentifier)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int styleIdentifier)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String styleIdentifierName)](#fromName-java.lang.String) |  |
+| [getName(int styleIdentifier)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int styleIdentifier)](#toString-int) |  |
 ### BALLOON_TEXT {#BALLOON-TEXT}
 ```
 public static int BALLOON_TEXT
@@ -704,7 +730,7 @@ public static int COMMENT_REFERENCE
 ```
 
 
-Справочный стиль Annotation (Comment).
+Стиль ссылки на аннотацию (комментарий).
 
 ### COMMENT_SUBJECT {#COMMENT-SUBJECT}
 ```
@@ -720,7 +746,7 @@ public static int COMMENT_TEXT
 ```
 
 
-Стиль текста аннотации (комментария).
+Стиль текста аннотации (комментарий).
 
 ### DARK_LIST {#DARK-LIST}
 ```
@@ -824,7 +850,7 @@ public static int ENDNOTE_REFERENCE
 ```
 
 
-Стиль ссылки на концевую сноску.
+Стиль ссылки на сноску.
 
 ### ENDNOTE_TEXT {#ENDNOTE-TEXT}
 ```
@@ -832,7 +858,7 @@ public static int ENDNOTE_TEXT
 ```
 
 
-Стиль текста концевой сноски.
+Стиль текста сноски.
 
 ### ENVELOPE_ADDRESS {#ENVELOPE-ADDRESS}
 ```
@@ -848,7 +874,7 @@ public static int ENVELOPE_RETURN
 ```
 
 
-Стиль возврата конверта.
+Стиль обратного адреса конверта.
 
 ### FOLLOWED_HYPERLINK {#FOLLOWED-HYPERLINK}
 ```
@@ -888,7 +914,7 @@ public static int GRID_TABLE_1_LIGHT
 ```
 
 
-Сетка Таблица 1 Свет
+Таблица сетка 1 светлая
 
 ### GRID_TABLE_1_LIGHT_ACCENT_1 {#GRID-TABLE-1-LIGHT-ACCENT-1}
 ```
@@ -896,7 +922,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_1
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 1
+Таблица сетка 1 светлая - Акцент 1
 
 ### GRID_TABLE_1_LIGHT_ACCENT_2 {#GRID-TABLE-1-LIGHT-ACCENT-2}
 ```
@@ -904,7 +930,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_2
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 2
+Таблица сетка 1 светлая - Акцент 2
 
 ### GRID_TABLE_1_LIGHT_ACCENT_3 {#GRID-TABLE-1-LIGHT-ACCENT-3}
 ```
@@ -912,7 +938,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_3
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 3
+Таблица сетка 1 светлая - Акцент 3
 
 ### GRID_TABLE_1_LIGHT_ACCENT_4 {#GRID-TABLE-1-LIGHT-ACCENT-4}
 ```
@@ -920,7 +946,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_4
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 4
+Таблица сетка 1 светлая - Акцент 4
 
 ### GRID_TABLE_1_LIGHT_ACCENT_5 {#GRID-TABLE-1-LIGHT-ACCENT-5}
 ```
@@ -928,7 +954,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_5
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 5
+Таблица сетка 1 светлая - Акцент 5
 
 ### GRID_TABLE_1_LIGHT_ACCENT_6 {#GRID-TABLE-1-LIGHT-ACCENT-6}
 ```
@@ -936,7 +962,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_6
 ```
 
 
-Сетка Таблица 1 Свет - Акцент 6
+Таблица сетка 1 светлая - Акцент 6
 
 ### GRID_TABLE_2 {#GRID-TABLE-2}
 ```
@@ -944,7 +970,7 @@ public static int GRID_TABLE_2
 ```
 
 
-Сетка Таблица 2
+Таблица сетка 2
 
 ### GRID_TABLE_2_ACCENT_1 {#GRID-TABLE-2-ACCENT-1}
 ```
@@ -952,7 +978,7 @@ public static int GRID_TABLE_2_ACCENT_1
 ```
 
 
-Сетка Таблица 2 - Акцент 1
+Таблица сетка 2 - Акцент 1
 
 ### GRID_TABLE_2_ACCENT_2 {#GRID-TABLE-2-ACCENT-2}
 ```
@@ -960,7 +986,7 @@ public static int GRID_TABLE_2_ACCENT_2
 ```
 
 
-Сетка Таблица 2 - Акцент 2
+Таблица сетка 2 - Акцент 2
 
 ### GRID_TABLE_2_ACCENT_3 {#GRID-TABLE-2-ACCENT-3}
 ```
@@ -968,7 +994,7 @@ public static int GRID_TABLE_2_ACCENT_3
 ```
 
 
-Сетка Таблица 2 - Акцент 3
+Таблица сетка 2 - Акцент 3
 
 ### GRID_TABLE_2_ACCENT_4 {#GRID-TABLE-2-ACCENT-4}
 ```
@@ -976,7 +1002,7 @@ public static int GRID_TABLE_2_ACCENT_4
 ```
 
 
-Сетка Таблица 2 - Акцент 4
+Таблица сетки 2 - Accent 4
 
 ### GRID_TABLE_2_ACCENT_5 {#GRID-TABLE-2-ACCENT-5}
 ```
@@ -984,7 +1010,7 @@ public static int GRID_TABLE_2_ACCENT_5
 ```
 
 
-Сетка Таблица 2 - Акцент 5
+Таблица сетки 2 - Accent 5
 
 ### GRID_TABLE_2_ACCENT_6 {#GRID-TABLE-2-ACCENT-6}
 ```
@@ -992,7 +1018,7 @@ public static int GRID_TABLE_2_ACCENT_6
 ```
 
 
-Сетка Таблица 2 - Акцент 6
+Таблица сетки 2 - Accent 6
 
 ### GRID_TABLE_3 {#GRID-TABLE-3}
 ```
@@ -1000,7 +1026,7 @@ public static int GRID_TABLE_3
 ```
 
 
-Сетка Таблица 3
+Таблица сетки 3
 
 ### GRID_TABLE_3_ACCENT_1 {#GRID-TABLE-3-ACCENT-1}
 ```
@@ -1008,7 +1034,7 @@ public static int GRID_TABLE_3_ACCENT_1
 ```
 
 
-Сетка Таблица 3 - Акцент 1
+Таблица сетки 3 - Accent 1
 
 ### GRID_TABLE_3_ACCENT_2 {#GRID-TABLE-3-ACCENT-2}
 ```
@@ -1016,7 +1042,7 @@ public static int GRID_TABLE_3_ACCENT_2
 ```
 
 
-Сетка Таблица 3 - Акцент 2
+Таблица сетки 3 - Accent 2
 
 ### GRID_TABLE_3_ACCENT_3 {#GRID-TABLE-3-ACCENT-3}
 ```
@@ -1024,7 +1050,7 @@ public static int GRID_TABLE_3_ACCENT_3
 ```
 
 
-Сетка Таблица 3 - Акцент 3
+Таблица сетки 3 - Accent 3
 
 ### GRID_TABLE_3_ACCENT_4 {#GRID-TABLE-3-ACCENT-4}
 ```
@@ -1032,7 +1058,7 @@ public static int GRID_TABLE_3_ACCENT_4
 ```
 
 
-Сетка Таблица 3 - Акцент 4
+Таблица сетки 3 - Accent 4
 
 ### GRID_TABLE_3_ACCENT_5 {#GRID-TABLE-3-ACCENT-5}
 ```
@@ -1040,7 +1066,7 @@ public static int GRID_TABLE_3_ACCENT_5
 ```
 
 
-Сетка Таблица 3 - Акцент 5
+Таблица сетки 3 - Accent 5
 
 ### GRID_TABLE_3_ACCENT_6 {#GRID-TABLE-3-ACCENT-6}
 ```
@@ -1048,7 +1074,7 @@ public static int GRID_TABLE_3_ACCENT_6
 ```
 
 
-Сетка Таблица 3 - Акцент 6
+Таблица сетки 3 - Accent 6
 
 ### GRID_TABLE_4 {#GRID-TABLE-4}
 ```
@@ -1056,7 +1082,7 @@ public static int GRID_TABLE_4
 ```
 
 
-Сетка Таблица 4
+Таблица сетки 4
 
 ### GRID_TABLE_4_ACCENT_1 {#GRID-TABLE-4-ACCENT-1}
 ```
@@ -1064,7 +1090,7 @@ public static int GRID_TABLE_4_ACCENT_1
 ```
 
 
-Сетка Таблица 4 - Акцент 1
+Таблица сетки 4 - Accent 1
 
 ### GRID_TABLE_4_ACCENT_2 {#GRID-TABLE-4-ACCENT-2}
 ```
@@ -1072,7 +1098,7 @@ public static int GRID_TABLE_4_ACCENT_2
 ```
 
 
-Сетка Таблица 4 - Акцент 2
+Таблица сетки 4 - Accent 2
 
 ### GRID_TABLE_4_ACCENT_3 {#GRID-TABLE-4-ACCENT-3}
 ```
@@ -1080,7 +1106,7 @@ public static int GRID_TABLE_4_ACCENT_3
 ```
 
 
-Сетка Таблица 4 - Акцент 3
+Таблица сетки 4 - Accent 3
 
 ### GRID_TABLE_4_ACCENT_4 {#GRID-TABLE-4-ACCENT-4}
 ```
@@ -1088,7 +1114,7 @@ public static int GRID_TABLE_4_ACCENT_4
 ```
 
 
-Сетка Таблица 4 - Акцент 4
+Таблица сетки 4 - Accent 4
 
 ### GRID_TABLE_4_ACCENT_5 {#GRID-TABLE-4-ACCENT-5}
 ```
@@ -1096,7 +1122,7 @@ public static int GRID_TABLE_4_ACCENT_5
 ```
 
 
-Сетка Таблица 4 - Акцент 5
+Таблица сетки 4 - Accent 5
 
 ### GRID_TABLE_4_ACCENT_6 {#GRID-TABLE-4-ACCENT-6}
 ```
@@ -1104,7 +1130,7 @@ public static int GRID_TABLE_4_ACCENT_6
 ```
 
 
-Сетка Таблица 4 - Акцент 6
+Таблица сетки 4 - Accent 6
 
 ### GRID_TABLE_5_DARK {#GRID-TABLE-5-DARK}
 ```
@@ -1112,7 +1138,7 @@ public static int GRID_TABLE_5_DARK
 ```
 
 
-Сетка Таблица 5 Темный
+Таблица сетки 5 Тёмный
 
 ### GRID_TABLE_5_DARK_ACCENT_1 {#GRID-TABLE-5-DARK-ACCENT-1}
 ```
@@ -1120,7 +1146,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_1
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 1
+Таблица сетки 5 Тёмный - Accent 1
 
 ### GRID_TABLE_5_DARK_ACCENT_2 {#GRID-TABLE-5-DARK-ACCENT-2}
 ```
@@ -1128,7 +1154,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_2
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 2
+Таблица сетки 5 Тёмный - Accent 2
 
 ### GRID_TABLE_5_DARK_ACCENT_3 {#GRID-TABLE-5-DARK-ACCENT-3}
 ```
@@ -1136,7 +1162,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_3
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 3
+Таблица сетки 5 Тёмный - Accent 3
 
 ### GRID_TABLE_5_DARK_ACCENT_4 {#GRID-TABLE-5-DARK-ACCENT-4}
 ```
@@ -1144,7 +1170,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_4
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 4
+Таблица сетки 5 Тёмный - Accent 4
 
 ### GRID_TABLE_5_DARK_ACCENT_5 {#GRID-TABLE-5-DARK-ACCENT-5}
 ```
@@ -1152,7 +1178,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_5
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 5
+Таблица сетки 5 Тёмный - Accent 5
 
 ### GRID_TABLE_5_DARK_ACCENT_6 {#GRID-TABLE-5-DARK-ACCENT-6}
 ```
@@ -1160,7 +1186,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_6
 ```
 
 
-Сетка Таблица 5 Темный - Акцент 6
+Таблица сетки 5 Тёмный - Accent 6
 
 ### GRID_TABLE_6_COLORFUL {#GRID-TABLE-6-COLORFUL}
 ```
@@ -1168,7 +1194,7 @@ public static int GRID_TABLE_6_COLORFUL
 ```
 
 
-Сетка Таблица 6 Цветной
+Таблица сетки 6 Красочный
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_1 {#GRID-TABLE-6-COLORFUL-ACCENT-1}
 ```
@@ -1176,7 +1202,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_1
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 1
+Таблица сетки 6 Красочная - Акцент 1
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_2 {#GRID-TABLE-6-COLORFUL-ACCENT-2}
 ```
@@ -1184,7 +1210,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_2
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 2
+Таблица сетки 6 Красочная - Акцент 2
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_3 {#GRID-TABLE-6-COLORFUL-ACCENT-3}
 ```
@@ -1192,7 +1218,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_3
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 3
+Таблица сетки 6 Красочная - Акцент 3
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_4 {#GRID-TABLE-6-COLORFUL-ACCENT-4}
 ```
@@ -1200,7 +1226,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_4
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 4
+Таблица сетки 6 Красочная - Акцент 4
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_5 {#GRID-TABLE-6-COLORFUL-ACCENT-5}
 ```
@@ -1208,7 +1234,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_5
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 5
+Таблица сетки 6 Красочная - Акцент 5
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_6 {#GRID-TABLE-6-COLORFUL-ACCENT-6}
 ```
@@ -1216,7 +1242,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_6
 ```
 
 
-Сетка Таблица 6 Красочный - Акцент 6
+Таблица сетки 6 Красочная - Акцент 6
 
 ### GRID_TABLE_7_COLORFUL {#GRID-TABLE-7-COLORFUL}
 ```
@@ -1224,7 +1250,7 @@ public static int GRID_TABLE_7_COLORFUL
 ```
 
 
-Сетка Таблица 7 Цветная
+Таблица сетки 7 Красочная
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_1 {#GRID-TABLE-7-COLORFUL-ACCENT-1}
 ```
@@ -1232,7 +1258,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_1
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 1
+Таблица сетки 7 Красочная - Акцент 1
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_2 {#GRID-TABLE-7-COLORFUL-ACCENT-2}
 ```
@@ -1240,7 +1266,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_2
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 2
+Таблица сетки 7 Красочная - Акцент 2
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_3 {#GRID-TABLE-7-COLORFUL-ACCENT-3}
 ```
@@ -1248,7 +1274,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_3
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 3
+Таблица сетки 7 Красочная - Акцент 3
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_4 {#GRID-TABLE-7-COLORFUL-ACCENT-4}
 ```
@@ -1256,7 +1282,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_4
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 4
+Таблица сетки 7 Красочная - Акцент 4
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_5 {#GRID-TABLE-7-COLORFUL-ACCENT-5}
 ```
@@ -1264,7 +1290,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_5
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 5
+Таблица сетки 7 Красочная - Акцент 5
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_6 {#GRID-TABLE-7-COLORFUL-ACCENT-6}
 ```
@@ -1272,7 +1298,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_6
 ```
 
 
-Сетка Таблица 7 Красочный - Акцент 6
+Таблица сетки 7 Красочная - Акцент 6
 
 ### HASHTAG {#HASHTAG}
 ```
@@ -1280,7 +1306,7 @@ public static int HASHTAG
 ```
 
 
-Стиль хэштегов.
+Стиль хэштега.
 
 ### HEADER {#HEADER}
 ```
@@ -1296,7 +1322,7 @@ public static int HEADING_1
 ```
 
 
-Стиль Заголовок 1.
+Стиль заголовка 1.
 
 ### HEADING_2 {#HEADING-2}
 ```
@@ -1352,7 +1378,7 @@ public static int HEADING_8
 ```
 
 
-Стиль «Заголовок 8».
+Стиль заголовка 8.
 
 ### HEADING_9 {#HEADING-9}
 ```
@@ -1360,7 +1386,7 @@ public static int HEADING_9
 ```
 
 
-Стиль «Заголовок 9».
+Стиль заголовка 9.
 
 ### HTML_ACRONYM {#HTML-ACRONYM}
 ```
@@ -1792,7 +1818,7 @@ public static int LIST_BULLET
 ```
 
 
-Стиль списка.
+Стиль маркера списка.
 
 ### LIST_BULLET_2 {#LIST-BULLET-2}
 ```
@@ -1872,7 +1898,7 @@ public static int LIST_NUMBER
 ```
 
 
-Стиль списка номеров.
+Стиль нумерации списка.
 
 ### LIST_NUMBER_2 {#LIST-NUMBER-2}
 ```
@@ -1920,7 +1946,7 @@ public static int LIST_TABLE_1_LIGHT
 ```
 
 
-Список Таблица 1 Свет
+Таблица списка 1 Светлая
 
 ### LIST_TABLE_1_LIGHT_ACCENT_1 {#LIST-TABLE-1-LIGHT-ACCENT-1}
 ```
@@ -1928,7 +1954,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_1
 ```
 
 
-Список Таблица 1 Свет - Акцент 1
+Таблица списка 1 Светлая - Акцент 1
 
 ### LIST_TABLE_1_LIGHT_ACCENT_2 {#LIST-TABLE-1-LIGHT-ACCENT-2}
 ```
@@ -1936,7 +1962,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_2
 ```
 
 
-Список Таблица 1 Свет - Акцент 2
+Таблица списка 1 Светлая - Акцент 2
 
 ### LIST_TABLE_1_LIGHT_ACCENT_3 {#LIST-TABLE-1-LIGHT-ACCENT-3}
 ```
@@ -1944,7 +1970,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_3
 ```
 
 
-Список Таблица 1 Свет - Акцент 3
+Таблица списка 1 Светлая - Акцент 3
 
 ### LIST_TABLE_1_LIGHT_ACCENT_4 {#LIST-TABLE-1-LIGHT-ACCENT-4}
 ```
@@ -1952,7 +1978,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_4
 ```
 
 
-Список Таблица 1 Свет - Акцент 4
+Таблица списка 1 Светлая - Акцент 4
 
 ### LIST_TABLE_1_LIGHT_ACCENT_5 {#LIST-TABLE-1-LIGHT-ACCENT-5}
 ```
@@ -1960,7 +1986,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_5
 ```
 
 
-Список Таблица 1 Свет - Акцент 5
+Таблица списка 1 Светлая - Акцент 5
 
 ### LIST_TABLE_1_LIGHT_ACCENT_6 {#LIST-TABLE-1-LIGHT-ACCENT-6}
 ```
@@ -1968,7 +1994,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_6
 ```
 
 
-Список Таблица 1 Свет - Акцент 6
+Таблица списка 1 Светлая - Акцент 6
 
 ### LIST_TABLE_2 {#LIST-TABLE-2}
 ```
@@ -1976,7 +2002,7 @@ public static int LIST_TABLE_2
 ```
 
 
-Список Таблица 2
+Таблица списка 2
 
 ### LIST_TABLE_2_ACCENT_1 {#LIST-TABLE-2-ACCENT-1}
 ```
@@ -1984,7 +2010,7 @@ public static int LIST_TABLE_2_ACCENT_1
 ```
 
 
-Список Таблица 2 - Акцент 1
+Таблица списка 2 - Акцент 1
 
 ### LIST_TABLE_2_ACCENT_2 {#LIST-TABLE-2-ACCENT-2}
 ```
@@ -1992,7 +2018,7 @@ public static int LIST_TABLE_2_ACCENT_2
 ```
 
 
-Список Таблица 2 - Акцент 2
+Таблица списка 2 - Акцент 2
 
 ### LIST_TABLE_2_ACCENT_3 {#LIST-TABLE-2-ACCENT-3}
 ```
@@ -2000,7 +2026,7 @@ public static int LIST_TABLE_2_ACCENT_3
 ```
 
 
-Список Таблица 2 - Акцент 3
+Таблица списка 2 - Акцент 3
 
 ### LIST_TABLE_2_ACCENT_4 {#LIST-TABLE-2-ACCENT-4}
 ```
@@ -2008,7 +2034,7 @@ public static int LIST_TABLE_2_ACCENT_4
 ```
 
 
-Список Таблица 2 - Акцент 4
+Таблица списка 2 - Акцент 4
 
 ### LIST_TABLE_2_ACCENT_5 {#LIST-TABLE-2-ACCENT-5}
 ```
@@ -2016,7 +2042,7 @@ public static int LIST_TABLE_2_ACCENT_5
 ```
 
 
-Список Таблица 2 - Акцент 5
+Таблица списка 2 - Акцент 5
 
 ### LIST_TABLE_2_ACCENT_6 {#LIST-TABLE-2-ACCENT-6}
 ```
@@ -2024,7 +2050,7 @@ public static int LIST_TABLE_2_ACCENT_6
 ```
 
 
-Список Таблица 2 - Акцент 6
+Таблица списка 2 - Акцент 6
 
 ### LIST_TABLE_3 {#LIST-TABLE-3}
 ```
@@ -2032,7 +2058,7 @@ public static int LIST_TABLE_3
 ```
 
 
-Список Таблица 3
+Таблица списка 3
 
 ### LIST_TABLE_3_ACCENT_1 {#LIST-TABLE-3-ACCENT-1}
 ```
@@ -2040,7 +2066,7 @@ public static int LIST_TABLE_3_ACCENT_1
 ```
 
 
-Список Таблица 3 - Акцент 1
+Таблица списка 3 - Акцент 1
 
 ### LIST_TABLE_3_ACCENT_2 {#LIST-TABLE-3-ACCENT-2}
 ```
@@ -2048,7 +2074,7 @@ public static int LIST_TABLE_3_ACCENT_2
 ```
 
 
-Список Таблица 3 - Акцент 2
+Таблица списка 3 - Акцент 2
 
 ### LIST_TABLE_3_ACCENT_3 {#LIST-TABLE-3-ACCENT-3}
 ```
@@ -2056,7 +2082,7 @@ public static int LIST_TABLE_3_ACCENT_3
 ```
 
 
-Список Таблица 3 - Акцент 3
+Таблица списка 3 - Акцент 3
 
 ### LIST_TABLE_3_ACCENT_4 {#LIST-TABLE-3-ACCENT-4}
 ```
@@ -2064,7 +2090,7 @@ public static int LIST_TABLE_3_ACCENT_4
 ```
 
 
-Список Таблица 3 - Акцент 4
+Таблица списка 3 - Акцент 4
 
 ### LIST_TABLE_3_ACCENT_5 {#LIST-TABLE-3-ACCENT-5}
 ```
@@ -2072,7 +2098,7 @@ public static int LIST_TABLE_3_ACCENT_5
 ```
 
 
-Список Таблица 3 - Акцент 5
+Таблица списка 3 - Акцент 5
 
 ### LIST_TABLE_3_ACCENT_6 {#LIST-TABLE-3-ACCENT-6}
 ```
@@ -2080,7 +2106,7 @@ public static int LIST_TABLE_3_ACCENT_6
 ```
 
 
-Список Таблица 3 - Акцент 6
+Таблица списка 3 - Акцент 6
 
 ### LIST_TABLE_4 {#LIST-TABLE-4}
 ```
@@ -2088,7 +2114,7 @@ public static int LIST_TABLE_4
 ```
 
 
-Список Таблица 4
+Таблица списка 4
 
 ### LIST_TABLE_4_ACCENT_1 {#LIST-TABLE-4-ACCENT-1}
 ```
@@ -2096,7 +2122,7 @@ public static int LIST_TABLE_4_ACCENT_1
 ```
 
 
-Список Таблица 4 - Акцент 1
+Таблица списка 4 - Акцент 1
 
 ### LIST_TABLE_4_ACCENT_2 {#LIST-TABLE-4-ACCENT-2}
 ```
@@ -2104,7 +2130,7 @@ public static int LIST_TABLE_4_ACCENT_2
 ```
 
 
-Список Таблица 4 - Акцент 2
+Таблица списка 4 - Акцент 2
 
 ### LIST_TABLE_4_ACCENT_3 {#LIST-TABLE-4-ACCENT-3}
 ```
@@ -2112,7 +2138,7 @@ public static int LIST_TABLE_4_ACCENT_3
 ```
 
 
-Список Таблица 4 - Акцент 3
+Таблица списка 4 - Акцент 3
 
 ### LIST_TABLE_4_ACCENT_4 {#LIST-TABLE-4-ACCENT-4}
 ```
@@ -2120,7 +2146,7 @@ public static int LIST_TABLE_4_ACCENT_4
 ```
 
 
-Список Таблица 4 - Акцент 4
+Таблица списка 4 - Акцент 4
 
 ### LIST_TABLE_4_ACCENT_5 {#LIST-TABLE-4-ACCENT-5}
 ```
@@ -2128,7 +2154,7 @@ public static int LIST_TABLE_4_ACCENT_5
 ```
 
 
-Список Таблица 4 - Акцент 5
+Таблица списка 4 - Акцент 5
 
 ### LIST_TABLE_4_ACCENT_6 {#LIST-TABLE-4-ACCENT-6}
 ```
@@ -2136,7 +2162,7 @@ public static int LIST_TABLE_4_ACCENT_6
 ```
 
 
-Список Таблица 4 - Акцент 6
+Таблица списка 4 - Акцент 6
 
 ### LIST_TABLE_5_DARK {#LIST-TABLE-5-DARK}
 ```
@@ -2144,7 +2170,7 @@ public static int LIST_TABLE_5_DARK
 ```
 
 
-Список Таблица 5 Темный
+Таблица списка 5 Тёмный
 
 ### LIST_TABLE_5_DARK_ACCENT_1 {#LIST-TABLE-5-DARK-ACCENT-1}
 ```
@@ -2152,7 +2178,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_1
 ```
 
 
-Список Таблица 5 Темный - Акцент 1
+Таблица списка 5 Тёмный - Акцент 1
 
 ### LIST_TABLE_5_DARK_ACCENT_2 {#LIST-TABLE-5-DARK-ACCENT-2}
 ```
@@ -2160,7 +2186,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_2
 ```
 
 
-Список Таблица 5 Темный - Акцент 2
+Таблица списка 5 Тёмный - Акцент 2
 
 ### LIST_TABLE_5_DARK_ACCENT_3 {#LIST-TABLE-5-DARK-ACCENT-3}
 ```
@@ -2168,7 +2194,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_3
 ```
 
 
-Список Таблица 5 Темный - Акцент 3
+Таблица списка 5 Тёмный - Акцент 3
 
 ### LIST_TABLE_5_DARK_ACCENT_4 {#LIST-TABLE-5-DARK-ACCENT-4}
 ```
@@ -2176,7 +2202,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_4
 ```
 
 
-Список Таблица 5 Темный - Акцент 4
+Таблица списка 5 Тёмный - Акцент 4
 
 ### LIST_TABLE_5_DARK_ACCENT_5 {#LIST-TABLE-5-DARK-ACCENT-5}
 ```
@@ -2184,7 +2210,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_5
 ```
 
 
-Список Таблица 5 Темный - Акцент 5
+Таблица списка 5 Тёмный - Акцент 5
 
 ### LIST_TABLE_5_DARK_ACCENT_6 {#LIST-TABLE-5-DARK-ACCENT-6}
 ```
@@ -2192,7 +2218,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_6
 ```
 
 
-Список Таблица 5 Темный - Акцент 6
+Таблица списка 5 Тёмный - Акцент 6
 
 ### LIST_TABLE_6_COLORFUL {#LIST-TABLE-6-COLORFUL}
 ```
@@ -2200,7 +2226,7 @@ public static int LIST_TABLE_6_COLORFUL
 ```
 
 
-Список Таблица 6 Красочный
+Таблица списка 6 Красочный
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_1 {#LIST-TABLE-6-COLORFUL-ACCENT-1}
 ```
@@ -2208,7 +2234,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_1
 ```
 
 
-Список Таблица 6 Красочный - Акцент 1
+Таблица списка 6 Красочный - Акцент 1
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_2 {#LIST-TABLE-6-COLORFUL-ACCENT-2}
 ```
@@ -2216,7 +2242,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_2
 ```
 
 
-Список Таблица 6 Красочный - Акцент 2
+Таблица списка 6 Красочный - Акцент 2
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_3 {#LIST-TABLE-6-COLORFUL-ACCENT-3}
 ```
@@ -2224,7 +2250,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_3
 ```
 
 
-Список Таблица 6 Красочный - Акцент 3
+Таблица списка 6 Красочный - Акцент 3
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_4 {#LIST-TABLE-6-COLORFUL-ACCENT-4}
 ```
@@ -2232,7 +2258,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_4
 ```
 
 
-Список Таблица 6 Красочный - Акцент 4
+Таблица списка 6 Красочный - Акцент 4
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_5 {#LIST-TABLE-6-COLORFUL-ACCENT-5}
 ```
@@ -2240,7 +2266,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_5
 ```
 
 
-Список Таблица 6 Красочный - Акцент 5
+Таблица списка 6 Красочный - Акцент 5
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_6 {#LIST-TABLE-6-COLORFUL-ACCENT-6}
 ```
@@ -2248,7 +2274,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_6
 ```
 
 
-Список Таблица 6 Красочный - Акцент 6
+Таблица списка 6 Красочный - Акцент 6
 
 ### LIST_TABLE_7_COLORFUL {#LIST-TABLE-7-COLORFUL}
 ```
@@ -2256,7 +2282,7 @@ public static int LIST_TABLE_7_COLORFUL
 ```
 
 
-Список Таблица 7 Красочный
+Таблица списка 7 Красочный
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_1 {#LIST-TABLE-7-COLORFUL-ACCENT-1}
 ```
@@ -2264,7 +2290,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_1
 ```
 
 
-Список Таблица 7 Цветной - Акцент 1
+Таблица списка 7 Красочный - Акцент 1
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_2 {#LIST-TABLE-7-COLORFUL-ACCENT-2}
 ```
@@ -2272,7 +2298,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_2
 ```
 
 
-Список Таблица 7 Красочный - Акцент 2
+Таблица списка 7 Красочный - Акцент 2
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_3 {#LIST-TABLE-7-COLORFUL-ACCENT-3}
 ```
@@ -2280,7 +2306,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_3
 ```
 
 
-Список Таблица 7 Красочный - Акцент 3
+Список Таблица 7 Цветная - Акцент 3
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_4 {#LIST-TABLE-7-COLORFUL-ACCENT-4}
 ```
@@ -2288,7 +2314,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_4
 ```
 
 
-Список Таблица 7 Красочный - Акцент 4
+Список Таблица 7 Цветная - Акцент 4
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_5 {#LIST-TABLE-7-COLORFUL-ACCENT-5}
 ```
@@ -2296,7 +2322,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_5
 ```
 
 
-Список Таблица 7 Цветной - Акцент 5
+Список Таблица 7 Цветная - Акцент 5
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_6 {#LIST-TABLE-7-COLORFUL-ACCENT-6}
 ```
@@ -2304,7 +2330,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_6
 ```
 
 
-Список Таблица 7 Красочный - Акцент 6
+Список Таблица 7 Цветная - Акцент 6
 
 ### MACRO {#MACRO}
 ```
@@ -2736,7 +2762,7 @@ public static int NORMAL
 ```
 
 
-Нормальный стиль.
+Обычный стиль.
 
 ### NORMAL_INDENT {#NORMAL-INDENT}
 ```
@@ -2744,7 +2770,7 @@ public static int NORMAL_INDENT
 ```
 
 
-Нормальный стиль отступа.
+Стиль обычного отступа.
 
 ### NORMAL_WEB {#NORMAL-WEB}
 ```
@@ -2784,7 +2810,7 @@ public static int OUTLINE_LIST_1
 ```
 
 
-Стиль 1/а/я.
+Стиль 1 / a / i.
 
 ### OUTLINE_LIST_2 {#OUTLINE-LIST-2}
 ```
@@ -2792,7 +2818,7 @@ public static int OUTLINE_LIST_2
 ```
 
 
-Стиль 1/1.1/1.1.1.
+Стиль 1 / 1.1 / 1.1.1.
 
 ### OUTLINE_LIST_3 {#OUTLINE-LIST-3}
 ```
@@ -2800,7 +2826,7 @@ public static int OUTLINE_LIST_3
 ```
 
 
-Стиль статьи/раздела.
+Стиль Статья / Раздел.
 
 ### PAGE_NUMBER {#PAGE-NUMBER}
 ```
@@ -2824,7 +2850,7 @@ public static int PLAIN_TABLE_1
 ```
 
 
-Обычная таблица 1
+Простая таблица 1
 
 ### PLAIN_TABLE_2 {#PLAIN-TABLE-2}
 ```
@@ -2832,7 +2858,7 @@ public static int PLAIN_TABLE_2
 ```
 
 
-Обычная таблица 2
+Простая таблица 2
 
 ### PLAIN_TABLE_3 {#PLAIN-TABLE-3}
 ```
@@ -2840,7 +2866,7 @@ public static int PLAIN_TABLE_3
 ```
 
 
-Обычная таблица 3
+Простая таблица 3
 
 ### PLAIN_TABLE_4 {#PLAIN-TABLE-4}
 ```
@@ -2848,7 +2874,7 @@ public static int PLAIN_TABLE_4
 ```
 
 
-Обычная таблица 4
+Простая таблица 4
 
 ### PLAIN_TABLE_5 {#PLAIN-TABLE-5}
 ```
@@ -2856,7 +2882,7 @@ public static int PLAIN_TABLE_5
 ```
 
 
-Обычная таблица 5
+Простая таблица 5
 
 ### PLAIN_TEXT {#PLAIN-TEXT}
 ```
@@ -2912,7 +2938,7 @@ public static int SMART_LINK
 ```
 
 
-Стиль смарт-ссылки.
+Стиль Smart Link.
 
 ### STRONG {#STRONG}
 ```
@@ -3160,7 +3186,7 @@ public static int TABLE_GRID_LIGHT
 ```
 
 
-Световая сетка стола
+Таблица Сетка Светлая
 
 ### TABLE_LIST_1 {#TABLE-LIST-1}
 ```
@@ -3248,7 +3274,7 @@ public static int TABLE_OF_FIGURES
 ```
 
 
-Стиль «Таблица цифр».
+Стиль Таблица рисунков.
 
 ### TABLE_PROFESSIONAL {#TABLE-PROFESSIONAL}
 ```
@@ -3448,23 +3474,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String styleIdentifierName) {#fromName-java.lang.String-}
+### fromName(String styleIdentifierName) {#fromName-java.lang.String}
 ```
 public static int fromName(String styleIdentifierName)
 ```
@@ -3472,25 +3482,14 @@ public static int fromName(String styleIdentifierName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | styleIdentifierName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int styleIdentifier) {#getName-int-}
+**Returns:**
+int
+### getName(int styleIdentifier) {#getName-int}
 ```
 public static String getName(int styleIdentifier)
 ```
@@ -3498,15 +3497,14 @@ public static String getName(int styleIdentifier)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -3514,45 +3512,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int styleIdentifier) {#toString-int-}
+**Returns:**
+int[]
+### toString(int styleIdentifier) {#toString-int}
 ```
 public static String toString(int styleIdentifier)
 ```
@@ -3560,47 +3522,10 @@ public static String toString(int styleIdentifier)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

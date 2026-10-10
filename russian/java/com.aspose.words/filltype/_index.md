@@ -1,54 +1,73 @@
 ---
-title: FillType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип заполнения для заполняемого объекта.
+title: "FillType"
+linktitle: "FillType"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип заливки для заполняемого объекта в Java."
 type: docs
-weight: 268
+weight: 312
 url: /ru/java/com.aspose.words/filltype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FillType
 ```
 
 Указывает тип заполнения для заполняемого объекта.
+
+ **Examples:** 
+
+Показывает, как преобразовать любую из заливок обратно в сплошную заливку.
+
+```
+
+ Document doc = new Document(getMyDir() + "Two color gradient.docx");
+
+ // Get Fill object for Font of the first Run.
+ Fill fill = doc.getFirstSection().getBody().getParagraphs().get(0).getRuns().get(0).getFont().getFill();
+
+ // Check Fill properties of the Font.
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill is transparent at {0}%",fill.getTransparency() * 100.0));
+
+ // Change type of the fill to Solid with uniform green color.
+ fill.solid(Color.GREEN);
+ System.out.println("\nThe fill is changed:");
+ System.out.println(MessageFormat.format("The type of the fill is: {0}",fill.getFillType()));
+ System.out.println(MessageFormat.format("The foreground color of the fill is: {0}",fill.getForeColor()));
+ System.out.println(MessageFormat.format("The fill transparency is {0}%",fill.getTransparency() * 100.0));
+
+ doc.save(getArtifactsDir() + "Drawing.FillSolid.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BACKGROUND](#BACKGROUND) | Заливка аналогична фону. |
+| [BACKGROUND](#BACKGROUND) | Заливка совпадает с фоном. |
 | [GRADIENT](#GRADIENT) | Градиентная заливка. |
-| [PATTERNED](#PATTERNED) | Узорчатая заливка. |
-| [PICTURE](#PICTURE) | Картинная заливка. |
-| [SOLID](#SOLID) | Твердая заливка. |
-| [TEXTURED](#TEXTURED) | Фактурная заливка. |
+| [PATTERNED](#PATTERNED) | Заливка узором. |
+| [PICTURE](#PICTURE) | Заливка изображением. |
+| [SOLID](#SOLID) | Сплошная заливка. |
+| [TEXTURED](#TEXTURED) | Текстурированная заливка. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fillTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fillType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int fillType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String fillTypeName)](#fromName-java.lang.String) |  |
+| [getName(int fillType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int fillType)](#toString-int) |  |
 ### BACKGROUND {#BACKGROUND}
 ```
 public static int BACKGROUND
 ```
 
 
-Заливка аналогична фону.
+Заливка совпадает с фоном.
 
 ### GRADIENT {#GRADIENT}
 ```
@@ -64,7 +83,7 @@ public static int PATTERNED
 ```
 
 
-Узорчатая заливка.
+Заливка узором.
 
 ### PICTURE {#PICTURE}
 ```
@@ -72,7 +91,7 @@ public static int PICTURE
 ```
 
 
-Картинная заливка.
+Заливка изображением.
 
 ### SOLID {#SOLID}
 ```
@@ -80,7 +99,7 @@ public static int SOLID
 ```
 
 
-Твердая заливка.
+Сплошная заливка.
 
 ### TEXTURED {#TEXTURED}
 ```
@@ -88,7 +107,7 @@ public static int TEXTURED
 ```
 
 
-Фактурная заливка.
+Текстурированная заливка.
 
 ### length {#length}
 ```
@@ -96,23 +115,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String fillTypeName) {#fromName-java.lang.String-}
+### fromName(String fillTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fillTypeName)
 ```
@@ -120,25 +123,14 @@ public static int fromName(String fillTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fillTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int fillType) {#getName-int-}
+**Returns:**
+int
+### getName(int fillType) {#getName-int}
 ```
 public static String getName(int fillType)
 ```
@@ -146,15 +138,14 @@ public static String getName(int fillType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fillType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +153,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int fillType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int fillType) {#toString-int}
 ```
 public static String toString(int fillType)
 ```
@@ -208,47 +163,10 @@ public static String toString(int fillType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fillType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

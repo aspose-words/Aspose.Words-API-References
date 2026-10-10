@@ -1,50 +1,113 @@
 ---
-title: TaskPaneDockState
-second_title: Справочник по API Aspose.Words для Java
-description: Перечисляет доступные местоположения объекта области задач.
+title: "TaskPaneDockState"
+linktitle: "TaskPaneDockState"
+second_title: "Aspose.Words для Java"
+description: "Перечисляет доступные расположения объекта панели задач в Java."
 type: docs
-weight: 557
+weight: 665
 url: /ru/java/com.aspose.words/taskpanedockstate/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TaskPaneDockState
 ```
 
-Перечисляет доступные местоположения объекта области задач.
+Перечисляет доступные расположения объекта панели задач.
+
+ **Examples:** 
+
+Показывает, как добавить веб‑расширение в документ.
+
+```
+
+ Document doc = new Document();
+
+ // Create task pane with "MyScript" add-in, which will be used by the document,
+ // then set its default location.
+ TaskPane myScriptTaskPane = new TaskPane();
+ doc.getWebExtensionTaskPanes().add(myScriptTaskPane);
+ myScriptTaskPane.setDockState(TaskPaneDockState.RIGHT);
+ myScriptTaskPane.isVisible(true);
+ myScriptTaskPane.setWidth(300.0);
+ myScriptTaskPane.isLocked(true);
+
+ // If there are multiple task panes in the same docking location, we can set this index to arrange them.
+ myScriptTaskPane.setRow(1);
+
+ // Create an add-in called "MyScript Math Sample", which the task pane will display within.
+ WebExtension webExtension = myScriptTaskPane.getWebExtension();
+
+ // Set application store reference parameters for our add-in, such as the ID.
+ webExtension.getReference().setId("WA104380646");
+ webExtension.getReference().setVersion("1.0.0.0");
+ webExtension.getReference().setStoreType(WebExtensionStoreType.OMEX);
+ webExtension.getReference().setStore("English (United States)");
+ webExtension.getProperties().add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+ webExtension.getBindings().add(new WebExtensionBinding("MyScript", WebExtensionBindingType.TEXT, "104380646"));
+
+ // Allow the user to interact with the add-in.
+ webExtension.isFrozen(false);
+
+ // We can access the web extension in Microsoft Word via Developer -> Add-ins.
+ doc.save(getArtifactsDir() + "Document.WebExtension.docx");
+
+ // Remove all web extension task panes at once like this.
+ doc.getWebExtensionTaskPanes().clear();
+
+ Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
+
+ doc = new Document(getArtifactsDir() + "Document.WebExtension.docx");
+
+ myScriptTaskPane = doc.getWebExtensionTaskPanes().get(0);
+ Assert.assertEquals(TaskPaneDockState.RIGHT, myScriptTaskPane.getDockState());
+ Assert.assertTrue(myScriptTaskPane.isVisible());
+ Assert.assertEquals(300.0d, myScriptTaskPane.getWidth());
+ Assert.assertTrue(myScriptTaskPane.isLocked());
+ Assert.assertEquals(1, myScriptTaskPane.getRow());
+
+ webExtension = myScriptTaskPane.getWebExtension();
+ Assert.assertEquals("", webExtension.getId());
+
+ Assert.assertEquals("WA104380646", webExtension.getReference().getId());
+ Assert.assertEquals("1.0.0.0", webExtension.getReference().getVersion());
+ Assert.assertEquals(WebExtensionStoreType.OMEX, webExtension.getReference().getStoreType());
+ Assert.assertEquals("English (United States)", webExtension.getReference().getStore());
+ Assert.assertEquals(0, webExtension.getAlternateReferences().getCount());
+
+ Assert.assertEquals("MyScript", webExtension.getProperties().get(0).getName());
+ Assert.assertEquals("MyScript Math Sample", webExtension.getProperties().get(0).getValue());
+
+ Assert.assertEquals("MyScript", webExtension.getBindings().get(0).getId());
+ Assert.assertEquals(WebExtensionBindingType.TEXT, webExtension.getBindings().get(0).getBindingType());
+ Assert.assertEquals("104380646", webExtension.getBindings().get(0).getAppRef());
+
+ Assert.assertFalse(webExtension.isFrozen());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [LEFT](#LEFT) | Закрепите панель задач в левой части окна документа. |
-| [RIGHT](#RIGHT) | Закрепите область задач в правой части окна документа. |
+| [LEFT](#LEFT) | Закрепить панель задач слева от окна документа. |
+| [RIGHT](#RIGHT) | Закрепить панель задач справа от окна документа. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String taskPaneDockStateName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int taskPaneDockState)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int taskPaneDockState)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String taskPaneDockStateName)](#fromName-java.lang.String) |  |
+| [getName(int taskPaneDockState)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int taskPaneDockState)](#toString-int) |  |
 ### LEFT {#LEFT}
 ```
 public static int LEFT
 ```
 
 
-Закрепите панель задач в левой части окна документа.
+Закрепить панель задач слева от окна документа.
 
 ### RIGHT {#RIGHT}
 ```
@@ -52,7 +115,7 @@ public static int RIGHT
 ```
 
 
-Закрепите область задач в правой части окна документа.
+Закрепить панель задач справа от окна документа.
 
 ### length {#length}
 ```
@@ -60,23 +123,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String taskPaneDockStateName) {#fromName-java.lang.String-}
+### fromName(String taskPaneDockStateName) {#fromName-java.lang.String}
 ```
 public static int fromName(String taskPaneDockStateName)
 ```
@@ -84,25 +131,14 @@ public static int fromName(String taskPaneDockStateName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | taskPaneDockStateName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int taskPaneDockState) {#getName-int-}
+**Returns:**
+int
+### getName(int taskPaneDockState) {#getName-int}
 ```
 public static String getName(int taskPaneDockState)
 ```
@@ -110,15 +146,14 @@ public static String getName(int taskPaneDockState)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | taskPaneDockState | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +161,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int taskPaneDockState) {#toString-int-}
+**Returns:**
+int[]
+### toString(int taskPaneDockState) {#toString-int}
 ```
 public static String toString(int taskPaneDockState)
 ```
@@ -172,47 +171,10 @@ public static String toString(int taskPaneDockState)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | taskPaneDockState | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

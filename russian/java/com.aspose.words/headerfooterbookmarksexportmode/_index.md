@@ -1,24 +1,56 @@
 ---
-title: HeaderFooterBookmarksExportMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как экспортируются закладки в верхних/нижних колонтитулах.
+title: "HeaderFooterBookmarksExportMode"
+linktitle: "HeaderFooterBookmarksExportMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как закладки в верхних/нижних колонтитулах экспортируются в Java."
 type: docs
-weight: 316
+weight: 370
 url: /ru/java/com.aspose.words/headerfooterbookmarksexportmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HeaderFooterBookmarksExportMode
 ```
 
 Указывает, как экспортируются закладки в верхних/нижних колонтитулах.
+
+ **Examples:** 
+
+Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы рендерим в PDF.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bookmarks in headers and footers.docx");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+ // Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+ saveOptions.setPageMode(PdfPageMode.USE_OUTLINES);
+
+ // Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+ // bookmarks at the first level of the outline in the output PDF.
+ saveOptions.getOutlineOptions().setDefaultBookmarksOutlineLevel(1);
+
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+ // not export any bookmarks that are inside headers/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+ // only export bookmarks in the first section's header/footers.
+ // Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+ // export bookmarks that are in all headers/footers.
+ saveOptions.setHeaderFooterBookmarksExportMode(headerFooterBookmarksExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [ALL](#ALL) | Экспортируются закладки во всех верхних/нижних колонтитулах. |
+| [ALL](#ALL) | Закладки во всех верхних/нижних колонтитулах экспортируются. |
 | [FIRST](#FIRST) | Экспортируется только закладка в первом верхнем/нижнем колонтитуле раздела. |
 | [NONE](#NONE) | Закладки в верхних/нижних колонтитулах не экспортируются. |
 | [length](#length) |  |
@@ -26,26 +58,17 @@ public class HeaderFooterBookmarksExportMode
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String headerFooterBookmarksExportModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int headerFooterBookmarksExportMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int headerFooterBookmarksExportMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String headerFooterBookmarksExportModeName)](#fromName-java.lang.String) |  |
+| [getName(int headerFooterBookmarksExportMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int headerFooterBookmarksExportMode)](#toString-int) |  |
 ### ALL {#ALL}
 ```
 public static int ALL
 ```
 
 
-Экспортируются закладки во всех верхних/нижних колонтитулах.
+Закладки во всех верхних/нижних колонтитулах экспортируются.
 
 ### FIRST {#FIRST}
 ```
@@ -69,23 +92,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String headerFooterBookmarksExportModeName) {#fromName-java.lang.String-}
+### fromName(String headerFooterBookmarksExportModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String headerFooterBookmarksExportModeName)
 ```
@@ -93,25 +100,14 @@ public static int fromName(String headerFooterBookmarksExportModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterBookmarksExportModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int headerFooterBookmarksExportMode) {#getName-int-}
+**Returns:**
+int
+### getName(int headerFooterBookmarksExportMode) {#getName-int}
 ```
 public static String getName(int headerFooterBookmarksExportMode)
 ```
@@ -119,15 +115,14 @@ public static String getName(int headerFooterBookmarksExportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterBookmarksExportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +130,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int headerFooterBookmarksExportMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int headerFooterBookmarksExportMode) {#toString-int}
 ```
 public static String toString(int headerFooterBookmarksExportMode)
 ```
@@ -181,47 +140,10 @@ public static String toString(int headerFooterBookmarksExportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterBookmarksExportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

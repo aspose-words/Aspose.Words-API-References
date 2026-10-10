@@ -1,188 +1,265 @@
 ---
-title: TextColumn
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет один текстовый столбец.
+title: "TextColumn"
+linktitle: "TextColumn"
+second_title: "Aspose.Words для Java"
+description: "Представляет одну текстовую колонку в Java."
 type: docs
-weight: 561
+weight: 670
 url: /ru/java/com.aspose.words/textcolumn/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class TextColumn implements Cloneable
 ```
 
- Представляет один текстовый столбец.**TextColumn** является членом[TextColumnCollection](../../com.aspose.words/textcolumncollection) коллекция.**TextColumns** коллекция включает в себя все столбцы в разделе документа.
+Представляет одну текстовую колонку. [TextColumn](../../com.aspose.words/textcolumn/) является членом коллекции [TextColumnCollection](../../com.aspose.words/textcolumncollection/). Коллекция [TextColumn](../../com.aspose.words/textcolumn/) включает все колонки в секции документа.
 
- Чтобы узнать больше, посетите**Working with Sections** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Sections ][Working with Sections].
 
-**TextColumn** объекты используются только для указания столбцов с пользовательской шириной и интервалом. Если вы хотите, чтобы столбцы в документе были одинаковой ширины, установите TextColumns.[TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) к**true**.
+ **Remarks:** 
 
- Когда новый**TextColumn** создается, его ширина и интервал равны нулю.
+[TextColumn](../../com.aspose.words/textcolumn/) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) to  true .
+
+Когда создаётся новый [TextColumn](../../com.aspose.words/textcolumn/), его ширина и интервал устанавливаются в ноль.
+
+ **Examples:** 
+
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+
+[Working with Sections]: https://docs.aspose.com/words/java/working-with-sections/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getSpaceAfter()](#getSpaceAfter--) | Получает расстояние между этим столбцом и следующим столбцом в пунктах. |
-| [getWidth()](#getWidth--) | Получает ширину текстового столбца в пунктах. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Устанавливает расстояние между этим столбцом и следующим столбцом в пунктах. |
-| [setWidth(double value)](#setWidth-double-) | Устанавливает ширину текстового столбца в пунктах. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getSpaceAfter() {#getSpaceAfter--}
+| [getSpaceAfter()](#getSpaceAfter) | Возвращает расстояние между этой колонкой и следующей колонкой в пунктах. |
+| [getWidth()](#getWidth) | Возвращает ширину текстовой колонки в пунктах. |
+| [setSpaceAfter(double value)](#setSpaceAfter-double) | Устанавливает расстояние между этой колонкой и следующей колонкой в пунктах. |
+| [setWidth(double value)](#setWidth-double) | Устанавливает ширину текстовой колонки в пунктах. |
+### getSpaceAfter() {#getSpaceAfter}
 ```
 public double getSpaceAfter()
 ```
 
 
-Получает расстояние между этим столбцом и следующим столбцом в пунктах. Не требуется для последнего столбца.
+Возвращает расстояние между этой колонкой и следующей колонкой в пунктах. Не требуется для последней колонки.
 
-**Возвращает:**
-double - Пространство между этим столбцом и следующим столбцом в пунктах.
-### getWidth() {#getWidth--}
+ **Examples:** 
+
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Returns:**
+double - Расстояние между этой колонкой и следующей колонкой в пунктах.
+### getWidth() {#getWidth}
 ```
 public double getWidth()
 ```
 
 
-Получает ширину текстового столбца в пунктах.
+Возвращает ширину текстовой колонки в пунктах.
 
-**Возвращает:**
-double - Ширина текстового столбца в пунктах.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как создать колонки с неравномерным расстоянием.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
 
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
 
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
 
-### notifyAll() {#notifyAll--}
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setSpaceAfter(double value) {#setSpaceAfter-double-}
+**Returns:**
+double - Ширина текстовой колонки в пунктах.
+### setSpaceAfter(double value) {#setSpaceAfter-double}
 ```
 public void setSpaceAfter(double value)
 ```
 
 
-Устанавливает расстояние между этим столбцом и следующим столбцом в пунктах. Не требуется для последнего столбца.
+Устанавливает расстояние между этой колонкой и следующей колонкой в пунктах. Не требуется для последней колонки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Пространство между этим столбцом и следующим столбцом в пунктах. |
+| значение | double | Расстояние между этой колонкой и следующей колонкой в пунктах. |
 
-### setWidth(double value) {#setWidth-double-}
+### setWidth(double value) {#setWidth-double}
 ```
 public void setWidth(double value)
 ```
 
 
-Устанавливает ширину текстового столбца в пунктах.
+Устанавливает ширину текстовой колонки в пунктах.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Ширина текстового столбца в пунктах. |
+| значение | double | Ширина текстовой колонки в пунктах. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

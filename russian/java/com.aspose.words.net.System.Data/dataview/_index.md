@@ -1,84 +1,59 @@
 ---
-title: DataView
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет настраиваемое представление с привязкой к данным для сортировки, фильтрации, поиска, редактирования и навигации.
+title: "DataView"
+linktitle: "DataView"
+second_title: "Aspose.Words для Java"
+description: "Представляет привязываемый к данным настраиваемый вид DataTable для сортировки, фильтрации, поиска, редактирования и навигации в Java."
 type: docs
 weight: 28
 url: /ru/java/com.aspose.words.net.system.data/dataview/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DataView implements Iterable
 ```
 
- Представляет привязываемое к данным настраиваемое представление[DataTable](../../com.aspose.words.net.system.data/datatable) для сортировки, фильтрации, поиска, редактирования и навигации.
+Представляет привязываемый к данным, настраиваемый вид [DataTable](../../com.aspose.words.net.system.data/datatable/) для сортировки, фильтрации, поиска, редактирования и навигации.
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable-) |  Инициализирует новый экземпляр[DataView](../../com.aspose.words.net.system.data/dataview) класс с указанным[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable) | Создаёт новый экземпляр класса [DataView](../../com.aspose.words.net.system.data/dataview/) с указанным [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [close()](#close--) |  Закрывает[DataView](../../com.aspose.words.net.system.data/dataview). |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int recordIndex)](#get-int-) | Получает строку данных из указанной таблицы. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  Получает количество записей в[DataView](../../com.aspose.words.net.system.data/dataview). |
-| [getTable()](#getTable--) |  Получает источник[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) |  Получает перечислитель для этого[DataView](../../com.aspose.words.net.system.data/dataview). |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DataView(System.Data.DataTable table) {#DataView-com.aspose.words.net.System.Data.DataTable-}
+| [close()](#close) | Закрывает [DataView](../../com.aspose.words.net.system.data/dataview/). |
+| [get(int recordIndex)](#get-int) | Получает строку данных из указанной таблицы. |
+| [getCount()](#getCount) | Получает количество записей в [DataView](../../com.aspose.words.net.system.data/dataview/). |
+| [getTable()](#getTable) | Получает исходный [DataTable](../../com.aspose.words.net.system.data/datatable/). |
+| [iterator()](#iterator) | Получает перечислитель для этого [DataView](../../com.aspose.words.net.system.data/dataview/). |
+### DataView(System.Data.DataTable table) {#DataView-com.aspose.words.net.System.Data.DataTable}
 ```
 public DataView(System.Data.DataTable table)
 ```
 
 
- Инициализирует новый экземпляр[DataView](../../com.aspose.words.net.system.data/dataview) класс с указанным[DataTable](../../com.aspose.words.net.system.data/datatable).
+Создаёт новый экземпляр класса [DataView](../../com.aspose.words.net.system.data/dataview/) с указанным [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) |  А[DataTable](../../com.aspose.words.net.system.data/datatable) добавить к[DataView](../../com.aspose.words.net.system.data/dataview). |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Объект [DataTable](../../com.aspose.words.net.system.data/datatable/) для добавления в [DataView](../../com.aspose.words.net.system.data/dataview/). |
 
-### close() {#close--}
+### close() {#close}
 ```
 public void close()
 ```
 
 
- Закрывает[DataView](../../com.aspose.words.net.system.data/dataview).
+Закрывает [DataView](../../com.aspose.words.net.system.data/dataview/).
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int recordIndex) {#get-int-}
+### get(int recordIndex) {#get-int}
 ```
 public System.Data.DataRowView get(int recordIndex)
 ```
@@ -86,123 +61,40 @@ public System.Data.DataRowView get(int recordIndex)
 
 Получает строку данных из указанной таблицы.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| recordIndex | int |  Индекс записи в[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| recordIndex | int | Индекс записи в [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 
-**Возвращает:**
-[DataRowView](../../com.aspose.words.net.system.data/datarowview) - А[DataRowView](../../com.aspose.words.net.system.data/datarowview) строки, которую вы хотите.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[DataRowView](../../com.aspose.words.net.system.data/datarowview/) - A [DataRowView](../../com.aspose.words.net.system.data/datarowview/) of the row that you want.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
- Получает количество записей в[DataView](../../com.aspose.words.net.system.data/dataview).
+Получает количество записей в [DataView](../../com.aspose.words.net.system.data/dataview/).
 
-**Возвращает:**
- int - количество записей в[DataView](../../com.aspose.words.net.system.data/dataview).
-### getTable() {#getTable--}
+**Returns:**
+int - количество записей в [DataView](../../com.aspose.words.net.system.data/dataview/).
+### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
- Получает источник[DataTable](../../com.aspose.words.net.system.data/datatable).
+Получает исходный [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - А[DataTable](../../com.aspose.words.net.system.data/datatable) который предоставляет данные для этого представления.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/) that provides the data for this view.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
- Получает перечислитель для этого[DataView](../../com.aspose.words.net.system.data/dataview).
+Получает перечислитель для этого [DataView](../../com.aspose.words.net.system.data/dataview/).
 
-**Возвращает:**
-java.util.Iterator — java.util.Iterator для навигации по списку.
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+java.util.Iterator - Итератор java.util.Iterator для навигации по списку.

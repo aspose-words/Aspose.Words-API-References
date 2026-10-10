@@ -1,48 +1,44 @@
 ---
-title: ScriptShapingLevel
-second_title: Справочник по API Aspose.Words для Java
-description: 
+title: "ScriptShapingLevel"
+linktitle: "ScriptShapingLevel"
+second_title: "Aspose.Words для Java"
+description: "Описывает уровни формирования, требуемые скриптом в Java."
 type: docs
-weight: 502
+weight: 598
 url: /ru/java/com.aspose.words/scriptshapinglevel/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ScriptShapingLevel
 ```
+
+Описывает уровни формирования, требуемые скриптом.
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FULL](#FULL) |  |
-| [MINIMUM](#MINIMUM) |  |
-| [NONE](#NONE) |  |
-| [UNKNOWN](#UNKNOWN) |  |
+| [FULL](#FULL) | Скрипт требует полной поддержки формирования. |
+| [MINIMUM](#MINIMUM) | Скрипт требует минимальной поддержки формирования. |
+| [NONE](#NONE) | Скрипт не требует формирования. |
+| [UNKNOWN](#UNKNOWN) | Это используется, когда уровень для скрипта не указан. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String scriptShapingLevelName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int scriptShapingLevel)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int scriptShapingLevel)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String scriptShapingLevelName)](#fromName-java.lang.String) |  |
+| [getName(int scriptShapingLevel)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int scriptShapingLevel)](#toString-int) |  |
 ### FULL {#FULL}
 ```
 public static int FULL
 ```
 
+
+Скрипт требует полной поддержки формирования.
 
 ### MINIMUM {#MINIMUM}
 ```
@@ -50,11 +46,19 @@ public static int MINIMUM
 ```
 
 
+Скрипт требует минимальной поддержки формирования.
+
+ **Remarks:** 
+
+Неясно, что означает Minimum. Minimum устанавливается для некоторых очень популярных скриптов (Latin, Cyrillic...).
+
 ### NONE {#NONE}
 ```
 public static int NONE
 ```
 
+
+Скрипт не требует формирования.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -62,29 +66,19 @@ public static int UNKNOWN
 ```
 
 
+Это используется, когда уровень для скрипта не указан.
+
+ **Remarks:** 
+
+Этого не должно происходить.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String scriptShapingLevelName) {#fromName-java.lang.String-}
+### fromName(String scriptShapingLevelName) {#fromName-java.lang.String}
 ```
 public static int fromName(String scriptShapingLevelName)
 ```
@@ -92,25 +86,14 @@ public static int fromName(String scriptShapingLevelName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scriptShapingLevelName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int scriptShapingLevel) {#getName-int-}
+**Returns:**
+int
+### getName(int scriptShapingLevel) {#getName-int}
 ```
 public static String getName(int scriptShapingLevel)
 ```
@@ -118,15 +101,14 @@ public static String getName(int scriptShapingLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scriptShapingLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -134,45 +116,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int scriptShapingLevel) {#toString-int-}
+**Returns:**
+int[]
+### toString(int scriptShapingLevel) {#toString-int}
 ```
 public static String toString(int scriptShapingLevel)
 ```
@@ -180,47 +126,10 @@ public static String toString(int scriptShapingLevel)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scriptShapingLevel | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

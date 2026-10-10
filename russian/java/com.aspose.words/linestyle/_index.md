@@ -1,19 +1,39 @@
 ---
-title: LineStyle
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет стиль линии файла .
+title: "LineStyle"
+linktitle: "LineStyle"
+second_title: "Aspose.Words для Java"
+description: "Указывает стиль линии границы (Border) в Java."
 type: docs
-weight: 367
+weight: 424
 url: /ru/java/com.aspose.words/linestyle/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LineStyle
 ```
 
- Определяет стиль линии[Border](../../com.aspose.words/border).
+Указывает стиль линии [Border](../../com.aspose.words/border/).
+
+ **Examples:** 
+
+Показывает, как вставить строку, окружённую границей, в документ.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().getBorder().setColor(Color.GREEN);
+ builder.getFont().getBorder().setLineWidth(2.5);
+ builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
+
+ builder.write("Text surrounded by green border.");
+
+ doc.save(getArtifactsDir() + "Border.FontBorder.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -50,19 +70,10 @@ public class LineStyle
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String lineStyleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int lineStyle)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int lineStyle)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String lineStyleName)](#fromName-java.lang.String) |  |
+| [getName(int lineStyle)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int lineStyle)](#toString-int) |  |
 ### DASH_DOT_STROKER {#DASH-DOT-STROKER}
 ```
 public static int DASH_DOT_STROKER
@@ -285,23 +296,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String lineStyleName) {#fromName-java.lang.String-}
+### fromName(String lineStyleName) {#fromName-java.lang.String}
 ```
 public static int fromName(String lineStyleName)
 ```
@@ -309,25 +304,14 @@ public static int fromName(String lineStyleName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineStyleName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int lineStyle) {#getName-int-}
+**Returns:**
+int
+### getName(int lineStyle) {#getName-int}
 ```
 public static String getName(int lineStyle)
 ```
@@ -335,15 +319,14 @@ public static String getName(int lineStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -351,45 +334,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int lineStyle) {#toString-int-}
+**Returns:**
+int[]
+### toString(int lineStyle) {#toString-int}
 ```
 public static String toString(int lineStyle)
 ```
@@ -397,47 +344,10 @@ public static String toString(int lineStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

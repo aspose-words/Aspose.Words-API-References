@@ -1,48 +1,72 @@
 ---
-title: TabAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет выравнивание/тип позиции табуляции.
+title: "TabAlignment"
+linktitle: "TabAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает выравнивание/тип табуляции в Java."
 type: docs
-weight: 544
+weight: 652
 url: /ru/java/com.aspose.words/tabalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TabAlignment
 ```
 
-Определяет выравнивание/тип позиции табуляции.
+Указывает выравнивание/тип табуляции.
+
+ **Examples:** 
+
+Показывает, как задать пользовательские табуляции для абзаца.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+
+ // If we are in a paragraph with no tab stops in this collection,
+ // the cursor will jump 36 points each time we press the Tab key in Microsoft Word.
+ Assert.assertEquals(0, doc.getFirstSection().getBody().getFirstParagraph().getEffectiveTabStops().length);
+
+ // We can add custom tab stops in Microsoft Word if we enable the ruler via the "View" tab.
+ // Each unit on this ruler is two default tab stops, which is 72 points.
+ // We can add custom tab stops programmatically like this.
+ TabStopCollection tabStops = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getTabStops();
+ tabStops.add(72.0, TabAlignment.LEFT, TabLeader.DOTS);
+ tabStops.add(216.0, TabAlignment.CENTER, TabLeader.DASHES);
+ tabStops.add(360.0, TabAlignment.RIGHT, TabLeader.LINE);
+
+ // We can see these tab stops in Microsoft Word by enabling the ruler via "View" -> "Show" -> "Ruler".
+ Assert.assertEquals(3, para.getEffectiveTabStops().length);
+
+ // Any tab characters we add will make use of the tab stops on the ruler and may,
+ // depending on the tab leader's value, leave a line between the tab departure and arrival destinations.
+ para.appendChild(new Run(doc, "\tTab 1\tTab 2\tTab 3"));
+
+ doc.save(getArtifactsDir() + "Paragraph.TabStops.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [BAR](#BAR) | Рисует вертикальную черту в позиции табуляции. |
-| [CENTER](#CENTER) | Центрирует текст вокруг позиции табуляции. |
-| [CLEAR](#CLEAR) | Очищает любую позицию табуляции в этой позиции. |
+| [CENTER](#CENTER) | Центрирует текст вокруг табуляции. |
+| [CLEAR](#CLEAR) | Очищает любую табуляцию в этой позиции. |
 | [DECIMAL](#DECIMAL) | Выравнивает текст по десятичной точке. |
-| [LEFT](#LEFT) | Выравнивает текст по левому краю после позиции табуляции. |
-| [LIST](#LIST) | Табуляция — это разделитель между числом/маркером и текстом в элементе списка. |
-| [RIGHT](#RIGHT) | Выравнивает текст по правому краю на позиции табуляции. |
+| [LEFT](#LEFT) | Выравнивает текст по левому краю после табуляции. |
+| [LIST](#LIST) | Табуляция служит разделителем между номером/маркером и текстом в элементе списка. |
+| [RIGHT](#RIGHT) | Выравнивает текст по правому краю в позиции табуляции. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tabAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tabAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tabAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String tabAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int tabAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int tabAlignment)](#toString-int) |  |
 ### BAR {#BAR}
 ```
 public static int BAR
@@ -57,7 +81,7 @@ public static int CENTER
 ```
 
 
-Центрирует текст вокруг позиции табуляции.
+Центрирует текст вокруг табуляции.
 
 ### CLEAR {#CLEAR}
 ```
@@ -65,7 +89,7 @@ public static int CLEAR
 ```
 
 
-Очищает любую позицию табуляции в этой позиции.
+Очищает любую табуляцию в этой позиции.
 
 ### DECIMAL {#DECIMAL}
 ```
@@ -81,7 +105,7 @@ public static int LEFT
 ```
 
 
-Выравнивает текст по левому краю после позиции табуляции.
+Выравнивает текст по левому краю после табуляции.
 
 ### LIST {#LIST}
 ```
@@ -89,7 +113,7 @@ public static int LIST
 ```
 
 
-Табуляция — это разделитель между числом/маркером и текстом в элементе списка.
+Табуляция служит разделителем между номером/маркером и текстом в элементе списка.
 
 ### RIGHT {#RIGHT}
 ```
@@ -97,7 +121,7 @@ public static int RIGHT
 ```
 
 
-Выравнивает текст по правому краю на позиции табуляции.
+Выравнивает текст по правому краю в позиции табуляции.
 
 ### length {#length}
 ```
@@ -105,23 +129,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String tabAlignmentName) {#fromName-java.lang.String-}
+### fromName(String tabAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tabAlignmentName)
 ```
@@ -129,25 +137,14 @@ public static int fromName(String tabAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tabAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int tabAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int tabAlignment) {#getName-int}
 ```
 public static String getName(int tabAlignment)
 ```
@@ -155,15 +152,14 @@ public static String getName(int tabAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -171,45 +167,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int tabAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int tabAlignment) {#toString-int}
 ```
 public static String toString(int tabAlignment)
 ```
@@ -217,47 +177,10 @@ public static String toString(int tabAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

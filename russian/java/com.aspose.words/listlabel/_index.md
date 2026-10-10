@@ -1,13 +1,14 @@
 ---
-title: ListLabel
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет свойства, специфичные для метки списка.
+title: "ListLabel"
+linktitle: "ListLabel"
+second_title: "Aspose.Words для Java"
+description: "Определяет свойства, специфичные для метки списка в Java."
 type: docs
-weight: 371
+weight: 428
 url: /ru/java/com.aspose.words/listlabel/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ListLabel
@@ -15,29 +16,57 @@ public class ListLabel
 
 Определяет свойства, специфичные для метки списка.
 
- Чтобы узнать больше, посетите**Working with Lists** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Lists ][Working with Lists].
+
+ **Examples:** 
+
+Показывает, как извлечь метки списка из всех абзацев, являющихся элементами списка.
+
+```
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
+```
+
+
+[Working with Lists]: https://docs.aspose.com/words/java/working-with-lists/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Получает шрифт метки списка. |
-| [getLabelString()](#getLabelString--) | Получает строковое представление метки списка. |
-| [getLabelValue()](#getLabelValue--) | Получает числовое значение для этой метки. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearRunAttrs() {#clearRunAttrs--}
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
+| [getFont()](#getFont) | Получает шрифт метки списка. |
+| [getLabelString()](#getLabelString) | Получает строковое представление метки списка. |
+| [getLabelValue()](#getLabelValue) | Получает числовое значение этой метки. |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
 ```
@@ -45,23 +74,7 @@ public void clearRunAttrs()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
 ```
@@ -69,25 +82,14 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
 ```
@@ -95,15 +97,30 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-**Возвращает:**
-java.lang.Объект
-### getFont() {#getFont--}
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ключ | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
@@ -111,9 +128,9 @@ public Font getFont()
 
 Получает шрифт метки списка.
 
-**Возвращает:**
-[Font](../../com.aspose.words/font) - Шрифт метки списка.
-### getLabelString() {#getLabelString--}
+**Returns:**
+[Font](../../com.aspose.words/font/) - The list label font.
+### getLabelString() {#getLabelString}
 ```
 public String getLabelString()
 ```
@@ -121,45 +138,89 @@ public String getLabelString()
 
 Получает строковое представление метки списка.
 
-**Возвращает:**
-java.lang.String — строковое представление метки списка.
-### getLabelValue() {#getLabelValue--}
+ **Examples:** 
+
+Показывает, как извлечь метки списка из всех абзацев, являющихся элементами списка.
+
+```
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
+```
+
+**Returns:**
+java.lang.String - Строковое представление метки списка.
+### getLabelValue() {#getLabelValue}
 ```
 public int getLabelValue()
 ```
 
 
- Получает числовое значение для этой метки. Использовать[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) метод для обновления значения этого свойства.
+Получает числовое значение этой метки.
 
-**Возвращает:**
-int — числовое значение для этой метки.
-### hashCode() {#hashCode--}
+ **Remarks:** 
+
+Используйте метод [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) для обновления значения этого свойства.
+
+ **Examples:** 
+
+Показывает, как извлечь метки списка из всех абзацев, являющихся элементами списка.
+
 ```
-public native int hashCode()
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
 ```
 
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### removeRunAttr(int key) {#removeRunAttr-int-}
+**Returns:**
+int - Числовое значение этой метки.
+### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
 ```
@@ -167,13 +228,12 @@ public void removeRunAttr(int key)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| ключ | int |  |
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
 ```
 public void setRunAttr(int key, Object value)
 ```
@@ -181,56 +241,9 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| ключ | int |  |
+| значение | java.lang.Object |  |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

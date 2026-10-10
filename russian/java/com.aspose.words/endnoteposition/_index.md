@@ -1,19 +1,52 @@
 ---
-title: EndnotePosition
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет положение концевой сноски.
+title: "EndnotePosition"
+linktitle: "EndnotePosition"
+second_title: "Aspose.Words для Java"
+description: "Определяет положение сноски в Java."
 type: docs
-weight: 147
+weight: 190
 url: /ru/java/com.aspose.words/endnoteposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class EndnotePosition
 ```
 
-Определяет положение концевой сноски.
+Определяет позицию сноски.
+
+ **Examples:** 
+
+Показывает, как выбрать другое место, где документ собирает и отображает свои сноски.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // An endnote is a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting an endnote adds a small superscript reference symbol
+ // at the main body text where we insert the endnote.
+ // Each endnote also creates an entry at the end of the document, consisting of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertEndnote" method.
+ builder.write("Hello world!");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote contents.");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+ builder.write("This is the second section.");
+
+ // We can use the "Position" property to determine where the document will place all its endnotes.
+ // If we set the value of the "Position" property to "EndnotePosition.EndOfDocument",
+ // every footnote will show up in a collection at the end of the document. This is the default value.
+ // If we set the value of the "Position" property to "EndnotePosition.EndOfSection",
+ // every footnote will show up in a collection at the end of the section whose text contains the endnote's reference mark.
+ doc.getEndnoteOptions().setPosition(endnotePosition);
+
+ doc.save(getArtifactsDir() + "InlineStory.PositionEndnote.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +58,10 @@ public class EndnotePosition
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String endnotePositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int endnotePosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int endnotePosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String endnotePositionName)](#fromName-java.lang.String) |  |
+| [getName(int endnotePosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int endnotePosition)](#toString-int) |  |
 ### END_OF_DOCUMENT {#END-OF-DOCUMENT}
 ```
 public static int END_OF_DOCUMENT
@@ -60,23 +84,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String endnotePositionName) {#fromName-java.lang.String-}
+### fromName(String endnotePositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String endnotePositionName)
 ```
@@ -84,25 +92,14 @@ public static int fromName(String endnotePositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | endnotePositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int endnotePosition) {#getName-int-}
+**Returns:**
+int
+### getName(int endnotePosition) {#getName-int}
 ```
 public static String getName(int endnotePosition)
 ```
@@ -110,15 +107,14 @@ public static String getName(int endnotePosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | endnotePosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +122,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int endnotePosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int endnotePosition) {#toString-int}
 ```
 public static String toString(int endnotePosition)
 ```
@@ -172,47 +132,10 @@ public static String toString(int endnotePosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | endnotePosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,235 +1,617 @@
 ---
-title: CustomXmlPart
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет пользовательские XML-данные пользовательской части хранилища данных XML в пакете.
+title: "CustomXmlPart"
+linktitle: "CustomXmlPart"
+second_title: "Aspose.Words для Java"
+description: "Представляет часть Custom XML Data Storage Part, содержащую пользовательские XML-данные, внутри пакета в Java."
 type: docs
-weight: 104
+weight: 143
 url: /ru/java/com.aspose.words/customxmlpart/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class CustomXmlPart implements Cloneable
 ```
 
-Представляет часть хранилища пользовательских данных XML (пользовательские данные XML в пакете).
+Представляет часть хранилища пользовательских XML‑данных (пользовательские XML‑данные внутри пакета).
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
 
- Документ DOCX или DOC может содержать одну или несколько частей Custom XML Data Storage. Aspose.Words сохраняет и позволяет создавать и извлекать пользовательские XML-данные через[Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-) коллекция.
+ **Remarks:** 
+
+Документ DOCX или DOC может содержать одну или несколько частей Custom XML Data Storage. Aspose.Words сохраняет их и позволяет создавать и извлекать пользовательские XML-данные через коллекцию [Document.getCustomXmlParts()](../../com.aspose.words/document/\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document/\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection).
+
+ **Examples:** 
+
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) | Делает «достаточно глубокую» копию объекта. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Получает XML-содержимое этой пользовательской части хранилища данных XML. |
-| [getDataChecksum()](#getDataChecksum--) |  Указывает контрольную сумму циклическим избыточным кодом (CRC)[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) содержание. |
-| [getId()](#getId--) | Получает строку, идентифицирующую эту пользовательскую часть XML в документе OOXML. |
-| [getSchemas()](#getSchemas--) | Указывает набор схем XML, связанных с этой настраиваемой частью XML. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | Задает XML-содержимое этой пользовательской части хранения данных XML. |
-| [setId(String value)](#setId-java.lang.String-) | Задает строку, идентифицирующую эту пользовательскую часть XML в документе OOXML. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### deepClone() {#deepClone--}
+| [deepClone()](#deepClone) | Создаёт «достаточно глубокую» копию объекта. |
+| [getData()](#getData) | Получает XML‑содержимое этой части Custom XML Data Storage. |
+| [getDataChecksum()](#getDataChecksum) | Указывает контрольную сумму циклического избыточного кода (CRC) содержимого [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte). |
+| [getId()](#getId) | Получает строку, идентифицирующую эту пользовательскую XML‑часть в документе OOXML. |
+| [getSchemas()](#getSchemas) | Указывает набор XML‑схем, связанных с этой пользовательской XML‑частью. |
+| [setData(byte[] value)](#setData-byte) | Устанавливает XML‑содержимое этой части Custom XML Data Storage. |
+| [setId(String value)](#setId-java.lang.String) | Устанавливает строку, идентифицирующую эту пользовательскую XML‑часть в документе OOXML. |
+### deepClone() {#deepClone}
 ```
 public CustomXmlPart deepClone()
 ```
 
 
- Делает «достаточно глубокую» копию объекта. Не дублирует байты[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) ценность.
+Создаёт "достаточно глубокую" копию объекта. Не дублирует байты значения [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte).
 
-**Возвращает:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ Document doc = new Document();
 
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
 
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
 
-**Возвращает:**
-java.lang.Класс<?>
-### getData() {#getData--}
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Returns:**
+[CustomXmlPart](../../com.aspose.words/customxmlpart/)
+### getData() {#getData}
 ```
 public byte[] getData()
 ```
 
 
-Получает XML-содержимое этой пользовательской части хранилища данных XML.
+Получает XML‑содержимое этой части Custom XML Data Storage.
 
-Значение по умолчанию — пустой массив байтов. Значение не может быть нулевым.
+ **Remarks:** 
 
-**Возвращает:**
-байт[— XML-содержимое этой пользовательской части хранилища данных XML.
-### getDataChecksum() {#getDataChecksum--}
+Значение по умолчанию — пустой массив байтов. Значение не может быть null.
+
+ **Examples:** 
+
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Returns:**
+byte[] — XML‑содержимое этой части хранилища пользовательских XML‑данных.
+### getDataChecksum() {#getDataChecksum}
 ```
 public long getDataChecksum()
 ```
 
 
- Указывает контрольную сумму циклическим избыточным кодом (CRC)[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) содержание.
+Указывает контрольную сумму циклического избыточного кода (CRC) содержимого [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte).
 
-**Возвращает:**
-long — соответствующее длинное значение.
-### getId() {#getId--}
+ **Examples:** 
+
+Показывает, как вычисляется контрольная сумма во время выполнения.
+
+```
+
+ Document doc = new Document();
+
+ StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RICH_TEXT, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(richText);
+
+ // The checksum is read-only and computed using the data of the corresponding custom XML data part.
+ richText.getXmlMapping().setMapping(doc.getCustomXmlParts().add(UUID.randomUUID().toString(),
+         "ContentControl"), "/root/text", "");
+
+ long checksum = richText.getXmlMapping().getCustomXmlPart().getDataChecksum();
+ System.out.println(checksum);
+
+ richText.getXmlMapping().setMapping(doc.getCustomXmlParts().add(UUID.randomUUID().toString(),
+         "Updated ContentControl"), "/root/text", "");
+
+ long updatedChecksum = richText.getXmlMapping().getCustomXmlPart().getDataChecksum();
+ System.out.println(updatedChecksum);
+
+ // We changed the XmlPart of the tag, and the checksum was updated at runtime.
+ Assert.assertNotEquals(checksum, updatedChecksum);
+ 
+```
+
+**Returns:**
+long — соответствующее значение типа long.
+### getId() {#getId}
 ```
 public String getId()
 ```
 
 
-Получает строку, идентифицирующую эту пользовательскую часть XML в документе OOXML.
+Получает строку, идентифицирующую эту пользовательскую XML‑часть в документе OOXML.
 
-ISO/IEC 29500 указывает, что это значение является идентификатором GUID, но старые версии Microsoft Word допускали здесь любую строку. Aspose.Words делает то же самое для формата ECMA-376. Но обратите внимание, что Microsoft Word Online не может открыть документ, созданный со значением, отличным от GUID. Таким образом, GUID является предпочтительным значением для этого свойства.
+ **Remarks:** 
 
-Допустимое значение должно быть идентификатором, уникальным среди всех пользовательских частей XML-данных в этом документе.
+ISO/IEC 29500 указывает, что это значение должно быть GUID, но старые версии Microsoft Word позволяли здесь любую строку. Aspose.Words делает то же самое для формата ECMA-376. Однако обратите внимание, что Microsoft Word Online не может открыть документ, созданный со значением, не являющимся GUID. Поэтому предпочтительным значением для этого свойства является GUID.
 
-Значение по умолчанию — пустая строка. Значение не может быть нулевым.
+Допустимое значение должно быть идентификатором, уникальным среди всех пользовательских XML‑частей в этом документе.
 
-**Возвращает:**
-java.lang.String — строка, идентифицирующая эту пользовательскую часть XML в документе OOXML.
-### getSchemas() {#getSchemas--}
+Значение по умолчанию — пустая строка. Значение не может быть null.
+
+ **Examples:** 
+
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — строка, идентифицирующая эту пользовательскую XML‑часть в документе OOXML.
+### getSchemas() {#getSchemas}
 ```
 public CustomXmlSchemaCollection getSchemas()
 ```
 
 
-Указывает набор схем XML, связанных с этой настраиваемой частью XML.
+Указывает набор XML‑схем, связанных с этой пользовательской XML‑частью.
 
-**Возвращает:**
-[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) - соответствующий[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
 
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
 
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
 
-### notifyAll() {#notifyAll--}
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setData(byte[] value) {#setData-byte---}
+**Returns:**
+[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection/) - The corresponding [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection/) value.
+### setData(byte[] value) {#setData-byte}
 ```
 public void setData(byte[] value)
 ```
 
 
-Задает XML-содержимое этой пользовательской части хранения данных XML.
+Устанавливает XML‑содержимое этой части Custom XML Data Storage.
 
-Значение по умолчанию — пустой массив байтов. Значение не может быть нулевым.
+ **Remarks:** 
 
-**Параметры:**
+Значение по умолчанию — пустой массив байтов. Значение не может быть null.
 
+ **Examples:** 
+
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | byte[] | XML-содержимое этой пользовательской части хранилища данных XML. |
+| значение | byte[] | XML‑содержимое этой части хранилища пользовательских XML‑данных. |
 
-### setId(String value) {#setId-java.lang.String-}
+### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
 ```
 
 
-Задает строку, идентифицирующую эту пользовательскую часть XML в документе OOXML.
+Устанавливает строку, идентифицирующую эту пользовательскую XML‑часть в документе OOXML.
 
-ISO/IEC 29500 указывает, что это значение является идентификатором GUID, но старые версии Microsoft Word допускали здесь любую строку. Aspose.Words делает то же самое для формата ECMA-376. Но обратите внимание, что Microsoft Word Online не может открыть документ, созданный со значением, отличным от GUID. Таким образом, GUID является предпочтительным значением для этого свойства.
+ **Remarks:** 
 
-Допустимое значение должно быть идентификатором, уникальным среди всех пользовательских частей XML-данных в этом документе.
+ISO/IEC 29500 указывает, что это значение должно быть GUID, но старые версии Microsoft Word позволяли здесь любую строку. Aspose.Words делает то же самое для формата ECMA-376. Однако обратите внимание, что Microsoft Word Online не может открыть документ, созданный со значением, не являющимся GUID. Поэтому предпочтительным значением для этого свойства является GUID.
 
-Значение по умолчанию — пустая строка. Значение не может быть нулевым.
+Допустимое значение должно быть идентификатором, уникальным среди всех пользовательских XML‑частей в этом документе.
 
-**Параметры:**
+Значение по умолчанию — пустая строка. Значение не может быть null.
 
+ **Examples:** 
+
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
+
+```
+
+ Document doc = new Document();
+
+ // Construct an XML part that contains data and add it to the document's collection.
+ // If we enable the "Developer" tab in Microsoft Word,
+ // we can find elements from this collection in the "XML Mapping Pane", along with a few default elements.
+ String xmlPartId = UUID.randomUUID().toString();
+ String xmlPartContent = "Hello, World!";
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add(xmlPartId, xmlPartContent);
+
+ Assert.assertEquals(xmlPart.getData(), xmlPartContent.getBytes());
+ Assert.assertEquals(xmlPart.getId(), xmlPartId);
+
+ // Below are two ways to refer to XML parts.
+ // 1 -  By an index in the custom XML part collection:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().get(0));
+
+ // 2 -  By GUID:
+ Assert.assertEquals(xmlPart, doc.getCustomXmlParts().getById(xmlPartId));
+
+ // Add an XML schema association.
+ xmlPart.getSchemas().add("http://www.w3.org/2001/XMLSchema");
+
+ // Clone a part, and then insert it into the collection.
+ CustomXmlPart xmlPartClone = xmlPart.deepClone();
+ xmlPartClone.setId(UUID.randomUUID().toString());
+ doc.getCustomXmlParts().add(xmlPartClone);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 2);
+
+ // Iterate through the collection and print the contents of each part.
+ Iterator enumerator = doc.getCustomXmlParts().iterator();
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomXmlPart customXmlPart = enumerator.next();
+     System.out.println(MessageFormat.format("XML part index {0}, ID: {1}", index, customXmlPart.getId()));
+     System.out.println(MessageFormat.format("\tContent: {0}", customXmlPart.getData()));
+     index++;
+ }
+
+ // Use the "RemoveAt" method to remove the cloned part by index.
+ doc.getCustomXmlParts().removeAt(1);
+
+ Assert.assertEquals(doc.getCustomXmlParts().getCount(), 1);
+
+ // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
+ CustomXmlPartCollection customXmlParts = doc.getCustomXmlParts().deepClone();
+ customXmlParts.clear();
+
+ // Create a structured document tag that will display our part's contents and insert it into the document body.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.BLOCK);
+ tag.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Строка, идентифицирующая эту пользовательскую часть XML в документе OOXML. |
+| значение | java.lang.String | Строка, идентифицирующая эту пользовательскую XML‑часть в документе OOXML. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

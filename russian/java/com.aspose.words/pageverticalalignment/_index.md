@@ -1,52 +1,77 @@
 ---
-title: PageVerticalAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Задает вертикальное выравнивание текста на каждой странице.
+title: "PageVerticalAlignment"
+linktitle: "PageVerticalAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает вертикальное выравнивание текста на каждой странице в Java."
 type: docs
-weight: 441
+weight: 520
 url: /ru/java/com.aspose.words/pageverticalalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageVerticalAlignment
 ```
 
-Задает вертикальное выравнивание текста на каждой странице.
+Указывает вертикальное выравнивание текста на каждой странице.
+
+ **Examples:** 
+
+Показывает, как применять и отменять настройки разметки страницы для разделов в документе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Modify the page setup properties for the builder's current section and add text.
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setVerticalAlignment(PageVerticalAlignment.CENTER);
+ builder.writeln("This is the first section, which landscape oriented with vertically centered text.");
+
+ // If we start a new section using a document builder,
+ // it will inherit the builder's current page setup properties.
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+
+ Assert.assertEquals(Orientation.LANDSCAPE, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.CENTER, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ // We can revert its page setup properties to their default values using the "ClearFormatting" method.
+ builder.getPageSetup().clearFormatting();
+
+ Assert.assertEquals(Orientation.PORTRAIT, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.TOP, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Текст выравнивается по низу страницы. |
-| [CENTER](#CENTER) | Текст выравнивается по середине страницы. |
-| [JUSTIFY](#JUSTIFY) | Текст растянут на всю страницу. |
+| [BOTTOM](#BOTTOM) | Текст выравнивается по нижнему краю страницы. |
+| [CENTER](#CENTER) | Текст выравнивается по центру страницы. |
+| [JUSTIFY](#JUSTIFY) | Текст растягивается, заполняя страницу. |
 | [TOP](#TOP) | Текст выравнивается по верхнему краю страницы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pageVerticalAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pageVerticalAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int pageVerticalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pageVerticalAlignment)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
 ```
 
 
-Текст выравнивается по низу страницы.
+Текст выравнивается по нижнему краю страницы.
 
 ### CENTER {#CENTER}
 ```
@@ -54,7 +79,7 @@ public static int CENTER
 ```
 
 
-Текст выравнивается по середине страницы.
+Текст выравнивается по центру страницы.
 
 ### JUSTIFY {#JUSTIFY}
 ```
@@ -62,7 +87,7 @@ public static int JUSTIFY
 ```
 
 
-Текст растянут на всю страницу.
+Текст растягивается, заполняя страницу.
 
 ### TOP {#TOP}
 ```
@@ -78,23 +103,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String-}
+### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pageVerticalAlignmentName)
 ```
@@ -102,25 +111,14 @@ public static int fromName(String pageVerticalAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageVerticalAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pageVerticalAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int pageVerticalAlignment) {#getName-int}
 ```
 public static String getName(int pageVerticalAlignment)
 ```
@@ -128,15 +126,14 @@ public static String getName(int pageVerticalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageVerticalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +141,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pageVerticalAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pageVerticalAlignment) {#toString-int}
 ```
 public static String toString(int pageVerticalAlignment)
 ```
@@ -190,47 +151,10 @@ public static String toString(int pageVerticalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageVerticalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

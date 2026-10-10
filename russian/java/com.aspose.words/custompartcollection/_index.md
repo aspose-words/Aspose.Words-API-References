@@ -1,48 +1,89 @@
 ---
-title: CustomPartCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет коллекцию объектов.
+title: "CustomPartCollection"
+linktitle: "CustomPartCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет собой коллекцию объектов CustomPart в Java."
 type: docs
-weight: 103
+weight: 142
 url: /ru/java/com.aspose.words/custompartcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class CustomPartCollection implements Iterable
 ```
 
- Представляет собой совокупность[CustomPart](../../com.aspose.words/custompart) объекты.
+Представляет собой коллекцию объектов [CustomPart](../../com.aspose.words/custompart/) .
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
 
- Обычно вам не нужно создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям, связанным с пакетом OOXML, через[Document.getPackageCustomParts()](../../com.aspose.words/document\#getPackageCustomParts--) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#setPackageCustomParts-com.aspose.words.CustomPartCollection-) имущество.
+ **Remarks:** 
+
+Обычно вам не требуется создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям, связанным с пакетом OOXML, через свойство [Document.getPackageCustomParts()](../../com.aspose.words/document/\#getPackageCustomParts) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document/\#setPackageCustomParts-com.aspose.words.CustomPartCollection).
+
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(CustomPart part)](#add-com.aspose.words.CustomPart-) | Добавляет элемент в коллекцию. |
-| [clear()](#clear--) | Удаляет все элементы из коллекции. |
-| [deepClone()](#deepClone--) | Создает глубокую копию этой коллекции и ее элементов. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает элемент по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов, содержащихся в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Удаляет элемент по указанному индексу. |
-| [set(int index, CustomPart value)](#set-int-com.aspose.words.CustomPart-) | Устанавливает элемент по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(CustomPart part) {#add-com.aspose.words.CustomPart-}
+| [add(CustomPart part)](#add-com.aspose.words.CustomPart) | Добавляет элемент в коллекцию. |
+| [clear()](#clear) | Удаляет все элементы из коллекции. |
+| [deepClone()](#deepClone) | Создает глубокую копию этой коллекции и её элементов. |
+| [get(int index)](#get-int) | Получает элемент по указанному индексу. |
+| [getCount()](#getCount) | Получает количество элементов, содержащихся в коллекции. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет элемент по указанному индексу. |
+| [set(int index, CustomPart value)](#set-int-com.aspose.words.CustomPart) | Устанавливает элемент с указанным индексом. |
+### add(CustomPart part) {#add-com.aspose.words.CustomPart}
 ```
 public void add(CustomPart part)
 ```
@@ -50,13 +91,56 @@ public void add(CustomPart part)
 
 Добавляет элемент в коллекцию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| part | [CustomPart](../../com.aspose.words/custompart) | Элемент для добавления. |
+| part | [CustomPart](../../com.aspose.words/custompart/) | Элемент для добавления. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -64,33 +148,105 @@ public void clear()
 
 Удаляет все элементы из коллекции.
 
-### deepClone() {#deepClone--}
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+### deepClone() {#deepClone}
 ```
 public CustomPartCollection deepClone()
 ```
 
 
-Создает глубокую копию этой коллекции и ее элементов.
+Создает глубокую копию этой коллекции и её элементов.
 
-**Возвращает:**
-[CustomPartCollection](../../com.aspose.words/custompartcollection)
-### equals(Object arg0) {#equals-java.lang.Object-}
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
 ```
-public boolean equals(Object arg0)
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
 ```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+[CustomPartCollection](../../com.aspose.words/custompartcollection/)
+### get(int index) {#get-int}
 ```
 public CustomPart get(int index)
 ```
@@ -98,25 +254,58 @@ public CustomPart get(int index)
 
 Получает элемент по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс элемента. |
+| индекс | int | Нулевой (начинающий с нуля) индекс элемента. |
 
-**Возвращает:**
-[CustomPart](../../com.aspose.words/custompart) - Элемент по указанному индексу.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[CustomPart](../../com.aspose.words/custompart/) - An item at the specified index.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -124,45 +313,107 @@ public int getCount()
 
 Получает количество элементов, содержащихся в коллекции.
 
-**Возвращает:**
-int - количество элементов, содержащихся в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int — количество элементов, содержащихся в коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -170,70 +421,110 @@ public void removeAt(int index)
 
 Удаляет элемент по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс с отсчетом от нуля. |
+| индекс | int | Нулевой индекс. |
 
-### set(int index, CustomPart value) {#set-int-com.aspose.words.CustomPart-}
+### set(int index, CustomPart value) {#set-int-com.aspose.words.CustomPart}
 ```
 public void set(int index, CustomPart value)
 ```
 
 
-Устанавливает элемент по указанному индексу.
+Устанавливает элемент с указанным индексом.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Custom parts OOXML package.docx");
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ // Clone the second part, then add the clone to the collection.
+ CustomPart clonedPart = doc.getPackageCustomParts().get(1).deepClone();
+ doc.getPackageCustomParts().add(clonedPart);
+ Assert.assertEquals(3, doc.getPackageCustomParts().getCount());
+
+ // Enumerate over the collection and print every part.
+ Iterator enumerator = doc.getPackageCustomParts().iterator();
+
+ int index = 0;
+ while (enumerator.hasNext()) {
+     CustomPart customPart = enumerator.next();
+     System.out.println(MessageFormat.format("Part index {0}:", index));
+     System.out.println(MessageFormat.format("\tName: {0}", customPart.getName()));
+     System.out.println(MessageFormat.format("\tContentType: {0}", customPart.getContentType()));
+     System.out.println(MessageFormat.format("\tRelationshipType: {0}", customPart.getRelationshipType()));
+     if (customPart.isExternal()) {
+         System.out.println("\tSourced from outside the document");
+     } else {
+         System.out.println(MessageFormat.format("\tSourced from within the document, length: {0} bytes", customPart.getData().length));
+     }
+     index++;
+ }
+
+ // We can remove elements from this collection individually, or all at once.
+ doc.getPackageCustomParts().removeAt(2);
+
+ Assert.assertEquals(2, doc.getPackageCustomParts().getCount());
+
+ doc.getPackageCustomParts().clear();
+
+ Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс элемента. |
-| value | [CustomPart](../../com.aspose.words/custompart) | Элемент по указанному индексу. |
+| индекс | int | Нулевой (начинающий с нуля) индекс элемента. |
+| value | [CustomPart](../../com.aspose.words/custompart/) | Элемент по указанному индексу. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,13 +1,14 @@
 ---
-title: CleanupOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать параметры очистки документа.
+title: "CleanupOptions"
+linktitle: "CleanupOptions"
+second_title: "Aspose.Words для Java"
+description: "Позволяет задавать параметры очистки документа в Java."
 type: docs
-weight: 73
+weight: 103
 url: /ru/java/com.aspose.words/cleanupoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CleanupOptions
@@ -15,219 +16,543 @@ public class CleanupOptions
 
 Позволяет указать параметры очистки документа.
 
- Чтобы узнать больше, посетите**Clean Up a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Clean Up a Document ][Clean Up a Document].
+
+ **Examples:** 
+
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+
+[Clean Up a Document]: https://docs.aspose.com/words/java/clean-up-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDuplicateStyle()](#getDuplicateStyle--) | Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. |
-| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles--) |  Указывает, что неиспользуемый[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) стили должны быть удалены из документа. |
-| [getUnusedLists()](#getUnusedLists--) | Указывает, следует ли удалять из документа неиспользуемый список и определения списков. |
-| [getUnusedStyles()](#getUnusedStyles--) | Указывает, следует ли удалять из документа неиспользуемые стили. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean-) | Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. |
-| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean-) |  Указывает, что неиспользуемый[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) стили должны быть удалены из документа. |
-| [setUnusedLists(boolean value)](#setUnusedLists-boolean-) | Указывает, следует ли удалять из документа неиспользуемый список и определения списков. |
-| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean-) | Указывает, следует ли удалять из документа неиспользуемые стили. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDuplicateStyle() {#getDuplicateStyle--}
+| [getDuplicateStyle()](#getDuplicateStyle) | Получает/устанавливает флаг, указывающий, следует ли удалять дублирующие стили из документа. |
+| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles) | Указывает, что неиспользуемые стили [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) должны быть удалены из документа. |
+| [getUnusedLists()](#getUnusedLists) | Указывает, следует ли удалять из документа неиспользуемые списки и определения списков. |
+| [getUnusedStyles()](#getUnusedStyles) | Указывает, следует ли удалять из документа неиспользуемые стили. |
+| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean) | Получает/устанавливает флаг, указывающий, следует ли удалять дублирующие стили из документа. |
+| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean) | Указывает, что неиспользуемые стили [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) должны быть удалены из документа. |
+| [setUnusedLists(boolean value)](#setUnusedLists-boolean) | Указывает, следует ли удалять из документа неиспользуемые списки и определения списков. |
+| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean) | Указывает, следует ли удалять из документа неиспользуемые стили. |
+### getDuplicateStyle() {#getDuplicateStyle}
 ```
 public boolean getDuplicateStyle()
 ```
 
 
- Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию**false**.
+Получает/устанавливает флаг, указывающий, следует ли удалять дублирующие стили из документа. Значение по умолчанию — false.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles--}
+ **Examples:** 
+
+Показывает, как удалить дублирующиеся стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ // Add two styles to the document with identical properties,
+ // but different names. The second style is considered a duplicate of the first.
+ Style myStyle = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ myStyle.getFont().setSize(14.0);
+ myStyle.getFont().setName("Courier New");
+ myStyle.getFont().setColor(Color.BLUE);
+
+ Style duplicateStyle = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle2");
+ duplicateStyle.getFont().setSize(14.0);
+ duplicateStyle.getFont().setName("Courier New");
+ duplicateStyle.getFont().setColor(Color.BLUE);
+
+ Assert.assertEquals(6, doc.getStyles().getCount());
+
+ // Apply both styles to different paragraphs within the document.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getParagraphFormat().setStyleName(myStyle.getName());
+ builder.writeln("Hello world!");
+
+ builder.getParagraphFormat().setStyleName(duplicateStyle.getName());
+ builder.writeln("Hello again!");
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ Assert.assertEquals(myStyle, paragraphs.get(0).getParagraphFormat().getStyle());
+ Assert.assertEquals(duplicateStyle, paragraphs.get(1).getParagraphFormat().getStyle());
+
+ // Configure a CleanOptions object, then call the Cleanup method to substitute all duplicate styles
+ // with the original and remove the duplicates from the document.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setDuplicateStyle(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(5, doc.getStyles().getCount());
+ Assert.assertEquals(myStyle, paragraphs.get(0).getParagraphFormat().getStyle());
+ Assert.assertEquals(myStyle, paragraphs.get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles}
 ```
 public boolean getUnusedBuiltinStyles()
 ```
 
 
- Указывает, что неиспользуемый[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) стили должны быть удалены из документа.
+Указывает, что неиспользуемые стили [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) должны быть удалены из документа.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getUnusedLists() {#getUnusedLists--}
+ **Examples:** 
+
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getUnusedLists() {#getUnusedLists}
 ```
 public boolean getUnusedLists()
 ```
 
 
- Указывает, следует ли удалять из документа неиспользуемый список и определения списков. Значение по умолчанию**true**.
+Указывает, следует ли удалять из документа неиспользуемые списки и определения списков. Значение по умолчанию — true.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getUnusedStyles() {#getUnusedStyles--}
+ **Examples:** 
+
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getUnusedStyles() {#getUnusedStyles}
 ```
 public boolean getUnusedStyles()
 ```
 
 
- Указывает, следует ли удалять из документа неиспользуемые стили. Значение по умолчанию**true**.
+Указывает, следует ли удалять из документа неиспользуемые стили. Значение по умолчанию — true.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
 
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
 
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
 
-### notifyAll() {#notifyAll--}
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setDuplicateStyle(boolean value) {#setDuplicateStyle-boolean-}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### setDuplicateStyle(boolean value) {#setDuplicateStyle-boolean}
 ```
 public void setDuplicateStyle(boolean value)
 ```
 
 
- Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию**false**.
+Получает/устанавливает флаг, указывающий, следует ли удалять дублирующие стили из документа. Значение по умолчанию — false.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить дублирующиеся стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ // Add two styles to the document with identical properties,
+ // but different names. The second style is considered a duplicate of the first.
+ Style myStyle = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ myStyle.getFont().setSize(14.0);
+ myStyle.getFont().setName("Courier New");
+ myStyle.getFont().setColor(Color.BLUE);
+
+ Style duplicateStyle = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle2");
+ duplicateStyle.getFont().setSize(14.0);
+ duplicateStyle.getFont().setName("Courier New");
+ duplicateStyle.getFont().setColor(Color.BLUE);
+
+ Assert.assertEquals(6, doc.getStyles().getCount());
+
+ // Apply both styles to different paragraphs within the document.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getParagraphFormat().setStyleName(myStyle.getName());
+ builder.writeln("Hello world!");
+
+ builder.getParagraphFormat().setStyleName(duplicateStyle.getName());
+ builder.writeln("Hello again!");
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ Assert.assertEquals(myStyle, paragraphs.get(0).getParagraphFormat().getStyle());
+ Assert.assertEquals(duplicateStyle, paragraphs.get(1).getParagraphFormat().getStyle());
+
+ // Configure a CleanOptions object, then call the Cleanup method to substitute all duplicate styles
+ // with the original and remove the duplicates from the document.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setDuplicateStyle(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(5, doc.getStyles().getCount());
+ Assert.assertEquals(myStyle, paragraphs.get(0).getParagraphFormat().getStyle());
+ Assert.assertEquals(myStyle, paragraphs.get(1).getParagraphFormat().getStyle());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setUnusedBuiltinStyles(boolean value) {#setUnusedBuiltinStyles-boolean-}
+### setUnusedBuiltinStyles(boolean value) {#setUnusedBuiltinStyles-boolean}
 ```
 public void setUnusedBuiltinStyles(boolean value)
 ```
 
 
- Указывает, что неиспользуемый[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) стили должны быть удалены из документа.
+Указывает, что неиспользуемые стили [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) должны быть удалены из документа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setUnusedLists(boolean value) {#setUnusedLists-boolean-}
+### setUnusedLists(boolean value) {#setUnusedLists-boolean}
 ```
 public void setUnusedLists(boolean value)
 ```
 
 
- Указывает, следует ли удалять из документа неиспользуемый список и определения списков. Значение по умолчанию**true**.
+Указывает, следует ли удалять из документа неиспользуемые списки и определения списков. Значение по умолчанию — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setUnusedStyles(boolean value) {#setUnusedStyles-boolean-}
+### setUnusedStyles(boolean value) {#setUnusedStyles-boolean}
 ```
 public void setUnusedStyles(boolean value)
 ```
 
 
- Указывает, следует ли удалять из документа неиспользуемые стили. Значение по умолчанию**true**.
+Указывает, следует ли удалять из документа неиспользуемые стили. Значение по умолчанию — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
+
+```
+
+ Document doc = new Document();
+
+ doc.getStyles().add(StyleType.LIST, "MyListStyle1");
+ doc.getStyles().add(StyleType.LIST, "MyListStyle2");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle1");
+ doc.getStyles().add(StyleType.CHARACTER, "MyParagraphStyle2");
+
+ // Combined with the built-in styles, the document now has eight styles.
+ // A custom style is marked as "used" while there is any text within the document
+ // formatted in that style. This means that the 4 styles we added are currently unused.
+ Assert.assertEquals(8, doc.getStyles().getCount());
+
+ // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.getFont().setStyle(doc.getStyles().get("MyParagraphStyle1"));
+ builder.writeln("Hello world!");
+
+ List docList = doc.getLists().add(doc.getStyles().get("MyListStyle1"));
+ builder.getListFormat().setList(docList);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+
+ // Now, there is one unused character style and one unused list style.
+ // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
+ CleanupOptions cleanupOptions = new CleanupOptions();
+ cleanupOptions.setUnusedLists(true);
+ cleanupOptions.setUnusedStyles(true);
+ cleanupOptions.setUnusedBuiltinStyles(true);
+
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Removing every node that a custom style is applied to marks it as "unused" again.
+ // Rerun the Cleanup method to remove them.
+ doc.getFirstSection().getBody().removeAllChildren();
+ doc.cleanup(cleanupOptions);
+
+ Assert.assertEquals(2, doc.getStyles().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

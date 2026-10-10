@@ -1,140 +1,163 @@
 ---
-title: DocumentLoadingArgs
-second_title: Справочник по API Aspose.Words для Java
-description: Аргумент, переданный в .
+title: "DocumentLoadingArgs"
+linktitle: "DocumentLoadingArgs"
+second_title: "Aspose.Words для Java"
+description: "Аргумент, передаваемый в IDocumentLoadingCallback.notifycom.aspose.words.DocumentLoadingArgs в Java."
 type: docs
-weight: 124
+weight: 166
 url: /ru/java/com.aspose.words/documentloadingargs/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentLoadingArgs
 ```
 
- Аргумент, переданный в[IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-).
+Аргумент, передаваемый в [IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback/\#notify-com.aspose.words.DocumentLoadingArgs).
 
- Чтобы узнать больше, посетите**Specify Load Options** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Specify Load Options ][Specify Load Options].
+
+ **Examples:** 
+
+Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время.
+
+```
+
+ public void progressCallback() throws Exception
+ {
+     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
+
+     LoadOptions loadOptions = new LoadOptions(); { loadOptions.setProgressCallback(progressCallback); }
+
+     try
+     {
+         new Document(getMyDir() + "Big document.docx", loadOptions);
+     }
+     catch (IllegalStateException exception)
+     {
+         System.out.println(exception.getMessage());
+         // Handle loading duration issue.
+     }
+ }
+
+ /// 
+ /// Cancel a document loading after the "MaxDuration" seconds.
+ /// 
+ public static class LoadingProgressCallback implements IDocumentLoadingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public LoadingProgressCallback()
+     {
+         mLoadingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document loading.
+     /// 
+     /// Loading arguments.
+     public void notify(DocumentLoadingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mLoadingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document loading is started.
+     /// 
+     private Date mLoadingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.5;
+ }
+ 
+```
+
+
+[Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEstimatedProgress()](#getEstimatedProgress--) | Общий расчетный процент прогресса. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getEstimatedProgress() {#getEstimatedProgress--}
+| [getEstimatedProgress()](#getEstimatedProgress) | Общий оценочный процент выполнения. |
+### getEstimatedProgress() {#getEstimatedProgress}
 ```
 public double getEstimatedProgress()
 ```
 
 
-Общий расчетный процент прогресса.
+Общий оценочный процент выполнения.
 
-**Возвращает:**
-double - соответствующее двойное значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public void progressCallback() throws Exception
+ {
+     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
 
+     LoadOptions loadOptions = new LoadOptions(); { loadOptions.setProgressCallback(progressCallback); }
 
+     try
+     {
+         new Document(getMyDir() + "Big document.docx", loadOptions);
+     }
+     catch (IllegalStateException exception)
+     {
+         System.out.println(exception.getMessage());
+         // Handle loading duration issue.
+     }
+ }
 
-### notifyAll() {#notifyAll--}
+ /// 
+ /// Cancel a document loading after the "MaxDuration" seconds.
+ /// 
+ public static class LoadingProgressCallback implements IDocumentLoadingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public LoadingProgressCallback()
+     {
+         mLoadingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document loading.
+     /// 
+     /// Loading arguments.
+     public void notify(DocumentLoadingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mLoadingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document loading is started.
+     /// 
+     private Date mLoadingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.5;
+ }
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+double - Соответствующее  double  значение.

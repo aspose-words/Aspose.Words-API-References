@@ -1,48 +1,69 @@
 ---
-title: Granularity
-second_title: Справочник по API Aspose.Words для Java
-description: Задает степень детализации изменений для отслеживания при сравнении двух документов.
+title: "Granularity"
+linktitle: "Granularity"
+second_title: "Aspose.Words для Java"
+description: "Указывает гранулярность изменений, которые следует отслеживать при сравнении двух документов в Java."
 type: docs
-weight: 312
+weight: 366
 url: /ru/java/com.aspose.words/granularity/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Granularity
 ```
 
-Задает степень детализации изменений для отслеживания при сравнении двух документов.
+Указывает степень детализации изменений для отслеживания при сравнении двух документов.
+
+ **Examples:** 
+
+Показывает, как указать гранулярность при сравнении документов.
+
+```
+
+ Document docA = new Document();
+ DocumentBuilder builderA = new DocumentBuilder(docA);
+ builderA.writeln("Alpha Lorem ipsum dolor sit amet, consectetur adipiscing elit");
+
+ Document docB = new Document();
+ DocumentBuilder builderB = new DocumentBuilder(docB);
+ builderB.writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
+
+ // Specify whether changes are tracking
+ // by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
+ CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setGranularity(granularity);
+
+ docA.compare(docB, "author", new Date(), compareOptions);
+
+ // The first document's collection of revision groups contains all the differences between documents.
+ RevisionGroupCollection groups = docA.getRevisions().getGroups();
+ Assert.assertEquals(5, groups.getCount());
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CHAR_LEVEL](#CHAR-LEVEL) |  |
-| [WORD_LEVEL](#WORD-LEVEL) |  |
+| [CHAR_LEVEL](#CHAR-LEVEL) | Указывает изменения на уровне символов. |
+| [WORD_LEVEL](#WORD-LEVEL) | Указывает изменения на уровне слова. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String granularityName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int granularity)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int granularity)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String granularityName)](#fromName-java.lang.String) |  |
+| [getName(int granularity)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int granularity)](#toString-int) |  |
 ### CHAR_LEVEL {#CHAR-LEVEL}
 ```
 public static int CHAR_LEVEL
 ```
 
+
+Указывает изменения на уровне символов.
 
 ### WORD_LEVEL {#WORD-LEVEL}
 ```
@@ -50,29 +71,15 @@ public static int WORD_LEVEL
 ```
 
 
+Указывает изменения на уровне слова.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String granularityName) {#fromName-java.lang.String-}
+### fromName(String granularityName) {#fromName-java.lang.String}
 ```
 public static int fromName(String granularityName)
 ```
@@ -80,25 +87,14 @@ public static int fromName(String granularityName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | granularityName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int granularity) {#getName-int-}
+**Returns:**
+int
+### getName(int granularity) {#getName-int}
 ```
 public static String getName(int granularity)
 ```
@@ -106,15 +102,14 @@ public static String getName(int granularity)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | granularity | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -122,45 +117,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int granularity) {#toString-int-}
+**Returns:**
+int[]
+### toString(int granularity) {#toString-int}
 ```
 public static String toString(int granularity)
 ```
@@ -168,47 +127,10 @@ public static String toString(int granularity)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | granularity | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

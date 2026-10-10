@@ -1,98 +1,305 @@
 ---
-title: NodeList
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет набор узлов, соответствующих запросу XPath, выполненному с использованием метода.
+title: "NodeList"
+linktitle: "NodeList"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию узлов, соответствующих запросу XPath, выполненному с использованием метода CompositeNode.selectNodesjava.lang.String в Java."
 type: docs
-weight: 406
+weight: 481
 url: /ru/java/com.aspose.words/nodelist/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class NodeList implements Iterable
 ```
 
- Представляет набор узлов, соответствующих запросу XPath, выполненному с использованием[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) метод.
+Представляет коллекцию узлов, соответствующих запросу XPath, выполненному с использованием метода [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String).
 
- Чтобы узнать больше, посетите**Aspose.Words Document Object Model (DOM)** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_].
 
-**NodeList** возвращается[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) и содержит набор узлов, соответствующих запросу XPath.
+ **Remarks:** 
 
-**NodeList** поддерживает индексированный доступ и итерацию.
+[NodeList](../../com.aspose.words/nodelist/) is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String) and contains a collection of nodes matching the XPath query.
 
- лечить**NodeList** коллекция как коллекция "моментальных снимков".**NodeList** запускается как «живая» коллекция, поскольку узлы фактически не извлекаются при выполнении запроса XPath. Узлы извлекаются только при доступе, и в это время узел и все предшествующие ему узлы кэшируются, образуя коллекцию «моментальных снимков».
+[NodeList](../../com.aspose.words/nodelist/) supports indexed access and iteration.
+
+Обрабатывайте коллекцию [NodeList](../../com.aspose.words/nodelist/) как коллекцию «snapshot». [NodeList](../../com.aspose.words/nodelist/) изначально является «live» коллекцией, потому что узлы фактически не извлекаются при выполнении запроса XPath. Узлы извлекаются только при доступе, и в этот момент узел и все предшествующие ему узлы кэшируются, образуя коллекцию «snapshot».
+
+ **Examples:** 
+
+Показывает, как найти все гиперссылки в документе Word, а затем изменить их URL‑адреса и отображаемые имена.
+
+```
+
+ import com.aspose.words.*;
+ import org.testng.annotations.Test;
+
+ import java.util.regex.Matcher;
+ import java.util.regex.Pattern;
+
+ public class ExReplaceHyperlinks extends ApiExampleBase {
+     public void fields() throws Exception {
+         Document doc = new Document(getMyDir() + "Hyperlinks.docx");
+
+         // Hyperlinks in a Word documents are fields. To begin looking for hyperlinks, we must first find all the fields.
+         // Use the "SelectNodes" method to find all the fields in the document via an XPath.
+         NodeList fieldStarts = doc.selectNodes("//FieldStart");
+         for (FieldStart fieldStart : (Iterable) fieldStarts) {
+             if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
+                 Hyperlink hyperlink = new Hyperlink(fieldStart);
+
+                 // Hyperlinks that link to bookmarks do not have URLs.
+                 if (hyperlink.isLocal()) continue;
+
+                 // Give each URL hyperlink a new URL and name.
+                 hyperlink.setTarget(NEW_URL);
+                 hyperlink.setName(NEW_NAME);
+             }
+         }
+
+         doc.save(getArtifactsDir() + "ReplaceHyperlinks.Fields.docx");
+     }
+
+     private static final String NEW_URL = "http://www.aspose.com";
+     private static final String NEW_NAME = "Aspose - The .NET & Java Component Publisher";
+ }
+
+ // This "facade" class makes it easier to work with a hyperlink field in a Word document.
+ // 
+ // HYPERLINK fields contain and display hyperlinks in the document body. A field in Aspose.Words
+ // consists of several nodes, and it might be difficult to work with all those nodes directly.
+ // This implementation will work only if the hyperlink code and name each consist of only one Run node.
+ // 
+ // The node structure for fields is as follows:
+ // 
+ // [FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
+ // 
+ // Below are two example field codes of HYPERLINK fields:
+ // HYPERLINK "url"
+ // HYPERLINK \l "bookmark name"
+ // 
+ // A field's "Result" property contains text that the field displays in the document body to the user.
+ class Hyperlink {
+     Hyperlink(final FieldStart fieldStart) throws Exception {
+         if (fieldStart == null) {
+             throw new IllegalArgumentException("fieldStart");
+         }
+
+         if (fieldStart.getFieldType() != FieldType.FIELD_HYPERLINK) {
+             throw new IllegalArgumentException("Field start type must be FieldHyperlink.");
+         }
+
+         mFieldStart = fieldStart;
+
+         // Find the field separator node.
+         mFieldSeparator = findNextSibling(mFieldStart, NodeType.FIELD_SEPARATOR);
+         if (mFieldSeparator == null) {
+             throw new IllegalStateException("Cannot find field separator.");
+         }
+
+         // Normally, we can always find the field's end node, but the example document
+         // contains a paragraph break inside a hyperlink, which puts the field end
+         // in the next paragraph. It will be much more complicated to handle fields which span several
+         // paragraphs correctly. In this case allowing field end to be null is enough.
+         mFieldEnd = findNextSibling(mFieldSeparator, NodeType.FIELD_END);
+
+         // Field code looks something like "HYPERLINK "http:\\www.myurl.com"", but it can consist of several runs.
+         String fieldCode = getTextSameParent(mFieldStart.getNextSibling(), mFieldSeparator);
+         Matcher matcher = G_REGEX.matcher(fieldCode.trim());
+         matcher.find();
+
+         // The hyperlink is local if \l is present in the field code.
+         mIsLocal = (matcher.group(1) != null) && (matcher.group(1).length() > 0);
+         mTarget = matcher.group(2);
+     }
+
+     // Gets or sets the display name of the hyperlink.
+     String getName() throws Exception {
+         return getTextSameParent(mFieldSeparator, mFieldEnd);
+     }
+
+     void setName(final String value) throws Exception {
+         // Hyperlink display name is stored in the field result, which is a Run
+         // node between field separator and field end.
+         Run fieldResult = (Run) mFieldSeparator.getNextSibling();
+         fieldResult.setText(value);
+
+         // If the field result consists of more than one run, delete these runs.
+         removeSameParent(fieldResult.getNextSibling(), mFieldEnd);
+     }
+
+     // Gets or sets the target URL or bookmark name of the hyperlink.
+     String getTarget() {
+         return mTarget;
+     }
+
+     void setTarget(final String value) throws Exception {
+         mTarget = value;
+         updateFieldCode();
+     }
+
+     // True if the hyperlinks target is a bookmark inside the document. False if the hyperlink is a URL.
+     boolean isLocal() {
+         return mIsLocal;
+     }
+
+     void isLocal(final boolean value) throws Exception {
+         mIsLocal = value;
+         updateFieldCode();
+     }
+
+     private void updateFieldCode() throws Exception {
+         // A field's field code is in a Run node between the field's start node and field separator.
+         Run fieldCode = (Run) mFieldStart.getNextSibling();
+         fieldCode.setText(java.text.MessageFormat.format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget));
+
+         // If the field code consists of more than one run, delete these runs.
+         removeSameParent(fieldCode.getNextSibling(), mFieldSeparator);
+     }
+
+     // Goes through siblings starting from the start node until it finds a node of the specified type or null.
+     private static Node findNextSibling(final Node startNode, final int nodeType) {
+         for (Node node = startNode; node != null; node = node.getNextSibling()) {
+             if (node.getNodeType() == nodeType) return node;
+         }
+         return null;
+     }
+
+     // Retrieves text from start up to but not including the end node.
+     private static String getTextSameParent(final Node startNode, final Node endNode) {
+         if ((endNode != null) && (startNode.getParentNode() != endNode.getParentNode())) {
+             throw new IllegalArgumentException("Start and end nodes are expected to have the same parent.");
+         }
+
+         StringBuilder builder = new StringBuilder();
+         for (Node child = startNode; !child.equals(endNode); child = child.getNextSibling()) {
+             builder.append(child.getText());
+         }
+
+         return builder.toString();
+     }
+
+     // Removes nodes from start up to but not including the end node.
+     // Assumes that the start and end nodes have the same parent.
+     private static void removeSameParent(final Node startNode, final Node endNode) {
+         if ((endNode != null) && (startNode.getParentNode() != endNode.getParentNode())) {
+             throw new IllegalArgumentException("Start and end nodes are expected to have the same parent.");
+         }
+
+         Node curChild = startNode;
+         while ((curChild != null) && (curChild != endNode)) {
+             Node nextChild = curChild.getNextSibling();
+             curChild.remove();
+             curChild = nextChild;
+         }
+     }
+
+     private final Node mFieldStart;
+     private final Node mFieldSeparator;
+     private final Node mFieldEnd;
+     private boolean mIsLocal;
+     private String mTarget;
+
+     private static final Pattern G_REGEX = Pattern.compile(
+             "\\S+" +             // One or more non spaces HYPERLINK or other word in other languages.
+                     "\\s+" +             // One or more spaces.
+                     "(?:\"\"\\s+)?" +    // Non-capturing optional "" and one or more spaces.
+                     "(\\\\l\\s+)?" +     // Optional \l flag followed by one or more spaces.
+                     "\"" +               // One apostrophe.
+                     "([^\"]+)" +         // One or more characters, excluding the apostrophe (hyperlink target).
+                     "\""                 // One closing apostrophe.
+     );
+ }
+ 
+```
+
+
+[Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Извлекает узел по заданному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество узлов в списке. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toArray()](#toArray--) | Копирует все узлы из коллекции в новый массив узлов. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+| [get(int index)](#get-int) | Получает узел по заданному индексу. |
+| [getCount()](#getCount) | Получает количество узлов в списке. |
+| [iterator()](#iterator) | Обеспечивает простую итерацию в стиле "foreach" по коллекции узлов. |
+| [toArray()](#toArray) | Копирует все узлы из коллекции в новый массив узлов. |
+### get(int index) {#get-int}
 ```
 public Node get(int index)
 ```
 
 
-Извлекает узел по заданному индексу.
+Получает узел по заданному индексу.
 
-Индекс отсчитывается от нуля.
+ **Remarks:** 
 
-Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
+Индекс начинается с нуля.
 
-Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
+Отрицательные индексы допускаются и указывают доступ с конца коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
 
-Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращается пустая ссылка.
+Если индекс больше или равен количеству элементов в списке, возвращается null-ссылка.
 
-**Параметры:**
+Если индекс отрицательный и его абсолютное значение больше количества элементов в списке, возвращается null-ссылка.
 
+ **Examples:** 
+
+Показывает, как использовать XPath для навигации по NodeList.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert some nodes with a DocumentBuilder.
+ builder.writeln("Hello world!");
+
+ builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endTable();
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Our document contains three Run nodes.
+ NodeList runs = doc.selectNodes("//Run");
+
+ Assert.assertEquals(3, runs.getCount());
+
+ // Use a double forward slash to select all Run nodes
+ // that are indirect descendants of a Table node, which would be the runs inside the two cells we inserted.
+ runs = doc.selectNodes("//Table//Run");
+
+ Assert.assertEquals(2, runs.getCount());
+
+ // Single forward slashes specify direct descendant relationships,
+ // which we skipped when we used double slashes.
+ Assert.assertEquals(doc.selectNodes("//Table//Run"),
+         doc.selectNodes("//Table/Row/Cell/Paragraph/Run"));
+
+ // Access the shape that contains the image we inserted.
+ NodeList shapes = doc.selectNodes("//Shape");
+
+ Assert.assertEquals(1, shapes.getCount());
+
+ Shape shape = (Shape) shapes.get(0);
+ Assert.assertTrue(shape.hasImage());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс в списке узлов. |
+| индекс | int | Индекс в списке узлов. |
 
-**Возвращает:**
-[Node](../../com.aspose.words/node) - соответствующий[Node](../../com.aspose.words/node) ценность.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -100,45 +307,100 @@ public int getCount()
 
 Получает количество узлов в списке.
 
-**Возвращает:**
-int - количество узлов в списке.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как использовать XPath для навигации по NodeList.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert some nodes with a DocumentBuilder.
+ builder.writeln("Hello world!");
+
+ builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endTable();
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Our document contains three Run nodes.
+ NodeList runs = doc.selectNodes("//Run");
+
+ Assert.assertEquals(3, runs.getCount());
+
+ // Use a double forward slash to select all Run nodes
+ // that are indirect descendants of a Table node, which would be the runs inside the two cells we inserted.
+ runs = doc.selectNodes("//Table//Run");
+
+ Assert.assertEquals(2, runs.getCount());
+
+ // Single forward slashes specify direct descendant relationships,
+ // which we skipped when we used double slashes.
+ Assert.assertEquals(doc.selectNodes("//Table//Run"),
+         doc.selectNodes("//Table/Row/Cell/Paragraph/Run"));
+
+ // Access the shape that contains the image we inserted.
+ NodeList shapes = doc.selectNodes("//Shape");
+
+ Assert.assertEquals(1, shapes.getCount());
+
+ Shape shape = (Shape) shapes.get(0);
+ Assert.assertTrue(shape.hasImage());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int — количество узлов в списке.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Обеспечивает простую итерацию в стиле foreach по набору узлов.
+Обеспечивает простую итерацию в стиле "foreach" по коллекции узлов.
 
-**Возвращает:**
-java.util.Iterator — итератор.
-### notify() {#notify--}
-```
-public final native void notify()
-```
+ **Examples:** 
 
+Показывает, как выбрать определённые узлы, используя XPath‑выражение.
 
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document(getMyDir() + "Tables.docx");
 
+ // This expression will extract all paragraph nodes,
+ // which are descendants of any table node in the document.
+ NodeList nodeList = doc.selectNodes("//Table//Paragraph");
 
+ // Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
+ int index = 0;
 
-### toArray() {#toArray--}
+ Iterator e = nodeList.iterator();
+ while (e.hasNext()) {
+     Node currentNode = e.next();
+     System.out.println(MessageFormat.format("Table paragraph index {0}, contents: \"{1}\"", index++, currentNode.getText().trim()));
+ }
+
+ // This expression will select any paragraphs that are direct children of any Body node in the document.
+ nodeList = doc.selectNodes("//Body/Paragraph");
+
+ // We can treat the list as an array.
+ Assert.assertEquals(nodeList.toArray().length, 4);
+
+ // Use SelectSingleNode to select the first result of the same expression as above.
+ Node node = doc.selectSingleNode("//Body/Paragraph");
+
+ Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
+
+**Returns:**
+java.util.Iterator - Итератор.
+### toArray() {#toArray}
 ```
 public Node[] toArray()
 ```
@@ -146,55 +408,45 @@ public Node[] toArray()
 
 Копирует все узлы из коллекции в новый массив узлов.
 
-Вы не должны добавлять/удалять узлы при переборе коллекции узлов, потому что это делает итератор недействительным и требует обновления для живых коллекций.
+ **Remarks:** 
 
-Чтобы иметь возможность добавлять/удалять узлы во время итерации, используйте этот метод для копирования узлов в массив фиксированного размера, а затем выполните итерацию по массиву.
+Не следует добавлять/удалять узлы во время итерации по коллекции узлов, так как это делает итератор недействительным и требует обновления живых коллекций.
 
-**Возвращает:**
-com.aspose.words.Node[] - Массив узлов.
-### toString() {#toString--}
-```
-public String toString()
-```
+Чтобы иметь возможность добавлять/удалять узлы во время итерации, используйте этот метод для копирования узлов в массив фиксированного размера, а затем итерации по массиву.
 
+ **Examples:** 
 
+Показывает, как выбрать определённые узлы, используя XPath‑выражение.
 
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
 ```
 
+ Document doc = new Document(getMyDir() + "Tables.docx");
 
+ // This expression will extract all paragraph nodes,
+ // which are descendants of any table node in the document.
+ NodeList nodeList = doc.selectNodes("//Table//Paragraph");
 
+ // Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
+ int index = 0;
 
-### wait(long arg0) {#wait-long-}
+ Iterator e = nodeList.iterator();
+ while (e.hasNext()) {
+     Node currentNode = e.next();
+     System.out.println(MessageFormat.format("Table paragraph index {0}, contents: \"{1}\"", index++, currentNode.getText().trim()));
+ }
+
+ // This expression will select any paragraphs that are direct children of any Body node in the document.
+ nodeList = doc.selectNodes("//Body/Paragraph");
+
+ // We can treat the list as an array.
+ Assert.assertEquals(nodeList.toArray().length, 4);
+
+ // Use SelectSingleNode to select the first result of the same expression as above.
+ Node node = doc.selectSingleNode("//Body/Paragraph");
+
+ Assert.assertEquals(Paragraph.class, node.getClass());
+ 
 ```
-public final native void wait(long arg0)
-```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+com.aspose.words.Node[] — массив узлов.

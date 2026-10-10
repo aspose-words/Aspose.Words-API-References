@@ -1,46 +1,99 @@
 ---
-title: ResourceLoadingAction
-second_title: Справочник по API Aspose.Words для Java
-description: Задает режим загрузки ресурсов.
+title: "ResourceLoadingAction"
+linktitle: "ResourceLoadingAction"
+second_title: "Aspose.Words для Java"
+description: "Указывает режим загрузки ресурсов в Java."
 type: docs
-weight: 479
+weight: 575
 url: /ru/java/com.aspose.words/resourceloadingaction/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ResourceLoadingAction
 ```
 
-Задает режим загрузки ресурсов.
+Указывает режим загрузки ресурсов.
 
- Чтобы узнать больше, посетите**Specify Load Options** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Specify Load Options ][Specify Load Options].
+
+ **Examples:** 
+
+Показывает, как настроить процесс загрузки внешних ресурсов в документ.
+
+```
+
+ public void resourceLoadingCallback() throws Exception {
+     Document doc = new Document();
+     doc.setResourceLoadingCallback(new ImageNameHandler());
+
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // Images usually are inserted using a URI, or a byte array.
+     // Every instance of a resource load will call our callback's ResourceLoading method.
+     builder.insertImage("Google logo");
+     builder.insertImage("Aspose logo");
+     builder.insertImage("Watermark");
+
+     Assert.assertEquals(3, doc.getChildNodes(NodeType.SHAPE, true).getCount());
+
+     doc.save(getArtifactsDir() + "DocumentBase.ResourceLoadingCallback.docx");
+ }
+
+ /// 
+ /// Allows us to load images into a document using predefined shorthands, as opposed to URIs.
+ /// This will separate image loading logic from the rest of the document construction.
+ /// 
+ private static class ImageNameHandler implements IResourceLoadingCallback {
+     public int resourceLoading(final ResourceLoadingArgs args) throws URISyntaxException, IOException {
+         if (args.getResourceType() == ResourceType.IMAGE) {
+             // If this callback encounters one of the image shorthands while loading an image,
+             // it will apply unique logic for each defined shorthand instead of treating it as a URI.
+             if ("Google logo".equals(args.getOriginalUri())) {
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
+
+                 return ResourceLoadingAction.USER_PROVIDED;
+             }
+
+             if ("Aspose logo".equals(args.getOriginalUri())) {
+                 args.setData(DocumentHelper.getBytesFromStream(getImageUri().toURL().openStream()));
+
+                 return ResourceLoadingAction.USER_PROVIDED;
+             }
+
+             if ("Watermark".equals(args.getOriginalUri())) {
+                 InputStream imageStream = new FileInputStream(getImageDir() + "Transparent background logo.png");
+                 args.setData(DocumentHelper.getBytesFromStream(imageStream));
+
+                 return ResourceLoadingAction.USER_PROVIDED;
+             }
+         }
+
+         return ResourceLoadingAction.DEFAULT;
+     }
+ }
+ 
+```
+
+
+[Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | Aspose.Words загрузит этот ресурс как обычно. |
 | [SKIP](#SKIP) | Aspose.Words пропустит загрузку этого ресурса. |
-| [USER_PROVIDED](#USER-PROVIDED) |  Aspose.Words будет использовать массив байтов, предоставленный пользователем в[ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---) как ресурсные данные. |
+| [USER_PROVIDED](#USER-PROVIDED) | Aspose.Words будет использовать массив байтов, предоставленный пользователем в [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs/\#setData-byte) в качестве данных ресурса. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String resourceLoadingActionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int resourceLoadingAction)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int resourceLoadingAction)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String resourceLoadingActionName)](#fromName-java.lang.String) |  |
+| [getName(int resourceLoadingAction)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int resourceLoadingAction)](#toString-int) |  |
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
@@ -55,7 +108,7 @@ public static int SKIP
 ```
 
 
-Aspose.Words пропустит загрузку этого ресурса. Для изображения будет храниться только ссылка без данных, таблица стилей CSS будет игнорироваться для формата HTML.
+Aspose.Words пропустит загрузку этого ресурса. Для изображения будет сохранена только ссылка без данных, а таблица стилей CSS будет игнорироваться в формате HTML.
 
 ### USER_PROVIDED {#USER-PROVIDED}
 ```
@@ -63,7 +116,7 @@ public static int USER_PROVIDED
 ```
 
 
- Aspose.Words будет использовать массив байтов, предоставленный пользователем в[ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---) как ресурсные данные.
+Aspose.Words будет использовать массив байтов, предоставленный пользователем в [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs/\#setData-byte) в качестве данных ресурса.
 
 ### length {#length}
 ```
@@ -71,23 +124,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String resourceLoadingActionName) {#fromName-java.lang.String-}
+### fromName(String resourceLoadingActionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String resourceLoadingActionName)
 ```
@@ -95,25 +132,14 @@ public static int fromName(String resourceLoadingActionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | resourceLoadingActionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int resourceLoadingAction) {#getName-int-}
+**Returns:**
+int
+### getName(int resourceLoadingAction) {#getName-int}
 ```
 public static String getName(int resourceLoadingAction)
 ```
@@ -121,15 +147,14 @@ public static String getName(int resourceLoadingAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | resourceLoadingAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -137,45 +162,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int resourceLoadingAction) {#toString-int-}
+**Returns:**
+int[]
+### toString(int resourceLoadingAction) {#toString-int}
 ```
 public static String toString(int resourceLoadingAction)
 ```
@@ -183,47 +172,10 @@ public static String toString(int resourceLoadingAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | resourceLoadingAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
