@@ -1,0 +1,92 @@
+﻿---
+title: ImageData.crop_right property
+linktitle: crop_right property
+articleTitle: crop_right property
+second_title: Aspose.Words for Python
+description: "ImageData.crop_right property. Defines the fraction of picture removal from the right side."
+type: docs
+weight: 80
+url: /de/python-net/aspose.words.drawing/imagedata/crop_right/
+---
+
+## ImageData.crop_right property
+
+Defines the fraction of picture removal from the right side.
+
+
+```python
+@property
+def crop_right(self) -> float:
+    ...
+
+@crop_right.setter
+def crop_right(self, value: float):
+    ...
+
+```
+
+### Remarks
+
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note 
+that a value of 1 will display no picture at all. Negative values will result in 
+the picture being squeezed inward from the edge being cropped (the empty space 
+between the picture and the cropped edge will be filled by the fill color of the 
+shape). Positive values less than 1 will result in the remaining picture being 
+stretched to fit the shape.
+
+The default value is 0.
+
+
+
+
+### Examples
+
+Shows how to edit a shape's image data.
+
+```python
+img_source_doc = aw.Document(file_name=MY_DIR + 'Images.docx')
+source_shape = img_source_doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
+dst_doc = aw.Document()
+# Importieren Sie eine Form aus dem Quelldokument und fügen Sie sie dem ersten Absatz hinzu.
+imported_shape = dst_doc.import_node(src_node=source_shape, is_import_children=True).as_shape()
+dst_doc.first_section.body.first_paragraph.append_child(imported_shape)
+# Die importierte Form enthält ein Bild. Wir können über das ImageData-Objekt auf die Eigenschaften und Rohdaten des Bildes zugreifen.
+image_data = imported_shape.image_data
+image_data.title = 'Imported Image'
+self.assertTrue(image_data.has_image)
+# Wenn ein Bild keine Ränder hat, definiert sein ImageData-Objekt die Randfarbe als leer.
+self.assertEqual(4, image_data.borders.count)
+self.assertEqual(aspose.pydrawing.Color.empty(), image_data.borders[0].color)
+# Dieses Bild verlinkt nicht zu einer anderen Form oder Bilddatei im lokalen Dateisystem.
+self.assertFalse(image_data.is_link)
+self.assertFalse(image_data.is_link_only)
+# Die "Brightness"- und "Contrast"-Eigenschaften definieren die Helligkeit und den Kontrast des Bildes
+# auf einer Skala von 0-1, wobei der Standardwert bei 0,5 liegt.
+image_data.brightness = 0.8
+image_data.contrast = 1
+# Die obigen Helligkeits- und Kontrastwerte haben ein Bild mit viel Weiß erzeugt.
+# Wir können eine Farbe mit der ChromaKey-Eigenschaft auswählen, um sie durch Transparenz zu ersetzen, zum Beispiel Weiß.
+image_data.chroma_key = aspose.pydrawing.Color.white
+# Importieren Sie die Quellform erneut und setzen Sie das Bild auf Monochrom.
+imported_shape = dst_doc.import_node(src_node=source_shape, is_import_children=True).as_shape()
+dst_doc.first_section.body.first_paragraph.append_child(imported_shape)
+imported_shape.image_data.gray_scale = True
+# Importieren Sie die Quellform erneut, um ein drittes Bild zu erstellen, und setzen Sie es auf BiLevel.
+# BiLevel setzt jedes Pixel entweder auf Schwarz oder Weiß, je nachdem, welche Farbe dem Originalfarbwert näher liegt.
+imported_shape = dst_doc.import_node(src_node=source_shape, is_import_children=True).as_shape()
+dst_doc.first_section.body.first_paragraph.append_child(imported_shape)
+imported_shape.image_data.bi_level = True
+# Das Zuschneiden wird auf einer Skala von 0-1 bestimmt. Eine Seite um 0,3 zuschneiden
+# schneidet 30 % des Bildes an der beschnittenen Seite ab.
+imported_shape.image_data.crop_bottom = 0.3
+imported_shape.image_data.crop_left = 0.3
+imported_shape.image_data.crop_top = 0.3
+imported_shape.image_data.crop_right = 0.3
+dst_doc.save(file_name=ARTIFACTS_DIR + 'Drawing.ImageData.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing](../../)
+* class [ImageData](../)
+
