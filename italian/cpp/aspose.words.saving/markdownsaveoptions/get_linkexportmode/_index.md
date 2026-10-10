@@ -1,0 +1,48 @@
+---
+title: "Aspose::Words::Saving::MarkdownSaveOptions::get_LinkExportMode metodo"
+linktitle: "get_LinkExportMode"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Aspose::Words::Saving::MarkdownSaveOptions::get_LinkExportMode metodo. Specifica come i collegamenti verranno scritti nel file di output. Il valore predefinito è Auto in C++."
+type: docs
+weight: 5750
+url: /it/cpp/aspose.words.saving/markdownsaveoptions/get_linkexportmode/
+---
+## MarkdownSaveOptions::get_LinkExportMode method
+
+
+Specifica come i collegamenti verranno scritti nel file di output. Il valore predefinito è [Auto](../../markdownlinkexportmode/).
+
+```cpp
+Aspose::Words::Saving::MarkdownLinkExportMode Aspose::Words::Saving::MarkdownSaveOptions::get_LinkExportMode() const
+```
+
+
+## Esempi
+
+
+
+Mostra come i collegamenti verranno scritti nel file .md.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, 100, 100);
+
+// L'immagine verrà scritta come riferimento:
+// ![ref1]
+// [ref1]: aw_ref.001.png
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_LinkExportMode(Aspose::Words::Saving::MarkdownLinkExportMode::Reference);
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Reference.md", saveOptions);
+
+// L'immagine verrà scritta in linea:
+// ![](aw_inline.001.png)
+saveOptions->set_LinkExportMode(Aspose::Words::Saving::MarkdownLinkExportMode::Inline);
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
+```
+
+## Vedi anche
+
+* Enum [MarkdownLinkExportMode](../../markdownlinkexportmode/)
+* Class [MarkdownSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)

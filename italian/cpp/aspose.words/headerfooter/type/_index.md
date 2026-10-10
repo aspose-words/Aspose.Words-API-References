@@ -1,0 +1,23 @@
+---
+title: "Metodo Aspose::Words::HeaderFooter::Type"
+linktitle: "Tipo"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Come utilizzare il metodo Type della classe Aspose::Words::HeaderFooter in C++."
+type: docs
+weight: 1000
+url: /it/cpp/aspose.words/headerfooter/type/
+---
+## HeaderFooter::Type method
+
+
+
+
+```cpp
+static const System::TypeInfo & Aspose::Words::HeaderFooter::Type()
+```
+
+## Vedi anche
+
+* Class [HeaderFooter](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

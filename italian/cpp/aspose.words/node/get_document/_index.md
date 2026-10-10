@@ -1,0 +1,59 @@
+---
+title: "Metodo Aspose::Words::Node::get_Document"
+linktitle: "get_Document"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Metodo Aspose::Words::Node::get_Document. Ottiene il documento a cui appartiene questo nodo in C++."
+type: docs
+weight: 6000
+url: /it/cpp/aspose.words/node/get_document/
+---
+## Node::get_Document method
+
+
+Ottiene il documento a cui appartiene questo nodo.
+
+```cpp
+virtual System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Node::get_Document() const
+```
+
+## Note
+
+
+Il nodo appartiene sempre a un documento anche se è appena stato creato e non è ancora stato aggiunto all'albero, o se è stato rimosso dall'albero.
+
+## Esempi
+
+
+
+Mostra come creare un nodo e impostare il documento proprietario.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
+
+// Non abbiamo ancora aggiunto questo paragrafo come figlio a nessun nodo composito.
+ASSERT_TRUE(System::TestTools::IsNull(para->get_ParentNode()));
+
+// Se un nodo è un tipo di nodo figlio appropriato di un altro nodo composito,
+// possiamo collegarlo come figlio solo se entrambi i nodi hanno lo stesso documento proprietario.
+// Il documento proprietario è il documento che abbiamo passato al costruttore del nodo.
+// Non abbiamo collegato questo paragrafo al documento, quindi il documento non contiene il suo testo.
+ASPOSE_ASSERT_EQ(para->get_Document(), doc);
+ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
+
+// Poiché il documento possiede questo paragrafo, possiamo applicare uno dei suoi stili al contenuto del paragrafo.
+para->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"));
+
+// Aggiungi questo nodo al documento, quindi verifica il suo contenuto.
+doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
+
+ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
+ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+```
+
+## Vedi anche
+
+* Class [DocumentBase](../../documentbase/)
+* Class [Node](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

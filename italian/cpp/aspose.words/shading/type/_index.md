@@ -1,0 +1,23 @@
+---
+title: "Metodo Aspose::Words::Shading::Type"
+linktitle: "Tipo"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Come utilizzare il metodo Type della classe Aspose::Words::Shading in C++."
+type: docs
+weight: 1000
+url: /it/cpp/aspose.words/shading/type/
+---
+## Shading::Type method
+
+
+
+
+```cpp
+static const System::TypeInfo & Aspose::Words::Shading::Type()
+```
+
+## Vedi anche
+
+* Class [Shading](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

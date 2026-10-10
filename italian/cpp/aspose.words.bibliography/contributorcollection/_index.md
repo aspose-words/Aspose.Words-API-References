@@ -1,0 +1,160 @@
+---
+title: "Aspose::Words::Bibliography::ContributorCollection classe"
+linktitle: "ContributorCollection"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Aspose::Words::Bibliography::ContributorCollection class. Rappresenta i contributori di fonti bibliografiche in C++."
+type: docs
+weight: 375
+url: /it/cpp/aspose.words.bibliography/contributorcollection/
+---
+## ContributorCollection class
+
+
+Rappresenta i contributori di fonti bibliografiche.
+
+```cpp
+class ContributorCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Bibliography::Contributor>>
+```
+
+## Metodi
+
+| Metodo | Descrizione |
+| --- | --- |
+| [get_Artist](./get_artist/)() | Ottiene o imposta l'artista di una fonte. |
+| [get_Author](./get_author/)() | Ottiene o imposta l'autore di una fonte. |
+| [get_BookAuthor](./get_bookauthor/)() | Ottiene o imposta l'autore del libro di una fonte. |
+| [get_Compiler](./get_compiler/)() | Ottiene o imposta il compilatore di una fonte. |
+| [get_Composer](./get_composer/)() | Ottiene o imposta il compositore di una fonte. |
+| [get_Conductor](./get_conductor/)() | Ottiene o imposta il direttore d'orchestra di una fonte. |
+| [get_Counsel](./get_counsel/)() | Ottiene o imposta il consulente di una fonte. |
+| [get_Director](./get_director/)() | Ottiene o imposta il regista di una fonte. |
+| [get_Editor](./get_editor/)() | Ottiene o imposta l'editore di una fonte. |
+| [get_Interviewee](./get_interviewee/)() | Ottiene o imposta l'intervistato di una fonte. |
+| [get_Interviewer](./get_interviewer/)() | Ottiene o imposta l'intervistatore di una fonte. |
+| [get_Inventor](./get_inventor/)() | Ottiene o imposta l'inventore di una fonte. |
+| [get_Performer](./get_performer/)() | Ottiene o imposta l'esecutore di una fonte. |
+| [get_Producer](./get_producer/)() | Ottiene o imposta il produttore di una fonte. |
+| [get_Translator](./get_translator/)() | Ottiene o imposta il traduttore di una fonte. |
+| [get_Writer](./get_writer/)() | Ottiene o imposta lo scrittore di una fonte. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_Artist](./set_artist/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter per [Aspose::Words::Bibliography::ContributorCollection::get_Artist](./get_artist/). |
+| [set_Author](./set_author/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Author](./get_author/). |
+| [set_BookAuthor](./set_bookauthor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_BookAuthor](./get_bookauthor/). |
+| [set_Compiler](./set_compiler/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Compiler](./get_compiler/). |
+| [set_Composer](./set_composer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Composer](./get_composer/). |
+| [set_Conductor](./set_conductor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Conductor](./get_conductor/). |
+| [set_Counsel](./set_counsel/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Counsel](./get_counsel/). |
+| [set_Director](./set_director/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Director](./get_director/). |
+| [set_Editor](./set_editor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Editor](./get_editor/). |
+| [set_Interviewee](./set_interviewee/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Interviewee](./get_interviewee/). |
+| [set_Interviewer](./set_interviewer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Interviewer](./get_interviewer/). |
+| [set_Inventor](./set_inventor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Inventor](./get_inventor/). |
+| [set_Performer](./set_performer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Performer](./get_performer/). |
+| [set_Producer](./set_producer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Producer](./get_producer/). |
+| [set_Translator](./set_translator/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Translator](./get_translator/). |
+| [set_Writer](./set_writer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Metodo setter per [Aspose::Words::Bibliography::ContributorCollection::get_Writer](./get_writer/). |
+| static [Type](./type/)() |  |
+
+## Esempi
+
+
+
+Mostra come ottenere le fonti bibliografiche disponibili nel documento.
+```cpp
+auto document = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bibliography sources.docx");
+
+System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
+ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
+
+// Ottieni i dati predefiniti dalle fonti bibliografiche.
+System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
+ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
+ASSERT_EQ(Aspose::Words::Bibliography::SourceType::Book, source->get_SourceType());
+ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
+ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_BookTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Broadcaster()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_BroadcastTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_CaseNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ChapterNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Comments()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ConferenceName()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_CountryOrRegion()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Court()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Day()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_DayAccessed()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Department()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Distributor()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Doi()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Edition()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Guid()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Institution()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_InternetSiteTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Issue()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_JournalName()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Lcid()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Medium()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Month()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_MonthAccessed()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_NumberVolumes()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Pages()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PatentNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PeriodicalTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ProductionCompany()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PublicationTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Publisher()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_RecordingNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_RefOrder()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Reporter()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ShortTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_StandardNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_StateOrProvince()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Station()));
+ASSERT_EQ(u"BookNoLCID", source->get_Tag());
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Theater()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ThesisType()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Type()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Url()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Version()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Volume()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Year()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_YearAccessed()));
+
+// Inoltre, è possibile creare una nuova fonte.
+auto newSource = System::MakeObject<Aspose::Words::Bibliography::Source>(u"New source", Aspose::Words::Bibliography::SourceType::Misc);
+
+System::SharedPtr<Aspose::Words::Bibliography::ContributorCollection> contributors = source->get_Contributors();
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Artist()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_BookAuthor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Compiler()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Composer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Conductor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Counsel()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Director()));
+ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Editor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Interviewee()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Interviewer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Inventor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Performer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Producer()));
+ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Translator()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Writer()));
+
+System::SharedPtr<Aspose::Words::Bibliography::Contributor> editor = contributors->get_Editor();
+ASSERT_EQ(2, (System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count());
+
+auto authors = System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(contributors->get_Author());
+ASSERT_EQ(2, authors->LINQ_Count());
+
+System::SharedPtr<Aspose::Words::Bibliography::Person> person = authors->idx_get(0);
+ASSERT_EQ(u"Roxanne", person->get_First());
+ASSERT_EQ(u"Brielle", person->get_Middle());
+ASSERT_EQ(u"Tejeda", person->get_Last());
+```
+
+## Vedi anche
+
+* Namespace [Aspose::Words::Bibliography](../)
+* Library [Aspose.Words for C++](../../)

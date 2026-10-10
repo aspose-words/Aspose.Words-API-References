@@ -1,0 +1,109 @@
+---
+title: "Metodo Aspose::Words::Font::get_ThemeFontOther"
+linktitle: "get_ThemeFontOther"
+second_title: "Riferimento API Aspose.Words per C++"
+description: "Metodo Aspose::Words::Font::get_ThemeFontOther. Ottiene o imposta il font del tema usato per i caratteri con codici da 128 a 255 nello schema di caratteri applicato che è associato a questo oggetto Font in C++."
+type: docs
+weight: 53000
+url: /it/cpp/aspose.words/font/get_themefontother/
+---
+## Font::get_ThemeFontOther method
+
+
+Ottiene o imposta il font del tema usato per i caratteri con codici da 128 a 255 nello schema di caratteri applicato che è associato a questo oggetto [Font](../).
+
+```cpp
+Aspose::Words::Themes::ThemeFont Aspose::Words::Font::get_ThemeFontOther()
+```
+
+
+## Esempi
+
+
+
+Mostra come lavorare con i caratteri del tema e i colori.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Definisci i caratteri per le lingue usati per impostazione predefinita.
+doc->get_Theme()->get_MinorFonts()->set_Latin(u"Algerian");
+doc->get_Theme()->get_MinorFonts()->set_EastAsian(u"Aharoni");
+doc->get_Theme()->get_MinorFonts()->set_ComplexScript(u"Andalus");
+
+System::SharedPtr<Aspose::Words::Font> font = doc->get_Styles()->idx_get(u"Normal")->get_Font();
+std::cout << System::String::Format(u"Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font->get_ThemeColor(), font->get_Color()) << std::endl;
+
+// Possiamo usare il carattere del tema e il colore al posto dei valori predefiniti.
+font->set_ThemeFont(Aspose::Words::Themes::ThemeFont::Minor);
+font->set_ThemeColor(Aspose::Words::Themes::ThemeColor::Accent2);
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFont());
+ASSERT_EQ(u"Algerian", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Algerian", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontBi());
+ASSERT_EQ(u"Andalus", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::Minor, font->get_ThemeFontOther());
+ASSERT_EQ(u"Algerian", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::Accent2, font->get_ThemeColor());
+ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+
+// Esistono diversi modi per reimpostare il carattere e il colore.
+// 1 -  Impostando ThemeFont.None/ThemeColor.None:
+font->set_ThemeFont(Aspose::Words::Themes::ThemeFont::None);
+font->set_ThemeColor(Aspose::Words::Themes::ThemeColor::None);
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFont());
+ASSERT_EQ(u"Algerian", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Algerian", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontBi());
+ASSERT_EQ(u"Andalus", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontOther());
+ASSERT_EQ(u"Algerian", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::None, font->get_ThemeColor());
+ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+
+// 2 -  Impostando nomi di carattere/colore non tematici:
+font->set_Name(u"Arial");
+font->set_Color(System::Drawing::Color::get_Blue());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFont());
+ASSERT_EQ(u"Arial", font->get_Name());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontAscii());
+ASSERT_EQ(u"Arial", font->get_NameAscii());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontBi());
+ASSERT_EQ(u"Arial", font->get_NameBi());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontFarEast());
+ASSERT_EQ(u"Arial", font->get_NameFarEast());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeFont::None, font->get_ThemeFontOther());
+ASSERT_EQ(u"Arial", font->get_NameOther());
+
+ASSERT_EQ(Aspose::Words::Themes::ThemeColor::None, font->get_ThemeColor());
+ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
+```
+
+## Vedi anche
+
+* Enum [ThemeFont](../../../aspose.words.themes/themefont/)
+* Class [Font](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
