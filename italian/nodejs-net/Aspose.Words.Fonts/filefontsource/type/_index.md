@@ -1,0 +1,25 @@
+﻿---
+title: FileFontSource.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Node.js
+description: "FileFontSource.type property. Returns the type of the font source."
+type: docs
+weight: 40
+url: /it/nodejs-net/aspose.words.fonts/filefontsource/type/
+---
+
+## FileFontSource.type property
+
+Returns the type of the font source.
+
+
+```js
+get type(): Aspose.Words.Fonts.FontSourceType
+```
+
+### See Also
+
+* module [Aspose.Words.Fonts](../../)
+* class [FileFontSource](../)
+
