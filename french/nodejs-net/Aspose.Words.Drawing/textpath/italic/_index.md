@@ -1,0 +1,32 @@
+﻿---
+title: TextPath.italic property
+linktitle: italic property
+articleTitle: italic property
+second_title: Aspose.Words for Node.js
+description: "TextPath.italic property. True if the font is formatted as italic."
+type: docs
+weight: 50
+url: /fr/nodejs-net/aspose.words.drawing/textpath/italic/
+---
+
+## TextPath.italic property
+
+True if the font is formatted as italic.
+
+
+```js
+get italic(): boolean
+```
+
+### Remarks
+
+The default value is ``false``.
+
+
+
+
+### See Also
+
+* module [Aspose.Words.Drawing](../../)
+* class [TextPath](../)
+
