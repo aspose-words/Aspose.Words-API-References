@@ -1,0 +1,22 @@
+﻿---
+title: FieldBarcode constructor
+linktitle: FieldBarcode constructor
+articleTitle: FieldBarcode constructor
+second_title: Aspose.Words for Node.js
+description: "FieldBarcode constructor. "
+type: docs
+weight: 10
+url: /tr/nodejs-net/aspose.words.fields/fieldbarcode/constructor/
+---
+
+## FieldBarcode() {#default}
+
+```js
+FieldBarcode()
+```
+
+### See Also
+
+* module [Aspose.Words.Fields](../../)
+* class [FieldBarcode](../)
+
