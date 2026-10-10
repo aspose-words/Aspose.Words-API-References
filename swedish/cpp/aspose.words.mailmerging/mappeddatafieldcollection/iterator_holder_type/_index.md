@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::MailMerging::MappedDataFieldCollection::iterator_holder_type typedef"
+linktitle: "iterator_holder_type"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Hur man använder Aspose::Words::MailMerging::MappedDataFieldCollection::iterator_holder_type typedef för klassen Aspose::Words::MailMerging::MappedDataFieldCollection i C++."
+type: docs
+weight: 23000
+url: /sv/cpp/aspose.words.mailmerging/mappeddatafieldcollection/iterator_holder_type/
+---
+## iterator_holder_type typedef
+
+
+
+
+```cpp
+using Aspose::Words::MailMerging::MappedDataFieldCollection::iterator_holder_type =  System::Collections::Generic::Dictionary<System::String, System::String>
+```
+
+## Se även
+
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words for C++](../../../)

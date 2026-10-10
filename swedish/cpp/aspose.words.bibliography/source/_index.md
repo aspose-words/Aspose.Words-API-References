@@ -1,0 +1,234 @@
+---
+title: "Aspose::Words::Bibliography::Source klass"
+linktitle: "Källa"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Bibliography::Source klass. Representerar en enskild källa, såsom en bok, tidskriftsartikel eller intervju i C++."
+type: docs
+weight: 875
+url: /sv/cpp/aspose.words.bibliography/source/
+---
+## Source class
+
+
+Representerar en individuell källa, såsom en bok, tidskriftsartikel eller intervju.
+
+```cpp
+class Source : public System::Object
+```
+
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [get_AbbreviatedCaseNumber](./get_abbreviatedcasenumber/)() const | Hämtar eller anger det förkortade ärendenumret för en källa. |
+| [get_AlbumTitle](./get_albumtitle/)() const | Hämtar eller anger albumtiteln för en källa. |
+| [get_BookTitle](./get_booktitle/)() const | Hämtar eller anger boktitel för en källa. |
+| [get_Broadcaster](./get_broadcaster/)() const | Hämtar eller anger sändaren för en källa. |
+| [get_BroadcastTitle](./get_broadcasttitle/)() const | Hämtar eller anger sändningstiteln för en källa. |
+| [get_CaseNumber](./get_casenumber/)() const | Hämtar eller anger ärendenumret för en källa. |
+| [get_ChapterNumber](./get_chapternumber/)() const | Hämtar eller anger kapitelnumret för en källa. |
+| [get_City](./get_city/)() const | Hämtar eller anger staden för en källa. |
+| [get_Comments](./get_comments/)() const | Hämtar eller anger kommentarer för en källa. |
+| [get_ConferenceName](./get_conferencename/)() const | Hämtar eller anger konferens- eller proceedingsnamnet för en källa. |
+| [get_Contributors](./get_contributors/)() const | Hämtar bidragslistan (författare, redaktör, skribent etc.) för en källa. |
+| [get_CountryOrRegion](./get_countryorregion/)() const | Hämtar eller anger landet eller regionen för en källa. |
+| [get_Court](./get_court/)() const | Hämtar eller anger domstolen för en källa. |
+| [get_Day](./get_day/)() const | Hämtar eller anger dagen för en källa. |
+| [get_DayAccessed](./get_dayaccessed/)() const | Hämtar eller anger åtkomstdagen för en källa. |
+| [get_Department](./get_department/)() const | Hämtar eller anger avdelningen för en källa. |
+| [get_Distributor](./get_distributor/)() const | Hämtar eller anger distributören för en källa. |
+| [get_Doi](./get_doi/)() const | Hämtar eller anger det digitala objektidentifieraren för en källa. |
+| [get_Edition](./get_edition/)() const | Hämtar eller anger redaktören för en källa. |
+| [get_Guid](./get_guid/)() const | Hämtar eller anger GUID för en källa. |
+| [get_Institution](./get_institution/)() const | Hämtar eller anger institutionen för en källa. |
+| [get_InternetSiteTitle](./get_internetsitetitle/)() const | Hämtar eller anger webbplatsens titel för en källa. |
+| [get_Issue](./get_issue/)() const | Hämtar eller anger numret för en källa. |
+| [get_JournalName](./get_journalname/)() const | Hämtar eller anger tidskriftens namn för en källa. |
+| [get_Lcid](./get_lcid/)() const | Hämtar eller anger lokal-ID för en källa. |
+| [get_Medium](./get_medium/)() const | Hämtar eller anger mediet för en källa. |
+| [get_Month](./get_month/)() const | Hämtar eller anger månaden för en källa. |
+| [get_MonthAccessed](./get_monthaccessed/)() const | Hämtar eller anger åtkomstmånaden för en källa. |
+| [get_NumberVolumes](./get_numbervolumes/)() const | Hämtar eller anger antalet volymer för en källa. |
+| [get_Pages](./get_pages/)() const | Hämtar eller anger sidorna för en källa. |
+| [get_PatentNumber](./get_patentnumber/)() const | Hämtar eller anger patentnumret för en källa. |
+| [get_PeriodicalTitle](./get_periodicaltitle/)() const | Hämtar eller anger periodiktiteln för en källa. |
+| [get_ProductionCompany](./get_productioncompany/)() const | Hämtar eller anger produktionsbolaget för en källa. |
+| [get_PublicationTitle](./get_publicationtitle/)() const | Hämtar eller anger publikationstiteln för en källa. |
+| [get_Publisher](./get_publisher/)() const | Hämtar eller anger utgivaren för en källa. |
+| [get_RecordingNumber](./get_recordingnumber/)() const | Hämtar eller anger inspelningsnumret för en källa. |
+| [get_RefOrder](./get_reforder/)() const | Hämtar eller anger referensordningen för en källa. |
+| [get_Reporter](./get_reporter/)() const | Hämtar eller anger rapportören för en källa. |
+| [get_ShortTitle](./get_shorttitle/)() const | Hämtar eller anger kort titel för en källa. |
+| [get_SourceType](./get_sourcetype/)() const | Hämtar eller anger källtypen för en källa. |
+| [get_StandardNumber](./get_standardnumber/)() const | Hämtar eller anger standardnumret för en källa. |
+| [get_StateOrProvince](./get_stateorprovince/)() const | Hämtar eller anger staten eller provinsen för en källa. |
+| [get_Station](./get_station/)() const | Hämtar eller anger stationen för en källa. |
+| [get_Tag](./get_tag/)() const | Hämtar eller anger det identifierande taggnamnet för en källa. |
+| [get_Theater](./get_theater/)() const | Hämtar eller anger teatern för en källa. |
+| [get_ThesisType](./get_thesistype/)() const | Hämtar eller anger avhandlingstypen för en källa. |
+| [get_Title](./get_title/)() const | Hämtar eller anger titeln för en källa. |
+| [get_Type](./get_type/)() const | Hämtar eller anger typen för en källa. |
+| [get_Url](./get_url/)() const | Hämtar eller anger URL för en källa. |
+| [get_Version](./get_version/)() const | Hämtar eller anger versionen för en källa. |
+| [get_Volume](./get_volume/)() const | Hämtar eller anger volymen för en källa. |
+| [get_Year](./get_year/)() const | Hämtar eller anger året för en källa. |
+| [get_YearAccessed](./get_yearaccessed/)() const | Hämtar eller anger åtkomståret för en källa. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_AbbreviatedCaseNumber](./set_abbreviatedcasenumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber](./get_abbreviatedcasenumber/). |
+| [set_AlbumTitle](./set_albumtitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_AlbumTitle](./get_albumtitle/). |
+| [set_BookTitle](./set_booktitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_BookTitle](./get_booktitle/). |
+| [set_Broadcaster](./set_broadcaster/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Broadcaster](./get_broadcaster/). |
+| [set_BroadcastTitle](./set_broadcasttitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_BroadcastTitle](./get_broadcasttitle/). |
+| [set_CaseNumber](./set_casenumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_CaseNumber](./get_casenumber/). |
+| [set_ChapterNumber](./set_chapternumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_ChapterNumber](./get_chapternumber/). |
+| [set_City](./set_city/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_City](./get_city/). |
+| [set_Comments](./set_comments/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Comments](./get_comments/). |
+| [set_ConferenceName](./set_conferencename/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_ConferenceName](./get_conferencename/). |
+| [set_CountryOrRegion](./set_countryorregion/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_CountryOrRegion](./get_countryorregion/). |
+| [set_Court](./set_court/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Court](./get_court/). |
+| [set_Day](./set_day/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Day](./get_day/). |
+| [set_DayAccessed](./set_dayaccessed/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_DayAccessed](./get_dayaccessed/). |
+| [set_Department](./set_department/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Department](./get_department/). |
+| [set_Distributor](./set_distributor/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Distributor](./get_distributor/). |
+| [set_Doi](./set_doi/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Doi](./get_doi/). |
+| [set_Edition](./set_edition/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Edition](./get_edition/). |
+| [set_Guid](./set_guid/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Guid](./get_guid/). |
+| [set_Institution](./set_institution/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Institution](./get_institution/). |
+| [set_InternetSiteTitle](./set_internetsitetitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_InternetSiteTitle](./get_internetsitetitle/). |
+| [set_Issue](./set_issue/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Issue](./get_issue/). |
+| [set_JournalName](./set_journalname/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_JournalName](./get_journalname/). |
+| [set_Lcid](./set_lcid/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Lcid](./get_lcid/). |
+| [set_Medium](./set_medium/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Medium](./get_medium/). |
+| [set_Month](./set_month/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Month](./get_month/). |
+| [set_MonthAccessed](./set_monthaccessed/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_MonthAccessed](./get_monthaccessed/). |
+| [set_NumberVolumes](./set_numbervolumes/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_NumberVolumes](./get_numbervolumes/). |
+| [set_Pages](./set_pages/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Pages](./get_pages/). |
+| [set_PatentNumber](./set_patentnumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_PatentNumber](./get_patentnumber/). |
+| [set_PeriodicalTitle](./set_periodicaltitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_PeriodicalTitle](./get_periodicaltitle/). |
+| [set_ProductionCompany](./set_productioncompany/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_ProductionCompany](./get_productioncompany/). |
+| [set_PublicationTitle](./set_publicationtitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_PublicationTitle](./get_publicationtitle/). |
+| [set_Publisher](./set_publisher/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Publisher](./get_publisher/). |
+| [set_RecordingNumber](./set_recordingnumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_RecordingNumber](./get_recordingnumber/). |
+| [set_RefOrder](./set_reforder/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_RefOrder](./get_reforder/). |
+| [set_Reporter](./set_reporter/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Reporter](./get_reporter/). |
+| [set_ShortTitle](./set_shorttitle/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_ShortTitle](./get_shorttitle/). |
+| [set_SourceType](./set_sourcetype/)(Aspose::Words::Bibliography::SourceType) | Sättare för [Aspose::Words::Bibliography::Source::get_SourceType](./get_sourcetype/). |
+| [set_StandardNumber](./set_standardnumber/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_StandardNumber](./get_standardnumber/). |
+| [set_StateOrProvince](./set_stateorprovince/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_StateOrProvince](./get_stateorprovince/). |
+| [set_Station](./set_station/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Station](./get_station/). |
+| [set_Tag](./set_tag/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Tag](./get_tag/). |
+| [set_Theater](./set_theater/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Theater](./get_theater/). |
+| [set_ThesisType](./set_thesistype/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_ThesisType](./get_thesistype/). |
+| [set_Title](./set_title/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Title](./get_title/). |
+| [set_Type](./set_type/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Type](./get_type/). |
+| [set_Url](./set_url/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Url](./get_url/). |
+| [set_Version](./set_version/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Version](./get_version/). |
+| [set_Volume](./set_volume/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Volume](./get_volume/). |
+| [set_Year](./set_year/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_Year](./get_year/). |
+| [set_YearAccessed](./set_yearaccessed/)(const System::String\&) | Sättare för [Aspose::Words::Bibliography::Source::get_YearAccessed](./get_yearaccessed/). |
+| [Source](./source/)(const System::String\&, Aspose::Words::Bibliography::SourceType) | Initiera en ny instans av klassen [Source](./). |
+| static [Type](./type/)() |  |
+
+## Exempel
+
+
+
+Visar hur man hämtar bibliografikällor som finns i dokumentet.
+```cpp
+auto document = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bibliography sources.docx");
+
+System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
+ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
+
+// Hämta standarddata från bibliografikällor.
+System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
+ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
+ASSERT_EQ(Aspose::Words::Bibliography::SourceType::Book, source->get_SourceType());
+ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
+ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_BookTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Broadcaster()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_BroadcastTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_CaseNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ChapterNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Comments()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ConferenceName()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_CountryOrRegion()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Court()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Day()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_DayAccessed()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Department()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Distributor()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Doi()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Edition()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Guid()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Institution()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_InternetSiteTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Issue()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_JournalName()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Lcid()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Medium()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Month()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_MonthAccessed()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_NumberVolumes()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Pages()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PatentNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PeriodicalTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ProductionCompany()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_PublicationTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Publisher()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_RecordingNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_RefOrder()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Reporter()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ShortTitle()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_StandardNumber()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_StateOrProvince()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Station()));
+ASSERT_EQ(u"BookNoLCID", source->get_Tag());
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Theater()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_ThesisType()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Type()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Url()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Version()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Volume()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_Year()));
+ASSERT_TRUE(System::TestTools::IsNull(source->get_YearAccessed()));
+
+// Du kan också skapa en ny källa.
+auto newSource = System::MakeObject<Aspose::Words::Bibliography::Source>(u"New source", Aspose::Words::Bibliography::SourceType::Misc);
+
+System::SharedPtr<Aspose::Words::Bibliography::ContributorCollection> contributors = source->get_Contributors();
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Artist()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_BookAuthor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Compiler()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Composer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Conductor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Counsel()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Director()));
+ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Editor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Interviewee()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Interviewer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Inventor()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Performer()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Producer()));
+ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Translator()));
+ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Writer()));
+
+System::SharedPtr<Aspose::Words::Bibliography::Contributor> editor = contributors->get_Editor();
+ASSERT_EQ(2, (System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count());
+
+auto authors = System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(contributors->get_Author());
+ASSERT_EQ(2, authors->LINQ_Count());
+
+System::SharedPtr<Aspose::Words::Bibliography::Person> person = authors->idx_get(0);
+ASSERT_EQ(u"Roxanne", person->get_First());
+ASSERT_EQ(u"Brielle", person->get_Middle());
+ASSERT_EQ(u"Tejeda", person->get_Last());
+```
+
+## Se även
+
+* Namespace [Aspose::Words::Bibliography](../)
+* Library [Aspose.Words for C++](../../)

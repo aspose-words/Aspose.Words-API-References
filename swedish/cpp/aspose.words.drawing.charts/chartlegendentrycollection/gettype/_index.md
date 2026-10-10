@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::GetType metod"
+linktitle: "GetType"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Hur man använder GetType‑metoden för klassen Aspose::Words::Drawing::Charts::ChartLegendEntryCollection i C++."
+type: docs
+weight: 4000
+url: /sv/cpp/aspose.words.drawing.charts/chartlegendentrycollection/gettype/
+---
+## ChartLegendEntryCollection::GetType method
+
+
+
+
+```cpp
+virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::GetType() const override
+```
+
+## Se även
+
+* Class [ChartLegendEntryCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Vba::VbaModuleCollection::virtualizeBeginIterator‑metoden"
+linktitle: "virtualizeBeginIterator"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Hur man använder virtualizeBeginIterator‑metoden i klassen Aspose::Words::Vba::VbaModuleCollection i C++."
+type: docs
+weight: 13000
+url: /sv/cpp/aspose.words.vba/vbamodulecollection/virtualizebeginiterator/
+---
+## VbaModuleCollection::virtualizeBeginIterator method
+
+
+
+
+```cpp
+virtualized_iterator * Aspose::Words::Vba::VbaModuleCollection::virtualizeBeginIterator() override
+```
+
+## Se även
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words for C++](../../../)

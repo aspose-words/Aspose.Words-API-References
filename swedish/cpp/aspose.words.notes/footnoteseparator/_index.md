@@ -1,0 +1,104 @@
+---
+title: "Aspose::Words::Notes::FootnoteSeparator class"
+linktitle: "FootnoteSeparator"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Notes::FootnoteSeparator class. Representerar en behållare för fotnot-/slutnotseparatorn och fortsättningsinnehållet i ett dokument i C++."
+type: docs
+weight: 3334
+url: /sv/cpp/aspose.words.notes/footnoteseparator/
+---
+## FootnoteSeparator class
+
+
+Representerar en behållare för fotnot-/slutnotseparatorn och fortsättningsinnehållet i ett dokument.
+
+```cpp
+class FootnoteSeparator : public Aspose::Words::Story
+```
+
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepterar en besökare. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | När den implementeras i en avledd klass, anropar den VisitXXXEnd-metoden hos den angivna dokumentbesökaren. |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | När den implementeras i en avledd klass, anropar den VisitXXXStart-metoden hos den angivna dokumentbesökaren. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
+| [AppendParagraph](../../aspose.words/story/appendparagraph/)(const System::String\&) | En genvägsmetod som skapar ett [Paragraph](../../aspose.words/paragraph/) objekt med valfri text och lägger till det i slutet av detta objekt. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en kopia av noden. |
+| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Raderar alla former från texten i den här berättelsen. |
+| [get_Count](../../aspose.words/compositenode/get_count/)() | Hämtar antalet omedelbara barn till denna nod. |
+| [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Anger en anpassad nodidentifierare. |
+| virtual [get_Document](../../aspose.words/node/get_document/)() const | Hämtar dokumentet som denna nod tillhör. |
+| [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Hämtar det första barnet till noden. |
+| [get_FirstParagraph](../../aspose.words/story/get_firstparagraph/)() override | Hämtar det första stycket i berättelsen. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returnerar **true** om denna nod har några barnnoder. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returnerar **true** eftersom denna nod kan ha barnnoder. |
+| [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Hämtar det sista barnet till noden. |
+| [get_LastParagraph](../../aspose.words/story/get_lastparagraph/)() override | Hämtar det sista stycket i berättelsen. |
+| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
+| [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Hämtar noden som omedelbart följer denna nod. |
+| [get_NodeType](./get_nodetype/)() const override | Hämtar typen av denna nod. |
+| [get_Paragraphs](../../aspose.words/story/get_paragraphs/)() override | Hämtar en samling stycken som är omedelbara barn till berättelsen. |
+| [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Hämtar den omedelbara föräldern till den här noden. |
+| [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Hämtar noden som omedelbart föregår den här noden. |
+| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
+| [get_Range](../../aspose.words/node/get_range/)() | Returnerar ett [Range](../../aspose.words/range/)‑objekt som representerar den del av ett dokument som finns i den här noden. |
+| [get_SeparatorType](./get_separatortype/)() const |  |
+| [get_StoryType](../../aspose.words/story/get_storytype/)() override | Hämtar typen av den här storyn. |
+| [get_Tables](../../aspose.words/story/get_tables/)() override | Hämtar en samling tabeller som är omedelbara barn till storyn. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Hämtar den första förfadern av den angivna [NodeType](../../aspose.words/nodetype/). |
+| [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
+| [GetChild](../../aspose.words/compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returnerar en N‑te barnnod som matchar den angivna typen. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returnerar en dynamisk samling av barnnoder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Tillhandahåller stöd för foreach‑stiliteration över barnnoderna i den här noden. |
+| [GetText](../../aspose.words/compositenode/gettext/)() override | Hämtar texten för den här noden och alla dess barn. |
+| [GetType](./gettype/)() const override |  |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returnerar indexet för den angivna barnnoden i barnnodarrayen. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Hämtar nästa nod enligt pre‑order‑trädtraverseringsalgoritmen. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | En hjälpfunktion som konverterar ett nodtyp‑enumvärde till en användarvänlig sträng. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Hämtar föregående nod enligt pre‑order‑trädtraverseringsalgoritmen. |
+| [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla barnnoder för den aktuella noden. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla [SmartTag](../../aspose.words.markup/smarttag/)‑nedärvda noder för den aktuella noden. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Väljer en lista med noder som matchar XPath‑uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Väljer den första [Node](../../aspose.words/node/) som matchar XPath‑uttrycket. |
+| [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Sättare för [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
+| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetTemplateWeakPtr](../../aspose.words/compositenode/settemplateweakptr/)(uint32_t) override |  |
+| [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exporterar innehållet i noden till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| static [Type](./type/)() |  |
+## Anmärkningar
+
+
+[FootnoteSeparator](./) can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
+
+Det kan bara finnas en [FootnoteSeparator](./) av varje [FootnoteSeparatorType](../footnoteseparatortype/) i ett dokument.
+
+## Exempel
+
+
+
+Visar hur man hanterar formatet för fotnotsavgränsare.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::FootnoteSeparator);
+// Justera fotnotsavgränsare.
+footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+```
+
+## Se även
+
+* Class [Story](../../aspose.words/story/)
+* Namespace [Aspose::Words::Notes](../)
+* Library [Aspose.Words for C++](../../)

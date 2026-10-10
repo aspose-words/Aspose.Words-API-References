@@ -1,0 +1,57 @@
+---
+title: "Aspose::Words::Drawing::OleFormat::get_SuggestedExtension method"
+linktitle: "get_SuggestedExtension"
+second_title: "Aspose.Words för C++ API‑referens"
+description: "Aspose::Words::Drawing::OleFormat::get_SuggestedExtension metod. Hämtar den filändelse som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil i C++."
+type: docs
+weight: 13000
+url: /sv/cpp/aspose.words.drawing/oleformat/get_suggestedextension/
+---
+## OleFormat::get_SuggestedExtension method
+
+
+Hämtar filändelsen som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil.
+
+```cpp
+System::String Aspose::Words::Drawing::OleFormat::get_SuggestedExtension()
+```
+
+
+## Exempel
+
+
+
+Visar hur man extraherar inbäddade OLE-objekt till filer.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE spreadsheet.docm");
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+
+// OLE-objektet i den första formen är ett Microsoft Excel-kalkylblad.
+System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
+
+ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
+
+// Vårt objekt uppdateras varken automatiskt eller är låst för uppdateringar.
+ASSERT_FALSE(oleFormat->get_AutoUpdate());
+ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLocked());
+
+// Om vi planerar att spara OLE-objektet till en fil i det lokala filsystemet,
+// kan vi använda egenskapen "SuggestedExtension" för att bestämma vilken filändelse som ska tillämpas på filen.
+ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
+
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 -  Spara det via en ström:
+{
+    auto fs = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"OLE spreadsheet extracted via stream" + oleFormat->get_SuggestedExtension(), System::IO::FileMode::Create);
+    oleFormat->Save(fs);
+}
+
+// 2 -  Spara det direkt till ett filnamn:
+oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
+```
+
+## Se även
+
+* Class [OleFormat](../)
+* Namespace [Aspose::Words::Drawing](../../)
+* Library [Aspose.Words for C++](../../../)
