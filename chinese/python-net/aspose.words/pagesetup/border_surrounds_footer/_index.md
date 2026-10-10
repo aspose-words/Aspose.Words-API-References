@@ -1,0 +1,63 @@
+﻿---
+title: PageSetup.border_surrounds_footer property
+linktitle: border_surrounds_footer property
+articleTitle: border_surrounds_footer property
+second_title: Aspose.Words for Python
+description: "PageSetup.border_surrounds_footer property. Specifies whether the page border includes or excludes the footer."
+type: docs
+weight: 50
+url: /zh/python-net/aspose.words/pagesetup/border_surrounds_footer/
+---
+
+## PageSetup.border_surrounds_footer property
+
+Specifies whether the page border includes or excludes the footer.
+
+
+```python
+@property
+def border_surrounds_footer(self) -> bool:
+    ...
+
+@border_surrounds_footer.setter
+def border_surrounds_footer(self, value: bool):
+    ...
+
+```
+
+### Remarks
+
+Note, changing this property affects all sections in the document.
+
+
+### Examples
+
+Shows how to apply a border to the page and header/footer.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.writeln('Hello world! This is the main body text.')
+builder.move_to_header_footer(aw.HeaderFooterType.HEADER_PRIMARY)
+builder.write('This is the header.')
+builder.move_to_header_footer(aw.HeaderFooterType.FOOTER_PRIMARY)
+builder.write('This is the footer.')
+builder.move_to_document_end()
+# 插入蓝色双线边框。
+page_setup = doc.sections[0].page_setup
+page_setup.borders.line_style = aw.LineStyle.DOUBLE
+page_setup.borders.color = aspose.pydrawing.Color.blue
+# 节的 PageSetup 对象具有 "BorderSurroundsHeader" 和 "BorderSurroundsFooter" 标志，用于确定
+# 页面边框是否环绕正文文本，分别还包括页眉或页脚。
+# 将 "BorderSurroundsHeader" 标志设置为 "true"，以用边框环绕页眉，
+# 然后将 "BorderSurroundsFooter" 标志设置为，使页脚位于边框之外。
+page_setup.border_surrounds_header = True
+page_setup.border_surrounds_footer = False
+doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.PageBorder.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [PageSetup](../)
+

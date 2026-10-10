@@ -1,0 +1,100 @@
+﻿---
+title: FontSubstitutionSettings class
+linktitle: FontSubstitutionSettings class
+articleTitle: FontSubstitutionSettings class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings"
+type: docs
+weight: 200
+url: /zh/python-net/aspose.words.fonts/fontsubstitutionsettings/
+---
+
+## FontSubstitutionSettings class
+
+Specifies font substitution mechanism settings.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/python-net/working-with-fonts/) documentation article.
+
+
+
+
+### Remarks
+
+Font substitution process consists of several rules which are checked one by one in specific order.
+If the first rule can't resolve the font then second rule is checked and so on.
+
+The order of the rules is following:
+1. Font name substitution rule (enabled by default)
+2. Font config substitution rule (disabled by default)
+3. Table substitution rule (enabled by default)
+4. Font info substitution rule (enabled by default)
+5. Default font rule (enabled by default)
+
+Note that font info substitution rule will always resolve the font if [FontInfo](../fontinfo/) is available
+and will override the default font rule. If you want to use the default font rule then you should disable the
+font info substitution rule.
+
+
+Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules.
+
+
+
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [default_font_substitution](./default_font_substitution/) | Settings related to default font substitution rule. |
+| [font_config_substitution](./font_config_substitution/) | Settings related to font config substitution rule. |
+| [font_info_substitution](./font_info_substitution/) | Settings related to font info substitution rule. |
+| [font_name_substitution](./font_name_substitution/) | Settings related to font name substitution rule. |
+| [table_substitution](./table_substitution/) | Settings related to table substitution rule. |
+
+### Examples
+
+Shows how to access a document's system font source and set font substitutes.
+
+```python
+import platform
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+
+class TestFontSubstitution(ApiExampleBase):
+
+    def test_font_substitution(self):
+        doc = aw.Document()
+        doc.font_settings = aw.fonts.FontSettings()
+        # 默认情况下，空白文档始终包含系统字体源。
+        self.assertEqual(1, len(doc.font_settings.get_fonts_sources()))
+        system_font_source = doc.font_settings.get_fonts_sources()[0].as_system_font_source()
+        self.assertEqual(aw.fonts.FontSourceType.SYSTEM_FONTS, system_font_source.type)
+        self.assertEqual(0, system_font_source.priority)
+        is_windows = platform.system() == 'Windows'
+        if is_windows:
+            fonts_path = 'C:\\WINDOWS\\Fonts'
+            actual = None
+            cond_expression = next(iter(aw.fonts.SystemFontSource.get_system_font_folders()), None)
+            if cond_expression is not None:
+                actual = cond_expression.lower()
+            self.assertEqual(fonts_path.lower(), actual)
+        for system_font_folder in aw.fonts.SystemFontSource.get_system_font_folders():
+            print(system_font_folder)
+        # 将 Windows 字体目录中存在的字体设置为不存在的字体的替代品。
+        doc.font_settings.substitution_settings.font_info_substitution.enabled = True
+        doc.font_settings.substitution_settings.table_substitution.add_substitutes('Kreon-Regular', ['Calibri'])
+        self.assertEqual(1, len(doc.font_settings.substitution_settings.table_substitution.get_substitutes('Kreon-Regular')))
+        self.assertIn('Calibri', doc.font_settings.substitution_settings.table_substitution.get_substitutes('Kreon-Regular'))
+        # 或者，我们可以添加一个文件夹字体源，其中相应的文件夹包含该字体。
+        folder_font_source = aw.fonts.FolderFontSource(folder_path=FONTS_DIR, scan_subfolders=False)
+        doc.font_settings.set_fonts_sources(sources=[system_font_source, folder_font_source])
+        self.assertEqual(2, len(doc.font_settings.get_fonts_sources()))
+        # 重置字体源后，仍然保留系统字体源以及我们的替代字体。
+        doc.font_settings.reset_font_sources()
+        self.assertEqual(1, len(doc.font_settings.get_fonts_sources()))
+        self.assertEqual(aw.fonts.FontSourceType.SYSTEM_FONTS, doc.font_settings.get_fonts_sources()[0].type)
+        self.assertEqual(1, len(doc.font_settings.substitution_settings.table_substitution.get_substitutes('Kreon-Regular')))
+        self.assertTrue(doc.font_settings.substitution_settings.font_name_substitution.enabled)
+```
+
+### See Also
+
+* module [aspose.words.fonts](../)
+

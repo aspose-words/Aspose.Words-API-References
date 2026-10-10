@@ -1,0 +1,46 @@
+﻿---
+title: Fill.pattern property
+linktitle: pattern property
+articleTitle: pattern property
+second_title: Aspose.Words for Python
+description: "Fill.pattern property. Gets a [PatternType](../../patterntype/) for the fill."
+type: docs
+weight: 160
+url: /zh/python-net/aspose.words.drawing/fill/pattern/
+---
+
+## Fill.pattern property
+
+Gets a [PatternType](../../patterntype/) for the fill.
+
+
+
+```python
+@property
+def pattern(self) -> aspose.words.drawing.PatternType:
+    ...
+
+```
+
+### Examples
+
+Shows how to set pattern for a shape.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Shape stroke pattern border.docx')
+shape = doc.get_child(aw.NodeType.SHAPE, 0, True).as_shape()
+fill = shape.fill
+print('Pattern value is: {0}'.format(fill.pattern))
+# 有几种方式可以将填充指定为图案。
+# 1 - 将图案应用于形状填充：
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK)
+# 2 - 将带有前景色和背景色的图案应用于形状填充：
+fill.patterned(pattern_type=aw.drawing.PatternType.DIAGONAL_BRICK, fore_color=aspose.pydrawing.Color.aqua, back_color=aspose.pydrawing.Color.bisque)
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.FillPattern.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing](../../)
+* class [Fill](../)
+

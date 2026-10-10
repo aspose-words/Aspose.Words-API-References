@@ -1,0 +1,52 @@
+﻿---
+title: ShapeBase.fill property
+linktitle: fill property
+articleTitle: fill property
+second_title: Aspose.Words for Python
+description: "ShapeBase.fill property. Gets fill formatting for the shape."
+type: docs
+weight: 170
+url: /zh/python-net/aspose.words.drawing/shapebase/fill/
+---
+
+## ShapeBase.fill property
+
+Gets fill formatting for the shape.
+
+
+```python
+@property
+def fill(self) -> aspose.words.drawing.Fill:
+    ...
+
+```
+
+### Examples
+
+Shows how to fill a shape with a solid color.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# 写一些文字，然后用漂浮形状覆盖它。
+builder.font.size = 32
+builder.writeln('Hello world!')
+shape = builder.insert_shape(shape_type=aw.drawing.ShapeType.CLOUD_CALLOUT, horz_pos=aw.drawing.RelativeHorizontalPosition.LEFT_MARGIN, left=25, vert_pos=aw.drawing.RelativeVerticalPosition.TOP_MARGIN, top=25, width=250, height=150, wrap_type=aw.drawing.WrapType.NONE)
+# 使用 "StrokeColor" 属性设置形状轮廓的颜色。
+shape.stroke_color = aspose.pydrawing.Color.cadet_blue
+# 使用 "FillColor" 属性设置形状内部区域的颜色。
+shape.fill_color = aspose.pydrawing.Color.light_blue
+# "Opacity" 属性决定颜色在 0-1 量表上的透明度，
+# 其中 1 表示完全不透明，0 表示完全透明。
+# 默认情况下，形状填充是完全不透明的，因此我们看不到该形状上方的文字。
+self.assertEqual(1, shape.fill.opacity)
+# 将形状填充颜色的透明度设为较低的值，以便我们能看到其下方的文字。
+shape.fill.opacity = 0.3
+doc.save(file_name=ARTIFACTS_DIR + 'Shape.Fill.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing](../../)
+* class [ShapeBase](../)
+
