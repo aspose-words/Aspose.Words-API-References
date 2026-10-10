@@ -1,0 +1,85 @@
+﻿---
+title: HtmlFixedSaveOptions.resources_folder property
+linktitle: resources_folder property
+articleTitle: resources_folder property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.resources_folder property. Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format"
+type: docs
+weight: 160
+url: /it/python-net/aspose.words.saving/htmlfixedsaveoptions/resources_folder/
+---
+
+## HtmlFixedSaveOptions.resources_folder property
+
+Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format.
+Default is ``None``.
+
+
+
+```python
+@property
+def resources_folder(self) -> str:
+    ...
+
+@resources_folder.setter
+def resources_folder(self, value: str):
+    ...
+
+```
+
+### Remarks
+
+Has effect only if [HtmlFixedSaveOptions.export_embedded_images](../export_embedded_images/) property is ``False``.
+
+When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all
+images embedded in the document as standalone files. [HtmlFixedSaveOptions.resources_folder](./)
+allows you to specify where the images will be saved and [HtmlFixedSaveOptions.resources_folder_alias](../resources_folder_alias/)
+allows to specify how the image URIs will be constructed.
+
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the
+images in the same folder where the document file is saved. Use [HtmlFixedSaveOptions.resources_folder](./)
+to override this behavior.
+
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images,
+but still needs to save the images somewhere. In this case, you need to specify an accessible folder
+by using the [HtmlFixedSaveOptions.resources_folder](./) property
+
+
+
+
+### Examples
+
+Shows how to use a callback to print the URIs of external resources created while converting a document to HTML (ResourceUriPrinter).
+
+```python
+class ResourceUriPrinter(aw.saving.IResourceSavingCallback):
+
+    def __init__(self):
+        self.m_saved_resource_count = None
+        self.m_text = []
+
+    def resource_saving(self, args):
+        # Se impostiamo un alias di cartella nell'oggetto SaveOptions, potremo stamparlo da qui.
+        self.m_saved_resource_count += 1
+        self.m_text.append(f'Resource #{self.m_saved_resource_count} "{args.resource_file_name}"')
+        extension = Path(args.resource_file_name).suffix
+        if extension in ('.ttf', '.woff'):
+            # Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+            # Per evitare problemi su altre piattaforme devi specificare esplicitamente il percorso per i font.
+            args.resource_file_uri = str(Path(ARTIFACTS_DIR) / args.resource_file_name)
+        self.m_text.append('\t' + args.resource_file_uri + '\n')
+        # Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
+        # dovremo anche reindirizzare ogni stream per inserire la sua risorsa in quella cartella.
+        args.resource_stream = system_helper.io.FileStream(args.resource_file_uri, system_helper.io.FileMode.CREATE)
+        args.keep_resource_stream_open = False
+
+    def get_text(self):
+        return str.join('', self.m_text)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [HtmlFixedSaveOptions](../)
+* property [HtmlFixedSaveOptions.resources_folder_alias](../resources_folder_alias/)
+

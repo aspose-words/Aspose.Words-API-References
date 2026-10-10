@@ -1,0 +1,27 @@
+﻿---
+title: Field.as_field_next_if method
+linktitle: as_field_next_if method
+articleTitle: as_field_next_if method
+second_title: Aspose.Words for Python
+description: "Field.as_field_next_if method. Cast Field to [FieldNextIf](../../fieldnextif/)."
+type: docs
+weight: 690
+url: /it/python-net/aspose.words.fields/field/as_field_next_if/
+---
+
+## as_field_next_if() {#default}
+
+Cast Field to [FieldNextIf](../../fieldnextif/).
+
+
+
+```python
+def as_field_next_if(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+
