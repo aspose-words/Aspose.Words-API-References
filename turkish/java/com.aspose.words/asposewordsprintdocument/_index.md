@@ -1,0 +1,518 @@
+---
+title: "AsposeWordsPrintDocument"
+linktitle: "AsposeWordsPrintDocument"
+second_title: "Aspose.Words Java için"
+description: "Java yazdırma çerçevesi içinde bir Document'in yazdırılması için varsayılan bir uygulama sağlar."
+type: docs
+weight: 20
+url: /tr/java/com.aspose.words/asposewordsprintdocument/
+---
+
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+java.awt.print.Pageable, java.awt.print.Printable
+```
+public class AsposeWordsPrintDocument implements Pageable, Printable
+```
+
+Java yazdırma çerçevesi içinde bir [Document](../../com.aspose.words/document/) yazdırması için varsayılan bir uygulama sağlar.
+
+Daha fazla bilgi için, [ Printing a Document Programmatically or Using Dialogs ][Printing a Document Programmatically or Using Dialogs] dokümantasyon makalesini ziyaret edin.
+
+ **Remarks:** 
+
+[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) overrides both **java.awt.print.Printable** and **java.awt.print.Pageable**.
+
+Tek bir Aspose.Words belgesi, farklı boyutlarda, yönelimde ve kağıt tepsilerinde sayfalar belirten birden çok bölümden oluşabilir. [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) **java.awt.print.Pageable** olarak kullanılmalı, böylece farklı kağıt boyutu, yönelim vb. her biri doğru şekilde yazdırılabilir.
+
+Öte yandan, belge yalnızca tek bir bölümden oluşuyorsa, geliştirici yazdırma performansını artırmak için [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) **java.awt.print.Printable** olarak kullanabilir.
+
+ **Examples:** 
+
+Yazdırma ilerlemesini nasıl izleneceğini gösterir.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a special Aspose.Words implementation of the Java PrintDocument class
+ AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+ // In Java, printer settings are handled through PrinterJob.
+ PrinterJob printerJob = PrinterJob.getPrinterJob();
+ printerJob.setPrintable(printDoc);
+
+ // Initialize the custom printing tracker.
+ PrintTracker printTracker = new PrintTracker(printDoc);
+
+ printerJob.print();
+
+ // Write the event log.
+ for (String eventString : printTracker.getEventLog()) {
+     System.out.println(eventString);
+ }
+ 
+```
+
+Yazdırma ilerlemesini izlemek için örnek bir sınıf gösterir.
+
+```
+{@code
+ /// 
+ /// Tracks printing progress of an Aspose.Words document and logs printing events.
+ /// 
+ /**
+ Tracks printing progress of an Aspose.Words document and logs printing events.
+ Note: Java version doesn't have the same event system as .NET, so this implementation
+ wraps the AsposeWordsPrintDocument to provide similar functionality.
+ /
+ class PrintTracker implements Printable {
+     private final AsposeWordsPrintDocument printDocument;
+     private int printingPage = -1;
+     private int totalPages = 0;
+     private final List eventLog = new ArrayList<>();
+     private boolean isPrinting = false;
+
+     /**
+ Initializes a new instance of the PrintTracker class
+ and wraps the specified Aspose.Words print document.
+```
+
+
+[Printing a Document Programmatically or Using Dialogs]: https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/
+## Yapıcılar
+
+| Yapıcı | Açıklama |
+| --- | --- |
+| [AsposeWordsPrintDocument(Document document)](#AsposeWordsPrintDocument-com.aspose.words.Document) | Bu sınıfın yeni bir örneğini başlatır. |
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [getColorMode()](#getColorMode) | Cihaz renkli yazdırmayı destekliyorsa, renksiz sayfaların nasıl yazdırıldığını alır. |
+| [getColorPagesPrinted()](#getColorPagesPrinted) | Renkli olarak yazdırılan sayfa sayısını alır (yani |
+| [getNumberOfPages()](#getNumberOfPages) |  |
+| [getPageFormat(int pageIndex)](#getPageFormat-int) |  |
+| [getPageIndexFilter()](#getPageIndexFilter) | Yazdırma sırasında atlanacak sayfaları belirlemek için kullanılan sıfır tabanlı indeks filtresini alır. |
+| [getPagesRemaining()](#getPagesRemaining) | Şu anda aktif olan yazdırma işinde kalan sayfa sayısını alır. |
+| [getPrintable(int pageIndex)](#getPrintable-int) |  |
+| [getTotalPagesPrinted()](#getTotalPagesPrinted) | Yazdırma oturumu sırasında gerçekte yazdırılan toplam sayfa sayısını alır. |
+| [print(Graphics graphics, PageFormat pageFormat, int pageIndex)](#print-java.awt.Graphics-java.awt.print.PageFormat-int) |  |
+| [setColorMode(int value)](#setColorMode-int) | Cihaz renkli baskıyı destekliyorsa, renksiz sayfaların nasıl yazdırılacağını ayarlar. |
+| [setPageIndexFilter(IIndexFilter value)](#setPageIndexFilter-com.aspose.words.IIndexFilter) | Yazdırma sırasında atlanacak sayfaları belirlemek için kullanılan sıfır tabanlı indeks filtresini ayarlar. |
+### AsposeWordsPrintDocument(Document document) {#AsposeWordsPrintDocument-com.aspose.words.Document}
+```
+public AsposeWordsPrintDocument(Document document)
+```
+
+
+Bu sınıfın yeni bir örneğini başlatır.
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| document | [Document](../../com.aspose.words/document/) | Yazdırılacak belge. |
+
+### getColorMode() {#getColorMode}
+```
+public int getColorMode()
+```
+
+
+Cihaz renkli yazdırmayı destekliyorsa, renksiz sayfaların nasıl yazdırıldığını alır.
+
+ **Remarks:** 
+
+Kitapçık baskısını etkilemez.
+
+**Returns:**
+int - Cihaz renkli baskıyı destekliyorsa, renksiz sayfaların nasıl yazdırılacağını belirtir. Döndürülen değer, [ColorPrintMode](../../com.aspose.words/colorprintmode/) sabitlerinden biridir.
+### getColorPagesPrinted() {#getColorPagesPrinted}
+```
+public int getColorPagesPrinted()
+```
+
+
+Renkli olarak yazdırılan sayfa sayısını alır (ör. PageSettings\#getColor().getColor() / PageSettings\#setColor(boolean).setColor(boolean) true olarak ayarlandığında).
+
+**Returns:**
+int - Renkli olarak yazdırılan sayfa sayısı (ör.
+### getNumberOfPages() {#getNumberOfPages}
+```
+public int getNumberOfPages()
+```
+
+
+
+
+**Returns:**
+int
+### getPageFormat(int pageIndex) {#getPageFormat-int}
+```
+public PageFormat getPageFormat(int pageIndex)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| pageIndex | int |  |
+
+**Returns:**
+java.awt.print.PageFormat
+### getPageIndexFilter() {#getPageIndexFilter}
+```
+public IIndexFilter getPageIndexFilter()
+```
+
+
+Yazdırma sırasında atlanacak sayfaları belirlemek için kullanılan sıfır tabanlı indeks filtresini alır.
+
+ **Remarks:** 
+
+Lütfen bazı sayfalar atlanırsa, yazdırılacak gerçek toplam sayfa sayısının yazdırma işlemi tamamlanana kadar bilinmeyeceğini unutmayın. Bu durum, başlangıçta beklenen sayfa sayısı gerçek yazdırılan sayfadan fazla ise, yazdırma süreci takibini etkileyebilir.
+
+ **Examples:** 
+
+Sayfa numarası listesi kullanarak sayfaların nasıl filtreleneceğini gösterir.
+
+```
+{@code
+ public void pageIndexFilter() throws Exception
+ {
+     Document doc = new Document("Rendering.docx");
+
+     // Configure printer settings and create print document.
+     PrinterJob printerJob = PrinterJob.getPrinterJob();
+     printerJob.setPrintService(printerJob.getPrintService());
+
+     // Create Aspose.Words print document.
+     AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+     // Set the printer name.
+     PrintService[] printServices = PrinterJob.lookupPrintServices();
+     for (PrintService service : printServices) {
+         if (service.getName().equalsIgnoreCase("Microsoft Print to PDF")) {
+             printerJob.setPrintService(service);
+             break;
+         }
+     }
+
+     // The test document has 5 pages. To skip pages 2, 4, and 5,
+     // specify the zero-based indices of pages to exclude.
+     HashSet pagesToSkip = new HashSet<>(Arrays.asList(1, 3, 4));
+
+     // Apply the page filter to skip specified pages.
+     printDoc.setPageIndexFilter(new PrintPagesFilter(pagesToSkip));
+
+     // Initialize custom printing tracker (optional).
+     PrintTracker printTracker = new PrintTracker(printDoc);
+
+     // Print the document (only pages 1 and 3 will be printed).
+     printerJob.setPrintable(printDoc);
+     printerJob.print();
+ }
+
+ /// 
+ /// Filter for skipping specified pages during printing.
+ /// 
+ public final class PrintPagesFilter implements IIndexFilter {
+     private final HashSet pagesToSkip;
+
+     /// 
+     /// Initializes a new instance of the  class.
+     /// 
+     /// The collection of page indices to skip.
+     public PrintPagesFilter(HashSet pagesToSkip) {
+         if (pagesToSkip == null)
+             throw new IllegalArgumentException("pagesToSkip cannot be null.");
+         this.pagesToSkip = pagesToSkip;
+     }
+```
+
+**Returns:**
+[IIndexFilter](../../com.aspose.words/iindexfilter/) - true if the page should be skipped; otherwise, false. /
+### getPagesRemaining() {#getPagesRemaining}
+```
+public int getPagesRemaining()
+```
+
+
+Şu anda aktif olan yazdırma işinde kalan sayfa sayısını alır.
+
+ **Remarks:** 
+
+Bu değer, sayfalar yazdırıldıkça otomatik olarak güncellenir ve mevcut yazdırma işinin ilerlemesini yansıtır. Yazdırma süresi dışında ve yazdırma işi hataları veya kesintileri durumunda, değer bekleyen gerçek sayfa sayısını yansıtmayabilir.
+
+ **Examples:** 
+
+Yazdırma ilerlemesini nasıl izleneceğini gösterir.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Create a special Aspose.Words implementation of the Java PrintDocument class
+ AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+ // In Java, printer settings are handled through PrinterJob.
+ PrinterJob printerJob = PrinterJob.getPrinterJob();
+ printerJob.setPrintable(printDoc);
+
+ // Initialize the custom printing tracker.
+ PrintTracker printTracker = new PrintTracker(printDoc);
+
+ printerJob.print();
+
+ // Write the event log.
+ for (String eventString : printTracker.getEventLog()) {
+     System.out.println(eventString);
+ }
+ 
+```
+
+Yazdırma ilerlemesini izlemek için örnek bir sınıf gösterir.
+
+```
+{@code
+ /// 
+ /// Tracks printing progress of an Aspose.Words document and logs printing events.
+ /// 
+ /**
+ Tracks printing progress of an Aspose.Words document and logs printing events.
+ Note: Java version doesn't have the same event system as .NET, so this implementation
+ wraps the AsposeWordsPrintDocument to provide similar functionality.
+ /
+ class PrintTracker implements Printable {
+     private final AsposeWordsPrintDocument printDocument;
+     private int printingPage = -1;
+     private int totalPages = 0;
+     private final List eventLog = new ArrayList<>();
+     private boolean isPrinting = false;
+
+     /**
+ Initializes a new instance of the PrintTracker class
+ and wraps the specified Aspose.Words print document.
+```
+
+**Returns:**
+int - Şu anda yazdırılan sayfa numarası. / public int getPrintingPage() \{ return printingPage; \} /\*\* Yazdırılacak toplam sayfa sayısını alır. Yazdırma işlemi devam etmediğinde 0 döndürür.
+### getPrintable(int pageIndex) {#getPrintable-int}
+```
+public Printable getPrintable(int pageIndex)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| pageIndex | int |  |
+
+**Returns:**
+java.awt.print.Printable
+### getTotalPagesPrinted() {#getTotalPagesPrinted}
+```
+public int getTotalPagesPrinted()
+```
+
+
+Yazdırma oturumu sırasında gerçekte yazdırılan toplam sayfa sayısını alır.
+
+ **Remarks:** 
+
+Yazdırma tamamlandıktan sonra güncellenir. Yazdırma başlamadan önce 0 döndürür.
+
+ **Examples:** 
+
+Sayfaları sayfa rengine göre nasıl filtreleyeceğinizi gösterir.
+
+```
+{@code
+ public void colorMode() throws Exception
+ {
+     // Load the document with 3 color pages and 2 black and white pages.
+     Document doc = new Document("Colored pages.docx");
+
+     // Print color pages to 'color' printer.
+     int colorPagesPrinted = printPages(doc, "Microsoft Print to PDF", true);
+
+     // Print black-and-white pages to 'black-and-white' printer.
+     int nonColorPagesPrinted = printPages(doc, "Microsoft XPS Document Writer", false);
+
+     // Verify that correct number of pages were printed in each case.
+     Assert.assertEquals(3, colorPagesPrinted);
+     Assert.assertEquals(3, nonColorPagesPrinted);
+ }
+
+ /// 
+ /// Prints document pages filtered by color requirements.
+ /// 
+ /// The document to print.
+ /// The name of the target printer.
+ /// 
+ /// true to print only color pages;
+ /// false to print only black and white pages.
+ /// 
+ /// The number of pages actually printed.
+ private int printPages(Document doc, String printerName, boolean colored) throws Exception
+ {
+     // Configure printer settings.
+     PrinterJob printerJob = PrinterJob.getPrinterJob();
+
+     // Select target printer.
+     for (PrintService service : PrinterJob.lookupPrintServices()) {
+         if (service.getName().equalsIgnoreCase(printerName)) {
+             printerJob.setPrintService(service);
+             break;
+         }
+     }
+
+     // Create print document with color mode set to Normal.
+     AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+     printDoc.setColorMode(ColorPrintMode.NORMAL);
+
+     // Filter pages: skip color pages when printing black and white, and vice versa.
+     printDoc.setPageIndexFilter(new ColorPagesFilter(doc, !colored));
+
+     printerJob.setPrintable(printDoc);
+     printerJob.print();
+
+     return printDoc.getTotalPagesPrinted();
+ }
+
+ /// 
+ /// A filter that selectively skips color or black-and-white pages during printing
+ /// based on the document's page information and specified filtering mode.
+ /// 
+ /// 
+ /// This filter implements the IIndexFilter interface to provide custom page selection
+ /// logic for printing operations. It can be configured to either skip color pages
+ /// (when printing only black-and-white content) or skip black-and-white pages
+ /// (when printing only color content).
+ /// 
+ static class ColorPagesFilter implements IIndexFilter
+ {
+     private final Document doc;
+     private final boolean skipColorPages;
+
+     /**
+ Initializes a new instance of the ColorPagesFilter class.
+```
+
+**Returns:**
+int - Sayfa atlanacaksa true; aksi takdirde false. /
+### print(Graphics graphics, PageFormat pageFormat, int pageIndex) {#print-java.awt.Graphics-java.awt.print.PageFormat-int}
+```
+public int print(Graphics graphics, PageFormat pageFormat, int pageIndex)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| grafikler | java.awt.Graphics |  |
+| pageFormat | java.awt.print.PageFormat |  |
+| pageIndex | int |  |
+
+**Returns:**
+int
+### setColorMode(int value) {#setColorMode-int}
+```
+public void setColorMode(int value)
+```
+
+
+Cihaz renkli baskıyı destekliyorsa, renksiz sayfaların nasıl yazdırılacağını ayarlar.
+
+ **Remarks:** 
+
+Kitapçık baskısını etkilemez.
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| value | int | Cihaz renkli baskıyı destekliyorsa, renksiz sayfaların nasıl yazdırılacağı. Değer, [ColorPrintMode](../../com.aspose.words/colorprintmode/) sabitlerinden biri olmalıdır. |
+
+### setPageIndexFilter(IIndexFilter value) {#setPageIndexFilter-com.aspose.words.IIndexFilter}
+```
+public void setPageIndexFilter(IIndexFilter value)
+```
+
+
+Yazdırma sırasında atlanacak sayfaları belirlemek için kullanılan sıfır tabanlı indeks filtresini ayarlar.
+
+ **Remarks:** 
+
+Lütfen bazı sayfalar atlanırsa, yazdırılacak gerçek toplam sayfa sayısının yazdırma işlemi tamamlanana kadar bilinmeyeceğini unutmayın. Bu durum, başlangıçta beklenen sayfa sayısı gerçek yazdırılan sayfadan fazla ise, yazdırma süreci takibini etkileyebilir.
+
+ **Examples:** 
+
+Sayfa numarası listesi kullanarak sayfaların nasıl filtreleneceğini gösterir.
+
+```
+{@code
+ public void pageIndexFilter() throws Exception
+ {
+     Document doc = new Document("Rendering.docx");
+
+     // Configure printer settings and create print document.
+     PrinterJob printerJob = PrinterJob.getPrinterJob();
+     printerJob.setPrintService(printerJob.getPrintService());
+
+     // Create Aspose.Words print document.
+     AsposeWordsPrintDocument printDoc = new AsposeWordsPrintDocument(doc);
+
+     // Set the printer name.
+     PrintService[] printServices = PrinterJob.lookupPrintServices();
+     for (PrintService service : printServices) {
+         if (service.getName().equalsIgnoreCase("Microsoft Print to PDF")) {
+             printerJob.setPrintService(service);
+             break;
+         }
+     }
+
+     // The test document has 5 pages. To skip pages 2, 4, and 5,
+     // specify the zero-based indices of pages to exclude.
+     HashSet pagesToSkip = new HashSet<>(Arrays.asList(1, 3, 4));
+
+     // Apply the page filter to skip specified pages.
+     printDoc.setPageIndexFilter(new PrintPagesFilter(pagesToSkip));
+
+     // Initialize custom printing tracker (optional).
+     PrintTracker printTracker = new PrintTracker(printDoc);
+
+     // Print the document (only pages 1 and 3 will be printed).
+     printerJob.setPrintable(printDoc);
+     printerJob.print();
+ }
+
+ /// 
+ /// Filter for skipping specified pages during printing.
+ /// 
+ public final class PrintPagesFilter implements IIndexFilter {
+     private final HashSet pagesToSkip;
+
+     /// 
+     /// Initializes a new instance of the  class.
+     /// 
+     /// The collection of page indices to skip.
+     public PrintPagesFilter(HashSet pagesToSkip) {
+         if (pagesToSkip == null)
+             throw new IllegalArgumentException("pagesToSkip cannot be null.");
+         this.pagesToSkip = pagesToSkip;
+     }
+```
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| value | [IIndexFilter](../../com.aspose.words/iindexfilter/) | Yazdırma sırasında atlanacak sayfaları belirlemek için kullanılan sıfır tabanlı indeks filtresi. |
+

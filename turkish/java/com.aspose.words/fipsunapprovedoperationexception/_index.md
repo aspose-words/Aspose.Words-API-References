@@ -1,0 +1,197 @@
+---
+title: "FipsUnapprovedOperationException"
+linktitle: "FipsUnapprovedOperationException"
+second_title: "Aspose.Words Java için"
+description: "Java'da şifreleme kullanımını yanlış bir şekilde denediğinizde atılan istisnayı temsil eder."
+type: docs
+weight: 315
+url: /tr/java/com.aspose.words/fipsunapprovedoperationexception/
+---
+
+**Inheritance:**
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException
+```
+public class FipsUnapprovedOperationException extends RuntimeException
+```
+
+Kryptografi kullanımını hatalı bir şekilde denediğinizde fırlatılan istisnayı temsil eder.
+## Yapıcılar
+
+| Yapıcı | Açıklama |
+| --- | --- |
+| [FipsUnapprovedOperationException(String e)](#FipsUnapprovedOperationException-java.lang.String) | Bu sınıfın yeni bir örneğini başlatır. |
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable) |  |
+| [fillInStackTrace()](#fillInStackTrace) |  |
+| [getCause()](#getCause) |  |
+| [getLocalizedMessage()](#getLocalizedMessage) |  |
+| [getMessage()](#getMessage) |  |
+| [getStackTrace()](#getStackTrace) |  |
+| [getSuppressed()](#getSuppressed) |  |
+| [initCause(Throwable arg0)](#initCause-java.lang.Throwable) |  |
+| [printStackTrace()](#printStackTrace) |  |
+| [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream) |  |
+| [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter) |  |
+| [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement) |  |
+| [toString()](#toString) |  |
+### FipsUnapprovedOperationException(String e) {#FipsUnapprovedOperationException-java.lang.String}
+```
+public FipsUnapprovedOperationException(String e)
+```
+
+
+Bu sınıfın yeni bir örneğini başlatır.
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| e | java.lang.String |  |
+
+### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable}
+```
+public final synchronized void addSuppressed(Throwable arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| arg0 | java.lang.Throwable |  |
+
+### fillInStackTrace() {#fillInStackTrace}
+```
+public synchronized Throwable fillInStackTrace()
+```
+
+
+
+
+**Returns:**
+java.lang.Throwable
+### getCause() {#getCause}
+```
+public synchronized Throwable getCause()
+```
+
+
+
+
+**Returns:**
+java.lang.Throwable
+### getLocalizedMessage() {#getLocalizedMessage}
+```
+public String getLocalizedMessage()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getMessage() {#getMessage}
+```
+public String getMessage()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getStackTrace() {#getStackTrace}
+```
+public StackTraceElement[] getStackTrace()
+```
+
+
+
+
+**Returns:**
+java.lang.StackTraceElement[]
+### getSuppressed() {#getSuppressed}
+```
+public final synchronized Throwable[] getSuppressed()
+```
+
+
+
+
+**Returns:**
+java.lang.Throwable[]
+### initCause(Throwable arg0) {#initCause-java.lang.Throwable}
+```
+public synchronized Throwable initCause(Throwable arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| arg0 | java.lang.Throwable |  |
+
+**Returns:**
+java.lang.Throwable
+### printStackTrace() {#printStackTrace}
+```
+public void printStackTrace()
+```
+
+
+
+
+### printStackTrace(PrintStream arg0) {#printStackTrace-java.io.PrintStream}
+```
+public void printStackTrace(PrintStream arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| arg0 | java.io.PrintStream |  |
+
+### printStackTrace(PrintWriter arg0) {#printStackTrace-java.io.PrintWriter}
+```
+public void printStackTrace(PrintWriter arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| arg0 | java.io.PrintWriter |  |
+
+### setStackTrace(StackTraceElement[] arg0) {#setStackTrace-java.lang.StackTraceElement}
+```
+public void setStackTrace(StackTraceElement[] arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| arg0 | java.lang.StackTraceElement[] |  |
+
+### toString() {#toString}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
