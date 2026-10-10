@@ -1,0 +1,23 @@
+---
+title: "طريقة Aspose::Words::Loading::ResourceLoadingArgs::Type"
+linktitle: "النوع"
+second_title: "مرجع API لـ Aspose.Words للغة C++"
+description: "كيفية استخدام طريقة Type في فئة Aspose::Words::Loading::ResourceLoadingArgs بلغة C++."
+type: docs
+weight: 1000
+url: /ar/cpp/aspose.words.loading/resourceloadingargs/type/
+---
+## ResourceLoadingArgs::Type method
+
+
+
+
+```cpp
+static const System::TypeInfo & Aspose::Words::Loading::ResourceLoadingArgs::Type()
+```
+
+## انظر أيضًا
+
+* Class [ResourceLoadingArgs](../)
+* Namespace [Aspose::Words::Loading](../../)
+* Library [Aspose.Words for C++](../../../)
