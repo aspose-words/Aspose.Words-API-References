@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Properties::BuiltInDocumentProperties::set_Paragraphs méthode"
+linktitle: "set_Paragraphs"
+second_title: "Référence de l'API Aspose.Words pour C++"
+description: "Aspose::Words::Properties::BuiltInDocumentProperties::set_Paragraphs méthode. Mutateur pour Aspose::Words::Properties::BuiltInDocumentProperties::get_Paragraphs en C++."
+type: docs
+weight: 58000
+url: /fr/cpp/aspose.words.properties/builtindocumentproperties/set_paragraphs/
+---
+## BuiltInDocumentProperties::set_Paragraphs method
+
+
+Mutateur pour [Aspose::Words::Properties::BuiltInDocumentProperties::get_Paragraphs](../get_paragraphs/).
+
+```cpp
+void Aspose::Words::Properties::BuiltInDocumentProperties::set_Paragraphs(int32_t value)
+```
+
+## Voir aussi
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words for C++](../../../)
