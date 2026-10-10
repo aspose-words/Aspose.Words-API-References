@@ -1,0 +1,75 @@
+---
+title: "Enumeración Aspose::Words::Drawing::GradientStyle"
+linktitle: "GradientStyle"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Enumeración Aspose::Words::Drawing::GradientStyle. Especifica el estilo para un relleno degradado en C++."
+type: docs
+weight: 24000
+url: /es/cpp/aspose.words.drawing/gradientstyle/
+---
+## GradientStyle enum
+
+
+Especifica el estilo para un relleno degradado.
+
+```cpp
+enum class GradientStyle
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| None | -1 | Sin degradado. |
+| Horizontal | 1 | Degradado que se extiende horizontalmente a través de un objeto. |
+| Vertical | 2 | Degradado que se extiende verticalmente a lo largo de un objeto. |
+| DiagonalUp | 3 | Degradado diagonal que se mueve desde una esquina inferior hacia la esquina opuesta. |
+| DiagonalDown | 4 | Degradado diagonal que se mueve desde una esquina superior hacia la esquina opuesta. |
+| FromCorner | 5 | Degradado que se extiende desde una esquina a las otras tres esquinas. |
+| FromCenter | 6 | Degradado que se extiende desde el centro hacia las esquinas. |
+
+
+## Ejemplos
+
+
+
+Muestra cómo rellenar una forma con degradados.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
+shape->get_Fill()->OneColorGradient(System::Drawing::Color::get_Red(), Aspose::Words::Drawing::GradientStyle::Horizontal, Aspose::Words::Drawing::GradientVariant::Variant2, 0.1);
+
+ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shape->get_Fill()->get_ForeColor().ToArgb());
+ASSERT_EQ(Aspose::Words::Drawing::GradientStyle::Horizontal, shape->get_Fill()->get_GradientStyle());
+ASSERT_EQ(Aspose::Words::Drawing::GradientVariant::Variant2, shape->get_Fill()->get_GradientVariant());
+ASPOSE_ASSERT_EQ(270, shape->get_Fill()->get_GradientAngle());
+
+shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 80, 80);
+// Aplicar relleno degradado de dos colores a la forma.
+shape->get_Fill()->TwoColorGradient(Aspose::Words::Drawing::GradientStyle::FromCorner, Aspose::Words::Drawing::GradientVariant::Variant4);
+// Cambiar BackColor del relleno degradado.
+shape->get_Fill()->set_BackColor(System::Drawing::Color::get_Yellow());
+// Nota que cambia "GradientAngle" para "GradientStyle.FromCorner/GradientStyle.FromCenter"
+// El relleno degradado no tiene ningún efecto, solo funcionará para degradados lineales.
+shape->get_Fill()->set_GradientAngle(15);
+
+ASSERT_EQ(System::Drawing::Color::get_Yellow().ToArgb(), shape->get_Fill()->get_BackColor().ToArgb());
+ASSERT_EQ(Aspose::Words::Drawing::GradientStyle::FromCorner, shape->get_Fill()->get_GradientStyle());
+ASSERT_EQ(Aspose::Words::Drawing::GradientVariant::Variant4, shape->get_Fill()->get_GradientVariant());
+ASPOSE_ASSERT_EQ(0, shape->get_Fill()->get_GradientAngle());
+
+// Utiliza la opción de cumplimiento para definir la forma usando DML si deseas obtener "GradientStyle",
+// "GradientVariant" y "GradientAngle" propiedades después de que el documento se guarde.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Strict);
+
+doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
+```
+
+## Ver también
+
+* Namespace [Aspose::Words::Drawing](../)
+* Library [Aspose.Words for C++](../../)

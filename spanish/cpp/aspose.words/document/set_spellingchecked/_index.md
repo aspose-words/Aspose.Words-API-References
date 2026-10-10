@@ -1,0 +1,23 @@
+---
+title: "Método Aspose::Words::Document::set_SpellingChecked"
+linktitle: "set_SpellingChecked"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Método Aspose::Words::Document::set_SpellingChecked. Setter para Aspose::Words::Document::get_SpellingChecked en C++."
+type: docs
+weight: 89000
+url: /es/cpp/aspose.words/document/set_spellingchecked/
+---
+## Document::set_SpellingChecked method
+
+
+Setter para [Aspose::Words::Document::get_SpellingChecked](../get_spellingchecked/).
+
+```cpp
+void Aspose::Words::Document::set_SpellingChecked(bool value)
+```
+
+## Ver también
+
+* Class [Document](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,0 +1,50 @@
+---
+title: "Aspose::Words::FrameFormat::get_VerticalPosition método"
+linktitle: "get_VerticalPosition"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Aspose::Words::FrameFormat::get_VerticalPosition método. Obtiene la distancia vertical entre el borde del marco y el elemento especificado por la propiedad RelativeVerticalPosition en C++."
+type: docs
+weight: 12000
+url: /es/cpp/aspose.words/frameformat/get_verticalposition/
+---
+## FrameFormat::get_VerticalPosition method
+
+
+Obtiene la distancia vertical entre el borde del marco y el elemento especificado por la propiedad [RelativeVerticalPosition](../get_relativeverticalposition/).
+
+```cpp
+double Aspose::Words::FrameFormat::get_VerticalPosition()
+```
+
+
+## Ejemplos
+
+
+
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraph frame.docx");
+
+System::SharedPtr<Aspose::Words::Paragraph> paragraphFrame = doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_First(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
+{
+    return p->get_FrameFormat()->get_IsFrame();
+})));
+
+ASPOSE_ASSERT_EQ(233.3, paragraphFrame->get_FrameFormat()->get_Width());
+ASPOSE_ASSERT_EQ(138.8, paragraphFrame->get_FrameFormat()->get_Height());
+ASSERT_EQ(Aspose::Words::HeightRule::AtLeast, paragraphFrame->get_FrameFormat()->get_HeightRule());
+ASSERT_EQ(Aspose::Words::Drawing::HorizontalAlignment::Default, paragraphFrame->get_FrameFormat()->get_HorizontalAlignment());
+ASSERT_EQ(Aspose::Words::Drawing::VerticalAlignment::Default, paragraphFrame->get_FrameFormat()->get_VerticalAlignment());
+ASPOSE_ASSERT_EQ(34.05, paragraphFrame->get_FrameFormat()->get_HorizontalPosition());
+ASSERT_EQ(Aspose::Words::Drawing::RelativeHorizontalPosition::Page, paragraphFrame->get_FrameFormat()->get_RelativeHorizontalPosition());
+ASPOSE_ASSERT_EQ(9.0, paragraphFrame->get_FrameFormat()->get_HorizontalDistanceFromText());
+ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition());
+ASSERT_EQ(Aspose::Words::Drawing::RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
+ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
+```
+
+## Ver también
+
+* Class [FrameFormat](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,0 +1,24 @@
+---
+title: "Aspose::Words::Saving::XamlFlowSaveOptions::set_SaveFormat método"
+linktitle: "set_SaveFormat"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Aspose::Words::Saving::XamlFlowSaveOptions::set_SaveFormat método. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo puede ser XamlFlow en C++."
+type: docs
+weight: 12000
+url: /es/cpp/aspose.words.saving/xamlflowsaveoptions/set_saveformat/
+---
+## XamlFlowSaveOptions::set_SaveFormat method
+
+
+Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo puede ser [XamlFlow](../../../aspose.words/saveformat/).
+
+```cpp
+void Aspose::Words::Saving::XamlFlowSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override
+```
+
+## Ver también
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [XamlFlowSaveOptions](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)

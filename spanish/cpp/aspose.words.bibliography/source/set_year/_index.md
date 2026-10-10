@@ -1,0 +1,23 @@
+---
+title: "Método Aspose::Words::Bibliography::Source::set_Year"
+linktitle: "set_Year"
+second_title: "Referencia de API de Aspose.Words para C++"
+description: "Método Aspose::Words::Bibliography::Source::set_Year. Establecedor para Aspose::Words::Bibliography::Source::get_Year en C++."
+type: docs
+weight: 108000
+url: /es/cpp/aspose.words.bibliography/source/set_year/
+---
+## Source::set_Year method
+
+
+Método setter para [Aspose::Words::Bibliography::Source::get_Year](../get_year/).
+
+```cpp
+void Aspose::Words::Bibliography::Source::set_Year(const System::String &value)
+```
+
+## Ver también
+
+* Class [Source](../)
+* Namespace [Aspose::Words::Bibliography](../../)
+* Library [Aspose.Words for C++](../../../)
