@@ -1,0 +1,249 @@
+---
+title: "ListLabel"
+linktitle: "ListLabel"
+second_title: "Aspose.Words para Java"
+description: "Define propiedades específicas de una etiqueta de lista en Java."
+type: docs
+weight: 428
+url: /es/java/com.aspose.words/listlabel/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class ListLabel
+```
+
+Define propiedades específicas de una etiqueta de lista.
+
+Para obtener más información, visite el artículo de documentación [ Working with Lists ][Working with Lists].
+
+ **Examples:** 
+
+Muestra cómo extraer las etiquetas de lista de todos los párrafos que son elementos de lista.
+
+```
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
+```
+
+
+[Working with Lists]: https://docs.aspose.com/words/java/working-with-lists/
+## Métodos
+
+| Método | Descripción |
+| --- | --- |
+| [clearRunAttrs()](#clearRunAttrs) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
+| [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
+| [getFont()](#getFont) | Obtiene la fuente de la etiqueta de lista. |
+| [getLabelString()](#getLabelString) | Obtiene una representación en cadena de la etiqueta de lista. |
+| [getLabelValue()](#getLabelValue) | Obtiene un valor numérico para esta etiqueta. |
+| [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
+### clearRunAttrs() {#clearRunAttrs}
+```
+public void clearRunAttrs()
+```
+
+
+
+
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
+```
+public Object fetchInheritedRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key) {#getDirectRunAttr-int}
+```
+public Object getDirectRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectRunAttr(int key, int revisionsView) {#getDirectRunAttr-int-int}
+```
+public Object getDirectRunAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
+### getFont() {#getFont}
+```
+public Font getFont()
+```
+
+
+Obtiene la fuente de la etiqueta de lista.
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The list label font.
+### getLabelString() {#getLabelString}
+```
+public String getLabelString()
+```
+
+
+Obtiene una representación en cadena de la etiqueta de lista.
+
+ **Examples:** 
+
+Muestra cómo extraer las etiquetas de lista de todos los párrafos que son elementos de lista.
+
+```
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
+```
+
+**Returns:**
+java.lang.String - Una representación en cadena de la etiqueta de lista.
+### getLabelValue() {#getLabelValue}
+```
+public int getLabelValue()
+```
+
+
+Obtiene un valor numérico para esta etiqueta.
+
+ **Remarks:** 
+
+Utilice el [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) método para actualizar el valor de esta propiedad.
+
+ **Examples:** 
+
+Muestra cómo extraer las etiquetas de lista de todos los párrafos que son elementos de lista.
+
+```
+{@code
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ doc.updateListLabels();
+ int listParaCount = 1;
+
+ for (Paragraph paragraph : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     // Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+     // which start at three and ends at six.
+     if (paragraph.getListFormat().isListItem()) {
+         System.out.println(MessageFormat.format("List item paragraph #{0}", listParaCount));
+
+         // This is the text we get when getting when we output this node to text format.
+         // This text output will omit list labels. Trim any paragraph formatting characters.
+         String paragraphText = paragraph.toString(SaveFormat.TEXT).trim();
+         System.out.println("Exported Text: " + paragraphText);
+
+         ListLabel label = paragraph.getListLabel();
+
+         // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+         // this will tell us what position it is on that level.
+         System.out.println("\tNumerical Id: {label.LabelValue}");
+
+         // Combine them together to include the list label with the text in the output.
+         System.out.println("\tList label combined with text: {label.LabelString} {paragraphText}");
+     }
+ }
+```
+
+**Returns:**
+int - Un valor numérico para esta etiqueta.
+### removeRunAttr(int key) {#removeRunAttr-int}
+```
+public void removeRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| key | int |  |
+
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object}
+```
+public void setRunAttr(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| key | int |  |
+| valor | java.lang.Object |  |
+
