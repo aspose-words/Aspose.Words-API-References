@@ -1,0 +1,58 @@
+﻿---
+title: FieldHyperlink.is_image_map property
+linktitle: is_image_map property
+articleTitle: is_image_map property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.is_image_map property. Gets or sets whether to append coordinates to the hyperlink for a server-side image map."
+type: docs
+weight: 30
+url: /sv/python-net/aspose.words.fields/fieldhyperlink/is_image_map/
+---
+
+## FieldHyperlink.is_image_map property
+
+Gets or sets whether to append coordinates to the hyperlink for a server-side image map.
+
+
+```python
+@property
+def is_image_map(self) -> bool:
+    ...
+
+@is_image_map.setter
+def is_image_map(self, value: bool):
+    ...
+
+```
+
+### Examples
+
+Shows how to use HYPERLINK fields to link to documents in the local file system.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_HYPERLINK, update_field=True).as_field_hyperlink()
+# När vi klickar på detta HYPERLINK-fält i Microsoft Word,
+# kommer det att öppna det länkade dokumentet och sedan placera markören vid den angivna bokmärket.
+field.address = MY_DIR + 'Bookmarks.docx'
+field.sub_address = 'MyBookmark3'
+field.screen_tip = 'Open ' + field.address + ' on bookmark ' + field.sub_address + ' in a new window'
+builder.writeln()
+# När vi klickar på detta HYPERLINK-fält i Microsoft Word,
+# det kommer att öppna det länkade dokumentet och automatiskt rulla ner till den angivna iframe.
+field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_HYPERLINK, update_field=True).as_field_hyperlink()
+field.address = MY_DIR + 'Iframes.html'
+field.screen_tip = 'Open ' + field.address
+field.target = 'iframe_3'
+field.open_in_new_window = True
+field.is_image_map = False
+doc.update_fields()
+doc.save(file_name=ARTIFACTS_DIR + 'Field.HYPERLINK.docx')
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldHyperlink](../)
+
