@@ -1,0 +1,22 @@
+﻿---
+title: HtmlFixedSaveOptions constructor
+linktitle: HtmlFixedSaveOptions constructor
+articleTitle: HtmlFixedSaveOptions constructor
+second_title: Aspose.Words for Node.js
+description: "HtmlFixedSaveOptions constructor. "
+type: docs
+weight: 10
+url: /sv/nodejs-net/aspose.words.saving/htmlfixedsaveoptions/constructor/
+---
+
+## HtmlFixedSaveOptions() {#default}
+
+```js
+HtmlFixedSaveOptions()
+```
+
+### See Also
+
+* module [Aspose.Words.Saving](../../)
+* class [HtmlFixedSaveOptions](../)
+
