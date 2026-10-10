@@ -1,0 +1,56 @@
+---
+title: "Aspose::Words::TextWatermarkOptions::get_Layout Methode"
+linktitle: "get_Layout"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::TextWatermarkOptions::get_Layout Methode. Liest oder setzt das Layout des Wasserzeichens. Der Standardwert ist Diagonal in C++."
+type: docs
+weight: 7000
+url: /de/cpp/aspose.words/textwatermarkoptions/get_layout/
+---
+## TextWatermarkOptions::get_Layout method
+
+
+Liest oder setzt das Layout des Wasserzeichens. Der Standardwert ist [Diagonal](../../watermarklayout/).
+
+```cpp
+Aspose::Words::WatermarkLayout Aspose::Words::TextWatermarkOptions::get_Layout() const
+```
+
+
+## Beispiele
+
+
+
+Zeigt, wie ein Textwasserzeichen erstellt wird.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Fügen Sie ein Wasserzeichen als Klartext hinzu.
+doc->get_Watermark()->SetText(u"Aspose Watermark");
+
+// Wenn wir die Textformatierung bearbeiten möchten, indem wir es als Wasserzeichen verwenden,
+// können wir dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+auto textWatermarkOptions = System::MakeObject<Aspose::Words::TextWatermarkOptions>();
+textWatermarkOptions->set_FontFamily(u"Arial");
+textWatermarkOptions->set_FontSize(36.0f);
+textWatermarkOptions->set_Color(System::Drawing::Color::get_Black());
+textWatermarkOptions->set_Layout(Aspose::Words::WatermarkLayout::Diagonal);
+textWatermarkOptions->set_IsSemitrasparent(false);
+
+doc->get_Watermark()->SetText(u"Aspose Watermark", textWatermarkOptions);
+
+doc->Save(get_ArtifactsDir() + u"Document.TextWatermark.docx");
+
+// Wir können ein Wasserzeichen aus einem Dokument wie folgt entfernen.
+if (doc->get_Watermark()->get_Type() == Aspose::Words::WatermarkType::Text)
+{
+    doc->get_Watermark()->Remove();
+}
+```
+
+## Siehe auch
+
+* Enum [WatermarkLayout](../../watermarklayout/)
+* Class [TextWatermarkOptions](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

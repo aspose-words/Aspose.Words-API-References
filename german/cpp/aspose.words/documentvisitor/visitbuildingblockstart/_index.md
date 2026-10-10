@@ -1,0 +1,38 @@
+---
+title: "Aspose::Words::DocumentVisitor::VisitBuildingBlockStart Methode"
+linktitle: "VisitBuildingBlockStart"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::DocumentVisitor::VisitBuildingBlockStart Methode. Aufgerufen, wenn die Aufzählung eines Bausteins in C++ gestartet wurde."
+type: docs
+weight: 10000
+url: /de/cpp/aspose.words/documentvisitor/visitbuildingblockstart/
+---
+## DocumentVisitor::VisitBuildingBlockStart method
+
+
+Wird aufgerufen, wenn die Aufzählung eines Bausteins begonnen hat.
+
+```cpp
+virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitBuildingBlockStart(System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> block)
+```
+
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Block | System::SharedPtr\<Aspose::Words::BuildingBlocks::BuildingBlock\> | Das Objekt, das besucht wird. |
+
+### ReturnValue
+
+Ein [VisitorAction](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
+## Hinweise
+
+
+Hinweis: Ein Bausteinknoten und seine Kinder werden nicht besucht, wenn Sie einen Visitor über ein [Document](../../document/) ausführen. Wenn Sie einen Visitor über einen Baustein ausführen möchten, müssen Sie den Visitor über ein [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) ausführen oder [Accept()](../../../aspose.words.buildingblocks/buildingblock/accept/) aufrufen.
+
+## Siehe auch
+
+* Enum [VisitorAction](../../visitoraction/)
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
+* Class [DocumentVisitor](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

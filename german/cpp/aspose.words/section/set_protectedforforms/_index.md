@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Section::set_ProtectedForForms Methode"
+linktitle: "set_ProtectedForForms"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::Section::set_ProtectedForForms Methode. Setter für Aspose::Words::Section::get_ProtectedForForms in C++."
+type: docs
+weight: 18000
+url: /de/cpp/aspose.words/section/set_protectedforforms/
+---
+## Section::set_ProtectedForForms method
+
+
+Setter für [Aspose::Words::Section::get_ProtectedForForms](../get_protectedforforms/).
+
+```cpp
+void Aspose::Words::Section::set_ProtectedForForms(bool value)
+```
+
+## Siehe auch
+
+* Class [Section](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)

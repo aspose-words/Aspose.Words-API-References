@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Properties::BuiltInDocumentProperties::set_Keywords Methode"
+linktitle: "set_Keywords"
+second_title: "Aspose.Words für C++ API‑Referenz"
+description: "Aspose::Words::Properties::BuiltInDocumentProperties::set_Keywords Methode. Setter für Aspose::Words::Properties::BuiltInDocumentProperties::get_Keywords in C++."
+type: docs
+weight: 49000
+url: /de/cpp/aspose.words.properties/builtindocumentproperties/set_keywords/
+---
+## BuiltInDocumentProperties::set_Keywords method
+
+
+Setter für [Aspose::Words::Properties::BuiltInDocumentProperties::get_Keywords](../get_keywords/).
+
+```cpp
+void Aspose::Words::Properties::BuiltInDocumentProperties::set_Keywords(const System::String &value)
+```
+
+## Siehe auch
+
+* Class [BuiltInDocumentProperties](../)
+* Namespace [Aspose::Words::Properties](../../)
+* Library [Aspose.Words for C++](../../../)
