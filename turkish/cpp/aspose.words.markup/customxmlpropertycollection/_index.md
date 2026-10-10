@@ -1,0 +1,99 @@
+---
+title: "Aspose::Words::Markup::CustomXmlPropertyCollection sınıfı"
+linktitle: "CustomXmlPropertyCollection"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Markup::CustomXmlPropertyCollection sınıfı. Özel XML öznitelikleri veya akıllı etiket özelliklerinden oluşan bir koleksiyonu temsil eder. Daha fazla bilgi edinmek için C++'daki belge makalesini ziyaret edin."
+type: docs
+weight: 6000
+url: /tr/cpp/aspose.words.markup/customxmlpropertycollection/
+---
+## CustomXmlPropertyCollection class
+
+
+Özel XML öznitelikleri veya akıllı etiket özelliklerinin bir koleksiyonunu temsil eder. Daha fazla bilgi edinmek için [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) dokümantasyon makalesini ziyaret edin.
+
+```cpp
+class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>
+```
+
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\>\&) | Koleksiyona bir özellik ekler. |
+| [Clear](./clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
+| [Contains](./contains/)(const System::String\&) | Koleksiyonun verilen ada sahip bir özellik içerip içermediğini belirler. |
+| [get_Count](./get_count/)() | Koleksiyonda bulunan eleman sayısını alır. |
+| [GetEnumerator](./getenumerator/)() override | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir enumeratör nesnesi döndürür. |
+| [GetType](./gettype/)() const override |  |
+| [idx_get](./idx_get/)(const System::String\&) | Belirtilen ada sahip bir özelliği alır. |
+| [idx_get](./idx_get/)(int32_t) | Belirtilen indeksteki bir özelliği alır. |
+| [IndexOfKey](./indexofkey/)(const System::String\&) | Koleksiyondaki belirtilen özelliğin sıfır tabanlı indeksini döndürür. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Remove](./remove/)(const System::String\&) | Koleksiyondan belirtilen ada sahip bir özelliği kaldırır. |
+| [RemoveAt](./removeat/)(int32_t) | Belirtilen indeksteki bir özelliği kaldırır. |
+| static [Type](./type/)() |  |
+## Açıklamalar
+
+
+Ögeler [CustomXmlProperty](../customxmlproperty/) nesneleridir.
+
+## Örnekler
+
+
+
+Akıllı etiket özellikleriyle nasıl çalışılacağını göstererek akıllı etiketler hakkında ayrıntılı bilgi almanızı sağlar.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Smart tags.doc");
+
+// Microsoft Word, bir belgedeki metnin bir kısmını bir veri biçimi olarak tanıdığında bir akıllı etiket ortaya çıkar,
+// örneğin bir isim, tarih veya adres gibi ve bunu mor noktalı altı çizili bir köprüye dönüştürür.
+// Word 2003'te, akıllı etiketleri \"Tools\" -> \"AutoCorrect options...\" -> \"SmartTags\" yoluyla etkinleştirebiliriz.
+// Girdi belgemizde, Microsoft Word tarafından akıllı etiket olarak kaydedilen üç nesne var.
+// Akıllı etiketler iç içe olabilir, bu yüzden bu koleksiyon daha fazlasını içerir.
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Markup::SmartTag>> smartTags = doc->GetChildNodes(Aspose::Words::NodeType::SmartTag, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Markup::SmartTag> >()->LINQ_ToArray();
+
+ASSERT_EQ(8, smartTags->get_Length());
+
+// \"Properties\" üyesi bir akıllı etiketin meta verilerini içerir ve bu, her akıllı etiket türü için farklı olacaktır.
+// \"date\" türündeki bir akıllı etiketin özellikleri yıl, ay ve günü içerir.
+System::SharedPtr<Aspose::Words::Markup::CustomXmlPropertyCollection> properties = smartTags[7]->get_Properties();
+
+ASSERT_EQ(4, properties->get_Count());
+
+{
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>> enumerator = properties->GetEnumerator();
+    while (enumerator->MoveNext())
+    {
+        std::cout << System::String::Format(u"Property name: {0}, value: {1}", enumerator->get_Current()->get_Name(), enumerator->get_Current()->get_Value()) << std::endl;
+        ASSERT_EQ(u"", enumerator->get_Current()->get_Uri());
+    }
+}
+
+// Ayrıca özelliklere çeşitli yollarla, örneğin bir anahtar-değer çifti gibi erişebiliriz.
+ASSERT_TRUE(properties->Contains(u"Day"));
+ASSERT_EQ(u"22", properties->idx_get(u"Day")->get_Value());
+ASSERT_EQ(u"2003", properties->idx_get(2)->get_Value());
+ASSERT_EQ(1, properties->IndexOfKey(u"Month"));
+
+// Aşağıda, özellikler koleksiyonundan öğeleri kaldırmanın üç yolu verilmiştir.
+// 1 -  İndekse göre kaldır:
+properties->RemoveAt(3);
+
+ASSERT_EQ(3, properties->get_Count());
+
+// 2 -  İsme göre kaldır:
+properties->Remove(u"Year");
+
+ASSERT_EQ(2, properties->get_Count());
+
+// 3 -  Tüm koleksiyonu bir kerede temizle:
+properties->Clear();
+
+ASSERT_EQ(0, properties->get_Count());
+```
+
+## Ayrıca Bakınız
+
+* Namespace [Aspose::Words::Markup](../)
+* Library [Aspose.Words for C++](../../)

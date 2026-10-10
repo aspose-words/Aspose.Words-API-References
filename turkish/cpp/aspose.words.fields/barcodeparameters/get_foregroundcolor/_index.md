@@ -1,0 +1,23 @@
+---
+title: "Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor yöntemi"
+linktitle: "get_ForegroundColor"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor yöntemi. Barkod ön plan rengi (0x000000 - 0xFFFFFF) C++'de."
+type: docs
+weight: 12000
+url: /tr/cpp/aspose.words.fields/barcodeparameters/get_foregroundcolor/
+---
+## BarcodeParameters::get_ForegroundColor method
+
+
+Barkod ön plan rengi (0x000000 - 0xFFFFFF)
+
+```cpp
+System::String Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor() const
+```
+
+## Ayrıca Bakınız
+
+* Class [BarcodeParameters](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)

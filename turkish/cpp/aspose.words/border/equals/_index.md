@@ -1,0 +1,126 @@
+---
+title: "Aspose::Words::Border::Equals yöntemi"
+linktitle: "Equals"
+second_title: "C++ için Aspose.Words API Referansı"
+description: "Aspose::Words::Border::Equals yöntemi. Belirtilen kenarın, C++'ta mevcut kenarla değer olarak eşit olup olmadığını belirler."
+type: docs
+weight: 3000
+url: /tr/cpp/aspose.words/border/equals/
+---
+## Border::Equals(const System::SharedPtr\<Aspose::Words::Border\>\&) method
+
+
+Belirtilen kenarlığın mevcut kenarlıkla değer olarak eşit olup olmadığını belirler.
+
+```cpp
+bool Aspose::Words::Border::Equals(const System::SharedPtr<Aspose::Words::Border> &rhs)
+```
+
+
+## Örnekler
+
+
+
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Paragraph 1.");
+builder->Write(u"Paragraph 2.");
+
+// Aynı kenarlık yapılandırmasını oluştururken kullandığımız için
+// bu paragraflar, kenarlık koleksiyonları aynı öğeleri paylaşır.
+System::SharedPtr<Aspose::Words::BorderCollection> firstParagraphBorders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();
+System::SharedPtr<Aspose::Words::BorderCollection> secondParagraphBorders = builder->get_CurrentParagraph()->get_ParagraphFormat()->get_Borders();
+
+for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
+{
+    ASSERT_TRUE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
+    ASSERT_EQ(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+    ASSERT_FALSE(firstParagraphBorders->idx_get(i)->get_IsVisible());
+}
+
+for (auto&& border : System::IterateOver(secondParagraphBorders))
+{
+    border->set_LineStyle(Aspose::Words::LineStyle::DotDash);
+}
+
+// Sadece ikinci paragraftaki kenarlıkların çizgi stilini değiştirdikten sonra,
+// kenarlık koleksiyonları artık aynı öğeleri paylaşmaz.
+for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
+{
+    ASSERT_FALSE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
+    ASSERT_NE(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+
+    // Boş bir kenarlığın görünümünü değiştirmek onu görünür kılar.
+    ASSERT_TRUE(secondParagraphBorders->idx_get(i)->get_IsVisible());
+}
+
+doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
+```
+
+## Ayrıca Bakınız
+
+* Class [Border](../)
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## Border::Equals(System::SharedPtr\<System::Object\>) method
+
+
+Belirtilen nesnenin mevcut nesneyle değer olarak eşit olup olmadığını belirler.
+
+```cpp
+bool Aspose::Words::Border::Equals(System::SharedPtr<System::Object> obj) override
+```
+
+
+## Örnekler
+
+
+
+Kenarlık koleksiyonlarının öğeleri nasıl paylaşabileceğini gösterir.
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Paragraph 1.");
+builder->Write(u"Paragraph 2.");
+
+// Aynı kenarlık yapılandırmasını oluştururken kullandığımız için
+// bu paragraflar, kenarlık koleksiyonları aynı öğeleri paylaşır.
+System::SharedPtr<Aspose::Words::BorderCollection> firstParagraphBorders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();
+System::SharedPtr<Aspose::Words::BorderCollection> secondParagraphBorders = builder->get_CurrentParagraph()->get_ParagraphFormat()->get_Borders();
+
+for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
+{
+    ASSERT_TRUE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
+    ASSERT_EQ(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+    ASSERT_FALSE(firstParagraphBorders->idx_get(i)->get_IsVisible());
+}
+
+for (auto&& border : System::IterateOver(secondParagraphBorders))
+{
+    border->set_LineStyle(Aspose::Words::LineStyle::DotDash);
+}
+
+// Sadece ikinci paragraftaki kenarlıkların çizgi stilini değiştirdikten sonra,
+// kenarlık koleksiyonları artık aynı öğeleri paylaşmaz.
+for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
+{
+    ASSERT_FALSE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
+    ASSERT_NE(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+
+    // Boş bir kenarlığın görünümünü değiştirmek onu görünür kılar.
+    ASSERT_TRUE(secondParagraphBorders->idx_get(i)->get_IsVisible());
+}
+
+doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
+```
+
+## Ayrıca Bakınız
+
+* Class [Border](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
