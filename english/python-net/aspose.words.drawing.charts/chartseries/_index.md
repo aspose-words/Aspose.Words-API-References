@@ -5,7 +5,7 @@ articleTitle: ChartSeries class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeries class. Represents chart series properties"
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words.drawing.charts/chartseries/
 ---
 
@@ -52,6 +52,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 |[ insert(index, x_value)](./insert/#int_chartxvalue) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 |[ insert(index, x_value, y_value)](./insert/#int_chartxvalue_chartyvalue) | Inserts the specified X and Y values into the chart series at the specified index. |
 |[ insert(index, x_value, y_value, bubble_size)](./insert/#int_chartxvalue_chartyvalue_float) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
+|[ is_total(index)](./is_total/#int) | Determines whether the data point at the specified index is a total. Applies only to Waterfall charts. |
 |[ remove(index)](./remove/#int) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed. |
 
 ### Examples

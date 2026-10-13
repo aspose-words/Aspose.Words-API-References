@@ -15,7 +15,7 @@ is_root: true
 | Module | Description |
 | --- | --- |
 | [aspose.words](./aspose.words/) | The **aspose.words** module provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
-| [aspose.words.ai](./aspose.words.ai/) | The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing. |
+| [aspose.words.ai](./aspose.words.ai/) | The **Aspose.Words.AI** namespace provides seamless integration with large language models (LLMs) for AI-powered document processing. It supports AI models from providers such as OpenAI, Google Gemini, and Anthropic, as well as on-premise LLM inference through Aspose.LLM. |
 | [aspose.words.bibliography](./aspose.words.bibliography/) | The **Aspose.Words.Bibliography** namespace provides classes that allow to access  a list of bibliography sources available in a document. |
 | [aspose.words.buildingblocks](./aspose.words.buildingblocks/) | The **aspose.words.buildingblocks** module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [aspose.words.comparing](./aspose.words.comparing/) | The **aspose.words.comparing** module provides classes and enumerations that allow to specify additional options when comparing documents. |

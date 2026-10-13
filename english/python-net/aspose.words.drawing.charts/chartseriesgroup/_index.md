@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroup class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeriesGroup class. Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes."
 type: docs
-weight: 350
+weight: 360
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/
 ---
 

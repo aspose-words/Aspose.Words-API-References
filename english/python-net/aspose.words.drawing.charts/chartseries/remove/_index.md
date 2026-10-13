@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "ChartSeries.remove method. Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index"
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.words.drawing.charts/chartseries/remove/
 ---
 

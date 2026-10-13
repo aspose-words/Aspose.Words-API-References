@@ -5,7 +5,7 @@ articleTitle: SummaryLength enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.SummaryLength enumeration. Enumerates possible lengths of summary."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.ai/summarylength/
 ---
 
