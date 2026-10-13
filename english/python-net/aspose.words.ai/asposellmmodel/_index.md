@@ -26,13 +26,9 @@ Aspose.LLM is not a dependency of Aspose.Words. To use this class, install the A
 If it cannot be loaded, the first call to the model throws System.InvalidOperationException.
 
 
-Aspose.LLM has its own license, separate from the Aspose.Words license. You should set it directly,
-the same way as for any other Aspose product, for example:
-```
+Aspose.LLM is a separate package with its own license. You should set it directly,
+the same way as for any other Aspose product.
 
-new Aspose.LLM.License().SetLicense("Aspose.Total.lic");
-
-```
 
 This class does not manage that license itself.
 

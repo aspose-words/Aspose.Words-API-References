@@ -29,8 +29,8 @@ def __init__(self, preset_name: str):
 Shows how to summarize documents with a local model, so the content never leaves the machine.
 
 ```python
-# Aspose.LLM is a separate package with its own license, for example:
-# new Aspose.LLM.License().SetLicense("Aspose.Total.lic");
+# Aspose.LLM is a separate package with its own license. You should set it directly,
+# the same way as for any other Aspose product.
 first_doc = aw.Document(file_name=MY_DIR + "Big document.docx")
 second_doc = aw.Document(file_name=MY_DIR + "Document.docx")
 # Disposing the model releases the local model and its native resources.
