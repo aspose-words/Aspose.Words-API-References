@@ -78,15 +78,15 @@ class DocumentBuilder : public IRunAttrSource,
 | [InsertHtml](./inserthtml/)(const System::String\&, bool) | Inserts an HTML string into the document. |
 | [InsertHtml](./inserthtml/)(const System::String\&, Aspose::Words::HtmlInsertOptions) | Inserts an HTML string into the document. Allows to specify additional options. |
 | [InsertHyperlink](./inserthyperlink/)(const System::String\&, const System::String\&, bool) | Inserts a hyperlink into the document. |
-| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&) | Inserts an image from a **Image** object into the document. The image is inserted inline and at 100% scale. |
+| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&) |  |
 | [InsertImage](./insertimage/)(const System::String\&) | Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](./insertimage/)(const System::SharedPtr\<System::IO::Stream\>\&) | Inserts an image from a stream into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](./insertimage/)(const System::ArrayPtr\<uint8_t\>\&) | Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale. |
-| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&, double, double) | Inserts an inline image from a **Image** object into the document and scales it to the specified size. |
+| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&, double, double) |  |
 | [InsertImage](./insertimage/)(const System::String\&, double, double) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
 | [InsertImage](./insertimage/)(const System::SharedPtr\<System::IO::Stream\>\&, double, double) | Inserts an inline image from a stream into the document and scales it to the specified size. |
 | [InsertImage](./insertimage/)(const System::ArrayPtr\<uint8_t\>\&, double, double) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
-| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a **Image** object at the specified position and size. |
+| [InsertImage](./insertimage/)(const System::SharedPtr\<System::Drawing::Image\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) |  |
 | [InsertImage](./insertimage/)(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a file or URL at the specified position and size. |
 | [InsertImage](./insertimage/)(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a stream at the specified position and size. |
 | [InsertImage](./insertimage/)(const System::ArrayPtr\<uint8_t\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a byte array at the specified position and size. |

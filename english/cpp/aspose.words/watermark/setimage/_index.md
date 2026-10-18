@@ -2,7 +2,7 @@
 title: Aspose::Words::Watermark::SetImage method
 linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Watermark::SetImage method. Adds Image watermark into the document in C++.'
+description: 'How to use SetImage method of Aspose::Words::Watermark class in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words/watermark/setimage/
@@ -10,16 +10,12 @@ url: /cpp/aspose.words/watermark/setimage/
 ## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-Adds Image watermark into the document.
+
 
 ```cpp
 void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::Drawing::Image> &image)
 ```
 
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
 
 ## Examples
 
@@ -54,17 +50,12 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds Image watermark into the document.
+
 
 ```cpp
 void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::Drawing::Image> &image, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
 ```
 
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
-| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
 
 ## Examples
 

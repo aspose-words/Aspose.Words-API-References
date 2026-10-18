@@ -23,4 +23,4 @@ The **Aspose.Words.Rendering** namespace provides classes that allow to customiz
 
 | Enum | Description |
 | --- | --- |
-| [ColorPrintMode](./colorprintmode/) | Specifies how non-colored pages are printed if the device supports color printing. |
+| [ColorPrintMode](./colorprintmode/) | ColorPrintMode enumeration. |

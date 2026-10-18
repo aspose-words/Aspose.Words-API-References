@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ImageData::SetImage method
 linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ImageData::SetImage method. Sets the image that the shape displays in C++.'
+description: 'How to use SetImage method of Aspose::Words::Drawing::ImageData class in C++.'
 type: docs
 weight: 35000
 url: /cpp/aspose.words.drawing/imagedata/setimage/
@@ -10,16 +10,11 @@ url: /cpp/aspose.words.drawing/imagedata/setimage/
 ## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-Sets the image that the shape displays.
+
 
 ```cpp
 void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System::Drawing::Image> &image)
 ```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | const System::SharedPtr\<System::Drawing::Image\>\& | The image object. |
 
 ## See Also
 

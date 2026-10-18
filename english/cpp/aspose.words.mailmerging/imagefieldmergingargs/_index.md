@@ -47,7 +47,7 @@ class ImageFieldMergingArgs : public Aspose::Words::MailMerging::FieldMergingArg
 ## Remarks
 
 
-This event occurs during mail merge when an image mail merge field is encountered in the document. You can respond to this event to return a file name, stream, or an **Image** object to the mail merge engine so it is inserted into the document.
+This event occurs during mail merge when an image mail merge field is encountered in the document. You can respond to this event to return a file name, stream, or an [SKBitmap](../) object to the mail merge engine so it is inserted into the document.
 
 There are three properties available [ImageFileName](./get_imagefilename/), [ImageStream](./get_imagestream/) and [Image](./get_image/) to specify where the image must be taken from. Set only one of these properties.
 

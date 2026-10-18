@@ -2,7 +2,7 @@
 title: Aspose::Words::LowCode::Watermarker::SetImage method
 linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::LowCode::Watermarker::SetImage method. Adds an image watermark into the document from streams with options in C++.'
+description: 'How to use SetImage method of Aspose::Words::LowCode::Watermarker class in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lowcode/watermarker/setimage/
@@ -10,25 +10,11 @@ url: /cpp/aspose.words.lowcode/watermarker/setimage/
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-Adds an image watermark into the document from streams with options.
+
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Drawing::Image> &watermarkImage)
 ```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
-| saveFormat | Aspose::Words::SaveFormat | The save format. |
-| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
-## Remarks
-
-
-If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
-
-If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -39,26 +25,11 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds an image watermark into the document from streams with options.
+
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, Aspose::Words::SaveFormat saveFormat, const System::SharedPtr<System::Drawing::Image> &watermarkImage, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
 ```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
-| saveFormat | Aspose::Words::SaveFormat | The save format. |
-| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
-| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
-## Remarks
-
-
-If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
-
-If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -130,25 +101,11 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-Adds an image watermark into the document from streams with options.
+
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Drawing::Image> &watermarkImage)
 ```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
-| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
-## Remarks
-
-
-If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
-
-If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -159,26 +116,11 @@ If the output format is TIFF, the output will be saved as a single multi-frame T
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-Adds an image watermark into the document from streams with options.
+
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Drawing::Image> &watermarkImage, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
 ```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
-| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
-| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
-## Remarks
-
-
-If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
-
-If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 

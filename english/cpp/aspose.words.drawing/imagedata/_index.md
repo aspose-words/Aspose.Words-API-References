@@ -56,12 +56,12 @@ class ImageData : public IBorderAttrSource
 | [set_ImageBytes](./set_imagebytes/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::Drawing::ImageData::get_ImageBytes](./get_imagebytes/). |
 | [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ImageData::get_SourceFullName](./get_sourcefullname/). |
 | [set_Title](./set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ImageData::get_Title](./get_title/). |
-| [SetImage](./setimage/)(const System::SharedPtr\<System::Drawing::Image\>\&) | Sets the image that the shape displays. |
+| [SetImage](./setimage/)(const System::SharedPtr\<System::Drawing::Image\>\&) |  |
 | [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\>\&) | Sets the image that the shape displays. |
 | [SetImage](./setimage/)(const System::String\&) | Sets the image that the shape displays. |
 | [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\>\&) |  |
 | [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
-| [ToImage](./toimage/)() | Gets the image stored in the shape as a **Image** object. |
+| [ToImage](./toimage/)() | Gets the image stored in the shape as a [SKBitmap](../) object. |
 | [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
 | static [Type](./type/)() |  |
 ## Remarks
