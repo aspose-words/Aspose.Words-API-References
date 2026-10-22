@@ -5,7 +5,7 @@ articleTitle: ChartSeries class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeries class. Represents chart series properties"
 type: docs
-weight: 320
+weight: 330
 url: /nodejs-net/aspose.words.drawing.charts/chartseries/
 ---
 
@@ -50,6 +50,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 |[ insert(index, xValue)](./insert/#number_chartxvalue) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 |[ insert(index, xValue, yValue)](./insert/#number_chartxvalue_chartyvalue) | Inserts the specified X and Y values into the chart series at the specified index. |
 |[ insert(index, xValue, yValue, bubbleSize)](./insert/#number_chartxvalue_chartyvalue_number) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
+|[ isTotal(index)](./isTotal/#number) | Determines whether the data point at the specified index is a total. Applies only to Waterfall charts. |
 |[ remove(index)](./remove/#number) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed. |
 
 ### Examples

@@ -5,7 +5,7 @@ articleTitle: ChartSeriesCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeriesCollection class. Represents collection of a [ChartSeries](../chartseries/)"
 type: docs
-weight: 330
+weight: 340
 url: /nodejs-net/aspose.words.drawing.charts/chartseriescollection/
 ---
 

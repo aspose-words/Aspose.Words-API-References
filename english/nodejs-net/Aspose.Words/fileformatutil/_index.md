@@ -43,7 +43,11 @@ let info = aw.FileFormatUtil.detectFileFormat(base.myDir + "Document.html");
 expect(info.loadFormat).toEqual(aw.LoadFormat.Html);
 
 // The Encoding property is used only when we create a FileFormatInfo object for an html document.
-expect(info.encoding).toEqual("windows-1252");
+const isWindows = process.platform === 'win32';
+if (isWindows)
+  expect(info.encoding).toEqual("windows-1252");
+else
+  expect(info.encoding).toEqual("iso-8859-1");
 ```
 
 ### See Also

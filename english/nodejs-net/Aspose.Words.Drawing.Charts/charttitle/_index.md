@@ -5,7 +5,7 @@ articleTitle: ChartTitle class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartTitle class. Provides access to the chart title properties"
 type: docs
-weight: 390
+weight: 400
 url: /nodejs-net/aspose.words.drawing.charts/charttitle/
 ---
 

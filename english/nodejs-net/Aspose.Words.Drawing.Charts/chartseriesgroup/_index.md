@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroup class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeriesGroup class. Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes."
 type: docs
-weight: 340
+weight: 350
 url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/
 ---
 
