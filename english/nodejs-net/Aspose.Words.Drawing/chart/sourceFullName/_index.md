@@ -5,7 +5,7 @@ articleTitle: sourceFullName property
 second_title: Aspose.Words for Node.js
 description: "Chart.sourceFullName property. Gets the path and name of an xls/xlsx file this chart is linked to."
 type: docs
-weight: 100
+weight: 110
 url: /nodejs-net/aspose.words.drawing/chart/sourceFullName/
 ---
 

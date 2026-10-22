@@ -30,7 +30,7 @@ Aspose.Words updates this property when you call [Document.updateWordCount()](..
 Shows how to work with document properties in the "Content" category.
 
 ```js
-test('Content', () => {
+testWindows('Content', () => {
   let doc = new aw.Document(base.myDir + "Paragraphs.docx");
   let properties = doc.builtInDocumentProperties;
 

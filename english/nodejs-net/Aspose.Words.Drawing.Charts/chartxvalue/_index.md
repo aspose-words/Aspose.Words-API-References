@@ -5,7 +5,7 @@ articleTitle: ChartXValue class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartXValue class. Represents an X value for a chart series."
 type: docs
-weight: 410
+weight: 420
 url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/
 ---
 

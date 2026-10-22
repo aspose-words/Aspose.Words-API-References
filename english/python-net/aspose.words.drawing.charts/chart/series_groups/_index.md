@@ -5,7 +5,7 @@ articleTitle: series_groups property
 second_title: Aspose.Words for Python
 description: "Chart.series_groups property. Provides access to a series group collection of this chart."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing.charts/chart/series_groups/
 ---
 

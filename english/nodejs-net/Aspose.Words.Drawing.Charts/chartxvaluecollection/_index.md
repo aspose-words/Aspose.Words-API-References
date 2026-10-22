@@ -5,7 +5,7 @@ articleTitle: ChartXValueCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartXValueCollection class. Represents a collection of X values for a chart series."
 type: docs
-weight: 420
+weight: 430
 url: /nodejs-net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 
