@@ -3,18 +3,22 @@ title: Aspose.Words.AI module
 linktitle: Aspose.Words.AI module
 articleTitle: Aspose.Words.AI module
 second_title: Aspose.Words for Node.js
-description: "The Aspose.Words.AI namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini, providing robust support for AI-powered document processing."
+description: "The Aspose.Words.AI namespace provides seamless integration with large language models (LLMs) for AI-powered document processing"
 type: docs
 weight: 20
 url: /nodejs-net/aspose.words.ai/
 ---
 
-The **Aspose.Words.AI** namespace enables seamless integration with large language models (LLMs), such as OpenAI and Gemini,
-providing robust support for AI-powered document processing.
+The **Aspose.Words.AI** namespace provides seamless integration with large language models (LLMs)
+for AI-powered document processing. It supports AI models from providers such as OpenAI, Google Gemini,
+and Anthropic, as well as on-premise LLM inference through Aspose.LLM.
 
-Classes within this namespace allow to leverage advanced AI capabilities to perform tasks like summarizing, translating, and analyzing content of documents loaded into Aspose.Words.
+Classes within this namespace allow to leverage advanced AI capabilities to perform tasks such as
+summarizing, translating, checking grammar, and analyzing the content of documents loaded into Aspose.Words.
 
-This functionality extends the power of document automation, facilitating efficient, high-quality text transformations that support a wide range of use cases.
+Both cloud-based and on-premise AI models can be used to extend document automation workflows,
+enabling efficient and high-quality text processing while providing flexibility in how document content
+is processed and where it is hosted.
 
 
 

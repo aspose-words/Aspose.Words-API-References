@@ -56,7 +56,7 @@ Shows how to load a document using temporary files.
 ```js
 // Note that such an approach can reduce memory usage but degrades speed
 const loadOptions = new aw.Loading.LoadOptions();
-loadOptions.tempFolder = "C:\\Temp\\";
+loadOptions.tempFolder = os.tmpdir();
 
 // Ensure that the directory exists and load
 if (!fs.existsSync(loadOptions.tempFolder)){

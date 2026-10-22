@@ -5,7 +5,7 @@ articleTitle: ChartStyle enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartStyle enumeration. Specifies predefined styles of a chart."
 type: docs
-weight: 380
+weight: 390
 url: /nodejs-net/aspose.words.drawing.charts/chartstyle/
 ---
 

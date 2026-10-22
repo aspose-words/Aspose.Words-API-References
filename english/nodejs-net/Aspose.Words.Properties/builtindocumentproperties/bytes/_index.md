@@ -32,7 +32,7 @@ Aspose.Words does not update this property.
 Shows how to work with document properties in the "Content" category.
 
 ```js
-test('Content', () => {
+testWindows('Content', () => {
   let doc = new aw.Document(base.myDir + "Paragraphs.docx");
   let properties = doc.builtInDocumentProperties;
 
