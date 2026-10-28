@@ -4,7 +4,7 @@ linktitle: get_CurrentSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_CurrentSection method. Gets the section that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 13000
+weight: 78000
 url: /cpp/aspose.words/documentbuilder/get_currentsection/
 ---
 ## DocumentBuilder::get_CurrentSection method
@@ -16,12 +16,11 @@ Gets the section that is currently selected in this [DocumentBuilder](../).
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::DocumentBuilder::get_CurrentSection()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a floating image, and specify its position and size.
 
-Shows how to insert a floating image, and specify its position and size. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,10 +50,8 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
-
 ## See Also
 
-* Class [Section](../../section/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

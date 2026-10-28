@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/shaperenderer/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Rendering::ShapeRenderer::GetType() const override
+const System::TypeInfo & Aspose::Words::Rendering::ShapeRenderer::GetType() const override
 ```
 
 ## See Also

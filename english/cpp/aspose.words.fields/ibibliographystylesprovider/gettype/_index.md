@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ibibliographystylesprovider/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::IBibliographyStylesProvider::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::IBibliographyStylesProvider::GetType() const override
 ```
 
 ## See Also

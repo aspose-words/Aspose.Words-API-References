@@ -4,7 +4,7 @@ linktitle: get_Bytes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes method. Represents an estimate of the number of bytes in the document in C++.'
 type: docs
-weight: 3000
+weight: 36081
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_bytes/
 ---
 ## BuiltInDocumentProperties::get_Bytes method
@@ -21,7 +21,7 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes()
 
 Microsoft Word does not always set this property.
 
-Aspose.Words does not update this property. 
+Aspose.Words does not update this property.
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

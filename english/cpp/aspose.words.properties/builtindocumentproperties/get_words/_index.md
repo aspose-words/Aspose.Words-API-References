@@ -4,7 +4,7 @@ linktitle: get_Words
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Words method. Represents an estimate of the number of words in the document in C++.'
 type: docs
-weight: 33000
+weight: 36948
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_words/
 ---
 ## BuiltInDocumentProperties::get_Words method
@@ -20,12 +20,11 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Words()
 
 
 Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/).
-
 ## Examples
 
 
+Shows how to update all list labels in a document.
 
-Shows how to update all list labels in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ doc->UpdateWordCount(true);
 
 ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Lines());
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

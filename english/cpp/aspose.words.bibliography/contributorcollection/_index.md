@@ -20,6 +20,9 @@ class ContributorCollection : public System::Collections::Generic::IEnumerable<S
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Artist](./get_artist/)() | Gets or sets the artist of a source. |
 | [get_Author](./get_author/)() | Gets or sets the author of a source. |
 | [get_BookAuthor](./get_bookauthor/)() | Gets or sets the book author of a source. |
@@ -36,31 +39,27 @@ class ContributorCollection : public System::Collections::Generic::IEnumerable<S
 | [get_Producer](./get_producer/)() | Gets or sets the producer of a source. |
 | [get_Translator](./get_translator/)() | Gets or sets the translator of a source. |
 | [get_Writer](./get_writer/)() | Gets or sets the writer of a source. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Artist](./set_artist/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Artist](./get_artist/). |
-| [set_Author](./set_author/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Author](./get_author/). |
-| [set_BookAuthor](./set_bookauthor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_BookAuthor](./get_bookauthor/). |
-| [set_Compiler](./set_compiler/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Compiler](./get_compiler/). |
-| [set_Composer](./set_composer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Composer](./get_composer/). |
-| [set_Conductor](./set_conductor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Conductor](./get_conductor/). |
-| [set_Counsel](./set_counsel/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Counsel](./get_counsel/). |
-| [set_Director](./set_director/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Director](./get_director/). |
-| [set_Editor](./set_editor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Editor](./get_editor/). |
-| [set_Interviewee](./set_interviewee/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Interviewee](./get_interviewee/). |
-| [set_Interviewer](./set_interviewer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Interviewer](./get_interviewer/). |
-| [set_Inventor](./set_inventor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Inventor](./get_inventor/). |
-| [set_Performer](./set_performer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Performer](./get_performer/). |
-| [set_Producer](./set_producer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Producer](./get_producer/). |
-| [set_Translator](./set_translator/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Translator](./get_translator/). |
-| [set_Writer](./set_writer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Writer](./get_writer/). |
-| static [Type](./type/)() |  |
-
+| [set_Artist](./set_artist/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the artist of a source. |
+| [set_Author](./set_author/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the author of a source. |
+| [set_BookAuthor](./set_bookauthor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the book author of a source. |
+| [set_Compiler](./set_compiler/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the compiler of a source. |
+| [set_Composer](./set_composer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the composer of a source. |
+| [set_Conductor](./set_conductor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the conductor of a source. |
+| [set_Counsel](./set_counsel/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the counsel of a source. |
+| [set_Director](./set_director/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the director of a source. |
+| [set_Editor](./set_editor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the editor of a source. |
+| [set_Interviewee](./set_interviewee/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the interviewee of a source. |
+| [set_Interviewer](./set_interviewer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the interviewer of a source. |
+| [set_Inventor](./set_inventor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the inventor of a source. |
+| [set_Performer](./set_performer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the performer of a source. |
+| [set_Producer](./set_producer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the producer of a source. |
+| [set_Translator](./set_translator/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the translator of a source. |
+| [set_Writer](./set_writer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the writer of a source. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -153,7 +152,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

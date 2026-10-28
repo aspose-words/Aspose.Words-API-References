@@ -4,7 +4,7 @@ linktitle: get_Frameset
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_Frameset method. Returns a Frameset instance if this document represents a frames page in C++.'
 type: docs
-weight: 27000
+weight: 117000
 url: /cpp/aspose.words/document/get_frameset/
 ---
 ## Document::get_Frameset method
@@ -16,12 +16,14 @@ Returns a [Frameset](./) instance if this document represents a frames page.
 System::SharedPtr<Aspose::Words::Framesets::Frameset> Aspose::Words::Document::get_Frameset() const
 ```
 
+## Remarks
 
+ If the document is not framed, the property has the **null** value. 
 ## Examples
 
 
+Shows how to access frames on-page.
 
-Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
@@ -38,10 +40,8 @@ ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameL
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
-
 ## See Also
 
-* Class [Frameset](../../../aspose.words.framesets/frameset/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

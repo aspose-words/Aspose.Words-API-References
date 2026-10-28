@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::TextPath class
 linktitle: TextPath
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::TextPath class. Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::TextPath class. Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the Working with Shapes documentation article in C++.'
 type: docs
 weight: 16000
 url: /cpp/aspose.words.drawing/textpath/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing/textpath/
 ## TextPath class
 
 
-Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
+Defines the text and formatting of the text path (of a WordArt object). 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class TextPath : public System::Object
@@ -20,6 +21,9 @@ class TextPath : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Bold](./get_bold/)() | True if the font is formatted as bold. |
 | [get_FitPath](./get_fitpath/)() | Defines whether the text fits the path of a shape. |
 | [get_FitShape](./get_fitshape/)() | Defines whether the text fits bounding box of a shape. |
@@ -40,16 +44,14 @@ class TextPath : public System::Object
 | [get_Trim](./get_trim/)() | Determines whether extra space is removed above and below the text. |
 | [get_Underline](./get_underline/)() | True if the font is underlined. |
 | [get_XScale](./get_xscale/)() | Determines whether a straight textpath will be used instead of the shape path. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_Bold](./set_bold/)(bool) | True if the font is formatted as bold. |
 | [set_FitPath](./set_fitpath/)(bool) | Defines whether the text fits the path of a shape. |
 | [set_FitShape](./set_fitshape/)(bool) | Defines whether the text fits bounding box of a shape. |
-| [set_FontFamily](./set_fontfamily/)(const System::String\&) | Defines the family of the textpath font. |
+| [set_FontFamily](./set_fontfamily/)(const System::String \&) | Defines the family of the textpath font. |
 | [set_Italic](./set_italic/)(bool) | True if the font is formatted as italic. |
 | [set_Kerning](./set_kerning/)(bool) | Determines whether kerning is turned on. |
 | [set_On](./set_on/)(bool) | Defines whether the text is displayed. |
-| [set_ReverseRows](./set_reverserows/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_ReverseRows](./get_reverserows/). |
+| [set_ReverseRows](./set_reverserows/)(bool) | Determines whether the layout order of rows is reversed. |
 | [set_RotateLetters](./set_rotateletters/)(bool) | Determines whether the letters of the text are rotated. |
 | [set_SameLetterHeights](./set_sameletterheights/)(bool) | Determines whether all letters will be the same height regardless of initial case. |
 | [set_Shadow](./set_shadow/)(bool) | Defines whether a shadow is applied to the text on a text path. |
@@ -57,17 +59,15 @@ class TextPath : public System::Object
 | [set_SmallCaps](./set_smallcaps/)(bool) | True if the font is formatted as small capital letters. |
 | [set_Spacing](./set_spacing/)(double) | Defines the amount of spacing for text. 1 means 100%. |
 | [set_StrikeThrough](./set_strikethrough/)(bool) | True if the font is formatted as strikethrough text. |
-| [set_Text](./set_text/)(const System::String\&) | Defines the text of the text path. |
+| [set_Text](./set_text/)(const System::String \&) | Defines the text of the text path. |
 | [set_TextPathAlignment](./set_textpathalignment/)(Aspose::Words::Drawing::TextPathAlignment) | Defines the alignment of text. |
 | [set_Trim](./set_trim/)(bool) | Determines whether extra space is removed above and below the text. |
 | [set_Underline](./set_underline/)(bool) | True if the font is underlined. |
-| [set_XScale](./set_xscale/)(bool) | Setter for [Aspose::Words::Drawing::TextPath::get_XScale](./get_xscale/). |
-| static [Type](./type/)() |  |
+| [set_XScale](./set_xscale/)(bool) | Determines whether a straight textpath will be used instead of the shape path. |
 ## Remarks
 
 
 Use the [TextPath](../shape/get_textpath/) property to access WordArt properties of a shape. You do not create instances of the [TextPath](./) class directly.
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

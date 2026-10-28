@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/bibliography/set_bibliographystyle/
 Sets a string that represents the name of the active style to use for a bibliography.
 
 ```cpp
-void Aspose::Words::Bibliography::Bibliography::set_BibliographyStyle(const System::String &value)
+void Aspose::Words::Bibliography::Bibliography::set_BibliographyStyle(const System::String & value)
 ```
 
 ## See Also

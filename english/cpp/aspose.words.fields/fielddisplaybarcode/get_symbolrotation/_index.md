@@ -4,24 +4,23 @@ linktitle: get_SymbolRotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolRotation method. Gets or sets the rotation of the barcode symbol. Valid values are [0, 3] in C++.'
 type: docs
-weight: 14000
+weight: 16934
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_symbolrotation/
 ---
 ## FieldDisplayBarcode::get_SymbolRotation method
 
 
-Gets or sets the rotation of the barcode symbol. Valid values are [0, 3].
+Gets or sets the rotation of the barcode symbol. Valid values are [0, 3]
 
 ```cpp
 System::String Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolRotation()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a DISPLAYBARCODE field, and set its properties.
 
-Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 
 doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDisplayBarcode](../)

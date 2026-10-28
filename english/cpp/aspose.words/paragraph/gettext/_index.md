@@ -20,20 +20,17 @@ System::String Aspose::Words::Paragraph::GetText() override
 
 
 The text of all child nodes is concatenated and the end of paragraph character is appended as follows:
-
 * If the paragraph is the last paragraph of [Body](../../body/), then [SectionBreak](../../controlchar/sectionbreak/) (\x000c) is appended.
 * If the paragraph is the last paragraph of [Cell](../../../aspose.words.tables/cell/), then [Cell](../../controlchar/cell/) (\x0007) is appended.
 * For all other paragraphs [ParagraphBreak](../../controlchar/paragraphbreak/) (\r) is appended.
 
 
-
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
-
 ## Examples
 
 
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
-Shows how to add, update and delete child nodes in a [CompositeNode](../../compositenode/)'s collection of children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -79,7 +76,6 @@ paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

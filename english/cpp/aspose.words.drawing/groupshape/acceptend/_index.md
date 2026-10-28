@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/groupshape/acceptend/
 ## GroupShape::AcceptEnd method
 
 
-Accepts a visitor for visiting the end of the [GroupShape](../).
+Accepts a visitor for visiting the end of the GroupShape.
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Drawing::GroupShape::AcceptEnd(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
@@ -24,11 +24,8 @@ Aspose::Words::VisitorAction Aspose::Words::Drawing::GroupShape::AcceptEnd(Syste
 ### ReturnValue
 
 The action to be taken by the visitor.
-
 ## See Also
 
-* Enum [VisitorAction](../../../aspose.words/visitoraction/)
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_JpegQuality
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_JpegQuality method. Gets or sets a value determining the quality of the generated JPEG images in C++.'
 type: docs
-weight: 8000
+weight: 21192
 url: /cpp/aspose.words.saving/imagesaveoptions/get_jpegquality/
 ---
 ## ImageSaveOptions::get_JpegQuality method
@@ -24,12 +24,11 @@ Has effect only when saving to JPEG.
 Use this property to get or set the quality of generated images when saving in JPEG format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
 
 The default value is 95.
-
 ## Examples
 
 
+Shows how to configure compression while saving a document as a JPEG.
 
-Shows how to configure compression while saving a document as a JPEG. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighCompression.jp
 imageOptions->set_JpegQuality(100);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 ```
-
 ## See Also
 
 * Class [ImageSaveOptions](../)

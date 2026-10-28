@@ -13,7 +13,7 @@ url: /cpp/aspose.words/warninginfocollection/virtualized_iterator_element/
 
 
 ```cpp
-using Aspose::Words::WarningInfoCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::WarningInfoCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

@@ -20,12 +20,11 @@ void Aspose::Words::TabStopCollection::RemoveByPosition(double position)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | double | The position (in points) of the tab stop to remove. |
-
 ## Examples
 
 
+Shows how to modify the position of the right tab stop in TOC related paragraphs.
 
-Shows how to modify the position of the right tab stop in TOC related paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table of contents.docx"));
 
@@ -45,7 +44,6 @@ for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNo
 
 doc->Save(get_ArtifactsDir() + u"Styles.ChangeTocsTabStops.docx");
 ```
-
 ## See Also
 
 * Class [TabStopCollection](../)

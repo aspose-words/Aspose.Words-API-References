@@ -13,7 +13,7 @@ url: /cpp/aspose.words/tabstop/is/
 
 
 ```cpp
-virtual bool Aspose::Words::TabStop::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::TabStop::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

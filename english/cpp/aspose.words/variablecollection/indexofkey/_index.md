@@ -13,23 +13,22 @@ url: /cpp/aspose.words/variablecollection/indexofkey/
 Returns the zero-based index of the specified document variable in the collection.
 
 ```cpp
-int32_t Aspose::Words::VariableCollection::IndexOfKey(const System::String &name)
+int32_t Aspose::Words::VariableCollection::IndexOfKey(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the variable. |
+| name | const System::String \& | The case-insensitive name of the variable. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
-
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -99,7 +98,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

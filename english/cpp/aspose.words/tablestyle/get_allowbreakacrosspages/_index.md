@@ -4,7 +4,7 @@ linktitle: get_AllowBreakAcrossPages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_AllowBreakAcrossPages method. Gets or sets a flag indicating whether text in a table row is allowed to split across a page break in C++.'
 type: docs
-weight: 3000
+weight: 18189
 url: /cpp/aspose.words/tablestyle/get_allowbreakacrosspages/
 ---
 ## TableStyle::get_AllowBreakAcrossPages method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words/tablestyle/get_allowbreakacrosspages/
 Gets or sets a flag indicating whether text in a table row is allowed to split across a page break.
 
 ```cpp
-bool Aspose::Words::TableStyle::get_AllowBreakAcrossPages()
+_Bool Aspose::Words::TableStyle::get_AllowBreakAcrossPages()
 ```
 
+## Remarks
 
+ The default value is **true**. 
 ## Examples
 
 
+Shows how to create custom style settings for the table.
 
-Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +59,6 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
 doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
-
 ## See Also
 
 * Class [TableStyle](../)

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Drawing::Charts::ChartYValue class in C++.'
 type: docs
-weight: 4000
+weight: 13000
 url: /cpp/aspose.words.drawing.charts/chartyvalue/type/
 ---
 ## ChartYValue::Type method

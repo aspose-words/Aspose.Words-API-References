@@ -4,7 +4,7 @@ linktitle: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_VerticalAlignment method. Returns or sets the vertical alignment of text in the cell in C++.'
 type: docs
-weight: 13000
+weight: 44000
 url: /cpp/aspose.words.tables/cellformat/get_verticalalignment/
 ---
 ## CellFormat::get_VerticalAlignment method
@@ -16,12 +16,11 @@ Returns or sets the vertical alignment of text in the cell.
 Aspose::Words::Tables::CellVerticalAlignment Aspose::Words::Tables::CellFormat::get_VerticalAlignment()
 ```
 
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,10 +79,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
-
 ## See Also
 
-* Enum [CellVerticalAlignment](../../cellverticalalignment/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

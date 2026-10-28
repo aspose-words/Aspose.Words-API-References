@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/physicalfontinfo/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fonts::PhysicalFontInfo::GetType() const override
+const System::TypeInfo & Aspose::Words::Fonts::PhysicalFontInfo::GetType() const override
 ```
 
 ## See Also

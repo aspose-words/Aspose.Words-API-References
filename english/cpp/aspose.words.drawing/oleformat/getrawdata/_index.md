@@ -16,12 +16,11 @@ Gets OLE object raw data.
 System::ArrayPtr<uint8_t> Aspose::Words::Drawing::OleFormat::GetRawData()
 ```
 
-
 ## Examples
 
 
+Shows how to access the raw data of an embedded OLE object.
 
-Shows how to access the raw data of an embedded OLE object. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE objects.docx"));
 
@@ -37,7 +36,6 @@ for (auto&& shape : System::IterateOver<Aspose::Words::Drawing::Shape>(doc->GetC
     }
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/imagesavingargs/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::ImageSavingArgs::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::ImageSavingArgs::GetType() const override
 ```
 
 ## See Also

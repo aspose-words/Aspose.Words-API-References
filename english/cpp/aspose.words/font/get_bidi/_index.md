@@ -4,7 +4,7 @@ linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Bidi method. Specifies whether the contents of this run shall have right-to-left characteristics in C++.'
 type: docs
-weight: 5000
+weight: 59072
 url: /cpp/aspose.words/font/get_bidi/
 ---
 ## Font::get_Bidi method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_bidi/
 Specifies whether the contents of this run shall have right-to-left characteristics.
 
 ```cpp
-bool Aspose::Words::Font::get_Bidi()
+_Bool Aspose::Words::Font::get_Bidi()
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ This property, when on, shall not be used with strongly left-to-right text. Any 
 When the contents of this run are displayed, all characters shall be treated as complex script characters for formatting purposes. This means that [BoldBi](../get_boldbi/), [ItalicBi](../get_italicbi/), [SizeBi](../get_sizebi/) and a corresponding font name will be used when rendering this run.
 
 Also, when the contents of this run are displayed, this property acts as a right-to-left override for characters which are classified as "weak types" and "neutral types".
-
 ## Examples
 
 
+Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 
-Shows how to define separate sets of font settings for right-to-left, and right-to-left text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ builder->Write(u" Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

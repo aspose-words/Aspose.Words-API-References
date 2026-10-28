@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/digitalsignaturedetails/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::DigitalSignatureDetails::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::DigitalSignatureDetails::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

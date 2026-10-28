@@ -4,7 +4,7 @@ linktitle: get_Leader
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStop::get_Leader method. Gets or sets the type of the leader line displayed under the tab character in C++.'
 type: docs
-weight: 6000
+weight: 10715
 url: /cpp/aspose.words/tabstop/get_leader/
 ---
 ## TabStop::get_Leader method
@@ -16,12 +16,11 @@ Gets or sets the type of the leader line displayed under the tab character.
 Aspose::Words::TabLeader Aspose::Words::TabStop::get_Leader() const
 ```
 
-
 ## Examples
 
 
+Shows how to modify the position of the right tab stop in TOC related paragraphs.
 
-Shows how to modify the position of the right tab stop in TOC related paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table of contents.docx"));
 
@@ -41,10 +40,8 @@ for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNo
 
 doc->Save(get_ArtifactsDir() + u"Styles.ChangeTocsTabStops.docx");
 ```
-
 ## See Also
 
-* Enum [TabLeader](../../tableader/)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

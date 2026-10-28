@@ -4,7 +4,7 @@ linktitle: get_RevisionBarsWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth method. Gets or sets width of revision bars, points in C++.'
 type: docs
-weight: 16000
+weight: 22785
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarswidth/
 ---
 ## RevisionOptions::get_RevisionBarsWidth method
@@ -16,12 +16,11 @@ Gets or sets width of revision bars, points.
 float Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth() const
 ```
 
-
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -65,7 +64,6 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
 * Class [RevisionOptions](../)

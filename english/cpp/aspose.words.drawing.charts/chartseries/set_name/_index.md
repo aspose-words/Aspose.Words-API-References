@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/set_name/
 Sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::set_Name(const System::String &value)
+void Aspose::Words::Drawing::Charts::ChartSeries::set_Name(const System::String & value)
 ```
 
 ## See Also

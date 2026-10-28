@@ -4,7 +4,7 @@ linktitle: get_SubAddress
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldHyperlink::get_SubAddress method. Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps in C++.'
 type: docs
-weight: 6000
+weight: 9750
 url: /cpp/aspose.words.fields/fieldhyperlink/get_subaddress/
 ---
 ## FieldHyperlink::get_SubAddress method
@@ -16,12 +16,11 @@ Gets or sets a location in the file, such as a bookmark, where this hyperlink ju
 System::String Aspose::Words::Fields::FieldHyperlink::get_SubAddress()
 ```
 
-
 ## Examples
 
 
+Shows how to use HYPERLINK fields to link to documents in the local file system.
 
-Shows how to use HYPERLINK fields to link to documents in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ field->set_IsImageMap(false);
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.HYPERLINK.docx");
 ```
-
 ## See Also
 
 * Class [FieldHyperlink](../)

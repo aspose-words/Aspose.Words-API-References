@@ -4,7 +4,7 @@ linktitle: get_LocaleId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_LocaleId method. Gets or sets the locale identifier (language) of the formatted characters in C++.'
 type: docs
-weight: 22000
+weight: 59378
 url: /cpp/aspose.words/font/get_localeid/
 ---
 ## Font::get_LocaleId method
@@ -16,12 +16,14 @@ Gets or sets the locale identifier (language) of the formatted characters.
 int32_t Aspose::Words::Font::get_LocaleId()
 ```
 
+## Remarks
 
+ For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx 
 ## Examples
 
 
+Shows how to set the locale of the text that we are adding with a document builder.
 
-Shows how to set the locale of the text that we are adding with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +39,6 @@ builder->Writeln(u"Привет!");
 
 doc->Save(get_ArtifactsDir() + u"Font.LocaleId.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

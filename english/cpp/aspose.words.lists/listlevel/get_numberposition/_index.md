@@ -4,7 +4,7 @@ linktitle: get_NumberPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_NumberPosition method. Returns or sets the position (in points) of the number or bullet for the list level in C++.'
 type: docs
-weight: 13000
+weight: 22783
 url: /cpp/aspose.words.lists/listlevel/get_numberposition/
 ---
 ## ListLevel::get_NumberPosition method
@@ -20,12 +20,11 @@ double Aspose::Words::Lists::ListLevel::get_NumberPosition() const
 
 
 [NumberPosition](./) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,7 +76,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

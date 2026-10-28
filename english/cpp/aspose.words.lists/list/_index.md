@@ -2,7 +2,7 @@
 title: Aspose::Words::Lists::List class
 linktitle: List
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Lists::List class. Represents formatting of a list. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Lists::List class. Represents formatting of a list. To learn more, visit the Working with Lists documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.lists/list/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.lists/list/
 ## List class
 
 
-Represents formatting of a list. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
+Represents formatting of a list. 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::List>>
@@ -20,10 +21,15 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 
 | Method | Description |
 | --- | --- |
-| [CompareTo](./compareto/)(const System::SharedPtr\<System::Object\>\&) | Compares the specified object to the current object. |
 | [CompareTo](./compareto/)(System::SharedPtr\<Aspose::Words::Lists::List\>) override | Compares the specified list to the current list. |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Compares with the specified list. |
+| [CompareTo](./compareto/)(const System::SharedPtr\<System::Object\> \&) | Compares the specified object to the current object. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
+| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\> \&) | Compares with the specified list. |
+| [GetHashCode](./gethashcode/)() const override | Calculates hash code for this list object. |
+| [GetType](./gettype/)() const override |  |
+| [HasSameTemplate](./hassametemplate/)(const System::SharedPtr\<Aspose::Words::Lists::List\> \&) | Returns true if the current list and the given list are created from the same template. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [get_IsListStyleDefinition](./get_isliststyledefinition/)() | Returns **true** if this list is a definition of a list style. |
 | [get_IsListStyleReference](./get_isliststylereference/)() | Returns **true** if this list is a reference to a list style. |
@@ -32,12 +38,7 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 | [get_ListId](./get_listid/)() const | Gets the unique identifier of the list. |
 | [get_ListLevels](./get_listlevels/)() | Gets the collection of list levels for this list. |
 | [get_Style](./get_style/)() | Gets the list style that this list references or defines. |
-| [GetHashCode](./gethashcode/)() const override | Calculates hash code for this list object. |
-| [GetType](./gettype/)() const override |  |
-| [HasSameTemplate](./hassametemplate/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Returns true if the current list and the given list are created from the same template. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_IsRestartAtEachSection](./set_isrestartateachsection/)(bool) | Setter for [Aspose::Words::Lists::List::get_IsRestartAtEachSection](./get_isrestartateachsection/). |
-| static [Type](./type/)() |  |
+| [set_IsRestartAtEachSection](./set_isrestartateachsection/)(bool) | Specifies whether list should be restarted at each section. Default value is **false**. |
 ## Remarks
 
 
@@ -50,12 +51,11 @@ To create a new list, use the Add methods of the [ListCollection](../listcollect
 To modify formatting of a list, use [ListLevel](../listlevel/) objects found in the [ListLevels](./get_listlevels/) collection.
 
 To apply or remove list formatting from a paragraph, use [ListFormat](../listformat/).
-
 ## Examples
 
 
+Shows how to work with list levels.
 
-Shows how to work with list levels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -102,8 +102,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -156,8 +156,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows how to restart numbering in a list by copying a list.
 
-Shows how to restart numbering in a list by copying a list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -194,7 +194,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

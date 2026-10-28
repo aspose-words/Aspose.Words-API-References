@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/downsampleoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::DownsampleOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::DownsampleOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

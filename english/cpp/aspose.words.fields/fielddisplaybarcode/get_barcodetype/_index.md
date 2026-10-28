@@ -4,7 +4,7 @@ linktitle: get_BarcodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeType method. Gets or sets the barcode type (QR, etc.) in C++.'
 type: docs
-weight: 4000
+weight: 16268
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_barcodetype/
 ---
 ## FieldDisplayBarcode::get_BarcodeType method
@@ -16,12 +16,11 @@ Gets or sets the barcode type (QR, etc.)
 System::String Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeType()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a DISPLAYBARCODE field, and set its properties.
 
-Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 
 doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDisplayBarcode](../)

@@ -13,30 +13,32 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/
 Contains information about a font substitution warning that Aspose.Words issued during document loading or saving.
 
 ```cpp
-class FontSubstitutionWarningInfo : public Aspose::Words::WarningInfo
+class FontSubstitutionWarningInfo : public WarningInfo
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [get_Description](../warninginfo/get_description/)() const | Returns the description of the warning. |
-| [get_Reason](./get_reason/)() const | [Font](../font/) substitution reason. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
+| [get_Reason](./get_reason/)() const | Font substitution reason. |
 | [get_RequestedBold](./get_requestedbold/)() const | Indicates whether bold style was requested. |
 | [get_RequestedFamilyName](./get_requestedfamilyname/)() const | Requested font family name. |
 | [get_RequestedItalic](./get_requesteditalic/)() const | Indicates whether italic style was requested. |
 | [get_ResolvedFont](./get_resolvedfont/)() const | Resolved font. |
+| [GetType](../warninginfo/gettype/)() const override |  |
+| [Is](../warninginfo/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../warninginfo/type/)() |  |
+| [get_Description](../warninginfo/get_description/)() const | Returns the description of the warning. |
 | [get_Source](../warninginfo/get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](../warninginfo/get_warningtype/)() const | Returns the type of the warning. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -60,7 +62,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Class [WarningInfo](../warninginfo/)

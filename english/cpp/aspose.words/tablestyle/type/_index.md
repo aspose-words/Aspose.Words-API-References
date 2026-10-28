@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::TableStyle class in C++.'
 type: docs
-weight: 1000
+weight: 18063
 url: /cpp/aspose.words/tablestyle/type/
 ---
 ## TableStyle::Type method

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Properties::BuiltInDocumentProperties class in C++.'
 type: docs
-weight: 1000
+weight: 36027
 url: /cpp/aspose.words.properties/builtindocumentproperties/type/
 ---
 ## BuiltInDocumentProperties::Type method

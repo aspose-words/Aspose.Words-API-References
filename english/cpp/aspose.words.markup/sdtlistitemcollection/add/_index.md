@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/add/
 Adds an item to this collection.
 
 ```cpp
-void Aspose::Words::Markup::SdtListItemCollection::Add(const System::SharedPtr<Aspose::Words::Markup::SdtListItem> &item)
+void Aspose::Words::Markup::SdtListItemCollection::Add(const System::SharedPtr<Aspose::Words::Markup::SdtListItem> & item)
 ```
-
 
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,10 +74,8 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
-* Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

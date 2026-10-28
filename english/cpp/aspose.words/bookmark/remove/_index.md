@@ -16,12 +16,11 @@ Removes the bookmark from the document. Does not remove text inside the bookmark
 void Aspose::Words::Bookmark::Remove()
 ```
 
-
 ## Examples
 
 
+Shows how to remove bookmarks from a document.
 
-Shows how to remove bookmarks from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -83,7 +82,6 @@ bookmarks->Clear();
 ASSERT_EQ(0, bookmarks->get_Count());
 ASSERT_EQ(System::String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r" + u"Text inside MyBookmark_3.\r" + u"Text inside MyBookmark_4.\r" + u"Text inside MyBookmark_5.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Bookmark](../)

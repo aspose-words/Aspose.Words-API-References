@@ -1,10 +1,10 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::BaseWebExtensionCollection constructor
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::BaseWebExtensionCollection constructor
 linktitle: BaseWebExtensionCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use BaseWebExtensionCollection constructor of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
+description: 'How to use BaseWebExtensionCollection constructor of Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class in C++.'
 type: docs
-weight: 1000
+weight: 4000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/basewebextensioncollection/
 ---
 ## BaseWebExtensionCollection::BaseWebExtensionCollection constructor

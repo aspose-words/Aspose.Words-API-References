@@ -4,24 +4,23 @@ linktitle: get_SignerTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_SignerTitle method. Gets or sets suggested signer''s title (for example, Manager). Default value for this property is empty string in C++.'
 type: docs
-weight: 12000
+weight: 14924
 url: /cpp/aspose.words.drawing/signatureline/get_signertitle/
 ---
 ## SignatureLine::get_SignerTitle method
 
 
-Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string**.
+Gets or sets suggested signer's title (for example, Manager). Default value for this property is empty string.
 
 ```cpp
 System::String Aspose::Words::Drawing::SignatureLine::get_SignerTitle()
 ```
 
-
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
 * Class [SignatureLine](../)

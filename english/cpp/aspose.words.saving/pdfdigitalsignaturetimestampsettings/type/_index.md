@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings class in C++.'
 type: docs
-weight: 1000
+weight: 8286
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/type/
 ---
 ## PdfDigitalSignatureTimestampSettings::Type method

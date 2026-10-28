@@ -20,7 +20,9 @@ void Aspose::Words::Fields::FormFieldCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the form field to remove. |
+## Remarks
 
+ If there is a bookmark associated with the form field, the bookmark is not removed. 
 ## See Also
 
 * Class [FormFieldCollection](../)

@@ -4,7 +4,7 @@ linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItem::get_DisplayText method. Gets the text to display in the run content in place of the Value attribute contents for this list item in C++.'
 type: docs
-weight: 3000
+weight: 9000
 url: /cpp/aspose.words.markup/sdtlistitem/get_displaytext/
 ---
 ## SdtListItem::get_DisplayText method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Markup::SdtListItem::get_DisplayText() const
 
 
 Cannot be **null** and cannot be an empty string.
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -79,7 +78,6 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Class [SdtListItem](../)

@@ -2,20 +2,23 @@
 title: Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces method
 linktitle: get_TrimWhitespaces
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces method. Gets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values in C++.'
+description: 'Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces method. Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values in C++.'
 type: docs
-weight: 17000
+weight: 26780
 url: /cpp/aspose.words.mailmerging/mailmerge/get_trimwhitespaces/
 ---
 ## MailMerge::get_TrimWhitespaces method
 
 
-Gets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
+Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
 
 ```cpp
-bool Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces() const
+_Bool Aspose::Words::MailMerging::MailMerge::get_TrimWhitespaces() const
 ```
 
+## Remarks
+
+ The default value is **true**. 
 ## See Also
 
 * Class [MailMerge](../)

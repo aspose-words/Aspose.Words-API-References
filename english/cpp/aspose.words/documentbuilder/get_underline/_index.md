@@ -4,7 +4,7 @@ linktitle: get_Underline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_Underline method. Gets/sets underline type for the current font in C++.'
 type: docs
-weight: 26000
+weight: 91000
 url: /cpp/aspose.words/documentbuilder/get_underline/
 ---
 ## DocumentBuilder::get_Underline method
@@ -16,12 +16,11 @@ Gets/sets underline type for the current font.
 Aspose::Words::Underline Aspose::Words::DocumentBuilder::get_Underline()
 ```
 
-
 ## Examples
 
 
+Shows how to format text inserted by a document builder.
 
-Shows how to format text inserted by a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -35,10 +34,8 @@ builder->Writeln(u"Large, blue, and underlined text.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertUnderline.docx");
 ```
-
 ## See Also
 
-* Enum [Underline](../../underline/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

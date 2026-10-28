@@ -4,7 +4,7 @@ linktitle: get_Chart
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_Chart method. Provides access to the chart properties if this shape has a Chart in C++.'
 type: docs
-weight: 4000
+weight: 35000
 url: /cpp/aspose.words.drawing/shape/get_chart/
 ---
 ## Shape::get_Chart method
@@ -16,9 +16,11 @@ Provides access to the chart properties if this shape has a [Chart](../../../asp
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> Aspose::Words::Drawing::Shape::get_Chart()
 ```
 
+## Remarks
+
+This property will return the [Chart](../../../aspose.words.drawing.charts/chart/) object only if [HasChart](../get_haschart/) property is **true** for this [Shape](../), and will throw an exception otherwise.
 ## See Also
 
-* Class [Chart](../../../aspose.words.drawing.charts/chart/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

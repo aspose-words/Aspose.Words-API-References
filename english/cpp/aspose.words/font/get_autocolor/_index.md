@@ -4,7 +4,7 @@ linktitle: get_AutoColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_AutoColor method. Returns the present calculated color of the text (black or white) to be used for ''auto color''. If the color is not ''auto'' then returns Color in C++.'
 type: docs
-weight: 4000
+weight: 59054
 url: /cpp/aspose.words/font/get_autocolor/
 ---
 ## Font::get_AutoColor method
@@ -19,13 +19,12 @@ System::Drawing::Color Aspose::Words::Font::get_AutoColor()
 ## Remarks
 
 
-When text has 'automatic color', the actual color of text is calculated automatically so that it is readable against the background color. As you change the background color, the text color will automatically switch to black or white in MS Word to maximize legibility.
-
+ When text has 'automatic color', the actual color of text is calculated automatically so that it is readable against the background color. As you change the background color, the text color will automatically switch to black or white in MS Word to maximize legibility.
 ## Examples
 
 
+Shows how to improve readability by automatically selecting text color based on the brightness of its background.
 
-Shows how to improve readability by automatically selecting text color based on the brightness of its background. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), doc->get_FirstSection()-
 
 doc->Save(get_ArtifactsDir() + u"Font.SetFontAutoColor.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

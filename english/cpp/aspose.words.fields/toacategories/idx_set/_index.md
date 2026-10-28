@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::ToaCategories::idx_set method. Gets or sets the category heading by category number in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words.fields/toacategories/idx_set/
 ---
 ## ToaCategories::idx_set method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/toacategories/idx_set/
 Gets or sets the category heading by category number.
 
 ```cpp
-void Aspose::Words::Fields::ToaCategories::idx_set(int32_t number, const System::String &value)
+void Aspose::Words::Fields::ToaCategories::idx_set(int32_t number, const System::String & value)
 ```
-
 
 ## Examples
 
 
+Shows how to specify a set of categories for TOA fields.
 
-Shows how to specify a set of categories for TOA fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ builder->InsertField(u"TA \\c 2 \\l \"entry 3\"");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.TOA.Categories.docx");
 ```
-
 ## See Also
 
 * Class [ToaCategories](../)

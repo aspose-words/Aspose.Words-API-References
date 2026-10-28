@@ -4,49 +4,53 @@ linktitle: RegisterDictionary
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Hyphenation::RegisterDictionary method. Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words/hyphenation/registerdictionary/
 ---
-## Hyphenation::RegisterDictionary(const System::String\&, const System::SharedPtr\<System::IO::Stream\>\&) method
+## Hyphenation::RegisterDictionary(const System::String \&, const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 
 ```cpp
-static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String &language, const System::SharedPtr<System::IO::Stream> &stream)
+static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String & language, const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | A stream for the dictionary file in OpenOffice format. |
-
+| language | const System::String \& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | A stream for the dictionary file in OpenOffice format. |
 ## See Also
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Hyphenation::RegisterDictionary(const System::String\&, const System::String\&) method
+## Hyphenation::RegisterDictionary(const System::String \&, const System::String \&) method
 
 
-Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. This method can also be used to register Null dictionary to prevent [Callback](../get_callback/) from being called repeatedly for the same language.
+Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
+
+ This method can also be used to register Null dictionary to prevent [Callback](../get_callback/) from being called repeatedly for the same language.
 
 ```cpp
-static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String &language, const System::String &fileName)
+static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String & language, const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
-| fileName | const System::String\& | A path to the dictionary file in Open Office format. If this parameter is **null** or empty string then registered is Null dictionary and callback is not called anymore for this language. To enable callback again use [UnregisterDictionary()](../) method. |
+| language | const System::String \& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| fileName | const System::String \& | A path to the dictionary file in Open Office format.
 
+ If this parameter is **null** or empty string then registered is Null dictionary and callback is not called anymore for this language.
+
+ To enable callback again use [UnregisterDictionary()](../unregisterdictionary/) method. |
 ## Examples
 
 
+Shows how to register a hyphenation dictionary.
 
-Shows how to register a hyphenation dictionary. 
 ```cpp
 // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
 // When a document contains lines of text in which a word could be split up and continued on the next line,
@@ -78,19 +82,18 @@ ASSERT_FALSE(Hyphenation::IsDictionaryRegistered(u"de-CH"));
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"German text.docx"));
 doc->Save(get_ArtifactsDir() + u"Hyphenation.Dictionary.Unregistered.pdf");
 ```
-
 ## See Also
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Hyphenation::RegisterDictionary(const System::String\&, std::basic_istream\<CharType, Traits\>\&) method
+## Hyphenation::RegisterDictionary(const System::String \&, std::basic_istream\<CharType, Traits\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String &language, std::basic_istream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String & language, std::basic_istream<CharType, Traits> & stream)
 ```
 
 ## See Also

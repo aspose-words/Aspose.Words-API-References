@@ -21,25 +21,24 @@ class DigitalSignatureTimestampSettings : public System::Object
 | Method | Description |
 | --- | --- |
 | [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)() | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
-| [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String\&, const System::String\&, const System::String\&) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
-| [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String\&, const System::String\&, const System::String\&, System::TimeSpan) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
+| [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
+| [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&, System::TimeSpan) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Password](./get_password/)() const | Gets or sets a string value representing timestamp server password. The default value is **null**. |
 | [get_ServerUrl](./get_serverurl/)() const | Gets or sets a string value representing timestamp server URL. The default value is **null**. |
 | [get_Timeout](./get_timeout/)() const | Gets or sets a time-out value for accessing timestamp server. The default value is 100 seconds. |
 | [get_UserName](./get_username/)() const | Gets or sets a string value representing timestamp server user name. The default value is **null**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Password](./set_password/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Password](./get_password/). |
-| [set_ServerUrl](./set_serverurl/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_ServerUrl](./get_serverurl/). |
-| [set_Timeout](./set_timeout/)(System::TimeSpan) | Setter for [Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Timeout](./get_timeout/). |
-| [set_UserName](./set_username/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_UserName](./get_username/). |
-| static [Type](./type/)() |  |
-
+| [set_Password](./set_password/)(const System::String \&) | Sets a string value representing timestamp server password. The default value is **null**. |
+| [set_ServerUrl](./set_serverurl/)(const System::String \&) | Sets a string value representing timestamp server URL. The default value is **null**. |
+| [set_Timeout](./set_timeout/)(System::TimeSpan) | Sets a time-out value for accessing timestamp server. The default value is 100 seconds. |
+| [set_UserName](./set_username/)(const System::String \&) | Sets a string value representing timestamp server user name. The default value is **null**. |
 ## Examples
 
 
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
 
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../digitalsignatureutil/). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -65,7 +64,6 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 
 ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

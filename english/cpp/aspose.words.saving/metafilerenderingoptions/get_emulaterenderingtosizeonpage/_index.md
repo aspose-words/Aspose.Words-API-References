@@ -4,7 +4,7 @@ linktitle: get_EmulateRenderingToSizeOnPage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage method. Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size in C++.'
 type: docs
-weight: 4334
+weight: 10500
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosizeonpage/
 ---
 ## MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosiz
 Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size.
 
 ```cpp
-bool Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage() const
+_Bool Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage() const
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ When this value is set to **false**, Aspose.Words emulates metafile rendering to
 
 This option is used only when metafile is rendered as vector graphics.
 
-The default value is **true**. 
+The default value is **true**.
 ## See Also
 
 * Class [MetafileRenderingOptions](../)

@@ -13,38 +13,37 @@ url: /cpp/aspose.words/underline/
 Indicates type of the underline applied to a font.
 
 ```cpp
-enum class Underline
+enum class Underline : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Dash | 7 |  |
+| DashHeavy | 23 |  |
+| DashLong | 39 |  |
+| DashLongHeavy | 55 |  |
+| DotDash | 9 |  |
+| DotDashHeavy | 25 |  |
+| DotDotDash | 10 |  |
+| DotDotDashHeavy | 26 |  |
+| Dotted | 4 |  |
+| DottedHeavy | 20 |  |
+| Double | 3 |  |
 | None | 0 |  |
 | Single | 1 |  |
-| Words | 2 |  |
-| Double | 3 |  |
-| Dotted | 4 |  |
 | Thick | 6 |  |
-| Dash | 7 |  |
-| DashLong | 39 |  |
-| DotDash | 9 |  |
-| DotDotDash | 10 |  |
 | Wavy | 11 |  |
-| DottedHeavy | 20 |  |
-| DashHeavy | 23 |  |
-| DashLongHeavy | 55 |  |
-| DotDashHeavy | 25 |  |
-| DotDotDashHeavy | 26 |  |
-| WavyHeavy | 27 |  |
 | WavyDouble | 43 |  |
-
+| WavyHeavy | 27 |  |
+| Words | 2 |  |
 
 ## Examples
 
 
+Shows how to insert a hyperlink field.
 
-Shows how to insert a hyperlink field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ builder->Writeln(u".");
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlink.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -4,7 +4,7 @@ linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionReference::get_Version method. Specifies the version of the web extension in C++.'
 type: docs
-weight: 6000
+weight: 8858
 url: /cpp/aspose.words.webextensions/webextensionreference/get_version/
 ---
 ## WebExtensionReference::get_Version method
@@ -16,12 +16,11 @@ Specifies the version of the web extension.
 System::String Aspose::Words::WebExtensions::WebExtensionReference::get_Version() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtensionReference](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Tables::RowFormat class
 linktitle: RowFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Tables::RowFormat class. Represents all formatting for a table row. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Tables::RowFormat class. Represents all formatting for a table row. To learn more, visit the Working with Tables documentation article in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.tables/rowformat/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.tables/rowformat/
 ## RowFormat class
 
 
-Represents all formatting for a table row. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
+Represents all formatting for a table row. 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class RowFormat : public IBorderAttrSource
@@ -21,24 +22,23 @@ class RowFormat : public IBorderAttrSource
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default row formatting. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AllowBreakAcrossPages](./get_allowbreakacrosspages/)() | True if the text in a table row is allowed to split across a page break. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the row. |
 | [get_HeadingFormat](./get_headingformat/)() | True if the row is repeated as a table heading on every page when the table spans more than one page. |
 | [get_Height](./get_height/)() | Gets or sets the height of the table row in points. |
 | [get_HeightRule](./get_heightrule/)() | Gets or sets the rule for determining the height of the table row. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | Setter for [Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages](./get_allowbreakacrosspages/). |
-| [set_HeadingFormat](./set_headingformat/)(bool) | Setter for [Aspose::Words::Tables::RowFormat::get_HeadingFormat](./get_headingformat/). |
-| [set_Height](./set_height/)(double) | Setter for [Aspose::Words::Tables::RowFormat::get_Height](./get_height/). |
-| [set_HeightRule](./set_heightrule/)(Aspose::Words::HeightRule) | Setter for [Aspose::Words::Tables::RowFormat::get_HeightRule](./get_heightrule/). |
-| static [Type](./type/)() |  |
-
+| [set_AllowBreakAcrossPages](./set_allowbreakacrosspages/)(bool) | True if the text in a table row is allowed to split across a page break. |
+| [set_HeadingFormat](./set_headingformat/)(bool) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [set_Height](./set_height/)(double) | Sets the height of the table row in points. |
+| [set_HeightRule](./set_heightrule/)(Aspose::Words::HeightRule) | Sets the rule for determining the height of the table row. |
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -98,8 +98,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to modify the format of rows and cells in a table.
 
-Shows how to modify the format of rows and cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -130,8 +130,8 @@ cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::ge
 doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
 
+Shows how to modify formatting of a table row.
 
-Shows how to modify formatting of a table row. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -144,7 +144,6 @@ firstRow->get_RowFormat()->set_AllowBreakAcrossPages(true);
 
 doc->Save(get_ArtifactsDir() + u"Table.RowFormat.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

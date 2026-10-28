@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Corporate::get_Name method. Gets the name of an organization in C++.'
 type: docs
-weight: 3000
+weight: 5667
 url: /cpp/aspose.words.bibliography/corporate/get_name/
 ---
 ## Corporate::get_Name method

@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooter::get_NodeType method. Returns HeaderFooter in C++.'
 type: docs
-weight: 7000
+weight: 10715
 url: /cpp/aspose.words/headerfooter/get_nodetype/
 ---
 ## HeaderFooter::get_NodeType method
@@ -16,12 +16,11 @@ Returns [HeaderFooter](../../nodetype/).
 Aspose::Words::NodeType Aspose::Words::HeaderFooter::get_NodeType() const override
 ```
 
-
 ## Examples
 
 
+Shows how to iterate through the children of a composite node.
 
-Shows how to iterate through the children of a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,10 +62,8 @@ for (auto&& node : System::IterateOver(section))
     }
 }
 ```
-
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

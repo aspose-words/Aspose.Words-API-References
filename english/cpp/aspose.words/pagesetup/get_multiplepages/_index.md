@@ -4,7 +4,7 @@ linktitle: get_MultiplePages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_MultiplePages method. For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet in C++.'
 type: docs
-weight: 29000
+weight: 49601
 url: /cpp/aspose.words/pagesetup/get_multiplepages/
 ---
 ## PageSetup::get_MultiplePages method
@@ -16,12 +16,11 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 Aspose::Words::Settings::MultiplePagesType Aspose::Words::PageSetup::get_MultiplePages()
 ```
 
-
 ## Examples
 
 
+Shows how to set gutter margins.
 
-Shows how to set gutter margins. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -52,8 +51,8 @@ pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 doc->Save(get_ArtifactsDir() + u"PageSetup.Gutter.docx");
 ```
 
+Shows how to configure a document that can be printed as a book fold.
 
-Shows how to configure a document that can be printed as a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -78,10 +77,8 @@ pageSetup->set_SheetsPerBooklet(4);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
-
 ## See Also
 
-* Enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

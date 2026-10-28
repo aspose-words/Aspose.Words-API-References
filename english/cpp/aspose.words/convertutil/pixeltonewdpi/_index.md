@@ -4,7 +4,7 @@ linktitle: PixelToNewDpi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::PixelToNewDpi method. Converts pixels from one resolution to another in C++.'
 type: docs
-weight: 3000
+weight: 10000
 url: /cpp/aspose.words/convertutil/pixeltonewdpi/
 ---
 ## ConvertUtil::PixelToNewDpi method
@@ -22,12 +22,11 @@ static int32_t Aspose::Words::ConvertUtil::PixelToNewDpi(double pixels, double o
 | pixels | double | The value to convert. |
 | oldDpi | double | The current dpi (dots per inch) resolution. |
 | newDpi | double | The new dpi (dots per inch) resolution. |
-
 ## Examples
 
 
+Shows how to use convert points to pixels with default and custom resolution.
 
-Shows how to use convert points to pixels with default and custom resolution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ builder->Writeln(System::String::Format(u"At a DPI of {0}, the text is now {1} p
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndPixelsDpi.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

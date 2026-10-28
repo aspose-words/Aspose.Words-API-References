@@ -4,7 +4,7 @@ linktitle: get_FirstParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_FirstParagraph method. Gets the first paragraph in the story in C++.'
 type: docs
-weight: 3000
+weight: 17000
 url: /cpp/aspose.words/inlinestory/get_firstparagraph/
 ---
 ## InlineStory::get_FirstParagraph method
@@ -16,12 +16,11 @@ Gets the first paragraph in the story.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_FirstParagraph() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert and customize footnotes.
 
-Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,8 +62,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
 
+Shows how to add a comment to a paragraph.
 
-Shows how to add a comment to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,10 +79,8 @@ ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

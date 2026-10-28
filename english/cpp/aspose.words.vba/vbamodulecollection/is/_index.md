@@ -13,7 +13,7 @@ url: /cpp/aspose.words.vba/vbamodulecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Vba::VbaModuleCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Vba::VbaModuleCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldImport::get_SourceFullName method. Gets or sets the location of the picture in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.fields/fieldimport/get_sourcefullname/
 ---
 ## FieldImport::get_SourceFullName method
@@ -16,12 +16,11 @@ Gets or sets the location of the picture.
 System::String Aspose::Words::Fields::FieldImport::get_SourceFullName() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 
-Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetField
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
-
 ## See Also
 
 * Class [FieldImport](../)

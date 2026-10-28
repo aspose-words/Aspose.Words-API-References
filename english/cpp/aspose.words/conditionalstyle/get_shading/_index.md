@@ -4,7 +4,7 @@ linktitle: get_Shading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyle::get_Shading method. Gets a Shading object that refers to the shading formatting for this conditional style in C++.'
 type: docs
-weight: 10000
+weight: 15728
 url: /cpp/aspose.words/conditionalstyle/get_shading/
 ---
 ## ConditionalStyle::get_Shading method
@@ -16,12 +16,11 @@ Gets a [Shading](../../shading/) object that refers to the shading formatting fo
 System::SharedPtr<Aspose::Words::Shading> Aspose::Words::ConditionalStyle::get_Shading()
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,10 +85,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Class [Shading](../../shading/)
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

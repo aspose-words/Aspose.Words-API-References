@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::RtfLoadOptions::set_RecognizeUtf8Text method
 linktitle: set_RecognizeUtf8Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::RtfLoadOptions::set_RecognizeUtf8Text method. Setter for Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text in C++.'
+description: 'Aspose::Words::Loading::RtfLoadOptions::set_RecognizeUtf8Text method. When set to true, will try to detect UTF8 characters, they will be preserved during import in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.loading/rtfloadoptions/set_recognizeutf8text/
@@ -10,12 +10,34 @@ url: /cpp/aspose.words.loading/rtfloadoptions/set_recognizeutf8text/
 ## RtfLoadOptions::set_RecognizeUtf8Text method
 
 
-Setter for [Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text](../get_recognizeutf8text/).
+When set to **true**, will try to detect UTF8 characters, they will be preserved during import.
 
 ```cpp
 void Aspose::Words::Loading::RtfLoadOptions::set_RecognizeUtf8Text(bool value)
 ```
 
+## Remarks
+
+
+Default value is **false**.
+## Examples
+
+
+Shows how to detect UTF-8 characters while loading an RTF document.
+
+```cpp
+// Create an "RtfLoadOptions" object to modify how we load an RTF document.
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::RtfLoadOptions>();
+
+// Set the "RecognizeUtf8Text" property to "false" to assume that the document uses the ISO 8859-1 charset
+// and loads every character in the document.
+// Set the "RecognizeUtf8Text" property to "true" to parse any variable-length characters that may occur in the text.
+loadOptions->set_RecognizeUtf8Text(recognizeUtf8Text);
+
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"UTF-8 characters.rtf", loadOptions);
+
+ASSERT_EQ((recognizeUtf8Text ? System::String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤" : System::String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤"), doc->get_FirstSection()->get_Body()->GetText().Trim());
+```
 ## See Also
 
 * Class [RtfLoadOptions](../)

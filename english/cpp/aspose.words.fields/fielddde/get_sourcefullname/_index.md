@@ -4,7 +4,7 @@ linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDde::get_SourceFullName method. Gets the name and location of the source file in C++.'
 type: docs
-weight: 11000
+weight: 14847
 url: /cpp/aspose.words.fields/fielddde/get_sourcefullname/
 ---
 ## FieldDde::get_SourceFullName method

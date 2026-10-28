@@ -31,12 +31,11 @@ A live collection of child nodes of the specified type.
 The collection of nodes returned by this method is always live.
 
 A live collection is always in sync with the document. For example, if you selected all sections in a document and enumerate through the collection deleting the sections, the section is removed from the collection immediately when it is removed from the document.
-
 ## Examples
 
 
+Shows how to print all of a document's comments and their replies.
 
-Shows how to print all of a document's comments and their replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
 
@@ -60,8 +59,8 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
 }
 ```
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
 
-Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -88,8 +87,8 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 }
 ```
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -135,8 +134,8 @@ for (auto&& child : System::IterateOver(children))
 }
 ```
 
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
-Shows how to add, update and delete child nodes in a [CompositeNode](../)'s collection of children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -182,11 +181,8 @@ paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
-
 ## See Also
 
-* Class [NodeCollection](../../nodecollection/)
-* Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/const_iterator/
 
 
 ```cpp
-using Aspose::Words::MailMerging::MappedDataFieldCollection::const_iterator =  typename iterator_holder_type::const_iterator
+using Aspose::Words::MailMerging::MappedDataFieldCollection::const_iterator = typename iterator_holder_type::const_iterator
 ```
 
 ## See Also

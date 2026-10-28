@@ -4,7 +4,7 @@ linktitle: get_IsImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsImage method. Returns true if this shape is an image shape in C++.'
 type: docs
-weight: 29000
+weight: 61465
 url: /cpp/aspose.words.drawing/shapebase/get_isimage/
 ---
 ## ShapeBase::get_IsImage method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/shapebase/get_isimage/
 Returns **true** if this shape is an image shape.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
 ```
-
 
 ## Examples
 
 
+Shows how to open an HTML document with images from a stream using a base URI.
 
-Shows how to open an HTML document with images from a stream using a base URI. 
 ```cpp
 {
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.html");
@@ -41,7 +40,6 @@ Shows how to open an HTML document with images from a stream using a base URI.
     ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
 }
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

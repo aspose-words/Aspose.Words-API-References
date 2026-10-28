@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSaveDate class
 linktitle: FieldSaveDate
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSaveDate class. Implements the SAVEDATE field. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldSaveDate class. Implements the SAVEDATE field. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 87000
 url: /cpp/aspose.words.fields/fieldsavedate/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words.fields/fieldsavedate/
 ## FieldSaveDate class
 
 
-Implements the SAVEDATE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Implements the SAVEDATE field. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
-class FieldSaveDate : public Aspose::Words::Fields::Field,
+class FieldSaveDate : public Field,
                       public IFieldCodeTokenInfoProvider,
                       public IFieldWithCalendar
 ```
@@ -22,6 +23,24 @@ class FieldSaveDate : public Aspose::Words::Fields::Field,
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
+| [get_UseLunarCalendar](./get_uselunarcalendar/)() override | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
+| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() override | Gets or sets whether to use the Saka Era calendar. |
+| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() override | Gets or sets whether to use the Um-al-Qura calendar. |
+| [set_UseLunarCalendar](./set_uselunarcalendar/)(bool) | Sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
+| [set_UseSakaEraCalendar](./set_usesakaeracalendar/)(bool) | Sets whether to use the Saka Era calendar. |
+| [set_UseUmAlQuraCalendar](./set_useumalquracalendar/)(bool) | Sets whether to use the Um-al-Qura calendar. |
+| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](../field/gettype/)() const override |  |
+| [Is](../field/is/)(const System::TypeInfo \&) const override |  |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| static [Type](../field/type/)() |  |
+| [Unlink](../field/unlink/)() | Performs the field unlink. |
+| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
@@ -34,31 +53,18 @@ class FieldSaveDate : public Aspose::Words::Fields::Field,
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [get_UseLunarCalendar](./get_uselunarcalendar/)() override | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
-| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() override | Gets or sets whether to use the Saka Era calendar. |
-| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() override | Gets or sets whether to use the Um-al-Qura calendar. |
-| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
-| [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
-| [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
-| [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
-| [set_UseLunarCalendar](./set_uselunarcalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar](./get_uselunarcalendar/). |
-| [set_UseSakaEraCalendar](./set_usesakaeracalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseSakaEraCalendar](./get_usesakaeracalendar/). |
-| [set_UseUmAlQuraCalendar](./set_useumalquracalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar](./get_useumalquracalendar/). |
-| static [Type](./type/)() |  |
-| [Unlink](../field/unlink/)() | Performs the field unlink. |
-| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsLocked](../field/set_islocked/)(bool) | Sets whether the field is locked (should not recalculate its result). |
+| [set_LocaleId](../field/set_localeid/)(int32_t) | Sets the LCID of the field. |
+| [set_Result](../field/set_result/)(const System::String \&) | Sets text that is between the field separator and field end. |
+## Remarks
 
+ Retrieves the date and time on which the document was last saved. By default, the Gregorian calendar is used. 
 ## Examples
 
 
+Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.
 
-Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +103,6 @@ doc->get_BuiltInDocumentProperties()->set_LastSavedTime(System::DateTime::get_No
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SAVEDATE.docx");
 ```
-
 ## See Also
 
 * Class [Field](../field/)

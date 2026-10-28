@@ -4,7 +4,7 @@ linktitle: get_SeriesType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_SeriesType method. Gets the type of this chart series in C++.'
 type: docs
-weight: 11500
+weight: 14884
 url: /cpp/aspose.words.drawing.charts/chartseries/get_seriestype/
 ---
 ## ChartSeries::get_SeriesType method
@@ -16,12 +16,11 @@ Gets the type of this chart series.
 Aspose::Words::Drawing::Charts::ChartSeriesType Aspose::Words::Drawing::Charts::ChartSeries::get_SeriesType()
 ```
 
-
 ## Examples
 
 
+Shows how to remove specific chart serie.
 
-Shows how to remove specific chart serie. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Reporting engine template - Chart series.docx"));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_Chart();
@@ -39,10 +38,8 @@ chart->get_Series()->Add(u"Aspose Series", System::MakeArray<System::String>({u"
 
 doc->Save(get_ArtifactsDir() + u"Charts.RemoveSpecificChartSeries.docx");
 ```
-
 ## See Also
 
-* Enum [ChartSeriesType](../../chartseriestype/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

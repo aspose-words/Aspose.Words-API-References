@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/set_reason/
 Sets the reason for the signing.
 
 ```cpp
-void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_Reason(const System::String &value)
+void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_Reason(const System::String & value)
 ```
 
+## Remarks
+
+ The default value is **null**. 
 ## See Also
 
 * Class [PdfDigitalSignatureDetails](../)

@@ -23,15 +23,14 @@ The editable range end node that was just created.
 ## Remarks
 
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](../starteditablerange/) and [EndEditableRange](./) or [EndEditableRange()](../) methods.
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](../starteditablerange/) and [EndEditableRange](./) or [EndEditableRange()](./) methods.
 
 Badly formed editable range will be ignored when the document is saved.
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -69,26 +68,24 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
-* Class [EditableRangeEnd](../../editablerangeend/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::EndEditableRange(const System::SharedPtr\<Aspose::Words::EditableRangeStart\>\&) method
+## DocumentBuilder::EndEditableRange(const System::SharedPtr\<Aspose::Words::EditableRangeStart\> \&) method
 
 
 Marks the current position in the document as an editable range end.
 
 ```cpp
-System::SharedPtr<Aspose::Words::EditableRangeEnd> Aspose::Words::DocumentBuilder::EndEditableRange(const System::SharedPtr<Aspose::Words::EditableRangeStart> &start)
+System::SharedPtr<Aspose::Words::EditableRangeEnd> Aspose::Words::DocumentBuilder::EndEditableRange(const System::SharedPtr<Aspose::Words::EditableRangeStart> & start)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | const System::SharedPtr\<Aspose::Words::EditableRangeStart\>\& | This editable range start. |
+| start | const System::SharedPtr\<Aspose::Words::EditableRangeStart\> \& | This editable range start. |
 
 ### ReturnValue
 
@@ -98,15 +95,14 @@ The editable range end node that was just created.
 
 Use this overload during creating nested editable ranges.
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](../starteditablerange/) and [EndEditableRange](./) or [EndEditableRange()](../) methods.
+Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [StartEditableRange](../starteditablerange/) and [EndEditableRange](./) or [EndEditableRange()](./) methods.
 
 Badly formed editable range will be ignored when the document is saved.
-
 ## Examples
 
 
+Shows how to create nested editable ranges.
 
-Shows how to create nested editable ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -139,11 +135,8 @@ innerEditableRangeStart->get_EditableRange()->set_EditorGroup(EditorType::Contri
 
 doc->Save(get_ArtifactsDir() + u"EditableRange.Nested.docx");
 ```
-
 ## See Also
 
-* Class [EditableRangeEnd](../../editablerangeend/)
-* Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

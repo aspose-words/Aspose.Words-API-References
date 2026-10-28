@@ -4,7 +4,7 @@ linktitle: get_TabPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_TabPosition method. Returns or sets the tab position (in points) for the list level in C++.'
 type: docs
-weight: 17000
+weight: 22907
 url: /cpp/aspose.words.lists/listlevel/get_tabposition/
 ---
 ## ListLevel::get_TabPosition method
@@ -20,12 +20,11 @@ double Aspose::Words::Lists::ListLevel::get_TabPosition() const
 
 
 Has effect only when [TrailingCharacter](../get_trailingcharacter/) is a tab.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,7 +76,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

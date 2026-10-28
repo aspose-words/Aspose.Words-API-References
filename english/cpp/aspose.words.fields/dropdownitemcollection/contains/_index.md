@@ -13,23 +13,22 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/contains/
 Determines whether the collection contains the specified value.
 
 ```cpp
-bool Aspose::Words::Fields::DropDownItemCollection::Contains(const System::String &value)
+_Bool Aspose::Words::Fields::DropDownItemCollection::Contains(const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String\& | Case-sensitive value to locate. |
+| value | const System::String \& | Case-sensitive value to locate. |
 
 ### ReturnValue
 
 **true** if the item is found in the collection; otherwise, **false**.
-
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

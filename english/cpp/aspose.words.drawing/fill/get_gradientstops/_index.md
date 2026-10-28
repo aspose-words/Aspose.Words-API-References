@@ -4,7 +4,7 @@ linktitle: get_GradientStops
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_GradientStops method. Gets a collection of GradientStop objects for the fill in C++.'
 type: docs
-weight: 11000
+weight: 56000
 url: /cpp/aspose.words.drawing/fill/get_gradientstops/
 ---
 ## Fill::get_GradientStops method
@@ -16,12 +16,11 @@ Gets a collection of [GradientStop](../../gradientstop/) objects for the fill.
 System::SharedPtr<Aspose::Words::Drawing::GradientStopCollection> Aspose::Words::Drawing::Fill::get_GradientStops()
 ```
 
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,10 +67,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [GradientStopCollection](../../gradientstopcollection/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

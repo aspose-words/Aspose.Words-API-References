@@ -20,12 +20,11 @@ void Aspose::Words::Fields::FieldCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
-
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,7 +59,6 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
 * Class [FieldCollection](../)

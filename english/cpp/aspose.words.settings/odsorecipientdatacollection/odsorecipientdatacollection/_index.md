@@ -4,7 +4,7 @@ linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use OdsoRecipientDataCollection constructor of Aspose::Words::Settings::OdsoRecipientDataCollection class in C++.'
 type: docs
-weight: 2000
+weight: 14500
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection::OdsoRecipientDataCollection constructor

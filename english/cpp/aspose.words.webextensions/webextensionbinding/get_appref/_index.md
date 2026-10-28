@@ -4,7 +4,7 @@ linktitle: get_AppRef
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_AppRef method. Specifies the binding key used to map the binding entry in this list with the bound data in the document in C++.'
 type: docs
-weight: 3000
+weight: 7501
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_appref/
 ---
 ## WebExtensionBinding::get_AppRef method
@@ -16,12 +16,11 @@ Specifies the binding key used to map the binding entry in this list with the bo
 System::String Aspose::Words::WebExtensions::WebExtensionBinding::get_AppRef() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtensionBinding](../)

@@ -4,7 +4,7 @@ linktitle: get_IsAnsi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSymbol::get_IsAnsi method. Gets or sets whether the character code is interpreted as the value of an ANSI character in C++.'
 type: docs
-weight: 6000
+weight: 10667
 url: /cpp/aspose.words.fields/fieldsymbol/get_isansi/
 ---
 ## FieldSymbol::get_IsAnsi method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldsymbol/get_isansi/
 Gets or sets whether the character code is interpreted as the value of an ANSI character.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSymbol::get_IsAnsi()
+_Bool Aspose::Words::Fields::FieldSymbol::get_IsAnsi()
 ```
-
 
 ## Examples
 
 
+Shows how to use the SYMBOL field.
 
-Shows how to use the SYMBOL field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,7 +69,6 @@ builder->Write(u"Line 3");
 
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldSymbol](../)

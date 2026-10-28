@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::FontSubstitutionWarningInfo::GetType() const override
+const System::TypeInfo & Aspose::Words::FontSubstitutionWarningInfo::GetType() const override
 ```
 
 ## See Also

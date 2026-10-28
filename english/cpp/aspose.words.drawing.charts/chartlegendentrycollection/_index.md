@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartLegendEntryCollection class
 linktitle: ChartLegendEntryCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection class. Represents a collection of chart legend entries. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection class. Represents a collection of chart legend entries. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/
 ## ChartLegendEntryCollection class
 
 
-Represents a collection of chart legend entries. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents a collection of chart legend entries. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartLegendEntryCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntry>>
@@ -20,18 +21,17 @@ class ChartLegendEntryCollection : public System::Collections::Generic::IEnumera
 
 | Method | Description |
 | --- | --- |
-| [get_Count](./get_count/)() | Returns the number of [ChartLegendEntry](../chartlegendentry/) in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Returns [ChartLegendEntry](../chartlegendentry/) for the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
+| [get_Count](./get_count/)() | Returns the number of [ChartLegendEntry](../chartlegendentry/) in this collection. |
+| [idx_get](./idx_get/)(int32_t) | Returns [ChartLegendEntry](../chartlegendentry/) for the specified index. |
 ## Examples
 
 
+Shows how to work with a legend entry for chart series.
 
-Shows how to work with a legend entry for chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +54,6 @@ legendEntries->idx_get(3)->set_IsHidden(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LegendEntries.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

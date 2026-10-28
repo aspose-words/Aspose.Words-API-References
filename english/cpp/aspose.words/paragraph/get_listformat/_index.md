@@ -4,7 +4,7 @@ linktitle: get_ListFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_ListFormat method. Provides access to the list formatting properties of the paragraph in C++.'
 type: docs
-weight: 18000
+weight: 47000
 url: /cpp/aspose.words/paragraph/get_listformat/
 ---
 ## Paragraph::get_ListFormat method
@@ -16,12 +16,11 @@ Provides access to the list formatting properties of the paragraph.
 System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::Paragraph::get_ListFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to output all paragraphs in a document that are list items.
 
-Shows how to output all paragraphs in a document that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,10 +48,8 @@ for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph
     std::cout << System::String::Format(u"\t\"{0}\"", para->GetText().Trim()) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [ListFormat](../../../aspose.words.lists/listformat/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Settings::WriteProtection class
 linktitle: WriteProtection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Settings::WriteProtection class. Specifies write protection settings for a document. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Settings::WriteProtection class. Specifies write protection settings for a document. To learn more, visit the Protect or Encrypt a Document documentation article in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.settings/writeprotection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.settings/writeprotection/
 ## WriteProtection class
 
 
-Specifies write protection settings for a document. To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/cpp/protect-or-encrypt-a-document/) documentation article.
+Specifies write protection settings for a document. 
+To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/cpp/protect-or-encrypt-a-document/) documentation article.
 
 ```cpp
 class WriteProtection : public System::Object
@@ -20,14 +21,14 @@ class WriteProtection : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [SetPassword](./setpassword/)(const System::String \&) | Sets the write protection password for the document. |
+| static [Type](./type/)() |  |
+| [ValidatePassword](./validatepassword/)(const System::String \&) | Returns **true** if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns **false**. |
 | [get_IsWriteProtected](./get_iswriteprotected/)() | Returns **true** when a write protection password is set. |
 | [get_ReadOnlyRecommended](./get_readonlyrecommended/)() const | Specifies whether the document author has recommended that the document be opened as read-only. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_ReadOnlyRecommended](./set_readonlyrecommended/)(bool) | Setter for [Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended](./get_readonlyrecommended/). |
-| [SetPassword](./setpassword/)(const System::String\&) | Sets the write protection password for the document. |
-| static [Type](./type/)() |  |
-| [ValidatePassword](./validatepassword/)(const System::String\&) | Returns **true** if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns **false**. |
+| [set_ReadOnlyRecommended](./set_readonlyrecommended/)(bool) | Specifies whether the document author has recommended that the document be opened as read-only. |
 ## Remarks
 
 
@@ -36,12 +37,11 @@ Write protection specifies whether the author has recommended that the document 
 Write protection is different from document protection. Write protection is specified in Microsoft Word in the options of the Save As dialog box.
 
 You do not create instances of this class directly. You access document protection settings via the [WriteProtection](../../aspose.words/document/get_writeprotection/) property.
-
 ## Examples
 
 
+Shows how to protect a document with a password.
 
-Shows how to protect a document with a password. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +66,6 @@ builder->Writeln(u"Writing text in a protected document.");
 
 ASSERT_EQ(System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

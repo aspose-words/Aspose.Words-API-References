@@ -4,7 +4,7 @@ linktitle: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_ParentNode method. Gets the immediate parent of this node in C++.'
 type: docs
-weight: 10000
+weight: 30000
 url: /cpp/aspose.words/node/get_parentnode/
 ---
 ## Node::get_ParentNode method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::CompositeNode> Aspose::Words::Node::get_ParentN
 
 
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is **null**.
-
 ## Examples
 
 
+Shows how to access a node's parent node.
 
-Shows how to access a node's parent node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -42,8 +41,8 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection(), doc->get_FirstSection()->get_Body()->g
 ASPOSE_ASSERT_EQ(doc, doc->get_FirstSection()->get_ParentNode());
 ```
 
+Shows how to create a node and set its owning document.
 
-Shows how to create a node and set its owning document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
@@ -68,10 +67,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [CompositeNode](../../compositenode/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

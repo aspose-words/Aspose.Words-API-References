@@ -4,7 +4,7 @@ linktitle: get_DefaultBookmarksOutlineLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OutlineOptions::get_DefaultBookmarksOutlineLevel method. Specifies the default level in the document outline at which to display Word bookmarks in C++.'
 type: docs
-weight: 6000
+weight: 10667
 url: /cpp/aspose.words.saving/outlineoptions/get_defaultbookmarksoutlinelevel/
 ---
 ## OutlineOptions::get_DefaultBookmarksOutlineLevel method
@@ -23,7 +23,7 @@ Individual bookmarks level could be specified using [BookmarksOutlineLevels](../
 
 Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
 
-Default is 0. Valid range is 0 to 9. 
+Default is 0. Valid range is 0 to 9.
 ## See Also
 
 * Class [OutlineOptions](../)

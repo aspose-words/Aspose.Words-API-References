@@ -13,26 +13,25 @@ url: /cpp/aspose.words.notes/footnotetype/
 Specifies whether this is a footnote or an endnote.
 
 ```cpp
-enum class FootnoteType
+enum class FootnoteType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Footnote | 0 | The object is a footnote. |
 | Endnote | 1 | The object is an endnote. |
+| Footnote | 0 | The object is a footnote. |
 
 ## Remarks
 
 
 Both footnotes and endnotes are represented by objects by the [Footnote](./) class. Use [FootnoteType](../footnote/get_footnotetype/) to distinguish between footnotes and endnotes.
-
 ## Examples
 
 
+Shows how to reference text with a footnote and an endnote.
 
-Shows how to reference text with a footnote and an endnote. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,8 +56,8 @@ builder->InsertBreak(BreakType::PageBreak);
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
+Shows how to insert and customize footnotes.
 
-Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -99,7 +98,6 @@ ASSERT_TRUE(footnote->get_IsAuto());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)

@@ -4,7 +4,7 @@ linktitle: get_RequestedBold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold method. Indicates whether bold style was requested in C++.'
 type: docs
-weight: 3000
+weight: 11000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedbold/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedBold method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedbold/
 Indicates whether bold style was requested.
 
 ```cpp
-bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold() const
+_Bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold() const
 ```
-
 
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -45,7 +44,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Class [FontSubstitutionWarningInfo](../)

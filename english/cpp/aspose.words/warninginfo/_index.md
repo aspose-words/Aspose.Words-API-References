@@ -2,7 +2,7 @@
 title: Aspose::Words::WarningInfo class
 linktitle: WarningInfo
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 74000
 url: /cpp/aspose.words/warninginfo/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/warninginfo/
 ## WarningInfo class
 
 
-Contains information about a warning that Aspose.Words issued during document loading or saving. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Contains information about a warning that Aspose.Words issued during document loading or saving. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class WarningInfo : public System::Object
@@ -20,22 +21,21 @@ class WarningInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Description](./get_description/)() const | Returns the description of the warning. |
 | [get_Source](./get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](./get_warningtype/)() const | Returns the type of the warning. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
 
 You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [Warning()](../iwarningcallback/warning/) method.
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -64,7 +64,6 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

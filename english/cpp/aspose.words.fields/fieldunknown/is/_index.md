@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldunknown/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldUnknown::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldUnknown::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

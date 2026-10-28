@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::SignOptions::set_OfficeVersion method
 linktitle: set_OfficeVersion
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::SignOptions::set_OfficeVersion method. Setter for Aspose::Words::DigitalSignatures::SignOptions::get_OfficeVersion in C++.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::set_OfficeVersion method. Sets the Office version for the digital signature. Default value is "12.0" in C++.'
 type: docs
 weight: 12667
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_officeversion/
@@ -10,12 +10,42 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/set_officeversion/
 ## SignOptions::set_OfficeVersion method
 
 
-Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_OfficeVersion](../get_officeversion/).
+Sets the Office version for the digital signature. Default value is "12.0".
 
 ```cpp
-void Aspose::Words::DigitalSignatures::SignOptions::set_OfficeVersion(const System::String &value)
+void Aspose::Words::DigitalSignatures::SignOptions::set_OfficeVersion(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to sign a document with additional signing options.
+
+```cpp
+auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
+signOptions->set_WindowsVersion(u"10.0");
+signOptions->set_ApplicationVersion(u"16.0.19127");
+signOptions->set_OfficeVersion(u"16.0.19127/27");
+signOptions->set_HorizontalResolution(1024);
+signOptions->set_VerticalResolution(768);
+signOptions->set_ColorDepth(24);
+
+System::ArrayPtr<uint8_t> certBytes = System::IO::File::ReadAllBytes(get_MyDir() + u"morzal.pfx");
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> cert = CertificateHolder::Create(certBytes, u"aw");
+DigitalSignatureUtil::Sign(get_MyDir() + u"Digitally signed.docx", get_ArtifactsDir() + u"DigitalSignatureUtil.docx", cert, signOptions);
+
+auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DigitalSignatureUtil.docx"));
+
+System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> signature = signedDoc->get_DigitalSignatures()->idx_get(0);
+ASSERT_EQ(1, signedDoc->get_DigitalSignatures()->get_Count());
+ASSERT_TRUE(signature->get_IsValid());
+ASSERT_EQ(u"10.0", signature->get_WindowsVersion());
+ASSERT_EQ(u"16.0.19127", signature->get_ApplicationVersion());
+ASSERT_EQ(u"16.0.19127/27", signature->get_OfficeVersion());
+ASSERT_EQ(1024, signature->get_HorizontalResolution());
+ASSERT_EQ(768, signature->get_VerticalResolution());
+ASSERT_EQ(24, signature->get_ColorDepth());
+```
 ## See Also
 
 * Class [SignOptions](../)

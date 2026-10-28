@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::LowCode::Replacer class in C++.'
 type: docs
-weight: 3000
+weight: 8000
 url: /cpp/aspose.words.lowcode/replacer/type/
 ---
 ## Replacer::Type method

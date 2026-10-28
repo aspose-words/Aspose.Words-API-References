@@ -4,7 +4,7 @@ linktitle: get_PreferredControlType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType method. Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements. Default value is FormField in C++.'
 type: docs
-weight: 6000
+weight: 10556
 url: /cpp/aspose.words.loading/htmlloadoptions/get_preferredcontroltype/
 ---
 ## HtmlLoadOptions::get_PreferredControlType method
@@ -16,12 +16,14 @@ Gets or sets preferred type of document nodes that will represent imported <inpu
 Aspose::Words::Loading::HtmlControlType Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType() const
 ```
 
+## Remarks
 
+ Please note that setting this property does not guarantee that all imported controls will be of the specified type. If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use a compatible [HtmlControlType](../../htmlcontroltype/) for that control. 
 ## Examples
 
 
+Shows how to set preferred type of document nodes that will represent imported <input> and <select> elements.
 
-Shows how to set preferred type of document nodes that will represent imported <input> and <select> elements. 
 ```cpp
 const System::String html = u"\r\n                <html>\r\n                    <select name='ComboBox' size='1'>\r\n                        <option value='val1'>item1</option>\r\n                        <option value='val2'></option>\r\n                    </select>\r\n                </html>\r\n            ";
 
@@ -33,10 +35,8 @@ System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(Node
 
 auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(nodes->idx_get(0));
 ```
-
 ## See Also
 
-* Enum [HtmlControlType](../../htmlcontroltype/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

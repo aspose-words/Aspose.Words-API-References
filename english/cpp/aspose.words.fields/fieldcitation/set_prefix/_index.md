@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/set_prefix/
 Sets a prefix that is prepended to the citation.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_Prefix(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_Prefix(const System::String & value)
 ```
 
 ## See Also

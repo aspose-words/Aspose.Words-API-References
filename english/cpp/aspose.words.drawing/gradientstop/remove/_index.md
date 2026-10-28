@@ -16,12 +16,11 @@ Removes the gradient stop from the parent [GradientStopCollection](../../gradien
 void Aspose::Words::Drawing::GradientStop::Remove()
 ```
 
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [GradientStop](../)

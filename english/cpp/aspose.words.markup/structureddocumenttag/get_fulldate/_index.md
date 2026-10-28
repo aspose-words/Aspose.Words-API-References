@@ -4,13 +4,13 @@ linktitle: get_FullDate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_FullDate method. Specifies the full date and time last entered into this SDT in C++.'
 type: docs
-weight: 16000
+weight: 73000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_fulldate/
 ---
 ## StructuredDocumentTag::get_FullDate method
 
 
-Specifies the full date and time last entered into this **SDT**.
+Specifies the full date and time last entered into this SDT.
 
 ```cpp
 System::DateTime Aspose::Words::Markup::StructuredDocumentTag::get_FullDate()
@@ -19,15 +19,14 @@ System::DateTime Aspose::Words::Markup::StructuredDocumentTag::get_FullDate()
 ## Remarks
 
 
-Accessing this property will only work for [Date](../../sdttype/) SDT type.
+Accessing this property will only work for [Date](../../sdttype/) SDT type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,7 +56,6 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

@@ -4,7 +4,7 @@ linktitle: get_NumberSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NumberSpacing method. Gets or sets the spacing type of the numeral being displayed in C++.'
 type: docs
-weight: 30500
+weight: 59540
 url: /cpp/aspose.words/font/get_numberspacing/
 ---
 ## Font::get_NumberSpacing method
@@ -16,12 +16,11 @@ Gets or sets the spacing type of the numeral being displayed.
 Aspose::Words::NumSpacing Aspose::Words::Font::get_NumberSpacing()
 ```
 
-
 ## Examples
 
 
+Shows how to set the spacing type of the numeral.
 
-Shows how to set the spacing type of the numeral. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,8 @@ if (run->get_Font()->get_NumberSpacing() == NumSpacing::Default)
 
 doc->Save(get_ArtifactsDir() + u"Fonts.NumberSpacing.docx");
 ```
-
 ## See Also
 
-* Enum [NumSpacing](../../numspacing/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

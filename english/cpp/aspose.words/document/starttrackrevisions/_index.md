@@ -7,19 +7,19 @@ type: docs
 weight: 92000
 url: /cpp/aspose.words/document/starttrackrevisions/
 ---
-## Document::StartTrackRevisions(const System::String\&) method
+## Document::StartTrackRevisions(const System::String \&) method
 
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
 ```cpp
-void Aspose::Words::Document::StartTrackRevisions(const System::String &author)
+void Aspose::Words::Document::StartTrackRevisions(const System::String & author)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | const System::String\& | Initials of the author to use for revisions. |
+| author | const System::String \& | Initials of the author to use for revisions. |
 ## Remarks
 
 
@@ -30,12 +30,11 @@ Currently Aspose.Words supports tracking of node insertions and deletions only. 
 Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../documentbuilder/)
 
 This method does not change the [TrackRevisions](../get_trackrevisions/) option and does not use its value for the purposes of revision tracking.
-
 ## Examples
 
 
+Shows how to track revisions while editing a document.
 
-Shows how to track revisions while editing a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,25 +75,26 @@ ASSERT_EQ(System::DateTime::MinValue, doc->get_Revisions()->idx_get(1)->get_Date
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
 doc->Save(get_ArtifactsDir() + u"Revision.StartTrackRevisions.docx");
 ```
-
 ## See Also
+
+* [StopTrackRevisions](../stoptrackrevisions/)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::StartTrackRevisions(const System::String\&, System::DateTime) method
+## Document::StartTrackRevisions(const System::String \&, System::DateTime) method
 
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
 ```cpp
-void Aspose::Words::Document::StartTrackRevisions(const System::String &author, System::DateTime dateTime)
+void Aspose::Words::Document::StartTrackRevisions(const System::String & author, System::DateTime dateTime)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | const System::String\& | Initials of the author to use for revisions. |
+| author | const System::String \& | Initials of the author to use for revisions. |
 | dateTime | System::DateTime | The date and time to use for revisions. |
 ## Remarks
 
@@ -106,12 +106,11 @@ Currently Aspose.Words supports tracking of node insertions and deletions only. 
 Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../documentbuilder/)
 
 This method does not change the [TrackRevisions](../get_trackrevisions/) option and does not use its value for the purposes of revision tracking.
-
 ## Examples
 
 
+Shows how to track revisions while editing a document.
 
-Shows how to track revisions while editing a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -152,8 +151,9 @@ ASSERT_EQ(System::DateTime::MinValue, doc->get_Revisions()->idx_get(1)->get_Date
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
 doc->Save(get_ArtifactsDir() + u"Revision.StartTrackRevisions.docx");
 ```
-
 ## See Also
+
+* [StopTrackRevisions](../stoptrackrevisions/)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)

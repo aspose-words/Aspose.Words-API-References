@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/signercontext/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::SignerContext::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::SignerContext::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::RowFormat::get_Borders method. Gets the collection of default cell borders for the row in C++.'
 type: docs
-weight: 4000
+weight: 9429
 url: /cpp/aspose.words.tables/rowformat/get_borders/
 ---
 ## RowFormat::get_Borders method
@@ -16,12 +16,11 @@ Gets the collection of default cell borders for the row.
 System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::RowFormat::get_Borders()
 ```
 
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,10 +79,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../../../aspose.words/bordercollection/)
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

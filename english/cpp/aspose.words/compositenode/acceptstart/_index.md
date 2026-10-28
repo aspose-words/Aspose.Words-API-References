@@ -13,13 +13,11 @@ url: /cpp/aspose.words/compositenode/acceptstart/
 When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.
 
 ```cpp
-virtual Aspose::Words::VisitorAction Aspose::Words::CompositeNode::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor)=0
+virtual Aspose::Words::VisitorAction Aspose::Words::CompositeNode::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor)
 ```
 
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [DocumentVisitor](../../documentvisitor/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

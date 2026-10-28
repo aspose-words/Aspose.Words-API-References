@@ -4,7 +4,7 @@ linktitle: get_EntryMacro
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_EntryMacro method. Returns or sets an entry macro name for the form field in C++.'
 type: docs
-weight: 10000
+weight: 56000
 url: /cpp/aspose.words.fields/formfield/get_entrymacro/
 ---
 ## FormField::get_EntryMacro method
@@ -21,7 +21,7 @@ System::String Aspose::Words::Fields::FormField::get_EntryMacro()
 
 The entry macro runs when the form field gets the focus in Microsoft Word.
 
-Microsoft Word allows strings with at most 32 characters. 
+Microsoft Word allows strings with at most 32 characters.
 ## See Also
 
 * Class [FormField](../)

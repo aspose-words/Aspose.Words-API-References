@@ -4,7 +4,7 @@ linktitle: get_BoundsWithEffects
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_BoundsWithEffects method. Gets final extent that this shape object has after applying drawing effects. Value is measured in points in C++.'
 type: docs
-weight: 11000
+weight: 61150
 url: /cpp/aspose.words.drawing/shapebase/get_boundswitheffects/
 ---
 ## ShapeBase::get_BoundsWithEffects method
@@ -16,12 +16,11 @@ Gets final extent that this shape object has after applying drawing effects. Val
 System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::get_BoundsWithEffects()
 ```
 
-
 ## Examples
 
 
+Shows how to check how a shape's bounds are affected by shape effects.
 
-Shows how to check how a shape's bounds are affected by shape effects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape shadow effect.docx"));
 
@@ -83,7 +82,6 @@ ASPOSE_ASSERT_EQ(-33, shape->get_BoundsWithEffects().get_Y());
 ASPOSE_ASSERT_EQ(192, shape->get_BoundsWithEffects().get_Width());
 ASPOSE_ASSERT_EQ(280.5, shape->get_BoundsWithEffects().get_Height());
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

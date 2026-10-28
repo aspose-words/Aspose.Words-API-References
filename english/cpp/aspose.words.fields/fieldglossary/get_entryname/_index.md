@@ -4,7 +4,7 @@ linktitle: get_EntryName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldGlossary::get_EntryName method. Gets or sets the name of the glossary entry to insert in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldglossary/get_entryname/
 ---
 ## FieldGlossary::get_EntryName method
@@ -16,12 +16,11 @@ Gets or sets the name of the glossary entry to insert.
 System::String Aspose::Words::Fields::FieldGlossary::get_EntryName() override
 ```
 
-
 ## Examples
 
 
+Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 
-Shows how to display a building block with AUTOTEXT and GLOSSARY fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -65,7 +64,6 @@ ASSERT_EQ(u" GLOSSARY  MyBlock", fieldGlossary->GetFieldCode());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
-
 ## See Also
 
 * Class [FieldGlossary](../)

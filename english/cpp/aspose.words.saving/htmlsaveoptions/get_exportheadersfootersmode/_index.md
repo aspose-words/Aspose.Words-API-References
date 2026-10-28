@@ -4,7 +4,7 @@ linktitle: get_ExportHeadersFootersMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportHeadersFootersMode method. Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is PerSection for HTML/MHTML and None for EPUB in C++.'
 type: docs
-weight: 18000
+weight: 49336
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportheadersfootersmode/
 ---
 ## HtmlSaveOptions::get_ExportHeadersFootersMode method
@@ -26,12 +26,11 @@ When this property is [PerSection](../../exportheadersfootersmode/), Aspose.Word
 When it is [FirstSectionHeaderLastSectionFooter](../../exportheadersfootersmode/) only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property to [None](../../exportheadersfootersmode/).
-
 ## Examples
 
 
+Shows how to omit headers/footers when saving a document to HTML.
 
-Shows how to omit headers/footers when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -52,10 +51,8 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
-
 ## See Also
 
-* Enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

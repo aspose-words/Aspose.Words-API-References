@@ -4,24 +4,24 @@ linktitle: get_IconCaption
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_IconCaption method. Gets icon caption of OLE object. In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string in C++.'
 type: docs
-weight: 4000
+weight: 19268
 url: /cpp/aspose.words.drawing/oleformat/get_iconcaption/
 ---
 ## OleFormat::get_IconCaption method
 
 
-Gets icon caption of OLE object. In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string.
+Gets icon caption of OLE object. 
+In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string.
 
 ```cpp
 System::String Aspose::Words::Drawing::OleFormat::get_IconCaption()
 ```
 
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +67,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
     ASSERT_EQ(76, oleEntryBytes->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

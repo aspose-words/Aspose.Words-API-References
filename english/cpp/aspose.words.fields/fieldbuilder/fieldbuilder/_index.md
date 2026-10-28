@@ -4,7 +4,7 @@ linktitle: FieldBuilder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBuilder::FieldBuilder constructor. Initializes an instance of the FieldBuilder class in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder::FieldBuilder constructor
@@ -20,12 +20,11 @@ Aspose::Words::Fields::FieldBuilder::FieldBuilder(Aspose::Words::Fields::FieldTy
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldType | Aspose::Words::Fields::FieldType | The type of the field to build. |
-
 ## Examples
 
 
+Shows how to create and insert a field using a field builder.
 
-Shows how to create and insert a field using a field builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,10 +45,8 @@ fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParag
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.CreateWithFieldBuilder.docx");
 ```
-
 ## See Also
 
-* Enum [FieldType](../../fieldtype/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

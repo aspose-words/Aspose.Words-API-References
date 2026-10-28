@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/shaperenderer/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Rendering::ShapeRenderer::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Rendering::ShapeRenderer::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

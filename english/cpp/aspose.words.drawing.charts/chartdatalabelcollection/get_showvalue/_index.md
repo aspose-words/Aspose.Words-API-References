@@ -4,7 +4,7 @@ linktitle: get_ShowValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue method. Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 14000
+weight: 18300
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showvalue/
 ---
 ## ChartDataLabelCollection::get_ShowValue method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showvalue/
 Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue()
 ```
 
+## Remarks
 
+ Value defined for this property can be overridden for an individual data label with using the [ShowValue](../../chartdatalabel/get_showvalue/) property. 
 ## Examples
 
 
+Shows how to work with data labels of a pie chart.
 
-Shows how to work with data labels of a pie chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +48,6 @@ dataLabels->set_Separator(u"; ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

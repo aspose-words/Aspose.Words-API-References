@@ -4,7 +4,7 @@ linktitle: get_DetectNumberingWithWhitespaces
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces method. Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true in C++.'
 type: docs
-weight: 4000
+weight: 9556
 url: /cpp/aspose.words.loading/txtloadoptions/get_detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions::get_DetectNumberingWithWhitespaces method
@@ -13,21 +13,20 @@ url: /cpp/aspose.words.loading/txtloadoptions/get_detectnumberingwithwhitespaces
 Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is **true**.
 
 ```cpp
-bool Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces() const
+_Bool Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces() const
 ```
 
 ## Remarks
 
 
-If this option is set to **false**, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").
+ If this option is set to **false**, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").
 
-If this option is set to **true**, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
-
+ If this option is set to **true**, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 ## Examples
 
 
+Shows how to detect lists when loading plaintext documents.
 
-Shows how to detect lists when loading plaintext documents. 
 ```cpp
 // Create a plaintext document in a string with four separate parts that we may interpret as lists,
 // with different delimiters. Upon loading the plaintext document into a "Document" object,
@@ -65,7 +64,6 @@ else
     }))));
 }
 ```
-
 ## See Also
 
 * Class [TxtLoadOptions](../)

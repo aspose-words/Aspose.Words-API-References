@@ -4,7 +4,7 @@ linktitle: get_DisplayName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OlePackage::get_DisplayName method. Gets or sets OLE Package display name in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.drawing/olepackage/get_displayname/
 ---
 ## OlePackage::get_DisplayName method
@@ -16,12 +16,11 @@ Gets or sets OLE Package display name.
 System::String Aspose::Words::Drawing::OlePackage::get_DisplayName() const
 ```
 
-
 ## Examples
 
 
+Shows how insert an OLE object into a document.
 
-Shows how insert an OLE object into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,6 @@ System::ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(get_Data
 
 doc->Save(get_ArtifactsDir() + u"Shape.InsertOlePackage.docx");
 ```
-
 ## See Also
 
 * Class [OlePackage](../)

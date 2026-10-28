@@ -4,7 +4,7 @@ linktitle: Person
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::Person constructor. Initialize a new instance of the Person class in C++.'
 type: docs
-weight: 2000
+weight: 9167
 url: /cpp/aspose.words.bibliography/person/person/
 ---
 ## Person::Person constructor
@@ -13,21 +13,20 @@ url: /cpp/aspose.words.bibliography/person/person/
 Initialize a new instance of the [Person](../) class.
 
 ```cpp
-Aspose::Words::Bibliography::Person::Person(const System::String &last, const System::String &first, const System::String &middle)
+Aspose::Words::Bibliography::Person::Person(const System::String & last, const System::String & first, const System::String & middle)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| last | const System::String\& | The last name. |
-| first | const System::String\& | The last name. |
-| middle | const System::String\& | The last name. |
-
+| last | const System::String \& | The last name. |
+| first | const System::String \& | The last name. |
+| middle | const System::String \& | The last name. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -121,8 +120,8 @@ ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -147,7 +146,6 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
 * Class [Person](../)

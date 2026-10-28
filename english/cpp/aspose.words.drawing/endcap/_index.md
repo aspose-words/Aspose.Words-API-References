@@ -13,20 +13,21 @@ url: /cpp/aspose.words.drawing/endcap/
 Specifies line cap style.
 
 ```cpp
-enum class EndCap
+enum class EndCap : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Default | 2 | Default value is [Flat](./). |
+| Flat | 2 | Line ends at end point. |
 | Round | 0 | Rounded ends. |
 | Square | 1 | Square protrudes by half line width. |
-| Flat | 2 | Line ends at end point. |
-| Default | 2 | Default value is [Flat](./). |
-
 
 ## See Also
+
+* [EndCap](../stroke/get_endcap/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

@@ -4,7 +4,7 @@ linktitle: get_IsAutoSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing method. Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels in C++.'
 type: docs
-weight: 4000
+weight: 11400
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_isautospacing/
 ---
 ## AxisTickLabels::get_IsAutoSpacing method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisticklabels/get_isautospacing/
 Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing()
+_Bool Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing()
 The default value is **true**.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
-
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -77,7 +76,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Class [AxisTickLabels](../)

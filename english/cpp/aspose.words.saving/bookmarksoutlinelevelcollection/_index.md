@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::BookmarksOutlineLevelCollection class
 linktitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level. To learn more, visit the Working with Bookmarks documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/
 ## BookmarksOutlineLevelCollection class
 
 
-A collection of individual bookmarks outline level. To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article.
+A collection of individual bookmarks outline level. 
+To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article.
 
 ```cpp
 class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEnumerable<System::Collections::Generic::KeyValuePair<System::String, int32_t>>
@@ -20,28 +21,28 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::String\&, int32_t) | Adds a bookmark to the collection. |
+| [Add](./add/)(const System::String \&, int32_t) | Adds a bookmark to the collection. |
+| [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection/)() |  |
+| [Clear](./clear/)() | Removes all elements from the collection. |
+| [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a bookmark with the given name. |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
+| [IndexOfKey](./indexofkey/)(const System::String \&) | Returns the zero-based index of the specified bookmark in the collection. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::String \&) | Removes a bookmark with the specified name from the collection. |
+| [RemoveAt](./removeat/)(int32_t) | Removes a bookmark at the specified index. |
+| static [Type](./type/)() |  |
 | [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
-| [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [Clear](./clear/)() | Removes all elements from the collection. |
-| [Contains](./contains/)(const System::String\&) | Determines whether the collection contains a bookmark with the given name. |
 | [end](./end/)() |  |
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(const System::String\&) | Gets or a sets a bookmark outline level by the bookmark name. |
+| [idx_get](./idx_get/)(const System::String \&) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a bookmark outline level at the specified index. |
-| [idx_set](./idx_set/)(const System::String\&, int32_t) | Gets or a sets a bookmark outline level by the bookmark name. |
+| [idx_set](./idx_set/)(const System::String \&, int32_t) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_set](./idx_set/)(int32_t, int32_t) | Gets or sets a bookmark outline level at the specified index. |
-| [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified bookmark in the collection. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::String\&) | Removes a bookmark with the specified name from the collection. |
-| [RemoveAt](./removeat/)(int32_t) | Removes a bookmark at the specified index. |
-| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -60,13 +61,12 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 
 Key is a case-insensitive string bookmark name. Value is a int bookmark outline level.
 
-[Bookmark](../../aspose.words/bookmark/) outline level may be a value from 0 to 9. Specify 0 and Word bookmark will not be displayed in the document outline. Specify 1 and Word bookmark will be displayed in the document outline at level 1; 2 for level 2 and so on.
-
+Bookmark outline level may be a value from 0 to 9. Specify 0 and Word bookmark will not be displayed in the document outline. Specify 1 and Word bookmark will be displayed in the document outline at level 1; 2 for level 2 and so on.
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -117,7 +117,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

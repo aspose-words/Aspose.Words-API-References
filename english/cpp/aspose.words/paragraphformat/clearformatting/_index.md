@@ -16,12 +16,14 @@ Resets to default paragraph formatting.
 void Aspose::Words::ParagraphFormat::ClearFormatting()
 ```
 
+## Remarks
 
+ Default paragraph formatting is Normal style, left aligned, no indentation, no spacing, no borders and no shading. 
 ## Examples
 
 
+Shows how to nest a list inside another list.
 
-Shows how to nest a list inside another list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +70,6 @@ builder->get_ParagraphFormat()->ClearFormatting();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

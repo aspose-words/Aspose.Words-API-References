@@ -16,12 +16,11 @@ Deletes all tab stop positions.
 void Aspose::Words::TabStopCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
 * Class [TabStopCollection](../)

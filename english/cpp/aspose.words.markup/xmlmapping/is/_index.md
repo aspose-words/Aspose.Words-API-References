@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/xmlmapping/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::XmlMapping::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::XmlMapping::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

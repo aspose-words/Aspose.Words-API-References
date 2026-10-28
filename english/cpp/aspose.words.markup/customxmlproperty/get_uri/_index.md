@@ -4,7 +4,7 @@ linktitle: get_Uri
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlProperty::get_Uri method. Gets or sets the namespace URI of the custom XML attribute or smart tag property in C++.'
 type: docs
-weight: 4000
+weight: 7600
 url: /cpp/aspose.words.markup/customxmlproperty/get_uri/
 ---
 ## CustomXmlProperty::get_Uri method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Markup::CustomXmlProperty::get_Uri() const
 Cannot be **null**.
 
 Default is empty string.
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -77,7 +76,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlProperty](../)

@@ -4,7 +4,7 @@ linktitle: get_ReferenceOffset
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MustacheTag::get_ReferenceOffset method. Gets the zero-based starting position of the tag from the start of the ReferenceRun in C++.'
 type: docs
-weight: 2000
+weight: 8000
 url: /cpp/aspose.words.mailmerging/mustachetag/get_referenceoffset/
 ---
 ## MustacheTag::get_ReferenceOffset method

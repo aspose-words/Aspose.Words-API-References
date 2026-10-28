@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlpart/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Markup::CustomXmlPart::GetType() const override
+const System::TypeInfo & Aspose::Words::Markup::CustomXmlPart::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_RelativeHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_RelativeHorizontalAlignment method. Gets or sets floating table relative horizontal alignment in C++.'
 type: docs
-weight: 30000
+weight: 94000
 url: /cpp/aspose.words.tables/table/get_relativehorizontalalignment/
 ---
 ## Table::get_RelativeHorizontalAlignment method
@@ -16,12 +16,11 @@ Gets or sets floating table relative horizontal alignment.
 Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::Tables::Table::get_RelativeHorizontalAlignment()
 ```
 
-
 ## Examples
 
 
+Shows how set the location of floating tables.
 
-Shows how set the location of floating tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ table->set_AbsoluteHorizontalDistance(100);
 
 doc->Save(get_ArtifactsDir() + u"Table.ChangeFloatingTableProperties.docx");
 ```
-
 ## See Also
 
-* Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

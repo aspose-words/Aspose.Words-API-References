@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::get_Count method. Returns the number of series groups in this collection in C++.'
 type: docs
-weight: 7000
+weight: 12750
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/get_count/
 ---
 ## ChartSeriesGroupCollection::get_Count method
@@ -16,12 +16,11 @@ Returns the number of series groups in this collection.
 int32_t Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Show how to remove secondary axis.
 
-Show how to remove secondary axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Combo chart.docx"));
 
@@ -38,7 +37,6 @@ for (int32_t i = 0; i < seriesGroups->get_Count(); i++)
     }
 }
 ```
-
 ## See Also
 
 * Class [ChartSeriesGroupCollection](../)

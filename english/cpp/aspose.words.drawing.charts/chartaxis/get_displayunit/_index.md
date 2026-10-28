@@ -4,7 +4,7 @@ linktitle: get_DisplayUnit
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_DisplayUnit method. Specifies the scaling value of the display units for the value axis in C++.'
 type: docs
-weight: 7000
+weight: 31252
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_displayunit/
 ---
 ## ChartAxis::get_DisplayUnit method
@@ -16,12 +16,14 @@ Specifies the scaling value of the display units for the value axis.
 System::SharedPtr<Aspose::Words::Drawing::Charts::AxisDisplayUnit> Aspose::Words::Drawing::Charts::ChartAxis::get_DisplayUnit()
 ```
 
+## Remarks
 
+ The property has effect only for value axes. 
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,10 +76,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
-* Class [AxisDisplayUnit](../../axisdisplayunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

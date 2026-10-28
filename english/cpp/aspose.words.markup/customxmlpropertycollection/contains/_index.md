@@ -13,23 +13,22 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/contains/
 Determines whether the collection contains a property with the given name.
 
 ```cpp
-bool Aspose::Words::Markup::CustomXmlPropertyCollection::Contains(const System::String &name)
+_Bool Aspose::Words::Markup::CustomXmlPropertyCollection::Contains(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-sensitive name of the property to locate. |
+| name | const System::String \& | Case-sensitive name of the property to locate. |
 
 ### ReturnValue
 
 **true** if the item is found in the collection; otherwise, **false**.
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -79,7 +78,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlPropertyCollection](../)

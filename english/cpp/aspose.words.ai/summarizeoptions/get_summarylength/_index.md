@@ -4,7 +4,7 @@ linktitle: get_SummaryLength
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::SummarizeOptions::get_SummaryLength method. Allows to specify summary length. Default value is Medium in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.ai/summarizeoptions/get_summarylength/
 ---
 ## SummarizeOptions::get_SummaryLength method
@@ -16,12 +16,11 @@ Allows to specify summary length. Default value is [Medium](../../summarylength/
 Aspose::Words::AI::SummaryLength Aspose::Words::AI::SummarizeOptions::get_SummaryLength() const
 ```
 
-
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -40,10 +39,8 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
-* Enum [SummaryLength](../../summarylength/)
 * Class [SummarizeOptions](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

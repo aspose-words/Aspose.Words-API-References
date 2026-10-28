@@ -4,7 +4,7 @@ linktitle: get_LastParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_LastParagraph method. Gets the last paragraph in the story in C++.'
 type: docs
-weight: 9000
+weight: 23000
 url: /cpp/aspose.words/inlinestory/get_lastparagraph/
 ---
 ## InlineStory::get_LastParagraph method
@@ -16,12 +16,11 @@ Gets the last paragraph in the story.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_LastParagraph() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert InlineStory nodes.
 
-Shows how to insert [InlineStory](../) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

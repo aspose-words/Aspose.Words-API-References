@@ -2,7 +2,7 @@
 title: Aspose::Words::Framesets::Frameset class
 linktitle: Frameset
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Framesets::Frameset class. Represents a frames page or a single frame on a frames page. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Framesets::Frameset class. Represents a frames page or a single frame on a frames page. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.framesets/frameset/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.framesets/frameset/
 ## Frameset class
 
 
-Represents a frames page or a single frame on a frames page. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Represents a frames page or a single frame on a frames page. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class Frameset : public System::Object
@@ -21,20 +22,22 @@ class Frameset : public System::Object
 | Method | Description |
 | --- | --- |
 | [Frameset](./frameset/)() |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_ChildFramesets](./get_childframesets/)() const | Gets the collection of child frames and frames pages. |
 | [get_FrameDefaultUrl](./get_framedefaulturl/)() | Gets or sets the web page URL or document file name to display in this frame. |
 | [get_IsFrameLinkToFile](./get_isframelinktofile/)() | Gets or sets a value indicating whether the web page or document file name specified in the [FrameDefaultUrl](./get_framedefaulturl/) property is an external resource the frame is linked with. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_FrameDefaultUrl](./set_framedefaulturl/)(const System::String\&) | Setter for [Aspose::Words::Framesets::Frameset::get_FrameDefaultUrl](./get_framedefaulturl/). |
-| [set_IsFrameLinkToFile](./set_isframelinktofile/)(bool) | Setter for [Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile](./get_isframelinktofile/). |
-| static [Type](./type/)() |  |
+| [set_FrameDefaultUrl](./set_framedefaulturl/)(const System::String \&) | Sets the web page URL or document file name to display in this frame. |
+| [set_IsFrameLinkToFile](./set_isframelinktofile/)(bool) | Sets a value indicating whether the web page or document file name specified in the [FrameDefaultUrl](./get_framedefaulturl/) property is an external resource the frame is linked with. |
+## Remarks
 
+ If the [ChildFramesets](./get_childframesets/) property contains items, this instance is a frames page, otherwise it is a single frame. 
 ## Examples
 
 
+Shows how to access frames on-page.
 
-Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
@@ -51,7 +54,6 @@ ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameL
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Framesets](../)

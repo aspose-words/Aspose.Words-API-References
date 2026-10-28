@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels method
 linktitle: set_SimplifyListLabels
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels method. Setter for Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels method. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.If set to true, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is false in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.saving/txtsaveoptions/set_simplifylistlabels/
@@ -10,12 +10,58 @@ url: /cpp/aspose.words.saving/txtsaveoptions/set_simplifylistlabels/
 ## TxtSaveOptions::set_SimplifyListLabels method
 
 
-Setter for [Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels](../get_simplifylistlabels/).
+Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
+
+If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**.
 
 ```cpp
 void Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels(bool value)
 ```
 
+## Examples
+
+
+Shows how to change the appearance of lists when saving a document to plaintext.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Create a bulleted list with five levels of indentation.
+builder->get_ListFormat()->ApplyBulletDefault();
+builder->Writeln(u"Item 1");
+builder->get_ListFormat()->ListIndent();
+builder->Writeln(u"Item 2");
+builder->get_ListFormat()->ListIndent();
+builder->Writeln(u"Item 3");
+builder->get_ListFormat()->ListIndent();
+builder->Writeln(u"Item 4");
+builder->get_ListFormat()->ListIndent();
+builder->Write(u"Item 5");
+
+// Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how we save the document to plaintext.
+auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
+
+// Set the "SimplifyListLabels" property to "true" to convert some list
+// symbols into simpler ASCII characters, such as '*', 'o', '+', '>', etc.
+// Set the "SimplifyListLabels" property to "false" to preserve as many original list symbols as possible.
+txtSaveOptions->set_SimplifyListLabels(simplifyListLabels);
+
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
+
+System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.SimplifyListLabels.txt");
+
+System::String newLine = System::Environment::get_NewLine();
+if (simplifyListLabels)
+{
+    ASSERT_EQ(System::String::Format(u"* Item 1{0}", newLine) + System::String::Format(u"  > Item 2{0}", newLine) + System::String::Format(u"    + Item 3{0}", newLine) + System::String::Format(u"      - Item 4{0}", newLine) + System::String::Format(u"        o Item 5{0}", newLine), docText);
+}
+else
+{
+    ASSERT_EQ(System::String::Format(u"· Item 1{0}", newLine) + System::String::Format(u"o Item 2{0}", newLine) + System::String::Format(u"§ Item 3{0}", newLine) + System::String::Format(u"· Item 4{0}", newLine) + System::String::Format(u"o Item 5{0}", newLine), docText);
+}
+```
 ## See Also
 
 * Class [TxtSaveOptions](../)

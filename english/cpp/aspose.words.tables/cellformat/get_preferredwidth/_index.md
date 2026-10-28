@@ -4,7 +4,7 @@ linktitle: get_PreferredWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_PreferredWidth method. Returns or sets the preferred width of the cell in C++.'
 type: docs
-weight: 9000
+weight: 40000
 url: /cpp/aspose.words.tables/cellformat/get_preferredwidth/
 ---
 ## CellFormat::get_PreferredWidth method
@@ -19,17 +19,16 @@ System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::Tables::
 ## Remarks
 
 
-The preferred width (along with the table's Auto Fit option) determines how the actual width of the cell is calculated by the table layout algorithm. [Table](../../table/) layout can be performed by Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
+The preferred width (along with the table's Auto Fit option) determines how the actual width of the cell is calculated by the table layout algorithm. Table layout can be performed by Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
 
 The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
 The default value is [Auto](../../preferredwidth/auto/).
-
 ## Examples
 
 
+Shows how to set a preferred width for table cells.
 
-Shows how to set a preferred width for table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,10 +60,8 @@ builder->Writeln(u"Automatically sized cell.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
-
 ## See Also
 
-* Class [PreferredWidth](../../preferredwidth/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

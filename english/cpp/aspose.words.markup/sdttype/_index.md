@@ -13,37 +13,36 @@ url: /cpp/aspose.words.markup/sdttype/
 Specifies the type of a structured document tag (SDT) node.
 
 ```cpp
-enum class SdtType
+enum class SdtType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No type is assigned to the SDT. |
 | Bibliography | 1 | The SDT represents a bibliography entry. |
+| BuildingBlockGallery | 7 | The SDT represents a building block gallery type. |
+| Checkbox | 13 | The SDT represents a checkbox when displayed in the document. |
 | Citation | 2 | The SDT represents a citation. |
-| Equation | 3 | The SDT represents an equation. |
-| DropDownList | 4 | The SDT represents a drop down list when displayed in the document. |
 | ComboBox | 5 | The SDT represents a combo box when displayed in the document. |
 | Date | 6 | The SDT represents a date picker when displayed in the document. |
-| BuildingBlockGallery | 7 | The SDT represents a building block gallery type. |
 | DocPartObj | 8 | The SDT represents a document part type. |
+| DropDownList | 4 | The SDT represents a drop down list when displayed in the document. |
+| EntityPicker | 16 | The SDT represents an entity picker that allows the user to select an instance of an external content type. |
+| Equation | 3 | The SDT represents an equation. |
 | Group | 9 | The SDT represents a restricted grouping when displayed in the document. |
+| None | 0 | No type is assigned to the SDT. |
 | Picture | 10 | The SDT represents a picture when displayed in the document. |
-| RichText | 11 | The SDT represents a rich text box when displayed in the document. |
 | PlainText | 12 | The SDT represents a plain text box when displayed in the document. |
-| Checkbox | 13 | The SDT represents a checkbox when displayed in the document. |
 | RepeatingSection | 14 | The SDT represents repeating section type when displayed in the document. |
 | RepeatingSectionItem | 15 | The SDT represents repeating section item. |
-| EntityPicker | 16 | The SDT represents an entity picker that allows the user to select an instance of an external content type. |
-
+| RichText | 11 | The SDT represents a rich text box when displayed in the document. |
 
 ## Examples
 
 
+Shows how to work with styles for content control elements.
 
-Shows how to work with styles for content control elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,8 +75,8 @@ for (auto&& node : System::IterateOver(tags))
 }
 ```
 
+Shows how to fill a table with data from in an XML part.
 
-Shows how to fill a table with data from in an XML part. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -119,8 +118,8 @@ row->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.RepeatingSectionItem.docx");
 ```
 
+Shows how to create group structured document tag at the Row level.
 
-Shows how to create group structured document tag at the Row level. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -154,8 +153,8 @@ builder->Write(u"Nulla blandit nisi.");
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.SdtAtRowLevel.docx");
 ```
 
+Shows how to create a structured document tag of the Citation type.
 
-Shows how to create a structured document tag of the Citation type. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -176,7 +175,6 @@ while (sdt->get_NextSibling() != nullptr)
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Citation.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

@@ -13,23 +13,22 @@ url: /cpp/aspose.words.properties/documentpropertycollection/indexof/
 Gets the index of a property by name.
 
 ```cpp
-int32_t Aspose::Words::Properties::DocumentPropertyCollection::IndexOf(const System::String &name)
+int32_t Aspose::Words::Properties::DocumentPropertyCollection::IndexOf(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the property. |
+| name | const System::String \& | The case-insensitive name of the property. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
-
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -84,7 +83,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [DocumentPropertyCollection](../)

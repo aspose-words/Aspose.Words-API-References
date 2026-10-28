@@ -4,7 +4,7 @@ linktitle: get_FontInfos
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_FontInfos method. Provides access to properties of fonts used in this document in C++.'
 type: docs
-weight: 4000
+weight: 13336
 url: /cpp/aspose.words/documentbase/get_fontinfos/
 ---
 ## DocumentBase::get_FontInfos method
@@ -19,15 +19,14 @@ System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> Aspose::Words::Docum
 ## Remarks
 
 
-This collection of font definitions is loaded as is from the document. [Font](../../font/) definitions might be optional, missing or incomplete in some documents.
+This collection of font definitions is loaded as is from the document. Font definitions might be optional, missing or incomplete in some documents.
 
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
-
 ## Examples
 
 
+Shows how to print the details of what fonts are present in a document.
 
-Shows how to print the details of what fonts are present in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
@@ -42,8 +41,8 @@ for (int32_t i = 0; i < allFonts->get_Count(); i++)
 }
 ```
 
+Shows how to save a document with embedded TrueType fonts.
 
-Shows how to save a document with embedded TrueType fonts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -54,10 +53,8 @@ fontInfos->set_SaveSubsetFonts(embedAllFonts);
 
 doc->Save(get_ArtifactsDir() + u"Font.FontInfoCollection.docx");
 ```
-
 ## See Also
 
-* Class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

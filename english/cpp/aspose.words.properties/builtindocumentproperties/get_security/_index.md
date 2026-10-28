@@ -4,7 +4,7 @@ linktitle: get_Security
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Security method. Specifies the security level of a document as a numeric value in C++.'
 type: docs
-weight: 25000
+weight: 36714
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_security/
 ---
 ## BuiltInDocumentProperties::get_Security method
@@ -21,15 +21,14 @@ Aspose::Words::Properties::DocumentSecurity Aspose::Words::Properties::BuiltInDo
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
-To protect or unprotect a document use the [Protect()](../) and [Unprotect](../../../aspose.words/document/unprotect/) methods.
+To protect or unprotect a document use the [Protect()](../../../aspose.words/document/protect/) and [Unprotect](../../../aspose.words/document/unprotect/) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
-
 ## Examples
 
 
+Shows how to use document properties to display the security level of a document.
 
-Shows how to use document properties to display the security level of a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -64,10 +63,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnot
 
 ASSERT_EQ(DocumentSecurity::ReadOnlyExceptAnnotations, System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnotations.docx"))->get_BuiltInDocumentProperties()->get_Security());
 ```
-
 ## See Also
 
-* Enum [DocumentSecurity](../../documentsecurity/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

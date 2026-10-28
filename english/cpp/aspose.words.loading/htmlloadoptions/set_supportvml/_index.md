@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml method
 linktitle: set_SupportVml
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml method. Setter for Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml in C++.'
+description: 'Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml method. Sets a value indicating whether to support VML images in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.loading/htmlloadoptions/set_supportvml/
@@ -10,12 +10,38 @@ url: /cpp/aspose.words.loading/htmlloadoptions/set_supportvml/
 ## HtmlLoadOptions::set_SupportVml method
 
 
-Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml](../get_supportvml/).
+Sets a value indicating whether to support VML images.
 
 ```cpp
 void Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml(bool value)
 ```
 
+## Examples
+
+
+Shows how to support conditional comments while loading an HTML document.
+
+```cpp
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
+
+// If the value is true, then we take VML code into account while parsing the loaded document.
+loadOptions->set_SupportVml(supportVml);
+
+// This document contains a JPEG image within "<!--[if gte vml 1]>" tags,
+// and a different PNG image within "<![if !vml]>" tags.
+// If we set the "SupportVml" flag to "true", then Aspose.Words will load the JPEG.
+// If we set this flag to "false", then Aspose.Words will only load the PNG.
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VML conditional.htm", loadOptions);
+
+if (supportVml)
+{
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+}
+else
+{
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+}
+```
 ## See Also
 
 * Class [HtmlLoadOptions](../)

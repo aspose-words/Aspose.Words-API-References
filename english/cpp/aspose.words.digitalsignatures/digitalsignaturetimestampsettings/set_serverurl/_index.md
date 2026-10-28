@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_ServerUrl method
 linktitle: set_ServerUrl
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_ServerUrl method. Setter for Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_ServerUrl in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_ServerUrl method. Sets a string value representing timestamp server URL. The default value is null in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/set_serverurl/
@@ -10,12 +10,45 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/set_s
 ## DigitalSignatureTimestampSettings::set_ServerUrl method
 
 
-Setter for [Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_ServerUrl](../get_serverurl/).
+Sets a string value representing timestamp server URL. The default value is **null**.
 
 ```cpp
-void Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_ServerUrl(const System::String &value)
+void Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_ServerUrl(const System::String & value)
 ```
 
+## Remarks
+
+ If **null**, then the digital signature will not be time-stamped. 
+## Examples
+
+
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
+
+```cpp
+auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
+signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
+signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings>(u"https://freetsa.org/tsr", u"JohnDoe", u"MyPassword"));
+
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> cert = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+
+DigitalSignatureUtil::Sign(get_MyDir() + u"Digitally signed.docx", get_ArtifactsDir() + u"DigitalSignatureUtil.Timestamped.docx", cert, signOptions);
+
+auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DigitalSignatureUtil.Timestamped.docx"));
+
+ASSERT_EQ(1, signedDoc->get_DigitalSignatures()->get_Count());
+ASSERT_TRUE(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IsValid());
+
+// Verify timestamp settings are applied.
+ASSERT_EQ(u"https://freetsa.org/tsr", signOptions->get_TimestampSettings()->get_ServerUrl());
+ASSERT_EQ(u"JohnDoe", signOptions->get_TimestampSettings()->get_UserName());
+ASSERT_EQ(u"MyPassword", signOptions->get_TimestampSettings()->get_Password());
+ASPOSE_ASSERT_EQ(100.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
+
+// Test with custom timeout.
+signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings>(u"https://freetsa.org/tsr", u"JohnDoe", u"MyPassword", System::TimeSpan::FromMinutes(30)));
+
+ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
+```
 ## See Also
 
 * Class [DigitalSignatureTimestampSettings](../)

@@ -4,7 +4,7 @@ linktitle: get_LockFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldInclude::get_LockFields method. Gets or sets whether to prevent fields in the included document from being updated in C++.'
 type: docs
-weight: 3000
+weight: 7501
 url: /cpp/aspose.words.fields/fieldinclude/get_lockfields/
 ---
 ## FieldInclude::get_LockFields method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldinclude/get_lockfields/
 Gets or sets whether to prevent fields in the included document from being updated.
 
 ```cpp
-bool Aspose::Words::Fields::FieldInclude::get_LockFields() override
+_Bool Aspose::Words::Fields::FieldInclude::get_LockFields() override
 ```
-
 
 ## Examples
 
 
+Shows how to create an INCLUDE field, and set its properties.
 
-Shows how to create an INCLUDE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(field->GetFieldCode()
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INCLUDE.docx");
 ```
-
 ## See Also
 
 * Class [FieldInclude](../)

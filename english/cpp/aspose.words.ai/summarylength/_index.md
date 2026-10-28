@@ -13,25 +13,24 @@ url: /cpp/aspose.words.ai/summarylength/
 Enumerates possible lengths of summary.
 
 ```cpp
-enum class SummaryLength
+enum class SummaryLength : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| VeryShort | 0 | Try to generate 1-2 sentences. |
-| Short | 1 | Try to generate 3-4 sentences. |
-| Medium | 2 | Try to generate 5-6 sentences. |
 | Long | 3 | Try to generate 7-10 sentences. |
+| Medium | 2 | Try to generate 5-6 sentences. |
+| Short | 1 | Try to generate 3-4 sentences. |
 | VeryLong | 4 | Try to generate 11-20 sentences. |
-
+| VeryShort | 0 | Try to generate 1-2 sentences. |
 
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -50,7 +49,6 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::AI](../)

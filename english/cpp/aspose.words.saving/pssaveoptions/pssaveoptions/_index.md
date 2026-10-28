@@ -4,7 +4,7 @@ linktitle: PsSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use PsSaveOptions constructor of Aspose::Words::Saving::PsSaveOptions class in C++.'
 type: docs
-weight: 2000
+weight: 6200
 url: /cpp/aspose.words.saving/pssaveoptions/pssaveoptions/
 ---
 ## PsSaveOptions::PsSaveOptions constructor

@@ -4,7 +4,7 @@ linktitle: get_ExportGeneratorName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName method. When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is true in C++.'
 type: docs
-weight: 9000
+weight: 24352
 url: /cpp/aspose.words.saving/saveoptions/get_exportgeneratorname/
 ---
 ## SaveOptions::get_ExportGeneratorName method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/saveoptions/get_exportgeneratorname/
 When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
+_Bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
 ```
-
 
 ## Examples
 
 
+Shows how to disable adding name and version of Aspose.Words into produced files.
 
-Shows how to disable adding name and version of Aspose.Words into produced files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -31,7 +30,6 @@ saveOptions->set_ExportGeneratorName(false);
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [SaveOptions](../)

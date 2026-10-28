@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/streamfontsource/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fonts::StreamFontSource::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fonts::StreamFontSource::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::MailMerging::MailMerge class in C++.'
 type: docs
-weight: 1000
+weight: 26056
 url: /cpp/aspose.words.mailmerging/mailmerge/type/
 ---
 ## MailMerge::Type method

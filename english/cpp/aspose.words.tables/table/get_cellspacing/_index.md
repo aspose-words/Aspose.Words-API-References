@@ -4,7 +4,7 @@ linktitle: get_CellSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_CellSpacing method. Gets or sets the amount of space (in points) between the cells in C++.'
 type: docs
-weight: 17000
+weight: 81000
 url: /cpp/aspose.words.tables/table/get_cellspacing/
 ---
 ## Table::get_CellSpacing method
@@ -16,12 +16,11 @@ Gets or sets the amount of space (in points) between the cells.
 double Aspose::Words::Tables::Table::get_CellSpacing()
 ```
 
-
 ## Examples
 
 
+Shows how to enable spacing between individual cells in a table.
 
-Shows how to enable spacing between individual cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,8 +53,8 @@ table->set_CellSpacing(5);
 ASSERT_TRUE(table->get_AllowCellSpacing());
 ```
 
+Shows how to create custom style settings for the table.
 
-Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,7 +90,6 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
 doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
-
 ## See Also
 
 * Class [Table](../)

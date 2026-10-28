@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::OoxmlSaveOptions::set_Compliance method
 linktitle: set_Compliance
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::OoxmlSaveOptions::set_Compliance method. Setter for Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance in C++.'
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::set_Compliance method. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_compliance/
@@ -10,15 +10,97 @@ url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_compliance/
 ## OoxmlSaveOptions::set_Compliance method
 
 
-Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance](../get_compliance/).
+Specifies the OOXML version for the output document. The default value is [Ecma376_2006](../../ooxmlcompliance/).
 
 ```cpp
 void Aspose::Words::Saving::OoxmlSaveOptions::set_Compliance(Aspose::Words::Saving::OoxmlCompliance value)
 ```
 
+## Examples
+
+
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// If we configure compatibility options to comply with Microsoft Word 2003,
+// inserting an image will define its shape using VML.
+doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
+builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
+
+ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+
+// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+// any document we save while passing this object will have to follow that standard.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
+saveOptions->set_SaveFormat(SaveFormat::Docx);
+
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx"));
+
+ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+```
+
+Shows how to configure a list to restart numbering at each section.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+doc->get_Lists()->Add(ListTemplate::NumberDefault);
+
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
+list->set_IsRestartAtEachSection(restartListAtEachSection);
+
+// The "IsRestartAtEachSection" property will only be applicable when
+// the document's OOXML compliance level is to a standard that is newer than "OoxmlComplianceCore.Ecma376".
+auto options = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+options->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+
+builder->get_ListFormat()->set_List(list);
+
+builder->Writeln(u"List item 1");
+builder->Writeln(u"List item 2");
+builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->Writeln(u"List item 3");
+builder->Writeln(u"List item 4");
+
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx", options);
+
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx"));
+
+ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
+```
+
+Shows how to insert DML shapes into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder->InsertShape(ShapeType::TopCornersRounded, RelativeHorizontalPosition::Page, static_cast<double>(100), RelativeVerticalPosition::Page, static_cast<double>(100), static_cast<double>(50), static_cast<double>(50), WrapType::None);
+
+// 2 -  Inline:
+builder->InsertShape(ShapeType::DiagonalCornersRounded, static_cast<double>(50), static_cast<double>(50));
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(SaveFormat::Docx);
+saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+
+doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
+```
 ## See Also
 
-* Enum [OoxmlCompliance](../../ooxmlcompliance/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

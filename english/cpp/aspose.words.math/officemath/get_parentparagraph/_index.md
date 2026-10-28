@@ -4,7 +4,7 @@ linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Math::OfficeMath::get_ParentParagraph method. Retrieves the parent Paragraph of this node in C++.'
 type: docs
-weight: 8000
+weight: 11858
 url: /cpp/aspose.words.math/officemath/get_parentparagraph/
 ---
 ## OfficeMath::get_ParentParagraph method
@@ -16,12 +16,11 @@ Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Math::OfficeMath::get_ParentParagraph()
 ```
 
-
 ## Examples
 
 
+Shows how to set office math display formatting.
 
-Shows how to set office math display formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -39,10 +38,8 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 
 doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

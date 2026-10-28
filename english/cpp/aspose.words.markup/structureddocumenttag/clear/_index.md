@@ -22,12 +22,11 @@ void Aspose::Words::Markup::StructuredDocumentTag::Clear()
 It is not possible to clear contents of a structured document tag if it has revisions.
 
 If this structured document tag is mapped to custom XML (with using the [XmlMapping](../get_xmlmapping/) property), the referenced XML node is cleared.
-
 ## Examples
 
 
+Shows how to delete contents of structured document tag elements.
 
-Shows how to delete contents of structured document tag elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -68,7 +67,6 @@ tag->Clear();
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

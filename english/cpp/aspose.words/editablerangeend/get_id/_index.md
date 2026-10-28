@@ -4,7 +4,7 @@ linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::EditableRangeEnd::get_Id method. Specifies the identifier of the editable range in C++.'
 type: docs
-weight: 4000
+weight: 7600
 url: /cpp/aspose.words/editablerangeend/get_id/
 ---
 ## EditableRangeEnd::get_Id method
@@ -16,12 +16,11 @@ Specifies the identifier of the editable range.
 int32_t Aspose::Words::EditableRangeEnd::get_Id() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -59,7 +58,6 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
 * Class [EditableRangeEnd](../)

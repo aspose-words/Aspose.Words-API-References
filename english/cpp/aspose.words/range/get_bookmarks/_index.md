@@ -4,7 +4,7 @@ linktitle: get_Bookmarks
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Range::get_Bookmarks method. Returns a Bookmarks collection that represents all bookmarks in the range in C++.'
 type: docs
-weight: 3000
+weight: 16000
 url: /cpp/aspose.words/range/get_bookmarks/
 ---
 ## Range::get_Bookmarks method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::BookmarkCollection> Aspose::Words::Range::get_B
 
 ## See Also
 
-* Class [BookmarkCollection](../../bookmarkcollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

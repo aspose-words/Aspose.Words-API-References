@@ -4,7 +4,7 @@ linktitle: get_SourceItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_SourceItem method. Gets or sets a string that is used to identify the portion of the source file that is being linked in C++.'
 type: docs
-weight: 12000
+weight: 19802
 url: /cpp/aspose.words.drawing/oleformat/get_sourceitem/
 ---
 ## OleFormat::get_SourceItem method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Drawing::OleFormat::get_SourceItem()
 The default value is an empty string.
 
 For example, if the source file is a Microsoft Excel workbook, the [SourceItem](./) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +72,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
     ASSERT_EQ(76, oleEntryBytes->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

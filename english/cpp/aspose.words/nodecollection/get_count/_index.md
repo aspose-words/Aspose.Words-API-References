@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NodeCollection::get_Count method. Gets the number of nodes in the collection in C++.'
 type: docs
-weight: 5000
+weight: 16000
 url: /cpp/aspose.words/nodecollection/get_count/
 ---
 ## NodeCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of nodes in the collection.
 int32_t Aspose::Words::NodeCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -66,7 +65,6 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
 * Class [NodeCollection](../)

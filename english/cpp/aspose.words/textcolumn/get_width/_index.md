@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumn::get_Width method. Gets or sets the width of the text column in points in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words/textcolumn/get_width/
 ---
 ## TextColumn::get_Width method
@@ -16,12 +16,11 @@ Gets or sets the width of the text column in points.
 double Aspose::Words::TextColumn::get_Width()
 ```
 
-
 ## Examples
 
 
+Shows how to create unevenly spaced columns.
 
-Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumn](../)

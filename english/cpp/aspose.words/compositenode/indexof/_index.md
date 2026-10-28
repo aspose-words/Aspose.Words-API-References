@@ -13,15 +13,17 @@ url: /cpp/aspose.words/compositenode/indexof/
 Returns the index of the specified child node in the child node array.
 
 ```cpp
-int32_t Aspose::Words::CompositeNode::IndexOf(const System::SharedPtr<Aspose::Words::Node> &child)
+int32_t Aspose::Words::CompositeNode::IndexOf(const System::SharedPtr<Aspose::Words::Node> & child)
 ```
 
+## Remarks
 
+ Returns -1 if the node is not found in the child nodes. 
 ## Examples
 
 
+Shows how to get the index of a given child node from its parent.
 
-Shows how to get the index of a given child node from its parent. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -30,10 +32,8 @@ System::SharedPtr<Aspose::Words::Body> body = doc->get_FirstSection()->get_Body(
 // Retrieve the index of the last paragraph in the body of the first section.
 ASSERT_EQ(24, body->GetChildNodes(NodeType::Any, false)->IndexOf(body->get_LastParagraph()));
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/documentloadingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::DocumentLoadingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::DocumentLoadingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,24 +4,23 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::VariableCollection::idx_get method. Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string in C++.'
 type: docs
-weight: 12000
+weight: 17778
 url: /cpp/aspose.words/variablecollection/idx_get/
 ---
-## VariableCollection::idx_get(const System::String\&) method
+## VariableCollection::idx_get(const System::String \&) method
 
 
 Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string.
 
 ```cpp
-System::String Aspose::Words::VariableCollection::idx_get(const System::String &name)
+System::String Aspose::Words::VariableCollection::idx_get(const System::String & name)
 ```
-
 
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -91,7 +90,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)
@@ -110,12 +108,11 @@ System::String Aspose::Words::VariableCollection::idx_get(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the document variable. |
-
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -185,7 +182,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

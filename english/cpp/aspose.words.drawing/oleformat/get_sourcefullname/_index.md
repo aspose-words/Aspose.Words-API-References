@@ -4,7 +4,7 @@ linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_SourceFullName method. Gets or sets the path and name of the source file for the linked OLE object in C++.'
 type: docs
-weight: 11000
+weight: 19736
 url: /cpp/aspose.words.drawing/oleformat/get_sourcefullname/
 ---
 ## OleFormat::get_SourceFullName method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Drawing::OleFormat::get_SourceFullName()
 The default value is an empty string.
 
 If [SourceFullName](./) is not an empty string, the OLE object is linked.
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +72,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
     ASSERT_EQ(76, oleEntryBytes->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

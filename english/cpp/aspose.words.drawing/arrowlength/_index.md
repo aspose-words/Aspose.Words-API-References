@@ -13,20 +13,22 @@ url: /cpp/aspose.words.drawing/arrowlength/
 Length of the arrow at the end of a line.
 
 ```cpp
-enum class ArrowLength
+enum class ArrowLength : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Short | 0 |  |
-| Medium | 1 |  |
-| Long | 2 |  |
 | Default | 0 | Same as [Short](./). |
-
+| Long | 2 |  |
+| Medium | 1 |  |
+| Short | 0 |  |
 
 ## See Also
+
+* [StartArrowLength](../stroke/get_startarrowlength/)
+* [EndArrowLength](../stroke/get_endarrowlength/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

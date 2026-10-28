@@ -4,24 +4,23 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Title method. Specifies the friendly name associated with this SDT. Can not be null in C++.'
 type: docs
-weight: 32000
+weight: 89000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_title/
 ---
 ## StructuredDocumentTag::get_Title method
 
 
-Specifies the friendly name associated with this **SDT**. Can not be **null**.
+Specifies the friendly name associated with this SDT. Can not be **null**.
 
 ```cpp
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_Title() const override
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag in a plain text box and modify its appearance.
 
-Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

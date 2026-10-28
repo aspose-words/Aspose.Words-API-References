@@ -4,7 +4,7 @@ linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_IsLocked method. Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user in C++.'
 type: docs
-weight: 4000
+weight: 10445
 url: /cpp/aspose.words.webextensions/taskpane/get_islocked/
 ---
 ## TaskPane::get_IsLocked method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.webextensions/taskpane/get_islocked/
 Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
 
 ```cpp
-bool Aspose::Words::WebExtensions::TaskPane::get_IsLocked() const
+_Bool Aspose::Words::WebExtensions::TaskPane::get_IsLocked() const
 ```
-
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [TaskPane](../)

@@ -20,27 +20,26 @@ class ChartXValueCollection : public System::Collections::Generic::IEnumerable<S
 
 | Method | Description |
 | --- | --- |
-| [get_Count](./get_count/)() | Gets the number of items in this collection. |
-| [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to the X values. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets the X value at the specified index. |
-| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&) | Gets or sets the X value at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_FormatCode](./set_formatcode/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartXValueCollection::get_FormatCode](./get_formatcode/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Gets the number of items in this collection. |
+| [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to the X values. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets the X value at the specified index. |
+| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&) | Gets or sets the X value at the specified index. |
+| [set_FormatCode](./set_formatcode/)(const System::String \&) | Sets the format code applied to the X values. |
 ## Remarks
 
 
-All items of the collection other than **null** must have the same [ValueType](../chartxvalue/get_valuetype/).
+All items of the collection other than null must have the same [ValueType](../chartxvalue/get_valuetype/).
 
 The collection allows only changing X values. To add or insert new values to a chart series, or remove values, the appropriate methods of the [ChartSeries](../chartseries/) class can be used.
-
 ## Examples
 
 
+Shows how to get chart series data.
 
-Shows how to get chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -82,8 +81,13 @@ series->get_DataPoints()->idx_get(maxValueIndex)->get_Format()->get_Fill()->set_
 
 doc->Save(get_ArtifactsDir() + u"Charts.GetChartSeriesData.docx");
 ```
-
 ## See Also
+
+* [Add()](../chartseries/add/)
+* [Add()](../chartseries/add/)
+* [Insert()](../chartseries/insert/)
+* [Insert()](../chartseries/insert/)
+* [Remove()](../chartseries/remove/)
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
 * Library [Aspose.Words for C++](../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/imagesavingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::ImageSavingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::ImageSavingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

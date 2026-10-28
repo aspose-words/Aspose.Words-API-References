@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::AI::OpenAiModel class in C++.'
 type: docs
-weight: 1000
+weight: 3834
 url: /cpp/aspose.words.ai/openaimodel/type/
 ---
 ## OpenAiModel::Type method

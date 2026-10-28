@@ -13,28 +13,27 @@ url: /cpp/aspose.words.drawing/verticalalignment/
 Specifies vertical alignment of a floating shape, text frame or a floating table.
 
 ```cpp
-enum class VerticalAlignment
+enum class VerticalAlignment : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | The object is explicitly positioned, usually using its **Top** property. |
-| Top | 1 | Specifies that the object shall be at the top of the vertical alignment base. |
-| Center | 2 | Specifies that the object shall be centered with respect to the vertical alignment base. |
 | Bottom | 3 | Specifies that the object shall be at the bottom of the vertical alignment base. |
-| Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
-| Outside | 5 | Specifies that the object shall be outside of the vertical alignment base. |
-| Inline | -1 | Not documented. Seems to be a possible value for floating paragraphs and tables. |
+| Center | 2 | Specifies that the object shall be centered with respect to the vertical alignment base. |
 | Default | 0 | Same as [None](./). |
-
+| Inline | -1 | Not documented. Seems to be a possible value for floating paragraphs and tables. |
+| Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
+| None | 0 | The object is explicitly positioned, usually using its Top property. |
+| Outside | 5 | Specifies that the object shall be outside of the vertical alignment base. |
+| Top | 1 | Specifies that the object shall be at the top of the vertical alignment base. |
 
 ## Examples
 
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,8 +49,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-
 ## See Also
+
+* [VerticalAlignment](../shapebase/get_verticalalignment/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

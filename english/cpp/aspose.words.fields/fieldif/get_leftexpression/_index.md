@@ -4,7 +4,7 @@ linktitle: get_LeftExpression
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIf::get_LeftExpression method. Gets or sets the left part of the comparison expression in C++.'
 type: docs
-weight: 6000
+weight: 12500
 url: /cpp/aspose.words.fields/fieldif/get_leftexpression/
 ---
 ## FieldIf::get_LeftExpression method
@@ -16,12 +16,11 @@ Gets or sets the left part of the comparison expression.
 System::String Aspose::Words::Fields::FieldIf::get_LeftExpression()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an IF field.
 
-Shows how to insert an IF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,7 +59,6 @@ ASSERT_EQ(u"True", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
-
 ## See Also
 
 * Class [FieldIf](../)

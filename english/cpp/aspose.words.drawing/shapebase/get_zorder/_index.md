@@ -4,7 +4,7 @@ linktitle: get_ZOrder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_ZOrder method. Determines the display order of overlapping shapes in C++.'
 type: docs
-weight: 57000
+weight: 61986
 url: /cpp/aspose.words.drawing/shapebase/get_zorder/
 ---
 ## ShapeBase::get_ZOrder method
@@ -23,17 +23,16 @@ Has effect only for top level shapes.
 
 The default value is 0.
 
-The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number.
+The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number. 
 
 The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
 The display order of child shapes in a group shape is determined by their order inside the group shape.
-
 ## Examples
 
 
+Shows how to manipulate the order of shapes.
 
-Shows how to manipulate the order of shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,7 +64,6 @@ shapes[2]->set_ZOrder(1);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ZOrder.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

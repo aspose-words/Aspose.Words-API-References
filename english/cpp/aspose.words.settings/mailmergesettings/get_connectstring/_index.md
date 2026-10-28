@@ -4,7 +4,7 @@ linktitle: get_ConnectString
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::MailMergeSettings::get_ConnectString method. Specifies the connection string used to connect to an external data source. The default value is an empty string in C++.'
 type: docs
-weight: 8000
+weight: 22318
 url: /cpp/aspose.words.settings/mailmergesettings/get_connectstring/
 ---
 ## MailMergeSettings::get_ConnectString method

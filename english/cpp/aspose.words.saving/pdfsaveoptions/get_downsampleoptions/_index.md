@@ -4,7 +4,7 @@ linktitle: get_DownsampleOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions method. Allows to specify downsample options in C++.'
 type: docs
-weight: 12000
+weight: 36300
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_downsampleoptions/
 ---
 ## PdfSaveOptions::get_DownsampleOptions method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Saving::DownsampleOptions> Aspose::Words::Savin
 
 ## See Also
 
-* Class [DownsampleOptions](../../downsampleoptions/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

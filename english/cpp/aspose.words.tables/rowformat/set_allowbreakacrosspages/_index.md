@@ -2,7 +2,7 @@
 title: Aspose::Words::Tables::RowFormat::set_AllowBreakAcrossPages method
 linktitle: set_AllowBreakAcrossPages
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Tables::RowFormat::set_AllowBreakAcrossPages method. Setter for Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages in C++.'
+description: 'Aspose::Words::Tables::RowFormat::set_AllowBreakAcrossPages method. True if the text in a table row is allowed to split across a page break in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.tables/rowformat/set_allowbreakacrosspages/
@@ -10,12 +10,32 @@ url: /cpp/aspose.words.tables/rowformat/set_allowbreakacrosspages/
 ## RowFormat::set_AllowBreakAcrossPages method
 
 
-Setter for [Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages](../get_allowbreakacrosspages/).
+True if the text in a table row is allowed to split across a page break.
 
 ```cpp
 void Aspose::Words::Tables::RowFormat::set_AllowBreakAcrossPages(bool value)
 ```
 
+## Examples
+
+
+Shows how to disable rows breaking across pages for every row in a table.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+
+// Set the "AllowBreakAcrossPages" property to "false" to keep the row
+// in one piece if a table spans two pages, which break up along that row.
+// If the row is too big to fit in one page, Microsoft Word will push it down to the next page.
+// Set the "AllowBreakAcrossPages" property to "true" to allow the row to break up across two pages.
+for (auto&& row : System::IterateOver<Aspose::Words::Tables::Row>(table))
+{
+    row->get_RowFormat()->set_AllowBreakAcrossPages(allowBreakAcrossPages);
+}
+
+doc->Save(get_ArtifactsDir() + u"Table.AllowBreakAcrossPages.docx");
+```
 ## See Also
 
 * Class [RowFormat](../)

@@ -4,7 +4,7 @@ linktitle: get_FormatLanguageId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBibliography::get_FormatLanguageId method. Gets the language ID that is used to format the bibliographic sources in the document in C++.'
 type: docs
-weight: 2000
+weight: 4300
 url: /cpp/aspose.words.fields/fieldbibliography/get_formatlanguageid/
 ---
 ## FieldBibliography::get_FormatLanguageId method

@@ -13,49 +13,48 @@ url: /cpp/aspose.words/warningsource/
 Specifies the module that produces a warning during document loading or saving.
 
 ```cpp
-enum class WarningSource
+enum class WarningSource : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unknown | 0 | The warning source is not specified. |
-| Layout | 1 | Module that builds a document layout. |
-| DrawingML | 2 | Module that renders DrawingML shapes. |
-| OfficeMath | 3 | Module that renders OfficeMath. |
-| Shapes | 4 | Module that renders ordinary shapes. |
-| Metafile | 5 | Module that renders metafiles. |
-| Xps | 6 | Module that renders XPS. |
-| Pdf | 7 | Module that renders PDF. |
-| Image | 8 | Module that renders images. |
-| Docx | 9 | Module that reads/writes DOCX files. |
+| Chm | 24 | Module that reads CHM files. |
 | Doc | 10 | Module that reads/writes binary DOC files. |
-| Text | 11 | Module that reads/writes plaintext files. |
-| Rtf | 12 | Module that reads/writes RTF files. |
-| WordML | 13 | Module that reads/writes WML files. |
+| Docling | 28 | Module that writes Docling JSON files. |
+| Docx | 9 | Module that reads/writes DOCX files. |
+| DrawingML | 2 | Module that renders DrawingML shapes. |
+| Epub | 25 | Module that reads/writes EPUB files. |
+| Font | 21 | Module that reads font files. |
+| Html | 16 | Module that reads/writes HTML/MHTML files. |
+| Image | 8 | Module that renders images. |
+| Layout | 1 | Module that builds a document layout. |
+| Markdown | 23 | Module that reads/writes Markdown files. |
+| MathML | 20 | Module that reads W3C MathML files. |
+| Metafile | 5 | Module that renders metafiles. |
 | Nrx | 14 | Common modules that are shared between DOCX/WML reader/writer modules. |
 | Odt | 15 | Module that reads/writes ODT files. |
-| Html | 16 | Module that reads/writes HTML/MHTML files. |
-| Validator | 17 | Module that verifies model consistency and validity. |
-| Xaml | 18 | Module that reads/writes Xaml files. |
-| Svm | 19 | Module that reads Svm files. |
-| MathML | 20 | Module that reads W3C MathML files. |
-| Font | 21 | Module that reads font files. |
+| OfficeMath | 3 | Module that renders OfficeMath. |
+| Pdf | 7 | Module that renders PDF. |
+| Rtf | 12 | Module that reads/writes RTF files. |
+| Shapes | 4 | Module that renders ordinary shapes. |
 | Svg | 22 | Module that reads SVG files. |
-| Markdown | 23 | Module that reads/writes Markdown files. |
-| Chm | 24 | Module that reads CHM files. |
-| Epub | 25 | Module that reads/writes EPUB files. |
-| Xml | 26 | Module that reads XML files. |
+| Svm | 19 | Module that reads Svm files. |
+| Text | 11 | Module that reads/writes plaintext files. |
+| Unknown | 0 | The warning source is not specified. |
+| Validator | 17 | Module that verifies model consistency and validity. |
+| WordML | 13 | Module that reads/writes WML files. |
+| Xaml | 18 | Module that reads/writes Xaml files. |
 | Xlsx | 27 | Module that writes XLSX files. |
-| Docling | 28 | Module that writes Docling JSON files. |
-
+| Xml | 26 | Module that reads XML files. |
+| Xps | 6 | Module that renders XPS. |
 
 ## Examples
 
 
+Shows how to work with the warning source.
 
-Shows how to work with the warning source. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Emphases markdown warning.docx"));
 
@@ -72,8 +71,8 @@ for (auto&& warningInfo : warnings)
 }
 ```
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -97,7 +96,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

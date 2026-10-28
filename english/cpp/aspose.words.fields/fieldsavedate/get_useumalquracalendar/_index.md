@@ -4,7 +4,7 @@ linktitle: get_UseUmAlQuraCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar method. Gets or sets whether to use the Um-al-Qura calendar in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.fields/fieldsavedate/get_useumalquracalendar/
 ---
 ## FieldSaveDate::get_UseUmAlQuraCalendar method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldsavedate/get_useumalquracalendar/
 Gets or sets whether to use the Um-al-Qura calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar() override
+_Bool Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar() override
 ```
-
 
 ## Examples
 
 
+Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.
 
-Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,7 +59,6 @@ doc->get_BuiltInDocumentProperties()->set_LastSavedTime(System::DateTime::get_No
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SAVEDATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldSaveDate](../)

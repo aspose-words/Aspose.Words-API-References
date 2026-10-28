@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisBound::get_Value method. Returns numeric value of axis bound in C++.'
 type: docs
-weight: 5000
+weight: 13000
 url: /cpp/aspose.words.drawing.charts/axisbound/get_value/
 ---
 ## AxisBound::get_Value method
@@ -16,12 +16,11 @@ Returns numeric value of axis bound.
 double Aspose::Words::Drawing::Charts::AxisBound::get_Value() const
 ```
 
-
 ## Examples
 
 
+Shows how to set custom axis bounds.
 
-Shows how to set custom axis bounds. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words:
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisBound.docx");
 ```
-
 ## See Also
 
 * Class [AxisBound](../)

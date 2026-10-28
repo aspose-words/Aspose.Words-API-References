@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PageRange class
 linktitle: PageRange
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PageRange class. Represents a continuous range of pages. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Saving::PageRange class. Represents a continuous range of pages. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words.saving/pagerange/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.saving/pagerange/
 ## PageRange class
 
 
-Represents a continuous range of pages. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Represents a continuous range of pages. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class PageRange : public System::Object
@@ -21,15 +22,14 @@ class PageRange : public System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PageRange](./pagerange/)(int32_t, int32_t) | Creates a new page range object. |
 | static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to extract pages based on exact page ranges.
 
-Shows how to extract pages based on exact page ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -39,7 +39,6 @@ auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeAr
 imageOptions->set_PageSet(pageSet);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

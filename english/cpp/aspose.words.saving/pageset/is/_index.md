@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pageset/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::PageSet::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::PageSet::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

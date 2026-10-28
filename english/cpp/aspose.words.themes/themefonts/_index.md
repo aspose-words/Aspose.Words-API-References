@@ -2,7 +2,7 @@
 title: Aspose::Words::Themes::ThemeFonts class
 linktitle: ThemeFonts
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Themes::ThemeFonts class. Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages Latin, EastAsian and ComplexScript. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Themes::ThemeFonts class. Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages Latin, EastAsian and ComplexScript. To learn more, visit the Working with Styles and Themes documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.themes/themefonts/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.themes/themefonts/
 ## ThemeFonts class
 
 
-Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./get_latin/), [EastAsian](./get_eastasian/) and [ComplexScript](./get_complexscript/). To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
+Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./get_latin/), [EastAsian](./get_eastasian/) and [ComplexScript](./get_complexscript/). 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class ThemeFonts : public System::Object
@@ -20,21 +21,20 @@ class ThemeFonts : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_ComplexScript](./get_complexscript/)() | Specifies font name for ComplexScript characters. |
 | [get_EastAsian](./get_eastasian/)() | Specifies font name for EastAsian characters. |
 | [get_Latin](./get_latin/)() | Specifies font name for Latin characters. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_ComplexScript](./set_complexscript/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_ComplexScript](./get_complexscript/). |
-| [set_EastAsian](./set_eastasian/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_EastAsian](./get_eastasian/). |
-| [set_Latin](./set_latin/)(const System::String\&) | Setter for [Aspose::Words::Themes::ThemeFonts::get_Latin](./get_latin/). |
-| static [Type](./type/)() |  |
-
+| [set_ComplexScript](./set_complexscript/)(const System::String \&) | Specifies font name for ComplexScript characters. |
+| [set_EastAsian](./set_eastasian/)(const System::String \&) | Specifies font name for EastAsian characters. |
+| [set_Latin](./set_latin/)(const System::String \&) | Specifies font name for Latin characters. |
 ## Examples
 
 
+Shows how to set custom colors and fonts for themes.
 
-Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -75,7 +75,6 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Themes](../)

@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_Borders method. Gets collection of borders of the cell in C++.'
 type: docs
-weight: 3000
+weight: 33000
 url: /cpp/aspose.words.tables/cellformat/get_borders/
 ---
 ## CellFormat::get_Borders method
@@ -16,12 +16,11 @@ Gets collection of borders of the cell.
 System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::CellFormat::get_Borders()
 ```
 
-
 ## Examples
 
 
+Shows how to combine the rows from two tables into one.
 
-Shows how to combine the rows from two tables into one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -43,10 +42,8 @@ secondTable->Remove();
 
 doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../../../aspose.words/bordercollection/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

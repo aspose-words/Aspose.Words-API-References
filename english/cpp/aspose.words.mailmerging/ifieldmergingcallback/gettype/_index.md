@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::IFieldMergingCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::IFieldMergingCallback::GetType() const override
 ```
 
 ## See Also

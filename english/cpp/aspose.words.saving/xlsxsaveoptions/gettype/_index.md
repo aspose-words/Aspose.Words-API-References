@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xlsxsaveoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::XlsxSaveOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::XlsxSaveOptions::GetType() const override
 ```
 
 ## See Also

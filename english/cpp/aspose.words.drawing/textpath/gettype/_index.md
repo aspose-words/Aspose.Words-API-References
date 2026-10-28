@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::TextPath::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::TextPath::GetType() const override
 ```
 
 ## See Also

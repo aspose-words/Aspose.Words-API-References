@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use begin method of Aspose::Words::Markup::CustomPartCollection class in C++.'
 type: docs
-weight: 4000
+weight: 16223
 url: /cpp/aspose.words.markup/custompartcollection/begin/
 ---
 ## CustomPartCollection::begin() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/custompartcollection/begin/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::CustomPartCollection::begin() const noexcept
+const_iterator Aspose::Words::Markup::CustomPartCollection::begin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Markup::CustomPartCollection::begin() const noexce
 
 
 ```cpp
-iterator Aspose::Words::Markup::CustomPartCollection::begin() noexcept
+iterator Aspose::Words::Markup::CustomPartCollection::begin()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

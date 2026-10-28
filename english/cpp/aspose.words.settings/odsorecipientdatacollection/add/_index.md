@@ -13,17 +13,15 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/add/
 Adds an object to the end of this collection.
 
 ```cpp
-int32_t Aspose::Words::Settings::OdsoRecipientDataCollection::Add(const System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData> &value)
+int32_t Aspose::Words::Settings::OdsoRecipientDataCollection::Add(const System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData> & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\>\& | The object to add. Cannot be **null**. |
-
+| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\> \& | The object to add. Cannot be **null**. |
 ## See Also
 
-* Class [OdsoRecipientData](../../odsorecipientdata/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

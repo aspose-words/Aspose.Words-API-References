@@ -4,7 +4,7 @@ linktitle: get_XValues
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_XValues method. Gets a collection of X values for this chart series in C++.'
 type: docs
-weight: 12334
+weight: 14942
 url: /cpp/aspose.words.drawing.charts/chartseries/get_xvalues/
 ---
 ## ChartSeries::get_XValues method
@@ -16,12 +16,11 @@ Gets a collection of X values for this chart series.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValueCollection> Aspose::Words::Drawing::Charts::ChartSeries::get_XValues()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the format code of the chart data.
 
-Shows how to work with the format code of the chart data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ series->get_BubbleSizes()->set_FormatCode(u"#,##0.0#");
 
 doc->Save(get_ArtifactsDir() + u"Charts.FormatCode.docx");
 ```
-
 ## See Also
 
-* Class [ChartXValueCollection](../../chartxvaluecollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

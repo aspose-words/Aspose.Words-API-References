@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageextractoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::PageExtractOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::PageExtractOptions::GetType() const override
 ```
 
 ## See Also

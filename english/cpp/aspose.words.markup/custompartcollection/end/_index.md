@@ -4,7 +4,7 @@ linktitle: end
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use end method of Aspose::Words::Markup::CustomPartCollection class in C++.'
 type: docs
-weight: 9000
+weight: 16556
 url: /cpp/aspose.words.markup/custompartcollection/end/
 ---
 ## CustomPartCollection::end() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/custompartcollection/end/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::CustomPartCollection::end() const noexcept
+const_iterator Aspose::Words::Markup::CustomPartCollection::end() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Markup::CustomPartCollection::end() const noexcept
 
 
 ```cpp
-iterator Aspose::Words::Markup::CustomPartCollection::end() noexcept
+iterator Aspose::Words::Markup::CustomPartCollection::end()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_IsVisible
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_IsVisible method. Specifies whether the task pane shows as visible by default when the document opens in C++.'
 type: docs
-weight: 5000
+weight: 10556
 url: /cpp/aspose.words.webextensions/taskpane/get_isvisible/
 ---
 ## TaskPane::get_IsVisible method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.webextensions/taskpane/get_isvisible/
 Specifies whether the task pane shows as visible by default when the document opens.
 
 ```cpp
-bool Aspose::Words::WebExtensions::TaskPane::get_IsVisible() const
+_Bool Aspose::Words::WebExtensions::TaskPane::get_IsVisible() const
 ```
-
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [TaskPane](../)

@@ -2,20 +2,23 @@
 title: Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions method
 linktitle: get_UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions method. Gets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field''s condition in C++.'
+description: 'Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions method. Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field''s condition in C++.'
 type: docs
-weight: 18000
+weight: 26835
 url: /cpp/aspose.words.mailmerging/mailmerge/get_unconditionalmergefieldsandregions/
 ---
 ## MailMerge::get_UnconditionalMergeFieldsAndRegions method
 
 
-Gets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
+Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
 
 ```cpp
-bool Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions() const
+_Bool Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions() const
 ```
 
+## Remarks
+
+ The default value is **false**. 
 ## See Also
 
 * Class [MailMerge](../)

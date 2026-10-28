@@ -4,7 +4,7 @@ linktitle: get_CustomXmlPart
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::XmlMapping::get_CustomXmlPart method. Returns the custom XML data part to which the parent structured document tag is mapped in C++.'
 type: docs
-weight: 3000
+weight: 12000
 url: /cpp/aspose.words.markup/xmlmapping/get_customxmlpart/
 ---
 ## XmlMapping::get_CustomXmlPart method
@@ -16,12 +16,11 @@ Returns the custom XML data part to which the parent structured document tag is 
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::XmlMapping::get_CustomXmlPart()
 ```
 
-
 ## Examples
 
 
+Shows how to set XML mappings for custom XML parts.
 
-Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,10 +48,8 @@ ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()-
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [XmlMapping](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

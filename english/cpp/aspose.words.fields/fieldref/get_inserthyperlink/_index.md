@@ -4,7 +4,7 @@ linktitle: get_InsertHyperlink
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRef::get_InsertHyperlink method. Gets whether to create a hyperlink to the bookmarked paragraph in C++.'
 type: docs
-weight: 5000
+weight: 15360
 url: /cpp/aspose.words.fields/fieldref/get_inserthyperlink/
 ---
 ## FieldRef::get_InsertHyperlink method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_inserthyperlink/
 Gets whether to create a hyperlink to the bookmarked paragraph.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRef::get_InsertHyperlink()
+_Bool Aspose::Words::Fields::FieldRef::get_InsertHyperlink()
 ```
 
 ## See Also

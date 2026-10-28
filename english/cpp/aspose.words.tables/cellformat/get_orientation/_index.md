@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_Orientation method. Returns or sets the orientation of text in a table cell in C++.'
 type: docs
-weight: 8000
+weight: 39000
 url: /cpp/aspose.words.tables/cellformat/get_orientation/
 ---
 ## CellFormat::get_Orientation method
@@ -16,12 +16,11 @@ Returns or sets the orientation of text in a table cell.
 Aspose::Words::TextOrientation Aspose::Words::Tables::CellFormat::get_Orientation()
 ```
 
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -121,10 +120,8 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
-* Enum [TextOrientation](../../../aspose.words/textorientation/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

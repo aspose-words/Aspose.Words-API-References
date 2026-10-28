@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 6000
+weight: 18445
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/cend/
 ---
 ## BookmarksOutlineLevelCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::cend() const noexcept
+const_iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

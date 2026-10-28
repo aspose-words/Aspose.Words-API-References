@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/personcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Bibliography::PersonCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Bibliography::PersonCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

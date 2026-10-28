@@ -2,7 +2,7 @@
 title: Aspose::Words::Themes::ThemeColor enum
 linktitle: ThemeColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Themes::ThemeColor enum. Specifies the theme colors for document themes. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Themes::ThemeColor enum. Specifies the theme colors for document themes. To learn more, visit the Working with Styles and Themes documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.themes/themecolor/
@@ -10,40 +10,43 @@ url: /cpp/aspose.words.themes/themecolor/
 ## ThemeColor enum
 
 
-Specifies the theme colors for document themes. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
+Specifies the theme colors for document themes. 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
-enum class ThemeColor
+enum class ThemeColor : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | No color. |
-| Dark1 | 0 | Dark main color 1. |
-| Light1 | 1 | Light main color 1. |
-| Dark2 | 2 | Dark main color 2. |
-| Light2 | 3 | Light main color 2. |
 | Accent1 | 4 | Accent color 1. |
 | Accent2 | 5 | Accent color 2. |
 | Accent3 | 6 | Accent color 3. |
 | Accent4 | 7 | Accent color 4. |
 | Accent5 | 8 | Accent color 5. |
 | Accent6 | 9 | Accent color 6. |
-| Hyperlink | 10 | Hyperlink color. |
-| FollowedHyperlink | 11 | Followed hyperlink color. |
-| Text1 | 12 | Text color 1. |
-| Text2 | 13 | Text color 2. |
 | Background1 | 14 | Background color 1. |
 | Background2 | 15 | Background color 2. |
+| Dark1 | 0 | Dark main color 1. |
+| Dark2 | 2 | Dark main color 2. |
+| FollowedHyperlink | 11 | Followed hyperlink color. |
+| Hyperlink | 10 | Hyperlink color. |
+| Light1 | 1 | Light main color 1. |
+| Light2 | 3 | Light main color 2. |
+| None | -1 | No color. |
+| Text1 | 12 | Text color 1. |
+| Text2 | 13 | Text color 2. |
 
+## Remarks
 
+ The specified theme color is a reference to one of the predefined theme colors, located in the document's Theme part, which allows color information to be set centrally in the document. 
 ## Examples
 
 
+Shows how to work with theme fonts and colors.
 
-Shows how to work with theme fonts and colors. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -123,8 +126,8 @@ ASSERT_EQ(ThemeColor::None, font->get_ThemeColor());
 ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
 ```
 
+Shows how to create and use themed style.
 
-Shows how to create and use themed style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -140,7 +143,6 @@ style->get_Font()->set_TintAndShade(0.3);
 builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
 builder->Writeln(u"Text with themed style");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Themes](../)

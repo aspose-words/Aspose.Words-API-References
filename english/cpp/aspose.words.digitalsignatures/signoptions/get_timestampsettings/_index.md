@@ -4,7 +4,7 @@ linktitle: get_TimestampSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings method. Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is null and the digital signature will not be time-stamped in C++.'
 type: docs
-weight: 8084
+weight: 10258
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_timestampsettings/
 ---
 ## SignOptions::get_TimestampSettings method
@@ -16,12 +16,14 @@ Specifies settings for timestamping the digital signature using an RFC 3161 time
 const System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings> & Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings() const
 ```
 
+## Remarks
 
+ When this property is set to a valid [DigitalSignatureTimestampSettings](../../digitalsignaturetimestampsettings/) object, and [XmlDsigLevel](../get_xmldsiglevel/) is set to [XAdEsT](../../xmldsiglevel/) or higher, the digital signature will be time-stamped. 
 ## Examples
 
 
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
 
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -47,10 +49,8 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 
 ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
 ```
-
 ## See Also
 
-* Class [DigitalSignatureTimestampSettings](../../digitalsignaturetimestampsettings/)
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

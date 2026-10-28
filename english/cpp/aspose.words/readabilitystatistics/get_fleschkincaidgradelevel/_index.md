@@ -4,7 +4,7 @@ linktitle: get_FleschKincaidGradeLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ReadabilityStatistics::get_FleschKincaidGradeLevel method. Flesch-Kincaid Grade Level score in C++.'
 type: docs
-weight: 2000
+weight: 7000
 url: /cpp/aspose.words/readabilitystatistics/get_fleschkincaidgradelevel/
 ---
 ## ReadabilityStatistics::get_FleschKincaidGradeLevel method

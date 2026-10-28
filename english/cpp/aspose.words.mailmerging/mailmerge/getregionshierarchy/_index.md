@@ -24,10 +24,8 @@ Regions' hierarchy.
 
 
 Hierarchy is returned in the form of the [MailMergeRegionInfo](../../mailmergeregioninfo/) class.
-
 ## See Also
 
-* Class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

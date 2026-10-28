@@ -4,7 +4,7 @@ linktitle: get_Explosion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion method. Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts in C++.'
 type: docs
-weight: 3000
+weight: 7501
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_explosion/
 ---
 ## IChartDataPoint::get_Explosion method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_explosion/
 Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
 ```cpp
-virtual int32_t Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion()=0
+virtual int32_t Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion()
 ```
-
 
 ## Examples
 
 
+Shows how to move the slices of a pie chart away from the center.
 
-Shows how to move the slices of a pie chart away from the center. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,7 +43,6 @@ dataPoint->set_Explosion(40);
 
 doc->Save(get_ArtifactsDir() + u"Charts.PieChartExplosion.docx");
 ```
-
 ## See Also
 
 * Interface [IChartDataPoint](../)

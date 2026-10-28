@@ -13,7 +13,7 @@ url: /cpp/aspose.words/calendartype/
 Specifies the type of a calendar.
 
 ```cpp
-enum class CalendarType
+enum class CalendarType : int
 ```
 
 ### Values
@@ -21,8 +21,8 @@ enum class CalendarType
 | Name | Value | Description |
 | --- | --- | --- |
 | Gregorian | 0 | The Gregorian calendar. |
-| Hijri | 1 | The Hijri Lunar calendar. |
 | Hebrew | 2 | The Hebrew Lunar calendar. |
+| Hijri | 1 | The Hijri Lunar calendar. |
 | SakaEra | 3 | The Saka Era calendar. |
 | UmAlQura | 4 | The Um-al-Qura calendar. |
 

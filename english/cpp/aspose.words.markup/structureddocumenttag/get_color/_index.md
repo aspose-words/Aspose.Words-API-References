@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Color method. Gets or sets the color of the structured document tag in C++.'
 type: docs
-weight: 10000
+weight: 67000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_color/
 ---
 ## StructuredDocumentTag::get_Color method
@@ -16,12 +16,11 @@ Gets or sets the color of the structured document tag.
 System::Drawing::Color Aspose::Words::Markup::StructuredDocumentTag::get_Color() override
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag in a plain text box and modify its appearance.
 
-Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

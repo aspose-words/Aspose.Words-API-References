@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbibliography/set_sourcetag/
 Sets a value so that only the sources with matching Tag element value are displayed in the bibliography.
 
 ```cpp
-void Aspose::Words::Fields::FieldBibliography::set_SourceTag(const System::String &value)
+void Aspose::Words::Fields::FieldBibliography::set_SourceTag(const System::String & value)
 ```
 
 ## See Also

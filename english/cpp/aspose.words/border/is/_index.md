@@ -13,7 +13,7 @@ url: /cpp/aspose.words/border/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Border::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Border::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,13 +4,14 @@ linktitle: get_PaperColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_PaperColor method. Gets or sets the background (paper) color for the generated images. The default value is White in C++.'
 type: docs
-weight: 11000
+weight: 21288
 url: /cpp/aspose.words.saving/imagesaveoptions/get_papercolor/
 ---
 ## ImageSaveOptions::get_PaperColor method
 
 
-Gets or sets the background (paper) color for the generated images. The default value is **White**.
+Gets or sets the background (paper) color for the generated images. 
+The default value is **White**.
 
 ```cpp
 System::Drawing::Color Aspose::Words::Saving::ImageSaveOptions::get_PaperColor()
@@ -20,12 +21,11 @@ System::Drawing::Color Aspose::Words::Saving::ImageSaveOptions::get_PaperColor()
 
 
 When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
-
 ## Examples
 
 
+Renders a page of a Word document into an image with transparent or colored background.
 
-Renders a page of a Word document into an image with transparent or colored background. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +51,6 @@ imgOptions->set_PaperColor(System::Drawing::Color::get_LightCoral());
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
 ```
-
 ## See Also
 
 * Class [ImageSaveOptions](../)

@@ -2,26 +2,27 @@
 title: Aspose::Words::Markup::StructuredDocumentTag::get_IsShowingPlaceholderText method
 linktitle: get_IsShowingPlaceholderText
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::StructuredDocumentTag::get_IsShowingPlaceholderText method. Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_IsShowingPlaceholderText method. Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).  if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
 type: docs
-weight: 18000
+weight: 75000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag::get_IsShowingPlaceholderText method
 
 
-Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to **true**, this state shall be resumed (showing placeholder text) upon opening this document.
+Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). 
+
+ if set to **true**, this state shall be resumed (showing placeholder text) upon opening this document.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTag::get_IsShowingPlaceholderText() override
+_Bool Aspose::Words::Markup::StructuredDocumentTag::get_IsShowingPlaceholderText() override
 ```
-
 
 ## Examples
 
 
+Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 
-Shows how to use a building block's contents as a custom placeholder text for a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -61,7 +62,6 @@ builder->InsertNode(tag);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

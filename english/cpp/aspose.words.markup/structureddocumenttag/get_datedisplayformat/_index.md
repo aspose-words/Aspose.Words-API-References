@@ -4,7 +4,7 @@ linktitle: get_DateDisplayFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method. String that represents the format in which dates are displayed in C++.'
 type: docs
-weight: 12000
+weight: 69000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
 ---
 ## StructuredDocumentTag::get_DateDisplayFormat method
@@ -26,12 +26,11 @@ The dates for English (U.S.) is "mm/dd/yyyy"
 Accessing this property will only work for [Date](../../sdttype/) SDT type.
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -61,7 +60,6 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

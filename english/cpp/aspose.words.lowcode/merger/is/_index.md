@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/merger/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::Merger::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::Merger::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

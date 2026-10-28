@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/getchildnodes/
 Returns a live collection of child nodes that match the specified types.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::IStructuredDocumentTag::GetChildNodes(Aspose::Words::NodeType nodeType, bool isDeep)=0
+virtual System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::IStructuredDocumentTag::GetChildNodes(Aspose::Words::NodeType nodeType, bool isDeep)
 ```
-
 
 ## Examples
 
 
+Shows how to remove structured document tag, but keeps content inside.
 
-Shows how to remove structured document tag, but keeps content inside. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
@@ -41,11 +40,8 @@ for (auto&& sdt : System::IterateOver(sdts))
 sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
 ASSERT_EQ(0, sdts->LINQ_Count());
 ```
-
 ## See Also
 
-* Class [NodeCollection](../../../aspose.words/nodecollection/)
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

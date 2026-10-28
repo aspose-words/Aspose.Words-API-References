@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/setimagewatermark/
 Adds image watermark on each page of the document loaded by [Load()](../load/) method.
 
 ```cpp
-virtual void Aspose::Words::IDocumentProcessorPlugin::SetImageWatermark(System::SharedPtr<System::IO::Stream> imageWatermark, System::SharedPtr<Aspose::Words::ImageWatermarkOptions> imageWatermarkOptions)=0
+virtual void Aspose::Words::IDocumentProcessorPlugin::SetImageWatermark(System::SharedPtr<System::IO::Stream> imageWatermark, System::SharedPtr<Aspose::Words::ImageWatermarkOptions> imageWatermarkOptions)
 ```
 
 
@@ -21,10 +21,8 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::SetImageWatermark(System::
 | --- | --- | --- |
 | imageWatermark | System::SharedPtr\<System::IO::Stream\> | Image used as a watermark. |
 | imageWatermarkOptions | System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> | Image watermark options. |
-
 ## See Also
 
-* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_RightExpression
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::ComparisonExpression::get_RightExpression method. Gets the right expression in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.fields/comparisonexpression/get_rightexpression/
 ---
 ## ComparisonExpression::get_RightExpression method

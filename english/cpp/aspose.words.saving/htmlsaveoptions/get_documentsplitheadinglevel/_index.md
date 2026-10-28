@@ -2,15 +2,15 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel method
 linktitle: get_DocumentSplitHeadingLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel method. Specifies the maximum level of headings at which to split the document. Default value is %2 in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel method. Specifies the maximum level of headings at which to split the document. Default value is 2 in C++.'
 type: docs
-weight: 10000
+weight: 49189
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_documentsplitheadinglevel/
 ---
 ## HtmlSaveOptions::get_DocumentSplitHeadingLevel method
 
 
-Specifies the maximum level of headings at which to split the document. Default value is **%2**.
+Specifies the maximum level of headings at which to split the document. Default value is **2**.
 
 ```cpp
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel() const
@@ -19,15 +19,14 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel() 
 ## Remarks
 
 
-When [DocumentSplitCriteria](../get_documentsplitcriteria/) includes [HeadingParagraph](../../documentsplitcriteria/) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
+When [DocumentSplitCriteria](../get_documentsplitcriteria/) includes [HeadingParagraph](../../documentsplitcriteria/) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using Heading 1, Heading 2 , Heading 3 etc. styles up to the specified heading level.
 
-By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
-
+By default, only Heading 1 and Heading 2 paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 ## Examples
 
 
+Shows how to split an output HTML document by headings into several parts.
 
-Shows how to split an output HTML document by headings into several parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,7 +77,6 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_EQ(System::String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/irevisioncriteria/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IRevisionCriteria::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IRevisionCriteria::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

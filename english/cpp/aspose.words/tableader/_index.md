@@ -13,26 +13,25 @@ url: /cpp/aspose.words/tableader/
 Specifies the type of the leader line displayed under the tab character.
 
 ```cpp
-enum class TabLeader
+enum class TabLeader : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No leader line is displayed. |
-| Dots | 1 | The leader line is made up from dots. |
 | Dashes | 2 | The leader line is made up from dashes. |
-| Line | 3 | The leader line is a single line. |
+| Dots | 1 | The leader line is made up from dots. |
 | Heavy | 4 | The leader line is a single thick line. |
+| Line | 3 | The leader line is a single line. |
 | MiddleDot | 5 | The leader line is made up from middle-dots. |
-
+| None | 0 | No leader line is displayed. |
 
 ## Examples
 
 
+Shows how to set custom tab stops for a paragraph.
 
-Shows how to set custom tab stops for a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -58,7 +57,6 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspo
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.TabStops.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

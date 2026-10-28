@@ -20,22 +20,21 @@ class JoinRunsOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [JoinRunsOptions](./joinrunsoptions/)() |  |
+| static [Type](./type/)() |  |
 | [get_IgnoreInsignificant](./get_ignoreinsignificant/)() const | True indicates that the insignificant attributes of all runs will be ignored when joining runs with same formatting. |
 | [get_IgnoreRedundant](./get_ignoreredundant/)() const | True indicates that the redundant attributes of all runs will be ignored when joining runs with same formatting. |
 | [get_IgnoreSpacing](./get_ignorespacing/)() const | True indicates that the spacing attributes of all runs will be ignored when joining runs with same formatting. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [JoinRunsOptions](./joinrunsoptions/)() |  |
 | [set_IgnoreInsignificant](./set_ignoreinsignificant/)(bool) | True indicates that the insignificant attributes of all runs will be ignored when joining runs with same formatting. |
 | [set_IgnoreRedundant](./set_ignoreredundant/)(bool) | True indicates that the redundant attributes of all runs will be ignored when joining runs with same formatting. |
 | [set_IgnoreSpacing](./set_ignorespacing/)(bool) | True indicates that the spacing attributes of all runs will be ignored when joining runs with same formatting. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
 
-Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +66,6 @@ ASSERT_EQ(u"Hello world", doc->get_FirstSection()->get_Body()->get_FirstParagrap
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

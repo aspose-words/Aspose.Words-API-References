@@ -4,7 +4,7 @@ linktitle: Create
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::AiModel::Create method. Creates a new instance of AiModel class in C++.'
 type: docs
-weight: 1000
+weight: 2750
 url: /cpp/aspose.words.ai/aimodel/create/
 ---
 ## AiModel::Create method
@@ -16,12 +16,11 @@ Creates a new instance of [AiModel](../) class.
 static System::SharedPtr<Aspose::Words::AI::AiModel> Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType modelType)
 ```
 
-
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -40,11 +39,8 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
-* Class [AiModel](../)
-* Enum [AiModelType](../../aimodeltype/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_DefaultInstructions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::SignatureLineOptions::get_DefaultInstructions method. Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true in C++.'
 type: docs
-weight: 4000
+weight: 11400
 url: /cpp/aspose.words/signaturelineoptions/get_defaultinstructions/
 ---
 ## SignatureLineOptions::get_DefaultInstructions method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/signaturelineoptions/get_defaultinstructions/
 Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
 
 ```cpp
-bool Aspose::Words::SignatureLineOptions::get_DefaultInstructions() const
+_Bool Aspose::Words::SignatureLineOptions::get_DefaultInstructions() const
 ```
-
 
 ## Examples
 
 
+Shows how to sign a document with a personal certificate and a signature line.
 
-Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
-
 ## See Also
 
 * Class [SignatureLineOptions](../)

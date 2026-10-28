@@ -4,7 +4,7 @@ linktitle: get_MovedFromTextEffect
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_MovedFromTextEffect method. Allows to specify the effect to be applied to the areas where content was moved from Moving. Default value is DoubleStrikeThrough in C++.'
 type: docs
-weight: 9000
+weight: 22484
 url: /cpp/aspose.words.layout/revisionoptions/get_movedfromtexteffect/
 ---
 ## RevisionOptions::get_MovedFromTextEffect method
@@ -16,12 +16,11 @@ Allows to specify the effect to be applied to the areas where content was moved 
 Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions::get_MovedFromTextEffect()
 ```
 
-
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -65,10 +64,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
-* Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

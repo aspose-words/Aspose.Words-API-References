@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::DropDownItemCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 9000
+weight: 18667
 url: /cpp/aspose.words.fields/dropdownitemcollection/get_count/
 ---
 ## DropDownItemCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Fields::DropDownItemCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

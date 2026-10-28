@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielddatabaseprovider/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::IFieldDatabaseProvider::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::IFieldDatabaseProvider::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

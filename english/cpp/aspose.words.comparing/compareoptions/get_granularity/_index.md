@@ -4,7 +4,7 @@ linktitle: get_Granularity
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_Granularity method. Specifies whether changes are tracked by character or by word in C++.'
 type: docs
-weight: 4000
+weight: 16268
 url: /cpp/aspose.words.comparing/compareoptions/get_granularity/
 ---
 ## CompareOptions::get_Granularity method
@@ -16,12 +16,14 @@ Specifies whether changes are tracked by character or by word.
 Aspose::Words::Comparing::Granularity Aspose::Words::Comparing::CompareOptions::get_Granularity() const
 ```
 
+## Remarks
 
+ Default value is [WordLevel](../../granularity/). 
 ## Examples
 
 
+Shows to specify a granularity while comparing documents.
 
-Shows to specify a granularity while comparing documents. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>();
 auto builderA = System::MakeObject<Aspose::Words::DocumentBuilder>(docA);
@@ -42,10 +44,8 @@ docA->Compare(docB, u"author", System::DateTime::get_Now(), compareOptions);
 System::SharedPtr<Aspose::Words::RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
 ASSERT_EQ(5, groups->get_Count());
 ```
-
 ## See Also
 
-* Enum [Granularity](../../granularity/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

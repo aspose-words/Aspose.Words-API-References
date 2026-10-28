@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/custompartcollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Markup::CustomPartCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::CustomPart> >
+using Aspose::Words::Markup::CustomPartCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::CustomPart> >
 ```
 
 ## See Also

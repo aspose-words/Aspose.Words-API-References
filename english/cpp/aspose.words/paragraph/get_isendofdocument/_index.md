@@ -4,7 +4,7 @@ linktitle: get_IsEndOfDocument
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsEndOfDocument method. True if this paragraph is the last paragraph in the last section of the document in C++.'
 type: docs
-weight: 9000
+weight: 38000
 url: /cpp/aspose.words/paragraph/get_isendofdocument/
 ---
 ## Paragraph::get_IsEndOfDocument method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_isendofdocument/
 True if this paragraph is the last paragraph in the last section of the document.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsEndOfDocument()
+_Bool Aspose::Words::Paragraph::get_IsEndOfDocument()
 ```
-
 
 ## Examples
 
 
+Shows how to insert a paragraph into the document.
 
-Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->Writeln(u"Hello world!");
 
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

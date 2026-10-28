@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualized_
 
 
 ```cpp
-using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

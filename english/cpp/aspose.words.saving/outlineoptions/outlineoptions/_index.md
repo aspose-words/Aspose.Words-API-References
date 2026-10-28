@@ -4,7 +4,7 @@ linktitle: OutlineOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use OutlineOptions constructor of Aspose::Words::Saving::OutlineOptions class in C++.'
 type: docs
-weight: 2000
+weight: 10112
 url: /cpp/aspose.words.saving/outlineoptions/outlineoptions/
 ---
 ## OutlineOptions::OutlineOptions constructor

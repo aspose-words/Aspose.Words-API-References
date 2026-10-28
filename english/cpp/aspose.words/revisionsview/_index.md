@@ -4,7 +4,7 @@ linktitle: RevisionsView
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RevisionsView enum. Allows to specify whether to work with the original or revised version of a document in C++.'
 type: docs
-weight: 112000
+weight: 113500
 url: /cpp/aspose.words/revisionsview/
 ---
 ## RevisionsView enum
@@ -13,22 +13,21 @@ url: /cpp/aspose.words/revisionsview/
 Allows to specify whether to work with the original or revised version of a document.
 
 ```cpp
-enum class RevisionsView
+enum class RevisionsView : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Original | 0 | Specifies original version of a document. |
 | Final | 1 | Specifies revised version of a document. |
-
+| Original | 0 | Specifies original version of a document. |
 
 ## Examples
 
 
+Shows how to switch between the revised and the original view of a document.
 
-Shows how to switch between the revised and the original view of a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions at list levels.docx"));
 doc->UpdateListLabels();
@@ -45,7 +44,6 @@ ASSERT_EQ(System::String::Empty, paragraphs->idx_get(0)->get_ListLabel()->get_La
 ASSERT_EQ(u"1.", paragraphs->idx_get(1)->get_ListLabel()->get_LabelString());
 ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

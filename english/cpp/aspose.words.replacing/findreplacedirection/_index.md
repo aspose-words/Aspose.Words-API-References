@@ -13,15 +13,15 @@ url: /cpp/aspose.words.replacing/findreplacedirection/
 Specifies direction for replace operations.
 
 ```cpp
-enum class FindReplaceDirection
+enum class FindReplaceDirection : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Forward | 0 | Matched items are replaced from first to last. |
 | Backward | 1 | Matched items are replaced from last back to first. |
+| Forward | 0 | Matched items are replaced from first to last. |
 
 ## See Also
 

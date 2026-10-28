@@ -13,7 +13,7 @@ url: /cpp/aspose.words/warninginfocollection/iterator/
 
 
 ```cpp
-using Aspose::Words::WarningInfoCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::WarningInfoCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

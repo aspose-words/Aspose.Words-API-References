@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_Transparency method. Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke in C++.'
 type: docs
-weight: 19000
+weight: 23895
 url: /cpp/aspose.words.drawing/stroke/get_transparency/
 ---
 ## Stroke::get_Transparency method
@@ -16,12 +16,14 @@ Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degre
 double Aspose::Words::Drawing::Stroke::get_Transparency()
 ```
 
+## Remarks
 
+ The default value is 0. 
 ## Examples
 
 
+Show how to set marker formatting.
 
-Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +54,6 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
-
 ## See Also
 
 * Class [Stroke](../)

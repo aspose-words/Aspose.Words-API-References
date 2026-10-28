@@ -4,7 +4,7 @@ linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_SourceFullName method. Gets the path and name of an xls/xlsx file this chart is linked to in C++.'
 type: docs
-weight: 7000
+weight: 10787
 url: /cpp/aspose.words.drawing.charts/chart/get_sourcefullname/
 ---
 ## Chart::get_SourceFullName method
@@ -16,12 +16,11 @@ Gets the path and name of an xls/xlsx file this chart is linked to.
 System::String Aspose::Words::Drawing::Charts::Chart::get_SourceFullName()
 ```
 
-
 ## Examples
 
 
+Shows how to get/set the full name of the external xls/xlsx document if the chart is linked.
 
-Shows how to get/set the full name of the external xls/xlsx document if the chart is linked. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape with linked chart.docx"));
 
@@ -30,7 +29,6 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 System::String sourceFullName = shape->get_Chart()->get_SourceFullName();
 ASSERT_TRUE(sourceFullName.Contains(u"Examples\\Data\\Spreadsheet.xlsx"));
 ```
-
 ## See Also
 
 * Class [Chart](../)

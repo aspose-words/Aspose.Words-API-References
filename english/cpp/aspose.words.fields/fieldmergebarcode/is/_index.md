@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldMergeBarcode::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldMergeBarcode::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

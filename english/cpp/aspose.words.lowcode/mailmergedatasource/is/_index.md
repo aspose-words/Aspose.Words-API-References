@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergedatasource/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::MailMergeDataSource::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::MailMergeDataSource::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Comparing::CompareOptions class
 linktitle: CompareOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comparing::CompareOptions class. Allows to choose additional options for document comparison operation. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Comparing::CompareOptions class. Allows to choose additional options for document comparison operation. To learn more, visit the Compare Documents documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.comparing/compareoptions/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.comparing/compareoptions/
 ## CompareOptions class
 
 
-Allows to choose additional options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article.
+Allows to choose additional options for document comparison operation. 
+To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article.
 
 ```cpp
 class CompareOptions : public System::Object
@@ -21,6 +22,9 @@ class CompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CompareOptions](./compareoptions/)() |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AdvancedOptions](./get_advancedoptions/)() const | Specifies advanced compare options that might help to produce more precise comparison output. |
 | [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences between the two documents. |
 | [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. |
@@ -34,27 +38,23 @@ class CompareOptions : public System::Object
 | [get_IgnoreTables](./get_ignoretables/)() const | Specifies whether to compare the differences in data contained in tables. |
 | [get_IgnoreTextboxes](./get_ignoretextboxes/)() const | Specifies whether to compare differences in the data contained within text boxes. |
 | [get_Target](./get_target/)() const | Specifies which document shall be used as a target during comparison. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_CompareMoves](./set_comparemoves/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_CompareMoves](./get_comparemoves/). |
-| [set_Granularity](./set_granularity/)(Aspose::Words::Comparing::Granularity) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Granularity](./get_granularity/). |
-| [set_IgnoreCaseChanges](./set_ignorecasechanges/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreCaseChanges](./get_ignorecasechanges/). |
-| [set_IgnoreComments](./set_ignorecomments/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreComments](./get_ignorecomments/). |
-| [set_IgnoreDmlUniqueId](./set_ignoredmluniqueid/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/). |
-| [set_IgnoreFields](./set_ignorefields/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFields](./get_ignorefields/). |
-| [set_IgnoreFootnotes](./set_ignorefootnotes/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFootnotes](./get_ignorefootnotes/). |
-| [set_IgnoreFormatting](./set_ignoreformatting/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting](./get_ignoreformatting/). |
-| [set_IgnoreHeadersAndFooters](./set_ignoreheadersandfooters/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters](./get_ignoreheadersandfooters/). |
-| [set_IgnoreTables](./set_ignoretables/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreTables](./get_ignoretables/). |
-| [set_IgnoreTextboxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes](./get_ignoretextboxes/). |
-| [set_Target](./set_target/)(Aspose::Words::Comparing::ComparisonTargetType) | Setter for [Aspose::Words::Comparing::CompareOptions::get_Target](./get_target/). |
-| static [Type](./type/)() |  |
-
+| [set_CompareMoves](./set_comparemoves/)(bool) | Specifies whether to compare differences between the two documents. |
+| [set_Granularity](./set_granularity/)(Aspose::Words::Comparing::Granularity) | Specifies whether changes are tracked by character or by word. |
+| [set_IgnoreCaseChanges](./set_ignorecasechanges/)(bool) | True indicates that documents comparison is case insensitive. |
+| [set_IgnoreComments](./set_ignorecomments/)(bool) | Specifies whether to compare differences in comments. |
+| [set_IgnoreDmlUniqueId](./set_ignoredmluniqueid/)(bool) | Specifies whether to ignore difference in DrawingML unique Id. |
+| [set_IgnoreFields](./set_ignorefields/)(bool) | Specifies whether to compare differences in fields. |
+| [set_IgnoreFootnotes](./set_ignorefootnotes/)(bool) | Specifies whether to compare differences in footnotes and endnotes. |
+| [set_IgnoreFormatting](./set_ignoreformatting/)(bool) | True indicates that formatting is ignored. |
+| [set_IgnoreHeadersAndFooters](./set_ignoreheadersandfooters/)(bool) | True indicates that headers and footers content is ignored. |
+| [set_IgnoreTables](./set_ignoretables/)(bool) | Specifies whether to compare the differences in data contained in tables. |
+| [set_IgnoreTextboxes](./set_ignoretextboxes/)(bool) | Specifies whether to compare differences in the data contained within text boxes. |
+| [set_Target](./set_target/)(Aspose::Words::Comparing::ComparisonTargetType) | Specifies which document shall be used as a target during comparison. |
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -121,7 +121,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Comparing](../)

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStopCollection::get_Count method. Gets the number of tab stops in the collection in C++.'
 type: docs
-weight: 7000
+weight: 17000
 url: /cpp/aspose.words/tabstopcollection/get_count/
 ---
 ## TabStopCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of tab stops in the collection.
 int32_t Aspose::Words::TabStopCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
 * Class [TabStopCollection](../)

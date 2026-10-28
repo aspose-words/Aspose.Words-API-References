@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::AdjustmentCollection::idx_get method. Returns an adjustment at the specified index in C++.'
 type: docs
-weight: 4000
+weight: 8000
 url: /cpp/aspose.words.drawing/adjustmentcollection/idx_get/
 ---
 ## AdjustmentCollection::idx_get method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Drawing::Adjustment> Aspose::Words::Drawing::Ad
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
-
 ## Examples
 
 
+Shows how to work with adjustment raw values.
 
-Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -41,10 +40,8 @@ adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
-
 ## See Also
 
-* Class [Adjustment](../../adjustment/)
 * Class [AdjustmentCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

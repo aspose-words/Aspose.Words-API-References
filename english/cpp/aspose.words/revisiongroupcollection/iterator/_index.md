@@ -13,7 +13,7 @@ url: /cpp/aspose.words/revisiongroupcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::RevisionGroupCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::RevisionGroupCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

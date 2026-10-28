@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergerec/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldMergeRec::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldMergeRec::GetType() const override
 ```
 
 ## See Also

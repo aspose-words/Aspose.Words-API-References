@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/softedgeformat/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::SoftEdgeFormat::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::SoftEdgeFormat::GetType() const override
 ```
 
 ## See Also

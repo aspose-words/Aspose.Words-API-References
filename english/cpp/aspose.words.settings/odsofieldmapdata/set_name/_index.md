@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdata/set_name/
 Specifies the column name within an external data source for the column whose index is specified by the [Column](../get_column/) property. The default value is an empty string.
 
 ```cpp
-void Aspose::Words::Settings::OdsoFieldMapData::set_Name(const System::String &value)
+void Aspose::Words::Settings::OdsoFieldMapData::set_Name(const System::String & value)
 ```
 
 ## See Also

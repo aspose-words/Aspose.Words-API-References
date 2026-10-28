@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::PageSavingArgs class in C++.'
 type: docs
-weight: 1000
+weight: 8286
 url: /cpp/aspose.words.saving/pagesavingargs/type/
 ---
 ## PageSavingArgs::Type method

@@ -4,7 +4,7 @@ linktitle: Lf
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ControlChar::Lf method. Line feed character: "\x000a" or "\n". Same as LineFeed in C++.'
 type: docs
-weight: 5000
+weight: 13273
 url: /cpp/aspose.words/controlchar/lf/
 ---
 ## ControlChar::Lf method
@@ -16,12 +16,11 @@ Line feed character: "\x000a" or "\n". Same as [LineFeed](../linefeed/).
 static System::String & Aspose::Words::ControlChar::Lf()
 ```
 
-
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

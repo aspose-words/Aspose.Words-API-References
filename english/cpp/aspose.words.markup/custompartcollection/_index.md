@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomPartCollection class
 linktitle: CustomPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomPartCollection class. Represents a collection of CustomPart objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::CustomPartCollection class. Represents a collection of CustomPart objects. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.markup/custompartcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/custompartcollection/
 ## CustomPartCollection class
 
 
-Represents a collection of [CustomPart](../custompart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+Represents a collection of [CustomPart](../custompart/) objects. 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomPartCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomPart>>
@@ -20,24 +21,24 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPart\>\&) | Adds an item to the collection. |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPart\> \&) | Adds an item to the collection. |
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [Clone](./clone/)() | Makes a deep copy of this collection and its items. |
 | [CustomPartCollection](./custompartcollection/)() |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
-| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomPart\>\&) | Gets or sets an item at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
 | static [Type](./type/)() |  |
+| [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() const |  |
+| [end](./end/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
+| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomPart\> \&) | Gets or sets an item at the specified index. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -55,12 +56,11 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 
 
 You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [PackageCustomParts](../../aspose.words/document/get_packagecustomparts/) property.
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -96,7 +96,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_Font method. Returns an object that represents current font formatting properties in C++.'
 type: docs
-weight: 17000
+weight: 82000
 url: /cpp/aspose.words/documentbuilder/get_font/
 ---
 ## DocumentBuilder::get_Font method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::DocumentBuilder::get_Font(
 Use [Font](./) to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
-
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,8 +40,8 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
 
+Shows how to create a formatted table using DocumentBuilder.
 
-Shows how to create a formatted table using [DocumentBuilder](../). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -98,10 +97,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../font/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

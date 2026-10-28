@@ -13,20 +13,19 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 Adds a bookmark to the collection.
 
 ```cpp
-void Aspose::Words::Saving::BookmarksOutlineLevelCollection::Add(const System::String &name, int32_t outlineLevel)
+void Aspose::Words::Saving::BookmarksOutlineLevelCollection::Add(const System::String & name, int32_t outlineLevel)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the bookmark to add. |
+| name | const System::String \& | The case-insensitive name of the bookmark to add. |
 | outlineLevel | int32_t | The outline level of the bookmark. Valid range is 0 to 9. |
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +76,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

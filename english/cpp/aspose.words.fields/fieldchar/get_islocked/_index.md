@@ -4,7 +4,7 @@ linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldChar::get_IsLocked method. Gets or sets whether the parent field is locked (should not recalculate its result) in C++.'
 type: docs
-weight: 4000
+weight: 7800
 url: /cpp/aspose.words.fields/fieldchar/get_islocked/
 ---
 ## FieldChar::get_IsLocked method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldchar/get_islocked/
 Gets or sets whether the parent field is locked (should not recalculate its result).
 
 ```cpp
-bool Aspose::Words::Fields::FieldChar::get_IsLocked() const
+_Bool Aspose::Words::Fields::FieldChar::get_IsLocked() const
 ```
-
 
 ## Examples
 
 
+Shows how to work with a FieldStart node.
 
-Shows how to work with a [FieldStart](../../fieldstart/) node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,7 +44,6 @@ ASSERT_EQ((u" DATE  \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 // Update the field to show the current date.
 field->Update();
 ```
-
 ## See Also
 
 * Class [FieldChar](../)

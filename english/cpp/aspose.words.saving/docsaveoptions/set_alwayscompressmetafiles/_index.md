@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::DocSaveOptions::set_AlwaysCompressMetafiles method
 linktitle: set_AlwaysCompressMetafiles
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::DocSaveOptions::set_AlwaysCompressMetafiles method. Setter for Aspose::Words::Saving::DocSaveOptions::get_AlwaysCompressMetafiles in C++.'
+description: 'Aspose::Words::Saving::DocSaveOptions::set_AlwaysCompressMetafiles method. When false, small metafiles are not compressed for performance reason. Default value is true, all metafiles are compressed regardless of its size in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.saving/docsaveoptions/set_alwayscompressmetafiles/
@@ -10,12 +10,29 @@ url: /cpp/aspose.words.saving/docsaveoptions/set_alwayscompressmetafiles/
 ## DocSaveOptions::set_AlwaysCompressMetafiles method
 
 
-Setter for [Aspose::Words::Saving::DocSaveOptions::get_AlwaysCompressMetafiles](../get_alwayscompressmetafiles/).
+When **false**, small metafiles are not compressed for performance reason. Default value is **true**, all metafiles are compressed regardless of its size.
 
 ```cpp
 void Aspose::Words::Saving::DocSaveOptions::set_AlwaysCompressMetafiles(bool value)
 ```
 
+## Examples
+
+
+Shows how to change metafiles compression in a document while saving.
+
+```cpp
+// Open a document that contains a Microsoft Equation 3.0 formula.
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Microsoft equation object.docx"));
+
+// When we save a document, smaller metafiles are not compressed for performance reasons.
+// We can set a flag in a SaveOptions object to compress every metafile when saving.
+// Some editors such as LibreOffice cannot read uncompressed metafiles.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::DocSaveOptions>();
+saveOptions->set_AlwaysCompressMetafiles(compressAllMetafiles);
+
+doc->Save(get_ArtifactsDir() + u"DocSaveOptions.AlwaysCompressMetafiles.docx", saveOptions);
+```
 ## See Also
 
 * Class [DocSaveOptions](../)

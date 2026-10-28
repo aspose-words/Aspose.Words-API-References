@@ -28,12 +28,11 @@ Returns the list object. Returns **null** if a list with the specified identifie
 
 
 You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [List](../../listformat/get_list/) property of the [ListFormat](../../listformat/) object.
-
 ## Examples
 
 
+Shows how to verify owner document properties of lists.
 
-Shows how to verify owner document properties of lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -48,10 +47,8 @@ std::cout << (System::String(u"Is the first document list: ") + (System::ObjectE
 std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
-
 ## See Also
 
-* Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

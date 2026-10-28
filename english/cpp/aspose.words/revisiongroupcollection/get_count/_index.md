@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RevisionGroupCollection::get_Count method. Returns the number of revision groups in the collection in C++.'
 type: docs
-weight: 6000
+weight: 10750
 url: /cpp/aspose.words/revisiongroupcollection/get_count/
 ---
 ## RevisionGroupCollection::get_Count method
@@ -16,12 +16,11 @@ Returns the number of revision groups in the collection.
 int32_t Aspose::Words::RevisionGroupCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to print info about a group of revisions in a document.
 
-Shows how to print info about a group of revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -32,7 +31,6 @@ for (auto&& group : doc->get_Revisions()->get_Groups())
     std::cout << System::String::Format(u"Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group->get_Author(), group->get_RevisionType(), group->get_Text()) << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [RevisionGroupCollection](../)

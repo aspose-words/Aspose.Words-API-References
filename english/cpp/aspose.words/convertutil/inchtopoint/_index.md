@@ -4,7 +4,7 @@ linktitle: InchToPoint
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::InchToPoint method. Converts inches to points in C++.'
 type: docs
-weight: 1000
+weight: 8000
 url: /cpp/aspose.words/convertutil/inchtopoint/
 ---
 ## ConvertUtil::InchToPoint method
@@ -20,12 +20,14 @@ static double Aspose::Words::ConvertUtil::InchToPoint(double inches)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inches | double | The value to convert. |
+## Remarks
 
+ 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,8 +46,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
+Shows how to specify page properties in inches.
 
-Shows how to specify page properties in inches. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +70,6 @@ builder->Writeln(System::String::Format(u"This Text is {0} points/{1} inches fro
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndInches.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

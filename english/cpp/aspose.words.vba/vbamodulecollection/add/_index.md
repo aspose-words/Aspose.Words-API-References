@@ -13,15 +13,14 @@ url: /cpp/aspose.words.vba/vbamodulecollection/add/
 Adds a module to the collection.
 
 ```cpp
-void Aspose::Words::Vba::VbaModuleCollection::Add(const System::SharedPtr<Aspose::Words::Vba::VbaModule> &vbaModule)
+void Aspose::Words::Vba::VbaModuleCollection::Add(const System::SharedPtr<Aspose::Words::Vba::VbaModule> & vbaModule)
 ```
-
 
 ## Examples
 
 
+Shows how to create a VBA project using macros.
 
-Shows how to create a VBA project using macros. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,10 +40,8 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 
 doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
-
 ## See Also
 
-* Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

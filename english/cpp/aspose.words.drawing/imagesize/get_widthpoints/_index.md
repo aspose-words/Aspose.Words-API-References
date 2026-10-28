@@ -4,7 +4,7 @@ linktitle: get_WidthPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageSize::get_WidthPoints method. Gets the width of the image in points. 1 point is 1/72 inch in C++.'
 type: docs
-weight: 8000
+weight: 17000
 url: /cpp/aspose.words.drawing/imagesize/get_widthpoints/
 ---
 ## ImageSize::get_WidthPoints method
@@ -16,12 +16,11 @@ Gets the width of the image in points. 1 point is 1/72 inch.
 double Aspose::Words::Drawing::ImageSize::get_WidthPoints()
 ```
 
-
 ## Examples
 
 
+Shows how to resize a shape with an image.
 
-Shows how to resize a shape with an image. 
 ```cpp
 // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
 // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -59,7 +58,6 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 
 doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```
-
 ## See Also
 
 * Class [ImageSize](../)

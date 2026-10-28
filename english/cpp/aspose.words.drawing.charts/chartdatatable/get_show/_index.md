@@ -4,7 +4,7 @@ linktitle: get_Show
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataTable::get_Show method. Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is false in C++.'
 type: docs
-weight: 8000
+weight: 10889
 url: /cpp/aspose.words.drawing.charts/chartdatatable/get_show/
 ---
 ## ChartDataTable::get_Show method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/get_show/
 Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataTable::get_Show() const
+_Bool Aspose::Words::Drawing::Charts::ChartDataTable::get_Show() const
 ```
 
+## Remarks
 
+ The following chart types do not support data tables: Scatter, Pie, Doughnut, Surface, Radar, Treemap, Sunburst, Histogram, Pareto, Box and Whisker, Waterfall, Funnel, Combo charts that include series of these types. Showing a data table for the chart types throws a **InvalidOperationException** exception. 
 ## Examples
 
 
+Shows how to show data table with chart series data.
 
-Shows how to show data table with chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +53,6 @@ dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_Dar
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataTable](../)

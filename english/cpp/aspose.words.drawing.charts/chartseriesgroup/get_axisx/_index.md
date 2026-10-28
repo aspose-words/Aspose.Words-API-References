@@ -4,7 +4,7 @@ linktitle: get_AxisX
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisX method. Provides access to properties of the X axis of this series group in C++.'
 type: docs
-weight: 3000
+weight: 14231
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_axisx/
 ---
 ## ChartSeriesGroup::get_AxisX method
@@ -16,12 +16,11 @@ Provides access to properties of the X axis of this series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisX()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
-* Class [ChartAxis](../../chartaxis/)
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

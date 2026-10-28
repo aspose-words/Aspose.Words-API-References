@@ -20,12 +20,11 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Run>> Aspose::Words::RunCollec
 ### ReturnValue
 
 An array of runs.
-
 ## Examples
 
 
+Shows how to determine the revision type of an inline node.
 
-Shows how to determine the revision type of an inline node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
@@ -74,10 +73,8 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
-* Class [Run](../../run/)
 * Class [RunCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

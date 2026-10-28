@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Font method. Provides access to the font formatting of this data label in C++.'
 type: docs
-weight: 3000
+weight: 18084
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_font/
 ---
 ## ChartDataLabel::get_Font method
@@ -16,12 +16,11 @@ Provides access to the font formatting of this data label.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartDataLabel::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to use 3D effects with bubble charts.
 
-Shows how to use 3D effects with bubble charts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +42,8 @@ for (int32_t i = 0; i < 3; i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.Bubble3D.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

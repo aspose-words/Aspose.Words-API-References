@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::get_Text method. Gets or sets the text of the run in C++.'
 type: docs
-weight: 5000
+weight: 8858
 url: /cpp/aspose.words/run/get_text/
 ---
 ## Run::get_Text method
@@ -16,12 +16,11 @@ Gets or sets the text of the run.
 System::String Aspose::Words::Run::get_Text() const
 ```
 
-
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -64,7 +63,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Class [Run](../)

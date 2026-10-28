@@ -19,7 +19,7 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_LinksUpToDate(boo
 ## Remarks
 
 
-Aspose.Words does not update this property. 
+Aspose.Words does not update this property.
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

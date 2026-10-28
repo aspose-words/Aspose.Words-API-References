@@ -4,7 +4,7 @@ linktitle: ImageTypeToExtension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatUtil::ImageTypeToExtension method. Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 5000
+weight: 11000
 url: /cpp/aspose.words/fileformatutil/imagetypetoextension/
 ---
 ## FileFormatUtil::ImageTypeToExtension method
@@ -16,12 +16,11 @@ Converts an Aspose.Words image type enumerated value into a file extension. The 
 static System::String Aspose::Words::FileFormatUtil::ImageTypeToExtension(Aspose::Words::Drawing::ImageType imageType)
 ```
 
-
 ## Examples
 
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
 
-Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -47,10 +46,12 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
     }
 }
 ```
+## Exceptions
+
+* **ArgumentException** - Throws when cannot convert.
 
 ## See Also
 
-* Enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

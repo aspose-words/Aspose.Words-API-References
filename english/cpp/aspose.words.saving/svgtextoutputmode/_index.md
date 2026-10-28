@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/svgtextoutputmode/
 Allows to specify how text inside a document should be rendered when saving in SVG format.
 
 ```cpp
-enum class SvgTextOutputMode
+enum class SvgTextOutputMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UseSvgFonts | 0 | SVG fonts are used to render text. Note, not all browsers support SVG fonts. |
-| UseTargetMachineFonts | 1 | [Fonts](../../aspose.words.fonts/) installed on the target machine are used to render text. Note, if some of fonts used in the document are not available on the target machine, document can look differently. |
 | UsePlacedGlyphs | 2 | Text is rendered using curves. Note, text selection will not work if you use this option. |
-
+| UseSvgFonts | 0 | SVG fonts are used to render text. Note, not all browsers support SVG fonts. |
+| UseTargetMachineFonts | 1 | Fonts installed on the target machine are used to render text. Note, if some of fonts used in the document are not available on the target machine, document can look differently. |
 
 ## Examples
 
 
+Shows how to mimic the properties of images when converting a .docx document to .svg.
 
-Shows how to mimic the properties of images when converting a .docx document to .svg. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -41,7 +40,6 @@ options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
 
 doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldKeywords::get_Text method. Gets or sets the text of the keywords in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldkeywords/get_text/
 ---
 ## FieldKeywords::get_Text method
@@ -16,12 +16,11 @@ Gets or sets the text of the keywords.
 System::String Aspose::Words::Fields::FieldKeywords::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows to insert a KEYWORDS field.
 
-Shows to insert a KEYWORDS field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +46,6 @@ ASSERT_EQ(u"OverridingKeyword", doc->get_BuiltInDocumentProperties()->get_Keywor
 
 doc->Save(get_ArtifactsDir() + u"Field.KEYWORDS.docx");
 ```
-
 ## See Also
 
 * Class [FieldKeywords](../)

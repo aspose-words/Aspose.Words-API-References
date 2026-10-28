@@ -13,19 +13,18 @@ url: /cpp/aspose.words/controlchar/optionalhyphenchar/
 Optional Hyphen in Microsoft Word is (char)31.
 
 ```cpp
-static constexpr char16_t Aspose::Words::ControlChar::OptionalHyphenChar
+static const char16_t Aspose::Words::ControlChar::OptionalHyphenChar
 ```
 
 ## Remarks
 
 
 Optional Hyphen in Microsoft Word does not correspond to the Unicode character U+00AD soft hyphen. Instead, it inserts internal information that tells Word about a possible hyphenation point.
-
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

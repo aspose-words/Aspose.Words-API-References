@@ -13,7 +13,7 @@ url: /cpp/aspose.words.framesets/framesetcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Framesets::FramesetCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Framesets::FramesetCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/loadformat/
 Indicates the format of the document that is to be loaded.
 
 ```cpp
-enum class LoadFormat
+enum class LoadFormat : int
 ```
 
 ### Values
@@ -21,39 +21,38 @@ enum class LoadFormat
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | Instructs Aspose.Words to recognize the format automatically. |
-| MsWorks | 8 | Microsoft Works 8 [Document](../document/). |
-| Doc | 10 | Microsoft Word 95 or Word 97 - 2003 [Document](../document/). |
-| Dot | 11 | Microsoft Word 95 or Word 97 - 2003 Template. |
+| Azw3 | 54 | AZW3 format. Used by Amazon Kindle readers. |
+| Chm | 53 | CHM (Compiled HTML Help) format. |
+| Doc | 10 | Microsoft Word 95 or Word 97 - 2003 Document. |
 | DocPreWord60 | 12 | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |
-| Docx | 20 | Office Open XML WordprocessingML [Document](../document/) (macro-free). |
-| Docm | 21 | Office Open XML WordprocessingML Macro-Enabled [Document](../document/). |
-| Dotx | 22 | Office Open XML WordprocessingML Template (macro-free). |
+| Docm | 21 | Office Open XML WordprocessingML Macro-Enabled Document. |
+| Docx | 20 | Office Open XML WordprocessingML Document (macro-free). |
+| Dot | 11 | Microsoft Word 95 or Word 97 - 2003 Template. |
 | Dotm | 23 | Office Open XML WordprocessingML Macro-Enabled Template. |
+| Dotx | 22 | Office Open XML WordprocessingML Template (macro-free). |
+| Epub | 55 | EPUB format. |
 | FlatOpc | 24 | Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package. |
-| FlatOpcMacroEnabled | 25 | Office Open XML WordprocessingML Macro-Enabled [Document](../document/) stored in a flat XML file instead of a ZIP package. |
+| FlatOpcMacroEnabled | 25 | Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package. |
 | FlatOpcTemplate | 26 | Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package. |
 | FlatOpcTemplateMacroEnabled | 27 | Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package. |
-| Rtf | 30 | RTF format. |
-| WordML | 31 | Microsoft Word 2003 WordprocessingML format. |
 | Html | 50 | HTML format. |
+| Markdown | 63 | Markdown text document. |
 | Mhtml | 51 | MHTML (Web archive) format. |
 | Mobi | 52 | MOBI format. Used by MobiPocket reader and Amazon Kindle readers. |
-| Chm | 53 | CHM (Compiled HTML Help) format. |
-| Azw3 | 54 | AZW3 format. Used by Amazon Kindle readers. |
-| Epub | 55 | EPUB format. |
-| Odt | 60 | ODF Text [Document](../document/). |
-| Ott | 61 | ODF Text [Document](../document/) Template. |
+| MsWorks | 8 | Microsoft Works 8 Document. |
+| Odt | 60 | ODF Text Document. |
+| Ott | 61 | ODF Text Document Template. |
+| Rtf | 30 | RTF format. |
 | Text | 62 | Plain Text. |
-| Markdown | 63 | Markdown text document. |
+| Unknown | 255 | Unrecognized format, cannot be loaded by Aspose.Words. |
+| WordML | 31 | Microsoft Word 2003 WordprocessingML format. |
 | Xml | 65 | XML document. |
-| Unknown | 255 | Unrecognized format, cannot be loaded by [Aspose.Words](../). |
-
 
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../fileformatutil/) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -80,8 +79,8 @@ Shows how to use the [FileFormatUtil](../fileformatutil/) methods to detect the 
 }
 ```
 
+Shows how to specify a base URI when opening an html document.
 
-Shows how to specify a base URI when opening an html document. 
 ```cpp
 // Suppose we want to load an .html document that contains an image linked by a relative URI
 // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
@@ -99,7 +98,6 @@ ASSERT_TRUE(imageShape->get_IsImage());
 // This output document will display the image that was missing.
 doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BaseUri.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

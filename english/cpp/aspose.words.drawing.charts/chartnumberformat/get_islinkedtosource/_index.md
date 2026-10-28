@@ -4,7 +4,7 @@ linktitle: get_IsLinkedToSource
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource method. Specifies whether the format code is linked to a source cell. Default is true in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_islinkedtosource/
 ---
 ## ChartNumberFormat::get_IsLinkedToSource method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_islinkedtosource/
 Specifies whether the format code is linked to a source cell. Default is true.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource()
+_Bool Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource()
 ```
 
+## Remarks
 
+The NumberFormat will be reset to general if format code is linked to source.
 ## Examples
 
 
+Shows how to set formatting for chart values.
 
-Shows how to set formatting for chart values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,7 +36,7 @@ chart->get_Series()->Clear();
 
 // Add a custom series to the chart with categories for the X-axis,
 // and large respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({1900000, 850000, 2100000, 600000, 1500000}));
 
 // Set the number format of the Y-axis tick labels to not group digits with commas.
@@ -45,7 +47,6 @@ ASSERT_FALSE(chart->get_AxisY()->get_NumberFormat()->get_IsLinkedToSource());
 
 doc->Save(get_ArtifactsDir() + u"Charts.SetNumberFormatToChartAxis.docx");
 ```
-
 ## See Also
 
 * Class [ChartNumberFormat](../)

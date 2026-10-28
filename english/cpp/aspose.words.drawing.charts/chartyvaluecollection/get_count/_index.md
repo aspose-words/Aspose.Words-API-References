@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartYValueCollection::get_Count method. Gets the number of items in this collection in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.drawing.charts/chartyvaluecollection/get_count/
 ---
 ## ChartYValueCollection::get_Count method

@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_Width method. Specifies the default width value for this task pane instance in C++.'
 type: docs
-weight: 8000
+weight: 10889
 url: /cpp/aspose.words.webextensions/taskpane/get_width/
 ---
 ## TaskPane::get_Width method
@@ -16,12 +16,11 @@ Specifies the default width value for this task pane instance.
 double Aspose::Words::WebExtensions::TaskPane::get_Width() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [TaskPane](../)

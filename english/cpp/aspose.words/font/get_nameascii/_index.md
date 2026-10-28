@@ -4,7 +4,7 @@ linktitle: get_NameAscii
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NameAscii method. Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127) in C++.'
 type: docs
-weight: 26000
+weight: 59450
 url: /cpp/aspose.words/font/get_nameascii/
 ---
 ## Font::get_NameAscii method
@@ -16,12 +16,11 @@ Returns or sets the font used for Latin text (characters with character codes fr
 System::String Aspose::Words::Font::get_NameAscii()
 ```
 
-
 ## Examples
 
 
+Shows how Microsoft Word can combine two different fonts in one run.
 
-Shows how Microsoft Word can combine two different fonts in one run. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,8 +43,9 @@ builder->Writeln(u"Hello, Привет");
 
 doc->Save(get_ArtifactsDir() + u"Font.NameAscii.docx");
 ```
-
 ## See Also
+
+* [Name](../get_name/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

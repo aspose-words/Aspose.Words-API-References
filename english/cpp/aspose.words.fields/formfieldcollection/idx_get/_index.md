@@ -4,26 +4,27 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormFieldCollection::idx_get method. Returns a form field by bookmark name in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words.fields/formfieldcollection/idx_get/
 ---
-## FormFieldCollection::idx_get(const System::String\&) method
+## FormFieldCollection::idx_get(const System::String \&) method
 
 
 Returns a form field by bookmark name.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::Fields::FormFieldCollection::idx_get(const System::String &bookmarkName)
+System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::Fields::FormFieldCollection::idx_get(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | Case-insensitive bookmark name. |
+| bookmarkName | const System::String \& | Case-insensitive bookmark name. |
+## Remarks
 
+ Returns **null** if the form field with the specified bookmark name cannot be found. 
 ## See Also
 
-* Class [FormField](../../formfield/)
 * Class [FormFieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -50,10 +51,8 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## See Also
 
-* Class [FormField](../../formfield/)
 * Class [FormFieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::IDocumentSavingCallback class in C++.'
 type: docs
-weight: 1000
+weight: 5000
 url: /cpp/aspose.words.saving/idocumentsavingcallback/type/
 ---
 ## IDocumentSavingCallback::Type method

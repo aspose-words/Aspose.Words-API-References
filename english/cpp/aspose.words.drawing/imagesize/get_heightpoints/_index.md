@@ -4,7 +4,7 @@ linktitle: get_HeightPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageSize::get_HeightPoints method. Gets the height of the image in points. 1 point is 1/72 inch in C++.'
 type: docs
-weight: 4000
+weight: 13000
 url: /cpp/aspose.words.drawing/imagesize/get_heightpoints/
 ---
 ## ImageSize::get_HeightPoints method
@@ -16,12 +16,11 @@ Gets the height of the image in points. 1 point is 1/72 inch.
 double Aspose::Words::Drawing::ImageSize::get_HeightPoints()
 ```
 
-
 ## Examples
 
 
+Shows how to resize a shape with an image.
 
-Shows how to resize a shape with an image. 
 ```cpp
 // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
 // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -59,7 +58,6 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 
 doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```
-
 ## See Also
 
 * Class [ImageSize](../)

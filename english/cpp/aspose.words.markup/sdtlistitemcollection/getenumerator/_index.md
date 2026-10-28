@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Markup::SdtListItem>>> Aspose::Words::Markup::SdtListItemCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,10 +74,8 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
-* Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

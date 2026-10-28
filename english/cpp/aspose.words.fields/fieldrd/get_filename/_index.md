@@ -4,7 +4,7 @@ linktitle: get_FileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRD::get_FileName method. Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.fields/fieldrd/get_filename/
 ---
 ## FieldRD::get_FileName method
@@ -16,12 +16,11 @@ Gets or sets the name of the file to include when generating a table of contents
 System::String Aspose::Words::Fields::FieldRD::get_FileName()
 ```
 
-
 ## Examples
 
 
+Shows to use the RD field to create a table of contents entries from headings in other documents.
 
-Shows to use the RD field to create a table of contents entries from headings in other documents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ referencedDoc->Save(get_ArtifactsDir() + u"ReferencedDocument.docx");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.RD.docx");
 ```
-
 ## See Also
 
 * Class [FieldRD](../)

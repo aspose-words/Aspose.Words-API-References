@@ -4,7 +4,7 @@ linktitle: get_BiLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_BiLevel method. Determines whether an image will be displayed in black and white in C++.'
 type: docs
-weight: 2000
+weight: 40000
 url: /cpp/aspose.words.drawing/imagedata/get_bilevel/
 ---
 ## ImageData::get_BiLevel method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/imagedata/get_bilevel/
 Determines whether an image will be displayed in black and white.
 
 ```cpp
-bool Aspose::Words::Drawing::ImageData::get_BiLevel()
+_Bool Aspose::Words::Drawing::ImageData::get_BiLevel()
 ```
 
 ## Remarks
 
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -81,7 +80,6 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
 * Class [ImageData](../)

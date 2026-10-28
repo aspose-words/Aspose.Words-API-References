@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtc/set_entrylevel/
 Sets the level of the entry.
 
 ```cpp
-void Aspose::Words::Fields::FieldTC::set_EntryLevel(const System::String &value)
+void Aspose::Words::Fields::FieldTC::set_EntryLevel(const System::String & value)
 ```
 
 ## See Also

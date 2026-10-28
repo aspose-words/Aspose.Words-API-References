@@ -16,12 +16,11 @@ Returns array of all tab stops applied to this paragraph, including applied indi
 System::ArrayPtr<System::SharedPtr<Aspose::Words::TabStop>> Aspose::Words::Paragraph::GetEffectiveTabStops()
 ```
 
-
 ## Examples
 
 
+Shows how to set custom tab stops for a paragraph.
 
-Shows how to set custom tab stops for a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -47,10 +46,8 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspo
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.TabStops.docx");
 ```
-
 ## See Also
 
-* Class [TabStop](../../tabstop/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

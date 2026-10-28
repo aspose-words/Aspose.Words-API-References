@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/set_numberseparator/
 Sets the character sequence that is used to separate sequence numbers and page numbers.
 
 ```cpp
-void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String &value)
+void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String & value)
 ```
 
 ## See Also

@@ -7,25 +7,27 @@ type: docs
 weight: 7000
 url: /cpp/aspose.words/watermark/settext/
 ---
-## Watermark::SetText(const System::String\&) method
+## Watermark::SetText(const System::String \&) method
 
 
 Adds Text watermark into the document.
 
 ```cpp
-void Aspose::Words::Watermark::SetText(const System::String &text)
+void Aspose::Words::Watermark::SetText(const System::String & text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | Text that is displayed as a watermark. |
+| text | const System::String \& | Text that is displayed as a watermark. |
+## Remarks
 
+ The text length must be in the range from 1 to 200 inclusive. The text cannot be **null** or contain only whitespaces. 
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -51,32 +53,38 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** -  Throws when the text length is out of range or the text contains only whitespaces.
+* **ArgumentNullException** -  Throws when the text is **null**.
 
 ## See Also
 
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Watermark::SetText(const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
+## Watermark::SetText(const System::String \&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> \&) method
 
 
 Adds Text watermark into the document.
 
 ```cpp
-void Aspose::Words::Watermark::SetText(const System::String &text, const System::SharedPtr<Aspose::Words::TextWatermarkOptions> &options)
+void Aspose::Words::Watermark::SetText(const System::String & text, const System::SharedPtr<Aspose::Words::TextWatermarkOptions> & options)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | Text that is displayed as a watermark. |
-| options | const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\& | Defines additional options for the text watermark. |
+| text | const System::String \& | Text that is displayed as a watermark. |
+| options | const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> \& | Defines additional options for the text watermark. |
+## Remarks
 
+ The text length must be in the range from 1 to 200 inclusive. The text cannot be **null** or contain only whitespaces. If [TextWatermarkOptions](../../textwatermarkoptions/) is **null**, the watermark will be set with default options.
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -102,10 +110,13 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** -  Throws when the text length is out of range or the text contain only whitespaces.
+* **ArgumentNullException** -  Throws when the text is **null**.
 
 ## See Also
 
-* Class [TextWatermarkOptions](../../textwatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

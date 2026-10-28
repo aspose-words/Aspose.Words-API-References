@@ -4,7 +4,7 @@ linktitle: get_FillType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_FillType method. Gets a fill type in C++.'
 type: docs
-weight: 6000
+weight: 51000
 url: /cpp/aspose.words.drawing/fill/get_filltype/
 ---
 ## Fill::get_FillType method
@@ -16,12 +16,11 @@ Gets a fill type.
 Aspose::Words::Drawing::FillType Aspose::Words::Drawing::Fill::get_FillType()
 ```
 
-
 ## Examples
 
 
+Shows how to convert any of the fills back to solid fill.
 
-Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -42,10 +41,8 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
-
 ## See Also
 
-* Enum [FillType](../../filltype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

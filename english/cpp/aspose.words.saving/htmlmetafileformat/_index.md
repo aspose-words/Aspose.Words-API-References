@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/htmlmetafileformat/
 Indicates the format in which metafiles are saved to HTML documents.
 
 ```cpp
-enum class HtmlMetafileFormat
+enum class HtmlMetafileFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| EmfOrWmf | 2 | Metafiles are saved as is, without conversion. |
 | Png | 0 | Metafiles are rendered to raster PNG images. |
 | Svg | 1 | Metafiles are converted to vector SVG images. |
-| EmfOrWmf | 2 | Metafiles are saved as is, without conversion. |
-
 
 ## Examples
 
 
+Shows how to convert SVG objects to a different format when saving HTML documents.
 
-Shows how to convert SVG objects to a different format when saving HTML documents. 
 ```cpp
 System::String html = u"<html>\r\n                    <svg xmlns='http://www.w3.org/2000/svg' width='500' height='40' viewBox='0 0 500 40'>\r\n                        <text x='0' y='35' font-family='Verdana' font-size='35'>Hello world!</text>\r\n                    </svg>\r\n                </html>";
 
@@ -68,7 +67,6 @@ switch (htmlMetafileFormat)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

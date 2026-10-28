@@ -16,12 +16,11 @@ Creates a duplicate of this section.
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::Section::Clone()
 ```
 
-
 ## Examples
 
 
+Shows how to add and remove sections in a document.
 
-Shows how to add and remove sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,10 +43,8 @@ doc->get_Sections()->Add(newSection);
 
 ASSERT_EQ(u"Section 2\x000c" u"Section 2", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Section](../)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

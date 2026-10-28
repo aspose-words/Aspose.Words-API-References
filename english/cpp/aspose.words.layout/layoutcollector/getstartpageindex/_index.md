@@ -13,15 +13,14 @@ url: /cpp/aspose.words.layout/layoutcollector/getstartpageindex/
 Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
 
 ```cpp
-int32_t Aspose::Words::Layout::LayoutCollector::GetStartPageIndex(const System::SharedPtr<Aspose::Words::Node> &node)
+int32_t Aspose::Words::Layout::LayoutCollector::GetStartPageIndex(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
-
 
 ## Examples
 
 
+Shows how to see the the ranges of pages that a node spans.
 
-Shows how to see the the ranges of pages that a node spans. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
@@ -70,10 +69,8 @@ layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType:
 ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
-
 ## See Also
 
-* Class [Node](../../../aspose.words/node/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

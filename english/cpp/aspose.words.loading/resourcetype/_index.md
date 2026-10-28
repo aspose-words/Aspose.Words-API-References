@@ -13,17 +13,17 @@ url: /cpp/aspose.words.loading/resourcetype/
 Type of loaded resource.
 
 ```cpp
-enum class ResourceType
+enum class ResourceType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Image | 0 | Image. |
-| Font | 1 | [Font](../../aspose.words/font/). |
 | CssStyleSheet | 2 | CSS style sheet. |
-| Document | 3 | [Document](../../aspose.words/document/). |
+| Document | 3 | Document. |
+| Font | 1 | Font. |
+| Image | 0 | Image. |
 
 ## See Also
 

@@ -13,24 +13,23 @@ url: /cpp/aspose.words.webextensions/webextensionbindingtype/
 Enumerates available types of binding between a web extension and the data in the document.
 
 ```cpp
-enum class WebExtensionBindingType
+enum class WebExtensionBindingType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Default | 0 | Matrix used by default. |
 | Matrix | 0 | Tabular data without a header row. |
 | Table | 1 | Tabular data with a header row. |
 | Text | 2 | Plain text. |
-| Default | 0 | Matrix used by default. |
-
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -95,7 +94,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

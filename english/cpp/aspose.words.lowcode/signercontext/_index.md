@@ -10,29 +10,32 @@ url: /cpp/aspose.words.lowcode/signercontext/
 ## SignerContext class
 
 
-[Document](../../aspose.words/document/) signer context.
+Document signer context
 
 ```cpp
-class SignerContext : public Aspose::Words::LowCode::ProcessorContext
+class SignerContext : public ProcessorContext
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [get_CertificateHolder](./get_certificateholder/)() const | CertificateHolder object with certificate that used to sign file. |
-| [get_FontSettings](../processorcontext/get_fontsettings/)() const | [Font](../../aspose.words/font/) settings used by the processor. |
-| [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | [Document](../../aspose.words/document/) layout options used by the processor. |
-| [get_SignOptions](./get_signoptions/)() const | SignOptions object with various signing options. |
-| [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | CertificateHolder object with certificate that used to sign file. |
-| [set_FontSettings](../processorcontext/set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | [Font](../../aspose.words/font/) settings used by the processor. |
-| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | SignOptions object with various signing options. |
-| [set_WarningCallback](../processorcontext/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Warning callback used by the processor. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_CertificateHolder](./get_certificateholder/)() const | CertificateHolder object with certificate that used to sign file. |
+| [get_SignOptions](./get_signoptions/)() const | SignOptions object with various signing options. |
+| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | CertificateHolder object with certificate that used to sign file. |
+| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | SignOptions object with various signing options. |
+| [GetType](../processorcontext/gettype/)() const override |  |
+| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
+| [ProcessorContext](../processorcontext/processorcontext/)() |  |
+| static [Type](../processorcontext/type/)() |  |
+| [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
+| [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
+| [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |
+| [set_FontSettings](../processorcontext/set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\> \&) | Font settings used by the processor. |
+| [set_WarningCallback](../processorcontext/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\> \&) | Warning callback used by the processor. |
 ## See Also
 
 * Class [ProcessorContext](../processorcontext/)

@@ -4,7 +4,7 @@ linktitle: get_AnchorLocked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_AnchorLocked method. Specifies whether the shape''s anchor is locked in C++.'
 type: docs
-weight: 5000
+weight: 61060
 url: /cpp/aspose.words.drawing/shapebase/get_anchorlocked/
 ---
 ## ShapeBase::get_AnchorLocked method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_anchorlocked/
 Specifies whether the shape's anchor is locked.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_AnchorLocked()
+_Bool Aspose::Words::Drawing::ShapeBase::get_AnchorLocked()
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ The default value is **false**.
 Has effect only for top level shapes.
 
 This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
-
 ## Examples
 
 
+Shows how to lock or unlock a shape's paragraph anchor.
 
-Shows how to lock or unlock a shape's paragraph anchor. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ shape->set_AnchorLocked(anchorLocked);
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
 doc->Save(get_ArtifactsDir() + u"Shape.AnchorLocked.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

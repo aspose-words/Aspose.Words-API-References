@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::AI::CheckGrammarOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::AI::CheckGrammarOptions::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::VariableCollection class in C++.'
 type: docs
-weight: 5000
+weight: 17445
 url: /cpp/aspose.words/variablecollection/cend/
 ---
 ## VariableCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words/variablecollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::VariableCollection::cend() const noexcept
+const_iterator Aspose::Words::VariableCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

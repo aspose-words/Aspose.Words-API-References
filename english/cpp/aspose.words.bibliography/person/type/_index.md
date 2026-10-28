@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Bibliography::Person class in C++.'
 type: docs
-weight: 1000
+weight: 9334
 url: /cpp/aspose.words.bibliography/person/type/
 ---
 ## Person::Type method

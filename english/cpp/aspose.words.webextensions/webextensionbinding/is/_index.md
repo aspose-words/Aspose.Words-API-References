@@ -13,7 +13,7 @@ url: /cpp/aspose.words.webextensions/webextensionbinding/is/
 
 
 ```cpp
-virtual bool Aspose::Words::WebExtensions::WebExtensionBinding::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::WebExtensions::WebExtensionBinding::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

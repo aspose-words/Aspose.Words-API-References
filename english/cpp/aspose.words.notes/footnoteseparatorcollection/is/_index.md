@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnoteseparatorcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Notes::FootnoteSeparatorCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Notes::FootnoteSeparatorCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

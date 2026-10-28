@@ -4,7 +4,7 @@ linktitle: get_SuppressSpacingAtTopOfPage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_SuppressSpacingAtTopOfPage method. Ignore Minimum Line Height for First Line on Page in C++.'
 type: docs
-weight: 50000
+weight: 75714
 url: /cpp/aspose.words.settings/compatibilityoptions/get_suppressspacingattopofpage/
 ---
 ## CompatibilityOptions::get_SuppressSpacingAtTopOfPage method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_suppressspacingattopofp
 Ignore Minimum Line Height for First Line on Page.
 
 ```cpp
-bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressSpacingAtTopOfPage()
+_Bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressSpacingAtTopOfPage()
 ```
 
 ## See Also

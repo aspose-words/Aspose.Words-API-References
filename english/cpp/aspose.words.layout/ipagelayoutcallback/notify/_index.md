@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/ipagelayoutcallback/notify/
 This is called to notify of layout build and rendering progress.
 
 ```cpp
-virtual void Aspose::Words::Layout::IPageLayoutCallback::Notify(System::SharedPtr<Aspose::Words::Layout::PageLayoutCallbackArgs> args)=0
+virtual void Aspose::Words::Layout::IPageLayoutCallback::Notify(System::SharedPtr<Aspose::Words::Layout::PageLayoutCallbackArgs> args)
 ```
 
 
@@ -22,12 +22,10 @@ virtual void Aspose::Words::Layout::IPageLayoutCallback::Notify(System::SharedPt
 | args | System::SharedPtr\<Aspose::Words::Layout::PageLayoutCallbackArgs\> | An argument of the event. |
 ## Remarks
 
-
-Exception when thrown by implementation aborts layout build process.
+ Exception when thrown by implementation aborts layout build process.
 
 ## See Also
 
-* Class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * Interface [IPageLayoutCallback](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

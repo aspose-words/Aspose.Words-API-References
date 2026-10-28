@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iwarningcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IWarningCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IWarningCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

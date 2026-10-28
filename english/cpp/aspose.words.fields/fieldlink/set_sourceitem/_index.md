@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlink/set_sourceitem/
 Sets the portion of the source file that's being linked.
 
 ```cpp
-void Aspose::Words::Fields::FieldLink::set_SourceItem(const System::String &value)
+void Aspose::Words::Fields::FieldLink::set_SourceItem(const System::String & value)
 ```
 
 ## See Also

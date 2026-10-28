@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartFormat class
 linktitle: ChartFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartFormat class. Represents the formatting of a chart element. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartFormat class. Represents the formatting of a chart element. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartformat/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chartformat/
 ## ChartFormat class
 
 
-Represents the formatting of a chart element. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents the formatting of a chart element. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartFormat : public Aspose::Words::Drawing::Core::IFillable,
@@ -21,21 +22,20 @@ class ChartFormat : public Aspose::Words::Drawing::Core::IFillable,
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [SetDefaultFill](./setdefaultfill/)() | Resets the fill of the chart element to have the default value. |
+| static [Type](./type/)() |  |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the parent chart element. |
 | [get_IsDefined](./get_isdefined/)() | Gets a flag indicating whether any format is defined. |
 | [get_ShapeType](./get_shapetype/)() | Gets or sets the shape type of the parent chart element. |
 | [get_Stroke](./get_stroke/)() | Gets line formatting for the parent chart element. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_ShapeType](./set_shapetype/)(Aspose::Words::Drawing::Charts::ChartShapeType) | Setter for [Aspose::Words::Drawing::Charts::ChartFormat::get_ShapeType](./get_shapetype/). |
-| [SetDefaultFill](./setdefaultfill/)() | Resets the fill of the chart element to have the default value. |
-| static [Type](./type/)() |  |
-
+| [set_ShapeType](./set_shapetype/)(Aspose::Words::Drawing::Charts::ChartShapeType) | Sets the shape type of the parent chart element. |
 ## Examples
 
 
+Shows how to use chart formating.
 
-Shows how to use chart formating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,7 +70,6 @@ chart->get_Legend()->get_Format()->get_Fill()->Solid(System::Drawing::Color::get
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartFormat.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

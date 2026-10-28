@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/set_symbolrotation/
 Rotation of the barcode symbol. Valid values are [0, 3].
 
 ```cpp
-void Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation(const System::String &value)
+void Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation(const System::String & value)
 ```
 
 ## See Also

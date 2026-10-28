@@ -4,7 +4,7 @@ linktitle: get_Hyperlink
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::ThemeColors::get_Hyperlink method. Specifies color for a hyperlink in C++.'
 type: docs
-weight: 11000
+weight: 15787
 url: /cpp/aspose.words.themes/themecolors/get_hyperlink/
 ---
 ## ThemeColors::get_Hyperlink method
@@ -16,12 +16,11 @@ Specifies color for a hyperlink.
 System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Hyperlink()
 ```
 
-
 ## Examples
 
 
+Shows how to set custom colors and fonts for themes.
 
-Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -62,7 +61,6 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
-
 ## See Also
 
 * Class [ThemeColors](../)

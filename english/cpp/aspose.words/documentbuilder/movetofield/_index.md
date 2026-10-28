@@ -13,20 +13,19 @@ url: /cpp/aspose.words/documentbuilder/movetofield/
 Moves the cursor to a field in the document.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::MoveToField(const System::SharedPtr<Aspose::Words::Fields::Field> &field, bool isAfter)
+void Aspose::Words::DocumentBuilder::MoveToField(const System::SharedPtr<Aspose::Words::Fields::Field> & field, bool isAfter)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | const System::SharedPtr\<Aspose::Words::Fields::Field\>\& | The field to move the cursor to. |
+| field | const System::SharedPtr\<Aspose::Words::Fields::Field\> \& | The field to move the cursor to. |
 | isAfter | bool | When **true**, moves the cursor to be after the field end. When **false**, moves the cursor to be before the field start. |
-
 ## Examples
 
 
+Shows how to move a document builder's node insertion point cursor to a specific field.
 
-Shows how to move a document builder's node insertion point cursor to a specific field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,10 +58,8 @@ else
     ASSERT_EQ(u"Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015", doc->GetText().Trim());
 }
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

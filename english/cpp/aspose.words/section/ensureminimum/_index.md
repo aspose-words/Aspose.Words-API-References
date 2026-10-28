@@ -16,12 +16,11 @@ Ensures that the section has [Body](../get_body/) with one [Paragraph](../../par
 void Aspose::Words::Section::EnsureMinimum()
 ```
 
-
 ## Examples
 
 
+Shows how to prepare a new section node for editing.
 
-Shows how to prepare a new section node for editing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,7 +45,6 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild<S
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Section](../)

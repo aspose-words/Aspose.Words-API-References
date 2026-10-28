@@ -24,11 +24,8 @@ Aspose::Words::VisitorAction Aspose::Words::Tables::Cell::AcceptStart(System::Sh
 ### ReturnValue
 
 The action to be taken by the visitor.
-
 ## See Also
 
-* Enum [VisitorAction](../../../aspose.words/visitoraction/)
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

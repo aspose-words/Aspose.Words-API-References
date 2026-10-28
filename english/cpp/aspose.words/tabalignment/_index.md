@@ -13,27 +13,26 @@ url: /cpp/aspose.words/tabalignment/
 Specifies the alignment/type of a tab stop.
 
 ```cpp
-enum class TabAlignment
+enum class TabAlignment : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Left | 0 | Left-aligns the text after the tab stop. |
-| Center | 1 | Centers the text around the tab stop. |
-| Right | 2 | Right-aligns the text at the tab stop. |
-| Decimal | 3 | Aligns the text at the decimal dot. |
 | Bar | 4 | Draws a vertical bar at the tab stop position. |
-| List | 6 | The tab is a delimiter between the number/bullet and text in a list item. |
+| Center | 1 | Centers the text around the tab stop. |
 | Clear | 7 | Clears any tab stop in this position. |
-
+| Decimal | 3 | Aligns the text at the decimal dot. |
+| Left | 0 | Left-aligns the text after the tab stop. |
+| List | 6 | The tab is a delimiter between the number/bullet and text in a list item. |
+| Right | 2 | Right-aligns the text at the tab stop. |
 
 ## Examples
 
 
+Shows how to set custom tab stops for a paragraph.
 
-Shows how to set custom tab stops for a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -59,7 +58,6 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspo
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.TabStops.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

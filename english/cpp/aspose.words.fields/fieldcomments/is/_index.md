@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcomments/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldComments::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldComments::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/openaimodel/translate/
 ## OpenAiModel::Translate method
 
 
-Translates the provided document into the specified target language. This operation leverages the connected [AI](../../) model for content translating.
+Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Translate(System::SharedPtr<Aspose::Words::Document> sourceDocument, Aspose::Words::AI::Language targetLanguage) override
@@ -25,11 +25,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Trans
 ### ReturnValue
 
 A new [Document](../../../aspose.words/document/) object containing the translated document.
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Enum [Language](../../language/)
 * Class [OpenAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -16,12 +16,11 @@ Makes a deep copy of this collection and its items.
 System::SharedPtr<Aspose::Words::Markup::CustomPartCollection> Aspose::Words::Markup::CustomPartCollection::Clone()
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -57,10 +56,8 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomPartCollection](../)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

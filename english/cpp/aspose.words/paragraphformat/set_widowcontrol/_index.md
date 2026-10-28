@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::set_WidowControl method
 linktitle: set_WidowControl
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat::set_WidowControl method. Setter for Aspose::Words::ParagraphFormat::get_WidowControl in C++.'
+description: 'Aspose::Words::ParagraphFormat::set_WidowControl method. True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph in C++.'
 type: docs
 weight: 78000
 url: /cpp/aspose.words/paragraphformat/set_widowcontrol/
@@ -10,12 +10,38 @@ url: /cpp/aspose.words/paragraphformat/set_widowcontrol/
 ## ParagraphFormat::set_WidowControl method
 
 
-Setter for [Aspose::Words::ParagraphFormat::get_WidowControl](../get_widowcontrol/).
+True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
 ```cpp
 void Aspose::Words::ParagraphFormat::set_WidowControl(bool value)
 ```
 
+## Examples
+
+
+Shows how to enable widow/orphan control for a paragraph.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// When we write the text that does not fit onto one page, one line may spill over onto the next page.
+// The single line that ends up on the next page is called an "Orphan",
+// and the previous line where the orphan broke off is called a "Widow".
+// We can fix orphans and widows by rearranging text via font size, spacing, or page margins.
+// If we wish to preserve our document's dimensions, we can set this flag to "true"
+// to push widows onto the same page as their respective orphans.
+// Leave this flag as "false" will leave widow/orphan pairs in text.
+// Every paragraph has this setting accessible in Microsoft Word via Home -> Paragraph -> Paragraph Settings
+// (button on bottom right hand corner of "Paragraph" tab) -> "Widow/Orphan control".
+builder->get_ParagraphFormat()->set_WidowControl(widowControl);
+
+// Insert text that produces an orphan and a widow.
+builder->get_Font()->set_Size(68);
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.WidowControl.docx");
+```
 ## See Also
 
 * Class [ParagraphFormat](../)

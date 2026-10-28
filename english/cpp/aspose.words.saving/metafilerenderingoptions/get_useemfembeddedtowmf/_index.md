@@ -4,7 +4,7 @@ linktitle: get_UseEmfEmbeddedToWmf
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf method. Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered in C++.'
 type: docs
-weight: 7000
+weight: 10800
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions::get_UseEmfEmbeddedToWmf method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/get_useemfembeddedtowmf/
 Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
 
 ```cpp
-bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf() const
+_Bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf() const
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ When this value is set to **false**, Aspose.Words uses WMF data when rendering.
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
 
-The default value is **true**. 
+The default value is **true**.
 ## See Also
 
 * Class [MetafileRenderingOptions](../)

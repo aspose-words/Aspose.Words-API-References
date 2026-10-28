@@ -20,12 +20,11 @@ virtual System::String Aspose::Words::Node::GetText()
 
 
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
-
 ## Examples
 
 
+Shows how to use control characters.
 
-Shows how to use control characters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +42,8 @@ ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + System
 ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -87,7 +86,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Class [Node](../)

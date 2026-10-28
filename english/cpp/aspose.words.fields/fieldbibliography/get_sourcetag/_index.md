@@ -4,7 +4,7 @@ linktitle: get_SourceTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBibliography::get_SourceTag method. Gets a value so that only the sources with matching Tag element value are displayed in the bibliography in C++.'
 type: docs
-weight: 2500
+weight: 4400
 url: /cpp/aspose.words.fields/fieldbibliography/get_sourcetag/
 ---
 ## FieldBibliography::get_SourceTag method

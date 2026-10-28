@@ -13,7 +13,7 @@ url: /cpp/aspose.words.vba/vbamodulecollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Vba::VbaModuleCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Vba::VbaModuleCollection::GetType() const override
 ```
 
 ## See Also

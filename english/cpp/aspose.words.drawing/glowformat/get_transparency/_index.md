@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GlowFormat::get_Transparency method. Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0 in C++.'
 type: docs
-weight: 4000
+weight: 7800
 url: /cpp/aspose.words.drawing/glowformat/get_transparency/
 ---
 ## GlowFormat::get_Transparency method
@@ -16,12 +16,11 @@ Gets or sets the degree of transparency for the glow effect as a value between 0
 double Aspose::Words::Drawing::GlowFormat::get_Transparency()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with glow shape effect.
 
-Shows how to interact with glow shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -45,7 +44,6 @@ ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), shape->get_Glow()->get_C
 ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Radius());
 ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Transparency());
 ```
-
 ## See Also
 
 * Class [GlowFormat](../)

@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PclSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl in C++.'
 type: docs
-weight: 6000
+weight: 8834
 url: /cpp/aspose.words.saving/pclsaveoptions/get_saveformat/
 ---
 ## PclSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::PclSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to rasterize complex elements while saving a document to PCL.
 
-Shows how to rasterize complex elements while saving a document to PCL. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -31,10 +30,8 @@ saveOptions->set_RasterizeTransformedElements(true);
 
 doc->Save(get_ArtifactsDir() + u"PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [PclSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

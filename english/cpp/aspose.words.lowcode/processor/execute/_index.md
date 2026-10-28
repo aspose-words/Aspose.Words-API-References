@@ -30,6 +30,9 @@ Execute the processor action allowing canceling document processing task using s
 void Aspose::Words::LowCode::Processor::Execute(System::Threading::CancellationToken token)
 ```
 
+## Exceptions
+
+* **OperationCanceledException** - Thrown when a cancellation request is detected.
 
 ## See Also
 

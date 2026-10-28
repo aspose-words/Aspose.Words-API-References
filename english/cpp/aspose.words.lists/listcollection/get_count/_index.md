@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListCollection::get_Count method. Gets the count of numbered and bulleted lists in the document in C++.'
 type: docs
-weight: 8000
+weight: 14667
 url: /cpp/aspose.words.lists/listcollection/get_count/
 ---
 ## ListCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the count of numbered and bulleted lists in the document.
 int32_t Aspose::Words::Lists::ListCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to verify owner document properties of lists.
 
-Shows how to verify owner document properties of lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -36,7 +35,6 @@ std::cout << (System::String(u"Is the first document list: ") + (System::ObjectE
 std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
-
 ## See Also
 
 * Class [ListCollection](../)

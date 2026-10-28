@@ -4,13 +4,13 @@ linktitle: get_Match
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::ReplacingArgs::get_Match method. The Match resulting from a single regular expression match during a Replace in C++.'
 type: docs
-weight: 4000
+weight: 9445
 url: /cpp/aspose.words.replacing/replacingargs/get_match/
 ---
 ## ReplacingArgs::get_Match method
 
 
-The **Match** resulting from a single regular expression match during a **Replace**.
+The **Match** resulting from a single regular expression match during a Replace.
 
 ```cpp
 System::SharedPtr<System::Text::RegularExpressions::Match> Aspose::Words::Replacing::ReplacingArgs::get_Match() const
@@ -19,7 +19,7 @@ System::SharedPtr<System::Text::RegularExpressions::Match> Aspose::Words::Replac
 ## Remarks
 
 
-**Match.Index"** gets the zero-based starting position of the match from the start of the find and replace range. 
+ Match.Index" gets the zero-based starting position of the match from the start of the find and replace range.
 ## See Also
 
 * Class [ReplacingArgs](../)

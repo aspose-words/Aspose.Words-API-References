@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator_hol
 
 
 ```cpp
-using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> >
+using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> >
 ```
 
 ## See Also

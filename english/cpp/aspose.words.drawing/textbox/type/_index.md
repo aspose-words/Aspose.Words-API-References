@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Drawing::TextBox class in C++.'
 type: docs
-weight: 1000
+weight: 17072
 url: /cpp/aspose.words.drawing/textbox/type/
 ---
 ## TextBox::Type method

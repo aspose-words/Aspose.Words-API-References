@@ -10,16 +10,26 @@ url: /cpp/aspose.words.fields/field/
 ## Field class
 
 
-Represents a Microsoft Word document field. To learn more, visit the documentation article.
+Represents a Microsoft Word document field. 
+To learn more, visit the documentation article.
 
 ```cpp
-class Field : public virtual System::Object
+class Field : public System::Object
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [GetFieldCode](./getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](./getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| virtual [Remove](./remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| static [Type](./type/)() |  |
+| [Unlink](./unlink/)() | Performs the field unlink. |
+| [Update](./update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](./update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](./get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](./get_end/)() const | Gets the node that represents the field end. |
 | [get_FieldEnd](./get_fieldend/)() const | Gets the node that represents the field end. |
@@ -32,23 +42,14 @@ class Field : public virtual System::Object
 | [get_Separator](./get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](./get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](./get_type/)() const | Gets the Microsoft Word field type. |
-| [GetFieldCode](./getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](./getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| virtual [Remove](./remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](./set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](./get_isdirty/). |
-| [set_IsLocked](./set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](./get_islocked/). |
-| [set_LocaleId](./set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](./get_localeid/). |
-| [set_Result](./set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](./get_result/). |
-| static [Type](./type/)() |  |
-| [Unlink](./unlink/)() | Performs the field unlink. |
-| [Update](./update/)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](./update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [set_IsDirty](./set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsLocked](./set_islocked/)(bool) | Sets whether the field is locked (should not recalculate its result). |
+| [set_LocaleId](./set_localeid/)(int32_t) | Sets the LCID of the field. |
+| [set_Result](./set_result/)(const System::String \&) | Sets text that is between the field separator and field end. |
 ## Remarks
 
 
-A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. [Fields](../) can be nested, contain rich content and span multiple paragraphs or sections in a document. The [Field](./) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
+A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [Field](./) class is a "facade" object that provides properties and methods that allow to work with a field as a single object. 
 
 The [Start](./get_start/), [Separator](./get_separator/) and [End](./get_end/) properties point to the field start, separator and end nodes of the field respectively.
 
@@ -58,13 +59,12 @@ The process of calculating field results is called the field update. Aspose.Word
 
 You can get the plain text version of the field code using the [GetFieldCode()](./getfieldcode/) method. You can get and set the plain text version of the field result using the [Result](./get_result/) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
 
-You do not create instances of the [Field](./) class directly. To create a new field use the [InsertField()](../) method.
-
+You do not create instances of the [Field](./) class directly. To create a new field use the [InsertField()](../../aspose.words/documentbuilder/insertfield/) method.
 ## Examples
 
 
+Shows how to insert a field into a document using a field code.
 
-Shows how to insert a field into a document using a field code. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +77,6 @@ ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 // This overload of the InsertField method automatically updates inserted fields.
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

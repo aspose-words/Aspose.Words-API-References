@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_StyleIdentifier method. Gets or sets the locale independent style identifier of the character style applied to this formatting in C++.'
 type: docs
-weight: 43000
+weight: 59762
 url: /cpp/aspose.words/font/get_styleidentifier/
 ---
 ## Font::get_StyleIdentifier method
@@ -16,12 +16,11 @@ Gets or sets the locale independent style identifier of the character style appl
 Aspose::Words::StyleIdentifier Aspose::Words::Font::get_StyleIdentifier()
 ```
 
-
 ## Examples
 
 
+Shows how to change the style of existing text.
 
-Shows how to change the style of existing text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +51,8 @@ for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(Nod
 
 doc->Save(get_ArtifactsDir() + u"Font.ChangeStyle.docx");
 ```
-
 ## See Also
 
-* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

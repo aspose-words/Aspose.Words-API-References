@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::TxtSaveOptionsBase::set_ForcePageBreaks method
 linktitle: set_ForcePageBreaks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptionsBase::set_ForcePageBreaks method. Setter for Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::set_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export.The default value is false in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/set_forcepagebreaks/
@@ -10,12 +10,50 @@ url: /cpp/aspose.words.saving/txtsaveoptionsbase/set_forcepagebreaks/
 ## TxtSaveOptionsBase::set_ForcePageBreaks method
 
 
-Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks](../get_forcepagebreaks/).
+Allows to specify whether the page breaks should be preserved during export.
+
+The default value is **false**.
 
 ```cpp
 void Aspose::Words::Saving::TxtSaveOptionsBase::set_ForcePageBreaks(bool value)
 ```
 
+## Remarks
+
+ The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page. 
+## Examples
+
+
+Shows how to specify whether to preserve page breaks when exporting a document to plaintext.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Page 1");
+builder->InsertBreak(BreakType::PageBreak);
+builder->Writeln(u"Page 2");
+builder->InsertBreak(BreakType::PageBreak);
+builder->Writeln(u"Page 3");
+
+// Create a "TxtSaveOptions" object, which we can pass to the document's "Save"
+// method to modify how we save the document to plaintext.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
+
+// The Aspose.Words "Document" objects have page breaks, just like Microsoft Word documents.
+// Save formats such as ".txt" are one continuous body of text without page breaks.
+// Set the "ForcePageBreaks" property to "true" to preserve all page breaks in the form of '\f' characters.
+// Set the "ForcePageBreaks" property to "false" to discard all page breaks.
+saveOptions->set_ForcePageBreaks(forcePageBreaks);
+
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt", saveOptions);
+
+// If we load a plaintext document with page breaks,
+// the "Document" object will use them to split the body into pages.
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt"));
+
+ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
+```
 ## See Also
 
 * Class [TxtSaveOptionsBase](../)

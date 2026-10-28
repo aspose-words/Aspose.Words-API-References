@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Framesets::FramesetCollection::get_Count method. Gets the number of frames or frames pages contained in the collection in C++.'
 type: docs
-weight: 7000
+weight: 11750
 url: /cpp/aspose.words.framesets/framesetcollection/get_count/
 ---
 ## FramesetCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of frames or frames pages contained in the collection.
 int32_t Aspose::Words::Framesets::FramesetCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to access frames on-page.
 
-Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
@@ -38,7 +37,6 @@ ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameL
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
-
 ## See Also
 
 * Class [FramesetCollection](../)

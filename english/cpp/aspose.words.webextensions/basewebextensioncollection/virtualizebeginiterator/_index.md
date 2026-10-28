@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::virtualizeBeginIterator method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::virtualizeBeginIterator method
 linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use virtualizeBeginIterator method of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualizebeginiterator/
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualizebegini
 
 
 ```cpp
-virtualized_iterator * Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::virtualizeBeginIterator() override
+virtualized_iterator * Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::virtualizeBeginIterator()
 ```
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

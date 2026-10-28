@@ -4,7 +4,7 @@ linktitle: get_Pages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Pages method. Represents an estimate of the number of pages in the document in C++.'
 type: docs
-weight: 22000
+weight: 36610
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_pages/
 ---
 ## BuiltInDocumentProperties::get_Pages method
@@ -19,7 +19,7 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Pages()
 ## Remarks
 
 
-Aspose.Words updates this property when you call [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/). 
+Aspose.Words updates this property when you call [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/).
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

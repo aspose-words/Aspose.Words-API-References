@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iindexfilter/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::IIndexFilter::GetType() const override
+const System::TypeInfo & Aspose::Words::IIndexFilter::GetType() const override
 ```
 
 ## See Also

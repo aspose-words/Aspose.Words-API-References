@@ -22,12 +22,11 @@ void Aspose::Words::Document::Unprotect()
 This method unprotects the document even if it has a protection password.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
-
 ## Examples
 
 
+Shows how to protect and unprotect a document.
 
-Shows how to protect and unprotect a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"password");
@@ -66,25 +65,24 @@ doc->Unprotect(u"NewPassword");
 
 ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
-
 ## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Unprotect(const System::String\&) method
+## Document::Unprotect(const System::String \&) method
 
 
 Removes protection from the document if a correct password is specified.
 
 ```cpp
-bool Aspose::Words::Document::Unprotect(const System::String &password)
+_Bool Aspose::Words::Document::Unprotect(const System::String & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | const System::String\& | The password to unprotect the document with. |
+| password | const System::String \& | The password to unprotect the document with. |
 
 ### ReturnValue
 
@@ -95,12 +93,11 @@ bool Aspose::Words::Document::Unprotect(const System::String &password)
 This method unprotects the document only if a correct password is specified.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
-
 ## Examples
 
 
+Shows how to protect and unprotect a document.
 
-Shows how to protect and unprotect a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"password");
@@ -139,7 +136,6 @@ doc->Unprotect(u"NewPassword");
 
 ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
-
 ## See Also
 
 * Class [Document](../)

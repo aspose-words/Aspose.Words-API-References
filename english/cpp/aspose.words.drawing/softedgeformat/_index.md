@@ -20,22 +20,21 @@ class SoftEdgeFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Radius](./get_radius/)() | Gets or sets a double value that represents the length of the radius for a soft edge effect in points (pt). The default value is 0.0. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes [SoftEdgeFormat](./) from the parent object. |
-| [set_Radius](./set_radius/)(double) | Setter for [Aspose::Words::Drawing::SoftEdgeFormat::get_Radius](./get_radius/). |
 | static [Type](./type/)() |  |
+| [get_Radius](./get_radius/)() | Gets or sets a double value that represents the length of the radius for a soft edge effect in points (pt). The default value is 0.0. |
+| [set_Radius](./set_radius/)(double) | Sets a double value that represents the length of the radius for a soft edge effect in points (pt). The default value is 0.0. |
 ## Remarks
 
 
 Use the [SoftEdge](../shapebase/get_softedge/) property to access soft edge properties of an object. You do not create instances of the [SoftEdgeFormat](./) class directly.
-
 ## Examples
 
 
+Shows how to work with soft edge formatting.
 
-Shows how to work with soft edge formatting. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(200));
@@ -59,7 +58,6 @@ softEdgeFormat->Remove();
 // Check radius of the removed soft edge.
 ASPOSE_ASSERT_EQ(0, softEdgeFormat->get_Radius());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

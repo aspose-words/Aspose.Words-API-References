@@ -4,7 +4,7 @@ linktitle: get_IsLinkedToPrevious
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooter::get_IsLinkedToPrevious method. True if this header or footer is linked to the corresponding header or footer in the previous section in C++.'
 type: docs
-weight: 6000
+weight: 10572
 url: /cpp/aspose.words/headerfooter/get_islinkedtoprevious/
 ---
 ## HeaderFooter::get_IsLinkedToPrevious method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/headerfooter/get_islinkedtoprevious/
 True if this header or footer is linked to the corresponding header or footer in the previous section.
 
 ```cpp
-bool Aspose::Words::HeaderFooter::get_IsLinkedToPrevious()
+_Bool Aspose::Words::HeaderFooter::get_IsLinkedToPrevious()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::HeaderFooter::get_IsLinkedToPrevious()
 Default is **true**.
 
 Note, when your link a header or footer, its contents is cleared.
-
 ## Examples
 
 
+Shows how to link headers and footers between sections.
 
-Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -94,7 +93,6 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
-
 ## See Also
 
 * Class [HeaderFooter](../)

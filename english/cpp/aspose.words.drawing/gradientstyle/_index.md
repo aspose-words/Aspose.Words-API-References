@@ -13,27 +13,26 @@ url: /cpp/aspose.words.drawing/gradientstyle/
 Specifies the style for a gradient fill.
 
 ```cpp
-enum class GradientStyle
+enum class GradientStyle : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | No gradient. |
-| Horizontal | 1 | Gradient running horizontally across an object. |
-| Vertical | 2 | Gradient running vertically down an object. |
-| DiagonalUp | 3 | Diagonal gradient moving from a bottom corner up to the opposite corner. |
 | DiagonalDown | 4 | Diagonal gradient moving from a top corner down to the opposite corner. |
-| FromCorner | 5 | Gradient running from a corner to the other three corners. |
+| DiagonalUp | 3 | Diagonal gradient moving from a bottom corner up to the opposite corner. |
 | FromCenter | 6 | Gradient running from the center out to the corners. |
-
+| FromCorner | 5 | Gradient running from a corner to the other three corners. |
+| Horizontal | 1 | Gradient running horizontally across an object. |
+| None | -1 | No gradient. |
+| Vertical | 2 | Gradient running vertically down an object. |
 
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

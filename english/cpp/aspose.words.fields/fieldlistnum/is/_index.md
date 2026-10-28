@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlistnum/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldListNum::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldListNum::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

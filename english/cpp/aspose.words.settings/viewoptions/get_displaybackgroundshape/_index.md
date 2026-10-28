@@ -4,7 +4,7 @@ linktitle: get_DisplayBackgroundShape
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape method. Controls display of the background shape in print layout view in C++.'
 type: docs
-weight: 2000
+weight: 9250
 url: /cpp/aspose.words.settings/viewoptions/get_displaybackgroundshape/
 ---
 ## ViewOptions::get_DisplayBackgroundShape method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.settings/viewoptions/get_displaybackgroundshape/
 Controls display of the background shape in print layout view.
 
 ```cpp
-bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
+_Bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
 ```
-
 
 ## Examples
 
 
+Shows how to hide/display document background images in view options.
 
-Shows how to hide/display document background images in view options. 
 ```cpp
 // Use an HTML string to create a new document with a flat background color.
 const System::String html = u"<html>\r\n                <body style='background-color: blue'>\r\n                    <p>Hello world!</p>\r\n                </body>\r\n            </html>";
@@ -39,7 +38,6 @@ doc->get_ViewOptions()->set_DisplayBackgroundShape(displayBackgroundShape);
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.DisplayBackgroundShape.docx");
 ```
-
 ## See Also
 
 * Class [ViewOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Markup::CustomXmlSchemaCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Markup::CustomXmlSchemaCollection::GetType() const override
 ```
 
 ## See Also

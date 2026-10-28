@@ -4,7 +4,7 @@ linktitle: get_LinkedStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_LinkedStyle method. Gets or sets the paragraph style that is linked to this list level in C++.'
 type: docs
-weight: 11000
+weight: 22721
 url: /cpp/aspose.words.lists/listlevel/get_linkedstyle/
 ---
 ## ListLevel::get_LinkedStyle method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::Lists::ListLevel::get_Lin
 
 
 This property is **null** when the list level is not linked to a paragraph style. This property can be set to **null**.
-
 ## Examples
 
 
+Shows advances ways of customizing list labels.
 
-Shows advances ways of customizing list labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,10 +80,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
-
 ## See Also
 
-* Class [Style](../../../aspose.words/style/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

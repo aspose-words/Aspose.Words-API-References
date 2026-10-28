@@ -4,7 +4,7 @@ linktitle: get_ImageSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_ImageSize method. Gets or sets the size of a generated image in pixels in C++.'
 type: docs
-weight: 7500
+weight: 21168
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagesize/
 ---
 ## ImageSaveOptions::get_ImageSize method
@@ -21,13 +21,12 @@ System::Drawing::Size Aspose::Words::Saving::ImageSaveOptions::get_ImageSize() c
 
 This property has effect only when saving to raster image formats.
 
-The default value is (0 x 0), which means that the size of the generated image will be calculated according to the size of the image in points, the specified resolution and scale.
-
+ The default value is (0 x 0), which means that the size of the generated image will be calculated according to the size of the image in points, the specified resolution and scale.
 ## Examples
 
 
+Shows how to render every page of a document to a separate TIFF image.
 
-Shows how to render every page of a document to a separate TIFF image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,7 +54,6 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
     doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
 }
 ```
-
 ## See Also
 
 * Class [ImageSaveOptions](../)

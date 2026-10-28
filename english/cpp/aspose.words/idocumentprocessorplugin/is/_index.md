@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IDocumentProcessorPlugin::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IDocumentProcessorPlugin::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

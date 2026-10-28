@@ -4,7 +4,7 @@ linktitle: get_Last
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::get_Last method. Gets or sets the last name of a person in C++.'
 type: docs
-weight: 5000
+weight: 9668
 url: /cpp/aspose.words.bibliography/person/get_last/
 ---
 ## Person::get_Last method
@@ -16,12 +16,11 @@ Gets or sets the last name of a person.
 System::String Aspose::Words::Bibliography::Person::get_Last() const
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,7 +113,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Class [Person](../)

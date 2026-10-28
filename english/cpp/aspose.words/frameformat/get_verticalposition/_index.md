@@ -4,7 +4,7 @@ linktitle: get_VerticalPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FrameFormat::get_VerticalPosition method. Gets vertical distance between the edge of the frame and the item specified by the RelativeVerticalPosition property in C++.'
 type: docs
-weight: 12000
+weight: 27000
 url: /cpp/aspose.words/frameformat/get_verticalposition/
 ---
 ## FrameFormat::get_VerticalPosition method
@@ -16,12 +16,11 @@ Gets vertical distance between the edge of the frame and the item specified by t
 double Aspose::Words::FrameFormat::get_VerticalPosition()
 ```
 
-
 ## Examples
 
 
+Shows how to get information about formatting properties of paragraphs that are frames.
 
-Shows how to get information about formatting properties of paragraphs that are frames. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraph frame.docx"));
 
@@ -42,7 +41,6 @@ ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition()
 ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
-
 ## See Also
 
 * Class [FrameFormat](../)

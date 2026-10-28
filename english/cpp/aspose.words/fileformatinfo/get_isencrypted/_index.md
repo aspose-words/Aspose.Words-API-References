@@ -4,7 +4,7 @@ linktitle: get_IsEncrypted
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatInfo::get_IsEncrypted method. Returns true if the document is encrypted and requires a password to open in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words/fileformatinfo/get_isencrypted/
 ---
 ## FileFormatInfo::get_IsEncrypted method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words/fileformatinfo/get_isencrypted/
 Returns **true** if the document is encrypted and requires a password to open.
 
 ```cpp
-bool Aspose::Words::FileFormatInfo::get_IsEncrypted() const
+_Bool Aspose::Words::FileFormatInfo::get_IsEncrypted() const
 ```
 
 ## Remarks
 
 
-This property exists to help you sort documents that are encrypted from those that are not. If you attempt to load an encrypted document using Aspose.Words without supplying a password an exception will be thrown. You can use this property to detect whether a document requires a password and take some action before loading a document, for example, prompt the user for a password.
-
+This property exists to help you sort documents that are encrypted from those that are not. If you attempt to load an encrypted document using Aspose.Words without supplying a password an exception will be thrown. You can use this property to detect whether a document requires a password and take some action before loading a document, for example, prompt the user for a password. 
 ## Examples
 
 
+Shows how to use the FileFormatUtil class to detect the document format and encryption.
 
-Shows how to use the [FileFormatUtil](../../fileformatutil/) class to detect the document format and encryption. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,7 +41,6 @@ System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFi
 ASSERT_EQ(u".odt", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
-
 ## See Also
 
 * Class [FileFormatInfo](../)

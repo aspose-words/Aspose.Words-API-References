@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 4000
+weight: 14334
 url: /cpp/aspose.words.markup/sdtlistitemcollection/cbegin/
 ---
 ## SdtListItemCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::SdtListItemCollection::cbegin() const noexcept
+const_iterator Aspose::Words::Markup::SdtListItemCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

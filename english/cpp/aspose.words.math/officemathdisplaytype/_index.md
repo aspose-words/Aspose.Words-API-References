@@ -13,22 +13,21 @@ url: /cpp/aspose.words.math/officemathdisplaytype/
 Specifies the display format type of the equation.
 
 ```cpp
-enum class OfficeMathDisplayType
+enum class OfficeMathDisplayType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Display | 0 | The Office [Math](../) is displayed on its own line. |
-| Inline | 1 | The Office [Math](../) is displayed inline with the text. |
-
+| Display | 0 | The Office Math is displayed on its own line. |
+| Inline | 1 | The Office Math is displayed inline with the text. |
 
 ## Examples
 
 
+Shows how to set office math display formatting.
 
-Shows how to set office math display formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -46,7 +45,6 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 
 doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Math](../)

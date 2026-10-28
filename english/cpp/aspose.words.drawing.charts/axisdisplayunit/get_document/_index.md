@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Document method. Returns the document containing the parent chart in C++.'
 type: docs
-weight: 4000
+weight: 7600
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/get_document/
 ---
 ## AxisDisplayUnit::get_Document method
@@ -16,12 +16,11 @@ Returns the document containing the parent chart.
 System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Document()
 ```
 
-
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,10 +73,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [AxisDisplayUnit](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

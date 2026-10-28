@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bookmark/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Bookmark::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Bookmark::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

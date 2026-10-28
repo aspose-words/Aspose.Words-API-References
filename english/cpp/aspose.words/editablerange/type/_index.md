@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::EditableRange class in C++.'
 type: docs
-weight: 1000
+weight: 9143
 url: /cpp/aspose.words/editablerange/type/
 ---
 ## EditableRange::Type method

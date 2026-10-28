@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/txtexportheadersfootersmode/
 Specifies the way headers and footers are exported to plain text format.
 
 ```cpp
-enum class TxtExportHeadersFootersMode
+enum class TxtExportHeadersFootersMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| AllAtEnd | 2 | All headers and footers are placed after all section bodies at the very end of a document. |
 | None | 0 | No headers and footers are exported. |
 | PrimaryOnly | 1 | Only primary headers and footers are exported at the beginning and end of each section. |
-| AllAtEnd | 2 | All headers and footers are placed after all section bodies at the very end of a document. |
-
 
 ## Examples
 
 
+Shows how to specify how to export headers and footers to plain text format.
 
-Shows how to specify how to export headers and footers to plain text format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -82,7 +81,6 @@ switch (txtExportHeadersFootersMode)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

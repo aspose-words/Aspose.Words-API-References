@@ -13,27 +13,26 @@ url: /cpp/aspose.words.lists/listtrailingcharacter/
 Specifies the character that separates the list label from the text of the paragraph.
 
 ```cpp
-enum class ListTrailingCharacter
+enum class ListTrailingCharacter : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Tab | 0 | A tab character is placed between the list label and text of the paragraph. |
-| Space | 1 | A space character is placed between the list label and text of the paragraph. |
 | Nothing | 2 | There is no separator character between the list label and text of the paragraph. |
+| Space | 1 | A space character is placed between the list label and text of the paragraph. |
+| Tab | 0 | A tab character is placed between the list label and text of the paragraph. |
 
 ## Remarks
 
 
 Used as a value for the [TrailingCharacter](../listlevel/get_trailingcharacter/) property.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,7 +84,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

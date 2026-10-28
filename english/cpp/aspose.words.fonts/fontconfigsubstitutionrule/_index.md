@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontConfigSubstitutionRule class
 linktitle: FontConfigSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontConfigSubstitutionRule class. Font config substitution rule. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fonts::FontConfigSubstitutionRule class. Font config substitution rule. To learn more, visit the Working with Fonts documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -10,40 +10,44 @@ url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/
 ## FontConfigSubstitutionRule class
 
 
-[Font](../../aspose.words/font/) config substitution rule. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
+Font config substitution rule. 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
-class FontConfigSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
+class FontConfigSubstitutionRule : public FontSubstitutionRule
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [IsFontConfigAvailable](./isfontconfigavailable/)() | Check if fontconfig utility is available or not. |
 | [ResetCache](./resetcache/)() | Resets the cache of fontconfig calling results. |
-| [set_Enabled](./set_enabled/)(bool) override | Specifies whether the rule is enabled or not. |
 | static [Type](./type/)() |  |
+| [set_Enabled](./set_enabled/)(bool) override | Specifies whether the rule is enabled or not. |
+| [GetType](../fontsubstitutionrule/gettype/)() const override |  |
+| [Is](../fontsubstitutionrule/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../fontsubstitutionrule/type/)() |  |
+| virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
+| virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Specifies whether the rule is enabled or not. |
 ## Remarks
 
 
-This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution if the original font is not available.
+ This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution if the original font is not available. 
 
-If fontconfig utility is not available then this rule will be ignored.
-
+ If fontconfig utility is not available then this rule will be ignored. 
 ## Examples
 
 
+Shows operating system-dependent font config substitution.
 
-Shows operating system-dependent font config substitution. 
 ```cpp
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
 System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> fontConfigSubstitution = fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution();
 
-bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S,
+bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S, 
     System::PlatformID::Win32Windows, System::PlatformID::WinCE})->LINQ_Any(static_cast<System::Func<System::PlatformID, bool>>(static_cast<std::function<bool(System::PlatformID p)>>([](System::PlatformID p) -> bool
 {
     return System::Environment::get_OSVersion().get_Platform() == p;
@@ -71,7 +75,6 @@ if (isLinuxOrMac)
     fontConfigSubstitution->ResetCache();
 }
 ```
-
 ## See Also
 
 * Class [FontSubstitutionRule](../fontsubstitutionrule/)

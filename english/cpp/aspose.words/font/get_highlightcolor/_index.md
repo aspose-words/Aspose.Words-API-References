@@ -4,7 +4,7 @@ linktitle: get_HighlightColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_HighlightColor method. Gets or sets the highlight (marker) color in C++.'
 type: docs
-weight: 17000
+weight: 59288
 url: /cpp/aspose.words/font/get_highlightcolor/
 ---
 ## Font::get_HighlightColor method
@@ -16,12 +16,11 @@ Gets or sets the highlight (marker) color.
 System::Drawing::Color Aspose::Words::Font::get_HighlightColor()
 ```
 
-
 ## Examples
 
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -34,7 +33,6 @@ font->set_HighlightColor(System::Drawing::Color::get_Yellow());
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

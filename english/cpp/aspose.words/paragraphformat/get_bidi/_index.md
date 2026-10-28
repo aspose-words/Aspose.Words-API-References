@@ -4,7 +4,7 @@ linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_Bidi method. Gets or sets whether this is a right-to-left paragraph in C++.'
 type: docs
-weight: 6000
+weight: 44138
 url: /cpp/aspose.words/paragraphformat/get_bidi/
 ---
 ## ParagraphFormat::get_Bidi method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words/paragraphformat/get_bidi/
 Gets or sets whether this is a right-to-left paragraph.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_Bidi()
+_Bool Aspose::Words::ParagraphFormat::get_Bidi()
 ```
 
 ## Remarks
 
 
 When **true**, the runs and other inline objects in this paragraph are laid out right to left.
-
 ## Examples
 
 
+Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 
-Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,8 +54,8 @@ for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNo
 doc->Save(get_ArtifactsDir() + u"Field.BIDIOUTLINE.docx");
 ```
 
+Shows how to detect plaintext document text direction.
 
-Shows how to detect plaintext document text direction. 
 ```cpp
 // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
 // to modify how we load a plaintext document.
@@ -77,7 +76,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English text.t
 
 ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Bidi());
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Vba::VbaProject> Aspose::Words::Vba::VbaProject
 ### ReturnValue
 
 The cloned [VbaProject](../).
-
 ## Examples
 
 
+Shows how to deep clone a VBA project and module.
 
-Shows how to deep clone a VBA project and module. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 auto destDoc = System::MakeObject<Aspose::Words::Document>();
@@ -42,10 +41,8 @@ destDoc->get_VbaProject()->get_Modules()->Add(copyVbaModule);
 
 destDoc->Save(get_ArtifactsDir() + u"VbaProject.CloneVbaProject.docm");
 ```
-
 ## See Also
 
-* Class [VbaProject](../)
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

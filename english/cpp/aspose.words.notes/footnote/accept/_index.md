@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnote/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Notes::Footnote::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Notes::Footnote::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,9 @@ True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
+ Calls DocumentVisitor.VisitFootnoteStart, then calls Accept for all child nodes of the footnote and calls DocumentVisitor.VisitFootnoteEnd at the end. 
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

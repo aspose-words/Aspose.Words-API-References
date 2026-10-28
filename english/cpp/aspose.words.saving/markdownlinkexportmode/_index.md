@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownlinkexportmode/
 Specifies how links are exported into Markdown.
 
 ```cpp
-enum class MarkdownLinkExportMode
+enum class MarkdownLinkExportMode : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class MarkdownLinkExportMode
 | Inline | 1 | Export all links as inline blocks. |
 | Reference | 2 | Export all links as reference blocks. |
 
-
 ## Examples
 
 
+Shows how to links will be written to the .md file.
 
-Shows how to links will be written to the .md file. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Reference.md
 saveOptions->set_LinkExportMode(MarkdownLinkExportMode::Inline);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

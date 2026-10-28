@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/loadoptions/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-bool Aspose::Words::Loading::LoadOptions::Equals(System::SharedPtr<System::Object> obj) override
+_Bool Aspose::Words::Loading::LoadOptions::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

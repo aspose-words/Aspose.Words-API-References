@@ -4,7 +4,7 @@ linktitle: get_NewValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldInfo::get_NewValue method. Gets or sets an optional value that updates the property in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.fields/fieldinfo/get_newvalue/
 ---
 ## FieldInfo::get_NewValue method
@@ -16,12 +16,11 @@ Gets or sets an optional value that updates the property.
 System::String Aspose::Words::Fields::FieldInfo::get_NewValue()
 ```
 
-
 ## Examples
 
 
+Shows how to work with INFO fields.
 
-Shows how to work with INFO fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_EQ(u"New comment", doc->get_BuiltInDocumentProperties()->get_Comments());
 
 doc->Save(get_ArtifactsDir() + u"Field.INFO.docx");
 ```
-
 ## See Also
 
 * Class [FieldInfo](../)

@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/remove/
 Removes the specified value from the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlSchemaCollection::Remove(const System::String &name)
+void Aspose::Words::Markup::CustomXmlSchemaCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-sensitive value to remove. |
-
+| name | const System::String \& | The case-sensitive value to remove. |
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -66,7 +65,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

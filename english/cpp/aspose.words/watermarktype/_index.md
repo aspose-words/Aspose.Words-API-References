@@ -13,23 +13,24 @@ url: /cpp/aspose.words/watermarktype/
 Specifies the watermark type.
 
 ```cpp
-enum class WatermarkType
+enum class WatermarkType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Text | 0 | Indicates that the text will be used as a watermark. Such a watermark corresponds to a WordArt object. |
-| Image | 1 | Indicates that the image will be used as a watermark. Such a watermark corresponds to a shape with image. |
+| Image | 1 | Indicates that the image will be used as a watermark. 
+Such a watermark corresponds to a shape with image. |
 | None | 2 | Indicates watermark is no set. |
-
+| Text | 0 | Indicates that the text will be used as a watermark. 
+Such a watermark corresponds to a WordArt object. |
 
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -55,7 +56,6 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

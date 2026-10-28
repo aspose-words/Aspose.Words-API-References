@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::get_Count method. Returns the number of ChartLegendEntry in this collection in C++.'
 type: docs
-weight: 2000
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/get_count/
 ---
 ## ChartLegendEntryCollection::get_Count method

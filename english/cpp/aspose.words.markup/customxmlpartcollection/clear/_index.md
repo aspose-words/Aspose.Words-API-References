@@ -16,12 +16,11 @@ Removes all elements from the collection.
 void Aspose::Words::Markup::CustomXmlPartCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -81,7 +80,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Class [CustomXmlPartCollection](../)

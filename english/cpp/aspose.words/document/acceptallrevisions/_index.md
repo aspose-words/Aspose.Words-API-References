@@ -16,12 +16,14 @@ Accepts all tracked changes in the document.
 void Aspose::Words::Document::AcceptAllRevisions()
 ```
 
+## Remarks
 
+This method is a shortcut for [AcceptAll](../../revisioncollection/acceptall/).
 ## Examples
 
 
+Shows how to accept all tracking changes in the document.
 
-Shows how to accept all tracking changes in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,7 +44,6 @@ doc->AcceptAllRevisions();
 ASSERT_EQ(0, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"Hello world! Hello again! This is another revision.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Document](../)

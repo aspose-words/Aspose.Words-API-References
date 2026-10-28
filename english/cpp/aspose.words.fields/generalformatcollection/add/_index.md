@@ -20,12 +20,11 @@ void Aspose::Words::Fields::GeneralFormatCollection::Add(Aspose::Words::Fields::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | Aspose::Words::Fields::GeneralFormat | A general format. |
-
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,10 +85,8 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
-* Enum [GeneralFormat](../../generalformat/)
 * Class [GeneralFormatCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

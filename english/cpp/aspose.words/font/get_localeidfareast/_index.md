@@ -4,7 +4,7 @@ linktitle: get_LocaleIdFarEast
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_LocaleIdFarEast method. Gets or sets the locale identifier (language) of the formatted Asian characters in C++.'
 type: docs
-weight: 24000
+weight: 59414
 url: /cpp/aspose.words/font/get_localeidfareast/
 ---
 ## Font::get_LocaleIdFarEast method
@@ -16,12 +16,14 @@ Gets or sets the locale identifier (language) of the formatted Asian characters.
 int32_t Aspose::Words::Font::get_LocaleIdFarEast()
 ```
 
+## Remarks
 
+ For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx 
 ## Examples
 
 
+Shows how to insert and format text in a Far East language.
 
-Shows how to insert and format text in a Far East language. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,7 +47,6 @@ builder->Writeln(u"你好世界");
 
 doc->Save(get_ArtifactsDir() + u"Font.FarEast.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.math/officemath/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Math::OfficeMath::GetType() const override
+const System::TypeInfo & Aspose::Words::Math::OfficeMath::GetType() const override
 ```
 
 ## See Also

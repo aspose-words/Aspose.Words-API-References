@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XpsSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Xps in C++.'
 type: docs
-weight: 4000
+weight: 7188
 url: /cpp/aspose.words.saving/xpssaveoptions/get_saveformat/
 ---
 ## XpsSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::XpsSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
-Shows how to limit the headings' level that will appear in the outline of a saved XPS document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,10 +56,8 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

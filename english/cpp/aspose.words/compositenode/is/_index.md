@@ -13,7 +13,7 @@ url: /cpp/aspose.words/compositenode/is/
 
 
 ```cpp
-virtual bool Aspose::Words::CompositeNode::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::CompositeNode::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

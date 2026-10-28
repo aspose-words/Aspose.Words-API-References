@@ -13,19 +13,18 @@ url: /cpp/aspose.words.properties/documentpropertycollection/remove/
 Removes a property with the specified name from the collection.
 
 ```cpp
-void Aspose::Words::Properties::DocumentPropertyCollection::Remove(const System::String &name)
+void Aspose::Words::Properties::DocumentPropertyCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the property. |
-
+| name | const System::String \& | The case-insensitive name of the property. |
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -80,7 +79,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [DocumentPropertyCollection](../)

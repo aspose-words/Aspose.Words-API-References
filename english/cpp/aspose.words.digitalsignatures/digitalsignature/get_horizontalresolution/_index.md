@@ -4,7 +4,7 @@ linktitle: get_HorizontalResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_HorizontalResolution method. Gets the horizontal resolution for the digital signature in C++.'
 type: docs
-weight: 3500
+weight: 17000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_horizontalresolution/
 ---
 ## DigitalSignature::get_HorizontalResolution method

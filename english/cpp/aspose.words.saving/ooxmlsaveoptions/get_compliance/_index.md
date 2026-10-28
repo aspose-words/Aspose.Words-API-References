@@ -4,7 +4,7 @@ linktitle: get_Compliance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance method. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C++.'
 type: docs
-weight: 3000
+weight: 9300
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_compliance/
 ---
 ## OoxmlSaveOptions::get_Compliance method
@@ -16,12 +16,11 @@ Specifies the OOXML version for the output document. The default value is [Ecma3
 Aspose::Words::Saving::OoxmlCompliance Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance()
 ```
 
-
 ## Examples
 
 
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,8 +47,8 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
+Shows how to configure a list to restart numbering at each section.
 
-Shows how to configure a list to restart numbering at each section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -79,8 +78,8 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
 ```
 
+Shows how to insert DML shapes into a document.
 
-Shows how to insert DML shapes into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -100,10 +99,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
-
 ## See Also
 
-* Enum [OoxmlCompliance](../../ooxmlcompliance/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

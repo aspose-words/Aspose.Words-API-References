@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/certificateholder/is/
 
 
 ```cpp
-virtual bool Aspose::Words::DigitalSignatures::CertificateHolder::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::DigitalSignatures::CertificateHolder::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

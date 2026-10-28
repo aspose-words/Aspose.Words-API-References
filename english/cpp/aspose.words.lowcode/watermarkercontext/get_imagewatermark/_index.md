@@ -4,7 +4,7 @@ linktitle: get_ImageWatermark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::WatermarkerContext::get_ImageWatermark method. Image bytes to be used as a watermark in C++.'
 type: docs
-weight: 3000
+weight: 8429
 url: /cpp/aspose.words.lowcode/watermarkercontext/get_imagewatermark/
 ---
 ## WatermarkerContext::get_ImageWatermark method
@@ -16,6 +16,9 @@ Image bytes to be used as a watermark.
 const System::ArrayPtr<uint8_t> & Aspose::Words::LowCode::WatermarkerContext::get_ImageWatermark() const
 ```
 
+## Remarks
+
+ If both [ImageWatermark](./) and [TextWatermark](../get_textwatermark/) are specified, text watermark overrides image watermark. 
 ## See Also
 
 * Class [WatermarkerContext](../)

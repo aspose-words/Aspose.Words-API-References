@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay method
 linktitle: set_Overlay
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay method. Setter for Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay method. Determines whether other chart elements shall be allowed to overlap legend. Default value is false in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartlegend/set_overlay/
@@ -10,12 +10,38 @@ url: /cpp/aspose.words.drawing.charts/chartlegend/set_overlay/
 ## ChartLegend::set_Overlay method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay](../get_overlay/).
+Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay(bool value)
 ```
 
+## Examples
+
+
+Shows how to edit the appearance of a chart's legend.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Line, static_cast<double>(450), static_cast<double>(300));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+
+ASSERT_EQ(3, chart->get_Series()->get_Count());
+ASSERT_EQ(u"Series 1", chart->get_Series()->idx_get(0)->get_Name());
+ASSERT_EQ(u"Series 2", chart->get_Series()->idx_get(1)->get_Name());
+ASSERT_EQ(u"Series 3", chart->get_Series()->idx_get(2)->get_Name());
+
+// Move the chart's legend to the top right corner.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegend> legend = chart->get_Legend();
+legend->set_Position(LegendPosition::TopRight);
+
+// Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+legend->set_Overlay(true);
+
+doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
+```
 ## See Also
 
 * Class [ChartLegend](../)

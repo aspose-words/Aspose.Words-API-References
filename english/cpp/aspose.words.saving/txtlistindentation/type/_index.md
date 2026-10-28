@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::TxtListIndentation class in C++.'
 type: docs
-weight: 1000
+weight: 6400
 url: /cpp/aspose.words.saving/txtlistindentation/type/
 ---
 ## TxtListIndentation::Type method

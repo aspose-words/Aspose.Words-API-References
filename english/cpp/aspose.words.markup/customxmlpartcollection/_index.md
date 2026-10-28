@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlPartCollection class
 linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlPartCollection class. Represents a collection of Custom XML Parts. The items are CustomXmlPart objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::CustomXmlPartCollection class. Represents a collection of Custom XML Parts. The items are CustomXmlPart objects. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.markup/customxmlpartcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/
 ## CustomXmlPartCollection class
 
 
-Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../customxmlpart/) objects. 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlPart>>
@@ -20,26 +21,26 @@ class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\&) | Adds an item to the collection. |
-| [Add](./add/)(const System::String\&, const System::String\&) | Creates a new XML part with the specified XML and adds it to the collection. |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \&) | Adds an item to the collection. |
+| [Add](./add/)(const System::String \&, const System::String \&) | Creates a new XML part with the specified XML and adds it to the collection. |
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [Clone](./clone/)() | Makes a deep copy of this collection and its items. |
 | [CustomXmlPartCollection](./customxmlpartcollection/)() |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
-| [GetById](./getbyid/)(const System::String\&) | Finds and returns a custom XML part by its identifier. |
+| [GetById](./getbyid/)(const System::String \&) | Finds and returns a custom XML part by its identifier. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
-| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\&) | Gets or sets an item at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
 | static [Type](./type/)() |  |
+| [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() const |  |
+| [end](./end/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
+| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \&) | Gets or sets an item at the specified index. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -57,12 +58,11 @@ class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable
 
 
 You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [CustomXmlParts](../../aspose.words/document/get_customxmlparts/) property.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -122,7 +122,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

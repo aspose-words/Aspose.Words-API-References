@@ -4,7 +4,7 @@ linktitle: get_ApplicationVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_ApplicationVersion method. Gets the application version for the digital signature in C++.'
 type: docs
-weight: 1500
+weight: 13000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_applicationversion/
 ---
 ## DigitalSignature::get_ApplicationVersion method

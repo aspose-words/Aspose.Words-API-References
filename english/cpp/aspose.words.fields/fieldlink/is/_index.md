@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlink/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldLink::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldLink::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

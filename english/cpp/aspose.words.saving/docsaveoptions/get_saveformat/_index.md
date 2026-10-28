@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Doc or Dot in C++.'
 type: docs
-weight: 5000
+weight: 9625
 url: /cpp/aspose.words.saving/docsaveoptions/get_saveformat/
 ---
 ## DocSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::DocSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to set save options for older Microsoft Word formats.
 
-Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

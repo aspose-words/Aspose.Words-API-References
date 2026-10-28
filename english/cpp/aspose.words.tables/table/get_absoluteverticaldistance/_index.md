@@ -4,7 +4,7 @@ linktitle: get_AbsoluteVerticalDistance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_AbsoluteVerticalDistance method. Gets or sets absolute vertical floating table position specified by the table properties, in points. Default value is 0 in C++.'
 type: docs
-weight: 10000
+weight: 74000
 url: /cpp/aspose.words.tables/table/get_absoluteverticaldistance/
 ---
 ## Table::get_AbsoluteVerticalDistance method
@@ -16,12 +16,11 @@ Gets or sets absolute vertical floating table position specified by the table pr
 double Aspose::Words::Tables::Table::get_AbsoluteVerticalDistance()
 ```
 
-
 ## Examples
 
 
+Shows how set the location of floating tables.
 
-Shows how set the location of floating tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ table->set_AbsoluteHorizontalDistance(100);
 
 doc->Save(get_ArtifactsDir() + u"Table.ChangeFloatingTableProperties.docx");
 ```
-
 ## See Also
 
 * Class [Table](../)

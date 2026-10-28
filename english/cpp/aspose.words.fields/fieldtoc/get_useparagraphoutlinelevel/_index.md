@@ -4,7 +4,7 @@ linktitle: get_UseParagraphOutlineLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::get_UseParagraphOutlineLevel method. Gets whether to use the applied paragraph outline level in C++.'
 type: docs
-weight: 20000
+weight: 55000
 url: /cpp/aspose.words.fields/fieldtoc/get_useparagraphoutlinelevel/
 ---
 ## FieldToc::get_UseParagraphOutlineLevel method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_useparagraphoutlinelevel/
 Gets whether to use the applied paragraph outline level.
 
 ```cpp
-bool Aspose::Words::Fields::FieldToc::get_UseParagraphOutlineLevel()
+_Bool Aspose::Words::Fields::FieldToc::get_UseParagraphOutlineLevel()
 ```
 
 ## See Also

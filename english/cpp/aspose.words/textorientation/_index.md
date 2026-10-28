@@ -13,26 +13,25 @@ url: /cpp/aspose.words/textorientation/
 Specifies orientation of text on a page, in a table cell or a text frame.
 
 ```cpp
-enum class TextOrientation
+enum class TextOrientation : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Horizontal | 0 | Text is arranged horizontally (lr-tb). |
 | Downward | 1 | Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl). |
-| Upward | 3 | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
+| Horizontal | 0 | Text is arranged horizontally (lr-tb). |
 | HorizontalRotatedFarEast | 4 | Text is arranged horizontally, but Far East characters are rotated 90 degrees to the left (lr-tb-v). |
+| Upward | 3 | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
 | VerticalFarEast | 5 | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v). |
 | VerticalRotatedFarEast | 7 | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v). |
-
 
 ## Examples
 
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +70,6 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

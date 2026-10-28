@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 9000
+weight: 17667
 url: /cpp/aspose.words.markup/customxmlschemacollection/get_count/
 ---
 ## CustomXmlSchemaCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,7 +61,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

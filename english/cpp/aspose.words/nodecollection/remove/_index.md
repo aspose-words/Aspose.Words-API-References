@@ -13,19 +13,18 @@ url: /cpp/aspose.words/nodecollection/remove/
 Removes the node from the collection and from the document.
 
 ```cpp
-void Aspose::Words::NodeCollection::Remove(const System::SharedPtr<Aspose::Words::Node> &node)
+void Aspose::Words::NodeCollection::Remove(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to remove. |
-
+| node | const System::SharedPtr\<Aspose::Words::Node\> \& | The node to remove. |
 ## Examples
 
 
+Shows how to work with a NodeCollection.
 
-Shows how to work with a [NodeCollection](../). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ ASSERT_EQ(u"Run 1. Run 3.", doc->GetText().Trim());
 ASSERT_FALSE(System::TestTools::IsNull(run));
 ASSERT_FALSE(runs->Contains(run));
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_MultilevelValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValue::get_MultilevelValue method. Gets the stored multilevel value in C++.'
 type: docs
-weight: 10000
+weight: 20000
 url: /cpp/aspose.words.drawing.charts/chartxvalue/get_multilevelvalue/
 ---
 ## ChartXValue::get_MultilevelValue method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue> Aspose::
 
 ## See Also
 
-* Class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * Class [ChartXValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

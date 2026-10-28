@@ -4,7 +4,7 @@ linktitle: get_AttachedTemplate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_AttachedTemplate method. Gets or sets the full path of the template attached to the document in C++.'
 type: docs
-weight: 13000
+weight: 102000
 url: /cpp/aspose.words/document/get_attachedtemplate/
 ---
 ## Document::get_AttachedTemplate method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Document::get_AttachedTemplate()
 
 
 Empty string means the document is attached to the Normal template.
-
 ## Examples
 
 
+Shows how to set a default template for documents that do not have attached templates.
 
-Shows how to set a default template for documents that do not have attached templates. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,6 +41,9 @@ options->set_DefaultTemplate(get_MyDir() + u"Business brochure.dotx");
 
 doc->Save(get_ArtifactsDir() + u"Document.DefaultTemplate.docx", options);
 ```
+## Exceptions
+
+* **ArgumentNullException** - Throws if you attempt to set to a **null** value.
 
 ## See Also
 

@@ -19,7 +19,7 @@ void Aspose::Words::BookmarkEnd::set_Name(System::String value) override
 ## Remarks
 
 
-Cannot be **null**. 
+Cannot be **null**.
 ## See Also
 
 * Class [BookmarkEnd](../)

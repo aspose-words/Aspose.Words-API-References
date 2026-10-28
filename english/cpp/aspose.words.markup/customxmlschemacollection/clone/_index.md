@@ -16,12 +16,11 @@ Makes a deep clone of this object.
 System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> Aspose::Words::Markup::CustomXmlSchemaCollection::Clone()
 ```
 
-
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,10 +61,8 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomXmlSchemaCollection](../)
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

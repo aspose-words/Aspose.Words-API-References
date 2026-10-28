@@ -13,19 +13,18 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/remove/
 Removes the specified value from the collection.
 
 ```cpp
-void Aspose::Words::Fields::DropDownItemCollection::Remove(const System::String &name)
+void Aspose::Words::Fields::DropDownItemCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-sensitive value to remove. |
-
+| name | const System::String \& | The case-sensitive value to remove. |
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,7 +75,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

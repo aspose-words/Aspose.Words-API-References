@@ -4,7 +4,7 @@ linktitle: TextWatermarkOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use TextWatermarkOptions constructor of Aspose::Words::TextWatermarkOptions class in C++.'
 type: docs
-weight: 2000
+weight: 9125
 url: /cpp/aspose.words/textwatermarkoptions/textwatermarkoptions/
 ---
 ## TextWatermarkOptions::TextWatermarkOptions constructor

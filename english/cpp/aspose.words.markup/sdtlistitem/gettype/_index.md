@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtlistitem/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Markup::SdtListItem::GetType() const override
+const System::TypeInfo & Aspose::Words::Markup::SdtListItem::GetType() const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/viewoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Settings::ViewOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Settings::ViewOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.framesets/framesetcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Framesets::FramesetCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Framesets::FramesetCollection::GetType() const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/shading/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Shading::GetType() const override
+const System::TypeInfo & Aspose::Words::Shading::GetType() const override
 ```
 
 ## See Also

@@ -13,23 +13,22 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturetype/
 Specifies the type of a digital signature.
 
 ```cpp
-enum class DigitalSignatureType
+enum class DigitalSignatureType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unknown | 0 | Indicates an error, unknown digital signature type. |
 | CryptoApi | 1 | The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents. |
+| Unknown | 0 | Indicates an error, unknown digital signature type. |
 | XmlDsig | 2 | The XmlDsig signature method used in OOXML and OpenDocument documents. |
-
 
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -66,7 +65,6 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

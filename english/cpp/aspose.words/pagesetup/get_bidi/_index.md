@@ -4,7 +4,7 @@ linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_Bidi method. Specifies that this section contains bidirectional (complex scripts) text in C++.'
 type: docs
-weight: 3000
+weight: 49044
 url: /cpp/aspose.words/pagesetup/get_bidi/
 ---
 ## PageSetup::get_Bidi method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words/pagesetup/get_bidi/
 Specifies that this section contains bidirectional (complex scripts) text.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_Bidi()
+_Bool Aspose::Words::PageSetup::get_Bidi()
 ```
 
 ## Remarks
 
 
 When **true**, the columns in this section are laid out from right to left.
-
 ## Examples
 
 
+Shows how to set the order of text columns in a section.
 
-Shows how to set the order of text columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,7 +46,6 @@ pageSetup->set_Bidi(reverseColumns);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Bidi.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::LowCode::WatermarkerContext class in C++.'
 type: docs
-weight: 1000
+weight: 8143
 url: /cpp/aspose.words.lowcode/watermarkercontext/type/
 ---
 ## WatermarkerContext::Type method

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/revisionoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Layout::RevisionOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Layout::RevisionOptions::GetType() const override
 ```
 
 ## See Also

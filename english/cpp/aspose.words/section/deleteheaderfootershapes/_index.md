@@ -16,12 +16,11 @@ Deletes all shapes (drawing objects) from the headers and footers of this sectio
 void Aspose::Words::Section::DeleteHeaderFooterShapes()
 ```
 
-
 ## Examples
 
 
+Shows how to remove all shapes from all headers footers in a section.
 
-Shows how to remove all shapes from all headers footers in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ doc->get_FirstSection()->DeleteHeaderFooterShapes();
 ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
 ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
-
 ## See Also
 
 * Class [Section](../)

@@ -13,13 +13,13 @@ url: /cpp/aspose.words/documentbuilder/startbookmark/
 Marks the current position in the document as a bookmark start.
 
 ```cpp
-System::SharedPtr<Aspose::Words::BookmarkStart> Aspose::Words::DocumentBuilder::StartBookmark(const System::String &bookmarkName)
+System::SharedPtr<Aspose::Words::BookmarkStart> Aspose::Words::DocumentBuilder::StartBookmark(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | Name of the bookmark. |
+| bookmarkName | const System::String \& | Name of the bookmark. |
 
 ### ReturnValue
 
@@ -27,15 +27,14 @@ The bookmark start node that was just created.
 ## Remarks
 
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [StartBookmark()](../) and [EndBookmark()](../) with the same *bookmarkName* parameter.
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [StartBookmark()](./) and [EndBookmark()](../endbookmark/) with the same bookmarkName parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
-
 ## Examples
 
 
+Shows how create a bookmark.
 
-Shows how create a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,8 +50,8 @@ ASSERT_EQ(u"MyBookmark", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name
 ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Text().Trim());
 ```
 
+Shows how to insert a hyperlink which references a local bookmark.
 
-Shows how to insert a hyperlink which references a local bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,10 +70,8 @@ hyperlink->set_ScreenTip(u"Hyperlink Tip");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
-
 ## See Also
 
-* Class [BookmarkStart](../../bookmarkstart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

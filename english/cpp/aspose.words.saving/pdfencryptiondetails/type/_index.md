@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::PdfEncryptionDetails class in C++.'
 type: docs
-weight: 1000
+weight: 7334
 url: /cpp/aspose.words.saving/pdfencryptiondetails/type/
 ---
 ## PdfEncryptionDetails::Type method

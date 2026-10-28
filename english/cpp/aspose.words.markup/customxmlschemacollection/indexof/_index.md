@@ -13,23 +13,22 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/indexof/
 Returns the zero-based index of the specified value in the collection.
 
 ```cpp
-int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf(const System::String &value)
+int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf(const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String\& | The case-sensitive value to locate. |
+| value | const System::String \& | The case-sensitive value to locate. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
-
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -70,7 +69,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

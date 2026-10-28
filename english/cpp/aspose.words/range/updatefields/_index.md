@@ -28,12 +28,11 @@ This method does not update all field types. For the detailed list of supported 
 This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [UpdatePageLayout](../../document/updatepagelayout/).
 
 To update fields in the whole document use [UpdateFields](../../document/updatefields/).
-
 ## Examples
 
 
+Shows how to update all the fields in a range.
 
-Shows how to update all the fields in a range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,7 +54,6 @@ doc->get_FirstSection()->get_Range()->UpdateFields();
 ASSERT_EQ(u"MyCategory", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
 ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 ```
-
 ## See Also
 
 * Class [Range](../)

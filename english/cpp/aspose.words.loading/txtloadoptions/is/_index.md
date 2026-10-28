@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/txtloadoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::TxtLoadOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::TxtLoadOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

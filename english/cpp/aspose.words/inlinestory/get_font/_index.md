@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_Font method. Provides access to the font formatting of the anchor character of this object in C++.'
 type: docs
-weight: 4000
+weight: 18000
 url: /cpp/aspose.words/inlinestory/get_font/
 ---
 ## InlineStory::get_Font method
@@ -16,12 +16,11 @@ Provides access to the font formatting of the anchor character of this object.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::InlineStory::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to insert InlineStory nodes.
 
-Shows how to insert [InlineStory](../) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../font/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

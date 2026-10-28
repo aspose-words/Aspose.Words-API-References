@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

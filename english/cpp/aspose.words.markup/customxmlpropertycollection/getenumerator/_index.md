@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>> Aspose::Words::Markup::CustomXmlPropertyCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -71,10 +70,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomXmlProperty](../../customxmlproperty/)
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

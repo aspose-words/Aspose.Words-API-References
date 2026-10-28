@@ -13,7 +13,7 @@ url: /cpp/aspose.words/numspacing/
 Specifies possible values in which numeral spacing can be displayed.
 
 ```cpp
-enum class NumSpacing
+enum class NumSpacing : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class NumSpacing
 | Proportional | 1 | Specifies that the forms of the numerals designed as proportionally spaced are displayed if supported by the font. |
 | Tabular | 2 | Specifies that the forms of the numerals designed as tabular are displayed if supported by the font. |
 
-
 ## Examples
 
 
+Shows how to set the spacing type of the numeral.
 
-Shows how to set the spacing type of the numeral. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ if (run->get_Font()->get_NumberSpacing() == NumSpacing::Default)
 
 doc->Save(get_ArtifactsDir() + u"Fonts.NumberSpacing.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

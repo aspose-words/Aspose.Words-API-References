@@ -4,7 +4,7 @@ linktitle: get_XScale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_XScale method. Determines whether a straight textpath will be used instead of the shape path in C++.'
 type: docs
-weight: 21000
+weight: 23955
 url: /cpp/aspose.words.drawing/textpath/get_xscale/
 ---
 ## TextPath::get_XScale method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_xscale/
 Determines whether a straight textpath will be used instead of the shape path.
 
 ```cpp
-bool Aspose::Words::Drawing::TextPath::get_XScale()
+_Bool Aspose::Words::Drawing::TextPath::get_XScale()
 ```
 
 ## Remarks
@@ -21,7 +21,7 @@ bool Aspose::Words::Drawing::TextPath::get_XScale()
 
 The default value is **false**.
 
-If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape. 
+If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 ## See Also
 
 * Class [TextPath](../)

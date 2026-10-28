@@ -4,7 +4,7 @@ linktitle: get_PresetTexture
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_PresetTexture method. Gets a PresetTexture for the fill in C++.'
 type: docs
-weight: 18000
+weight: 62000
 url: /cpp/aspose.words.drawing/fill/get_presettexture/
 ---
 ## Fill::get_PresetTexture method
@@ -16,12 +16,11 @@ Gets a [PresetTexture](../../presettexture/) for the fill.
 Aspose::Words::Drawing::PresetTexture Aspose::Words::Drawing::Fill::get_PresetTexture()
 ```
 
-
 ## Examples
 
 
+Shows how to fill and tiling the texture inside the shape.
 
-Shows how to fill and tiling the texture inside the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,10 +44,8 @@ shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeTy
 ASSERT_EQ(TextureAlignment::TopRight, shape->get_Fill()->get_TextureAlignment());
 ASSERT_EQ(PresetTexture::Canvas, shape->get_Fill()->get_PresetTexture());
 ```
-
 ## See Also
 
-* Enum [PresetTexture](../../presettexture/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,12 +13,11 @@ url: /cpp/aspose.words.vba/vbareferencecollection/remove/
 Removes the first occurrence of a specified [VbaReference](../../vbareference/) item from the collection.
 
 ```cpp
-void Aspose::Words::Vba::VbaReferenceCollection::Remove(const System::SharedPtr<Aspose::Words::Vba::VbaReference> &item)
+void Aspose::Words::Vba::VbaReferenceCollection::Remove(const System::SharedPtr<Aspose::Words::Vba::VbaReference> & item)
 ```
 
 ## See Also
 
-* Class [VbaReference](../../vbareference/)
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

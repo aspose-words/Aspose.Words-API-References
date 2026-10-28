@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::SdtListItem class
 linktitle: SdtListItem
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::SdtListItem class. This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::SdtListItem class. This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words.markup/sdtlistitem/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/sdtlistitem/
 ## SdtListItem class
 
 
-This element specifies a single list item within a parent [ComboBox](../sdttype/) or [DropDownList](../sdttype/) structured document tag. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+This element specifies a single list item within a parent [ComboBox](../sdttype/) or [DropDownList](../sdttype/) structured document tag. 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class SdtListItem : public System::Object
@@ -20,19 +21,18 @@ class SdtListItem : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [SdtListItem](./sdtlistitem/)(const System::String \&) | Initializes a new instance of this class. |
+| [SdtListItem](./sdtlistitem/)(const System::String \&, const System::String \&) | Initializes a new instance of this class. |
+| static [Type](./type/)() |  |
 | [get_DisplayText](./get_displaytext/)() const | Gets the text to display in the run content in place of the [Value](./get_value/) attribute contents for this list item. |
 | [get_Value](./get_value/)() const | Gets the value of this list item. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [SdtListItem](./sdtlistitem/)(const System::String\&, const System::String\&) | Initializes a new instance of this class. |
-| [SdtListItem](./sdtlistitem/)(const System::String\&) | Initializes a new instance of this class. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -86,7 +86,6 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

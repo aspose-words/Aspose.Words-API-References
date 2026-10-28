@@ -16,12 +16,11 @@ Resets the fill of the chart element to have the default value.
 void Aspose::Words::Drawing::Charts::ChartFormat::SetDefaultFill()
 ```
 
-
 ## Examples
 
 
+Shows how to reset the fill to the default value defined in the series.
 
-Shows how to reset the fill to the default value defined in the series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DataPoint format.docx"));
 
@@ -35,7 +34,6 @@ dataPoint->get_Format()->SetDefaultFill();
 
 doc->Save(get_ArtifactsDir() + u"Charts.ResetDataPointFill.docx");
 ```
-
 ## See Also
 
 * Class [ChartFormat](../)

@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OdtSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott in C++.'
 type: docs
-weight: 6000
+weight: 8438
 url: /cpp/aspose.words.saving/odtsaveoptions/get_saveformat/
 ---
 ## OdtSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::OdtSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 
-Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

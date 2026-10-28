@@ -4,24 +4,23 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::VariableCollection::idx_set method. Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string in C++.'
 type: docs
-weight: 13000
+weight: 17889
 url: /cpp/aspose.words/variablecollection/idx_set/
 ---
-## VariableCollection::idx_set(const System::String\&, const System::String\&) method
+## VariableCollection::idx_set(const System::String \&, const System::String \&) method
 
 
 Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string.
 
 ```cpp
-void Aspose::Words::VariableCollection::idx_set(const System::String &name, const System::String &value)
+void Aspose::Words::VariableCollection::idx_set(const System::String & name, const System::String & value)
 ```
-
 
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -91,31 +90,30 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## VariableCollection::idx_set(int32_t, const System::String\&) method
+## VariableCollection::idx_set(int32_t, const System::String \&) method
 
 
 Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string.
 
 ```cpp
-void Aspose::Words::VariableCollection::idx_set(int32_t index, const System::String &value)
+void Aspose::Words::VariableCollection::idx_set(int32_t index, const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the document variable. |
-
+| value | const System::String \& | The value to set. |
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -185,7 +183,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

@@ -2,20 +2,23 @@
 title: Aspose::Words::Saving::SaveOptions::get_MemoryOptimization method
 linktitle: get_MemoryOptimization
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::SaveOptions::get_MemoryOptimization method. Gets value determining if memory optimization should be performed before saving the document. Default value for this property is false in C++.'
+description: 'Aspose::Words::Saving::SaveOptions::get_MemoryOptimization method. Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is false in C++.'
 type: docs
-weight: 11000
+weight: 24440
 url: /cpp/aspose.words.saving/saveoptions/get_memoryoptimization/
 ---
 ## SaveOptions::get_MemoryOptimization method
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**.
+Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::SaveOptions::get_MemoryOptimization() const
+_Bool Aspose::Words::Saving::SaveOptions::get_MemoryOptimization() const
 ```
 
+## Remarks
+
+ Setting this option to **true** can significantly decrease memory consumption while saving large documents at the cost of slower saving time. 
 ## See Also
 
 * Class [SaveOptions](../)

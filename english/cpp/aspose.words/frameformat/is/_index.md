@@ -13,7 +13,7 @@ url: /cpp/aspose.words/frameformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::FrameFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::FrameFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

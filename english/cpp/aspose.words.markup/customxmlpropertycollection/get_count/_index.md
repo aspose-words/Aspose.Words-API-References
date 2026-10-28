@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 5000
+weight: 14000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/get_count/
 ---
 ## CustomXmlPropertyCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomXmlPropertyCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -71,7 +70,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlPropertyCollection](../)

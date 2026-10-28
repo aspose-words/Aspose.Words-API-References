@@ -4,7 +4,7 @@ linktitle: get_BuiltInTemplatesPaths
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths method. Gets or sets paths of MS Word built-in templates in C++.'
 type: docs
-weight: 3000
+weight: 24168
 url: /cpp/aspose.words.fields/fieldoptions/get_builtintemplatespaths/
 ---
 ## FieldOptions::get_BuiltInTemplatesPaths method
@@ -21,13 +21,12 @@ System::ArrayPtr<System::String> Aspose::Words::Fields::FieldOptions::get_BuiltI
 
 This property is used by the [FieldAutoText](../../fieldautotext/) and [FieldGlossary](../../fieldglossary/) fields, if referenced auto text entry is not found in the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) template.
 
-By default MS Word stores built-in templates in c:\Users\<username>\AppData\Roaming\**Microsoft**\[Document](../../../aspose.words/document/) Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\<username>\AppData\Roaming\**Microsoft**\Templates\Normal.dotm files.
-
+By default MS Word stores built-in templates in c:\Users\<username>\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\<username>\AppData\Roaming\Microsoft\Templates\Normal.dotm files.
 ## Examples
 
 
+Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 
-Shows how to display a building block with AUTOTEXT and GLOSSARY fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ ASSERT_EQ(u" GLOSSARY  MyBlock", fieldGlossary->GetFieldCode());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

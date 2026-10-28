@@ -4,7 +4,7 @@ linktitle: get_Bold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_Bold method. True if the font is formatted as bold in C++.'
 type: docs
-weight: 2000
+weight: 23092
 url: /cpp/aspose.words.drawing/textpath/get_bold/
 ---
 ## TextPath::get_Bold method
@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/get_bold/
 True if the font is formatted as bold.
 
 ```cpp
-bool Aspose::Words::Drawing::TextPath::get_Bold()
+_Bool Aspose::Words::Drawing::TextPath::get_Bold()
 ```
 
 ## Remarks
 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [TextPath](../)

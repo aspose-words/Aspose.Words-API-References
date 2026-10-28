@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Markup::SdtListItemCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Markup::SdtListItemCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

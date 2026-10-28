@@ -20,12 +20,11 @@ void Aspose::Words::Markup::CustomXmlPartCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero based index. |
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,7 +84,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Class [CustomXmlPartCollection](../)

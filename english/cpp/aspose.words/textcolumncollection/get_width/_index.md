@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_Width method. When columns are evenly spaced, gets the width of the columns in C++.'
 type: docs
-weight: 6000
+weight: 19000
 url: /cpp/aspose.words/textcolumncollection/get_width/
 ---
 ## TextColumnCollection::get_Width method
@@ -20,12 +20,11 @@ double Aspose::Words::TextColumnCollection::get_Width()
 
 
 Has effect only when [EvenlySpaced](../get_evenlyspaced/) is set to **true**.
-
 ## Examples
 
 
+Shows how to create multiple evenly spaced columns in a section.
 
-Shows how to create multiple evenly spaced columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +39,6 @@ builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

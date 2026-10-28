@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmacrobutton/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldMacroButton::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldMacroButton::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

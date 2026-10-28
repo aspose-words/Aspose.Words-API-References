@@ -4,7 +4,7 @@ linktitle: get_IsLinkOnly
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_IsLinkOnly method. Returns true if the image is linked and not stored in the document in C++.'
 type: docs
-weight: 17000
+weight: 55000
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
 ## ImageData::get_IsLinkOnly method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 Returns **true** if the image is linked and not stored in the document.
 
 ```cpp
-bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
+_Bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 ```
-
 
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -77,7 +76,6 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
 * Class [ImageData](../)

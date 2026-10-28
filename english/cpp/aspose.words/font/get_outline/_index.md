@@ -4,7 +4,7 @@ linktitle: get_Outline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Outline method. True if the font is formatted as outline in C++.'
 type: docs
-weight: 31000
+weight: 59558
 url: /cpp/aspose.words/font/get_outline/
 ---
 ## Font::get_Outline method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/font/get_outline/
 True if the font is formatted as outline.
 
 ```cpp
-bool Aspose::Words::Font::get_Outline()
+_Bool Aspose::Words::Font::get_Outline()
 ```
-
 
 ## Examples
 
 
+Shows how to create a run of text formatted as outline.
 
-Shows how to create a run of text formatted as outline. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,6 @@ builder->Writeln(u"This text has an outline.");
 
 doc->Save(get_ArtifactsDir() + u"Font.Outline.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

@@ -4,7 +4,7 @@ linktitle: get_Data
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPart::get_Data method. Contains the data of this custom part in C++.'
 type: docs
-weight: 5000
+weight: 10429
 url: /cpp/aspose.words.markup/custompart/get_data/
 ---
 ## CustomPart::get_Data method
@@ -22,12 +22,11 @@ System::ArrayPtr<uint8_t> Aspose::Words::Markup::CustomPart::get_Data() const
 This property is applicable only when [IsExternal](../get_isexternal/) is **false**.
 
 The default value is an empty byte array. The value cannot be **null**.
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -63,7 +62,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomPart](../)

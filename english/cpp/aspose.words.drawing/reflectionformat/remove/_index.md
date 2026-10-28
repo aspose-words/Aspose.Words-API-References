@@ -16,12 +16,11 @@ Removes [ReflectionFormat](../) from the parent object.
 void Aspose::Words::Drawing::ReflectionFormat::Remove()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -50,7 +49,6 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
 * Class [ReflectionFormat](../)

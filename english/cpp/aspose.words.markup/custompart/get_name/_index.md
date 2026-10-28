@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPart::get_Name method. Gets or sets this part''s absolute name within the OOXML package or the target URL in C++.'
 type: docs
-weight: 7000
+weight: 10715
 url: /cpp/aspose.words.markup/custompart/get_name/
 ---
 ## CustomPart::get_Name method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Markup::CustomPart::get_Name() const
 If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
 
 The default value is an empty string. A valid value must be a non-empty string.
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -63,7 +62,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomPart](../)

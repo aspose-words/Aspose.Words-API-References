@@ -4,24 +4,23 @@ linktitle: get_Comments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_Comments method. Specifies comments on the digital signature. Default value is empty string in C++.'
 type: docs
-weight: 3000
+weight: 10100
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_comments/
 ---
 ## SignOptions::get_Comments method
 
 
-Specifies comments on the digital signature. Default value is **empty string**.
+Specifies comments on the digital signature. Default value is empty string.
 
 ```cpp
 System::String Aspose::Words::DigitalSignatures::SignOptions::get_Comments() const
 ```
 
-
 ## Examples
 
 
+Shows how to digitally sign documents.
 
-Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -41,7 +40,6 @@ signOptions->set_SignTime(System::DateTime::get_Now());
     }
 }
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

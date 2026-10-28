@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::GeneralFormatCollection class in C++.'
 type: docs
-weight: 1000
+weight: 10000
 url: /cpp/aspose.words.fields/generalformatcollection/type/
 ---
 ## GeneralFormatCollection::Type method

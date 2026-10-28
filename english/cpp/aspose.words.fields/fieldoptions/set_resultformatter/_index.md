@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/fieldoptions/set_resultformatter/
 Allows to control how the field result is formatted.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_ResultFormatter(const System::SharedPtr<Aspose::Words::Fields::IFieldResultFormatter> &value)
+void Aspose::Words::Fields::FieldOptions::set_ResultFormatter(const System::SharedPtr<Aspose::Words::Fields::IFieldResultFormatter> & value)
 ```
 
 ## See Also
 
-* Interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

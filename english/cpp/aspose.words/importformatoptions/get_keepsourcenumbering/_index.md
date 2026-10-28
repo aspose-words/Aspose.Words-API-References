@@ -4,7 +4,7 @@ linktitle: get_KeepSourceNumbering
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImportFormatOptions::get_KeepSourceNumbering method. Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is false in C++.'
 type: docs
-weight: 7000
+weight: 11637
 url: /cpp/aspose.words/importformatoptions/get_keepsourcenumbering/
 ---
 ## ImportFormatOptions::get_KeepSourceNumbering method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/importformatoptions/get_keepsourcenumbering/
 Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::ImportFormatOptions::get_KeepSourceNumbering() const
+_Bool Aspose::Words::ImportFormatOptions::get_KeepSourceNumbering() const
 ```
-
 
 ## Examples
 
 
+Shows how to import a document with numbered lists.
 
-Shows how to import a document with numbered lists. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List source.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List destination.docx"));
@@ -42,8 +41,8 @@ dstDoc->UpdateListLabels();
 ASSERT_EQ(isKeepSourceNumbering ? 5 : 4, dstDoc->get_Lists()->get_Count());
 ```
 
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
 
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - source.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - destination.docx"));
@@ -57,8 +56,8 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles, importFor
 dstDoc->UpdateListLabels();
 ```
 
+Shows how to resolve list numbering clashes in source and destination documents.
 
-Shows how to resolve list numbering clashes in source and destination documents. 
 ```cpp
 // Open a document with a custom list numbering scheme, and then clone it.
 // Since both have the same numbering format, the formats will clash if we import one document into the other.
@@ -93,7 +92,6 @@ else
     ASSERT_EQ(System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"10. Item 1\r\n" + u"11. Item 2 \r\n" + u"12. Item 3\r\n" + u"13. Item 4", dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim());
 }
 ```
-
 ## See Also
 
 * Class [ImportFormatOptions](../)

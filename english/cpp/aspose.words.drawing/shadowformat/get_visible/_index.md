@@ -4,7 +4,7 @@ linktitle: get_Visible
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Visible method. Returns true if the formatting applied to this instance is visible in C++.'
 type: docs
-weight: 4000
+weight: 6279
 url: /cpp/aspose.words.drawing/shadowformat/get_visible/
 ---
 ## ShadowFormat::get_Visible method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing/shadowformat/get_visible/
 Returns **true** if the formatting applied to this instance is visible.
 
 ```cpp
-bool Aspose::Words::Drawing::ShadowFormat::get_Visible()
+_Bool Aspose::Words::Drawing::ShadowFormat::get_Visible()
 ```
 
+## Remarks
 
+ Unlike [Clear](../clear/), assigning **false** to Visible does not clear the formatting, it only hides the shape effect. 
 ## Examples
 
 
+Shows how to work with a shadow formatting for the shape.
 
-Shows how to work with a shadow formatting for the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -36,7 +38,6 @@ if (shape->get_ShadowFormat()->get_Type() == ShadowType::ShadowMixed)
     shape->get_ShadowFormat()->Clear();
 }
 ```
-
 ## See Also
 
 * Class [ShadowFormat](../)

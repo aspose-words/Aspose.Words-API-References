@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/splitoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::SplitOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::SplitOptions::GetType() const override
 ```
 
 ## See Also

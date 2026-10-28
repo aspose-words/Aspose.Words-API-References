@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/comparercontext/set_author/
 The author to be assigned to revisions created during document comparison.
 
 ```cpp
-void Aspose::Words::LowCode::ComparerContext::set_Author(const System::String &value)
+void Aspose::Words::LowCode::ComparerContext::set_Author(const System::String & value)
 ```
 
 ## See Also

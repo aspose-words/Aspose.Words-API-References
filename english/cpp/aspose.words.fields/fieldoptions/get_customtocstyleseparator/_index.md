@@ -2,20 +2,23 @@
 title: Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator method
 linktitle: get_CustomTocStyleSeparator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator method. Gets custom style separator for the \t switch in FieldToc field in C++.'
+description: 'Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator method. Gets or sets custom style separator for the \t switch in FieldToc field in C++.'
 type: docs
-weight: 6000
+weight: 24294
 url: /cpp/aspose.words.fields/fieldoptions/get_customtocstyleseparator/
 ---
 ## FieldOptions::get_CustomTocStyleSeparator method
 
 
-Gets custom style separator for the \t switch in [FieldToc](../../fieldtoc/) field.
+Gets or sets custom style separator for the \t switch in [FieldToc](../../fieldtoc/) field.
 
 ```cpp
 System::String Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator() const
 ```
 
+## Remarks
+
+ By default, custom styles defined by the \t switch in the [FieldToc](../../fieldtoc/) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter. 
 ## See Also
 
 * Class [FieldOptions](../)

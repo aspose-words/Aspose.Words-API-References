@@ -4,7 +4,7 @@ linktitle: get_Timeout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Timeout method. Gets or sets a time-out value for accessing timestamp server. The default value is 100 seconds in C++.'
 type: docs
-weight: 5000
+weight: 7000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/get_timeout/
 ---
 ## DigitalSignatureTimestampSettings::get_Timeout method
@@ -16,12 +16,11 @@ Gets or sets a time-out value for accessing timestamp server. The default value 
 System::TimeSpan Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Timeout() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
 
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -47,7 +46,6 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 
 ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
 ```
-
 ## See Also
 
 * Class [DigitalSignatureTimestampSettings](../)

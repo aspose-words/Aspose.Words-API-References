@@ -4,7 +4,7 @@ linktitle: get_FontSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_FontSettings method. Gets or sets document font settings in C++.'
 type: docs
-weight: 25000
+weight: 115000
 url: /cpp/aspose.words/document/get_fontsettings/
 ---
 ## Document::get_FontSettings method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Document::g
 This property allows to specify font settings per document. If set to **null**, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
 
 The default value is **null**.
-
 ## Examples
 
 
+Shows how set font substitution rules.
 
-Shows how set font substitution rules. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,10 +74,8 @@ ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Fu
 // The output document will display the text that uses the "Amethysta" font formatted with "Courier New".
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitution.pdf");
 ```
-
 ## See Also
 
-* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

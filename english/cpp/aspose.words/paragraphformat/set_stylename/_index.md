@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::set_StyleName method
 linktitle: set_StyleName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat::set_StyleName method. Setter for Aspose::Words::ParagraphFormat::get_StyleName in C++.'
+description: 'Aspose::Words::ParagraphFormat::set_StyleName method. Sets the name of the paragraph style applied to this formatting in C++.'
 type: docs
 weight: 75000
 url: /cpp/aspose.words/paragraphformat/set_stylename/
@@ -10,12 +10,59 @@ url: /cpp/aspose.words/paragraphformat/set_stylename/
 ## ParagraphFormat::set_StyleName method
 
 
-Setter for [Aspose::Words::ParagraphFormat::get_StyleName](../get_stylename/).
+Sets the name of the paragraph style applied to this formatting.
 
 ```cpp
-void Aspose::Words::ParagraphFormat::set_StyleName(const System::String &value)
+void Aspose::Words::ParagraphFormat::set_StyleName(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to construct an Aspose.Words document by hand.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// A blank document contains one section, one body and one paragraph.
+// Call the "RemoveAllChildren" method to remove all those nodes,
+// and end up with a document node with no children.
+doc->RemoveAllChildren();
+
+// This document now has no composite child nodes that we can add content to.
+// If we wish to edit it, we will need to repopulate its node collection.
+// First, create a new section, and then append it as a child to the root document node.
+auto section = System::MakeObject<Aspose::Words::Section>(doc);
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
+
+// Set some page setup properties for the section.
+section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
+
+// A section needs a body, which will contain and display all its contents
+// on the page between the section's header and footer.
+auto body = System::MakeObject<Aspose::Words::Body>(doc);
+section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
+
+// Create a paragraph, set some formatting properties, and then append it as a child to the body.
+auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
+
+para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
+para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+
+body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
+
+// Finally, add some content to do the document. Create a run,
+// set its appearance and contents, and then append it as a child to the paragraph.
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
+run->set_Text(u"Hello World!");
+run->get_Font()->set_Color(System::Drawing::Color::get_Red());
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
+
+ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+
+doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
+```
 ## See Also
 
 * Class [ParagraphFormat](../)

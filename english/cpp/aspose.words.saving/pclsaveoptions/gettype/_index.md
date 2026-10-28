@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pclsaveoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::PclSaveOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::PclSaveOptions::GetType() const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielddatabaseprovider/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::IFieldDatabaseProvider::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::IFieldDatabaseProvider::GetType() const override
 ```
 
 ## See Also

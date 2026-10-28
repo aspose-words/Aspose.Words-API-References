@@ -16,8 +16,12 @@ Sets a value indicating whether the unused "mustache" tags should be preserved.
 void Aspose::Words::MailMerging::MailMerge::set_PreserveUnusedTags(bool value)
 ```
 
+## Remarks
 
+ The default value is **false**. 
 ## See Also
+
+* [UseNonMergeFields](../get_usenonmergefields/)
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)

@@ -4,7 +4,7 @@ linktitle: get_SdtType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_SdtType method. Gets type of this structured document tag in C++.'
 type: docs
-weight: 17000
+weight: 27360
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_sdttype/
 ---
 ## StructuredDocumentTagRangeStart::get_SdtType method
@@ -16,17 +16,17 @@ Gets type of this structured document tag.
 Aspose::Words::Markup::SdtType Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_SdtType() override
 ```
 
-
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,10 +47,8 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
-
 ## See Also
 
-* Enum [SdtType](../../sdttype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

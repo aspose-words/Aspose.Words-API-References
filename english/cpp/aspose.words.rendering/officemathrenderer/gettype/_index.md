@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/officemathrenderer/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Rendering::OfficeMathRenderer::GetType() const override
+const System::TypeInfo & Aspose::Words::Rendering::OfficeMathRenderer::GetType() const override
 ```
 
 ## See Also

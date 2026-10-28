@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/set_username/
 Timestamp server user name.
 
 ```cpp
-void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_UserName(const System::String &value)
+void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_UserName(const System::String & value)
 ```
 
+## Remarks
+
+ The default value is **null**. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

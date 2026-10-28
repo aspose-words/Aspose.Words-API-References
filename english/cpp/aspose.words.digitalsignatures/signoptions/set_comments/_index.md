@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::SignOptions::set_Comments method
 linktitle: set_Comments
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::SignOptions::set_Comments method. Setter for Aspose::Words::DigitalSignatures::SignOptions::get_Comments in C++.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::set_Comments method. Specifies comments on the digital signature. Default value is empty string in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_comments/
@@ -10,12 +10,36 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/set_comments/
 ## SignOptions::set_Comments method
 
 
-Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_Comments](../get_comments/).
+Specifies comments on the digital signature. Default value is empty string.
 
 ```cpp
-void Aspose::Words::DigitalSignatures::SignOptions::set_Comments(const System::String &value)
+void Aspose::Words::DigitalSignatures::SignOptions::set_Comments(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to digitally sign documents.
+
+```cpp
+// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+
+// Create a comment and date which will be applied with our new digital signature.
+auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
+signOptions->set_Comments(u"My comment");
+signOptions->set_SignTime(System::DateTime::get_Now());
+
+// Take an unsigned document from the local file system via a file stream,
+// then create a signed copy of it determined by the filename of the output file stream.
+{
+    System::SharedPtr<System::IO::Stream> streamIn = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Document.docx", System::IO::FileMode::Open);
+    {
+        System::SharedPtr<System::IO::Stream> streamOut = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"DigitalSignatureUtil.SignDocument.docx", System::IO::FileMode::OpenOrCreate);
+        DigitalSignatureUtil::Sign(streamIn, streamOut, certificateHolder, signOptions);
+    }
+}
+```
 ## See Also
 
 * Class [SignOptions](../)

@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_imagesavingcallback/
 Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 
 ```cpp
-void Aspose::Words::Saving::HtmlSaveOptions::set_ImageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> &value)
+void Aspose::Words::Saving::HtmlSaveOptions::set_ImageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

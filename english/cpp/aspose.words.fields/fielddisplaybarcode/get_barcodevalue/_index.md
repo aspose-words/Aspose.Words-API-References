@@ -4,7 +4,7 @@ linktitle: get_BarcodeValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeValue method. Gets or sets the barcode value in C++.'
 type: docs
-weight: 5000
+weight: 16335
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_barcodevalue/
 ---
 ## FieldDisplayBarcode::get_BarcodeValue method
@@ -16,12 +16,11 @@ Gets or sets the barcode value.
 System::String Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeValue()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a DISPLAYBARCODE field, and set its properties.
 
-Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 
 doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDisplayBarcode](../)

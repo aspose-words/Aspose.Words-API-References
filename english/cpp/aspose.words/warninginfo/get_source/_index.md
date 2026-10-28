@@ -4,7 +4,7 @@ linktitle: get_Source
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WarningInfo::get_Source method. Returns the source of the warning in C++.'
 type: docs
-weight: 3000
+weight: 9000
 url: /cpp/aspose.words/warninginfo/get_source/
 ---
 ## WarningInfo::get_Source method
@@ -16,12 +16,11 @@ Returns the source of the warning.
 Aspose::Words::WarningSource Aspose::Words::WarningInfo::get_Source() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with the warning source.
 
-Shows how to work with the warning source. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Emphases markdown warning.docx"));
 
@@ -38,8 +37,8 @@ for (auto&& warningInfo : warnings)
 }
 ```
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -63,10 +62,8 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
-* Enum [WarningSource](../../warningsource/)
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

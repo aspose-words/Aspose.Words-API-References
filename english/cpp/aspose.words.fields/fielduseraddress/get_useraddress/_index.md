@@ -4,7 +4,7 @@ linktitle: get_UserAddress
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUserAddress::get_UserAddress method. Gets or sets the current user''s postal address in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fielduseraddress/get_useraddress/
 ---
 ## FieldUserAddress::get_UserAddress method
@@ -16,12 +16,11 @@ Gets or sets the current user's postal address.
 System::String Aspose::Words::Fields::FieldUserAddress::get_UserAddress()
 ```
 
-
 ## Examples
 
 
+Shows how to use the USERADDRESS field.
 
-Shows how to use the USERADDRESS field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -51,7 +50,6 @@ ASSERT_EQ(u"123 Main Street", doc->get_FieldOptions()->get_CurrentUser()->get_Ad
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.USERADDRESS.docx");
 ```
-
 ## See Also
 
 * Class [FieldUserAddress](../)

@@ -16,12 +16,11 @@ Clears all items from this collection.
 void Aspose::Words::Markup::SdtListItemCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,7 +74,6 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Class [SdtListItemCollection](../)

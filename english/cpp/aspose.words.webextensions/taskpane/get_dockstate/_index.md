@@ -4,7 +4,7 @@ linktitle: get_DockState
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_DockState method. Specifies the last-docked location of this task pane object in C++.'
 type: docs
-weight: 3000
+weight: 10334
 url: /cpp/aspose.words.webextensions/taskpane/get_dockstate/
 ---
 ## TaskPane::get_DockState method
@@ -16,12 +16,11 @@ Specifies the last-docked location of this task pane object.
 Aspose::Words::WebExtensions::TaskPaneDockState Aspose::Words::WebExtensions::TaskPane::get_DockState() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,10 +85,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Enum [TaskPaneDockState](../../taskpanedockstate/)
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_Alignment method. Gets or sets the justification of the actual number of the list item in C++.'
 type: docs
-weight: 6000
+weight: 22564
 url: /cpp/aspose.words.lists/listlevel/get_alignment/
 ---
 ## ListLevel::get_Alignment method
@@ -20,12 +20,11 @@ Aspose::Words::Lists::ListLevelAlignment Aspose::Words::Lists::ListLevel::get_Al
 
 
 The list label is justified relative to the [NumberPosition](../get_numberposition/) property.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,10 +76,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
-* Enum [ListLevelAlignment](../../listlevelalignment/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

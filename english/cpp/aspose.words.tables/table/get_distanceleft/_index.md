@@ -4,7 +4,7 @@ linktitle: get_DistanceLeft
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_DistanceLeft method. Gets or sets distance between table left and the surrounding text, in points in C++.'
 type: docs
-weight: 20000
+weight: 84000
 url: /cpp/aspose.words.tables/table/get_distanceleft/
 ---
 ## Table::get_DistanceLeft method
@@ -16,12 +16,11 @@ Gets or sets distance between table left and the surrounding text, in points.
 double Aspose::Words::Tables::Table::get_DistanceLeft()
 ```
 
-
 ## Examples
 
 
+Shows how to set distance between table boundaries and text.
 
-Shows how to set distance between table boundaries and text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
@@ -39,7 +38,6 @@ table->set_DistanceBottom(3);
 
 doc->Save(get_ArtifactsDir() + u"Table.DistanceBetweenTableAndText.docx");
 ```
-
 ## See Also
 
 * Class [Table](../)

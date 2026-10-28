@@ -13,25 +13,24 @@ url: /cpp/aspose.words/chapterpageseparator/
 Defines the separator character that appears between the chapter and page number.
 
 ```cpp
-enum class ChapterPageSeparator
+enum class ChapterPageSeparator : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Hyphen | 0 | A colon. |
-| Period | 1 | A period. |
 | Colon | 2 | A colon. |
 | EmDash | 3 | An emphasized dash. |
 | EnDash | 4 | A standard dash. |
-
+| Hyphen | 0 | A colon. |
+| Period | 1 | A period. |
 
 ## Examples
 
 
+Shows how to work with page chapters.
 
-Shows how to work with page chapters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -41,8 +40,10 @@ pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
 pageSetup->set_ChapterPageSeparator(Aspose::Words::ChapterPageSeparator::Colon);
 pageSetup->set_HeadingLevelForChapter(1);
 ```
-
 ## See Also
+
+* [PageSetup](../pagesetup/)
+* [ChapterPageSeparator](../pagesetup/get_chapterpageseparator/)
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

@@ -4,7 +4,7 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Style method. Gets or sets the character style applied to this formatting in C++.'
 type: docs
-weight: 42000
+weight: 59745
 url: /cpp/aspose.words/font/get_style/
 ---
 ## Font::get_Style method
@@ -16,12 +16,11 @@ Gets or sets the character style applied to this formatting.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Font::get_Style()
 ```
 
-
 ## Examples
 
 
+Applies a double underline to all runs in a document that are formatted with custom character styles.
 
-Applies a double underline to all runs in a document that are formatted with custom character styles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(Nod
 
 doc->Save(get_ArtifactsDir() + u"Font.Style.docx");
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

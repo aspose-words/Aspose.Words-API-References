@@ -4,7 +4,7 @@ linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use HtmlFixedSaveOptions constructor of Aspose::Words::Saving::HtmlFixedSaveOptions class in C++.'
 type: docs
-weight: 2000
+weight: 21500
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions::HtmlFixedSaveOptions constructor

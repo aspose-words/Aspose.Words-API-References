@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ReflectionFormat::get_Transparency method. Gets or sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect. The default value is 0.0 in C++.'
 type: docs
-weight: 5000
+weight: 8834
 url: /cpp/aspose.words.drawing/reflectionformat/get_transparency/
 ---
 ## ReflectionFormat::get_Transparency method
@@ -16,12 +16,11 @@ Gets or sets a double value between 0.0 (opaque) and 1.0 (clear) representing th
 double Aspose::Words::Drawing::ReflectionFormat::get_Transparency()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -50,7 +49,6 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
 * Class [ReflectionFormat](../)

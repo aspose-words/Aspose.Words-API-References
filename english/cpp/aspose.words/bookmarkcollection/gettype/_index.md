@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bookmarkcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::BookmarkCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::BookmarkCollection::GetType() const override
 ```
 
 ## See Also

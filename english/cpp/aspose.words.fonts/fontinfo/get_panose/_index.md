@@ -4,7 +4,7 @@ linktitle: get_Panose
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_Panose method. Gets or sets the PANOSE typeface classification number in C++.'
 type: docs
-weight: 7000
+weight: 12800
 url: /cpp/aspose.words.fonts/fontinfo/get_panose/
 ---
 ## FontInfo::get_Panose method
@@ -19,15 +19,14 @@ System::ArrayPtr<uint8_t> Aspose::Words::Fonts::FontInfo::get_Panose() const
 ## Remarks
 
 
-PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif [Style](../../../aspose.words/style/), Weight, Proportion, Contrast, Stroke Variation, Arm [Style](../../../aspose.words/style/), Letterform, Midline, and X-Height.
+PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
 Can be **null**.
-
 ## Examples
 
 
+Shows how to access and print details of each font in a document.
 
-Shows how to access and print details of each font in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -59,7 +58,6 @@ while (fontCollectionEnumerator->MoveNext())
     }
 }
 ```
-
 ## See Also
 
 * Class [FontInfo](../)

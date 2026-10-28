@@ -4,7 +4,7 @@ linktitle: get_Stroked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_Stroked method. Defines whether the path will be stroked in C++.'
 type: docs
-weight: 22000
+weight: 54000
 url: /cpp/aspose.words.drawing/shape/get_stroked/
 ---
 ## Shape::get_Stroked method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/get_stroked/
 Defines whether the path will be stroked.
 
 ```cpp
-bool Aspose::Words::Drawing::Shape::get_Stroked()
+_Bool Aspose::Words::Drawing::Shape::get_Stroked()
 ```
 
 ## Remarks
@@ -21,7 +21,7 @@ bool Aspose::Words::Drawing::Shape::get_Stroked()
 
 This is a shortcut to the [On](../../stroke/get_on/) property.
 
-The default value is **true**. 
+The default value is **true**.
 ## See Also
 
 * Class [Shape](../)

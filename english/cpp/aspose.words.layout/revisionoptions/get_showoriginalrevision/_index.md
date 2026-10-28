@@ -4,7 +4,7 @@ linktitle: get_ShowOriginalRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision method. Allows to specify whether the original text should be shown instead of revised one. Default value is false in C++.'
 type: docs
-weight: 18000
+weight: 22871
 url: /cpp/aspose.words.layout/revisionoptions/get_showoriginalrevision/
 ---
 ## RevisionOptions::get_ShowOriginalRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.layout/revisionoptions/get_showoriginalrevision/
 Allows to specify whether the original text should be shown instead of revised one. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision() const
+_Bool Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision() const
 ```
-
 
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -65,7 +64,6 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
 * Class [RevisionOptions](../)

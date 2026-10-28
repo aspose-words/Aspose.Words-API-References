@@ -13,13 +13,13 @@ url: /cpp/aspose.words.fields/fieldoptions/set_comparisonexpressionevaluator/
 Sets the field comparison expressions evaluator.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_ComparisonExpressionEvaluator(const System::SharedPtr<Aspose::Words::Fields::IComparisonExpressionEvaluator> &value)
+void Aspose::Words::Fields::FieldOptions::set_ComparisonExpressionEvaluator(const System::SharedPtr<Aspose::Words::Fields::IComparisonExpressionEvaluator> & value)
 ```
-
 
 ## See Also
 
-* Interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
+* [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

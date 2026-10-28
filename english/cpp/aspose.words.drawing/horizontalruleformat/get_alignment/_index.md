@@ -4,7 +4,7 @@ linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::HorizontalRuleFormat::get_Alignment method. Gets or sets the alignment of the horizontal rule in C++.'
 type: docs
-weight: 2000
+weight: 8286
 url: /cpp/aspose.words.drawing/horizontalruleformat/get_alignment/
 ---
 ## HorizontalRuleFormat::get_Alignment method
@@ -20,12 +20,11 @@ Aspose::Words::Drawing::HorizontalRuleAlignment Aspose::Words::Drawing::Horizont
 
 
 The default value is [Left](../../horizontalrulealignment/).
-
 ## Examples
 
 
+Shows how to insert a horizontal rule shape, and customize its formatting.
 
-Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,10 +40,8 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
-
 ## See Also
 
-* Enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

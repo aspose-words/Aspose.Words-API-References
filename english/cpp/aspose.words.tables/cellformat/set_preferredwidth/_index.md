@@ -2,23 +2,66 @@
 title: Aspose::Words::Tables::CellFormat::set_PreferredWidth method
 linktitle: set_PreferredWidth
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Tables::CellFormat::set_PreferredWidth method. Setter for Aspose::Words::Tables::CellFormat::get_PreferredWidth in C++.'
+description: 'Aspose::Words::Tables::CellFormat::set_PreferredWidth method. Sets the preferred width of the cell in C++.'
 type: docs
-weight: 24000
+weight: 54000
 url: /cpp/aspose.words.tables/cellformat/set_preferredwidth/
 ---
 ## CellFormat::set_PreferredWidth method
 
 
-Setter for [Aspose::Words::Tables::CellFormat::get_PreferredWidth](../get_preferredwidth/).
+Sets the preferred width of the cell.
 
 ```cpp
-void Aspose::Words::Tables::CellFormat::set_PreferredWidth(const System::SharedPtr<Aspose::Words::Tables::PreferredWidth> &value)
+void Aspose::Words::Tables::CellFormat::set_PreferredWidth(const System::SharedPtr<Aspose::Words::Tables::PreferredWidth> & value)
 ```
 
+## Remarks
+
+
+The preferred width (along with the table's Auto Fit option) determines how the actual width of the cell is calculated by the table layout algorithm. Table layout can be performed by Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
+
+The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
+
+The default value is [Auto](../../preferredwidth/auto/).
+## Examples
+
+
+Shows how to set a preferred width for table cells.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+
+// There are two ways of applying the "PreferredWidth" class to table cells.
+// 1 -  Set an absolute preferred width based on points:
+builder->InsertCell();
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(40));
+builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightYellow());
+builder->Writeln(System::String::Format(u"Cell with a width of {0}.", builder->get_CellFormat()->get_PreferredWidth()));
+
+// 2 -  Set a relative preferred width based on percent of the table's width:
+builder->InsertCell();
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPercent(20));
+builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightBlue());
+builder->Writeln(System::String::Format(u"Cell with a width of {0}.", builder->get_CellFormat()->get_PreferredWidth()));
+
+builder->InsertCell();
+
+// A cell with no preferred width specified will take up the rest of the available space.
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
+
+// Each configuration of the "PreferredWidth" property creates a new object.
+ASSERT_NE(System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()));
+
+builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightGreen());
+builder->Writeln(u"Automatically sized cell.");
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
+```
 ## See Also
 
-* Class [PreferredWidth](../../preferredwidth/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

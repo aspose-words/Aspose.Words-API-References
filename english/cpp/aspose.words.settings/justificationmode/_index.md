@@ -13,23 +13,22 @@ url: /cpp/aspose.words.settings/justificationmode/
 Specifies the character spacing adjustment for a document. The default value is **Expand**.
 
 ```cpp
-enum class JustificationMode
+enum class JustificationMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Expand | 0 | Do not compress character spacing. |
 | Compress | 1 | Compress character spacing. |
 | CompressKana | 2 | Compress, using rules of the kana syllabaries, Hiragana and Katakana. |
-
+| Expand | 0 | Do not compress character spacing. |
 
 ## Examples
 
 
+Shows how to manage character spacing control.
 
-Shows how to manage character spacing control. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -41,7 +40,6 @@ if (justificationMode == JustificationMode::Expand)
 
 doc->Save(get_ArtifactsDir() + u"Document.SetJustificationMode.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

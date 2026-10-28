@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listlevelcollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Lists::ListLevelCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Lists::ListLevel> >
+using Aspose::Words::Lists::ListLevelCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Lists::ListLevel> >
 ```
 
 ## See Also

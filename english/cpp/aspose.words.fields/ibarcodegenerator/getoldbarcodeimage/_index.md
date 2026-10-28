@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 Generate barcode image using the set of parameters (for old-fashioned Barcode field).
 
 ```cpp
-virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fields::IBarcodeGenerator::GetOldBarcodeImage(System::SharedPtr<Aspose::Words::Fields::BarcodeParameters> parameters)=0
+virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fields::IBarcodeGenerator::GetOldBarcodeImage(System::SharedPtr<Aspose::Words::Fields::BarcodeParameters> parameters)
 ```
 
 
@@ -24,10 +24,11 @@ virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fields::IBarcodeGen
 ### ReturnValue
 
 Stream with image data representing generated barcode.
+## Remarks
 
+Supported image formats are Bmp, Emf, Gif, Jpeg, Png, Tiff, Wmf, Pict, Ico, WebP, Svg.
 ## See Also
 
-* Class [BarcodeParameters](../../barcodeparameters/)
 * Interface [IBarcodeGenerator](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

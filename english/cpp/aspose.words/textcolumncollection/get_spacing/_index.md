@@ -4,7 +4,7 @@ linktitle: get_Spacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_Spacing method. When columns are evenly spaced, gets or sets the amount of space between each column in points in C++.'
 type: docs
-weight: 5000
+weight: 18000
 url: /cpp/aspose.words/textcolumncollection/get_spacing/
 ---
 ## TextColumnCollection::get_Spacing method
@@ -16,12 +16,14 @@ When columns are evenly spaced, gets or sets the amount of space between each co
 double Aspose::Words::TextColumnCollection::get_Spacing()
 ```
 
+## Remarks
 
+ Has effect only when [EvenlySpaced](../get_evenlyspaced/) is set to **true**. 
 ## Examples
 
 
+Shows how to create multiple evenly spaced columns in a section.
 
-Shows how to create multiple evenly spaced columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +38,6 @@ builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

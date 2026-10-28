@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
 Returns the zero-based index of the specified bookmark in the collection.
 
 ```cpp
-int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::IndexOfKey(const System::String &name)
+int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::IndexOfKey(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the bookmark. |
+| name | const System::String \& | The case-insensitive name of the bookmark. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

@@ -4,7 +4,7 @@ linktitle: get_LastChild
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CompositeNode::get_LastChild method. Gets the last child of the node in C++.'
 type: docs
-weight: 8000
+weight: 29000
 url: /cpp/aspose.words/compositenode/get_lastchild/
 ---
 ## CompositeNode::get_LastChild method
@@ -16,12 +16,14 @@ Gets the last child of the node.
 System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::get_LastChild() const
 ```
 
+## Remarks
 
+ If there is no last child node, a **null** is returned. 
 ## Examples
 
 
+Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
 
-Shows how to use of methods of [Node](../../node/) and [CompositeNode](../) to remove a section before the last section in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +45,8 @@ if (lastSection->get_PreviousSibling() != nullptr)
 // The section we removed was the first one, leaving the document with only the second.
 ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::SectionCollection::idx_get method. Retrieves a section at the given index in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words/sectioncollection/idx_get/
 ---
 ## SectionCollection::idx_get method
@@ -30,12 +30,11 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## Examples
 
 
+Shows when to recalculate the page layout of the document.
 
-Shows when to recalculate the page layout of the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -56,8 +55,8 @@ doc->UpdatePageLayout();
 doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
 
+Shows how to prepare a new section node for editing.
 
-Shows how to prepare a new section node for editing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -82,10 +81,8 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild<S
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Section](../../section/)
 * Class [SectionCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,29 +4,29 @@ linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeEnd::get_Id method. Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding StructuredDocumentTagRangeStart node has the same Id in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/get_id/
 ---
 ## StructuredDocumentTagRangeEnd::get_Id method
 
 
-Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [StructuredDocumentTagRangeStart](../../structureddocumenttagrangestart/) node has the same [Id](../../structureddocumenttagrangestart/get_id/).
+Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding [StructuredDocumentTagRangeStart](../../structureddocumenttagrangestart/) node has the same [Id](../../structureddocumenttagrangestart/get_id/).
 
 ```cpp
 int32_t Aspose::Words::Markup::StructuredDocumentTagRangeEnd::get_Id() const
 ```
 
-
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,7 +47,6 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTagRangeEnd](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ImageData class
 linktitle: ImageData
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ImageData class. Defines an image for a shape. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::ImageData class. Defines an image for a shape. To learn more, visit the Working with Images documentation article in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.drawing/imagedata/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing/imagedata/
 ## ImageData class
 
 
-Defines an image for a shape. To learn more, visit the [Working with Images](https://docs.aspose.com/words/cpp/working-with-images/) documentation article.
+Defines an image for a shape. 
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/cpp/working-with-images/) documentation article.
 
 ```cpp
 class ImageData : public IBorderAttrSource
@@ -20,7 +21,20 @@ class ImageData : public IBorderAttrSource
 
 | Method | Description |
 | --- | --- |
-| [FitImageToShape](./fitimagetoshape/)() | Fits the image data to [Shape](../shape/) frame so that the aspect ratio of the image data matches the aspect ratio of [Shape](../shape/) frame. |
+| [FitImageToShape](./fitimagetoshape/)() | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the image into the specified stream. |
+| [Save](./save/)(const System::String \&) | Saves the image into a file. |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) |  |
+| [SetImage](./setimage/)(const System::SharedPtr\<System::Drawing::Image\> \&) | Sets the image that the shape displays. |
+| [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\> \&) | Sets the image that the shape displays. |
+| [SetImage](./setimage/)(const System::String \&) | Sets the image that the shape displays. |
+| [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\> \&) |  |
+| [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
+| [ToImage](./toimage/)() | Gets the image stored in the shape as a **Image** object. |
+| [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
+| static [Type](./type/)() |  |
 | [get_BiLevel](./get_bilevel/)() | Determines whether an image will be displayed in black and white. |
 | [get_Borders](./get_borders/)() | Gets the collection of borders of the image. Borders only have effect for inline images. |
 | [get_Brightness](./get_brightness/)() | Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |
@@ -39,47 +53,33 @@ class ImageData : public IBorderAttrSource
 | [get_IsLinkOnly](./get_islinkonly/)() | Returns **true** if the image is linked and not stored in the document. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets or sets the path and name of the source file for the linked image. |
 | [get_Title](./get_title/)() | Defines the title of an image. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the image into the specified stream. |
-| [Save](./save/)(const System::String\&) | Saves the image into a file. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&) |  |
-| [set_BiLevel](./set_bilevel/)(bool) | Setter for [Aspose::Words::Drawing::ImageData::get_BiLevel](./get_bilevel/). |
-| [set_Brightness](./set_brightness/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_Brightness](./get_brightness/). |
-| [set_ChromaKey](./set_chromakey/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::ImageData::get_ChromaKey](./get_chromakey/). |
-| [set_Contrast](./set_contrast/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_Contrast](./get_contrast/). |
-| [set_CropBottom](./set_cropbottom/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_CropBottom](./get_cropbottom/). |
-| [set_CropLeft](./set_cropleft/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_CropLeft](./get_cropleft/). |
-| [set_CropRight](./set_cropright/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_CropRight](./get_cropright/). |
-| [set_CropTop](./set_croptop/)(double) | Setter for [Aspose::Words::Drawing::ImageData::get_CropTop](./get_croptop/). |
-| [set_GrayScale](./set_grayscale/)(bool) | Setter for [Aspose::Words::Drawing::ImageData::get_GrayScale](./get_grayscale/). |
-| [set_ImageBytes](./set_imagebytes/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::Drawing::ImageData::get_ImageBytes](./get_imagebytes/). |
-| [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ImageData::get_SourceFullName](./get_sourcefullname/). |
-| [set_Title](./set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ImageData::get_Title](./get_title/). |
-| [SetImage](./setimage/)(const System::SharedPtr\<System::Drawing::Image\>\&) |  |
-| [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\>\&) | Sets the image that the shape displays. |
-| [SetImage](./setimage/)(const System::String\&) | Sets the image that the shape displays. |
-| [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\>\&) |  |
-| [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
-| [ToImage](./toimage/)() | Gets the image stored in the shape as a [SKBitmap](../) object. |
-| [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
-| static [Type](./type/)() |  |
+| [set_BiLevel](./set_bilevel/)(bool) | Determines whether an image will be displayed in black and white. |
+| [set_Brightness](./set_brightness/)(double) | Sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |
+| [set_ChromaKey](./set_chromakey/)(System::Drawing::Color) | Defines the color value of the image that will be treated as transparent. |
+| [set_Contrast](./set_contrast/)(double) | Sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast). |
+| [set_CropBottom](./set_cropbottom/)(double) | Defines the fraction of picture removal from the bottom side. |
+| [set_CropLeft](./set_cropleft/)(double) | Defines the fraction of picture removal from the left side. |
+| [set_CropRight](./set_cropright/)(double) | Defines the fraction of picture removal from the right side. |
+| [set_CropTop](./set_croptop/)(double) | Defines the fraction of picture removal from the top side. |
+| [set_GrayScale](./set_grayscale/)(bool) | Determines whether a picture will display in grayscale mode. |
+| [set_ImageBytes](./set_imagebytes/)(const System::ArrayPtr\<uint8_t\> \&) | Sets the raw bytes of the image stored in the shape. |
+| [set_SourceFullName](./set_sourcefullname/)(const System::String \&) | Sets the path and name of the source file for the linked image. |
+| [set_Title](./set_title/)(const System::String \&) | Defines the title of an image. |
 ## Remarks
 
 
 Use the [ImageData](../shape/get_imagedata/) property to access and modify the image inside a shape. You do not create instances of the [ImageData](./) class directly.
 
-An image can be stored inside a shape, linked to external file or both(linked and stored in the document).
+An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 
-Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [ToByteArray](./tobytearray/), [ToStream](./tostream/) or [Save()](../) methods. If the image is stored inside the shape, you can also directly access it using the [ImageBytes](./get_imagebytes/) property.
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [ToByteArray](./tobytearray/), [ToStream](./tostream/), [ToImage](./toimage/) or [Save()](./save/) methods. If the image is stored inside the shape, you can also directly access it using the [ImageBytes](./get_imagebytes/) property.
 
-To store an image inside a shape use the[SetImage()](../) method.To link an image to a shape, set the[SourceFullName](./get_sourcefullname/) property.
-
+To store an image inside a shape use the [SetImage()](./setimage/) method. To link an image to a shape, set the [SourceFullName](./get_sourcefullname/) property.
 ## Examples
 
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
 
-Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -106,8 +106,8 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 }
 ```
 
+Shows how to insert a linked image into a document.
 
-Shows how to insert a linked image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -142,7 +142,6 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

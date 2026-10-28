@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/noderendererbase/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Rendering::NodeRendererBase::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Rendering::NodeRendererBase::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

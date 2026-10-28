@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Markup::StructuredDocumentTagCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Markup::StructuredDocumentTagCollection::GetType() const override
 ```
 
 ## See Also

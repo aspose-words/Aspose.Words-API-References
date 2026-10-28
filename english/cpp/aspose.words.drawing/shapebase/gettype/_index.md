@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::ShapeBase::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::ShapeBase::GetType() const override
 ```
 
 ## See Also

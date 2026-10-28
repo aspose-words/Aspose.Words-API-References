@@ -4,7 +4,7 @@ linktitle: MailMergerContext
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use MailMergerContext constructor of Aspose::Words::LowCode::MailMergerContext class in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.lowcode/mailmergercontext/mailmergercontext/
 ---
 ## MailMergerContext::MailMergerContext constructor

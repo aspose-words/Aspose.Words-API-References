@@ -13,24 +13,23 @@ url: /cpp/aspose.words.properties/customdocumentproperties/addlinktocontent/
 Creates a new linked to content custom document property.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::AddLinkToContent(const System::String &name, const System::String &linkSource)
+System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Properties::CustomDocumentProperties::AddLinkToContent(const System::String & name, const System::String & linkSource)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The name of the property. |
-| linkSource | const System::String\& | The source of the property. |
+| name | const System::String \& | The name of the property. |
+| linkSource | const System::String \& | The source of the property. |
 
 ### ReturnValue
 
-The newly created property object or **null** when the *linkSource* is invalid.
-
+The newly created property object or **null** when the linkSource is invalid.
 ## Examples
 
 
+Shows how to link a custom document property to a bookmark.
 
-Shows how to link a custom document property to a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
-
 ## See Also
 
-* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

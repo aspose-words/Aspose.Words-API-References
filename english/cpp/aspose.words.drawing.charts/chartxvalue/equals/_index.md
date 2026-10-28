@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartxvalue/equals/
 Gets a flag indicating whether the specified object is equal to the current X value object.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartXValue::Equals(System::SharedPtr<System::Object> obj) override
+_Bool Aspose::Words::Drawing::Charts::ChartXValue::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/odtsaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::OdtSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::OdtSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

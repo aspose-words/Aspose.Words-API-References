@@ -13,16 +13,17 @@ url: /cpp/aspose.words.saving/pdfcustompropertiesexport/
 Specifies the way [CustomDocumentProperties](../../aspose.words/document/get_customdocumentproperties/) are exported to PDF file.
 
 ```cpp
-enum class PdfCustomPropertiesExport
+enum class PdfCustomPropertiesExport : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No custom properties are exported. |
-| Standard | 1 | Custom properties are exported as entries in /Info dictionary. Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped". |
 | Metadata | 2 | Custom properties are Metadata. |
+| None | 0 | No custom properties are exported. |
+| Standard | 1 | Custom properties are exported as entries in /Info dictionary. 
+Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped". |
 
 ## See Also
 

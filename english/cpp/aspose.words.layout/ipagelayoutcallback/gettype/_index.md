@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/ipagelayoutcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Layout::IPageLayoutCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::Layout::IPageLayoutCallback::GetType() const override
 ```
 
 ## See Also

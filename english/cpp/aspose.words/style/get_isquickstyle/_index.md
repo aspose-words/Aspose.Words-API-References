@@ -4,24 +4,23 @@ linktitle: get_IsQuickStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_IsQuickStyle method. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI in C++.'
 type: docs
-weight: 10000
+weight: 22396
 url: /cpp/aspose.words/style/get_isquickstyle/
 ---
 ## Style::get_IsQuickStyle method
 
 
-Specifies whether this style is shown in the Quick [Style](../) gallery inside MS Word UI.
+Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
 ```cpp
-bool Aspose::Words::Style::get_IsQuickStyle() const
+_Bool Aspose::Words::Style::get_IsQuickStyle() const
 ```
-
 
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,7 +41,6 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
     }
 }
 ```
-
 ## See Also
 
 * Class [Style](../)

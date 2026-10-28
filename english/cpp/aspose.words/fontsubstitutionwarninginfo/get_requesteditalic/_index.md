@@ -4,7 +4,7 @@ linktitle: get_RequestedItalic
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic method. Indicates whether italic style was requested in C++.'
 type: docs
-weight: 5000
+weight: 13000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requesteditalic/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedItalic method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requesteditalic/
 Indicates whether italic style was requested.
 
 ```cpp
-bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
+_Bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
 ```
-
 
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -45,7 +44,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Class [FontSubstitutionWarningInfo](../)

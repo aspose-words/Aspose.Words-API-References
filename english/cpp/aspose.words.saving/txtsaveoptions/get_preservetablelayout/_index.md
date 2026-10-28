@@ -4,7 +4,7 @@ linktitle: get_PreserveTableLayout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout method. Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false in C++.'
 type: docs
-weight: 6000
+weight: 10700
 url: /cpp/aspose.words.saving/txtsaveoptions/get_preservetablelayout/
 ---
 ## TxtSaveOptions::get_PreserveTableLayout method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/txtsaveoptions/get_preservetablelayout/
 Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
+_Bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
 ```
-
 
 ## Examples
 
 
+Shows how to preserve the layout of tables when converting to plaintext.
 
-Shows how to preserve the layout of tables when converting to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ else
     ASSERT_EQ((System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n"), docText);
 }
 ```
-
 ## See Also
 
 * Class [TxtSaveOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/set_backgroundcolor/
 Bar code background color (0x000000 - 0xFFFFFF)
 
 ```cpp
-void Aspose::Words::Fields::BarcodeParameters::set_BackgroundColor(const System::String &value)
+void Aspose::Words::Fields::BarcodeParameters::set_BackgroundColor(const System::String & value)
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RevisionCollection::get_Count method. Returns the number of revisions in the collection in C++.'
 type: docs
-weight: 3000
+weight: 11000
 url: /cpp/aspose.words/revisioncollection/get_count/
 ---
 ## RevisionCollection::get_Count method
@@ -16,12 +16,11 @@ Returns the number of revisions in the collection.
 int32_t Aspose::Words::RevisionCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +96,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [RevisionCollection](../)

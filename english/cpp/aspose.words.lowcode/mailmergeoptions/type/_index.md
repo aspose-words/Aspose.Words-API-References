@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::LowCode::MailMergeOptions class in C++.'
 type: docs
-weight: 1000
+weight: 17126
 url: /cpp/aspose.words.lowcode/mailmergeoptions/type/
 ---
 ## MailMergeOptions::Type method

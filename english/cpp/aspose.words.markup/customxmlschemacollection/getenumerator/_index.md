@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> Aspose::Words::Markup::CustomXmlSchemaCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,7 +61,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

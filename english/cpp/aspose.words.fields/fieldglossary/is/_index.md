@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldglossary/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldGlossary::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldGlossary::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_IsEndOfHeaderFooter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsEndOfHeaderFooter method. True if this paragraph is the last paragraph in the HeaderFooter (main text story) of a Section; false otherwise in C++.'
 type: docs
-weight: 10000
+weight: 39000
 url: /cpp/aspose.words/paragraph/get_isendofheaderfooter/
 ---
 ## Paragraph::get_IsEndOfHeaderFooter method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_isendofheaderfooter/
 True if this paragraph is the last paragraph in the [HeaderFooter](../../headerfooter/) (main text story) of a [Section](../../section/); false otherwise.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsEndOfHeaderFooter()
+_Bool Aspose::Words::Paragraph::get_IsEndOfHeaderFooter()
 ```
-
 
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -51,7 +50,6 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

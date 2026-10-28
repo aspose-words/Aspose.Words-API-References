@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataPointCollection::get_Count method. Returns the number of ChartDataPoint in this collection in C++.'
 type: docs
-weight: 3000
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/get_count/
 ---
 ## ChartDataPointCollection::get_Count method

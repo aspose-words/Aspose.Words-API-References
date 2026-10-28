@@ -13,26 +13,25 @@ url: /cpp/aspose.words.math/officemathjustification/
 Specifies the justification of the equation.
 
 ```cpp
-enum class OfficeMathJustification
+enum class OfficeMathJustification : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CenterGroup | 1 | Justifies instances of mathematical text to the left with respect to each other, and centers the group of mathematical text (the [Math](../)[Paragraph](../../aspose.words/paragraph/)) with respect to the page. |
 | Center | 2 | Centers each instance of mathematical text individually with respect to margins. |
-| Left | 3 | Left justification of [Math](../)[Paragraph](../../aspose.words/paragraph/). |
-| Right | 4 | Right Justification of [Math](../)[Paragraph](../../aspose.words/paragraph/). |
-| Inline | 7 | [Inline](../../aspose.words/inline/) position of [Math](../). |
+| CenterGroup | 1 | Justifies instances of mathematical text to the left with respect to each other, and centers the group of mathematical text (the Math Paragraph) with respect to the page. |
 | Default | 1 | Default value [CenterGroup](./). |
-
+| Inline | 7 | Inline position of Math. |
+| Left | 3 | Left justification of Math Paragraph. |
+| Right | 4 | Right Justification of Math Paragraph. |
 
 ## Examples
 
 
+Shows how to set office math display formatting.
 
-Shows how to set office math display formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -50,7 +49,6 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 
 doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Math](../)

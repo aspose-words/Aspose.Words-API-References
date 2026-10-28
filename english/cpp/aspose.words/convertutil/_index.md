@@ -2,7 +2,7 @@
 title: Aspose::Words::ConvertUtil class
 linktitle: ConvertUtil
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ConvertUtil class. Provides helper functions to convert between various measurement units. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ConvertUtil class. Provides helper functions to convert between various measurement units. To learn more, visit the Convert Between Measurement Units documentation article in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words/convertutil/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/convertutil/
 ## ConvertUtil class
 
 
-Provides helper functions to convert between various measurement units. To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/cpp/convert-between-measurement-units/) documentation article.
+Provides helper functions to convert between various measurement units. 
+To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/cpp/convert-between-measurement-units/) documentation article.
 
 ```cpp
 class ConvertUtil
@@ -29,12 +30,11 @@ class ConvertUtil
 | static [PointToInch](./pointtoinch/)(double) | Converts points to inches. |
 | static [PointToPixel](./pointtopixel/)(double) | Converts points to pixels at 96 dpi. |
 | static [PointToPixel](./pointtopixel/)(double, double) | Converts points to pixels at the specified pixel resolution. |
-
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,8 +53,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
+Shows how to specify page properties in inches.
 
-Shows how to specify page properties in inches. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +77,6 @@ builder->Writeln(System::String::Format(u"This Text is {0} points/{1} inches fro
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndInches.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

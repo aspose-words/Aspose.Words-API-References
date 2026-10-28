@@ -2,20 +2,52 @@
 title: Aspose::Words::Drawing::Fill::set_Color method
 linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Fill::set_Color method. Setter for Aspose::Words::Drawing::Fill::get_Color in C++.'
+description: 'Aspose::Words::Drawing::Fill::set_Color method. Sets a Color object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 31000
+weight: 70000
 url: /cpp/aspose.words.drawing/fill/set_color/
 ---
 ## Fill::set_Color method
 
 
-Setter for [Aspose::Words::Drawing::Fill::get_Color](../get_color/).
+Sets a Color object that represents the foreground color for the fill.
 
 ```cpp
 void Aspose::Words::Drawing::Fill::set_Color(System::Drawing::Color value)
 ```
 
+## Remarks
+
+ This property preserves the alpha component of the **Color**, unlike the [ForeColor](../get_forecolor/) property, which resets it to fully opaque color. 
+## Examples
+
+
+Shows how to convert any of the fills back to solid fill.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
+
+// Get Fill object for Font of the first Run.
+System::SharedPtr<Aspose::Words::Drawing::Fill> fill = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_Fill();
+
+// Check Fill properties of the Font.
+std::cout << System::String::Format(u"The type of the fill is: {0}", fill->get_FillType()) << std::endl;
+std::cout << "The foreground color of the fill is: " << fill->get_ForeColor() << std::endl;
+std::cout << "The fill is transparent at " << (fill->get_Transparency() * 100) << "%" << std::endl;
+
+// Change type of the fill to Solid with uniform green color.
+fill->Solid();
+std::cout << "\nThe fill is changed:" << std::endl;
+std::cout << System::String::Format(u"The type of the fill is: {0}", fill->get_FillType()) << std::endl;
+std::cout << "The foreground color of the fill is: " << fill->get_ForeColor() << std::endl;
+std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << "%" << std::endl;
+
+doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
+```
+## Deprecated
+
+
+This property is obsolete. Please, use ForeColor property instead.
 ## See Also
 
 * Class [Fill](../)

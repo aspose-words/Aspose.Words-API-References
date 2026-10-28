@@ -19,17 +19,16 @@ void Aspose::Words::Document::UpdateWordCount()
 ## Remarks
 
 
-[UpdateWordCount](./) recalculates and updates Characters, [Words](../../) and Paragraphs properties in the [BuiltInDocumentProperties](../get_builtindocumentproperties/) collection of the [Document](../).
+[UpdateWordCount](./) recalculates and updates Characters, Words and Paragraphs properties in the [BuiltInDocumentProperties](../get_builtindocumentproperties/) collection of the [Document](../).
 
 Note that [UpdateWordCount](./) does not update number of lines and pages properties. Use the [UpdateWordCount](./) overload and pass **true** value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
-
 ## Examples
 
 
+Shows how to update all list labels in a document.
 
-Shows how to update all list labels in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ doc->UpdateWordCount(true);
 
 ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Lines());
 ```
-
 ## See Also
 
 * Class [Document](../)
@@ -76,12 +74,14 @@ void Aspose::Words::Document::UpdateWordCount(bool updateLinesCount)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | updateLinesCount | bool | **true** if number of lines in the document shall be calculated. |
+## Remarks
 
+ This method will rebuild page layout of the document. 
 ## Examples
 
 
+Shows how to update all list labels in a document.
 
-Shows how to update all list labels in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -109,7 +109,6 @@ doc->UpdateWordCount(true);
 
 ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Lines());
 ```
-
 ## See Also
 
 * Class [Document](../)

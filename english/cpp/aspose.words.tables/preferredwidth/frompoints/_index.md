@@ -4,7 +4,7 @@ linktitle: FromPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::PreferredWidth::FromPoints method. A creation method that returns a new instance that represents a preferred width specified using a number of points in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.tables/preferredwidth/frompoints/
 ---
 ## PreferredWidth::FromPoints method
@@ -20,12 +20,11 @@ static System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::T
 | Parameter | Type | Description |
 | --- | --- | --- |
 | points | double | The value must be from 0 to 22 inches (22 * 72 points). |
-
 ## Examples
 
 
+Shows how to set a preferred width for table cells.
 
-Shows how to set a preferred width for table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,8 +57,8 @@ builder->Writeln(u"Automatically sized cell.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
 
+Shows how to use unit conversion tools while specifying a preferred width for a cell.
 
-Shows how to use unit conversion tools while specifying a preferred width for a cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,10 +69,8 @@ builder->InsertCell();
 
 ASPOSE_ASSERT_EQ(216.0, table->get_FirstRow()->get_FirstCell()->get_CellFormat()->get_PreferredWidth()->get_Value());
 ```
-
 ## See Also
 
-* Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

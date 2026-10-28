@@ -4,7 +4,7 @@ linktitle: get_CategoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType method. Gets or sets type of the category axis in C++.'
 type: docs
-weight: 4000
+weight: 31144
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_categorytype/
 ---
 ## ChartAxis::get_CategoryType method
@@ -16,12 +16,14 @@ Gets or sets type of the category axis.
 Aspose::Words::Drawing::Charts::AxisCategoryType Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType()
 ```
 
+## Remarks
 
+ Only text categories ([Category](../../axiscategorytype/)) are allowed in MS Office 2016 new charts. 
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +35,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -71,10 +73,8 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
-* Enum [AxisCategoryType](../../axiscategorytype/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

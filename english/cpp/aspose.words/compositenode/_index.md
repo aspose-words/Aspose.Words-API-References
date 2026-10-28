@@ -2,7 +2,7 @@
 title: Aspose::Words::CompositeNode class
 linktitle: CompositeNode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::CompositeNode class. Base class for nodes that can contain other nodes. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::CompositeNode class. Base class for nodes that can contain other nodes. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words/compositenode/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/compositenode/
 ## CompositeNode class
 
 
-Base class for nodes that can contain other nodes. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
+Base class for nodes that can contain other nodes. 
+To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 ```cpp
-class CompositeNode : public Aspose::Words::Node,
+class CompositeNode : public Node,
                       public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>,
                       public INodeCollection
 ```
@@ -22,54 +23,59 @@ class CompositeNode : public Aspose::Words::Node,
 
 | Method | Description |
 | --- | --- |
-| virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
 | virtual [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
 | virtual [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
-| [AppendChild](./appendchild/)(T) |  |
-| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_Count](./get_count/)() | Gets the number of immediate children of this node. |
-| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
-| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
-| [get_FirstChild](./get_firstchild/)() const | Gets the first child of the node. |
-| [get_HasChildNodes](./get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
-| [get_IsComposite](./get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
-| [get_LastChild](./get_lastchild/)() const | Gets the last child of the node. |
-| [get_NextNode](../node/get_nextnode/)() const |  |
-| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
-| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
-| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_PrevNode](../node/get_prevnode/)() const |  |
-| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
-| [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
-| [GetAncestorOf](../node/getancestorof/)() |  |
+| [AppendChild](./appendchild/)(T) | Adds the specified node to the end of the list of child nodes for this node. |
 | [GetChild](./getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](./getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](./gettext/)() override | Gets the text of this node and of all its children. |
 | [GetType](./gettype/)() const override |  |
-| [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](./insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [InsertBefore](./insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
-| static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
-| [PrependChild](./prependchild/)(T) |  |
-| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [Remove](../node/remove/)() | Removes itself from the parent. |
+| [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](./insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](./insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [PrependChild](./prependchild/)(T) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](./removechild/)(T) |  |
+| [RemoveChild](./removechild/)(T) | Removes the specified child node. |
 | [RemoveSmartTags](./removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [SelectNodes](./selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](./selectsinglenode/)(const System::String\&) | Selects the first [Node](../node/) that matches the XPath expression. |
-| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
-| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
+| [SelectNodes](./selectnodes/)(const System::String \&) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](./selectsinglenode/)(const System::String \&) | Selects the first [Node](../node/) that matches the XPath expression. |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Gets the number of immediate children of this node. |
+| [get_FirstChild](./get_firstchild/)() const | Gets the first child of the node. |
+| [get_HasChildNodes](./get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](./get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
+| [get_LastChild](./get_lastchild/)() const | Gets the last child of the node. |
+| virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
+| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
+| [GetAncestorOf](../node/getancestorof/)() |  |
+| virtual [GetText](../node/gettext/)() | Gets the text of this node and of all its children. |
+| [GetType](../node/gettype/)() const override |  |
+| [Is](../node/is/)(const System::TypeInfo \&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
+| static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
+| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../node/remove/)() | Removes itself from the parent. |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
+| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](../node/type/)() |  |
+| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
+| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
+| virtual [get_IsComposite](../node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
+| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
+| virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
+| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
+| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
+| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
 
@@ -78,18 +84,15 @@ A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 For more info see the Composite design pattern.
 
 The [CompositeNode](./) class:
-
 * Provides access to the child nodes.
 * Implements Composite operations such as insert and remove children.
 * Provides methods for XPath navigation.
 
-
-
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -134,7 +137,6 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
 * Class [Node](../node/)

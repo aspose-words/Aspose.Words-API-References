@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldgotobutton/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldGoToButton::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldGoToButton::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

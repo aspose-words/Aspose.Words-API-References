@@ -13,15 +13,17 @@ url: /cpp/aspose.words.fields/fieldargumentbuilder/addnode/
 Adds a node to the argument.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fields::FieldArgumentBuilder::AddNode(const System::SharedPtr<Aspose::Words::Inline> &node)
+System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fields::FieldArgumentBuilder::AddNode(const System::SharedPtr<Aspose::Words::Inline> & node)
 ```
 
+## Remarks
 
+ Only text level nodes are supported at the moment. 
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -95,11 +97,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldArgumentBuilder](../)
-* Class [Inline](../../../aspose.words/inline/)
 * Class [FieldArgumentBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

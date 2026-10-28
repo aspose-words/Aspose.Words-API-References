@@ -13,28 +13,29 @@ url: /cpp/aspose.words.drawing/dashstyle/
 Dashed line style.
 
 ```cpp
-enum class DashStyle
+enum class DashStyle : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Solid | 0 | Solid (continuous) pen. |
-| ShortDash | 1 | System dash style. |
-| ShortDot | 2 | System dash style. |
-| ShortDashDot | 3 | System dash style. |
-| ShortDashDotDot | 4 | System dash style. |
-| Dot | 5 | Square dot style. |
 | Dash | 6 | Dash style. |
-| LongDash | 7 | Long dash style. |
 | DashDot | 8 | Dash short dash. |
+| Default | 0 | Same as [Solid](./). |
+| Dot | 5 | Square dot style. |
+| LongDash | 7 | Long dash style. |
 | LongDashDot | 9 | Long dash short dash. |
 | LongDashDotDot | 10 | Long dash short dash short dash. |
-| Default | 0 | Same as [Solid](./). |
-
+| ShortDash | 1 | System dash style. |
+| ShortDashDot | 3 | System dash style. |
+| ShortDashDotDot | 4 | System dash style. |
+| ShortDot | 2 | System dash style. |
+| Solid | 0 | Solid (continuous) pen. |
 
 ## See Also
+
+* [DashStyle](../stroke/get_dashstyle/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

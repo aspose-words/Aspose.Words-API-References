@@ -4,7 +4,7 @@ linktitle: get_VerticalDistanceFromText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FrameFormat::get_VerticalDistanceFromText method. Specifies vertical distance (in points) between a frame and the surrounding text in C++.'
 type: docs
-weight: 11000
+weight: 26000
 url: /cpp/aspose.words/frameformat/get_verticaldistancefromtext/
 ---
 ## FrameFormat::get_VerticalDistanceFromText method
@@ -16,12 +16,11 @@ Specifies vertical distance (in points) between a frame and the surrounding text
 double Aspose::Words::FrameFormat::get_VerticalDistanceFromText()
 ```
 
-
 ## Examples
 
 
+Shows how to get information about formatting properties of paragraphs that are frames.
 
-Shows how to get information about formatting properties of paragraphs that are frames. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraph frame.docx"));
 
@@ -42,7 +41,6 @@ ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition()
 ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
-
 ## See Also
 
 * Class [FrameFormat](../)

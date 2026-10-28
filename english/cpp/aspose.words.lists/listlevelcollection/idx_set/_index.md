@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevelCollection::idx_set method. Gets a list level by index in C++.'
 type: docs
-weight: 10000
+weight: 11889
 url: /cpp/aspose.words.lists/listlevelcollection/idx_set/
 ---
 ## ListLevelCollection::idx_set method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.lists/listlevelcollection/idx_set/
 Gets a list level by index.
 
 ```cpp
-void Aspose::Words::Lists::ListLevelCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Lists::ListLevel> &value)
+void Aspose::Words::Lists::ListLevelCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Lists::ListLevel> & value)
 ```
-
 
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,8 +73,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -129,10 +128,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
-* Class [ListLevel](../../listlevel/)
 * Class [ListLevelCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

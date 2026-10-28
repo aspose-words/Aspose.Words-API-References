@@ -4,7 +4,7 @@ linktitle: get_Target
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_Target method. Specifies which document shall be used as a target during comparison in C++.'
 type: docs
-weight: 14000
+weight: 16934
 url: /cpp/aspose.words.comparing/compareoptions/get_target/
 ---
 ## CompareOptions::get_Target method
@@ -16,12 +16,11 @@ Specifies which document shall be used as a target during comparison.
 Aspose::Words::Comparing::ComparisonTargetType Aspose::Words::Comparing::CompareOptions::get_Target() const
 ```
 
-
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -88,10 +87,8 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
-* Enum [ComparisonTargetType](../../comparisontargettype/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

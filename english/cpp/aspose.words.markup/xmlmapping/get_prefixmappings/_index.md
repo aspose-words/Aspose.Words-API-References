@@ -4,7 +4,7 @@ linktitle: get_PrefixMappings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::XmlMapping::get_PrefixMappings method. Returns XML namespace prefix mappings to evaluate the XPath in C++.'
 type: docs
-weight: 5000
+weight: 14000
 url: /cpp/aspose.words.markup/xmlmapping/get_prefixmappings/
 ---
 ## XmlMapping::get_PrefixMappings method
@@ -16,12 +16,14 @@ Returns XML namespace prefix mappings to evaluate the [XPath](../get_xpath/).
 System::String Aspose::Words::Markup::XmlMapping::get_PrefixMappings() const
 ```
 
+## Remarks
 
+ Specifies the set of prefix mappings, which shall be used to interpret the XPath expression when the XPath expression is evaluated against the custom XML data parts in the document. 
 ## Examples
 
 
+Shows how to set XML mappings for custom XML parts.
 
-Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,7 +51,6 @@ ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()-
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
-
 ## See Also
 
 * Class [XmlMapping](../)

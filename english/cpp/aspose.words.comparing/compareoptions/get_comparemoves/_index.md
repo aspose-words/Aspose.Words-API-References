@@ -4,7 +4,7 @@ linktitle: get_CompareMoves
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_CompareMoves method. Specifies whether to compare differences between the two documents in C++.'
 type: docs
-weight: 3000
+weight: 16201
 url: /cpp/aspose.words.comparing/compareoptions/get_comparemoves/
 ---
 ## CompareOptions::get_CompareMoves method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.comparing/compareoptions/get_comparemoves/
 Specifies whether to compare differences between the two documents.
 
 ```cpp
-bool Aspose::Words::Comparing::CompareOptions::get_CompareMoves() const
+_Bool Aspose::Words::Comparing::CompareOptions::get_CompareMoves() const
 ```
 
+## Remarks
 
+ By default move revisions are not produced. 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -88,7 +90,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Class [CompareOptions](../)

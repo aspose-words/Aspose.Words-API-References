@@ -4,30 +4,32 @@ linktitle: Sign
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method. Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Supported formats are: Doc, Dot, Docx, Dotx, Docm, Dotm, Odt, Ott.Output will be written to the start of stream and stream size will be updated with content length in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
+## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination stream. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
+Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination stream. 
+Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+
+Output will be written to the start of stream and stream size will be updated with content length.
 
 ```cpp
-static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> &srcStream, const System::SharedPtr<System::IO::Stream> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder)
+static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> & srcStream, const System::SharedPtr<System::IO::Stream> & dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcStream | const System::SharedPtr\<System::IO::Stream\>\& | The stream which contains the document to sign. |
-| dstStream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that signed document will be written to. |
-| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
-
+| srcStream | const System::SharedPtr\<System::IO::Stream\> \& | The stream which contains the document to sign. |
+| dstStream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that signed document will be written to. |
+| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -64,35 +66,35 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
+## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination stream. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).**Output will be written to the start of stream and stream size will be updated with content length.**
+Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination stream. 
+Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+
+Output will be written to the start of stream and stream size will be updated with content length.
 
 ```cpp
-static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> &srcStream, const System::SharedPtr<System::IO::Stream> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)
+static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::SharedPtr<System::IO::Stream> & srcStream, const System::SharedPtr<System::IO::Stream> & dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & signOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcStream | const System::SharedPtr\<System::IO::Stream\>\& | The stream which contains the document to sign. |
-| dstStream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that signed document will be written to. |
-| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
-| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\& | [SignOptions](../../signoptions/) object with various signing options. |
-
+| srcStream | const System::SharedPtr\<System::IO::Stream\> \& | The stream which contains the document to sign. |
+| dstStream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that signed document will be written to. |
+| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
+| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \& | [SignOptions](../../signoptions/) object with various signing options. |
 ## Examples
 
 
+Shows how to digitally sign documents.
 
-Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -112,35 +114,32 @@ signOptions->set_SignTime(System::DateTime::get_Now());
     }
 }
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
-* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
+## DigitalSignatureUtil::Sign(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination file. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature and writes signed document to destination file. 
+Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
-static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String &srcFileName, const System::String &dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder)
+static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String & srcFileName, const System::String & dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcFileName | const System::String\& | The file name of the document to sign. |
-| dstFileName | const System::String\& | The file name of the signed document output. |
-| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
-
+| srcFileName | const System::String \& | The file name of the document to sign. |
+| dstFileName | const System::String \& | The file name of the signed document output. |
+| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -177,35 +176,33 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
+## DigitalSignatureUtil::Sign(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) method
 
 
-Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination file. Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) with digital signature and writes signed document to destination file. 
+Supported formats are: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
-static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String &srcFileName, const System::String &dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)
+static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(const System::String & srcFileName, const System::String & dstFileName, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & signOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcFileName | const System::String\& | The file name of the document to sign. |
-| dstFileName | const System::String\& | The file name of the signed document output. |
-| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
-| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\& | [SignOptions](../../signoptions/) object with various signing options. |
-
+| srcFileName | const System::String \& | The file name of the document to sign. |
+| dstFileName | const System::String \& | The file name of the signed document output. |
+| certHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \& | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys. |
+| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \& | [SignOptions](../../signoptions/) object with various signing options. |
 ## Examples
 
 
+Shows how to sign a document with additional signing options.
 
-Shows how to sign a document with additional signing options. 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_WindowsVersion(u"10.0");
@@ -232,8 +229,8 @@ ASSERT_EQ(768, signature->get_VerticalResolution());
 ASSERT_EQ(24, signature->get_ColorDepth());
 ```
 
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
 
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -259,42 +256,36 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 
 ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
-* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
+## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(std::basic_istream<CharType, Traits> &srcStream, std::basic_ostream<CharType, Traits> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder)
+template<typename CharType,typename Traits> static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(std::basic_istream<CharType, Traits> & srcStream, std::basic_ostream<CharType, Traits> & dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder)
 ```
 
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
+## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(std::basic_istream<CharType, Traits> &srcStream, std::basic_ostream<CharType, Traits> &dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)
+template<typename CharType,typename Traits> static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(std::basic_istream<CharType, Traits> & srcStream, std::basic_ostream<CharType, Traits> & dstStream, const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & signOptions)
 ```
 
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
-* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

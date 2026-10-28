@@ -20,15 +20,15 @@ class ProcessorContext : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_FontSettings](./get_fontsettings/)() const | [Font](../../aspose.words/font/) settings used by the processor. |
-| [get_LayoutOptions](./get_layoutoptions/)() const | [Document](../../aspose.words/document/) layout options used by the processor. |
-| [get_WarningCallback](./get_warningcallback/)() const | Warning callback used by the processor. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](./processorcontext/)() |  |
-| [set_FontSettings](./set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | [Font](../../aspose.words/font/) settings used by the processor. |
-| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Warning callback used by the processor. |
 | static [Type](./type/)() |  |
+| [get_FontSettings](./get_fontsettings/)() const | Font settings used by the processor. |
+| [get_LayoutOptions](./get_layoutoptions/)() const | Document layout options used by the processor. |
+| [get_WarningCallback](./get_warningcallback/)() const | Warning callback used by the processor. |
+| [set_FontSettings](./set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\> \&) | Font settings used by the processor. |
+| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\> \&) | Warning callback used by the processor. |
 ## See Also
 
 * Namespace [Aspose::Words::LowCode](../)

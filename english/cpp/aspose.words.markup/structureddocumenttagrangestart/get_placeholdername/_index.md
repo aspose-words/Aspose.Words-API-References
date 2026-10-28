@@ -4,7 +4,7 @@ linktitle: get_PlaceholderName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_PlaceholderName method. Gets or sets Name of the BuildingBlock containing placeholder text in C++.'
 type: docs
-weight: 15000
+weight: 27312
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_placeholdername/
 ---
 ## StructuredDocumentTagRangeStart::get_PlaceholderName method
@@ -16,17 +16,17 @@ Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/bu
 System::String Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_PlaceholderName() override
 ```
 
-
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,6 +47,9 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
+## Exceptions
+
+* **InvalidOperationException** - Throw if BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
 
 ## See Also
 

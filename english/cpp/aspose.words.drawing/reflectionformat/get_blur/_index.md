@@ -4,7 +4,7 @@ linktitle: get_Blur
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ReflectionFormat::get_Blur method. Gets or sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0 in C++.'
 type: docs
-weight: 2000
+weight: 8334
 url: /cpp/aspose.words.drawing/reflectionformat/get_blur/
 ---
 ## ReflectionFormat::get_Blur method
@@ -16,12 +16,11 @@ Gets or sets a double value that specifies the degree of blur effect applied to 
 double Aspose::Words::Drawing::ReflectionFormat::get_Blur()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -50,7 +49,6 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
 * Class [ReflectionFormat](../)

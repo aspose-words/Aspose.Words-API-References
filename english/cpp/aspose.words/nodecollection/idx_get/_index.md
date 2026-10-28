@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NodeCollection::idx_get method. Retrieves a node at the given index in C++.'
 type: docs
-weight: 8000
+weight: 17000
 url: /cpp/aspose.words/nodecollection/idx_get/
 ---
 ## NodeCollection::idx_get method
@@ -30,12 +30,11 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -80,10 +79,8 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

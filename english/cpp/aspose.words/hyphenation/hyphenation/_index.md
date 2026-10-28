@@ -13,7 +13,7 @@ url: /cpp/aspose.words/hyphenation/hyphenation/
 
 
 ```cpp
-Aspose::Words::Hyphenation::Hyphenation()=delete
+Aspose::Words::Hyphenation::Hyphenation()
 ```
 
 ## See Also

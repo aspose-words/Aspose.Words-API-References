@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::CertificateHolder class
 linktitle: CertificateHolder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::CertificateHolder class. Represents a holder of X509Certificate2 instance. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::DigitalSignatures::CertificateHolder class. Represents a holder of X509Certificate2 instance. To learn more, visit the Work with Digital Signatures documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.digitalsignatures/certificateholder/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.digitalsignatures/certificateholder/
 ## CertificateHolder class
 
 
-Represents a holder of **X509Certificate2** instance. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
+Represents a holder of X509Certificate2 instance. 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class CertificateHolder : public System::Object
@@ -20,24 +21,23 @@ class CertificateHolder : public System::Object
 
 | Method | Description |
 | --- | --- |
-| static [Create](./create/)(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<System::Security::SecureString\>\&) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
-| static [Create](./create/)(const System::ArrayPtr\<uint8_t\>\&, const System::String\&) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
-| static [Create](./create/)(const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
-| static [Create](./create/)(const System::String\&, const System::String\&, const System::String\&) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
-| [get_Certificate](./get_certificate/)() | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
+| static [Create](./create/)(const System::ArrayPtr\<uint8_t\> \&, const System::SharedPtr\<System::Security::SecureString\> \&) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
+| static [Create](./create/)(const System::ArrayPtr\<uint8_t\> \&, const System::String \&) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
+| static [Create](./create/)(const System::String \&, const System::String \&) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
+| static [Create](./create/)(const System::String \&, const System::String \&, const System::String \&) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_Certificate](./get_certificate/)() | Returns the instance of X509Certificate2 which holds private, public keys and certificate chain. |
 ## Remarks
 
 
-[CertificateHolder](./) can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
-
+[CertificateHolder](./) can be created by static factory methods only. It contains an instance of X509Certificate2 which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
 ## Examples
 
 
+Shows how to digitally sign documents.
 
-Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -58,8 +58,8 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 }
 ```
 
+Shows how to sign encrypted document file.
 
-Shows how to sign encrypted document file. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -76,7 +76,6 @@ System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.Decr
 
 DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

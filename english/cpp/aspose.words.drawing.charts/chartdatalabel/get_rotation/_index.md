@@ -4,7 +4,7 @@ linktitle: get_Rotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Rotation method. Gets or sets the rotation of the label in degrees in C++.'
 type: docs
-weight: 7667
+weight: 18504
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_rotation/
 ---
 ## ChartDataLabel::get_Rotation method
@@ -21,13 +21,12 @@ int32_t Aspose::Words::Drawing::Charts::ChartDataLabel::get_Rotation()
 
 The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
 
-If the [Orientation](../get_orientation/) value is [Horizontal](../../../aspose.words.drawing/shapetextorientation/), the label shape, if it exists, is rotated along with the label text. Otherwise, only the label text is rotated.
-
+If the [Orientation](../get_orientation/) value is [Horizontal](../../../aspose.words.drawing/shapetextorientation/), the label shape, if it exists, is rotated along with the label text. Otherwise, only the label text is rotated. 
 ## Examples
 
 
+Shows how to change orientation and rotation for data labels.
 
-Shows how to change orientation and rotation for data labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,7 +54,6 @@ dataLabels->idx_get(0)->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LabelOrientationRotation.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabel](../)

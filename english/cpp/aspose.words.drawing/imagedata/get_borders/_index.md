@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_Borders method. Gets the collection of borders of the image. Borders only have effect for inline images in C++.'
 type: docs
-weight: 3000
+weight: 41000
 url: /cpp/aspose.words.drawing/imagedata/get_borders/
 ---
 ## ImageData::get_Borders method
@@ -16,12 +16,11 @@ Gets the collection of borders of the image. Borders only have effect for inline
 System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Drawing::ImageData::get_Borders()
 ```
 
-
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -77,10 +76,8 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../../../aspose.words/bordercollection/)
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

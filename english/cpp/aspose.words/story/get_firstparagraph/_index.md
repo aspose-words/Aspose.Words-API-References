@@ -4,7 +4,7 @@ linktitle: get_FirstParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_FirstParagraph method. Gets the first paragraph in the story in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words/story/get_firstparagraph/
 ---
 ## Story::get_FirstParagraph method
@@ -16,12 +16,11 @@ Gets the first paragraph in the story.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_FirstParagraph() override
 ```
 
-
 ## Examples
 
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -35,8 +34,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 
+Shows how to create and format a text box.
 
-Shows how to create and format a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,10 +61,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

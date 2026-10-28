@@ -4,7 +4,7 @@ linktitle: get_UseHeading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToa::get_UseHeading method. Gets whether to include the category heading for the entries in a table of authorities in C++.'
 type: docs
-weight: 10000
+weight: 13834
 url: /cpp/aspose.words.fields/fieldtoa/get_useheading/
 ---
 ## FieldToa::get_UseHeading method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/get_useheading/
 Gets whether to include the category heading for the entries in a table of authorities.
 
 ```cpp
-bool Aspose::Words::Fields::FieldToa::get_UseHeading()
+_Bool Aspose::Words::Fields::FieldToa::get_UseHeading()
 ```
 
 ## See Also

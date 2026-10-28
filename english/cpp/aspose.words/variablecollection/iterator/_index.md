@@ -13,7 +13,7 @@ url: /cpp/aspose.words/variablecollection/iterator/
 
 
 ```cpp
-using Aspose::Words::VariableCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::VariableCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

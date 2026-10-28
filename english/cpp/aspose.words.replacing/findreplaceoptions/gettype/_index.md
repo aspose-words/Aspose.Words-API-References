@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Replacing::FindReplaceOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Replacing::FindReplaceOptions::GetType() const override
 ```
 
 ## See Also

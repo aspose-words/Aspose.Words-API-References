@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::ParagraphCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::ParagraphCollection::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_ReplaceBackslashWithYenSign
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign method. Specifies whether backslash characters should be replaced with yen signs. Default value is false in C++.'
 type: docs
-weight: 41500
+weight: 49860
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_replacebackslashwithyensign/
 ---
 ## HtmlSaveOptions::get_ReplaceBackslashWithYenSign method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_replacebackslashwithyensign/
 Specifies whether backslash characters should be replaced with yen signs. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign() const
 ```
 
+## Remarks
 
+ By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain scenarios. This flag enables backward compatibility with previous versions of Aspose.Words. 
 ## Examples
 
 
+Shows how to replace backslash characters with yen signs (Html).
 
-Shows how to replace backslash characters with yen signs (Html). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Korean backslash symbol.docx"));
 
@@ -33,7 +35,6 @@ saveOptions->set_ReplaceBackslashWithYenSign(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ReplaceBackslashWithYenSign.html", saveOptions);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

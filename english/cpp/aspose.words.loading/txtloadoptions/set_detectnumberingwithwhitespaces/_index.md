@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::TxtLoadOptions::set_DetectNumberingWithWhitespaces method
 linktitle: set_DetectNumberingWithWhitespaces
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::TxtLoadOptions::set_DetectNumberingWithWhitespaces method. Setter for Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces in C++.'
+description: 'Aspose::Words::Loading::TxtLoadOptions::set_DetectNumberingWithWhitespaces method. Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.loading/txtloadoptions/set_detectnumberingwithwhitespaces/
@@ -10,12 +10,60 @@ url: /cpp/aspose.words.loading/txtloadoptions/set_detectnumberingwithwhitespaces
 ## TxtLoadOptions::set_DetectNumberingWithWhitespaces method
 
 
-Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces](../get_detectnumberingwithwhitespaces/).
+Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is **true**.
 
 ```cpp
 void Aspose::Words::Loading::TxtLoadOptions::set_DetectNumberingWithWhitespaces(bool value)
 ```
 
+## Remarks
+
+
+ If this option is set to **false**, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").
+
+ If this option is set to **true**, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
+## Examples
+
+
+Shows how to detect lists when loading plaintext documents.
+
+```cpp
+// Create a plaintext document in a string with four separate parts that we may interpret as lists,
+// with different delimiters. Upon loading the plaintext document into a "Document" object,
+// Aspose.Words will always detect the first three lists and will add a "List" object
+// for each to the document's "Lists" property.
+const System::String textDoc = System::String(u"Full stop delimiters:\n") + u"1. First list item 1\n" + u"2. First list item 2\n" + u"3. First list item 3\n\n" + u"Right bracket delimiters:\n" + u"1) Second list item 1\n" + u"2) Second list item 2\n" + u"3) Second list item 3\n\n" + u"Bullet delimiters:\n" + u"• Third list item 1\n" + u"• Third list item 2\n" + u"• Third list item 3\n\n" + u"Whitespace delimiters:\n" + u"1 Fourth list item 1\n" + u"2 Fourth list item 2\n" + u"3 Fourth list item 3";
+
+// Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+// to modify how we load a plaintext document.
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::TxtLoadOptions>();
+
+// Set the "DetectNumberingWithWhitespaces" property to "true" to detect numbered items
+// with whitespace delimiters, such as the fourth list in our document, as lists.
+// This may also falsely detect paragraphs that begin with numbers as lists.
+// Set the "DetectNumberingWithWhitespaces" property to "false"
+// to not create lists from numbered items with whitespace delimiters.
+loadOptions->set_DetectNumberingWithWhitespaces(detectNumberingWithWhitespaces);
+
+auto doc = System::MakeObject<Aspose::Words::Document>(System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_UTF8()->GetBytes(textDoc)), loadOptions);
+
+if (detectNumberingWithWhitespaces)
+{
+    ASSERT_EQ(4, doc->get_Lists()->get_Count());
+    ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
+    {
+        return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_IsListItem();
+    }))));
+}
+else
+{
+    ASSERT_EQ(3, doc->get_Lists()->get_Count());
+    ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
+    {
+        return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_IsListItem();
+    }))));
+}
+```
 ## See Also
 
 * Class [TxtLoadOptions](../)

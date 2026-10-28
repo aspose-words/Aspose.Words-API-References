@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inodechangingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::INodeChangingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::INodeChangingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

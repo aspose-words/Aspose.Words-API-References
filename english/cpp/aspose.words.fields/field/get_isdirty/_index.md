@@ -4,7 +4,7 @@ linktitle: get_IsDirty
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::Field::get_IsDirty method. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document in C++.'
 type: docs
-weight: 7000
+weight: 29000
 url: /cpp/aspose.words.fields/field/get_isdirty/
 ---
 ## Field::get_IsDirty method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/field/get_isdirty/
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 ```cpp
-bool Aspose::Words::Fields::Field::get_IsDirty()
+_Bool Aspose::Words::Fields::Field::get_IsDirty()
 ```
-
 
 ## Examples
 
 
+Shows how to use special property for updating field result.
 
-Shows how to use special property for updating field result. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +70,6 @@ field->set_IsDirty(true);
     }
 }
 ```
-
 ## See Also
 
 * Class [Field](../)

@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Font method. Provides access to the font formatting of the data labels of the entire series in C++.'
 type: docs
-weight: 4000
+weight: 18054
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_font/
 ---
 ## ChartDataLabelCollection::get_Font method
@@ -16,12 +16,14 @@ Provides access to the font formatting of the data labels of the entire series.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Font()
 ```
 
+## Remarks
 
+ Value defined for this property can be overridden for an individual data label with using the [Font](../../chartdatalabel/get_font/) property. 
 ## Examples
 
 
+Shows how to enable and configure data labels for a chart series.
 
-Shows how to enable and configure data labels for a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +50,8 @@ dataLabels->get_Font()->set_Size(12);
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelNumberFormat.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

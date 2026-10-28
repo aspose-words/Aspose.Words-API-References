@@ -13,13 +13,13 @@ url: /cpp/aspose.words.lists/listcollection/addcopy/
 Creates a new list by copying the specified list and adding it to the collection of lists in the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::AddCopy(const System::SharedPtr<Aspose::Words::Lists::List> &srcList)
+System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::AddCopy(const System::SharedPtr<Aspose::Words::Lists::List> & srcList)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcList | const System::SharedPtr\<Aspose::Words::Lists::List\>\& | The source list to copy from. |
+| srcList | const System::SharedPtr\<Aspose::Words::Lists::List\> \& | The source list to copy from. |
 
 ### ReturnValue
 
@@ -30,12 +30,11 @@ The newly created list.
 The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
 
 If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
-
 ## Examples
 
 
+Shows how to restart numbering in a list by copying a list.
 
-Shows how to restart numbering in a list by copying a list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -72,10 +71,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
-
 ## See Also
 
-* Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

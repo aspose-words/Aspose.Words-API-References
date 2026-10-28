@@ -4,7 +4,7 @@ linktitle: get_ConditionalStyles
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_ConditionalStyles method. Collection of conditional styles that may be defined for this table style in C++.'
 type: docs
-weight: 9000
+weight: 18504
 url: /cpp/aspose.words/tablestyle/get_conditionalstyles/
 ---
 ## TableStyle::get_ConditionalStyles method
@@ -16,12 +16,11 @@ Collection of conditional styles that may be defined for this table style.
 System::SharedPtr<Aspose::Words::ConditionalStyleCollection> Aspose::Words::TableStyle::get_ConditionalStyles()
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,10 +85,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

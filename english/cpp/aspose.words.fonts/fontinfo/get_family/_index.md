@@ -4,7 +4,7 @@ linktitle: get_Family
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_Family method. Gets or sets the font family this font belongs to in C++.'
 type: docs
-weight: 4000
+weight: 12500
 url: /cpp/aspose.words.fonts/fontinfo/get_family/
 ---
 ## FontInfo::get_Family method
@@ -16,12 +16,11 @@ Gets or sets the font family this font belongs to.
 Aspose::Words::Fonts::FontFamily Aspose::Words::Fonts::FontInfo::get_Family() const
 ```
 
-
 ## Examples
 
 
+Shows how to access and print details of each font in a document.
 
-Shows how to access and print details of each font in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -53,10 +52,8 @@ while (fontCollectionEnumerator->MoveNext())
     }
 }
 ```
-
 ## See Also
 
-* Enum [FontFamily](../../fontfamily/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_PageNumberListSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_PageNumberListSeparator method. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C++.'
 type: docs
-weight: 11000
+weight: 19615
 url: /cpp/aspose.words.fields/fieldindex/get_pagenumberlistseparator/
 ---
 ## FieldIndex::get_PageNumberListSeparator method
@@ -16,12 +16,11 @@ Gets or sets the character sequence that is used to separate two page numbers in
 System::String Aspose::Words::Fields::FieldIndex::get_PageNumberListSeparator()
 ```
 
-
 ## Examples
 
 
+Shows how to edit the page number separator in an INDEX field.
 
-Shows how to edit the page number separator in an INDEX field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.PageNumberList.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

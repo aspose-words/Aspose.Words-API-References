@@ -13,22 +13,21 @@ url: /cpp/aspose.words.saving/htmlversion/
 Indicates the version of HTML is used when saving the document to [Html](../../aspose.words/saveformat/) and [Mhtml](../../aspose.words/saveformat/) formats.
 
 ```cpp
-enum class HtmlVersion
+enum class HtmlVersion : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Xhtml | 0 | Saves the document in compliance with the XHTML 1.0 Transitional standard. |
 | Html5 | 1 | Saves the document in compliance with the HTML 5 standard. |
-
+| Xhtml | 0 | Saves the document in compliance with the XHTML 1.0 Transitional standard. |
 
 ## Examples
 
 
+Shows how to save a document to a specific version of HTML.
 
-Shows how to save a document to a specific version of HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -56,8 +55,8 @@ switch (htmlVersion)
 }
 ```
 
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,7 +83,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<html>"));
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

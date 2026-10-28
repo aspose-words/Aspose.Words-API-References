@@ -4,7 +4,7 @@ linktitle: set_SignatureLineImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::set_SignatureLineImage method. The image that will be shown in associated SignatureLine. Default value is null in C++.'
 type: docs
-weight: 15000
+weight: 16168
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_signaturelineimage/
 ---
 ## SignOptions::set_SignatureLineImage method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/set_signaturelineimage/
 The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/). Default value is **null**.
 
 ```cpp
-void Aspose::Words::DigitalSignatures::SignOptions::set_SignatureLineImage(const System::ArrayPtr<uint8_t> &value)
+void Aspose::Words::DigitalSignatures::SignOptions::set_SignatureLineImage(const System::ArrayPtr<uint8_t> & value)
 ```
 
 ## See Also

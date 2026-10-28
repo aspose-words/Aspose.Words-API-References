@@ -4,7 +4,7 @@ linktitle: get_UseLunarCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCreateDate::get_UseLunarCalendar method. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C++.'
 type: docs
-weight: 2000
+weight: 6400
 url: /cpp/aspose.words.fields/fieldcreatedate/get_uselunarcalendar/
 ---
 ## FieldCreateDate::get_UseLunarCalendar method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldcreatedate/get_uselunarcalendar/
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldCreateDate::get_UseLunarCalendar() override
+_Bool Aspose::Words::Fields::FieldCreateDate::get_UseLunarCalendar() override
 ```
-
 
 ## Examples
 
 
+Shows how to use the CREATEDATE field to display the creation date/time of the document.
 
-Shows how to use the CREATEDATE field to display the creation date/time of the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ ASSERT_EQ(u" CREATEDATE  \\s", field->GetFieldCode());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.CREATEDATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldCreateDate](../)

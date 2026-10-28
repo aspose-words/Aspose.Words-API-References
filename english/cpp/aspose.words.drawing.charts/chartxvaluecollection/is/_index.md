@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartxvaluecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::ChartXValueCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::ChartXValueCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

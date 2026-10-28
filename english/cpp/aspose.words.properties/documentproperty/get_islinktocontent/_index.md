@@ -4,7 +4,7 @@ linktitle: get_IsLinkToContent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent method. Shows whether this property is linked to content or not in C++.'
 type: docs
-weight: 2000
+weight: 17000
 url: /cpp/aspose.words.properties/documentproperty/get_islinktocontent/
 ---
 ## DocumentProperty::get_IsLinkToContent method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.properties/documentproperty/get_islinktocontent/
 Shows whether this property is linked to content or not.
 
 ```cpp
-bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
+_Bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
 ```
-
 
 ## Examples
 
 
+Shows how to link a custom document property to a bookmark.
 
-Shows how to link a custom document property to a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,6 @@ ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

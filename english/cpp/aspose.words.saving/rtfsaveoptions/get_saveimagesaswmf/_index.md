@@ -4,7 +4,7 @@ linktitle: get_SaveImagesAsWmf
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf method. When true all images will be saved as WMF in C++.'
 type: docs
-weight: 6000
+weight: 8858
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_saveimagesaswmf/
 ---
 ## RtfSaveOptions::get_SaveImagesAsWmf method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/get_saveimagesaswmf/
 When **true** all images will be saved as WMF.
 
 ```cpp
-bool Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf() const
+_Bool Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf() const
 ```
 
+## Remarks
 
+ This option might help to avoid WordPad warning messages. 
 ## Examples
 
 
+Shows how to convert all images in a document to the Windows Metafile format as we save the document as an RTF.
 
-Shows how to convert all images in a document to the Windows Metafile format as we save the document as an RTF. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +65,6 @@ else
     ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
 }
 ```
-
 ## See Also
 
 * Class [RtfSaveOptions](../)

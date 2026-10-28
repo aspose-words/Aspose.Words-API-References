@@ -4,13 +4,13 @@ linktitle: get_Certificate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::CertificateHolder::get_Certificate method. Returns the instance of X509Certificate2 which holds private, public keys and certificate chain in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.digitalsignatures/certificateholder/get_certificate/
 ---
 ## CertificateHolder::get_Certificate method
 
 
-Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain.
+Returns the instance of X509Certificate2 which holds private, public keys and certificate chain.
 
 ```cpp
 System::SharedPtr<System::Security::Cryptography::X509Certificates::X509Certificate2> Aspose::Words::DigitalSignatures::CertificateHolder::get_Certificate()
@@ -20,12 +20,11 @@ System::SharedPtr<System::Security::Cryptography::X509Certificates::X509Certific
 ### ReturnValue
 
 **X509Certificate2****X509Certificate2** instance
-
 ## Examples
 
 
+Shows how to validate and display information about each signature in a document.
 
-Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
@@ -40,7 +39,6 @@ for (auto&& signature : doc->get_DigitalSignatures())
     std::cout << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [CertificateHolder](../)

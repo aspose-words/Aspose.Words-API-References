@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/iterator_holder_typ
 
 
 ```cpp
-using Aspose::Words::MailMerging::MappedDataFieldCollection::iterator_holder_type =  System::Collections::Generic::Dictionary<System::String, System::String>
+using Aspose::Words::MailMerging::MappedDataFieldCollection::iterator_holder_type = System::Collections::Generic::Dictionary<System::String, System::String>
 ```
 
 ## See Also

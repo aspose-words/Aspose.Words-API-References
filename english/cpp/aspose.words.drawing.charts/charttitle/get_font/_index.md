@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartTitle::get_Font method. Provides access to the font formatting of the chart title in C++.'
 type: docs
-weight: 1500
+weight: 6112
 url: /cpp/aspose.words.drawing.charts/charttitle/get_font/
 ---
 ## ChartTitle::get_Font method
@@ -16,12 +16,11 @@ Provides access to the font formatting of the chart title.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartTitle::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a chart and set a title.
 
-Shows how to insert a chart and set a title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,10 +43,8 @@ title->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ChartTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

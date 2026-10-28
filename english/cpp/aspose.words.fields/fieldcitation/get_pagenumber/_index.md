@@ -4,7 +4,7 @@ linktitle: get_PageNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCitation::get_PageNumber method. Gets a page number associated with the citation in C++.'
 type: docs
-weight: 4000
+weight: 13336
 url: /cpp/aspose.words.fields/fieldcitation/get_pagenumber/
 ---
 ## FieldCitation::get_PageNumber method

@@ -16,12 +16,11 @@ Serves as a hash function for this type.
 int32_t Aspose::Words::Tables::PreferredWidth::GetHashCode() const override
 ```
 
-
 ## Examples
 
 
+Shows how to set a preferred width for table cells.
 
-Shows how to set a preferred width for table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ builder->Writeln(u"Automatically sized cell.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
-
 ## See Also
 
 * Class [PreferredWidth](../)

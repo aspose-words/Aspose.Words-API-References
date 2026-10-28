@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Markup::StructuredDocumentTagRangeStart class in C++.'
 type: docs
-weight: 1000
+weight: 27048
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/type/
 ---
 ## StructuredDocumentTagRangeStart::Type method

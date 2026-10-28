@@ -2,7 +2,7 @@
 title: Aspose::Words::WebExtensions::WebExtension class
 linktitle: WebExtension
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::WebExtension class. Represents a web extension object. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WebExtensions::WebExtension class. Represents a web extension object. To learn more, visit the Work with Office Add-ins documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.webextensions/webextension/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.webextensions/webextension/
 ## WebExtension class
 
 
-Represents a web extension object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
+Represents a web extension object. 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 class WebExtension : public System::Object
@@ -20,23 +21,22 @@ class WebExtension : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AlternateReferences](./get_alternatereferences/)() const | Specifies alternate references to a web extension. |
 | [get_Bindings](./get_bindings/)() const | Specifies a list of web extension bindings. |
 | [get_Id](./get_id/)() const | Uniquely identifies the web extension instance in the current document. |
 | [get_IsFrozen](./get_isfrozen/)() const | Specifies whether the user can interact with the web extension or not. |
 | [get_Properties](./get_properties/)() const | Represents a set of web extension custom properties. |
 | [get_Reference](./get_reference/)() const | Specifies the primary reference to an web extension. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Id](./set_id/)(const System::String\&) | Setter for [Aspose::Words::WebExtensions::WebExtension::get_Id](./get_id/). |
-| [set_IsFrozen](./set_isfrozen/)(bool) | Setter for [Aspose::Words::WebExtensions::WebExtension::get_IsFrozen](./get_isfrozen/). |
-| static [Type](./type/)() |  |
-
+| [set_Id](./set_id/)(const System::String \&) | Uniquely identifies the web extension instance in the current document. |
+| [set_IsFrozen](./set_isfrozen/)(bool) | Specifies whether the user can interact with the web extension or not. |
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -101,7 +101,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

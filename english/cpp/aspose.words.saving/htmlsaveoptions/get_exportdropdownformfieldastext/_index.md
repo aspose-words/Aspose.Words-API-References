@@ -4,7 +4,7 @@ linktitle: get_ExportDropDownFormFieldAsText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText method. Controls how drop-down form fields are saved to HTML or MHTML. Default value is false in C++.'
 type: docs
-weight: 15000
+weight: 49273
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions::get_ExportDropDownFormFieldAsText method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdropdownformfieldastext/
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText() const
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText()
 When set to **true**, exports drop-down form fields as normal text. When **false**, exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
-
 ## Examples
 
 
+Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html.
 
-Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(System::String(u"<select name=\"MyComboBox\">") + u"<option>One</option>" + u"<option selected=\"selected\">Two</option>" + u"<option>Three</option>" + u"</select>"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

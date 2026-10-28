@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldOptions::set_TemplateName method
 linktitle: set_TemplateName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldOptions::set_TemplateName method. Setter for Aspose::Words::Fields::FieldOptions::get_TemplateName in C++.'
+description: 'Aspose::Words::Fields::FieldOptions::set_TemplateName method. Sets the file name of the template used by the document in C++.'
 type: docs
 weight: 42000
 url: /cpp/aspose.words.fields/fieldoptions/set_templatename/
@@ -10,12 +10,43 @@ url: /cpp/aspose.words.fields/fieldoptions/set_templatename/
 ## FieldOptions::set_TemplateName method
 
 
-Setter for [Aspose::Words::Fields::FieldOptions::get_TemplateName](../get_templatename/).
+Sets the file name of the template used by the document.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_TemplateName(const System::String &value)
+void Aspose::Words::Fields::FieldOptions::set_TemplateName(const System::String & value)
 ```
 
+## Remarks
+
+
+This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property is empty.
+
+If this property is empty, the default template file name **Normal.dotm** is used.
+## Examples
+
+
+Shows how to use a TEMPLATE field to display the local file system location of a document's template.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// We can set a template name using by the fields. This property is used when the "doc.AttachedTemplate" is empty.
+// If this property is empty the default template file name "Normal.dotm" is used.
+doc->get_FieldOptions()->set_TemplateName(System::String::Empty);
+
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
+
+builder->Writeln();
+field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+field->set_IncludeFullPath(true);
+
+ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
+```
 ## See Also
 
 * Class [FieldOptions](../)

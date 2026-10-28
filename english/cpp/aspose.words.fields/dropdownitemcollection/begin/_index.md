@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use begin method of Aspose::Words::Fields::DropDownItemCollection class in C++.'
 type: docs
-weight: 3000
+weight: 18223
 url: /cpp/aspose.words.fields/dropdownitemcollection/begin/
 ---
 ## DropDownItemCollection::begin() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/begin/
 
 
 ```cpp
-const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const noexcept
+const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const noex
 
 
 ```cpp
-iterator Aspose::Words::Fields::DropDownItemCollection::begin() noexcept
+iterator Aspose::Words::Fields::DropDownItemCollection::begin()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

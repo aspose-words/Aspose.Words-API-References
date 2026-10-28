@@ -4,7 +4,7 @@ linktitle: get_Layout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextWatermarkOptions::get_Layout method. Gets or sets layout of the watermark. The default value is Diagonal in C++.'
 type: docs
-weight: 7000
+weight: 9875
 url: /cpp/aspose.words/textwatermarkoptions/get_layout/
 ---
 ## TextWatermarkOptions::get_Layout method
@@ -16,12 +16,11 @@ Gets or sets layout of the watermark. The default value is [Diagonal](../../wate
 Aspose::Words::WatermarkLayout Aspose::Words::TextWatermarkOptions::get_Layout() const
 ```
 
-
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,10 +46,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
-
 ## See Also
 
-* Enum [WatermarkLayout](../../watermarklayout/)
 * Class [TextWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

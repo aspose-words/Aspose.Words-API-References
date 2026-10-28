@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Title method. Provides access to the axis title properties in C++.'
 type: docs
-weight: 28500
+weight: 31930
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_title/
 ---
 ## ChartAxis::get_Title method
@@ -16,12 +16,11 @@ Provides access to the axis title properties.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxisTitle> Aspose::Words::Drawing::Charts::ChartAxis::get_Title()
 ```
 
-
 ## Examples
 
 
+Shows how to set chart axis title.
 
-Shows how to set chart axis title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ chartAxisYTitle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
 ```
-
 ## See Also
 
-* Class [ChartAxisTitle](../../chartaxistitle/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

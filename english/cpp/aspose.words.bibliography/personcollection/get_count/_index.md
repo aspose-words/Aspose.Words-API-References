@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::get_Count method. Gets the number of persons contained in the collection in C++.'
 type: docs
-weight: 6000
+weight: 14000
 url: /cpp/aspose.words.bibliography/personcollection/get_count/
 ---
 ## PersonCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of persons contained in the collection.
 int32_t Aspose::Words::Bibliography::PersonCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,7 +113,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Class [PersonCollection](../)

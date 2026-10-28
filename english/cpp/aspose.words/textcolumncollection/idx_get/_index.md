@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::idx_get method. Returns a text column at the specified index in C++.'
 type: docs
-weight: 8000
+weight: 20000
 url: /cpp/aspose.words/textcolumncollection/idx_get/
 ---
 ## TextColumnCollection::idx_get method
@@ -16,12 +16,11 @@ Returns a text column at the specified index.
 System::SharedPtr<Aspose::Words::TextColumn> Aspose::Words::TextColumnCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to create unevenly spaced columns.
 
-Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,10 +50,8 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
-
 ## See Also
 
-* Class [TextColumn](../../textcolumn/)
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

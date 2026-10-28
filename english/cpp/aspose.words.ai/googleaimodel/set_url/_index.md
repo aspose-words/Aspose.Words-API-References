@@ -4,7 +4,7 @@ linktitle: set_Url
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::GoogleAiModel::set_Url method. Sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/" in C++.'
 type: docs
-weight: 3500
+weight: 8000
 url: /cpp/aspose.words.ai/googleaimodel/set_url/
 ---
 ## GoogleAiModel::set_Url method

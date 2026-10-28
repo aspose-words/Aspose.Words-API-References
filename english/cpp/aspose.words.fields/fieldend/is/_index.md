@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldend/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldEnd::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldEnd::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

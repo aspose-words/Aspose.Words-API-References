@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_StyleIdentifier method. Gets the locale independent style identifier for a built-in style in C++.'
 type: docs
-weight: 17000
+weight: 22828
 url: /cpp/aspose.words/style/get_styleidentifier/
 ---
 ## Style::get_StyleIdentifier method
@@ -20,12 +20,11 @@ Aspose::Words::StyleIdentifier Aspose::Words::Style::get_StyleIdentifier() const
 
 
 For user defined (custom) styles, this property returns [User](../../styleidentifier/).
-
 ## Examples
 
 
+Shows how to modify the position of the right tab stop in TOC related paragraphs.
 
-Shows how to modify the position of the right tab stop in TOC related paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table of contents.docx"));
 
@@ -45,10 +44,8 @@ for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNo
 
 doc->Save(get_ArtifactsDir() + u"Styles.ChangeTocsTabStops.docx");
 ```
-
 ## See Also
 
-* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

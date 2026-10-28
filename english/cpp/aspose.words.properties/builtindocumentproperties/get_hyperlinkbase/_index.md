@@ -4,7 +4,7 @@ linktitle: get_HyperlinkBase
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinkBase method. Specifies the base string used for evaluating relative hyperlinks in this document in C++.'
 type: docs
-weight: 13000
+weight: 36350
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_hyperlinkbase/
 ---
 ## BuiltInDocumentProperties::get_HyperlinkBase method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Hyperli
 
 
 Aspose.Words does not use this property.
-
 ## Examples
 
 
+Shows how to store the base part of a hyperlink in the document's properties.
 
-Shows how to store the base part of a hyperlink in the document's properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::IO::File::Exists(properties->get_HyperlinkBase() + (System::
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

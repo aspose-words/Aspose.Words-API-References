@@ -16,12 +16,11 @@ If the [Row](../) has no cells, creates and appends one [Cell](../../cell/).
 void Aspose::Words::Tables::Row::EnsureMinimum()
 ```
 
-
 ## Examples
 
 
+Shows how to ensure a row node contains the nodes we need to begin adding content to it.
 
-Shows how to ensure a row node contains the nodes we need to begin adding content to it. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto table = System::MakeObject<Aspose::Words::Tables::Table>(doc);
@@ -38,7 +37,6 @@ ASSERT_EQ(0, row->GetChildNodes(NodeType::Any, true)->get_Count());
 row->EnsureMinimum();
 row->get_FirstCell()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
-
 ## See Also
 
 * Class [Row](../)

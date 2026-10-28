@@ -2,7 +2,7 @@
 title: Aspose::Words::Revision class
 linktitle: Revision
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Revision class. Represents a revision (tracked change) in a document node or style. Use RevisionType to check the type of this revision. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Revision class. Represents a revision (tracked change) in a document node or style. Use RevisionType to check the type of this revision. To learn more, visit the Track Changes in a Document documentation article in C++.'
 type: docs
 weight: 52000
 url: /cpp/aspose.words/revision/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/revision/
 ## Revision class
 
 
-Represents a revision (tracked change) in a document node or style. Use [RevisionType](./get_revisiontype/) to check the type of this revision. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
+Represents a revision (tracked change) in a document node or style. Use [RevisionType](./get_revisiontype/) to check the type of this revision. 
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
 
 ```cpp
 class Revision : public System::Object
@@ -21,24 +22,23 @@ class Revision : public System::Object
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)() | Accepts this revision. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Reject](./reject/)() | Reject this revision. |
+| static [Type](./type/)() |  |
 | [get_Author](./get_author/)() | Gets or sets the author of this revision. Can not be empty string or **null**. |
 | [get_DateTime](./get_datetime/)() | Gets or sets the date/time of this revision. |
 | [get_Group](./get_group/)() | Gets the revision group. Returns **null** if the revision does not belong to any group. |
 | [get_ParentNode](./get_parentnode/)() | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than [StyleDefinitionChange](../revisiontype/). |
 | [get_ParentStyle](./get_parentstyle/)() | Gets the immediate parent style (owner) of this revision. This property will work for only for the [StyleDefinitionChange](../revisiontype/) revision type. |
 | [get_RevisionType](./get_revisiontype/)() const | Gets the type of this revision. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Reject](./reject/)() | Reject this revision. |
-| [set_Author](./set_author/)(const System::String\&) | Setter for [Aspose::Words::Revision::get_Author](./get_author/). |
-| [set_DateTime](./set_datetime/)(System::DateTime) | Setter for [Aspose::Words::Revision::get_DateTime](./get_datetime/). |
-| static [Type](./type/)() |  |
-
+| [set_Author](./set_author/)(const System::String \&) | Sets the author of this revision. Can not be empty string or **null**. |
+| [set_DateTime](./set_datetime/)(System::DateTime) | Sets the date/time of this revision. |
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -114,7 +114,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

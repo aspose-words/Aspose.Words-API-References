@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentconverterplugin/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IDocumentConverterPlugin::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IDocumentConverterPlugin::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

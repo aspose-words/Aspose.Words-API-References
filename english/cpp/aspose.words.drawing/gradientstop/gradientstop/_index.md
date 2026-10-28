@@ -4,7 +4,7 @@ linktitle: GradientStop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GradientStop::GradientStop constructor. Initializes a new instance of the GradientStop class in C++.'
 type: docs
-weight: 2000
+weight: 6500
 url: /cpp/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop::GradientStop(System::Drawing::Color, double) constructor
@@ -21,12 +21,11 @@ Aspose::Words::Drawing::GradientStop::GradientStop(System::Drawing::Color color,
 | --- | --- | --- |
 | color | System::Drawing::Color | Represents the color of the gradient stop. |
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +72,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [GradientStop](../)
@@ -94,12 +92,11 @@ Aspose::Words::Drawing::GradientStop::GradientStop(System::Drawing::Color color,
 | color | System::Drawing::Color | Represents the color of the gradient stop. |
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -146,7 +143,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [GradientStop](../)

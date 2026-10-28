@@ -4,34 +4,33 @@ linktitle: Section
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::Section constructor. Initializes a new instance of the Section class in C++.'
 type: docs
-weight: 2000
+weight: 17125
 url: /cpp/aspose.words/section/section/
 ---
 ## Section::Section constructor
 
 
-Initializes a new instance of the [Section](../) class.
+Initializes a new instance of the Section class.
 
 ```cpp
-Aspose::Words::Section::Section(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
+Aspose::Words::Section::Section(const System::SharedPtr<Aspose::Words::DocumentBase> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 ## Remarks
 
 
 When the section is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To include [Section](../) into a document use [InsertAfter1()</see> and <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) methods of the [Document](../../document/) OR [Add()](../) and [Insert()](../) methods of the [Sections](../../document/get_sections/) property.
-
+To include [Section](../) into a document use [InsertAfter()](../../compositenode/insertafter/) and [InsertBefore()](../../compositenode/insertbefore/) methods of the [Document](../../document/) OR [Add()](../../nodecollection/add/) and [Insert()](../../nodecollection/insert/) methods of the [Sections](../../document/get_sections/) property.
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,10 +73,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

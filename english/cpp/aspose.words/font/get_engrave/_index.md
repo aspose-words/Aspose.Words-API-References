@@ -4,7 +4,7 @@ linktitle: get_Engrave
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Engrave method. True if the font is formatted as engraved in C++.'
 type: docs
-weight: 14000
+weight: 59234
 url: /cpp/aspose.words/font/get_engrave/
 ---
 ## Font::get_Engrave method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/font/get_engrave/
 True if the font is formatted as engraved.
 
 ```cpp
-bool Aspose::Words::Font::get_Engrave()
+_Bool Aspose::Words::Font::get_Engrave()
 ```
-
 
 ## Examples
 
 
+Shows how to apply engraving/embossing effects to text.
 
-Shows how to apply engraving/embossing effects to text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ builder->Writeln(u"This text is embossed.");
 
 doc->Save(get_ArtifactsDir() + u"Font.EngraveEmboss.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

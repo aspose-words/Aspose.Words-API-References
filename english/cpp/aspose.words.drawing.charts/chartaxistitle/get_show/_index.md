@@ -4,7 +4,7 @@ linktitle: get_Show
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show method. Determines whether the title shall be shown for the axis. The default value is false in C++.'
 type: docs
-weight: 5000
+weight: 8390
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_show/
 ---
 ## ChartAxisTitle::get_Show method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_show/
 Determines whether the title shall be shown for the axis. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show()
+_Bool Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show()
 ```
-
 
 ## Examples
 
 
+Shows how to set chart axis title.
 
-Shows how to set chart axis title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +46,6 @@ chartAxisYTitle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxisTitle](../)

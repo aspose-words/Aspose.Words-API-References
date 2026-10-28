@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iwarningcallback/
 Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving.
 
 ```cpp
-class IWarningCallback : public virtual System::Object
+class IWarningCallback : public System::Object
 ```
 
 ## Methods
@@ -21,15 +21,14 @@ class IWarningCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
 | virtual [Warning](./warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -58,7 +57,6 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

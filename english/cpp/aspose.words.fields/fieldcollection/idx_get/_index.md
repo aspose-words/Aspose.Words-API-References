@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCollection::idx_get method. Returns a field at the specified index in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words.fields/fieldcollection/idx_get/
 ---
 ## FieldCollection::idx_get method
@@ -30,12 +30,11 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,10 +69,8 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
-* Class [Field](../../field/)
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

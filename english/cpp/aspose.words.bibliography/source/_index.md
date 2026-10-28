@@ -20,11 +20,15 @@ class Source : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Source](./source/)(const System::String \&, Aspose::Words::Bibliography::SourceType) | Initialize a new instance of the [Source](./) class. |
+| static [Type](./type/)() |  |
 | [get_AbbreviatedCaseNumber](./get_abbreviatedcasenumber/)() const | Gets or sets the abbreviated case number of a source. |
 | [get_AlbumTitle](./get_albumtitle/)() const | Gets or sets the album title of a source. |
 | [get_BookTitle](./get_booktitle/)() const | Gets or sets the book title of a source. |
-| [get_Broadcaster](./get_broadcaster/)() const | Gets or sets the broadcaster of a source. |
 | [get_BroadcastTitle](./get_broadcasttitle/)() const | Gets or sets the broadcast title of a source. |
+| [get_Broadcaster](./get_broadcaster/)() const | Gets or sets the broadcaster of a source. |
 | [get_CaseNumber](./get_casenumber/)() const | Gets or sets the case number of a source. |
 | [get_ChapterNumber](./get_chapternumber/)() const | Gets or sets the chapter number of a source. |
 | [get_City](./get_city/)() const | Gets or sets the city of a source. |
@@ -73,68 +77,63 @@ class Source : public System::Object
 | [get_Volume](./get_volume/)() const | Gets or sets the volume of a source. |
 | [get_Year](./get_year/)() const | Gets or sets the year of a source. |
 | [get_YearAccessed](./get_yearaccessed/)() const | Gets or sets the year accessed of a source. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AbbreviatedCaseNumber](./set_abbreviatedcasenumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber](./get_abbreviatedcasenumber/). |
-| [set_AlbumTitle](./set_albumtitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_AlbumTitle](./get_albumtitle/). |
-| [set_BookTitle](./set_booktitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_BookTitle](./get_booktitle/). |
-| [set_Broadcaster](./set_broadcaster/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Broadcaster](./get_broadcaster/). |
-| [set_BroadcastTitle](./set_broadcasttitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_BroadcastTitle](./get_broadcasttitle/). |
-| [set_CaseNumber](./set_casenumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_CaseNumber](./get_casenumber/). |
-| [set_ChapterNumber](./set_chapternumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_ChapterNumber](./get_chapternumber/). |
-| [set_City](./set_city/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_City](./get_city/). |
-| [set_Comments](./set_comments/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Comments](./get_comments/). |
-| [set_ConferenceName](./set_conferencename/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_ConferenceName](./get_conferencename/). |
-| [set_CountryOrRegion](./set_countryorregion/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_CountryOrRegion](./get_countryorregion/). |
-| [set_Court](./set_court/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Court](./get_court/). |
-| [set_Day](./set_day/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Day](./get_day/). |
-| [set_DayAccessed](./set_dayaccessed/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_DayAccessed](./get_dayaccessed/). |
-| [set_Department](./set_department/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Department](./get_department/). |
-| [set_Distributor](./set_distributor/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Distributor](./get_distributor/). |
-| [set_Doi](./set_doi/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Doi](./get_doi/). |
-| [set_Edition](./set_edition/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Edition](./get_edition/). |
-| [set_Guid](./set_guid/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Guid](./get_guid/). |
-| [set_Institution](./set_institution/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Institution](./get_institution/). |
-| [set_InternetSiteTitle](./set_internetsitetitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_InternetSiteTitle](./get_internetsitetitle/). |
-| [set_Issue](./set_issue/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Issue](./get_issue/). |
-| [set_JournalName](./set_journalname/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_JournalName](./get_journalname/). |
-| [set_Lcid](./set_lcid/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Lcid](./get_lcid/). |
-| [set_Medium](./set_medium/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Medium](./get_medium/). |
-| [set_Month](./set_month/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Month](./get_month/). |
-| [set_MonthAccessed](./set_monthaccessed/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_MonthAccessed](./get_monthaccessed/). |
-| [set_NumberVolumes](./set_numbervolumes/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_NumberVolumes](./get_numbervolumes/). |
-| [set_Pages](./set_pages/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Pages](./get_pages/). |
-| [set_PatentNumber](./set_patentnumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_PatentNumber](./get_patentnumber/). |
-| [set_PeriodicalTitle](./set_periodicaltitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_PeriodicalTitle](./get_periodicaltitle/). |
-| [set_ProductionCompany](./set_productioncompany/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_ProductionCompany](./get_productioncompany/). |
-| [set_PublicationTitle](./set_publicationtitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_PublicationTitle](./get_publicationtitle/). |
-| [set_Publisher](./set_publisher/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Publisher](./get_publisher/). |
-| [set_RecordingNumber](./set_recordingnumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_RecordingNumber](./get_recordingnumber/). |
-| [set_RefOrder](./set_reforder/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_RefOrder](./get_reforder/). |
-| [set_Reporter](./set_reporter/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Reporter](./get_reporter/). |
-| [set_ShortTitle](./set_shorttitle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_ShortTitle](./get_shorttitle/). |
-| [set_SourceType](./set_sourcetype/)(Aspose::Words::Bibliography::SourceType) | Setter for [Aspose::Words::Bibliography::Source::get_SourceType](./get_sourcetype/). |
-| [set_StandardNumber](./set_standardnumber/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_StandardNumber](./get_standardnumber/). |
-| [set_StateOrProvince](./set_stateorprovince/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_StateOrProvince](./get_stateorprovince/). |
-| [set_Station](./set_station/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Station](./get_station/). |
-| [set_Tag](./set_tag/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Tag](./get_tag/). |
-| [set_Theater](./set_theater/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Theater](./get_theater/). |
-| [set_ThesisType](./set_thesistype/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_ThesisType](./get_thesistype/). |
-| [set_Title](./set_title/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Title](./get_title/). |
-| [set_Type](./set_type/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Type](./get_type/). |
-| [set_Url](./set_url/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Url](./get_url/). |
-| [set_Version](./set_version/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Version](./get_version/). |
-| [set_Volume](./set_volume/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Volume](./get_volume/). |
-| [set_Year](./set_year/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_Year](./get_year/). |
-| [set_YearAccessed](./set_yearaccessed/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Source::get_YearAccessed](./get_yearaccessed/). |
-| [Source](./source/)(const System::String\&, Aspose::Words::Bibliography::SourceType) | Initialize a new instance of the [Source](./) class. |
-| static [Type](./type/)() |  |
-
+| [set_AbbreviatedCaseNumber](./set_abbreviatedcasenumber/)(const System::String \&) | Sets the abbreviated case number of a source. |
+| [set_AlbumTitle](./set_albumtitle/)(const System::String \&) | Sets the album title of a source. |
+| [set_BookTitle](./set_booktitle/)(const System::String \&) | Sets the book title of a source. |
+| [set_BroadcastTitle](./set_broadcasttitle/)(const System::String \&) | Sets the broadcast title of a source. |
+| [set_Broadcaster](./set_broadcaster/)(const System::String \&) | Sets the broadcaster of a source. |
+| [set_CaseNumber](./set_casenumber/)(const System::String \&) | Sets the case number of a source. |
+| [set_ChapterNumber](./set_chapternumber/)(const System::String \&) | Sets the chapter number of a source. |
+| [set_City](./set_city/)(const System::String \&) | Sets the city of a source. |
+| [set_Comments](./set_comments/)(const System::String \&) | Sets the comments of a source. |
+| [set_ConferenceName](./set_conferencename/)(const System::String \&) | Sets the conference or proceedings name of a source. |
+| [set_CountryOrRegion](./set_countryorregion/)(const System::String \&) | Sets the country or region of a source. |
+| [set_Court](./set_court/)(const System::String \&) | Sets the court of a source. |
+| [set_Day](./set_day/)(const System::String \&) | Sets the day of a source. |
+| [set_DayAccessed](./set_dayaccessed/)(const System::String \&) | Sets the day accessed of a source. |
+| [set_Department](./set_department/)(const System::String \&) | Sets the department of a source. |
+| [set_Distributor](./set_distributor/)(const System::String \&) | Sets the distributor of a source. |
+| [set_Doi](./set_doi/)(const System::String \&) | Sets the digital object identifier. |
+| [set_Edition](./set_edition/)(const System::String \&) | Sets the editor of a source. |
+| [set_Guid](./set_guid/)(const System::String \&) | Sets the guid of a source. |
+| [set_Institution](./set_institution/)(const System::String \&) | Sets the institution of a source. |
+| [set_InternetSiteTitle](./set_internetsitetitle/)(const System::String \&) | Sets the internet site title of a source. |
+| [set_Issue](./set_issue/)(const System::String \&) | Sets the issue of a source. |
+| [set_JournalName](./set_journalname/)(const System::String \&) | Sets the journal name of a source. |
+| [set_Lcid](./set_lcid/)(const System::String \&) | Sets the locale ID of a source. |
+| [set_Medium](./set_medium/)(const System::String \&) | Sets the medium of a source. |
+| [set_Month](./set_month/)(const System::String \&) | Sets the month of a source. |
+| [set_MonthAccessed](./set_monthaccessed/)(const System::String \&) | Sets the month accessed of a source. |
+| [set_NumberVolumes](./set_numbervolumes/)(const System::String \&) | Sets the number of volumes of a source. |
+| [set_Pages](./set_pages/)(const System::String \&) | Sets the pages of a source. |
+| [set_PatentNumber](./set_patentnumber/)(const System::String \&) | Sets the patent number of a source. |
+| [set_PeriodicalTitle](./set_periodicaltitle/)(const System::String \&) | Sets the periodical title of a source. |
+| [set_ProductionCompany](./set_productioncompany/)(const System::String \&) | Sets the production company of a source. |
+| [set_PublicationTitle](./set_publicationtitle/)(const System::String \&) | Sets the publication title of a source. |
+| [set_Publisher](./set_publisher/)(const System::String \&) | Sets the publisher of a source. |
+| [set_RecordingNumber](./set_recordingnumber/)(const System::String \&) | Sets the recording number of a source. |
+| [set_RefOrder](./set_reforder/)(const System::String \&) | Sets the reference order of a source. |
+| [set_Reporter](./set_reporter/)(const System::String \&) | Sets the reporter of a source. |
+| [set_ShortTitle](./set_shorttitle/)(const System::String \&) | Sets the short title of a source. |
+| [set_SourceType](./set_sourcetype/)(Aspose::Words::Bibliography::SourceType) | Sets the source type of a source. |
+| [set_StandardNumber](./set_standardnumber/)(const System::String \&) | Sets the standard number of a source. |
+| [set_StateOrProvince](./set_stateorprovince/)(const System::String \&) | Sets the state or province of a source. |
+| [set_Station](./set_station/)(const System::String \&) | Sets the station of a source. |
+| [set_Tag](./set_tag/)(const System::String \&) | Sets the identifying tag name of a source. |
+| [set_Theater](./set_theater/)(const System::String \&) | Sets the theater of a source. |
+| [set_ThesisType](./set_thesistype/)(const System::String \&) | Sets the thesis type of a source. |
+| [set_Title](./set_title/)(const System::String \&) | Sets the title of a source. |
+| [set_Type](./set_type/)(const System::String \&) | Sets the type of a source. |
+| [set_Url](./set_url/)(const System::String \&) | Sets the url of a source. |
+| [set_Version](./set_version/)(const System::String \&) | Sets the version of a source. |
+| [set_Volume](./set_volume/)(const System::String \&) | Sets the volume of a source. |
+| [set_Year](./set_year/)(const System::String \&) | Sets the year of a source. |
+| [set_YearAccessed](./set_yearaccessed/)(const System::String \&) | Sets the year accessed of a source. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -227,7 +226,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

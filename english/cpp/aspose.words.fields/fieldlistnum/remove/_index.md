@@ -16,12 +16,11 @@ Removes the field from the document. Returns a node right after the field. If th
 System::SharedPtr<Aspose::Words::Node> Aspose::Words::Fields::FieldListNum::Remove() override
 ```
 
-
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +55,8 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
-* Class [Node](../../../aspose.words/node/)
 * Class [FieldListNum](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

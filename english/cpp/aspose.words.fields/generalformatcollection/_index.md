@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::GeneralFormatCollection class
 linktitle: GeneralFormatCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::GeneralFormatCollection class. Represents a typed collection of general formats. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::GeneralFormatCollection class. Represents a typed collection of general formats. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 114000
 url: /cpp/aspose.words.fields/generalformatcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/generalformatcollection/
 ## GeneralFormatCollection class
 
 
-Represents a typed collection of general formats. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Represents a typed collection of general formats. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class GeneralFormatCollection : public System::Collections::Generic::IEnumerable<Aspose::Words::Fields::GeneralFormat>
@@ -21,20 +22,19 @@ class GeneralFormatCollection : public System::Collections::Generic::IEnumerable
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Fields::GeneralFormat) | Adds a general format to the collection. |
-| [get_Count](./get_count/)() | Gets the total number of the items in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets a general format at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(Aspose::Words::Fields::GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a general format occurrence at the specified index. |
 | static [Type](./type/)() |  |
-
+| [get_Count](./get_count/)() | Gets the total number of the items in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets a general format at the specified index. |
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -95,7 +95,6 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

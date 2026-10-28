@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisgroup/
 Represents a type of a chart axis group.
 
 ```cpp
-enum class AxisGroup
+enum class AxisGroup : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class AxisGroup
 | Primary | 0 | Specifies the primary axis group. |
 | Secondary | 1 | Specifies the secondary axis group. |
 
-
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

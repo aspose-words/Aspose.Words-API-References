@@ -4,7 +4,7 @@ linktitle: get_ExportEmbeddedFonts
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts method. Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file in C++.'
 type: docs
-weight: 6000
+weight: 22230
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions::get_ExportEmbeddedFonts method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedfonts/
 Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts() const
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts() const
 ```
-
 
 ## Examples
 
 
+Shows how to determine where to store embedded fonts when exporting a document to Html.
 
-Shows how to determine where to store embedded fonts when exporting a document to Html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
@@ -56,7 +55,6 @@ else
     }))));
 }
 ```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

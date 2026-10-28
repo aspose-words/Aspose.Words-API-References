@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_pagenumberlistseparator/
 Sets the character sequence that is used to separate two page numbers in a page number list.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_PageNumberListSeparator(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_PageNumberListSeparator(const System::String & value)
 ```
 
 ## See Also

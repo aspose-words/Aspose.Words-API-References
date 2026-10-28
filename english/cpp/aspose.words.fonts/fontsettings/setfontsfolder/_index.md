@@ -10,23 +10,22 @@ url: /cpp/aspose.words.fonts/fontsettings/setfontsfolder/
 ## FontSettings::SetFontsFolder method
 
 
-Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../) for setting only one font directory.
+Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../setfontsfolders/) for setting only one font directory.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String &fontFolder, bool recursive)
+void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String & fontFolder, bool recursive)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontFolder | const System::String\& | The folder that contains TrueType fonts. |
+| fontFolder | const System::String \& | The folder that contains TrueType fonts. |
 | recursive | bool | True to scan the specified folders for fonts recursively. |
-
 ## Examples
 
 
+Shows how to set a font source directory.
 
-Shows how to set a font source directory. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -99,7 +98,6 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolder.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
-
 ## See Also
 
 * Class [FontSettings](../)

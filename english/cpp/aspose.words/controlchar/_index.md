@@ -2,7 +2,7 @@
 title: Aspose::Words::ControlChar class
 linktitle: ControlChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ControlChar class. Control characters often encountered in documents. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ControlChar class. Control characters often encountered in documents. To learn more, visit the Working With Control Characters documentation article in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words/controlchar/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/controlchar/
 ## ControlChar class
 
 
-Control characters often encountered in documents. To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/cpp/working-with-control-characters/) documentation article.
+Control characters often encountered in documents. 
+To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/cpp/working-with-control-characters/) documentation article.
 
 ```cpp
 class ControlChar
@@ -53,12 +54,14 @@ class ControlChar
 | static constexpr [SectionBreakChar](./sectionbreakchar/) | End of section character: (char)12 or "\f". |
 | static constexpr [SpaceChar](./spacechar/) | Space character: (char)32. |
 | static constexpr [TabChar](./tabchar/) | Tab character: (char)9 or "\t". |
+## Remarks
 
+ Provides both char and string versions of the same constants. For example: string [LineBreak](./linebreak/) and char [LineBreakChar](./linebreakchar/) have the same value. 
 ## Examples
 
 
+Shows how to use control characters.
 
-Shows how to use control characters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,7 +78,6 @@ ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + System
 // we can omit some of the control characters with the Trim method.
 ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

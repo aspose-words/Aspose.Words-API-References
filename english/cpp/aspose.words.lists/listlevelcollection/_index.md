@@ -2,7 +2,7 @@
 title: Aspose::Words::Lists::ListLevelCollection class
 linktitle: ListLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Lists::ListLevelCollection class. A collection of list formatting for each level in a list. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Lists::ListLevelCollection class. A collection of list formatting for each level in a list. To learn more, visit the Working with Lists documentation article in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.lists/listlevelcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.lists/listlevelcollection/
 ## ListLevelCollection class
 
 
-A collection of list formatting for each level in a list. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
+A collection of list formatting for each level in a list. 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListLevelCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Lists::ListLevel>>
@@ -20,19 +21,19 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 
 | Method | Description |
 | --- | --- |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of levels in this list. |
 | [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate levels in this list. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets a list level by index. |
-| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Lists::ListLevel\>\&) | Gets a list level by index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() const |  |
+| [end](./end/)() |  |
+| [get_Count](./get_count/)() | Gets the number of levels in this list. |
+| [idx_get](./idx_get/)(int32_t) | Gets a list level by index. |
+| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Gets a list level by index. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -46,12 +47,11 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -104,8 +104,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -159,7 +159,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

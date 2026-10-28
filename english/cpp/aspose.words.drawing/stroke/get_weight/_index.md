@@ -4,7 +4,7 @@ linktitle: get_Weight
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_Weight method. Defines the brush thickness that strokes the path of a shape in points in C++.'
 type: docs
-weight: 21000
+weight: 23965
 url: /cpp/aspose.words.drawing/stroke/get_weight/
 ---
 ## Stroke::get_Weight method
@@ -20,12 +20,11 @@ double Aspose::Words::Drawing::Stroke::get_Weight()
 
 
 The default value for a [Shape](../../shape/) is 0.75.
-
 ## Examples
 
 
+Shows how change stroke properties.
 
-Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-
 ## See Also
 
 * Class [Stroke](../)

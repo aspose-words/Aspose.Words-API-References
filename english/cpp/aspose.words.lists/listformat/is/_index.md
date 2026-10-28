@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Lists::ListFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Lists::ListFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

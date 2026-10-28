@@ -4,7 +4,7 @@ linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::PhysicalFontInfo::get_Version method. Version string of the font in C++.'
 type: docs
-weight: 5000
+weight: 13000
 url: /cpp/aspose.words.fonts/physicalfontinfo/get_version/
 ---
 ## PhysicalFontInfo::get_Version method
@@ -16,12 +16,11 @@ Version string of the font.
 System::String Aspose::Words::Fonts::PhysicalFontInfo::get_Version() const
 ```
 
-
 ## Examples
 
 
+Shows how to list available fonts.
 
-Shows how to list available fonts. 
 ```cpp
 // Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> folderFontSource = System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({System::MakeObject<Aspose::Words::Fonts::FolderFontSource>(get_FontsDir(), true)});
@@ -35,7 +34,6 @@ for (auto&& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFont
     std::cout << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [PhysicalFontInfo](../)

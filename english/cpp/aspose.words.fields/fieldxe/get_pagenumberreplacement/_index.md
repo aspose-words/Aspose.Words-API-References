@@ -4,7 +4,7 @@ linktitle: get_PageNumberReplacement
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldXE::get_PageNumberReplacement method. Gets or sets text used in place of a page number in C++.'
 type: docs
-weight: 5000
+weight: 10556
 url: /cpp/aspose.words.fields/fieldxe/get_pagenumberreplacement/
 ---
 ## FieldXE::get_PageNumberReplacement method
@@ -16,12 +16,11 @@ Gets or sets text used in place of a page number.
 System::String Aspose::Words::Fields::FieldXE::get_PageNumberReplacement()
 ```
 
-
 ## Examples
 
 
+Shows how to define cross references in an INDEX field.
 
-Shows how to define cross references in an INDEX field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,7 +63,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.CrossReferenceSeparator.docx");
 ```
-
 ## See Also
 
 * Class [FieldXE](../)

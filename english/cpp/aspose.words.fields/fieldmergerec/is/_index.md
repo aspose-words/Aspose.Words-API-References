@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergerec/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldMergeRec::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldMergeRec::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

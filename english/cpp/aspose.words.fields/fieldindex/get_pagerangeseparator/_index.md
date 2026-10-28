@@ -4,7 +4,7 @@ linktitle: get_PageRangeSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_PageRangeSeparator method. Gets or sets the character sequence that is used to separate the start and end of a page range in C++.'
 type: docs
-weight: 13000
+weight: 19725
 url: /cpp/aspose.words.fields/fieldindex/get_pagerangeseparator/
 ---
 ## FieldIndex::get_PageRangeSeparator method
@@ -16,12 +16,11 @@ Gets or sets the character sequence that is used to separate the start and end o
 System::String Aspose::Words::Fields::FieldIndex::get_PageRangeSeparator()
 ```
 
-
 ## Examples
 
 
+Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry.
 
-Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +66,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.PageRangeBookmark.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

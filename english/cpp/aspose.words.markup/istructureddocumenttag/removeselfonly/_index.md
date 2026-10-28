@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/removeselfonly/
 Removes just this SDT node itself, but keeps the content of it inside the document tree.
 
 ```cpp
-virtual void Aspose::Words::Markup::IStructuredDocumentTag::RemoveSelfOnly()=0
+virtual void Aspose::Words::Markup::IStructuredDocumentTag::RemoveSelfOnly()
 ```
-
 
 ## Examples
 
 
+Shows how to remove structured document tag, but keeps content inside.
 
-Shows how to remove structured document tag, but keeps content inside. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
@@ -41,7 +40,6 @@ for (auto&& sdt : System::IterateOver(sdts))
 sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
 ASSERT_EQ(0, sdts->LINQ_Count());
 ```
-
 ## See Also
 
 * Interface [IStructuredDocumentTag](../)

@@ -4,7 +4,7 @@ linktitle: get_IsColumn
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bookmark::get_IsColumn method. Returns true if this bookmark is a table column bookmark in C++.'
 type: docs
-weight: 5000
+weight: 11556
 url: /cpp/aspose.words/bookmark/get_iscolumn/
 ---
 ## Bookmark::get_IsColumn method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/bookmark/get_iscolumn/
 Returns **true** if this bookmark is a table column bookmark.
 
 ```cpp
-bool Aspose::Words::Bookmark::get_IsColumn()
+_Bool Aspose::Words::Bookmark::get_IsColumn()
 ```
-
 
 ## Examples
 
 
+Shows how to get information about table column bookmarks.
 
-Shows how to get information about table column bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table column bookmarks.doc"));
 
@@ -41,7 +40,6 @@ for (auto&& bookmark : System::IterateOver(doc->get_Range()->get_Bookmarks()))
     }
 }
 ```
-
 ## See Also
 
 * Class [Bookmark](../)

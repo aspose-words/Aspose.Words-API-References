@@ -4,34 +4,33 @@ linktitle: Run
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::Run constructor. Initializes a new instance of the Run class in C++.'
 type: docs
-weight: 2000
+weight: 8143
 url: /cpp/aspose.words/run/run/
 ---
-## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
+## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&) constructor
 
 
 Initializes a new instance of the [Run](../) class.
 
 ```cpp
-Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
+Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 ## Remarks
 
 
 When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Run](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the run inserted.
-
+To append [Run](../) to the document use [InsertAfter()](../../compositenode/insertafter/) or [InsertBefore()](../../compositenode/insertbefore/) on the paragraph where you want the run inserted.
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,39 +73,36 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&) constructor
+## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, const System::String \&) constructor
 
 
-Initializes a new instance of the **Run** class.
+Initializes a new instance of the Run class.
 
 ```cpp
-Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, const System::String &text)
+Aspose::Words::Run::Run(const System::SharedPtr<Aspose::Words::DocumentBase> & doc, const System::String & text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
-| text | const System::String\& | The text of the run. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
+| text | const System::String \& | The text of the run. |
 ## Remarks
 
 
 When [Run](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Run](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the run inserted.
-
+To append [Run](../) to the document use [InsertAfter()](../../compositenode/insertafter/) or [InsertBefore()](../../compositenode/insertbefore/) on the paragraph where you want the run inserted.
 ## Examples
 
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -119,10 +115,8 @@ font->set_HighlightColor(System::Drawing::Color::get_Yellow());
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

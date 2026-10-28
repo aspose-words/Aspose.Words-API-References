@@ -4,7 +4,7 @@ linktitle: get_VerticalAnchor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextBox::get_VerticalAnchor method. Specifies the vertical alignment of the text within a shape in C++.'
 type: docs
-weight: 14000
+weight: 17929
 url: /cpp/aspose.words.drawing/textbox/get_verticalanchor/
 ---
 ## TextBox::get_VerticalAnchor method
@@ -20,12 +20,11 @@ Aspose::Words::Drawing::TextBoxAnchor Aspose::Words::Drawing::TextBox::get_Verti
 
 
 The default value is [Top](../../textboxanchor/).
-
 ## Examples
 
 
+Shows how to vertically align the text contents of a text box.
 
-Shows how to vertically align the text contents of a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ builder->Write(u"Hello world!");
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2007);
 doc->Save(get_ArtifactsDir() + u"Shape.VerticalAnchor.docx");
 ```
-
 ## See Also
 
-* Enum [TextBoxAnchor](../../textboxanchor/)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

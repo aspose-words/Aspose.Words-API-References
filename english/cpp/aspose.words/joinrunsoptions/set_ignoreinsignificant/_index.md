@@ -16,6 +16,9 @@ True indicates that the insignificant attributes of all runs will be ignored whe
 void Aspose::Words::JoinRunsOptions::set_IgnoreInsignificant(bool value)
 ```
 
+## Remarks
+
+ Insignificant attributes are those attributes that do not have a noticeable effect on the formatting of a run with the given text content. The default value is False. 
 ## See Also
 
 * Class [JoinRunsOptions](../)

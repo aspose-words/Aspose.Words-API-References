@@ -4,7 +4,7 @@ linktitle: WebExtensionProperty
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionProperty::WebExtensionProperty constructor. Creates web extension custom property with specified name and value in C++.'
 type: docs
-weight: 2000
+weight: 6400
 url: /cpp/aspose.words.webextensions/webextensionproperty/webextensionproperty/
 ---
 ## WebExtensionProperty::WebExtensionProperty constructor
@@ -13,20 +13,19 @@ url: /cpp/aspose.words.webextensions/webextensionproperty/webextensionproperty/
 Creates web extension custom property with specified name and value.
 
 ```cpp
-Aspose::Words::WebExtensions::WebExtensionProperty::WebExtensionProperty(const System::String &name, const System::String &value)
+Aspose::Words::WebExtensions::WebExtensionProperty::WebExtensionProperty(const System::String & name, const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Property name. |
-| value | const System::String\& | Property value. |
-
+| name | const System::String \& | Property name. |
+| value | const System::String \& | Property value. |
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -91,7 +90,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtensionProperty](../)

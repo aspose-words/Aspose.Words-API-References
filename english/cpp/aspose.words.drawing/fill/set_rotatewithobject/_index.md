@@ -4,7 +4,7 @@ linktitle: set_RotateWithObject
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::set_RotateWithObject method. Sets whether the fill rotates with the specified object in C++.'
 type: docs
-weight: 38000
+weight: 76000
 url: /cpp/aspose.words.drawing/fill/set_rotatewithobject/
 ---
 ## Fill::set_RotateWithObject method

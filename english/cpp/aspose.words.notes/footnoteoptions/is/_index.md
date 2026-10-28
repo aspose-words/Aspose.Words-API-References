@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnoteoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Notes::FootnoteOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Notes::FootnoteOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

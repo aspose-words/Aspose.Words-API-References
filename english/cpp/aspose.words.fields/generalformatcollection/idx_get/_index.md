@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::GeneralFormatCollection::idx_get method. Gets a general format at the specified index in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words.fields/generalformatcollection/idx_get/
 ---
 ## GeneralFormatCollection::idx_get method
@@ -24,12 +24,11 @@ Aspose::Words::Fields::GeneralFormat Aspose::Words::Fields::GeneralFormatCollect
 ### ReturnValue
 
 A general format.
-
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,10 +89,8 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
-* Enum [GeneralFormat](../../generalformat/)
 * Class [GeneralFormatCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

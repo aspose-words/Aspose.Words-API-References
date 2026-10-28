@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/gradientvariant/
 Specifies the variant for a gradient fill.
 
 ```cpp
-enum class GradientVariant
+enum class GradientVariant : int
 ```
 
 ### Values
@@ -26,12 +26,14 @@ enum class GradientVariant
 | Variant3 | 3 | Gradient variant 3. |
 | Variant4 | 4 | Gradient variant 4. |
 
+## Remarks
 
+ Corresponds to the four variants on the Gradient tab in the Fill Effects dialog box in Word. 
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +68,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

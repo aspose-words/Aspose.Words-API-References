@@ -7,25 +7,27 @@ type: docs
 weight: 37000
 url: /cpp/aspose.words/documentbuilder/inserthtml/
 ---
-## DocumentBuilder::InsertHtml(const System::String\&) method
+## DocumentBuilder::InsertHtml(const System::String \&) method
 
 
 Inserts an HTML string into the document.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html)
+void Aspose::Words::DocumentBuilder::InsertHtml(const System::String & html)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | const System::String\& | An HTML string to insert into the document. |
+| html | const System::String \& | An HTML string to insert into the document. |
+## Remarks
 
+ You can use this method to insert an HTML fragment or whole HTML document. 
 ## Examples
 
 
+Shows how to use a document builder to insert html content into a document.
 
-Shows how to use a document builder to insert html content into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,61 +54,60 @@ ASSERT_EQ(u"Heading 1", paragraphs->idx_get(3)->get_ParagraphFormat()->get_Style
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHtml.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertHtml(const System::String\&, Aspose::Words::HtmlInsertOptions) method
+## DocumentBuilder::InsertHtml(const System::String \&, Aspose::Words::HtmlInsertOptions) method
 
 
 Inserts an HTML string into the document. Allows to specify additional options.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html, Aspose::Words::HtmlInsertOptions options)
+void Aspose::Words::DocumentBuilder::InsertHtml(const System::String & html, Aspose::Words::HtmlInsertOptions options)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | const System::String\& | An HTML string to insert into the document. |
+| html | const System::String \& | An HTML string to insert into the document. |
 | options | Aspose::Words::HtmlInsertOptions | Options that are used when HTML string is inserted. |
+## Remarks
 
+ You can use this method to insert an HTML fragment or whole HTML document. 
 ## See Also
 
-* Enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertHtml(const System::String\&, bool) method
+## DocumentBuilder::InsertHtml(const System::String \&, bool) method
 
 
 Inserts an HTML string into the document.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::InsertHtml(const System::String &html, bool useBuilderFormatting)
+void Aspose::Words::DocumentBuilder::InsertHtml(const System::String & html, bool useBuilderFormatting)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | const System::String\& | An HTML string to insert into the document. |
+| html | const System::String \& | An HTML string to insert into the document. |
 | useBuilderFormatting | bool | A value indicating whether formatting specified in [DocumentBuilder](../) is used as base formatting for text imported from HTML. |
 ## Remarks
 
 
-You can use this method to insert an HTML fragment or whole HTML document.
+ You can use this method to insert an HTML fragment or whole HTML document. 
 
-When *useBuilderFormatting* is **false**, [DocumentBuilder](../) formatting is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
+ When useBuilderFormatting is **false**, [DocumentBuilder](../) formatting is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers. 
 
-When *useBuilderFormatting* is **true**, formatting of inserted text is based on [DocumentBuilder](../) formatting, and the text looks as if it were inserted with [Write()](../).
-
+ When useBuilderFormatting is **true**, formatting of inserted text is based on [DocumentBuilder](../) formatting, and the text looks as if it were inserted with [Write()](../write/). 
 ## Examples
 
 
+Shows how to apply a document builder's formatting while inserting HTML content.
 
-Shows how to apply a document builder's formatting while inserting HTML content. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -129,7 +130,6 @@ ASSERT_EQ(useBuilderFormatting ? ParagraphAlignment::Distributed : ParagraphAlig
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHtmlWithFormatting.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

@@ -4,7 +4,7 @@ linktitle: get_NoSubsetting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting method. Indicates the "No subsetting" restriction in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_nosubsetting/
 ---
 ## FontEmbeddingLicensingRights::get_NoSubsetting method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_nosubsetting/
 Indicates the "No subsetting" restriction.
 
 ```cpp
-bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting() const
+_Bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting() const
 ```
 
+## Remarks
 
+ When this flag is set, the font must not be subsetted prior to embedding. Other embedding restrictions also apply. 
 ## Examples
 
 
+Shows how to get license rights information for embedded fonts (FontInfo).
 
-Shows how to get license rights information for embedded fonts ([FontInfo](../../fontinfo/)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -38,7 +40,6 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
-
 ## See Also
 
 * Class [FontEmbeddingLicensingRights](../)

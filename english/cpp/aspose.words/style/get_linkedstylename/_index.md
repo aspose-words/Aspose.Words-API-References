@@ -4,7 +4,7 @@ linktitle: get_LinkedStyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_LinkedStyleName method. Gets/sets the name of the Style linked to this one. Returns empty string if no styles are linked in C++.'
 type: docs
-weight: 11000
+weight: 22440
 url: /cpp/aspose.words/style/get_linkedstylename/
 ---
 ## Style::get_LinkedStyleName method
@@ -24,12 +24,11 @@ It is only allowed to link the paragraph style to the character style and vice v
 Setting LinkedStyleName for the current style automatically leads to setting LinkedStyleName for the linked style.
 
 Assigning the empty string is equivalent to unlinking the previously linked style.
-
 ## Examples
 
 
+Shows how to use style aliases.
 
-Shows how to use style aliases. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Style with alias.docx"));
 
@@ -53,8 +52,8 @@ builder->Write(u"Hello again!");
 ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_Style(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
 
+Shows how to link styles among themselves.
 
-Shows how to link styles among themselves. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ styleHeading1->set_LinkedStyleName(u"Heading 1 Char");
 ASSERT_EQ(u"Heading 1 Char", styleHeading1->get_LinkedStyleName());
 ASSERT_EQ(u"Heading 1", styleHeading1Char->get_LinkedStyleName());
 ```
-
 ## See Also
 
 * Class [Style](../)

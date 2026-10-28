@@ -4,7 +4,7 @@ linktitle: get_LineSpacingRule
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_LineSpacingRule method. Gets or sets the line spacing for the paragraph in C++.'
 type: docs
-weight: 21000
+weight: 44483
 url: /cpp/aspose.words/paragraphformat/get_linespacingrule/
 ---
 ## ParagraphFormat::get_LineSpacingRule method
@@ -16,12 +16,11 @@ Gets or sets the line spacing for the paragraph.
 Aspose::Words::LineSpacingRule Aspose::Words::ParagraphFormat::get_LineSpacingRule()
 ```
 
-
 ## Examples
 
 
+Shows how to work with line spacing.
 
-Shows how to work with line spacing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ builder->Writeln(u"Line spacing of 1.5 default lines.");
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LineSpacing.docx");
 ```
-
 ## See Also
 
-* Enum [LineSpacingRule](../../linespacingrule/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

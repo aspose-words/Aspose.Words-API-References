@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pagerange/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::PageRange::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::PageRange::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

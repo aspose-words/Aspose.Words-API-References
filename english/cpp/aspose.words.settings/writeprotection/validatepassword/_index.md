@@ -13,15 +13,14 @@ url: /cpp/aspose.words.settings/writeprotection/validatepassword/
 Returns **true** if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns **false**.
 
 ```cpp
-bool Aspose::Words::Settings::WriteProtection::ValidatePassword(const System::String &password)
+_Bool Aspose::Words::Settings::WriteProtection::ValidatePassword(const System::String & password)
 ```
-
 
 ## Examples
 
 
+Shows how to protect a document with a password.
 
-Shows how to protect a document with a password. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->Writeln(u"Writing text in a protected document.");
 
 ASSERT_EQ(System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [WriteProtection](../)

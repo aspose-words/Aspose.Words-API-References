@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/mergefieldimagedimension/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::MergeFieldImageDimension::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::MergeFieldImageDimension::GetType() const override
 ```
 
 ## See Also

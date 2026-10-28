@@ -4,24 +4,23 @@ linktitle: get_ExportEmbeddedCss
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss method. Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document in C++.'
 type: docs
-weight: 5000
+weight: 22184
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions::get_ExportEmbeddedCss method
 
 
-Specifies whether the CSS (Cascading [Style](../../../aspose.words/style/) Sheet) should be embedded into Html document.
+Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
 ```
-
 
 ## Examples
 
 
+Shows how to determine where to store CSS stylesheets when exporting a document to Html.
 
-Shows how to determine where to store CSS stylesheets when exporting a document to Html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -48,7 +47,6 @@ else
     ASSERT_TRUE(System::IO::File::Exists(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

@@ -4,24 +4,23 @@ linktitle: get_TableSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_TableSubstitution method. Settings related to table substitution rule in C++.'
 type: docs
-weight: 6000
+weight: 14000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_tablesubstitution/
 ---
 ## FontSubstitutionSettings::get_TableSubstitution method
 
 
-[Settings](../../../aspose.words.settings/) related to table substitution rule.
+Settings related to table substitution rule.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::Fonts::TableSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_TableSubstitution() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with custom font substitution tables.
 
-Shows how to work with custom font substitution tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -74,10 +73,8 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
-
 ## See Also
 
-* Class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

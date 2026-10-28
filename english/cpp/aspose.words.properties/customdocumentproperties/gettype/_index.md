@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/customdocumentproperties/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Properties::CustomDocumentProperties::GetType() const override
+const System::TypeInfo & Aspose::Words::Properties::CustomDocumentProperties::GetType() const override
 ```
 
 ## See Also

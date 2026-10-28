@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontFallbackSettings class
 linktitle: FontFallbackSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontFallbackSettings class. Specifies font fallback mechanism settings. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fonts::FontFallbackSettings class. Specifies font fallback mechanism settings. To learn more, visit the Working with Fonts documentation article in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fonts/fontfallbacksettings/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fonts/fontfallbacksettings/
 ## FontFallbackSettings class
 
 
-Specifies font fallback mechanism settings. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
+Specifies font fallback mechanism settings. 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontFallbackSettings : public System::Object
@@ -22,22 +23,24 @@ class FontFallbackSettings : public System::Object
 | --- | --- |
 | [BuildAutomatic](./buildautomatic/)() | Automatically builds the fallback settings by scanning available fonts. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Load](./load/)(const System::String\&) | Loads font fallback settings from XML file. |
-| [Load](./load/)(const System::SharedPtr\<System::IO::Stream\>\&) | Loads fallback settings from XML stream. |
-| [Load](./load/)(std::basic_istream\<CharType, Traits\>\&) |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Load](./load/)(const System::SharedPtr\<System::IO::Stream\> \&) | Loads fallback settings from XML stream. |
+| [Load](./load/)(const System::String \&) | Loads font fallback settings from XML file. |
+| [Load](./load/)(std::basic_istream\<CharType, Traits\> \&) |  |
 | [LoadMsOfficeFallbackSettings](./loadmsofficefallbacksettings/)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](./loadnotofallbacksettings/)() | Loads predefined fallback settings which uses Google Noto fonts. |
-| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the current fallback settings to stream. |
-| [Save](./save/)(const System::String\&) | Saves the current fallback settings to file. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&) |  |
+| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the current fallback settings to stream. |
+| [Save](./save/)(const System::String \&) | Saves the current fallback settings to file. |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) |  |
 | static [Type](./type/)() |  |
+## Remarks
 
+ By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback. 
 ## Examples
 
 
+Shows how to distribute fallback fonts across Unicode character code ranges.
 
-Shows how to distribute fallback fonts across Unicode character code ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -87,7 +90,6 @@ for (int32_t i = 0x0021; i < 0x0530; i++)
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettingsCustom.pdf");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

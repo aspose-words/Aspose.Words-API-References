@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/granularity/
 Specifies the granularity of changes to track when comparing two documents.
 
 ```cpp
-enum class Granularity
+enum class Granularity : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class Granularity
 | CharLevel | 0 | Specifies changes at the character level. |
 | WordLevel | 1 | Specifies changes at the word level. |
 
-
 ## Examples
 
 
+Shows to specify a granularity while comparing documents.
 
-Shows to specify a granularity while comparing documents. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>();
 auto builderA = System::MakeObject<Aspose::Words::DocumentBuilder>(docA);
@@ -49,7 +48,6 @@ docA->Compare(docB, u"author", System::DateTime::get_Now(), compareOptions);
 System::SharedPtr<Aspose::Words::RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
 ASSERT_EQ(5, groups->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Comparing](../)

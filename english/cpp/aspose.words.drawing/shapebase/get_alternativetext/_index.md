@@ -4,7 +4,7 @@ linktitle: get_AlternativeText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_AlternativeText method. Defines alternative text to be displayed instead of a graphic in C++.'
 type: docs
-weight: 4000
+weight: 61045
 url: /cpp/aspose.words.drawing/shapebase/get_alternativetext/
 ---
 ## ShapeBase::get_AlternativeText method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Drawing::ShapeBase::get_AlternativeText()
 
 
 The default value is an empty string.
-
 ## Examples
 
 
+Shows how to use a shape's alternative text.
 
-Shows how to use a shape's alternative text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,7 +41,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.AltText.docx");
 doc->Save(get_ArtifactsDir() + u"Shape.AltText.html");
 System::IO::File::Delete(get_ArtifactsDir() + u"Shape.AltText.001.png");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

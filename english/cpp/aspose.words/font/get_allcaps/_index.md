@@ -4,7 +4,7 @@ linktitle: get_AllCaps
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_AllCaps method. True if the font is formatted as all capital letters in C++.'
 type: docs
-weight: 3000
+weight: 59036
 url: /cpp/aspose.words/font/get_allcaps/
 ---
 ## Font::get_AllCaps method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/font/get_allcaps/
 True if the font is formatted as all capital letters.
 
 ```cpp
-bool Aspose::Words::Font::get_AllCaps()
+_Bool Aspose::Words::Font::get_AllCaps()
 ```
-
 
 ## Examples
 
 
+Shows how to format a run to display its contents in capitals.
 
-Shows how to format a run to display its contents in capitals. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
@@ -44,7 +43,6 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->Save(get_ArtifactsDir() + u"Font.Caps.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

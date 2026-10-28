@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/iresourceloadingcallback/
 Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using [DocumentBuilder](../../aspose.words/documentbuilder/).
 
 ```cpp
-class IResourceLoadingCallback : public virtual System::Object
+class IResourceLoadingCallback : public System::Object
 ```
 
 ## Methods
@@ -21,7 +21,7 @@ class IResourceLoadingCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [ResourceLoading](./resourceloading/)(System::SharedPtr\<Aspose::Words::Loading::ResourceLoadingArgs\>) | Called when Aspose.Words loads any external resource. |
 | static [Type](./type/)() |  |
 ## See Also

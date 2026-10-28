@@ -4,7 +4,7 @@ linktitle: get_Zip64Mode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_Zip64Mode method. Specifies whether or not to use ZIP64 format extensions for the output document. The default value is Never in C++.'
 type: docs
-weight: 7500
+weight: 9900
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_zip64mode/
 ---
 ## OoxmlSaveOptions::get_Zip64Mode method
@@ -16,12 +16,11 @@ Specifies whether or not to use ZIP64 format extensions for the output document.
 Aspose::Words::Saving::Zip64Mode Aspose::Words::Saving::OoxmlSaveOptions::get_Zip64Mode() const
 ```
 
-
 ## Examples
 
 
+Shows how to use ZIP64 format extensions.
 
-Shows how to use ZIP64 format extensions. 
 ```cpp
 auto random = System::MakeObject<System::Random>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -46,10 +45,10 @@ saveOptions->set_Zip64Mode(Zip64Mode::Always);
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
 ```
-
 ## See Also
 
-* Enum [Zip64Mode](../../zip64mode/)
+* [Zip64Mode](./)
+
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

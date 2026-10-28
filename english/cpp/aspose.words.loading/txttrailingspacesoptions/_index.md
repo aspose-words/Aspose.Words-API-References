@@ -13,22 +13,21 @@ url: /cpp/aspose.words.loading/txttrailingspacesoptions/
 Specifies available options for trailing spaces handling during import from [Text](../../aspose.words/loadformat/) file.
 
 ```cpp
-enum class TxtTrailingSpacesOptions
+enum class TxtTrailingSpacesOptions : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Trim | 0 | Trailing spaces are trimmed. |
 | Preserve | 1 | Trailing spaces are preserved. |
-
+| Trim | 0 | Trailing spaces are trimmed. |
 
 ## Examples
 
 
+Shows how to trim whitespace when loading plaintext documents.
 
-Shows how to trim whitespace when loading plaintext documents. 
 ```cpp
 System::String textDoc = System::String(u"      Line 1 \n") + u"    Line 2   \n" + u" Line 3       ";
 
@@ -98,7 +97,6 @@ switch (txtTrailingSpacesOptions)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

@@ -4,7 +4,7 @@ linktitle: get_RightPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyle::get_RightPadding method. Gets or sets the amount of space (in points) to add to the right of the contents of table cells in C++.'
 type: docs
-weight: 9000
+weight: 15637
 url: /cpp/aspose.words/conditionalstyle/get_rightpadding/
 ---
 ## ConditionalStyle::get_RightPadding method
@@ -16,12 +16,11 @@ Gets or sets the amount of space (in points) to add to the right of the contents
 double Aspose::Words::ConditionalStyle::get_RightPadding()
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
 * Class [ConditionalStyle](../)

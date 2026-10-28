@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::SmartTag::set_Element method
 linktitle: set_Element
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::SmartTag::set_Element method. Setter for Aspose::Words::Markup::SmartTag::get_Element in C++.'
+description: 'Aspose::Words::Markup::SmartTag::set_Element method. Specifies the name of the smart tag within the document in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.markup/smarttag/set_element/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.markup/smarttag/set_element/
 ## SmartTag::set_Element method
 
 
-Setter for [Aspose::Words::Markup::SmartTag::get_Element](../get_element/).
+Specifies the name of the smart tag within the document.
 
 ```cpp
-void Aspose::Words::Markup::SmartTag::set_Element(const System::String &value)
+void Aspose::Words::Markup::SmartTag::set_Element(const System::String & value)
 ```
 
+## Remarks
+
+
+Cannot be **null**.
+
+Default is empty string.
 ## See Also
 
 * Class [SmartTag](../)

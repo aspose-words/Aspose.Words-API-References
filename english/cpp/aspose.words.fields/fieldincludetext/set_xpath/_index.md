@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_xpath/
 Sets XPath for the desired portion of the XML file.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_XPath(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_XPath(const System::String & value)
 ```
 
 ## See Also

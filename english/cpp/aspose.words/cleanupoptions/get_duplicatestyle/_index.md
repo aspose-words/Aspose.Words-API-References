@@ -4,7 +4,7 @@ linktitle: get_DuplicateStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CleanupOptions::get_DuplicateStyle method. Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is false in C++.'
 type: docs
-weight: 3000
+weight: 8334
 url: /cpp/aspose.words/cleanupoptions/get_duplicatestyle/
 ---
 ## CleanupOptions::get_DuplicateStyle method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/cleanupoptions/get_duplicatestyle/
 Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::CleanupOptions::get_DuplicateStyle() const
+_Bool Aspose::Words::CleanupOptions::get_DuplicateStyle() const
 ```
-
 
 ## Examples
 
 
+Shows how to remove duplicated styles from the document.
 
-Shows how to remove duplicated styles from the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -63,7 +62,6 @@ ASSERT_EQ(5, doc->get_Styles()->get_Count());
 ASPOSE_ASSERT_EQ(myStyle, paragraphs->idx_get(0)->get_ParagraphFormat()->get_Style());
 ASPOSE_ASSERT_EQ(myStyle, paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
-
 ## See Also
 
 * Class [CleanupOptions](../)

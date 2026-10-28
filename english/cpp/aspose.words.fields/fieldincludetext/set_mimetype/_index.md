@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_mimetype/
 Sets the MIME type of the referenced file.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_MimeType(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_MimeType(const System::String & value)
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_BackColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BackColor method. Gets or sets a Color object that represents the background color for the fill in C++.'
 type: docs
-weight: 2000
+weight: 46000
 url: /cpp/aspose.words.drawing/fill/get_backcolor/
 ---
 ## Fill::get_BackColor method
@@ -16,12 +16,11 @@ Gets or sets a Color object that represents the background color for the fill.
 System::Drawing::Color Aspose::Words::Drawing::Fill::get_BackColor()
 ```
 
-
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [Fill](../)

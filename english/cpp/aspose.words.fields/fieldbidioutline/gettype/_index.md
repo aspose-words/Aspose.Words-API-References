@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbidioutline/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldBidiOutline::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldBidiOutline::GetType() const override
 ```
 
 ## See Also

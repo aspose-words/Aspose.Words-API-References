@@ -13,7 +13,7 @@ url: /cpp/aspose.words/internablecomplexattr/is/
 
 
 ```cpp
-virtual bool Aspose::Words::InternableComplexAttr::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::InternableComplexAttr::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

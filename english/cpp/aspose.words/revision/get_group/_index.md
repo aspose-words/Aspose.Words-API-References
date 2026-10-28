@@ -4,7 +4,7 @@ linktitle: get_Group
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_Group method. Gets the revision group. Returns null if the revision does not belong to any group in C++.'
 type: docs
-weight: 5000
+weight: 11500
 url: /cpp/aspose.words/revision/get_group/
 ---
 ## Revision::get_Group method
@@ -16,12 +16,14 @@ Gets the revision group. Returns **null** if the revision does not belong to any
 System::SharedPtr<Aspose::Words::RevisionGroup> Aspose::Words::Revision::get_Group()
 ```
 
+## Remarks
 
+ Revision has no group if revision type is [StyleDefinitionChange](../../revisiontype/) or if the revision is not longer exist in document context (accepted/rejected). 
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,10 +99,8 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [RevisionGroup](../../revisiongroup/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

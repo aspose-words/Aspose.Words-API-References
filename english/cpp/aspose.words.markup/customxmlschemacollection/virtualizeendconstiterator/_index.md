@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Markup::CustomXmlSchemaCollection::virtual
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

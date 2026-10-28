@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Font method. Provides access to the font formatting of the axis title in C++.'
 type: docs
-weight: 2000
+weight: 8112
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_font/
 ---
 ## ChartAxisTitle::get_Font method
@@ -16,12 +16,11 @@ Provides access to the font formatting of the axis title.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to set chart axis title.
 
-Shows how to set chart axis title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ chartAxisYTitle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ChartAxisTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

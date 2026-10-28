@@ -16,12 +16,11 @@ Creates a new single level list based on the predefined template and adds it to 
 System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::AddSingleLevelList(Aspose::Words::Lists::ListTemplate listTemplate)
 ```
 
-
 ## Examples
 
 
+Shows how to create a new single level list based on the predefined template.
 
-Shows how to create a new single level list based on the predefined template. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,11 +47,8 @@ builder->Writeln(u"Item 2");
 
 doc->Save(get_ArtifactsDir() + u"Lists.AddSingleLevelList.docx");
 ```
-
 ## See Also
 
-* Class [List](../../list/)
-* Enum [ListTemplate](../../listtemplate/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

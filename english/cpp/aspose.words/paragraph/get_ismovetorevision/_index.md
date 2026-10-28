@@ -4,7 +4,7 @@ linktitle: get_IsMoveToRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsMoveToRevision method. Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 17000
+weight: 46000
 url: /cpp/aspose.words/paragraph/get_ismovetorevision/
 ---
 ## Paragraph::get_IsMoveToRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_ismovetorevision/
 Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsMoveToRevision()
+_Bool Aspose::Words::Paragraph::get_IsMoveToRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to check whether a paragraph is a move revision.
 
-Shows how to check whether a paragraph is a move revision. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -51,7 +50,6 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 // If we reject the revision, this paragraph instead will disappear, and the other will remain.
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

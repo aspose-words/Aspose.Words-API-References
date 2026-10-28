@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use begin method of Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection class in C++.'
 type: docs
-weight: 3000
+weight: 12250
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/begin/
 ---
 ## ChartSeriesGroupCollection::begin() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/begin/
 
 
 ```cpp
-const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin() const noexcept
+const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin
 
 
 ```cpp
-iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin() noexcept
+iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

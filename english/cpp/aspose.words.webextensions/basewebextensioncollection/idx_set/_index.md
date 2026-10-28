@@ -1,10 +1,10 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::idx_set method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::idx_set method
 linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::idx_set method. Gets or sets an item at the specified index in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::idx_set method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 11000
+weight: 13889
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/idx_set/
 ---
 ## BaseWebExtensionCollection::idx_set method
@@ -20,12 +20,12 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::idx_set(int32_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the item. |
-
+| value | T | The value to set. |
 ## Examples
 
 
+Shows how to work with a document's collection of web extensions.
 
-Shows how to work with a document's collection of web extensions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
@@ -47,7 +47,6 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
-
 ## See Also
 
 * Class [BaseWebExtensionCollection](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFieldCodes method
 linktitle: set_IgnoreFieldCodes
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFieldCodes method. Setter for Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFieldCodes in C++.'
+description: 'Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFieldCodes method. Sets a boolean value indicating either to ignore text inside field codes. The default value is false in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignorefieldcodes/
@@ -10,12 +10,38 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignorefieldcodes/
 ## FindReplaceOptions::set_IgnoreFieldCodes method
 
 
-Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFieldCodes](../get_ignorefieldcodes/).
+Sets a boolean value indicating either to ignore text inside field codes. The default value is **false**.
 
 ```cpp
 void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreFieldCodes(bool value)
 ```
 
+## Remarks
+
+
+This option affects only field codes (it does not ignore nodes between [FieldSeparator](../../../aspose.words/nodetype/) and [FieldEnd](../../../aspose.words/nodetype/)).
+
+To ignore whole field, please use corresponding option [IgnoreFields](../get_ignorefields/).
+## Examples
+
+
+Shows how to ignore text inside field codes.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->InsertField(u"INCLUDETEXT", u"Test IT!");
+
+auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
+options->set_IgnoreFieldCodes(ignoreFieldCodes);
+
+// Replace 'T' in document ignoring text inside field code or not.
+doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::Regex>(u"T"), u"*", options);
+std::cout << doc->GetText() << std::endl;
+
+ASSERT_EQ(ignoreFieldCodes ? System::String(u"\u0013INCLUDETEXT\u0014*est I*!\u0015") : System::String(u"\u0013INCLUDE*EX*\u0014*est I*!\u0015"), doc->GetText().Trim());
+```
 ## See Also
 
 * Class [FindReplaceOptions](../)

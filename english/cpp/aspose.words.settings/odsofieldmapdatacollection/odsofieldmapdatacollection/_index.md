@@ -4,7 +4,7 @@ linktitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use OdsoFieldMapDataCollection constructor of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 2000
+weight: 14500
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection::OdsoFieldMapDataCollection constructor

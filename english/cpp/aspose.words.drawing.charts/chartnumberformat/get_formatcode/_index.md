@@ -4,7 +4,7 @@ linktitle: get_FormatCode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode method. Gets or sets the format code applied to a data label in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_formatcode/
 ---
 ## ChartNumberFormat::get_FormatCode method
@@ -18,12 +18,10 @@ System::String Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode
 
 ## Remarks
 
-
-Number formatting is used to change the way a value appears in data label and can be used in some very creative ways. The examples of number formats:
-
+ Number formatting is used to change the way a value appears in data label and can be used in some very creative ways. The examples of number formats: 
 Number - "#,##0.00"
 
-Currency - "\"\$\\"#,##0.00"
+Currency - "\"$\"#,##0.00"
 
 Time - "[$-x-systime]h:mm:ss AM/PM"
 
@@ -37,15 +35,14 @@ Scientific - "0.00E+00"
 
 Text - "@"
 
-Accounting - "_-\"\$\\"* #,##0.00_-;-\"\$\\"* #,##0.00_-;_-\"\$\\"* \"-\\"??_-;_-@_-"
+Accounting - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_-;_-@_-"
 
 Custom with color - "[Red]-#,##0.0"
-
 ## Examples
 
 
+Shows how to enable and configure data labels for a chart series.
 
-Shows how to enable and configure data labels for a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,8 +70,8 @@ dataLabels->get_Font()->set_Size(12);
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelNumberFormat.docx");
 ```
 
+Shows how to set formatting for chart values.
 
-Shows how to set formatting for chart values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -87,7 +84,7 @@ chart->get_Series()->Clear();
 
 // Add a custom series to the chart with categories for the X-axis,
 // and large respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({1900000, 850000, 2100000, 600000, 1500000}));
 
 // Set the number format of the Y-axis tick labels to not group digits with commas.
@@ -98,7 +95,6 @@ ASSERT_FALSE(chart->get_AxisY()->get_NumberFormat()->get_IsLinkedToSource());
 
 doc->Save(get_ArtifactsDir() + u"Charts.SetNumberFormatToChartAxis.docx");
 ```
-
 ## See Also
 
 * Class [ChartNumberFormat](../)

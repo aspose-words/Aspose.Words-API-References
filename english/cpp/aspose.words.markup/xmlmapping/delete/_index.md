@@ -16,12 +16,11 @@ Deletes mapping of the parent structured document to XML data.
 void Aspose::Words::Markup::XmlMapping::Delete()
 ```
 
-
 ## Examples
 
 
+Shows how to set XML mappings for custom XML parts.
 
-Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,7 +48,6 @@ ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()-
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
-
 ## See Also
 
 * Class [XmlMapping](../)

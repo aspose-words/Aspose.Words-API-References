@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::SvgSaveOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::SvgSaveOptions::GetType() const override
 ```
 
 ## See Also

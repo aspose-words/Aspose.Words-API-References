@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyleCollection::idx_get method. Retrieves a ConditionalStyle object by conditional style type in C++.'
 type: docs
-weight: 18000
+weight: 34000
 url: /cpp/aspose.words/conditionalstylecollection/idx_get/
 ---
 ## ConditionalStyleCollection::idx_get(Aspose::Words::ConditionalStyleType) method
@@ -16,12 +16,11 @@ Retrieves a [ConditionalStyle](../../conditionalstyle/) object by conditional st
 System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalStyleCollection::idx_get(Aspose::Words::ConditionalStyleType conditionalStyleType)
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,11 +85,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Class [ConditionalStyle](../../conditionalstyle/)
-* Enum [ConditionalStyleType](../../conditionalstyletype/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -107,12 +103,11 @@ System::SharedPtr<Aspose::Words::ConditionalStyle> Aspose::Words::ConditionalSty
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the conditional style to retrieve. |
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -177,10 +172,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

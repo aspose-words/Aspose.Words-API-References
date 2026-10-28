@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCollection::get_Count method. Returns the number of the fields in the collection in C++.'
 type: docs
-weight: 3000
+weight: 11000
 url: /cpp/aspose.words.fields/fieldcollection/get_count/
 ---
 ## FieldCollection::get_Count method
@@ -16,12 +16,11 @@ Returns the number of the fields in the collection.
 int32_t Aspose::Words::Fields::FieldCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
 * Class [FieldCollection](../)

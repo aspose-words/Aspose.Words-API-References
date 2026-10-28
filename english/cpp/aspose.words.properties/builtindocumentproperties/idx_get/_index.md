@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::idx_get method. Returns a DocumentProperty object by the name of the property in C++.'
 type: docs
-weight: 35000
+weight: 36974
 url: /cpp/aspose.words.properties/builtindocumentproperties/idx_get/
 ---
 ## BuiltInDocumentProperties::idx_get method
@@ -28,12 +28,11 @@ The string names of the properties correspond to the names of the typed properti
 If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, **false** or DateTime.MinValue depending on the type of the built-in property).
 
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a **null** is returned.
-
 ## Examples
 
 
+Shows how to work with custom document properties.
 
-Shows how to work with custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -51,10 +50,8 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
     std::cout << System::String::Format(u"\tValue:\t\"{0}\"", customDocumentProperty->get_Value()) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [DocumentProperty](../../documentproperty/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

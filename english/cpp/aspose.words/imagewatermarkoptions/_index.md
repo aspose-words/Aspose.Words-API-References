@@ -2,7 +2,7 @@
 title: Aspose::Words::ImageWatermarkOptions class
 linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image. To learn more, visit the Working with Watermark documentation article in C++.'
 type: docs
 weight: 34000
 url: /cpp/aspose.words/imagewatermarkoptions/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/imagewatermarkoptions/
 ## ImageWatermarkOptions class
 
 
-Contains options that can be specified when adding a watermark with image. To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/cpp/working-with-watermark/) documentation article.
+Contains options that can be specified when adding a watermark with image. 
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/cpp/working-with-watermark/) documentation article.
 
 ```cpp
 class ImageWatermarkOptions : public System::Object
@@ -20,20 +21,19 @@ class ImageWatermarkOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_IsWashout](./get_iswashout/)() const | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**. |
-| [get_Scale](./get_scale/)() const | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 | [GetType](./gettype/)() const override |  |
 | [ImageWatermarkOptions](./imagewatermarkoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_IsWashout](./set_iswashout/)(bool) | Setter for [Aspose::Words::ImageWatermarkOptions::get_IsWashout](./get_iswashout/). |
-| [set_Scale](./set_scale/)(double) | Setter for [Aspose::Words::ImageWatermarkOptions::get_Scale](./get_scale/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
+| [get_IsWashout](./get_iswashout/)() const | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**. |
+| [get_Scale](./get_scale/)() const | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
+| [set_IsWashout](./set_iswashout/)(bool) | Sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**. |
+| [set_Scale](./set_scale/)(double) | Sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 ## Examples
 
 
+Shows how to create a watermark from an image in the local file system.
 
-Shows how to create a watermark from an image in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -51,9 +51,9 @@ doc->get_Watermark()->SetImage(System::Drawing::Image::FromFile(get_ImageDir() +
 
 doc->get_Watermark()->SetImage(get_ImageDir() + u"Logo.jpg", imageWatermarkOptions);
 
+
 doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

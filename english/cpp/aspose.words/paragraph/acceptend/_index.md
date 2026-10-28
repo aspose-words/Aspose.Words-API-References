@@ -24,11 +24,8 @@ Aspose::Words::VisitorAction Aspose::Words::Paragraph::AcceptEnd(System::SharedP
 ### ReturnValue
 
 The action to be taken by the visitor.
-
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [DocumentVisitor](../../documentvisitor/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

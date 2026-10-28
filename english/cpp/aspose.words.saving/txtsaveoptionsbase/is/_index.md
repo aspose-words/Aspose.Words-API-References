@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/txtsaveoptionsbase/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::TxtSaveOptionsBase::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::TxtSaveOptionsBase::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

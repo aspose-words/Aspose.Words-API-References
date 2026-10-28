@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldaddressblock/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldAddressBlock::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldAddressBlock::GetType() const override
 ```
 
 ## See Also

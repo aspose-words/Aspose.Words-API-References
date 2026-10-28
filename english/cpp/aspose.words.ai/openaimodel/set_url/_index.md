@@ -4,7 +4,7 @@ linktitle: set_Url
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::OpenAiModel::set_Url method. Sets a URL of the model. The default value is "https://api.openai.com/" in C++.'
 type: docs
-weight: 3167
+weight: 7000
 url: /cpp/aspose.words.ai/openaimodel/set_url/
 ---
 ## OpenAiModel::set_Url method

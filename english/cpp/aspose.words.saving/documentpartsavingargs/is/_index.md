@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/documentpartsavingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::DocumentPartSavingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::DocumentPartSavingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

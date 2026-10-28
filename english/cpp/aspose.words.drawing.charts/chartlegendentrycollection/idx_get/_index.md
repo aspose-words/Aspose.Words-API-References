@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::idx_get method. Returns ChartLegendEntry for the specified index in C++.'
 type: docs
-weight: 5000
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/idx_get/
 ---
 ## ChartLegendEntryCollection::idx_get method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntry> Aspose::Word
 
 ## See Also
 
-* Class [ChartLegendEntry](../../chartlegendentry/)
 * Class [ChartLegendEntryCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

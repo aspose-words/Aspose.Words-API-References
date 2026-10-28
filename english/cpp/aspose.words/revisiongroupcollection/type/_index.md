@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 1000
+weight: 10125
 url: /cpp/aspose.words/revisiongroupcollection/type/
 ---
 ## RevisionGroupCollection::Type method

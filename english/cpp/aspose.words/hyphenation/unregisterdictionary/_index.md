@@ -4,28 +4,31 @@ linktitle: UnregisterDictionary
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Hyphenation::UnregisterDictionary method. Unregisters a hyphenation dictionary for the specified language. This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language in C++.'
 type: docs
-weight: 7000
+weight: 11000
 url: /cpp/aspose.words/hyphenation/unregisterdictionary/
 ---
 ## Hyphenation::UnregisterDictionary method
 
 
-Unregisters a hyphenation dictionary for the specified language. This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language.
+Unregisters a hyphenation dictionary for the specified language.
+
+ This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language.
 
 ```cpp
-static void Aspose::Words::Hyphenation::UnregisterDictionary(const System::String &language)
+static void Aspose::Words::Hyphenation::UnregisterDictionary(const System::String & language)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| language | const System::String\& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. If **null** or empty string then all dictionaries are unregistered. |
+| language | const System::String \& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
 
+ If **null** or empty string then all dictionaries are unregistered. |
 ## Examples
 
 
+Shows how to register a hyphenation dictionary.
 
-Shows how to register a hyphenation dictionary. 
 ```cpp
 // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
 // When a document contains lines of text in which a word could be split up and continued on the next line,
@@ -57,7 +60,6 @@ ASSERT_FALSE(Hyphenation::IsDictionaryRegistered(u"de-CH"));
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"German text.docx"));
 doc->Save(get_ArtifactsDir() + u"Hyphenation.Dictionary.Unregistered.pdf");
 ```
-
 ## See Also
 
 * Class [Hyphenation](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.webextensions/taskpanecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::WebExtensions::TaskPaneCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::WebExtensions::TaskPaneCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

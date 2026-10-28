@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::MappedDataFieldCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::MappedDataFieldCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

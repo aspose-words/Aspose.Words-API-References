@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::SignatureLine class
 linktitle: SignatureLine
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::SignatureLine class. Provides access to signature line properties. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::SignatureLine class. Provides access to signature line properties. To learn more, visit the Work with Digital Signatures documentation article in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.drawing/signatureline/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing/signatureline/
 ## SignatureLine class
 
 
-Provides access to signature line properties. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
+Provides access to signature line properties. 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class SignatureLine : public System::Object
@@ -20,35 +21,36 @@ class SignatureLine : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AllowComments](./get_allowcomments/)() | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
 | [get_DefaultInstructions](./get_defaultinstructions/)() | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
-| [get_Email](./get_email/)() | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string**. |
-| [get_Id](./get_id/)() | Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (**NewGuid**). |
-| [get_Instructions](./get_instructions/)() | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [DefaultInstructions](./get_defaultinstructions/) is set. Default value for this property is **empty string**. |
+| [get_Email](./get_email/)() | Gets or sets suggested signer's e-mail address. Default value for this property is empty string. |
+| [get_Id](./get_id/)() | Gets or sets identifier for this signature line. 
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (**NewGuid**). |
+| [get_Instructions](./get_instructions/)() | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [DefaultInstructions](./get_defaultinstructions/) is set. Default value for this property is empty string. |
 | [get_IsSigned](./get_issigned/)() | Indicates that signature line is signed by digital signature. |
 | [get_IsValid](./get_isvalid/)() | Indicates that signature line is signed by digital signature and this digital signature is valid. |
 | [get_ProviderId](./get_providerid/)() | Gets or sets signature provider identifier for this signature line. Default value is "{00000000-0000-0000-0000-000000000000}". |
 | [get_ShowDate](./get_showdate/)() | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
-| [get_Signer](./get_signer/)() | Gets or sets suggested signer of the signature line. Default value for this property is **empty string**. |
-| [get_SignerTitle](./get_signertitle/)() | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AllowComments](./set_allowcomments/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_AllowComments](./get_allowcomments/). |
-| [set_DefaultInstructions](./set_defaultinstructions/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions](./get_defaultinstructions/). |
-| [set_Email](./set_email/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Email](./get_email/). |
-| [set_Id](./set_id/)(System::Guid) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Id](./get_id/). |
-| [set_Instructions](./set_instructions/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Instructions](./get_instructions/). |
-| [set_ProviderId](./set_providerid/)(System::Guid) | Setter for [Aspose::Words::Drawing::SignatureLine::get_ProviderId](./get_providerid/). |
-| [set_ShowDate](./set_showdate/)(bool) | Setter for [Aspose::Words::Drawing::SignatureLine::get_ShowDate](./get_showdate/). |
-| [set_Signer](./set_signer/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_Signer](./get_signer/). |
-| [set_SignerTitle](./set_signertitle/)(const System::String\&) | Setter for [Aspose::Words::Drawing::SignatureLine::get_SignerTitle](./get_signertitle/). |
-| static [Type](./type/)() |  |
-
+| [get_Signer](./get_signer/)() | Gets or sets suggested signer of the signature line. Default value for this property is empty string. |
+| [get_SignerTitle](./get_signertitle/)() | Gets or sets suggested signer's title (for example, Manager). Default value for this property is empty string. |
+| [set_AllowComments](./set_allowcomments/)(bool) | Sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
+| [set_DefaultInstructions](./set_defaultinstructions/)(bool) | Sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
+| [set_Email](./set_email/)(const System::String \&) | Sets suggested signer's e-mail address. Default value for this property is empty string. |
+| [set_Id](./set_id/)(System::Guid) | Sets identifier for this signature line. 
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (**NewGuid**). |
+| [set_Instructions](./set_instructions/)(const System::String \&) | Sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [DefaultInstructions](./get_defaultinstructions/) is set. Default value for this property is empty string. |
+| [set_ProviderId](./set_providerid/)(System::Guid) | Sets signature provider identifier for this signature line. Default value is "{00000000-0000-0000-0000-000000000000}". |
+| [set_ShowDate](./set_showdate/)(bool) | Sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
+| [set_Signer](./set_signer/)(const System::String \&) | Sets suggested signer of the signature line. Default value for this property is empty string. |
+| [set_SignerTitle](./set_signertitle/)(const System::String \&) | Sets suggested signer's title (for example, Manager). Default value for this property is empty string. |
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -83,7 +85,6 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

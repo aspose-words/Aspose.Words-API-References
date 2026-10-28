@@ -4,7 +4,7 @@ linktitle: get_StyleOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_StyleOptions method. Gets or sets bit flags that specify how a table style is applied to this table in C++.'
 type: docs
-weight: 37000
+weight: 101000
 url: /cpp/aspose.words.tables/table/get_styleoptions/
 ---
 ## Table::get_StyleOptions method
@@ -16,12 +16,11 @@ Gets or sets bit flags that specify how a table style is applied to this table.
 Aspose::Words::Tables::TableStyleOptions Aspose::Words::Tables::Table::get_StyleOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to build a new table while applying a style.
 
-Shows how to build a new table while applying a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,10 +63,8 @@ builder->EndRow();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
-
 ## See Also
 
-* Enum [TableStyleOptions](../../tablestyleoptions/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

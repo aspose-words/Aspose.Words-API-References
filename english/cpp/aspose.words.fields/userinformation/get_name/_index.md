@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::UserInformation::get_Name method. Gets or sets the user''s name in C++.'
 type: docs
-weight: 6000
+weight: 8858
 url: /cpp/aspose.words.fields/userinformation/get_name/
 ---
 ## UserInformation::get_Name method
@@ -16,12 +16,11 @@ Gets or sets the user's name.
 System::String Aspose::Words::Fields::UserInformation::get_Name() const
 ```
 
-
 ## Examples
 
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
 * Class [UserInformation](../)

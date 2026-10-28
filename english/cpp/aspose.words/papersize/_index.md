@@ -13,7 +13,7 @@ url: /cpp/aspose.words/papersize/
 Specifies paper size.
 
 ```cpp
-enum class PaperSize
+enum class PaperSize : int
 ```
 
 ### Values
@@ -25,28 +25,27 @@ enum class PaperSize
 | A5 | 2 | 148 x 210 mm. |
 | B4 | 3 | 250 x 353 mm. |
 | B5 | 4 | 176 x 250 mm. |
+| Custom | 19 | Custom paper size. |
+| EnvelopeDL | 10 | 110 x 220 mm. |
 | Executive | 5 | 7.25 x 10.5 inches. |
 | Folio | 6 | 8.5 x 13 inches. |
+| JisB4 | 17 | 257 x 364 mm. |
+| JisB5 | 18 | 182 x 257 mm. |
 | Ledger | 7 | 17 x 11 inches. |
 | Legal | 8 | 8.5 x 14 inches. |
 | Letter | 9 | 8.5 x 11 inches. |
-| EnvelopeDL | 10 | 110 x 220 mm. |
+| Number10Envelope | 16 | 4.125 x 9.5 inches. |
+| Paper10x14 | 14 | 10 x 14 inches. |
+| Paper11x17 | 15 | 11 x 17 inches. |
 | Quarto | 11 | 8.47 x 10.83 inches. |
 | Statement | 12 | 8.5 x 5.5 inches. |
 | Tabloid | 13 | 11 x 17 inches. |
-| Paper10x14 | 14 | 10 x 14 inches. |
-| Paper11x17 | 15 | 11 x 17 inches. |
-| Number10Envelope | 16 | 4.125 x 9.5 inches. |
-| JisB4 | 17 | 257 x 364 mm. |
-| JisB5 | 18 | 182 x 257 mm. |
-| Custom | 19 | Custom paper size. |
-
 
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,8 +64,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
+Shows how to set page sizes.
 
-Shows how to set page sizes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -105,8 +104,8 @@ builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_P
 doc->Save(get_ArtifactsDir() + u"PageSetup.PaperSizes.docx");
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -149,7 +148,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

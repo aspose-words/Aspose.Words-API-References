@@ -4,7 +4,7 @@ linktitle: get_GradientStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_GradientStyle method. Gets the gradient style GradientStyle for the fill in C++.'
 type: docs
-weight: 12000
+weight: 57000
 url: /cpp/aspose.words.drawing/fill/get_gradientstyle/
 ---
 ## Fill::get_GradientStyle method
@@ -16,12 +16,11 @@ Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill.
 Aspose::Words::Drawing::GradientStyle Aspose::Words::Drawing::Fill::get_GradientStyle()
 ```
 
-
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +55,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
-* Enum [GradientStyle](../../gradientstyle/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

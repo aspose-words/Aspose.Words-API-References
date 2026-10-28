@@ -13,14 +13,13 @@ url: /cpp/aspose.words.drawing/presettexture/
 Specifies texture to be used to fill a shape.
 
 ```cpp
-enum class PresetTexture
+enum class PresetTexture : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | No Texture. |
 | BlueTissuePaper | 1 | Blue tissue paper texture. |
 | Bouquet | 2 | Bouquet texture. |
 | BrownMarble | 3 | Brown marble texture. |
@@ -32,6 +31,7 @@ enum class PresetTexture
 | GreenMarble | 9 | Green marble texture. |
 | MediumWood | 10 | Medium wood texture. |
 | Newsprint | 11 | Newsprint texture. |
+| None | -1 | No Texture. |
 | Oak | 12 | Oak texture. |
 | PaperBag | 13 | Paper bag texture. |
 | Papyrus | 14 | Papyrus texture. |
@@ -46,12 +46,11 @@ enum class PresetTexture
 | WhiteMarble | 23 | White marble texture. |
 | WovenMat | 24 | Woven mat texture. |
 
-
 ## Examples
 
 
+Show how to set marker formatting.
 
-Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,7 +81,6 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

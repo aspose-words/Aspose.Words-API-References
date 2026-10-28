@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/gradientstop/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::GradientStop::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::GradientStop::GetType() const override
 ```
 
 ## See Also

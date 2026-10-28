@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegend::get_Font method. Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use theFont property in C++.'
 type: docs
-weight: 2000
+weight: 7286
 url: /cpp/aspose.words.drawing.charts/chartlegend/get_font/
 ---
 ## ChartLegend::get_Font method
@@ -16,12 +16,11 @@ Provides access to the default font formatting of legend entries. To override th
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartLegend::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a legend font.
 
-Shows how to work with a legend font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Reporting engine template - Chart series.docx"));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_Chart();
@@ -37,10 +36,8 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntry> legendEntry 
 
 doc->Save(get_ArtifactsDir() + u"Charts.LegendFont.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

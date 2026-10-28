@@ -16,12 +16,14 @@ Deletes picture bullet for the current list level.
 void Aspose::Words::Lists::ListLevel::DeletePictureBullet()
 ```
 
+## Remarks
 
+Default bullet will be shown after deleting.
 ## Examples
 
 
+Shows how to set a custom image icon for list item labels.
 
-Shows how to set a custom image icon for list item labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,7 +48,6 @@ list->get_ListLevels()->idx_get(0)->DeletePictureBullet();
 
 ASSERT_TRUE(System::TestTools::IsNull(list->get_ListLevels()->idx_get(0)->get_ImageData()));
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

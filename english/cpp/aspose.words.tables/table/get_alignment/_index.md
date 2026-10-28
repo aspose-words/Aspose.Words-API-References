@@ -4,7 +4,7 @@ linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Alignment method. Specifies how an inline table is aligned in the document in C++.'
 type: docs
-weight: 11000
+weight: 75000
 url: /cpp/aspose.words.tables/table/get_alignment/
 ---
 ## Table::get_Alignment method
@@ -20,12 +20,11 @@ Aspose::Words::Tables::TableAlignment Aspose::Words::Tables::Table::get_Alignmen
 
 
 The default value is [Left](../../tablealignment/).
-
 ## Examples
 
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -48,10 +47,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
-
 ## See Also
 
-* Enum [TableAlignment](../../tablealignment/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

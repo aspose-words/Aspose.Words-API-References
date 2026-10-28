@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualized_iterator_element
 
 
 ```cpp
-using Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

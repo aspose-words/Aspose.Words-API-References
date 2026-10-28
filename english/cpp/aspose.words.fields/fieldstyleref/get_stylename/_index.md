@@ -4,7 +4,7 @@ linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldStyleRef::get_StyleName method. Gets or sets the name of the style by which the text to search for is formatted in C++.'
 type: docs
-weight: 7000
+weight: 10778
 url: /cpp/aspose.words.fields/fieldstyleref/get_stylename/
 ---
 ## FieldStyleRef::get_StyleName method
@@ -16,12 +16,11 @@ Gets or sets the name of the style by which the text to search for is formatted.
 System::String Aspose::Words::Fields::FieldStyleRef::get_StyleName()
 ```
 
-
 ## Examples
 
 
+Shows how to use STYLEREF fields.
 
-Shows how to use STYLEREF fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -85,7 +84,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
-
 ## See Also
 
 * Class [FieldStyleRef](../)

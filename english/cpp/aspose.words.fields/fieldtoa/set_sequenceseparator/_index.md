@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_sequenceseparator/
 Sets the character sequence that is used to separate sequence numbers and page numbers.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_SequenceSeparator(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_SequenceSeparator(const System::String & value)
 ```
 
 ## See Also

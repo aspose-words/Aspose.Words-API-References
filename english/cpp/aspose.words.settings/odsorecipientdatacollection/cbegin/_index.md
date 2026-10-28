@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::Settings::OdsoRecipientDataCollection class in C++.'
 type: docs
-weight: 5000
+weight: 15334
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/cbegin/
 ---
 ## OdsoRecipientDataCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::Settings::OdsoRecipientDataCollection::cbegin() const noexcept
+const_iterator Aspose::Words::Settings::OdsoRecipientDataCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::PageSetup::set_TextOrientation method
 linktitle: set_TextOrientation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::PageSetup::set_TextOrientation method. Setter for Aspose::Words::PageSetup::get_TextOrientation in C++.'
+description: 'Aspose::Words::PageSetup::set_TextOrientation method. Allows to specify TextOrientation for the whole page. Default value is Horizontal in C++.'
 type: docs
 weight: 88000
 url: /cpp/aspose.words/pagesetup/set_textorientation/
@@ -10,15 +10,35 @@ url: /cpp/aspose.words/pagesetup/set_textorientation/
 ## PageSetup::set_TextOrientation method
 
 
-Setter for [Aspose::Words::PageSetup::get_TextOrientation](../get_textorientation/).
+Allows to specify [TextOrientation](../get_textorientation/) for the whole page. Default value is [Horizontal](../../textorientation/)
 
 ```cpp
 void Aspose::Words::PageSetup::set_TextOrientation(Aspose::Words::TextOrientation value)
 ```
 
+## Remarks
+
+This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+## Examples
+
+
+Shows how to set text orientation.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Writeln(u"Hello world!");
+
+// Set the "TextOrientation" property to "TextOrientation.Upward" to rotate all the text 90 degrees
+// to the right so that all left-to-right text now goes top-to-bottom.
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
+pageSetup->set_TextOrientation(TextOrientation::Upward);
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.SetTextOrientation.docx");
+```
 ## See Also
 
-* Enum [TextOrientation](../../textorientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

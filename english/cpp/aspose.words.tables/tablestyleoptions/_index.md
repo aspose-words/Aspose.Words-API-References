@@ -13,29 +13,28 @@ url: /cpp/aspose.words.tables/tablestyleoptions/
 Specifies how table style is applied to a table.
 
 ```cpp
-enum class TableStyleOptions
+enum class TableStyleOptions : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No table style formatting is applied. |
-| FirstRow | 32 | Apply first row conditional formatting. |
-| LastRow | 64 | Apply last row conditional formatting. |
-| FirstColumn | 128 | Apply 1 first column conditional formatting. |
-| LastColumn | 256 | Apply last column conditional formatting. |
-| RowBands | 512 | Apply row banding conditional formatting. |
 | ColumnBands | 1024 | Apply column banding conditional formatting. |
-| Default2003 | 1536 | [Row](../row/) and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
 | Default | 672 | This is Microsoft Word defaults. |
-
+| Default2003 | 1536 | Row and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
+| FirstColumn | 128 | Apply 1 first column conditional formatting. |
+| FirstRow | 32 | Apply first row conditional formatting. |
+| LastColumn | 256 | Apply last column conditional formatting. |
+| LastRow | 64 | Apply last row conditional formatting. |
+| None | 0 | No table style formatting is applied. |
+| RowBands | 512 | Apply row banding conditional formatting. |
 
 ## Examples
 
 
+Shows how to build a new table while applying a style.
 
-Shows how to build a new table while applying a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,8 +77,9 @@ builder->EndRow();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
-
 ## See Also
+
+* [StyleOptions](../table/get_styleoptions/)
 
 * Namespace [Aspose::Words::Tables](../)
 * Library [Aspose.Words for C++](../../)

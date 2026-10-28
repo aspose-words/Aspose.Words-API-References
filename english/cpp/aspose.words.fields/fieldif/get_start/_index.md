@@ -4,7 +4,7 @@ linktitle: get_Start
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIf::get_Start method. Gets the node that represents the start of the field in C++.'
 type: docs
-weight: 9000
+weight: 12800
 url: /cpp/aspose.words.fields/fieldif/get_start/
 ---
 ## FieldIf::get_Start method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldStart> Aspose::Words::Fields::Fiel
 
 ## See Also
 
-* Class [FieldStart](../../fieldstart/)
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

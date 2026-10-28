@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::TxtListIndentation class
 linktitle: TxtListIndentation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtListIndentation class. Specifies how list levels are indented when document is exporting to Text format. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Saving::TxtListIndentation class. Specifies how list levels are indented when document is exporting to Text format. To learn more, visit the Save a Document documentation article in C++.'
 type: docs
 weight: 32000
 url: /cpp/aspose.words.saving/txtlistindentation/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.saving/txtlistindentation/
 ## TxtListIndentation class
 
 
-Specifies how list levels are indented when document is exporting to [Text](../../aspose.words/saveformat/) format. To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
+Specifies how list levels are indented when document is exporting to [Text](../../aspose.words/saveformat/) format. 
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp
 class TxtListIndentation : public System::Object
@@ -20,20 +21,19 @@ class TxtListIndentation : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Character](./get_character/)() const | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
-| [get_Count](./get_count/)() const | Gets or sets how many [Character](./get_character/) to use as indentation per one list level. The default value is 0, that means no indentation. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Character](./set_character/)(char16_t) | Setter for [Aspose::Words::Saving::TxtListIndentation::get_Character](./get_character/). |
-| [set_Count](./set_count/)(int32_t) | Setter for [Aspose::Words::Saving::TxtListIndentation::get_Count](./get_count/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TxtListIndentation](./txtlistindentation/)() |  |
 | static [Type](./type/)() |  |
-
+| [get_Character](./get_character/)() const | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
+| [get_Count](./get_count/)() const | Gets or sets how many [Character](./get_character/) to use as indentation per one list level. The default value is 0, that means no indentation. |
+| [set_Character](./set_character/)(char16_t) | Sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
+| [set_Count](./set_count/)(int32_t) | Sets how many [Character](./get_character/) to use as indentation per one list level. The default value is 0, that means no indentation. |
 ## Examples
 
 
+Shows how to configure list indenting when saving a document to plaintext.
 
-Shows how to configure list indenting when saving a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,7 +65,6 @@ System::String newLine = System::Environment::get_NewLine();
 
 ASSERT_EQ(System::String::Format(u"1. Item 1{0}", newLine) + System::String::Format(u"   a. Item 2{0}", newLine) + System::String::Format(u"      i. Item 3{0}", newLine), docText);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

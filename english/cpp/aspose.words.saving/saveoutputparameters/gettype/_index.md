@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoutputparameters/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::SaveOutputParameters::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::SaveOutputParameters::GetType() const override
 ```
 
 ## See Also

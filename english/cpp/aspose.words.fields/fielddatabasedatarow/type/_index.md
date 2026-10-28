@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::FieldDatabaseDataRow class in C++.'
 type: docs
-weight: 2000
+weight: 7000
 url: /cpp/aspose.words.fields/fielddatabasedatarow/type/
 ---
 ## FieldDatabaseDataRow::Type method

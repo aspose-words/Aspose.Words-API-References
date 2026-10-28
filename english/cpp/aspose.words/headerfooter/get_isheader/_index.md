@@ -4,7 +4,7 @@ linktitle: get_IsHeader
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooter::get_IsHeader method. True if this HeaderFooter object is a header in C++.'
 type: docs
-weight: 5000
+weight: 10429
 url: /cpp/aspose.words/headerfooter/get_isheader/
 ---
 ## HeaderFooter::get_IsHeader method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/headerfooter/get_isheader/
 True if this [HeaderFooter](../) object is a header.
 
 ```cpp
-bool Aspose::Words::HeaderFooter::get_IsHeader()
+_Bool Aspose::Words::HeaderFooter::get_IsHeader()
 ```
-
 
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -51,7 +50,6 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
-
 ## See Also
 
 * Class [HeaderFooter](../)

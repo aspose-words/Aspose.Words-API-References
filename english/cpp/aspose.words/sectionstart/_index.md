@@ -13,7 +13,7 @@ url: /cpp/aspose.words/sectionstart/
 The type of break at the beginning of the section.
 
 ```cpp
-enum class SectionStart
+enum class SectionStart : int
 ```
 
 ### Values
@@ -21,17 +21,16 @@ enum class SectionStart
 | Name | Value | Description |
 | --- | --- | --- |
 | Continuous | 0 | The new section starts on the same page as the previous section. |
+| EvenPage | 3 | The section starts on a new even page. |
 | NewColumn | 1 | The section starts from a new column. |
 | NewPage | 2 | The section starts from a new page. |
-| EvenPage | 3 | The section starts on a new even page. |
 | OddPage | 4 | The section starts on a new odd page. |
-
 
 ## Examples
 
 
+Shows how to specify how a new section separates itself from the previous.
 
-Shows how to specify how a new section separates itself from the previous. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,8 +74,8 @@ ASSERT_EQ(SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetu
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetSectionStart.docx");
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -119,7 +118,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

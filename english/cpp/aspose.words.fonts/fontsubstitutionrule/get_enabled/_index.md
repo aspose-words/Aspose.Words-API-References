@@ -4,7 +4,7 @@ linktitle: get_Enabled
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled method. Specifies whether the rule is enabled or not in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fonts/fontsubstitutionrule/get_enabled/
 ---
 ## FontSubstitutionRule::get_Enabled method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fonts/fontsubstitutionrule/get_enabled/
 Specifies whether the rule is enabled or not.
 
 ```cpp
-virtual bool Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled()
+virtual _Bool Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled()
 ```
-
 
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -74,13 +73,13 @@ ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubst
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
 
+Shows operating system-dependent font config substitution.
 
-Shows operating system-dependent font config substitution. 
 ```cpp
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
 System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> fontConfigSubstitution = fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution();
 
-bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S,
+bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S, 
     System::PlatformID::Win32Windows, System::PlatformID::WinCE})->LINQ_Any(static_cast<System::Func<System::PlatformID, bool>>(static_cast<std::function<bool(System::PlatformID p)>>([](System::PlatformID p) -> bool
 {
     return System::Environment::get_OSVersion().get_Platform() == p;
@@ -108,7 +107,6 @@ if (isLinuxOrMac)
     fontConfigSubstitution->ResetCache();
 }
 ```
-
 ## See Also
 
 * Class [FontSubstitutionRule](../)

@@ -4,7 +4,7 @@ linktitle: get_Contributors
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Contributors method. Gets contributors list (author, editor, writer etc) of a source in C++.'
 type: docs
-weight: 13000
+weight: 57234
 url: /cpp/aspose.words.bibliography/source/get_contributors/
 ---
 ## Source::get_Contributors method
@@ -16,12 +16,11 @@ Gets contributors list (author, editor, writer etc) of a source.
 const System::SharedPtr<Aspose::Words::Bibliography::ContributorCollection> & Aspose::Words::Bibliography::Source::get_Contributors() const
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,10 +113,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Class [ContributorCollection](../../contributorcollection/)
 * Class [Source](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

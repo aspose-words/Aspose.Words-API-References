@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldta/set_entrycategory/
 Sets the integral entry category, which is a number that corresponds to the order of categories.
 
 ```cpp
-void Aspose::Words::Fields::FieldTA::set_EntryCategory(const System::String &value)
+void Aspose::Words::Fields::FieldTA::set_EntryCategory(const System::String & value)
 ```
 
 ## See Also

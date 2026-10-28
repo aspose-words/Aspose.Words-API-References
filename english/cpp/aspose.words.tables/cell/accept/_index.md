@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cell/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Tables::Cell::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Tables::Cell::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,9 @@ True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
+ Calls [VisitCellStart()](../../../aspose.words/documentvisitor/visitcellstart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of the section and calls [VisitCellEnd()](../../../aspose.words/documentvisitor/visitcellend/) at the end. 
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

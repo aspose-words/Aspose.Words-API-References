@@ -22,12 +22,11 @@ void Aspose::Words::Range::UnlinkFields()
 Replaces all the fields in this range with their most recent results.
 
 To unlink fields in the whole document use [UnlinkFields](./).
-
 ## Examples
 
 
+Shows how to unlink all fields in a range.
 
-Shows how to unlink all fields in a range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Linked fields.docx"));
 
@@ -36,7 +35,6 @@ doc->get_Sections()->Add(newSection);
 
 doc->get_Sections()->idx_get(1)->get_Range()->UnlinkFields();
 ```
-
 ## See Also
 
 * Class [Range](../)

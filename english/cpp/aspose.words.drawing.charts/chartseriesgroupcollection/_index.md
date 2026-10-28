@@ -21,19 +21,19 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Drawing::Charts::ChartSeriesType) | Adds a new series group of the specified series type to this collection. |
-| [begin](./begin/)() |  |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
+| static [Type](./type/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() |  |
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Returns the number of series groups in this collection. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [ChartSeriesGroup](../chartseriesgroup/) at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
-| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -47,12 +47,14 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
 
+ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. 
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +88,6 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -4,7 +4,7 @@ linktitle: get_IncludeCountryOrRegionName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAddressBlock::get_IncludeCountryOrRegionName method. Gets or sets whether to include the name of the country/region in C++.'
 type: docs
-weight: 5000
+weight: 10572
 url: /cpp/aspose.words.fields/fieldaddressblock/get_includecountryorregionname/
 ---
 ## FieldAddressBlock::get_IncludeCountryOrRegionName method
@@ -16,12 +16,11 @@ Gets or sets whether to include the name of the country/region.
 System::String Aspose::Words::Fields::FieldAddressBlock::get_IncludeCountryOrRegionName()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an ADDRESSBLOCK field.
 
-Shows how to insert an ADDRESSBLOCK field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ field->set_LanguageId(System::Convert::ToString(System::MakeObject<System::Globa
 
 ASSERT_EQ(u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033", field->GetFieldCode());
 ```
-
 ## See Also
 
 * Class [FieldAddressBlock](../)

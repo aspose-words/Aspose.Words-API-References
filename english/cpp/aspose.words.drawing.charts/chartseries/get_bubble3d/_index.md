@@ -4,7 +4,7 @@ linktitle: get_Bubble3D
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_Bubble3D method. Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them in C++.'
 type: docs
-weight: 2000
+weight: 14560
 url: /cpp/aspose.words.drawing.charts/chartseries/get_bubble3d/
 ---
 ## ChartSeries::get_Bubble3D method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/chartseries/get_bubble3d/
 Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartSeries::get_Bubble3D() override
+_Bool Aspose::Words::Drawing::Charts::ChartSeries::get_Bubble3D() override
 ```
-
 
 ## Examples
 
 
+Shows how to use 3D effects with bubble charts.
 
-Shows how to use 3D effects with bubble charts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ for (int32_t i = 0; i < 3; i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.Bubble3D.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeries](../)

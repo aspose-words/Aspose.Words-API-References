@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/comparer/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::Comparer::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::Comparer::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

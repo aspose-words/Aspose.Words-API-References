@@ -13,14 +13,13 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/remove/
 Removes a field mapping.
 
 ```cpp
-void Aspose::Words::MailMerging::MappedDataFieldCollection::Remove(const System::String &documentFieldName)
+void Aspose::Words::MailMerging::MappedDataFieldCollection::Remove(const System::String & documentFieldName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentFieldName | const System::String\& | Case-sensitive name of the mail merge field in the document. |
-
+| documentFieldName | const System::String \& | Case-sensitive name of the mail merge field in the document. |
 ## See Also
 
 * Class [MappedDataFieldCollection](../)

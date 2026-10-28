@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use begin method of Aspose::Words::Lists::ListCollection class in C++.'
 type: docs
-weight: 4000
+weight: 14223
 url: /cpp/aspose.words.lists/listcollection/begin/
 ---
 ## ListCollection::begin() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.lists/listcollection/begin/
 
 
 ```cpp
-const_iterator Aspose::Words::Lists::ListCollection::begin() const noexcept
+const_iterator Aspose::Words::Lists::ListCollection::begin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Lists::ListCollection::begin() const noexcept
 
 
 ```cpp
-iterator Aspose::Words::Lists::ListCollection::begin() noexcept
+iterator Aspose::Words::Lists::ListCollection::begin()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

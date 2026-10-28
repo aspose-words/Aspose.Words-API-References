@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/tablecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::TableCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::TableCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

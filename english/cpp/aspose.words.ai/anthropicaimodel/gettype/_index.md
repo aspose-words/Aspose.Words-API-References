@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/anthropicaimodel/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::AI::AnthropicAiModel::GetType() const override
+const System::TypeInfo & Aspose::Words::AI::AnthropicAiModel::GetType() const override
 ```
 
 ## See Also

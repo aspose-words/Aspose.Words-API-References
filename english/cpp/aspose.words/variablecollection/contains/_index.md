@@ -13,23 +13,22 @@ url: /cpp/aspose.words/variablecollection/contains/
 Determines whether the collection contains a document variable with the given name.
 
 ```cpp
-bool Aspose::Words::VariableCollection::Contains(const System::String &name)
+_Bool Aspose::Words::VariableCollection::Contains(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-insensitive name of the document variable to locate. |
+| name | const System::String \& | Case-insensitive name of the document variable to locate. |
 
 ### ReturnValue
 
 **true** if item is found in the collection; otherwise, **false**.
-
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -99,7 +98,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

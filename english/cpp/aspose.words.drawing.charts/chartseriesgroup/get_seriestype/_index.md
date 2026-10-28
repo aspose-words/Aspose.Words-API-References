@@ -4,7 +4,7 @@ linktitle: get_SeriesType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SeriesType method. Gets the type of chart series included in this group in C++.'
 type: docs
-weight: 12000
+weight: 14924
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_seriestype/
 ---
 ## ChartSeriesGroup::get_SeriesType method
@@ -16,12 +16,11 @@ Gets the type of chart series included in this group.
 Aspose::Words::Drawing::Charts::ChartSeriesType Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SeriesType()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
-* Enum [ChartSeriesType](../../chartseriestype/)
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

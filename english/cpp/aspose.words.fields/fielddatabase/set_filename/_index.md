@@ -10,10 +10,10 @@ url: /cpp/aspose.words.fields/fielddatabase/set_filename/
 ## FieldDatabase::set_FileName method
 
 
-Sets the complete path and file name of the database.
+Sets the complete path and file name of the database
 
 ```cpp
-void Aspose::Words::Fields::FieldDatabase::set_FileName(const System::String &value)
+void Aspose::Words::Fields::FieldDatabase::set_FileName(const System::String & value)
 ```
 
 ## See Also

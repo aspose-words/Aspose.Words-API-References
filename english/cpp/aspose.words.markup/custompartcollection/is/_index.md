@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/custompartcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::CustomPartCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::CustomPartCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GradientStopCollection::get_Count method. Gets an integer value indicating the number of items in the collection in C++.'
 type: docs
-weight: 3000
+weight: 13000
 url: /cpp/aspose.words.drawing/gradientstopcollection/get_count/
 ---
 ## GradientStopCollection::get_Count method
@@ -16,12 +16,11 @@ Gets an integer value indicating the number of items in the collection.
 int32_t Aspose::Words::Drawing::GradientStopCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [GradientStopCollection](../)

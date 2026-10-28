@@ -4,7 +4,7 @@ linktitle: get_LeftMargin
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_LeftMargin method. Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text in C++.'
 type: docs
-weight: 22000
+weight: 49454
 url: /cpp/aspose.words/pagesetup/get_leftmargin/
 ---
 ## PageSetup::get_LeftMargin method
@@ -16,12 +16,11 @@ Returns or sets the distance (in points) between the left edge of the page and t
 double Aspose::Words::PageSetup::get_LeftMargin()
 ```
 
-
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ builder->Writeln(u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

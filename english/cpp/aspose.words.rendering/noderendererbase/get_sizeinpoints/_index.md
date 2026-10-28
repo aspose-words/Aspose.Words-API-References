@@ -4,7 +4,7 @@ linktitle: get_SizeInPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::NodeRendererBase::get_SizeInPoints method. Gets the actual size of the shape in points in C++.'
 type: docs
-weight: 5000
+weight: 17000
 url: /cpp/aspose.words.rendering/noderendererbase/get_sizeinpoints/
 ---
 ## NodeRendererBase::get_SizeInPoints method
@@ -20,12 +20,11 @@ System::Drawing::SizeF Aspose::Words::Rendering::NodeRendererBase::get_SizeInPoi
 
 
 This property returns the size of the actual (as rendered on the page) bounding box of the shape. The size takes into account shape rotation (if any).
-
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -66,7 +65,6 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
 * Class [NodeRendererBase](../)

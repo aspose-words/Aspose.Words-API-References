@@ -16,12 +16,11 @@ Performs the field update. Throws if the field is being updated already.
 void Aspose::Words::Fields::Field::Update()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a field into a document using FieldType.
 
-Shows how to insert a field into a document using FieldType. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,8 +59,8 @@ else
 }
 ```
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -122,7 +121,6 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
 * Class [Field](../)
@@ -141,12 +139,11 @@ void Aspose::Words::Fields::Field::Update(bool ignoreMergeFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | bool | If **true** then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
 ## Examples
 
 
+Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 
-Shows how to preserve or discard INCLUDEPICTURE fields when loading a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -185,7 +182,6 @@ includePicture->Update(true);
     }
 }
 ```
-
 ## See Also
 
 * Class [Field](../)

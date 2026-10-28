@@ -4,7 +4,7 @@ linktitle: get_OpaqueBoundsInPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::NodeRendererBase::get_OpaqueBoundsInPoints method. Gets the opaque bounds of the shape in points in C++.'
 type: docs
-weight: 4000
+weight: 16000
 url: /cpp/aspose.words.rendering/noderendererbase/get_opaqueboundsinpoints/
 ---
 ## NodeRendererBase::get_OpaqueBoundsInPoints method
@@ -20,12 +20,11 @@ System::Drawing::RectangleF Aspose::Words::Rendering::NodeRendererBase::get_Opaq
 
 
 This property returns the opaque (i.e. transparent parts of the shape are ignored) bounding box of the shape. The bounds takes the shape rotation into account.
-
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -66,7 +65,6 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
 * Class [NodeRendererBase](../)

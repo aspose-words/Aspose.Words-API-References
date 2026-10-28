@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::FieldAutoTextList class in C++.'
 type: docs
-weight: 1000
+weight: 6200
 url: /cpp/aspose.words.fields/fieldautotextlist/type/
 ---
 ## FieldAutoTextList::Type method

@@ -4,7 +4,7 @@ linktitle: get_IsInline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsInline method. A quick way to determine if this shape is positioned inline with text in C++.'
 type: docs
-weight: 30000
+weight: 61480
 url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 ---
 ## ShapeBase::get_IsInline method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 A quick way to determine if this shape is positioned inline with text.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsInline()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsInline()
 ```
 
 ## Remarks
 
 
 Has effect only for top level shapes.
-
 ## Examples
 
 
+Shows how to determine whether a shape is inline or floating.
 
-Shows how to determine whether a shape is inline or floating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ ASSERT_FALSE(shape->get_IsInline());
 
 doc->Save(get_ArtifactsDir() + u"Shape.IsInline.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

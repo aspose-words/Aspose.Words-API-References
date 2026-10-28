@@ -19,13 +19,12 @@ int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting()
 
 ### ReturnValue
 
-Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
-
+Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
 ## Examples
 
 
+Shows how to simplify paragraphs by merging superfluous runs.
 
-Shows how to simplify paragraphs by merging superfluous runs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,35 +58,33 @@ ASSERT_EQ(2, para->get_Runs()->get_Count());
 ASSERT_EQ(u"Run 1. Run 2. Run 3. ", para->get_Runs()->idx_get(0)->get_Text());
 ASSERT_EQ(u"Run 4. ", para->get_Runs()->idx_get(1)->get_Text());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr\<Aspose::Words::JoinRunsOptions\>\&) method
+## Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr\<Aspose::Words::JoinRunsOptions\> \&) method
 
 
 Joins runs with the same formatting in the paragraph.
 
 ```cpp
-int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr<Aspose::Words::JoinRunsOptions> &options)
+int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr<Aspose::Words::JoinRunsOptions> & options)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | const System::SharedPtr\<Aspose::Words::JoinRunsOptions\>\& | Additional options |
+| options | const System::SharedPtr\<Aspose::Words::JoinRunsOptions\> \& | Additional options |
 
 ### ReturnValue
 
-Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
-
+Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
 ## Examples
 
 
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
 
-Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -119,10 +116,8 @@ ASSERT_EQ(u"Hello world", doc->get_FirstSection()->get_Body()->get_FirstParagrap
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
 ```
-
 ## See Also
 
-* Class [JoinRunsOptions](../../joinrunsoptions/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

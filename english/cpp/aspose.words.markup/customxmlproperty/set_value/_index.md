@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlProperty::set_Value method
 linktitle: set_Value
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlProperty::set_Value method. Setter for Aspose::Words::Markup::CustomXmlProperty::get_Value in C++.'
+description: 'Aspose::Words::Markup::CustomXmlProperty::set_Value method. Sets the value of the custom XML attribute or smart tag property in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.markup/customxmlproperty/set_value/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.markup/customxmlproperty/set_value/
 ## CustomXmlProperty::set_Value method
 
 
-Setter for [Aspose::Words::Markup::CustomXmlProperty::get_Value](../get_value/).
+Sets the value of the custom XML attribute or smart tag property.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlProperty::set_Value(const System::String &value)
+void Aspose::Words::Markup::CustomXmlProperty::set_Value(const System::String & value)
 ```
 
+## Remarks
+
+
+Cannot be **null**.
+
+Default is empty string.
 ## See Also
 
 * Class [CustomXmlProperty](../)

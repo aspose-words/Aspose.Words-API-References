@@ -2,20 +2,52 @@
 title: Aspose::Words::Tables::Table::set_AllowAutoFit method
 linktitle: set_AllowAutoFit
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Tables::Table::set_AllowAutoFit method. Setter for Aspose::Words::Tables::Table::get_AllowAutoFit in C++.'
+description: 'Aspose::Words::Tables::Table::set_AllowAutoFit method. Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents in C++.'
 type: docs
-weight: 47000
+weight: 109000
 url: /cpp/aspose.words.tables/table/set_allowautofit/
 ---
 ## Table::set_AllowAutoFit method
 
 
-Setter for [Aspose::Words::Tables::Table::get_AllowAutoFit](../get_allowautofit/).
+Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.
 
 ```cpp
 void Aspose::Words::Tables::Table::set_AllowAutoFit(bool value)
 ```
 
+## Remarks
+
+
+The default value is **true**.
+## Examples
+
+
+Shows how to enable/disable automatic table cell resizing.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+builder->InsertCell();
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(100));
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+builder->InsertCell();
+builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->EndRow();
+builder->EndTable();
+
+// Set the "AllowAutoFit" property to "false" to get the table to maintain the dimensions
+// of all its rows and cells, and truncate contents if they get too large to fit.
+// Set the "AllowAutoFit" property to "true" to allow the table to change its cells' width and height
+// to accommodate their contents.
+table->set_AllowAutoFit(allowAutoFit);
+
+doc->Save(get_ArtifactsDir() + u"Table.AllowAutoFitOnTable.html");
+```
 ## See Also
 
 * Class [Table](../)

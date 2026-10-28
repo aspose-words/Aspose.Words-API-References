@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldfootnoteref/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldFootnoteRef::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldFootnoteRef::GetType() const override
 ```
 
 ## See Also

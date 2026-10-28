@@ -13,26 +13,25 @@ url: /cpp/aspose.words.drawing.charts/legendposition/
 Specifies the possible positions for a chart legend.
 
 ```cpp
-enum class LegendPosition
+enum class LegendPosition : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No legend will be shown for the chart. |
 | Bottom | 1 | Specifies that the legend shall be drawn at the bottom of the chart. |
 | Left | 2 | Specifies that the legend shall be drawn at the left of the chart. |
+| None | 0 | No legend will be shown for the chart. |
 | Right | 3 | Specifies that the legend shall be drawn at the right of the chart. |
 | Top | 4 | Specifies that the legend shall be drawn at the top of the chart. |
 | TopRight | 5 | Specifies that the legend shall be drawn at the top right of the chart. |
 
-
 ## Examples
 
 
+Shows how to edit the appearance of a chart's legend.
 
-Shows how to edit the appearance of a chart's legend. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ legend->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

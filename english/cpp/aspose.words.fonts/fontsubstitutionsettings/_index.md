@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontSubstitutionSettings class
 linktitle: FontSubstitutionSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontSubstitutionSettings class. Specifies font substitution mechanism settings. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fonts::FontSubstitutionSettings class. Specifies font substitution mechanism settings. To learn more, visit the Working with Fonts documentation article in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fonts/fontsubstitutionsettings/
 ## FontSubstitutionSettings class
 
 
-Specifies font substitution mechanism settings. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
+Specifies font substitution mechanism settings. 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontSubstitutionSettings : public System::Object
@@ -20,36 +21,29 @@ class FontSubstitutionSettings : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_DefaultFontSubstitution](./get_defaultfontsubstitution/)() const | [Settings](../../aspose.words.settings/) related to default font substitution rule. |
-| [get_FontConfigSubstitution](./get_fontconfigsubstitution/)() const | [Settings](../../aspose.words.settings/) related to font config substitution rule. |
-| [get_FontInfoSubstitution](./get_fontinfosubstitution/)() const | [Settings](../../aspose.words.settings/) related to font info substitution rule. |
-| [get_FontNameSubstitution](./get_fontnamesubstitution/)() const | [Settings](../../aspose.words.settings/) related to font name substitution rule. |
-| [get_TableSubstitution](./get_tablesubstitution/)() const | [Settings](../../aspose.words.settings/) related to table substitution rule. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_DefaultFontSubstitution](./get_defaultfontsubstitution/)() const | Settings related to default font substitution rule. |
+| [get_FontConfigSubstitution](./get_fontconfigsubstitution/)() const | Settings related to font config substitution rule. |
+| [get_FontInfoSubstitution](./get_fontinfosubstitution/)() const | Settings related to font info substitution rule. |
+| [get_FontNameSubstitution](./get_fontnamesubstitution/)() const | Settings related to font name substitution rule. |
+| [get_TableSubstitution](./get_tablesubstitution/)() const | Settings related to table substitution rule. |
 ## Remarks
 
 
-[Font](../../aspose.words/font/) substitution process consists of several rules which are checked one by one in specific order. If the first rule can't resolve the font then second rule is checked and so on.
+ Font substitution process consists of several rules which are checked one by one in specific order. If the first rule can't resolve the font then second rule is checked and so on.
 
-The order of the rules is following:1. [Font](../../aspose.words/font/) name substitution rule (enabled by default)
-1. [Font](../../aspose.words/font/) config substitution rule (disabled by default)
-1. Table substitution rule (enabled by default)
-1. [Font](../../aspose.words/font/) info substitution rule (enabled by default)
-1. Default font rule (enabled by default)
+The order of the rules is following: 1. Font name substitution rule (enabled by default) 2. Font config substitution rule (disabled by default) 3. Table substitution rule (enabled by default) 4. Font info substitution rule (enabled by default) 5. Default font rule (enabled by default) 
 
+ Note that font info substitution rule will always resolve the font if [FontInfo](../fontinfo/) is available and will override the default font rule. If you want to use the default font rule then you should disable the font info substitution rule. 
 
-
-Note that font info substitution rule will always resolve the font if [FontInfo](../fontinfo/) is available and will override the default font rule. If you want to use the default font rule then you should disable the font info substitution rule.
-
-Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules.
-
+ Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules. 
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -101,7 +95,6 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

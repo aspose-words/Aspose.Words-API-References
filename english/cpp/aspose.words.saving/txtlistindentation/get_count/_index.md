@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtListIndentation::get_Count method. Gets or sets how many Character to use as indentation per one list level. The default value is 0, that means no indentation in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.saving/txtlistindentation/get_count/
 ---
 ## TxtListIndentation::get_Count method
@@ -16,12 +16,11 @@ Gets or sets how many [Character](../get_character/) to use as indentation per o
 int32_t Aspose::Words::Saving::TxtListIndentation::get_Count() const
 ```
 
-
 ## Examples
 
 
+Shows how to configure list indenting when saving a document to plaintext.
 
-Shows how to configure list indenting when saving a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ System::String newLine = System::Environment::get_NewLine();
 
 ASSERT_EQ(System::String::Format(u"1. Item 1{0}", newLine) + System::String::Format(u"   a. Item 2{0}", newLine) + System::String::Format(u"      i. Item 3{0}", newLine), docText);
 ```
-
 ## See Also
 
 * Class [TxtListIndentation](../)

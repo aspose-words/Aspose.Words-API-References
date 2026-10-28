@@ -16,12 +16,11 @@ Resets to default row formatting.
 void Aspose::Words::Tables::RowFormat::ClearFormatting()
 ```
 
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
-
 ## See Also
 
 * Class [RowFormat](../)

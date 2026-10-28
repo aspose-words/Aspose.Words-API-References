@@ -16,6 +16,9 @@ Sets a value determining if fields of certain types should be updated before sav
 void Aspose::Words::Saving::SaveOptions::set_UpdateFields(bool value)
 ```
 
+## Remarks
+
+ Allows to specify whether to mimic or not MS Word behavior. 
 ## See Also
 
 * Class [SaveOptions](../)

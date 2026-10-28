@@ -2,7 +2,7 @@
 title: Aspose::Words::Notes::EndnoteOptions::set_Position method
 linktitle: set_Position
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Notes::EndnoteOptions::set_Position method. Setter for Aspose::Words::Notes::EndnoteOptions::get_Position in C++.'
+description: 'Aspose::Words::Notes::EndnoteOptions::set_Position method. Specifies the endnotes position in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.notes/endnoteoptions/set_position/
@@ -10,15 +10,44 @@ url: /cpp/aspose.words.notes/endnoteoptions/set_position/
 ## EndnoteOptions::set_Position method
 
 
-Setter for [Aspose::Words::Notes::EndnoteOptions::get_Position](../get_position/).
+Specifies the endnotes position.
 
 ```cpp
 void Aspose::Words::Notes::EndnoteOptions::set_Position(Aspose::Words::Notes::EndnotePosition value)
 ```
 
+## Examples
+
+
+Shows how to select a different place where the document collects and displays its endnotes.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// An endnote is a way to attach a reference or a side comment to text
+// that does not interfere with the main body text's flow.
+// Inserting an endnote adds a small superscript reference symbol
+// at the main body text where we insert the endnote.
+// Each endnote also creates an entry at the end of the document, consisting of a symbol
+// that matches the reference symbol in the main body text.
+// The reference text that we pass to the document builder's "InsertEndnote" method.
+builder->Write(u"Hello world!");
+builder->InsertFootnote(FootnoteType::Endnote, u"Endnote contents.");
+builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->Write(u"This is the second section.");
+
+// We can use the "Position" property to determine where the document will place all its endnotes.
+// If we set the value of the "Position" property to "EndnotePosition.EndOfDocument",
+// every footnote will show up in a collection at the end of the document. This is the default value.
+// If we set the value of the "Position" property to "EndnotePosition.EndOfSection",
+// every footnote will show up in a collection at the end of the section whose text contains the endnote's reference mark.
+doc->get_EndnoteOptions()->set_Position(endnotePosition);
+
+doc->Save(get_ArtifactsDir() + u"InlineStory.PositionEndnote.docx");
+```
 ## See Also
 
-* Enum [EndnotePosition](../../endnoteposition/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

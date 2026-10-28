@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::ImportFormatOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::ImportFormatOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

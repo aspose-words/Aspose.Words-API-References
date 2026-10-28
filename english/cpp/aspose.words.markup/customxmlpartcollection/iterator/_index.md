@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Markup::CustomXmlPartCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Markup::CustomXmlPartCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

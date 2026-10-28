@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldnoteref/set_bookmarkname/
 Sets the name of the bookmark.
 
 ```cpp
-void Aspose::Words::Fields::FieldNoteRef::set_BookmarkName(const System::String &value)
+void Aspose::Words::Fields::FieldNoteRef::set_BookmarkName(const System::String & value)
 ```
 
 ## See Also

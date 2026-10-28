@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PclSaveOptions::set_FallbackFontName method
 linktitle: set_FallbackFontName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PclSaveOptions::set_FallbackFontName method. Setter for Aspose::Words::Saving::PclSaveOptions::get_FallbackFontName in C++.'
+description: 'Aspose::Words::Saving::PclSaveOptions::set_FallbackFontName method. Name of the font that will be used if no expected font is found in printer and built-in fonts collections in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.saving/pclsaveoptions/set_fallbackfontname/
@@ -10,12 +10,34 @@ url: /cpp/aspose.words.saving/pclsaveoptions/set_fallbackfontname/
 ## PclSaveOptions::set_FallbackFontName method
 
 
-Setter for [Aspose::Words::Saving::PclSaveOptions::get_FallbackFontName](../get_fallbackfontname/).
+Name of the font that will be used if no expected font is found in printer and built-in fonts collections.
 
 ```cpp
-void Aspose::Words::Saving::PclSaveOptions::set_FallbackFontName(const System::String &value)
+void Aspose::Words::Saving::PclSaveOptions::set_FallbackFontName(const System::String & value)
 ```
 
+## Remarks
+
+ If no fallback is found, a warning is generated and "Arial" font is used. 
+## Examples
+
+
+Shows how to declare a font that a printer will apply to printed text as a substitute should its original font be unavailable.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_Font()->set_Name(u"Non-existent font");
+builder->Write(u"Hello world!");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::PclSaveOptions>();
+saveOptions->set_FallbackFontName(u"Times New Roman");
+
+// This document will instruct the printer to apply "Times New Roman" to the text with the missing font.
+// Should "Times New Roman" also be unavailable, the printer will default to the "Arial" font.
+doc->Save(get_ArtifactsDir() + u"PclSaveOptions.SetPrinterFont.pcl", saveOptions);
+```
 ## See Also
 
 * Class [PclSaveOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_Groups
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RevisionCollection::get_Groups method. Collection of revision groups in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words/revisioncollection/get_groups/
 ---
 ## RevisionCollection::get_Groups method
@@ -16,12 +16,11 @@ Collection of revision groups.
 System::SharedPtr<Aspose::Words::RevisionGroupCollection> Aspose::Words::RevisionCollection::get_Groups()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of revisions.
 
-Shows how to work with a document's collection of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
@@ -67,10 +66,8 @@ revisions->RejectAll();
 
 ASSERT_EQ(0, revisions->get_Count());
 ```
-
 ## See Also
 
-* Class [RevisionGroupCollection](../../revisiongroupcollection/)
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

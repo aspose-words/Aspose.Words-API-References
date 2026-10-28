@@ -4,7 +4,7 @@ linktitle: get_ListLevels
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_ListLevels method. Gets the collection of list levels for this list in C++.'
 type: docs
-weight: 10000
+weight: 15800
 url: /cpp/aspose.words.lists/list/get_listlevels/
 ---
 ## List::get_ListLevels method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Lists::ListLevelCollection> Aspose::Words::List
 
 
 Use this property to access and modify formatting individual to each level of the list.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,10 +76,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
-* Class [ListLevelCollection](../../listlevelcollection/)
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

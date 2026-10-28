@@ -4,7 +4,7 @@ linktitle: get_HorizontalResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_HorizontalResolution method. Gets or sets the horizontal resolution for the digital signature. Default value is 1920 in C++.'
 type: docs
-weight: 4334
+weight: 10140
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_horizontalresolution/
 ---
 ## SignOptions::get_HorizontalResolution method
@@ -16,12 +16,11 @@ Gets or sets the horizontal resolution for the digital signature. Default value 
 int32_t Aspose::Words::DigitalSignatures::SignOptions::get_HorizontalResolution() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign a document with additional signing options.
 
-Shows how to sign a document with additional signing options. 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_WindowsVersion(u"10.0");
@@ -47,7 +46,6 @@ ASSERT_EQ(1024, signature->get_HorizontalResolution());
 ASSERT_EQ(768, signature->get_VerticalResolution());
 ASSERT_EQ(24, signature->get_ColorDepth());
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

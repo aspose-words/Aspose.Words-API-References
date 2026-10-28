@@ -4,7 +4,7 @@ linktitle: get_IsInCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsInCell method. True if this paragraph is an immediate child of Cell; false otherwise in C++.'
 type: docs
-weight: 13000
+weight: 42000
 url: /cpp/aspose.words/paragraph/get_isincell/
 ---
 ## Paragraph::get_IsInCell method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_isincell/
 True if this paragraph is an immediate child of [Cell](../../../aspose.words.tables/cell/); false otherwise.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsInCell()
+_Bool Aspose::Words::Paragraph::get_IsInCell()
 ```
-
 
 ## Examples
 
 
+Shows how to set a table to stay together on the same page.
 
-Shows how to set a table to stay together on the same page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -43,7 +42,6 @@ for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetCh
 
 doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

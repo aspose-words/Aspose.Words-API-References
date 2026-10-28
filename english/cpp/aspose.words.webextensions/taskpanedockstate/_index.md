@@ -13,22 +13,21 @@ url: /cpp/aspose.words.webextensions/taskpanedockstate/
 Enumerates available locations of task pane object.
 
 ```cpp
-enum class TaskPaneDockState
+enum class TaskPaneDockState : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Right | 0 | Dock the task pane on the right side of the document window. |
 | Left | 1 | Dock the task pane on the left side of the document window. |
-
+| Right | 0 | Dock the task pane on the right side of the document window. |
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -93,7 +92,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

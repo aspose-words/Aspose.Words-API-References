@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooterCollection::idx_get method. Retrieves a HeaderFooter of the specified type in C++.'
 type: docs
-weight: 3000
+weight: 8000
 url: /cpp/aspose.words/headerfootercollection/idx_get/
 ---
 ## HeaderFooterCollection::idx_get(Aspose::Words::HeaderFooterType) method
@@ -20,12 +20,14 @@ System::SharedPtr<Aspose::Words::HeaderFooter> Aspose::Words::HeaderFooterCollec
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headerFooterType | Aspose::Words::HeaderFooterType | A [HeaderFooterType](../../headerfootertype/) value that specifies the type of the header/footer to retrieve. |
+## Remarks
 
+ Returns **null** if the header/footer of the specified type is not found. 
 ## Examples
 
 
+Shows how to delete all footers from a document.
 
-Shows how to delete all footers from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -66,8 +68,8 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.RemoveFooters.docx");
 ```
 
+Shows how to replace text in a document's footer.
 
-Shows how to replace text in a document's footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
@@ -83,11 +85,8 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", System::String::Format
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
-
 ## See Also
 
-* Class [HeaderFooter](../../headerfooter/)
-* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -114,12 +113,11 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## Examples
 
 
+Shows how to link headers and footers between sections.
 
-Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -186,10 +184,8 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
-
 ## See Also
 
-* Class [HeaderFooter](../../headerfooter/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

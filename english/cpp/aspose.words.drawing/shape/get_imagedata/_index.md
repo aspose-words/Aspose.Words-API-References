@@ -4,7 +4,7 @@ linktitle: get_ImageData
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_ImageData method. Provides access to the image of the shape. Returns null if the shape cannot have an image in C++.'
 type: docs
-weight: 13000
+weight: 44000
 url: /cpp/aspose.words.drawing/shape/get_imagedata/
 ---
 ## Shape::get_ImageData method
@@ -16,12 +16,11 @@ Provides access to the image of the shape. Returns **null** if the shape cannot 
 System::SharedPtr<Aspose::Words::Drawing::ImageData> Aspose::Words::Drawing::Shape::get_ImageData()
 ```
 
-
 ## Examples
 
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
 
-Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -48,8 +47,8 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 }
 ```
 
+Shows how to insert a linked image into a document.
 
-Shows how to insert a linked image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,10 +83,8 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
-
 ## See Also
 
-* Class [ImageData](../../imagedata/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

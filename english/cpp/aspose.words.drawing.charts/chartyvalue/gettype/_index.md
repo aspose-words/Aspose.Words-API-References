@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartyvalue/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartYValue::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartYValue::GetType() const override
 ```
 
 ## See Also

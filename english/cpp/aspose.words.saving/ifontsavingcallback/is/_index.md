@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/ifontsavingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::IFontSavingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::IFontSavingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

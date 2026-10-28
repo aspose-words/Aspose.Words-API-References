@@ -4,7 +4,7 @@ linktitle: get_HasChildNodes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CompositeNode::get_HasChildNodes method. Returns true if this node has any child nodes in C++.'
 type: docs
-weight: 6000
+weight: 27000
 url: /cpp/aspose.words/compositenode/get_haschildnodes/
 ---
 ## CompositeNode::get_HasChildNodes method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/compositenode/get_haschildnodes/
 Returns **true** if this node has any child nodes.
 
 ```cpp
-bool Aspose::Words::CompositeNode::get_HasChildNodes()
+_Bool Aspose::Words::CompositeNode::get_HasChildNodes()
 ```
-
 
 ## Examples
 
 
+Shows how to combine the rows from two tables into one.
 
-Shows how to combine the rows from two tables into one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -43,7 +42,6 @@ secondTable->Remove();
 
 doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
-
 ## See Also
 
 * Class [CompositeNode](../)

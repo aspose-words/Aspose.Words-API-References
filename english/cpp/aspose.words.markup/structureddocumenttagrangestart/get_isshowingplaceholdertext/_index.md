@@ -2,31 +2,33 @@
 title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method
 linktitle: get_IsShowingPlaceholderText
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag).  if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
 type: docs
-weight: 8000
+weight: 27144
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method
 
 
-Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). if set to **true**, this state shall be resumed (showing placeholder text) upon opening this document.
+Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). 
+
+ if set to **true**, this state shall be resumed (showing placeholder text) upon opening this document.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText() override
+_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText() override
 ```
-
 
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,7 +49,6 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTagRangeStart](../)

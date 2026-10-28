@@ -2,7 +2,7 @@
 title: Aspose::Words::Vba::VbaProject::set_CodePage method
 linktitle: set_CodePage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Vba::VbaProject::set_CodePage method. Setter for Aspose::Words::Vba::VbaProject::get_CodePage in C++.'
+description: 'Aspose::Words::Vba::VbaProject::set_CodePage method. Sets the VBA project’s code page in C++.'
 type: docs
 weight: 10500
 url: /cpp/aspose.words.vba/vbaproject/set_codepage/
@@ -10,12 +10,43 @@ url: /cpp/aspose.words.vba/vbaproject/set_codepage/
 ## VbaProject::set_CodePage method
 
 
-Setter for [Aspose::Words::Vba::VbaProject::get_CodePage](../get_codepage/).
+Sets the VBA project’s code page.
 
 ```cpp
 void Aspose::Words::Vba::VbaProject::set_CodePage(int32_t value)
 ```
 
+## Remarks
+
+ Please note that VBA is pre-Unicode feature and you have to explicitly set appropriate code page to preserve regional character sets. 
+## Examples
+
+
+Shows how to access a document's VBA project information.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
+
+// A VBA project contains a collection of VBA modules.
+System::SharedPtr<Aspose::Words::Vba::VbaProject> vbaProject = doc->get_VbaProject();
+std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count()) : System::String::Format(u"Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count())) << std::endl;
+
+System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
+
+ASSERT_EQ(vbaModules->LINQ_Count(), 3);
+
+for (auto&& module_ : vbaModules)
+{
+    std::cout << System::String::Format(u"Module name: {0};\nModule code:\n{1}\n", module_->get_Name(), module_->get_SourceCode()) << std::endl;
+}
+
+// Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+vbaModules->idx_get(0)->set_SourceCode(u"Your VBA code...");
+vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
+
+// Remove a module from the collection.
+vbaModules->Remove(vbaModules->idx_get(2));
+```
 ## See Also
 
 * Class [VbaProject](../)

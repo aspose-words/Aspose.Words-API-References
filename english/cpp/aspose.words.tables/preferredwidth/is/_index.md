@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/preferredwidth/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::PreferredWidth::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::PreferredWidth::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/virtualized_ite
 
 
 ```cpp
-using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

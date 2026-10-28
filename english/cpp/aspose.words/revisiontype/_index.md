@@ -13,25 +13,24 @@ url: /cpp/aspose.words/revisiontype/
 Specifies the type of change being tracked in [Revision](../revision/).
 
 ```cpp
-enum class RevisionType
+enum class RevisionType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Insertion | 0 | New content was inserted in the document. |
 | Deletion | 1 | Content was removed from the document. |
 | FormatChange | 2 | Change of formatting was applied to the parent node. |
-| StyleDefinitionChange | 3 | Change of formatting was applied to the parent style. |
+| Insertion | 0 | New content was inserted in the document. |
 | Moving | 4 | Content was moved in the document. |
-
+| StyleDefinitionChange | 3 | Change of formatting was applied to the parent style. |
 
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -107,7 +106,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

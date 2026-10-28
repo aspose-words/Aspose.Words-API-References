@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Comparing::AdvancedCompareOptions class in C++.'
 type: docs
-weight: 1000
+weight: 6167
 url: /cpp/aspose.words.comparing/advancedcompareoptions/type/
 ---
 ## AdvancedCompareOptions::Type method

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddatabase/set_query/
 Sets a set of SQL instructions that query the database.
 
 ```cpp
-void Aspose::Words::Fields::FieldDatabase::set_Query(const System::String &value)
+void Aspose::Words::Fields::FieldDatabase::set_Query(const System::String & value)
 ```
 
 ## See Also

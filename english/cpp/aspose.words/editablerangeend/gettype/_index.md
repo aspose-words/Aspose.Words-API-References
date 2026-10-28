@@ -13,7 +13,7 @@ url: /cpp/aspose.words/editablerangeend/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::EditableRangeEnd::GetType() const override
+const System::TypeInfo & Aspose::Words::EditableRangeEnd::GetType() const override
 ```
 
 ## See Also

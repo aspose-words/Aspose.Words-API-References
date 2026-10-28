@@ -4,7 +4,7 @@ linktitle: get_AutomaticallyUpdate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_AutomaticallyUpdate method. Specifies whether this style is automatically redefined based on the appropriate value in C++.'
 type: docs
-weight: 4000
+weight: 22132
 url: /cpp/aspose.words/style/get_automaticallyupdate/
 ---
 ## Style::get_AutomaticallyUpdate method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_automaticallyupdate/
 Specifies whether this style is automatically redefined based on the appropriate value.
 
 ```cpp
-bool Aspose::Words::Style::get_AutomaticallyUpdate() const
+_Bool Aspose::Words::Style::get_AutomaticallyUpdate() const
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ If the property value is set to true, MS Word automatically redefines the curren
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to create and apply a custom style.
 
-Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -64,7 +63,6 @@ ASSERT_EQ(u"Times New Roman", firstParagraphStyle->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
-
 ## See Also
 
 * Class [Style](../)

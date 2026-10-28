@@ -4,7 +4,7 @@ linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Bidi method. Gets or sets whether this is a right-to-left table in C++.'
 type: docs
-weight: 15000
+weight: 79000
 url: /cpp/aspose.words.tables/table/get_bidi/
 ---
 ## Table::get_Bidi method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/table/get_bidi/
 Gets or sets whether this is a right-to-left table.
 
 ```cpp
-bool Aspose::Words::Tables::Table::get_Bidi()
+_Bool Aspose::Words::Tables::Table::get_Bidi()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Tables::Table::get_Bidi()
 When **true**, the cells in this row are laid out right to left.
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to create custom style settings for the table.
 
-Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +62,6 @@ ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
 doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
-
 ## See Also
 
 * Class [Table](../)

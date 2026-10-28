@@ -4,24 +4,23 @@ linktitle: get_DefaultFontSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_DefaultFontSubstitution method. Settings related to default font substitution rule in C++.'
 type: docs
-weight: 2000
+weight: 10000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings::get_DefaultFontSubstitution method
 
 
-[Settings](../../../aspose.words.settings/) related to default font substitution rule.
+Settings related to default font substitution rule.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_DefaultFontSubstitution() const
 ```
 
-
 ## Examples
 
 
+Shows how to set the default font substitution rule.
 
-Shows how to set the default font substitution rule. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -45,10 +44,8 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
-
 ## See Also
 
-* Class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

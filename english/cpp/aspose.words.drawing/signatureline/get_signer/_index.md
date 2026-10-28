@@ -4,24 +4,23 @@ linktitle: get_Signer
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_Signer method. Gets or sets suggested signer of the signature line. Default value for this property is empty string in C++.'
 type: docs
-weight: 11000
+weight: 14847
 url: /cpp/aspose.words.drawing/signatureline/get_signer/
 ---
 ## SignatureLine::get_Signer method
 
 
-Gets or sets suggested signer of the signature line. Default value for this property is **empty string**.
+Gets or sets suggested signer of the signature line. Default value for this property is empty string.
 
 ```cpp
 System::String Aspose::Words::Drawing::SignatureLine::get_Signer()
 ```
 
-
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
 * Class [SignatureLine](../)

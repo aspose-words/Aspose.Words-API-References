@@ -4,7 +4,7 @@ linktitle: get_DateTimeValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValue::get_DateTimeValue method. Gets the stored datetime value in C++.'
 type: docs
-weight: 8000
+weight: 18000
 url: /cpp/aspose.words.drawing.charts/chartxvalue/get_datetimevalue/
 ---
 ## ChartXValue::get_DateTimeValue method

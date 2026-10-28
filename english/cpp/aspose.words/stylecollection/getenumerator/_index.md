@@ -16,12 +16,11 @@ Gets an enumerator object that will enumerate styles in the alphabetical order o
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Style>>> Aspose::Words::StyleCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,10 +41,8 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
     }
 }
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

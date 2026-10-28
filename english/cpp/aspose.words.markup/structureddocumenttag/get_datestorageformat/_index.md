@@ -4,13 +4,13 @@ linktitle: get_DateStorageFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateStorageFormat method. Gets/sets format in which the date for a date SDT is stored when the SDT is bound to an XML node in the document''s data store. Default value is DateTime in C++.'
 type: docs
-weight: 14000
+weight: 71000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datestorageformat/
 ---
 ## StructuredDocumentTag::get_DateStorageFormat method
 
 
-Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [DateTime](../../sdtdatestorageformat/)
+Gets/sets format in which the date for a date SDT is stored when the SDT is bound to an XML node in the document's data store. Default value is [DateTime](../../sdtdatestorageformat/)
 
 ```cpp
 Aspose::Words::Markup::SdtDateStorageFormat Aspose::Words::Markup::StructuredDocumentTag::get_DateStorageFormat()
@@ -19,15 +19,14 @@ Aspose::Words::Markup::SdtDateStorageFormat Aspose::Words::Markup::StructuredDoc
 ## Remarks
 
 
-Accessing this property will only work for [Date](../../sdttype/) SDT type.
+Accessing this property will only work for [Date](../../sdttype/) SDT type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,10 +56,8 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
-* Enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Orientation method. Gets or sets the orientation of the tick label text in C++.'
 type: docs
-weight: 6000
+weight: 11600
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_orientation/
 ---
 ## AxisTickLabels::get_Orientation method
@@ -22,12 +22,11 @@ Aspose::Words::Drawing::ShapeTextOrientation Aspose::Words::Drawing::Charts::Axi
 The default value is [Horizontal](../../../aspose.words.drawing/shapetextorientation/).
 
 Note that some [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/) values do not affect the orientation of tick label text in value axes.
-
 ## Examples
 
 
+Shows how to change orientation and rotation for axis tick labels.
 
-Shows how to change orientation and rotation for axis tick labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,10 +44,8 @@ yTickLabels->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");
 ```
-
 ## See Also
 
-* Enum [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/)
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

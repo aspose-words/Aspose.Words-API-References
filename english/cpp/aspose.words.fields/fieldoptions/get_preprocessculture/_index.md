@@ -4,7 +4,7 @@ linktitle: get_PreProcessCulture
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_PreProcessCulture method. Gets or sets the culture to preprocess field values in C++.'
 type: docs
-weight: 17000
+weight: 24754
 url: /cpp/aspose.words.fields/fieldoptions/get_preprocessculture/
 ---
 ## FieldOptions::get_PreProcessCulture method
@@ -22,12 +22,11 @@ const System::SharedPtr<System::Globalization::CultureInfo> & Aspose::Words::Fie
 Currently this property only affects value of the [FieldDocProperty](../../fielddocproperty/) field.
 
 The default value is **null**. When this property is set to **null**, the [FieldDocProperty](../../fielddocproperty/) field's value is preprocessed with the culture controlled by the [FieldUpdateCultureSource](../get_fieldupdateculturesource/) property.
-
 ## Examples
 
 
+Shows how to set the preprocess culture.
 
-Shows how to set the preprocess culture. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +46,6 @@ field->Update();
 // After switching to the invariant culture, the DOCPROPERTY field will use the "mm/dd/yyyy hh:mm" format.
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(field->get_Result(), u"\\d{2}[/]\\d{2}[/]\\d{4} \\d{2}[:]\\d{2}")->get_Success());
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

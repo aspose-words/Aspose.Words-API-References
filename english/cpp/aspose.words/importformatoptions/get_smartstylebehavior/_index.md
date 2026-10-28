@@ -4,7 +4,7 @@ linktitle: get_SmartStyleBehavior
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior method. Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is false in C++.'
 type: docs
-weight: 9000
+weight: 11910
 url: /cpp/aspose.words/importformatoptions/get_smartstylebehavior/
 ---
 ## ImportFormatOptions::get_SmartStyleBehavior method
@@ -13,21 +13,20 @@ url: /cpp/aspose.words/importformatoptions/get_smartstylebehavior/
 Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior() const
+_Bool Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior() const
 ```
 
 ## Remarks
 
 
-When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if [KeepSourceFormatting](../../importformatmode/) importing mode is used.
+When this option is enabled, the source style will be expanded into a direct attributes inside a destination document, if [KeepSourceFormatting](../../importformatmode/) importing mode is used.
 
-When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
-
+When this option is disabled, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 ## Examples
 
 
+Shows how to resolve duplicate styles while inserting documents.
 
-Shows how to resolve duplicate styles while inserting documents. 
 ```cpp
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
@@ -55,7 +54,6 @@ builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options)
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
-
 ## See Also
 
 * Class [ImportFormatOptions](../)

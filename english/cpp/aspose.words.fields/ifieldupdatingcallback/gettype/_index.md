@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifieldupdatingcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::IFieldUpdatingCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::IFieldUpdatingCallback::GetType() const override
 ```
 
 ## See Also

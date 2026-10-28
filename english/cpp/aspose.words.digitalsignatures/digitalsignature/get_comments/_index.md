@@ -4,7 +4,7 @@ linktitle: get_Comments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_Comments method. Gets the signing purpose comment in C++.'
 type: docs
-weight: 3000
+weight: 16000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_comments/
 ---
 ## DigitalSignature::get_Comments method
@@ -16,12 +16,11 @@ Gets the signing purpose comment.
 System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_Comments()
 ```
 
-
 ## Examples
 
 
+Shows how to validate and display information about each signature in a document.
 
-Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
@@ -36,7 +35,6 @@ for (auto&& signature : doc->get_DigitalSignatures())
     std::cout << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [DigitalSignature](../)

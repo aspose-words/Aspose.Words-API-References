@@ -4,32 +4,31 @@ linktitle: PlainTextDocument
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PlainTextDocument::PlainTextDocument constructor. Creates a plain text document from a stream. Automatically detects the file format in C++.'
 type: docs
-weight: 2000
+weight: 8000
 url: /cpp/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&) constructor
+## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\> \&) constructor
 
 
 Creates a plain text document from a stream. Automatically detects the file format.
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<System::IO::Stream> &stream)
+Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to extract the text from. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream where to extract the text from. |
 ## Remarks
 
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
-
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
+Shows how to load the contents of a Microsoft Word document in plaintext using stream.
 
-Shows how to load the contents of a Microsoft Word document in plaintext using stream. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,36 +43,45 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
     ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 }
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 Creates a plain text document from a stream. Allows to specify additional options such as an encryption password.
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<System::IO::Stream> &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<System::IO::Stream> & stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to extract the text from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream where to extract the text from. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | Additional options to use when loading a document. Can be **null**. |
 ## Remarks
 
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
-
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
+Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream.
 
-Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -95,32 +103,40 @@ loadOptions->set_Password(u"MyPassword");
     ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 }
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## PlainTextDocument::PlainTextDocument(const System::String\&) constructor
+## PlainTextDocument::PlainTextDocument(const System::String \&) constructor
 
 
 Creates a plain text document from a file. Automatically detects the file format.
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileName)
+Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | Name of the file to extract the text from. |
-
+| fileName | const System::String \& | Name of the file to extract the text from. |
 ## Examples
 
 
+Shows how to load the contents of a Microsoft Word document in plaintext.
 
-Shows how to load the contents of a Microsoft Word document in plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -132,32 +148,41 @@ auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_Artifa
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentException** - The name of the file cannot be null or empty string.
 
 ## See Also
 
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## PlainTextDocument::PlainTextDocument(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## PlainTextDocument::PlainTextDocument(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileName, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String & fileName, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | Name of the file to extract the text from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
+| fileName | const System::String \& | Name of the file to extract the text from. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | Additional options to use when loading a document. Can be **null**. |
+## Remarks
 
 ## Examples
 
 
+Shows how to load the contents of an encrypted Microsoft Word document in plaintext.
 
-Shows how to load the contents of an encrypted Microsoft Word document in plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -175,20 +200,27 @@ auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_Artifa
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentException** - The name of the file cannot be null or empty string.
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## PlainTextDocument::PlainTextDocument(std::istream\&) constructor
+## PlainTextDocument::PlainTextDocument(std::istream \&) constructor
 
 
 
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream)
+Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream & stream)
 ```
 
 ## See Also
@@ -196,18 +228,17 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## PlainTextDocument::PlainTextDocument(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## PlainTextDocument::PlainTextDocument(std::istream \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 
 
 ```cpp
-Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream & stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

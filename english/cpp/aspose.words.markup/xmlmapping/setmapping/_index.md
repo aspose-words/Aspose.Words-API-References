@@ -13,25 +13,24 @@ url: /cpp/aspose.words.markup/xmlmapping/setmapping/
 Sets a mapping between the parent structured document tag and an XML node of a custom XML data part.
 
 ```cpp
-bool Aspose::Words::Markup::XmlMapping::SetMapping(const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> &customXmlPart, const System::String &xPath, const System::String &prefixMapping)
+_Bool Aspose::Words::Markup::XmlMapping::SetMapping(const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> & customXmlPart, const System::String & xPath, const System::String & prefixMapping)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| customXmlPart | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\& | A custom XML data part to map to. |
-| xPath | const System::String\& | An XPath expression to find the XML node. |
-| prefixMapping | const System::String\& | XML namespace prefix mappings to evaluate the XPath. |
+| customXmlPart | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \& | A custom XML data part to map to. |
+| xPath | const System::String \& | An XPath expression to find the XML node. |
+| prefixMapping | const System::String \& | XML namespace prefix mappings to evaluate the XPath. |
 
 ### ReturnValue
 
 A flag indicating whether the parent structured document tag is successfully mapped to the XML node.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -91,10 +90,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [XmlMapping](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

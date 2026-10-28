@@ -13,7 +13,7 @@ url: /cpp/aspose.words/variablecollection/virtualized_iterator_element/
 
 
 ```cpp
-using Aspose::Words::VariableCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::VariableCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

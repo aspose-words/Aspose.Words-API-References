@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::PageSetup::GetType() const override
+const System::TypeInfo & Aspose::Words::PageSetup::GetType() const override
 ```
 
 ## See Also

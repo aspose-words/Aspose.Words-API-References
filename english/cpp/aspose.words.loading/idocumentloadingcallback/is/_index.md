@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/idocumentloadingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::IDocumentLoadingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::IDocumentLoadingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

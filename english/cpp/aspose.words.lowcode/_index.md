@@ -8,31 +8,35 @@ weight: 12500
 url: /cpp/aspose.words.lowcode/
 ---
 
-The **Aspose.Words.LowCode** contains classes and methods to handle complex general operations in a low code way.
+The Aspose.Words.LowCode contains classes and methods to handle complex general operations in a low code way.
 
+
+Represents a group of methods intended to convert, merge, split, compress etc. a variety of different types of documents, ultimately streamlining the integration process and facilitating efficient data consolidation across multiple formats.
+
+Provides comprehensive document convert, merge, split with 35+ supported file formats.
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [Comparer](./comparer/) | Provides methods intended to compare documents. |
-| [ComparerContext](./comparercontext/) | [Document](../aspose.words/document/) comparer context. |
+| [ComparerContext](./comparercontext/) | Document comparer context |
 | [Converter](./converter/) | Represents a group of methods intended to convert a variety of different types of documents using a single line of code. |
-| [ConverterContext](./convertercontext/) | [Document](../aspose.words/document/) converter context. |
+| [ConverterContext](./convertercontext/) | Document converter context |
 | [MailMergeDataSource](./mailmergedatasource/) | Mail merge data source used for using in [MailMergerContext](./mailmergercontext/). |
 | [MailMergeOptions](./mailmergeoptions/) | Represents options for the mail merge functionality. |
 | [MailMergerContext](./mailmergercontext/) | Mail merge context. |
 | [Merger](./merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
-| [MergerContext](./mergercontext/) | [Document](../aspose.words/document/) merger context. |
-| [Processor](./processor/) | [Processor](./processor/) class for performing different document processing actions. |
+| [MergerContext](./mergercontext/) | Document merger context. |
+| [Processor](./processor/) | Processor class for performing different document processing actions. |
 | [ProcessorContext](./processorcontext/) | Base class for processor contexts. Provides properties and options used by the processor to execute processing. |
 | [Replacer](./replacer/) | Provides methods intended to find and replace text in the document. |
 | [ReplacerContext](./replacercontext/) | Find/replace operation context. |
-| [SignerContext](./signercontext/) | [Document](../aspose.words/document/) signer context. |
+| [SignerContext](./signercontext/) | Document signer context |
 | [SplitOptions](./splitoptions/) | Specifies options how the document is split into parts. |
 | [Splitter](./splitter/) | Provides methods intended to split the documents into parts using different criteria. |
-| [SplitterContext](./splittercontext/) | [Document](../aspose.words/document/) splitter context. |
+| [SplitterContext](./splittercontext/) | Document splitter context. |
 | [Watermarker](./watermarker/) | Provides methods intended to insert watermarks into the documents. |
-| [WatermarkerContext](./watermarkercontext/) | [Document](../aspose.words/document/) watermarker context. |
+| [WatermarkerContext](./watermarkercontext/) | Document watermarker context. |
 ## Enums
 
 | Enum | Description |

@@ -4,7 +4,7 @@ linktitle: get_ExportEmbeddedSvg
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg method. Specifies whether SVG resources should be embedded into Html document. Default value is true in C++.'
 type: docs
-weight: 8000
+weight: 22322
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions::get_ExportEmbeddedSvg method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedsvg/
 Specifies whether SVG resources should be embedded into Html document. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg() const
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg() const
 ```
-
 
 ## Examples
 
 
+Shows how to determine where to store SVG objects when exporting a document to Html.
 
-Shows how to determine where to store SVG objects when exporting a document to Html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -49,7 +48,6 @@ else
     ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"<object type=\"image/svg[+]xml\" data=\"HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001[.]svg\"></object>")->get_Success());
 }
 ```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

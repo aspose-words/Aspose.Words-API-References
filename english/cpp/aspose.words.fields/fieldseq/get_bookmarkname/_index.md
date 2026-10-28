@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSeq::get_BookmarkName method. Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location in C++.'
 type: docs
-weight: 2000
+weight: 8286
 url: /cpp/aspose.words.fields/fieldseq/get_bookmarkname/
 ---
 ## FieldSeq::get_BookmarkName method
@@ -16,12 +16,11 @@ Gets or sets a bookmark name that refers to an item elsewhere in the document ra
 System::String Aspose::Words::Fields::FieldSeq::get_BookmarkName()
 ```
 
-
 ## Examples
 
 
+Shows how to combine table of contents and sequence fields.
 
-Shows how to combine table of contents and sequence fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ builder->EndBookmark(u"TOCBookmark");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.Bookmark.docx");
 ```
-
 ## See Also
 
 * Class [FieldSeq](../)

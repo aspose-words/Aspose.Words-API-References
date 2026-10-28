@@ -4,7 +4,7 @@ linktitle: get_UseLunarCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar method. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C++.'
 type: docs
-weight: 2000
+weight: 6400
 url: /cpp/aspose.words.fields/fieldprintdate/get_uselunarcalendar/
 ---
 ## FieldPrintDate::get_UseLunarCalendar method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldprintdate/get_uselunarcalendar/
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar() override
+_Bool Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar() override
 ```
-
 
 ## Examples
 
 
+Shows read PRINTDATE fields.
 
-Shows read PRINTDATE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - PRINTDATE.docx"));
 
@@ -56,7 +55,6 @@ ASSERT_TRUE(field->get_UseSakaEraCalendar());
 ASSERT_EQ(u"1/5/1942 12:00:00 AM", field->get_Result());
 ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 ```
-
 ## See Also
 
 * Class [FieldPrintDate](../)

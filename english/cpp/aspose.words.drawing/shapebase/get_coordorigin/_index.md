@@ -4,7 +4,7 @@ linktitle: get_CoordOrigin
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_CoordOrigin method. The coordinates at the top-left corner of the containing block of this shape in C++.'
 type: docs
-weight: 13000
+weight: 61180
 url: /cpp/aspose.words.drawing/shapebase/get_coordorigin/
 ---
 ## ShapeBase::get_CoordOrigin method
@@ -20,12 +20,11 @@ System::Drawing::Point Aspose::Words::Drawing::ShapeBase::get_CoordOrigin()
 
 
 The default value is (0,0).
-
 ## Examples
 
 
+Shows how to create and populate a group shape.
 
-Shows how to create and populate a group shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -109,8 +108,8 @@ builder->Write(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"Shape.GroupShape.docx");
 ```
 
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -157,7 +156,6 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.LocalToParent.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

@@ -4,7 +4,7 @@ linktitle: get_EstimatedProgress
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::DocumentLoadingArgs::get_EstimatedProgress method. Overall estimated percentage progress in C++.'
 type: docs
-weight: 2000
+weight: 6000
 url: /cpp/aspose.words.loading/documentloadingargs/get_estimatedprogress/
 ---
 ## DocumentLoadingArgs::get_EstimatedProgress method

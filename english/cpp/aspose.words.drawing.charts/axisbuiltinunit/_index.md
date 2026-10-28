@@ -13,32 +13,31 @@ url: /cpp/aspose.words.drawing.charts/axisbuiltinunit/
 Specifies the display units for an axis.
 
 ```cpp
-enum class AxisBuiltInUnit
+enum class AxisBuiltInUnit : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Specifies the values on the chart shall displayed as is. |
-| Custom | 1 | Specifies the values on the chart shall be divided by a user-defined divisor. This value is not supported by the new chart types of MS Office 2016. |
 | Billions | 2 | Specifies the values on the chart shall be divided by 1,000,000,000. |
+| Custom | 1 | Specifies the values on the chart shall be divided by a user-defined divisor. This value is not supported by the new chart types of MS Office 2016. |
 | HundredMillions | 3 | Specifies the values on the chart shall be divided by 100,000,000. |
-| Hundreds | 4 | Specifies the values on the chart shall be divided by 100. |
 | HundredThousands | 5 | Specifies the values on the chart shall be divided by 100,000. |
+| Hundreds | 4 | Specifies the values on the chart shall be divided by 100. |
 | Millions | 6 | Specifies the values on the chart shall be divided by 1,000,000. |
+| None | 0 | Specifies the values on the chart shall displayed as is. |
+| Percentage | 11 | Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016. |
 | TenMillions | 7 | Specifies the values on the chart shall be divided by 10,000,000. |
 | TenThousands | 8 | Specifies the values on the chart shall be divided by 10,000. |
 | Thousands | 9 | Specifies the values on the chart shall be divided by 1,000. |
 | Trillions | 10 | Specifies the values on the chart shall be divided by 1,000,000,000,0000. |
-| Percentage | 11 | Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016. |
-
 
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,7 +90,6 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

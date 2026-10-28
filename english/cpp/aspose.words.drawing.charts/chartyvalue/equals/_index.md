@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartyvalue/equals/
 Gets a flag indicating whether the specified object is equal to the current Y value object.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartYValue::Equals(System::SharedPtr<System::Object> obj) override
+_Bool Aspose::Words::Drawing::Charts::ChartYValue::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

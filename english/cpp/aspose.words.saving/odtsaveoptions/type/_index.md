@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::OdtSaveOptions class in C++.'
 type: docs
-weight: 1000
+weight: 8126
 url: /cpp/aspose.words.saving/odtsaveoptions/type/
 ---
 ## OdtSaveOptions::Type method

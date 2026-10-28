@@ -4,7 +4,7 @@ linktitle: get_WordWrap
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_WordWrap method. If this property is false, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words in C++.'
 type: docs
-weight: 42000
+weight: 44978
 url: /cpp/aspose.words/paragraphformat/get_wordwrap/
 ---
 ## ParagraphFormat::get_WordWrap method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_wordwrap/
 If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_WordWrap()
+_Bool Aspose::Words::ParagraphFormat::get_WordWrap()
 ```
-
 
 ## Examples
 
 
+Shows how to set special properties for Asian typography.
 
-Shows how to set special properties for Asian typography. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -32,7 +31,6 @@ format->set_HangingPunctuation(true);
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

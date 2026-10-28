@@ -2,7 +2,7 @@
 title: Aspose::Words::AI::Language enum
 linktitle: Language
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::AI::Language enum. Specifies the language into which the text will be translated using AI in C++.'
+description: 'Aspose::Words::AI::Language enum. Specifies the language into which the text will be translated using AI. Translate() in C++.'
 type: docs
 weight: 6500
 url: /cpp/aspose.words.ai/language/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.ai/language/
 ## Language enum
 
 
-Specifies the language into which the text will be translated using [AI](../).
+Specifies the language into which the text will be translated using AI. [Translate()](../aimodel/translate/).
 
 ```cpp
-enum class Language
+enum class Language : int
 ```
 
 ### Values
@@ -64,12 +64,12 @@ enum class Language
 | Catalan | 3 |  |
 | CatalanCatalan | 1027 |  |
 | Cherokee | 1116 |  |
+| ChineseChina | 2052 |  |
 | ChineseHongKong | 3076 |  |
 | ChineseMacao | 5124 |  |
-| ChineseChina | 2052 |  |
+| ChineseSimplified | 4 |  |
 | ChineseSingapore | 4100 |  |
 | ChineseTaiwan | 1028 |  |
-| ChineseSimplified | 4 |  |
 | ChineseTraditional | 31748 |  |
 | Croatian | 26 |  |
 | CroatianBozniaAndHerzegovina | 4122 |  |
@@ -192,8 +192,8 @@ enum class Language
 | Macedonian | 47 |  |
 | MacedonianFYROM | 1071 |  |
 | Malay | 62 |  |
-| MalayMalaysia | 1086 |  |
 | MalayBruneiDarussalam | 2110 |  |
+| MalayMalaysia | 1086 |  |
 | Malayalam | 1100 |  |
 | Maltese | 1082 |  |
 | Manipuri | 1112 |  |
@@ -310,8 +310,8 @@ enum class Language
 | Ukrainian | 34 |  |
 | UkrainianUkraine | 1058 |  |
 | Urdu | 32 |  |
-| UrduPakistan | 1056 |  |
 | UrduIndian | 2080 |  |
+| UrduPakistan | 1056 |  |
 | Uzbek | 67 |  |
 | UzbekCyrillic | 2115 |  |
 | UzbekLatin | 1091 |  |
@@ -325,12 +325,11 @@ enum class Language
 | Yoruba | 1130 |  |
 | Zulu | 1077 |  |
 
-
 ## Examples
 
 
+Shows how to translate text using Google models.
 
-Shows how to translate text using Google models. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -341,7 +340,6 @@ System::SharedPtr<Aspose::Words::AI::AiModel> model = AiModel::Create(AiModelTyp
 System::SharedPtr<Aspose::Words::Document> translatedDoc = model->Translate(doc, Language::Arabic);
 translatedDoc->Save(get_ArtifactsDir() + u"AI.AiTranslate.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::AI](../)

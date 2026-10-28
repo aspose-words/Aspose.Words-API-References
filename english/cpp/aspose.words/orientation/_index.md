@@ -13,22 +13,21 @@ url: /cpp/aspose.words/orientation/
 Specifies page orientation.
 
 ```cpp
-enum class Orientation
+enum class Orientation : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Portrait | 1 | Portrait page orientation (narrow and tall). |
 | Landscape | 2 | Landscape page orientation (wide and short). |
-
+| Portrait | 1 | Portrait page orientation (narrow and tall). |
 
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,7 +54,6 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

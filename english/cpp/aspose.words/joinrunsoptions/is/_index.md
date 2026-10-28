@@ -13,7 +13,7 @@ url: /cpp/aspose.words/joinrunsoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::JoinRunsOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::JoinRunsOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

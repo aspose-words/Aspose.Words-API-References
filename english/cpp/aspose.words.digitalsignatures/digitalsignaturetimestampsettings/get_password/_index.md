@@ -4,7 +4,7 @@ linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Password method. Gets or sets a string value representing timestamp server password. The default value is null in C++.'
 type: docs
-weight: 3000
+weight: 5000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/get_password/
 ---
 ## DigitalSignatureTimestampSettings::get_Password method
@@ -16,12 +16,13 @@ Gets or sets a string value representing timestamp server password. The default 
 System::String Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_Password() const
 ```
 
+## Remarks
 
 ## Examples
 
 
+Shows how to sign a document with timestamping using DigitalSignatureUtil.
 
-Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/). 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_XmlDsigLevel(XmlDsigLevel::XAdEsT);
@@ -47,7 +48,6 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 
 ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
 ```
-
 ## See Also
 
 * Class [DigitalSignatureTimestampSettings](../)

@@ -7,25 +7,27 @@ type: docs
 weight: 4000
 url: /cpp/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## FieldBuilder::AddSwitch(const System::String\&) method
+## FieldBuilder::AddSwitch(const System::String \&) method
 
 
 Adds a field's switch.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String &switchName)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String & switchName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switchName | const System::String\& | The switch name. |
+| switchName | const System::String \& | The switch name. |
+## Remarks
 
+ This overload adds a flag (switch without argument). 
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -99,33 +101,30 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldBuilder](../)
-* Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::AddSwitch(const System::String\&, const System::String\&) method
+## FieldBuilder::AddSwitch(const System::String \&, const System::String \&) method
 
 
 Adds a field's switch.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String &switchName, const System::String &switchArgument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String & switchName, const System::String & switchArgument)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switchName | const System::String\& | The switch name. |
-| switchArgument | const System::String\& | The switch value. |
-
+| switchName | const System::String \& | The switch name. |
+| switchArgument | const System::String \& | The switch value. |
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -199,33 +198,30 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldBuilder](../)
-* Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::AddSwitch(const System::String\&, double) method
+## FieldBuilder::AddSwitch(const System::String \&, double) method
 
 
 Adds a field's switch.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String &switchName, double switchArgument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String & switchName, double switchArgument)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switchName | const System::String\& | The switch name. |
+| switchName | const System::String \& | The switch name. |
 | switchArgument | double | The switch value. |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -299,33 +295,30 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldBuilder](../)
-* Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::AddSwitch(const System::String\&, int32_t) method
+## FieldBuilder::AddSwitch(const System::String \&, int32_t) method
 
 
 Adds a field's switch.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String &switchName, int32_t switchArgument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddSwitch(const System::String & switchName, int32_t switchArgument)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switchName | const System::String\& | The switch name. |
+| switchName | const System::String \& | The switch name. |
 | switchArgument | int32_t | The switch value. |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -399,10 +392,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,24 +4,26 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Type method. Gets or sets the specified ShadowType for ShadowFormat in C++.'
 type: docs
-weight: 3000
+weight: 6224
 url: /cpp/aspose.words.drawing/shadowformat/get_type/
 ---
 ## ShadowFormat::get_Type method
 
 
-Gets or sets the specified [ShadowType](../../shadowtype/) for [ShadowFormat](../).
+Gets or sets the specified [ShadowType](../../shadowtype/) for ShadowFormat.
 
 ```cpp
 Aspose::Words::Drawing::ShadowType Aspose::Words::Drawing::ShadowFormat::get_Type()
 ```
 
+## Remarks
 
+ Setting a new shadow type will reset Color and Transparency values to their default ones. Therefore, it makes sense to first set the desired shadow type and only then Color and Transparency values. 
 ## Examples
 
 
+Shows how to get shadow color.
 
-Shows how to get shadow color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -30,10 +32,8 @@ System::SharedPtr<Aspose::Words::Drawing::ShadowFormat> shadowFormat = shape->ge
 ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shadowFormat->get_Color().ToArgb());
 ASSERT_EQ(ShadowType::ShadowMixed, shadowFormat->get_Type());
 ```
-
 ## See Also
 
-* Enum [ShadowType](../../shadowtype/)
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

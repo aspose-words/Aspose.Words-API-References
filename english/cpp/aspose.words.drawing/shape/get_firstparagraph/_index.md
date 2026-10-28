@@ -4,7 +4,7 @@ linktitle: get_FirstParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_FirstParagraph method. Gets the first paragraph in the shape in C++.'
 type: docs
-weight: 8000
+weight: 39000
 url: /cpp/aspose.words.drawing/shape/get_firstparagraph/
 ---
 ## Shape::get_FirstParagraph method
@@ -16,12 +16,11 @@ Gets the first paragraph in the shape.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Drawing::Shape::get_FirstParagraph()
 ```
 
-
 ## Examples
 
 
+Shows how to create and format a text box.
 
-Shows how to create and format a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,10 +46,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

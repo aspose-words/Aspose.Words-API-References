@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::FieldAutoNumLgl class in C++.'
 type: docs
-weight: 1000
+weight: 5250
 url: /cpp/aspose.words.fields/fieldautonumlgl/type/
 ---
 ## FieldAutoNumLgl::Type method

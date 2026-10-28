@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/rtfloadoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::RtfLoadOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::RtfLoadOptions::GetType() const override
 ```
 
 ## See Also

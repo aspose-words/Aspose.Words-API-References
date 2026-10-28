@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/contributorcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Bibliography::ContributorCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Bibliography::ContributorCollection::GetType() const override
 ```
 
 ## See Also

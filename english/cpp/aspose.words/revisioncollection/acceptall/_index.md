@@ -16,12 +16,11 @@ Accepts all revisions in this collection.
 void Aspose::Words::RevisionCollection::AcceptAll()
 ```
 
-
 ## Examples
 
 
+Shows how to compare documents.
 
-Shows how to compare documents. 
 ```cpp
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(docOriginal);
@@ -50,7 +49,6 @@ docOriginal->get_Revisions()->AcceptAll();
 
 ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 ```
-
 ## See Also
 
 * Class [RevisionCollection](../)

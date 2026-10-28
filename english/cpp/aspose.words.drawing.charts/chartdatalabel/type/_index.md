@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Drawing::Charts::ChartDataLabel class in C++.'
 type: docs
-weight: 1000
+weight: 18042
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/type/
 ---
 ## ChartDataLabel::Type method

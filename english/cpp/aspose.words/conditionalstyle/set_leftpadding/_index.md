@@ -2,7 +2,7 @@
 title: Aspose::Words::ConditionalStyle::set_LeftPadding method
 linktitle: set_LeftPadding
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ConditionalStyle::set_LeftPadding method. Setter for Aspose::Words::ConditionalStyle::get_LeftPadding in C++.'
+description: 'Aspose::Words::ConditionalStyle::set_LeftPadding method. Sets the amount of space (in points) to add to the left of the contents of table cells in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words/conditionalstyle/set_leftpadding/
@@ -10,12 +10,81 @@ url: /cpp/aspose.words/conditionalstyle/set_leftpadding/
 ## ConditionalStyle::set_LeftPadding method
 
 
-Setter for [Aspose::Words::ConditionalStyle::get_LeftPadding](../get_leftpadding/).
+Sets the amount of space (in points) to add to the left of the contents of table cells.
 
 ```cpp
 void Aspose::Words::ConditionalStyle::set_LeftPadding(double value)
 ```
 
+## Examples
+
+
+Shows how to work with certain area styles of a table.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+builder->InsertCell();
+builder->Write(u"Cell 1");
+builder->InsertCell();
+builder->Write(u"Cell 2");
+builder->EndRow();
+builder->InsertCell();
+builder->Write(u"Cell 3");
+builder->InsertCell();
+builder->Write(u"Cell 4");
+builder->EndTable();
+
+// Create a custom table style.
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+
+// Conditional styles are formatting changes that affect only some of the table's cells
+// based on a predicate, such as the cells being in the last row.
+// Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+// 1 -  By style type:
+tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::FirstRow)->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AliceBlue());
+
+// 2 -  By index:
+tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_Color(System::Drawing::Color::get_Black());
+tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_LineStyle(LineStyle::DotDash);
+ASSERT_EQ(ConditionalStyleType::FirstRow, tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type());
+
+// 3 -  As a property:
+tableStyle->get_ConditionalStyles()->get_FirstRow()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+
+// Apply padding and text formatting to conditional styles.
+tableStyle->get_ConditionalStyles()->get_LastRow()->set_BottomPadding(10);
+tableStyle->get_ConditionalStyles()->get_LastRow()->set_LeftPadding(10);
+tableStyle->get_ConditionalStyles()->get_LastRow()->set_RightPadding(10);
+tableStyle->get_ConditionalStyles()->get_LastRow()->set_TopPadding(10);
+tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true);
+
+// List all possible style conditions.
+{
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::ConditionalStyle>>> enumerator = tableStyle->get_ConditionalStyles()->GetEnumerator();
+    while (enumerator->MoveNext())
+    {
+        System::SharedPtr<Aspose::Words::ConditionalStyle> currentStyle = enumerator->get_Current();
+        if (currentStyle != nullptr)
+        {
+            std::cout << System::EnumGetName(currentStyle->get_Type()) << std::endl;
+        }
+    }
+}
+
+// Apply the custom style, which contains all conditional styles, to the table.
+table->set_Style(tableStyle);
+
+// Our style applies some conditional styles by default.
+ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+
+// We will need to enable all other styles ourselves via the "StyleOptions" property.
+table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow | TableStyleOptions::LastColumn);
+
+doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
+```
 ## See Also
 
 * Class [ConditionalStyle](../)

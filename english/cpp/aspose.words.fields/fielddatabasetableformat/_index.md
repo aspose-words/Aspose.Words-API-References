@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDatabaseTableFormat enum
 linktitle: FieldDatabaseTableFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDatabaseTableFormat enum. FieldDatabaseTableFormat enumeration in C++.'
+description: 'How to use Aspose::Words::Fields::FieldDatabaseTableFormat enum in C++.'
 type: docs
 weight: 127000
 url: /cpp/aspose.words.fields/fielddatabasetableformat/
@@ -10,20 +10,16 @@ url: /cpp/aspose.words.fields/fielddatabasetableformat/
 ## FieldDatabaseTableFormat enum
 
 
-FieldDatabaseTableFormat enumeration.
+
 
 ```cpp
-enum class FieldDatabaseTableFormat
+enum class FieldDatabaseTableFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 |  |
-| Simple1 | 1 |  |
-| Simple2 | 2 |  |
-| Simple3 | 3 |  |
 | Classic1 | 4 |  |
 | Classic2 | 5 |  |
 | Classic3 | 6 |  |
@@ -36,6 +32,8 @@ enum class FieldDatabaseTableFormat
 | Columns3 | 13 |  |
 | Columns4 | 14 |  |
 | Columns5 | 15 |  |
+| Contemporary | 35 |  |
+| Elegant | 36 |  |
 | Grid1 | 16 |  |
 | Grid2 | 17 |  |
 | Grid3 | 18 |  |
@@ -52,14 +50,16 @@ enum class FieldDatabaseTableFormat
 | List6 | 29 |  |
 | List7 | 30 |  |
 | List8 | 31 |  |
+| None | 0 |  |
+| Professional | 37 |  |
+| Simple1 | 1 |  |
+| Simple2 | 2 |  |
+| Simple3 | 3 |  |
+| Subtle1 | 38 |  |
+| Subtle2 | 39 |  |
 | ThreeDimensionalFx1 | 32 |  |
 | ThreeDimensionalFx2 | 33 |  |
 | ThreeDimensionalFx3 | 34 |  |
-| Contemporary | 35 |  |
-| Elegant | 36 |  |
-| Professional | 37 |  |
-| Subtle1 | 38 |  |
-| Subtle2 | 39 |  |
 | Web1 | 40 |  |
 | Web2 | 41 |  |
 | Web3 | 42 |  |

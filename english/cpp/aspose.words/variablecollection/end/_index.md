@@ -4,7 +4,7 @@ linktitle: end
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use end method of Aspose::Words::VariableCollection class in C++.'
 type: docs
-weight: 8000
+weight: 17556
 url: /cpp/aspose.words/variablecollection/end/
 ---
 ## VariableCollection::end() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words/variablecollection/end/
 
 
 ```cpp
-const_iterator Aspose::Words::VariableCollection::end() const noexcept
+const_iterator Aspose::Words::VariableCollection::end() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::VariableCollection::end() const noexcept
 
 
 ```cpp
-iterator Aspose::Words::VariableCollection::end() noexcept
+iterator Aspose::Words::VariableCollection::end()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

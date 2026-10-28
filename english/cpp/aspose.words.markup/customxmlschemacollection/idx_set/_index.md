@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::idx_set method. Gets or sets the element at the specified index in C++.'
 type: docs
-weight: 13000
+weight: 17889
 url: /cpp/aspose.words.markup/customxmlschemacollection/idx_set/
 ---
 ## CustomXmlSchemaCollection::idx_set method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/idx_set/
 Gets or sets the element at the specified index.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlSchemaCollection::idx_set(int32_t index, const System::String &value)
+void Aspose::Words::Markup::CustomXmlSchemaCollection::idx_set(int32_t index, const System::String & value)
 ```
-
 
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,7 +61,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

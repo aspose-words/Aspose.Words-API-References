@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iwarningcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::IWarningCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::IWarningCallback::GetType() const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.webextensions/taskpane/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::WebExtensions::TaskPane::GetType() const override
+const System::TypeInfo & Aspose::Words::WebExtensions::TaskPane::GetType() const override
 ```
 
 ## See Also

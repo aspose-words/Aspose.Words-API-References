@@ -4,7 +4,7 @@ linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OdtSaveOptions::get_Password method. Gets or sets a password to encrypt document in C++.'
 type: docs
-weight: 5000
+weight: 8376
 url: /cpp/aspose.words.saving/odtsaveoptions/get_password/
 ---
 ## OdtSaveOptions::get_Password method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Saving::OdtSaveOptions::get_Password() const
 
 
 In order to save document without encryption this property should be **null** or empty string.
-
 ## Examples
 
 
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 
-Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [OdtSaveOptions](../)

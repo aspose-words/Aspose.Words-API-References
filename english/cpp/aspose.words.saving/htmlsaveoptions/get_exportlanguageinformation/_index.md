@@ -4,7 +4,7 @@ linktitle: get_ExportLanguageInformation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation method. Specifies whether language information is exported to HTML, MHTML or EPUB. Default is false in C++.'
 type: docs
-weight: 20000
+weight: 49378
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportlanguageinformation/
 ---
 ## HtmlSaveOptions::get_ExportLanguageInformation method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportlanguageinformation/
 Specifies whether language information is exported to HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation() const
 ```
 
 ## Remarks
 
 
-When this property is set to **true** Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
-
+When this property is set to **true** Aspose.Words outputs lang HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 ## Examples
 
 
+Shows how to preserve language information when saving to .html.
 
-Shows how to preserve language information when saving to .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +66,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<span>Привет, мир!</span>"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_pagerangeseparator/
 Sets the character sequence that is used to separate the start and end of a page range.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_PageRangeSeparator(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_PageRangeSeparator(const System::String & value)
 ```
 
 ## See Also

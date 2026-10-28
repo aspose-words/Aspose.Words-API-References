@@ -4,7 +4,7 @@ linktitle: get_StartingNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_StartingNumber method. Gets or sets the starting value for this field in C++.'
 type: docs
-weight: 5000
+weight: 7917
 url: /cpp/aspose.words.fields/fieldlistnum/get_startingnumber/
 ---
 ## FieldListNum::get_StartingNumber method
@@ -16,12 +16,11 @@ Gets or sets the starting value for this field.
 System::String Aspose::Words::Fields::FieldListNum::get_StartingNumber()
 ```
 
-
 ## Examples
 
 
+Shows how to number paragraphs with LISTNUM fields.
 
-Shows how to number paragraphs with LISTNUM fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,7 +83,6 @@ builder->Writeln(u"Paragraph 5");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.LISTNUM.docx");
 ```
-
 ## See Also
 
 * Class [FieldListNum](../)

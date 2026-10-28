@@ -4,24 +4,23 @@ linktitle: get_SdtType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_SdtType method. Gets type of this Structured document tag in C++.'
 type: docs
-weight: 10000
+weight: 17682
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_sdttype/
 ---
 ## IStructuredDocumentTag::get_SdtType method
 
 
-Gets type of this **Structured document tag**.
+Gets type of this Structured document tag.
 
 ```cpp
-virtual Aspose::Words::Markup::SdtType Aspose::Words::Markup::IStructuredDocumentTag::get_SdtType()=0
+virtual Aspose::Words::Markup::SdtType Aspose::Words::Markup::IStructuredDocumentTag::get_SdtType()
 ```
-
 
 ## Examples
 
 
+Shows how to get the type of a structured document tag.
 
-Shows how to get the type of a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
@@ -31,10 +30,8 @@ ASSERT_EQ(SdtType::RepeatingSection, tags->idx_get(0)->get_SdtType());
 ASSERT_EQ(SdtType::RepeatingSectionItem, tags->idx_get(1)->get_SdtType());
 ASSERT_EQ(SdtType::RichText, tags->idx_get(2)->get_SdtType());
 ```
-
 ## See Also
 
-* Enum [SdtType](../../sdttype/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

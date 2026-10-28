@@ -4,7 +4,7 @@ linktitle: get_IsValid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection::get_IsValid method. Returns true if all digital signatures in this collection are valid and the document has not been tampered with Also returns true if there are no digital signatures. Returns false if at least one digital signature is invalid in C++.'
 type: docs
-weight: 8000
+weight: 12778
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_isvalid/
 ---
 ## DigitalSignatureCollection::get_IsValid method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_isvalid/
 Returns **true** if all digital signatures in this collection are valid and the document has not been tampered with Also returns **true** if there are no digital signatures. Returns **false** if at least one digital signature is invalid.
 
 ```cpp
-bool Aspose::Words::DigitalSignatures::DigitalSignatureCollection::get_IsValid()
+_Bool Aspose::Words::DigitalSignatures::DigitalSignatureCollection::get_IsValid()
 ```
-
 
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -58,7 +57,6 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
 * Class [DigitalSignatureCollection](../)

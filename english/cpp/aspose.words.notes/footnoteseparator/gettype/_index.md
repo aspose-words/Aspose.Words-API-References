@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnoteseparator/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Notes::FootnoteSeparator::GetType() const override
+const System::TypeInfo & Aspose::Words::Notes::FootnoteSeparator::GetType() const override
 ```
 
 ## See Also

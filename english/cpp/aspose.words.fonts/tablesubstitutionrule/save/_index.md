@@ -7,25 +7,24 @@ type: docs
 weight: 10000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## TableSubstitutionRule::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
+## TableSubstitutionRule::Save(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Saves the current table substitution settings to stream.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::SharedPtr<System::IO::Stream> &outputStream)
+void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::SharedPtr<System::IO::Stream> & outputStream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | Output stream. |
-
+| outputStream | const System::SharedPtr\<System::IO::Stream\> \& | Output stream. |
 ## Examples
 
 
+Shows how to access font substitution tables for Windows and Linux.
 
-Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -54,31 +53,29 @@ ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"FreeSerif", u"Liberation S
     tableSubstitutionRule->Save(fileStream);
 }
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
-## TableSubstitutionRule::Save(const System::String\&) method
+## TableSubstitutionRule::Save(const System::String \&) method
 
 
 Saves the current table substitution settings to file.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::String &fileName)
+void Aspose::Words::Fonts::TableSubstitutionRule::Save(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | Output file name. |
-
+| fileName | const System::String \& | Output file name. |
 ## Examples
 
 
+Shows how to access font substitution tables for Windows and Linux.
 
-Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -107,7 +104,6 @@ ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"FreeSerif", u"Liberation S
     tableSubstitutionRule->Save(fileStream);
 }
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)

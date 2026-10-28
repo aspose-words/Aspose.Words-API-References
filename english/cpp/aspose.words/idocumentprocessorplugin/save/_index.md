@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/save/
 Save the document loaded by [Load()](../load/) method to the output stream using the specified save options.
 
 ```cpp
-virtual void Aspose::Words::IDocumentProcessorPlugin::Save(System::SharedPtr<System::IO::Stream> outputStream, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)=0
+virtual void Aspose::Words::IDocumentProcessorPlugin::Save(System::SharedPtr<System::IO::Stream> outputStream, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)
 ```
 
 
@@ -21,10 +21,11 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::Save(System::SharedPtr<Sys
 | --- | --- | --- |
 | outputStream | System::SharedPtr\<System::IO::Stream\> | The output stream. |
 | saveOptions | System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> | The save options. |
+## Remarks
 
+If the specified output format is image, only the first page image is saved to the output stream. If the specified save format is not natively supported by the plugin (requires loading to [Document](../../document/)), method throws an exception.
 ## See Also
 
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

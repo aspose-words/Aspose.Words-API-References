@@ -4,7 +4,7 @@ linktitle: get_GenerateFromFirstPage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage method. Specifies whether to generate thumbnail from first page of the document or first image in C++.'
 type: docs
-weight: 3000
+weight: 6600
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/get_generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions::get_GenerateFromFirstPage method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/get_generatefromfirs
 Specifies whether to generate thumbnail from first page of the document or first image.
 
 ```cpp
-bool Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage() const
+_Bool Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage() const
 ```
 
+## Remarks
 
+ Default is **true**, which means thumbnail will be generated from first page of the document. If value is **false** and there is no image in the document, thumbnail will be generated from first page of the document. 
 ## Examples
 
 
+Shows how to update a document's thumbnail.
 
-Shows how to update a document's thumbnail. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,7 +44,6 @@ options->set_GenerateFromFirstPage(false);
 doc->UpdateThumbnail(options);
 doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
-
 ## See Also
 
 * Class [ThumbnailGeneratingOptions](../)

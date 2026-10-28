@@ -4,7 +4,7 @@ linktitle: get_CustomUnit
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_CustomUnit method. Gets or sets a user-defined divisor to scale display units on the value axis in C++.'
 type: docs
-weight: 3000
+weight: 7400
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/get_customunit/
 ---
 ## AxisDisplayUnit::get_CustomUnit method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_CustomUnit() const
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
 Setting this property sets the [Unit](../get_unit/) property to [Custom](../../axisbuiltinunit/).
-
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
 * Class [AxisDisplayUnit](../)

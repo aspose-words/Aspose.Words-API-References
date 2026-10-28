@@ -4,7 +4,7 @@ linktitle: PageBreak
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ControlChar::PageBreak method. Page break character: "\x000c" or "\f". Note it has the same value as SectionBreak in C++.'
 type: docs
-weight: 9000
+weight: 13637
 url: /cpp/aspose.words/controlchar/pagebreak/
 ---
 ## ControlChar::PageBreak method
@@ -16,12 +16,11 @@ Page break character: "\x000c" or "\f". Note it has the same value as [SectionBr
 static System::String & Aspose::Words::ControlChar::PageBreak()
 ```
 
-
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

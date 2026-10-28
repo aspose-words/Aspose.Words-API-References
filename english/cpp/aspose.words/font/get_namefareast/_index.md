@@ -4,7 +4,7 @@ linktitle: get_NameFarEast
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NameFarEast method. Returns or sets an East Asian font name in C++.'
 type: docs
-weight: 28000
+weight: 59486
 url: /cpp/aspose.words/font/get_namefareast/
 ---
 ## Font::get_NameFarEast method
@@ -16,12 +16,11 @@ Returns or sets an East Asian font name.
 System::String Aspose::Words::Font::get_NameFarEast()
 ```
 
-
 ## Examples
 
 
+Shows how to insert and format text in a Far East language.
 
-Shows how to insert and format text in a Far East language. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,8 +44,9 @@ builder->Writeln(u"你好世界");
 
 doc->Save(get_ArtifactsDir() + u"Font.FarEast.docx");
 ```
-
 ## See Also
+
+* [Name](../get_name/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

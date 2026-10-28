@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::MarkdownSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Markdown format in C++.'
 type: docs
-weight: 2000
+weight: 10015
 url: /cpp/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions::MarkdownSaveOptions constructor

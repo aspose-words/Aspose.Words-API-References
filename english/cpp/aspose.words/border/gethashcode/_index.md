@@ -16,12 +16,11 @@ Serves as a hash function for this type.
 int32_t Aspose::Words::Border::GetHashCode() const override
 ```
 
-
 ## Examples
 
 
+Shows how border collections can share elements.
 
-Shows how border collections can share elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +58,6 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

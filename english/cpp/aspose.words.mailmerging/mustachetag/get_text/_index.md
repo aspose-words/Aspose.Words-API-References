@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MustacheTag::get_Text method. Gets the text of the tag in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.mailmerging/mustachetag/get_text/
 ---
 ## MustacheTag::get_Text method

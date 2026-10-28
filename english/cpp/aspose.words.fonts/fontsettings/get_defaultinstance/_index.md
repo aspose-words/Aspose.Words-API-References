@@ -4,7 +4,7 @@ linktitle: get_DefaultInstance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSettings::get_DefaultInstance method. Static default font settings in C++.'
 type: docs
-weight: 1000
+weight: 15000
 url: /cpp/aspose.words.fonts/fontsettings/get_defaultinstance/
 ---
 ## FontSettings::get_DefaultInstance method
@@ -16,12 +16,14 @@ Static default font settings.
 static System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Fonts::FontSettings::get_DefaultInstance()
 ```
 
+## Remarks
 
+ This instance is used by default in a document unless [FontSettings](../../../aspose.words/document/get_fontsettings/) is specified. 
 ## Examples
 
 
+Shows how to configure the default font settings instance.
 
-Shows how to configure the default font settings instance. 
 ```cpp
 // Configure the default font settings instance to use the "Courier New" font
 // as a backup substitute when we attempt to use an unknown font.
@@ -42,10 +44,8 @@ ASSERT_TRUE(System::TestTools::IsNull(doc->get_FontSettings()));
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontInstance.pdf");
 ```
-
 ## See Also
 
-* Class [FontSettings](../)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: set_HeadingLevelRange
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::set_HeadingLevelRange method. Sets a range of heading levels to include in C++.'
 type: docs
-weight: 29000
+weight: 62000
 url: /cpp/aspose.words.fields/fieldtoc/set_headinglevelrange/
 ---
 ## FieldToc::set_HeadingLevelRange method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/set_headinglevelrange/
 Sets a range of heading levels to include.
 
 ```cpp
-void Aspose::Words::Fields::FieldToc::set_HeadingLevelRange(const System::String &value)
+void Aspose::Words::Fields::FieldToc::set_HeadingLevelRange(const System::String & value)
 ```
 
 ## See Also

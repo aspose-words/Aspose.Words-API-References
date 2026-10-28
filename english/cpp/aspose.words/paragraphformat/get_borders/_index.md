@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_Borders method. Gets collection of borders of the paragraph in C++.'
 type: docs
-weight: 7000
+weight: 44161
 url: /cpp/aspose.words/paragraphformat/get_borders/
 ---
 ## ParagraphFormat::get_Borders method
@@ -16,12 +16,11 @@ Gets collection of borders of the paragraph.
 System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::ParagraphFormat::get_Borders()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a paragraph with a top border.
 
-Shows how to insert a paragraph with a top border. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,10 +36,8 @@ builder->Writeln(u"Text with a top border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../../bordercollection/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Accent1
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::ThemeColors::get_Accent1 method. Specifies color Accent 1 in C++.'
 type: docs
-weight: 2000
+weight: 15144
 url: /cpp/aspose.words.themes/themecolors/get_accent1/
 ---
 ## ThemeColors::get_Accent1 method
@@ -16,12 +16,11 @@ Specifies color Accent 1.
 System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Accent1()
 ```
 
-
 ## Examples
 
 
+Shows how to set custom colors and fonts for themes.
 
-Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -62,7 +61,6 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
-
 ## See Also
 
 * Class [ThemeColors](../)

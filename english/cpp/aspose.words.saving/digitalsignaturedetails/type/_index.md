@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::DigitalSignatureDetails class in C++.'
 type: docs
-weight: 1000
+weight: 6250
 url: /cpp/aspose.words.saving/digitalsignaturedetails/type/
 ---
 ## DigitalSignatureDetails::Type method

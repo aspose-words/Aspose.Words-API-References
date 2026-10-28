@@ -4,7 +4,7 @@ linktitle: get_Shading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_Shading method. Returns a Shading object that refers to the shading formatting for the cell in C++.'
 type: docs
-weight: 11000
+weight: 42000
 url: /cpp/aspose.words.tables/cellformat/get_shading/
 ---
 ## CellFormat::get_Shading method
@@ -16,12 +16,11 @@ Returns a [Shading](../../../aspose.words/shading/) object that refers to the sh
 System::SharedPtr<Aspose::Words::Shading> Aspose::Words::Tables::CellFormat::get_Shading()
 ```
 
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to modify the format of rows and cells in a table.
 
-Shows how to modify the format of rows and cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -112,10 +111,8 @@ cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::ge
 
 doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
-
 ## See Also
 
-* Class [Shading](../../../aspose.words/shading/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_PreserveFormFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields method. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false in C++.'
 type: docs
-weight: 28000
+weight: 36775
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_preserveformfields/
 ---
 ## PdfSaveOptions::get_PreserveFormFields method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_preserveformfields/
 Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields() const
+_Bool Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields() const
 ```
 
 ## Remarks
@@ -25,7 +25,7 @@ When set to **false**, these fields will be exported as text to PDF. When set to
 
 When exporting form fields to PDF as form fields, some formatting loss might occur because PDF form fields do not support all features of Microsoft Word form fields.
 
-Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects. 
+Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
 ## See Also
 
 * Class [PdfSaveOptions](../)

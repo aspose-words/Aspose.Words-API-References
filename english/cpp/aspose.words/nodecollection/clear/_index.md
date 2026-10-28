@@ -16,12 +16,11 @@ Removes all nodes from this collection and from the document.
 void Aspose::Words::NodeCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to remove all sections from a document.
 
-Shows how to remove all sections from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -36,7 +35,6 @@ doc->get_Sections()->Clear();
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Any, true)->get_Count());
 ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [NodeCollection](../)

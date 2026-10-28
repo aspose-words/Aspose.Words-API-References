@@ -10,7 +10,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/set_printbodytextbeforehead
 ## CompatibilityOptions::set_PrintBodyTextBeforeHeader method
 
 
-Print [Body](../../../aspose.words/body/) Text before Header/Footer Contents.
+Print Body Text before Header/Footer Contents.
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::set_PrintBodyTextBeforeHeader(bool value)

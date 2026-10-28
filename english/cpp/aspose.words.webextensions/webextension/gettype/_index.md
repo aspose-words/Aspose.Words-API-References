@@ -13,7 +13,7 @@ url: /cpp/aspose.words.webextensions/webextension/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::WebExtensions::WebExtension::GetType() const override
+const System::TypeInfo & Aspose::Words::WebExtensions::WebExtension::GetType() const override
 ```
 
 ## See Also

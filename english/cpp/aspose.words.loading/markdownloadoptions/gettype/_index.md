@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/markdownloadoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::MarkdownLoadOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::MarkdownLoadOptions::GetType() const override
 ```
 
 ## See Also

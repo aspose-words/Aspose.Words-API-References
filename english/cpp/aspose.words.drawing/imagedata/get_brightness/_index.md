@@ -4,7 +4,7 @@ linktitle: get_Brightness
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_Brightness method. Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest) in C++.'
 type: docs
-weight: 4000
+weight: 42000
 url: /cpp/aspose.words.drawing/imagedata/get_brightness/
 ---
 ## ImageData::get_Brightness method
@@ -20,12 +20,11 @@ double Aspose::Words::Drawing::ImageData::get_Brightness()
 
 
 The default value is 0.5.
-
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -81,7 +80,6 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
 * Class [ImageData](../)

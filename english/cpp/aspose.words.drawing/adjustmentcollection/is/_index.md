@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/adjustmentcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::AdjustmentCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::AdjustmentCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

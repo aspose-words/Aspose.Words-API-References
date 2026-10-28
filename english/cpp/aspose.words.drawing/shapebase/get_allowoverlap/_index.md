@@ -4,7 +4,7 @@ linktitle: get_AllowOverlap
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_AllowOverlap method. Gets or sets a value that specifies whether this shape can overlap other shapes in C++.'
 type: docs
-weight: 3000
+weight: 61030
 url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 ---
 ## ShapeBase::get_AllowOverlap method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 Gets or sets a value that specifies whether this shape can overlap other shapes.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
+_Bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ This property affects behavior of the shape in Microsoft Word. Aspose.Words igno
 This property is applicable only to top level shapes.
 
 The default value is **true**.
-
 ## Examples
 
 
+Shows how to work with floating tables properties.
 
-Shows how to work with floating tables properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
@@ -50,7 +49,6 @@ if (table->get_TextWrapping() == TextWrapping::Around)
     table->set_VerticalAnchor(RelativeVerticalPosition::Page);
 }
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

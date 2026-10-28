@@ -13,7 +13,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/is/
 
 
 ```cpp
-virtual bool Aspose::Words::BuildingBlocks::BuildingBlock::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::BuildingBlocks::BuildingBlock::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

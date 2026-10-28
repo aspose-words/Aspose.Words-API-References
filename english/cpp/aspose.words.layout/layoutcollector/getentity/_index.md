@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutcollector/getentity/
 Returns an opaque position of the [LayoutEnumerator](../../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [Current](../../layoutenumerator/get_current/) given the document being enumerated and the document of the node are the same.
 
 ```cpp
-System::SharedPtr<System::Object> Aspose::Words::Layout::LayoutCollector::GetEntity(const System::SharedPtr<Aspose::Words::Node> &node)
+System::SharedPtr<System::Object> Aspose::Words::Layout::LayoutCollector::GetEntity(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 ## Remarks
@@ -26,12 +26,11 @@ Note that the entity returned for a [Paragraph](../../../aspose.words/paragraph/
 If you need to navigate to a [Run](../../../aspose.words/run/) of text then you can insert bookmark right before it and then navigate to the bookmark instead.
 
 If you need to navigate to a [Cell](../../../aspose.words.tables/cell/) node then you can move to a [Paragraph](../../../aspose.words/paragraph/) node in this cell and then ascend to a parent entity. The same approach can be used for [Row](../../../aspose.words.tables/row/) and [Table](../../../aspose.words.tables/table/) nodes.
-
 ## Examples
 
 
+Shows how to see the the ranges of pages that a node spans.
 
-Shows how to see the the ranges of pages that a node spans. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
@@ -80,10 +79,8 @@ layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType:
 ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
-
 ## See Also
 
-* Class [Node](../../../aspose.words/node/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

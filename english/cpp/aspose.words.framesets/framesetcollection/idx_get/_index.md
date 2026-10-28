@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Framesets::FramesetCollection::idx_get method. Gets a frame or frames page at the specified index in C++.'
 type: docs
-weight: 10000
+weight: 11875
 url: /cpp/aspose.words.framesets/framesetcollection/idx_get/
 ---
 ## FramesetCollection::idx_get method
@@ -16,12 +16,11 @@ Gets a frame or frames page at the specified index.
 System::SharedPtr<Aspose::Words::Framesets::Frameset> Aspose::Words::Framesets::FramesetCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to access frames on-page.
 
-Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
@@ -38,10 +37,8 @@ ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameL
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
-
 ## See Also
 
-* Class [Frameset](../../frameset/)
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
 * Library [Aspose.Words for C++](../../../)

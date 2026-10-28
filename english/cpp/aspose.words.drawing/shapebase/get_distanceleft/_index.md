@@ -4,7 +4,7 @@ linktitle: get_DistanceLeft
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_DistanceLeft method. Returns or sets the distance (in points) between the document text and the left edge of the shape in C++.'
 type: docs
-weight: 16000
+weight: 61225
 url: /cpp/aspose.words.drawing/shapebase/get_distanceleft/
 ---
 ## ShapeBase::get_DistanceLeft method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::ShapeBase::get_DistanceLeft()
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
-
 ## Examples
 
 
+Shows how to set the wrapping distance for a text that surrounds a shape.
 
-Shows how to set the wrapping distance for a text that surrounds a shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipisci
 
 doc->Save(get_ArtifactsDir() + u"Shape.Coordinates.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

@@ -20,7 +20,6 @@ System::String Aspose::Words::BookmarkStart::GetText() override
 ### ReturnValue
 
 An empty string.
-
 ## See Also
 
 * Class [BookmarkStart](../)

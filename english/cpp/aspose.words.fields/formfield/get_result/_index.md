@@ -4,7 +4,7 @@ linktitle: get_Result
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_Result method. Gets or sets a string that represents the result of this form field in C++.'
 type: docs
-weight: 19000
+weight: 65000
 url: /cpp/aspose.words.fields/formfield/get_result/
 ---
 ## FormField::get_Result method
@@ -25,15 +25,14 @@ For a checkbox form field the result can be "1" or "0" to indicate checked or un
 
 For a dropdown form field the result is the string selected in the dropdown.
 
-Setting [Result](./) for a text form field does not apply the text format specified in [TextInputFormat](../get_textinputformat/). If you want to set a value and apply the format, use the [SetTextInputValue()](../) method.
+Setting [Result](./) for a text form field does not apply the text format specified in [TextInputFormat](../get_textinputformat/). If you want to set a value and apply the format, use the [SetTextInputValue()](../settextinputvalue/) method.
 
-For a text form field the [TextInputDefault](../get_textinputdefault/) value is applied if *value* is **null**.
-
+For a text form field the [TextInputDefault](../get_textinputdefault/) value is applied if value is **null**.
 ## Examples
 
 
+Shows how to insert a combo box.
 
-Shows how to insert a combo box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ ASSERT_EQ(u"Apple", comboBox->get_Result());
 // The form field will appear in the form of a "select" html tag.
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
-
 ## See Also
 
 * Class [FormField](../)

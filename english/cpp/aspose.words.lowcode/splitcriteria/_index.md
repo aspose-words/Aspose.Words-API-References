@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/splitcriteria/
 Specifies how the document is split into parts.
 
 ```cpp
-enum class SplitCriteria
+enum class SplitCriteria : int
 ```
 
 ### Values

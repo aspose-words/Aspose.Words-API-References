@@ -7,19 +7,19 @@ type: docs
 weight: 12000
 url: /cpp/aspose.words/documentbase/importnode/
 ---
-## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
+## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\> \&, bool) method
 
 
 Imports a node from another document to the current document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> &srcNode, bool isImportChildren)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> & srcNode, bool isImportChildren)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node being imported. |
+| srcNode | const System::SharedPtr\<Aspose::Words::Node\> \& | The node being imported. |
 | isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 
 ### ReturnValue
@@ -32,15 +32,14 @@ This method uses the [UseDestinationStyles](../../importformatmode/) option to r
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore1()</see> or <see cref="Aspose::Words::CompositeNode::InsertAfter</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertAfter1()](../).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
-
 ## Examples
 
 
+Shows how to import a node from one document to another.
 
-Shows how to import a node from one document to another. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
@@ -67,26 +66,24 @@ dstDoc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(importedSection);
 
 ASSERT_EQ(u"Destination document first paragraph text.\r\nSource document first paragraph text.\r\n", dstDoc->ToString(SaveFormat::Text));
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode) method
+## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\> \&, bool, Aspose::Words::ImportFormatMode) method
 
 
 Imports a node from another document to the current document with an option to control formatting.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> &srcNode, bool isImportChildren, Aspose::Words::ImportFormatMode importFormatMode)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> & srcNode, bool isImportChildren, Aspose::Words::ImportFormatMode importFormatMode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to imported. |
+| srcNode | const System::SharedPtr\<Aspose::Words::Node\> \& | The node to imported. |
 | isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
@@ -100,15 +97,14 @@ This overload is useful to control how styles and list formatting are imported.
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore1()</see> or <see cref="Aspose::Words::CompositeNode::InsertAfter</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertAfter1()](../).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
-
 ## Examples
 
 
+Shows how to import node from source document to destination document with specific options.
 
-Shows how to import node from source document to destination document with specific options. 
 ```cpp
 // Create two documents and add a character style to each document.
 // Configure the styles to have the same name, but different text formatting.
@@ -139,30 +135,27 @@ dstDoc->ImportNode(srcDoc->get_FirstSection(), true, ImportFormatMode::KeepDiffe
 ASSERT_EQ(dstStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My style")->get_Font()->get_Name());
 ASSERT_EQ(srcStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My style_0")->get_Font()->get_Name());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Enum [ImportFormatMode](../../importformatmode/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\> \&, bool, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \&) method
 
 
 Imports a node from another document to the current document with an option to control formatting.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> &srcNode, bool isImportChildren, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> &importFormatOptions)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBase::ImportNode(const System::SharedPtr<Aspose::Words::Node> & srcNode, bool isImportChildren, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> & importFormatOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to imported. |
+| srcNode | const System::SharedPtr\<Aspose::Words::Node\> \& | The node to imported. |
 | isImportChildren | bool | **true** to import all child nodes recursively; otherwise, **false**. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Allows to specify various additional formating options. |
+| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \& | Allows to specify various additional formating options. |
 
 ### ReturnValue
 
@@ -174,15 +167,14 @@ This overload is useful to control how styles and list formatting are imported.
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore1()</see> or <see cref="Aspose::Words::CompositeNode::InsertAfter</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertAfter1()](../).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
-
 ## Examples
 
 
+Shows how to import a node with resolving source theme colors of shapes.
 
-Shows how to import a node with resolving source theme colors of shapes. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
@@ -205,12 +197,8 @@ dstDoc->get_FirstSection()->get_HeadersFooters()->Add(importedFooter);
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBase.ImportNodeWithResolveThemeColors.docx");
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Enum [ImportFormatMode](../../importformatmode/)
-* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

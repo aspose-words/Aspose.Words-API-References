@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/mergefieldimagedimension/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::MergeFieldImageDimension::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::MergeFieldImageDimension::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

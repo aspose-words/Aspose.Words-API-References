@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bordercollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::BorderCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::BorderCollection::GetType() const override
 ```
 
 ## See Also

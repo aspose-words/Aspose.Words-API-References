@@ -4,7 +4,7 @@ linktitle: get_UseSubstitutions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions method. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false in C++.'
 type: docs
-weight: 18000
+weight: 20953
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 ---
 ## FindReplaceOptions::get_UseSubstitutions method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
+_Bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
 ```
 
+## Remarks
 
+ For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions. 
 ## Examples
 
 
+Shows how to recognize and use substitutions within replacement patterns.
 
-Shows how to recognize and use substitutions within replacement patterns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,8 +43,8 @@ doc->get_Range()->Replace(regex, u"$2 took money from $1", options);
 ASSERT_EQ(doc->GetText(), u"Paul took money from Jason.\f");
 ```
 
+Shows how to replace the text with substitutions.
 
-Shows how to replace the text with substitutions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +65,6 @@ doc->get_Range()->Replace(regex, u"$3 bought a $2 from $1", options);
 
 ASSERT_EQ(useSubstitutions ? System::String(u"Paul bought a car from John.\rJoe bought a house from Jane.") : System::String(u"$3 bought a $2 from $1.\r$3 bought a $2 from $1."), doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [FindReplaceOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_Scale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImageWatermarkOptions::get_Scale method. Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto in C++.'
 type: docs
-weight: 4000
+weight: 6750
 url: /cpp/aspose.words/imagewatermarkoptions/get_scale/
 ---
 ## ImageWatermarkOptions::get_Scale method
@@ -22,12 +22,11 @@ double Aspose::Words::ImageWatermarkOptions::get_Scale() const
 Valid values range from 0 to 65.5 inclusive.
 
 Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
-
 ## Examples
 
 
+Shows how to create a watermark from an image in the local file system.
 
-Shows how to create a watermark from an image in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -45,8 +44,12 @@ doc->get_Watermark()->SetImage(System::Drawing::Image::FromFile(get_ImageDir() +
 
 doc->get_Watermark()->SetImage(get_ImageDir() + u"Logo.jpg", imageWatermarkOptions);
 
+
 doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

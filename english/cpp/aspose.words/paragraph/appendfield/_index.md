@@ -25,12 +25,11 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Append
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
-
 ## Examples
 
 
+Shows various ways of appending fields to a paragraph.
 
-Shows various ways of appending fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -54,37 +53,33 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
-* Enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::AppendField(const System::String\&) method
+## Paragraph::AppendField(const System::String \&) method
 
 
 Appends a field to this paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::AppendField(const System::String &fieldCode)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::AppendField(const System::String & fieldCode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldCode | const System::String\& | The field code to append (without curly braces). |
+| fieldCode | const System::String \& | The field code to append (without curly braces). |
 
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
-
 ## Examples
 
 
+Shows various ways of appending fields to a paragraph.
 
-Shows various ways of appending fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -108,37 +103,34 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::AppendField(const System::String\&, const System::String\&) method
+## Paragraph::AppendField(const System::String \&, const System::String \&) method
 
 
 Appends a field to this paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::AppendField(const System::String &fieldCode, const System::String &fieldValue)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::AppendField(const System::String & fieldCode, const System::String & fieldValue)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldCode | const System::String\& | The field code to append (without curly braces). |
-| fieldValue | const System::String\& | The field value to append. Pass **null** for fields that do not have a value. |
+| fieldCode | const System::String \& | The field code to append (without curly braces). |
+| fieldValue | const System::String \& | The field value to append. Pass **null** for fields that do not have a value. |
 
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the appended field.
-
 ## Examples
 
 
+Shows various ways of appending fields to a paragraph.
 
-Shows various ways of appending fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -162,10 +154,8 @@ ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result(
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

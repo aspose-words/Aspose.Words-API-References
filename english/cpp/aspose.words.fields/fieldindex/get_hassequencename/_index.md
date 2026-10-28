@@ -4,7 +4,7 @@ linktitle: get_HasSequenceName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_HasSequenceName method. Gets a value indicating whether a sequence should be used while the field''s result building in C++.'
 type: docs
-weight: 6000
+weight: 19336
 url: /cpp/aspose.words.fields/fieldindex/get_hassequencename/
 ---
 ## FieldIndex::get_HasSequenceName method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldindex/get_hassequencename/
 Gets a value indicating whether a sequence should be used while the field's result building.
 
 ```cpp
-bool Aspose::Words::Fields::FieldIndex::get_HasSequenceName()
+_Bool Aspose::Words::Fields::FieldIndex::get_HasSequenceName()
 ```
-
 
 ## Examples
 
 
+Shows how to split a document into portions by combining INDEX and SEQ fields.
 
-Shows how to split a document into portions by combining INDEX and SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Sequence.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::StyleCollection::get_Count method. Gets the number of styles in the collection in C++.'
 type: docs
-weight: 5000
+weight: 14000
 url: /cpp/aspose.words/stylecollection/get_count/
 ---
 ## StyleCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of styles in the collection.
 int32_t Aspose::Words::StyleCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -37,7 +36,6 @@ styles->Add(StyleType::Paragraph, u"MyStyle");
 ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
-
 ## See Also
 
 * Class [StyleCollection](../)

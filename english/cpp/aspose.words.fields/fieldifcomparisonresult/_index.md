@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldifcomparisonresult/
 Specifies the result of the IF field condition evaluation.
 
 ```cpp
-enum class FieldIfComparisonResult
+enum class FieldIfComparisonResult : int
 ```
 
 ### Values
@@ -21,15 +21,14 @@ enum class FieldIfComparisonResult
 | Name | Value | Description |
 | --- | --- | --- |
 | Error | 0 | There is an error in the condition. |
-| True | 1 | The condition is **true**. |
 | False | 2 | The condition is **false**. |
-
+| True | 1 | The condition is **true**. |
 
 ## Examples
 
 
+Shows how to insert an IF field.
 
-Shows how to insert an IF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ ASSERT_EQ(u"True", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

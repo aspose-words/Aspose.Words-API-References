@@ -13,7 +13,7 @@ url: /cpp/aspose.words/nodelist/is/
 
 
 ```cpp
-virtual bool Aspose::Words::NodeList::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::NodeList::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

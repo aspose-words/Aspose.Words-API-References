@@ -4,7 +4,7 @@ linktitle: get_LanguageId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_LanguageId method. Gets or sets the language ID used to generate the index in C++.'
 type: docs
-weight: 8000
+weight: 19448
 url: /cpp/aspose.words.fields/fieldindex/get_languageid/
 ---
 ## FieldIndex::get_LanguageId method
@@ -16,12 +16,11 @@ Gets or sets the language ID used to generate the index.
 System::String Aspose::Words::Fields::FieldIndex::get_LanguageId()
 ```
 
-
 ## Examples
 
 
+Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 
-Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Formatting.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

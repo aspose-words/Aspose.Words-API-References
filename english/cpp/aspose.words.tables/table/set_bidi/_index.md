@@ -2,20 +2,66 @@
 title: Aspose::Words::Tables::Table::set_Bidi method
 linktitle: set_Bidi
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Tables::Table::set_Bidi method. Setter for Aspose::Words::Tables::Table::get_Bidi in C++.'
+description: 'Aspose::Words::Tables::Table::set_Bidi method. Sets whether this is a right-to-left table in C++.'
 type: docs
-weight: 49000
+weight: 111000
 url: /cpp/aspose.words.tables/table/set_bidi/
 ---
 ## Table::set_Bidi method
 
 
-Setter for [Aspose::Words::Tables::Table::get_Bidi](../get_bidi/).
+Sets whether this is a right-to-left table.
 
 ```cpp
 void Aspose::Words::Tables::Table::set_Bidi(bool value)
 ```
 
+## Remarks
+
+
+When **true**, the cells in this row are laid out right to left.
+
+The default value is **false**.
+## Examples
+
+
+Shows how to create custom style settings for the table.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+builder->InsertCell();
+builder->Write(u"Name");
+builder->InsertCell();
+builder->Write(u"مرحبًا");
+builder->EndRow();
+builder->InsertCell();
+builder->InsertCell();
+builder->EndTable();
+
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+tableStyle->set_AllowBreakAcrossPages(true);
+tableStyle->set_CellSpacing(5);
+tableStyle->set_BottomPadding(20);
+tableStyle->set_LeftPadding(5);
+tableStyle->set_RightPadding(10);
+tableStyle->set_TopPadding(20);
+tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
+tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
+tableStyle->get_Borders()->set_LineStyle(LineStyle::DotDash);
+tableStyle->set_VerticalAlignment(CellVerticalAlignment::Center);
+
+table->set_Style(tableStyle);
+
+// Setting the style properties of a table may affect the properties of the table itself.
+ASSERT_FALSE(table->get_Bidi());
+ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
+ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
+
+doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
+```
 ## See Also
 
 * Class [Table](../)

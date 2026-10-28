@@ -4,7 +4,7 @@ linktitle: get_HangingPunctuation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_HangingPunctuation method. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph in C++.'
 type: docs
-weight: 14000
+weight: 44322
 url: /cpp/aspose.words/paragraphformat/get_hangingpunctuation/
 ---
 ## ParagraphFormat::get_HangingPunctuation method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_hangingpunctuation/
 Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_HangingPunctuation()
+_Bool Aspose::Words::ParagraphFormat::get_HangingPunctuation()
 ```
-
 
 ## Examples
 
 
+Shows how to set special properties for Asian typography.
 
-Shows how to set special properties for Asian typography. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -32,7 +31,6 @@ format->set_HangingPunctuation(true);
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

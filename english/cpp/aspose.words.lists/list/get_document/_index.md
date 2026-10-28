@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_Document method. Gets the owner document in C++.'
 type: docs
-weight: 4000
+weight: 15200
 url: /cpp/aspose.words.lists/list/get_document/
 ---
 ## List::get_Document method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Lists::List::get_D
 
 
 A list always has a parent document and is valid only in the context of that document.
-
 ## Examples
 
 
+Shows how to verify owner document properties of lists.
 
-Shows how to verify owner document properties of lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,10 +39,8 @@ std::cout << (System::String(u"Is the first document list: ") + (System::ObjectE
 std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/chmloadoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::ChmLoadOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::ChmLoadOptions::GetType() const override
 ```
 
 ## See Also

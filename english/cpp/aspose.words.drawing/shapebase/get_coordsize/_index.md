@@ -4,7 +4,7 @@ linktitle: get_CoordSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_CoordSize method. The width and height of the coordinate space inside the containing block of this shape in C++.'
 type: docs
-weight: 14000
+weight: 61195
 url: /cpp/aspose.words.drawing/shapebase/get_coordsize/
 ---
 ## ShapeBase::get_CoordSize method
@@ -20,12 +20,11 @@ System::Drawing::Size Aspose::Words::Drawing::ShapeBase::get_CoordSize()
 
 
 The default value is (1000, 1000).
-
 ## Examples
 
 
+Shows how to create and populate a group shape.
 
-Shows how to create and populate a group shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -109,8 +108,8 @@ builder->Write(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"Shape.GroupShape.docx");
 ```
 
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -157,7 +156,6 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.LocalToParent.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

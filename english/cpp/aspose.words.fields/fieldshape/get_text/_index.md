@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldShape::get_Text method. Gets or sets the text to retrieve in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldshape/get_text/
 ---
 ## FieldShape::get_Text method
@@ -16,12 +16,11 @@ Gets or sets the text to retrieve.
 System::String Aspose::Words::Fields::FieldShape::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 
-Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,8 +50,8 @@ for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(doc->GetChildNo
 doc->Save(get_ArtifactsDir() + u"Field.BIDIOUTLINE.docx");
 ```
 
+Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading.
 
-Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading. 
 ```cpp
 // Open a document that was created in Microsoft Word 2003.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Legacy fields.doc"));
@@ -83,7 +82,6 @@ ASSERT_EQ(ShapeType::Can, shape->get_ShapeType());
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(2));
 ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
 ```
-
 ## See Also
 
 * Class [FieldShape](../)

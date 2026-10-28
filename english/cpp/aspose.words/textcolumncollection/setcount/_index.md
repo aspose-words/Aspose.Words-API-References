@@ -24,12 +24,11 @@ void Aspose::Words::TextColumnCollection::SetCount(int32_t newCount)
 
 
 When [EvenlySpaced](../get_evenlyspaced/) is **false** and you increase the number of columns, new [TextColumn](../../textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
-
 ## Examples
 
 
+Shows how to create multiple evenly spaced columns in a section.
 
-Shows how to create multiple evenly spaced columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,7 +43,6 @@ builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

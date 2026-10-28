@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/remove/
 Removes a property with the specified name from the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlPropertyCollection::Remove(const System::String &name)
+void Aspose::Words::Markup::CustomXmlPropertyCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-sensitive name of the property. |
-
+| name | const System::String \& | The case-sensitive name of the property. |
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -75,7 +74,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlPropertyCollection](../)

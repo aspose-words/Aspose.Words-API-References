@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/hyphenationoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Settings::HyphenationOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Settings::HyphenationOptions::GetType() const override
 ```
 
 ## See Also

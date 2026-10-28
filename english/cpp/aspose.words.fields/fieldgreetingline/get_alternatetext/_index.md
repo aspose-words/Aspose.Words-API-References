@@ -4,7 +4,7 @@ linktitle: get_AlternateText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldGreetingLine::get_AlternateText method. Gets the text to include in the field if the name is blank in C++.'
 type: docs
-weight: 3000
+weight: 8400
 url: /cpp/aspose.words.fields/fieldgreetingline/get_alternatetext/
 ---
 ## FieldGreetingLine::get_AlternateText method

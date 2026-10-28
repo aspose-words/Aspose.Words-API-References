@@ -20,18 +20,17 @@ class Adjustment : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Name](./get_name/)() const | Gets the name of the adjustment. |
 | [get_Value](./get_value/)() const | Gets or sets the raw value of the adjustment. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Value](./set_value/)(int32_t) | Setter for [Aspose::Words::Drawing::Adjustment::get_Value](./get_value/). |
-| static [Type](./type/)() |  |
-
+| [set_Value](./set_value/)(int32_t) | Sets the raw value of the adjustment. |
 ## Examples
 
 
+Shows how to work with adjustment raw values.
 
-Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -47,7 +46,6 @@ adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

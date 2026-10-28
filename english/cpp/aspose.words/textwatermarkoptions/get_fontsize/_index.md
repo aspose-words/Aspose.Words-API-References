@@ -4,7 +4,7 @@ linktitle: get_FontSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextWatermarkOptions::get_FontSize method. Gets or sets a font size. The default value is 0 - auto in C++.'
 type: docs
-weight: 5000
+weight: 9625
 url: /cpp/aspose.words/textwatermarkoptions/get_fontsize/
 ---
 ## TextWatermarkOptions::get_FontSize method
@@ -21,13 +21,12 @@ float Aspose::Words::TextWatermarkOptions::get_FontSize() const
 
 Valid values range from 0 to 65.5 inclusive.
 
-Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
-
+ Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -53,6 +52,9 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

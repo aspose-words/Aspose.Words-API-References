@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bookmark/set_text/
 Sets the text enclosed in the bookmark.
 
 ```cpp
-void Aspose::Words::Bookmark::set_Text(const System::String &value)
+void Aspose::Words::Bookmark::set_Text(const System::String & value)
 ```
 
 ## See Also

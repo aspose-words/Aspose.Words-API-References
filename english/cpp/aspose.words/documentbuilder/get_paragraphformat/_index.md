@@ -4,7 +4,7 @@ linktitle: get_ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_ParagraphFormat method. Returns an object that represents current paragraph formatting properties in C++.'
 type: docs
-weight: 24000
+weight: 89000
 url: /cpp/aspose.words/documentbuilder/get_paragraphformat/
 ---
 ## DocumentBuilder::get_ParagraphFormat method
@@ -16,12 +16,11 @@ Returns an object that represents current paragraph formatting properties.
 System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::DocumentBuilder::get_ParagraphFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to create a formatted table using DocumentBuilder.
 
-Shows how to create a formatted table using [DocumentBuilder](../). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,10 +76,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
-
 ## See Also
 
-* Class [ParagraphFormat](../../paragraphformat/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

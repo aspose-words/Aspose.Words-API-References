@@ -4,7 +4,7 @@ linktitle: get_BookmarksOutlineLevels
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OutlineOptions::get_BookmarksOutlineLevels method. Allows to specify individual bookmarks outline level in C++.'
 type: docs
-weight: 3000
+weight: 10334
 url: /cpp/aspose.words.saving/outlineoptions/get_bookmarksoutlinelevels/
 ---
 ## OutlineOptions::get_BookmarksOutlineLevels method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Saving::BookmarksOutlineLevelCollection> Aspose
 
 
 If bookmark level is not specified in this collection then [DefaultBookmarksOutlineLevel](../get_defaultbookmarksoutlinelevel/) value is used.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,10 +75,8 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
-* Class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

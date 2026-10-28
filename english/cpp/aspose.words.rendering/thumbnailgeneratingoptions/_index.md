@@ -20,20 +20,22 @@ class ThumbnailGeneratingOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_GenerateFromFirstPage](./get_generatefromfirstpage/)() const | Specifies whether to generate thumbnail from first page of the document or first image. |
-| [get_ThumbnailSize](./get_thumbnailsize/)() const | Size of generated thumbnail in pixels. Default is 600x900. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_GenerateFromFirstPage](./set_generatefromfirstpage/)(bool) | Setter for [Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage](./get_generatefromfirstpage/). |
-| [set_ThumbnailSize](./set_thumbnailsize/)(System::Drawing::Size) | Setter for [Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_ThumbnailSize](./get_thumbnailsize/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ThumbnailGeneratingOptions](./thumbnailgeneratingoptions/)() |  |
 | static [Type](./type/)() |  |
+| [get_GenerateFromFirstPage](./get_generatefromfirstpage/)() const | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [get_ThumbnailSize](./get_thumbnailsize/)() const | Size of generated thumbnail in pixels. Default is 600x900. |
+| [set_GenerateFromFirstPage](./set_generatefromfirstpage/)(bool) | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [set_ThumbnailSize](./set_thumbnailsize/)(System::Drawing::Size) | Size of generated thumbnail in pixels. Default is 600x900. |
+## Remarks
 
+ User can call method [UpdateThumbnail()](../../aspose.words/document/updatethumbnail/) to generate [Thumbnail](../../aspose.words.properties/builtindocumentproperties/get_thumbnail/) for a document. 
 ## Examples
 
 
+Shows how to update a document's thumbnail.
 
-Shows how to update a document's thumbnail. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +56,6 @@ options->set_GenerateFromFirstPage(false);
 doc->UpdateThumbnail(options);
 doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Rendering](../)

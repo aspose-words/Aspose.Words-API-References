@@ -1,10 +1,10 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::cbegin method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::cbegin method
 linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use cbegin method of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
+description: 'How to use cbegin method of Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class in C++.'
 type: docs
-weight: 4000
+weight: 13334
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/cbegin/
 ---
 ## BaseWebExtensionCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::cbegin() const noexcept
+const_iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

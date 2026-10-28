@@ -20,12 +20,11 @@ void Aspose::Words::Properties::DocumentPropertyCollection::RemoveAt(int32_t ind
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero based index. |
-
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -80,7 +79,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [DocumentPropertyCollection](../)

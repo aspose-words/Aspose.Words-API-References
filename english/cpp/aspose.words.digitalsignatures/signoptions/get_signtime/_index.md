@@ -4,24 +4,23 @@ linktitle: get_SignTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_SignTime method. The date of signing. Default value is current time (Now) in C++.'
 type: docs
-weight: 8000
+weight: 10200
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_signtime/
 ---
 ## SignOptions::get_SignTime method
 
 
-The date of signing. Default value is **current time** (**Now**)
+The date of signing. Default value is current time (**Now**)
 
 ```cpp
 System::DateTime Aspose::Words::DigitalSignatures::SignOptions::get_SignTime() const
 ```
 
-
 ## Examples
 
 
+Shows how to digitally sign documents.
 
-Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -41,7 +40,6 @@ signOptions->set_SignTime(System::DateTime::get_Now());
     }
 }
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

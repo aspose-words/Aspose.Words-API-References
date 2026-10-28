@@ -16,6 +16,9 @@ Sets a value determining zoom factor (in percentages) for a document.
 void Aspose::Words::Saving::PdfSaveOptions::set_ZoomFactor(int32_t value)
 ```
 
+## Remarks
+
+ This value is used only if [ZoomBehavior](../get_zoombehavior/) is set to [ZoomFactor](../../pdfzoombehavior/). 
 ## See Also
 
 * Class [PdfSaveOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldchar/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldChar::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldChar::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

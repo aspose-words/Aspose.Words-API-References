@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Add method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Add method
 linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Add method. Adds specified item to the collection in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Add method. Adds specified item to the collection in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/add/
@@ -20,12 +20,11 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Add(T item)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | T | Item for adding. |
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -90,7 +89,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [BaseWebExtensionCollection](../)

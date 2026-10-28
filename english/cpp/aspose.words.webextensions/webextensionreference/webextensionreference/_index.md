@@ -4,7 +4,7 @@ linktitle: WebExtensionReference
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use WebExtensionReference constructor of Aspose::Words::WebExtensions::WebExtensionReference class in C++.'
 type: docs
-weight: 2000
+weight: 8286
 url: /cpp/aspose.words.webextensions/webextensionreference/webextensionreference/
 ---
 ## WebExtensionReference::WebExtensionReference constructor

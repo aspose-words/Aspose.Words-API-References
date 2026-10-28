@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/watermarker/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::Watermarker::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::Watermarker::GetType() const override
 ```
 
 ## See Also

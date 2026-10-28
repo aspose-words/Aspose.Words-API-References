@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection class in C++.'
 type: docs
-weight: 5000
+weight: 12500
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/cend/
 ---
 ## ChartSeriesGroupCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::cend() const noexcept
+const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

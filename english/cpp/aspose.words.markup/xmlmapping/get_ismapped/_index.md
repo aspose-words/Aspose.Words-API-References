@@ -4,7 +4,7 @@ linktitle: get_IsMapped
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::XmlMapping::get_IsMapped method. Returns true if the parent structured document tag is successfully mapped to XML data in C++.'
 type: docs
-weight: 4000
+weight: 13000
 url: /cpp/aspose.words.markup/xmlmapping/get_ismapped/
 ---
 ## XmlMapping::get_IsMapped method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/xmlmapping/get_ismapped/
 Returns **true** if the parent structured document tag is successfully mapped to XML data.
 
 ```cpp
-bool Aspose::Words::Markup::XmlMapping::get_IsMapped()
+_Bool Aspose::Words::Markup::XmlMapping::get_IsMapped()
 ```
-
 
 ## Examples
 
 
+Shows how to set XML mappings for custom XML parts.
 
-Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,7 +48,6 @@ ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()-
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
-
 ## See Also
 
 * Class [XmlMapping](../)

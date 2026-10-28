@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/gradientstopcollection/remove/
 Removes a specified [GradientStop](../../gradientstop/) from the collection.
 
 ```cpp
-bool Aspose::Words::Drawing::GradientStopCollection::Remove(const System::SharedPtr<Aspose::Words::Drawing::GradientStop> &gradientStop)
+_Bool Aspose::Words::Drawing::GradientStopCollection::Remove(const System::SharedPtr<Aspose::Words::Drawing::GradientStop> & gradientStop)
 ```
 
 
 ### ReturnValue
 
 **true** if gradient stop was successfully removed, otherwise **false**.
-
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,10 +71,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [GradientStop](../../gradientstop/)
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Store
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionReference::get_Store method. Specifies the instance of the marketplace where the web extension is stored in C++.'
 type: docs
-weight: 4000
+weight: 8572
 url: /cpp/aspose.words.webextensions/webextensionreference/get_store/
 ---
 ## WebExtensionReference::get_Store method
@@ -16,12 +16,11 @@ Specifies the instance of the marketplace where the web extension is stored.
 System::String Aspose::Words::WebExtensions::WebExtensionReference::get_Store() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtensionReference](../)

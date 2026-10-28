@@ -4,7 +4,7 @@ linktitle: get_StoreType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType method. Specifies the type of marketplace in C++.'
 type: docs
-weight: 5000
+weight: 8715
 url: /cpp/aspose.words.webextensions/webextensionreference/get_storetype/
 ---
 ## WebExtensionReference::get_StoreType method
@@ -16,12 +16,11 @@ Specifies the type of marketplace.
 Aspose::Words::WebExtensions::WebExtensionStoreType Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,10 +85,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Enum [WebExtensionStoreType](../../webextensionstoretype/)
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

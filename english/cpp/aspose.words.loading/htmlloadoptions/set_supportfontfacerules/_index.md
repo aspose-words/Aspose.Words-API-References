@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::HtmlLoadOptions::set_SupportFontFaceRules method
 linktitle: set_SupportFontFaceRules
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::HtmlLoadOptions::set_SupportFontFaceRules method. Setter for Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules in C++.'
+description: 'Aspose::Words::Loading::HtmlLoadOptions::set_SupportFontFaceRules method. Sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is false in C++.'
 type: docs
 weight: 14500
 url: /cpp/aspose.words.loading/htmlloadoptions/set_supportfontfacerules/
@@ -10,12 +10,32 @@ url: /cpp/aspose.words.loading/htmlloadoptions/set_supportfontfacerules/
 ## HtmlLoadOptions::set_SupportFontFaceRules method
 
 
-Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules](../get_supportfontfacerules/).
+Sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Loading::HtmlLoadOptions::set_SupportFontFaceRules(bool value)
 ```
 
+## Remarks
+
+
+ If this option is enabled, fonts declared in @font-face rules are loaded and embedded into the resulting document's font definitions (see [FontInfos](../../../aspose.words/documentbase/get_fontinfos/)). This makes the loaded fonts available for rendering but doesn't automatically enable embedding of the fonts upon saving. In order to save the document with loaded fonts, the [EmbedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/get_embedtruetypefonts/) property of the [FontInfos](../../../aspose.words/documentbase/get_fontinfos/) collection should be set to **true**. 
+
+ Supported font formats are TTF, EOT, and WOFF. 
+
+ @font-face rules are not supported when loading SVG images. 
+## Examples
+
+
+Shows how to load declared "@font-face" rules.
+
+```cpp
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
+loadOptions->set_SupportFontFaceRules(true);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Html with FontFace.html", loadOptions);
+
+ASSERT_EQ(u"Squarish Sans CT Regular", doc->get_FontInfos()->idx_get(0)->get_Name());
+```
 ## See Also
 
 * Class [HtmlLoadOptions](../)

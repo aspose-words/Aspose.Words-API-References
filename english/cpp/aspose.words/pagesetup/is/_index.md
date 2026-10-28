@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/is/
 
 
 ```cpp
-virtual bool Aspose::Words::PageSetup::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::PageSetup::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

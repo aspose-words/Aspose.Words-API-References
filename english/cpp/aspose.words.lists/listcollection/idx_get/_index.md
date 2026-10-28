@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListCollection::idx_get method. Gets a list by index in C++.'
 type: docs
-weight: 13000
+weight: 14889
 url: /cpp/aspose.words.lists/listcollection/idx_get/
 ---
 ## ListCollection::idx_get method
@@ -16,12 +16,11 @@ Gets a list by index.
 System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to apply list formatting of an existing list to a collection of paragraphs.
 
-Shows how to apply list formatting of an existing list to a collection of paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,8 +51,8 @@ ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose
 }))));
 ```
 
+Shows how to verify owner document properties of lists.
 
-Shows how to verify owner document properties of lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -68,10 +67,8 @@ std::cout << (System::String(u"Is the first document list: ") + (System::ObjectE
 std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
 std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
-
 ## See Also
 
-* Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

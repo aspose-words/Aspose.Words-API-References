@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::ImageFieldMergingArgs::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::ImageFieldMergingArgs::GetType() const override
 ```
 
 ## See Also

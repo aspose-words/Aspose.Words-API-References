@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::CustomXmlSchemaCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::CustomXmlSchemaCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

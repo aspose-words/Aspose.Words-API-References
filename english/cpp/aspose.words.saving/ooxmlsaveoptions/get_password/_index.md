@@ -4,7 +4,7 @@ linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_Password method. Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm in C++.'
 type: docs
-weight: 6000
+weight: 9700
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_password/
 ---
 ## OoxmlSaveOptions::get_Password method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Saving::OoxmlSaveOptions::get_Password() const
 
 
 In order to save document without encryption this property should be **null** or empty string.
-
 ## Examples
 
 
+Shows how to create a password encrypted Office Open XML document.
 
-Shows how to create a password encrypted Office Open XML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OoxmlSa
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [OoxmlSaveOptions](../)

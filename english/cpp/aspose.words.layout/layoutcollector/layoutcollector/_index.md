@@ -4,7 +4,7 @@ linktitle: LayoutCollector
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutCollector::LayoutCollector constructor. Initializes an instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 10250
 url: /cpp/aspose.words.layout/layoutcollector/layoutcollector/
 ---
 ## LayoutCollector::LayoutCollector constructor
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.layout/layoutcollector/layoutcollector/
 Initializes an instance of this class.
 
 ```cpp
-Aspose::Words::Layout::LayoutCollector::LayoutCollector(const System::SharedPtr<Aspose::Words::Document> &doc)
+Aspose::Words::Layout::LayoutCollector::LayoutCollector(const System::SharedPtr<Aspose::Words::Document> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The document to which this collector instance will be attached to. |
-
+| doc | const System::SharedPtr\<Aspose::Words::Document\> \& | The document to which this collector instance will be attached to. |
 ## Examples
 
 
+Shows how to see the the ranges of pages that a node spans.
 
-Shows how to see the the ranges of pages that a node spans. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
@@ -74,10 +73,8 @@ layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType:
 ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
 ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

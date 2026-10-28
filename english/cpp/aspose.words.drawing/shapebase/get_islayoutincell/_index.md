@@ -4,7 +4,7 @@ linktitle: get_IsLayoutInCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell method. Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it in C++.'
 type: docs
-weight: 32000
+weight: 61510
 url: /cpp/aspose.words.drawing/shapebase/get_islayoutincell/
 ---
 ## ShapeBase::get_IsLayoutInCell method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_islayoutincell/
 Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell()
 The default value is **true**.
 
 Has effect only for top level shapes, the property [WrapType](../get_wraptype/) of which is set to value other than [Inline](../../../aspose.words/inline/).
-
 ## Examples
 
 
+Shows how to determine how to display a shape in a table cell.
 
-Shows how to determine how to display a shape in a table cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,7 +63,6 @@ shape->set_WrapType(WrapType::None);
 
 doc->Save(get_ArtifactsDir() + u"Shape.LayoutInTableCell.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

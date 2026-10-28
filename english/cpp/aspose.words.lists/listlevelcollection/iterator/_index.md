@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listlevelcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Lists::ListLevelCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Lists::ListLevelCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageextractoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::PageExtractOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::PageExtractOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

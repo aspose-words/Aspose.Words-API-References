@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::Document constructor. Creates a blank Word document in C++.'
 type: docs
-weight: 2000
+weight: 9500
 url: /cpp/aspose.words/document/document/
 ---
 ## Document::Document() constructor
@@ -26,12 +26,11 @@ A blank document is retrieved from resources, and by default, the resulting docu
 The document paper size is Letter by default. If you want to change page setup, use [PageSetup](../../section/get_pagesetup/).
 
 After creation, you can use [DocumentBuilder](../../documentbuilder/) to add document content easily.
-
 ## Examples
 
 
+Shows how to create simple document.
 
-Shows how to create simple document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,8 +39,8 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(System::MakeObject<Aspose::Words::Section>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Body>>(System::MakeObject<Aspose::Words::Body>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
 
+Shows how to create and load documents.
 
-Shows how to create and load documents. 
 ```cpp
 // There are two ways of creating a Document object using Aspose.Words.
 // 1 -  Create a blank document:
@@ -64,8 +63,8 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 ASSERT_EQ(u"Test encrypted document.", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 ```
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -78,35 +77,33 @@ font->set_HighlightColor(System::Drawing::Color::get_Yellow());
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(const System::SharedPtr\<System::IO::Stream\>\&) constructor
+## Document::Document(const System::SharedPtr\<System::IO::Stream\> \&) constructor
 
 
 Opens an existing document from a stream. Automatically detects the file format.
 
 ```cpp
-Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> &stream)
+Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream where to load the document from. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | Stream where to load the document from. |
 ## Remarks
 
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
-
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
+Shows how to load a document using a stream.
 
-Shows how to load a document using a stream. 
 ```cpp
 {
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.docx");
@@ -115,36 +112,45 @@ Shows how to load a document using a stream.
     ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", doc->GetText().Trim());
 }
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## Document::Document(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 
 ```cpp
-Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> & stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to load the document from. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream where to load the document from. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | Additional options to use when loading a document. Can be **null**. |
 ## Remarks
 
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
-
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
+Shows how to open an HTML document with images from a stream using a base URI.
 
-Shows how to open an HTML document with images from a stream using a base URI. 
 ```cpp
 {
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.html");
@@ -165,8 +171,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 }
 ```
 
+Shows how to load an encrypted Microsoft Word document.
 
-Shows how to load an encrypted Microsoft Word document. 
 ```cpp
 System::SharedPtr<Aspose::Words::Document> doc;
 
@@ -189,63 +195,78 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
     doc = System::MakeObject<Aspose::Words::Document>(stream, options);
 }
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(const System::String\&) constructor
+## Document::Document(const System::String \&) constructor
 
 
 Opens an existing document from a file. Automatically detects the file format.
 
 ```cpp
-Aspose::Words::Document::Document(const System::String &fileName)
+Aspose::Words::Document::Document(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | File name of the document to open. |
-
+| fileName | const System::String \& | File name of the document to open. |
 ## Examples
 
 
+Shows how to open a document and convert it to .PDF.
 
-Shows how to open a document and convert it to .PDF. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentException** - The name of the file cannot be null or empty string.
 
 ## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## Document::Document(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
 
 ```cpp
-Aspose::Words::Document::Document(const System::String &fileName, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::Document::Document(const System::String & fileName, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | File name of the document to open. |
-| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\& | Additional options to use when loading a document. Can be **null**. |
-
+| fileName | const System::String \& | File name of the document to open. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | Additional options to use when loading a document. Can be **null**. |
 ## Examples
 
 
+Shows how to create and load documents.
 
-Shows how to create and load documents. 
 ```cpp
 // There are two ways of creating a Document object using Aspose.Words.
 // 1 -  Create a blank document:
@@ -268,8 +289,8 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 ASSERT_EQ(u"Test encrypted document.", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 ```
 
+Shows how to load an encrypted Microsoft Word document.
 
-Shows how to load an encrypted Microsoft Word document. 
 ```cpp
 System::SharedPtr<Aspose::Words::Document> doc;
 
@@ -292,20 +313,27 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
     doc = System::MakeObject<Aspose::Words::Document>(stream, options);
 }
 ```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentException** - The name of the file cannot be null or empty string.
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(std::istream\&) constructor
+## Document::Document(std::istream \&) constructor
 
 
 
 
 ```cpp
-Aspose::Words::Document::Document(std::istream &stream)
+Aspose::Words::Document::Document(std::istream & stream)
 ```
 
 ## See Also
@@ -313,18 +341,17 @@ Aspose::Words::Document::Document(std::istream &stream)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Document(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
+## Document::Document(std::istream \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
 
 
 ```cpp
-Aspose::Words::Document::Document(std::istream &stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> &loadOptions)
+Aspose::Words::Document::Document(std::istream & stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
 
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

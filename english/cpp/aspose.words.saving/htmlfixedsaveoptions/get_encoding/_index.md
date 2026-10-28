@@ -4,7 +4,7 @@ linktitle: get_Encoding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_Encoding method. Specifies the encoding to use when exporting to HTML. Default value is new UTF8Encoding(true) (UTF-8 with BOM) in C++.'
 type: docs
-weight: 4000
+weight: 22138
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_encoding/
 ---
 ## HtmlFixedSaveOptions::get_Encoding method
@@ -16,12 +16,11 @@ Specifies the encoding to use when exporting to HTML. Default value is **new UTF
 System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::HtmlFixedSaveOptions::get_Encoding() const
 ```
 
-
 ## Examples
 
 
+Shows how to set which encoding to use while exporting a document to HTML.
 
-Shows how to set which encoding to use while exporting a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +36,6 @@ ASSERT_EQ(u"US-ASCII", htmlFixedSaveOptions->get_Encoding()->get_EncodingName())
 
 doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOptions);
 ```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

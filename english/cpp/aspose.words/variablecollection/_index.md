@@ -2,7 +2,7 @@
 title: Aspose::Words::VariableCollection class
 linktitle: VariableCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::VariableCollection class. A collection of document variables. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::VariableCollection class. A collection of document variables. To learn more, visit the Work with Document Properties documentation article in C++.'
 type: docs
 weight: 73000
 url: /cpp/aspose.words/variablecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/variablecollection/
 ## VariableCollection class
 
 
-A collection of document variables. To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article.
+A collection of document variables. 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/cpp/work-with-document-properties/) documentation article.
 
 ```cpp
 class VariableCollection : public System::Collections::Generic::IEnumerable<System::Collections::Generic::KeyValuePair<System::String, System::String>>
@@ -20,27 +21,27 @@ class VariableCollection : public System::Collections::Generic::IEnumerable<Syst
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::String\&, const System::String\&) | Adds a document variable to the collection. |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
+| [Add](./add/)(const System::String \&, const System::String \&) | Adds a document variable to the collection. |
 | [Clear](./clear/)() | Removes all elements from the collection. |
-| [Contains](./contains/)(const System::String\&) | Determines whether the collection contains a document variable with the given name. |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a document variable with the given name. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all variable in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(const System::String\&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
-| [idx_set](./idx_set/)(const System::String\&, const System::String\&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
-| [idx_set](./idx_set/)(int32_t, const System::String\&) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
-| [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified document variable in the collection. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::String\&) | Removes a document variable with the specified name from the collection. |
+| [IndexOfKey](./indexofkey/)(const System::String \&) | Returns the zero-based index of the specified document variable in the collection. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::String \&) | Removes a document variable with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a document variable at the specified index. |
 | static [Type](./type/)() |  |
+| [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() const |  |
+| [end](./end/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(const System::String \&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
+| [idx_set](./idx_set/)(const System::String \&, const System::String \&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
+| [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -60,12 +61,11 @@ class VariableCollection : public System::Collections::Generic::IEnumerable<Syst
 Variable names and values are strings.
 
 Variable names are case-insensitive.
-
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -135,7 +135,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

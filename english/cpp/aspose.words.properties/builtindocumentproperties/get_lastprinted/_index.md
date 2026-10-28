@@ -4,7 +4,7 @@ linktitle: get_LastPrinted
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LastPrinted method. Gets or sets the date when the document was last printed in UTC in C++.'
 type: docs
-weight: 15000
+weight: 36428
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastprinted/
 ---
 ## BuiltInDocumentProperties::get_LastPrinted method
@@ -24,12 +24,11 @@ For documents originated from RTF format this property returns the local time of
 If the document was never printed, this property will return DateTime.MinValue.
 
 Aspose.Words does not update this property.
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -58,7 +57,6 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

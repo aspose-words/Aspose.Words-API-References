@@ -4,7 +4,7 @@ linktitle: get_HorizontalAnchor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_HorizontalAnchor method. Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column in C++.'
 type: docs
-weight: 24000
+weight: 88000
 url: /cpp/aspose.words.tables/table/get_horizontalanchor/
 ---
 ## Table::get_HorizontalAnchor method
@@ -16,12 +16,11 @@ Gets the base object from which the horizontal positioning of floating table sho
 Aspose::Words::Drawing::RelativeHorizontalPosition Aspose::Words::Tables::Table::get_HorizontalAnchor()
 ```
 
-
 ## Examples
 
 
+Shows how to work with floating tables properties.
 
-Shows how to work with floating tables properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
@@ -42,10 +41,8 @@ if (table->get_TextWrapping() == TextWrapping::Around)
     table->set_VerticalAnchor(RelativeVerticalPosition::Page);
 }
 ```
-
 ## See Also
 
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

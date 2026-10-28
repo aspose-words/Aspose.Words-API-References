@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Comparing::CompareOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Comparing::CompareOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

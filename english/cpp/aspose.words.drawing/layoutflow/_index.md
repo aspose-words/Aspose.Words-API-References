@@ -13,26 +13,25 @@ url: /cpp/aspose.words.drawing/layoutflow/
 Determines the flow of the text layout in a textbox.
 
 ```cpp
-enum class LayoutFlow
+enum class LayoutFlow : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Horizontal | 0 | Text is displayed horizontally. |
-| TopToBottomIdeographic | 1 | Ideographic text is displayed vertically. |
 | BottomToTop | 2 | Text is displayed vertically. |
-| TopToBottom | 3 | Text is displayed vertically. |
+| Horizontal | 0 | Text is displayed horizontally. |
 | HorizontalIdeographic | 4 | Ideographic text is displayed horizontally. |
+| TopToBottom | 3 | Text is displayed vertically. |
+| TopToBottomIdeographic | 1 | Ideographic text is displayed vertically. |
 | Vertical | 5 | Text is displayed vertically. |
-
 
 ## Examples
 
 
+Shows how to add text to a text box, and change its orientation
 
-Shows how to add text to a text box, and change its orientation 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,8 +49,9 @@ builder->Write(u"This text is flipped 90 degrees to the left.");
 
 doc->Save(get_ArtifactsDir() + u"Drawing.TextBox.docx");
 ```
-
 ## See Also
+
+* [LayoutFlow](../textbox/get_layoutflow/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

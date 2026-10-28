@@ -16,12 +16,11 @@ Removes all items from the collection.
 void Aspose::Words::Bibliography::PersonCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -46,7 +45,6 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
 * Class [PersonCollection](../)

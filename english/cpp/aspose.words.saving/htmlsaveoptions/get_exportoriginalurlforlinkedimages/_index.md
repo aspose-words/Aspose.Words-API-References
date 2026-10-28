@@ -4,7 +4,7 @@ linktitle: get_ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages method. Specifies whether original URL should be used as the URL of the linked images. Default value is false in C++.'
 type: docs
-weight: 22000
+weight: 49420
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportoriginalurlforlinkedimag
 Specifies whether original URL should be used as the URL of the linked images. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages() const
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImage
 If value is set to **true**[SourceFullName](../../../aspose.words.drawing/imagedata/get_sourcefullname/) value is used as the URL of linked images and linked images are not loaded into document's folder or [ImagesFolder](../get_imagesfolder/).
 
 If value is set to **false** linked images are loaded into document's folder or [ImagesFolder](../get_imagesfolder/) and URL of each linked image is constructed depending on document's folder, [ImagesFolder](../get_imagesfolder/) and [ImagesFolderAlias](../get_imagesfolderalias/) properties.
-
 ## Examples
 
 
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
-Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -46,7 +45,6 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

@@ -21,13 +21,13 @@ Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult(bo
 * Class [ComparisonEvaluationResult](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String\&) constructor
+## ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String \&) constructor
 
 
 Creates a failed comparison evaluation result with the corresponding error message.
 
 ```cpp
-Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String &errorMessage)
+Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String & errorMessage)
 ```
 
 ## See Also

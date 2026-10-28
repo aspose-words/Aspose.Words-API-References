@@ -20,11 +20,11 @@ class PhoneticGuide : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_BaseText](./get_basetext/)() | Gets base text of the phonetic guide. |
 | [get_RubyText](./get_rubytext/)() | Gets ruby text of the phonetic guide. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

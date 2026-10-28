@@ -4,7 +4,7 @@ linktitle: get_ShadeFormData
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_ShadeFormData method. Specifies whether to turn on the gray shading on form fields in C++.'
 type: docs
-weight: 49000
+weight: 141000
 url: /cpp/aspose.words/document/get_shadeformdata/
 ---
 ## Document::get_ShadeFormData method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/document/get_shadeformdata/
 Specifies whether to turn on the gray shading on form fields.
 
 ```cpp
-bool Aspose::Words::Document::get_ShadeFormData()
+_Bool Aspose::Words::Document::get_ShadeFormData()
 ```
-
 
 ## Examples
 
 
+Shows how to apply gray shading to form fields.
 
-Shows how to apply gray shading to form fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +32,6 @@ builder->InsertTextInput(u"My form field", TextFormFieldType::Regular, u"", u"Te
 doc->set_ShadeFormData(useGreyShading);
 doc->Save(get_ArtifactsDir() + u"Document.ShadeFormData.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)

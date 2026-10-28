@@ -4,7 +4,7 @@ linktitle: get_RelativeVerticalPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition method. Specifies relative to what the shape is positioned vertically in C++.'
 type: docs
-weight: 43000
+weight: 61720
 url: /cpp/aspose.words.drawing/shapebase/get_relativeverticalposition/
 ---
 ## ShapeBase::get_RelativeVerticalPosition method
@@ -22,12 +22,11 @@ Aspose::Words::Drawing::RelativeVerticalPosition Aspose::Words::Drawing::ShapeBa
 The default value is [Paragraph](../../relativeverticalposition/).
 
 Has effect only for top level floating shapes.
-
 ## Examples
 
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +42,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-
 ## See Also
 
-* Enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

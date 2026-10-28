@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdata/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Settings::OdsoFieldMapData::GetType() const override
+const System::TypeInfo & Aspose::Words::Settings::OdsoFieldMapData::GetType() const override
 ```
 
 ## See Also

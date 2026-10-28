@@ -4,7 +4,7 @@ linktitle: get_SaveRoutingSlip
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip method. When false, RoutingSlip data is not saved to output document. Default value is true in C++.'
 type: docs
-weight: 7000
+weight: 9875
 url: /cpp/aspose.words.saving/docsaveoptions/get_saveroutingslip/
 ---
 ## DocSaveOptions::get_SaveRoutingSlip method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/docsaveoptions/get_saveroutingslip/
 When **false**, RoutingSlip data is not saved to output document. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
+_Bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
 ```
-
 
 ## Examples
 
 
+Shows how to set save options for older Microsoft Word formats.
 
-Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [DocSaveOptions](../)

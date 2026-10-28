@@ -19,7 +19,7 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_CharactersWithSpa
 ## Remarks
 
 
-Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/). 
+Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/).
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

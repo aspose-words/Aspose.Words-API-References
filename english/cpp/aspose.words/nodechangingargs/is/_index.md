@@ -13,7 +13,7 @@ url: /cpp/aspose.words/nodechangingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::NodeChangingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::NodeChangingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

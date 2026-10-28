@@ -4,7 +4,7 @@ linktitle: get_Bottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Bottom method. Gets the position of the bottom edge of the containing block of the shape in C++.'
 type: docs
-weight: 8000
+weight: 61105
 url: /cpp/aspose.words.drawing/shapebase/get_bottom/
 ---
 ## ShapeBase::get_Bottom method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::ShapeBase::get_Bottom()
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
-
 ## Examples
 
 
+Shows how to insert a floating image, and specify its position and size.
 
-Shows how to insert a floating image, and specify its position and size. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

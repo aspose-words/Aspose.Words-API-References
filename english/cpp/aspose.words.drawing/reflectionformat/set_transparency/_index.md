@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ReflectionFormat::set_Transparency method
 linktitle: set_Transparency
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ReflectionFormat::set_Transparency method. Setter for Aspose::Words::Drawing::ReflectionFormat::get_Transparency in C++.'
+description: 'Aspose::Words::Drawing::ReflectionFormat::set_Transparency method. Sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect. The default value is 0.0 in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.drawing/reflectionformat/set_transparency/
@@ -10,12 +10,45 @@ url: /cpp/aspose.words.drawing/reflectionformat/set_transparency/
 ## ReflectionFormat::set_Transparency method
 
 
-Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Transparency](../get_transparency/).
+Sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect. The default value is 0.0.
 
 ```cpp
 void Aspose::Words::Drawing::ReflectionFormat::set_Transparency(double value)
 ```
 
+## Examples
+
+
+Shows how to interact with reflection shape effect.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+
+shape->get_Reflection()->set_Transparency(0.37);
+shape->get_Reflection()->set_Size(0.48);
+shape->get_Reflection()->set_Blur(17.5);
+shape->get_Reflection()->set_Distance(9.2);
+
+doc->Save(get_ArtifactsDir() + u"Shape.Reflection.docx");
+
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Reflection.docx"));
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+
+System::SharedPtr<Aspose::Words::Drawing::ReflectionFormat> reflectionFormat = shape->get_Reflection();
+
+ASSERT_NEAR(0.37, reflectionFormat->get_Transparency(), 0.01);
+ASSERT_NEAR(0.48, reflectionFormat->get_Size(), 0.01);
+ASSERT_NEAR(17.5, reflectionFormat->get_Blur(), 0.01);
+ASSERT_NEAR(9.2, reflectionFormat->get_Distance(), 0.01);
+
+reflectionFormat->Remove();
+
+ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Transparency());
+ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
+ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
+ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
+```
 ## See Also
 
 * Class [ReflectionFormat](../)

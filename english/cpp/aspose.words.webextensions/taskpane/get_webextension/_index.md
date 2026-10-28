@@ -4,7 +4,7 @@ linktitle: get_WebExtension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_WebExtension method. Represents an web extension object in C++.'
 type: docs
-weight: 7000
+weight: 10778
 url: /cpp/aspose.words.webextensions/taskpane/get_webextension/
 ---
 ## TaskPane::get_WebExtension method
@@ -16,12 +16,11 @@ Represents an web extension object.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtension> Aspose::Words::WebExtensions::TaskPane::get_WebExtension() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,10 +85,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Class [WebExtension](../../webextension/)
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.math/officemath/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Math::OfficeMath::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Math::OfficeMath::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

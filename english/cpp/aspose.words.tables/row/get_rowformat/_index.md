@@ -4,7 +4,7 @@ linktitle: get_RowFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_RowFormat method. Provides access to the formatting properties of the row in C++.'
 type: docs
-weight: 12000
+weight: 15929
 url: /cpp/aspose.words.tables/row/get_rowformat/
 ---
 ## Row::get_RowFormat method
@@ -16,12 +16,11 @@ Provides access to the formatting properties of the row.
 System::SharedPtr<Aspose::Words::Tables::RowFormat> Aspose::Words::Tables::Row::get_RowFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to modify the format of rows and cells in a table.
 
-Shows how to modify the format of rows and cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,8 +51,8 @@ cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::ge
 doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
 
+Shows how to modify formatting of a table row.
 
-Shows how to modify formatting of a table row. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -66,10 +65,8 @@ firstRow->get_RowFormat()->set_AllowBreakAcrossPages(true);
 
 doc->Save(get_ArtifactsDir() + u"Table.RowFormat.docx");
 ```
-
 ## See Also
 
-* Class [RowFormat](../../rowformat/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

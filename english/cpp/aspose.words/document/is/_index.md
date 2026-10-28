@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Document::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Document::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

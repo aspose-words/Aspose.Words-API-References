@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/hasdmleffect/
 Checks if particular DrawingML text effect is applied.
 
 ```cpp
-bool Aspose::Words::Font::HasDmlEffect(Aspose::Words::TextDmlEffect dmlEffectType)
+_Bool Aspose::Words::Font::HasDmlEffect(Aspose::Words::TextDmlEffect dmlEffectType)
 ```
 
 
@@ -24,12 +24,11 @@ bool Aspose::Words::Font::HasDmlEffect(Aspose::Words::TextDmlEffect dmlEffectTyp
 ### ReturnValue
 
 **true** if particular DrawingML text effect is applied.
-
 ## Examples
 
 
+Shows how to check if a run displays a DrawingML text effect.
 
-Shows how to check if a run displays a DrawingML text effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DrawingML text effects.docx"));
 
@@ -41,10 +40,8 @@ ASSERT_TRUE(runs->idx_get(2)->get_Font()->HasDmlEffect(TextDmlEffect::Reflection
 ASSERT_TRUE(runs->idx_get(3)->get_Font()->HasDmlEffect(TextDmlEffect::Effect3D));
 ASSERT_TRUE(runs->idx_get(4)->get_Font()->HasDmlEffect(TextDmlEffect::Fill));
 ```
-
 ## See Also
 
-* Enum [TextDmlEffect](../../textdmleffect/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

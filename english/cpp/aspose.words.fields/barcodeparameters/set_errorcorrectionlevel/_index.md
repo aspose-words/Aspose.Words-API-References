@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/set_errorcorrectionlevel/
 Error correction level of QR Code. Valid values are [0, 3].
 
 ```cpp
-void Aspose::Words::Fields::BarcodeParameters::set_ErrorCorrectionLevel(const System::String &value)
+void Aspose::Words::Fields::BarcodeParameters::set_ErrorCorrectionLevel(const System::String & value)
 ```
 
 ## See Also

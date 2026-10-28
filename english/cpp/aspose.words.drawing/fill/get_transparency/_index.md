@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Transparency method. Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear) in C++.'
 type: docs
-weight: 21000
+weight: 65000
 url: /cpp/aspose.words.drawing/fill/get_transparency/
 ---
 ## Fill::get_Transparency method
@@ -16,12 +16,14 @@ Gets or sets the degree of transparency of the specified fill as a value between
 double Aspose::Words::Drawing::Fill::get_Transparency()
 ```
 
+## Remarks
 
+This property is the opposite of property [Opacity](../get_opacity/).
 ## Examples
 
 
+Shows how to convert any of the fills back to solid fill.
 
-Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -42,7 +44,6 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)

@@ -4,7 +4,7 @@ linktitle: get_JoinStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_JoinStyle method. Defines the join style of a polyline in C++.'
 type: docs
-weight: 12000
+weight: 23648
 url: /cpp/aspose.words.drawing/stroke/get_joinstyle/
 ---
 ## Stroke::get_JoinStyle method
@@ -20,12 +20,11 @@ Aspose::Words::Drawing::JoinStyle Aspose::Words::Drawing::Stroke::get_JoinStyle(
 
 
 The default value is [Round](../../joinstyle/).
-
 ## Examples
 
 
+Shows how change stroke properties.
 
-Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-
 ## See Also
 
-* Enum [JoinStyle](../../joinstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_InternalMarginLeft
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextBox::get_InternalMarginLeft method. Specifies the inner left margin in points for a shape in C++.'
 type: docs
-weight: 5000
+weight: 17288
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginleft/
 ---
 ## TextBox::get_InternalMarginLeft method
@@ -20,12 +20,11 @@ double Aspose::Words::Drawing::TextBox::get_InternalMarginLeft()
 
 
 The default value is 1/10 inch.
-
 ## Examples
 
 
+Shows how to set internal margins for a text box.
 
-Shows how to set internal margins for a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ builder->Write(u"Text placed according to textbox margins.");
 
 doc->Save(get_ArtifactsDir() + u"Shape.TextBoxMargins.docx");
 ```
-
 ## See Also
 
 * Class [TextBox](../)

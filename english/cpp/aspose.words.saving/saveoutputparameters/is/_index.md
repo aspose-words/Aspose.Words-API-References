@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoutputparameters/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::SaveOutputParameters::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::SaveOutputParameters::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

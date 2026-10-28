@@ -4,7 +4,7 @@ linktitle: get_UnderlineColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_UnderlineColor method. Gets or sets the color of the underline applied to the font in C++.'
 type: docs
-weight: 56000
+weight: 59983
 url: /cpp/aspose.words/font/get_underlinecolor/
 ---
 ## Font::get_UnderlineColor method
@@ -16,12 +16,11 @@ Gets or sets the color of the underline applied to the font.
 System::Drawing::Color Aspose::Words::Font::get_UnderlineColor()
 ```
 
-
 ## Examples
 
 
+Shows how to configure the style and color of a text underline.
 
-Shows how to configure the style and color of a text underline. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +32,6 @@ builder->Writeln(u"Underlined text.");
 
 doc->Save(get_ArtifactsDir() + u"Font.Underlines.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

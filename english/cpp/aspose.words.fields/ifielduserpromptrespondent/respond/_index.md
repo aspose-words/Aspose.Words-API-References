@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielduserpromptrespondent/respond/
 When implemented, returns a response from the user on prompting. Your implementation should return **null** to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window).
 
 ```cpp
-virtual System::String Aspose::Words::Fields::IFieldUserPromptRespondent::Respond(System::String promptText, System::String defaultResponse)=0
+virtual System::String Aspose::Words::Fields::IFieldUserPromptRespondent::Respond(System::String promptText, System::String defaultResponse)
 ```
 
 
@@ -25,7 +25,6 @@ virtual System::String Aspose::Words::Fields::IFieldUserPromptRespondent::Respon
 ### ReturnValue
 
 User response (i.e. confirmed value contained in the prompt window).
-
 ## See Also
 
 * Interface [IFieldUserPromptRespondent](../)

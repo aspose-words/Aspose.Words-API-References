@@ -13,15 +13,14 @@ url: /cpp/aspose.words/fileformatutil/contenttypetoloadformat/
 Converts IANA content type into a load format enumerated value.
 
 ```cpp
-static Aspose::Words::LoadFormat Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat(const System::String &contentType)
+static Aspose::Words::LoadFormat Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat(const System::String & contentType)
 ```
-
 
 ## Examples
 
 
+Shows how to find the corresponding Aspose load/save format from each media type string.
 
-Shows how to find the corresponding **Aspose** load/save format from each media type string. 
 ```cpp
 // The ContentTypeToSaveFormat/ContentTypeToLoadFormat methods only accept official IANA media type names, also known as MIME types.
 // All valid media types are listed here: https://www.iana.org/assignments/media-types/media-types.xhtml.
@@ -73,10 +72,12 @@ ASSERT_EQ(SaveFormat::Html, FileFormatUtil::ContentTypeToSaveFormat(u"text/html"
 ASSERT_EQ(LoadFormat::Mhtml, FileFormatUtil::ContentTypeToLoadFormat(u"multipart/related"));
 ASSERT_EQ(SaveFormat::Mhtml, FileFormatUtil::ContentTypeToSaveFormat(u"multipart/related"));
 ```
+## Exceptions
+
+* **ArgumentException** - Throws when cannot convert.
 
 ## See Also
 
-* Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

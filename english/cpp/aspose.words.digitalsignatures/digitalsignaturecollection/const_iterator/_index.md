@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/const_iterat
 
 
 ```cpp
-using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::const_iterator =  typename iterator_holder_type::const_iterator
+using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::const_iterator = typename iterator_holder_type::const_iterator
 ```
 
 ## See Also

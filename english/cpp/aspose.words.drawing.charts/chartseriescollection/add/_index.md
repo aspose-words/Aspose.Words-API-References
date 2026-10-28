@@ -2,128 +2,43 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method
 linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method. Adds new ChartSeries to this collection. Use this method to add series to Histogram charts in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add method. Adds new ChartSeries to this collection. Use this method to add series to any type of Area, Radar and Stock charts in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&) method
-
-
-Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to Histogram charts.
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<double> &xValues)
-```
-
-
-### ReturnValue
-
-Recently added [ChartSeries](../../chartseries/) object.
-
-## Examples
-
-
-
-Shows how to create histogram chart. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-// Insert a Histogram chart.
-System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Histogram, static_cast<double>(450), static_cast<double>(450));
-System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
-chart->get_Title()->set_Text(u"Avg Temperature since 1991");
-
-// Delete default generated series.
-chart->get_Series()->Clear();
-
-// Add a series.
-chart->get_Series()->Add(u"Avg Temperature", System::MakeArray<double>({51.8, 53.6, 50.3, 54.7, 53.9, 54.3, 53.4, 52.9, 53.3, 53.7, 53.8, 52.0, 55.0, 52.1, 53.4, 53.8, 53.8, 51.9, 52.1, 52.7, 51.8, 56.6, 53.3, 55.6, 56.3, 56.2, 56.1, 56.2, 53.6, 55.7, 56.3, 55.9, 55.6}));
-
-doc->Save(get_ArtifactsDir() + u"Charts.Histogram.docx");
-```
-
-## See Also
-
-* Class [ChartSeries](../../chartseries/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
-
-
-Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Scatter charts.
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<double> &xValues, const System::ArrayPtr<double> &yValues)
-```
-
-
-### ReturnValue
-
-Recently added [ChartSeries](../../chartseries/) object.
-
-## See Also
-
-* Class [ChartSeries](../../chartseries/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<double\>\&) method
-
-
-Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Bubble charts.
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<double> &xValues, const System::ArrayPtr<double> &yValues, const System::ArrayPtr<double> &bubbleSizes)
-```
-
-
-### ReturnValue
-
-Recently added [ChartSeries](../../chartseries/) object.
-
-## See Also
-
-* Class [ChartSeries](../../chartseries/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::DateTime\>\&, const System::ArrayPtr\<double\>\&) method
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::DateTime\> \&, const System::ArrayPtr\<double\> \&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::DateTime> &dates, const System::ArrayPtr<double> &values)
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::DateTime> & dates, const System::ArrayPtr<double> & values)
 ```
 
 ## See Also
 
-* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\>\&, const System::ArrayPtr\<double\>\&) method
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\> \&, const System::ArrayPtr\<double\> \&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series that have multi-level data categories.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>> &categories, const System::ArrayPtr<double> &values)
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>> & categories, const System::ArrayPtr<double> & values)
 ```
 
 
 ### ReturnValue
 
 Recently added [ChartSeries](../../chartseries/) object.
-
 ## Examples
 
 
+Shows how to create treemap chart.
 
-Shows how to create treemap chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -149,8 +64,8 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
 ```
 
+Shows how to create sunburst chart.
 
-Shows how to create sunburst chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -173,33 +88,29 @@ series->get_DataLabels()->set_ShowCategoryName(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.Sunburst.docx");
 ```
-
 ## See Also
 
-* Class [ChartSeries](../../chartseries/)
-* Class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&) method
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<double\> \&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::String> &categories, const System::ArrayPtr<double> &values)
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::String> & categories, const System::ArrayPtr<double> & values)
 ```
 
 
 ### ReturnValue
 
 Recently added [ChartSeries](../../chartseries/) object.
-
 ## Examples
 
 
+Shows how to create pareto chart.
 
-Shows how to create pareto chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -218,8 +129,8 @@ chart->get_Series()->Add(u"Best-Selling Car", System::MakeArray<System::String>(
 doc->Save(get_ArtifactsDir() + u"Charts.Pareto.docx");
 ```
 
+Shows how to create box and whisker chart.
 
-Shows how to create box and whisker chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -241,8 +152,8 @@ series->set_HasDataLabels(true);
 doc->Save(get_ArtifactsDir() + u"Charts.BoxAndWhisker.docx");
 ```
 
+Shows how to create funnel chart.
 
-Shows how to create funnel chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -265,25 +176,101 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 
 doc->Save(get_ArtifactsDir() + u"Charts.Funnel.docx");
 ```
-
 ## See Also
 
-* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String\&, const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<double\>\&, const System::ArrayPtr\<bool\>\&) method
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<_Bool\> \&) method
 
 
 
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::String> &categories, const System::ArrayPtr<double> &values, const System::ArrayPtr<bool> &isSubtotal)
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::String> & categories, const System::ArrayPtr<double> & values, const System::ArrayPtr<_Bool> & isSubtotal)
 ```
 
 ## See Also
 
-* Class [ChartSeries](../../chartseries/)
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<double\> \&) method
+
+
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to Histogram charts.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<double> & xValues)
+```
+
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
+## Remarks
+
+ For chart types other than Histogram, this method adds a series with empty Y values. 
+## Examples
+
+
+Shows how to create histogram chart.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Histogram chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Histogram, static_cast<double>(450), static_cast<double>(450));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Avg Temperature since 1991");
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+// Add a series.
+chart->get_Series()->Add(u"Avg Temperature", System::MakeArray<double>({51.8, 53.6, 50.3, 54.7, 53.9, 54.3, 53.4, 52.9, 53.3, 53.7, 53.8, 52.0, 55.0, 52.1, 53.4, 53.8, 53.8, 51.9, 52.1, 52.7, 51.8, 56.6, 53.3, 55.6, 56.3, 56.2, 56.1, 56.2, 53.6, 55.7, 56.3, 55.9, 55.6}));
+
+doc->Save(get_ArtifactsDir() + u"Charts.Histogram.docx");
+```
+## See Also
+
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<double\> \&) method
+
+
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Scatter charts.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<double> & xValues, const System::ArrayPtr<double> & yValues)
+```
+
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
+## See Also
+
+* Class [ChartSeriesCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<double\> \&) method
+
+
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to any type of Bubble charts.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<double> & xValues, const System::ArrayPtr<double> & yValues, const System::ArrayPtr<double> & bubbleSizes)
+```
+
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
+## See Also
+
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

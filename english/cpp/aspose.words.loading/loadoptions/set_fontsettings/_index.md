@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::LoadOptions::set_FontSettings method
 linktitle: set_FontSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::LoadOptions::set_FontSettings method. Setter for Aspose::Words::Loading::LoadOptions::get_FontSettings in C++.'
+description: 'Aspose::Words::Loading::LoadOptions::set_FontSettings method. Allows to specify document font settings in C++.'
 type: docs
 weight: 25000
 url: /cpp/aspose.words.loading/loadoptions/set_fontsettings/
@@ -10,15 +10,65 @@ url: /cpp/aspose.words.loading/loadoptions/set_fontsettings/
 ## LoadOptions::set_FontSettings method
 
 
-Setter for [Aspose::Words::Loading::LoadOptions::get_FontSettings](../get_fontsettings/).
+Allows to specify document font settings.
 
 ```cpp
-void Aspose::Words::Loading::LoadOptions::set_FontSettings(const System::SharedPtr<Aspose::Words::Fonts::FontSettings> &value)
+void Aspose::Words::Loading::LoadOptions::set_FontSettings(const System::SharedPtr<Aspose::Words::Fonts::FontSettings> & value)
 ```
 
+## Remarks
+
+
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
+
+If set to **null**, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
+
+The default value is **null**.
+## Examples
+
+
+Shows how to designate font substitutes during loading.
+
+```cpp
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
+loadOptions->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
+
+// Set a font substitution rule for a LoadOptions object.
+// If the document we are loading uses a font which we do not have,
+// this rule will substitute the unavailable font with one that does exist.
+// In this case, all uses of the "MissingFont" will convert to "Comic Sans MS".
+System::SharedPtr<Aspose::Words::Fonts::TableSubstitutionRule> substitutionRule = loadOptions->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution();
+substitutionRule->AddSubstitutes(u"MissingFont", System::MakeArray<System::String>({u"Comic Sans MS"}));
+
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing font.html", loadOptions);
+
+// At this point such text will still be in "MissingFont".
+// Font substitution will take place when we render the document.
+ASSERT_EQ(u"MissingFont", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
+
+doc->Save(get_ArtifactsDir() + u"FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+```
+
+Shows how to apply font substitution settings while loading a document.
+
+```cpp
+// Create a FontSettings object that will substitute the "Times New Roman" font
+// with the font "Arvo" from our "MyFonts" folder.
+auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
+fontSettings->SetFontsFolder(get_FontsDir(), false);
+fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->AddSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"Arvo"}));
+
+// Set that FontSettings object as a property of a newly created LoadOptions object.
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
+loadOptions->set_FontSettings(fontSettings);
+
+// Load the document, then render it as a PDF with the font substitution.
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", loadOptions);
+
+doc->Save(get_ArtifactsDir() + u"LoadOptions.FontSettings.pdf");
+```
 ## See Also
 
-* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

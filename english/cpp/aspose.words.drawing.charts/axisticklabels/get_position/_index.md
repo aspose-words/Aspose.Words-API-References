@@ -4,7 +4,7 @@ linktitle: get_Position
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Position method. Gets or sets the position of the tick labels on the axis in C++.'
 type: docs
-weight: 7000
+weight: 11700
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_position/
 ---
 ## AxisTickLabels::get_Position method
@@ -16,12 +16,14 @@ Gets or sets the position of the tick labels on the axis.
 Aspose::Words::Drawing::Charts::AxisTickLabelPosition Aspose::Words::Drawing::Charts::AxisTickLabels::get_Position()
 ```
 
+## Remarks
 
+ The property is not supported by MS Office 2016 new charts. 
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +35,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -71,10 +73,8 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
-* Enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

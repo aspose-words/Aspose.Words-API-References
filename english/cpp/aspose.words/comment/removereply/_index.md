@@ -13,19 +13,21 @@ url: /cpp/aspose.words/comment/removereply/
 Removes the specified reply to this comment.
 
 ```cpp
-void Aspose::Words::Comment::RemoveReply(const System::SharedPtr<Aspose::Words::Comment> &reply)
+void Aspose::Words::Comment::RemoveReply(const System::SharedPtr<Aspose::Words::Comment> & reply)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reply | const System::SharedPtr\<Aspose::Words::Comment\>\& | The comment node of the deleting reply. |
+| reply | const System::SharedPtr\<Aspose::Words::Comment\> \& | The comment node of the deleting reply. |
+## Remarks
 
+All constituent nodes of the reply will be deleted from the document.
 ## Examples
 
 
+Shows how to remove comment replies.
 
-Shows how to remove comment replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -50,10 +52,8 @@ comment->RemoveAllReplies();
 
 ASSERT_EQ(0, comment->get_Replies()->get_Count());
 ```
-
 ## See Also
 
-* Class [Comment](../)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

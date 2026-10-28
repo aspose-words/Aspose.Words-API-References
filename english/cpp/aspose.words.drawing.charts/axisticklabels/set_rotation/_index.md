@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::AxisTickLabels::set_Rotation method
 linktitle: set_Rotation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::set_Rotation method. Setter for Aspose::Words::Drawing::Charts::AxisTickLabels::get_Rotation in C++.'
+description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::set_Rotation method. Sets the rotation of the tick labels in degrees in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/set_rotation/
@@ -10,12 +10,37 @@ url: /cpp/aspose.words.drawing.charts/axisticklabels/set_rotation/
 ## AxisTickLabels::set_Rotation method
 
 
-Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Rotation](../get_rotation/).
+Sets the rotation of the tick labels in degrees.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::AxisTickLabels::set_Rotation(int32_t value)
 ```
 
+## Remarks
+
+ The range of acceptable values is from -180 to 180 inclusive. The default value is 0. 
+## Examples
+
+
+Shows how to change orientation and rotation for axis tick labels.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a column chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
+System::SharedPtr<Aspose::Words::Drawing::Charts::AxisTickLabels> xTickLabels = shape->get_Chart()->get_AxisX()->get_TickLabels();
+System::SharedPtr<Aspose::Words::Drawing::Charts::AxisTickLabels> yTickLabels = shape->get_Chart()->get_AxisY()->get_TickLabels();
+
+// Set axis tick label orientation and rotation.
+xTickLabels->set_Orientation(ShapeTextOrientation::VerticalFarEast);
+xTickLabels->set_Rotation(-30);
+yTickLabels->set_Orientation(ShapeTextOrientation::Horizontal);
+yTickLabels->set_Rotation(45);
+
+doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");
+```
 ## See Also
 
 * Class [AxisTickLabels](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.framesets/framesetcollection/virtualized_iterator/
 
 
 ```cpp
-using Aspose::Words::Framesets::FramesetCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::Framesets::FramesetCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

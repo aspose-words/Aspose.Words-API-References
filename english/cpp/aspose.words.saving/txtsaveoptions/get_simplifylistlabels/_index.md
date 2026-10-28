@@ -2,26 +2,27 @@
 title: Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels method
 linktitle: get_SimplifyListLabels
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels method. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. If set to true, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is false in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels method. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.If set to true, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is false in C++.'
 type: docs
-weight: 8000
+weight: 10900
 url: /cpp/aspose.words.saving/txtsaveoptions/get_simplifylistlabels/
 ---
 ## TxtSaveOptions::get_SimplifyListLabels method
 
 
-Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**.
+Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
+
+If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
+_Bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
 ```
-
 
 ## Examples
 
 
+Shows how to change the appearance of lists when saving a document to plaintext.
 
-Shows how to change the appearance of lists when saving a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +62,6 @@ else
     ASSERT_EQ(System::String::Format(u"· Item 1{0}", newLine) + System::String::Format(u"o Item 2{0}", newLine) + System::String::Format(u"§ Item 3{0}", newLine) + System::String::Format(u"· Item 4{0}", newLine) + System::String::Format(u"o Item 5{0}", newLine), docText);
 }
 ```
-
 ## See Also
 
 * Class [TxtSaveOptions](../)

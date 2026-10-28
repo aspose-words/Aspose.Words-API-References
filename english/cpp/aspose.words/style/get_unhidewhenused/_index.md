@@ -4,7 +4,7 @@ linktitle: get_UnhideWhenUsed
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_UnhideWhenUsed method. Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery in C++.'
 type: docs
-weight: 19500
+weight: 22957
 url: /cpp/aspose.words/style/get_unhidewhenused/
 ---
 ## Style::get_UnhideWhenUsed method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/style/get_unhidewhenused/
 Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
 
 ```cpp
-bool Aspose::Words::Style::get_UnhideWhenUsed() const
+_Bool Aspose::Words::Style::get_UnhideWhenUsed() const
 ```
-
 
 ## Examples
 
 
+Shows how to prioritize and hide a style.
 
-Shows how to prioritize and hide a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Style> styleTitle = doc->get_Styles()->idx_get(StyleIdentifier::Subtitle);
@@ -43,7 +42,6 @@ if (styleTitle->get_SemiHidden())
 
 doc->Save(get_ArtifactsDir() + u"Styles.StylePriority.docx");
 ```
-
 ## See Also
 
 * Class [Style](../)

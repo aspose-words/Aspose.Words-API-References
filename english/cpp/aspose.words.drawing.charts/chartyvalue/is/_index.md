@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartyvalue/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::ChartYValue::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::ChartYValue::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

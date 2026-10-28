@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Properties::DocumentProperty>>> Aspose::Words::Properties::DocumentPropertyCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -76,10 +75,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Class [DocumentProperty](../../documentproperty/)
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Adjustment::get_Value method. Gets or sets the raw value of the adjustment in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.drawing/adjustment/get_value/
 ---
 ## Adjustment::get_Value method
@@ -16,12 +16,14 @@ Gets or sets the raw value of the adjustment.
 int32_t Aspose::Words::Drawing::Adjustment::get_Value() const
 ```
 
+## Remarks
 
+ An adjust value is simply a guide that has a value based formula specified. That is, no calculation takes place for an adjust value guide. Instead, this guide specifies a parameter value that is used for calculations within the shape guides. 
 ## Examples
 
 
+Shows how to work with adjustment raw values.
 
-Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -37,7 +39,6 @@ adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
-
 ## See Also
 
 * Class [Adjustment](../)

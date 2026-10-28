@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageverticalalignment/
 Specifies vertical justification of text on each page.
 
 ```cpp
-enum class PageVerticalAlignment
+enum class PageVerticalAlignment : int
 ```
 
 ### Values
@@ -25,12 +25,11 @@ enum class PageVerticalAlignment
 | Justify | 2 | Text is spread to fill the page. |
 | Top | 0 | Text is aligned at the top of the page. |
 
-
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,8 +56,10 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
+
+* [PageSetup](../pagesetup/)
+* [VerticalAlignment](../pagesetup/get_verticalalignment/)
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

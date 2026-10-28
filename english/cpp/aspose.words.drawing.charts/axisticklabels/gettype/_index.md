@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisticklabels/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::AxisTickLabels::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::Charts::AxisTickLabels::GetType() const override
 ```
 
 ## See Also

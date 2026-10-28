@@ -2,7 +2,7 @@
 title: Aspose::Words::Style class
 linktitle: Style
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Style class. Represents a single built-in or user-defined style. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Style class. Represents a single built-in or user-defined style. To learn more, visit the Working with Styles and Themes documentation article in C++.'
 type: docs
 weight: 64000
 url: /cpp/aspose.words/style/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/style/
 ## Style class
 
 
-Represents a single built-in or user-defined style. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
+Represents a single built-in or user-defined style. 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class Style : public IParaAttrSource,
@@ -21,7 +22,11 @@ class Style : public IParaAttrSource,
 
 | Method | Description |
 | --- | --- |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)() | Removes the specified style from the document. |
+| static [Type](./type/)() |  |
 | [get_Aliases](./get_aliases/)() | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
 | [get_AutomaticallyUpdate](./get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](./get_basestylename/)() | Gets/sets the name of the style this style is based on. |
@@ -29,7 +34,7 @@ class Style : public IParaAttrSource,
 | [get_Document](./get_document/)() | Gets the owner document. |
 | [get_Font](./get_font/)() | Gets the character formatting of the style. |
 | [get_IsHeading](./get_isheading/)() | True when the style is one of the built-in Heading styles. |
-| [get_IsQuickStyle](./get_isquickstyle/)() const | Specifies whether this style is shown in the Quick [Style](./) gallery inside MS Word UI. |
+| [get_IsQuickStyle](./get_isquickstyle/)() const | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [get_LinkedStyleName](./get_linkedstylename/)() | Gets/sets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [get_List](./get_list/)() | Gets the list that defines formatting of this list style. |
 | [get_ListFormat](./get_listformat/)() | Provides access to the list formatting properties of a paragraph style. |
@@ -43,26 +48,21 @@ class Style : public IParaAttrSource,
 | [get_Styles](./get_styles/)() const | Gets the collection of styles this style belongs to. |
 | [get_Type](./get_type/)() const | Gets the style type (paragraph or character). |
 | [get_UnhideWhenUsed](./get_unhidewhenused/)() const | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)() | Removes the specified style from the document. |
-| [set_AutomaticallyUpdate](./set_automaticallyupdate/)(bool) | Setter for [Aspose::Words::Style::get_AutomaticallyUpdate](./get_automaticallyupdate/). |
-| [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
-| [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
-| [set_LinkedStyleName](./set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](./get_linkedstylename/). |
-| [set_Locked](./set_locked/)(bool) | Setter for [Aspose::Words::Style::get_Locked](./get_locked/). |
-| [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
-| [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
-| [set_Priority](./set_priority/)(int32_t) | Setter for [Aspose::Words::Style::get_Priority](./get_priority/). |
-| [set_SemiHidden](./set_semihidden/)(bool) | Setter for [Aspose::Words::Style::get_SemiHidden](./get_semihidden/). |
-| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) | Setter for [Aspose::Words::Style::get_UnhideWhenUsed](./get_unhidewhenused/). |
-| static [Type](./type/)() |  |
-
+| [set_AutomaticallyUpdate](./set_automaticallyupdate/)(bool) | Specifies whether this style is automatically redefined based on the appropriate value. |
+| [set_BaseStyleName](./set_basestylename/)(const System::String \&) | Gets/sets the name of the style this style is based on. |
+| [set_IsQuickStyle](./set_isquickstyle/)(bool) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
+| [set_LinkedStyleName](./set_linkedstylename/)(const System::String \&) | Gets/sets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
+| [set_Locked](./set_locked/)(bool) | Specifies whether this style is locked. |
+| [set_Name](./set_name/)(const System::String \&) | Sets the name of the style. |
+| [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String \&) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
+| [set_Priority](./set_priority/)(int32_t) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [set_SemiHidden](./set_semihidden/)(bool) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
+| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
 ## Examples
 
 
+Shows how to create and apply a custom style.
 
-Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -98,8 +98,8 @@ ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -124,7 +124,6 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

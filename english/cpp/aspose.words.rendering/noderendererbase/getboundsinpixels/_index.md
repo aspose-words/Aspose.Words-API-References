@@ -29,12 +29,11 @@ The actual (as rendered on the page) bounding box of the shape in pixels.
 
 
 This method converts [BoundsInPoints](../get_boundsinpoints/) into rectangle in pixels.
-
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -75,7 +74,6 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
 * Class [NodeRendererBase](../)
@@ -104,12 +102,11 @@ The actual (as rendered on the page) bounding box of the shape in pixels.
 
 
 This method converts [BoundsInPoints](../get_boundsinpoints/) into rectangle in pixels.
-
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -150,7 +147,6 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
 * Class [NodeRendererBase](../)

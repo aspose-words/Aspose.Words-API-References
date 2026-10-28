@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldgreetingline/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldGreetingLine::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldGreetingLine::GetType() const override
 ```
 
 ## See Also

@@ -13,23 +13,22 @@ url: /cpp/aspose.words/fileformatutil/extensiontosaveformat/
 Converts a file name extension into a [SaveFormat](../../saveformat/) value.
 
 ```cpp
-static Aspose::Words::SaveFormat Aspose::Words::FileFormatUtil::ExtensionToSaveFormat(const System::String &extension)
+static Aspose::Words::SaveFormat Aspose::Words::FileFormatUtil::ExtensionToSaveFormat(const System::String & extension)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | const System::String\& | The file extension. Can be with or without a leading dot. Case-insensitive. |
+| extension | const System::String \& | The file extension. Can be with or without a leading dot. Case-insensitive. |
 ## Remarks
 
 
 If the extension cannot be recognized, returns [Unknown](../../saveformat/).
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -55,10 +54,12 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
+## Exceptions
+
+* **ArgumentNullException** - Throws if the parameter is **null**.
 
 ## See Also
 
-* Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontpitch/
 Represents the font pitch.
 
 ```cpp
-enum class FontPitch
+enum class FontPitch : int
 ```
 
 ### Values
@@ -24,12 +24,14 @@ enum class FontPitch
 | Fixed | 1 | Specifies that this is a fixed width font. |
 | Variable | 2 | Specifies that this is a proportional width font. |
 
+## Remarks
 
+The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 ## Examples
 
 
+Shows how to access and print details of each font in a document.
 
-Shows how to access and print details of each font in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -61,7 +63,6 @@ while (fontCollectionEnumerator->MoveNext())
     }
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

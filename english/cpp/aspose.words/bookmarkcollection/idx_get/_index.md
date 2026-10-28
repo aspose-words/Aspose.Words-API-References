@@ -4,30 +4,28 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BookmarkCollection::idx_get method. Returns a bookmark by name in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words/bookmarkcollection/idx_get/
 ---
-## BookmarkCollection::idx_get(const System::String\&) method
+## BookmarkCollection::idx_get(const System::String \&) method
 
 
 Returns a bookmark by name.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Bookmark> Aspose::Words::BookmarkCollection::idx_get(const System::String &bookmarkName)
+System::SharedPtr<Aspose::Words::Bookmark> Aspose::Words::BookmarkCollection::idx_get(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | Case-insensitive name of the bookmark. |
+| bookmarkName | const System::String \& | Case-insensitive name of the bookmark. |
 ## Remarks
 
 
 Returns **null** if the bookmark with the specified name cannot be found.
-
 ## See Also
 
-* Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -54,10 +52,8 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## See Also
 
-* Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

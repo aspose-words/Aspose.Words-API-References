@@ -4,7 +4,7 @@ linktitle: get_GenerateFormFieldScripts
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts method. Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is false in C++.'
 type: docs
-weight: 18500
+weight: 36500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_generateformfieldscripts/
 ---
 ## PdfSaveOptions::get_GenerateFormFieldScripts method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_generateformfieldscripts/
 Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts() const
+_Bool Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts() const
 ```
 
 ## Remarks
@@ -25,7 +25,7 @@ When set to **true**, supported behavior will be exported as PDF JavaScript acti
 
 Script execution depends on the PDF viewer. Some PDF viewers might ignore scripts, restrict script execution, or require the user to enable JavaScript.
 
-JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case. 
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case.
 ## See Also
 
 * Class [PdfSaveOptions](../)

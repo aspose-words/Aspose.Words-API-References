@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/pagelayoutcallbackargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Layout::PageLayoutCallbackArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Layout::PageLayoutCallbackArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

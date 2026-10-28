@@ -4,24 +4,23 @@ linktitle: get_ThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_ThemeColor method. Gets or sets the theme color in the applied color scheme that is associated with this Border object in C++.'
 type: docs
-weight: 10000
+weight: 14800
 url: /cpp/aspose.words/border/get_themecolor/
 ---
 ## Border::get_ThemeColor method
 
 
-Gets or sets the theme color in the applied color scheme that is associated with this [Border](../) object.
+Gets or sets the theme color in the applied color scheme that is associated with this Border object.
 
 ```cpp
 Aspose::Words::Themes::ThemeColor Aspose::Words::Border::get_ThemeColor()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a paragraph with a top border.
 
-Shows how to insert a paragraph with a top border. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,10 +36,8 @@ builder->Writeln(u"Text with a top border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
-
 ## See Also
 
-* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

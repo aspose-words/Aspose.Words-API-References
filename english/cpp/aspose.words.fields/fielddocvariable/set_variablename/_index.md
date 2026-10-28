@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDocVariable::set_VariableName method
 linktitle: set_VariableName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDocVariable::set_VariableName method. Setter for Aspose::Words::Fields::FieldDocVariable::get_VariableName in C++.'
+description: 'Aspose::Words::Fields::FieldDocVariable::set_VariableName method. Sets the name of the document variable to retrieve in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fielddocvariable/set_variablename/
@@ -10,12 +10,48 @@ url: /cpp/aspose.words.fields/fielddocvariable/set_variablename/
 ## FieldDocVariable::set_VariableName method
 
 
-Setter for [Aspose::Words::Fields::FieldDocVariable::get_VariableName](../get_variablename/).
+Sets the name of the document variable to retrieve.
 
 ```cpp
-void Aspose::Words::Fields::FieldDocVariable::set_VariableName(const System::String &value)
+void Aspose::Words::Fields::FieldDocVariable::set_VariableName(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to use DOCPROPERTY fields to display document properties and variables.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Below are two ways of using DOCPROPERTY fields.
+// 1 -  Display a built-in property:
+// Set a custom value for the "Category" built-in property, then insert a DOCPROPERTY field that references it.
+doc->get_BuiltInDocumentProperties()->set_Category(u"My category");
+
+auto fieldDocProperty = System::ExplicitCast<Aspose::Words::Fields::FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
+fieldDocProperty->Update();
+
+ASSERT_EQ(u" DOCPROPERTY Category ", fieldDocProperty->GetFieldCode());
+ASSERT_EQ(u"My category", fieldDocProperty->get_Result());
+
+builder->InsertParagraph();
+
+// 2 -  Display a custom document variable:
+// Define a custom variable, then reference that variable with a DOCPROPERTY field.
+ASSERT_EQ(0, doc->get_Variables()->get_Count());
+doc->get_Variables()->Add(u"My variable", u"My variable's value");
+
+auto fieldDocVariable = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+fieldDocVariable->set_VariableName(u"My Variable");
+fieldDocVariable->Update();
+
+ASSERT_EQ(u" DOCVARIABLE  \"My Variable\"", fieldDocVariable->GetFieldCode());
+ASSERT_EQ(u"My variable's value", fieldDocVariable->get_Result());
+
+doc->Save(get_ArtifactsDir() + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
+```
 ## See Also
 
 * Class [FieldDocVariable](../)

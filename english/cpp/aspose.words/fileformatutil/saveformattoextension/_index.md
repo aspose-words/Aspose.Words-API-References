@@ -4,7 +4,7 @@ linktitle: SaveFormatToExtension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatUtil::SaveFormatToExtension method. Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 8000
+weight: 14000
 url: /cpp/aspose.words/fileformatutil/saveformattoextension/
 ---
 ## FileFormatUtil::SaveFormatToExtension method
@@ -22,12 +22,11 @@ static System::String Aspose::Words::FileFormatUtil::SaveFormatToExtension(Aspos
 The [WordML](../../saveformat/) value is converted to ".wml".
 
 The [FlatOpc](../../saveformat/) value is converted to ".fopc".
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -53,10 +52,12 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
+## Exceptions
+
+* **ArgumentException** - Throws when cannot convert.
 
 ## See Also
 
-* Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,17 +20,16 @@ class AdjustmentCollection : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Returns an adjustment at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Returns an adjustment at the specified index. |
 ## Examples
 
 
+Shows how to work with adjustment raw values.
 
-Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -46,7 +45,6 @@ adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

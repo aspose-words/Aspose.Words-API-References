@@ -4,7 +4,7 @@ linktitle: get_NumberFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_NumberFormat method. Returns or sets the number format for the list level in C++.'
 type: docs
-weight: 12000
+weight: 22752
 url: /cpp/aspose.words.lists/listlevel/get_numberformat/
 ---
 ## ListLevel::get_NumberFormat method
@@ -24,12 +24,11 @@ Among normal text characters, the string can contain placeholder characters \x00
 For example, the string "\x0000.\x0001)" will generate a list label that looks something like "1.5)". The number "1" is the current number from the 1st list level, the number "5" is the current number from the 2nd list level.
 
 Null is not allowed, but an empty string meaning no number is valid.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -82,8 +81,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows advances ways of customizing list labels.
 
-Shows advances ways of customizing list labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -139,7 +138,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

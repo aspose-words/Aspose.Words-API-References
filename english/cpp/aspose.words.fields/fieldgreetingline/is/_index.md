@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldgreetingline/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldGreetingLine::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldGreetingLine::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_PageWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_PageWidth method. Returns or sets the width of the page in points in C++.'
 type: docs
-weight: 36000
+weight: 49748
 url: /cpp/aspose.words/pagesetup/get_pagewidth/
 ---
 ## PageSetup::get_PageWidth method
@@ -16,12 +16,11 @@ Returns or sets the width of the page in points.
 double Aspose::Words::PageSetup::get_PageWidth()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an image, and use it as a watermark.
 
-Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,8 +40,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
+Shows how to insert a floating image, and specify its position and size.
 
-Shows how to insert a floating image, and specify its position and size. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

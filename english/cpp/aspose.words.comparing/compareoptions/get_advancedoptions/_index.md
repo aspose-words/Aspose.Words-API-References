@@ -4,7 +4,7 @@ linktitle: get_AdvancedOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_AdvancedOptions method. Specifies advanced compare options that might help to produce more precise comparison output in C++.'
 type: docs
-weight: 2500
+weight: 16134
 url: /cpp/aspose.words.comparing/compareoptions/get_advancedoptions/
 ---
 ## CompareOptions::get_AdvancedOptions method
@@ -16,12 +16,11 @@ Specifies advanced compare options that might help to produce more precise compa
 const System::SharedPtr<Aspose::Words::Comparing::AdvancedCompareOptions> & Aspose::Words::Comparing::CompareOptions::get_AdvancedOptions() const
 ```
 
-
 ## Examples
 
 
+Shows how to compare documents ignoring DML unique ID.
 
-Shows how to compare documents ignoring DML unique ID. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID original.docx"));
 auto docB = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID compare.docx"));
@@ -35,10 +34,8 @@ docA->Compare(docB, u"Aspose.Words", System::DateTime::get_Now(), compareOptions
 
 ASSERT_EQ(isIgnoreDmlUniqueId ? 0 : 2, docA->get_Revisions()->get_Count());
 ```
-
 ## See Also
 
-* Class [AdvancedCompareOptions](../../advancedcompareoptions/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

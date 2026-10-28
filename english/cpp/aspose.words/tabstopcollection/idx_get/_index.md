@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStopCollection::idx_get method. Gets a tab stop at the specified position in C++.'
 type: docs
-weight: 12000
+weight: 18000
 url: /cpp/aspose.words/tabstopcollection/idx_get/
 ---
 ## TabStopCollection::idx_get(double) method
@@ -20,12 +20,14 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::idx_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | double | The position (in points) of the tab stop. |
+## Remarks
 
+ Returns **null** if no tab stop is found at the specified position. 
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,10 +64,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
-* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -82,12 +82,11 @@ System::SharedPtr<Aspose::Words::TabStop> Aspose::Words::TabStopCollection::idx_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection of tab stops. |
-
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -124,10 +123,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
-* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

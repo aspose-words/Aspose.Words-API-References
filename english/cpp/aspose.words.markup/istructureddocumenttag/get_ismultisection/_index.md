@@ -4,7 +4,7 @@ linktitle: get_IsMultiSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection method. Returns true if this instance is a ranged (multi-section) structured document tag in C++.'
 type: docs
-weight: 3500
+weight: 17570
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_ismultisection/
 ---
 ## IStructuredDocumentTag::get_IsMultiSection method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/get_ismultisection/
 Returns true if this instance is a ranged (multi-section) structured document tag.
 
 ```cpp
-virtual bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection()=0
+virtual _Bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection()
 ```
-
 
 ## Examples
 
 
+Shows how to get structured document tag.
 
-Shows how to get structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags by id.docx"));
 
@@ -34,7 +33,6 @@ std::cout << sdt->get_Title() << std::endl;
 sdt = doc->get_Range()->get_StructuredDocumentTags()->GetByTitle(u"Alias4");
 std::cout << sdt->get_Id() << std::endl;
 ```
-
 ## See Also
 
 * Interface [IStructuredDocumentTag](../)

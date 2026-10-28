@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/smarttag/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Markup::SmartTag::GetType() const override
+const System::TypeInfo & Aspose::Words::Markup::SmartTag::GetType() const override
 ```
 
 ## See Also

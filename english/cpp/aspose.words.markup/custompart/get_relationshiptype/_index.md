@@ -4,7 +4,7 @@ linktitle: get_RelationshipType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPart::get_RelationshipType method. Gets or sets the relationship type from the parent part to this custom part in C++.'
 type: docs
-weight: 8000
+weight: 10858
 url: /cpp/aspose.words.markup/custompart/get_relationshiptype/
 ---
 ## CustomPart::get_RelationshipType method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Markup::CustomPart::get_RelationshipType() const
 The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
 
 The default value is an empty string. A valid value must be a non-empty string.
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -63,7 +62,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomPart](../)

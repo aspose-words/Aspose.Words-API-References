@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldIf::set_ComparisonOperator method
 linktitle: set_ComparisonOperator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldIf::set_ComparisonOperator method. Setter for Aspose::Words::Fields::FieldIf::get_ComparisonOperator in C++.'
+description: 'Aspose::Words::Fields::FieldIf::set_ComparisonOperator method. Sets the comparison operator in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.fields/fieldif/set_comparisonoperator/
@@ -10,12 +10,55 @@ url: /cpp/aspose.words.fields/fieldif/set_comparisonoperator/
 ## FieldIf::set_ComparisonOperator method
 
 
-Setter for [Aspose::Words::Fields::FieldIf::get_ComparisonOperator](../get_comparisonoperator/).
+Sets the comparison operator.
 
 ```cpp
-void Aspose::Words::Fields::FieldIf::set_ComparisonOperator(const System::String &value)
+void Aspose::Words::Fields::FieldIf::set_ComparisonOperator(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to insert an IF field.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Write(u"Statement 1: ");
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field->set_LeftExpression(u"0");
+field->set_ComparisonOperator(u"=");
+field->set_RightExpression(u"1");
+
+// The IF field will display a string from either its "TrueText" property,
+// or its "FalseText" property, depending on the truth of the statement that we have constructed.
+field->set_TrueText(u"True");
+field->set_FalseText(u"False");
+field->Update();
+
+// In this case, "0 = 1" is incorrect, so the displayed result will be "False".
+ASSERT_EQ(u" IF  0 = 1 True False", field->GetFieldCode());
+ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
+ASSERT_EQ(u"False", field->get_Result());
+
+builder->Write(u"\nStatement 2: ");
+field = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field->set_LeftExpression(u"5");
+field->set_ComparisonOperator(u"=");
+field->set_RightExpression(u"2 + 3");
+field->set_TrueText(u"True");
+field->set_FalseText(u"False");
+field->Update();
+
+// This time the statement is correct, so the displayed result will be "True".
+ASSERT_EQ(u" IF  5 = \"2 + 3\" True False", field->GetFieldCode());
+ASSERT_EQ(FieldIfComparisonResult::True, field->EvaluateCondition());
+ASSERT_EQ(u"True", field->get_Result());
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
+```
 ## See Also
 
 * Class [FieldIf](../)

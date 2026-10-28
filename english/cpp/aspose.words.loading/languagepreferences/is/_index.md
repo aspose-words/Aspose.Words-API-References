@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/languagepreferences/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::LanguagePreferences::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::LanguagePreferences::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

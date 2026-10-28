@@ -4,24 +4,23 @@ linktitle: get_SubstitutionSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSettings::get_SubstitutionSettings method. Settings related to font substitution mechanism in C++.'
 type: docs
-weight: 5000
+weight: 17000
 url: /cpp/aspose.words.fonts/fontsettings/get_substitutionsettings/
 ---
 ## FontSettings::get_SubstitutionSettings method
 
 
-[Settings](../../../aspose.words.settings/) related to font substitution mechanism.
+Settings related to font substitution mechanism.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Fonts::FontSubstitutionSettings> Aspose::Words::Fonts::FontSettings::get_SubstitutionSettings() const
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -73,10 +72,8 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
-* Class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

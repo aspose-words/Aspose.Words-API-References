@@ -4,24 +4,23 @@ linktitle: get_LockContentControl
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl method. When set to true, this property will prohibit a user from deleting this SDT in C++.'
 type: docs
-weight: 22000
+weight: 79000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_lockcontentcontrol/
 ---
 ## StructuredDocumentTag::get_LockContentControl method
 
 
-When set to **true**, this property will prohibit a user from deleting this **SDT**.
+When set to **true**, this property will prohibit a user from deleting this SDT.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl() override
+_Bool Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl() override
 ```
-
 
 ## Examples
 
 
+Shows how to apply editing restrictions to structured document tags.
 
-Shows how to apply editing restrictions to structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->InsertNode(tag);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Lock.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

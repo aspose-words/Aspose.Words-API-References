@@ -2,7 +2,7 @@
 title: Aspose::Words::SuspendedRevisionTypes enum
 linktitle: SuspendedRevisionTypes
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::SuspendedRevisionTypes enum. SuspendedRevisionTypes enumeration in C++.'
+description: 'How to use Aspose::Words::SuspendedRevisionTypes enum in C++.'
 type: docs
 weight: 119500
 url: /cpp/aspose.words/suspendedrevisiontypes/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words/suspendedrevisiontypes/
 ## SuspendedRevisionTypes enum
 
 
-SuspendedRevisionTypes enumeration.
+
 
 ```cpp
-enum class SuspendedRevisionTypes
+enum class SuspendedRevisionTypes : int
 ```
 
 ### Values

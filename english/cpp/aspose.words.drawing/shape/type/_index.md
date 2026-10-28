@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Drawing::Shape class in C++.'
 type: docs
-weight: 1000
+weight: 31000
 url: /cpp/aspose.words.drawing/shape/type/
 ---
 ## Shape::Type method

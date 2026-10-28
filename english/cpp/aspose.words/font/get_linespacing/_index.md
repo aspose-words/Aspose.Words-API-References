@@ -4,7 +4,7 @@ linktitle: get_LineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_LineSpacing method. Returns line spacing of this font (in points) in C++.'
 type: docs
-weight: 21000
+weight: 59360
 url: /cpp/aspose.words/font/get_linespacing/
 ---
 ## Font::get_LineSpacing method
@@ -16,12 +16,11 @@ Returns line spacing of this font (in points).
 double Aspose::Words::Font::get_LineSpacing()
 ```
 
-
 ## Examples
 
 
+Shows how to get a font's line spacing, in points.
 
-Shows how to get a font's line spacing, in points. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +32,6 @@ ASPOSE_ASSERT_EQ(14.6484375, builder->get_Font()->get_LineSpacing());
 builder->get_Font()->set_Name(u"Times New Roman");
 ASPOSE_ASSERT_EQ(13.798828125, builder->get_Font()->get_LineSpacing());
 ```
-
 ## See Also
 
 * Class [Font](../)

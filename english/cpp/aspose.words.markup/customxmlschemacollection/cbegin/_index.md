@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::Markup::CustomXmlSchemaCollection class in C++.'
 type: docs
-weight: 4000
+weight: 17334
 url: /cpp/aspose.words.markup/customxmlschemacollection/cbegin/
 ---
 ## CustomXmlSchemaCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::cbegin() const noexcept
+const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

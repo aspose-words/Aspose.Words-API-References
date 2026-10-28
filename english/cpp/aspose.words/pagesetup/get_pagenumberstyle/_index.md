@@ -4,7 +4,7 @@ linktitle: get_PageNumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_PageNumberStyle method. Gets or sets the page number format in C++.'
 type: docs
-weight: 34000
+weight: 49706
 url: /cpp/aspose.words/pagesetup/get_pagenumberstyle/
 ---
 ## PageSetup::get_PageNumberStyle method
@@ -16,12 +16,11 @@ Gets or sets the page number format.
 Aspose::Words::NumberStyle Aspose::Words::PageSetup::get_PageNumberStyle()
 ```
 
-
 ## Examples
 
 
+Shows how to set up page numbering in a section.
 
-Shows how to set up page numbering in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,10 +70,8 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
-
 ## See Also
 
-* Enum [NumberStyle](../../numberstyle/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

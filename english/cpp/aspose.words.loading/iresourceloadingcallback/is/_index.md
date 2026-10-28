@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/iresourceloadingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::IResourceLoadingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::IResourceLoadingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

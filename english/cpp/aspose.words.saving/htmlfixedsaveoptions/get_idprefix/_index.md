@@ -4,7 +4,7 @@ linktitle: get_IdPrefix
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_IdPrefix method. Specifies a prefix that is prepended to all generated element IDs in the output document. Default value is null and no prefix is prepended in C++.'
 type: docs
-weight: 10500
+weight: 22460
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_idprefix/
 ---
 ## HtmlFixedSaveOptions::get_IdPrefix method
@@ -16,12 +16,14 @@ Specifies a prefix that is prepended to all generated element IDs in the output 
 System::String Aspose::Words::Saving::HtmlFixedSaveOptions::get_IdPrefix() const
 ```
 
+## Remarks
 
+ If the prefix is specified, it can contain only letters, digits, underscores, and hyphens, and must start with a letter. 
 ## Examples
 
 
+Shows how to add a prefix that is prepended to all generated element IDs.
 
-Shows how to add a prefix that is prepended to all generated element IDs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Id prefix.docx"));
 
@@ -30,6 +32,9 @@ saveOptions->set_IdPrefix(u"pfx1_");
 
 doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.IdPrefix.html", saveOptions);
 ```
+## Exceptions
+
+* **ArgumentException** - The value does not meet the requirements specified above.
 
 ## See Also
 

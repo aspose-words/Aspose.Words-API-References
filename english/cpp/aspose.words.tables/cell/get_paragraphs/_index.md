@@ -4,7 +4,7 @@ linktitle: get_Paragraphs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_Paragraphs method. Gets a collection of paragraphs that are immediate children of the cell in C++.'
 type: docs
-weight: 11000
+weight: 24000
 url: /cpp/aspose.words.tables/cell/get_paragraphs/
 ---
 ## Cell::get_Paragraphs method
@@ -16,12 +16,11 @@ Gets a collection of paragraphs that are immediate children of the cell.
 System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Tables::Cell::get_Paragraphs()
 ```
 
-
 ## Examples
 
 
+Shows how to set a table to stay together on the same page.
 
-Shows how to set a table to stay together on the same page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -43,10 +42,8 @@ for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetCh
 
 doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
-
 ## See Also
 
-* Class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

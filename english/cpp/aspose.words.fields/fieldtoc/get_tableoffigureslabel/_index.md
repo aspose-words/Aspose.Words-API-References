@@ -4,7 +4,7 @@ linktitle: get_TableOfFiguresLabel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel method. Gets or sets the name of the sequence identifier used when building a table of figures in C++.'
 type: docs
-weight: 19000
+weight: 54000
 url: /cpp/aspose.words.fields/fieldtoc/get_tableoffigureslabel/
 ---
 ## FieldToc::get_TableOfFiguresLabel method
@@ -16,12 +16,11 @@ Gets or sets the name of the sequence identifier used when building a table of f
 System::String Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel()
 ```
 
-
 ## Examples
 
 
+Shows how to populate a TOC field with entries using SEQ fields.
 
-Shows how to populate a TOC field with entries using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
-
 ## See Also
 
 * Class [FieldToc](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axiscategorytype/
 Specifies type of a category axis.
 
 ```cpp
-enum class AxisCategoryType
+enum class AxisCategoryType : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class AxisCategoryType
 | Category | 1 | Specifies an axis of an arbitrary set of categories. |
 | Time | 2 | Specifies a time category axis. |
 
-
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -79,7 +78,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

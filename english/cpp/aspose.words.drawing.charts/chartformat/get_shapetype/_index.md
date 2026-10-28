@@ -4,7 +4,7 @@ linktitle: get_ShapeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_ShapeType method. Gets or sets the shape type of the parent chart element in C++.'
 type: docs
-weight: 2500
+weight: 11000
 url: /cpp/aspose.words.drawing.charts/chartformat/get_shapetype/
 ---
 ## ChartFormat::get_ShapeType method
@@ -16,12 +16,14 @@ Gets or sets the shape type of the parent chart element.
 Aspose::Words::Drawing::Charts::ChartShapeType Aspose::Words::Drawing::Charts::ChartFormat::get_ShapeType()
 ```
 
+## Remarks
 
+ Currently, the property can only be used for data labels. 
 ## Examples
 
 
+Shows how to set fill, stroke and callout formatting for chart data labels.
 
-Shows how to set fill, stroke and callout formatting for chart data labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,10 +55,8 @@ labelFormat->get_Fill()->Solid(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.FormatDataLables.docx");
 ```
-
 ## See Also
 
-* Enum [ChartShapeType](../../chartshapetype/)
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

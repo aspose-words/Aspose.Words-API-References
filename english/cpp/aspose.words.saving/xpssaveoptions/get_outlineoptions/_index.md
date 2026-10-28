@@ -4,7 +4,7 @@ linktitle: get_OutlineOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XpsSaveOptions::get_OutlineOptions method. Allows to specify outline options in C++.'
 type: docs
-weight: 3000
+weight: 7157
 url: /cpp/aspose.words.saving/xpssaveoptions/get_outlineoptions/
 ---
 ## XpsSaveOptions::get_OutlineOptions method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Saving::OutlineOptions> Aspose::Words::Saving::
 
 
 Note that [ExpandedOutlineLevels](../../outlineoptions/get_expandedoutlinelevels/) option will not work when saving to XPS.
-
 ## Examples
 
 
+Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
-Shows how to limit the headings' level that will appear in the outline of a saved XPS document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,10 +60,8 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
-
 ## See Also
 
-* Class [OutlineOptions](../../outlineoptions/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

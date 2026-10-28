@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Settings::OdsoFieldMapDataCollection::virt
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

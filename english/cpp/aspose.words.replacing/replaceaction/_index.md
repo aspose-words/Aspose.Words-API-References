@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/replaceaction/
 Allows the user to specify what happens to the current match during a replace operation.
 
 ```cpp
-enum class ReplaceAction
+enum class ReplaceAction : int
 ```
 
 ### Values
@@ -24,8 +24,11 @@ enum class ReplaceAction
 | Skip | 1 | Skip the current match. |
 | Stop | 2 | Terminate the replace operation. |
 
-
 ## See Also
+
+* [IReplacingCallback](../ireplacingcallback/)
+* [Range](../../aspose.words/range/)
+* [Replace()](../../aspose.words/range/replace/)
 
 * Namespace [Aspose::Words::Replacing](../)
 * Library [Aspose.Words for C++](../../)

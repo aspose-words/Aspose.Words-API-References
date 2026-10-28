@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldnumpages/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldNumPages::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldNumPages::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

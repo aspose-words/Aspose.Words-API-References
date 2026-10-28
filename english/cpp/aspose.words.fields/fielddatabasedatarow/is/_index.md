@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddatabasedatarow/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldDatabaseDataRow::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldDatabaseDataRow::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

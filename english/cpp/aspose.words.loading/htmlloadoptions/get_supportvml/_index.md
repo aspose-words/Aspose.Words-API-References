@@ -4,7 +4,7 @@ linktitle: get_SupportVml
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml method. Gets or sets a value indicating whether to support VML images in C++.'
 type: docs
-weight: 7000
+weight: 10778
 url: /cpp/aspose.words.loading/htmlloadoptions/get_supportvml/
 ---
 ## HtmlLoadOptions::get_SupportVml method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_supportvml/
 Gets or sets a value indicating whether to support VML images.
 
 ```cpp
-bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
+_Bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
 ```
-
 
 ## Examples
 
 
+Shows how to support conditional comments while loading an HTML document.
 
-Shows how to support conditional comments while loading an HTML document. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
 
@@ -43,7 +42,6 @@ else
     ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
-
 ## See Also
 
 * Class [HtmlLoadOptions](../)

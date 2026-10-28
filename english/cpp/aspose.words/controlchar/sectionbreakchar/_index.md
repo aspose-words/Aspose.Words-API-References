@@ -13,15 +13,14 @@ url: /cpp/aspose.words/controlchar/sectionbreakchar/
 End of section character: (char)12 or "\f".
 
 ```cpp
-static constexpr char16_t Aspose::Words::ControlChar::SectionBreakChar
+static const char16_t Aspose::Words::ControlChar::SectionBreakChar
 ```
-
 
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

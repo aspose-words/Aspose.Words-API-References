@@ -16,12 +16,11 @@ Gets the index of a tab stop with the specified position in points.
 int32_t Aspose::Words::TabStopCollection::GetIndexByPosition(double position)
 ```
 
-
 ## Examples
 
 
+Shows how to look up a position to see if a tab stop exists there and obtain its index.
 
-Shows how to look up a position to see if a tab stop exists there and obtain its index. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_TabStops();
@@ -37,7 +36,6 @@ ASSERT_EQ(0, tabStops->GetIndexByPosition(ConvertUtil::MillimeterToPoint(30)));
 // there is no tab stop in this collection with a position of 60mm.
 ASSERT_EQ(-1, tabStops->GetIndexByPosition(ConvertUtil::MillimeterToPoint(60)));
 ```
-
 ## See Also
 
 * Class [TabStopCollection](../)

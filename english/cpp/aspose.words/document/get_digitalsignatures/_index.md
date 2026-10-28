@@ -4,7 +4,7 @@ linktitle: get_DigitalSignatures
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_DigitalSignatures method. Gets the collection of digital signatures for this document and their validation results in C++.'
 type: docs
-weight: 21000
+weight: 111000
 url: /cpp/aspose.words/document/get_digitalsignatures/
 ---
 ## Document::get_DigitalSignatures method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> 
 This collection contains digital signatures that were loaded from the original document. These digital signatures will not be saved when you save this [Document](../) object into a file or stream because saving or converting will produce a document that is different from the original and the original digital signatures will no longer be valid.
 
 This collection is never **null**. If the document is not signed, it will contain zero elements.
-
 ## Examples
 
 
+Shows how to validate and display information about each signature in a document.
 
-Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
@@ -43,8 +42,8 @@ for (auto&& signature : doc->get_DigitalSignatures())
 }
 ```
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -81,10 +80,8 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
-* Class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

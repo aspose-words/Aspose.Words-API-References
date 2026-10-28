@@ -4,7 +4,7 @@ linktitle: get_CurrentUser
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_CurrentUser method. Gets or sets the current user information in C++.'
 type: docs
-weight: 5000
+weight: 24252
 url: /cpp/aspose.words.fields/fieldoptions/get_currentuser/
 ---
 ## FieldOptions::get_CurrentUser method
@@ -16,12 +16,11 @@ Gets or sets the current user information.
 const System::SharedPtr<Aspose::Words::Fields::UserInformation> & Aspose::Words::Fields::FieldOptions::get_CurrentUser() const
 ```
 
-
 ## Examples
 
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +51,8 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
-* Class [UserInformation](../../userinformation/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

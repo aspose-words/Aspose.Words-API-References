@@ -4,7 +4,7 @@ linktitle: get_InsertAsHtml
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDde::get_InsertAsHtml method. Gets whether to insert the linked object as HTML format text in C++.'
 type: docs
-weight: 4000
+weight: 14308
 url: /cpp/aspose.words.fields/fielddde/get_insertashtml/
 ---
 ## FieldDde::get_InsertAsHtml method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddde/get_insertashtml/
 Gets whether to insert the linked object as HTML format text.
 
 ```cpp
-bool Aspose::Words::Fields::FieldDde::get_InsertAsHtml()
+_Bool Aspose::Words::Fields::FieldDde::get_InsertAsHtml()
 ```
 
 ## See Also

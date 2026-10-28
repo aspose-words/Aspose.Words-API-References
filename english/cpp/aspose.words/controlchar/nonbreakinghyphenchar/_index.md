@@ -13,7 +13,7 @@ url: /cpp/aspose.words/controlchar/nonbreakinghyphenchar/
 Non-breaking Hyphen in Microsoft Word is (char)30.
 
 ```cpp
-static constexpr char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
+static const char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
 ```
 
 ## Remarks
@@ -21,13 +21,12 @@ static constexpr char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
 
 Non-breaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
 
-Useful info: [http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks](http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks).
-
+Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -92,7 +91,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

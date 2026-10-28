@@ -16,12 +16,11 @@ Moves the cursor to the beginning of the document.
 void Aspose::Words::DocumentBuilder::MoveToDocumentStart()
 ```
 
-
 ## Examples
 
 
+Shows how to move a document builder's cursor to different nodes in a document.
 
-Shows how to move a document builder's cursor to different nodes in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ builder->MoveToDocumentStart();
 
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

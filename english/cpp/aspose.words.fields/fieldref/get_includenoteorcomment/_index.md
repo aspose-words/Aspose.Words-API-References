@@ -2,18 +2,18 @@
 title: Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment method
 linktitle: get_IncludeNoteOrComment
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment method. Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text in C++.'
+description: 'Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment method. Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text in C++.'
 type: docs
-weight: 4000
+weight: 15288
 url: /cpp/aspose.words.fields/fieldref/get_includenoteorcomment/
 ---
 ## FieldRef::get_IncludeNoteOrComment method
 
 
-Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment()
+_Bool Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment()
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_DefaultInstructions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions method. Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true in C++.'
 type: docs
-weight: 3000
+weight: 14231
 url: /cpp/aspose.words.drawing/signatureline/get_defaultinstructions/
 ---
 ## SignatureLine::get_DefaultInstructions method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/signatureline/get_defaultinstructions/
 Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
 
 ```cpp
-bool Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions()
+_Bool Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions()
 ```
-
 
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
 * Class [SignatureLine](../)

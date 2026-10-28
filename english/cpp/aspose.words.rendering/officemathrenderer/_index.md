@@ -2,7 +2,7 @@
 title: Aspose::Words::Rendering::OfficeMathRenderer class
 linktitle: OfficeMathRenderer
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Rendering::OfficeMathRenderer class. Provides methods to render an individual OfficeMath to a raster or vector image or to a Graphics object. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Rendering::OfficeMathRenderer class. Provides methods to render an individual OfficeMath to a raster or vector image or to a Graphics object. To learn more, visit the Working with OfficeMath documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.rendering/officemathrenderer/
@@ -10,44 +10,47 @@ url: /cpp/aspose.words.rendering/officemathrenderer/
 ## OfficeMathRenderer class
 
 
-Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object. To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/cpp/working-with-officemath/) documentation article.
+Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object. 
+To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/cpp/working-with-officemath/) documentation article.
 
 ```cpp
-class OfficeMathRenderer : public Aspose::Words::Rendering::NodeRendererBase
+class OfficeMathRenderer : public NodeRendererBase
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [get_BoundsInPoints](../noderendererbase/get_boundsinpoints/)() const | Gets the actual bounds of the shape in points. |
-| [get_OpaqueBoundsInPoints](../noderendererbase/get_opaqueboundsinpoints/)() | Gets the opaque bounds of the shape in points. |
-| [get_SizeInPoints](../noderendererbase/get_sizeinpoints/)() | Gets the actual size of the shape in points. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [OfficeMathRenderer](./officemathrenderer/)(const System::SharedPtr\<Aspose::Words::Math::OfficeMath\> \&) | Initializes a new instance of this class. |
+| static [Type](./type/)() |  |
 | [GetBoundsInPixels](../noderendererbase/getboundsinpixels/)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetBoundsInPixels](../noderendererbase/getboundsinpixels/)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetOpaqueBoundsInPixels](../noderendererbase/getopaqueboundsinpixels/)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetOpaqueBoundsInPixels](../noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [GetType](../noderendererbase/gettype/)() const override |  |
+| [Is](../noderendererbase/is/)(const System::TypeInfo \&) const override |  |
 | [NodeRendererBase](../noderendererbase/noderendererbase/)() |  |
-| [OfficeMathRenderer](./officemathrenderer/)(const System::SharedPtr\<Aspose::Words::Math::OfficeMath\>\&) | Initializes a new instance of this class. |
-| [RenderToScale](../noderendererbase/rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) |  |
-| [RenderToSize](../noderendererbase/rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) |  |
-| [Save](../noderendererbase/save/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |
-| [Save](../noderendererbase/save/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a file. |
-| [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
-| [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
-| [Save](../noderendererbase/save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) |  |
-| [Save](../noderendererbase/save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) |  |
-| static [Type](./type/)() |  |
-
+| [RenderToScale](../noderendererbase/rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders the shape into a **Graphics** object to a specified scale. |
+| [RenderToSize](../noderendererbase/rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders the shape into a **Graphics** object to a specified size. |
+| [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
+| [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
+| [Save](../noderendererbase/save/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |
+| [Save](../noderendererbase/save/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a file. |
+| [Save](../noderendererbase/save/)(std::basic_ostream\<CharType, Traits\> \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) |  |
+| [Save](../noderendererbase/save/)(std::basic_ostream\<CharType, Traits\> \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) |  |
+| static [Type](../noderendererbase/type/)() |  |
+| [get_BoundsInPoints](../noderendererbase/get_boundsinpoints/)() const | Gets the actual bounds of the shape in points. |
+| [get_OpaqueBoundsInPoints](../noderendererbase/get_opaqueboundsinpoints/)() | Gets the opaque bounds of the shape in points. |
+| [get_SizeInPoints](../noderendererbase/get_sizeinpoints/)() | Gets the actual size of the shape in points. |
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -88,7 +91,6 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
 * Class [NodeRendererBase](../noderendererbase/)

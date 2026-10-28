@@ -4,7 +4,7 @@ linktitle: get_Runs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_Runs method. Provides access to the typed collection of pieces of text inside the paragraph in C++.'
 type: docs
-weight: 25000
+weight: 54000
 url: /cpp/aspose.words/paragraph/get_runs/
 ---
 ## Paragraph::get_Runs method
@@ -16,12 +16,11 @@ Provides access to the typed collection of pieces of text inside the paragraph.
 System::SharedPtr<Aspose::Words::RunCollection> Aspose::Words::Paragraph::get_Runs()
 ```
 
-
 ## Examples
 
 
+Shows how to determine the revision type of an inline node.
 
-Shows how to determine the revision type of an inline node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
@@ -70,10 +69,8 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
-* Class [RunCollection](../../runcollection/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

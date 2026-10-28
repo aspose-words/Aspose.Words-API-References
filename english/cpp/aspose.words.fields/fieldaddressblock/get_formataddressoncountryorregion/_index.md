@@ -4,7 +4,7 @@ linktitle: get_FormatAddressOnCountryOrRegion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion method. Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006) in C++.'
 type: docs
-weight: 4000
+weight: 10429
 url: /cpp/aspose.words.fields/fieldaddressblock/get_formataddressoncountryorregion/
 ---
 ## FieldAddressBlock::get_FormatAddressOnCountryOrRegion method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldaddressblock/get_formataddressoncountryorregi
 Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006).
 
 ```cpp
-bool Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion()
+_Bool Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion()
 ```
-
 
 ## Examples
 
 
+Shows how to insert an ADDRESSBLOCK field.
 
-Shows how to insert an ADDRESSBLOCK field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ field->set_LanguageId(System::Convert::ToString(System::MakeObject<System::Globa
 
 ASSERT_EQ(u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033", field->GetFieldCode());
 ```
-
 ## See Also
 
 * Class [FieldAddressBlock](../)

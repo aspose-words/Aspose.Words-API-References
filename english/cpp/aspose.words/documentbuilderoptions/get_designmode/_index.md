@@ -4,7 +4,7 @@ linktitle: get_DesignMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilderOptions::get_DesignMode method. Corresponds to Design Mode in Microsoft Word in C++.'
 type: docs
-weight: 3500
+weight: 5750
 url: /cpp/aspose.words/documentbuilderoptions/get_designmode/
 ---
 ## DocumentBuilderOptions::get_DesignMode method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/documentbuilderoptions/get_designmode/
 Corresponds to Design Mode in Microsoft Word.
 
 ```cpp
-bool Aspose::Words::DocumentBuilderOptions::get_DesignMode() const
+_Bool Aspose::Words::DocumentBuilderOptions::get_DesignMode() const
 ```
 
 ## See Also

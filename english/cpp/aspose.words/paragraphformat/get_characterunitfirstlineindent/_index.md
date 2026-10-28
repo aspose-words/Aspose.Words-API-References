@@ -4,24 +4,24 @@ linktitle: get_CharacterUnitFirstLineIndent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent method. Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent in C++.'
 type: docs
-weight: 8000
+weight: 44184
 url: /cpp/aspose.words/paragraphformat/get_characterunitfirstlineindent/
 ---
 ## ParagraphFormat::get_CharacterUnitFirstLineIndent method
 
 
-Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent.
+Gets or sets the value (in characters) for the first-line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
 ```cpp
 double Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent()
 ```
 
-
 ## Examples
 
 
+Shows how to change paragraph spacing and indents.
 
-Shows how to change paragraph spacing and indents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +66,6 @@ ASSERT_NEAR(format->get_SpaceAfter(), 130.8, 0.1);
 builder->Writeln(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 builder->Write(System::String(u"测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试") + u"文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

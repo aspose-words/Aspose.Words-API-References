@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/
 Gets a flag indicating whether the data point at the specified index has default format.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::HasDefaultFormat(int32_t dataPointIndex)
+_Bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::HasDefaultFormat(int32_t dataPointIndex)
 ```
-
 
 ## Examples
 
 
+Shows how to copy data point format.
 
-Shows how to copy data point format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DataPoint format.docx"));
 
@@ -49,7 +48,6 @@ ASSERT_TRUE(dataPoints->HasDefaultFormat(1));
 
 doc->Save(get_ArtifactsDir() + u"Charts.CopyDataPointFormat.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataPointCollection](../)

@@ -4,7 +4,7 @@ linktitle: TaskPane
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use TaskPane constructor of Aspose::Words::WebExtensions::TaskPane class in C++.'
 type: docs
-weight: 2000
+weight: 10112
 url: /cpp/aspose.words.webextensions/taskpane/taskpane/
 ---
 ## TaskPane::TaskPane constructor

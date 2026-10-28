@@ -16,12 +16,14 @@ Sets the fill to a uniform color.
 void Aspose::Words::Drawing::Fill::Solid()
 ```
 
+## Remarks
 
+ Use this method to convert any of the fills back to solid fill. 
 ## Examples
 
 
+Shows how to convert any of the fills back to solid fill.
 
-Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -42,7 +44,6 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)
@@ -57,12 +58,14 @@ Sets the fill to a specified uniform color.
 void Aspose::Words::Drawing::Fill::Solid(System::Drawing::Color color)
 ```
 
+## Remarks
 
+ Use this method to convert any of the fills back to solid fill. 
 ## Examples
 
 
+Shows how to use chart formating.
 
-Shows how to use chart formating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +100,6 @@ chart->get_Legend()->get_Format()->get_Fill()->Solid(System::Drawing::Color::get
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartFormat.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)

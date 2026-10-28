@@ -4,7 +4,7 @@ linktitle: get_MovedToTextColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_MovedToTextColor method. Allows to specify the color to be used for areas where content was moved to Moving. Default value is ByAuthor in C++.'
 type: docs
-weight: 10000
+weight: 22527
 url: /cpp/aspose.words.layout/revisionoptions/get_movedtotextcolor/
 ---
 ## RevisionOptions::get_MovedToTextColor method
@@ -16,12 +16,11 @@ Allows to specify the color to be used for areas where content was moved to [Mov
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_MovedToTextColor()
 ```
 
-
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -65,10 +64,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
-* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

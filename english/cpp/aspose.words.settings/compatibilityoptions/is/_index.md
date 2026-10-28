@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Settings::CompatibilityOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Settings::CompatibilityOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_PaperSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_PaperSize method. Returns or sets the paper size in C++.'
 type: docs
-weight: 37000
+weight: 49769
 url: /cpp/aspose.words/pagesetup/get_papersize/
 ---
 ## PageSetup::get_PaperSize method
@@ -20,12 +20,11 @@ Aspose::Words::PaperSize Aspose::Words::PageSetup::get_PaperSize()
 
 
 Setting this property updates [PageWidth](../get_pagewidth/) and [PageHeight](../get_pageheight/) values. Setting this value to [Custom](../../papersize/) does not change existing values.
-
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,8 +43,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
+Shows how to set page sizes.
 
-Shows how to set page sizes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,8 +83,8 @@ builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_P
 doc->Save(get_ArtifactsDir() + u"PageSetup.PaperSizes.docx");
 ```
 
+Shows how to set the paper size of JisB4 or JisB5.
 
-Shows how to set the paper size of JisB4 or JisB5. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -96,8 +95,8 @@ pageSetup->set_PaperSize(PaperSize::JisB4);
 pageSetup->set_PaperSize(PaperSize::JisB5);
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -140,10 +139,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Enum [PaperSize](../../papersize/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

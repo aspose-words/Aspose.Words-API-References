@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Color method. Gets or sets a Color object that represents the color for the shadow. The default value is Black in C++.'
 type: docs
-weight: 2500
+weight: 6112
 url: /cpp/aspose.words.drawing/shadowformat/get_color/
 ---
 ## ShadowFormat::get_Color method
@@ -16,12 +16,11 @@ Gets or sets a **Color** object that represents the color for the shadow. The de
 System::Drawing::Color Aspose::Words::Drawing::ShadowFormat::get_Color()
 ```
 
-
 ## Examples
 
 
+Shows how to get shadow color.
 
-Shows how to get shadow color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -31,8 +30,8 @@ ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shadowFormat->get_Color().
 ASSERT_EQ(ShadowType::ShadowMixed, shadowFormat->get_Type());
 ```
 
+Shows how to set a color with transparency.
 
-Shows how to set a color with transparency. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -44,7 +43,6 @@ shadowFormat->set_Transparency(0.8);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShadowFormatTransparency.docx");
 ```
-
 ## See Also
 
 * Class [ShadowFormat](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::CleanupOptions class
 linktitle: CleanupOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::CleanupOptions class. Allows to specify options for document cleaning. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::CleanupOptions class. Allows to specify options for document cleaning. To learn more, visit the Clean Up a Document documentation article in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words/cleanupoptions/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/cleanupoptions/
 ## CleanupOptions class
 
 
-Allows to specify options for document cleaning. To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/cpp/clean-up-a-document/) documentation article.
+Allows to specify options for document cleaning. 
+To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/cpp/clean-up-a-document/) documentation article.
 
 ```cpp
 class CleanupOptions : public System::Object
@@ -21,23 +22,22 @@ class CleanupOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CleanupOptions](./cleanupoptions/)() |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_DuplicateStyle](./get_duplicatestyle/)() const | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**. |
 | [get_UnusedBuiltinStyles](./get_unusedbuiltinstyles/)() const | Specifies that unused [BuiltIn](../style/get_builtin/) styles should be removed from document. |
 | [get_UnusedLists](./get_unusedlists/)() const | Specifies whether unused list and list definitions should be removed from document. Default value is **true**. |
 | [get_UnusedStyles](./get_unusedstyles/)() const | Specifies whether unused styles should be removed from document. Default value is **true**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_DuplicateStyle](./set_duplicatestyle/)(bool) | Setter for [Aspose::Words::CleanupOptions::get_DuplicateStyle](./get_duplicatestyle/). |
-| [set_UnusedBuiltinStyles](./set_unusedbuiltinstyles/)(bool) | Setter for [Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles](./get_unusedbuiltinstyles/). |
-| [set_UnusedLists](./set_unusedlists/)(bool) | Setter for [Aspose::Words::CleanupOptions::get_UnusedLists](./get_unusedlists/). |
-| [set_UnusedStyles](./set_unusedstyles/)(bool) | Setter for [Aspose::Words::CleanupOptions::get_UnusedStyles](./get_unusedstyles/). |
-| static [Type](./type/)() |  |
-
+| [set_DuplicateStyle](./set_duplicatestyle/)(bool) | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**. |
+| [set_UnusedBuiltinStyles](./set_unusedbuiltinstyles/)(bool) | Specifies that unused [BuiltIn](../style/get_builtin/) styles should be removed from document. |
+| [set_UnusedLists](./set_unusedlists/)(bool) | Specifies whether unused list and list definitions should be removed from document. Default value is **true**. |
+| [set_UnusedStyles](./set_unusedstyles/)(bool) | Specifies whether unused styles should be removed from document. Default value is **true**. |
 ## Examples
 
 
+Shows how to remove all unused custom styles from a document.
 
-Shows how to remove all unused custom styles from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -79,7 +79,6 @@ doc->Cleanup(cleanupOptions);
 
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

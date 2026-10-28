@@ -4,7 +4,7 @@ linktitle: end
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use end method of Aspose::Words::Fields::DropDownItemCollection class in C++.'
 type: docs
-weight: 8000
+weight: 18556
 url: /cpp/aspose.words.fields/dropdownitemcollection/end/
 ---
 ## DropDownItemCollection::end() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/end/
 
 
 ```cpp
-const_iterator Aspose::Words::Fields::DropDownItemCollection::end() const noexcept
+const_iterator Aspose::Words::Fields::DropDownItemCollection::end() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Fields::DropDownItemCollection::end() const noexce
 
 
 ```cpp
-iterator Aspose::Words::Fields::DropDownItemCollection::end() noexcept
+iterator Aspose::Words::Fields::DropDownItemCollection::end()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

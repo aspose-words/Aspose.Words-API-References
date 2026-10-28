@@ -4,7 +4,7 @@ linktitle: get_BackThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BackThemeColor method. Gets or sets a ThemeColor object that represents the background color for the fill in C++.'
 type: docs
-weight: 3000
+weight: 47000
 url: /cpp/aspose.words.drawing/fill/get_backthemecolor/
 ---
 ## Fill::get_BackThemeColor method
@@ -16,12 +16,11 @@ Gets or sets a ThemeColor object that represents the background color for the fi
 Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Fill::get_BackThemeColor()
 ```
 
-
 ## Examples
 
 
+Shows how to set theme color for foreground/background shape color.
 
-Shows how to set theme color for foreground/background shape color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,8 @@ if (fill->get_BackTintAndShade() == 0)
 
 doc->Save(get_ArtifactsDir() + u"Shape.FillThemeColor.docx");
 ```
-
 ## See Also
 
-* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

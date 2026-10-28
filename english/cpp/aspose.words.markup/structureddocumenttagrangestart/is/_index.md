@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

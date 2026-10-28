@@ -2,7 +2,7 @@
 title: Aspose::Words::IncorrectPasswordException typedef
 linktitle: IncorrectPasswordException
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::IncorrectPasswordException typedef. Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::IncorrectPasswordException typedef. Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 134000
 url: /cpp/aspose.words/incorrectpasswordexception/
@@ -10,18 +10,18 @@ url: /cpp/aspose.words/incorrectpasswordexception/
 ## IncorrectPasswordException typedef
 
 
-Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-using Aspose::Words::IncorrectPasswordException = typedef System::ExceptionWrapper<Details_IncorrectPasswordException>
+using Aspose::Words::IncorrectPasswordException = System::ExceptionWrapper<Details_IncorrectPasswordException>
 ```
-
 
 ## Examples
 
 
+Shows how to set save options for older Microsoft Word formats.
 
-Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +50,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

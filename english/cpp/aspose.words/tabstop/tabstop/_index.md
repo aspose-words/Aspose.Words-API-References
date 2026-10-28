@@ -4,7 +4,7 @@ linktitle: TabStop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStop::TabStop constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 10143
 url: /cpp/aspose.words/tabstop/tabstop/
 ---
 ## TabStop::TabStop(double) constructor
@@ -16,12 +16,11 @@ Initializes a new instance of this class.
 Aspose::Words::TabStop::TabStop(double position)
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
 * Class [TabStop](../)
@@ -79,12 +77,11 @@ Aspose::Words::TabStop::TabStop(double position, Aspose::Words::TabAlignment ali
 | position | double | The position of the tab stop in points. |
 | alignment | Aspose::Words::TabAlignment | A [TabAlignment](../../tabalignment/) value that specifies the alignment of text at this tab stop. |
 | leader | Aspose::Words::TabLeader | A [TabLeader](../../tableader/) value that specifies the type of the leader line displayed under the tab character. |
-
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -121,11 +118,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
-* Enum [TabAlignment](../../tabalignment/)
-* Enum [TabLeader](../../tableader/)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

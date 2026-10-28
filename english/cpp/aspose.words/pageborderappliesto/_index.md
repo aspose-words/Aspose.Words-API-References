@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageborderappliesto/
 Specifies which pages the page border is printed on.
 
 ```cpp
-enum class PageBorderAppliesTo
+enum class PageBorderAppliesTo : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class PageBorderAppliesTo
 | FirstPage | 1 | Page border is shown on the first page of the section only. |
 | OtherPages | 2 | Page border is shown on all pages except the first page of the section. |
 
-
 ## Examples
 
 
+Shows how to create a wide blue band border at the top of the first page.
 
-Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,8 +45,10 @@ border->set_DistanceFromText(0);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
-
 ## See Also
+
+* [PageSetup](../pagesetup/)
+* [BorderAppliesTo](../pagesetup/get_borderappliesto/)
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

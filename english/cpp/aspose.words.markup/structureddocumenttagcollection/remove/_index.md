@@ -20,12 +20,11 @@ void Aspose::Words::Markup::StructuredDocumentTagCollection::Remove(int32_t id)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | id | int32_t | The structured document tag identifier. |
-
 ## Examples
 
 
+Shows how to remove structured document tag.
 
-Shows how to remove structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
@@ -47,7 +46,6 @@ structuredDocumentTags->Remove(1691867797);
 structuredDocumentTags->RemoveAt(0);
 ASSERT_EQ(3, structuredDocumentTags->get_Count());
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTagCollection](../)

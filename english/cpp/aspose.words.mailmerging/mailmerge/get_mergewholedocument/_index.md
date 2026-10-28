@@ -2,20 +2,23 @@
 title: Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument method
 linktitle: get_MergeWholeDocument
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument method. Gets a value indicating whether fields in whole document are updated while executing of a mail merge with regions in C++.'
+description: 'Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument method. Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions in C++.'
 type: docs
-weight: 11000
+weight: 26448
 url: /cpp/aspose.words.mailmerging/mailmerge/get_mergewholedocument/
 ---
 ## MailMerge::get_MergeWholeDocument method
 
 
-Gets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
+Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
 
 ```cpp
-bool Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument() const
+_Bool Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument() const
 ```
 
+## Remarks
+
+ The default value is **false**. 
 ## See Also
 
 * Class [MailMerge](../)

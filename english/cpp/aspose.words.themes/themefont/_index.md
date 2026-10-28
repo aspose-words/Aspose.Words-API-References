@@ -13,23 +13,25 @@ url: /cpp/aspose.words.themes/themefont/
 Specifies the types of theme font names for document themes.
 
 ```cpp
-enum class ThemeFont
+enum class ThemeFont : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No theme font. |
 | Major | 1 | Major theme font. |
 | Minor | 2 | Minor theme font. |
+| None | 0 | No theme font. |
 
+## Remarks
 
+ Specifies a theme font type which can be referenced as a theme font within the parent object properties. This theme font is a reference to one of the predefined theme fonts, located in the document's Theme part, which allows for font information to be set centrally in the document. 
 ## Examples
 
 
+Shows how to work with theme fonts and colors.
 
-Shows how to work with theme fonts and colors. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -109,8 +111,8 @@ ASSERT_EQ(ThemeColor::None, font->get_ThemeColor());
 ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
 ```
 
+Shows how to create and use themed style.
 
-Shows how to create and use themed style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -126,7 +128,6 @@ style->get_Font()->set_TintAndShade(0.3);
 builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
 builder->Writeln(u"Text with themed style");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Themes](../)

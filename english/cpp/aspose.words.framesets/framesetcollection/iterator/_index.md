@@ -13,7 +13,7 @@ url: /cpp/aspose.words.framesets/framesetcollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Framesets::FramesetCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Framesets::FramesetCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

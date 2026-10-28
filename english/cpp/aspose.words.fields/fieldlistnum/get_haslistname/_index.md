@@ -4,7 +4,7 @@ linktitle: get_HasListName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_HasListName method. Returns a value indicating whether the name of an abstract numbering definition is provided by the field''s code in C++.'
 type: docs
-weight: 2000
+weight: 7668
 url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 ---
 ## FieldListNum::get_HasListName method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code.
 
 ```cpp
-bool Aspose::Words::Fields::FieldListNum::get_HasListName()
+_Bool Aspose::Words::Fields::FieldListNum::get_HasListName()
 ```
-
 
 ## Examples
 
 
+Shows how to number paragraphs with LISTNUM fields.
 
-Shows how to number paragraphs with LISTNUM fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,7 +83,6 @@ builder->Writeln(u"Paragraph 5");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.LISTNUM.docx");
 ```
-
 ## See Also
 
 * Class [FieldListNum](../)

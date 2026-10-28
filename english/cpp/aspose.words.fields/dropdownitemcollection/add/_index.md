@@ -13,23 +13,22 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/add/
 Adds a string to the end of the collection.
 
 ```cpp
-int32_t Aspose::Words::Fields::DropDownItemCollection::Add(const System::String &value)
+int32_t Aspose::Words::Fields::DropDownItemCollection::Add(const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String\& | The string to add to the end of the collection. |
+| value | const System::String \& | The string to add to the end of the collection. |
 
 ### ReturnValue
 
 The zero-based index at which the new element is inserted.
-
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

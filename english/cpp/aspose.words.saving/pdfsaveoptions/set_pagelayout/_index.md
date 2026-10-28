@@ -16,9 +16,11 @@ Specifies the page layout to be used when the document is opened in a PDF reader
 void Aspose::Words::Saving::PdfSaveOptions::set_PageLayout(Aspose::Words::Saving::PdfPageLayout value)
 ```
 
+## Remarks
+
+ The default value is [SinglePage](../../pdfpagelayout/). 
 ## See Also
 
-* Enum [PdfPageLayout](../../pdfpagelayout/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

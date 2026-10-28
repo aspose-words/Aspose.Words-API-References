@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldargumentbuilder/addtext/
 Adds a plain text to the argument.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fields::FieldArgumentBuilder::AddText(const System::String &text)
+System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> Aspose::Words::Fields::FieldArgumentBuilder::AddText(const System::String & text)
 ```
-
 
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -95,10 +94,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldArgumentBuilder](../)
 * Class [FieldArgumentBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

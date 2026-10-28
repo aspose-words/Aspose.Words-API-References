@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldCitation::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldCitation::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

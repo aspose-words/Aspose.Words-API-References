@@ -4,28 +4,27 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::idx_get method. Gets a property with the specified name in C++.'
 type: docs
-weight: 8000
+weight: 15000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/idx_get/
 ---
-## CustomXmlPropertyCollection::idx_get(const System::String\&) method
+## CustomXmlPropertyCollection::idx_get(const System::String \&) method
 
 
 Gets a property with the specified name.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty> Aspose::Words::Markup::CustomXmlPropertyCollection::idx_get(const System::String &name)
+System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty> Aspose::Words::Markup::CustomXmlPropertyCollection::idx_get(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-sensitive name of the property to locate. |
-
+| name | const System::String \& | Case-sensitive name of the property to locate. |
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -75,10 +74,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomXmlProperty](../../customxmlproperty/)
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -95,12 +92,11 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty> Aspose::Words::Marku
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the property. |
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -150,10 +146,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomXmlProperty](../../customxmlproperty/)
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

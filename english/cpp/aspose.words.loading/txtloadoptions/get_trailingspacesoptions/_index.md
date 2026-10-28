@@ -4,7 +4,7 @@ linktitle: get_TrailingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions method. Gets or sets preferred option of a trailing space handling. Default value is Trim in C++.'
 type: docs
-weight: 7000
+weight: 9889
 url: /cpp/aspose.words.loading/txtloadoptions/get_trailingspacesoptions/
 ---
 ## TxtLoadOptions::get_TrailingSpacesOptions method
@@ -16,12 +16,11 @@ Gets or sets preferred option of a trailing space handling. Default value is [Tr
 Aspose::Words::Loading::TxtTrailingSpacesOptions Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions() const
 ```
 
-
 ## Examples
 
 
+Shows how to trim whitespace when loading plaintext documents.
 
-Shows how to trim whitespace when loading plaintext documents. 
 ```cpp
 System::String textDoc = System::String(u"      Line 1 \n") + u"    Line 2   \n" + u" Line 3       ";
 
@@ -91,10 +90,8 @@ switch (txtTrailingSpacesOptions)
         break;
 }
 ```
-
 ## See Also
 
-* Enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

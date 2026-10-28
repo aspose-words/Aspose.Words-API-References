@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/processorcontext/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::ProcessorContext::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::ProcessorContext::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

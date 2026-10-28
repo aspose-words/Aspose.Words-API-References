@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_sequencename/
 Sets the name of a sequence whose number is included with the page number.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_SequenceName(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_SequenceName(const System::String & value)
 ```
 
 ## See Also

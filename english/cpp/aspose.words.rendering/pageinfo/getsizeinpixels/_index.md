@@ -25,7 +25,6 @@ System::Drawing::Size Aspose::Words::Rendering::PageInfo::GetSizeInPixels(float 
 ### ReturnValue
 
 The size of the page in pixels.
-
 ## See Also
 
 * Class [PageInfo](../)
@@ -50,7 +49,6 @@ System::Drawing::Size Aspose::Words::Rendering::PageInfo::GetSizeInPixels(float 
 ### ReturnValue
 
 The size of the page in pixels.
-
 ## See Also
 
 * Class [PageInfo](../)

@@ -4,7 +4,7 @@ linktitle: get_CharacterUnitRightIndent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent method. Gets or sets the right indent value (in characters) for the specified paragraphs in C++.'
 type: docs
-weight: 10000
+weight: 44230
 url: /cpp/aspose.words/paragraphformat/get_characterunitrightindent/
 ---
 ## ParagraphFormat::get_CharacterUnitRightIndent method
@@ -16,12 +16,11 @@ Gets or sets the right indent value (in characters) for the specified paragraphs
 double Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent()
 ```
 
-
 ## Examples
 
 
+Shows how to change paragraph spacing and indents.
 
-Shows how to change paragraph spacing and indents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +65,6 @@ ASSERT_NEAR(format->get_SpaceAfter(), 130.8, 0.1);
 builder->Writeln(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 builder->Write(System::String(u"测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试") + u"文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

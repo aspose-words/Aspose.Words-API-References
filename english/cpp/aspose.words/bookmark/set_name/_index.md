@@ -2,7 +2,7 @@
 title: Aspose::Words::Bookmark::set_Name method
 linktitle: set_Name
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bookmark::set_Name method. Setter for Aspose::Words::Bookmark::get_Name in C++.'
+description: 'Aspose::Words::Bookmark::set_Name method. Sets the name of the bookmark in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words/bookmark/set_name/
@@ -10,12 +10,37 @@ url: /cpp/aspose.words/bookmark/set_name/
 ## Bookmark::set_Name method
 
 
-Setter for [Aspose::Words::Bookmark::get_Name](../get_name/).
+Sets the name of the bookmark.
 
 ```cpp
-void Aspose::Words::Bookmark::set_Name(const System::String &value)
+void Aspose::Words::Bookmark::set_Name(const System::String & value)
 ```
 
+## Remarks
+
+ Note that if you change the name of a bookmark to a name that already exists in the document, no error will be given and only the first bookmark will be stored when you save the document. 
+## Examples
+
+
+Shows how to insert a bookmark.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// A valid bookmark has a name, a BookmarkStart, and a BookmarkEnd node.
+// Any whitespace in the names of bookmarks will be converted to underscores if we open the saved document with Microsoft Word.
+// If we highlight the bookmark's name in Microsoft Word via Insert -> Links -> Bookmark, and press "Go To",
+// the cursor will jump to the text enclosed between the BookmarkStart and BookmarkEnd nodes.
+builder->StartBookmark(u"My Bookmark");
+builder->Write(u"Contents of MyBookmark.");
+builder->EndBookmark(u"My Bookmark");
+
+// Bookmarks are stored in this collection.
+ASSERT_EQ(u"My Bookmark", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name());
+
+doc->Save(get_ArtifactsDir() + u"Bookmarks.Insert.docx");
+```
 ## See Also
 
 * Class [Bookmark](../)

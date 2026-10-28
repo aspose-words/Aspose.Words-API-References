@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_sourcefullname/
 Sets the location of the document using an IRI.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_SourceFullName(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_SourceFullName(const System::String & value)
 ```
 
 ## See Also

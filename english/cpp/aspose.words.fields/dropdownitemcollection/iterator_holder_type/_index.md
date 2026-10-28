@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Fields::DropDownItemCollection::iterator_holder_type =  System::Collections::Generic::List<System::String>
+using Aspose::Words::Fields::DropDownItemCollection::iterator_holder_type = System::Collections::Generic::List<System::String>
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_MajorUnitIsAuto
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto method. Gets or sets a flag indicating whether default distance between major tick marks shall be used in C++.'
 type: docs
-weight: 14000
+weight: 31540
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunitisauto/
 ---
 ## ChartAxis::get_MajorUnitIsAuto method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunitisauto/
 Gets or sets a flag indicating whether default distance between major tick marks shall be used.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto()
+_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto()
 ```
 
+## Remarks
 
+ The property has effect for time category and value axes. 
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,7 +76,6 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxis](../)

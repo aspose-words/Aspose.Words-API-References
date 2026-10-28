@@ -13,7 +13,7 @@ url: /cpp/aspose.words/shading/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Shading::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Shading::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

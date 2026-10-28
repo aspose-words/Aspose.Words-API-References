@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::SystemFontSource class
 linktitle: SystemFontSource
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::SystemFontSource class. Represents all TrueType fonts installed to the system. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fonts::SystemFontSource class. Represents all TrueType fonts installed to the system. To learn more, visit the Working with Fonts documentation article in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.fonts/systemfontsource/
@@ -10,33 +10,37 @@ url: /cpp/aspose.words.fonts/systemfontsource/
 ## SystemFontSource class
 
 
-Represents all TrueType fonts installed to the system. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
+Represents all TrueType fonts installed to the system. 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
-class SystemFontSource : public Aspose::Words::Fonts::FontSourceBase
+class SystemFontSource : public FontSourceBase
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [get_Priority](../fontsourcebase/get_priority/)() const | Returns the font source priority. |
-| [get_Type](./get_type/)() override | Returns the type of the font source. |
-| [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 | static [GetSystemFontFolders](./getsystemfontfolders/)() | Returns system font folders or empty array if folders are not accessible. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SystemFontSource](./systemfontsource/)() | Ctor. |
 | [SystemFontSource](./systemfontsource/)(int32_t) | Ctor. |
 | static [Type](./type/)() |  |
-
+| [get_Type](./get_type/)() override | Returns the type of the font source. |
+| [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
+| [GetType](../fontsourcebase/gettype/)() const override |  |
+| [Is](../fontsourcebase/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../fontsourcebase/type/)() |  |
+| [get_Priority](../fontsourcebase/get_priority/)() const | Returns the font source priority. |
+| virtual [get_Type](../fontsourcebase/get_type/)() | Returns the type of the font source. |
+| [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\> \&) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -88,7 +92,6 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
 * Class [FontSourceBase](../fontsourcebase/)

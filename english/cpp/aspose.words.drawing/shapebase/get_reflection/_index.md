@@ -4,7 +4,7 @@ linktitle: get_Reflection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Reflection method. Gets reflection formatting for the shape in C++.'
 type: docs
-weight: 41500
+weight: 61675
 url: /cpp/aspose.words.drawing/shapebase/get_reflection/
 ---
 ## ShapeBase::get_Reflection method
@@ -16,12 +16,11 @@ Gets reflection formatting for the shape.
 System::SharedPtr<Aspose::Words::Drawing::ReflectionFormat> Aspose::Words::Drawing::ShapeBase::get_Reflection()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -50,10 +49,8 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
-* Class [ReflectionFormat](../../reflectionformat/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

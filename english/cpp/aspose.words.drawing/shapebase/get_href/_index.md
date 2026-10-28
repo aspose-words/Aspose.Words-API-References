@@ -4,7 +4,7 @@ linktitle: get_HRef
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_HRef method. Gets or sets the full hyperlink address for a shape in C++.'
 type: docs
-weight: 24000
+weight: 61330
 url: /cpp/aspose.words.drawing/shapebase/get_href/
 ---
 ## ShapeBase::get_HRef method
@@ -27,19 +27,18 @@ Full URI: **https://www.aspose.com/**.
 
 Full file name: **C:\\My Documents\\SalesReport.doc**.
 
-Relative URI: **%../../../resource.txt**
+Relative URI: **../../../resource.txt**
 
-Relative file name: **%..\\My Documents\\SalesReport.doc**.
+Relative file name: **..\\My Documents\\SalesReport.doc**.
 
-[Bookmark](../../../aspose.words/bookmark/) within another document: **https://www.aspose.com/Products/Default.aspx::Suites**
+Bookmark within another document: **https://www.aspose.com/Products/Default.aspx#Suites**
 
-[Bookmark](../../../aspose.words/bookmark/) within this document: **%#BookmakName**.
-
+Bookmark within this document: **#BookmakName**.
 ## Examples
 
 
+Shows how to insert a shape which contains an image, and is also a hyperlink.
 
-Shows how to insert a shape which contains an image, and is also a hyperlink. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ shape->set_ScreenTip(u"Aspose.Words Support Forums");
 // and take us to the hyperlink in the "HRef" property.
 doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

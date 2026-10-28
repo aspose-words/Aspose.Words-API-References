@@ -23,7 +23,7 @@ Returns full merge field names including optional prefix. Does not eliminate dup
 
 A new string array is created on every call.
 
-Includes "mustache" field names if [UseNonMergeFields](../get_usenonmergefields/) is **true**. 
+Includes "mustache" field names if [UseNonMergeFields](../get_usenonmergefields/) is **true**.
 ## See Also
 
 * Class [MailMerge](../)

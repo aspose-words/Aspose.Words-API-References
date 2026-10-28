@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_Document method. Gets or sets the Document object that this object is attached to in C++.'
 type: docs
-weight: 16000
+weight: 81000
 url: /cpp/aspose.words/documentbuilder/get_document/
 ---
 ## DocumentBuilder::get_Document method
@@ -16,12 +16,11 @@ Gets or sets the [Document](./) object that this object is attached to.
 System::SharedPtr<Aspose::Words::Document> Aspose::Words::DocumentBuilder::get_Document() const
 ```
 
-
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

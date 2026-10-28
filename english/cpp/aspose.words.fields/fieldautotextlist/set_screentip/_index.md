@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautotextlist/set_screentip/
 Sets the text of the ScreenTip to show.
 
 ```cpp
-void Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip(const System::String &value)
+void Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip(const System::String & value)
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_AxisGroup
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisGroup method. Gets or sets the axis group to which this series group belongs in C++.'
 type: docs
-weight: 2000
+weight: 14154
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_axisgroup/
 ---
 ## ChartSeriesGroup::get_AxisGroup method
@@ -16,12 +16,11 @@ Gets or sets the axis group to which this series group belongs.
 Aspose::Words::Drawing::Charts::AxisGroup Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisGroup()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
-* Enum [AxisGroup](../../axisgroup/)
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

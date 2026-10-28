@@ -10,10 +10,10 @@ url: /cpp/aspose.words/signaturelineoptions/set_signer/
 ## SignatureLineOptions::set_Signer method
 
 
-Sets suggested signer of the signature line. Default value for this property is **empty string**.
+Sets suggested signer of the signature line. Default value for this property is empty string.
 
 ```cpp
-void Aspose::Words::SignatureLineOptions::set_Signer(const System::String &value)
+void Aspose::Words::SignatureLineOptions::set_Signer(const System::String & value)
 ```
 
 ## See Also

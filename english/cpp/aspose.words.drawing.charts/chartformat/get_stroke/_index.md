@@ -4,7 +4,7 @@ linktitle: get_Stroke
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_Stroke method. Gets line formatting for the parent chart element in C++.'
 type: docs
-weight: 3000
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartformat/get_stroke/
 ---
 ## ChartFormat::get_Stroke method
@@ -16,12 +16,11 @@ Gets line formatting for the parent chart element.
 System::SharedPtr<Aspose::Words::Drawing::Stroke> Aspose::Words::Drawing::Charts::ChartFormat::get_Stroke()
 ```
 
-
 ## Examples
 
 
+Show how to set marker formatting.
 
-Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +51,8 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
-
 ## See Also
 
-* Class [Stroke](../../../aspose.words.drawing/stroke/)
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_StoreItemId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::XmlMapping::get_StoreItemId method. Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the XPath expression in C++.'
 type: docs
-weight: 6000
+weight: 15000
 url: /cpp/aspose.words.markup/xmlmapping/get_storeitemid/
 ---
 ## XmlMapping::get_StoreItemId method
@@ -16,12 +16,11 @@ Specifies the custom XML data identifier for the custom XML data part which shal
 System::String Aspose::Words::Markup::XmlMapping::get_StoreItemId()
 ```
 
-
 ## Examples
 
 
+Shows how to get the custom XML data identifier of an XML part.
 
-Shows how to get the custom XML data identifier of an XML part. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom XML part in structured document tag.docx"));
 
@@ -30,7 +29,6 @@ auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(do
 
 ASSERT_EQ(u"{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag->get_XmlMapping()->get_StoreItemId());
 ```
-
 ## See Also
 
 * Class [XmlMapping](../)

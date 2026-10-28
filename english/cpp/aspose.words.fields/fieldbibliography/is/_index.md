@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbibliography/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldBibliography::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldBibliography::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

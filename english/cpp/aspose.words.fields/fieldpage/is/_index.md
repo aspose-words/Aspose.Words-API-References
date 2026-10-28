@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldpage/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldPage::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldPage::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

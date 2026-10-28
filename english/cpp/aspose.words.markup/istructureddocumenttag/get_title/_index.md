@@ -4,24 +4,23 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Title method. Specifies the friendly name associated with this SDT. Can not be null in C++.'
 type: docs
-weight: 12000
+weight: 17710
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_title/
 ---
 ## IStructuredDocumentTag::get_Title method
 
 
-Specifies the friendly name associated with this **SDT**. Can not be null.
+Specifies the friendly name associated with this SDT. Can not be null.
 
 ```cpp
-virtual System::String Aspose::Words::Markup::IStructuredDocumentTag::get_Title() const =0
+virtual System::String Aspose::Words::Markup::IStructuredDocumentTag::get_Title() const
 ```
-
 
 ## Examples
 
 
+Shows how to get structured document tag.
 
-Shows how to get structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags by id.docx"));
 
@@ -34,7 +33,6 @@ std::cout << sdt->get_Title() << std::endl;
 sdt = doc->get_Range()->get_StructuredDocumentTags()->GetByTitle(u"Alias4");
 std::cout << sdt->get_Id() << std::endl;
 ```
-
 ## See Also
 
 * Interface [IStructuredDocumentTag](../)

@@ -16,12 +16,11 @@ Makes a deep copy of this collection and its items.
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPartCollection> Aspose::Words::Markup::CustomXmlPartCollection::Clone()
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -81,10 +80,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPartCollection](../)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutenumerator/moveparent/
 Moves to the parent entity.
 
 ```cpp
-bool Aspose::Words::Layout::LayoutEnumerator::MoveParent()
+_Bool Aspose::Words::Layout::LayoutEnumerator::MoveParent()
 ```
 
 ## See Also
@@ -27,17 +27,18 @@ bool Aspose::Words::Layout::LayoutEnumerator::MoveParent()
 Moves to the parent entity of the specified type.
 
 ```cpp
-bool Aspose::Words::Layout::LayoutEnumerator::MoveParent(Aspose::Words::Layout::LayoutEntityType types)
+_Bool Aspose::Words::Layout::LayoutEnumerator::MoveParent(Aspose::Words::Layout::LayoutEntityType types)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | types | Aspose::Words::Layout::LayoutEntityType | The parent entity type to move to. Use bitwise-OR to specify multiple parent types. |
+## Remarks
 
+This method is useful if you need to find the cell, column or header/footer parent of the entity.
 ## See Also
 
-* Enum [LayoutEntityType](../../layoutentitytype/)
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

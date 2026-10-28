@@ -4,7 +4,7 @@ linktitle: get_Previous
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextBox::get_Previous method. Returns a TextBox that represents the previous TextBox in a sequence of shapes in C++.'
 type: docs
-weight: 12000
+weight: 17787
 url: /cpp/aspose.words.drawing/textbox/get_previous/
 ---
 ## TextBox::get_Previous method
@@ -16,12 +16,11 @@ Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequen
 System::SharedPtr<Aspose::Words::Drawing::TextBox> Aspose::Words::Drawing::TextBox::get_Previous()
 ```
 
-
 ## Examples
 
 
+Shows how to link text boxes.
 
-Shows how to link text boxes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,10 +81,8 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
-
 ## See Also
 
-* Class [TextBox](../)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/iterator_holder_ty
 
 
 ```cpp
-using Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator_holder_type =  System::Collections::Generic::SortedList<System::String, int32_t>
+using Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator_holder_type = System::Collections::Generic::SortedList<System::String, int32_t>
 ```
 
 ## See Also

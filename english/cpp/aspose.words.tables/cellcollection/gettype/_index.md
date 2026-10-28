@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cellcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Tables::CellCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Tables::CellCollection::GetType() const override
 ```
 
 ## See Also

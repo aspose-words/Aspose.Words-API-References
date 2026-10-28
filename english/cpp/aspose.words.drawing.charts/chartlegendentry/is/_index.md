@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartlegendentry/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::ChartLegendEntry::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::ChartLegendEntry::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

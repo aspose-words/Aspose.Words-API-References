@@ -13,20 +13,19 @@ url: /cpp/aspose.words.saving/digitalsignaturedetails/digitalsignaturedetails/
 Initializes a new instance of [DigitalSignatureDetails](../) class.
 
 ```cpp
-Aspose::Words::Saving::DigitalSignatureDetails::DigitalSignatureDetails(const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &certificateHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> &signOptions)
+Aspose::Words::Saving::DigitalSignatureDetails::DigitalSignatureDetails(const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & certificateHolder, const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & signOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificateHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\& | A certificate holder which contains the certificate itself. |
-| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\& | Signature options to use for signing a document. |
-
+| certificateHolder | const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \& | A certificate holder which contains the certificate itself. |
+| signOptions | const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \& | Signature options to use for signing a document. |
 ## Examples
 
 
+Shows how to sign OOXML document.
 
-Shows how to sign OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -44,11 +43,8 @@ ASSERT_EQ(u"Some comments", digitalSignatureDetails->get_SignOptions()->get_Comm
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
-* Class [SignOptions](../../../aspose.words.digitalsignatures/signoptions/)
 * Class [DigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/warninginfocollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::WarningInfoCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::WarningInfo> >
+using Aspose::Words::WarningInfoCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::WarningInfo> >
 ```
 
 ## See Also

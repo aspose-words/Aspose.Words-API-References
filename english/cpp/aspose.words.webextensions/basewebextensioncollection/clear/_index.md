@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Clear method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Clear method
 linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Clear method. Removes all elements from the collection in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Clear method. Removes all elements from the collection in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/clear/
@@ -16,12 +16,11 @@ Removes all elements from the collection.
 void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [BaseWebExtensionCollection](../)

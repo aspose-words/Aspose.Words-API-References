@@ -4,7 +4,7 @@ linktitle: SystemFontSource
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::SystemFontSource::SystemFontSource constructor. Ctor in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource::SystemFontSource() constructor
@@ -16,12 +16,11 @@ Ctor.
 Aspose::Words::Fonts::SystemFontSource::SystemFontSource()
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -73,7 +72,6 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
 * Class [SystemFontSource](../)
@@ -91,13 +89,12 @@ Aspose::Words::Fonts::SystemFontSource::SystemFontSource(int32_t priority)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| priority | int32_t | [Font](../../../aspose.words/font/) source priority. See the [Priority](../../fontsourcebase/get_priority/) property description for more information. |
-
+| priority | int32_t | Font source priority. See the [Priority](../../fontsourcebase/get_priority/) property description for more information. |
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -149,7 +146,6 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
 * Class [SystemFontSource](../)

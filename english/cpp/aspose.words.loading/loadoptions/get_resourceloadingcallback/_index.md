@@ -4,7 +4,7 @@ linktitle: get_ResourceLoadingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback method. Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML in C++.'
 type: docs
-weight: 15000
+weight: 20765
 url: /cpp/aspose.words.loading/loadoptions/get_resourceloadingcallback/
 ---
 ## LoadOptions::get_ResourceLoadingCallback method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> Aspose::Word
 
 ## See Also
 
-* Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_ThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_ThemeColor method. Gets or sets the theme color in the applied color scheme that is associated with this Font object in C++.'
 type: docs
-weight: 48000
+weight: 59847
 url: /cpp/aspose.words/font/get_themecolor/
 ---
 ## Font::get_ThemeColor method
@@ -16,12 +16,11 @@ Gets or sets the theme color in the applied color scheme that is associated with
 Aspose::Words::Themes::ThemeColor Aspose::Words::Font::get_ThemeColor()
 ```
 
-
 ## Examples
 
 
+Shows how to work with theme fonts and colors.
 
-Shows how to work with theme fonts and colors. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -101,8 +100,8 @@ ASSERT_EQ(ThemeColor::None, font->get_ThemeColor());
 ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
 ```
 
+Shows how to create and use themed style.
 
-Shows how to create and use themed style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -118,10 +117,8 @@ style->get_Font()->set_TintAndShade(0.3);
 builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");
 builder->Writeln(u"Text with themed style");
 ```
-
 ## See Also
 
-* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

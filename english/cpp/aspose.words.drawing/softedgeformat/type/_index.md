@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Drawing::SoftEdgeFormat class in C++.'
 type: docs
-weight: 1000
+weight: 5334
 url: /cpp/aspose.words.drawing/softedgeformat/type/
 ---
 ## SoftEdgeFormat::Type method

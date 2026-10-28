@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/bibliography/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Bibliography::Bibliography::GetType() const override
+const System::TypeInfo & Aspose::Words::Bibliography::Bibliography::GetType() const override
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::set_FirstLineIndent method
 linktitle: set_FirstLineIndent
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat::set_FirstLineIndent method. Setter for Aspose::Words::ParagraphFormat::get_FirstLineIndent in C++.'
+description: 'Aspose::Words::ParagraphFormat::set_FirstLineIndent method. Sets the value (in points) for a first line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent in C++.'
 type: docs
 weight: 54000
 url: /cpp/aspose.words/paragraphformat/set_firstlineindent/
@@ -10,12 +10,42 @@ url: /cpp/aspose.words/paragraphformat/set_firstlineindent/
 ## ParagraphFormat::set_FirstLineIndent method
 
 
-Setter for [Aspose::Words::ParagraphFormat::get_FirstLineIndent](../get_firstlineindent/).
+Sets the value (in points) for a first line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
 ```cpp
 void Aspose::Words::ParagraphFormat::set_FirstLineIndent(double value)
 ```
 
+## Examples
+
+
+Shows how to insert a paragraph into the document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Font> font = builder->get_Font();
+font->set_Size(16);
+font->set_Bold(true);
+font->set_Color(System::Drawing::Color::get_Blue());
+font->set_Name(u"Arial");
+font->set_Underline(Underline::Dash);
+
+System::SharedPtr<Aspose::Words::ParagraphFormat> paragraphFormat = builder->get_ParagraphFormat();
+paragraphFormat->set_FirstLineIndent(8);
+paragraphFormat->set_Alignment(ParagraphAlignment::Justify);
+paragraphFormat->set_AddSpaceBetweenFarEastAndAlpha(true);
+paragraphFormat->set_AddSpaceBetweenFarEastAndDigit(true);
+paragraphFormat->set_KeepTogether(true);
+
+// The "Writeln" method ends the paragraph after appending text
+// and then starts a new line, adding a new paragraph.
+builder->Writeln(u"Hello world!");
+
+ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
+```
 ## See Also
 
 * Class [ParagraphFormat](../)

@@ -13,23 +13,22 @@ url: /cpp/aspose.words/linenumberrestartmode/
 Determines when automatic line numbering restarts.
 
 ```cpp
-enum class LineNumberRestartMode
+enum class LineNumberRestartMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Continuous | 2 | Line numbering continuous from the previous section. |
 | RestartPage | 0 | Line numbering restarts at the start of every page. |
 | RestartSection | 1 | Line numbering restarts at the section start. |
-| Continuous | 2 | Line numbering continuous from the previous section. |
-
 
 ## Examples
 
 
+Shows how to enable line numbering for a section.
 
-Shows how to enable line numbering for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,8 +57,10 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
-
 ## See Also
+
+* [PageSetup](../pagesetup/)
+* [LineNumberRestartMode](../pagesetup/get_linenumberrestartmode/)
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

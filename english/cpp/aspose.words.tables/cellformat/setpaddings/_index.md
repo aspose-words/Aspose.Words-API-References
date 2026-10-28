@@ -16,12 +16,11 @@ Sets the amount of space (in points) to add to the left/top/right/bottom of the 
 void Aspose::Words::Tables::CellFormat::SetPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding)
 ```
 
-
 ## Examples
 
 
+Shows how to pad the contents of a cell with whitespace.
 
-Shows how to pad the contents of a cell with whitespace. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +36,6 @@ builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipisci
 
 doc->Save(get_ArtifactsDir() + u"CellFormat.Padding.docx");
 ```
-
 ## See Also
 
 * Class [CellFormat](../)

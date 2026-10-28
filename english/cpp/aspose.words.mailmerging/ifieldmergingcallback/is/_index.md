@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::IFieldMergingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::IFieldMergingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbarcode/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldBarcode::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldBarcode::GetType() const override
 ```
 
 ## See Also

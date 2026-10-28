@@ -4,7 +4,7 @@ linktitle: get_RequestedFamilyName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedFamilyName method. Requested font family name in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedfamilyname/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedFamilyName method
@@ -16,12 +16,11 @@ Requested font family name.
 System::String Aspose::Words::FontSubstitutionWarningInfo::get_RequestedFamilyName() const
 ```
 
-
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -45,7 +44,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Class [FontSubstitutionWarningInfo](../)

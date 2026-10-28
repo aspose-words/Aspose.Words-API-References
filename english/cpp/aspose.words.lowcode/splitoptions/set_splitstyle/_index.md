@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/splitoptions/set_splitstyle/
 Specifies the paragraph style for splitting the document into parts when [Style](../../splitcriteria/) is used.
 
 ```cpp
-void Aspose::Words::LowCode::SplitOptions::set_SplitStyle(const System::String &value)
+void Aspose::Words::LowCode::SplitOptions::set_SplitStyle(const System::String & value)
 ```
 
 ## See Also

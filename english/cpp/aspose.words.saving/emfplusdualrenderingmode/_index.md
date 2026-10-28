@@ -13,16 +13,16 @@ url: /cpp/aspose.words.saving/emfplusdualrenderingmode/
 Specifies how Aspose.Words should render EMF+ Dual metafiles.
 
 ```cpp
-enum class EmfPlusDualRenderingMode
+enum class EmfPlusDualRenderingMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| EmfPlusWithFallback | 0 | Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. If some of the EMF+ records are not supported then Aspose.Words renders EMF part of EMF+ Dual metafile. |
-| EmfPlus | 1 | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
 | Emf | 2 | Aspose.Words renders EMF part of EMF+ Dual metafile. |
+| EmfPlus | 1 | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
+| EmfPlusWithFallback | 0 | Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. If some of the EMF+ records are not supported then Aspose.Words renders EMF part of EMF+ Dual metafile. |
 
 ## See Also
 

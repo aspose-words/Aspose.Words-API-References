@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::Fields::DropDownItemCollection class in C++.'
 type: docs
-weight: 5000
+weight: 18445
 url: /cpp/aspose.words.fields/dropdownitemcollection/cend/
 ---
 ## DropDownItemCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::Fields::DropDownItemCollection::cend() const noexcept
+const_iterator Aspose::Words::Fields::DropDownItemCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

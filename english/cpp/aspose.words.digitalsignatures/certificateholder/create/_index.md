@@ -7,80 +7,89 @@ type: docs
 weight: 1000
 url: /cpp/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<System::Security::SecureString\>\&) method
+## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\> \&, const System::SharedPtr\<System::Security::SecureString\> \&) method
 
 
 Creates [CertificateHolder](../) object using byte array of PKCS12 store and its password.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::ArrayPtr<uint8_t> &certBytes, const System::SharedPtr<System::Security::SecureString> &password)
+static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::ArrayPtr<uint8_t> & certBytes, const System::SharedPtr<System::Security::SecureString> & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certBytes | const System::ArrayPtr\<uint8_t\>\& | A byte array that contains data from an X.509 certificate. |
-| password | const System::SharedPtr\<System::Security::SecureString\>\& | The password required to access the X.509 certificate data. |
+| certBytes | const System::ArrayPtr\<uint8_t\> \& | A byte array that contains data from an X.509 certificate. |
+| password | const System::SharedPtr\<System::Security::SecureString\> \& | The password required to access the X.509 certificate data. |
 
 ### ReturnValue
 
 An instance of [CertificateHolder](../)
+## Exceptions
+
+* **InvalidParameterException** - Thrown if certBytes is **null**
+* **InvalidParameterException** - Thrown if password is **null**
+* **SecurityException** - Thrown if PKCS12 store contains no aliases
+* **IOException** - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
 * Class [CertificateHolder](../)
-* Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::String\&) method
+## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\> \&, const System::String \&) method
 
 
 Creates [CertificateHolder](../) object using byte array of PKCS12 store and its password.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::ArrayPtr<uint8_t> &certBytes, const System::String &password)
+static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::ArrayPtr<uint8_t> & certBytes, const System::String & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certBytes | const System::ArrayPtr\<uint8_t\>\& | A byte array that contains data from an X.509 certificate. |
-| password | const System::String\& | The password required to access the X.509 certificate data. |
+| certBytes | const System::ArrayPtr\<uint8_t\> \& | A byte array that contains data from an X.509 certificate. |
+| password | const System::String \& | The password required to access the X.509 certificate data. |
 
 ### ReturnValue
 
 An instance of [CertificateHolder](../)
+## Exceptions
+
+* **InvalidParameterException** - Thrown if certBytes is **null**
+* **InvalidParameterException** - Thrown if password is **null**
+* **SecurityException** - Thrown if PKCS12 store contains no aliases
+* **IOException** - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
 * Class [CertificateHolder](../)
-* Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## CertificateHolder::Create(const System::String\&, const System::String\&) method
+## CertificateHolder::Create(const System::String \&, const System::String \&) method
 
 
 Creates [CertificateHolder](../) object using path to PKCS12 store and its password.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::String &fileName, const System::String &password)
+static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::String & fileName, const System::String & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The name of a certificate file. |
-| password | const System::String\& | The password required to access the X.509 certificate data. |
+| fileName | const System::String \& | The name of a certificate file. |
+| password | const System::String \& | The password required to access the X.509 certificate data. |
 
 ### ReturnValue
 
 An instance of [CertificateHolder](../)
-
 ## Examples
 
 
+Shows how to digitally sign documents.
 
-Shows how to digitally sign documents. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -100,36 +109,47 @@ signOptions->set_SignTime(System::DateTime::get_Now());
     }
 }
 ```
+## Exceptions
+
+* **InvalidParameterException** - Thrown if fileName is **null**
+* **InvalidParameterException** - Thrown if password is **null**
+* **SecurityException** - Thrown if PKCS12 store contains no aliases
+* **IOException** - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
 * Class [CertificateHolder](../)
-* Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
-## CertificateHolder::Create(const System::String\&, const System::String\&, const System::String\&) method
+## CertificateHolder::Create(const System::String \&, const System::String \&, const System::String \&) method
 
 
 Creates [CertificateHolder](../) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::String &fileName, const System::String &password, const System::String &alias)
+static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::CertificateHolder::Create(const System::String & fileName, const System::String & password, const System::String & alias)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The name of a certificate file. |
-| password | const System::String\& | The password required to access the X.509 certificate data. |
-| alias | const System::String\& | The associated alias for a certificate and its private key |
+| fileName | const System::String \& | The name of a certificate file. |
+| password | const System::String \& | The password required to access the X.509 certificate data. |
+| alias | const System::String \& | The associated alias for a certificate and its private key |
 
 ### ReturnValue
 
 An instance of [CertificateHolder](../)
+## Exceptions
+
+* **InvalidParameterException** - Thrown if fileName is **null**
+* **InvalidParameterException** - Thrown if password is **null**
+* **SecurityException** - Thrown if PKCS12 store contains no aliases
+* **IOException** - Thrown if there is wrong password or corrupted file.
+* **SecurityException** - Thrown if there is no private key with the given alias
 
 ## See Also
 
-* Class [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

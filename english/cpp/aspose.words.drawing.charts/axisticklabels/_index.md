@@ -20,6 +20,9 @@ class AxisTickLabels : public Core::IChartItemTextProperties
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment of the axis tick labels. |
 | [get_Font](./get_font/)() | Provides access to font formatting of the tick labels. |
 | [get_IsAutoSpacing](./get_isautospacing/)() | Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels. |
@@ -28,22 +31,18 @@ class AxisTickLabels : public Core::IChartItemTextProperties
 | [get_Position](./get_position/)() | Gets or sets the position of the tick labels on the axis. |
 | [get_Rotation](./get_rotation/)() | Gets or sets the rotation of the tick labels in degrees. |
 | [get_Spacing](./get_spacing/)() | Gets or sets the interval at which the tick labels are drawn. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Alignment](./get_alignment/). |
-| [set_IsAutoSpacing](./set_isautospacing/)(bool) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing](./get_isautospacing/). |
-| [set_Offset](./set_offset/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Offset](./get_offset/). |
-| [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Orientation](./get_orientation/). |
-| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::AxisTickLabelPosition) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Position](./get_position/). |
-| [set_Rotation](./set_rotation/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Rotation](./get_rotation/). |
-| [set_Spacing](./set_spacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::AxisTickLabels::get_Spacing](./get_spacing/). |
-| static [Type](./type/)() |  |
-
+| [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Sets text alignment of the axis tick labels. |
+| [set_IsAutoSpacing](./set_isautospacing/)(bool) | Sets a flag indicating whether to use automatic interval for drawing the tick labels. |
+| [set_Offset](./set_offset/)(int32_t) | Sets the distance of the tick labels from the axis. |
+| [set_Orientation](./set_orientation/)(Aspose::Words::Drawing::ShapeTextOrientation) | Sets the orientation of the tick label text. |
+| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::AxisTickLabelPosition) | Sets the position of the tick labels on the axis. |
+| [set_Rotation](./set_rotation/)(int32_t) | Sets the rotation of the tick labels in degrees. |
+| [set_Spacing](./set_spacing/)(int32_t) | Sets the interval at which the tick labels are drawn. |
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,7 +54,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -93,7 +92,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

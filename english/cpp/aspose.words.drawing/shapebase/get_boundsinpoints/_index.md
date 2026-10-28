@@ -4,7 +4,7 @@ linktitle: get_BoundsInPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_BoundsInPoints method. Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape in C++.'
 type: docs
-weight: 10000
+weight: 61135
 url: /cpp/aspose.words.drawing/shapebase/get_boundsinpoints/
 ---
 ## ShapeBase::get_BoundsInPoints method
@@ -16,12 +16,14 @@ Gets the location and size of the containing block of the shape in points, relat
 System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::get_BoundsInPoints()
 ```
 
+## Remarks
 
+ The returned bounds do not include the rotation of this shape or the rotation of the parent group shape, if any. 
 ## Examples
 
 
+Shows how to verify shape containing block boundaries.
 
-Shows how to verify shape containing block boundaries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,7 +78,6 @@ ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(250.0f), static_
 
 doc->Save(get_ArtifactsDir() + u"Shape.Bounds.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

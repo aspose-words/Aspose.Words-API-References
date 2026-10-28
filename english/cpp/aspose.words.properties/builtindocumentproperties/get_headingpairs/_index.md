@@ -4,7 +4,7 @@ linktitle: get_HeadingPairs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_HeadingPairs method. Specifies document headings and their names in C++.'
 type: docs
-weight: 12000
+weight: 36324
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_headingpairs/
 ---
 ## BuiltInDocumentProperties::get_HeadingPairs method
@@ -26,12 +26,11 @@ The first element of the pair is a **String** and specifies the heading name. Th
 The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [TitlesOfParts](../get_titlesofparts/) property.
 
 Aspose.Words does not update this property.
-
 ## Examples
 
 
+Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties.
 
-Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Heading pairs and titles of parts.docx"));
 
@@ -57,7 +56,6 @@ while (headingPairsIndex < headingPairs->get_Length())
     }
 }
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

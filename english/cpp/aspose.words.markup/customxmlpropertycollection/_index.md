@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlPropertyCollection class
 linktitle: CustomXmlPropertyCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlPropertyCollection class. Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::CustomXmlPropertyCollection class. Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/
 ## CustomXmlPropertyCollection class
 
 
-Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+Represents a collection of custom XML attributes or smart tag properties. 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>
@@ -20,29 +21,28 @@ class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumer
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\>\&) | Adds a property to the collection. |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\> \&) | Adds a property to the collection. |
 | [Clear](./clear/)() | Removes all elements from the collection. |
-| [Contains](./contains/)(const System::String\&) | Determines whether the collection contains a property with the given name. |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a property with the given name. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(const System::String\&) | Gets a property with the specified name. |
-| [idx_get](./idx_get/)(int32_t) | Gets a property at the specified index. |
-| [IndexOfKey](./indexofkey/)(const System::String\&) | Returns the zero-based index of the specified property in the collection. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::String\&) | Removes a property with the specified name from the collection. |
+| [IndexOfKey](./indexofkey/)(const System::String \&) | Returns the zero-based index of the specified property in the collection. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::String \&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(const System::String \&) | Gets a property with the specified name. |
+| [idx_get](./idx_get/)(int32_t) | Gets a property at the specified index. |
 ## Remarks
 
 
 Items are [CustomXmlProperty](../customxmlproperty/) objects.
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -92,7 +92,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

@@ -4,7 +4,7 @@ linktitle: get_IgnoreFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreFields method. Specifies whether to compare differences in fields in C++.'
 type: docs
-weight: 8000
+weight: 16536
 url: /cpp/aspose.words.comparing/compareoptions/get_ignorefields/
 ---
 ## CompareOptions::get_IgnoreFields method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorefields/
 Specifies whether to compare differences in fields.
 
 ```cpp
-bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFields() const
+_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFields() const
 ```
 
+## Remarks
 
+ By default fields are not ignored. 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -88,7 +90,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Class [CompareOptions](../)

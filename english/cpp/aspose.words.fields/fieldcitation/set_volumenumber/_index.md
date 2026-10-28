@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/set_volumenumber/
 Sets a volume number associated with the citation.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_VolumeNumber(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_VolumeNumber(const System::String & value)
 ```
 
 ## See Also

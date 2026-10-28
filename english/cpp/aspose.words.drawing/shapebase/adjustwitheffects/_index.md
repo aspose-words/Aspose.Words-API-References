@@ -16,12 +16,11 @@ Adds to the source rectangle values of the effect extent and returns the final r
 System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::AdjustWithEffects(System::Drawing::RectangleF source)
 ```
 
-
 ## Examples
 
 
+Shows how to check how a shape's bounds are affected by shape effects.
 
-Shows how to check how a shape's bounds are affected by shape effects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape shadow effect.docx"));
 
@@ -83,7 +82,6 @@ ASPOSE_ASSERT_EQ(-33, shape->get_BoundsWithEffects().get_Y());
 ASPOSE_ASSERT_EQ(192, shape->get_BoundsWithEffects().get_Width());
 ASPOSE_ASSERT_EQ(280.5, shape->get_BoundsWithEffects().get_Height());
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

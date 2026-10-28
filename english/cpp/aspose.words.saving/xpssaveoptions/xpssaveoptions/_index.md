@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Xps format in C++.'
 type: docs
-weight: 2000
+weight: 7064
 url: /cpp/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions::XpsSaveOptions() constructor
@@ -16,12 +16,11 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
-Shows how to limit the headings' level that will appear in the outline of a saved XPS document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
-
 ## See Also
 
 * Class [XpsSaveOptions](../)
@@ -72,12 +70,11 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions(Aspose::Words::SaveFormat saveFormat)
 ```
 
-
 ## Examples
 
 
+Shows how to save a document to the XPS format in the form of a book fold.
 
-Shows how to save a document to the XPS format in the form of a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -104,10 +101,8 @@ if (renderTextAsBookFold)
 // to come out of the printer and folding down the middle.
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

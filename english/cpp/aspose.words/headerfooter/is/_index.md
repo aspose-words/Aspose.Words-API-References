@@ -13,7 +13,7 @@ url: /cpp/aspose.words/headerfooter/is/
 
 
 ```cpp
-virtual bool Aspose::Words::HeaderFooter::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::HeaderFooter::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

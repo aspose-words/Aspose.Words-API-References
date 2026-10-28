@@ -4,7 +4,7 @@ linktitle: get_LineStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_LineStyle method. Defines the line style of the stroke in C++.'
 type: docs
-weight: 13000
+weight: 23684
 url: /cpp/aspose.words.drawing/stroke/get_linestyle/
 ---
 ## Stroke::get_LineStyle method
@@ -20,12 +20,11 @@ Aspose::Words::Drawing::ShapeLineStyle Aspose::Words::Drawing::Stroke::get_LineS
 
 
 The default value is [Single](../../shapelinestyle/).
-
 ## Examples
 
 
+Shows how change stroke properties.
 
-Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-
 ## See Also
 
-* Enum [ShapeLineStyle](../../shapelinestyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::OoxmlSaveOptions::set_KeepLegacyControlChars method
 linktitle: set_KeepLegacyControlChars
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::OoxmlSaveOptions::set_KeepLegacyControlChars method. Setter for Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars in C++.'
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::set_KeepLegacyControlChars method. Keeps original representation of legacy control characters in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_keeplegacycontrolchars/
@@ -10,12 +10,35 @@ url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_keeplegacycontrolchars/
 ## OoxmlSaveOptions::set_KeepLegacyControlChars method
 
 
-Setter for [Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars](../get_keeplegacycontrolchars/).
+Keeps original representation of legacy control characters.
 
 ```cpp
 void Aspose::Words::Saving::OoxmlSaveOptions::set_KeepLegacyControlChars(bool value)
 ```
 
+## Examples
+
+
+Shows how to support legacy control characters when converting to .docx.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Legacy control character.doc"));
+
+// When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+// and then pass it to the document's saving method to modify how we save the document.
+// Set the "KeepLegacyControlChars" property to "true" to preserve
+// the "ShortDateTime" legacy character while saving.
+// Set the "KeepLegacyControlChars" property to "false" to remove
+// the "ShortDateTime" legacy character from the output document.
+auto so = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(SaveFormat::Docx);
+so->set_KeepLegacyControlChars(keepLegacyControlChars);
+
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.KeepLegacyControlChars.docx", so);
+
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.KeepLegacyControlChars.docx"));
+
+ASSERT_EQ(keepLegacyControlChars ? System::String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f") : System::String(u"\u001e\f"), doc->get_FirstSection()->get_Body()->GetText());
+```
 ## See Also
 
 * Class [OoxmlSaveOptions](../)

@@ -16,12 +16,11 @@ If the last child is not a paragraph, creates and appends one empty paragraph.
 void Aspose::Words::Tables::Cell::EnsureMinimum()
 ```
 
-
 ## Examples
 
 
+Shows how to ensure a cell node contains the nodes we need to begin adding content to it.
 
-Shows how to ensure a cell node contains the nodes we need to begin adding content to it. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto table = System::MakeObject<Aspose::Words::Tables::Table>(doc);
@@ -40,7 +39,6 @@ ASSERT_EQ(0, cell->GetChildNodes(NodeType::Any, true)->get_Count());
 cell->EnsureMinimum();
 cell->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
-
 ## See Also
 
 * Class [Cell](../)

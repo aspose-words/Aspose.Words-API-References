@@ -13,23 +13,25 @@ url: /cpp/aspose.words.saving/zip64mode/
 Specifies when to use ZIP64 format extensions for OOXML files.
 
 ```cpp
-enum class Zip64Mode
+enum class Zip64Mode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Never | 0 | Do not use ZIP64 format extensions. |
-| IfNecessary | 1 | If necessary use ZIP64 format extensions. |
 | Always | 2 | Always use ZIP64 format extensions. |
+| IfNecessary | 1 | If necessary use ZIP64 format extensions. |
+| Never | 0 | Do not use ZIP64 format extensions. |
 
+## Remarks
 
+ OOXML file is a ZIP-archive that has a 4 GB (2^32 bytes) limit on uncompressed size of a file, compressed size of a file, and total size of the archive, as well as a limit of 65,535 (2^16-1) files in archive. ZIP64 format extensions increase the limits to 2^64. 
 ## Examples
 
 
+Shows how to use ZIP64 format extensions.
 
-Shows how to use ZIP64 format extensions. 
 ```cpp
 auto random = System::MakeObject<System::Random>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -54,8 +56,9 @@ saveOptions->set_Zip64Mode(Zip64Mode::Always);
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Zip64ModeOption.docx", saveOptions);
 ```
-
 ## See Also
+
+* [Zip64Mode](../ooxmlsaveoptions/get_zip64mode/)
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

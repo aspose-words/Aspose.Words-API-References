@@ -4,24 +4,23 @@ linktitle: get_ConvertShapeToOfficeMath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath method. Gets or sets whether to convert shapes with EquationXML to Office Math objects in C++.'
 type: docs
-weight: 5000
+weight: 20240
 url: /cpp/aspose.words.loading/loadoptions/get_convertshapetoofficemath/
 ---
 ## LoadOptions::get_ConvertShapeToOfficeMath method
 
 
-Gets or sets whether to convert shapes with EquationXML to Office [Math](../../../aspose.words.math/) objects.
+Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 
 ```cpp
-bool Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath() const
+_Bool Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath() const
 ```
-
 
 ## Examples
 
 
+Shows how to convert EquationXML shapes to Office Math objects.
 
-Shows how to convert EquationXML shapes to Office [Math](../../../aspose.words.math/) objects. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 
@@ -42,7 +41,6 @@ else
     ASSERT_EQ(0, doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count());
 }
 ```
-
 ## See Also
 
 * Class [LoadOptions](../)

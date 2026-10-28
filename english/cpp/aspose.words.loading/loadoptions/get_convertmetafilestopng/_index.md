@@ -4,24 +4,26 @@ linktitle: get_ConvertMetafilesToPng
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng method. Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format in C++.'
 type: docs
-weight: 4000
+weight: 20192
 url: /cpp/aspose.words.loading/loadoptions/get_convertmetafilestopng/
 ---
 ## LoadOptions::get_ConvertMetafilesToPng method
 
 
-Gets or sets whether to convert metafile([Wmf](../) or [Emf](../)) images to [Png](../) image format.
+Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format.
 
 ```cpp
-bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
+_Bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
 ```
 
+## Remarks
 
+ Metafiles (**Wmf** or **Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images. 
 ## Examples
 
 
+Shows how to convert WMF/EMF to PNG during loading document.
 
-Shows how to convert WMF/EMF to PNG during loading document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,7 +48,6 @@ shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeTy
 
 TestUtil::VerifyImageInShape(1666, 1666, ImageType::Png, shape);
 ```
-
 ## See Also
 
 * Class [LoadOptions](../)

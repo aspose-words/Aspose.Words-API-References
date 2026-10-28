@@ -16,12 +16,11 @@ Loads predefined table substitution settings for Linux platform.
 void Aspose::Words::Fonts::TableSubstitutionRule::LoadLinuxSettings()
 ```
 
-
 ## Examples
 
 
+Shows how to access font substitution tables for Windows and Linux.
 
-Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -50,7 +49,6 @@ ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"FreeSerif", u"Liberation S
     tableSubstitutionRule->Save(fileStream);
 }
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)

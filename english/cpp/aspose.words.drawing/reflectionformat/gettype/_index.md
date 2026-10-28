@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/reflectionformat/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::ReflectionFormat::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::ReflectionFormat::GetType() const override
 ```
 
 ## See Also

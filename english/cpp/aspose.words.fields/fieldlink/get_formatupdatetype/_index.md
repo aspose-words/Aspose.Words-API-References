@@ -4,7 +4,7 @@ linktitle: get_FormatUpdateType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldLink::get_FormatUpdateType method. Gets a way the linked object updates its formatting in C++.'
 type: docs
-weight: 3000
+weight: 15216
 url: /cpp/aspose.words.fields/fieldlink/get_formatupdatetype/
 ---
 ## FieldLink::get_FormatUpdateType method

@@ -4,7 +4,7 @@ linktitle: LoadFormatToExtension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatUtil::LoadFormatToExtension method. Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 6000
+weight: 12000
 url: /cpp/aspose.words/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil::LoadFormatToExtension method
@@ -20,12 +20,11 @@ static System::String Aspose::Words::FileFormatUtil::LoadFormatToExtension(Aspos
 
 
 The [WordML](../../saveformat/) value is converted to ".wml".
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -51,10 +50,12 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
+## Exceptions
+
+* **ArgumentException** - Throws when cannot convert.
 
 ## See Also
 
-* Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

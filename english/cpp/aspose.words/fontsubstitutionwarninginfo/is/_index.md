@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/is/
 
 
 ```cpp
-virtual bool Aspose::Words::FontSubstitutionWarningInfo::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::FontSubstitutionWarningInfo::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/watermark/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Watermark::GetType() const override
+const System::TypeInfo & Aspose::Words::Watermark::GetType() const override
 ```
 
 ## See Also

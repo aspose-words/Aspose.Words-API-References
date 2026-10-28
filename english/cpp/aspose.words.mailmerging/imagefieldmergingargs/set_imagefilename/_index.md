@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_imagefilename/
 Sets the file name of the image that the mail merge engine must insert into the document.
 
 ```cpp
-void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName(const System::String &value)
+void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName(const System::String & value)
 ```
 
 ## See Also

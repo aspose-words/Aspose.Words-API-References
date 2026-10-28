@@ -23,31 +23,30 @@ class ChartXValue : public System::Object
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Gets a flag indicating whether the specified object is equal to the current X value object. |
 | static [FromDateTime](./fromdatetime/)(System::DateTime) | Creates a [ChartXValue](./) instance of the [DateTime](../chartxvaluetype/) type. |
 | static [FromDouble](./fromdouble/)(double) | Creates a [ChartXValue](./) instance of the [Double](../chartxvaluetype/) type. |
-| static [FromMultilevelValue](./frommultilevelvalue/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\>\&) | Creates a [ChartXValue](./) instance of the [Multilevel](../chartxvaluetype/) type. |
-| static [FromString](./fromstring/)(const System::String\&) | Creates a [ChartXValue](./) instance of the [String](../chartxvaluetype/) type. |
+| static [FromMultilevelValue](./frommultilevelvalue/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartMultilevelValue\> \&) | Creates a [ChartXValue](./) instance of the [Multilevel](../chartxvaluetype/) type. |
+| static [FromString](./fromstring/)(const System::String \&) | Creates a [ChartXValue](./) instance of the [String](../chartxvaluetype/) type. |
 | static [FromTimeSpan](./fromtimespan/)(System::TimeSpan) | Creates a [ChartXValue](./) instance of the [Time](../chartxvaluetype/) type. |
+| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current X value object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_DateTimeValue](./get_datetimevalue/)() const | Gets the stored datetime value. |
 | [get_DoubleValue](./get_doublevalue/)() const | Gets the stored numeric value. |
 | [get_MultilevelValue](./get_multilevelvalue/)() const | Gets the stored multilevel value. |
 | [get_StringValue](./get_stringvalue/)() const | Gets the stored string value. |
 | [get_TimeValue](./get_timevalue/)() const | Gets the stored time value. |
 | [get_ValueType](./get_valuetype/)() const | Gets the type of the X value stored in the object. |
-| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current X value object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
 
 This class contains a number of static methods for creating an X value of a particular type. The [ValueType](./get_valuetype/) property allows you to determine the type of an existing X value.
 
 All non-null X values of a chart series must be of the same [ChartXValueType](../chartxvaluetype/) type.
-
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +76,6 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

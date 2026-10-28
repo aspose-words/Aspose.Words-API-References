@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/shapemarkuplanguage/
 ## ShapeMarkupLanguage enum
 
 
-Specifies [Markup](../../aspose.words.markup/) language used for the shape.
+Specifies Markup language used for the shape.
 
 ```cpp
 enum class ShapeMarkupLanguage : uint8_t
@@ -20,15 +20,14 @@ enum class ShapeMarkupLanguage : uint8_t
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Dml | 0 | [Drawing](../)[Markup](../../aspose.words.markup/) Language is used to define the shape. |
-| Vml | 1 | Vector [Markup](../../aspose.words.markup/) Language is used to define the shape. |
-
+| Dml | 0 | Drawing Markup Language is used to define the shape. |
+| Vml | 1 | Vector Markup Language is used to define the shape. |
 
 ## Examples
 
 
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

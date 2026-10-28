@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSymbol class
 linktitle: FieldSymbol
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSymbol class. Implements a SYMBOL field. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldSymbol class. Implements a SYMBOL field. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 98000
 url: /cpp/aspose.words.fields/fieldsymbol/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words.fields/fieldsymbol/
 ## FieldSymbol class
 
 
-Implements a SYMBOL field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Implements a SYMBOL field. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
-class FieldSymbol : public Aspose::Words::Fields::Field,
+class FieldSymbol : public Field,
                     public IFieldCodeTokenInfoProvider
 ```
 
@@ -21,51 +22,56 @@ class FieldSymbol : public Aspose::Words::Fields::Field,
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_CharacterCode](./get_charactercode/)() | Gets or sets the character's code point value in decimal or hexadecimal. |
-| [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_DontAffectsLineSpacing](./get_dontaffectslinespacing/)() | Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph. |
+| [get_FontName](./get_fontname/)() | Gets or sets the name of the font of the character retrieved by the field. |
+| [get_FontSize](./get_fontsize/)() | Gets or sets the size in points of the font of the character retrieved by the field. |
+| [get_IsAnsi](./get_isansi/)() | Gets or sets whether the character code is interpreted as the value of an ANSI character. |
+| [get_IsShiftJis](./get_isshiftjis/)() | Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character. |
+| [get_IsUnicode](./get_isunicode/)() | Gets or sets whether the character code is interpreted as the value of a Unicode character. |
+| [set_CharacterCode](./set_charactercode/)(const System::String \&) | Sets the character's code point value in decimal or hexadecimal. |
+| [set_DontAffectsLineSpacing](./set_dontaffectslinespacing/)(bool) | Sets whether the character retrieved by the field affects the line spacing of the paragraph. |
+| [set_FontName](./set_fontname/)(const System::String \&) | Sets the name of the font of the character retrieved by the field. |
+| [set_FontSize](./set_fontsize/)(const System::String \&) | Sets the size in points of the font of the character retrieved by the field. |
+| [set_IsAnsi](./set_isansi/)(bool) | Sets whether the character code is interpreted as the value of an ANSI character. |
+| [set_IsShiftJis](./set_isshiftjis/)(bool) | Sets whether the character code is interpreted as the value of a SHIFT-JIS character. |
+| [set_IsUnicode](./set_isunicode/)(bool) | Sets whether the character code is interpreted as the value of a Unicode character. |
+| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](../field/gettype/)() const override |  |
+| [Is](../field/is/)(const System::TypeInfo \&) const override |  |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| static [Type](../field/type/)() |  |
+| [Unlink](../field/unlink/)() | Performs the field unlink. |
+| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
-| [get_FontName](./get_fontname/)() | Gets or sets the name of the font of the character retrieved by the field. |
-| [get_FontSize](./get_fontsize/)() | Gets or sets the size in points of the font of the character retrieved by the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsAnsi](./get_isansi/)() | Gets or sets whether the character code is interpreted as the value of an ANSI character. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
-| [get_IsShiftJis](./get_isshiftjis/)() | Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character. |
-| [get_IsUnicode](./get_isunicode/)() | Gets or sets whether the character code is interpreted as the value of a Unicode character. |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_CharacterCode](./set_charactercode/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSymbol::get_CharacterCode](./get_charactercode/). |
-| [set_DontAffectsLineSpacing](./set_dontaffectslinespacing/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing](./get_dontaffectslinespacing/). |
-| [set_FontName](./set_fontname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSymbol::get_FontName](./get_fontname/). |
-| [set_FontSize](./set_fontsize/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSymbol::get_FontSize](./get_fontsize/). |
-| [set_IsAnsi](./set_isansi/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsAnsi](./get_isansi/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
-| [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
-| [set_IsShiftJis](./set_isshiftjis/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsShiftJis](./get_isshiftjis/). |
-| [set_IsUnicode](./set_isunicode/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsUnicode](./get_isunicode/). |
-| [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
-| [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
-| static [Type](./type/)() |  |
-| [Unlink](../field/unlink/)() | Performs the field unlink. |
-| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsLocked](../field/set_islocked/)(bool) | Sets whether the field is locked (should not recalculate its result). |
+| [set_LocaleId](../field/set_localeid/)(int32_t) | Sets the LCID of the field. |
+| [set_Result](../field/set_result/)(const System::String \&) | Sets text that is between the field separator and field end. |
+## Remarks
 
+ Retrieves the character whose code point value is specified in decimal or hexadecimal. 
 ## Examples
 
 
+Shows how to use the SYMBOL field.
 
-Shows how to use the SYMBOL field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -114,7 +120,6 @@ builder->Write(u"Line 3");
 
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [Field](../field/)

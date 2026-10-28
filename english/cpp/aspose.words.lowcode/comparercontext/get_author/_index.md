@@ -4,7 +4,7 @@ linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::ComparerContext::get_Author method. The author to be assigned to revisions created during document comparison in C++.'
 type: docs
-weight: 4000
+weight: 8501
 url: /cpp/aspose.words.lowcode/comparercontext/get_author/
 ---
 ## ComparerContext::get_Author method

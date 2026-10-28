@@ -26,12 +26,11 @@ The row node that was just finished.
 Call [EndRow](./) to end a table row. If you call [InsertCell](../insertcell/) immediately after that, then the table continues on a new row.
 
 Use the [RowFormat](../get_rowformat/) property to specify row formatting.
-
 ## Examples
 
 
+Shows how to merge table cells vertically.
 
-Shows how to merge table cells vertically. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,8 +63,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"CellFormat.VerticalMerge.docx");
 ```
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -125,8 +124,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -165,10 +164,8 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
-* Class [Row](../../../aspose.words.tables/row/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartLegendEntry class
 linktitle: ChartLegendEntry
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartLegendEntry class. Represents a chart legend entry. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartLegendEntry class. Represents a chart legend entry. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartlegendentry/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chartlegendentry/
 ## ChartLegendEntry class
 
 
-Represents a chart legend entry. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents a chart legend entry. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
@@ -21,24 +22,23 @@ class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtension
 
 | Method | Description |
 | --- | --- |
-| [get_Font](./get_font/)() | Provides access to the font formatting of this legend entry. |
-| [get_IsHidden](./get_ishidden/)() const | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_IsHidden](./set_ishidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartLegendEntry::get_IsHidden](./get_ishidden/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_Font](./get_font/)() | Provides access to the font formatting of this legend entry. |
+| [get_IsHidden](./get_ishidden/)() const | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |
+| [set_IsHidden](./set_ishidden/)(bool) | Sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |
 ## Remarks
 
 
 A legend entry corresponds to a specific chart series or trendline.
 
 The text of the entry is the name of the series or trendline. The text cannot be changed.
-
 ## Examples
 
 
+Shows how to work with a legend font.
 
-Shows how to work with a legend font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Reporting engine template - Chart series.docx"));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_Chart();
@@ -54,7 +54,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntry> legendEntry 
 
 doc->Save(get_ArtifactsDir() + u"Charts.LegendFont.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -4,7 +4,7 @@ linktitle: get_ResourceFolderAlias
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias method. Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string in C++.'
 type: docs
-weight: 44000
+weight: 49920
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_resourcefolderalias/
 ---
 ## HtmlSaveOptions::get_ResourceFolderAlias method
@@ -19,19 +19,18 @@ System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias()
 ## Remarks
 
 
-[ResourceFolderAlias](./) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [ImagesFolderAlias](../get_imagesfolderalias/) and [FontsFolderAlias](../get_fontsfolderalias/) properties, respectively. However, there is no individual property for CSS.
+[ResourceFolderAlias](./) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [ImagesFolderAlias](../get_imagesfolderalias/) and [FontsFolderAlias](../get_fontsfolderalias/) properties, respectively. However, there is no individual property for CSS. 
 
 [ResourceFolderAlias](./) has lower priority than [FontsFolderAlias](../get_fontsfolderalias/) and [ImagesFolderAlias](../get_imagesfolderalias/). For example, if both [ResourceFolderAlias](./) and [FontsFolderAlias](../get_fontsfolderalias/) are specified, fonts' URIs will be constructed using [FontsFolderAlias](../get_fontsfolderalias/), while URIs of images and CSS will be constructed using [ResourceFolderAlias](./).
 
 If [ResourceFolderAlias](./) is empty, the [ResourceFolder](../get_resourcefolder/) property value will be used to construct resource URIs.
 
 If [ResourceFolderAlias](./) is set to '.' (dot), resource URIs will contain file names only, without any path.
-
 ## Examples
 
 
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
-Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -50,7 +49,6 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

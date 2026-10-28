@@ -4,7 +4,7 @@ linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDde::get_ProgId method. Gets the application type of the link information in C++.'
 type: docs
-weight: 10000
+weight: 14770
 url: /cpp/aspose.words.fields/fielddde/get_progid/
 ---
 ## FieldDde::get_ProgId method

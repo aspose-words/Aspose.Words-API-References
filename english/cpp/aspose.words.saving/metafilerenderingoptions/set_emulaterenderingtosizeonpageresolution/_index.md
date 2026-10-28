@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPageResolution method
 linktitle: set_EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPageResolution method. Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPageResolution in C++.'
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPageResolution method. Sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page in C++.'
 type: docs
 weight: 12667
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterenderingtosizeonpageresolution/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterenderingtosiz
 ## MetafileRenderingOptions::set_EmulateRenderingToSizeOnPageResolution method
 
 
-Setter for [Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPageResolution](../get_emulaterenderingtosizeonpageresolution/).
+Sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page.
 
 ```cpp
 void Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRenderingToSizeOnPageResolution(int32_t value)
 ```
 
+## Remarks
+
+
+This option is used only when [EmulateRenderingToSizeOnPage](../get_emulaterenderingtosizeonpage/) is set to **true**.
+
+The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of the metafile in MS Word with a 100% zoom factor.
 ## See Also
 
 * Class [MetafileRenderingOptions](../)

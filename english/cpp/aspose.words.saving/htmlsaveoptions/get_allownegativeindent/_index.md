@@ -4,7 +4,7 @@ linktitle: get_AllowNegativeIndent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_AllowNegativeIndent method. Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is false in C++.'
 type: docs
-weight: 3000
+weight: 49042
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_allownegativeindent/
 ---
 ## HtmlSaveOptions::get_AllowNegativeIndent method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_allownegativeindent/
 Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_AllowNegativeIndent() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_AllowNegativeIndent() const
 ```
 
 ## Remarks
 
 
 When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
-
 ## Examples
 
 
+Shows how to preserve negative indents in the output .html.
 
-Shows how to preserve negative indents in the output .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,7 +73,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"margin-left:30.35pt; border:0.75pt solid #000000; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_Glow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Glow method. Gets glow formatting for the shape in C++.'
 type: docs
-weight: 21500
+weight: 61315
 url: /cpp/aspose.words.drawing/shapebase/get_glow/
 ---
 ## ShapeBase::get_Glow method
@@ -16,12 +16,11 @@ Gets glow formatting for the shape.
 System::SharedPtr<Aspose::Words::Drawing::GlowFormat> Aspose::Words::Drawing::ShapeBase::get_Glow()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with glow shape effect.
 
-Shows how to interact with glow shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -45,10 +44,8 @@ ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), shape->get_Glow()->get_C
 ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Radius());
 ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Transparency());
 ```
-
 ## See Also
 
-* Class [GlowFormat](../../glowformat/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

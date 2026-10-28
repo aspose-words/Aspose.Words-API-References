@@ -4,7 +4,7 @@ linktitle: get_DoNotDisplayPageBoundaries
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries method. Turns off display of the space between the top of the text and the top edge of the page in C++.'
 type: docs
-weight: 3000
+weight: 9375
 url: /cpp/aspose.words.settings/viewoptions/get_donotdisplaypageboundaries/
 ---
 ## ViewOptions::get_DoNotDisplayPageBoundaries method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.settings/viewoptions/get_donotdisplaypageboundaries/
 Turns off display of the space between the top of the text and the top edge of the page.
 
 ```cpp
-bool Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries() const
+_Bool Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries() const
 ```
-
 
 ## Examples
 
 
+Shows how to hide vertical whitespace and headers/footers in view options.
 
-Shows how to hide vertical whitespace and headers/footers in view options. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc->get_ViewOptions()->set_DoNotDisplayPageBoundaries(doNotDisplayPageBoundarie
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.DisplayPageBoundaries.doc");
 ```
-
 ## See Also
 
 * Class [ViewOptions](../)

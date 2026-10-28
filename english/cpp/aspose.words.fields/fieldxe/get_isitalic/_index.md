@@ -4,7 +4,7 @@ linktitle: get_IsItalic
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldXE::get_IsItalic method. Gets or sets whether to apply italic formatting to the entry''s page number in C++.'
 type: docs
-weight: 4000
+weight: 10445
 url: /cpp/aspose.words.fields/fieldxe/get_isitalic/
 ---
 ## FieldXE::get_IsItalic method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldxe/get_isitalic/
 Gets or sets whether to apply italic formatting to the entry's page number.
 
 ```cpp
-bool Aspose::Words::Fields::FieldXE::get_IsItalic()
+_Bool Aspose::Words::Fields::FieldXE::get_IsItalic()
 ```
-
 
 ## Examples
 
 
+Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 
-Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Formatting.docx");
 ```
-
 ## See Also
 
 * Class [FieldXE](../)

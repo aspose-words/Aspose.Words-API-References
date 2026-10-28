@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasource/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::IMailMergeDataSource::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::IMailMergeDataSource::GetType() const override
 ```
 
 ## See Also

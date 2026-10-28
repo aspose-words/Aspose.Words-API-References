@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/smarttag/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::SmartTag::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::SmartTag::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

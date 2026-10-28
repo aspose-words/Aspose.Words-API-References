@@ -13,7 +13,7 @@ url: /cpp/aspose.words/commentcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::CommentCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::CommentCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

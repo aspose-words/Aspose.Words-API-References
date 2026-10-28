@@ -4,7 +4,7 @@ linktitle: get_KeepLegacyControlChars
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars method. Keeps original representation of legacy control characters in C++.'
 type: docs
-weight: 5000
+weight: 9600
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions::get_KeepLegacyControlChars method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_keeplegacycontrolchars/
 Keeps original representation of legacy control characters.
 
 ```cpp
-bool Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars() const
+_Bool Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars() const
 ```
-
 
 ## Examples
 
 
+Shows how to support legacy control characters when converting to .docx.
 
-Shows how to support legacy control characters when converting to .docx. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Legacy control character.doc"));
 
@@ -40,7 +39,6 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_EQ(keepLegacyControlChars ? System::String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f") : System::String(u"\u001e\f"), doc->get_FirstSection()->get_Body()->GetText());
 ```
-
 ## See Also
 
 * Class [OoxmlSaveOptions](../)

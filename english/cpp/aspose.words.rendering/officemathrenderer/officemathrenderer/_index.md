@@ -4,7 +4,7 @@ linktitle: OfficeMathRenderer
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 5000
 url: /cpp/aspose.words.rendering/officemathrenderer/officemathrenderer/
 ---
 ## OfficeMathRenderer::OfficeMathRenderer constructor
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.rendering/officemathrenderer/officemathrenderer/
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer(const System::SharedPtr<Aspose::Words::Math::OfficeMath> &math)
+Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer(const System::SharedPtr<Aspose::Words::Math::OfficeMath> & math)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| math | const System::SharedPtr\<Aspose::Words::Math::OfficeMath\>\& | The [OfficeMath](../../../aspose.words.math/officemath/) object that you want to render. |
-
+| math | const System::SharedPtr\<Aspose::Words::Math::OfficeMath\> \& | The [OfficeMath](../../../aspose.words.math/officemath/) object that you want to render. |
 ## Examples
 
 
+Shows how to measure and scale shapes.
 
-Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -66,10 +65,8 @@ System::String dpi96150Opaque = u"DPI 96 150 Opaque";
 ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
 ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
-
 ## See Also
 
-* Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [OfficeMathRenderer](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)

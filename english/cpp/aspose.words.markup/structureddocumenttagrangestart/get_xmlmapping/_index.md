@@ -4,7 +4,7 @@ linktitle: get_XmlMapping
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_XmlMapping method. Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document in C++.'
 type: docs
-weight: 21000
+weight: 27477
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart::get_XmlMapping method
@@ -16,12 +16,14 @@ Gets an object that represents the mapping of this structured document tag range
 System::SharedPtr<Aspose::Words::Markup::XmlMapping> Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_XmlMapping() override
 ```
 
+## Remarks
 
+ You can use the [SetMapping()](../../xmlmapping/setmapping/) method of this object to map a structured document tag range to XML data. 
 ## Examples
 
 
+Shows how to set XML mappings for the range start of a structured document tag.
 
-Shows how to set XML mappings for the range start of a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
@@ -42,10 +44,8 @@ sdtRangeStart->get_XmlMapping()->SetMapping(xmlPart, u"/root[1]/text[2]", nullpt
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");
 ```
-
 ## See Also
 
-* Class [XmlMapping](../../xmlmapping/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

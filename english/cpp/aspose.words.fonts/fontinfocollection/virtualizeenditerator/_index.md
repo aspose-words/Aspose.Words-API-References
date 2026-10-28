@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Fonts::FontInfoCollection::virtualizeEndIt
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Rotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Rotation method. Gets or sets the rotation of the axis title in degrees in C++.'
 type: docs
-weight: 4500
+weight: 8335
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_rotation/
 ---
 ## ChartAxisTitle::get_Rotation method
@@ -16,12 +16,14 @@ Gets or sets the rotation of the axis title in degrees.
 int32_t Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Rotation()
 ```
 
+## Remarks
 
+ The range of acceptable values is from -180 to 180 inclusive. 
 ## Examples
 
 
+Shows how to set orientation and rotation of chart and axis titles.
 
-Shows how to set orientation and rotation of chart and axis titles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +42,6 @@ chart->get_AxisX()->get_Title()->set_Rotation(-90);
 
 doc->Save(get_ArtifactsDir() + u"Charts.TitleOrientation.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxisTitle](../)

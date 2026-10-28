@@ -4,7 +4,7 @@ linktitle: get_AxisBetweenCategories
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories method. Gets or sets a flag indicating whether the value axis crosses the category axis between categories in C++.'
 type: docs
-weight: 2000
+weight: 31072
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_axisbetweencategories/
 ---
 ## ChartAxis::get_AxisBetweenCategories method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_axisbetweencategories/
 Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories()
+_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories()
 ```
 
+## Remarks
 
+ The property has effect only for value axes. It is not supported by MS Office 2016 new charts. 
 ## Examples
 
 
+Shows how to get a graph axis to cross at a custom location.
 
-Shows how to get a graph axis to cross at a custom location. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,7 +46,6 @@ axis->set_AxisBetweenCategories(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisCross.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxis](../)

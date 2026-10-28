@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::BuildingBlocks::GlossaryDocument class in C++.'
 type: docs
-weight: 1000
+weight: 10000
 url: /cpp/aspose.words.buildingblocks/glossarydocument/type/
 ---
 ## GlossaryDocument::Type method

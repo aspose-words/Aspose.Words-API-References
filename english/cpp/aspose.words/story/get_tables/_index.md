@@ -4,7 +4,7 @@ linktitle: get_Tables
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_Tables method. Gets a collection of tables that are immediate children of the story in C++.'
 type: docs
-weight: 8000
+weight: 16000
 url: /cpp/aspose.words/story/get_tables/
 ---
 ## Story::get_Tables method
@@ -16,12 +16,11 @@ Gets a collection of tables that are immediate children of the story.
 System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::Story::get_Tables() override
 ```
 
-
 ## Examples
 
 
+Shows how to remove the first and last rows of all tables in a document.
 
-Shows how to remove the first and last rows of all tables in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -47,10 +46,8 @@ for (auto&& table : System::IterateOver(tables->LINQ_OfType<System::SharedPtr<As
 ASSERT_EQ(3, tables->idx_get(0)->get_Rows()->get_Count());
 ASSERT_EQ(2, tables->idx_get(1)->get_Rows()->get_Count());
 ```
-
 ## See Also
 
-* Class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

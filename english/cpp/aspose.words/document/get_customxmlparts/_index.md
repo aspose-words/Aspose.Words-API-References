@@ -4,7 +4,7 @@ linktitle: get_CustomXmlParts
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_CustomXmlParts method. Gets or sets the collection of Custom XML Data Storage Parts in C++.'
 type: docs
-weight: 19000
+weight: 109000
 url: /cpp/aspose.words/document/get_customxmlparts/
 ---
 ## Document::get_CustomXmlParts method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPartCollection> Aspose::Words:
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
 This property cannot be **null**.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -87,10 +86,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

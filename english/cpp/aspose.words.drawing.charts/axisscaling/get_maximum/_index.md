@@ -4,7 +4,7 @@ linktitle: get_Maximum
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisScaling::get_Maximum method. Gets or sets the maximum value of the axis in C++.'
 type: docs
-weight: 4000
+weight: 8501
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_maximum/
 ---
 ## AxisScaling::get_Maximum method
@@ -16,12 +16,14 @@ Gets or sets the maximum value of the axis.
 System::SharedPtr<Aspose::Words::Drawing::Charts::AxisBound> Aspose::Words::Drawing::Charts::AxisScaling::get_Maximum()
 ```
 
+## Remarks
 
+ The default value is "auto". 
 ## Examples
 
 
+Shows how to insert chart with date/time values.
 
-Shows how to insert chart with date/time values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,10 +35,11 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Add a custom series containing date/time values for the X-axis, and respective decimal values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::DateTime>({System::DateTime(2017, 11, 6),
-    System::DateTime(2017, 11, 9), System::DateTime(2017, 11, 15), System::DateTime(2017, 11, 21),
-    System::DateTime(2017, 11, 25), System::DateTime(2017, 11, 29)}), System::MakeArray<double>({1.2, 0.3, 2.1,
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::DateTime>({System::DateTime(2017, 11, 6), 
+    System::DateTime(2017, 11, 9), System::DateTime(2017, 11, 15), System::DateTime(2017, 11, 21), 
+    System::DateTime(2017, 11, 25), System::DateTime(2017, 11, 29)}), System::MakeArray<double>({1.2, 0.3, 2.1, 
     2.9, 4.2, 5.3}));
+
 
 // Set lower and upper bounds for the X-axis.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> xAxis = chart->get_AxisX();
@@ -65,10 +68,8 @@ yAxis->set_HasMinorGridlines(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.DateTimeValues.docx");
 ```
-
 ## See Also
 
-* Class [AxisBound](../../axisbound/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: set_CustomStyles
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::set_CustomStyles method. Sets a list of styles other than the built-in heading styles to include in the table of contents in C++.'
 type: docs
-weight: 25000
+weight: 58000
 url: /cpp/aspose.words.fields/fieldtoc/set_customstyles/
 ---
 ## FieldToc::set_CustomStyles method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/set_customstyles/
 Sets a list of styles other than the built-in heading styles to include in the table of contents.
 
 ```cpp
-void Aspose::Words::Fields::FieldToc::set_CustomStyles(const System::String &value)
+void Aspose::Words::Fields::FieldToc::set_CustomStyles(const System::String & value)
 ```
 
 ## See Also

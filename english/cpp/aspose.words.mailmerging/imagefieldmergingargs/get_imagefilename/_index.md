@@ -4,7 +4,7 @@ linktitle: get_ImageFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::get_ImageFileName method. Sets the file name of the image that the mail merge engine must insert into the document in C++.'
 type: docs
-weight: 3000
+weight: 9375
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/get_imagefilename/
 ---
 ## ImageFieldMergingArgs::get_ImageFileName method

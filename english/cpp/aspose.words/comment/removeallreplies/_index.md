@@ -16,12 +16,14 @@ Removes all replies to this comment.
 void Aspose::Words::Comment::RemoveAllReplies()
 ```
 
+## Remarks
 
+ All constituent nodes of the replies will be deleted from the document.
 ## Examples
 
 
+Shows how to remove comment replies.
 
-Shows how to remove comment replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,7 +48,6 @@ comment->RemoveAllReplies();
 
 ASSERT_EQ(0, comment->get_Replies()->get_Count());
 ```
-
 ## See Also
 
 * Class [Comment](../)

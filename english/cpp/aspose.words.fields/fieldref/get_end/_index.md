@@ -4,7 +4,7 @@ linktitle: get_End
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRef::get_End method. Gets the node that represents the field end in C++.'
 type: docs
-weight: 3000
+weight: 15216
 url: /cpp/aspose.words.fields/fieldref/get_end/
 ---
 ## FieldRef::get_End method
@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldEnd> Aspose::Words::Fields::FieldR
 
 ## See Also
 
-* Class [FieldEnd](../../fieldend/)
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

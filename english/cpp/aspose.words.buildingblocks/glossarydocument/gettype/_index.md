@@ -13,7 +13,7 @@ url: /cpp/aspose.words.buildingblocks/glossarydocument/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::BuildingBlocks::GlossaryDocument::GetType() const override
+const System::TypeInfo & Aspose::Words::BuildingBlocks::GlossaryDocument::GetType() const override
 ```
 
 ## See Also

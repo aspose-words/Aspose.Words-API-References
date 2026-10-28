@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/outlineoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::OutlineOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::OutlineOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

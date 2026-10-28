@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Tables::PreferredWidth class in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth::Type method

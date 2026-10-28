@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/toacategories/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::ToaCategories::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::ToaCategories::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

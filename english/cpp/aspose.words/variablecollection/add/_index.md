@@ -13,20 +13,19 @@ url: /cpp/aspose.words/variablecollection/add/
 Adds a document variable to the collection.
 
 ```cpp
-void Aspose::Words::VariableCollection::Add(const System::String &name, const System::String &value)
+void Aspose::Words::VariableCollection::Add(const System::String & name, const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the variable to add. |
-| value | const System::String\& | The value of the variable. The value cannot be **null**, if value is null empty string will be used instead. |
-
+| name | const System::String \& | The case-insensitive name of the variable to add. |
+| value | const System::String \& | The value of the variable. The value cannot be **null**, if value is null empty string will be used instead. |
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -96,7 +95,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

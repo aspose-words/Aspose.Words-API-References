@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualized_iterator_
 
 
 ```cpp
-using Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

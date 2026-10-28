@@ -16,6 +16,9 @@ Allows to specify if data label leader lines need be shown. Default value is **f
 void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLeaderLines(bool value)
 ```
 
+## Remarks
+
+ Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point. 
 ## See Also
 
 * Class [ChartDataLabel](../)

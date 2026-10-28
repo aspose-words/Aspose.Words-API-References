@@ -13,7 +13,7 @@ url: /cpp/aspose.words/conditionalstyle/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::ConditionalStyle::GetType() const override
+const System::TypeInfo & Aspose::Words::ConditionalStyle::GetType() const override
 ```
 
 ## See Also

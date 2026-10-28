@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shadowformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::ShadowFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::ShadowFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

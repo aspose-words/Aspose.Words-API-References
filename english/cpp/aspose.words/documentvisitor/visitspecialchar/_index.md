@@ -24,11 +24,11 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitSpecia
 ### ReturnValue
 
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
+## Remarks
 
+ This method is not be called for generic control characters (see [ControlChar](../../controlchar/)) that can be present in the document. 
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [SpecialChar](../../specialchar/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

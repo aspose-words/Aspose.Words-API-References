@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::ParagraphFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::ParagraphFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

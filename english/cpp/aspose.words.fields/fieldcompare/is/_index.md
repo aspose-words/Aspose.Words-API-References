@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcompare/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldCompare::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldCompare::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

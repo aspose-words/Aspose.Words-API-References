@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRef::get_BookmarkName method. Gets or sets the referenced bookmark''s name in C++.'
 type: docs
-weight: 2000
+weight: 15144
 url: /cpp/aspose.words.fields/fieldref/get_bookmarkname/
 ---
 ## FieldRef::get_BookmarkName method
@@ -16,12 +16,11 @@ Gets or sets the referenced bookmark's name.
 System::String Aspose::Words::Fields::FieldRef::get_BookmarkName()
 ```
 
-
 ## Examples
 
 
+Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
 
-Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,7 +44,6 @@ ASSERT_EQ(u"Hello world!", fieldRef->get_Result());
 
 doc->Save(get_ArtifactsDir() + u"Field.SET.REF.docx");
 ```
-
 ## See Also
 
 * Class [FieldRef](../)

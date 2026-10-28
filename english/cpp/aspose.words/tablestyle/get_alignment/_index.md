@@ -4,7 +4,7 @@ linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_Alignment method. Specifies the alignment for the table style in C++.'
 type: docs
-weight: 2000
+weight: 18126
 url: /cpp/aspose.words/tablestyle/get_alignment/
 ---
 ## TableStyle::get_Alignment method
@@ -16,12 +16,14 @@ Specifies the alignment for the table style.
 Aspose::Words::Tables::TableAlignment Aspose::Words::TableStyle::get_Alignment()
 ```
 
+## Remarks
 
+ The default value is [Left](../../../aspose.words.tables/tablealignment/). 
 ## Examples
 
 
+Shows how to set the position of a table.
 
-Shows how to set the position of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,10 +60,8 @@ table->set_Style(tableStyle);
 
 doc->Save(get_ArtifactsDir() + u"Table.SetTableAlignment.docx");
 ```
-
 ## See Also
 
-* Enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

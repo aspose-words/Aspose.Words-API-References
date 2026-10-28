@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection::idx_get method. Gets a document signature at the specified index in C++.'
 type: docs
-weight: 11000
+weight: 12889
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/idx_get/
 ---
 ## DigitalSignatureCollection::idx_get method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> Aspose::Wo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the signature. |
-
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -62,10 +61,8 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
-* Class [DigitalSignature](../../digitalsignature/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

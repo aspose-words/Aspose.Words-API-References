@@ -4,7 +4,7 @@ linktitle: get_PostalAddress
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBarcode::get_PostalAddress method. Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it in C++.'
 type: docs
-weight: 5000
+weight: 7834
 url: /cpp/aspose.words.fields/fieldbarcode/get_postaladdress/
 ---
 ## FieldBarcode::get_PostalAddress method
@@ -16,12 +16,11 @@ Gets or sets the postal address used for generating a barcode or the name of the
 System::String Aspose::Words::Fields::FieldBarcode::get_PostalAddress()
 ```
 
-
 ## Examples
 
 
+Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 
-Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ builder->EndBookmark(u"BarcodeBookmark");
 
 doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldBarcode](../)

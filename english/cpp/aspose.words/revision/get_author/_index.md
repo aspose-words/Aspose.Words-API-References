@@ -4,7 +4,7 @@ linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_Author method. Gets or sets the author of this revision. Can not be empty string or null in C++.'
 type: docs
-weight: 3000
+weight: 11250
 url: /cpp/aspose.words/revision/get_author/
 ---
 ## Revision::get_Author method
@@ -16,12 +16,11 @@ Gets or sets the author of this revision. Can not be empty string or **null**.
 System::String Aspose::Words::Revision::get_Author()
 ```
 
-
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +96,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Revision](../)

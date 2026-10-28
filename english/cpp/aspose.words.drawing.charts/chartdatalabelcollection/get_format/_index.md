@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Format method. Provides access to fill and line formatting of the data labels in C++.'
 type: docs
-weight: 4500
+weight: 18072
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_format/
 ---
 ## ChartDataLabelCollection::get_Format method
@@ -16,12 +16,11 @@ Provides access to fill and line formatting of the data labels.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Format()
 ```
 
-
 ## Examples
 
 
+Shows how to set fill, stroke and callout formatting for chart data labels.
 
-Shows how to set fill, stroke and callout formatting for chart data labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,10 +52,8 @@ labelFormat->get_Fill()->Solid(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.FormatDataLables.docx");
 ```
-
 ## See Also
 
-* Class [ChartFormat](../../chartformat/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

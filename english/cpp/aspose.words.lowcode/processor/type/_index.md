@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::LowCode::Processor class in C++.'
 type: docs
-weight: 1000
+weight: 7000
 url: /cpp/aspose.words.lowcode/processor/type/
 ---
 ## Processor::Type method

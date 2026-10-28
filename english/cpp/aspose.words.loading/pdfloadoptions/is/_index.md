@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/pdfloadoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::PdfLoadOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::PdfLoadOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

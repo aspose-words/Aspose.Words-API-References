@@ -4,7 +4,7 @@ linktitle: get_Fill
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Fill method. Gets fill formatting for the Font in C++.'
 type: docs
-weight: 15000
+weight: 59252
 url: /cpp/aspose.words/font/get_fill/
 ---
 ## Font::get_Fill method
@@ -16,12 +16,11 @@ Gets fill formatting for the [Font](../).
 System::SharedPtr<Aspose::Words::Drawing::Fill> Aspose::Words::Font::get_Fill()
 ```
 
-
 ## Examples
 
 
+Shows how to convert any of the fills back to solid fill.
 
-Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -42,10 +41,8 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
-
 ## See Also
 
-* Class [Fill](../../../aspose.words.drawing/fill/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

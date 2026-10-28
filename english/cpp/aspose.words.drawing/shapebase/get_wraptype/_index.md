@@ -4,7 +4,7 @@ linktitle: get_WrapType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_WrapType method. Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape in C++.'
 type: docs
-weight: 56000
+weight: 61972
 url: /cpp/aspose.words.drawing/shapebase/get_wraptype/
 ---
 ## ShapeBase::get_WrapType method
@@ -22,12 +22,11 @@ Aspose::Words::Drawing::WrapType Aspose::Words::Drawing::ShapeBase::get_WrapType
 The default value is [None](../../wraptype/).
 
 Has effect only for top level shapes.
-
 ## Examples
 
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,8 +43,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+Shows how to create and format a text box.
 
-Shows how to create and format a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,10 +70,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
-
 ## See Also
 
-* Enum [WrapType](../../wraptype/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_DefaultUser
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::UserInformation::get_DefaultUser method. Default user information in C++.'
 type: docs
-weight: 1000
+weight: 8572
 url: /cpp/aspose.words.fields/userinformation/get_defaultuser/
 ---
 ## UserInformation::get_DefaultUser method
@@ -16,12 +16,14 @@ Default user information.
 static System::SharedPtr<Aspose::Words::Fields::UserInformation> Aspose::Words::Fields::UserInformation::get_DefaultUser()
 ```
 
+## Remarks
 
+ Use the [CurrentUser](../../fieldoptions/get_currentuser/) property to specify user information for single document. 
 ## Examples
 
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +54,8 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
-* Class [UserInformation](../)
 * Class [UserInformation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

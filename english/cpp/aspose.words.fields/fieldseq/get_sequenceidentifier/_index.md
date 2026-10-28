@@ -4,7 +4,7 @@ linktitle: get_SequenceIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier method. Gets or sets the name assigned to the series of items that are to be numbered in C++.'
 type: docs
-weight: 6000
+weight: 8858
 url: /cpp/aspose.words.fields/fieldseq/get_sequenceidentifier/
 ---
 ## FieldSeq::get_SequenceIdentifier method
@@ -16,12 +16,11 @@ Gets or sets the name assigned to the series of items that are to be numbered.
 System::String Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier()
 ```
 
-
 ## Examples
 
 
+Shows how to populate a TOC field with entries using SEQ fields.
 
-Shows how to populate a TOC field with entries using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,8 +90,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
 
+Shows create numbering using SEQ fields.
 
-Shows create numbering using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -149,7 +148,6 @@ ASSERT_EQ(u"2", fieldSeq->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
 ```
-
 ## See Also
 
 * Class [FieldSeq](../)

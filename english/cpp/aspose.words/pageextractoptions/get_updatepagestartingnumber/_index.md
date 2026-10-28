@@ -4,7 +4,7 @@ linktitle: get_UpdatePageStartingNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber method. Specifies whether the start page number in the resulting document shall be updated. Default value is true in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words/pageextractoptions/get_updatepagestartingnumber/
 ---
 ## PageExtractOptions::get_UpdatePageStartingNumber method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/pageextractoptions/get_updatepagestartingnumber/
 Specifies whether the start page number in the resulting document shall be updated. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber() const
+_Bool Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber() const
 ```
-
 
 ## Examples
 
 
+Show how to reset the initial page numbering and save the NUMPAGE field.
 
-Show how to reset the initial page numbering and save the NUMPAGE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Page fields.docx"));
 
@@ -31,6 +30,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // and replaced with a constant value equal to the number of pages.
 System::SharedPtr<Aspose::Words::Document> extractedDoc1 = doc->ExtractPages(1, 1);
 extractedDoc1->Save(get_ArtifactsDir() + u"Document.ExtractPagesWithOptions.Default.docx");
+
 
 // Altered behavior:
 // The extracted page numbering is reset and a new one begins,
@@ -43,7 +43,6 @@ extractOptions->set_UnlinkPagesNumberFields(false);
 System::SharedPtr<Aspose::Words::Document> extractedDoc2 = doc->ExtractPages(1, 1, extractOptions);
 extractedDoc2->Save(get_ArtifactsDir() + u"Document.ExtractPagesWithOptions.Options.docx");
 ```
-
 ## See Also
 
 * Class [PageExtractOptions](../)

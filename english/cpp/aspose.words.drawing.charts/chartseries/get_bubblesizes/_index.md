@@ -4,7 +4,7 @@ linktitle: get_BubbleSizes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_BubbleSizes method. Gets a collection of bubble sizes for this chart series in C++.'
 type: docs
-weight: 2500
+weight: 14590
 url: /cpp/aspose.words.drawing.charts/chartseries/get_bubblesizes/
 ---
 ## ChartSeries::get_BubbleSizes method
@@ -16,12 +16,11 @@ Gets a collection of bubble sizes for this chart series.
 System::SharedPtr<Aspose::Words::Drawing::Charts::BubbleSizeCollection> Aspose::Words::Drawing::Charts::ChartSeries::get_BubbleSizes()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the format code of the chart data.
 
-Shows how to work with the format code of the chart data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ series->get_BubbleSizes()->set_FormatCode(u"#,##0.0#");
 
 doc->Save(get_ArtifactsDir() + u"Charts.FormatCode.docx");
 ```
-
 ## See Also
 
-* Class [BubbleSizeCollection](../../bubblesizecollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

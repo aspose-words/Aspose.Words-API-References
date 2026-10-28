@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldCollection class
 linktitle: FieldCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldCollection class. A collection of Field objects that represents the fields in the specified range. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldCollection class. A collection of Field objects that represents the fields in the specified range. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 23000
 url: /cpp/aspose.words.fields/fieldcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/fieldcollection/
 ## FieldCollection class
 
 
-A collection of [Field](../field/) objects that represents the fields in the specified range. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+A collection of [Field](../field/) objects that represents the fields in the specified range. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Fields::Field>>
@@ -21,14 +22,14 @@ class FieldCollection : public System::Collections::Generic::IEnumerable<System:
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Removes all fields of this collection from the document and from this collection itself. |
-| [get_Count](./get_count/)() | Returns the number of the fields in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Returns a field at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Fields::Field\>\&) | Removes the specified field from this collection and from the document. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Fields::Field\> \&) | Removes the specified field from this collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a field at the specified index from this collection and from the document. |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Returns the number of the fields in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Returns a field at the specified index. |
 ## Remarks
 
 
@@ -37,12 +38,11 @@ An instance of this collection iterates fields which start fall within the speci
 The [FieldCollection](./) collection does not own the fields it contains, rather, is just a selection of fields.
 
 The [FieldCollection](./) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](./) properties and methods.
-
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +77,6 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

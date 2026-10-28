@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Settings::OdsoRecipientDataCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Settings::OdsoRecipientDataCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

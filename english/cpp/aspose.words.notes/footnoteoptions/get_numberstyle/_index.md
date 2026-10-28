@@ -4,7 +4,7 @@ linktitle: get_NumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::FootnoteOptions::get_NumberStyle method. Specifies the number format for automatically numbered footnotes in C++.'
 type: docs
-weight: 3000
+weight: 8429
 url: /cpp/aspose.words.notes/footnoteoptions/get_numberstyle/
 ---
 ## FootnoteOptions::get_NumberStyle method
@@ -19,13 +19,12 @@ Aspose::Words::NumberStyle Aspose::Words::Notes::FootnoteOptions::get_NumberStyl
 ## Remarks
 
 
-Not all number styles are applicable for this property. For the list of applicable number styles see the Insert [Footnote](../../footnote/) or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
-
+Not all number styles are applicable for this property. For the list of applicable number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
 ## Examples
 
 
+Shows how to change the number style of footnote/endnote reference marks.
 
-Shows how to change the number style of footnote/endnote reference marks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,10 +67,8 @@ doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::UppercaseLetter);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.RefMarkNumberStyle.docx");
 ```
-
 ## See Also
 
-* Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

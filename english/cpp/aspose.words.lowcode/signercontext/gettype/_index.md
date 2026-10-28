@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/signercontext/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::SignerContext::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::SignerContext::GetType() const override
 ```
 
 ## See Also

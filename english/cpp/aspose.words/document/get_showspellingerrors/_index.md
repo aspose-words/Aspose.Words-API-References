@@ -4,7 +4,7 @@ linktitle: get_ShowSpellingErrors
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_ShowSpellingErrors method. Specifies whether to display spelling errors in this document in C++.'
 type: docs
-weight: 51000
+weight: 143000
 url: /cpp/aspose.words/document/get_showspellingerrors/
 ---
 ## Document::get_ShowSpellingErrors method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/document/get_showspellingerrors/
 Specifies whether to display spelling errors in this document.
 
 ```cpp
-bool Aspose::Words::Document::get_ShowSpellingErrors()
+_Bool Aspose::Words::Document::get_ShowSpellingErrors()
 ```
-
 
 ## Examples
 
 
+Shows how to show/hide errors in the document.
 
-Shows how to show/hide errors in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +37,6 @@ doc->set_ShowSpellingErrors(showErrors);
 
 doc->Save(get_ArtifactsDir() + u"Document.SpellingAndGrammarErrors.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)

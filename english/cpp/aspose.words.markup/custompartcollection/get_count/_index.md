@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPartCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 10000
+weight: 16667
 url: /cpp/aspose.words.markup/custompartcollection/get_count/
 ---
 ## CustomPartCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomPartCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -57,7 +56,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomPartCollection](../)

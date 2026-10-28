@@ -4,7 +4,7 @@ linktitle: get_RelativeVerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_RelativeVerticalAlignment method. Gets or sets floating table relative vertical alignment in C++.'
 type: docs
-weight: 31000
+weight: 95000
 url: /cpp/aspose.words.tables/table/get_relativeverticalalignment/
 ---
 ## Table::get_RelativeVerticalAlignment method
@@ -16,12 +16,11 @@ Gets or sets floating table relative vertical alignment.
 Aspose::Words::Drawing::VerticalAlignment Aspose::Words::Tables::Table::get_RelativeVerticalAlignment()
 ```
 
-
 ## Examples
 
 
+Shows how set the location of floating tables.
 
-Shows how set the location of floating tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ table->set_AbsoluteHorizontalDistance(100);
 
 doc->Save(get_ArtifactsDir() + u"Table.ChangeFloatingTableProperties.docx");
 ```
-
 ## See Also
 
-* Enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

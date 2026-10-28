@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 Determines whether the collection contains a bookmark with the given name.
 
 ```cpp
-bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Contains(const System::String &name)
+_Bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Contains(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-insensitive name of the bookmark to locate. |
+| name | const System::String \& | Case-insensitive name of the bookmark to locate. |
 
 ### ReturnValue
 
 **true** if item is found in the collection; otherwise, **false**.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

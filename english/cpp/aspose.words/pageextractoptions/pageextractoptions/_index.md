@@ -4,7 +4,7 @@ linktitle: PageExtractOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use PageExtractOptions constructor of Aspose::Words::PageExtractOptions class in C++.'
 type: docs
-weight: 2000
+weight: 6200
 url: /cpp/aspose.words/pageextractoptions/pageextractoptions/
 ---
 ## PageExtractOptions::PageExtractOptions constructor

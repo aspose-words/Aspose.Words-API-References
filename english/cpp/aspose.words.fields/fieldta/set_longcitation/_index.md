@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldta/set_longcitation/
 Sets the long citation for the entry.
 
 ```cpp
-void Aspose::Words::Fields::FieldTA::set_LongCitation(const System::String &value)
+void Aspose::Words::Fields::FieldTA::set_LongCitation(const System::String & value)
 ```
 
 ## See Also

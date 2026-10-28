@@ -2,7 +2,7 @@
 title: Aspose::Words::Comparing::CompareOptions::set_IgnoreFields method
 linktitle: set_IgnoreFields
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comparing::CompareOptions::set_IgnoreFields method. Setter for Aspose::Words::Comparing::CompareOptions::get_IgnoreFields in C++.'
+description: 'Aspose::Words::Comparing::CompareOptions::set_IgnoreFields method. Specifies whether to compare differences in fields in C++.'
 type: docs
 weight: 22000
 url: /cpp/aspose.words.comparing/compareoptions/set_ignorefields/
@@ -10,12 +10,86 @@ url: /cpp/aspose.words.comparing/compareoptions/set_ignorefields/
 ## CompareOptions::set_IgnoreFields method
 
 
-Setter for [Aspose::Words::Comparing::CompareOptions::get_IgnoreFields](../get_ignorefields/).
+Specifies whether to compare differences in fields.
 
 ```cpp
 void Aspose::Words::Comparing::CompareOptions::set_IgnoreFields(bool value)
 ```
 
+## Remarks
+
+ By default fields are not ignored. 
+## Examples
+
+
+Shows how to filter specific types of document elements when making a comparison.
+
+```cpp
+// Create the original document and populate it with various kinds of elements.
+auto docOriginal = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(docOriginal);
+
+// Paragraph text referenced with an endnote:
+builder->Writeln(u"Hello world! This is the first paragraph.");
+builder->InsertFootnote(FootnoteType::Endnote, u"Original endnote text.");
+
+// Table:
+builder->StartTable();
+builder->InsertCell();
+builder->Write(u"Original cell 1 text");
+builder->InsertCell();
+builder->Write(u"Original cell 2 text");
+builder->EndTable();
+
+// Textbox:
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(ShapeType::TextBox, static_cast<double>(150), static_cast<double>(20));
+builder->MoveTo(textBox->get_FirstParagraph());
+builder->Write(u"Original textbox contents");
+
+// DATE field:
+builder->MoveTo(docOriginal->get_FirstSection()->get_Body()->AppendParagraph(u""));
+builder->InsertField(u" DATE ");
+
+// Comment:
+auto newComment = System::MakeObject<Aspose::Words::Comment>(docOriginal, u"John Doe", u"J.D.", System::DateTime::get_Now());
+newComment->SetText(u"Original comment.");
+builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(newComment);
+
+// Header:
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->Writeln(u"Original header contents.");
+
+// Create a clone of our document and perform a quick edit on each of the cloned document's elements.
+auto docEdited = System::ExplicitCast<Aspose::Words::Document>(System::ExplicitCast<Aspose::Words::Node>(docOriginal)->Clone(true));
+System::SharedPtr<Aspose::Words::Paragraph> firstParagraph = docEdited->get_FirstSection()->get_Body()->get_FirstParagraph();
+
+firstParagraph->get_Runs()->idx_get(0)->set_Text(u"hello world! this is the first paragraph, after editing.");
+firstParagraph->get_ParagraphFormat()->set_Style(docEdited->get_Styles()->idx_get(StyleIdentifier::Heading1));
+(System::ExplicitCast<Aspose::Words::Notes::Footnote>(docEdited->GetChild(NodeType::Footnote, 0, true)))->get_FirstParagraph()->get_Runs()->idx_get(1)->set_Text(u"Edited endnote text.");
+(System::ExplicitCast<Aspose::Words::Tables::Table>(docEdited->GetChild(NodeType::Table, 0, true)))->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_Runs()->idx_get(0)->set_Text(u"Edited Cell 2 contents");
+(System::ExplicitCast<Aspose::Words::Drawing::Shape>(docEdited->GetChild(NodeType::Shape, 0, true)))->get_FirstParagraph()->get_Runs()->idx_get(0)->set_Text(u"Edited textbox contents");
+(System::ExplicitCast<Aspose::Words::Fields::FieldDate>(docEdited->get_Range()->get_Fields()->idx_get(0)))->set_UseLunarCalendar(true);
+(System::ExplicitCast<Aspose::Words::Comment>(docEdited->GetChild(NodeType::Comment, 0, true)))->get_FirstParagraph()->get_Runs()->idx_get(0)->set_Text(u"Edited comment.");
+docEdited->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->get_FirstParagraph()->get_Runs()->idx_get(0)->set_Text(u"Edited header contents.");
+
+// Comparing documents creates a revision for every edit in the edited document.
+// A CompareOptions object has a series of flags that can suppress revisions
+// on each respective type of element, effectively ignoring their change.
+auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOptions>();
+compareOptions->set_CompareMoves(false);
+compareOptions->set_IgnoreFormatting(false);
+compareOptions->set_IgnoreCaseChanges(false);
+compareOptions->set_IgnoreComments(false);
+compareOptions->set_IgnoreTables(false);
+compareOptions->set_IgnoreFields(false);
+compareOptions->set_IgnoreFootnotes(false);
+compareOptions->set_IgnoreTextboxes(false);
+compareOptions->set_IgnoreHeadersAndFooters(false);
+compareOptions->set_Target(ComparisonTargetType::New);
+
+docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
+docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
+```
 ## See Also
 
 * Class [CompareOptions](../)

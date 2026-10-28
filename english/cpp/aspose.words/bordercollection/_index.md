@@ -2,7 +2,7 @@
 title: Aspose::Words::BorderCollection class
 linktitle: BorderCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BorderCollection class. A collection of Border objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::BorderCollection class. A collection of Border objects. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words/bordercollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/bordercollection/
 ## BorderCollection class
 
 
-A collection of [Border](../border/) objects. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+A collection of [Border](../border/) objects. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class BorderCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Border>>
@@ -21,7 +22,11 @@ class BorderCollection : public System::Collections::Generic::IEnumerable<System
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Removes all borders of an object. |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::BorderCollection\>\&) | Compares collections of borders. |
+| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::BorderCollection\> \&) | Compares collections of borders. |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all borders in the collection. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Bottom](./get_bottom/)() | Gets the bottom border. |
 | [get_Color](./get_color/)() | Gets or sets the border color. |
 | [get_Count](./get_count/)() | Gets the number of borders in the collection. |
@@ -34,23 +39,21 @@ class BorderCollection : public System::Collections::Generic::IEnumerable<System
 | [get_Shadow](./get_shadow/)() | Gets or sets a value indicating whether the border has a shadow. |
 | [get_Top](./get_top/)() | Gets the top border. |
 | [get_Vertical](./get_vertical/)() | Gets the vertical border that is used between cells. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all borders in the collection. |
-| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(Aspose::Words::BorderType) | Retrieves a [Border](../border/) object by border type. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [Border](../border/) object by index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::BorderCollection::get_Color](./get_color/). |
-| [set_DistanceFromText](./set_distancefromtext/)(double) | Setter for [Aspose::Words::BorderCollection::get_DistanceFromText](./get_distancefromtext/). |
-| [set_LineStyle](./set_linestyle/)(Aspose::Words::LineStyle) | Setter for [Aspose::Words::BorderCollection::get_LineStyle](./get_linestyle/). |
-| [set_LineWidth](./set_linewidth/)(double) | Setter for [Aspose::Words::BorderCollection::get_LineWidth](./get_linewidth/). |
-| [set_Shadow](./set_shadow/)(bool) | Setter for [Aspose::Words::BorderCollection::get_Shadow](./get_shadow/). |
-| static [Type](./type/)() |  |
+| [set_Color](./set_color/)(System::Drawing::Color) | Sets the border color. |
+| [set_DistanceFromText](./set_distancefromtext/)(double) | Sets distance of the border from text in points. |
+| [set_LineStyle](./set_linestyle/)(Aspose::Words::LineStyle) | Sets the border style. |
+| [set_LineWidth](./set_linewidth/)(double) | Sets the border width in points. |
+| [set_Shadow](./set_shadow/)(bool) | Sets a value indicating whether the border has a shadow. |
+## Remarks
 
+ Different document elements have different borders. For example, [ParagraphFormat](../paragraphformat/) has [Bottom](./get_bottom/), [Left](./get_left/), [Right](./get_right/) and [Top](./get_top/) borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting. 
 ## Examples
 
 
+Shows how to insert a paragraph with a top border.
 
-Shows how to insert a paragraph with a top border. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +69,6 @@ builder->Writeln(u"Text with a top border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

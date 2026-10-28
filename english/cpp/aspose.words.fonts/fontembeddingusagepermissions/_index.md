@@ -13,24 +13,23 @@ url: /cpp/aspose.words.fonts/fontembeddingusagepermissions/
 Represents the font embedding usage permissions.
 
 ```cpp
-enum class FontEmbeddingUsagePermissions
+enum class FontEmbeddingUsagePermissions : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Installable | 0 | The font may be embedded, and may be permanently installed for use on a remote systems, or for use by other users. |
-| RestrictedLicense | 1 | The font must not be modified, embedded or exchanged in any manner without first obtaining explicit permission of the legal owner. |
-| PrintAndPreview | 2 | The font may be embedded, and may be temporarily loaded on other systems for purposes of viewing or printing the document. |
 | Editable | 3 | The font may be embedded, and may be temporarily loaded on other systems. |
-
+| Installable | 0 | The font may be embedded, and may be permanently installed for use on a remote systems, or for use by other users. |
+| PrintAndPreview | 2 | The font may be embedded, and may be temporarily loaded on other systems for purposes of viewing or printing the document. |
+| RestrictedLicense | 1 | The font must not be modified, embedded or exchanged in any manner without first obtaining explicit permission of the legal owner. |
 
 ## Examples
 
 
+Shows how to get license rights information for embedded fonts (FontInfo).
 
-Shows how to get license rights information for embedded fonts ([FontInfo](../fontinfo/)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -47,7 +46,6 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

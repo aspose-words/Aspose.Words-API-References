@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielduserpromptrespondent/
 Represents the respondent to user prompts during field update.
 
 ```cpp
-class IFieldUserPromptRespondent : public virtual System::Object
+class IFieldUserPromptRespondent : public System::Object
 ```
 
 ## Methods
@@ -21,9 +21,12 @@ class IFieldUserPromptRespondent : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [Respond](./respond/)(System::String, System::String) | When implemented, returns a response from the user on prompting. Your implementation should return **null** to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
 | static [Type](./type/)() |  |
+## Remarks
+
+ The ASK and FILLIN fields are the examples of fields that prompt the user for some response. Implement this interface and assign it to the [UserPromptRespondent](../fieldoptions/get_userpromptrespondent/) property to establish interaction between field update and the user. 
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

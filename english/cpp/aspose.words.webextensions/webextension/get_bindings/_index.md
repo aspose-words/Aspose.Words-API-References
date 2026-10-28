@@ -4,7 +4,7 @@ linktitle: get_Bindings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtension::get_Bindings method. Specifies a list of web extension bindings in C++.'
 type: docs
-weight: 3000
+weight: 9375
 url: /cpp/aspose.words.webextensions/webextension/get_bindings/
 ---
 ## WebExtension::get_Bindings method
@@ -16,12 +16,11 @@ Specifies a list of web extension bindings.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBindingCollection> Aspose::Words::WebExtensions::WebExtension::get_Bindings() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,10 +85,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Opacity
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Opacity method. Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque) in C++.'
 type: docs
-weight: 16000
+weight: 60000
 url: /cpp/aspose.words.drawing/fill/get_opacity/
 ---
 ## Fill::get_Opacity method
@@ -16,12 +16,14 @@ Gets or sets the degree of opacity of the specified fill as a value between 0.0 
 double Aspose::Words::Drawing::Fill::get_Opacity()
 ```
 
+## Remarks
 
+This property is the opposite of property [Transparency](../get_transparency/).
 ## Examples
 
 
+Shows how to fill a shape with a solid color.
 
-Shows how to fill a shape with a solid color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +50,6 @@ shape->get_Fill()->set_Opacity(0.3);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Fill.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)

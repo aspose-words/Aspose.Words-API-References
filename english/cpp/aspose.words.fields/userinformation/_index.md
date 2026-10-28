@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::UserInformation class
 linktitle: UserInformation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::UserInformation class. Specifies information about the user. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::UserInformation class. Specifies information about the user. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 117000
 url: /cpp/aspose.words.fields/userinformation/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/userinformation/
 ## UserInformation class
 
 
-Specifies information about the user. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Specifies information about the user. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class UserInformation : public System::Object
@@ -20,23 +21,22 @@ class UserInformation : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
+| [UserInformation](./userinformation/)() |  |
 | [get_Address](./get_address/)() const | Gets or sets the user's postal address. |
 | static [get_DefaultUser](./get_defaultuser/)() | Default user information. |
 | [get_Initials](./get_initials/)() const | Gets or sets the user's initials. |
 | [get_Name](./get_name/)() const | Gets or sets the user's name. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Address](./set_address/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Address](./get_address/). |
-| [set_Initials](./set_initials/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Initials](./get_initials/). |
-| [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Fields::UserInformation::get_Name](./get_name/). |
-| static [Type](./type/)() |  |
-| [UserInformation](./userinformation/)() |  |
-
+| [set_Address](./set_address/)(const System::String \&) | Sets the user's postal address. |
+| [set_Initials](./set_initials/)(const System::String \&) | Sets the user's initials. |
+| [set_Name](./set_name/)(const System::String \&) | Sets the user's name. |
 ## Examples
 
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +67,6 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

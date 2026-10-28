@@ -4,7 +4,7 @@ linktitle: get_Size
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ReflectionFormat::get_Size method. Gets or sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0 in C++.'
 type: docs
-weight: 4000
+weight: 8668
 url: /cpp/aspose.words.drawing/reflectionformat/get_size/
 ---
 ## ReflectionFormat::get_Size method
@@ -16,12 +16,11 @@ Gets or sets a double value between 0.0 and 1.0 representing the size of the ref
 double Aspose::Words::Drawing::ReflectionFormat::get_Size()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -50,7 +49,6 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
 * Class [ReflectionFormat](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldsavedate/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldSaveDate::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldSaveDate::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

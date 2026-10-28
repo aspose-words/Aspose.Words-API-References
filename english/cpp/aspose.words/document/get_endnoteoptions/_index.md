@@ -4,7 +4,7 @@ linktitle: get_EndnoteOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_EndnoteOptions method. Provides options that control numbering and positioning of endnotes in this document in C++.'
 type: docs
-weight: 22000
+weight: 112000
 url: /cpp/aspose.words/document/get_endnoteoptions/
 ---
 ## Document::get_EndnoteOptions method
@@ -16,12 +16,11 @@ Provides options that control numbering and positioning of endnotes in this docu
 System::SharedPtr<Aspose::Words::Notes::EndnoteOptions> Aspose::Words::Document::get_EndnoteOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to select a different place where the document collects and displays its endnotes.
 
-Shows how to select a different place where the document collects and displays its endnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,8 +47,8 @@ doc->get_EndnoteOptions()->set_Position(endnotePosition);
 doc->Save(get_ArtifactsDir() + u"InlineStory.PositionEndnote.docx");
 ```
 
+Shows how to change the number style of footnote/endnote reference marks.
 
-Shows how to change the number style of footnote/endnote reference marks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -93,8 +92,8 @@ doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::UppercaseLetter);
 doc->Save(get_ArtifactsDir() + u"InlineStory.RefMarkNumberStyle.docx");
 ```
 
+Shows how to restart footnote/endnote numbering at certain places in the document.
 
-Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -143,8 +142,8 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
 
+Shows how to set a number at which the document begins the footnote/endnote count.
 
-Shows how to set a number at which the document begins the footnote/endnote count. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -187,10 +186,8 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.StartNumber.docx");
 ```
-
 ## See Also
 
-* Class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

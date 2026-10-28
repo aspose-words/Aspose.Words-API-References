@@ -2,7 +2,7 @@
 title: Aspose::Words::Run class
 linktitle: Run
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Run class. Represents a run of characters with the same font formatting. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Run class. Represents a run of characters with the same font formatting. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 56000
 url: /cpp/aspose.words/run/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/run/
 ## Run class
 
 
-Represents a run of characters with the same font formatting. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Represents a run of characters with the same font formatting. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-class Run : public Aspose::Words::Inline
+class Run : public Inline
 ```
 
 ## Methods
@@ -21,59 +22,67 @@ class Run : public Aspose::Words::Inline
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
-| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
+| [GetText](./gettext/)() override | Gets the text of the run. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Run](./run/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&) | Initializes a new instance of the [Run](./) class. |
+| [Run](./run/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, const System::String \&) | Initializes a new instance of the Run class. |
+| static [Type](./type/)() |  |
+| [get_IsPhoneticGuide](./get_isphoneticguide/)() | Gets a boolean value indicating either the run is a phonetic guide. |
+| [get_NodeType](./get_nodetype/)() const override | Returns [Run](../nodetype/). |
+| [get_PhoneticGuide](./get_phoneticguide/)() | Gets a [PhoneticGuide](./get_phoneticguide/) object. |
+| [get_Text](./get_text/)() const | Gets or sets the text of the run. |
+| [set_Text](./set_text/)(const System::String \&) | Sets the text of the run. |
+| [GetType](../inline/gettype/)() const override |  |
+| [Is](../inline/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../inline/type/)() |  |
 | [get_Font](../inline/get_font/)() | Provides access to the font formatting of this object. |
-| virtual [get_IsComposite](../node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
 | [get_IsDeleteRevision](../inline/get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [get_IsFormatRevision](../inline/get_isformatrevision/)() | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [get_IsInsertRevision](../inline/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](../inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [get_IsPhoneticGuide](./get_isphoneticguide/)() | Gets a boolean value indicating either the run is a phonetic guide. |
-| [get_NextNode](../node/get_nextnode/)() const |  |
-| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
-| [get_NodeType](./get_nodetype/)() const override | Returns [Run](../nodetype/). |
-| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
-| [get_PhoneticGuide](./get_phoneticguide/)() | Gets a [PhoneticGuide](./get_phoneticguide/) object. |
-| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_PrevNode](../node/get_prevnode/)() const |  |
-| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
-| [get_Text](./get_text/)() const | Gets or sets the text of the run. |
+| virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
+| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 | [GetAncestorOf](../node/getancestorof/)() |  |
-| [GetText](./gettext/)() override | Gets the text of the run. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
+| virtual [GetText](../node/gettext/)() | Gets the text of this node and of all its children. |
+| [GetType](../node/gettype/)() const override |  |
+| [Is](../node/is/)(const System::TypeInfo \&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
-| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../node/remove/)() | Removes itself from the parent. |
-| [Run](./run/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) | Initializes a new instance of the [Run](./) class. |
-| [Run](./run/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&) | Initializes a new instance of the **Run** class. |
-| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
-| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_Text](./set_text/)(const System::String\&) | Setter for [Aspose::Words::Run::get_Text](./get_text/). |
-| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](./type/)() |  |
+| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](../node/type/)() |  |
+| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
+| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
+| virtual [get_IsComposite](../node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
+| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
+| virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
+| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
+| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
+| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
 
 All text of the document is stored in runs of text.
 
 [Run](./) can only be a child of [Paragraph](../paragraph/) or inline [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).
-
 ## Examples
 
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -87,8 +96,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
-Shows how to add, update and delete child nodes in a [CompositeNode](../compositenode/)'s collection of children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -135,8 +144,8 @@ ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -179,7 +188,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Class [Inline](../inline/)

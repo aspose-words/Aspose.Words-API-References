@@ -13,23 +13,22 @@ url: /cpp/aspose.words.fields/generalformat/
 Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats.
 
 ```cpp
-enum class GeneralFormat
+enum class GeneralFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Used to specify a missing general format. |
 | Aiueo | 1 | Numeric formatting. Formats a numeric result using hiragana characters in the traditional a-i-u-e-o order. |
-| UppercaseAlphabetic | 2 | Numeric formatting. Formats a numeric result as one or more occurrences of an uppercase alphabetic Latin character. |
-| LowercaseAlphabetic | 3 | Numeric formatting. Formats a numeric result as one or more occurrences of an lowercase alphabetic Latin character. |
 | Arabic | 4 | Numeric formatting. Formats a numeric result using Arabic cardinal numerals. |
 | ArabicAbjad | 5 | Numeric formatting. Formats a numeric result using ascending Abjad numerals. |
 | ArabicAlpha | 6 | Numeric formatting. Formats a numeric result using characters in the Arabic alphabet. |
 | ArabicDash | 7 | Numeric formatting. Formats a numeric result using Arabic cardinal numerals, with a prefix of "- " and a suffix of " -". |
 | BahtText | 8 | Numeric formatting. Formats a numeric result in the Thai counting system. |
+| Caps | 49 | Text formatting. Capitalizes the first letter of each word. |
 | CardText | 9 | Numeric formatting. Cardinal text (One, Two, Three, ...). |
+| CharFormat | 53 | Field result formatting. The CHARFORMAT instruction. |
 | ChineseNum1 | 10 | Numeric formatting. Formats a numeric result using ascending numbers from the appropriate counting system. |
 | ChineseNum2 | 11 | Numeric formatting. Formats a numeric result using sequential numbers from the appropriate legal format. |
 | ChineseNum3 | 12 | Numeric formatting. Formats a numeric result using sequential numbers from the appropriate counting thousand system. |
@@ -41,11 +40,12 @@ enum class GeneralFormat
 | DBNum3 | 18 | Numeric formatting. Formats a numeric result using sequential numbers from the appropriate legal counting system. |
 | DBNum4 | 19 | Numeric formatting. Formats a numeric result using sequential numbers from the appropriate digital counting system. |
 | DollarText | 20 | Numeric formatting. Dollar text (One, Two, Three, ... + AND 55/100). |
-| Ganada | 21 | Numeric formatting. Formats a numeric result using sequential numbers from the Korean Ganada format. |
+| FirstCap | 50 | Text formatting. Capitalizes the first letter of the first word. |
 | GB1 | 22 | Numeric formatting. Formats a numeric result using decimal numbering followed by a period, using the enclosed alphanumeric glyph character. |
 | GB2 | 23 | Numeric formatting. Formats a numeric result using decimal numbering enclosed in parenthesis, using the enclosed alphanumeric glyph character. |
 | GB3 | 24 | Numeric formatting. Formats a numeric result using decimal numbering enclosed in a circle, using the enclosed alphanumeric glyph character. |
 | GB4 | 25 | Numeric formatting. Formats a numeric result using decimal numbering enclosed in a circle, using the enclosed alphanumeric glyph character. |
+| Ganada | 21 | Numeric formatting. Formats a numeric result using sequential numbers from the Korean Ganada format. |
 | Hebrew1 | 26 | Numeric formatting. Formats a numeric result using Hebrew numerals. |
 | Hebrew2 | 27 | Numeric formatting. Formats a numeric result using the Hebrew alphabet. |
 | Hex | 28 | Numeric formatting. Formats the numeric result using uppercase hexadecimal digits. |
@@ -57,32 +57,31 @@ enum class GeneralFormat
 | KanjiNum1 | 34 | Numeric formatting. Formats a numeric result using a Japanese style using the appropriate counting system. |
 | KanjiNum2 | 35 | Numeric formatting. Formats a numeric result using the appropriate counting system. |
 | KanjiNum3 | 36 | Numeric formatting. Formats a numeric result using the appropriate counting system. |
-| Ordinal | 37 | Numeric formatting. Ordinal (1st, 2nd, 3rd, ...). |
-| OrdText | 38 | Numeric formatting. Ordinal text (First, Second, Third, ...). |
-| UppercaseRoman | 39 | Numeric formatting. Uppercase Roman (I, II, III, ...). |
+| Lower | 51 | Text formatting. All letters are lowercase. |
+| LowercaseAlphabetic | 3 | Numeric formatting. Formats a numeric result as one or more occurrences of an lowercase alphabetic Latin character. |
 | LowercaseRoman | 40 | Numeric formatting. Lowercase Roman (i, ii, iii, ...). |
+| MergeFormat | 54 | Field result formatting. The MERGEFORMAT instruction. |
+| MergeFormatInet | 55 | Field result formatting. The MERGEFORMATINET instruction. |
+| None | 0 | Used to specify a missing general format. |
+| OrdText | 38 | Numeric formatting. Ordinal text (First, Second, Third, ...). |
+| Ordinal | 37 | Numeric formatting. Ordinal (1st, 2nd, 3rd, ...). |
 | SBChar | 41 | Numeric formatting. Formats a numeric result using single-byte Arabic numbering. |
 | ThaiArabic | 42 | Numeric formatting. Formats a numeric result using Thai numbers. |
 | ThaiCardText | 43 | Numeric formatting. Formats a numeric result using sequential numbers from the Thai counting system. |
 | ThaiLetter | 44 | Numeric formatting. Formats a numeric result using Thai letters. |
+| Upper | 52 | Text formatting. All letters are uppercase. |
+| UppercaseAlphabetic | 2 | Numeric formatting. Formats a numeric result as one or more occurrences of an uppercase alphabetic Latin character. |
+| UppercaseRoman | 39 | Numeric formatting. Uppercase Roman (I, II, III, ...). |
 | VietCardText | 45 | Numeric formatting. Formats a numeric result using Vietnamese numerals. |
 | Zodiac1 | 46 | Numeric formatting. Formats a numeric result using sequential numerical traditional ideographs. |
 | Zodiac2 | 47 | Numeric formatting. Formats a numeric result using sequential zodiac ideographs. |
 | Zodiac3 | 48 | Numeric formatting. Formats a numeric result using sequential traditional zodiac ideographs. |
-| Caps | 49 | Text formatting. Capitalizes the first letter of each word. |
-| FirstCap | 50 | Text formatting. Capitalizes the first letter of the first word. |
-| Lower | 51 | Text formatting. All letters are lowercase. |
-| Upper | 52 | Text formatting. All letters are uppercase. |
-| CharFormat | 53 | [Field](../field/) result formatting. The CHARFORMAT instruction. |
-| MergeFormat | 54 | [Field](../field/) result formatting. The MERGEFORMAT instruction. |
-| MergeFormatInet | 55 | [Field](../field/) result formatting. The MERGEFORMATINET instruction. |
-
 
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -143,7 +142,6 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

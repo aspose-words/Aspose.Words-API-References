@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_xsltransformation/
 Sets the location of XSL Transformation to format XML data.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_XslTransformation(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_XslTransformation(const System::String & value)
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfencryptiondetails/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::PdfEncryptionDetails::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::PdfEncryptionDetails::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

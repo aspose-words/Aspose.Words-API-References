@@ -4,7 +4,7 @@ linktitle: get_IsDirty
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldChar::get_IsDirty method. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document in C++.'
 type: docs
-weight: 3000
+weight: 7600
 url: /cpp/aspose.words.fields/fieldchar/get_isdirty/
 ---
 ## FieldChar::get_IsDirty method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldchar/get_isdirty/
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 ```cpp
-bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
+_Bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
 ```
-
 
 ## Examples
 
 
+Shows how to work with a FieldStart node.
 
-Shows how to work with a [FieldStart](../../fieldstart/) node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,7 +44,6 @@ ASSERT_EQ((u" DATE  \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
 // Update the field to show the current date.
 field->Update();
 ```
-
 ## See Also
 
 * Class [FieldChar](../)

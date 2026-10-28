@@ -4,7 +4,7 @@ linktitle: get_FootnoteOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_FootnoteOptions method. Provides options that control numbering and positioning of footnotes in this section in C++.'
 type: docs
-weight: 17000
+weight: 49349
 url: /cpp/aspose.words/pagesetup/get_footnoteoptions/
 ---
 ## PageSetup::get_FootnoteOptions method
@@ -16,12 +16,11 @@ Provides options that control numbering and positioning of footnotes in this sec
 System::SharedPtr<Aspose::Words::Notes::FootnoteOptions> Aspose::Words::PageSetup::get_FootnoteOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to configure options affecting footnotes/endnotes in a section.
 
-Shows how to configure options affecting footnotes/endnotes in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ endnoteOptions->set_StartNumber(1);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.FootnoteOptions.docx");
 ```
-
 ## See Also
 
-* Class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

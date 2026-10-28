@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DoclingSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Docling in C++.'
 type: docs
-weight: 4000
+weight: 6750
 url: /cpp/aspose.words.saving/doclingsaveoptions/get_saveformat/
 ---
 ## DoclingSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::DoclingSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to save a document into a Docling JSON format.
 
-Shows how to save a document into a Docling JSON format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -33,10 +32,8 @@ saveOptions->set_RenderNonImageShapes(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.DoclingJson.json", saveOptions);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [DoclingSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

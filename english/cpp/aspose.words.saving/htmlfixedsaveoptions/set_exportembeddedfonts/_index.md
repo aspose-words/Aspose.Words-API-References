@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts method
 linktitle: set_ExportEmbeddedFonts
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts in C++.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts method. Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file in C++.'
 type: docs
 weight: 26000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportembeddedfonts/
@@ -10,12 +10,51 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportembeddedfonts/
 ## HtmlFixedSaveOptions::set_ExportEmbeddedFonts method
 
 
-Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts](../get_exportembeddedfonts/).
+Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 
 ```cpp
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts(bool value)
 ```
 
+## Examples
+
+
+Shows how to determine where to store embedded fonts when exporting a document to Html.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
+
+// When we export a document with embedded fonts to .html,
+// Aspose.Words can place the fonts in two possible locations.
+// Setting the "ExportEmbeddedFonts" flag to "true" will store the raw data for embedded fonts within the CSS stylesheet,
+// in the "url" property of the "@font-face" rule. This may create a huge CSS stylesheet file
+// and reduce the number of external files that this HTML conversion will create.
+// Setting this flag to "false" will create a file for each font.
+// The CSS stylesheet will link to each font file using the "url" property of the "@font-face" rule.
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
+htmlFixedSaveOptions->set_ExportEmbeddedFonts(exportEmbeddedFonts);
+
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedFonts.html", htmlFixedSaveOptions);
+
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedFonts/styles.css");
+
+if (exportEmbeddedFonts)
+{
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(].+[)] format[(]'woff'[)]; }")->get_Success());
+    ASSERT_EQ(0, System::IO::Directory::GetFiles(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedFonts")->LINQ_Count(static_cast<System::Func<System::String, bool>>(static_cast<std::function<bool(System::String f)>>([](System::String f) -> bool
+    {
+        return f.EndsWith(u".woff");
+    }))));
+}
+else
+{
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(]'font001[.]woff'[)] format[(]'woff'[)]; }")->get_Success());
+    ASSERT_EQ(2, System::IO::Directory::GetFiles(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedFonts")->LINQ_Count(static_cast<System::Func<System::String, bool>>(static_cast<std::function<bool(System::String f)>>([](System::String f) -> bool
+    {
+        return f.EndsWith(u".woff");
+    }))));
+}
+```
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

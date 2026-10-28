@@ -4,7 +4,7 @@ linktitle: get_TextWrapping
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_TextWrapping method. Gets or sets TextWrapping for table in C++.'
 type: docs
-weight: 38000
+weight: 102000
 url: /cpp/aspose.words.tables/table/get_textwrapping/
 ---
 ## Table::get_TextWrapping method
@@ -16,12 +16,11 @@ Gets or sets [TextWrapping](./) for table.
 Aspose::Words::Tables::TextWrapping Aspose::Words::Tables::Table::get_TextWrapping()
 ```
 
-
 ## Examples
 
 
+Shows how to work with table text wrapping.
 
-Shows how to work with table text wrapping. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,10 +44,8 @@ table->set_AbsoluteVerticalDistance(20);
 
 doc->Save(get_ArtifactsDir() + u"Table.WrapText.docx");
 ```
-
 ## See Also
 
-* Enum [TextWrapping](../../textwrapping/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

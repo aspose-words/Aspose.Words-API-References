@@ -4,7 +4,7 @@ linktitle: get_LastParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_LastParagraph method. Gets the last paragraph in the story in C++.'
 type: docs
-weight: 5000
+weight: 13000
 url: /cpp/aspose.words/story/get_lastparagraph/
 ---
 ## Story::get_LastParagraph method
@@ -16,12 +16,11 @@ Gets the last paragraph in the story.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_LastParagraph() override
 ```
 
-
 ## Examples
 
 
+Shows how to move a DocumentBuilder's cursor position to a specified node.
 
-Shows how to move a [DocumentBuilder](../../documentbuilder/)'s cursor position to a specified node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ builder->Writeln(u"Run 3. ");
 
 ASSERT_EQ(u"Run 2. \rRun 1. \rRun 3.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

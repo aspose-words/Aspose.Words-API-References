@@ -4,7 +4,7 @@ linktitle: get_UpdatedFieldsCount
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdatedFieldsCount method. Gets the number of updated fields in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.fields/fieldupdatingprogressargs/get_updatedfieldscount/
 ---
 ## FieldUpdatingProgressArgs::get_UpdatedFieldsCount method

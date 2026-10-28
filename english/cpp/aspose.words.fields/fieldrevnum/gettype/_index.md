@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldrevnum/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldRevNum::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldRevNum::GetType() const override
 ```
 
 ## See Also

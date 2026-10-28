@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Adjustment::get_Name method. Gets the name of the adjustment in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.drawing/adjustment/get_name/
 ---
 ## Adjustment::get_Name method
@@ -16,12 +16,11 @@ Gets the name of the adjustment.
 System::String Aspose::Words::Drawing::Adjustment::get_Name() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with adjustment raw values.
 
-Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -37,7 +36,6 @@ adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
-
 ## See Also
 
 * Class [Adjustment](../)

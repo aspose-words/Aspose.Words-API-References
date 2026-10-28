@@ -7,21 +7,23 @@ type: docs
 weight: 3000
 url: /cpp/aspose.words.fields/fieldbuilder/addargument/
 ---
-## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) method
+## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\> \&) method
 
 
 Adds a field's argument represented by [FieldArgumentBuilder](../../fieldargumentbuilder/) to the field's code.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> &argument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::SharedPtr<Aspose::Words::Fields::FieldArgumentBuilder> & argument)
 ```
 
+## Remarks
 
+ This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text. 
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -95,29 +97,28 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldBuilder](../)
-* Class [FieldArgumentBuilder](../../fieldargumentbuilder/)
-* Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) method
+## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\> \&) method
 
 
 Adds a child field represented by another [FieldBuilder](../) to the field's code.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::SharedPtr<Aspose::Words::Fields::FieldBuilder> &argument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::SharedPtr<Aspose::Words::Fields::FieldBuilder> & argument)
 ```
 
+## Remarks
 
+ This overload is used when the argument consists of a single child field. 
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -191,32 +192,29 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldBuilder](../)
-* Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::AddArgument(const System::String\&) method
+## FieldBuilder::AddArgument(const System::String \&) method
 
 
 Adds a field's argument.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::String &argument)
+System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::FieldBuilder::AddArgument(const System::String & argument)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | const System::String\& | The argument value. |
-
+| argument | const System::String \& | The argument value. |
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -290,10 +288,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -310,12 +306,11 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | argument | double | The argument value. |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -389,10 +384,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -409,12 +402,11 @@ System::SharedPtr<Aspose::Words::Fields::FieldBuilder> Aspose::Words::Fields::Fi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | argument | int32_t | The argument value. |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -488,10 +480,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

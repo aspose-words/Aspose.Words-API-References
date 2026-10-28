@@ -2,30 +2,67 @@
 title: Aspose::Words::Saving::PageSet::PageSet constructor
 linktitle: PageSet
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PageSet::PageSet constructor. Creates a page set based on exact page indices in C++.'
+description: 'Aspose::Words::Saving::PageSet::PageSet constructor. Creates a page set based on ranges in C++.'
 type: docs
-weight: 5000
+weight: 8000
 url: /cpp/aspose.words.saving/pageset/pageset/
 ---
-## PageSet::PageSet(const System::ArrayPtr\<int32_t\>\&) constructor
+## PageSet::PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\> \&) constructor
 
 
-Creates a page set based on exact page indices.
+Creates a page set based on ranges.
 
 ```cpp
-Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<int32_t> &pages)
+Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Saving::PageRange>> & ranges)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pages | const System::ArrayPtr\<int32_t\>\& | Zero-based indices of pages. |
+| ranges | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\> \& | Array of page ranges. |
+## Remarks
 
+ If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document. 
 ## Examples
 
 
+Shows how to extract pages based on exact page ranges.
 
-Shows how to extract pages based on exact page indices. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
+
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
+auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeArray<System::SharedPtr<Aspose::Words::Saving::PageRange>>({System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 4), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1)}));
+
+imageOptions->set_PageSet(pageSet);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+```
+## See Also
+
+* Class [PageSet](../)
+* Namespace [Aspose::Words::Saving](../../)
+* Library [Aspose.Words for C++](../../../)
+## PageSet::PageSet(const System::ArrayPtr\<int32_t\> \&) constructor
+
+
+Creates a page set based on exact page indices.
+
+```cpp
+Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<int32_t> & pages)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pages | const System::ArrayPtr\<int32_t\> \& | Zero-based indices of pages. |
+## Remarks
+
+ If a page is encountered that is not in the document, an exception will be thrown during rendering. **MaxValue** means the last page in the document. 
+## Examples
+
+
+Shows how to extract pages based on exact page indices.
+
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,44 +84,8 @@ xpsOptions->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(Syste
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
-
 ## See Also
 
-* Class [PageSet](../)
-* Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words for C++](../../../)
-## PageSet::PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) constructor
-
-
-Creates a page set based on ranges.
-
-```cpp
-Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Saving::PageRange>> &ranges)
-```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ranges | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\& | Array of page ranges. |
-
-## Examples
-
-
-
-Shows how to extract pages based on exact page ranges. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
-
-auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
-auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeArray<System::SharedPtr<Aspose::Words::Saving::PageRange>>({System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 4), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1)}));
-
-imageOptions->set_PageSet(pageSet);
-doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
-```
-
-## See Also
-
-* Class [PageRange](../../pagerange/)
 * Class [PageSet](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -101,12 +102,14 @@ Aspose::Words::Saving::PageSet::PageSet(int32_t page)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | page | int32_t | Zero-based index of the page. |
+## Remarks
 
+ If a page is encountered that is not in the document, an exception will be thrown during rendering. **MaxValue** means the last page in the document. 
 ## Examples
 
 
+Shows how to render one page from a document to a JPEG image.
 
-Shows how to render one page from a document to a JPEG image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -130,7 +133,6 @@ options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
 // which will just be the second page of the original document.
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
 ```
-
 ## See Also
 
 * Class [PageSet](../)

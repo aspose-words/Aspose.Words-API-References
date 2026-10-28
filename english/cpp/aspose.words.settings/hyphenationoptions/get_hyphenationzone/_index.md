@@ -4,7 +4,7 @@ linktitle: get_HyphenationZone
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::HyphenationOptions::get_HyphenationZone method. Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch) in C++.'
 type: docs
-weight: 6000
+weight: 8834
 url: /cpp/aspose.words.settings/hyphenationoptions/get_hyphenationzone/
 ---
 ## HyphenationOptions::get_HyphenationZone method
@@ -16,12 +16,11 @@ Gets or sets the distance in 1/20 of a point from the right margin within which 
 int32_t Aspose::Words::Settings::HyphenationOptions::get_HyphenationZone() const
 ```
 
-
 ## Examples
 
 
+Shows how to configure automatic hyphenation.
 
-Shows how to configure automatic hyphenation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,6 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.HyphenationOptions.docx");
 ```
-
 ## See Also
 
 * Class [HyphenationOptions](../)

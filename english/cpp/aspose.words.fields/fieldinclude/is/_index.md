@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldinclude/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldInclude::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldInclude::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

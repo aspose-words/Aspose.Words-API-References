@@ -4,7 +4,7 @@ linktitle: get_IsFrozen
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtension::get_IsFrozen method. Specifies whether the user can interact with the web extension or not in C++.'
 type: docs
-weight: 5000
+weight: 9625
 url: /cpp/aspose.words.webextensions/webextension/get_isfrozen/
 ---
 ## WebExtension::get_IsFrozen method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.webextensions/webextension/get_isfrozen/
 Specifies whether the user can interact with the web extension or not.
 
 ```cpp
-bool Aspose::Words::WebExtensions::WebExtension::get_IsFrozen() const
+_Bool Aspose::Words::WebExtensions::WebExtension::get_IsFrozen() const
 ```
-
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtension](../)

@@ -16,6 +16,9 @@ True indicates that the redundant attributes of all runs will be ignored when jo
 void Aspose::Words::JoinRunsOptions::set_IgnoreRedundant(bool value)
 ```
 
+## Remarks
+
+ Redundant attributes are those attributes that do not affect the run with the given text content. The default value is False. 
 ## See Also
 
 * Class [JoinRunsOptions](../)

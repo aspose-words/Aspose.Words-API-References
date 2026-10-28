@@ -4,30 +4,29 @@ linktitle: get_Multiline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Multiline method. Specifies whether this SDT allows multiple lines of text in C++.'
 type: docs
-weight: 24000
+weight: 81000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_multiline/
 ---
 ## StructuredDocumentTag::get_Multiline method
 
 
-Specifies whether this **SDT** allows multiple lines of text.
+Specifies whether this SDT allows multiple lines of text.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTag::get_Multiline()
+_Bool Aspose::Words::Markup::StructuredDocumentTag::get_Multiline()
 ```
 
 ## Remarks
 
 
-Accessing this property will only work for [RichText](../../sdttype/) and [PlainText](../../sdttype/) SDT type.
+Accessing this property will only work for [RichText](../../sdttype/) and [PlainText](../../sdttype/) SDT type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to create a structured document tag in a plain text box and modify its appearance.
 
-Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,7 +76,6 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItemCollection::get_Count method. Gets number of items in the collection in C++.'
 type: docs
-weight: 8000
+weight: 14667
 url: /cpp/aspose.words.markup/sdtlistitemcollection/get_count/
 ---
 ## SdtListItemCollection::get_Count method
@@ -16,12 +16,11 @@ Gets number of items in the collection.
 int32_t Aspose::Words::Markup::SdtListItemCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,7 +74,6 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Class [SdtListItemCollection](../)

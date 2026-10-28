@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CompositeNode::get_Count method. Gets the number of immediate children of this node in C++.'
 type: docs
-weight: 4000
+weight: 25000
 url: /cpp/aspose.words/compositenode/get_count/
 ---
 ## CompositeNode::get_Count method
@@ -16,12 +16,11 @@ Gets the number of immediate children of this node.
 int32_t Aspose::Words::CompositeNode::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
-Shows how to add, update and delete child nodes in a [CompositeNode](../)'s collection of children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -67,7 +66,6 @@ paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 ```
-
 ## See Also
 
 * Class [CompositeNode](../)

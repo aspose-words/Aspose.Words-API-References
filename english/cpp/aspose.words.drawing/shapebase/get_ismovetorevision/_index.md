@@ -4,7 +4,7 @@ linktitle: get_IsMoveToRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsMoveToRevision method. Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 34000
+weight: 61540
 url: /cpp/aspose.words.drawing/shapebase/get_ismovetorevision/
 ---
 ## ShapeBase::get_IsMoveToRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/shapebase/get_ismovetorevision/
 Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsMoveToRevision()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsMoveToRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to identify move revision shapes.
 
-Shows how to identify move revision shapes. 
 ```cpp
 // A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
 // tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
@@ -46,7 +45,6 @@ ASSERT_TRUE(shapes[0]->get_IsMoveToRevision());
 ASSERT_TRUE(shapes[1]->get_IsMoveFromRevision());
 ASSERT_FALSE(shapes[1]->get_IsMoveToRevision());
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

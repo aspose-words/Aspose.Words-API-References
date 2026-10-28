@@ -13,23 +13,22 @@ url: /cpp/aspose.words/story/appendparagraph/
 A shortcut method that creates a [Paragraph](../../paragraph/) object with optional text and appends it to the end of this object.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::AppendParagraph(const System::String &text)
+System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::AppendParagraph(const System::String & text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | The text for the paragraph. Can be **null** or empty string. |
+| text | const System::String \& | The text for the paragraph. Can be **null** or empty string. |
 
 ### ReturnValue
 
 The newly created and appended paragraph.
-
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -59,10 +58,8 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

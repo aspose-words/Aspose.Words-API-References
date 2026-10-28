@@ -21,12 +21,11 @@ void Aspose::Words::Drawing::Fill::TwoColorGradient(Aspose::Words::Drawing::Grad
 | --- | --- | --- |
 | style | Aspose::Words::Drawing::GradientStyle | The gradient style [GradientStyle](../../gradientstyle/). |
 | variant | Aspose::Words::Drawing::GradientVariant | The gradient variant [GradientVariant](../../gradientvariant/) |
-
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,11 +60,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
-* Enum [GradientStyle](../../gradientstyle/)
-* Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -85,12 +81,11 @@ void Aspose::Words::Drawing::Fill::TwoColorGradient(System::Drawing::Color color
 | color2 | System::Drawing::Color | The second color to build the gradient. |
 | style | Aspose::Words::Drawing::GradientStyle | The gradient style [GradientStyle](../../gradientstyle/). |
 | variant | Aspose::Words::Drawing::GradientVariant | The gradient variant [GradientVariant](../../gradientvariant/) |
-
 ## Examples
 
 
+Shows how to fill a shape with a gradients.
 
-Shows how to fill a shape with a gradients. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -125,11 +120,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
-
 ## See Also
 
-* Enum [GradientStyle](../../gradientstyle/)
-* Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

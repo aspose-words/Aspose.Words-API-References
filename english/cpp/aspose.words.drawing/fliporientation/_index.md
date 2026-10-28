@@ -13,24 +13,23 @@ url: /cpp/aspose.words.drawing/fliporientation/
 Possible values for the orientation of a shape.
 
 ```cpp
-enum class FlipOrientation
+enum class FlipOrientation : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Coordinates are not flipped. |
-| Horizontal | 1 | Flip along the y-axis, reversing the x-coordinates. |
-| Vertical | 2 | Flip along the x-axis, reversing the y-coordinates. |
 | Both | 3 | Flip along both the y- and x-axis. |
-
+| Horizontal | 1 | Flip along the y-axis, reversing the x-coordinates. |
+| None | 0 | Coordinates are not flipped. |
+| Vertical | 2 | Flip along the x-axis, reversing the y-coordinates. |
 
 ## Examples
 
 
+Shows how to flip a shape on an axis.
 
-Shows how to flip a shape on an axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,8 +63,9 @@ shape->set_FlipOrientation(FlipOrientation::Both);
 
 doc->Save(get_ArtifactsDir() + u"Shape.FlipShapeOrientation.docx");
 ```
-
 ## See Also
+
+* [FlipOrientation](../shapebase/get_fliporientation/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

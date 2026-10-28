@@ -4,7 +4,7 @@ linktitle: get_DataTable
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_DataTable method. Provides access to properties of a data table of this chart. The data table can be shown using the Show property in C++.'
 type: docs
-weight: 4500
+weight: 10432
 url: /cpp/aspose.words.drawing.charts/chart/get_datatable/
 ---
 ## Chart::get_DataTable method
@@ -16,12 +16,11 @@ Provides access to properties of a data table of this chart. The data table can 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataTable> Aspose::Words::Drawing::Charts::Chart::get_DataTable()
 ```
 
-
 ## Examples
 
 
+Shows how to show data table with chart series data.
 
-Shows how to show data table with chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,10 +50,8 @@ dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_Dar
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
-
 ## See Also
 
-* Class [ChartDataTable](../../chartdatatable/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

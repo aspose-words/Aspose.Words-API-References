@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentconverterplugin/converttoimages/
 Converts pages from document from input stream to array of images.
 
 ```cpp
-virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::IDocumentConverterPlugin::ConvertToImages(System::SharedPtr<System::IO::Stream> inputStream, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)=0
+virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::IDocumentConverterPlugin::ConvertToImages(System::SharedPtr<System::IO::Stream> inputStream, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions, System::SharedPtr<Aspose::Words::Saving::SaveOptions> saveOptions)
 ```
 
 
@@ -26,11 +26,8 @@ virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::I
 ### ReturnValue
 
 Array of page images streams.
-
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Interface [IDocumentConverterPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

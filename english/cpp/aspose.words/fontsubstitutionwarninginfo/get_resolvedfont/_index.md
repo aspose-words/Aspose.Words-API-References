@@ -4,7 +4,7 @@ linktitle: get_ResolvedFont
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_ResolvedFont method. Resolved font in C++.'
 type: docs
-weight: 6000
+weight: 14000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_resolvedfont/
 ---
 ## FontSubstitutionWarningInfo::get_ResolvedFont method
@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> & Aspose::Words:
 
 ## See Also
 
-* Class [PhysicalFontInfo](../../../aspose.words.fonts/physicalfontinfo/)
 * Class [FontSubstitutionWarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_NoProofing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NoProofing method. True when the formatted characters are not to be spell checked in C++.'
 type: docs
-weight: 30000
+weight: 59522
 url: /cpp/aspose.words/font/get_noproofing/
 ---
 ## Font::get_NoProofing method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/font/get_noproofing/
 True when the formatted characters are not to be spell checked.
 
 ```cpp
-bool Aspose::Words::Font::get_NoProofing()
+_Bool Aspose::Words::Font::get_NoProofing()
 ```
-
 
 ## Examples
 
 
+Shows how to prevent text from being spell checked by Microsoft Word.
 
-Shows how to prevent text from being spell checked by Microsoft Word. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -35,7 +34,6 @@ builder->Writeln(u"Proofing has been disabled, so these spelking errrs will not 
 
 doc->Save(get_ArtifactsDir() + u"Font.NoProofing.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

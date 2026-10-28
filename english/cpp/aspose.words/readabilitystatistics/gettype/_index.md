@@ -13,7 +13,7 @@ url: /cpp/aspose.words/readabilitystatistics/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::ReadabilityStatistics::GetType() const override
+const System::TypeInfo & Aspose::Words::ReadabilityStatistics::GetType() const override
 ```
 
 ## See Also

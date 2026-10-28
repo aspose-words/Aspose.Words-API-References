@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/writeprotection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Settings::WriteProtection::GetType() const override
+const System::TypeInfo & Aspose::Words::Settings::WriteProtection::GetType() const override
 ```
 
 ## See Also

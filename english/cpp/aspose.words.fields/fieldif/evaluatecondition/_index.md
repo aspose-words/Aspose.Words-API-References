@@ -20,12 +20,11 @@ Aspose::Words::Fields::FieldIfComparisonResult Aspose::Words::Fields::FieldIf::E
 ### ReturnValue
 
 A [FieldIfComparisonResult](../../fieldifcomparisonresult/) value that represents the result of the condition evaluation.
-
 ## Examples
 
 
+Shows how to insert an IF field.
 
-Shows how to insert an IF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,10 +63,8 @@ ASSERT_EQ(u"True", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
-
 ## See Also
 
-* Enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

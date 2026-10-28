@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/fieldoptions/set_bibliographystylesprovider/
 Sets a provider that returns a bibliography style for the [FieldBibliography](../../fieldbibliography/) and [FieldCitation](../../fieldcitation/) fields.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_BibliographyStylesProvider(const System::SharedPtr<Aspose::Words::Fields::IBibliographyStylesProvider> &value)
+void Aspose::Words::Fields::FieldOptions::set_BibliographyStylesProvider(const System::SharedPtr<Aspose::Words::Fields::IBibliographyStylesProvider> & value)
 ```
 
 ## See Also
 
-* Interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

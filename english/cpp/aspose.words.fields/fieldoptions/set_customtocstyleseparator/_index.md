@@ -13,9 +13,12 @@ url: /cpp/aspose.words.fields/fieldoptions/set_customtocstyleseparator/
 Sets custom style separator for the \t switch in [FieldToc](../../fieldtoc/) field.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator(const System::String &value)
+void Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator(const System::String & value)
 ```
 
+## Remarks
+
+ By default, custom styles defined by the \t switch in the [FieldToc](../../fieldtoc/) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter. 
 ## See Also
 
 * Class [FieldOptions](../)

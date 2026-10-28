@@ -13,7 +13,7 @@ url: /cpp/aspose.words/compositenode/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::CompositeNode::GetType() const override
+const System::TypeInfo & Aspose::Words::CompositeNode::GetType() const override
 ```
 
 ## See Also

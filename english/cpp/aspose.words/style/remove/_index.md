@@ -18,20 +18,15 @@ void Aspose::Words::Style::Remove()
 
 ## Remarks
 
-
-[Style](../) removal has following effects on the document model:
-
-* All references to the style are removed from corresponding paragraphs, runs and tables.
+ Style removal has following effects on the document model: * All references to the style are removed from corresponding paragraphs, runs and tables.
 * If base style is removed its formatting is moved to child styles.
 * If style to be deleted has a linked style, then both of these are deleted.
-
-
 
 ## Examples
 
 
+Shows how to create and apply a custom style.
 
-Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -66,7 +61,6 @@ ASSERT_EQ(u"Times New Roman", firstParagraphStyle->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
-
 ## See Also
 
 * Class [Style](../)

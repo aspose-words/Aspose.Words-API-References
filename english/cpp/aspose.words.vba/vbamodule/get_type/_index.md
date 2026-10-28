@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModule::get_Type method. Specifies whether the module is a procedural module, document module, class module, or designer module in C++.'
 type: docs
-weight: 6000
+weight: 8834
 url: /cpp/aspose.words.vba/vbamodule/get_type/
 ---
 ## VbaModule::get_Type method
@@ -16,12 +16,11 @@ Specifies whether the module is a procedural module, document module, class modu
 Aspose::Words::Vba::VbaModuleType Aspose::Words::Vba::VbaModule::get_Type() const
 ```
 
-
 ## Examples
 
 
+Shows how to create a VBA project using macros.
 
-Shows how to create a VBA project using macros. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,10 +40,8 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 
 doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
-
 ## See Also
 
-* Enum [VbaModuleType](../../vbamoduletype/)
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,54 +4,50 @@ linktitle: NodeImporter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NodeImporter::NodeImporter constructor. Initializes a new instance of the NodeImporter class in C++.'
 type: docs
-weight: 2000
+weight: 6000
 url: /cpp/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) constructor
+## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, Aspose::Words::ImportFormatMode) constructor
 
 
 Initializes a new instance of the [NodeImporter](../) class.
 
 ```cpp
-Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words::DocumentBase> &srcDoc, const System::SharedPtr<Aspose::Words::DocumentBase> &dstDoc, Aspose::Words::ImportFormatMode importFormatMode)
+Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words::DocumentBase> & srcDoc, const System::SharedPtr<Aspose::Words::DocumentBase> & dstDoc, Aspose::Words::ImportFormatMode importFormatMode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The source document. |
-| dstDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The destination document that will be the owner of imported nodes. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The source document. |
+| dstDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The destination document that will be the owner of imported nodes. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
-* Enum [ImportFormatMode](../../importformatmode/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) constructor
+## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \&) constructor
 
 
 Initializes a new instance of the [NodeImporter](../) class.
 
 ```cpp
-Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words::DocumentBase> &srcDoc, const System::SharedPtr<Aspose::Words::DocumentBase> &dstDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> &importFormatOptions)
+Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words::DocumentBase> & srcDoc, const System::SharedPtr<Aspose::Words::DocumentBase> & dstDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> & importFormatOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The source document. |
-| dstDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The destination document that will be the owner of imported nodes. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The source document. |
+| dstDoc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The destination document that will be the owner of imported nodes. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Specifies various options to format imported node. |
-
+| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \& | Specifies various options to format imported node. |
 ## Examples
 
 
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
 
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - source.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List with the same definition identifier - destination.docx"));
@@ -65,8 +61,8 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles, importFor
 dstDoc->UpdateListLabels();
 ```
 
+Shows how to resolve list numbering clashes in source and destination documents.
 
-Shows how to resolve list numbering clashes in source and destination documents. 
 ```cpp
 // Open a document with a custom list numbering scheme, and then clone it.
 // Since both have the same numbering format, the formats will clash if we import one document into the other.
@@ -101,12 +97,8 @@ else
     ASSERT_EQ(System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"10. Item 1\r\n" + u"11. Item 2 \r\n" + u"12. Item 3\r\n" + u"13. Item 4", dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim());
 }
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
-* Enum [ImportFormatMode](../../importformatmode/)
-* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/tablecontentalignment/
 Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 
 ```cpp
-enum class TableContentAlignment
+enum class TableContentAlignment : int
 ```
 
 ### Values
@@ -21,16 +21,15 @@ enum class TableContentAlignment
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | The alignment will be taken from the first paragraph in corresponding table column. |
-| Left | 1 | The content of tables will be aligned to the Left. |
 | Center | 2 | The content of tables will be aligned to the Center. |
+| Left | 1 | The content of tables will be aligned to the Left. |
 | Right | 3 | The content of tables will be aligned to the Right. |
-
 
 ## Examples
 
 
+Shows how to align contents in tables.
 
-Shows how to align contents in tables. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -69,7 +68,6 @@ switch (tableContentAlignment)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

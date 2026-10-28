@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::MergeFieldImageDimension class
 linktitle: MergeFieldImageDimension
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::MergeFieldImageDimension class. Represents an image dimension (i.e. the width or the height) used across a mail merge process. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::MergeFieldImageDimension class. Represents an image dimension (i.e. the width or the height) used across a mail merge process. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 115000
 url: /cpp/aspose.words.fields/mergefieldimagedimension/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/mergefieldimagedimension/
 ## MergeFieldImageDimension class
 
 
-Represents an image dimension (i.e. the width or the height) used across a mail merge process. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Represents an image dimension (i.e. the width or the height) used across a mail merge process. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class MergeFieldImageDimension : public System::Object
@@ -20,16 +21,18 @@ class MergeFieldImageDimension : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Unit](./get_unit/)() const | The unit. |
-| [get_Value](./get_value/)() const | The value. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MergeFieldImageDimension](./mergefieldimagedimension/)(double) | Creates an image dimension instance with the given value in points. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/)(double, Aspose::Words::Fields::MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
+| static [Type](./type/)() |  |
+| [get_Unit](./get_unit/)() const | The unit. |
+| [get_Value](./get_value/)() const | The value. |
 | [set_Unit](./set_unit/)(Aspose::Words::Fields::MergeFieldImageDimensionUnit) | The unit. |
 | [set_Value](./set_value/)(double) | The value. |
-| static [Type](./type/)() |  |
+## Remarks
 
+ To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [Value](./get_value/) property. 
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

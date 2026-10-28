@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/replacingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Replacing::ReplacingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Replacing::ReplacingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

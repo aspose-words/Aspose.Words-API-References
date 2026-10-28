@@ -13,7 +13,7 @@ url: /cpp/aspose.words.vba/vbareferencecollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Vba::VbaReferenceCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Vba::VbaReference> >
+using Aspose::Words::Vba::VbaReferenceCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Vba::VbaReference> >
 ```
 
 ## See Also

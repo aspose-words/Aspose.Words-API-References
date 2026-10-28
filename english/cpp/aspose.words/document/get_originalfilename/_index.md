@@ -4,7 +4,7 @@ linktitle: get_OriginalFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_OriginalFileName method. Gets the original file name of the document in C++.'
 type: docs
-weight: 40000
+weight: 130000
 url: /cpp/aspose.words/document/get_originalfilename/
 ---
 ## Document::get_OriginalFileName method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Document::get_OriginalFileName() const
 
 
 Returns **null** if the document was loaded from a stream or created blank.
-
 ## Examples
 
 
+Shows how to retrieve details of a document's load operation.
 
-Shows how to retrieve details of a document's load operation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -33,8 +32,8 @@ ASSERT_EQ(get_MyDir() + u"Document.docx", doc->get_OriginalFileName());
 ASSERT_EQ(LoadFormat::Docx, doc->get_OriginalLoadFormat());
 ```
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -60,7 +59,6 @@ Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect t
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
-
 ## See Also
 
 * Class [Document](../)

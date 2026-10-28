@@ -13,7 +13,7 @@ url: /cpp/aspose.words/conditionalstylecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::ConditionalStyleCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::ConditionalStyleCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

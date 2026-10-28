@@ -4,7 +4,7 @@ linktitle: get_Fill
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_Fill method. Gets fill formatting for the parent chart element in C++.'
 type: docs
-weight: 2000
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartformat/get_fill/
 ---
 ## ChartFormat::get_Fill method
@@ -16,12 +16,11 @@ Gets fill formatting for the parent chart element.
 System::SharedPtr<Aspose::Words::Drawing::Fill> Aspose::Words::Drawing::Charts::ChartFormat::get_Fill()
 ```
 
-
 ## Examples
 
 
+Show how to set marker formatting.
 
-Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +51,8 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
-
 ## See Also
 
-* Class [Fill](../../../aspose.words.drawing/fill/)
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,12 +22,11 @@ void Aspose::Words::Range::NormalizeFieldTypes()
 Use this method after document changes that affect field types.
 
 To change field type values in the whole document use [NormalizeFieldTypes](../../document/normalizefieldtypes/).
-
 ## Examples
 
 
+Shows how to get the keep a field's type up to date with its field code.
 
-Shows how to get the keep a field's type up to date with its field code. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ ASSERT_EQ(FieldType::FieldPage, field->get_Start()->get_FieldType());
 ASSERT_EQ(FieldType::FieldPage, field->get_Separator()->get_FieldType());
 ASSERT_EQ(FieldType::FieldPage, field->get_End()->get_FieldType());
 ```
-
 ## See Also
 
 * Class [Range](../)

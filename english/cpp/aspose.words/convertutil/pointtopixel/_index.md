@@ -4,7 +4,7 @@ linktitle: PointToPixel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::PointToPixel method. Converts points to pixels at 96 dpi in C++.'
 type: docs
-weight: 6000
+weight: 13000
 url: /cpp/aspose.words/convertutil/pointtopixel/
 ---
 ## ConvertUtil::PointToPixel(double) method
@@ -20,12 +20,14 @@ static double Aspose::Words::ConvertUtil::PointToPixel(double points)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | points | double | The value to convert. |
+## Remarks
 
+ 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to specify page properties in pixels.
 
-Shows how to specify page properties in pixels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +53,6 @@ builder->Writeln(System::String::Format(u"This Text is {0} points/{1} pixels fro
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndPixels.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)
@@ -71,12 +72,14 @@ static double Aspose::Words::ConvertUtil::PointToPixel(double points, double res
 | --- | --- | --- |
 | points | double | The value to convert. |
 | resolution | double | The dpi (dots per inch) resolution. |
+## Remarks
 
+ 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to use convert points to pixels with default and custom resolution.
 
-Shows how to use convert points to pixels with default and custom resolution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -103,7 +106,6 @@ builder->Writeln(System::String::Format(u"At a DPI of {0}, the text is now {1} p
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndPixelsDpi.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontinfocollection/virtualized_iterator/
 
 
 ```cpp
-using Aspose::Words::Fonts::FontInfoCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::Fonts::FontInfoCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

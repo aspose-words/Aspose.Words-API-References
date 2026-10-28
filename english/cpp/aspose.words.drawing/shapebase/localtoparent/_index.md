@@ -16,12 +16,11 @@ Converts a value from the local coordinate space into the coordinate space of th
 System::Drawing::PointF Aspose::Words::Drawing::ShapeBase::LocalToParent(System::Drawing::PointF value)
 ```
 
-
 ## Examples
 
 
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
 
-Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -68,7 +67,6 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.LocalToParent.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

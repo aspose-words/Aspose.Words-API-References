@@ -4,7 +4,7 @@ linktitle: get_IgnoreComments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreComments method. Specifies whether to compare differences in comments in C++.'
 type: docs
-weight: 6000
+weight: 16402
 url: /cpp/aspose.words.comparing/compareoptions/get_ignorecomments/
 ---
 ## CompareOptions::get_IgnoreComments method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorecomments/
 Specifies whether to compare differences in comments.
 
 ```cpp
-bool Aspose::Words::Comparing::CompareOptions::get_IgnoreComments() const
+_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreComments() const
 ```
 
+## Remarks
 
+ By default, comments are not ignored. 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -88,7 +90,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Class [CompareOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_DontAffectsLineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing method. Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph in C++.'
 type: docs
-weight: 3000
+weight: 10334
 url: /cpp/aspose.words.fields/fieldsymbol/get_dontaffectslinespacing/
 ---
 ## FieldSymbol::get_DontAffectsLineSpacing method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldsymbol/get_dontaffectslinespacing/
 Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing()
+_Bool Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing()
 ```
-
 
 ## Examples
 
 
+Shows how to use the SYMBOL field.
 
-Shows how to use the SYMBOL field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,7 +69,6 @@ builder->Write(u"Line 3");
 
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldSymbol](../)

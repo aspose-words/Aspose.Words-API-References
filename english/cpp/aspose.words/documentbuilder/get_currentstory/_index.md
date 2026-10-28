@@ -4,7 +4,7 @@ linktitle: get_CurrentStory
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_CurrentStory method. Gets the story that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 14000
+weight: 79000
 url: /cpp/aspose.words/documentbuilder/get_currentstory/
 ---
 ## DocumentBuilder::get_CurrentStory method
@@ -16,12 +16,11 @@ Gets the story that is currently selected in this [DocumentBuilder](../).
 System::SharedPtr<Aspose::Words::Story> Aspose::Words::DocumentBuilder::get_CurrentStory()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document builder's current story.
 
-Shows how to work with a document builder's current story. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +42,8 @@ builder->EndTable();
 
 ASSERT_TRUE(builder->get_CurrentStory()->get_Tables()->Contains(table));
 ```
-
 ## See Also
 
-* Class [Story](../../story/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontinfocollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Fonts::FontInfoCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Fonts::FontInfoCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroup/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::ChartSeriesGroup::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::ChartSeriesGroup::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

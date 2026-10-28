@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Replacing::FindReplaceOptions class in C++.'
 type: docs
-weight: 1000
+weight: 20048
 url: /cpp/aspose.words.replacing/findreplaceoptions/type/
 ---
 ## FindReplaceOptions::Type method

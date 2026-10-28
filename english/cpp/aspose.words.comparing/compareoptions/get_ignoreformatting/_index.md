@@ -4,7 +4,7 @@ linktitle: get_IgnoreFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting method. True indicates that formatting is ignored in C++.'
 type: docs
-weight: 10000
+weight: 16670
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoreformatting/
 ---
 ## CompareOptions::get_IgnoreFormatting method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoreformatting/
 True indicates that formatting is ignored.
 
 ```cpp
-bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting() const
+_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting() const
 ```
 
+## Remarks
 
+ By default, document formatting is not ignored. 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -88,7 +90,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Class [CompareOptions](../)

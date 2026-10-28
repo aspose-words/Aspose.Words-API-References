@@ -2,20 +2,45 @@
 title: Aspose::Words::Fields::FormField::set_Name method
 linktitle: set_Name
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_Name method. Setter for Aspose::Words::Fields::FormField::get_Name in C++.'
+description: 'Aspose::Words::Fields::FormField::set_Name method. Sets the form field name in C++.'
 type: docs
-weight: 39000
+weight: 82000
 url: /cpp/aspose.words.fields/formfield/set_name/
 ---
 ## FormField::set_Name method
 
 
-Setter for [Aspose::Words::Fields::FormField::get_Name](../get_name/).
+Sets the form field name.
 
 ```cpp
-void Aspose::Words::Fields::FormField::set_Name(const System::String &value)
+void Aspose::Words::Fields::FormField::set_Name(const System::String & value)
 ```
 
+## Remarks
+
+ Microsoft Word allows strings with at most 20 characters. 
+## Examples
+
+
+Shows how to insert a combo box.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Write(u"Please select a fruit: ");
+
+// Insert a combo box which will allow a user to choose an option from a collection of strings.
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
+    u"Apple", u"Banana", u"Cherry"}), 0);
+
+ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
+ASSERT_EQ(FieldType::FieldFormDropDown, comboBox->get_Type());
+ASSERT_EQ(u"Apple", comboBox->get_Result());
+
+// The form field will appear in the form of a "select" html tag.
+doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
+```
 ## See Also
 
 * Class [FormField](../)

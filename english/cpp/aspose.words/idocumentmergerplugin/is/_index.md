@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentmergerplugin/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IDocumentMergerPlugin::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IDocumentMergerPlugin::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

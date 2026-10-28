@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldNoteRef::get_BookmarkName method. Gets the name of the bookmark in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.fields/fieldnoteref/get_bookmarkname/
 ---
 ## FieldNoteRef::get_BookmarkName method

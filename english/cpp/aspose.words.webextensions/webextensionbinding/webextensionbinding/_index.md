@@ -4,7 +4,7 @@ linktitle: WebExtensionBinding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::WebExtensionBinding constructor. Creates web extension binding with specified parameters in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 ---
 ## WebExtensionBinding::WebExtensionBinding constructor
@@ -13,21 +13,20 @@ url: /cpp/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 Creates web extension binding with specified parameters.
 
 ```cpp
-Aspose::Words::WebExtensions::WebExtensionBinding::WebExtensionBinding(const System::String &id, Aspose::Words::WebExtensions::WebExtensionBindingType bindingType, const System::String &appRef)
+Aspose::Words::WebExtensions::WebExtensionBinding::WebExtensionBinding(const System::String & id, Aspose::Words::WebExtensions::WebExtensionBindingType bindingType, const System::String & appRef)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | const System::String\& | Binding identifier. |
+| id | const System::String \& | Binding identifier. |
 | bindingType | Aspose::Words::WebExtensions::WebExtensionBindingType | Binding type. |
-| appRef | const System::String\& | Binding key used to map the binding entry in this list with the bound data in the document. |
-
+| appRef | const System::String \& | Binding key used to map the binding entry in this list with the bound data in the document. |
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -92,10 +91,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * Class [WebExtensionBinding](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

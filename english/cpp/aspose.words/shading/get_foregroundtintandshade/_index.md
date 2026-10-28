@@ -4,7 +4,7 @@ linktitle: get_ForegroundTintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Shading::get_ForegroundTintAndShade method. Gets or sets a double value that lightens or darkens a foreground theme color in C++.'
 type: docs
-weight: 9000
+weight: 13778
 url: /cpp/aspose.words/shading/get_foregroundtintandshade/
 ---
 ## Shading::get_ForegroundTintAndShade method
@@ -22,12 +22,11 @@ double Aspose::Words::Shading::get_ForegroundTintAndShade()
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property.
 
 Zero (0) is neutral.
-
 ## Examples
 
 
+Shows how to set foreground and background colors for shading texture.
 
-Shows how to set foreground and background colors for shading texture. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,6 +47,10 @@ builder->Writeln(u"Foreground and background pattern colors for shading texture.
 
 doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
+* **InvalidOperationException** - Throw if set this property for Shading object with non-theme colors.
 
 ## See Also
 

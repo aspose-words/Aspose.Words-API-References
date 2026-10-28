@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Name method. Gets or sets the name of the font in C++.'
 type: docs
-weight: 25000
+weight: 59432
 url: /cpp/aspose.words/font/get_name/
 ---
 ## Font::get_Name method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Font::get_Name()
 When getting, returns [NameAscii](../get_nameascii/).
 
 When setting, sets [NameAscii](../get_nameascii/), [NameBi](../get_namebi/), [NameFarEast](../get_namefareast/) and [NameOther](../get_nameother/) to the specified value.
-
 ## Examples
 
 
+Shows how to insert formatted text using DocumentBuilder.
 
-Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +42,8 @@ font->set_Underline(Underline::Dash);
 builder->Write(u"Hello world!");
 ```
 
+Shows how to format a run of text using its font property.
 
-Shows how to format a run of text using its font property. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
@@ -57,7 +56,6 @@ font->set_HighlightColor(System::Drawing::Color::get_Yellow());
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

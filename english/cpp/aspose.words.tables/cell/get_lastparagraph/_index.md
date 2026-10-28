@@ -4,7 +4,7 @@ linktitle: get_LastParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_LastParagraph method. Gets the last paragraph among the immediate children in C++.'
 type: docs
-weight: 9000
+weight: 21000
 url: /cpp/aspose.words.tables/cell/get_lastparagraph/
 ---
 ## Cell::get_LastParagraph method
@@ -16,12 +16,11 @@ Gets the last paragraph among the immediate children.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Tables::Cell::get_LastParagraph()
 ```
 
-
 ## Examples
 
 
+Shows how to apply settings to vertical borders to a table row's format.
 
-Shows how to apply settings to vertical borders to a table row's format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,10 +58,8 @@ ASSERT_EQ(LineStyle::None, border->get_LineStyle());
 
 doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

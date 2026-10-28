@@ -4,7 +4,7 @@ linktitle: get_SignatureLine
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_SignatureLine method. Gets SignatureLine object if the shape is a signature line. Returns null otherwise in C++.'
 type: docs
-weight: 18000
+weight: 49000
 url: /cpp/aspose.words.drawing/shape/get_signatureline/
 ---
 ## Shape::get_SignatureLine method
@@ -16,12 +16,14 @@ Gets [SignatureLine](../../signatureline/) object if the shape is a signature li
 System::SharedPtr<Aspose::Words::Drawing::SignatureLine> Aspose::Words::Drawing::Shape::get_SignatureLine()
 ```
 
+## Remarks
 
+You can insert new [SignatureLine](../../signatureline/) into the document using [InsertSignatureLine()](../../../aspose.words/documentbuilder/insertsignatureline/) and 
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +58,8 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
-* Class [SignatureLine](../../signatureline/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

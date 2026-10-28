@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifieldupdatecultureprovider/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::IFieldUpdateCultureProvider::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::IFieldUpdateCultureProvider::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

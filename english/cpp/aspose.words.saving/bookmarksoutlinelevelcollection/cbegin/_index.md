@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 5000
+weight: 18334
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/cbegin/
 ---
 ## BookmarksOutlineLevelCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::cbegin() const noexcept
+const_iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

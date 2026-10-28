@@ -4,7 +4,7 @@ linktitle: get_Level
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Level method. Gets the level at which this structured document tag range start occurs in the document tree in C++.'
 type: docs
-weight: 10000
+weight: 27192
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_level/
 ---
 ## StructuredDocumentTagRangeStart::get_Level method
@@ -16,17 +16,17 @@ Gets the level at which this structured document tag range start occurs in the d
 Aspose::Words::Markup::MarkupLevel Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Level() const override
 ```
 
-
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,10 +47,8 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
-
 ## See Also
 
-* Enum [MarkupLevel](../../markuplevel/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

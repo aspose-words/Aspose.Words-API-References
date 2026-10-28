@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection class
 linktitle: DigitalSignatureCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection class. Provides a read-only collection of digital signatures attached to a document. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection class. Provides a read-only collection of digital signatures attached to a document. To learn more, visit the Work with Digital Signatures documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/
 ## DigitalSignatureCollection class
 
 
-Provides a read-only collection of digital signatures attached to a document. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
+Provides a read-only collection of digital signatures attached to a document. 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class DigitalSignatureCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature>>
@@ -20,20 +21,20 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 
 | Method | Description |
 | --- | --- |
-| [begin](./begin/)() |  |
+| [DigitalSignatureCollection](./digitalsignaturecollection/)() |  |
+| [GetEnumerator](./getenumerator/)() override | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [DigitalSignatureCollection](./digitalsignaturecollection/)() |  |
 | [end](./end/)() |  |
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [get_IsValid](./get_isvalid/)() | Returns **true** if all digital signatures in this collection are valid and the document has not been tampered with Also returns **true** if there are no digital signatures. Returns **false** if at least one digital signature is invalid. |
-| [GetEnumerator](./getenumerator/)() override | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a document signature at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -47,12 +48,14 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+## Remarks
 
+[DigitalSignatures](../../aspose.words/document/get_digitalsignatures/)
 ## Examples
 
 
+Shows how to validate and display information about each signature in a document.
 
-Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
@@ -68,8 +71,8 @@ for (auto&& signature : doc->get_DigitalSignatures())
 }
 ```
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -106,7 +109,6 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

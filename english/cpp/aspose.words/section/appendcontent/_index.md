@@ -13,13 +13,13 @@ url: /cpp/aspose.words/section/appendcontent/
 Inserts a copy of content of the source section at the end of this section.
 
 ```cpp
-void Aspose::Words::Section::AppendContent(const System::SharedPtr<Aspose::Words::Section> &sourceSection)
+void Aspose::Words::Section::AppendContent(const System::SharedPtr<Aspose::Words::Section> & sourceSection)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceSection | const System::SharedPtr\<Aspose::Words::Section\>\& | The section to copy content from. |
+| sourceSection | const System::SharedPtr\<Aspose::Words::Section\> \& | The section to copy content from. |
 ## Remarks
 
 
@@ -28,12 +28,11 @@ Only content of [Body](../get_body/) of the source section is copied, page setup
 The nodes are automatically imported if the source section belongs to a different document.
 
 No new section is created in the destination document.
-
 ## Examples
 
 
+Shows how to append the contents of a section to another section.
 
-Shows how to append the contents of a section to another section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,10 +59,8 @@ section->AppendContent(sectionToAppend);
 ASSERT_EQ(3, doc->get_Sections()->get_Count());
 ASSERT_EQ(System::String(u"Section 1") + ControlChar::ParagraphBreak() + u"Section 3" + ControlChar::ParagraphBreak() + u"Section 2" + ControlChar::SectionBreak(), section->GetText());
 ```
-
 ## See Also
 
-* Class [Section](../)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

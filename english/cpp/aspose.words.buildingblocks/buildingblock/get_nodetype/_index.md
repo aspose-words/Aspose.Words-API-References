@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_NodeType method. Returns the BuildingBlock value in C++.'
 type: docs
-weight: 12000
+weight: 16770
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_nodetype/
 ---
 ## BuildingBlock::get_NodeType method
@@ -18,7 +18,6 @@ Aspose::Words::NodeType Aspose::Words::BuildingBlocks::BuildingBlock::get_NodeTy
 
 ## See Also
 
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

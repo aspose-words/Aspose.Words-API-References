@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Font method. Provides access to the font formatting of this object in C++.'
 type: docs
-weight: 21000
+weight: 61300
 url: /cpp/aspose.words.drawing/shapebase/get_font/
 ---
 ## ShapeBase::get_Font method
@@ -16,12 +16,11 @@ Provides access to the font formatting of this object.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::ShapeBase::get_Font()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a text box, and set the font of its contents.
 
-Shows how to insert a text box, and set the font of its contents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +51,8 @@ builder->Writeln(u"\nThis text is outside the text box.");
 
 doc->Save(get_ArtifactsDir() + u"Shape.Font.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

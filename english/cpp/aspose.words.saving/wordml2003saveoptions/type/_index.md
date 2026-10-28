@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::WordML2003SaveOptions class in C++.'
 type: docs
-weight: 1000
+weight: 4334
 url: /cpp/aspose.words.saving/wordml2003saveoptions/type/
 ---
 ## WordML2003SaveOptions::Type method

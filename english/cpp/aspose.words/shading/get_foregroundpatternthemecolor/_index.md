@@ -4,7 +4,7 @@ linktitle: get_ForegroundPatternThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Shading::get_ForegroundPatternThemeColor method. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object in C++.'
 type: docs
-weight: 8000
+weight: 13667
 url: /cpp/aspose.words/shading/get_foregroundpatternthemecolor/
 ---
 ## Shading::get_ForegroundPatternThemeColor method
@@ -16,12 +16,11 @@ Gets or sets the foreground pattern theme color in the applied color scheme that
 Aspose::Words::Themes::ThemeColor Aspose::Words::Shading::get_ForegroundPatternThemeColor()
 ```
 
-
 ## Examples
 
 
+Shows how to set foreground and background colors for shading texture.
 
-Shows how to set foreground and background colors for shading texture. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,10 +41,8 @@ builder->Writeln(u"Foreground and background pattern colors for shading texture.
 
 doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 ```
-
 ## See Also
 
-* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

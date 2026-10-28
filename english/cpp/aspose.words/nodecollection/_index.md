@@ -2,7 +2,7 @@
 title: Aspose::Words::NodeCollection class
 linktitle: NodeCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::NodeCollection class. Represents a collection of nodes of a specific type. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::NodeCollection class. Represents a collection of nodes of a specific type. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
 type: docs
 weight: 43000
 url: /cpp/aspose.words/nodecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/nodecollection/
 ## NodeCollection class
 
 
-Represents a collection of nodes of a specific type. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
+Represents a collection of nodes of a specific type. 
+To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeCollection : public INodeCollection,
@@ -21,20 +22,20 @@ class NodeCollection : public INodeCollection,
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds a node to the end of the collection. |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Adds a node to the end of the collection. |
 | [Clear](./clear/)() | Removes all nodes from this collection and from the document. |
-| [Contains](./contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
-| [get_Count](./get_count/)() | Gets the number of nodes in the collection. |
+| [Contains](./contains/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Determines whether a node is in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Retrieves a node at the given index. |
-| [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
-| [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
+| [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the zero-based index of the specified node. |
+| [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts a node into the collection at the specified index. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Removes the node from the collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all nodes from the collection to a new array of nodes. |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Gets the number of nodes in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Retrieves a node at the given index. |
 ## Remarks
 
 
@@ -47,12 +48,11 @@ The [NodeCollection](./) collection is "live", i.e. changes to the children of t
 [NodeCollection](./) is returned by [GetChildNodes()](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [SectionCollection](../sectioncollection/), [ParagraphCollection](../paragraphcollection/) etc.
 
 [NodeCollection](./) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
-
 ## Examples
 
 
+Shows how to replace all textbox shapes with image shapes.
 
-Shows how to replace all textbox shapes with image shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Textboxes in drawing canvas.docx"));
 
@@ -102,7 +102,6 @@ ASSERT_EQ(4, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspos
 
 doc->Save(get_ArtifactsDir() + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

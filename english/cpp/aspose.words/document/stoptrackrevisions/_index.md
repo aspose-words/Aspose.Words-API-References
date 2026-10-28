@@ -16,12 +16,11 @@ Stops automatic marking of document changes as revisions.
 void Aspose::Words::Document::StopTrackRevisions()
 ```
 
-
 ## Examples
 
 
+Shows how to track revisions while editing a document.
 
-Shows how to track revisions while editing a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,8 +61,9 @@ ASSERT_EQ(System::DateTime::MinValue, doc->get_Revisions()->idx_get(1)->get_Date
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
 doc->Save(get_ArtifactsDir() + u"Revision.StartTrackRevisions.docx");
 ```
-
 ## See Also
+
+* [StartTrackRevisions()](../starttrackrevisions/)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)

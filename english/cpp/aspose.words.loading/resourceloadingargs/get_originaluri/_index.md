@@ -4,7 +4,7 @@ linktitle: get_OriginalUri
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::ResourceLoadingArgs::get_OriginalUri method. Original URI of the resource as specified in imported document in C++.'
 type: docs
-weight: 2000
+weight: 10000
 url: /cpp/aspose.words.loading/resourceloadingargs/get_originaluri/
 ---
 ## ResourceLoadingArgs::get_OriginalUri method

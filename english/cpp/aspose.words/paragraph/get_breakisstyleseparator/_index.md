@@ -4,24 +4,23 @@ linktitle: get_BreakIsStyleSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_BreakIsStyleSeparator method. True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles in C++.'
 type: docs
-weight: 5000
+weight: 34000
 url: /cpp/aspose.words/paragraph/get_breakisstyleseparator/
 ---
 ## Paragraph::get_BreakIsStyleSeparator method
 
 
-True if this paragraph break is a [Style](../../style/) Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles.
+True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
+_Bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
 ```
-
 
 ## Examples
 
 
+Shows how to write text to the same line as a TOC heading and have it not show up in the TOC.
 
-Shows how to write text to the same line as a TOC heading and have it not show up in the TOC. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Break
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Paragraph.BreakIsStyleSeparator.docx");
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

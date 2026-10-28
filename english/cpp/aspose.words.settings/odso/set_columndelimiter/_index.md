@@ -2,7 +2,7 @@
 title: Aspose::Words::Settings::Odso::set_ColumnDelimiter method
 linktitle: set_ColumnDelimiter
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Settings::Odso::set_ColumnDelimiter method. Setter for Aspose::Words::Settings::Odso::get_ColumnDelimiter in C++.'
+description: 'Aspose::Words::Settings::Odso::set_ColumnDelimiter method. Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined in C++.'
 type: docs
 weight: 14000
 url: /cpp/aspose.words.settings/odso/set_columndelimiter/
@@ -10,12 +10,16 @@ url: /cpp/aspose.words.settings/odso/set_columndelimiter/
 ## Odso::set_ColumnDelimiter method
 
 
-Setter for [Aspose::Words::Settings::Odso::get_ColumnDelimiter](../get_columndelimiter/).
+Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
 
 ```cpp
 void Aspose::Words::Settings::Odso::set_ColumnDelimiter(char16_t value)
 ```
 
+## Remarks
+
+
+RK I have never seen this in use.
 ## See Also
 
 * Class [Odso](../)

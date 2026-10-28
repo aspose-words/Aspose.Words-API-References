@@ -4,7 +4,7 @@ linktitle: get_LineBetween
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_LineBetween method. When true, adds a vertical line between columns in C++.'
 type: docs
-weight: 4000
+weight: 17000
 url: /cpp/aspose.words/textcolumncollection/get_linebetween/
 ---
 ## TextColumnCollection::get_LineBetween method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/textcolumncollection/get_linebetween/
 When **true**, adds a vertical line between columns.
 
 ```cpp
-bool Aspose::Words::TextColumnCollection::get_LineBetween()
+_Bool Aspose::Words::TextColumnCollection::get_LineBetween()
 ```
-
 
 ## Examples
 
 
+Shows how to separate columns with a vertical line.
 
-Shows how to separate columns with a vertical line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,6 @@ builder->Writeln(u"Column 3.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.VerticalLineBetweenColumns.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

@@ -2,15 +2,16 @@
 title: Aspose::Words::Fields::FieldFormat class
 linktitle: FieldFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldFormat class. Provides typed access to field''s numeric, date and time, and general formatting. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldFormat class. Provides typed access to field''s numeric, date and time, and general formatting. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
-weight: 45000
+weight: 48500
 url: /cpp/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
 
-Provides typed access to field's numeric, date and time, and general formatting. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Provides typed access to field's numeric, date and time, and general formatting. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldFormat : public System::Object
@@ -20,20 +21,19 @@ class FieldFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_DateTimeFormat](./get_datetimeformat/)() | Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch. |
 | [get_GeneralFormats](./get_generalformats/)() | Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches. |
 | [get_NumericFormat](./get_numericformat/)() | Gets or sets a formatting that is applied to a numeric field result. Corresponds to the \# switch. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_DateTimeFormat](./set_datetimeformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldFormat::get_DateTimeFormat](./get_datetimeformat/). |
-| [set_NumericFormat](./set_numericformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldFormat::get_NumericFormat](./get_numericformat/). |
-| static [Type](./type/)() |  |
-
+| [set_DateTimeFormat](./set_datetimeformat/)(const System::String \&) | Sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch. |
+| [set_NumericFormat](./set_numericformat/)(const System::String \&) | Sets a formatting that is applied to a numeric field result. Corresponds to the \# switch. |
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -94,7 +94,6 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

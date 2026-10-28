@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::Framesets::FramesetCollection class in C++.'
 type: docs
-weight: 4000
+weight: 11375
 url: /cpp/aspose.words.framesets/framesetcollection/cbegin/
 ---
 ## FramesetCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.framesets/framesetcollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::Framesets::FramesetCollection::cbegin() const noexcept
+const_iterator Aspose::Words::Framesets::FramesetCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
 * Library [Aspose.Words for C++](../../../)

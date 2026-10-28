@@ -13,7 +13,7 @@ url: /cpp/aspose.words/cleanupoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::CleanupOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::CleanupOptions::GetType() const override
 ```
 
 ## See Also

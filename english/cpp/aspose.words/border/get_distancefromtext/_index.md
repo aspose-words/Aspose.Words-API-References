@@ -4,7 +4,7 @@ linktitle: get_DistanceFromText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_DistanceFromText method. Gets or sets distance of the border from text or from the page edge in points in C++.'
 type: docs
-weight: 5000
+weight: 14300
 url: /cpp/aspose.words/border/get_distancefromtext/
 ---
 ## Border::get_DistanceFromText method
@@ -16,12 +16,14 @@ Gets or sets distance of the border from text or from the page edge in points.
 double Aspose::Words::Border::get_DistanceFromText()
 ```
 
+## Remarks
 
+ Has no effect and will be automatically reset to zero for borders of table cells. 
 ## Examples
 
 
+Shows how to create a wide blue band border at the top of the first page.
 
-Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -38,7 +40,6 @@ border->set_DistanceFromText(0);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

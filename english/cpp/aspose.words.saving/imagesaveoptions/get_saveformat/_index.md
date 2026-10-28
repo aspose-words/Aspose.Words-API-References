@@ -4,13 +4,13 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_SaveFormat method. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Eps, WebP, Svg in C++.'
 type: docs
-weight: 13000
+weight: 21336
 url: /cpp/aspose.words.saving/imagesaveoptions/get_saveformat/
 ---
 ## ImageSaveOptions::get_SaveFormat method
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or vector [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/), [WebP](../), [Svg](../../../aspose.words/saveformat/).
+Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Jpeg](../../../aspose.words/saveformat/) or vector [Emf](../../../aspose.words/saveformat/), [Eps](../../../aspose.words/saveformat/), **WebP**, [Svg](../../../aspose.words/saveformat/).
 
 ```cpp
 Aspose::Words::SaveFormat Aspose::Words::Saving::ImageSaveOptions::get_SaveFormat() override
@@ -22,12 +22,11 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::ImageSaveOptions::get_SaveForma
 The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).
-
 ## Examples
 
 
+Shows how to edit the image while Aspose.Words converts a document to one.
 
-Shows how to edit the image while Aspose.Words converts a document to one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,10 +53,8 @@ options->set_Scale(96.f / 72.f);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

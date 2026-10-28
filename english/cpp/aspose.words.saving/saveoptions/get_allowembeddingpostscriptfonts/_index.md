@@ -4,7 +4,7 @@ linktitle: get_AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts method. Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false in C++.'
 type: docs
-weight: 3000
+weight: 24088
 url: /cpp/aspose.words.saving/saveoptions/get_allowembeddingpostscriptfonts/
 ---
 ## SaveOptions::get_AllowEmbeddingPostScriptFonts method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_allowembeddingpostscriptfonts/
 Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts() const
+_Bool Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts() const
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts() con
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [EmbedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/get_embedtruetypefonts/) of the [FontInfos](../../../aspose.words/documentbase/get_fontinfos/) property is set to **true**.
-
 ## Examples
 
 
+Shows how to save the document with PostScript font.
 
-Shows how to save the document with PostScript font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ saveOptions->set_AllowEmbeddingPostScriptFonts(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
 ```
-
 ## See Also
 
 * Class [SaveOptions](../)

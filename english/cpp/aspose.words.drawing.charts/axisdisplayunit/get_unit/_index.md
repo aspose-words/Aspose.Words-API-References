@@ -4,7 +4,7 @@ linktitle: get_Unit
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Unit method. Gets or sets the scaling value of the display units as one of the predefined values in C++.'
 type: docs
-weight: 5000
+weight: 7800
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/get_unit/
 ---
 ## AxisDisplayUnit::get_Unit method
@@ -16,12 +16,14 @@ Gets or sets the scaling value of the display units as one of the predefined val
 Aspose::Words::Drawing::Charts::AxisBuiltInUnit Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Unit() const
 ```
 
+## Remarks
 
+ Default value is [None](../../axisbuiltinunit/). The [Custom](../../axisbuiltinunit/) and [Percentage](../../axisbuiltinunit/) values are not available in some chart types; see [AxisBuiltInUnit](../../axisbuiltinunit/) for more information. 
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,10 +76,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
-* Enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * Class [AxisDisplayUnit](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

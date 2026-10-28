@@ -4,7 +4,7 @@ linktitle: get_UpdateDirtyFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields method. Specifies whether to update the fields with the dirty attribute in C++.'
 type: docs
-weight: 17000
+weight: 20859
 url: /cpp/aspose.words.loading/loadoptions/get_updatedirtyfields/
 ---
 ## LoadOptions::get_UpdateDirtyFields method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.loading/loadoptions/get_updatedirtyfields/
 Specifies whether to update the fields with the **dirty** attribute.
 
 ```cpp
-bool Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields() const
+_Bool Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields() const
 ```
-
 
 ## Examples
 
 
+Shows how to use special property for updating field result.
 
-Shows how to use special property for updating field result. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +70,6 @@ field->set_IsDirty(true);
     }
 }
 ```
-
 ## See Also
 
 * Class [LoadOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_IsExternal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPart::get_IsExternal method. False if this custom part is stored inside the OOXML package. True if this custom part is an external target in C++.'
 type: docs
-weight: 6000
+weight: 10572
 url: /cpp/aspose.words.markup/custompart/get_isexternal/
 ---
 ## CustomPart::get_IsExternal method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/custompart/get_isexternal/
 False if this custom part is stored inside the OOXML package. True if this custom part is an external target.
 
 ```cpp
-bool Aspose::Words::Markup::CustomPart::get_IsExternal() const
+_Bool Aspose::Words::Markup::CustomPart::get_IsExternal() const
 ```
 
 ## Remarks
 
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -61,7 +60,6 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomPart](../)

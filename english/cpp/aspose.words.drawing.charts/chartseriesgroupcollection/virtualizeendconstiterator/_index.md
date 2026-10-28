@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Drawing::Charts::ChartSeriesGroupCollectio
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

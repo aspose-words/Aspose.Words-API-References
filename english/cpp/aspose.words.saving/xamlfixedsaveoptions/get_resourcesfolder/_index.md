@@ -4,7 +4,7 @@ linktitle: get_ResourcesFolder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XamlFixedSaveOptions::get_ResourcesFolder method. Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format. Default is null in C++.'
 type: docs
-weight: 3000
+weight: 7501
 url: /cpp/aspose.words.saving/xamlfixedsaveoptions/get_resourcesfolder/
 ---
 ## XamlFixedSaveOptions::get_ResourcesFolder method
@@ -24,7 +24,6 @@ When you save a [Document](../../../aspose.words/document/) in fixed page Xaml f
 If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [ResourcesFolder](./) to override this behavior.
 
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [ResourcesFolder](./) property
-
 ## See Also
 
 * Class [XamlFixedSaveOptions](../)

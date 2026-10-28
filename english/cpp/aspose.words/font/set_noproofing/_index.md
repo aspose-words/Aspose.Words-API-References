@@ -2,7 +2,7 @@
 title: Aspose::Words::Font::set_NoProofing method
 linktitle: set_NoProofing
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Font::set_NoProofing method. Setter for Aspose::Words::Font::get_NoProofing in C++.'
+description: 'Aspose::Words::Font::set_NoProofing method. True when the formatted characters are not to be spell checked in C++.'
 type: docs
 weight: 83000
 url: /cpp/aspose.words/font/set_noproofing/
@@ -10,12 +10,30 @@ url: /cpp/aspose.words/font/set_noproofing/
 ## Font::set_NoProofing method
 
 
-Setter for [Aspose::Words::Font::get_NoProofing](../get_noproofing/).
+True when the formatted characters are not to be spell checked.
 
 ```cpp
 void Aspose::Words::Font::set_NoProofing(bool value)
 ```
 
+## Examples
+
+
+Shows how to prevent text from being spell checked by Microsoft Word.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Normally, Microsoft Word emphasizes spelling errors with a jagged red underline.
+// We can un-set the "NoProofing" flag to create a portion of text that
+// bypasses the spell checker while completely disabling it.
+builder->get_Font()->set_NoProofing(true);
+
+builder->Writeln(u"Proofing has been disabled, so these spelking errrs will not display red lines underneath.");
+
+doc->Save(get_ArtifactsDir() + u"Font.NoProofing.docx");
+```
 ## See Also
 
 * Class [Font](../)

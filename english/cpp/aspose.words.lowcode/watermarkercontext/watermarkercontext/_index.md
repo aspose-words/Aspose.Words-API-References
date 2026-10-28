@@ -4,7 +4,7 @@ linktitle: WatermarkerContext
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use WatermarkerContext constructor of Aspose::Words::LowCode::WatermarkerContext class in C++.'
 type: docs
-weight: 2000
+weight: 8286
 url: /cpp/aspose.words.lowcode/watermarkercontext/watermarkercontext/
 ---
 ## WatermarkerContext::WatermarkerContext constructor

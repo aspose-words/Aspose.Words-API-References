@@ -4,7 +4,7 @@ linktitle: get_IsUSPostalAddress
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress method. Gets or sets whether PostalAddress is a U.S. postal address in C++.'
 type: docs
-weight: 4000
+weight: 7668
 url: /cpp/aspose.words.fields/fieldbarcode/get_isuspostaladdress/
 ---
 ## FieldBarcode::get_IsUSPostalAddress method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldbarcode/get_isuspostaladdress/
 Gets or sets whether [PostalAddress](../get_postaladdress/) is a U.S. postal address.
 
 ```cpp
-bool Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress()
+_Bool Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress()
 ```
-
 
 ## Examples
 
 
+Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 
-Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ builder->EndBookmark(u"BarcodeBookmark");
 
 doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldBarcode](../)

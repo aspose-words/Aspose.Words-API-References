@@ -13,26 +13,25 @@ url: /cpp/aspose.words.drawing/wraptype/
 Specifies how text is wrapped around a shape or picture.
 
 ```cpp
-enum class WrapType
+enum class WrapType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 3 | No text wrapping around the shape. The shape is placed behind or in front of text. |
 | Inline | 0 | The shape remains on the same layer as text and treated as a character. |
-| TopBottom | 1 | The text stops at the top of the shape and restarts on the line below the shape. |
+| None | 3 | No text wrapping around the shape. The shape is placed behind or in front of text. |
 | Square | 2 | Wraps text around all sides of the square bounding box of the shape. |
-| Tight | 4 | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
 | Through | 5 | Same as Tight, but wraps inside any parts of the shape that are open. |
-
+| Tight | 4 | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
+| TopBottom | 1 | The text stops at the top of the shape and restarts on the line below the shape. |
 
 ## Examples
 
 
+Shows how to insert an image, and use it as a watermark.
 
-Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,8 +51,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -69,8 +68,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-
 ## See Also
+
+* [WrapType](../shapebase/get_wraptype/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

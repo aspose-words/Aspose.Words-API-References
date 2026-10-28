@@ -13,28 +13,27 @@ url: /cpp/aspose.words.webextensions/webextensionstoretype/
 Enumerates available types of a web extension store.
 
 ```cpp
-enum class WebExtensionStoreType
+enum class WebExtensionStoreType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SPCatalog | 0 | Specifies that the store type is SharePoint corporate catalog. |
-| OMEX | 1 | Specifies that the store type is Office.com. |
-| SPApp | 2 | Specifies that the store type is a SharePoint web application. |
+| Default | 0 | Default value. |
+| ExCatalog | 6 | Specifies that the store type is Centralized Deployment via Exchange. |
 | Exchange | 3 | Specifies that the store type is an Exchange server. |
 | FileSystem | 4 | Specifies that the store type is a file system share. |
+| OMEX | 1 | Specifies that the store type is Office.com. |
 | Registry | 5 | Specifies that the store type is the system registry. |
-| ExCatalog | 6 | Specifies that the store type is Centralized Deployment via Exchange. |
-| Default | 0 | Default value. |
-
+| SPApp | 2 | Specifies that the store type is a SharePoint web application. |
+| SPCatalog | 0 | Specifies that the store type is SharePoint corporate catalog. |
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -99,7 +98,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

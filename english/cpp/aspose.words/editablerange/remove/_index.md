@@ -16,12 +16,11 @@ Removes the editable range from the document. Does not remove content inside the
 void Aspose::Words::EditableRange::Remove()
 ```
 
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -59,7 +58,6 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
 * Class [EditableRange](../)

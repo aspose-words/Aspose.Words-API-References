@@ -13,7 +13,7 @@ url: /cpp/aspose.words/license/is/
 
 
 ```cpp
-virtual bool Aspose::Words::License::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::License::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

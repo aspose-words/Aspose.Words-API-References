@@ -2,20 +2,51 @@
 title: Aspose::Words::Comment::set_Done method
 linktitle: set_Done
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comment::set_Done method. Setter for Aspose::Words::Comment::get_Done in C++.'
+description: 'Aspose::Words::Comment::set_Done method. Sets flag indicating that the comment has been marked done in C++.'
 type: docs
-weight: 20000
+weight: 37000
 url: /cpp/aspose.words/comment/set_done/
 ---
 ## Comment::set_Done method
 
 
-Setter for [Aspose::Words::Comment::get_Done](../get_done/).
+Sets flag indicating that the comment has been marked done.
 
 ```cpp
 void Aspose::Words::Comment::set_Done(bool value)
 ```
 
+## Examples
+
+
+Shows how to mark a comment as "done".
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Writeln(u"Helo world!");
+
+// Insert a comment to point out an error.
+auto comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
+comment->SetText(u"Fix the spelling error!");
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
+
+// Comments have a "Done" flag, which is set to "false" by default.
+// If a comment suggests that we make a change within the document,
+// we can apply the change, and then also set the "Done" flag afterwards to indicate the correction.
+ASSERT_FALSE(comment->get_Done());
+
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->set_Text(u"Hello world!");
+comment->set_Done(true);
+
+// Comments that are "done" will differentiate themselves
+// from ones that are not "done" with a faded text color.
+comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
+comment->SetText(u"Add text to this paragraph.");
+builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
+
+doc->Save(get_ArtifactsDir() + u"Comment.Done.docx");
+```
 ## See Also
 
 * Class [Comment](../)

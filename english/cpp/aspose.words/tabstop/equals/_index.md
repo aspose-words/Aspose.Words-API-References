@@ -13,15 +13,14 @@ url: /cpp/aspose.words/tabstop/equals/
 Compares with the specified [TabStop](../).
 
 ```cpp
-bool Aspose::Words::TabStop::Equals(const System::SharedPtr<Aspose::Words::TabStop> &rhs)
+_Bool Aspose::Words::TabStop::Equals(const System::SharedPtr<Aspose::Words::TabStop> & rhs)
 ```
-
 
 ## Examples
 
 
+Shows how to work with a document's collection of tab stops.
 
-Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,10 +57,8 @@ ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
-
 ## See Also
 
-* Class [TabStop](../)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

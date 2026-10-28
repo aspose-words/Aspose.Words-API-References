@@ -4,7 +4,7 @@ linktitle: get_Fill
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Fill method. Gets fill formatting for the shape in C++.'
 type: docs
-weight: 19000
+weight: 61270
 url: /cpp/aspose.words.drawing/shapebase/get_fill/
 ---
 ## ShapeBase::get_Fill method
@@ -16,12 +16,11 @@ Gets fill formatting for the shape.
 System::SharedPtr<Aspose::Words::Drawing::Fill> Aspose::Words::Drawing::ShapeBase::get_Fill()
 ```
 
-
 ## Examples
 
 
+Shows how to fill a shape with a solid color.
 
-Shows how to fill a shape with a solid color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ shape->get_Fill()->set_Opacity(0.3);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Fill.docx");
 ```
-
 ## See Also
 
-* Class [Fill](../../fill/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

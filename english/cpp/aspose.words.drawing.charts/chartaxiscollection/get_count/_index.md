@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisCollection::get_Count method. Gets the number of axes in this collection in C++.'
 type: docs
-weight: 2000
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartaxiscollection/get_count/
 ---
 ## ChartAxisCollection::get_Count method

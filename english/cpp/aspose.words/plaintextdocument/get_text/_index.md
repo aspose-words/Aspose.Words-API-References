@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PlainTextDocument::get_Text method. Gets textual content of the document concatenated as a string in C++.'
 type: docs
-weight: 5000
+weight: 12000
 url: /cpp/aspose.words/plaintextdocument/get_text/
 ---
 ## PlainTextDocument::get_Text method
@@ -16,12 +16,11 @@ Gets textual content of the document concatenated as a string.
 System::String Aspose::Words::PlainTextDocument::get_Text() const
 ```
 
-
 ## Examples
 
 
+Shows how to load the contents of a Microsoft Word document in plaintext.
 
-Shows how to load the contents of a Microsoft Word document in plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +32,6 @@ auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_Artifa
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
-
 ## See Also
 
 * Class [PlainTextDocument](../)

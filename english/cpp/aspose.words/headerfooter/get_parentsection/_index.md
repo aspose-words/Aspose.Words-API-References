@@ -4,7 +4,7 @@ linktitle: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooter::get_ParentSection method. Gets the parent section of this story in C++.'
 type: docs
-weight: 8000
+weight: 10858
 url: /cpp/aspose.words/headerfooter/get_parentsection/
 ---
 ## HeaderFooter::get_ParentSection method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Section> Aspose::Words::HeaderFooter::get_Paren
 
 
 [ParentSection](./) is equivalent to [ParentNode](../../node/get_parentnode/) casted to [Section](../../section/).
-
 ## Examples
 
 
+Shows how to link headers and footers between sections.
 
-Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -92,10 +91,8 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
-
 ## See Also
 
-* Class [Section](../../section/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

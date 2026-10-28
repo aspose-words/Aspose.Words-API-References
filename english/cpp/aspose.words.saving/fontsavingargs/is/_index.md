@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/fontsavingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::FontSavingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::FontSavingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

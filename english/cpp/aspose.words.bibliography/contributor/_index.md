@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/contributor/
 Represents a bibliography source contributor. Can be either an corporate (an organization) or a list of persons.
 
 ```cpp
-class Contributor : public virtual System::Object
+class Contributor : public System::Object
 ```
 
 ## Methods
@@ -21,14 +21,13 @@ class Contributor : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -121,7 +120,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

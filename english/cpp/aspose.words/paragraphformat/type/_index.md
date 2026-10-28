@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::ParagraphFormat class in C++.'
 type: docs
-weight: 1000
+weight: 44023
 url: /cpp/aspose.words/paragraphformat/type/
 ---
 ## ParagraphFormat::Type method

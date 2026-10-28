@@ -13,27 +13,26 @@ url: /cpp/aspose.words/documentbuilder/moveto/
 Moves the cursor to an inline node or to the end of a paragraph.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::MoveTo(const System::SharedPtr<Aspose::Words::Node> &node)
+void Aspose::Words::DocumentBuilder::MoveTo(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node must be a paragraph or a direct child of a paragraph. |
+| node | const System::SharedPtr\<Aspose::Words::Node\> \& | The node must be a paragraph or a direct child of a paragraph. |
 ## Remarks
 
 
-When *node* is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
+When node is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
 
-When *node* is a [Paragraph](../../paragraph/), the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
+When node is a [Paragraph](../../paragraph/), the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
 
-When *node* is a block-level node but not a [Paragraph](../../paragraph/), the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
-
+When node is a block-level node but not a [Paragraph](../../paragraph/), the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 ## Examples
 
 
+Shows how to move a document builder's cursor to different nodes in a document.
 
-Shows how to move a document builder's cursor to different nodes in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,8 @@ builder->MoveToDocumentStart();
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
 
+Shows how to move a DocumentBuilder's cursor position to a specified node.
 
-Shows how to move a [DocumentBuilder](../)'s cursor position to a specified node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -108,10 +107,8 @@ builder->Writeln(u"Run 3. ");
 
 ASSERT_EQ(u"Run 2. \rRun 1. \rRun 3.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

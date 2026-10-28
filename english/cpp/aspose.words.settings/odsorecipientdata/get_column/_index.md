@@ -4,7 +4,7 @@ linktitle: get_Column
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::OdsoRecipientData::get_Column method. Specifies the column within the data source that contains unique data for the current record. The default value is 0 in C++.'
 type: docs
-weight: 5000
+weight: 9572
 url: /cpp/aspose.words.settings/odsorecipientdata/get_column/
 ---
 ## OdsoRecipientData::get_Column method

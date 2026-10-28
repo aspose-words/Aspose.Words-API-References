@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/ireplacingcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Replacing::IReplacingCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::Replacing::IReplacingCallback::GetType() const override
 ```
 
 ## See Also

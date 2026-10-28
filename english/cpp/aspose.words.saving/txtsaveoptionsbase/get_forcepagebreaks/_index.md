@@ -2,26 +2,30 @@
 title: Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method
 linktitle: get_ForcePageBreaks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export. The default value is false in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export.The default value is false in C++.'
 type: docs
-weight: 5000
+weight: 8715
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_forcepagebreaks/
 ---
 ## TxtSaveOptionsBase::get_ForcePageBreaks method
 
 
-Allows to specify whether the page breaks should be preserved during export. The default value is **false**.
+Allows to specify whether the page breaks should be preserved during export.
+
+The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
+_Bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
 ```
 
+## Remarks
 
+ The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page. 
 ## Examples
 
 
+Shows how to specify whether to preserve page breaks when exporting a document to plaintext.
 
-Shows how to specify whether to preserve page breaks when exporting a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +54,6 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
 ```
-
 ## See Also
 
 * Class [TxtSaveOptionsBase](../)

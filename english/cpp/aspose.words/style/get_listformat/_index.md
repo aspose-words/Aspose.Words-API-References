@@ -4,7 +4,7 @@ linktitle: get_ListFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_ListFormat method. Provides access to the list formatting properties of a paragraph style in C++.'
 type: docs
-weight: 13000
+weight: 22527
 url: /cpp/aspose.words/style/get_listformat/
 ---
 ## Style::get_ListFormat method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::Style::get_Li
 
 
 This property is only valid for paragraph styles. For other style types this property returns **null**.
-
 ## Examples
 
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
-* Class [ListFormat](../../../aspose.words.lists/listformat/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/documentsecurity/
 Used as a value for the [Security](../builtindocumentproperties/get_security/) property. Specifies the security level of a document as a numeric value.
 
 ```cpp
-enum class DocumentSecurity
+enum class DocumentSecurity : int
 ```
 
 ### Values
@@ -22,16 +22,15 @@ enum class DocumentSecurity
 | --- | --- | --- |
 | None | 0 | There are no security states specified by the property. |
 | PasswordProtected | 1 | The document is password protected. (Note has never been seen in a document so far). |
-| ReadOnlyRecommended | 2 | The document to be opened read-only if possible, but the setting can be overridden. |
 | ReadOnlyEnforced | 4 | The document to always be opened read-only. |
 | ReadOnlyExceptAnnotations | 8 | The document to always be opened read-only except for annotations. |
-
+| ReadOnlyRecommended | 2 | The document to be opened read-only if possible, but the setting can be overridden. |
 
 ## Examples
 
 
+Shows how to use document properties to display the security level of a document.
 
-Shows how to use document properties to display the security level of a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -66,7 +65,6 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnot
 
 ASSERT_EQ(DocumentSecurity::ReadOnlyExceptAnnotations, System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocumentProperties.Security.ReadOnlyExceptAnnotations.docx"))->get_BuiltInDocumentProperties()->get_Security());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Properties](../)

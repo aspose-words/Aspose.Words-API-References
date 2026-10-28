@@ -2,23 +2,61 @@
 title: Aspose::Words::Markup::StructuredDocumentTag::set_Style method
 linktitle: set_Style
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::StructuredDocumentTag::set_Style method. Setter for Aspose::Words::Markup::StructuredDocumentTag::get_Style in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::set_Style method. Sets the Style of the structured document tag in C++.'
 type: docs
-weight: 54000
+weight: 109000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_style/
 ---
 ## StructuredDocumentTag::set_Style method
 
 
-Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_Style](../get_style/).
+Sets the Style of the structured document tag.
 
 ```cpp
-void Aspose::Words::Markup::StructuredDocumentTag::set_Style(const System::SharedPtr<Aspose::Words::Style> &value)
+void Aspose::Words::Markup::StructuredDocumentTag::set_Style(const System::SharedPtr<Aspose::Words::Style> & value)
 ```
 
+## Remarks
+
+ Only [Character](../../../aspose.words/styletype/) style or [Paragraph](../../../aspose.words/styletype/) style with linked character style can be set. 
+## Examples
+
+
+Shows how to work with styles for content control elements.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Below are two ways to apply a style from the document to a structured document tag.
+// 1 -  Apply a style object from the document's style collection:
+System::SharedPtr<Aspose::Words::Style> quoteStyle = doc->get_Styles()->idx_get(StyleIdentifier::Quote);
+auto sdtPlainText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+sdtPlainText->set_Style(quoteStyle);
+
+// 2 -  Reference a style in the document by name:
+auto sdtRichText = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::RichText, MarkupLevel::Inline);
+sdtRichText->set_StyleName(u"Quote");
+
+builder->InsertNode(sdtPlainText);
+builder->InsertNode(sdtRichText);
+
+ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+
+System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
+
+for (auto&& node : System::IterateOver(tags))
+{
+    auto sdt = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(node);
+
+    std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
+
+    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
+    ASSERT_EQ(u"Quote", sdt->get_StyleName());
+}
+```
 ## See Also
 
-* Class [Style](../../../aspose.words/style/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

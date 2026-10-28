@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::get_Value method. Gets or sets the value of the property in C++.'
 type: docs
-weight: 6000
+weight: 21000
 url: /cpp/aspose.words.properties/documentproperty/get_value/
 ---
 ## DocumentProperty::get_Value method
@@ -20,12 +20,11 @@ System::SharedPtr<System::Object> Aspose::Words::Properties::DocumentProperty::g
 
 
 Cannot be **null**.
-
 ## Examples
 
 
+Shows how to work with built-in document properties.
 
-Shows how to work with built-in document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -54,7 +53,6 @@ for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties
     }
 }
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

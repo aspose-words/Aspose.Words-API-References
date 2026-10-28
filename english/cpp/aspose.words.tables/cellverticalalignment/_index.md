@@ -13,23 +13,22 @@ url: /cpp/aspose.words.tables/cellverticalalignment/
 Specifies vertical justification of text inside a table cell.
 
 ```cpp
-enum class CellVerticalAlignment
+enum class CellVerticalAlignment : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Top | 0 | Text is aligned at the top of a cell. |
-| Center | 1 | Text is aligned in the middle of a cell. |
 | Bottom | 2 | Text is aligned at the bottom of the cell. |
-
+| Center | 1 | Text is aligned in the middle of a cell. |
+| Top | 0 | Text is aligned at the top of a cell. |
 
 ## Examples
 
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

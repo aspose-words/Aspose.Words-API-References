@@ -4,7 +4,7 @@ linktitle: get_IsEmbedded
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use get_IsEmbedded method of Aspose::Words::Fonts::StreamFontSource class in C++.'
 type: docs
-weight: 2500
+weight: 9000
 url: /cpp/aspose.words.fonts/streamfontsource/get_isembedded/
 ---
 ## StreamFontSource::get_IsEmbedded method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/streamfontsource/get_isembedded/
 
 
 ```cpp
-bool Aspose::Words::Fonts::StreamFontSource::get_IsEmbedded() override
+_Bool Aspose::Words::Fonts::StreamFontSource::get_IsEmbedded() override
 ```
 
 ## See Also

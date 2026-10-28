@@ -4,7 +4,7 @@ linktitle: get_RevisionBarsColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor method. Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is Red in C++.'
 type: docs
-weight: 14000
+weight: 22699
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarscolor/
 ---
 ## RevisionOptions::get_RevisionBarsColor method
@@ -16,12 +16,14 @@ Allows to specify the color to be used for side bars that identify document line
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor() const
 ```
 
+## Remarks
 
+ Setting this property to [ByAuthor](../../revisioncolor/) or [NoHighlight](../../revisioncolor/) values will result in hiding revision bars from the layout.
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -65,10 +67,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
-* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

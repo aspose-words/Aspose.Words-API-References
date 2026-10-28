@@ -4,7 +4,7 @@ linktitle: get_Level3
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartMultilevelValue::get_Level3 method. Gets the name of the chart bottom level that this value refers to in C++.'
 type: docs
-weight: 6000
+weight: 13000
 url: /cpp/aspose.words.drawing.charts/chartmultilevelvalue/get_level3/
 ---
 ## ChartMultilevelValue::get_Level3 method

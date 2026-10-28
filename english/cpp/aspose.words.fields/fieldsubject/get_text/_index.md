@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSubject::get_Text method. Gets or sets the text of the subject in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldsubject/get_text/
 ---
 ## FieldSubject::get_Text method
@@ -16,12 +16,11 @@ Gets or sets the text of the subject.
 System::String Aspose::Words::Fields::FieldSubject::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows how to use the SUBJECT field.
 
-Shows how to use the SUBJECT field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,7 +48,6 @@ ASSERT_EQ(u"My new subject", doc->get_BuiltInDocumentProperties()->get_Subject()
 
 doc->Save(get_ArtifactsDir() + u"Field.SUBJECT.docx");
 ```
-
 ## See Also
 
 * Class [FieldSubject](../)

@@ -4,7 +4,7 @@ linktitle: get_UseUmAlQuraCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldPrintDate::get_UseUmAlQuraCalendar method. Gets or sets whether to use the Um-al-Qura calendar in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.fields/fieldprintdate/get_useumalquracalendar/
 ---
 ## FieldPrintDate::get_UseUmAlQuraCalendar method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldprintdate/get_useumalquracalendar/
 Gets or sets whether to use the Um-al-Qura calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldPrintDate::get_UseUmAlQuraCalendar() override
+_Bool Aspose::Words::Fields::FieldPrintDate::get_UseUmAlQuraCalendar() override
 ```
-
 
 ## Examples
 
 
+Shows read PRINTDATE fields.
 
-Shows read PRINTDATE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Field sample - PRINTDATE.docx"));
 
@@ -56,7 +55,6 @@ ASSERT_TRUE(field->get_UseSakaEraCalendar());
 ASSERT_EQ(u"1/5/1942 12:00:00 AM", field->get_Result());
 ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 ```
-
 ## See Also
 
 * Class [FieldPrintDate](../)

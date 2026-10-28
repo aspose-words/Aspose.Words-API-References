@@ -4,7 +4,7 @@ linktitle: get_FormsDesign
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::ViewOptions::get_FormsDesign method. Specifies whether the document is in forms design mode in C++.'
 type: docs
-weight: 4000
+weight: 9500
 url: /cpp/aspose.words.settings/viewoptions/get_formsdesign/
 ---
 ## ViewOptions::get_FormsDesign method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.settings/viewoptions/get_formsdesign/
 Specifies whether the document is in forms design mode.
 
 ```cpp
-bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
+_Bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
 ```
 
 ## Remarks
 
 
 Currently works only for documents in WordML format.
-
 ## Examples
 
 
+Shows how to enable/disable forms design mode.
 
-Shows how to enable/disable forms design mode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ doc->Save(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml");
 
 ASPOSE_ASSERT_EQ(useFormsDesign, System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml").Contains(u"<w:formsDesign />"));
 ```
-
 ## See Also
 
 * Class [ViewOptions](../)

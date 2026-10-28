@@ -2,20 +2,54 @@
 title: Aspose::Words::Fields::FormField::set_Result method
 linktitle: set_Result
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_Result method. Setter for Aspose::Words::Fields::FormField::get_Result in C++.'
+description: 'Aspose::Words::Fields::FormField::set_Result method. Sets a string that represents the result of this form field in C++.'
 type: docs
-weight: 42000
+weight: 85000
 url: /cpp/aspose.words.fields/formfield/set_result/
 ---
 ## FormField::set_Result method
 
 
-Setter for [Aspose::Words::Fields::FormField::get_Result](../get_result/).
+Sets a string that represents the result of this form field.
 
 ```cpp
-void Aspose::Words::Fields::FormField::set_Result(const System::String &value)
+void Aspose::Words::Fields::FormField::set_Result(const System::String & value)
 ```
 
+## Remarks
+
+
+For a text form field the result is the text that is in the field.
+
+For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.
+
+For a dropdown form field the result is the string selected in the dropdown.
+
+Setting [Result](../get_result/) for a text form field does not apply the text format specified in [TextInputFormat](../get_textinputformat/). If you want to set a value and apply the format, use the [SetTextInputValue()](../settextinputvalue/) method.
+
+For a text form field the [TextInputDefault](../get_textinputdefault/) value is applied if value is **null**.
+## Examples
+
+
+Shows how to insert a combo box.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Write(u"Please select a fruit: ");
+
+// Insert a combo box which will allow a user to choose an option from a collection of strings.
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
+    u"Apple", u"Banana", u"Cherry"}), 0);
+
+ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
+ASSERT_EQ(FieldType::FieldFormDropDown, comboBox->get_Type());
+ASSERT_EQ(u"Apple", comboBox->get_Result());
+
+// The form field will appear in the form of a "select" html tag.
+doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
+```
 ## See Also
 
 * Class [FormField](../)

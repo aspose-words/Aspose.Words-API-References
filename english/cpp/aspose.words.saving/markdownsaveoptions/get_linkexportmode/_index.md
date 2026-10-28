@@ -4,7 +4,7 @@ linktitle: get_LinkExportMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_LinkExportMode method. Specifies how links will be written to the output file. Default value is Auto in C++.'
 type: docs
-weight: 5750
+weight: 10165
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_linkexportmode/
 ---
 ## MarkdownSaveOptions::get_LinkExportMode method
@@ -16,12 +16,11 @@ Specifies how links will be written to the output file. Default value is [Auto](
 Aspose::Words::Saving::MarkdownLinkExportMode Aspose::Words::Saving::MarkdownSaveOptions::get_LinkExportMode() const
 ```
 
-
 ## Examples
 
 
+Shows how to links will be written to the .md file.
 
-Shows how to links will be written to the .md file. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,8 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Reference.md
 saveOptions->set_LinkExportMode(MarkdownLinkExportMode::Inline);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Inline.md", saveOptions);
 ```
-
 ## See Also
 
-* Enum [MarkdownLinkExportMode](../../markdownlinkexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_TableWidthOutputMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_TableWidthOutputMode method. Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is All in C++.'
 type: docs
-weight: 47000
+weight: 49980
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_tablewidthoutputmode/
 ---
 ## HtmlSaveOptions::get_TableWidthOutputMode method
@@ -19,17 +19,16 @@ Aspose::Words::Saving::HtmlElementSizeOutputMode Aspose::Words::Saving::HtmlSave
 ## Remarks
 
 
-In the HTML format, table, row and cell elements (**%<table>**, **%<tr>**, **%<th>**, **%<td>**) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
+In the HTML format, table, row and cell elements (<table>, <tr>, <th>, <td>) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
 
 When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).
 
 Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [RelativeOnly](../../htmlelementsizeoutputmode/) or [None](../../htmlelementsizeoutputmode/) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can.
-
 ## Examples
 
 
+Shows how to preserve negative indents in the output .html.
 
-Shows how to preserve negative indents in the output .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,10 +77,8 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"margin-left:30.35pt; border:0.75pt solid #000000; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
 }
 ```
-
 ## See Also
 
-* Enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

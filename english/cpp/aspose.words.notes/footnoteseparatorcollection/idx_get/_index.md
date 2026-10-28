@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::FootnoteSeparatorCollection::idx_get method. Retrieves a FootnoteSeparator of the specified type in C++.'
 type: docs
-weight: 5000
+weight: 8000
 url: /cpp/aspose.words.notes/footnoteseparatorcollection/idx_get/
 ---
 ## FootnoteSeparatorCollection::idx_get method
@@ -16,12 +16,14 @@ Retrieves a [FootnoteSeparator](../../footnoteseparator/) of the specified type.
 System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> Aspose::Words::Notes::FootnoteSeparatorCollection::idx_get(Aspose::Words::Notes::FootnoteSeparatorType separatorType)
 ```
 
+## Remarks
 
+ Returns **null** if the footnote/endnote separator of the specified type is not found. 
 ## Examples
 
 
+Shows how to manage footnote separator format.
 
-Shows how to manage footnote separator format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
@@ -29,11 +31,8 @@ System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = d
 // Align footnote separator.
 footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 ```
-
 ## See Also
 
-* Class [FootnoteSeparator](../../footnoteseparator/)
-* Enum [FootnoteSeparatorType](../../footnoteseparatortype/)
 * Class [FootnoteSeparatorCollection](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

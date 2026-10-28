@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::Table constructor. Initializes a new instance of the Table class in C++.'
 type: docs
-weight: 2000
+weight: 71000
 url: /cpp/aspose.words.tables/table/table/
 ---
 ## Table::Table constructor
@@ -13,25 +13,24 @@ url: /cpp/aspose.words.tables/table/table/
 Initializes a new instance of the [Table](../) class.
 
 ```cpp
-Aspose::Words::Tables::Table::Table(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
+Aspose::Words::Tables::Table::Table(const System::SharedPtr<Aspose::Words::DocumentBase> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 ## Remarks
 
 
 When [Table](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append [Table](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the story where you want the table inserted.
-
+To append [Table](../) to the document use [InsertAfter()](../../../aspose.words/compositenode/insertafter/) or [InsertBefore()](../../../aspose.words/compositenode/insertbefore/) on the story where you want the table inserted.
 ## Examples
 
 
+Shows how to create a table.
 
-Shows how to create a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto table = System::MakeObject<Aspose::Words::Tables::Table>(doc);
@@ -56,10 +55,8 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->Save(get_ArtifactsDir() + u"Table.CreateTable.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

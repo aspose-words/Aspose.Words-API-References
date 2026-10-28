@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/set_suffix/
 Sets a suffix that is appended to the citation.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_Suffix(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_Suffix(const System::String & value)
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::MailMerge::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::MailMerge::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

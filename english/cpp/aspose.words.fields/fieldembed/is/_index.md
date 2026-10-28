@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldembed/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldEmbed::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldEmbed::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Lists::ListFormat class in C++.'
 type: docs
-weight: 1000
+weight: 12167
 url: /cpp/aspose.words.lists/listformat/type/
 ---
 ## ListFormat::Type method

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasourceroot/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::IMailMergeDataSourceRoot::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::IMailMergeDataSourceRoot::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

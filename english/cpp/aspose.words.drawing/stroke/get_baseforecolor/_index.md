@@ -4,7 +4,7 @@ linktitle: get_BaseForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_BaseForeColor method. Gets the base foreground color of the stroke without any modifiers in C++.'
 type: docs
-weight: 2500
+weight: 23180
 url: /cpp/aspose.words.drawing/stroke/get_baseforecolor/
 ---
 ## Stroke::get_BaseForeColor method
@@ -16,12 +16,14 @@ Gets the base foreground color of the stroke without any modifiers.
 System::Drawing::Color Aspose::Words::Drawing::Stroke::get_BaseForeColor()
 ```
 
+## Remarks
 
+ The default value for a [Shape](../../shape/) is **Black**. 
 ## Examples
 
 
+Shows how to get foreground color without modifiers.
 
-Shows how to get foreground color without modifiers. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -41,7 +43,6 @@ ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get
 ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_ForeColor().ToArgb());
 ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_BaseForeColor().ToArgb());
 ```
-
 ## See Also
 
 * Class [Stroke](../)

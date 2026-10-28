@@ -13,7 +13,7 @@ url: /cpp/aspose.words/buildversioninfo/buildversioninfo/
 
 
 ```cpp
-Aspose::Words::BuildVersionInfo::BuildVersionInfo()=delete
+Aspose::Words::BuildVersionInfo::BuildVersionInfo()
 ```
 
 ## See Also

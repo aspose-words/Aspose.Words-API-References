@@ -20,18 +20,17 @@ class SummarizeOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_SummaryLength](./get_summarylength/)() const | Allows to specify summary length. Default value is [Medium](../summarylength/). |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_SummaryLength](./set_summarylength/)(Aspose::Words::AI::SummaryLength) | Setter for [Aspose::Words::AI::SummarizeOptions::get_SummaryLength](./get_summarylength/). |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SummarizeOptions](./summarizeoptions/)() | Initializes a new instances of [SummarizeOptions](./) class. |
 | static [Type](./type/)() |  |
-
+| [get_SummaryLength](./get_summarylength/)() const | Allows to specify summary length. Default value is [Medium](../summarylength/). |
+| [set_SummaryLength](./set_summarylength/)(Aspose::Words::AI::SummaryLength) | Allows to specify summary length. Default value is [Medium](../summarylength/). |
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -50,7 +49,6 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::AI](../)

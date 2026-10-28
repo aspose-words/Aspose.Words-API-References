@@ -26,12 +26,11 @@ If the image is linked and stored in a file, opens the file and returns a **File
 If the image is linked and stored in an external URL, downloads the file and returns a **MemoryStream** object.
 
 Is it the responsibility of the caller to dispose the stream object.
-
 ## Examples
 
 
+Shows how to create an image file from a shape's raw image data.
 
-Shows how to create an image file from a shape's raw image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -51,7 +50,6 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
     }
 }
 ```
-
 ## See Also
 
 * Class [ImageData](../)

@@ -7,29 +7,28 @@ type: docs
 weight: 5000
 url: /cpp/aspose.words/license/setlicense/
 ---
-## License::SetLicense(const System::SharedPtr\<System::IO::Stream\>\&) method
+## License::SetLicense(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Licenses the component.
 
 ```cpp
-void Aspose::Words::License::SetLicense(const System::SharedPtr<System::IO::Stream> &stream)
+void Aspose::Words::License::SetLicense(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | A stream that contains the license. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | A stream that contains the license. |
 ## Remarks
 
 
 Use this method to load a license from a stream.
-
 ## Examples
 
 
+Shows how to initialize a license for Aspose.Words from a stream.
 
-Shows how to initialize a license for Aspose.Words from a stream. 
 ```cpp
 System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
 // Set the license for our Aspose.Words product by passing a stream for a valid license file in our local file system.
@@ -39,41 +38,39 @@ System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
     license->SetLicense(myStream);
 }
 ```
-
 ## See Also
 
 * Class [License](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## License::SetLicense(const System::String\&) method
+## License::SetLicense(const System::String \&) method
 
 
 Licenses the component.
 
 ```cpp
-void Aspose::Words::License::SetLicense(const System::String &licenseName)
+void Aspose::Words::License::SetLicense(const System::String & licenseName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | const System::String\& | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
+| licenseName | const System::String \& | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
 ## Remarks
 
 
 Tries to find the license in the following locations:
 
 1. Explicit path.
-1. The folder that contains the Aspose.Words library.
-1. The folder that contains the client's application.
 
+2. The folder that contains the Aspose.Words library.
 
-
+3. The folder that contains the client's application.
 ## Examples
 
 
+Shows how to initialize a license for Aspose.Words using a license file in the local file system.
 
-Shows how to initialize a license for Aspose.Words using a license file in the local file system. 
 ```cpp
 System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
 
@@ -92,19 +89,18 @@ System::IO::File::Copy(licenseFileName, licenseCopyFileName);
 // One of those locations will be the "bin" folder, which contains a copy of our license file.
 license->SetLicense(testLicenseFileName);
 ```
-
 ## See Also
 
 * Class [License](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## License::SetLicense(std::basic_istream\<CharType, Traits\>\&) method
+## License::SetLicense(std::basic_istream\<CharType, Traits\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> void Aspose::Words::License::SetLicense(std::basic_istream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> void Aspose::Words::License::SetLicense(std::basic_istream<CharType, Traits> & stream)
 ```
 
 ## See Also

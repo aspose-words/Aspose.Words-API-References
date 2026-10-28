@@ -4,7 +4,7 @@ linktitle: get_ExitMacro
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_ExitMacro method. Returns or sets an exit macro name for the form field in C++.'
 type: docs
-weight: 11000
+weight: 57000
 url: /cpp/aspose.words.fields/formfield/get_exitmacro/
 ---
 ## FormField::get_ExitMacro method
@@ -21,7 +21,7 @@ System::String Aspose::Words::Fields::FormField::get_ExitMacro()
 
 The exit macro runs when the form field loses the focus in Microsoft Word.
 
-Microsoft Word allows strings with at most 32 characters. 
+Microsoft Word allows strings with at most 32 characters.
 ## See Also
 
 * Class [FormField](../)

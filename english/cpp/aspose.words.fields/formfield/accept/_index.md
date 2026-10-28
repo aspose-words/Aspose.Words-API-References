@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/formfield/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Fields::FormField::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Fields::FormField::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,8 @@ bool Aspose::Words::Fields::FormField::Accept(System::SharedPtr<Aspose::Words::D
 Calls [VisitFormField()](../../../aspose.words/documentvisitor/visitformfield/).
 
 For more info see the Visitor design pattern.
-
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

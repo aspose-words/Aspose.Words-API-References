@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ShapeBase::set_Title method
 linktitle: set_Title
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ShapeBase::set_Title method. Setter for Aspose::Words::Drawing::ShapeBase::get_Title in C++.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_Title method. Sets the title (caption) of the current shape object in C++.'
 type: docs
 weight: 87000
 url: /cpp/aspose.words.drawing/shapebase/set_title/
@@ -10,12 +10,45 @@ url: /cpp/aspose.words.drawing/shapebase/set_title/
 ## ShapeBase::set_Title method
 
 
-Setter for [Aspose::Words::Drawing::ShapeBase::get_Title](../get_title/).
+Sets the title (caption) of the current shape object.
 
 ```cpp
-void Aspose::Words::Drawing::ShapeBase::set_Title(const System::String &value)
+void Aspose::Words::Drawing::ShapeBase::set_Title(const System::String & value)
 ```
 
+## Remarks
+
+
+Default is empty string.
+
+Cannot be **null**, but can be an empty string.
+## Examples
+
+
+Shows how to set the title of a shape.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Create a shape, give it a title, and then add it to the document.
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Cube);
+shape->set_Width(200);
+shape->set_Height(200);
+shape->set_Title(u"My cube");
+
+builder->InsertNode(shape);
+
+// When we save a document with a shape that has a title,
+// Aspose.Words will store that title in the shape's Alt Text.
+doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
+
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Title.docx"));
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+
+ASSERT_EQ(System::String::Empty, shape->get_Title());
+ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
+```
 ## See Also
 
 * Class [ShapeBase](../)

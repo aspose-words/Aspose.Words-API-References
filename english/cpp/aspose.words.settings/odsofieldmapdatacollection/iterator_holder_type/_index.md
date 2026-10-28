@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData> >
+using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData> >
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Gutter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_Gutter method. Gets or sets the amount of extra space added to the margin for document binding in C++.'
 type: docs
-weight: 18000
+weight: 49370
 url: /cpp/aspose.words/pagesetup/get_gutter/
 ---
 ## PageSetup::get_Gutter method
@@ -16,12 +16,11 @@ Gets or sets the amount of extra space added to the margin for document binding.
 double Aspose::Words::PageSetup::get_Gutter()
 ```
 
-
 ## Examples
 
 
+Shows how to set gutter margins.
 
-Shows how to set gutter margins. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -52,8 +51,8 @@ pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 doc->Save(get_ArtifactsDir() + u"PageSetup.Gutter.docx");
 ```
 
+Shows how to configure a document that can be printed as a book fold.
 
-Shows how to configure a document that can be printed as a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -78,7 +77,6 @@ pageSetup->set_SheetsPerBooklet(4);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

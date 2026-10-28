@@ -16,12 +16,11 @@ Resets page setup to default paper size, margins and orientation.
 void Aspose::Words::PageSetup::ClearFormatting()
 ```
 
-
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

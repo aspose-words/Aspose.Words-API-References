@@ -4,7 +4,7 @@ linktitle: get_Separator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Separator method. Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead in C++.'
 type: docs
-weight: 6000
+weight: 18162
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_separator/
 ---
 ## ChartDataLabelCollection::get_Separator method
@@ -16,12 +16,14 @@ Gets or sets string separator used for the data labels of the entire series. The
 System::String Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Separator()
 ```
 
+## Remarks
 
+ Value defined for this property can be overridden for an individual data label with using the [Separator](../../chartdatalabel/get_separator/) property. 
 ## Examples
 
 
+Shows how to work with data labels of a bubble chart.
 
-Shows how to work with data labels of a bubble chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,8 +49,8 @@ dataLabels->set_Separator(u" & ");
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsBubbleChart.docx");
 ```
 
+Shows how to work with data labels of a pie chart.
 
-Shows how to work with data labels of a pie chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +75,6 @@ dataLabels->set_Separator(u"; ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

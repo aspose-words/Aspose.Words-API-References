@@ -4,7 +4,7 @@ linktitle: get_IsInsertRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Inline::get_IsInsertRevision method. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 5000
+weight: 15000
 url: /cpp/aspose.words/inline/get_isinsertrevision/
 ---
 ## Inline::get_IsInsertRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/inline/get_isinsertrevision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Inline::get_IsInsertRevision()
+_Bool Aspose::Words::Inline::get_IsInsertRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to determine the revision type of an inline node.
 
-Shows how to determine the revision type of an inline node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
@@ -70,7 +69,6 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
 * Class [Inline](../)

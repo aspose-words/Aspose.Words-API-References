@@ -20,12 +20,11 @@ System::String Aspose::Words::CompositeNode::GetText() override
 
 
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
-
 ## Examples
 
 
+Shows the difference between calling the GetText and ToString methods on a node.
 
-Shows the difference between calling the GetText and ToString methods on a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -39,8 +38,8 @@ ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim())
 ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
 ```
 
+Shows how to output all paragraphs in a document that are list items.
 
-Shows how to output all paragraphs in a document that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph
     std::cout << System::String::Format(u"\t\"{0}\"", para->GetText().Trim()) << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [CompositeNode](../)

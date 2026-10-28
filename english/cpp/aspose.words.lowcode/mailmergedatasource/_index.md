@@ -20,12 +20,12 @@ class MailMergeDataSource : public System::Object
 
 | Method | Description |
 | --- | --- |
-| static [Create](./create/)(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) | Creates Mail Merge Data Source from field names and values arrays. |
-| static [Create](./create/)(const System::SharedPtr\<System::Data::DataRow\>\&) | Creates Mail Merge Data Source from DataRow. |
-| static [Create](./create/)(const System::SharedPtr\<System::Data::DataTable\>\&) | Creates Mail Merge Data Source from DataTable. |
-| static [Create](./create/)(const System::SharedPtr\<System::Data::DataSet\>\&) | Creates Mail Merge Data Source from DataSet. |
+| static [Create](./create/)(const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\> \&) | Creates Mail Merge Data Source from field names and values arrays. |
+| static [Create](./create/)(const System::SharedPtr\<System::Data::DataRow\> \&) | Creates Mail Merge Data Source from DataRow. |
+| static [Create](./create/)(const System::SharedPtr\<System::Data::DataSet\> \&) | Creates Mail Merge Data Source from DataSet. |
+| static [Create](./create/)(const System::SharedPtr\<System::Data::DataTable\> \&) | Creates Mail Merge Data Source from DataTable. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
 ## See Also
 

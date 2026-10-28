@@ -4,24 +4,23 @@ linktitle: get_Encoding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_Encoding method. Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8 in C++.'
 type: docs
-weight: 3000
+weight: 8429
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_encoding/
 ---
 ## TxtSaveOptionsBase::get_Encoding method
 
 
-Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**.
+Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8.
 
 ```cpp
 System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::TxtSaveOptionsBase::get_Encoding() const
 ```
 
-
 ## Examples
 
 
+Shows how to set encoding for a .txt output document.
 
-Shows how to set encoding for a .txt output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,7 +48,6 @@ docText = System::Text::Encoding::get_ASCII()->GetString(System::IO::File::ReadA
 
 ASSERT_EQ(u"? ? ? ? ?.\r\n", docText);
 ```
-
 ## See Also
 
 * Class [TxtSaveOptionsBase](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldMacroButton::set_MacroName method
 linktitle: set_MacroName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldMacroButton::set_MacroName method. Setter for Aspose::Words::Fields::FieldMacroButton::get_MacroName in C++.'
+description: 'Aspose::Words::Fields::FieldMacroButton::set_MacroName method. Sets the name of the macro or command to run in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.fields/fieldmacrobutton/set_macroname/
@@ -10,12 +10,45 @@ url: /cpp/aspose.words.fields/fieldmacrobutton/set_macroname/
 ## FieldMacroButton::set_MacroName method
 
 
-Setter for [Aspose::Words::Fields::FieldMacroButton::get_MacroName](../get_macroname/).
+Sets the name of the macro or command to run.
 
 ```cpp
-void Aspose::Words::Fields::FieldMacroButton::set_MacroName(const System::String &value)
+void Aspose::Words::Fields::FieldMacroButton::set_MacroName(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+ASSERT_TRUE(doc->get_HasMacros());
+
+// Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+field->set_MacroName(u"MyMacro");
+field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
+
+ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
+
+// Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
+// We can find all other macros via View -> Macros (dropdown) -> View Macros.
+// In that menu, select "Word Commands" from the "Macros in:" drop down.
+// If our document contains a custom macro with the same name as a stock macro,
+// our macro will be the one that the MACROBUTTON field runs.
+builder->InsertParagraph();
+field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+field->set_MacroName(u"ViewZoom200");
+field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
+
+ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
+
+// Save the document as a macro-enabled document type.
+doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
+```
 ## See Also
 
 * Class [FieldMacroButton](../)

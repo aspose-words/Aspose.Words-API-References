@@ -4,7 +4,7 @@ linktitle: get_OfficeVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_OfficeVersion method. Gets the Office version for the digital signature in C++.'
 type: docs
-weight: 5500
+weight: 20000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_officeversion/
 ---
 ## DigitalSignature::get_OfficeVersion method

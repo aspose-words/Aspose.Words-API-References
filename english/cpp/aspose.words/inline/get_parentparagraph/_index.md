@@ -4,7 +4,7 @@ linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Inline::get_ParentParagraph method. Retrieves the parent Paragraph of this node in C++.'
 type: docs
-weight: 8000
+weight: 18000
 url: /cpp/aspose.words/inline/get_parentparagraph/
 ---
 ## Inline::get_ParentParagraph method
@@ -16,12 +16,11 @@ Retrieves the parent [Paragraph](../../paragraph/) of this node.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Inline::get_ParentParagraph()
 ```
 
-
 ## Examples
 
 
+Shows how to determine the revision type of an inline node.
 
-Shows how to determine the revision type of an inline node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
@@ -70,10 +69,8 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

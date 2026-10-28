@@ -4,7 +4,7 @@ linktitle: get_LastSavedTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime method. Gets or sets the time of the last save in UTC in C++.'
 type: docs
-weight: 17000
+weight: 36480
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastsavedtime/
 ---
 ## BuiltInDocumentProperties::get_LastSavedTime method
@@ -22,12 +22,11 @@ System::DateTime Aspose::Words::Properties::BuiltInDocumentProperties::get_LastS
 For documents originated from RTF format this property returns the local time of last save operation.
 
 Aspose.Words does not update this property.
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -57,8 +56,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
 
+Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.
 
-Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +96,6 @@ doc->get_BuiltInDocumentProperties()->set_LastSavedTime(System::DateTime::get_No
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SAVEDATE.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

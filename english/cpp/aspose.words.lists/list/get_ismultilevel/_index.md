@@ -4,7 +4,7 @@ linktitle: get_IsMultiLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_IsMultiLevel method. Returns true when the list contains 9 levels; false when 1 level in C++.'
 type: docs
-weight: 7000
+weight: 15500
 url: /cpp/aspose.words.lists/list/get_ismultilevel/
 ---
 ## List::get_IsMultiLevel method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/get_ismultilevel/
 Returns **true** when the list contains 9 levels; **false** when 1 level.
 
 ```cpp
-bool Aspose::Words::Lists::List::get_IsMultiLevel()
+_Bool Aspose::Words::Lists::List::get_IsMultiLevel()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Lists::List::get_IsMultiLevel()
 The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.
 
 Microsoft Word 2003 and later always create multi-level lists with 9 levels. But in some documents, created with earlier versions of Microsoft Word you might encounter lists that have 1 level only.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -81,7 +80,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
 * Class [List](../)

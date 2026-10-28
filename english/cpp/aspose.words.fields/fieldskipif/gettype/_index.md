@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldskipif/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldSkipIf::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldSkipIf::GetType() const override
 ```
 
 ## See Also

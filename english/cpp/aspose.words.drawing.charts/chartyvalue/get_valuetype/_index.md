@@ -4,7 +4,7 @@ linktitle: get_ValueType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartYValue::get_ValueType method. Gets the type of the Y value stored in the object in C++.'
 type: docs
-weight: 9000
+weight: 17000
 url: /cpp/aspose.words.drawing.charts/chartyvalue/get_valuetype/
 ---
 ## ChartYValue::get_ValueType method
@@ -18,7 +18,6 @@ Aspose::Words::Drawing::Charts::ChartYValueType Aspose::Words::Drawing::Charts::
 
 ## See Also
 
-* Enum [ChartYValueType](../../chartyvaluetype/)
 * Class [ChartYValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_AbsoluteHorizontalDistance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_AbsoluteHorizontalDistance method. Gets or sets absolute horizontal floating table position specified by the table properties, in points. Default value is 0 in C++.'
 type: docs
-weight: 9000
+weight: 73000
 url: /cpp/aspose.words.tables/table/get_absolutehorizontaldistance/
 ---
 ## Table::get_AbsoluteHorizontalDistance method
@@ -16,12 +16,11 @@ Gets or sets absolute horizontal floating table position specified by the table 
 double Aspose::Words::Tables::Table::get_AbsoluteHorizontalDistance()
 ```
 
-
 ## Examples
 
 
+Shows how set the location of floating tables.
 
-Shows how set the location of floating tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ table->set_AbsoluteHorizontalDistance(100);
 
 doc->Save(get_ArtifactsDir() + u"Table.ChangeFloatingTableProperties.docx");
 ```
-
 ## See Also
 
 * Class [Table](../)

@@ -4,7 +4,7 @@ linktitle: ImportFormatOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use ImportFormatOptions constructor of Aspose::Words::ImportFormatOptions class in C++.'
 type: docs
-weight: 2000
+weight: 10500
 url: /cpp/aspose.words/importformatoptions/importformatoptions/
 ---
 ## ImportFormatOptions::ImportFormatOptions constructor

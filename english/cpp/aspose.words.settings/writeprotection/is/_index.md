@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/writeprotection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Settings::WriteProtection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Settings::WriteProtection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

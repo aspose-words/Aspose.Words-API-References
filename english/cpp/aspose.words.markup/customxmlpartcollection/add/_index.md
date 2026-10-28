@@ -7,25 +7,24 @@ type: docs
 weight: 3000
 url: /cpp/aspose.words.markup/customxmlpartcollection/add/
 ---
-## CustomXmlPartCollection::Add(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\&) method
+## CustomXmlPartCollection::Add(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \&) method
 
 
 Adds an item to the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlPartCollection::Add(const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> &part)
+void Aspose::Words::Markup::CustomXmlPartCollection::Add(const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> & part)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| part | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\& | The custom XML part to add. |
-
+| part | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \& | The custom XML part to add. |
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,37 +84,34 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
-## CustomXmlPartCollection::Add(const System::String\&, const System::String\&) method
+## CustomXmlPartCollection::Add(const System::String \&, const System::String \&) method
 
 
 Creates a new XML part with the specified XML and adds it to the collection.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::CustomXmlPartCollection::Add(const System::String &id, const System::String &xml)
+System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::CustomXmlPartCollection::Add(const System::String & id, const System::String & xml)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | const System::String\& | Identifier of a new custom XML part. |
-| xml | const System::String\& | XML data of the part. |
+| id | const System::String \& | Identifier of a new custom XML part. |
+| xml | const System::String \& | XML data of the part. |
 
 ### ReturnValue
 
 Created custom XML part.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -175,10 +171,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

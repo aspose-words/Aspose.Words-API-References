@@ -13,7 +13,7 @@ url: /cpp/aspose.words/signaturelineoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::SignatureLineOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::SignatureLineOptions::GetType() const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/icomparisonexpressionevaluator/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::IComparisonExpressionEvaluator::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::IComparisonExpressionEvaluator::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

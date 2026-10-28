@@ -16,12 +16,11 @@ Removes itself from the parent.
 void Aspose::Words::Node::Remove()
 ```
 
-
 ## Examples
 
 
+Shows how to delete all shapes with images from a document.
 
-Shows how to delete all shapes with images from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
@@ -45,8 +44,8 @@ ASSERT_EQ(0, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape
 }))));
 ```
 
+Shows how to remove all child nodes of a specific type from a composite node.
 
-Shows how to remove all child nodes of a specific type from a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -71,7 +70,6 @@ while (curNode != nullptr)
 
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ```
-
 ## See Also
 
 * Class [Node](../)

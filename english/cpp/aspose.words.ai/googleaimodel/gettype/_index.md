@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/googleaimodel/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::AI::GoogleAiModel::GetType() const override
+const System::TypeInfo & Aspose::Words::AI::GoogleAiModel::GetType() const override
 ```
 
 ## See Also

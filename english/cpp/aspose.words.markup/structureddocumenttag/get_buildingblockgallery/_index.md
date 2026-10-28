@@ -4,13 +4,13 @@ linktitle: get_BuildingBlockGallery
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGallery method. Specifies type of building block for this SDT. Can not be null in C++.'
 type: docs
-weight: 7000
+weight: 64000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_buildingblockgallery/
 ---
 ## StructuredDocumentTag::get_BuildingBlockGallery method
 
 
-Specifies type of building block for this **SDT**. Can not be **null**.
+Specifies type of building block for this SDT. Can not be **null**.
 
 ```cpp
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGallery()
@@ -19,15 +19,14 @@ System::String Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGa
 ## Remarks
 
 
-Accessing this property will only work for [BuildingBlockGallery](../../sdttype/) and [DocPartObj](../../sdttype/) SDT types. It is read-only for **SDT** of the document part type.
+Accessing this property will only work for [BuildingBlockGallery](../../sdttype/) and [DocPartObj](../../sdttype/) SDT types. It is read-only for SDT of the document part type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to insert a structured document tag as a building block, and set its category and gallery.
 
-Shows how to insert a structured document tag as a building block, and set its category and gallery. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -39,7 +38,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.BuildingBlockCategories.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

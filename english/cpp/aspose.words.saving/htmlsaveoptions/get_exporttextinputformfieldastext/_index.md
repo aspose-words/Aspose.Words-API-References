@@ -4,7 +4,7 @@ linktitle: get_ExportTextInputFormFieldAsText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText method. Controls how text input form fields are saved to HTML or MHTML. Default value is false in C++.'
 type: docs
-weight: 28000
+weight: 49540
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions::get_ExportTextInputFormFieldAsText method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttextinputformfieldastext
 Controls how text input form fields are saved to HTML or MHTML. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText() const
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText(
 When set to **true**, exports text input form fields as normal text. When **false**, exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
-
 ## Examples
 
 
+Shows how to specify the folder for storing linked images after saving to .html.
 
-Shows how to specify the folder for storing linked images after saving to .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -47,7 +46,6 @@ options->set_ImagesFolder(imagesDir);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

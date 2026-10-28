@@ -4,7 +4,7 @@ linktitle: get_Spacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Spacing method. Returns or sets the spacing (in points) between characters  in C++.'
 type: docs
-weight: 40000
+weight: 59711
 url: /cpp/aspose.words/font/get_spacing/
 ---
 ## Font::get_Spacing method
@@ -16,12 +16,11 @@ Returns or sets the spacing (in points) between characters .
 double Aspose::Words::Font::get_Spacing()
 ```
 
-
 ## Examples
 
 
+Shows how to set horizontal scaling and spacing for characters.
 
-Shows how to set horizontal scaling and spacing for characters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +39,6 @@ builder->Writeln(u"Condensed by 1pt");
 
 doc->Save(get_ArtifactsDir() + u"Font.ScalingSpacing.docx");
 ```
-
 ## See Also
 
 * Class [Font](../)

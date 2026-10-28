@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_StoryType method. Returns the type of the story in C++.'
 type: docs
-weight: 12000
+weight: 26000
 url: /cpp/aspose.words/inlinestory/get_storytype/
 ---
 ## InlineStory::get_StoryType method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/inlinestory/get_storytype/
 Returns the type of the story.
 
 ```cpp
-Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType() override=0
+Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType() override
 ```
-
 
 ## Examples
 
 
+Shows how to insert InlineStory nodes.
 
-Shows how to insert [InlineStory](../) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
-
 ## See Also
 
-* Enum [StoryType](../../storytype/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

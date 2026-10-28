@@ -4,7 +4,7 @@ linktitle: get_RevisionType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_RevisionType method. Gets the type of this revision in C++.'
 type: docs
-weight: 8000
+weight: 11875
 url: /cpp/aspose.words/revision/get_revisiontype/
 ---
 ## Revision::get_RevisionType method
@@ -16,12 +16,11 @@ Gets the type of this revision.
 Aspose::Words::RevisionType Aspose::Words::Revision::get_RevisionType() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,10 +96,8 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Enum [RevisionType](../../revisiontype/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

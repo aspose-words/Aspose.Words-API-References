@@ -4,7 +4,7 @@ linktitle: get_SeparatorCharacter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAutoNumLgl::get_SeparatorCharacter method. Gets the separator character to be used in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.fields/fieldautonumlgl/get_separatorcharacter/
 ---
 ## FieldAutoNumLgl::get_SeparatorCharacter method

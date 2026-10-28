@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GroupShape::get_NodeType method. Returns GroupShape in C++.'
 type: docs
-weight: 4000
+weight: 8000
 url: /cpp/aspose.words.drawing/groupshape/get_nodetype/
 ---
 ## GroupShape::get_NodeType method
@@ -18,7 +18,6 @@ Aspose::Words::NodeType Aspose::Words::Drawing::GroupShape::get_NodeType() const
 
 ## See Also
 
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

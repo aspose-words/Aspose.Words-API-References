@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cell/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::Cell::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::Cell::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

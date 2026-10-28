@@ -4,7 +4,7 @@ linktitle: get_EmptyParagraphExportMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_EmptyParagraphExportMode method. Specifies how to export empty paragraphs to Markdown. Default value is EmptyLine in C++.'
 type: docs
-weight: 2250
+weight: 10045
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/
 ---
 ## MarkdownSaveOptions::get_EmptyParagraphExportMode method
@@ -16,12 +16,11 @@ Specifies how to export empty paragraphs to Markdown. Default value is [EmptyLin
 Aspose::Words::Saving::MarkdownEmptyParagraphExportMode Aspose::Words::Saving::MarkdownSaveOptions::get_EmptyParagraphExportMode() const
 ```
 
-
 ## Examples
 
 
+Shows how to export empty paragraphs.
 
-Shows how to export empty paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,10 +48,8 @@ switch (exportMode)
         break;
 }
 ```
-
 ## See Also
 
-* Enum [MarkdownEmptyParagraphExportMode](../../markdownemptyparagraphexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

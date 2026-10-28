@@ -4,7 +4,7 @@ linktitle: get_ImportUnderlineFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::MarkdownLoadOptions::get_ImportUnderlineFormatting method. Gets or sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is false in C++.'
 type: docs
-weight: 3000
+weight: 6501
 url: /cpp/aspose.words.loading/markdownloadoptions/get_importunderlineformatting/
 ---
 ## MarkdownLoadOptions::get_ImportUnderlineFormatting method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.loading/markdownloadoptions/get_importunderlineformatting
 Gets or sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Loading::MarkdownLoadOptions::get_ImportUnderlineFormatting() const
+_Bool Aspose::Words::Loading::MarkdownLoadOptions::get_ImportUnderlineFormatting() const
 ```
-
 
 ## Examples
 
 
+Shows how to recognize plus characters "++" as underline text formatting.
 
-Shows how to recognize plus characters "++" as underline text formatting. 
 ```cpp
 {
     auto stream = System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_ASCII()->GetBytes(u"++12 and B++"));
@@ -40,7 +39,6 @@ Shows how to recognize plus characters "++" as underline text formatting.
     ASSERT_EQ(Underline::None, para->get_Runs()->idx_get(0)->get_Font()->get_Underline());
 }
 ```
-
 ## See Also
 
 * Class [MarkdownLoadOptions](../)

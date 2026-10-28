@@ -4,7 +4,7 @@ linktitle: get_DetectHyperlinks
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks method. Specifies either to detect hyperlinks in text. The default value is false in C++.'
 type: docs
-weight: 3500
+weight: 9445
 url: /cpp/aspose.words.loading/txtloadoptions/get_detecthyperlinks/
 ---
 ## TxtLoadOptions::get_DetectHyperlinks method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.loading/txtloadoptions/get_detecthyperlinks/
 Specifies either to detect hyperlinks in text. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks() const
+_Bool Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks() const
 ```
-
 
 ## Examples
 
 
+Shows how to read and display hyperlinks.
 
-Shows how to read and display hyperlinks. 
 ```cpp
 const System::String inputText = System::String(u"Some links in TXT:\n") + u"https://www.aspose.com/\n" + u"https://docs.aspose.com/words/net/\n";
 
@@ -45,7 +44,6 @@ const System::String inputText = System::String(u"Some links in TXT:\n") + u"htt
     ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result().Trim(), u"https://docs.aspose.com/words/net/");
 }
 ```
-
 ## See Also
 
 * Class [TxtLoadOptions](../)

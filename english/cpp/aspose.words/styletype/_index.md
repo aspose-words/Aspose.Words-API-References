@@ -13,24 +13,23 @@ url: /cpp/aspose.words/styletype/
 Represents type of the style.
 
 ```cpp
-enum class StyleType
+enum class StyleType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Paragraph | 1 | The style is a paragraph style. |
 | Character | 2 | The style is a character style. |
-| Table | 3 | The style is a table style. |
 | List | 4 | The style is a list style. |
-
+| Paragraph | 1 | The style is a paragraph style. |
+| Table | 3 | The style is a table style. |
 
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -84,7 +83,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

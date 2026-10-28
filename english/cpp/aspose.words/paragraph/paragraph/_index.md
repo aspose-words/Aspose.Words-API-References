@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::Paragraph constructor. Initializes a new instance of the Paragraph class in C++.'
 type: docs
-weight: 2000
+weight: 32000
 url: /cpp/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph::Paragraph constructor
@@ -13,25 +13,24 @@ url: /cpp/aspose.words/paragraph/paragraph/
 Initializes a new instance of the [Paragraph](../) class.
 
 ```cpp
-Aspose::Words::Paragraph::Paragraph(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
+Aspose::Words::Paragraph::Paragraph(const System::SharedPtr<Aspose::Words::DocumentBase> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 ## Remarks
 
 
 When [Paragraph](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Paragraph](../) to the document use [InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the story where you want the paragraph inserted.
-
+To append [Paragraph](../) to the document use [InsertAfter()](../../compositenode/insertafter/) or [InsertBefore()](../../compositenode/insertbefore/) on the story where you want the paragraph inserted.
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,10 +73,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

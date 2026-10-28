@@ -4,7 +4,7 @@ linktitle: get_TextureAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_TextureAlignment method. Gets or sets the alignment for tile texture fill in C++.'
 type: docs
-weight: 20000
+weight: 64000
 url: /cpp/aspose.words.drawing/fill/get_texturealignment/
 ---
 ## Fill::get_TextureAlignment method
@@ -16,12 +16,11 @@ Gets or sets the alignment for tile texture fill.
 Aspose::Words::Drawing::TextureAlignment Aspose::Words::Drawing::Fill::get_TextureAlignment()
 ```
 
-
 ## Examples
 
 
+Shows how to fill and tiling the texture inside the shape.
 
-Shows how to fill and tiling the texture inside the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,10 +44,8 @@ shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeTy
 ASSERT_EQ(TextureAlignment::TopRight, shape->get_Fill()->get_TextureAlignment());
 ASSERT_EQ(PresetTexture::Canvas, shape->get_Fill()->get_PresetTexture());
 ```
-
 ## See Also
 
-* Enum [TextureAlignment](../../texturealignment/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::Markup::CustomXmlPartCollection class in C++.'
 type: docs
-weight: 6000
+weight: 17445
 url: /cpp/aspose.words.markup/customxmlpartcollection/cend/
 ---
 ## CustomXmlPartCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::CustomXmlPartCollection::cend() const noexcept
+const_iterator Aspose::Words::Markup::CustomXmlPartCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

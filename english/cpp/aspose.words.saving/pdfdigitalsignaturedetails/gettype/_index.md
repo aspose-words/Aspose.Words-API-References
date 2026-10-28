@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::PdfDigitalSignatureDetails::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::PdfDigitalSignatureDetails::GetType() const override
 ```
 
 ## See Also

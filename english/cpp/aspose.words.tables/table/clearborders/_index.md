@@ -16,12 +16,11 @@ Removes all table and cell borders on this table.
 void Aspose::Words::Tables::Table::ClearBorders()
 ```
 
-
 ## Examples
 
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -45,8 +44,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
 
+Shows how to remove all borders from a table.
 
-Shows how to remove all borders from a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +76,6 @@ ASPOSE_ASSERT_EQ(0.0, topBorder->get_LineWidth());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), topBorder->get_Color().ToArgb());
 ASSERT_EQ(LineStyle::None, topBorder->get_LineStyle());
 ```
-
 ## See Also
 
 * Class [Table](../)

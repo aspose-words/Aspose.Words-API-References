@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PsSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Ps in C++.'
 type: docs
-weight: 3000
+weight: 6600
 url: /cpp/aspose.words.saving/pssaveoptions/get_saveformat/
 ---
 ## PsSaveOptions::get_SaveFormat method
@@ -16,12 +16,11 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::PsSaveOptions::get_SaveFormat() override
 ```
 
-
 ## Examples
 
 
+Shows how to save a document to the Postscript format in the form of a book fold.
 
-Shows how to save a document to the Postscript format in the form of a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -45,10 +44,8 @@ for (auto&& s : System::IterateOver<Aspose::Words::Section>(doc->get_Sections())
 // and the contents will line up in a way that creates a booklet.
 doc->Save(get_ArtifactsDir() + u"PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [PsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

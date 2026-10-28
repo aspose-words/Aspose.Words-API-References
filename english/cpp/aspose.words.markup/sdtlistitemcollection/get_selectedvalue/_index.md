@@ -4,7 +4,7 @@ linktitle: get_SelectedValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItemCollection::get_SelectedValue method. Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection in C++.'
 type: docs
-weight: 9000
+weight: 14778
 url: /cpp/aspose.words.markup/sdtlistitemcollection/get_selectedvalue/
 ---
 ## SdtListItemCollection::get_SelectedValue method
@@ -16,12 +16,11 @@ Specifies currently selected value in this list. Null value allowed, meaning tha
 System::SharedPtr<Aspose::Words::Markup::SdtListItem> Aspose::Words::Markup::SdtListItemCollection::get_SelectedValue()
 ```
 
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,10 +74,8 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
-* Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

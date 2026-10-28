@@ -4,7 +4,7 @@ linktitle: get_AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha method. Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph in C++.'
 type: docs
-weight: 3000
+weight: 44046
 url: /cpp/aspose.words/paragraphformat/get_addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_addspacebetweenfareastandalpha/
 Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha()
+_Bool Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha()
 ```
-
 
 ## Examples
 
 
+Shows how to insert a paragraph into the document.
 
-Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->Writeln(u"Hello world!");
 
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

@@ -19,22 +19,19 @@ static System::SharedPtr<Aspose::Words::LowCode::Converter> Aspose::Words::LowCo
 ## See Also
 
 * Class [Converter](../)
-* Class [Converter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
-## Converter::Create(const System::SharedPtr\<Aspose::Words::LowCode::ConverterContext\>\&) method
+## Converter::Create(const System::SharedPtr\<Aspose::Words::LowCode::ConverterContext\> \&) method
 
 
 Creates new instance of the converter processor.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::LowCode::Converter> Aspose::Words::LowCode::Converter::Create(const System::SharedPtr<Aspose::Words::LowCode::ConverterContext> &context)
+static System::SharedPtr<Aspose::Words::LowCode::Converter> Aspose::Words::LowCode::Converter::Create(const System::SharedPtr<Aspose::Words::LowCode::ConverterContext> & context)
 ```
 
 ## See Also
 
-* Class [Converter](../)
-* Class [ConverterContext](../../convertercontext/)
 * Class [Converter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

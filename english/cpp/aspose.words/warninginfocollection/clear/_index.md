@@ -16,12 +16,11 @@ Removes all elements from the collection.
 void Aspose::Words::WarningInfoCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -50,7 +49,6 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
 * Class [WarningInfoCollection](../)

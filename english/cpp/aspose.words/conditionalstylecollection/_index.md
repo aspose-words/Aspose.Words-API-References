@@ -2,7 +2,7 @@
 title: Aspose::Words::ConditionalStyleCollection class
 linktitle: ConditionalStyleCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects. To learn more, visit the Working with Tables documentation article in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words/conditionalstylecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/conditionalstylecollection/
 ## ConditionalStyleCollection class
 
 
-Represents a collection of [ConditionalStyle](../conditionalstyle/) objects. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
+Represents a collection of [ConditionalStyle](../conditionalstyle/) objects. 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class ConditionalStyleCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::ConditionalStyle>>
@@ -21,6 +22,10 @@ class ConditionalStyleCollection : public System::Collections::Generic::IEnumera
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Clears all conditional styles of the table style. |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_BottomLeftCell](./get_bottomleftcell/)() | Gets the bottom left cell style. |
 | [get_BottomRightCell](./get_bottomrightcell/)() | Gets the bottom right cell style. |
 | [get_Count](./get_count/)() const | Gets the number of conditional styles in the collection. |
@@ -34,18 +39,16 @@ class ConditionalStyleCollection : public System::Collections::Generic::IEnumera
 | [get_OddRowBanding](./get_oddrowbanding/)() | Gets the odd row banding style. |
 | [get_TopLeftCell](./get_topleftcell/)() | Gets the top left cell style. |
 | [get_TopRightCell](./get_toprightcell/)() | Gets the top right cell style. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
-| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(Aspose::Words::ConditionalStyleType) | Retrieves a [ConditionalStyle](../conditionalstyle/) object by conditional style type. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [ConditionalStyle](../conditionalstyle/) object by index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
+## Remarks
 
+ It is not possible to add or remove items from this collection. It contains permanent set of items: one item for each value of the [ConditionalStyleType](../conditionalstyletype/) enumeration type. 
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -110,7 +113,6 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

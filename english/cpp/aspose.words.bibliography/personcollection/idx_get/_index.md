@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::idx_get method. Gets or sets a person at the specified index in C++.'
 type: docs
-weight: 8000
+weight: 15000
 url: /cpp/aspose.words.bibliography/personcollection/idx_get/
 ---
 ## PersonCollection::idx_get method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Bibliography::Person> Aspose::Words::Bibliograp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -118,10 +117,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

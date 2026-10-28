@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldprivate/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldPrivate::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldPrivate::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

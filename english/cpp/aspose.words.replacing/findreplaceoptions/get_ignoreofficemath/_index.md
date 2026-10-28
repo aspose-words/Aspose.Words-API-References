@@ -4,7 +4,7 @@ linktitle: get_IgnoreOfficeMath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath method. Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is true in C++.'
 type: docs
-weight: 11250
+weight: 20528
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreofficemath/
 ---
 ## FindReplaceOptions::get_IgnoreOfficeMath method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreofficemath/
 Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**.
 
 ```cpp
-bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath() const
+_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath() const
 ```
-
 
 ## Examples
 
 
+Shows how to find and replace text within OfficeMath.
 
-Shows how to find and replace text within OfficeMath. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -40,7 +39,6 @@ else
     ASSERT_EQ(u"i+x-c≥iM+xM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 }
 ```
-
 ## See Also
 
 * Class [FindReplaceOptions](../)

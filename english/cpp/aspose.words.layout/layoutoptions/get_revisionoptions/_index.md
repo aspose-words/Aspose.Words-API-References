@@ -4,7 +4,7 @@ linktitle: get_RevisionOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_RevisionOptions method. Gets revision options in C++.'
 type: docs
-weight: 7000
+weight: 12668
 url: /cpp/aspose.words.layout/layoutoptions/get_revisionoptions/
 ---
 ## LayoutOptions::get_RevisionOptions method
@@ -16,12 +16,11 @@ Gets revision options.
 System::SharedPtr<Aspose::Words::Layout::RevisionOptions> Aspose::Words::Layout::LayoutOptions::get_RevisionOptions() const
 ```
 
-
 ## Examples
 
 
+Shows how to alter the appearance of revisions in a rendered output document.
 
-Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,8 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Horizo
 
 doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
-
 ## See Also
 
-* Class [RevisionOptions](../../revisionoptions/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

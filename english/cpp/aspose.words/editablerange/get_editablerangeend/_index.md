@@ -4,7 +4,7 @@ linktitle: get_EditableRangeEnd
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::EditableRange::get_EditableRangeEnd method. Gets the node that represents the end of the editable range in C++.'
 type: docs
-weight: 2000
+weight: 9286
 url: /cpp/aspose.words/editablerange/get_editablerangeend/
 ---
 ## EditableRange::get_EditableRangeEnd method
@@ -16,12 +16,11 @@ Gets the node that represents the end of the editable range.
 System::SharedPtr<Aspose::Words::EditableRangeEnd> Aspose::Words::EditableRange::get_EditableRangeEnd()
 ```
 
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -59,10 +58,8 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
-* Class [EditableRangeEnd](../../editablerangeend/)
 * Class [EditableRange](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

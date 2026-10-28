@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xamlfixedsaveoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::XamlFixedSaveOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::XamlFixedSaveOptions::GetType() const override
 ```
 
 ## See Also

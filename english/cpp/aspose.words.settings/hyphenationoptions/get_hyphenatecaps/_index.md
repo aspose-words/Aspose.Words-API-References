@@ -4,7 +4,7 @@ linktitle: get_HyphenateCaps
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::HyphenationOptions::get_HyphenateCaps method. Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is true in C++.'
 type: docs
-weight: 5000
+weight: 8668
 url: /cpp/aspose.words.settings/hyphenationoptions/get_hyphenatecaps/
 ---
 ## HyphenationOptions::get_HyphenateCaps method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.settings/hyphenationoptions/get_hyphenatecaps/
 Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
 ```cpp
-bool Aspose::Words::Settings::HyphenationOptions::get_HyphenateCaps() const
+_Bool Aspose::Words::Settings::HyphenationOptions::get_HyphenateCaps() const
 ```
-
 
 ## Examples
 
 
+Shows how to configure automatic hyphenation.
 
-Shows how to configure automatic hyphenation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,6 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.HyphenationOptions.docx");
 ```
-
 ## See Also
 
 * Class [HyphenationOptions](../)

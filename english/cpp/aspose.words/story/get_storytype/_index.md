@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_StoryType method. Gets the type of this story in C++.'
 type: docs
-weight: 7000
+weight: 15000
 url: /cpp/aspose.words/story/get_storytype/
 ---
 ## Story::get_StoryType method
@@ -16,12 +16,11 @@ Gets the type of this story.
 Aspose::Words::StoryType Aspose::Words::Story::get_StoryType() override
 ```
 
-
 ## Examples
 
 
+Shows how to remove all shapes from a node.
 
-Shows how to remove all shapes from a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,10 +37,8 @@ doc->get_FirstSection()->get_Body()->DeleteShapes();
 
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
-
 ## See Also
 
-* Enum [StoryType](../../storytype/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/const_iterator/
 
 
 ```cpp
-using Aspose::Words::Fields::DropDownItemCollection::const_iterator =  typename iterator_holder_type::const_iterator
+using Aspose::Words::Fields::DropDownItemCollection::const_iterator = typename iterator_holder_type::const_iterator
 ```
 
 ## See Also

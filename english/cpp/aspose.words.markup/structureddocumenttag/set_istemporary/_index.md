@@ -2,20 +2,56 @@
 title: Aspose::Words::Markup::StructuredDocumentTag::set_IsTemporary method
 linktitle: set_IsTemporary
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::StructuredDocumentTag::set_IsTemporary method. Setter for Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary in C++.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::set_IsTemporary method. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified in C++.'
 type: docs
-weight: 49000
+weight: 104000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_istemporary/
 ---
 ## StructuredDocumentTag::set_IsTemporary method
 
 
-Setter for [Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary](../get_istemporary/).
+Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified.
 
 ```cpp
 void Aspose::Words::Markup::StructuredDocumentTag::set_IsTemporary(bool value)
 ```
 
+## Examples
+
+
+Shows how to make single-use controls.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Insert a plain text structured document tag,
+// which will act as a plain text form that the user may enter text into.
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+
+// Set the "IsTemporary" property to "true" to make the structured document tag disappear and
+// assimilate its contents into the document after the user edits it once in Microsoft Word.
+// Set the "IsTemporary" property to "false" to allow the user to edit the contents
+// of the structured document tag any number of times.
+tag->set_IsTemporary(isTemporary);
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Write(u"Please enter text: ");
+builder->InsertNode(tag);
+
+// Insert another structured document tag in the form of a check box and set its default state to "checked".
+tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::Checkbox, MarkupLevel::Inline);
+tag->set_Checked(true);
+
+// Set the "IsTemporary" property to "true" to make the check box become a symbol
+// once the user clicks on it in Microsoft Word.
+// Set the "IsTemporary" property to "false" to allow the user to click on the check box any number of times.
+tag->set_IsTemporary(isTemporary);
+
+builder->Write(u"\nPlease click the check box: ");
+builder->InsertNode(tag);
+
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.IsTemporary.docx");
+```
 ## See Also
 
 * Class [StructuredDocumentTag](../)

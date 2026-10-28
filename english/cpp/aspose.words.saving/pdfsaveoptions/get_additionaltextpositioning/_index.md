@@ -4,7 +4,7 @@ linktitle: get_AdditionalTextPositioning
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning method. A flag specifying whether to write additional text positioning operators or not in C++.'
 type: docs
-weight: 4000
+weight: 36075
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_additionaltextpositioning/
 ---
 ## PdfSaveOptions::get_AdditionalTextPositioning method
@@ -13,15 +13,15 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_additionaltextpositioning/
 A flag specifying whether to write additional text positioning operators or not.
 
 ```cpp
-bool Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning() const
+_Bool Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning() const
 ```
 
 ## Remarks
 
 
-If **true**, additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
+ If **true**, additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size. 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [PdfSaveOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_HeadingsOutlineLevels
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OutlineOptions::get_HeadingsOutlineLevels method. Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline in C++.'
 type: docs
-weight: 8000
+weight: 10889
 url: /cpp/aspose.words.saving/outlineoptions/get_headingsoutlinelevels/
 ---
 ## OutlineOptions::get_HeadingsOutlineLevels method
@@ -21,7 +21,7 @@ int32_t Aspose::Words::Saving::OutlineOptions::get_HeadingsOutlineLevels() const
 
 Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
 
-Default is 0. Valid range is 0 to 9. 
+Default is 0. Valid range is 0 to 9.
 ## See Also
 
 * Class [OutlineOptions](../)

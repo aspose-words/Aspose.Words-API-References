@@ -4,7 +4,7 @@ linktitle: get_AuthorName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAuthor::get_AuthorName method. Gets or sets the document author''s name in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldauthor/get_authorname/
 ---
 ## FieldAuthor::get_AuthorName method
@@ -16,12 +16,11 @@ Gets or sets the document author's name.
 System::String Aspose::Words::Fields::FieldAuthor::get_AuthorName()
 ```
 
-
 ## Examples
 
 
+Shows how to use an AUTHOR field to display a document creator's name.
 
-Shows how to use an AUTHOR field to display a document creator's name. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -69,7 +68,6 @@ ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
 
 doc->Save(get_ArtifactsDir() + u"Field.AUTHOR.docx");
 ```
-
 ## See Also
 
 * Class [FieldAuthor](../)

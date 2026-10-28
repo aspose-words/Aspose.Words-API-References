@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
-weight: 4000
+weight: 12334
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/cbegin/
 ---
 ## DigitalSignatureCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::cbegin() const noexcept
+const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

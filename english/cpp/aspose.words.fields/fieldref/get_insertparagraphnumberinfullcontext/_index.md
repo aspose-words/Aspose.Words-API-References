@@ -4,7 +4,7 @@ linktitle: get_InsertParagraphNumberInFullContext
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInFullContext method. Gets whether to insert the paragraph number of the referenced paragraph in full context in C++.'
 type: docs
-weight: 7000
+weight: 15503
 url: /cpp/aspose.words.fields/fieldref/get_insertparagraphnumberinfullcontext/
 ---
 ## FieldRef::get_InsertParagraphNumberInFullContext method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_insertparagraphnumberinfullcontext/
 Gets whether to insert the paragraph number of the referenced paragraph in full context.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInFullContext()
+_Bool Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInFullContext()
 ```
 
 ## See Also

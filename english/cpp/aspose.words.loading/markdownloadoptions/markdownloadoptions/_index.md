@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::MarkdownLoadOptions::MarkdownLoadOptions constructor. Initializes a new instance of MarkdownLoadOptions class in C++.'
 type: docs
-weight: 2000
+weight: 6167
 url: /cpp/aspose.words.loading/markdownloadoptions/markdownloadoptions/
 ---
 ## MarkdownLoadOptions::MarkdownLoadOptions constructor
@@ -16,12 +16,14 @@ Initializes a new instance of [MarkdownLoadOptions](../) class.
 Aspose::Words::Loading::MarkdownLoadOptions::MarkdownLoadOptions()
 ```
 
+## Remarks
 
+ Automatically sets [LoadFormat](../../../aspose.words/loadformat/) to [Markdown](../../../aspose.words/loadformat/). 
 ## Examples
 
 
+Shows how to preserve empty line while load a document.
 
-Shows how to preserve empty line while load a document. 
 ```cpp
 System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine());
 {
@@ -33,7 +35,6 @@ System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", Sys
     ASSERT_EQ(u"\rLine1\r\rLine2\r\f", doc->GetText());
 }
 ```
-
 ## See Also
 
 * Class [MarkdownLoadOptions](../)

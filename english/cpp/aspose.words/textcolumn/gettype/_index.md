@@ -13,7 +13,7 @@ url: /cpp/aspose.words/textcolumn/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::TextColumn::GetType() const override
+const System::TypeInfo & Aspose::Words::TextColumn::GetType() const override
 ```
 
 ## See Also

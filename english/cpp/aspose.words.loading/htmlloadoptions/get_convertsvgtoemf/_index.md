@@ -4,7 +4,7 @@ linktitle: get_ConvertSvgToEmf
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf method. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is false and, if possible, loaded SVG images are stored as is without conversion in C++.'
 type: docs
-weight: 4000
+weight: 10334
 url: /cpp/aspose.words.loading/htmlloadoptions/get_convertsvgtoemf/
 ---
 ## HtmlLoadOptions::get_ConvertSvgToEmf method
@@ -13,21 +13,20 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_convertsvgtoemf/
 Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is **false** and, if possible, loaded SVG images are stored as is without conversion.
 
 ```cpp
-bool Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf() const
+_Bool Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf() const
 ```
 
 ## Remarks
 
 
-Newer versions of MS Word support SVG images natively. If the MS Word version specified in load options supports SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be converted to the EMF format.
+ Newer versions of MS Word support SVG images natively. If the MS Word version specified in load options supports SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be converted to the EMF format. 
 
-If, however, this option is set to **true**, Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
-
+ If, however, this option is set to **true**, Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word. 
 ## Examples
 
 
+Shows how to convert SVG objects to a different format when saving HTML documents.
 
-Shows how to convert SVG objects to a different format when saving HTML documents. 
 ```cpp
 System::String html = u"<html>\r\n                    <svg xmlns='http://www.w3.org/2000/svg' width='500' height='40' viewBox='0 0 500 40'>\r\n                        <text x='0' y='35' font-family='Verdana' font-size='35'>Hello world!</text>\r\n                    </svg>\r\n                </html>";
 
@@ -66,7 +65,6 @@ switch (htmlMetafileFormat)
         break;
 }
 ```
-
 ## See Also
 
 * Class [HtmlLoadOptions](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::RevisionCollection class
 linktitle: RevisionCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::RevisionCollection class. A collection of Revision objects that represent revisions in the document. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::RevisionCollection class. A collection of Revision objects that represent revisions in the document. To learn more, visit the Track Changes in a Document documentation article in C++.'
 type: docs
 weight: 53000
 url: /cpp/aspose.words/revisioncollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/revisioncollection/
 ## RevisionCollection class
 
 
-A collection of [Revision](../revision/) objects that represent revisions in the document. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
+A collection of [Revision](../revision/) objects that represent revisions in the document. 
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article.
 
 ```cpp
 class RevisionCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Revision>>
@@ -20,27 +21,26 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 
 | Method | Description |
 | --- | --- |
-| [Accept](./accept/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) | Accepts revisions that match specified criteria. |
+| [Accept](./accept/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\> \&) | Accepts revisions that match specified criteria. |
 | [AcceptAll](./acceptall/)() | Accepts all revisions in this collection. |
-| [get_Count](./get_count/)() | Returns the number of revisions in the collection. |
-| [get_Groups](./get_groups/)() | Collection of revision groups. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Reject](./reject/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\>\&) | Rejects revisions that match specified criteria. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Reject](./reject/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\> \&) | Rejects revisions that match specified criteria. |
 | [RejectAll](./rejectall/)() | Rejects all revisions in this collection. |
 | static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Returns the number of revisions in the collection. |
+| [get_Groups](./get_groups/)() | Collection of revision groups. |
+| [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |
 ## Remarks
 
 
 You do not create instances of this class directly. Use the [Revisions](../document/get_revisions/) property to get revisions present in a document.
-
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -116,7 +116,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldedittime/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldEditTime::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldEditTime::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

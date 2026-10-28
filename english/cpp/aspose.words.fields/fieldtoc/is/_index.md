@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldToc::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldToc::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

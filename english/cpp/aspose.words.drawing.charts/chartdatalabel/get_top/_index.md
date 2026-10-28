@@ -4,7 +4,7 @@ linktitle: get_Top
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Top method. Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its Position property, depending on the value of the TopMode property in C++.'
 type: docs
-weight: 16334
+weight: 18918
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_top/
 ---
 ## ChartDataLabel::get_Top method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::Charts::ChartDataLabel::get_Top()
 The value of the property changes proportionally if the chart shape is resized.
 
 The property cannot be set in a Word 2016 chart.
-
 ## Examples
 
 
+Shows how to place data labels of doughnut chart outside doughnut.
 
-Shows how to place data labels of doughnut chart outside doughnut. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -136,7 +135,6 @@ for (int32_t i = 0; i < series->get_YValues()->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChartLabelPosition.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabel](../)

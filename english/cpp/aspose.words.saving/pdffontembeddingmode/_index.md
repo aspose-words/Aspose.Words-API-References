@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdffontembeddingmode/
 Specifies how Aspose.Words should embed fonts.
 
 ```cpp
-enum class PdfFontEmbeddingMode
+enum class PdfFontEmbeddingMode : int
 ```
 
 ### Values
@@ -21,8 +21,8 @@ enum class PdfFontEmbeddingMode
 | Name | Value | Description |
 | --- | --- | --- |
 | EmbedAll | 0 | Aspose.Words embeds all fonts. |
-| EmbedNonstandard | 1 | Aspose.Words embeds all fonts excepting standard Windows fonts Arial and Times New Roman. Only Arial and Times New Roman fonts are affected in this mode because MS Word doesn't embed only these fonts when saving document to PDF. |
 | EmbedNone | 2 | Aspose.Words do not embed any fonts. |
+| EmbedNonstandard | 1 | Aspose.Words embeds all fonts excepting standard Windows fonts Arial and Times New Roman. Only Arial and Times New Roman fonts are affected in this mode because MS Word doesn't embed only these fonts when saving document to PDF. |
 
 ## See Also
 

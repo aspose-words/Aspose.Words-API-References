@@ -4,7 +4,7 @@ linktitle: get_ListLabel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_ListLabel method. Gets a ListLabel object that provides access to list numbering value and formatting for this paragraph in C++.'
 type: docs
-weight: 19000
+weight: 48000
 url: /cpp/aspose.words/paragraph/get_listlabel/
 ---
 ## Paragraph::get_ListLabel method
@@ -16,12 +16,11 @@ Gets a [ListLabel](./) object that provides access to list numbering value and f
 System::SharedPtr<Aspose::Words::Lists::ListLabel> Aspose::Words::Paragraph::get_ListLabel()
 ```
 
-
 ## Examples
 
 
+Shows how to extract the list labels of all paragraphs that are list items.
 
-Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -52,10 +51,8 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
     std::cout << System::String::Format(u"\tList label combined with text: {0} {1}", label->get_LabelString(), paragraphText) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [ListLabel](../../../aspose.words.lists/listlabel/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

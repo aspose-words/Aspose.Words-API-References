@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
-weight: 5000
+weight: 12445
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/cend/
 ---
 ## DigitalSignatureCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::cend() const noexcept
+const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

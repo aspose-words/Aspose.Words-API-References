@@ -23,15 +23,14 @@ class FootnoteSeparatorCollection : public System::Collections::Generic::IEnumer
 | [FootnoteSeparatorCollection](./footnoteseparatorcollection/)() |  |
 | [GetEnumerator](./getenumerator/)() override |  |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(Aspose::Words::Notes::FootnoteSeparatorType) | Retrieves a [FootnoteSeparator](../footnoteseparator/) of the specified type. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
+| [idx_get](./idx_get/)(Aspose::Words::Notes::FootnoteSeparatorType) | Retrieves a [FootnoteSeparator](../footnoteseparator/) of the specified type. |
 ## Examples
 
 
+Shows how to manage footnote separator format.
 
-Shows how to manage footnote separator format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
@@ -39,7 +38,6 @@ System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = d
 // Align footnote separator.
 footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)

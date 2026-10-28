@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Orientation method. Gets or sets the orientation of the axis title text in C++.'
 type: docs
-weight: 3500
+weight: 8224
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_orientation/
 ---
 ## ChartAxisTitle::get_Orientation method
@@ -16,12 +16,14 @@ Gets or sets the orientation of the axis title text.
 Aspose::Words::Drawing::ShapeTextOrientation Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Orientation()
 ```
 
+## Remarks
 
+ The default value is [Horizontal](../../../aspose.words.drawing/shapetextorientation/). 
 ## Examples
 
 
+Shows how to set orientation and rotation of chart and axis titles.
 
-Shows how to set orientation and rotation of chart and axis titles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +42,8 @@ chart->get_AxisX()->get_Title()->set_Rotation(-90);
 
 doc->Save(get_ArtifactsDir() + u"Charts.TitleOrientation.docx");
 ```
-
 ## See Also
 
-* Enum [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/)
 * Class [ChartAxisTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

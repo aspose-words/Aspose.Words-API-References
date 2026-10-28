@@ -4,7 +4,7 @@ linktitle: get_Offset
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Offset method. Gets or sets the distance of the tick labels from the axis in C++.'
 type: docs
-weight: 5000
+weight: 11500
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_offset/
 ---
 ## AxisTickLabels::get_Offset method
@@ -24,12 +24,11 @@ The property represents a percentage of the default label offset.
 Valid range is from 0 to 1000 percent inclusive. The default value is 100%.
 
 The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
-
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -79,7 +78,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Class [AxisTickLabels](../)

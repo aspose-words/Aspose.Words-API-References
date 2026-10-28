@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::VariableCollection::virtualizeEndConstIter
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

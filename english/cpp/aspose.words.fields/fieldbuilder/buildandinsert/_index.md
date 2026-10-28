@@ -7,25 +7,24 @@ type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\> \&) method
 
 
 Builds and inserts a field into the document before the specified inline node.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Inline> &refNode)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Inline> & refNode)
 ```
 
 
 ### ReturnValue
 
 A [Field](../../field/) object that represents the inserted field.
-
 ## Examples
 
 
+Shows how to create and insert a field using a field builder.
 
-Shows how to create and insert a field using a field builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,33 +45,29 @@ fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParag
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.CreateWithFieldBuilder.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../field/)
-* Class [Inline](../../../aspose.words/inline/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
-## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) method
+## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\> \&) method
 
 
 Builds and inserts a field into the document to the end of the specified paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Paragraph> &refNode)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Fields::FieldBuilder::BuildAndInsert(const System::SharedPtr<Aspose::Words::Paragraph> & refNode)
 ```
 
 
 ### ReturnValue
 
 A [Field](../../field/) object that represents the inserted field.
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -146,11 +141,8 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../field/)
-* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

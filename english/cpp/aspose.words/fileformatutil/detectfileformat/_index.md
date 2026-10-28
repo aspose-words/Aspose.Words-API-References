@@ -7,19 +7,19 @@ type: docs
 weight: 3000
 url: /cpp/aspose.words/fileformatutil/detectfileformat/
 ---
-## FileFormatUtil::DetectFileFormat(const System::SharedPtr\<System::IO::Stream\>\&) method
+## FileFormatUtil::DetectFileFormat(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Detects and returns the information about a format of a document stored in a stream.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(const System::SharedPtr<System::IO::Stream> &stream)
+static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream. |
 
 ### ReturnValue
 
@@ -34,12 +34,11 @@ When this method returns, the position in the stream is restored to the original
 Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../document/) object.
 
 This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -65,26 +64,24 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
-
 ## See Also
 
-* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## FileFormatUtil::DetectFileFormat(const System::String\&) method
+## FileFormatUtil::DetectFileFormat(const System::String \&) method
 
 
 Detects and returns the information about a format of a document stored in a disk file.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(const System::String &fileName)
+static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The file name. |
+| fileName | const System::String \& | The file name. |
 
 ### ReturnValue
 
@@ -95,12 +92,11 @@ A [FileFormatInfo](../../fileformatinfo/) object that contains the detected info
 Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../document/) object.
 
 This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil class to detect the document format and encryption.
 
-Shows how to use the [FileFormatUtil](../) class to detect the document format and encryption. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -118,8 +114,8 @@ ASSERT_EQ(u".odt", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat())
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
+Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
 
-Shows how to use the [FileFormatUtil](../) class to detect the document format and presence of digital signatures. 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx");
@@ -140,25 +136,22 @@ ASSERT_TRUE(info->get_HasDigitalSignature());
 // We can load and access the signatures of a signed document in a collection like this.
 ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count());
 ```
-
 ## See Also
 
-* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## FileFormatUtil::DetectFileFormat(std::basic_istream\<CharType, Traits\>\&) method
+## FileFormatUtil::DetectFileFormat(std::basic_istream\<CharType, Traits\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(std::basic_istream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(std::basic_istream<CharType, Traits> & stream)
 ```
 
 ## See Also
 
-* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

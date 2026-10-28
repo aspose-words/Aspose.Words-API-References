@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldnext/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldNext::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldNext::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

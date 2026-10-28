@@ -16,12 +16,11 @@ Removes a series group at the specified index. All child series will be removed 
 void Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::RemoveAt(int32_t index)
 ```
 
-
 ## Examples
 
 
+Show how to remove secondary axis.
 
-Show how to remove secondary axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Combo chart.docx"));
 
@@ -38,7 +37,6 @@ for (int32_t i = 0; i < seriesGroups->get_Count(); i++)
     }
 }
 ```
-
 ## See Also
 
 * Class [ChartSeriesGroupCollection](../)

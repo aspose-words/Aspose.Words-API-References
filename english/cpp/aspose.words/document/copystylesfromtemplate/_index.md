@@ -7,30 +7,33 @@ type: docs
 weight: 9000
 url: /cpp/aspose.words/document/copystylesfromtemplate/
 ---
-## Document::CopyStylesFromTemplate(const System::SharedPtr\<Aspose::Words::Document\>\&) method
+## Document::CopyStylesFromTemplate(const System::SharedPtr\<Aspose::Words::Document\> \&) method
 
 
 Copies styles from the specified template to a document.
 
 ```cpp
-void Aspose::Words::Document::CopyStylesFromTemplate(const System::SharedPtr<Aspose::Words::Document> &template_)
+void Aspose::Words::Document::CopyStylesFromTemplate(const System::SharedPtr<Aspose::Words::Document> & template_)
 ```
 
+## Remarks
 
+ When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
 ## Examples
 
 
+Shows how to copies styles from the template to a document via Document.
 
-Shows how to copies styles from the template to a document via [Document](../). 
 ```cpp
 auto template_ = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto target = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
+
 target->CopyStylesFromTemplate(template_);
 ```
 
+Shows how to copy styles from one document to another.
 
-Shows how to copy styles from one document to another. 
 ```cpp
 // Create a document, and then add styles that we will copy to another document.
 auto template_ = System::MakeObject<Aspose::Words::Document>();
@@ -75,28 +78,28 @@ target->CopyStylesFromTemplate(get_MyDir() + u"Rendering.docx");
 
 ASSERT_EQ(21, target->get_Styles()->get_Count());
 ```
-
 ## See Also
 
 * Class [Document](../)
-* Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::CopyStylesFromTemplate(const System::String\&) method
+## Document::CopyStylesFromTemplate(const System::String \&) method
 
 
 Copies styles from the specified template to a document.
 
 ```cpp
-void Aspose::Words::Document::CopyStylesFromTemplate(const System::String &template_)
+void Aspose::Words::Document::CopyStylesFromTemplate(const System::String & template_)
 ```
 
+## Remarks
 
+ When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
 ## Examples
 
 
+Shows how to copy styles from one document to another.
 
-Shows how to copy styles from one document to another. 
 ```cpp
 // Create a document, and then add styles that we will copy to another document.
 auto template_ = System::MakeObject<Aspose::Words::Document>();
@@ -141,7 +144,6 @@ target->CopyStylesFromTemplate(get_MyDir() + u"Rendering.docx");
 
 ASSERT_EQ(21, target->get_Styles()->get_Count());
 ```
-
 ## See Also
 
 * Class [Document](../)

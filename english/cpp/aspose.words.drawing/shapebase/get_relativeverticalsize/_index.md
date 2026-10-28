@@ -4,7 +4,7 @@ linktitle: get_RelativeVerticalSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize method. Gets or sets the value of shape''s relative size in vertical direction in C++.'
 type: docs
-weight: 43500
+weight: 61735
 url: /cpp/aspose.words.drawing/shapebase/get_relativeverticalsize/
 ---
 ## ShapeBase::get_RelativeVerticalSize method
@@ -22,12 +22,11 @@ Aspose::Words::Drawing::RelativeVerticalSize Aspose::Words::Drawing::ShapeBase::
 The default value is [Margin](../../relativeverticalsize/).
 
 Has effect only if [HeightRelative](../get_heightrelative/) is set.
-
 ## Examples
 
 
+Shows how to set relative size and position.
 
-Shows how to set relative size and position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,10 +74,8 @@ if (shape->get_RelativeHorizontalPosition() == RelativeHorizontalPosition::Defau
 
 doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
 ```
-
 ## See Also
 
-* Enum [RelativeVerticalSize](../../relativeverticalsize/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

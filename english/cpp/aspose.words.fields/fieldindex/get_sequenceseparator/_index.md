@@ -4,7 +4,7 @@ linktitle: get_SequenceSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_SequenceSeparator method. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C++.'
 type: docs
-weight: 16000
+weight: 19890
 url: /cpp/aspose.words.fields/fieldindex/get_sequenceseparator/
 ---
 ## FieldIndex::get_SequenceSeparator method
@@ -16,12 +16,11 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 System::String Aspose::Words::Fields::FieldIndex::get_SequenceSeparator()
 ```
 
-
 ## Examples
 
 
+Shows how to split a document into portions by combining INDEX and SEQ fields.
 
-Shows how to split a document into portions by combining INDEX and SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Sequence.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

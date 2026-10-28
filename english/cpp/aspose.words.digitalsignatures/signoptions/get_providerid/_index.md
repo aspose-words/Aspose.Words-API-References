@@ -4,13 +4,13 @@ linktitle: get_ProviderId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId method. Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid in C++.'
 type: docs
-weight: 5000
+weight: 10180
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_providerid/
 ---
 ## SignOptions::get_ProviderId method
 
 
-Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
+Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid.
 
 ```cpp
 System::Guid Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId() const
@@ -23,13 +23,12 @@ The cryptographic service provider (CSP) is an independent software module that 
 
 The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
 
-In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\SOFTWARE\**Microsoft**\Cryptography\Defaults\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
-
+In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
 ## Examples
 
 
+Shows how to sign a document with a personal certificate and a signature line.
 
-Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,7 +69,6 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::ParagraphCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::ParagraphCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

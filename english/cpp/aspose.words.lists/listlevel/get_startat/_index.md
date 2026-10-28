@@ -4,7 +4,7 @@ linktitle: get_StartAt
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_StartAt method. Returns or sets the starting number for this list level in C++.'
 type: docs
-weight: 16000
+weight: 22876
 url: /cpp/aspose.words.lists/listlevel/get_startat/
 ---
 ## ListLevel::get_StartAt method
@@ -20,12 +20,11 @@ int32_t Aspose::Words::Lists::ListLevel::get_StartAt()
 
 
 Default value is 1.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -78,8 +77,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows how to restart numbering in a list by copying a list.
 
-Shows how to restart numbering in a list by copying a list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -116,7 +115,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

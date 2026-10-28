@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPartCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 10000
+weight: 17667
 url: /cpp/aspose.words.markup/customxmlpartcollection/get_count/
 ---
 ## CustomXmlPartCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomXmlPartCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -81,7 +80,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Class [CustomXmlPartCollection](../)

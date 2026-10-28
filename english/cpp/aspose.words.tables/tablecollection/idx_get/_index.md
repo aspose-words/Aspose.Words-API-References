@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::TableCollection::idx_get method. Retrieves a Table at the given index in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.tables/tablecollection/idx_get/
 ---
 ## TableCollection::idx_get method
@@ -30,12 +30,11 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## Examples
 
 
+Shows how to iterate through all tables in the document and print the contents of each cell.
 
-Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
@@ -74,10 +73,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
     std::cout << System::String::Format(u"End of Table {0}\n", i) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [Table](../../table/)
 * Class [TableCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

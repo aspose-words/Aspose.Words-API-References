@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/wordml2003saveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::WordML2003SaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::WordML2003SaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

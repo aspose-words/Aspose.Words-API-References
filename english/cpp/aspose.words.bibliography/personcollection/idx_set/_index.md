@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::idx_set method. Gets or sets a person at the specified index in C++.'
 type: docs
-weight: 9000
+weight: 16000
 url: /cpp/aspose.words.bibliography/personcollection/idx_set/
 ---
 ## PersonCollection::idx_set method
@@ -13,19 +13,19 @@ url: /cpp/aspose.words.bibliography/personcollection/idx_set/
 Gets or sets a person at the specified index.
 
 ```cpp
-void Aspose::Words::Bibliography::PersonCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Bibliography::Person> &value)
+void Aspose::Words::Bibliography::PersonCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Bibliography::Person> & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
-
+| value | const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \& | The value to set. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -118,10 +118,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

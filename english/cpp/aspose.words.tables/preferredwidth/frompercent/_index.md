@@ -4,7 +4,7 @@ linktitle: FromPercent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::PreferredWidth::FromPercent method. A creation method that returns a new instance that represents a preferred width specified as a percentage in C++.'
 type: docs
-weight: 2000
+weight: 6000
 url: /cpp/aspose.words.tables/preferredwidth/frompercent/
 ---
 ## PreferredWidth::FromPercent method
@@ -20,12 +20,11 @@ static System::SharedPtr<Aspose::Words::Tables::PreferredWidth> Aspose::Words::T
 | Parameter | Type | Description |
 | --- | --- | --- |
 | percent | double | The value must be from 0 to 100. |
-
 ## Examples
 
 
+Shows how to set a table to auto fit to 50% of the width of the page.
 
-Shows how to set a table to auto fit to 50% of the width of the page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +42,8 @@ table->set_PreferredWidth(PreferredWidth::FromPercent(50));
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
+Shows how to set a preferred width for table cells.
 
-Shows how to set a preferred width for table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,10 +75,8 @@ builder->Writeln(u"Automatically sized cell.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
-
 ## See Also
 
-* Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

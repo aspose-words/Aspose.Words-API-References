@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Name method. Gets or sets the name of the style in C++.'
 type: docs
-weight: 14000
+weight: 22613
 url: /cpp/aspose.words/style/get_name/
 ---
 ## Style::get_Name method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Style::get_Name() const
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
-
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -49,8 +48,8 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+Shows how to clone a document's style.
 
-Shows how to clone a document's style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -73,7 +72,6 @@ ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Name(), newS
 ASPOSE_ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size(), newStyle->get_Font()->get_Size());
 ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color(), newStyle->get_Font()->get_Color());
 ```
-
 ## See Also
 
 * Class [Style](../)

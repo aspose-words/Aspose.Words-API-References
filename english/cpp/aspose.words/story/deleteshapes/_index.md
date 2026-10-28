@@ -16,12 +16,11 @@ Deletes all shapes from the text of this story.
 void Aspose::Words::Story::DeleteShapes()
 ```
 
-
 ## Examples
 
 
+Shows how to remove all shapes from a node.
 
-Shows how to remove all shapes from a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +37,6 @@ doc->get_FirstSection()->get_Body()->DeleteShapes();
 
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
-
 ## See Also
 
 * Class [Story](../)

@@ -4,7 +4,7 @@ linktitle: get_IsVisible
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_IsVisible method. Returns true if the LineStyle is not None in C++.'
 type: docs
-weight: 6000
+weight: 14400
 url: /cpp/aspose.words/border/get_isvisible/
 ---
 ## Border::get_IsVisible method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/border/get_isvisible/
 Returns **true** if the [LineStyle](../get_linestyle/) is not [None](../../linestyle/).
 
 ```cpp
-bool Aspose::Words::Border::get_IsVisible()
+_Bool Aspose::Words::Border::get_IsVisible()
 ```
-
 
 ## Examples
 
 
+Shows how to remove borders from a paragraph.
 
-Shows how to remove borders from a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Borders.docx"));
 
@@ -48,7 +47,6 @@ ASSERT_FALSE(borders->idx_get(0)->get_IsVisible());
 
 doc->Save(get_ArtifactsDir() + u"Border.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

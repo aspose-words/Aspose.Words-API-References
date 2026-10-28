@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/adjustment/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::Adjustment::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::Adjustment::GetType() const override
 ```
 
 ## See Also

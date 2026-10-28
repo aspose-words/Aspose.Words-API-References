@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautonumlgl/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldAutoNumLgl::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldAutoNumLgl::GetType() const override
 ```
 
 ## See Also

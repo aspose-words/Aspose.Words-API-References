@@ -4,7 +4,7 @@ linktitle: get_LegacyNumberFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat method. Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not in C++.'
 type: docs
-weight: 16000
+weight: 24713
 url: /cpp/aspose.words.fields/fieldoptions/get_legacynumberformat/
 ---
 ## FieldOptions::get_LegacyNumberFormat method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldoptions/get_legacynumberformat/
 Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 
 ```cpp
-bool Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat() const
+_Bool Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat() const
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ When this property is set to **true**, template symbol "#" worked as in .net: Re
 When this property is set to **false**, template symbol "#" works as MS Word: This format item specifies the requisite numeric places to display in the result. If the result does not include a digit in that place, MS Word displays a space. For example, { = 9 + 6 \# $### } displays $ 15.
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how enable legacy number formatting for fields.
 
-Shows how enable legacy number formatting for fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ field->Update();
 
 ASSERT_EQ(u"$5", field->get_Result());
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

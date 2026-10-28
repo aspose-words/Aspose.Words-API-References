@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xlsxsaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::XlsxSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::XlsxSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

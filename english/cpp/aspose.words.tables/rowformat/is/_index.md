@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/rowformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::RowFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::RowFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

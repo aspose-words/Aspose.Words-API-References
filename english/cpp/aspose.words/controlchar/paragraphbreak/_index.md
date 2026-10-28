@@ -4,7 +4,7 @@ linktitle: ParagraphBreak
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ControlChar::ParagraphBreak method. End of paragraph character: "\x000d" or "\r". Same as Cr in C++.'
 type: docs
-weight: 10000
+weight: 13728
 url: /cpp/aspose.words/controlchar/paragraphbreak/
 ---
 ## ControlChar::ParagraphBreak method
@@ -16,12 +16,11 @@ End of paragraph character: "\x000d" or "\r". Same as [Cr](../cr/)
 static System::String & Aspose::Words::ControlChar::ParagraphBreak()
 ```
 
-
 ## Examples
 
 
+Shows how to add various control characters to a document.
 
-Shows how to add various control characters to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +85,6 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlCh
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
 ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

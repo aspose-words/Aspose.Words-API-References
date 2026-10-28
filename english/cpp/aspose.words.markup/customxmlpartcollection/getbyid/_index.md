@@ -13,23 +13,22 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/getbyid/
 Finds and returns a custom XML part by its identifier.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::CustomXmlPartCollection::GetById(const System::String &id)
+System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::CustomXmlPartCollection::GetById(const System::String & id)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | const System::String\& | Case-sensitive string that identifies the custom XML part. |
+| id | const System::String \& | Case-sensitive string that identifies the custom XML part. |
 
 ### ReturnValue
 
 Returns **null** if a custom XML part with the specified identifier is not found.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -89,10 +88,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

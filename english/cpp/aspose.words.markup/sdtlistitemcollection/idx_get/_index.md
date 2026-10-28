@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItemCollection::idx_get method. Returns a SdtListItem object given its zero-based index in the collection in C++.'
 type: docs
-weight: 12000
+weight: 14889
 url: /cpp/aspose.words.markup/sdtlistitemcollection/idx_get/
 ---
 ## SdtListItemCollection::idx_get method
@@ -16,12 +16,11 @@ Returns a [SdtListItem](../../sdtlistitem/) object given its zero-based index in
 System::SharedPtr<Aspose::Words::Markup::SdtListItem> Aspose::Words::Markup::SdtListItemCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,10 +74,8 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
-* Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

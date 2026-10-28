@@ -4,7 +4,7 @@ linktitle: end
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use end method of Aspose::Words::Markup::CustomXmlPartCollection class in C++.'
 type: docs
-weight: 9000
+weight: 17556
 url: /cpp/aspose.words.markup/customxmlpartcollection/end/
 ---
 ## CustomXmlPartCollection::end() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/end/
 
 
 ```cpp
-const_iterator Aspose::Words::Markup::CustomXmlPartCollection::end() const noexcept
+const_iterator Aspose::Words::Markup::CustomXmlPartCollection::end() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::Markup::CustomXmlPartCollection::end() const noexc
 
 
 ```cpp
-iterator Aspose::Words::Markup::CustomXmlPartCollection::end() noexcept
+iterator Aspose::Words::Markup::CustomXmlPartCollection::end()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::CustomXmlPartCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::CustomXmlPartCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

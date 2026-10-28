@@ -4,7 +4,7 @@ linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_Id method. Specifies the binding identifier in C++.'
 type: docs
-weight: 5000
+weight: 7834
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_id/
 ---
 ## WebExtensionBinding::get_Id method
@@ -16,12 +16,11 @@ Specifies the binding identifier.
 System::String Aspose::Words::WebExtensions::WebExtensionBinding::get_Id() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [WebExtensionBinding](../)

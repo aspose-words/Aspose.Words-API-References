@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/
 ## CheckGrammarOptions class
 
 
-Allows to specify various options while checking grammar of a document using [AI](../).
+Allows to specify various options while checking grammar of a document using AI.
 
 ```cpp
 class CheckGrammarOptions : public System::Object
@@ -21,21 +21,20 @@ class CheckGrammarOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CheckGrammarOptions](./checkgrammaroptions/)() |  |
-| [get_ImproveStylistics](./get_improvestylistics/)() const | Allows to specify either [AI](../) will try to improve stylistics of the text being proofed. Default value is **false**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
+| [get_ImproveStylistics](./get_improvestylistics/)() const | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is **false**. |
 | [get_MakeRevisions](./get_makerevisions/)() const | Allows to specify either final or revised document to be returned with proofed text. Default value is **false**. |
 | [get_PreserveFormatting](./get_preserveformatting/)() const | Allows to specify either [CheckGrammar()](../aimodel/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_ImproveStylistics](./set_improvestylistics/)(bool) | Allows to specify either [AI](../) will try to improve stylistics of the text being proofed. Default value is **false**. |
+| [set_ImproveStylistics](./set_improvestylistics/)(bool) | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is **false**. |
 | [set_MakeRevisions](./set_makerevisions/)(bool) | Allows to specify either final or revised document to be returned with proofed text. Default value is **false**. |
 | [set_PreserveFormatting](./set_preserveformatting/)(bool) | Allows to specify either [CheckGrammar()](../aimodel/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to check the grammar of a document.
 
-Shows how to check the grammar of a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -49,7 +48,6 @@ grammarOptions->set_ImproveStylistics(true);
 System::SharedPtr<Aspose::Words::Document> proofedDoc = model->CheckGrammar(doc, grammarOptions);
 proofedDoc->Save(get_ArtifactsDir() + u"AI.AiGrammar.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::AI](../)

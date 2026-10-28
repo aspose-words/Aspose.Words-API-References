@@ -4,7 +4,7 @@ linktitle: get_SubjectName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_SubjectName method. Returns the subject distinguished name of the certificate that was used to sign the document in C++.'
 type: docs
-weight: 8000
+weight: 24000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_subjectname/
 ---
 ## DigitalSignature::get_SubjectName method
@@ -16,12 +16,11 @@ Returns the subject distinguished name of the certificate that was used to sign 
 System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_SubjectName()
 ```
 
-
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -58,7 +57,6 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
 * Class [DigitalSignature](../)

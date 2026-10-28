@@ -20,12 +20,11 @@ System::String Aspose::Words::Node::ToString(Aspose::Words::SaveFormat saveForma
 ### ReturnValue
 
 The content of the node in the specified format.
-
 ## Examples
 
 
+Shows the difference between calling the GetText and ToString methods on a node.
 
-Shows the difference between calling the GetText and ToString methods on a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -39,8 +38,8 @@ ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim())
 ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
 ```
 
+Shows how to extract the list labels of all paragraphs that are list items.
 
-Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -72,8 +71,8 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
 }
 ```
 
+Exports the content of a node to String in HTML format.
 
-Exports the content of a node to String in HTML format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -89,36 +88,33 @@ saveOptions->set_ExportRelativeFontSize(true);
 
 ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../saveformat/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
 
 
 Exports the content of the node into a string using the specified save options.
 
 ```cpp
-System::String Aspose::Words::Node::ToString(const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+System::String Aspose::Words::Node::ToString(const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the node is saved. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \& | Specifies the options that control how the node is saved. |
 
 ### ReturnValue
 
 The content of the node in the specified format.
-
 ## Examples
 
 
+Exports the content of a node to String in HTML format.
 
-Exports the content of a node to String in HTML format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -134,10 +130,8 @@ saveOptions->set_ExportRelativeFontSize(true);
 
 ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
 ```
-
 ## See Also
 
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -30,12 +30,11 @@ This method does not update fields that are related to the page layout algorithm
 Use the [NormalizeFieldTypes](../normalizefieldtypes/) method before fields updating if there were document changes that affected field types.
 
 To update fields in a specific part of the document use [UpdateFields](../../range/updatefields/).
-
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
+Shows to use the QUOTE field.
 
-Shows to use the QUOTE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -112,8 +111,8 @@ ASSERT_EQ(u"\"Quoted text\"", doc->get_Range()->get_Fields()->idx_get(0)->get_Re
 doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -144,7 +143,6 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)

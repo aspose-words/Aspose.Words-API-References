@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::AxisDisplayUnit::set_CustomUnit method
 linktitle: set_CustomUnit
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::set_CustomUnit method. Setter for Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_CustomUnit in C++.'
+description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::set_CustomUnit method. Sets a user-defined divisor to scale display units on the value axis in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/set_customunit/
@@ -10,12 +10,75 @@ url: /cpp/aspose.words.drawing.charts/axisdisplayunit/set_customunit/
 ## AxisDisplayUnit::set_CustomUnit method
 
 
-Setter for [Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_CustomUnit](../get_customunit/).
+Sets a user-defined divisor to scale display units on the value axis.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::AxisDisplayUnit::set_CustomUnit(double value)
 ```
 
+## Remarks
+
+
+The property is not supported by MS Office 2016 new charts. Default value is 1.
+
+Setting this property sets the [Unit](../get_unit/) property to [Custom](../../axisbuiltinunit/).
+## Examples
+
+
+Shows how to manipulate the tick marks and displayed values of a chart axis.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Scatter, static_cast<double>(450), static_cast<double>(250));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+
+ASSERT_EQ(1, chart->get_Series()->get_Count());
+ASSERT_EQ(u"Y-Values", chart->get_Series()->idx_get(0)->get_Name());
+
+// Set the minor tick marks of the Y-axis to point away from the plot area,
+// and the major tick marks to cross the axis.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> axis = chart->get_AxisY();
+axis->set_MajorTickMark(AxisTickMark::Cross);
+axis->set_MinorTickMark(AxisTickMark::Outside);
+
+// Set they Y-axis to show a major tick every 10 units, and a minor tick every 1 unit.
+axis->set_MajorUnit(10);
+axis->set_MinorUnit(1);
+
+// Set the Y-axis bounds to -10 and 20.
+// This Y-axis will now display 4 major tick marks and 27 minor tick marks.
+axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(-10)));
+axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(20)));
+
+// For the X-axis, set the major tick marks at every 10 units,
+// every minor tick mark at 2.5 units.
+axis = chart->get_AxisX();
+axis->set_MajorUnit(10);
+axis->set_MinorUnit(2.5);
+
+// Configure both types of tick marks to appear inside the graph plot area.
+axis->set_MajorTickMark(AxisTickMark::Inside);
+axis->set_MinorTickMark(AxisTickMark::Inside);
+
+// Set the X-axis bounds so that the X-axis spans 5 major tick marks and 12 minor tick marks.
+axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(-10)));
+axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(30)));
+axis->get_TickLabels()->set_Alignment(ParagraphAlignment::Right);
+
+ASSERT_EQ(1, axis->get_TickLabels()->get_Spacing());
+ASPOSE_ASSERT_EQ(doc, axis->get_DisplayUnit()->get_Document());
+
+// Set the tick labels to display their value in millions.
+axis->get_DisplayUnit()->set_Unit(AxisBuiltInUnit::Millions);
+
+// We can set a more specific value by which tick labels will display their values.
+// This statement is equivalent to the one above.
+axis->get_DisplayUnit()->set_CustomUnit(1000000);
+
+doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
+```
 ## See Also
 
 * Class [AxisDisplayUnit](../)

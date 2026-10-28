@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldQuote::get_Text method. Gets or sets the text to retrieve in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldquote/get_text/
 ---
 ## FieldQuote::get_Text method
@@ -16,12 +16,11 @@ Gets or sets the text to retrieve.
 System::String Aspose::Words::Fields::FieldQuote::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows to use the QUOTE field.
 
-Shows to use the QUOTE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_EQ(u"\"Quoted text\"", doc->get_Range()->get_Fields()->idx_get(0)->get_Re
 
 doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
-
 ## See Also
 
 * Class [FieldQuote](../)

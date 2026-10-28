@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> Aspose::Words::Fields::DropDownItemCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/set_text/
 Defines the text of the text path.
 
 ```cpp
-void Aspose::Words::Drawing::TextPath::set_Text(const System::String &value)
+void Aspose::Words::Drawing::TextPath::set_Text(const System::String & value)
 ```
 
 ## Remarks
 
 
-The default value is an empty string. 
+The default value is an empty string.
 ## See Also
 
 * Class [TextPath](../)

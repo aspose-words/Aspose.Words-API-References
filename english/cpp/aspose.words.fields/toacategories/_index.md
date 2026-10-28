@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::ToaCategories class
 linktitle: ToaCategories
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::ToaCategories class. Represents a table of authorities categories. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::ToaCategories class. Represents a table of authorities categories. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 116000
 url: /cpp/aspose.words.fields/toacategories/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/toacategories/
 ## ToaCategories class
 
 
-Represents a table of authorities categories. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Represents a table of authorities categories. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class ToaCategories : public System::Object
@@ -20,19 +21,18 @@ class ToaCategories : public System::Object
 
 | Method | Description |
 | --- | --- |
-| static [get_DefaultCategories](./get_defaultcategories/)() | Gets the default table of authorities categories. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets the category heading by category number. |
-| [idx_set](./idx_set/)(int32_t, const System::String\&) | Gets or sets the category heading by category number. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToaCategories](./toacategories/)() |  |
 | static [Type](./type/)() |  |
-
+| static [get_DefaultCategories](./get_defaultcategories/)() | Gets the default table of authorities categories. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets the category heading by category number. |
+| [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets the category heading by category number. |
 ## Examples
 
 
+Shows how to specify a set of categories for TOA fields.
 
-Shows how to specify a set of categories for TOA fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +73,6 @@ builder->InsertField(u"TA \\c 2 \\l \"entry 3\"");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.TOA.Categories.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

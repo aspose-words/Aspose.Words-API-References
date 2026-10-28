@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::SystemFontSource::get_Type method. Returns the type of the font source in C++.'
 type: docs
-weight: 4000
+weight: 9000
 url: /cpp/aspose.words.fonts/systemfontsource/get_type/
 ---
 ## SystemFontSource::get_Type method
@@ -16,12 +16,11 @@ Returns the type of the font source.
 Aspose::Words::Fonts::FontSourceType Aspose::Words::Fonts::SystemFontSource::get_Type() override
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -73,10 +72,8 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
-* Enum [FontSourceType](../../fontsourcetype/)
 * Class [SystemFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

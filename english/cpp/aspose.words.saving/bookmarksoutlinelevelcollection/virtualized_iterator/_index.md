@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/virtualized_iterat
 
 
 ```cpp
-using Aspose::Words::Saving::BookmarksOutlineLevelCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::Saving::BookmarksOutlineLevelCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

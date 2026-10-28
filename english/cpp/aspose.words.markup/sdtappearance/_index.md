@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtappearance/
 Specifies the appearance of a structured document tag.
 
 ```cpp
-enum class SdtAppearance
+enum class SdtAppearance : int
 ```
 
 ### Values
@@ -21,16 +21,15 @@ enum class SdtAppearance
 | Name | Value | Description |
 | --- | --- | --- |
 | BoundingBox | 0 | Represents a structured document tag shown as a shaded rectangle or bounding box. |
-| Tags | 1 | Represents a structured document tag shown as start and end markers. |
-| Hidden | 2 | Represents a structured document tag that is not shown. |
 | Default | 0 | Defaults to [BoundingBox](./). |
-
+| Hidden | 2 | Represents a structured document tag that is not shown. |
+| Tags | 1 | Represents a structured document tag shown as start and end markers. |
 
 ## Examples
 
 
+Shows how to show tag around content.
 
-Shows how to show tag around content. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));
@@ -40,7 +39,6 @@ if (tag->get_Appearance() == SdtAppearance::Hidden)
     tag->set_Appearance(SdtAppearance::Tags);
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::UserInformation class in C++.'
 type: docs
-weight: 2000
+weight: 8143
 url: /cpp/aspose.words.fields/userinformation/type/
 ---
 ## UserInformation::Type method

@@ -4,7 +4,7 @@ linktitle: get_ComparisonOperator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldNextIf::get_ComparisonOperator method. Gets the comparison operator in C++.'
 type: docs
-weight: 2000
+weight: 6400
 url: /cpp/aspose.words.fields/fieldnextif/get_comparisonoperator/
 ---
 ## FieldNextIf::get_ComparisonOperator method

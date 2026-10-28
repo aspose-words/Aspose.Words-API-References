@@ -4,7 +4,7 @@ linktitle: get_TiffBinarizationMethod
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod method. Gets or sets method used while converting images to 1 bpp format when SaveFormat is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4 in C++.'
 type: docs
-weight: 16000
+weight: 21408
 url: /cpp/aspose.words.saving/imagesaveoptions/get_tiffbinarizationmethod/
 ---
 ## ImageSaveOptions::get_TiffBinarizationMethod method
@@ -20,12 +20,11 @@ Aspose::Words::Saving::ImageBinarizationMethod Aspose::Words::Saving::ImageSaveO
 
 
 The default value is [Threshold](../../imagebinarizationmethod/).
-
 ## Examples
 
 
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 
-Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,10 +44,8 @@ options->set_ThresholdForFloydSteinbergDithering(240);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);
 ```
-
 ## See Also
 
-* Enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

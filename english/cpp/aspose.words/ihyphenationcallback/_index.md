@@ -13,7 +13,7 @@ url: /cpp/aspose.words/ihyphenationcallback/
 Implemented by classes which can register hyphenation dictionaries.
 
 ```cpp
-class IHyphenationCallback : public virtual System::Object
+class IHyphenationCallback : public System::Object
 ```
 
 ## Methods
@@ -21,8 +21,12 @@ class IHyphenationCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| virtual [RequestDictionary](./requestdictionary/)(System::String) | Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. Implementation should find a dictionary and register it using [RegisterDictionary()](../) methods. If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [RegisterDictionary()](../) with **null** value. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| virtual [RequestDictionary](./requestdictionary/)(System::String) | Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered.
+
+ Implementation should find a dictionary and register it using [RegisterDictionary()](../hyphenation/registerdictionary/) methods.
+
+ If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [RegisterDictionary()](../hyphenation/registerdictionary/) with **null** value. |
 | static [Type](./type/)() |  |
 ## See Also
 

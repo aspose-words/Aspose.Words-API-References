@@ -4,7 +4,7 @@ linktitle: get_EvenlySpaced
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_EvenlySpaced method. True if text columns are of equal width and evenly spaced in C++.'
 type: docs
-weight: 3000
+weight: 16000
 url: /cpp/aspose.words/textcolumncollection/get_evenlyspaced/
 ---
 ## TextColumnCollection::get_EvenlySpaced method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/textcolumncollection/get_evenlyspaced/
 True if text columns are of equal width and evenly spaced.
 
 ```cpp
-bool Aspose::Words::TextColumnCollection::get_EvenlySpaced()
+_Bool Aspose::Words::TextColumnCollection::get_EvenlySpaced()
 ```
-
 
 ## Examples
 
 
+Shows how to create unevenly spaced columns.
 
-Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

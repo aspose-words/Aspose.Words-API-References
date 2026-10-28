@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/iterator_holder
 
 
 ```cpp
-using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> >
+using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> >
 ```
 
 ## See Also

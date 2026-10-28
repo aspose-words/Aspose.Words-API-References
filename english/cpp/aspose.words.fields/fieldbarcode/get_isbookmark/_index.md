@@ -4,7 +4,7 @@ linktitle: get_IsBookmark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBarcode::get_IsBookmark method. Gets or sets whether PostalAddress is the name of a bookmark in C++.'
 type: docs
-weight: 3000
+weight: 7501
 url: /cpp/aspose.words.fields/fieldbarcode/get_isbookmark/
 ---
 ## FieldBarcode::get_IsBookmark method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldbarcode/get_isbookmark/
 Gets or sets whether [PostalAddress](../get_postaladdress/) is the name of a bookmark.
 
 ```cpp
-bool Aspose::Words::Fields::FieldBarcode::get_IsBookmark()
+_Bool Aspose::Words::Fields::FieldBarcode::get_IsBookmark()
 ```
-
 
 ## Examples
 
 
+Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 
-Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ builder->EndBookmark(u"BarcodeBookmark");
 
 doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldBarcode](../)

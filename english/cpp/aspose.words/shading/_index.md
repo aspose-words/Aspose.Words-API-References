@@ -2,7 +2,7 @@
 title: Aspose::Words::Shading class
 linktitle: Shading
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Shading class. Contains shading attributes for an object. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Shading class. Contains shading attributes for an object. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 60000
 url: /cpp/aspose.words/shading/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/shading/
 ## Shading class
 
 
-Contains shading attributes for an object. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Contains shading attributes for an object. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-class Shading : public Aspose::Words::InternableComplexAttr,
+class Shading : public InternableComplexAttr,
                 public IComplexAttr
 ```
 
@@ -22,8 +23,12 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Removes shading from the object. |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Shading\>\&) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
+| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Shading\> \&) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
+| [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_BackgroundPatternColor](./get_backgroundpatterncolor/)() | Gets or sets the color that's applied to the background of the [Shading](./) object. |
 | [get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/)() | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [get_BackgroundTintAndShade](./get_backgroundtintandshade/)() | Gets or sets a double value that lightens or darkens a background theme color. |
@@ -31,23 +36,21 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 | [get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/)() | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [get_ForegroundTintAndShade](./get_foregroundtintandshade/)() | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [get_Texture](./get_texture/)() | Gets or sets the shading texture. |
-| [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_BackgroundPatternColor](./set_backgroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_BackgroundPatternColor](./get_backgroundpatterncolor/). |
-| [set_BackgroundPatternThemeColor](./set_backgroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Shading::get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/). |
-| [set_BackgroundTintAndShade](./set_backgroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_BackgroundTintAndShade](./get_backgroundtintandshade/). |
-| [set_ForegroundPatternColor](./set_foregroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_ForegroundPatternColor](./get_foregroundpatterncolor/). |
-| [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Shading::get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/). |
-| [set_ForegroundTintAndShade](./set_foregroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_ForegroundTintAndShade](./get_foregroundtintandshade/). |
-| [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Setter for [Aspose::Words::Shading::get_Texture](./get_texture/). |
-| static [Type](./type/)() |  |
-
+| [set_BackgroundPatternColor](./set_backgroundpatterncolor/)(System::Drawing::Color) | Sets the color that's applied to the background of the [Shading](./) object. |
+| [set_BackgroundPatternThemeColor](./set_backgroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_BackgroundTintAndShade](./set_backgroundtintandshade/)(double) | Sets a double value that lightens or darkens a background theme color. |
+| [set_ForegroundPatternColor](./set_foregroundpatterncolor/)(System::Drawing::Color) | Sets the color that's applied to the foreground of the [Shading](./) object. |
+| [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_ForegroundTintAndShade](./set_foregroundtintandshade/)(double) | Sets a double value that lightens or darkens a foreground theme color. |
+| [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Sets the shading texture. |
+| [GetType](../internablecomplexattr/gettype/)() const override |  |
+| [Is](../internablecomplexattr/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../internablecomplexattr/type/)() |  |
 ## Examples
 
 
+Shows how to apply border and shading color while building a table.
 
-Shows how to apply border and shading color while building a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,8 +85,8 @@ builder->Writeln(u"Row 2, Cell 2.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
+Shows how to decorate text with borders and shading.
 
-Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -103,7 +106,6 @@ shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 builder->Write(u"This paragraph is formatted with a double border and shading.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
-
 ## See Also
 
 * Class [InternableComplexAttr](../internablecomplexattr/)

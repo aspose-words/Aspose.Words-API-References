@@ -4,7 +4,7 @@ linktitle: cend
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cend method of Aspose::Words::Vba::VbaReferenceCollection class in C++.'
 type: docs
-weight: 4000
+weight: 11500
 url: /cpp/aspose.words.vba/vbareferencecollection/cend/
 ---
 ## VbaReferenceCollection::cend method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.vba/vbareferencecollection/cend/
 
 
 ```cpp
-const_iterator Aspose::Words::Vba::VbaReferenceCollection::cend() const noexcept
+const_iterator Aspose::Words::Vba::VbaReferenceCollection::cend() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

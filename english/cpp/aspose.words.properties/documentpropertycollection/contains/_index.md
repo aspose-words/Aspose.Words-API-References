@@ -13,23 +13,22 @@ url: /cpp/aspose.words.properties/documentpropertycollection/contains/
 Returns **true** if a property with the specified name exists in the collection.
 
 ```cpp
-bool Aspose::Words::Properties::DocumentPropertyCollection::Contains(const System::String &name)
+_Bool Aspose::Words::Properties::DocumentPropertyCollection::Contains(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the property. |
+| name | const System::String \& | The case-insensitive name of the property. |
 
 ### ReturnValue
 
 **true** if the property exists in the collection; **false** otherwise.
-
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -84,7 +83,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [DocumentPropertyCollection](../)

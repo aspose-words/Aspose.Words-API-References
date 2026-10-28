@@ -13,7 +13,7 @@ url: /cpp/aspose.words/controlchar/controlchar/
 
 
 ```cpp
-Aspose::Words::ControlChar::ControlChar()=delete
+Aspose::Words::ControlChar::ControlChar()
 ```
 
 ## See Also

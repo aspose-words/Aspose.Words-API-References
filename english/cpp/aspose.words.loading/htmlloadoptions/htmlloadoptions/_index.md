@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 2000
+weight: 9500
 url: /cpp/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
 ## HtmlLoadOptions::HtmlLoadOptions() constructor
@@ -16,12 +16,11 @@ Initializes a new instance of this class with default values.
 Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to support conditional comments while loading an HTML document.
 
-Shows how to support conditional comments while loading an HTML document. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
 
@@ -43,33 +42,31 @@ else
     ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
-
 ## See Also
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)
-## HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
+## HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) constructor
 
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 
 ```cpp
-Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat loadFormat, const System::String &password, const System::String &baseUri)
+Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat loadFormat, const System::String & password, const System::String & baseUri)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | Aspose::Words::LoadFormat | The format of the document to be loaded. |
-| password | const System::String\& | The password to open an encrypted document. Can be **null** or empty string. |
-| baseUri | const System::String\& | The string that will be used to resolve relative URIs to absolute. Can be **null** or empty string. |
-
+| password | const System::String \& | The password to open an encrypted document. Can be **null** or empty string. |
+| baseUri | const System::String \& | The string that will be used to resolve relative URIs to absolute. Can be **null** or empty string. |
 ## Examples
 
 
+Shows how to specify a base URI when opening an html document.
 
-Shows how to specify a base URI when opening an html document. 
 ```cpp
 // Suppose we want to load an .html document that contains an image linked by a relative URI
 // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
@@ -87,32 +84,29 @@ ASSERT_TRUE(imageShape->get_IsImage());
 // This output document will display the image that was missing.
 doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BaseUri.docx");
 ```
-
 ## See Also
 
-* Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)
-## HtmlLoadOptions::HtmlLoadOptions(const System::String\&) constructor
+## HtmlLoadOptions::HtmlLoadOptions(const System::String \&) constructor
 
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
 ```cpp
-Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(const System::String &password)
+Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions(const System::String & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | const System::String\& | The password to open an encrypted document. Can be **null** or empty string. |
-
+| password | const System::String \& | The password to open an encrypted document. Can be **null** or empty string. |
 ## Examples
 
 
+Shows how to encrypt an Html document, and then open it using a password.
 
-Shows how to encrypt an Html document, and then open it using a password. 
 ```cpp
 // Create and sign an encrypted HTML document from an encrypted .docx.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -136,7 +130,6 @@ auto doc = System::MakeObject<Aspose::Words::Document>(outputFileName, loadOptio
 
 ASSERT_EQ(u"Test encrypted document.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [HtmlLoadOptions](../)

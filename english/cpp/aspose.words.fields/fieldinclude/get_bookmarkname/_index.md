@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldInclude::get_BookmarkName method. Gets or sets the name of the bookmark in the document to include in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.fields/fieldinclude/get_bookmarkname/
 ---
 ## FieldInclude::get_BookmarkName method
@@ -16,12 +16,11 @@ Gets or sets the name of the bookmark in the document to include.
 System::String Aspose::Words::Fields::FieldInclude::get_BookmarkName() override
 ```
 
-
 ## Examples
 
 
+Shows how to create an INCLUDE field, and set its properties.
 
-Shows how to create an INCLUDE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(field->GetFieldCode()
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INCLUDE.docx");
 ```
-
 ## See Also
 
 * Class [FieldInclude](../)

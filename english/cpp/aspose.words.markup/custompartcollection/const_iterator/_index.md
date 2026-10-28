@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/custompartcollection/const_iterator/
 
 
 ```cpp
-using Aspose::Words::Markup::CustomPartCollection::const_iterator =  typename iterator_holder_type::const_iterator
+using Aspose::Words::Markup::CustomPartCollection::const_iterator = typename iterator_holder_type::const_iterator
 ```
 
 ## See Also

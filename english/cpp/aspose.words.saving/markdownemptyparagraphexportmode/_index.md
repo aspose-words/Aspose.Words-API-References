@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownemptyparagraphexportmode/
 Specifies how Aspose.Words exports empty paragraphs to Markdown.
 
 ```cpp
-enum class MarkdownEmptyParagraphExportMode
+enum class MarkdownEmptyParagraphExportMode : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class MarkdownEmptyParagraphExportMode
 | MarkdownHardLineBreak | 1 | Export as Markdown HardLineBreak character '\'. |
 | None | 2 | Don't export empty paragraphs. |
 
-
 ## Examples
 
 
+Shows how to export empty paragraphs.
 
-Shows how to export empty paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ switch (exportMode)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

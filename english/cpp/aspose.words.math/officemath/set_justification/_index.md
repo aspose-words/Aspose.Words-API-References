@@ -2,7 +2,7 @@
 title: Aspose::Words::Math::OfficeMath::set_Justification method
 linktitle: set_Justification
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Math::OfficeMath::set_Justification method. Setter for Aspose::Words::Math::OfficeMath::get_Justification in C++.'
+description: 'Aspose::Words::Math::OfficeMath::set_Justification method. Gets/sets Office Math justification in C++.'
 type: docs
 weight: 14000
 url: /cpp/aspose.words.math/officemath/set_justification/
@@ -10,15 +10,44 @@ url: /cpp/aspose.words.math/officemath/set_justification/
 ## OfficeMath::set_Justification method
 
 
-Setter for [Aspose::Words::Math::OfficeMath::get_Justification](../get_justification/).
+Gets/sets Office Math justification.
 
 ```cpp
 void Aspose::Words::Math::OfficeMath::set_Justification(Aspose::Words::Math::OfficeMathJustification value)
 ```
 
+## Remarks
+
+
+Justification cannot be set to the Office Math with display format type [Inline](../../officemathdisplaytype/).
+
+Inline justification cannot be set to the Office Math with display format type [Display](../../officemathdisplaytype/).
+
+Corresponding [DisplayType](../get_displaytype/) has to be set before setting Office Math justification.
+## Examples
+
+
+Shows how to set office math display formatting.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
+
+auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+
+// OfficeMath nodes that are children of other OfficeMath nodes are always inline.
+// The node we are working with is the base node to change its location and display type.
+ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
+ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
+ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
+
+// Change the location and display type of the OfficeMath node.
+officeMath->set_DisplayType(OfficeMathDisplayType::Display);
+officeMath->set_Justification(OfficeMathJustification::Left);
+
+doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
+```
 ## See Also
 
-* Enum [OfficeMathJustification](../../officemathjustification/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/visitoraction/
 Allows the visitor to control the enumeration of nodes.
 
 ```cpp
-enum class VisitorAction
+enum class VisitorAction : int
 ```
 
 ### Values

@@ -4,7 +4,7 @@ linktitle: get_Manager
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Manager method. Gets or sets the manager property in C++.'
 type: docs
-weight: 20000
+weight: 36558
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_manager/
 ---
 ## BuiltInDocumentProperties::get_Manager method
@@ -16,12 +16,11 @@ Gets or sets the manager property.
 System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Manager()
 ```
 
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -50,7 +49,6 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

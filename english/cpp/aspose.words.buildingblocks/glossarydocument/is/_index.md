@@ -13,7 +13,7 @@ url: /cpp/aspose.words.buildingblocks/glossarydocument/is/
 
 
 ```cpp
-virtual bool Aspose::Words::BuildingBlocks::GlossaryDocument::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::BuildingBlocks::GlossaryDocument::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

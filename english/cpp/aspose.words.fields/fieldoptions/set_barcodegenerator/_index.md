@@ -13,12 +13,14 @@ url: /cpp/aspose.words.fields/fieldoptions/set_barcodegenerator/
 Gets or set custom barcode generator.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_BarcodeGenerator(const System::SharedPtr<Aspose::Words::Fields::IBarcodeGenerator> &value)
+void Aspose::Words::Fields::FieldOptions::set_BarcodeGenerator(const System::SharedPtr<Aspose::Words::Fields::IBarcodeGenerator> & value)
 ```
 
+## Remarks
+
+ Custom barcode generator should implement public interface [IBarcodeGenerator](../../ibarcodegenerator/). 
 ## See Also
 
-* Interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

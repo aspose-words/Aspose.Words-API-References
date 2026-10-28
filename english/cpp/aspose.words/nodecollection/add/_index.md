@@ -13,25 +13,24 @@ url: /cpp/aspose.words/nodecollection/add/
 Adds a node to the end of the collection.
 
 ```cpp
-void Aspose::Words::NodeCollection::Add(const System::SharedPtr<Aspose::Words::Node> &node)
+void Aspose::Words::NodeCollection::Add(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const System::SharedPtr\<Aspose::Words::Node\>\& | The node to be added to the end of the collection. |
+| node | const System::SharedPtr\<Aspose::Words::Node\> \& | The node to be added to the end of the collection. |
 ## Remarks
 
 
 The node is inserted as a child into the node object from which the collection was created.
 
-If the node being inserted was created from another document, you should use [ImportNode()](../) to import the node to the current document. The imported node can then be inserted into the current document.
-
+If the node being inserted was created from another document, you should use [ImportNode()](../../documentbase/importnode/) to import the node to the current document. The imported node can then be inserted into the current document.
 ## Examples
 
 
+Shows how to prepare a new section node for editing.
 
-Shows how to prepare a new section node for editing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -56,10 +55,12 @@ doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild<S
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
+## Exceptions
+
+* **NotSupportedException** - The [NodeCollection](../) is a "deep" collection.
 
 ## See Also
 
-* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

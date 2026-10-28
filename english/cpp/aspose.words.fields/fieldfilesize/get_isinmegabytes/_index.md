@@ -4,7 +4,7 @@ linktitle: get_IsInMegabytes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes method. Gets or sets whether to display the file size in megabytes in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.fields/fieldfilesize/get_isinmegabytes/
 ---
 ## FieldFileSize::get_IsInMegabytes method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldfilesize/get_isinmegabytes/
 Gets or sets whether to display the file size in megabytes.
 
 ```cpp
-bool Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes()
+_Bool Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes()
 ```
-
 
 ## Examples
 
 
+Shows how to display the file size of a document with a FILESIZE field.
 
-Shows how to display the file size of a document with a FILESIZE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -62,7 +61,6 @@ ASSERT_EQ(u"0", field->get_Result());
 // we must first save the changes, and then manually update these fields.
 doc->Save(get_ArtifactsDir() + u"Field.FILESIZE.docx");
 ```
-
 ## See Also
 
 * Class [FieldFileSize](../)

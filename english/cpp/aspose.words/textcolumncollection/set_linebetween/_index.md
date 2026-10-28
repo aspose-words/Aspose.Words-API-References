@@ -2,20 +2,44 @@
 title: Aspose::Words::TextColumnCollection::set_LineBetween method
 linktitle: set_LineBetween
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::TextColumnCollection::set_LineBetween method. Setter for Aspose::Words::TextColumnCollection::get_LineBetween in C++.'
+description: 'Aspose::Words::TextColumnCollection::set_LineBetween method. When true, adds a vertical line between columns in C++.'
 type: docs
-weight: 11000
+weight: 22000
 url: /cpp/aspose.words/textcolumncollection/set_linebetween/
 ---
 ## TextColumnCollection::set_LineBetween method
 
 
-Setter for [Aspose::Words::TextColumnCollection::get_LineBetween](../get_linebetween/).
+When **true**, adds a vertical line between columns.
 
 ```cpp
 void Aspose::Words::TextColumnCollection::set_LineBetween(bool value)
 ```
 
+## Examples
+
+
+Shows how to separate columns with a vertical line.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Configure the current section's PageSetup object to divide the text into several columns.
+// Set the "LineBetween" property to "true" to put a dividing line between columns.
+// Set the "LineBetween" property to "false" to leave the space between columns blank.
+System::SharedPtr<Aspose::Words::TextColumnCollection> columns = builder->get_PageSetup()->get_TextColumns();
+columns->set_LineBetween(lineBetween);
+columns->SetCount(3);
+
+builder->Writeln(u"Column 1.");
+builder->InsertBreak(BreakType::ColumnBreak);
+builder->Writeln(u"Column 2.");
+builder->InsertBreak(BreakType::ColumnBreak);
+builder->Writeln(u"Column 3.");
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.VerticalLineBetweenColumns.docx");
+```
 ## See Also
 
 * Class [TextColumnCollection](../)

@@ -4,7 +4,7 @@ linktitle: get_CustomDocumentProperties
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_CustomDocumentProperties method. Returns a collection that represents all the custom document properties of the document in C++.'
 type: docs
-weight: 18000
+weight: 108000
 url: /cpp/aspose.words/document/get_customdocumentproperties/
 ---
 ## Document::get_CustomDocumentProperties method
@@ -16,12 +16,11 @@ Returns a collection that represents all the custom document properties of the d
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> Aspose::Words::Document::get_CustomDocumentProperties()
 ```
 
-
 ## Examples
 
 
+Shows how to work with built-in document properties.
 
-Shows how to work with built-in document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -50,10 +49,8 @@ for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties
     }
 }
 ```
-
 ## See Also
 
-* Class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

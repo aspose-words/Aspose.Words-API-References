@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_Color method. Gets or sets the border color in C++.'
 type: docs
-weight: 4000
+weight: 14200
 url: /cpp/aspose.words/border/get_color/
 ---
 ## Border::get_Color method
@@ -16,12 +16,11 @@ Gets or sets the border color.
 System::Drawing::Color Aspose::Words::Border::get_Color()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,7 +33,6 @@ builder->Write(u"Text surrounded by green border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

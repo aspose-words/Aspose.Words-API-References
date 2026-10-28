@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_Type method. Returns the form field type in C++.'
 type: docs
-weight: 24000
+weight: 70000
 url: /cpp/aspose.words.fields/formfield/get_type/
 ---
 ## FormField::get_Type method
@@ -16,12 +16,11 @@ Returns the form field type.
 Aspose::Words::Fields::FieldType Aspose::Words::Fields::FormField::get_Type()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a combo box.
 
-Shows how to insert a combo box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,10 +38,8 @@ ASSERT_EQ(u"Apple", comboBox->get_Result());
 // The form field will appear in the form of a "select" html tag.
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
-
 ## See Also
 
-* Enum [FieldType](../../fieldtype/)
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

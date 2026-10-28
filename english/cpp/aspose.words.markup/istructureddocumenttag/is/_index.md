@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::IStructuredDocumentTag::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::IStructuredDocumentTag::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_separator/
 Sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartDataLabel::set_Separator(const System::String &value)
+void Aspose::Words::Drawing::Charts::ChartDataLabel::set_Separator(const System::String & value)
 ```
 
 ## See Also

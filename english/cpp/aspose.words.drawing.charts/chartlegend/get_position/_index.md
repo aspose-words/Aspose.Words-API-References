@@ -4,7 +4,7 @@ linktitle: get_Position
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegend::get_Position method. Specifies the position of the legend on a chart in C++.'
 type: docs
-weight: 5000
+weight: 7858
 url: /cpp/aspose.words.drawing.charts/chartlegend/get_position/
 ---
 ## ChartLegend::get_Position method
@@ -16,12 +16,14 @@ Specifies the position of the legend on a chart.
 Aspose::Words::Drawing::Charts::LegendPosition Aspose::Words::Drawing::Charts::ChartLegend::get_Position()
 ```
 
+## Remarks
 
+ The default value is [Right](../../legendposition/) for pre-Word 2016 charts and [Top](../../legendposition/) for Word 2016 charts. 
 ## Examples
 
 
+Shows how to edit the appearance of a chart's legend.
 
-Shows how to edit the appearance of a chart's legend. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +45,8 @@ legend->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
 ```
-
 ## See Also
 
-* Enum [LegendPosition](../../legendposition/)
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

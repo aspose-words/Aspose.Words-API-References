@@ -7,19 +7,19 @@ type: docs
 weight: 52000
 url: /cpp/aspose.words/documentbuilder/movetobookmark/
 ---
-## DocumentBuilder::MoveToBookmark(const System::String\&) method
+## DocumentBuilder::MoveToBookmark(const System::String \&) method
 
 
 Moves the cursor to a bookmark.
 
 ```cpp
-bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String &bookmarkName)
+_Bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | The name of the bookmark to move the cursor to. |
+| bookmarkName | const System::String \& | The name of the bookmark to move the cursor to. |
 
 ### ReturnValue
 
@@ -34,12 +34,11 @@ The comparison is not case-sensitive. If the bookmark was not found, **false** i
 Inserting new text does not replace existing text of the bookmark.
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
-
 ## Examples
 
 
+Shows how to move a document builder's cursor to different nodes in a document.
 
-Shows how to move a document builder's cursor to different nodes in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,25 +85,24 @@ builder->MoveToDocumentStart();
 
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::MoveToBookmark(const System::String\&, bool, bool) method
+## DocumentBuilder::MoveToBookmark(const System::String \&, bool, bool) method
 
 
 Moves the cursor to a bookmark with greater precision.
 
 ```cpp
-bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String &bookmarkName, bool isStart, bool isAfter)
+_Bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName, bool isStart, bool isAfter)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | The name of the bookmark to move the cursor to. |
+| bookmarkName | const System::String \& | The name of the bookmark to move the cursor to. |
 | isStart | bool | When **true**, moves the cursor to the beginning of the bookmark. When **false**, moves the cursor to the end of the bookmark. |
 | isAfter | bool | When **true**, moves the cursor to be after the bookmark start or end position. When **false**, moves the cursor to be before the bookmark start or end position. |
 
@@ -119,12 +117,11 @@ Moves the cursor to a position before or after the bookmark start or end.
 If desired position is not at inline level, moves to the next paragraph.
 
 The comparison is not case-sensitive. If the bookmark was not found, **false** is returned and the cursor is not moved.
-
 ## Examples
 
 
+Shows how to move a document builder's node insertion point cursor to a bookmark.
 
-Shows how to move a document builder's node insertion point cursor to a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -166,7 +163,6 @@ builder->Write(u"4.");
 ASSERT_EQ(u"2. Hello world! 3. ", doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text());
 ASSERT_EQ(u"1. 2. Hello world! 3. 4.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

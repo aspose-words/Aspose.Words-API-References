@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Width method. Gets or sets the width of the containing block of the shape in C++.'
 type: docs
-weight: 54000
+weight: 61930
 url: /cpp/aspose.words.drawing/shapebase/get_width/
 ---
 ## ShapeBase::get_Width method
@@ -24,12 +24,11 @@ For a top-level shape, the value is in points.
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 The default value is 0.
-
 ## Examples
 
 
+Shows how to insert a floating image, and specify its position and size.
 
-Shows how to insert a floating image, and specify its position and size. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,8 +59,8 @@ ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
 
+Shows how to resize a shape with an image.
 
-Shows how to resize a shape with an image. 
 ```cpp
 // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
 // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -99,7 +98,6 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 
 doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

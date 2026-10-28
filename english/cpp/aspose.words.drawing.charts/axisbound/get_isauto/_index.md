@@ -4,7 +4,7 @@ linktitle: get_IsAuto
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto method. Returns a flag indicating that axis bound should be determined automatically in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/axisbound/get_isauto/
 ---
 ## AxisBound::get_IsAuto method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/axisbound/get_isauto/
 Returns a flag indicating that axis bound should be determined automatically.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto() const
+_Bool Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto() const
 ```
-
 
 ## Examples
 
 
+Shows how to set custom axis bounds.
 
-Shows how to set custom axis bounds. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ chart->get_AxisX()->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words:
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisBound.docx");
 ```
-
 ## See Also
 
 * Class [AxisBound](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/gradientstop/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::GradientStop::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::GradientStop::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

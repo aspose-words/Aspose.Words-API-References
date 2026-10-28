@@ -4,7 +4,7 @@ linktitle: get_ComparisonOperator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCompare::get_ComparisonOperator method. Gets or sets the comparison operator in C++.'
 type: docs
-weight: 2000
+weight: 6400
 url: /cpp/aspose.words.fields/fieldcompare/get_comparisonoperator/
 ---
 ## FieldCompare::get_ComparisonOperator method
@@ -16,12 +16,11 @@ Gets or sets the comparison operator.
 System::String Aspose::Words::Fields::FieldCompare::get_ComparisonOperator()
 ```
 
-
 ## Examples
 
 
+Shows how to compare expressions using a COMPARE field.
 
-Shows how to compare expressions using a COMPARE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ ASSERT_EQ(u"1", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.COMPARE.docx");
 ```
-
 ## See Also
 
 * Class [FieldCompare](../)

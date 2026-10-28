@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/summarizeoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::AI::SummarizeOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::AI::SummarizeOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

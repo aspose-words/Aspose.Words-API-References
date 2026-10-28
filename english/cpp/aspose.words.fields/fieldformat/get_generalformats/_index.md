@@ -4,7 +4,7 @@ linktitle: get_GeneralFormats
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldFormat::get_GeneralFormats method. Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches in C++.'
 type: docs
-weight: 3000
+weight: 6600
 url: /cpp/aspose.words.fields/fieldformat/get_generalformats/
 ---
 ## FieldFormat::get_GeneralFormats method
@@ -16,12 +16,11 @@ Gets a collection of general formats that are applied to a numeric, text or any 
 System::SharedPtr<Aspose::Words::Fields::GeneralFormatCollection> Aspose::Words::Fields::FieldFormat::get_GeneralFormats()
 ```
 
-
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,10 +81,8 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
-* Class [GeneralFormatCollection](../../generalformatcollection/)
 * Class [FieldFormat](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

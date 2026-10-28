@@ -13,7 +13,7 @@ url: /cpp/aspose.words/tablestyle/is/
 
 
 ```cpp
-virtual bool Aspose::Words::TableStyle::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::TableStyle::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

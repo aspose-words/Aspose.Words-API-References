@@ -20,28 +20,27 @@ class ReflectionFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)() | Removes [ReflectionFormat](./) from the parent object. |
+| static [Type](./type/)() |  |
 | [get_Blur](./get_blur/)() | Gets or sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0. |
 | [get_Distance](./get_distance/)() | Gets or sets a double value that specifies the amount of separation of the reflected image from the object in points. The default value is 0.0. |
 | [get_Size](./get_size/)() | Gets or sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0. |
 | [get_Transparency](./get_transparency/)() | Gets or sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect. The default value is 0.0. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)() | Removes [ReflectionFormat](./) from the parent object. |
-| [set_Blur](./set_blur/)(double) | Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Blur](./get_blur/). |
-| [set_Distance](./set_distance/)(double) | Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Distance](./get_distance/). |
-| [set_Size](./set_size/)(double) | Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Size](./get_size/). |
-| [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Transparency](./get_transparency/). |
-| static [Type](./type/)() |  |
+| [set_Blur](./set_blur/)(double) | Sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0. |
+| [set_Distance](./set_distance/)(double) | Sets a double value that specifies the amount of separation of the reflected image from the object in points. The default value is 0.0. |
+| [set_Size](./set_size/)(double) | Sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0. |
+| [set_Transparency](./set_transparency/)(double) | Sets a double value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency for the reflection effect. The default value is 0.0. |
 ## Remarks
 
 
 Use the [Reflection](../shapebase/get_reflection/) property to access reflection properties of an object. You do not create instances of the [ReflectionFormat](./) class directly.
-
 ## Examples
 
 
+Shows how to interact with reflection shape effect.
 
-Shows how to interact with reflection shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -70,7 +69,6 @@ ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Size());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Blur());
 ASPOSE_ASSERT_EQ(0, reflectionFormat->get_Distance());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

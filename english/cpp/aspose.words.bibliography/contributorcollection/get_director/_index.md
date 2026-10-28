@@ -4,7 +4,7 @@ linktitle: get_Director
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Director method. Gets or sets the director of a source in C++.'
 type: docs
-weight: 9000
+weight: 19504
 url: /cpp/aspose.words.bibliography/contributorcollection/get_director/
 ---
 ## ContributorCollection::get_Director method
@@ -16,12 +16,11 @@ Gets or sets the director of a source.
 System::SharedPtr<Aspose::Words::Bibliography::Contributor> Aspose::Words::Bibliography::ContributorCollection::get_Director()
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,10 +113,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Class [Contributor](../../contributor/)
 * Class [ContributorCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

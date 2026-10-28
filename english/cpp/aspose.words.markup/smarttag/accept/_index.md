@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/smarttag/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Markup::SmartTag::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Markup::SmartTag::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,9 @@ True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
+ Calls [VisitSmartTagStart()](../../../aspose.words/documentvisitor/visitsmarttagstart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of the smart tag and calls [VisitSmartTagEnd()](../../../aspose.words/documentvisitor/visitsmarttagend/) at the end. 
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/commentrangestart/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::CommentRangeStart::GetType() const override
+const System::TypeInfo & Aspose::Words::CommentRangeStart::GetType() const override
 ```
 
 ## See Also

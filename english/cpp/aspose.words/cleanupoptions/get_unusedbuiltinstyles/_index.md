@@ -4,7 +4,7 @@ linktitle: get_UnusedBuiltinStyles
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles method. Specifies that unused BuiltIn styles should be removed from document in C++.'
 type: docs
-weight: 4000
+weight: 8501
 url: /cpp/aspose.words/cleanupoptions/get_unusedbuiltinstyles/
 ---
 ## CleanupOptions::get_UnusedBuiltinStyles method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/cleanupoptions/get_unusedbuiltinstyles/
 Specifies that unused [BuiltIn](../../style/get_builtin/) styles should be removed from document.
 
 ```cpp
-bool Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles() const
+_Bool Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles() const
 ```
-
 
 ## Examples
 
 
+Shows how to remove all unused custom styles from a document.
 
-Shows how to remove all unused custom styles from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -63,7 +62,6 @@ doc->Cleanup(cleanupOptions);
 
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
-
 ## See Also
 
 * Class [CleanupOptions](../)

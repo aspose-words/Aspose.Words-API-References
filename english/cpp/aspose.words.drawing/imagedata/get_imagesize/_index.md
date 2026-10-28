@@ -4,7 +4,7 @@ linktitle: get_ImageSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_ImageSize method. Gets the information about image size and resolution in C++.'
 type: docs
-weight: 14000
+weight: 52000
 url: /cpp/aspose.words.drawing/imagedata/get_imagesize/
 ---
 ## ImageData::get_ImageSize method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Drawing::ImageSize> Aspose::Words::Drawing::Ima
 
 
 If the image is linked only and not stored in the document, returns zero size.
-
 ## Examples
 
 
+Shows how to resize a shape with an image.
 
-Shows how to resize a shape with an image. 
 ```cpp
 // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
 // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
@@ -63,10 +62,8 @@ ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
 
 doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```
-
 ## See Also
 
-* Class [ImageSize](../../imagesize/)
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

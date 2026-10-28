@@ -4,7 +4,7 @@ linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Version method. Represents the version number of the application that created the document in C++.'
 type: docs
-weight: 32000
+weight: 36922
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_version/
 ---
 ## BuiltInDocumentProperties::get_Version method
@@ -20,12 +20,11 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Version()
 
 
 When a document was created by Microsoft Word, then high 16 bit represent the major version and low 16 bit represent the build number.
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -54,7 +53,6 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

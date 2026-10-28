@@ -4,7 +4,7 @@ linktitle: get_ViewOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_ViewOptions method. Provides options to control how the document is displayed in Microsoft Word in C++.'
 type: docs
-weight: 58000
+weight: 150000
 url: /cpp/aspose.words/document/get_viewoptions/
 ---
 ## Document::get_ViewOptions method
@@ -16,12 +16,11 @@ Provides options to control how the document is displayed in Microsoft Word.
 System::SharedPtr<Aspose::Words::Settings::ViewOptions> Aspose::Words::Document::get_ViewOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 
-Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +35,8 @@ ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```
 
+Shows how to set a custom zoom type, which older versions of Microsoft Word will apply to a document upon loading.
 
-Shows how to set a custom zoom type, which older versions of Microsoft Word will apply to a document upon loading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,10 +52,8 @@ doc->get_ViewOptions()->set_ZoomType(zoomType);
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomType.doc");
 ```
-
 ## See Also
 
-* Class [ViewOptions](../../../aspose.words.settings/viewoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

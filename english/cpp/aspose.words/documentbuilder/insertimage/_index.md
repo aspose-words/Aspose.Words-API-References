@@ -7,19 +7,19 @@ type: docs
 weight: 39000
 url: /cpp/aspose.words/documentbuilder/insertimage/
 ---
-## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\>\&) method
+## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\> \&) method
 
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> &imageBytes)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> & imageBytes)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageBytes | const System::ArrayPtr\<uint8_t\>\& | The byte array that contains the image. |
+| imageBytes | const System::ArrayPtr\<uint8_t\> \& | The byte array that contains the image. |
 
 ### ReturnValue
 
@@ -28,12 +28,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from a byte array into a document.
 
-Shows how to insert an image from a byte array into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,26 +55,24 @@ builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an image from a byte array at the specified position and size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> &imageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> & imageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageBytes | const System::ArrayPtr\<uint8_t\>\& | The byte array that contains the image. |
+| imageBytes | const System::ArrayPtr\<uint8_t\> \& | The byte array that contains the image. |
 | horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
 | left | double | Distance in points from the origin to the left side of the image. |
 | vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the image measured from. |
@@ -91,12 +88,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from a byte array into a document.
 
-Shows how to insert an image from a byte array into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -119,29 +115,24 @@ builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\>\&, double, double) method
+## DocumentBuilder::InsertImage(const System::ArrayPtr\<uint8_t\> \&, double, double) method
 
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> &imageBytes, double width, double height)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::ArrayPtr<uint8_t> & imageBytes, double width, double height)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageBytes | const System::ArrayPtr\<uint8_t\>\& | The byte array that contains the image. |
+| imageBytes | const System::ArrayPtr\<uint8_t\> \& | The byte array that contains the image. |
 | width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
@@ -152,12 +143,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from a byte array into a document.
 
-Shows how to insert an image from a byte array into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -180,161 +170,24 @@ builder->InsertImage(imageByteArray, RelativeHorizontalPosition::Margin, static_
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&) method
 
 
-
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> &image)
-```
-
-
-## Examples
-
-
-
-Shows how to insert an image from an object into a document. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-System::String imageFile = get_ImageDir() + u"Logo.jpg";
-
-// Below are three ways of inserting an image from an Image object instance.
-// 1 -  Inline shape with a default size based on the image's original dimensions:
-builder->InsertImage(imageFile);
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
-
-doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-## See Also
-
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Class [DocumentBuilder](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
-
-
-
+Inserts an image from a **Image** object into the document. The image is inserted inline and at 100% scale.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> &image, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
-```
-
-
-## Examples
-
-
-
-Shows how to insert an image from an object into a document. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-System::String imageFile = get_ImageDir() + u"Logo.jpg";
-
-// Below are three ways of inserting an image from an Image object instance.
-// 1 -  Inline shape with a default size based on the image's original dimensions:
-builder->InsertImage(imageFile);
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
-
-doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-## See Also
-
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
-* Class [DocumentBuilder](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\>\&, double, double) method
-
-
-
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> &image, double width, double height)
-```
-
-
-## Examples
-
-
-
-Shows how to insert an image from an object into a document. 
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-System::String imageFile = get_ImageDir() + u"Logo.jpg";
-
-// Below are three ways of inserting an image from an Image object instance.
-// 1 -  Inline shape with a default size based on the image's original dimensions:
-builder->InsertImage(imageFile);
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 2 -  Inline shape with custom dimensions:
-builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
-
-builder->InsertBreak(BreakType::PageBreak);
-
-// 3 -  Floating shape with custom dimensions:
-builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
-
-doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
-```
-
-## See Also
-
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Class [DocumentBuilder](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\>\&) method
-
-
-Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
-
-```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> &stream)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that contains the image. |
+| image | const System::SharedPtr\<System::Drawing::Image\> \& | The image to insert into the document. |
 
 ### ReturnValue
 
@@ -343,12 +196,179 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from an object into a document.
 
-Shows how to insert an image from a stream into a document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::String imageFile = get_ImageDir() + u"Logo.jpg";
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder->InsertImage(imageFile);
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
+```
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+
+
+Inserts an image from a **Image** object at the specified position and size.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | const System::SharedPtr\<System::Drawing::Image\> \& | The image to insert into the document. |
+| horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
+| left | double | Distance in points from the origin to the left side of the image. |
+| vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the image measured from. |
+| top | double | Distance in points from the origin to the top side of the image. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrapType | Aspose::Words::Drawing::WrapType | Specifies how to wrap text around the image. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from an object into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::String imageFile = get_ImageDir() + u"Logo.jpg";
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder->InsertImage(imageFile);
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
+```
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&, double, double) method
+
+
+Inserts an inline image from a **Image** object into the document and scales it to the specified size.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image, double width, double height)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | const System::SharedPtr\<System::Drawing::Image\> \& | The image to insert into the document. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from an object into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::String imageFile = get_ImageDir() + u"Logo.jpg";
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder->InsertImage(imageFile);
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder->InsertImage(imageFile, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+builder->InsertBreak(BreakType::PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder->InsertImage(imageFile, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObject.docx");
+```
+## See Also
+
+* Class [DocumentBuilder](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\> \&) method
+
+
+Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
+
+```cpp
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> & stream)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that contains the image. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from a stream into a document.
+
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -373,8 +393,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
 ```
 
+Shows how to insert a shape with an image from a stream into a document.
 
-Shows how to insert a shape with an image from a stream into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -387,26 +407,24 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 doc->Save(get_ArtifactsDir() + u"Image.FromStream.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an image from a stream at the specified position and size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> &stream, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> & stream, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that contains the image. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that contains the image. |
 | horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
 | left | double | Distance in points from the origin to the left side of the image. |
 | vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the image measured from. |
@@ -422,12 +440,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from a stream into a document.
 
-Shows how to insert an image from a stream into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -451,29 +468,24 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\>\&, double, double) method
+## DocumentBuilder::InsertImage(const System::SharedPtr\<System::IO::Stream\> \&, double, double) method
 
 
 Inserts an inline image from a stream into the document and scales it to the specified size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> &stream, double width, double height)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::IO::Stream> & stream, double width, double height)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that contains the image. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that contains the image. |
 | width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
@@ -484,12 +496,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from a stream into a document.
 
-Shows how to insert an image from a stream into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -513,26 +524,24 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::String\&) method
+## DocumentBuilder::InsertImage(const System::String \&) method
 
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String &fileName)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The file with the image. Can be any valid local or remote URI. |
+| fileName | const System::String \& | The file with the image. Can be any valid local or remote URI. |
 
 ### ReturnValue
 
@@ -543,12 +552,11 @@ The image node that was just inserted.
 This overload will automatically download the image before inserting into the document if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from the local file system into a document.
 
-Shows how to insert an image from the local file system into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -570,8 +578,8 @@ builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizonta
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```
 
+Shows how to determine which image will be inserted.
 
-Shows how to determine which image will be inserted. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -591,8 +599,8 @@ doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
+Shows how to insert gif image to the document.
 
-Shows how to insert gif image to the document. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -606,8 +614,8 @@ gifImage = builder->InsertImage(System::IO::File::ReadAllBytes(get_ImageDir() + 
 builder->get_Document()->Save(get_ArtifactsDir() + u"InsertGif.docx");
 ```
 
+Shows how to insert a shape with an image into a document.
 
-Shows how to insert a shape with an image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -627,8 +635,8 @@ builder->Writeln();
 doc->Save(get_ArtifactsDir() + u"Image.FromUrl.docx");
 ```
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -645,8 +653,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 
+Shows how to insert WebP image.
 
-Shows how to insert WebP image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -655,26 +663,24 @@ builder->InsertImage(get_ImageDir() + u"WebP image.webp");
 
 doc->Save(get_ArtifactsDir() + u"Image.InsertWebpImage.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertImage(const System::String \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts an image from a file or URL at the specified position and size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String &fileName, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String & fileName, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The file that contains the image. |
+| fileName | const System::String \& | The file that contains the image. |
 | horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
 | left | double | Distance in points from the origin to the left side of the image. |
 | vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the image measured from. |
@@ -690,12 +696,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image.
 
-Shows how to insert an image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -710,8 +715,8 @@ builder->InsertImage(get_ImageUrl(), RelativeHorizontalPosition::Margin, static_
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFloatingImage.docx");
 ```
 
+Shows how to insert an image from the local file system into a document while preserving its dimensions.
 
-Shows how to insert an image from the local file system into a document while preserving its dimensions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -728,8 +733,8 @@ ASPOSE_ASSERT_EQ(300.0, imageShape->get_Height());
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertImageOriginalSize.docx");
 ```
 
+Shows how to insert an image from the local file system into a document.
 
-Shows how to insert an image from the local file system into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -750,29 +755,24 @@ builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizonta
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(const System::String\&, double, double) method
+## DocumentBuilder::InsertImage(const System::String \&, double, double) method
 
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String &fileName, double width, double height)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::String & fileName, double width, double height)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The file that contains the image. |
+| fileName | const System::String \& | The file that contains the image. |
 | width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
@@ -783,12 +783,11 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an image from the local file system into a document.
 
-Shows how to insert an image from the local file system into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -809,58 +808,50 @@ builder->InsertImage(get_ImageDir() + u"Windows MetaFile.wmf", RelativeHorizonta
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\>\&) method
+## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream)
 ```
 
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> &stream, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\>\&, double, double) method
+## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&, double, double) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> &stream, double width, double height)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream, double width, double height)
 ```
 
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

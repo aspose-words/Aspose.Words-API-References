@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontnamesubstitutionrule/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fonts::FontNameSubstitutionRule::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fonts::FontNameSubstitutionRule::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

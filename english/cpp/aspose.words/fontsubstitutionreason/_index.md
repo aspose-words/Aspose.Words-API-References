@@ -13,27 +13,26 @@ url: /cpp/aspose.words/fontsubstitutionreason/
 Specifies the reason of font substitution.
 
 ```cpp
-enum class FontSubstitutionReason
+enum class FontSubstitutionReason : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AlternativeName | 0 | [Font](../font/) substitution by alternative name from the document. |
-| FontNameSubstitutionRule | 1 | [Font](../font/) substitution by font name rule. |
-| FontConfigSubstitutionRule | 2 | [Font](../font/) substitution by font config rule. |
-| TableSubstitutionRule | 3 | [Font](../font/) substitution by table rule. |
-| FontInfoSubstitutionRule | 4 | [Font](../font/) substitution by font info rule. |
-| DefaultFontSubstitutionRule | 5 | [Font](../font/) substitution by default font rule. |
-| FirstAvailableFont | 6 | [Font](../font/) substitution with the first available font. |
-
+| AlternativeName | 0 | Font substitution by alternative name from the document. |
+| DefaultFontSubstitutionRule | 5 | Font substitution by default font rule. |
+| FirstAvailableFont | 6 | Font substitution with the first available font. |
+| FontConfigSubstitutionRule | 2 | Font substitution by font config rule. |
+| FontInfoSubstitutionRule | 4 | Font substitution by font info rule. |
+| FontNameSubstitutionRule | 1 | Font substitution by font name rule. |
+| TableSubstitutionRule | 3 | Font substitution by table rule. |
 
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -57,7 +56,6 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

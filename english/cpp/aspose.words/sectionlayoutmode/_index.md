@@ -13,7 +13,7 @@ url: /cpp/aspose.words/sectionlayoutmode/
 Specifies the layout mode for a section allowing to define the document grid behavior.
 
 ```cpp
-enum class SectionLayoutMode
+enum class SectionLayoutMode : int
 ```
 
 ### Values
@@ -25,12 +25,11 @@ enum class SectionLayoutMode
 | LineGrid | 2 | Specifies that the corresponding section shall have additional line pitch added to each line within it in order to maintain the specified number of lines per page. |
 | SnapToChars | 3 | Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. Characters will be automatically aligned with gridlines on typing. |
 
-
 ## Examples
 
 
+Shows how to specify a for the number of characters that each line may have.
 
-Shows how to specify a for the number of characters that each line may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,8 +48,8 @@ builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CharactersPerLine.docx");
 ```
 
+Shows how to specify a limit for the number of lines that each page may have.
 
-Shows how to specify a limit for the number of lines that each page may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -69,7 +68,6 @@ for (int32_t i = 0; i < 30; i++)
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

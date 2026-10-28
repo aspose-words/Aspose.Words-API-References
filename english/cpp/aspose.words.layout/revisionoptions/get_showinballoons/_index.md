@@ -4,7 +4,7 @@ linktitle: get_ShowInBalloons
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons method. Allows to specify whether the revisions are rendered in the balloons. Default value is None in C++.'
 type: docs
-weight: 17000
+weight: 22828
 url: /cpp/aspose.words.layout/revisionoptions/get_showinballoons/
 ---
 ## RevisionOptions::get_ShowInBalloons method
@@ -16,12 +16,14 @@ Allows to specify whether the revisions are rendered in the balloons. Default va
 Aspose::Words::Layout::ShowInBalloons Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons() const
 ```
 
+## Remarks
 
+ Note that revisions are not rendered in balloons for [ShowInAnnotations](../../commentdisplaymode/). 
 ## Examples
 
 
+Shows how to display revisions in balloons.
 
-Shows how to display revisions in balloons. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -31,8 +33,8 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowInBalloons(ShowInBalloo
 doc->Save(get_ArtifactsDir() + u"Revision.ShowRevisionBalloons.pdf");
 ```
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -76,10 +78,8 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
-* Enum [ShowInBalloons](../../showinballoons/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

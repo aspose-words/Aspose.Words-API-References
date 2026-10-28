@@ -13,7 +13,7 @@ url: /cpp/aspose.words/range/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Range::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Range::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ## FontInfo::GetEmbeddedFontAsOpenType method
 
 
-Gets an embedded font file in OpenType format. [Fonts](../../) in Embedded OpenType format are converted to OpenType.
+Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType.
 
 ```cpp
 System::ArrayPtr<uint8_t> Aspose::Words::Fonts::FontInfo::GetEmbeddedFontAsOpenType(Aspose::Words::Fonts::EmbeddedFontStyle style)
@@ -24,12 +24,11 @@ System::ArrayPtr<uint8_t> Aspose::Words::Fonts::FontInfo::GetEmbeddedFontAsOpenT
 ### ReturnValue
 
 Returns **null** if the specified font is not embedded.
-
 ## Examples
 
 
+Shows how to extract an embedded font from a document, and save it to the local file system.
 
-Shows how to extract an embedded font from a document, and save it to the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
@@ -50,10 +49,8 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 
 System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
-
 ## See Also
 
-* Enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

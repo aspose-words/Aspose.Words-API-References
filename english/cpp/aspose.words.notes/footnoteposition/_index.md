@@ -13,22 +13,21 @@ url: /cpp/aspose.words.notes/footnoteposition/
 Defines the footnote position.
 
 ```cpp
-enum class FootnotePosition
+enum class FootnotePosition : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BottomOfPage | 1 | Footnotes are output at the bottom of each page. |
 | BeneathText | 2 | Footnotes are output beneath text on each page. |
-
+| BottomOfPage | 1 | Footnotes are output at the bottom of each page. |
 
 ## Examples
 
 
+Shows how to select a different place where the document collects and displays its footnotes.
 
-Shows how to select a different place where the document collects and displays its footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,8 +51,9 @@ doc->get_FootnoteOptions()->set_Position(footnotePosition);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.PositionFootnote.docx");
 ```
-
 ## See Also
+
+* [FootnoteOptions](../footnoteoptions/)
 
 * Namespace [Aspose::Words::Notes](../)
 * Library [Aspose.Words for C++](../../)

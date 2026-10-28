@@ -4,7 +4,7 @@ linktitle: get_WarningType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WarningInfo::get_WarningType method. Returns the type of the warning in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words/warninginfo/get_warningtype/
 ---
 ## WarningInfo::get_WarningType method
@@ -16,12 +16,11 @@ Returns the type of the warning.
 Aspose::Words::WarningType Aspose::Words::WarningInfo::get_WarningType() const
 ```
 
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -51,8 +50,8 @@ for (auto&& info : warningCollector)
 }
 ```
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -76,10 +75,8 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
-* Enum [WarningType](../../warningtype/)
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

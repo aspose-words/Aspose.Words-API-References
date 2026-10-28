@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_BookmarkName method. Gets or sets the name of the bookmark that marks the portion of the document used to build the index in C++.'
 type: docs
-weight: 2000
+weight: 19112
 url: /cpp/aspose.words.fields/fieldindex/get_bookmarkname/
 ---
 ## FieldIndex::get_BookmarkName method
@@ -16,12 +16,11 @@ Gets or sets the name of the bookmark that marks the portion of the document use
 System::String Aspose::Words::Fields::FieldIndex::get_BookmarkName()
 ```
 
-
 ## Examples
 
 
+Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 
-Shows how to create an INDEX field, and then use XE fields to populate it with entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,7 +72,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Filtering.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

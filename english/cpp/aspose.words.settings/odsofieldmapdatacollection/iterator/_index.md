@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

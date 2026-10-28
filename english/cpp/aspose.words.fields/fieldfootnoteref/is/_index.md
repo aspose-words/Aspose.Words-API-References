@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldfootnoteref/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldFootnoteRef::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldFootnoteRef::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

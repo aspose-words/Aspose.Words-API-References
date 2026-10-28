@@ -17,11 +17,14 @@ void Aspose::Words::Fields::GeneralFormatCollection::RemoveAt(int32_t index)
 ```
 
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int32_t |  |
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,7 +85,6 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
 * Class [GeneralFormatCollection](../)

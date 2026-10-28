@@ -16,12 +16,11 @@ If the document contains no sections, creates one section with one paragraph.
 void Aspose::Words::Document::EnsureMinimum()
 ```
 
-
 ## Examples
 
 
+Shows how to ensure that a document contains the minimal set of nodes required for editing its contents.
 
-Shows how to ensure that a document contains the minimal set of nodes required for editing its contents. 
 ```cpp
 // A newly created document contains one child Section, which includes one child Body and one child Paragraph.
 // We can edit the document body's contents by adding nodes such as Runs or inline Shapes to that paragraph.
@@ -52,7 +51,6 @@ ASSERT_EQ(NodeType::Paragraph, nodes->idx_get(2)->get_NodeType());
 
 (System::ExplicitCast<Aspose::Words::Paragraph>(nodes->idx_get(2)))->get_Runs()->Add(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
-
 ## See Also
 
 * Class [Document](../)

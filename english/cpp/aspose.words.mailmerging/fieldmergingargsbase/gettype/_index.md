@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/fieldmergingargsbase/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::FieldMergingArgsBase::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::FieldMergingArgsBase::GetType() const override
 ```
 
 ## See Also

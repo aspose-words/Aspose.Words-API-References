@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartLegend class
 linktitle: ChartLegend
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartLegend class. Represents chart legend properties. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartLegend class. Represents chart legend properties. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.drawing.charts/chartlegend/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chartlegend/
 ## ChartLegend class
 
 
-Represents chart legend properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents chart legend properties. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource,
@@ -21,22 +22,21 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use the[Font](../chartlegendentry/get_font/) property. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the legend. |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [get_Overlay](./get_overlay/)() const | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
 | [get_Position](./get_position/)() | Specifies the position of the legend on a chart. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Overlay](./set_overlay/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay](./get_overlay/). |
-| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::LegendPosition) | Setter for [Aspose::Words::Drawing::Charts::ChartLegend::get_Position](./get_position/). |
-| static [Type](./type/)() |  |
-
+| [set_Overlay](./set_overlay/)(bool) | Determines whether other chart elements shall be allowed to overlap legend. Default value is **false**. |
+| [set_Position](./set_position/)(Aspose::Words::Drawing::Charts::LegendPosition) | Specifies the position of the legend on a chart. |
 ## Examples
 
 
+Shows how to edit the appearance of a chart's legend.
 
-Shows how to edit the appearance of a chart's legend. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +58,6 @@ legend->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

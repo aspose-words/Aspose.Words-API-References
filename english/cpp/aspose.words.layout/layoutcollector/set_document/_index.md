@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::LayoutCollector::set_Document method
 linktitle: set_Document
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::LayoutCollector::set_Document method. Setter for Aspose::Words::Layout::LayoutCollector::get_Document in C++.'
+description: 'Aspose::Words::Layout::LayoutCollector::set_Document method. Sets the document this collector instance is attached to in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.layout/layoutcollector/set_document/
@@ -10,15 +10,70 @@ url: /cpp/aspose.words.layout/layoutcollector/set_document/
 ## LayoutCollector::set_Document method
 
 
-Setter for [Aspose::Words::Layout::LayoutCollector::get_Document](../get_document/).
+Sets the document this collector instance is attached to.
 
 ```cpp
-void Aspose::Words::Layout::LayoutCollector::set_Document(const System::SharedPtr<Aspose::Words::Document> &value)
+void Aspose::Words::Layout::LayoutCollector::set_Document(const System::SharedPtr<Aspose::Words::Document> & value)
 ```
 
+## Remarks
+
+ If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to **null** afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout. 
+## Examples
+
+
+Shows how to see the the ranges of pages that a node spans.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
+
+// Call the "GetNumPagesSpanned" method to count how many pages the content of our document spans.
+// Since the document is empty, that number of pages is currently zero.
+ASPOSE_ASSERT_EQ(doc, layoutCollector->get_Document());
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
+
+// Populate the document with 5 pages of content.
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Write(u"Section 1");
+builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(BreakType::SectionBreakEvenPage);
+builder->Write(u"Section 2");
+builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(BreakType::PageBreak);
+
+// Before the layout collector, we need to call the "UpdatePageLayout" method to give us
+// an accurate figure for any layout-related metric, such as the page count.
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
+
+layoutCollector->Clear();
+doc->UpdatePageLayout();
+
+ASSERT_EQ(5, layoutCollector->GetNumPagesSpanned(doc));
+
+// We can see the numbers of the start and end pages of any node and their overall page spans.
+System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(NodeType::Any, true);
+for (auto&& node : System::IterateOver(nodes))
+{
+    std::cout << System::String::Format(u"->  NodeType.{0}: ", node->get_NodeType()) << std::endl;
+    std::cout << (System::String::Format(u"\tStarts on page {0}, ends on page {1},", layoutCollector->GetStartPageIndex(node), layoutCollector->GetEndPageIndex(node)) + System::String::Format(u" spanning {0} pages.", layoutCollector->GetNumPagesSpanned(node))) << std::endl;
+}
+
+// We can iterate over the layout entities using a LayoutEnumerator.
+auto layoutEnumerator = System::MakeObject<Aspose::Words::Layout::LayoutEnumerator>(doc);
+
+ASSERT_EQ(LayoutEntityType::Page, layoutEnumerator->get_Type());
+
+// The LayoutEnumerator can traverse the collection of layout entities like a tree.
+// We can also apply it to any node's corresponding layout entity.
+layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType::Paragraph, 1, true)));
+
+ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
+ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
+```
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

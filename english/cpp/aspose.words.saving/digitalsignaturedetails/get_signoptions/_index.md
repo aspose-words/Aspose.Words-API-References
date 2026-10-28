@@ -4,7 +4,7 @@ linktitle: get_SignOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DigitalSignatureDetails::get_SignOptions method. Gets or sets a SignOptions object used to sign a document in C++.'
 type: docs
-weight: 4000
+weight: 6750
 url: /cpp/aspose.words.saving/digitalsignaturedetails/get_signoptions/
 ---
 ## DigitalSignatureDetails::get_SignOptions method
@@ -16,12 +16,11 @@ Gets or sets a [SignOptions](./) object used to sign a document.
 const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & Aspose::Words::Saving::DigitalSignatureDetails::get_SignOptions() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign OOXML document.
 
-Shows how to sign OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -39,10 +38,8 @@ ASSERT_EQ(u"Some comments", digitalSignatureDetails->get_SignOptions()->get_Comm
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [SignOptions](../../../aspose.words.digitalsignatures/signoptions/)
 * Class [DigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

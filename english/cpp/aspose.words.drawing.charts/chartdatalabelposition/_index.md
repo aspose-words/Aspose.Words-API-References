@@ -13,29 +13,31 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelposition/
 Specifies the position for a chart data label.
 
 ```cpp
-enum class ChartDataLabelPosition
+enum class ChartDataLabelPosition : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 0 | Specifies that a data label should be displayed centered on a data marker. |
-| Left | 1 | Specifies that a data label should be displayed to the left of a data marker. |
-| Right | 2 | Specifies that a data label should be displayed to the right of a data marker. |
 | Above | 3 | Specifies that a data label should be displayed above a data marker. |
 | Below | 4 | Specifies that a data label should be displayed below a data marker. |
+| BestFit | 8 | Specifies that a data label should be displayed in the most appropriate position. |
+| Center | 0 | Specifies that a data label should be displayed centered on a data marker. |
 | InsideBase | 5 | Specifies that a data label should be displayed inside the base of a data marker. |
 | InsideEnd | 6 | Specifies that a data label should be displayed inside the end of a data marker. |
+| Left | 1 | Specifies that a data label should be displayed to the left of a data marker. |
 | OutsideEnd | 7 | Specifies that a data label should be displayed outside the end of a data marker. |
-| BestFit | 8 | Specifies that a data label should be displayed in the most appropriate position. |
+| Right | 2 | Specifies that a data label should be displayed to the right of a data marker. |
 
+## Remarks
 
+ Not all series types allow you to specify label positions. And those that do, do not support all values. 
 ## Examples
 
 
+Shows how to set the position of the data label.
 
-Shows how to set the position of the data label. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,7 +66,6 @@ dataLabels->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_DarkRe
 
 doc->Save(get_ArtifactsDir() + u"Charts.LabelPosition.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

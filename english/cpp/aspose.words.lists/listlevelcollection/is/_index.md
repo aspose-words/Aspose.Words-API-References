@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listlevelcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Lists::ListLevelCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Lists::ListLevelCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

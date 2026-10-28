@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::MarkdownSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::MarkdownSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

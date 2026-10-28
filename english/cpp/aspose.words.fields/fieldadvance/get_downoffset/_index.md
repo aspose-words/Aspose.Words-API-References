@@ -4,7 +4,7 @@ linktitle: get_DownOffset
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAdvance::get_DownOffset method. Gets or sets the number of points by which the text that follows the field should be moved down in C++.'
 type: docs
-weight: 2000
+weight: 9250
 url: /cpp/aspose.words.fields/fieldadvance/get_downoffset/
 ---
 ## FieldAdvance::get_DownOffset method
@@ -16,12 +16,11 @@ Gets or sets the number of points by which the text that follows the field shoul
 System::String Aspose::Words::Fields::FieldAdvance::get_DownOffset()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an ADVANCE field, and edit its properties.
 
-Shows how to insert an ADVANCE field, and edit its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +58,6 @@ builder->Write(u"This text is in a custom position.");
 
 doc->Save(get_ArtifactsDir() + u"Field.ADVANCE.docx");
 ```
-
 ## See Also
 
 * Class [FieldAdvance](../)

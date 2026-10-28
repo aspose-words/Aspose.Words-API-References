@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_Document method. Gets the document to which this node belongs in C++.'
 type: docs
-weight: 6000
+weight: 25000
 url: /cpp/aspose.words/node/get_document/
 ---
 ## Node::get_Document method
@@ -20,12 +20,11 @@ virtual System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Node::get_
 
 
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
-
 ## Examples
 
 
+Shows how to create a node and set its owning document.
 
-Shows how to create a node and set its owning document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
@@ -50,10 +49,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_FacingIdentificationMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBarcode::get_FacingIdentificationMark method. Gets or sets the type of a Facing Identification Mark (FIM) to insert in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.fields/fieldbarcode/get_facingidentificationmark/
 ---
 ## FieldBarcode::get_FacingIdentificationMark method
@@ -16,12 +16,11 @@ Gets or sets the type of a Facing Identification Mark (FIM) to insert.
 System::String Aspose::Words::Fields::FieldBarcode::get_FacingIdentificationMark()
 ```
 
-
 ## Examples
 
 
+Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 
-Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ builder->EndBookmark(u"BarcodeBookmark");
 
 doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldBarcode](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/absolutepositiontab/is/
 
 
 ```cpp
-virtual bool Aspose::Words::AbsolutePositionTab::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::AbsolutePositionTab::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

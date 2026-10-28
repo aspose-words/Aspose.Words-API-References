@@ -13,7 +13,7 @@ url: /cpp/aspose.words/ihyphenationcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IHyphenationCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IHyphenationCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::DigitalSignatures::DigitalSignatureCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::DigitalSignatures::DigitalSignatureCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Replies
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_Replies method. Returns a collection of Comment objects that are immediate children of the specified comment in C++.'
 type: docs
-weight: 12000
+weight: 33000
 url: /cpp/aspose.words/comment/get_replies/
 ---
 ## Comment::get_Replies method
@@ -16,12 +16,11 @@ Returns a collection of [Comment](../) objects that are immediate children of th
 System::SharedPtr<Aspose::Words::CommentCollection> Aspose::Words::Comment::get_Replies()
 ```
 
-
 ## Examples
 
 
+Shows how to print all of a document's comments and their replies.
 
-Shows how to print all of a document's comments and their replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
 
@@ -44,10 +43,8 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
     std::cout << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [CommentCollection](../../commentcollection/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

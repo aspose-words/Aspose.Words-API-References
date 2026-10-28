@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars method
 linktitle: set_ShowRevisionBars
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars method. Setter for Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars in C++.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars method. Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is true in C++.'
 type: docs
 weight: 40000
 url: /cpp/aspose.words.layout/revisionoptions/set_showrevisionbars/
@@ -10,12 +10,35 @@ url: /cpp/aspose.words.layout/revisionoptions/set_showrevisionbars/
 ## RevisionOptions::set_ShowRevisionBars method
 
 
-Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars](../get_showrevisionbars/).
+Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is **true**.
 
 ```cpp
 void Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars(bool value)
 ```
 
+## Examples
+
+
+Shows how to alter the appearance of revisions in a rendered output document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a revision, then change the color of all revisions to green.
+builder->Writeln(u"This is not a revision.");
+doc->StartTrackRevisions(u"John Doe", System::DateTime::get_Now());
+builder->Writeln(u"This is a revision.");
+doc->StopTrackRevisions();
+builder->Writeln(u"This is not a revision.");
+
+// Remove the bar that appears to the left of every revised line.
+doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(RevisionColor::BrightGreen);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(HorizontalAlignment::Right);
+
+doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
+```
 ## See Also
 
 * Class [RevisionOptions](../)

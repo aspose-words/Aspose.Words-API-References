@@ -4,7 +4,7 @@ linktitle: get_Latin
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::ThemeFonts::get_Latin method. Specifies font name for Latin characters in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.themes/themefonts/get_latin/
 ---
 ## ThemeFonts::get_Latin method
@@ -16,12 +16,11 @@ Specifies font name for Latin characters.
 System::String Aspose::Words::Themes::ThemeFonts::get_Latin()
 ```
 
-
 ## Examples
 
 
+Shows how to set custom colors and fonts for themes.
 
-Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -62,7 +61,6 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
-
 ## See Also
 
 * Class [ThemeFonts](../)

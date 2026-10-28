@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/propertytype/
 Specifies data type of a document property.
 
 ```cpp
-enum class PropertyType
+enum class PropertyType : int
 ```
 
 ### Values
@@ -21,21 +21,20 @@ enum class PropertyType
 | Name | Value | Description |
 | --- | --- | --- |
 | Boolean | 0 | The property is a boolean value. |
+| ByteArray | 7 | The property is an array of bytes. |
 | DateTime | 1 | The property is a date time value. |
 | Double | 2 | The property is a floating number. |
 | Number | 3 | The property is an integer number. |
+| ObjectArray | 6 | The property is an array of objects. |
+| Other | 8 | The property is some other type. |
 | String | 4 | The property is a string value. |
 | StringArray | 5 | The property is an array of strings. |
-| ObjectArray | 6 | The property is an array of objects. |
-| ByteArray | 7 | The property is an array of bytes. |
-| Other | 8 | The property is some other type. |
-
 
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -90,8 +89,10 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
+
+* [DocumentProperty](../documentproperty/)
+* [Type](../documentproperty/get_type/)
 
 * Namespace [Aspose::Words::Properties](../)
 * Library [Aspose.Words for C++](../../)

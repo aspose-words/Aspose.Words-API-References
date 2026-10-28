@@ -4,7 +4,7 @@ linktitle: get_IsMoveFromRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_IsMoveFromRevision method. Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 7000
+weight: 21000
 url: /cpp/aspose.words/inlinestory/get_ismovefromrevision/
 ---
 ## InlineStory::get_IsMoveFromRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/inlinestory/get_ismovefromrevision/
 Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::InlineStory::get_IsMoveFromRevision()
+_Bool Aspose::Words::InlineStory::get_IsMoveFromRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to view revision-related properties of InlineStory nodes.
 
-Shows how to view revision-related properties of [InlineStory](../) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision footnotes.docx"));
 
@@ -62,7 +61,6 @@ ASSERT_TRUE(footnotes->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(footnotes->idx_get(3)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
 * Class [InlineStory](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ShapeBase class
 linktitle: ShapeBase
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ShapeBase class. Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::ShapeBase class. Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the Working with Shapes documentation article in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.drawing/shapebase/
@@ -10,15 +10,16 @@ url: /cpp/aspose.words.drawing/shapebase/
 ## ShapeBase class
 
 
-Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
+Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
-class ShapeBase : public Aspose::Words::CompositeNode,
+class ShapeBase : public CompositeNode,
                   public IInline,
                   public Core::IShape,
                   public IShapeAttrSource,
                   public Revisions::ITrackableNode,
-                  public Aspose::Words::Drawing::Core::IFillable,
+                  public Core::IFillable,
                   public Core::IGlow,
                   public Core::IReflection,
                   public Core::ISoftEdge,
@@ -29,12 +30,12 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 
 | Method | Description |
 | --- | --- |
-| virtual [Accept](../../aspose.words/node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
-| virtual [AcceptEnd](../../aspose.words/compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
-| virtual [AcceptStart](../../aspose.words/compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
 | [AdjustWithEffects](./adjustwitheffects/)(System::Drawing::RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [GetShapeRenderer](./getshaperenderer/)() | Creates and returns an object that can be used to render this shape into an image. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [LocalToParent](./localtoparent/)(System::Drawing::PointF) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
+| static [Type](./type/)() |  |
 | [get_AllowOverlap](./get_allowoverlap/)() | Gets or sets a value that specifies whether this shape can overlap other shapes. |
 | [get_AlternativeText](./get_alternativetext/)() | Defines alternative text to be displayed instead of a graphic. |
 | [get_AnchorLocked](./get_anchorlocked/)() | Specifies whether the shape's anchor is locked. |
@@ -47,25 +48,19 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_CanHaveImage](./get_canhaveimage/)() | Returns **true** if the shape type allows the shape to have an image. |
 | [get_CoordOrigin](./get_coordorigin/)() | The coordinates at the top-left corner of the containing block of this shape. |
 | [get_CoordSize](./get_coordsize/)() | The width and height of the coordinate space inside the containing block of this shape. |
-| [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
-| [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_DistanceBottom](./get_distancebottom/)() | Returns or sets the distance (in points) between the document text and the bottom edge of the shape. |
 | [get_DistanceLeft](./get_distanceleft/)() | Returns or sets the distance (in points) between the document text and the left edge of the shape. |
 | [get_DistanceRight](./get_distanceright/)() | Returns or sets the distance (in points) between the document text and the right edge of the shape. |
 | [get_DistanceTop](./get_distancetop/)() | Returns or sets the distance (in points) between the document text and the top edge of the shape. |
-| virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the shape. |
-| [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FlipOrientation](./get_fliporientation/)() | Switches the orientation of a shape. |
 | [get_Font](./get_font/)() | Provides access to the font formatting of this object. |
 | [get_Glow](./get_glow/)() | Gets glow formatting for the shape. |
-| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_HRef](./get_href/)() | Gets or sets the full hyperlink address for a shape. |
 | [get_Height](./get_height/)() | Gets or sets the height of the containing block of the shape. |
 | [get_HeightRelative](./get_heightrelative/)() | Gets or sets the value that represents the percentage of shape's relative height. |
 | [get_Hidden](./get_hidden/)() | Gets or sets a boolean value indicating whether the shape is visible. |
 | [get_HorizontalAlignment](./get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
-| [get_HRef](./get_href/)() | Gets or sets the full hyperlink address for a shape. |
-| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDecorative](./get_isdecorative/)() | Gets or sets the flag that specifies whether the shape is decorative in the document. |
 | [get_IsDeleteRevision](./get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [get_IsGroup](./get_isgroup/)() | Returns **true** if this is a group shape. |
@@ -79,19 +74,11 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_IsSignatureLine](./get_issignatureline/)() | Indicates that shape is a [SignatureLine](../signatureline/). |
 | [get_IsTopLevel](./get_istoplevel/)() | Returns **true** if this shape is not a child of a group shape. |
 | [get_IsWordArt](./get_iswordart/)() | Returns **true** if this shape is a WordArt object. |
-| [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_Left](./get_left/)() | Gets or sets the position of the left edge of the containing block of the shape. |
 | [get_LeftRelative](./get_leftrelative/)() | Gets or sets the value that represents shape's relative left position in percent. |
 | [get_MarkupLanguage](./get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](./get_name/)() | Gets or sets the optional shape name. |
-| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
-| [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
-| virtual [get_NodeType](../../aspose.words/node/get_nodetype/)() const | Gets the type of this node. |
-| [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](./get_parentparagraph/)() | Returns the immediate parent paragraph. |
-| [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
-| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_Reflection](./get_reflection/)() | Gets reflection formatting for the shape. |
 | [get_RelativeHorizontalPosition](./get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
 | [get_RelativeHorizontalSize](./get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
@@ -114,76 +101,98 @@ class ShapeBase : public Aspose::Words::CompositeNode,
 | [get_WrapSide](./get_wrapside/)() | Specifies how the text is wrapped around the shape. |
 | [get_WrapType](./get_wraptype/)() | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [get_ZOrder](./get_zorder/)() | Determines the display order of overlapping shapes. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
-| [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
+| [set_AllowOverlap](./set_allowoverlap/)(bool) | Sets a value that specifies whether this shape can overlap other shapes. |
+| [set_AlternativeText](./set_alternativetext/)(const System::String \&) | Defines alternative text to be displayed instead of a graphic. |
+| [set_AnchorLocked](./set_anchorlocked/)(bool) | Specifies whether the shape's anchor is locked. |
+| [set_AspectRatioLocked](./set_aspectratiolocked/)(bool) | Specifies whether the shape's aspect ratio is locked. |
+| [set_BehindText](./set_behindtext/)(bool) | Specifies whether the shape is below or above text. |
+| [set_Bounds](./set_bounds/)(System::Drawing::RectangleF) | Sets the location and size of the containing block of the shape. |
+| [set_CoordOrigin](./set_coordorigin/)(System::Drawing::Point) | The coordinates at the top-left corner of the containing block of this shape. |
+| [set_CoordSize](./set_coordsize/)(System::Drawing::Size) | The width and height of the coordinate space inside the containing block of this shape. |
+| [set_DistanceBottom](./set_distancebottom/)(double) | Sets the distance (in points) between the document text and the bottom edge of the shape. |
+| [set_DistanceLeft](./set_distanceleft/)(double) | Sets the distance (in points) between the document text and the left edge of the shape. |
+| [set_DistanceRight](./set_distanceright/)(double) | Sets the distance (in points) between the document text and the right edge of the shape. |
+| [set_DistanceTop](./set_distancetop/)(double) | Sets the distance (in points) between the document text and the top edge of the shape. |
+| [set_FlipOrientation](./set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Switches the orientation of a shape. |
+| [set_HRef](./set_href/)(const System::String \&) | Sets the full hyperlink address for a shape. |
+| [set_Height](./set_height/)(double) | Sets the height of the containing block of the shape. |
+| [set_HeightRelative](./set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
+| [set_Hidden](./set_hidden/)(bool) | Sets a boolean value indicating whether the shape is visible. |
+| [set_HorizontalAlignment](./set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Specifies how the shape is positioned horizontally. |
+| [set_IsDecorative](./set_isdecorative/)(bool) | Sets the flag that specifies whether the shape is decorative in the document. |
+| [set_IsLayoutInCell](./set_islayoutincell/)(bool) | Sets a flag indicating whether the shape is displayed inside a table or outside of it. |
+| [set_Left](./set_left/)(double) | Sets the position of the left edge of the containing block of the shape. |
+| [set_LeftRelative](./set_leftrelative/)(float) | Sets the value that represents shape's relative left position in percent. |
+| [set_Name](./set_name/)(const System::String \&) | Sets the optional shape name. |
+| [set_RelativeHorizontalPosition](./set_relativehorizontalposition/)(Aspose::Words::Drawing::RelativeHorizontalPosition) | Specifies relative to what the shape is positioned horizontally. |
+| [set_RelativeHorizontalSize](./set_relativehorizontalsize/)(Aspose::Words::Drawing::RelativeHorizontalSize) | Sets the value of shape's relative size in horizontal direction. |
+| [set_RelativeVerticalPosition](./set_relativeverticalposition/)(Aspose::Words::Drawing::RelativeVerticalPosition) | Specifies relative to what the shape is positioned vertically. |
+| [set_RelativeVerticalSize](./set_relativeverticalsize/)(Aspose::Words::Drawing::RelativeVerticalSize) | Sets the value of shape's relative size in vertical direction. |
+| [set_Rotation](./set_rotation/)(double) | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
+| [set_ScreenTip](./set_screentip/)(const System::String \&) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [set_Target](./set_target/)(const System::String \&) | Sets the target frame for the shape hyperlink. |
+| [set_Title](./set_title/)(const System::String \&) | Sets the title (caption) of the current shape object. |
+| [set_Top](./set_top/)(double) | Sets the position of the top edge of the containing block of the shape. |
+| [set_TopRelative](./set_toprelative/)(float) | Sets the value that represents shape's relative top position in percent. |
+| [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Drawing::VerticalAlignment) | Specifies how the shape is positioned vertically. |
+| [set_Width](./set_width/)(double) | Sets the width of the containing block of the shape. |
+| [set_WidthRelative](./set_widthrelative/)(float) | Sets the value that represents the percentage of shape's relative width. |
+| [set_WrapSide](./set_wrapside/)(Aspose::Words::Drawing::WrapSide) | Specifies how the text is wrapped around the shape. |
+| [set_WrapType](./set_wraptype/)(Aspose::Words::Drawing::WrapType) | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
+| [set_ZOrder](./set_zorder/)(int32_t) | Determines the display order of overlapping shapes. |
+| virtual [AcceptEnd](../../aspose.words/compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| virtual [AcceptStart](../../aspose.words/compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(T) | Adds the specified node to the end of the list of child nodes for this node. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
-| [GetShapeRenderer](./getshaperenderer/)() | Creates and returns an object that can be used to render this shape into an image. |
 | [GetText](../../aspose.words/compositenode/gettext/)() override | Gets the text of this node and of all its children. |
-| [GetType](./gettype/)() const override |  |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [LocalToParent](./localtoparent/)(System::Drawing::PointF) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
+| [GetType](../../aspose.words/compositenode/gettype/)() const override |  |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](../../aspose.words/compositenode/is/)(const System::TypeInfo \&) const override |  |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(T) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(T) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
-| [set_AllowOverlap](./set_allowoverlap/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AllowOverlap](./get_allowoverlap/). |
-| [set_AlternativeText](./set_alternativetext/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AlternativeText](./get_alternativetext/). |
-| [set_AnchorLocked](./set_anchorlocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AnchorLocked](./get_anchorlocked/). |
-| [set_AspectRatioLocked](./set_aspectratiolocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked](./get_aspectratiolocked/). |
-| [set_BehindText](./set_behindtext/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](./get_behindtext/). |
-| [set_Bounds](./set_bounds/)(System::Drawing::RectangleF) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Bounds](./get_bounds/). |
-| [set_CoordOrigin](./set_coordorigin/)(System::Drawing::Point) | Setter for [Aspose::Words::Drawing::ShapeBase::get_CoordOrigin](./get_coordorigin/). |
-| [set_CoordSize](./set_coordsize/)(System::Drawing::Size) | Setter for [Aspose::Words::Drawing::ShapeBase::get_CoordSize](./get_coordsize/). |
-| [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
-| [set_DistanceBottom](./set_distancebottom/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceBottom](./get_distancebottom/). |
-| [set_DistanceLeft](./set_distanceleft/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceLeft](./get_distanceleft/). |
-| [set_DistanceRight](./set_distanceright/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceRight](./get_distanceright/). |
-| [set_DistanceTop](./set_distancetop/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceTop](./get_distancetop/). |
-| [set_FlipOrientation](./set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](./get_fliporientation/). |
-| [set_Height](./set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](./get_height/). |
-| [set_HeightRelative](./set_heightrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HeightRelative](./get_heightrelative/). |
-| [set_Hidden](./set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Hidden](./get_hidden/). |
-| [set_HorizontalAlignment](./set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](./get_horizontalalignment/). |
-| [set_HRef](./set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](./get_href/). |
-| [set_IsDecorative](./set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](./get_isdecorative/). |
-| [set_IsLayoutInCell](./set_islayoutincell/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell](./get_islayoutincell/). |
-| [set_Left](./set_left/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Left](./get_left/). |
-| [set_LeftRelative](./set_leftrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_LeftRelative](./get_leftrelative/). |
-| [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Name](./get_name/). |
-| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_RelativeHorizontalPosition](./set_relativehorizontalposition/)(Aspose::Words::Drawing::RelativeHorizontalPosition) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalPosition](./get_relativehorizontalposition/). |
-| [set_RelativeHorizontalSize](./set_relativehorizontalsize/)(Aspose::Words::Drawing::RelativeHorizontalSize) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalSize](./get_relativehorizontalsize/). |
-| [set_RelativeVerticalPosition](./set_relativeverticalposition/)(Aspose::Words::Drawing::RelativeVerticalPosition) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition](./get_relativeverticalposition/). |
-| [set_RelativeVerticalSize](./set_relativeverticalsize/)(Aspose::Words::Drawing::RelativeVerticalSize) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize](./get_relativeverticalsize/). |
-| [set_Rotation](./set_rotation/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Rotation](./get_rotation/). |
-| [set_ScreenTip](./set_screentip/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ScreenTip](./get_screentip/). |
-| [set_Target](./set_target/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Target](./get_target/). |
-| [set_Title](./set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Title](./get_title/). |
-| [set_Top](./set_top/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Top](./get_top/). |
-| [set_TopRelative](./set_toprelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_TopRelative](./get_toprelative/). |
-| [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Drawing::VerticalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](./get_verticalalignment/). |
-| [set_Width](./set_width/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](./get_width/). |
-| [set_WidthRelative](./set_widthrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WidthRelative](./get_widthrelative/). |
-| [set_WrapSide](./set_wrapside/)(Aspose::Words::Drawing::WrapSide) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapSide](./get_wrapside/). |
-| [set_WrapType](./set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](./get_wraptype/). |
-| [set_ZOrder](./set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](./get_zorder/). |
-| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String \&) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String \&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
+| static [Type](../../aspose.words/compositenode/type/)() |  |
+| [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
+| [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
+| [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
+| [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
+| virtual [Accept](../../aspose.words/node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
+| [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
+| [GetType](../../aspose.words/node/gettype/)() const override |  |
+| [Is](../../aspose.words/node/is/)(const System::TypeInfo \&) const override |  |
+| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
+| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](./type/)() |  |
+| [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](../../aspose.words/node/type/)() |  |
+| [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
+| virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
+| virtual [get_IsComposite](../../aspose.words/node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
+| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
+| [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
+| virtual [get_NodeType](../../aspose.words/node/get_nodetype/)() const | Gets the type of this node. |
+| [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
+| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
+| [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
+| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
 
@@ -200,12 +209,11 @@ A shape can be positioned inline with text or floating. The positioning method i
 When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [RelativeHorizontalPosition](./get_relativehorizontalposition/) and [RelativeVerticalPosition](./get_relativeverticalposition/) properties.
 
 A floating shape be positioned explicitly using the [Left](./get_left/) and [Top](./get_top/) properties or aligned relative to some other object using the [HorizontalAlignment](./get_horizontalalignment/) and [VerticalAlignment](./get_verticalalignment/) properties.
-
 ## Examples
 
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -221,7 +229,6 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-
 ## See Also
 
 * Class [CompositeNode](../../aspose.words/compositenode/)

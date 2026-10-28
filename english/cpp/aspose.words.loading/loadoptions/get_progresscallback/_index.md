@@ -4,7 +4,7 @@ linktitle: get_ProgressCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ProgressCallback method. Called during loading a document and accepts data about loading progress in C++.'
 type: docs
-weight: 14000
+weight: 20671
 url: /cpp/aspose.words.loading/loadoptions/get_progresscallback/
 ---
 ## LoadOptions::get_ProgressCallback method
@@ -19,10 +19,9 @@ System::SharedPtr<Aspose::Words::Loading::IDocumentLoadingCallback> Aspose::Word
 ## Remarks
 
 
-[Docx](../../../aspose.words/loadformat/), [FlatOpc](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Markdown](../../../aspose.words/loadformat/), [Rtf](../../../aspose.words/loadformat/), [WordML](../../../aspose.words/loadformat/), [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/) formats supported. 
+[Docx](../../../aspose.words/loadformat/), [FlatOpc](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Markdown](../../../aspose.words/loadformat/), [Rtf](../../../aspose.words/loadformat/), [WordML](../../../aspose.words/loadformat/), [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/) formats supported.
 ## See Also
 
-* Interface [IDocumentLoadingCallback](../../idocumentloadingcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

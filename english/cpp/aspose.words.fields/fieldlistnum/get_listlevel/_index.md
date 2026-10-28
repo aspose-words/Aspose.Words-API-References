@@ -4,7 +4,7 @@ linktitle: get_ListLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_ListLevel method. Gets or sets the level in the list, overriding the default behavior of the field in C++.'
 type: docs
-weight: 3000
+weight: 7751
 url: /cpp/aspose.words.fields/fieldlistnum/get_listlevel/
 ---
 ## FieldListNum::get_ListLevel method
@@ -16,12 +16,11 @@ Gets or sets the level in the list, overriding the default behavior of the field
 System::String Aspose::Words::Fields::FieldListNum::get_ListLevel()
 ```
 
-
 ## Examples
 
 
+Shows how to number paragraphs with LISTNUM fields.
 
-Shows how to number paragraphs with LISTNUM fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,7 +83,6 @@ builder->Writeln(u"Paragraph 5");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.LISTNUM.docx");
 ```
-
 ## See Also
 
 * Class [FieldListNum](../)

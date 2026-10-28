@@ -4,7 +4,7 @@ linktitle: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_ParentNode method. Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange in C++.'
 type: docs
-weight: 6000
+weight: 11625
 url: /cpp/aspose.words/revision/get_parentnode/
 ---
 ## Revision::get_ParentNode method
@@ -16,12 +16,14 @@ Gets the immediate parent node (owner) of this revision. This property will work
 System::SharedPtr<Aspose::Words::Node> Aspose::Words::Revision::get_ParentNode()
 ```
 
+## Remarks
 
+ If this revision relates to change of Style formatting, use [ParentStyle](../get_parentstyle/) instead. 
 ## Examples
 
 
+Shows how to determine the revision type of an inline node.
 
-Shows how to determine the revision type of an inline node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision runs.docx"));
 
@@ -70,10 +72,8 @@ ASSERT_TRUE(runs->idx_get(1)->get_IsMoveToRevision());
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
 ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

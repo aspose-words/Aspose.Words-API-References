@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::MappedDataFieldCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::MappedDataFieldCollection::GetType() const override
 ```
 
 ## See Also

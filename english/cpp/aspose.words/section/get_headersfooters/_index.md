@@ -4,7 +4,7 @@ linktitle: get_HeadersFooters
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_HeadersFooters method. Provides access to the headers and footers nodes of the section in C++.'
 type: docs
-weight: 11000
+weight: 17500
 url: /cpp/aspose.words/section/get_headersfooters/
 ---
 ## Section::get_HeadersFooters method
@@ -16,12 +16,11 @@ Provides access to the headers and footers nodes of the section.
 System::SharedPtr<Aspose::Words::HeaderFooterCollection> Aspose::Words::Section::get_HeadersFooters()
 ```
 
-
 ## Examples
 
 
+Shows how to delete all footers from a document.
 
-Shows how to delete all footers from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -62,8 +61,8 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.RemoveFooters.docx");
 ```
 
+Shows how to replace text in a document's footer.
 
-Shows how to replace text in a document's footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
@@ -79,10 +78,8 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", System::String::Format
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
-
 ## See Also
 
-* Class [HeaderFooterCollection](../../headerfootercollection/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

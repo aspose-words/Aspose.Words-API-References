@@ -4,7 +4,7 @@ linktitle: get_Hidden
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_Hidden method. Gets or sets a flag indicating whether this row is hidden or not in C++.'
 type: docs
-weight: 6500
+weight: 15360
 url: /cpp/aspose.words.tables/row/get_hidden/
 ---
 ## Row::get_Hidden method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.tables/row/get_hidden/
 Gets or sets a flag indicating whether this row is hidden or not.
 
 ```cpp
-bool Aspose::Words::Tables::Row::get_Hidden()
+_Bool Aspose::Words::Tables::Row::get_Hidden()
 ```
 
+## Remarks
 
+ Hidden row is not supported for WordML and ODT documents. 
 ## Examples
 
 
+Shows how to hide a table row.
 
-Shows how to hide a table row. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -46,7 +48,6 @@ for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(row->get_Cel
     }
 }
 ```
-
 ## See Also
 
 * Class [Row](../)

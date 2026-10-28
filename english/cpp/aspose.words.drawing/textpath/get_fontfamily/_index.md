@@ -4,7 +4,7 @@ linktitle: get_FontFamily
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_FontFamily method. Defines the family of the textpath font in C++.'
 type: docs
-weight: 5000
+weight: 23230
 url: /cpp/aspose.words.drawing/textpath/get_fontfamily/
 ---
 ## TextPath::get_FontFamily method
@@ -19,7 +19,7 @@ System::String Aspose::Words::Drawing::TextPath::get_FontFamily()
 ## Remarks
 
 
-The default value is Arial. 
+The default value is Arial.
 ## See Also
 
 * Class [TextPath](../)

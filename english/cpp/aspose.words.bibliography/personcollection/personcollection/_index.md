@@ -4,7 +4,7 @@ linktitle: PersonCollection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::PersonCollection constructor. Initialize a new instance of the PersonCollection class in C++.'
 type: docs
-weight: 2000
+weight: 10500
 url: /cpp/aspose.words.bibliography/personcollection/personcollection/
 ---
 ## PersonCollection::PersonCollection() constructor
@@ -16,12 +16,11 @@ Initialize a new instance of the [PersonCollection](../) class.
 Aspose::Words::Bibliography::PersonCollection::PersonCollection()
 ```
 
-
 ## Examples
 
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -46,27 +45,25 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)
-## PersonCollection::PersonCollection(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\&) constructor
+## PersonCollection::PersonCollection(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\> \&) constructor
 
 
 Initialize a new instance of the [PersonCollection](../) class.
 
 ```cpp
-Aspose::Words::Bibliography::PersonCollection::PersonCollection(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Bibliography::Person>> &persons)
+Aspose::Words::Bibliography::PersonCollection::PersonCollection(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Bibliography::Person>> & persons)
 ```
-
 
 ## Examples
 
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -91,25 +88,22 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
-* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)
-## PersonCollection::PersonCollection(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\>\&) constructor
+## PersonCollection::PersonCollection(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\> \&) constructor
 
 
 
 
 ```cpp
-Aspose::Words::Bibliography::PersonCollection::PersonCollection(const System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Bibliography::Person>>> &persons)
+Aspose::Words::Bibliography::PersonCollection::PersonCollection(const System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Bibliography::Person>>> & persons)
 ```
 
 ## See Also
 
-* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

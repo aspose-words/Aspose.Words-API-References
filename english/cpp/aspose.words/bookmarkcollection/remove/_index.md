@@ -7,25 +7,24 @@ type: docs
 weight: 8000
 url: /cpp/aspose.words/bookmarkcollection/remove/
 ---
-## BookmarkCollection::Remove(const System::SharedPtr\<Aspose::Words::Bookmark\>\&) method
+## BookmarkCollection::Remove(const System::SharedPtr\<Aspose::Words::Bookmark\> \&) method
 
 
 Removes the specified bookmark from the document.
 
 ```cpp
-void Aspose::Words::BookmarkCollection::Remove(const System::SharedPtr<Aspose::Words::Bookmark> &bookmark)
+void Aspose::Words::BookmarkCollection::Remove(const System::SharedPtr<Aspose::Words::Bookmark> & bookmark)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark | const System::SharedPtr\<Aspose::Words::Bookmark\>\& | The bookmark to remove. |
-
+| bookmark | const System::SharedPtr\<Aspose::Words::Bookmark\> \& | The bookmark to remove. |
 ## Examples
 
 
+Shows how to remove bookmarks from a document.
 
-Shows how to remove bookmarks from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -87,32 +86,29 @@ bookmarks->Clear();
 ASSERT_EQ(0, bookmarks->get_Count());
 ASSERT_EQ(System::String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r" + u"Text inside MyBookmark_3.\r" + u"Text inside MyBookmark_4.\r" + u"Text inside MyBookmark_5.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## BookmarkCollection::Remove(const System::String\&) method
+## BookmarkCollection::Remove(const System::String \&) method
 
 
 Removes a bookmark with the specified name.
 
 ```cpp
-void Aspose::Words::BookmarkCollection::Remove(const System::String &bookmarkName)
+void Aspose::Words::BookmarkCollection::Remove(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | The case-insensitive name of the bookmark to remove. |
-
+| bookmarkName | const System::String \& | The case-insensitive name of the bookmark to remove. |
 ## Examples
 
 
+Shows how to remove bookmarks from a document.
 
-Shows how to remove bookmarks from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -174,7 +170,6 @@ bookmarks->Clear();
 ASSERT_EQ(0, bookmarks->get_Count());
 ASSERT_EQ(System::String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r" + u"Text inside MyBookmark_3.\r" + u"Text inside MyBookmark_4.\r" + u"Text inside MyBookmark_5.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [BookmarkCollection](../)

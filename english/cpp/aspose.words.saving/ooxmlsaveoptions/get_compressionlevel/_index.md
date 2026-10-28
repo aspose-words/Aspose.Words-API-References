@@ -4,7 +4,7 @@ linktitle: get_CompressionLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_CompressionLevel method. Specifies the compression level used to save document. The default value is Normal in C++.'
 type: docs
-weight: 4000
+weight: 9400
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_compressionlevel/
 ---
 ## OoxmlSaveOptions::get_CompressionLevel method
@@ -16,12 +16,11 @@ Specifies the compression level used to save document. The default value is [Nor
 Aspose::Words::Saving::CompressionLevel Aspose::Words::Saving::OoxmlSaveOptions::get_CompressionLevel() const
 ```
 
-
 ## Examples
 
 
+Shows how to specify the compression level to use while saving an OOXML document.
 
-Shows how to specify the compression level to use while saving an OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -46,10 +45,8 @@ std::cout << System::String::Format(u"Saving operation done using the \"{0}\" co
 std::cout << System::String::Format(u"\tDuration:\t{0} ms", st->get_ElapsedMilliseconds()) << std::endl;
 std::cout << System::String::Format(u"\tFile Size:\t{0} bytes", fileInfo->get_Length()) << std::endl;
 ```
-
 ## See Also
 
-* Enum [CompressionLevel](../../compressionlevel/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

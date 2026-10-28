@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddde/set_progid/
 Sets the application type of the link information.
 
 ```cpp
-void Aspose::Words::Fields::FieldDde::set_ProgId(const System::String &value)
+void Aspose::Words::Fields::FieldDde::set_ProgId(const System::String & value)
 ```
 
 ## See Also

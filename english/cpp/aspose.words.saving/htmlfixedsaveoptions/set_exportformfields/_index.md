@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportFormFields method
 linktitle: set_ExportFormFields
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportFormFields method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields in C++.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportFormFields method. Sets indication of whether form fields are exported as interactive items (as ''input'' tag) rather than converted to text or graphics in C++.'
 type: docs
 weight: 29000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportformfields/
@@ -10,12 +10,45 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportformfields/
 ## HtmlFixedSaveOptions::set_ExportFormFields method
 
 
-Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields](../get_exportformfields/).
+Sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
 
 ```cpp
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportFormFields(bool value)
 ```
 
+## Examples
+
+
+Shows how to export form fields to Html.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->InsertCheckBox(u"CheckBox", false, 15);
+
+// When we export a document with form fields to .html,
+// there are two ways in which Aspose.Words can export form fields.
+// Setting the "ExportFormFields" flag to "true" will export them as interactive objects.
+// Setting this flag to "false" will display form fields as plain text.
+// This will freeze them at their current value, and prevent the reader of our HTML document
+// from being able to interact with them.
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
+htmlFixedSaveOptions->set_ExportFormFields(exportFormFields);
+
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportFormFields.html", htmlFixedSaveOptions);
+
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportFormFields.html");
+
+if (exportFormFields)
+{
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") + u"<input style=\"position:absolute; left:0pt; top:0pt;\" type=\"checkbox\" name=\"CheckBox\" />")->get_Success());
+}
+else
+{
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") + u"<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"")->get_Success());
+}
+```
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

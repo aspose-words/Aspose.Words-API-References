@@ -4,24 +4,23 @@ linktitle: get_Reason
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_Reason method. Font substitution reason in C++.'
 type: docs
-weight: 2000
+weight: 10000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_reason/
 ---
 ## FontSubstitutionWarningInfo::get_Reason method
 
 
-[Font](../../font/) substitution reason.
+Font substitution reason.
 
 ```cpp
 Aspose::Words::FontSubstitutionReason Aspose::Words::FontSubstitutionWarningInfo::get_Reason() const
 ```
 
-
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -45,10 +44,8 @@ ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
 ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
-
 ## See Also
 
-* Enum [FontSubstitutionReason](../../fontsubstitutionreason/)
 * Class [FontSubstitutionWarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

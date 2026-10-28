@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use begin method of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
-weight: 3000
+weight: 12223
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/begin/
 ---
 ## DigitalSignatureCollection::begin() const method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/begin/
 
 
 ```cpp
-const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin() const noexcept
+const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -28,12 +27,11 @@ const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::beg
 
 
 ```cpp
-iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin() noexcept
+iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin()
 ```
 
 ## See Also
 
-* Typedef [iterator](../iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

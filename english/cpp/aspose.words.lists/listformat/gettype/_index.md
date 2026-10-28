@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/listformat/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Lists::ListFormat::GetType() const override
+const System::TypeInfo & Aspose::Words::Lists::ListFormat::GetType() const override
 ```
 
 ## See Also

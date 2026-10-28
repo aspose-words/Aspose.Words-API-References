@@ -4,7 +4,7 @@ linktitle: get_NextSibling
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_NextSibling method. Gets the node immediately following this node in C++.'
 type: docs
-weight: 8000
+weight: 28000
 url: /cpp/aspose.words/node/get_nextsibling/
 ---
 ## Node::get_NextSibling method
@@ -16,12 +16,14 @@ Gets the node immediately following this node.
 System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::get_NextSibling()
 ```
 
+## Remarks
 
+ If there is no next node, a **null** is returned. 
 ## Examples
 
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -34,10 +36,8 @@ for (System::SharedPtr<Aspose::Words::Node> node = doc->get_FirstSection()->get_
     std::cout << (contents == System::String::Empty ? System::String(u"This node contains no text") : System::String::Format(u"Contents: \"{0}\"", node->GetText().Trim())) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

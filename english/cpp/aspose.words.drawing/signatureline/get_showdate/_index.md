@@ -4,7 +4,7 @@ linktitle: get_ShowDate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_ShowDate method. Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is true in C++.'
 type: docs
-weight: 10000
+weight: 14770
 url: /cpp/aspose.words.drawing/signatureline/get_showdate/
 ---
 ## SignatureLine::get_ShowDate method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/signatureline/get_showdate/
 Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
 
 ```cpp
-bool Aspose::Words::Drawing::SignatureLine::get_ShowDate()
+_Bool Aspose::Words::Drawing::SignatureLine::get_ShowDate()
 ```
-
 
 ## Examples
 
 
+Shows how to create a line for a signature and insert it into a document.
 
-Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
-
 ## See Also
 
 * Class [SignatureLine](../)

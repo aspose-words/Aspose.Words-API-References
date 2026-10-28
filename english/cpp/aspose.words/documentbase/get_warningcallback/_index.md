@@ -4,7 +4,7 @@ linktitle: get_WarningCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_WarningCallback method. Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss in C++.'
 type: docs
-weight: 10000
+weight: 13917
 url: /cpp/aspose.words/documentbase/get_warningcallback/
 ---
 ## DocumentBase::get_WarningCallback method
@@ -16,12 +16,14 @@ Called during various document processing procedures when an issue is detected t
 System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::DocumentBase::get_WarningCallback() const
 ```
 
+## Remarks
 
+ Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [PageCount](../../document/get_pagecount/) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later. 
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -50,10 +52,8 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
-* Interface [IWarningCallback](../../iwarningcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

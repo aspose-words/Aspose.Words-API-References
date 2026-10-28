@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::WordML2003SaveOptions::set_SaveFormat method
 linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::WordML2003SaveOptions::set_SaveFormat method. Setter for Aspose::Words::Saving::WordML2003SaveOptions::get_SaveFormat in C++.'
+description: 'Aspose::Words::Saving::WordML2003SaveOptions::set_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be WordML in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.saving/wordml2003saveoptions/set_saveformat/
@@ -10,15 +10,48 @@ url: /cpp/aspose.words.saving/wordml2003saveoptions/set_saveformat/
 ## WordML2003SaveOptions::set_SaveFormat method
 
 
-Setter for [Aspose::Words::Saving::WordML2003SaveOptions::get_SaveFormat](../get_saveformat/).
+Specifies the format in which the document will be saved if this save options object is used. Can only be [WordML](../../../aspose.words/saveformat/).
 
 ```cpp
 void Aspose::Words::Saving::WordML2003SaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override
 ```
 
+## Examples
+
+
+Shows how to manage output document's raw content.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Writeln(u"Hello world!");
+
+// Create a "WordML2003SaveOptions" object to pass to the document's "Save" method
+// to modify how we save the document to the WordML save format.
+auto options = System::MakeObject<Aspose::Words::Saving::WordML2003SaveOptions>();
+
+ASSERT_EQ(SaveFormat::WordML, options->get_SaveFormat());
+
+// Set the "PrettyFormat" property to "true" to apply tab character indentation and
+// newlines to make the output document's raw content easier to read.
+// Set the "PrettyFormat" property to "false" to save the document's raw content in one continuous body of the text.
+options->set_PrettyFormat(prettyFormat);
+
+doc->Save(get_ArtifactsDir() + u"WordML2003SaveOptions.PrettyFormat.xml", options);
+
+System::String fileContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"WordML2003SaveOptions.PrettyFormat.xml");
+System::String newLine = System::Environment::get_NewLine();
+if (prettyFormat)
+{
+    ASSERT_TRUE(fileContents.Contains(System::String::Format(u"<o:DocumentProperties>{0}\t\t", newLine) + System::String::Format(u"<o:Revision>1</o:Revision>{0}\t\t", newLine) + System::String::Format(u"<o:TotalTime>0</o:TotalTime>{0}\t\t", newLine) + System::String::Format(u"<o:Pages>1</o:Pages>{0}\t\t", newLine) + System::String::Format(u"<o:Words>0</o:Words>{0}\t\t", newLine) + System::String::Format(u"<o:Characters>0</o:Characters>{0}\t\t", newLine) + System::String::Format(u"<o:Lines>1</o:Lines>{0}\t\t", newLine) + System::String::Format(u"<o:Paragraphs>1</o:Paragraphs>{0}\t\t", newLine) + System::String::Format(u"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>{0}\t\t", newLine) + System::String::Format(u"<o:Version>11.5606</o:Version>{0}\t", newLine) + u"</o:DocumentProperties>"));
+}
+else
+{
+    ASSERT_TRUE(fileContents.Contains(System::String(u"<o:DocumentProperties><o:Revision>1</o:Revision><o:TotalTime>0</o:TotalTime><o:Pages>1</o:Pages>") + u"<o:Words>0</o:Words><o:Characters>0</o:Characters><o:Lines>1</o:Lines><o:Paragraphs>1</o:Paragraphs>" + u"<o:CharactersWithSpaces>0</o:CharactersWithSpaces><o:Version>11.5606</o:Version></o:DocumentProperties>"));
+}
+```
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [WordML2003SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

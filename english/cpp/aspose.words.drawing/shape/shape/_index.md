@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::Shape constructor. Creates a new shape object in C++.'
 type: docs
-weight: 2000
+weight: 29000
 url: /cpp/aspose.words.drawing/shape/shape/
 ---
 ## Shape::Shape constructor
@@ -13,24 +13,23 @@ url: /cpp/aspose.words.drawing/shape/shape/
 Creates a new shape object.
 
 ```cpp
-Aspose::Words::Drawing::Shape::Shape(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, Aspose::Words::Drawing::ShapeType shapeType)
+Aspose::Words::Drawing::Shape::Shape(const System::SharedPtr<Aspose::Words::DocumentBase> & doc, Aspose::Words::Drawing::ShapeType shapeType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 | shapeType | Aspose::Words::Drawing::ShapeType | The type of the shape to create. |
 ## Remarks
 
 
 You should specify desired shape properties after you created a shape.
-
 ## Examples
 
 
+Shows how to insert a shape with an image from the local file system into a document.
 
-Shows how to insert a shape with an image from the local file system into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -48,8 +47,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Image.FromFile.docx");
 ```
 
+Shows how to create and format a text box.
 
-Shows how to create and format a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -75,11 +74,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
-* Enum [ShapeType](../../shapetype/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

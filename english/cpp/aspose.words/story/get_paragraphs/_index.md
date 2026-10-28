@@ -4,7 +4,7 @@ linktitle: get_Paragraphs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_Paragraphs method. Gets a collection of paragraphs that are immediate children of the story in C++.'
 type: docs
-weight: 6000
+weight: 14000
 url: /cpp/aspose.words/story/get_paragraphs/
 ---
 ## Story::get_Paragraphs method
@@ -16,12 +16,11 @@ Gets a collection of paragraphs that are immediate children of the story.
 System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Story::get_Paragraphs() override
 ```
 
-
 ## Examples
 
 
+Shows how to check whether a paragraph is a move revision.
 
-Shows how to check whether a paragraph is a move revision. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -51,10 +50,8 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 // If we reject the revision, this paragraph instead will disappear, and the other will remain.
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
-
 ## See Also
 
-* Class [ParagraphCollection](../../paragraphcollection/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

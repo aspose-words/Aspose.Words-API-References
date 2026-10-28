@@ -13,7 +13,7 @@ url: /cpp/aspose.words/variablecollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::VariableCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::VariableCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

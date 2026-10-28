@@ -4,13 +4,13 @@ linktitle: get_DateDisplayLocale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayLocale method. Allows to set/get the language format for the date displayed in this SDT in C++.'
 type: docs
-weight: 13000
+weight: 70000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplaylocale/
 ---
 ## StructuredDocumentTag::get_DateDisplayLocale method
 
 
-Allows to set/get the language format for the date displayed in this **SDT**.
+Allows to set/get the language format for the date displayed in this SDT.
 
 ```cpp
 int32_t Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayLocale()
@@ -19,15 +19,14 @@ int32_t Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayLocale()
 ## Remarks
 
 
-Accessing this property will only work for [Date](../../sdttype/) SDT type.
+Accessing this property will only work for [Date](../../sdttype/) SDT type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,7 +56,6 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

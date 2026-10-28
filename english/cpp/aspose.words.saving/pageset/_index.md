@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PageSet class
 linktitle: PageSet
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PageSet class. Describes a random set of pages. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Saving::PageSet class. Describes a random set of pages. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.saving/pageset/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.saving/pageset/
 ## PageSet class
 
 
-Describes a random set of pages. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Describes a random set of pages. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
 class PageSet : public System::Collections::Generic::IEnumerable<int32_t>
@@ -20,22 +21,21 @@ class PageSet : public System::Collections::Generic::IEnumerable<int32_t>
 
 | Method | Description |
 | --- | --- |
+| [GetEnumerator](./getenumerator/)() override |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [PageSet](./pageset/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\> \&) | Creates a page set based on ranges. |
+| [PageSet](./pageset/)(const System::ArrayPtr\<int32_t\> \&) | Creates a page set based on exact page indices. |
+| [PageSet](./pageset/)(int32_t) | Creates an one-page set based on exact page index. |
+| static [Type](./type/)() |  |
 | static [get_All](./get_all/)() | Gets a set with all the pages of the document in their original order. |
 | static [get_Even](./get_even/)() | Gets a set with all the even pages of the document in their original order. |
 | static [get_Odd](./get_odd/)() | Gets a set with all the odd pages of the document in their original order. |
-| [GetEnumerator](./getenumerator/)() override |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [PageSet](./pageset/)(int32_t) | Creates an one-page set based on exact page index. |
-| [PageSet](./pageset/)(const System::ArrayPtr\<int32_t\>\&) | Creates a page set based on exact page indices. |
-| [PageSet](./pageset/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) | Creates a page set based on ranges. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to render one page from a document to a JPEG image.
 
-Shows how to render one page from a document to a JPEG image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +59,6 @@ options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
 // which will just be the second page of the original document.
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

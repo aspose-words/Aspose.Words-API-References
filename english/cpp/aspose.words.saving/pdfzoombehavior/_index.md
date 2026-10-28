@@ -13,19 +13,19 @@ url: /cpp/aspose.words.saving/pdfzoombehavior/
 Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 
 ```cpp
-enum class PdfZoomBehavior
+enum class PdfZoomBehavior : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | How the document is displayed is left to the PDF viewer. Usually the viewer displays the document to fit page width. |
-| ZoomFactor | 1 | Displays the page using the specified zoom factor. |
+| FitBox | 5 | Fits the bounding box (rectangle containing all visible elements on the page). |
+| FitHeight | 4 | Fits the height of the page. |
 | FitPage | 2 | Displays the page so it visible entirely. |
 | FitWidth | 3 | Fits the width of the page. |
-| FitHeight | 4 | Fits the height of the page. |
-| FitBox | 5 | Fits the bounding box (rectangle containing all visible elements on the page). |
+| None | 0 | How the document is displayed is left to the PDF viewer. Usually the viewer displays the document to fit page width. |
+| ZoomFactor | 1 | Displays the page using the specified zoom factor. |
 
 ## See Also
 

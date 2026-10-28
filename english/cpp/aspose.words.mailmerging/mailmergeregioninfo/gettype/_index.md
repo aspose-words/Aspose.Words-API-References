@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::MailMerging::MailMergeRegionInfo::GetType() const override
+const System::TypeInfo & Aspose::Words::MailMerging::MailMergeRegionInfo::GetType() const override
 ```
 
 ## See Also

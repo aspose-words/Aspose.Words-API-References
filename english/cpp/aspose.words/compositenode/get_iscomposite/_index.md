@@ -4,7 +4,7 @@ linktitle: get_IsComposite
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CompositeNode::get_IsComposite method. Returns true as this node can have child nodes in C++.'
 type: docs
-weight: 7000
+weight: 28000
 url: /cpp/aspose.words/compositenode/get_iscomposite/
 ---
 ## CompositeNode::get_IsComposite method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/compositenode/get_iscomposite/
 Returns **true** as this node can have child nodes.
 
 ```cpp
-bool Aspose::Words::CompositeNode::get_IsComposite() override
+_Bool Aspose::Words::CompositeNode::get_IsComposite() override
 ```
 
 ## See Also

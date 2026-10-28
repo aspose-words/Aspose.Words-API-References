@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_Overlap method
 linktitle: set_Overlap
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_Overlap method. Setter for Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Overlap in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_Overlap method. Sets the percentage of how much the series bars or columns overlap in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/set_overlap/
@@ -10,12 +10,36 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroup/set_overlap/
 ## ChartSeriesGroup::set_Overlap method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Overlap](../get_overlap/).
+Sets the percentage of how much the series bars or columns overlap.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_Overlap(int32_t value)
 ```
 
+## Remarks
+
+
+Applies to series groups of all bar and column types.
+
+The range of acceptable values is from -100 to 100 inclusive. A value of 0 indicates that there is no space between bars/columns. If the value is -100, the distance between bars/columns is equal to their width. A value of 100 means that the bars/columns overlap completely.
+## Examples
+
+
+Show how to configure gap width and overlap.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(450), static_cast<double>(250));
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> seriesGroup = shape->get_Chart()->get_SeriesGroups()->idx_get(0);
+
+// Set column gap width and overlap.
+seriesGroup->set_GapWidth(450);
+seriesGroup->set_Overlap(-75);
+
+doc->Save(get_ArtifactsDir() + u"Charts.ConfigureGapOverlap.docx");
+```
 ## See Also
 
 * Class [ChartSeriesGroup](../)

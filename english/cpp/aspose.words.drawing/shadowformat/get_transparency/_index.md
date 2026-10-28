@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Transparency method. Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0 in C++.'
 type: docs
-weight: 2750
+weight: 6168
 url: /cpp/aspose.words.drawing/shadowformat/get_transparency/
 ---
 ## ShadowFormat::get_Transparency method
@@ -16,12 +16,11 @@ Gets or sets the degree of transparency for the shadow effect as a value between
 double Aspose::Words::Drawing::ShadowFormat::get_Transparency()
 ```
 
-
 ## Examples
 
 
+Shows how to set a color with transparency.
 
-Shows how to set a color with transparency. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -33,7 +32,6 @@ shadowFormat->set_Transparency(0.8);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShadowFormatTransparency.docx");
 ```
-
 ## See Also
 
 * Class [ShadowFormat](../)

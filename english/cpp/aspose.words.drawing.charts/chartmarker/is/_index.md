@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartmarker/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::ChartMarker::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::ChartMarker::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

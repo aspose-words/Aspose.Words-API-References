@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldfillin/set_defaultresponse/
 Sets default user response (initial value contained in the prompt window).
 
 ```cpp
-void Aspose::Words::Fields::FieldFillIn::set_DefaultResponse(const System::String &value)
+void Aspose::Words::Fields::FieldFillIn::set_DefaultResponse(const System::String & value)
 ```
 
 ## See Also

@@ -24,20 +24,20 @@ class ChartYValue : public System::Object
 | static [FromDateTime](./fromdatetime/)(System::DateTime) | Creates a [ChartYValue](./) instance of the [DateTime](../chartyvaluetype/) type. |
 | static [FromDouble](./fromdouble/)(double) | Creates a [ChartYValue](./) instance of the [Double](../chartyvaluetype/) type. |
 | static [FromTimeSpan](./fromtimespan/)(System::TimeSpan) | Creates a [ChartYValue](./) instance of the [Time](../chartyvaluetype/) type. |
+| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current Y value object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_DateTimeValue](./get_datetimevalue/)() const | Gets the stored datetime value. |
 | [get_DoubleValue](./get_doublevalue/)() const | Gets the stored numeric value. |
 | [get_TimeValue](./get_timevalue/)() const | Gets the stored time value. |
 | [get_ValueType](./get_valuetype/)() const | Gets the type of the Y value stored in the object. |
-| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current Y value object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
 
 This class contains a number of static methods for creating an Y value of a particular type. The [ValueType](./get_valuetype/) property allows you to determine the type of an existing Y value.
 
-All non-null Y values of a chart series must be of the same [ChartYValueType](../chartyvaluetype/) type. 
+All non-null Y values of a chart series must be of the same [ChartYValueType](../chartyvaluetype/) type.
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

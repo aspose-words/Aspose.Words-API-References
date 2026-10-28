@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::SetTemplateWeakPtr method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::SetTemplateWeakPtr method
 linktitle: SetTemplateWeakPtr
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use SetTemplateWeakPtr method of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
+description: 'How to use SetTemplateWeakPtr method of Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/settemplateweakptr/
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/settemplateweakp
 
 
 ```cpp
-void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::SetTemplateWeakPtr(uint32_t argument) override
+void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::SetTemplateWeakPtr(uint32_t argument)
 ```
 
 ## See Also

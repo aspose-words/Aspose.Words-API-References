@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fields::FieldMergeField class in C++.'
 type: docs
-weight: 1000
+weight: 10112
 url: /cpp/aspose.words.fields/fieldmergefield/type/
 ---
 ## FieldMergeField::Type method

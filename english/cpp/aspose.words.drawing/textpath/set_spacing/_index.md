@@ -19,7 +19,7 @@ void Aspose::Words::Drawing::TextPath::set_Spacing(double value)
 ## Remarks
 
 
-The default value is 1. 
+The default value is 1.
 ## See Also
 
 * Class [TextPath](../)

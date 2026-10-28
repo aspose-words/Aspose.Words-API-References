@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldauthor/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldAuthor::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldAuthor::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

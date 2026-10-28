@@ -4,7 +4,7 @@ linktitle: get_Initials
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::UserInformation::get_Initials method. Gets or sets the user''s initials in C++.'
 type: docs
-weight: 5000
+weight: 8715
 url: /cpp/aspose.words.fields/userinformation/get_initials/
 ---
 ## UserInformation::get_Initials method
@@ -16,12 +16,11 @@ Gets or sets the user's initials.
 System::String Aspose::Words::Fields::UserInformation::get_Initials() const
 ```
 
-
 ## Examples
 
 
+Shows how to set user details, and display them using fields.
 
-Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Resu
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
-
 ## See Also
 
 * Class [UserInformation](../)

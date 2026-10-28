@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::DropDownItemCollection::idx_get method. Gets or sets the element at the specified index in C++.'
 type: docs
-weight: 12000
+weight: 18778
 url: /cpp/aspose.words.fields/dropdownitemcollection/idx_get/
 ---
 ## DropDownItemCollection::idx_get method
@@ -16,12 +16,11 @@ Gets or sets the element at the specified index.
 System::String Aspose::Words::Fields::DropDownItemCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

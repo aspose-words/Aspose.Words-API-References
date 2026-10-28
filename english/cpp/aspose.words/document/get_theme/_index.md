@@ -4,7 +4,7 @@ linktitle: get_Theme
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_Theme method. Gets the Theme object for this document in C++.'
 type: docs
-weight: 53000
+weight: 145000
 url: /cpp/aspose.words/document/get_theme/
 ---
 ## Document::get_Theme method
@@ -16,12 +16,11 @@ Gets the [Theme](./) object for this document.
 System::SharedPtr<Aspose::Words::Themes::Theme> Aspose::Words::Document::get_Theme()
 ```
 
-
 ## Examples
 
 
+Shows how to set custom colors and fonts for themes.
 
-Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -62,10 +61,8 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
-
 ## See Also
 
-* Class [Theme](../../../aspose.words.themes/theme/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

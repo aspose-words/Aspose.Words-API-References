@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldformcheckbox/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldFormCheckBox::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldFormCheckBox::GetType() const override
 ```
 
 ## See Also

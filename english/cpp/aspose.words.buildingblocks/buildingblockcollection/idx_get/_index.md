@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlockCollection::idx_get method. Retrieves a building block at the given index in C++.'
 type: docs
-weight: 3000
+weight: 7000
 url: /cpp/aspose.words.buildingblocks/buildingblockcollection/idx_get/
 ---
 ## BuildingBlockCollection::idx_get method
@@ -30,10 +30,8 @@ Negative indexes are allowed and indicate access from the back of the collection
 If index is greater than or equal to the number of items in the list, this returns a null reference.
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
-
 ## See Also
 
-* Class [BuildingBlock](../../buildingblock/)
 * Class [BuildingBlockCollection](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

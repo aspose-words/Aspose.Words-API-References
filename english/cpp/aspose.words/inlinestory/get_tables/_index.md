@@ -4,7 +4,7 @@ linktitle: get_Tables
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_Tables method. Gets a collection of tables that are immediate children of the story in C++.'
 type: docs
-weight: 13000
+weight: 27000
 url: /cpp/aspose.words/inlinestory/get_tables/
 ---
 ## InlineStory::get_Tables method
@@ -16,12 +16,11 @@ Gets a collection of tables that are immediate children of the story.
 System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::InlineStory::get_Tables() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert InlineStory nodes.
 
-Shows how to insert [InlineStory](../) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
-
 ## See Also
 
-* Class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

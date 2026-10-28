@@ -4,7 +4,7 @@ linktitle: get_Data
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPart::get_Data method. Gets or sets the XML content of this Custom XML Data Storage Part in C++.'
 type: docs
-weight: 4000
+weight: 9334
 url: /cpp/aspose.words.markup/customxmlpart/get_data/
 ---
 ## CustomXmlPart::get_Data method
@@ -20,12 +20,11 @@ System::ArrayPtr<uint8_t> Aspose::Words::Markup::CustomXmlPart::get_Data() const
 
 
 The default value is an empty byte array. The value cannot be **null**.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,7 +84,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Class [CustomXmlPart](../)

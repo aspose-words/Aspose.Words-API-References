@@ -4,7 +4,7 @@ linktitle: get_Shading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Shading method. Returns a Shading object that refers to the shading formatting for the font in C++.'
 type: docs
-weight: 34000
+weight: 59609
 url: /cpp/aspose.words/font/get_shading/
 ---
 ## Font::get_Shading method
@@ -16,12 +16,11 @@ Returns a [Shading](../../shading/) object that refers to the shading formatting
 System::SharedPtr<Aspose::Words::Shading> Aspose::Words::Font::get_Shading()
 ```
 
-
 ## Examples
 
 
+Shows how to apply shading to text created by a document builder.
 
-Shows how to apply shading to text created by a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,10 +38,8 @@ builder->Writeln(u"White text on an orange background with a two-tone texture.")
 
 doc->Save(get_ArtifactsDir() + u"Font.Shading.docx");
 ```
-
 ## See Also
 
-* Class [Shading](../../shading/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

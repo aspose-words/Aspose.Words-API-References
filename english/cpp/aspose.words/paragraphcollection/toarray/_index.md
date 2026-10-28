@@ -20,12 +20,11 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Paragraph>> Aspose::Words::Par
 ### ReturnValue
 
 An array of paragraphs.
-
 ## Examples
 
 
+Shows how to create an array from a NodeCollection.
 
-Shows how to create an array from a [NodeCollection](../../nodecollection/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -34,8 +33,8 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Paragraph>> paras = doc->get_F
 ASSERT_EQ(22, paras->get_Length());
 ```
 
+Shows how to use "hot remove" to remove a node during enumeration.
 
-Shows how to use "hot remove" to remove a node during enumeration. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +55,8 @@ for (System::SharedPtr<Aspose::Words::Paragraph> para : doc->get_FirstSection()-
 
 ASSERT_FALSE(doc->GetText().Contains(u"The third paragraph"));
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [ParagraphCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

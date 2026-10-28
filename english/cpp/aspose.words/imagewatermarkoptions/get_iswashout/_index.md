@@ -4,7 +4,7 @@ linktitle: get_IsWashout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImageWatermarkOptions::get_IsWashout method. Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is true in C++.'
 type: docs
-weight: 3000
+weight: 6500
 url: /cpp/aspose.words/imagewatermarkoptions/get_iswashout/
 ---
 ## ImageWatermarkOptions::get_IsWashout method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/imagewatermarkoptions/get_iswashout/
 Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**.
 
 ```cpp
-bool Aspose::Words::ImageWatermarkOptions::get_IsWashout() const
+_Bool Aspose::Words::ImageWatermarkOptions::get_IsWashout() const
 ```
-
 
 ## Examples
 
 
+Shows how to create a watermark from an image in the local file system.
 
-Shows how to create a watermark from an image in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -39,9 +38,9 @@ doc->get_Watermark()->SetImage(System::Drawing::Image::FromFile(get_ImageDir() +
 
 doc->get_Watermark()->SetImage(get_ImageDir() + u"Logo.jpg", imageWatermarkOptions);
 
+
 doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
-
 ## See Also
 
 * Class [ImageWatermarkOptions](../)

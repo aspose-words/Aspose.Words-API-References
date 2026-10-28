@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Replacing::ReplacingArgs class in C++.'
 type: docs
-weight: 1000
+weight: 9112
 url: /cpp/aspose.words.replacing/replacingargs/type/
 ---
 ## ReplacingArgs::Type method

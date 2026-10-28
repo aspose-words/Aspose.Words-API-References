@@ -13,16 +13,16 @@ url: /cpp/aspose.words.saving/pdfattachmentsembeddingmode/
 Specifies how attachments are embedded to PDF document.
 
 ```cpp
-enum class PdfAttachmentsEmbeddingMode
+enum class PdfAttachmentsEmbeddingMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Attachments are not embedded. |
 | Annotations | 1 | Attachments are embedded as annotations with location on page. |
 | DocumentEmbeddedFiles | 2 | Attachments are embedded as the document embedded files without annotations. |
+| None | 0 | Attachments are not embedded. |
 
 ## See Also
 

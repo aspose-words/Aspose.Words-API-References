@@ -4,7 +4,7 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_Style method. Gets the list style that this list references or defines in C++.'
 type: docs
-weight: 11000
+weight: 15900
 url: /cpp/aspose.words.lists/list/get_style/
 ---
 ## List::get_Style method
@@ -24,12 +24,11 @@ If this list is not associated with a list style, the property will return **nul
 A list could be a reference to a list style, in this case [IsListStyleReference](../get_isliststylereference/) will be **true**.
 
 A list could be a definition of a list style, in this case [IsListStyleDefinition](../get_isliststyledefinition/) will be **true**. Such a list cannot be applied to paragraphs in the document directly.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -83,10 +82,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
-* Class [Style](../../../aspose.words/style/)
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_SplitStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::SplitOptions::get_SplitStyle method. Specifies the paragraph style for splitting the document into parts when Style is used in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.lowcode/splitoptions/get_splitstyle/
 ---
 ## SplitOptions::get_SplitStyle method

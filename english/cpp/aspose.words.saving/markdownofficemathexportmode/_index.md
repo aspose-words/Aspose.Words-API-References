@@ -13,25 +13,24 @@ url: /cpp/aspose.words.saving/markdownofficemathexportmode/
 Specifies how Aspose.Words exports OfficeMath to Markdown.
 
 ```cpp
-enum class MarkdownOfficeMathExportMode
+enum class MarkdownOfficeMathExportMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Text | 0 | Export OfficeMath as plain text. |
 | Image | 1 | Export OfficeMath as image. |
-| MathML | 2 | Export OfficeMath as MathML. |
 | Latex | 3 | Export OfficeMath as LaTeX. |
 | MarkItDown | 4 | Export OfficeMath as LaTeX that is compatible with MarkItDown. |
-
+| MathML | 2 | Export OfficeMath as MathML. |
+| Text | 0 | Export OfficeMath as plain text. |
 
 ## Examples
 
 
+Shows how OfficeMath will be written to the document.
 
-Shows how OfficeMath will be written to the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -41,8 +40,8 @@ saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Image);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
 ```
 
+Shows how to export OfficeMath object as Latex.
 
-Shows how to export OfficeMath object as Latex. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -52,8 +51,8 @@ saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Latex);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
 ```
 
+Shows how to export OfficeMath object as MarkItDown.
 
-Shows how to export OfficeMath object as MarkItDown. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -62,7 +61,6 @@ saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::MarkItDown);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsMarkItDown.md", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

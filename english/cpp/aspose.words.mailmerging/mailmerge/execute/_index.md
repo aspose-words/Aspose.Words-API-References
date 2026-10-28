@@ -7,20 +7,20 @@ type: docs
 weight: 3000
 url: /cpp/aspose.words.mailmerging/mailmerge/execute/
 ---
-## MailMerge::Execute(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
+## MailMerge::Execute(const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\> \&) method
 
 
 Performs a mail merge operation for a single record.
 
 ```cpp
-void Aspose::Words::MailMerging::MailMerge::Execute(const System::ArrayPtr<System::String> &fieldNames, const System::ArrayPtr<System::SharedPtr<System::Object>> &values)
+void Aspose::Words::MailMerging::MailMerge::Execute(const System::ArrayPtr<System::String> & fieldNames, const System::ArrayPtr<System::SharedPtr<System::Object>> & values)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldNames | const System::ArrayPtr\<System::String\>\& | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| values | const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\& | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in *fieldNames*. |
+| fieldNames | const System::ArrayPtr\<System::String\> \& | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| values | const System::ArrayPtr\<System::SharedPtr\<System::Object\>\> \& | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 ## Remarks
 
 
@@ -31,12 +31,11 @@ This method merges data for one record only. The array of field names and the ar
 This method does not use mail merge regions.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
-
 ## Examples
 
 
+Shows how to merge an image from a URI as mail merge data into a MERGEFIELD.
 
-Shows how to merge an image from a URI as mail merge data into a MERGEFIELD. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,25 +56,24 @@ doc->get_MailMerge()->Execute(columns, URIs);
 
 doc->Save(get_ArtifactsDir() + u"MailMergeEvent.ImageFromUrl.docx");
 ```
-
 ## See Also
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)
-## MailMerge::Execute(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) method
+## MailMerge::Execute(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\> \&) method
 
 
 Performs a mail merge from a custom data source.
 
 ```cpp
-void Aspose::Words::MailMerging::MailMerge::Execute(const System::SharedPtr<Aspose::Words::MailMerging::IMailMergeDataSource> &dataSource)
+void Aspose::Words::MailMerging::MailMerge::Execute(const System::SharedPtr<Aspose::Words::MailMerging::IMailMergeDataSource> & dataSource)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataSource | const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\& | An object that implements the custom mail merge data source interface. |
+| dataSource | const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\> \& | An object that implements the custom mail merge data source interface. |
 ## Remarks
 
 
@@ -84,10 +82,8 @@ Use this method to fill mail merge fields in the document with values from any d
 You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is **false**, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
-
 ## See Also
 
-* Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

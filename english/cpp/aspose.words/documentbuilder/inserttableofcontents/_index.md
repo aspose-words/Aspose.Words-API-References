@@ -13,13 +13,13 @@ url: /cpp/aspose.words/documentbuilder/inserttableofcontents/
 Inserts a TOC (table of contents) field into the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::InsertTableOfContents(const System::String &switches)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::InsertTableOfContents(const System::String & switches)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switches | const System::String\& | The TOC field switches. |
+| switches | const System::String \& | The TOC field switches. |
 ## Remarks
 
 
@@ -27,21 +27,20 @@ This method inserts a TOC (table of contents) field into the document at the cur
 
 A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The way the table is built and displayed by Microsoft Word is controlled by the field switches.
 
-The easiest way to specify the switches is to insert and configure a table of contents into a Word document using the Insert->Reference->Index and [Tables](../../../aspose.words.tables/) menu, then switch display of field codes on to see the switches. You can press Alt+F9 in Microsoft Word to toggle display of field codes on or off.
+The easiest way to specify the switches is to insert and configure a table of contents into a Word document using the Insert->Reference->Index and Tables menu, then switch display of field codes on to see the switches. You can press Alt+F9 in Microsoft Word to toggle display of field codes on or off.
 
-For example, after creating a table of contents, the following field is inserted into the document: **%{ TOC \o "1-3" \h \z }**. You can copy **%\o "1-3" \h \z** and use it as the switches parameter.
+For example, after creating a table of contents, the following field is inserted into the document: { TOC \o "1-3" \h \z }. You can copy \o "1-3" \h \z and use it as the switches parameter.
 
-Note that [InsertTableOfContents()](../) will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
+Note that [InsertTableOfContents()](./) will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
 
 If you insert a table of contents using this method and then open the file in Microsoft Word, you will not see the table of contents because the TOC field has not yet been updated.
 
 In Microsoft Word, fields are not automatically updated when a document is opened, but you can update fields in a document at any time by pressing F9.
-
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,10 +85,8 @@ builder->Writeln(u"Heading 3.3");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

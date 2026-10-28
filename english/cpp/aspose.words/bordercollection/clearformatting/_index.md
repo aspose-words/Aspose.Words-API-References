@@ -16,12 +16,11 @@ Removes all borders of an object.
 void Aspose::Words::BorderCollection::ClearFormatting()
 ```
 
-
 ## Examples
 
 
+Shows how to remove all borders from all paragraphs in a document.
 
-Shows how to remove all borders from all paragraphs in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Borders.docx"));
 
@@ -47,7 +46,6 @@ for (auto&& paragraph : System::IterateOver<Aspose::Words::Paragraph>(doc->get_F
 
 doc->Save(get_ArtifactsDir() + u"BorderCollection.RemoveAllBorders.docx");
 ```
-
 ## See Also
 
 * Class [BorderCollection](../)

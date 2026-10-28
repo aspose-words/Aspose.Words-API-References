@@ -4,7 +4,7 @@ linktitle: get_CertificateHolder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_CertificateHolder method. Returns the certificate holder object that contains the certificate was used to sign the document in C++.'
 type: docs
-weight: 2000
+weight: 14000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_certificateholder/
 ---
 ## DigitalSignature::get_CertificateHolder method
@@ -16,12 +16,11 @@ Returns the certificate holder object that contains the certificate was used to 
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::Words::DigitalSignatures::DigitalSignature::get_CertificateHolder() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -58,10 +57,8 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)-
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
 ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
 ```
-
 ## See Also
 
-* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignature](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

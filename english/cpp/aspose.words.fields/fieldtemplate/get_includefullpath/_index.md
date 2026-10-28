@@ -4,7 +4,7 @@ linktitle: get_IncludeFullPath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath method. Gets or sets whether to include the full file path name in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 ---
 ## FieldTemplate::get_IncludeFullPath method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 Gets or sets whether to include the full file path name.
 
 ```cpp
-bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
+_Bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
 ```
-
 
 ## Examples
 
 
+Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 
-Shows how to use a TEMPLATE field to display the local file system location of a document's template. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,7 +41,6 @@ ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldTemplate](../)

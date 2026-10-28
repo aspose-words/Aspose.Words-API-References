@@ -4,7 +4,7 @@ linktitle: get_PageSetup
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_PageSetup method. Returns an object that represents page setup and section properties in C++.'
 type: docs
-weight: 13000
+weight: 17750
 url: /cpp/aspose.words/section/get_pagesetup/
 ---
 ## Section::get_PageSetup method
@@ -16,12 +16,11 @@ Returns an object that represents page setup and section properties.
 System::SharedPtr<Aspose::Words::PageSetup> Aspose::Words::Section::get_PageSetup()
 ```
 
-
 ## Examples
 
 
+Shows how to create a wide blue band border at the top of the first page.
 
-Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -39,8 +38,8 @@ border->set_DistanceFromText(0);
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -83,10 +82,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Class [PageSetup](../../pagesetup/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

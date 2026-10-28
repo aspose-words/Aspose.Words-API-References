@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::ImageFieldMergingArgs::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::ImageFieldMergingArgs::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

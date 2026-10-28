@@ -13,14 +13,14 @@ url: /cpp/aspose.words/documentbuilder/inserthyperlink/
 Inserts a hyperlink into the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::InsertHyperlink(const System::String &displayText, const System::String &urlOrBookmark, bool isBookmark)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::InsertHyperlink(const System::String & displayText, const System::String & urlOrBookmark, bool isBookmark)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| displayText | const System::String\& | Text of the link to be displayed in the document. |
-| urlOrBookmark | const System::String\& | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
+| displayText | const System::String \& | Text of the link to be displayed in the document. |
+| urlOrBookmark | const System::String \& | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
 | isBookmark | bool | **true** if the previous parameter is a name of a bookmark inside the document; **false** is the previous parameter is a URL. |
 
 ### ReturnValue
@@ -31,13 +31,12 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 Note that you need to specify font formatting for the hyperlink display text explicitly using the [Font](../get_font/) property.
 
-This methods internally calls [InsertField()](../) to insert an MS Word HYPERLINK field into the document.
-
+This methods internally calls [InsertField()](../insertfield/) to insert an MS Word HYPERLINK field into the document.
 ## Examples
 
 
+Shows how to insert a hyperlink field.
 
-Shows how to insert a hyperlink field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,8 +55,8 @@ builder->Writeln(u".");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlink.docx");
 ```
 
+Shows how to use a document builder's formatting stack.
 
-Shows how to use a document builder's formatting stack. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -88,8 +87,8 @@ builder->Write(u". We hope you enjoyed the example.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.PushPopFont.docx");
 ```
 
+Shows how to insert a hyperlink which references a local bookmark.
 
-Shows how to insert a hyperlink which references a local bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -108,10 +107,8 @@ hyperlink->set_ScreenTip(u"Hyperlink Tip");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

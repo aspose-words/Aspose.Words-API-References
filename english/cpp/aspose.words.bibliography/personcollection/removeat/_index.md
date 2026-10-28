@@ -20,12 +20,11 @@ void Aspose::Words::Bibliography::PersonCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the person to remove. |
-
 ## Examples
 
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -50,7 +49,6 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
 * Class [PersonCollection](../)

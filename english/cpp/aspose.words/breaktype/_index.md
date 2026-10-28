@@ -13,29 +13,28 @@ url: /cpp/aspose.words/breaktype/
 Specifies type of a break inside a document.
 
 ```cpp
-enum class BreakType
+enum class BreakType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ParagraphBreak | 0 | Break between paragraphs. |
-| PageBreak | 1 | Explicit page break. |
 | ColumnBreak | 2 | Explicit column break. |
+| LineBreak | 8 | Explicit line break. |
+| PageBreak | 1 | Explicit page break. |
+| ParagraphBreak | 0 | Break between paragraphs. |
 | SectionBreakContinuous | 3 | Specifies start of new section on the same page as the previous section. |
+| SectionBreakEvenPage | 6 | Specifies start of new section on a new even page. |
 | SectionBreakNewColumn | 4 | Specifies start of new section in the new column. |
 | SectionBreakNewPage | 5 | Specifies start of new section on a new page. |
-| SectionBreakEvenPage | 6 | Specifies start of new section on a new even page. |
 | SectionBreakOddPage | 7 | Specifies start of new section on a odd page. |
-| LineBreak | 8 | Explicit line break. |
-
 
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -109,7 +108,6 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

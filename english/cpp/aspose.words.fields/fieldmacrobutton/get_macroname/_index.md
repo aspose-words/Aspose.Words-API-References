@@ -4,7 +4,7 @@ linktitle: get_MacroName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldMacroButton::get_MacroName method. Gets or sets the name of the macro or command to run in C++.'
 type: docs
-weight: 4000
+weight: 8572
 url: /cpp/aspose.words.fields/fieldmacrobutton/get_macroname/
 ---
 ## FieldMacroButton::get_MacroName method
@@ -16,12 +16,11 @@ Gets or sets the name of the macro or command to run.
 System::String Aspose::Words::Fields::FieldMacroButton::get_MacroName()
 ```
 
-
 ## Examples
 
 
+Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 
-Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 // Save the document as a macro-enabled document type.
 doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
-
 ## See Also
 
 * Class [FieldMacroButton](../)

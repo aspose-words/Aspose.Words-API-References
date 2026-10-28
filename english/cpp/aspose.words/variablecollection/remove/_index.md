@@ -13,19 +13,18 @@ url: /cpp/aspose.words/variablecollection/remove/
 Removes a document variable with the specified name from the collection.
 
 ```cpp
-void Aspose::Words::VariableCollection::Remove(const System::String &name)
+void Aspose::Words::VariableCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-insensitive name of the variable. |
-
+| name | const System::String \& | The case-insensitive name of the variable. |
 ## Examples
 
 
+Shows how to work with a document's variable collection.
 
-Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -95,7 +94,6 @@ variables->Clear();
 
 ASSERT_EQ(0, variables->get_Count());
 ```
-
 ## See Also
 
 * Class [VariableCollection](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/append/
 Append the document loading it with the specified load options.
 
 ```cpp
-virtual void Aspose::Words::IDocumentProcessorPlugin::Append(System::SharedPtr<System::IO::Stream> inputStream, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions)=0
+virtual void Aspose::Words::IDocumentProcessorPlugin::Append(System::SharedPtr<System::IO::Stream> inputStream, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions)
 ```
 
 
@@ -21,10 +21,8 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::Append(System::SharedPtr<S
 | --- | --- | --- |
 | inputStream | System::SharedPtr\<System::IO::Stream\> | The input stream. |
 | loadOptions | System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> | The document load options. Can be **null**, in this case the document is loaded with default load options. |
-
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

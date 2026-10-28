@@ -4,7 +4,7 @@ linktitle: get_UpdateCompleted
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdateCompleted method. Gets a value indicating whether field updating is completed in C++.'
 type: docs
-weight: 3000
+weight: 9000
 url: /cpp/aspose.words.fields/fieldupdatingprogressargs/get_updatecompleted/
 ---
 ## FieldUpdatingProgressArgs::get_UpdateCompleted method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldupdatingprogressargs/get_updatecompleted/
 Gets a value indicating whether field updating is completed.
 
 ```cpp
-bool Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdateCompleted() const
+_Bool Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdateCompleted() const
 ```
 
 ## See Also

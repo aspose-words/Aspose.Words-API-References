@@ -16,12 +16,11 @@ Returns a dictionary enumerator object that can be used to iterate over all item
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature>>> Aspose::Words::DigitalSignatures::DigitalSignatureCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to print all the digital signatures of a signed document.
 
-Shows how to print all the digital signatures of a signed document. 
 ```cpp
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatures = DigitalSignatureUtil::LoadSignatures(get_MyDir() + u"Digitally signed.docx");
 
@@ -38,10 +37,8 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> 
     }
 }
 ```
-
 ## See Also
 
-* Class [DigitalSignature](../../digitalsignature/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

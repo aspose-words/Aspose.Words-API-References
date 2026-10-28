@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xpssaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::XpsSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::XpsSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 1000
+weight: 14112
 url: /cpp/aspose.words.markup/sdtlistitemcollection/type/
 ---
 ## SdtListItemCollection::Type method

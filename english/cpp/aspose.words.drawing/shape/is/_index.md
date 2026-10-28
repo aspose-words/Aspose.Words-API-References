@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Shape::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Shape::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

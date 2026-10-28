@@ -2,7 +2,7 @@
 title: Aspose::Words::WebExtensions::WebExtensionBindingCollection class
 linktitle: WebExtensionBindingCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::WebExtensionBindingCollection class. Specifies a list of web extension bindings. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WebExtensions::WebExtensionBindingCollection class. Specifies a list of web extension bindings. To learn more, visit the Work with Office Add-ins documentation article in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
 ## WebExtensionBindingCollection class
 
 
-Specifies a list of web extension bindings. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
+Specifies a list of web extension bindings. 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
-class WebExtensionBindingCollection : public Aspose::Words::WebExtensions::BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBinding>>
+class WebExtensionBindingCollection : public BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBinding>>
 ```
 
 ## Methods
@@ -21,15 +22,36 @@ class WebExtensionBindingCollection : public Aspose::Words::WebExtensions::BaseW
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
 | static [Type](./type/)() |  |
-
+| [Add](../basewebextensioncollection/add/)(T) | Adds specified item to the collection. |
+| [BaseWebExtensionCollection](../basewebextensioncollection/basewebextensioncollection/)() |  |
+| [Clear](../basewebextensioncollection/clear/)() | Removes all elements from the collection. |
+| [GetEnumerator](../basewebextensioncollection/getenumerator/)() | Returns an enumerator that can iterate through a collection. |
+| [GetType](../basewebextensioncollection/gettype/)() const |  |
+| [Is](../basewebextensioncollection/is/)(const System::TypeInfo \&) const |  |
+| [Remove](../basewebextensioncollection/remove/)(int32_t) | Removes the item at the specified index from the collection. |
+| [SetTemplateWeakPtr](../basewebextensioncollection/settemplateweakptr/)(uint32_t) |  |
+| static [Type](../basewebextensioncollection/type/)() |  |
+| [begin](../basewebextensioncollection/begin/)() |  |
+| [begin](../basewebextensioncollection/begin/)() const |  |
+| [cbegin](../basewebextensioncollection/cbegin/)() const |  |
+| [cend](../basewebextensioncollection/cend/)() const |  |
+| [end](../basewebextensioncollection/end/)() const |  |
+| [end](../basewebextensioncollection/end/)() |  |
+| [get_Count](../basewebextensioncollection/get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](../basewebextensioncollection/idx_get/)(int32_t) | Gets or sets an item at the specified index. |
+| [idx_set](../basewebextensioncollection/idx_set/)(int32_t, T) | Gets or sets an item at the specified index. |
+| [virtualizeBeginConstIterator](../basewebextensioncollection/virtualizebeginconstiterator/)() const |  |
+| [virtualizeBeginIterator](../basewebextensioncollection/virtualizebeginiterator/)() |  |
+| [virtualizeEndConstIterator](../basewebextensioncollection/virtualizeendconstiterator/)() const |  |
+| [virtualizeEndIterator](../basewebextensioncollection/virtualizeenditerator/)() |  |
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -94,7 +116,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [BaseWebExtensionCollection](../basewebextensioncollection/)

@@ -13,19 +13,21 @@ url: /cpp/aspose.words/documentbuilder/write/
 Inserts a string into the document at the current insert position.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::Write(const System::String &text)
+void Aspose::Words::DocumentBuilder::Write(const System::String & text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | The string to insert into the document. |
+| text | const System::String \& | The string to insert into the document. |
+## Remarks
 
+ Current font formatting specified by the [Font](../get_font/) property is used. 
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,8 +41,8 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -100,8 +102,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to use a document builder to create a table.
 
-Shows how to use a document builder to create a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -124,8 +126,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateTable.docx");
 ```
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -164,7 +166,6 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

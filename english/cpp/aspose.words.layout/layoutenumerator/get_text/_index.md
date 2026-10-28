@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutEnumerator::get_Text method. Gets text of the current span entity. Throws for other entity types in C++.'
 type: docs
-weight: 9000
+weight: 23700
 url: /cpp/aspose.words.layout/layoutenumerator/get_text/
 ---
 ## LayoutEnumerator::get_Text method

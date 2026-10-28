@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/set_contenttype/
 Sets the content type of the document.
 
 ```cpp
-void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentType(const System::String &value)
+void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentType(const System::String & value)
 ```
 
 ## See Also

@@ -16,9 +16,11 @@ Sets a value determining how 3D effects are rendered.
 void Aspose::Words::Saving::SaveOptions::set_Dml3DEffectsRenderingMode(Aspose::Words::Saving::Dml3DEffectsRenderingMode value)
 ```
 
+## Remarks
+
+ The default value is [Basic](../../dml3deffectsrenderingmode/). 
 ## See Also
 
-* Enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

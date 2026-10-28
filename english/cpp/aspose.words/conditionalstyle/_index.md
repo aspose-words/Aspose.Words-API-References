@@ -2,7 +2,7 @@
 title: Aspose::Words::ConditionalStyle class
 linktitle: ConditionalStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ConditionalStyle class. Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ConditionalStyle class. Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the Working with Tables documentation article in C++.'
 type: docs
 weight: 16000
 url: /cpp/aspose.words/conditionalstyle/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/conditionalstyle/
 ## ConditionalStyle class
 
 
-Represents special formatting applied to some area of a table with assigned table style. To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
+Represents special formatting applied to some area of a table with assigned table style. 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article.
 
 ```cpp
 class ConditionalStyle : public IBorderAttrSource,
@@ -25,6 +26,10 @@ class ConditionalStyle : public IBorderAttrSource,
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Clears formatting of this conditional style. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Compares this conditional style with the specified object. |
+| [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the conditional style. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [get_Font](./get_font/)() | Gets the character formatting of the conditional style. |
@@ -34,20 +39,15 @@ class ConditionalStyle : public IBorderAttrSource,
 | [get_Shading](./get_shading/)() | Gets a [Shading](../shading/) object that refers to the shading formatting for this conditional style. |
 | [get_TopPadding](./get_toppadding/)() | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [get_Type](./get_type/)() | Gets table area to which this conditional style relates. |
-| [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_BottomPadding](./get_bottompadding/). |
-| [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_LeftPadding](./get_leftpadding/). |
-| [set_RightPadding](./set_rightpadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_RightPadding](./get_rightpadding/). |
-| [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::ConditionalStyle::get_TopPadding](./get_toppadding/). |
-| static [Type](./type/)() |  |
-
+| [set_BottomPadding](./set_bottompadding/)(double) | Sets the amount of space (in points) to add below the contents of table cells. |
+| [set_LeftPadding](./set_leftpadding/)(double) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [set_RightPadding](./set_rightpadding/)(double) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
+| [set_TopPadding](./set_toppadding/)(double) | Sets the amount of space (in points) to add above the contents of table cells. |
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -112,7 +112,6 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

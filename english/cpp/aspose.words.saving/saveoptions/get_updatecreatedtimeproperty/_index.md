@@ -4,24 +4,23 @@ linktitle: get_UpdateCreatedTimeProperty
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty method. Gets or sets a value determining whether the CreatedTime property is updated before saving. Default value is false; in C++.'
 type: docs
-weight: 16000
+weight: 24699
 url: /cpp/aspose.words.saving/saveoptions/get_updatecreatedtimeproperty/
 ---
 ## SaveOptions::get_UpdateCreatedTimeProperty method
 
 
-Gets or sets a value determining whether the [CreatedTime](../../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;.
+Gets or sets a value determining whether the [CreatedTime](../../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;
 
 ```cpp
-bool Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty() const
+_Bool Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty() const
 ```
-
 
 ## Examples
 
 
+Shows how to update a document's "CreatedTime" property when saving.
 
-Shows how to update a document's "CreatedTime" property when saving. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -48,7 +47,6 @@ else
     ASSERT_EQ(createdTime, doc->get_BuiltInDocumentProperties()->get_CreatedTime());
 }
 ```
-
 ## See Also
 
 * Class [SaveOptions](../)

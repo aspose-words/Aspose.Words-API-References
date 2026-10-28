@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_Name method. Gets or sets the form field name in C++.'
 type: docs
-weight: 15000
+weight: 61000
 url: /cpp/aspose.words.fields/formfield/get_name/
 ---
 ## FormField::get_Name method
@@ -16,12 +16,14 @@ Gets or sets the form field name.
 System::String Aspose::Words::Fields::FormField::get_Name()
 ```
 
+## Remarks
 
+ Microsoft Word allows strings with at most 20 characters. 
 ## Examples
 
 
+Shows how to insert a combo box.
 
-Shows how to insert a combo box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +41,6 @@ ASSERT_EQ(u"Apple", comboBox->get_Result());
 // The form field will appear in the form of a "select" html tag.
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
-
 ## See Also
 
 * Class [FormField](../)

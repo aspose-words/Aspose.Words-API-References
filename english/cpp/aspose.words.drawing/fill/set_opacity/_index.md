@@ -2,20 +2,54 @@
 title: Aspose::Words::Drawing::Fill::set_Opacity method
 linktitle: set_Opacity
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Fill::set_Opacity method. Setter for Aspose::Words::Drawing::Fill::get_Opacity in C++.'
+description: 'Aspose::Words::Drawing::Fill::set_Opacity method. Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque) in C++.'
 type: docs
-weight: 37000
+weight: 75000
 url: /cpp/aspose.words.drawing/fill/set_opacity/
 ---
 ## Fill::set_Opacity method
 
 
-Setter for [Aspose::Words::Drawing::Fill::get_Opacity](../get_opacity/).
+Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque).
 
 ```cpp
 void Aspose::Words::Drawing::Fill::set_Opacity(double value)
 ```
 
+## Remarks
+
+This property is the opposite of property [Transparency](../get_transparency/).
+## Examples
+
+
+Shows how to fill a shape with a solid color.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Write some text, and then cover it with a floating shape.
+builder->get_Font()->set_Size(32);
+builder->Writeln(u"Hello world!");
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::CloudCallout, RelativeHorizontalPosition::LeftMargin, static_cast<double>(25), RelativeVerticalPosition::TopMargin, static_cast<double>(25), static_cast<double>(250), static_cast<double>(150), WrapType::None);
+
+// Use the "StrokeColor" property to set the color of the outline of the shape.
+shape->set_StrokeColor(System::Drawing::Color::get_CadetBlue());
+
+// Use the "FillColor" property to set the color of the inside area of the shape.
+shape->set_FillColor(System::Drawing::Color::get_LightBlue());
+
+// The "Opacity" property determines how transparent the color is on a 0-1 scale,
+// with 1 being fully opaque, and 0 being invisible.
+// The shape fill by default is fully opaque, so we cannot see the text that this shape is on top of.
+ASPOSE_ASSERT_EQ(1.0, shape->get_Fill()->get_Opacity());
+
+// Set the shape fill color's opacity to a lower value so that we can see the text underneath it.
+shape->get_Fill()->set_Opacity(0.3);
+
+doc->Save(get_ArtifactsDir() + u"Shape.Fill.docx");
+```
 ## See Also
 
 * Class [Fill](../)

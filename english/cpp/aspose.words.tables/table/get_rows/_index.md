@@ -4,7 +4,7 @@ linktitle: get_Rows
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Rows method. Provides typed access to the rows of the table in C++.'
 type: docs
-weight: 33000
+weight: 97000
 url: /cpp/aspose.words.tables/table/get_rows/
 ---
 ## Table::get_Rows method
@@ -16,12 +16,11 @@ Provides typed access to the rows of the table.
 System::SharedPtr<Aspose::Words::Tables::RowCollection> Aspose::Words::Tables::Table::get_Rows()
 ```
 
-
 ## Examples
 
 
+Shows how to iterate through all tables in the document and print the contents of each cell.
 
-Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
@@ -61,8 +60,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 }
 ```
 
+Shows how to combine the rows from two tables into one.
 
-Shows how to combine the rows from two tables into one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -84,10 +83,8 @@ secondTable->Remove();
 
 doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
-
 ## See Also
 
-* Class [RowCollection](../../rowcollection/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

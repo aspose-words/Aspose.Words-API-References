@@ -20,23 +20,22 @@ class ChartMultilevelValue : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String\&, const System::String\&, const System::String\&) | Initializes a new instance of this class that represents a three-level value. |
-| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String\&, const System::String\&) | Initializes a new instance of this class that represents a two-level value. |
-| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String\&) | Initializes a new instance of this class that represents a single-level value. |
+| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String \&) | Initializes a new instance of this class that represents a single-level value. |
+| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String \&, const System::String \&) | Initializes a new instance of this class that represents a two-level value. |
+| [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String \&, const System::String \&, const System::String \&) | Initializes a new instance of this class that represents a three-level value. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Gets a flag indicating whether the specified object is equal to the current multilevel data object. |
+| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current multilevel data object. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Level1](./get_level1/)() const | Gets the name of the chart top level that this value refers to. |
 | [get_Level2](./get_level2/)() const | Gets the name of the chart intermediate level that this value refers to. |
 | [get_Level3](./get_level3/)() const | Gets the name of the chart bottom level that this value refers to. |
-| [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current multilevel data object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to create treemap chart.
 
-Shows how to create treemap chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 
 doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

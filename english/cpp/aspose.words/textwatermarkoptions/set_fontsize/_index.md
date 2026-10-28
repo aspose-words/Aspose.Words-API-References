@@ -2,7 +2,7 @@
 title: Aspose::Words::TextWatermarkOptions::set_FontSize method
 linktitle: set_FontSize
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::TextWatermarkOptions::set_FontSize method. Setter for Aspose::Words::TextWatermarkOptions::get_FontSize in C++.'
+description: 'Aspose::Words::TextWatermarkOptions::set_FontSize method. Sets a font size. The default value is 0 - auto in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words/textwatermarkoptions/set_fontsize/
@@ -10,11 +10,51 @@ url: /cpp/aspose.words/textwatermarkoptions/set_fontsize/
 ## TextWatermarkOptions::set_FontSize method
 
 
-Setter for [Aspose::Words::TextWatermarkOptions::get_FontSize](../get_fontsize/).
+Sets a font size. The default value is 0 - auto.
 
 ```cpp
 void Aspose::Words::TextWatermarkOptions::set_FontSize(float value)
 ```
+
+## Remarks
+
+
+Valid values range from 0 to 65.5 inclusive.
+
+ Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
+## Examples
+
+
+Shows how to create a text watermark.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Add a plain text watermark.
+doc->get_Watermark()->SetText(u"Aspose Watermark");
+
+// If we wish to edit the text formatting using it as a watermark,
+// we can do so by passing a TextWatermarkOptions object when creating the watermark.
+auto textWatermarkOptions = System::MakeObject<Aspose::Words::TextWatermarkOptions>();
+textWatermarkOptions->set_FontFamily(u"Arial");
+textWatermarkOptions->set_FontSize(36);
+textWatermarkOptions->set_Color(System::Drawing::Color::get_Black());
+textWatermarkOptions->set_Layout(WatermarkLayout::Diagonal);
+textWatermarkOptions->set_IsSemitrasparent(false);
+
+doc->get_Watermark()->SetText(u"Aspose Watermark", textWatermarkOptions);
+
+doc->Save(get_ArtifactsDir() + u"Document.TextWatermark.docx");
+
+// We can remove a watermark from a document like this.
+if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
+{
+    doc->get_Watermark()->Remove();
+}
+```
+## Exceptions
+
+* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.themes/theme/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Themes::Theme::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Themes::Theme::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Saving::XlsxSaveOptions class in C++.'
 type: docs
-weight: 1000
+weight: 6143
 url: /cpp/aspose.words.saving/xlsxsaveoptions/type/
 ---
 ## XlsxSaveOptions::Type method

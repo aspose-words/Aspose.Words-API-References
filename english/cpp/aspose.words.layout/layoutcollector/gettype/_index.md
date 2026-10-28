@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutcollector/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Layout::LayoutCollector::GetType() const override
+const System::TypeInfo & Aspose::Words::Layout::LayoutCollector::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_Count method. Gets the number of columns in the section of a document in C++.'
 type: docs
-weight: 2000
+weight: 15000
 url: /cpp/aspose.words/textcolumncollection/get_count/
 ---
 ## TextColumnCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of columns in the section of a document.
 int32_t Aspose::Words::TextColumnCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to create multiple evenly spaced columns in a section.
 
-Shows how to create multiple evenly spaced columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,6 @@ builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumnCollection](../)

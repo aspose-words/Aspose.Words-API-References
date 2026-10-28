@@ -16,12 +16,11 @@ Implements the [IWarningCallback](../../iwarningcallback/) interface. Adds a war
 void Aspose::Words::WarningInfoCollection::Warning(System::SharedPtr<Aspose::Words::WarningInfo> info) override
 ```
 
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -50,10 +49,8 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
-* Class [WarningInfo](../../warninginfo/)
 * Class [WarningInfoCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

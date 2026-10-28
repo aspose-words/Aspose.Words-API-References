@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Lists::List::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Lists::List::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

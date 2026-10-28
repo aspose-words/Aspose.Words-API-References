@@ -20,12 +20,11 @@ void Aspose::Words::Lists::ListFormat::ApplyNumberDefault()
 
 
 This is a shortcut method that creates a new list using the default numbered template, applies it to the paragraph and selects the 1st list level.
-
 ## Examples
 
 
+Shows how to create bulleted and numbered lists.
 
-Shows how to create bulleted and numbered lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -103,7 +102,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
-
 ## See Also
 
 * Class [ListFormat](../)

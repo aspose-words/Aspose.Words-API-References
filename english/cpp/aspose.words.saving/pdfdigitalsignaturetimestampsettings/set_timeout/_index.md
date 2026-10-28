@@ -16,6 +16,9 @@ Time-out value for accessing timestamp server.
 void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_Timeout(System::TimeSpan value)
 ```
 
+## Remarks
+
+ The default value is 100 seconds. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

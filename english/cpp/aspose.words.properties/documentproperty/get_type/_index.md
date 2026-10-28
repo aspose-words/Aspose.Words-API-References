@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::get_Type method. Gets the data type of the property in C++.'
 type: docs
-weight: 5000
+weight: 20000
 url: /cpp/aspose.words.properties/documentproperty/get_type/
 ---
 ## DocumentProperty::get_Type method
@@ -16,12 +16,11 @@ Gets the data type of the property.
 Aspose::Words::Properties::PropertyType Aspose::Words::Properties::DocumentProperty::get_Type() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with built-in document properties.
 
-Shows how to work with built-in document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -51,8 +50,8 @@ for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties
 }
 ```
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -107,10 +106,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Enum [PropertyType](../../propertytype/)
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

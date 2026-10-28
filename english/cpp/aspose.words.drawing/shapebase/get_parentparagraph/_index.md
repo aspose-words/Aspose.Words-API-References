@@ -4,7 +4,7 @@ linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_ParentParagraph method. Returns the immediate parent paragraph in C++.'
 type: docs
-weight: 41000
+weight: 61660
 url: /cpp/aspose.words.drawing/shapebase/get_parentparagraph/
 ---
 ## ShapeBase::get_ParentParagraph method
@@ -16,12 +16,14 @@ Returns the immediate parent paragraph.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Drawing::ShapeBase::get_ParentParagraph()
 ```
 
+## Remarks
 
+For child shapes of a group shape and child shapes of an Office Math object always returns **null**.
 ## Examples
 
 
+Shows how to insert a text box, and set the font of its contents.
 
-Shows how to insert a text box, and set the font of its contents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,10 +54,8 @@ builder->Writeln(u"\nThis text is outside the text box.");
 
 doc->Save(get_ArtifactsDir() + u"Shape.Font.docx");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

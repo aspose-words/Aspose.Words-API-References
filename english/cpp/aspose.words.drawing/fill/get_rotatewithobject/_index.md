@@ -4,7 +4,7 @@ linktitle: get_RotateWithObject
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_RotateWithObject method. Gets whether the fill rotates with the specified object in C++.'
 type: docs
-weight: 19000
+weight: 63000
 url: /cpp/aspose.words.drawing/fill/get_rotatewithobject/
 ---
 ## Fill::get_RotateWithObject method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/fill/get_rotatewithobject/
 Gets whether the fill rotates with the specified object.
 
 ```cpp
-bool Aspose::Words::Drawing::Fill::get_RotateWithObject()
+_Bool Aspose::Words::Drawing::Fill::get_RotateWithObject()
 ```
 
 ## See Also

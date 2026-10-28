@@ -4,7 +4,7 @@ linktitle: get_SequenceName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_SequenceName method. Gets or sets the name of a sequence whose number is included with the page number in C++.'
 type: docs
-weight: 15000
+weight: 19835
 url: /cpp/aspose.words.fields/fieldindex/get_sequencename/
 ---
 ## FieldIndex::get_SequenceName method
@@ -16,12 +16,11 @@ Gets or sets the name of a sequence whose number is included with the page numbe
 System::String Aspose::Words::Fields::FieldIndex::get_SequenceName()
 ```
 
-
 ## Examples
 
 
+Shows how to split a document into portions by combining INDEX and SEQ fields.
 
-Shows how to split a document into portions by combining INDEX and SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +89,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Sequence.docx");
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

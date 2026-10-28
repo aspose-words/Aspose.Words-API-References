@@ -16,12 +16,11 @@ Clears formatting of this conditional style.
 void Aspose::Words::ConditionalStyle::ClearFormatting()
 ```
 
-
 ## Examples
 
 
+Shows how to reset conditional table styles.
 
-Shows how to reset conditional table styles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(static_cast<System::Fu
     return s->get_Borders()->get_Color() == System::Drawing::Color::Empty;
 }))));
 ```
-
 ## See Also
 
 * Class [ConditionalStyle](../)

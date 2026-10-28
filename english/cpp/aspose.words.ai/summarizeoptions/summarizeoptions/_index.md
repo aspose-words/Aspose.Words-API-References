@@ -4,7 +4,7 @@ linktitle: SummarizeOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::SummarizeOptions::SummarizeOptions constructor. Initializes a new instances of SummarizeOptions class in C++.'
 type: docs
-weight: 2000
+weight: 5250
 url: /cpp/aspose.words.ai/summarizeoptions/summarizeoptions/
 ---
 ## SummarizeOptions::SummarizeOptions constructor
@@ -16,12 +16,11 @@ Initializes a new instances of [SummarizeOptions](../) class.
 Aspose::Words::AI::SummarizeOptions::SummarizeOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -40,7 +39,6 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
 * Class [SummarizeOptions](../)

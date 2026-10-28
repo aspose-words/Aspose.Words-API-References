@@ -13,19 +13,22 @@ url: /cpp/aspose.words.bibliography/corporate/
 Represents a corporate (an organization) bibliography source contributor.
 
 ```cpp
-class Corporate : public Aspose::Words::Bibliography::Contributor
+class Corporate : public Contributor
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [Corporate](./corporate/)(const System::String\&) | Initialize a new instance of the [Corporate](./) class. |
-| [get_Name](./get_name/)() const | Gets the name of an organization. |
+| [Corporate](./corporate/)(const System::String \&) | Initialize a new instance of the [Corporate](./) class. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Name](./set_name/)(const System::String\&) | Sets the name of an organization. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
+| [get_Name](./get_name/)() const | Gets the name of an organization. |
+| [set_Name](./set_name/)(const System::String \&) | Sets the name of an organization. |
+| [GetType](../contributor/gettype/)() const override |  |
+| [Is](../contributor/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../contributor/type/)() |  |
 ## See Also
 
 * Class [Contributor](../contributor/)

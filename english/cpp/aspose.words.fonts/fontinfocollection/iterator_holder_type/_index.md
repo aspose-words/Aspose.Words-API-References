@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontinfocollection/iterator_holder_type/
 
 
 ```cpp
-using Aspose::Words::Fonts::FontInfoCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Fonts::FontInfo> >
+using Aspose::Words::Fonts::FontInfoCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Fonts::FontInfo> >
 ```
 
 ## See Also

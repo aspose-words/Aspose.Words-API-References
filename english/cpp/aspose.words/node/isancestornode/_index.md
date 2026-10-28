@@ -13,12 +13,11 @@ url: /cpp/aspose.words/node/isancestornode/
 
 
 ```cpp
-bool Aspose::Words::Node::IsAncestorNode(const System::SharedPtr<Aspose::Words::Node> &node)
+_Bool Aspose::Words::Node::IsAncestorNode(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 ## See Also
 
-* Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

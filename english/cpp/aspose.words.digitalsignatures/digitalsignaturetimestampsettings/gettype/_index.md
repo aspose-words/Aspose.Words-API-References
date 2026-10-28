@@ -4,7 +4,7 @@ linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use GetType method of Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings class in C++.'
 type: docs
-weight: 7000
+weight: 2000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/gettype/
 ---
 ## DigitalSignatureTimestampSettings::GetType method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/getty
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::GetType() const override
+const System::TypeInfo & Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::GetType() const override
 ```
 
 ## See Also

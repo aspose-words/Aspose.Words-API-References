@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/softedgeformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::SoftEdgeFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::SoftEdgeFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

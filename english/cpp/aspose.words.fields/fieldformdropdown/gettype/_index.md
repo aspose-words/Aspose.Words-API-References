@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldformdropdown/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldFormDropDown::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldFormDropDown::GetType() const override
 ```
 
 ## See Also

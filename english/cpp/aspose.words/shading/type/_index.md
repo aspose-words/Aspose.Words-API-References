@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Shading class in C++.'
 type: docs
-weight: 1000
+weight: 13112
 url: /cpp/aspose.words/shading/type/
 ---
 ## Shading::Type method

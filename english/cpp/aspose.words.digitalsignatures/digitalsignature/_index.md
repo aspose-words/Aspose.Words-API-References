@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignature class
 linktitle: DigitalSignature
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignature class. Represents a digital signature on a document and the result of its verification. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignature class. Represents a digital signature on a document and the result of its verification. To learn more, visit the Work with Digital Signatures documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignature/
 ## DigitalSignature class
 
 
-Represents a digital signature on a document and the result of its verification. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
+Represents a digital signature on a document and the result of its verification. 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article.
 
 ```cpp
 class DigitalSignature : public System::Object
@@ -20,30 +21,29 @@ class DigitalSignature : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
+| static [Type](./type/)() |  |
 | [get_ApplicationVersion](./get_applicationversion/)() | Gets the application version for the digital signature. |
 | [get_CertificateHolder](./get_certificateholder/)() const | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [get_ColorDepth](./get_colordepth/)() | Gets the color depth for the digital signature. |
 | [get_Comments](./get_comments/)() | Gets the signing purpose comment. |
 | [get_HorizontalResolution](./get_horizontalresolution/)() | Gets the horizontal resolution for the digital signature. |
-| [get_IssuerName](./get_issuername/)() | Returns the subject distinguished name of the certificate isuuer. |
 | [get_IsValid](./get_isvalid/)() const | Returns **true** if this digital signature is valid and the document has not been tampered with. |
+| [get_IssuerName](./get_issuername/)() | Returns the subject distinguished name of the certificate isuuer. |
 | [get_OfficeVersion](./get_officeversion/)() | Gets the Office version for the digital signature. |
+| [get_SignTime](./get_signtime/)() const | Gets the time the document was signed. |
 | [get_SignatureType](./get_signaturetype/)() const | Gets the type of the digital signature. |
 | [get_SignatureValue](./get_signaturevalue/)() const | Gets an array of bytes representing a signature value. |
-| [get_SignTime](./get_signtime/)() const | Gets the time the document was signed. |
 | [get_SubjectName](./get_subjectname/)() | Returns the subject distinguished name of the certificate that was used to sign the document. |
 | [get_VerticalResolution](./get_verticalresolution/)() | Gets the vertical resolution for the digital signature. |
 | [get_WindowsVersion](./get_windowsversion/)() | Gets the Windows version for the digital signature. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to validate and display information about each signature in a document.
 
-Shows how to validate and display information about each signature in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Digitally signed.docx"));
 
@@ -58,7 +58,6 @@ for (auto&& signature : doc->get_DigitalSignatures())
     std::cout << std::endl;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

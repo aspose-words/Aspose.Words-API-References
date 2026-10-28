@@ -16,6 +16,9 @@ Sets a value indicating whether merge fields and merge regions are merged regard
 void Aspose::Words::MailMerging::MailMerge::set_UnconditionalMergeFieldsAndRegions(bool value)
 ```
 
+## Remarks
+
+ The default value is **false**. 
 ## See Also
 
 * Class [MailMerge](../)

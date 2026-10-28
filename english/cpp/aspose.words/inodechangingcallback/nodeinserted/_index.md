@@ -13,12 +13,11 @@ url: /cpp/aspose.words/inodechangingcallback/nodeinserted/
 Called when a node belonging to this document has been inserted into another node.
 
 ```cpp
-virtual void Aspose::Words::INodeChangingCallback::NodeInserted(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)=0
+virtual void Aspose::Words::INodeChangingCallback::NodeInserted(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)
 ```
 
 ## See Also
 
-* Class [NodeChangingArgs](../../nodechangingargs/)
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

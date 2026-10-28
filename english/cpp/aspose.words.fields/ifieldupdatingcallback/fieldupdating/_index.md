@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 A user defined method that is called just before a field is updated.
 
 ```cpp
-virtual void Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdating(System::SharedPtr<Aspose::Words::Fields::Field> field)=0
+virtual void Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdating(System::SharedPtr<Aspose::Words::Fields::Field> field)
 ```
 
 ## See Also
 
-* Class [Field](../../field/)
 * Interface [IFieldUpdatingCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

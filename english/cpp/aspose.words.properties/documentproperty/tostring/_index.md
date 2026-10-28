@@ -20,12 +20,11 @@ System::String Aspose::Words::Properties::DocumentProperty::ToString() const ove
 
 
 Converts a boolean property into "Y" or "N". Converts a date property into a short date string. For all other types converts a property using Object.ToString().
-
 ## Examples
 
 
+Shows how to work with custom document properties.
 
-Shows how to work with custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -44,8 +43,8 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
 }
 ```
 
+Shows various type conversion methods of custom document properties.
 
-Shows various type conversion methods of custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -63,7 +62,6 @@ ASSERT_EQ(authDate, properties->idx_get(u"Authorized Date")->ToDateTime());
 ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

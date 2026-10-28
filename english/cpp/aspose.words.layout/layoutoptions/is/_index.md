@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Layout::LayoutOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Layout::LayoutOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

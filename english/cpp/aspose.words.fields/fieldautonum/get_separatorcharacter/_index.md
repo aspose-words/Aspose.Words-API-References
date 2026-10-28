@@ -4,7 +4,7 @@ linktitle: get_SeparatorCharacter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter method. Gets or sets the separator character to be used in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldautonum/get_separatorcharacter/
 ---
 ## FieldAutoNum::get_SeparatorCharacter method
@@ -16,12 +16,11 @@ Gets or sets the separator character to be used.
 System::String Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter()
 ```
 
-
 ## Examples
 
 
+Shows how to number paragraphs using autonum fields.
 
-Shows how to number paragraphs using autonum fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,7 +48,6 @@ ASSERT_EQ(u" AUTONUM  \\s :", field->GetFieldCode());
 
 doc->Save(get_ArtifactsDir() + u"Field.AUTONUM.docx");
 ```
-
 ## See Also
 
 * Class [FieldAutoNum](../)

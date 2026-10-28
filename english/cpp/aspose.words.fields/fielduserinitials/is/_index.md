@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielduserinitials/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldUserInitials::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldUserInitials::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

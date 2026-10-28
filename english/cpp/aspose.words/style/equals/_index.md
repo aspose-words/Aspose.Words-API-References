@@ -13,15 +13,14 @@ url: /cpp/aspose.words/style/equals/
 Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared.
 
 ```cpp
-bool Aspose::Words::Style::Equals(const System::SharedPtr<Aspose::Words::Style> &style)
+_Bool Aspose::Words::Style::Equals(const System::SharedPtr<Aspose::Words::Style> & style)
 ```
-
 
 ## Examples
 
 
+Shows how to use style aliases.
 
-Shows how to use style aliases. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Style with alias.docx"));
 
@@ -44,10 +43,8 @@ builder->Write(u"Hello again!");
 
 ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_Style(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
-
 ## See Also
 
-* Class [Style](../)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

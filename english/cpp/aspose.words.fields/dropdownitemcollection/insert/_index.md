@@ -13,20 +13,19 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/insert/
 Inserts a string into the collection at the specified index.
 
 ```cpp
-void Aspose::Words::Fields::DropDownItemCollection::Insert(int32_t index, const System::String &value)
+void Aspose::Words::Fields::DropDownItemCollection::Insert(int32_t index, const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index at which value is inserted. |
-| value | const System::String\& | The string to insert. |
-
+| value | const System::String \& | The string to insert. |
 ## Examples
 
 
+Shows how to insert a combo box field, and edit the elements in its item collection.
 
-Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,7 +76,6 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
-
 ## See Also
 
 * Class [DropDownItemCollection](../)

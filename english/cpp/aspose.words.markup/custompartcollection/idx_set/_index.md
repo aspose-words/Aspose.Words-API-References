@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPartCollection::idx_set method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 14000
+weight: 16889
 url: /cpp/aspose.words.markup/custompartcollection/idx_set/
 ---
 ## CustomPartCollection::idx_set method
@@ -13,19 +13,19 @@ url: /cpp/aspose.words.markup/custompartcollection/idx_set/
 Gets or sets an item at the specified index.
 
 ```cpp
-void Aspose::Words::Markup::CustomPartCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Markup::CustomPart> &value)
+void Aspose::Words::Markup::CustomPartCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Markup::CustomPart> & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the item. |
-
+| value | const System::SharedPtr\<Aspose::Words::Markup::CustomPart\> \& | The value to set. |
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
@@ -61,10 +61,8 @@ doc->get_PackageCustomParts()->Clear();
 
 ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomPart](../../custompart/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

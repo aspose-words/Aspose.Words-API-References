@@ -13,7 +13,7 @@ url: /cpp/aspose.words.vba/vbareference/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Vba::VbaReference::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Vba::VbaReference::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

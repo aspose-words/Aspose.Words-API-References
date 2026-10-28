@@ -4,7 +4,7 @@ linktitle: MergerContext
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use MergerContext constructor of Aspose::Words::LowCode::MergerContext class in C++.'
 type: docs
-weight: 2000
+weight: 5250
 url: /cpp/aspose.words.lowcode/mergercontext/mergercontext/
 ---
 ## MergerContext::MergerContext constructor

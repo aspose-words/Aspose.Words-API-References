@@ -22,12 +22,11 @@ void Aspose::Words::Section::ClearHeadersFooters()
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
 
 This makes headers and footers of this section linked to headers and footers of the previous section.
-
 ## Examples
 
 
+Shows how to clear the contents of all headers and footers in a section.
 
-Shows how to clear the contents of all headers and footers in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -54,7 +53,6 @@ ASSERT_EQ(2, doc->get_FirstSection()->get_HeadersFooters()->get_Count());
 ASSERT_EQ(System::String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetText().Trim());
 ASSERT_EQ(System::String::Empty, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Section](../)
@@ -79,12 +77,11 @@ void Aspose::Words::Section::ClearHeadersFooters(bool preserveWatermarks)
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
 
 This makes headers and footers of this section linked to headers and footers of the previous section.
-
 ## Examples
 
 
+Shows how to clear the contents of header and footer with or without a watermark.
 
-Shows how to clear the contents of header and footer with or without a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -116,7 +113,6 @@ ASSERT_EQ(WatermarkType::Text, doc->get_Watermark()->get_Type());
 doc->get_FirstSection()->ClearHeadersFooters(false);
 ASSERT_EQ(WatermarkType::None, doc->get_Watermark()->get_Type());
 ```
-
 ## See Also
 
 * Class [Section](../)

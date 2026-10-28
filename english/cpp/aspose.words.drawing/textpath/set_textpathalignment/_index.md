@@ -19,10 +19,9 @@ void Aspose::Words::Drawing::TextPath::set_TextPathAlignment(Aspose::Words::Draw
 ## Remarks
 
 
-The default value is [Center](../../textpathalignment/). 
+The default value is [Center](../../textpathalignment/).
 ## See Also
 
-* Enum [TextPathAlignment](../../textpathalignment/)
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

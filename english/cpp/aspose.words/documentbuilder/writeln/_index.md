@@ -19,31 +19,33 @@ void Aspose::Words::DocumentBuilder::Writeln()
 ## Remarks
 
 
-Calls [InsertParagraph](../insertparagraph/). 
+Calls [InsertParagraph](../insertparagraph/).
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::Writeln(const System::String\&) method
+## DocumentBuilder::Writeln(const System::String \&) method
 
 
 Inserts a string and a paragraph break into the document.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::Writeln(const System::String &text)
+void Aspose::Words::DocumentBuilder::Writeln(const System::String & text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String\& | The string to insert into the document. |
+| text | const System::String \& | The string to insert into the document. |
+## Remarks
 
+ Current font and paragraph formatting specified by the [Font](../get_font/) and [ParagraphFormat](../get_paragraphformat/) properties are used. 
 ## Examples
 
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,7 +84,6 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

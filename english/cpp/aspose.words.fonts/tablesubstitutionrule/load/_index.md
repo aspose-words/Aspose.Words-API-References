@@ -7,25 +7,24 @@ type: docs
 weight: 6000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## TableSubstitutionRule::Load(const System::SharedPtr\<System::IO::Stream\>\&) method
+## TableSubstitutionRule::Load(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Loads table substitution settings from XML stream.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::Load(const System::SharedPtr<System::IO::Stream> &stream)
+void Aspose::Words::Fonts::TableSubstitutionRule::Load(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | Input stream. |
-
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | Input stream. |
 ## Examples
 
 
+Shows how to work with custom font substitution tables.
 
-Shows how to work with custom font substitution tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -78,31 +77,29 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
-## TableSubstitutionRule::Load(const System::String\&) method
+## TableSubstitutionRule::Load(const System::String \&) method
 
 
 Loads table substitution settings from XML file.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::Load(const System::String &fileName)
+void Aspose::Words::Fonts::TableSubstitutionRule::Load(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | Input file name. |
-
+| fileName | const System::String \& | Input file name. |
 ## Examples
 
 
+Shows how to work with custom font substitution tables.
 
-Shows how to work with custom font substitution tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -155,7 +152,6 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)

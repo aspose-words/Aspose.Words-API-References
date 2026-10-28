@@ -4,7 +4,7 @@ linktitle: get_DefaultParagraphFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::StyleCollection::get_DefaultParagraphFormat method. Gets document default paragraph formatting in C++.'
 type: docs
-weight: 7000
+weight: 16000
 url: /cpp/aspose.words/stylecollection/get_defaultparagraphformat/
 ---
 ## StyleCollection::get_DefaultParagraphFormat method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::StyleCollection
 
 
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([Docx](../../loadformat/)) only. Earlier document formats have no support for document default paragraph formatting.
-
 ## Examples
 
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,10 +40,8 @@ styles->Add(StyleType::Paragraph, u"MyStyle");
 ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
 ```
-
 ## See Also
 
-* Class [ParagraphFormat](../../paragraphformat/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

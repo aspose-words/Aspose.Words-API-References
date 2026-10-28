@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/
 Defines an interface for external document processor plugin.
 
 ```cpp
-class IDocumentProcessorPlugin : public virtual System::Object
+class IDocumentProcessorPlugin : public System::Object
 ```
 
 ## Methods
@@ -22,7 +22,7 @@ class IDocumentProcessorPlugin : public virtual System::Object
 | --- | --- |
 | virtual [Append](./append/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>) | Append the document loading it with the specified load options. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [Load](./load/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>) | Load the document using the specified load options. |
 | virtual [Save](./save/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Save the document loaded by [Load()](./load/) method to the output stream using the specified save options. |
 | virtual [SetImageWatermark](./setimagewatermark/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>) | Adds image watermark on each page of the document loaded by [Load()](./load/) method. |

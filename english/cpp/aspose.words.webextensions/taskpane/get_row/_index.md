@@ -4,7 +4,7 @@ linktitle: get_Row
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_Row method. Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location in C++.'
 type: docs
-weight: 6000
+weight: 10667
 url: /cpp/aspose.words.webextensions/taskpane/get_row/
 ---
 ## TaskPane::get_Row method
@@ -16,12 +16,11 @@ Specifies the index, enumerating from the outside to the inside, of this task pa
 int32_t Aspose::Words::WebExtensions::TaskPane::get_Row() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,7 +85,6 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [TaskPane](../)

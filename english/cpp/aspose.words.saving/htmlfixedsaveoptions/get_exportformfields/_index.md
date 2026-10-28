@@ -4,7 +4,7 @@ linktitle: get_ExportFormFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields method. Gets or sets indication of whether form fields are exported as interactive items (as ''input'' tag) rather than converted to text or graphics in C++.'
 type: docs
-weight: 9000
+weight: 22368
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportformfields/
 ---
 ## HtmlFixedSaveOptions::get_ExportFormFields method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportformfields/
 Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields() const
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields() const
 ```
-
 
 ## Examples
 
 
+Shows how to export form fields to Html.
 
-Shows how to export form fields to Html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ else
     ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") + u"<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"")->get_Success());
 }
 ```
-
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

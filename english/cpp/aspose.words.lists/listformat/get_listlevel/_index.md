@@ -4,7 +4,7 @@ linktitle: get_ListLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListFormat::get_ListLevel method. Returns the list level formatting plus any formatting overrides applied to the current paragraph in C++.'
 type: docs
-weight: 6000
+weight: 12668
 url: /cpp/aspose.words.lists/listformat/get_listlevel/
 ---
 ## ListFormat::get_ListLevel method
@@ -16,12 +16,11 @@ Returns the list level formatting plus any formatting overrides applied to the c
 System::SharedPtr<Aspose::Words::Lists::ListLevel> Aspose::Words::Lists::ListFormat::get_ListLevel()
 ```
 
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -73,10 +72,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
-* Class [ListLevel](../../listlevel/)
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

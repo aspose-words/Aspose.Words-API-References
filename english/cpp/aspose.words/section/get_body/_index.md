@@ -4,7 +4,7 @@ linktitle: get_Body
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_Body method. Returns the Body child node of the section in C++.'
 type: docs
-weight: 10000
+weight: 17375
 url: /cpp/aspose.words/section/get_body/
 ---
 ## Section::get_Body method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Body> Aspose::Words::Section::get_Body()
 [Body](../../body/) contains main text of the section.
 
 Returns **null** if the section does not have a [Body](../../body/) node among its children.
-
 ## Examples
 
 
+Clears main text from all sections from the document leaving the sections themselves.
 
-Clears main text from all sections from the document leaving the sections themselves. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -58,10 +57,8 @@ body->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(S
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Body](../../body/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

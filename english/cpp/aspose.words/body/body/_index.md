@@ -4,7 +4,7 @@ linktitle: Body
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Body::Body constructor. Initializes a new instance of the Body class in C++.'
 type: docs
-weight: 2000
+weight: 3834
 url: /cpp/aspose.words/body/body/
 ---
 ## Body::Body constructor
@@ -13,25 +13,24 @@ url: /cpp/aspose.words/body/body/
 Initializes a new instance of the [Body](../) class.
 
 ```cpp
-Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> &doc)
+Aspose::Words::Body::Body(const System::SharedPtr<Aspose::Words::DocumentBase> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 ## Remarks
 
 
 When [Body](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [Body](../) to a [Section](../../section/) use [AppendChild](../)[InsertAfter](../) or [InsertBefore](../) methods.
-
+To append [Body](../) to a [Section](../../section/) use [AppendChild](../../compositenode/appendchild/)[InsertAfter](../../compositenode/insertafter/) or [InsertBefore](../../compositenode/insertbefore/) methods.
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,10 +73,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

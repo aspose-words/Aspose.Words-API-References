@@ -4,7 +4,7 @@ linktitle: get_OleIcon
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_OleIcon method. Gets the draw aspect of the OLE object. When true, the OLE object is displayed as an icon. When false, the OLE object is displayed as content in C++.'
 type: docs
-weight: 8000
+weight: 19536
 url: /cpp/aspose.words.drawing/oleformat/get_oleicon/
 ---
 ## OleFormat::get_OleIcon method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/oleformat/get_oleicon/
 Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content.
 
 ```cpp
-bool Aspose::Words::Drawing::OleFormat::get_OleIcon()
+_Bool Aspose::Words::Drawing::OleFormat::get_OleIcon()
 ```
 
 ## Remarks
 
 
 Aspose.Words does not allow to set this property to avoid confusion. If you were able to change the draw aspect in Aspose.Words, Microsoft Word would still display the OLE object in its original draw aspect until you edit or update the OLE object in Microsoft Word.
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +70,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
     ASSERT_EQ(76, oleEntryBytes->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

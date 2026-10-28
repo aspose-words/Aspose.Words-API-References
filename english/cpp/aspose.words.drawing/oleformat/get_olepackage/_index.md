@@ -4,7 +4,7 @@ linktitle: get_OlePackage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_OlePackage method. Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise in C++.'
 type: docs
-weight: 9000
+weight: 19603
 url: /cpp/aspose.words.drawing/oleformat/get_olepackage/
 ---
 ## OleFormat::get_OlePackage method
@@ -16,12 +16,14 @@ Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Packag
 System::SharedPtr<Aspose::Words::Drawing::OlePackage> Aspose::Words::Drawing::OleFormat::get_OlePackage()
 ```
 
+## Remarks
 
+ OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of a Windows system into a generic package allowing to embed almost anything into a document. See [OlePackage](../../olepackage/) type for more info. 
 ## Examples
 
 
+Shows how insert an OLE object into a document.
 
-Shows how insert an OLE object into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,10 +43,8 @@ System::ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(get_Data
 
 doc->Save(get_ArtifactsDir() + u"Shape.InsertOlePackage.docx");
 ```
-
 ## See Also
 
-* Class [OlePackage](../../olepackage/)
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

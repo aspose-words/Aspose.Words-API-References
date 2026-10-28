@@ -13,22 +13,21 @@ url: /cpp/aspose.words.saving/exportfontformat/
 Indicates the format that is used to export fonts while rendering to HTML fixed format.
 
 ```cpp
-enum class ExportFontFormat
+enum class ExportFontFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Woff | 0 | WOFF (Web Open [Font](../../aspose.words/font/) Format). |
-| Ttf | 1 | TTF (TrueType [Font](../../aspose.words/font/) format). |
-
+| Ttf | 1 | TTF (TrueType Font format). |
+| Woff | 0 | WOFF (Web Open Font Format). |
 
 ## Examples
 
 
+Shows how use fonts only from the target machine when saving a document to HTML.
 
-Shows how use fonts only from the target machine when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bullet points with alternative font.docx"));
 
@@ -51,8 +50,9 @@ else
     ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], ") + u"url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }")->get_Success());
 }
 ```
-
 ## See Also
+
+* [FontFormat](../htmlfixedsaveoptions/get_fontformat/)
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

@@ -4,7 +4,7 @@ linktitle: get_ResetHeadingLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSeq::get_ResetHeadingLevel method. Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent in C++.'
 type: docs
-weight: 4000
+weight: 8572
 url: /cpp/aspose.words.fields/fieldseq/get_resetheadinglevel/
 ---
 ## FieldSeq::get_ResetHeadingLevel method
@@ -16,12 +16,11 @@ Gets or sets an integer number representing a heading level to reset the sequenc
 System::String Aspose::Words::Fields::FieldSeq::get_ResetHeadingLevel()
 ```
 
-
 ## Examples
 
 
+Shows create numbering using SEQ fields.
 
-Shows create numbering using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,7 +77,6 @@ ASSERT_EQ(u"2", fieldSeq->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
 ```
-
 ## See Also
 
 * Class [FieldSeq](../)

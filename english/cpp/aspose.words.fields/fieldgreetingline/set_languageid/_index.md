@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldgreetingline/set_languageid/
 Sets the language id used to format the name.
 
 ```cpp
-void Aspose::Words::Fields::FieldGreetingLine::set_LanguageId(const System::String &value)
+void Aspose::Words::Fields::FieldGreetingLine::set_LanguageId(const System::String & value)
 ```
 
 ## See Also

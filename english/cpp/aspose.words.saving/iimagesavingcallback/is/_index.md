@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/iimagesavingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::IImageSavingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::IImageSavingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_ErrorCorrectionLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel method. Gets or sets an error correction level of QR Code. Valid values are [0, 3] in C++.'
 type: docs
-weight: 8000
+weight: 16536
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode::get_ErrorCorrectionLevel method
@@ -16,12 +16,11 @@ Gets or sets an error correction level of QR Code. Valid values are [0, 3].
 System::String Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a DISPLAYBARCODE field, and set its properties.
 
-Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,7 +71,6 @@ ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode(
 
 doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDisplayBarcode](../)

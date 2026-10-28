@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Rendering::ThumbnailGeneratingOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Rendering::ThumbnailGeneratingOptions::GetType() const override
 ```
 
 ## See Also

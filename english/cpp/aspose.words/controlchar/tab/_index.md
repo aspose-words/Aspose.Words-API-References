@@ -4,7 +4,7 @@ linktitle: Tab
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ControlChar::Tab method. Tab character: "\x0009" or "\t" in C++.'
 type: docs
-weight: 12000
+weight: 13910
 url: /cpp/aspose.words/controlchar/tab/
 ---
 ## ControlChar::Tab method
@@ -16,12 +16,11 @@ Tab character: "\x0009" or "\t".
 static System::String & Aspose::Words::ControlChar::Tab()
 ```
 
-
 ## Examples
 
 
+Shows how to set a custom interval for tab stop positions.
 
-Shows how to set a custom interval for tab stop positions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +32,6 @@ builder->get_Document()->set_DefaultTabStop(72);
 builder->Writeln(System::String(u"Hello") + ControlChar::Tab() + u"World!");
 builder->Writeln(System::String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
-
 ## See Also
 
 * Class [ControlChar](../)

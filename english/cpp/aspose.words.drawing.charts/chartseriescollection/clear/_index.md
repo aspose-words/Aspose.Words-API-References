@@ -16,12 +16,11 @@ Removes all [ChartSeries](../../chartseries/) from this collection.
 void Aspose::Words::Drawing::Charts::ChartSeriesCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to add and remove series data in a chart.
 
-Shows how to add and remove series data in a chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +65,6 @@ ASSERT_FALSE(chartData->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspo
 // before we can begin working on a blank chart.
 chartData->Clear();
 ```
-
 ## See Also
 
 * Class [ChartSeriesCollection](../)

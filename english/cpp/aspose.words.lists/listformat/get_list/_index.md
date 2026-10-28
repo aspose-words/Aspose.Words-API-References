@@ -4,7 +4,7 @@ linktitle: get_List
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListFormat::get_List method. Gets or sets the list this paragraph is a member of in C++.'
 type: docs
-weight: 5000
+weight: 12501
 url: /cpp/aspose.words.lists/listformat/get_list/
 ---
 ## ListFormat::get_List method
@@ -24,12 +24,11 @@ The list that is being assigned to this property must belong to the current docu
 The list that is being assigned to this property must not be a list style definition.
 
 Setting this property to **null** removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to **null** is equivalent to calling [RemoveNumbers](../removenumbers/).
-
 ## Examples
 
 
+Shows how to work with list levels.
 
-Shows how to work with list levels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,8 +75,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
+Shows how to nest a list inside another list.
 
-Shows how to nest a list inside another list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -124,10 +123,8 @@ builder->get_ParagraphFormat()->ClearFormatting();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
-
 ## See Also
 
-* Class [List](../../list/)
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

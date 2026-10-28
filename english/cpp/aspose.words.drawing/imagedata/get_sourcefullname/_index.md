@@ -4,7 +4,7 @@ linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_SourceFullName method. Gets or sets the path and name of the source file for the linked image in C++.'
 type: docs
-weight: 18000
+weight: 56000
 url: /cpp/aspose.words.drawing/imagedata/get_sourcefullname/
 ---
 ## ImageData::get_SourceFullName method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Drawing::ImageData::get_SourceFullName()
 The default value is an empty string.
 
 If [SourceFullName](./) is not an empty string, the image is linked.
-
 ## Examples
 
 
+Shows how to insert a linked image into a document.
 
-Shows how to insert a linked image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
-
 ## See Also
 
 * Class [ImageData](../)

@@ -21,6 +21,9 @@ class ChartDataTable : public Core::IChartItemTextProperties,
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to font formatting of the data table. |
 | [get_Format](./get_format/)() | Provides access to fill of text background and border formatting of the data table. |
 | [get_HasHorizontalBorder](./get_hashorizontalborder/)() const | Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is **true**. |
@@ -28,20 +31,16 @@ class ChartDataTable : public Core::IChartItemTextProperties,
 | [get_HasOutlineBorder](./get_hasoutlineborder/)() const | Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is **true**. |
 | [get_HasVerticalBorder](./get_hasverticalborder/)() const | Gets or sets a flag indicating whether a vertical border of the data table is displayed. The default value is **true**. |
 | [get_Show](./get_show/)() const | Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is **false**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_HasHorizontalBorder](./set_hashorizontalborder/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasHorizontalBorder](./get_hashorizontalborder/). |
-| [set_HasLegendKeys](./set_haslegendkeys/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasLegendKeys](./get_haslegendkeys/). |
-| [set_HasOutlineBorder](./set_hasoutlineborder/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasOutlineBorder](./get_hasoutlineborder/). |
-| [set_HasVerticalBorder](./set_hasverticalborder/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasVerticalBorder](./get_hasverticalborder/). |
-| [set_Show](./set_show/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_Show](./get_show/). |
-| static [Type](./type/)() |  |
-
+| [set_HasHorizontalBorder](./set_hashorizontalborder/)(bool) | Sets a flag indicating whether a horizontal border of the data table is displayed. The default value is **true**. |
+| [set_HasLegendKeys](./set_haslegendkeys/)(bool) | Sets a flag indicating whether legend keys are displayed in the data table. The default value is **true**. |
+| [set_HasOutlineBorder](./set_hasoutlineborder/)(bool) | Sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is **true**. |
+| [set_HasVerticalBorder](./set_hasverticalborder/)(bool) | Sets a flag indicating whether a vertical border of the data table is displayed. The default value is **true**. |
+| [set_Show](./set_show/)(bool) | Sets a flag indicating whether the data table will be shown for the chart. Default value is **false**. |
 ## Examples
 
 
+Shows how to show data table with chart series data.
 
-Shows how to show data table with chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +70,6 @@ dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_Dar
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphCollection class
 linktitle: ParagraphCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphCollection class. Provides typed access to a collection of Paragraph nodes. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ParagraphCollection class. Provides typed access to a collection of Paragraph nodes. To learn more, visit the Working with Paragraphs documentation article in C++.'
 type: docs
 weight: 48000
 url: /cpp/aspose.words/paragraphcollection/
@@ -10,36 +10,41 @@ url: /cpp/aspose.words/paragraphcollection/
 ## ParagraphCollection class
 
 
-Provides typed access to a collection of [Paragraph](../paragraph/) nodes. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
+Provides typed access to a collection of [Paragraph](../paragraph/) nodes. 
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
 
 ```cpp
-class ParagraphCollection : public Aspose::Words::NodeCollection
+class ParagraphCollection : public NodeCollection
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [Add](../nodecollection/add/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds a node to the end of the collection. |
-| [Clear](../nodecollection/clear/)() | Removes all nodes from this collection and from the document. |
-| [Contains](../nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Determines whether a node is in the collection. |
-| [get_Count](../nodecollection/get_count/)() | Gets the number of nodes in the collection. |
-| [GetEnumerator](../nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Retrieves a [Paragraph](../paragraph/) at the given index. |
-| [IndexOf](../nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the zero-based index of the specified node. |
-| [Insert](../nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\>\&) | Inserts a node into the collection at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Removes the node from the collection and from the document. |
-| [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToArray](./toarray/)() | Copies all paragraphs from the collection to a new array of paragraphs. |
 | static [Type](./type/)() |  |
-
+| [idx_get](./idx_get/)(int32_t) | Retrieves a [Paragraph](../paragraph/) at the given index. |
+| [Add](../nodecollection/add/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Adds a node to the end of the collection. |
+| [Clear](../nodecollection/clear/)() | Removes all nodes from this collection and from the document. |
+| [Contains](../nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Determines whether a node is in the collection. |
+| [GetEnumerator](../nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [GetType](../nodecollection/gettype/)() const override |  |
+| [IndexOf](../nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the zero-based index of the specified node. |
+| [Insert](../nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts a node into the collection at the specified index. |
+| [Is](../nodecollection/is/)(const System::TypeInfo \&) const override |  |
+| [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Removes the node from the collection and from the document. |
+| [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
+| [ToArray](../nodecollection/toarray/)() | Copies all nodes from the collection to a new array of nodes. |
+| static [Type](../nodecollection/type/)() |  |
+| [get_Count](../nodecollection/get_count/)() | Gets the number of nodes in the collection. |
+| [idx_get](../nodecollection/idx_get/)(int32_t) | Retrieves a node at the given index. |
 ## Examples
 
 
+Shows how to check whether a paragraph is a move revision.
 
-Shows how to check whether a paragraph is a move revision. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -69,7 +74,6 @@ ASSERT_TRUE(paragraphs->idx_get(1)->get_IsMoveFromRevision());
 // If we reject the revision, this paragraph instead will disappear, and the other will remain.
 ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 ```
-
 ## See Also
 
 * Class [NodeCollection](../nodecollection/)

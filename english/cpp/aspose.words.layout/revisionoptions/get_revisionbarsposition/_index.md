@@ -4,7 +4,7 @@ linktitle: get_RevisionBarsPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition method. Gets or sets rendering position of revision bars. Default value is Outside in C++.'
 type: docs
-weight: 15000
+weight: 22742
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarsposition/
 ---
 ## RevisionOptions::get_RevisionBarsPosition method
@@ -16,12 +16,11 @@ Gets or sets rendering position of revision bars. Default value is [Outside](../
 Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition() const
 ```
 
-
 ## Examples
 
 
+Shows how to alter the appearance of revisions in a rendered output document.
 
-Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,12 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Horizo
 
 doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** - Values of [Center](../../../aspose.words.drawing/horizontalalignment/) and [Inside](../../../aspose.words.drawing/horizontalalignment/) are not allowed.
 
 ## See Also
 
-* Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

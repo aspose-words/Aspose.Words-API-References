@@ -2,15 +2,15 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold method
 linktitle: get_FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold method. Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is %0 in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold method. Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is 0 in C++.'
 type: docs
-weight: 31000
+weight: 49600
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_fontresourcessubsettingsizethreshold/
 ---
 ## HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold method
 
 
-Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is **%0**.
+Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is **0**.
 
 ```cpp
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold() const
@@ -19,23 +19,20 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeT
 ## Remarks
 
 
-[ExportFontResources](../get_exportfontresources/) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. [Font](../../../aspose.words/font/) subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
+[ExportFontResources](../get_exportfontresources/) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
-[Font](../../../aspose.words/font/) subsetting works as follows:
-
+Font subsetting works as follows:
 * By default, all exported fonts are subsetted.
 * Setting [FontResourcesSubsettingSizeThreshold](./) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
 * Setting the property to **MaxValue** suppresses font subsetting.
 
 
-
-**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. [License](../../../aspose.words/license/) agreements that cover some fonts specifically note that usage via **%@font-face** rules in CSS style sheets is not allowed. [Font](../../../aspose.words/font/) subsetting can also violate license terms.
-
+ Important! When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via @font-face rules in CSS style sheets is not allowed. Font subsetting can also violate license terms. 
 ## Examples
 
 
+Shows how to work with font subsetting.
 
-Shows how to work with font subsetting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +83,6 @@ for (System::String filename : fontFileNames)
     ASSERT_TRUE(static_cast<int64_t>(System::Math::Max(fontResourcesSubsettingSizeThreshold, 30000)) > System::MakeObject<System::IO::FileInfo>(filename)->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

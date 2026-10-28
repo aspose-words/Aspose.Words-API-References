@@ -4,7 +4,7 @@ linktitle: get_EmbeddingLicensingRights
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_EmbeddingLicensingRights method. Gets the embedded font licensing rights in C++.'
 type: docs
-weight: 3500
+weight: 12400
 url: /cpp/aspose.words.fonts/fontinfo/get_embeddinglicensingrights/
 ---
 ## FontInfo::get_EmbeddingLicensingRights method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Fonts::FontEmbeddingLicensingRights> Aspose::Wo
 
 
 The value may be null if font is not embedded.
-
 ## Examples
 
 
+Shows how to get license rights information for embedded fonts (FontInfo).
 
-Shows how to get license rights information for embedded fonts ([FontInfo](../)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -42,10 +41,8 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
-
 ## See Also
 
-* Class [FontEmbeddingLicensingRights](../../fontembeddinglicensingrights/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

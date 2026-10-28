@@ -4,7 +4,7 @@ linktitle: get_ReverseOrder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_ReverseOrder method. Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min in C++.'
 type: docs
-weight: 21000
+weight: 31790
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_reverseorder/
 ---
 ## ChartAxis::get_ReverseOrder method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_reverseorder/
 Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartAxis::get_ReverseOrder()
+_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_ReverseOrder()
 ```
 
+## Remarks
 
+ The property is not supported by MS Office 2016 new charts. Default value is **false**. 
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +35,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -71,7 +73,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxis](../)

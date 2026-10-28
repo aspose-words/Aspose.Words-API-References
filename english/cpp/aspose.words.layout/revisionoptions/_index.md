@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::RevisionOptions class
 linktitle: RevisionOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::RevisionOptions class. Allows to control how document revisions are handled during layout process. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Layout::RevisionOptions class. Allows to control how document revisions are handled during layout process. To learn more, visit the Converting to Fixed-page Format documentation article in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.layout/revisionoptions/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.layout/revisionoptions/
 ## RevisionOptions class
 
 
-Allows to control how document revisions are handled during layout process. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
+Allows to control how document revisions are handled during layout process. 
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
 
 ```cpp
 class RevisionOptions : public System::Object
@@ -20,6 +21,9 @@ class RevisionOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_CommentColor](./get_commentcolor/)() const | Allows to specify the color to be used for comments. Default value is [Red](../revisioncolor/). |
 | [get_DeleteCellColor](./get_deletecellcolor/)() | Allows to specify the color to be used for deleted cells [Deletion](../../aspose.words/revisiontype/). Default value is [Pink](../revisioncolor/). |
 | [get_DeletedTextColor](./get_deletedtextcolor/)() | Allows to specify the color to be used for deleted content [Deletion](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |
@@ -41,36 +45,32 @@ class RevisionOptions : public System::Object
 | [get_ShowOriginalRevision](./get_showoriginalrevision/)() const | Allows to specify whether the original text should be shown instead of revised one. Default value is **false**. |
 | [get_ShowRevisionBars](./get_showrevisionbars/)() const | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is **true**. |
 | [get_ShowRevisionMarks](./get_showrevisionmarks/)() const | Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_CommentColor](./set_commentcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_CommentColor](./get_commentcolor/). |
-| [set_DeleteCellColor](./set_deletecellcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeleteCellColor](./get_deletecellcolor/). |
-| [set_DeletedTextColor](./set_deletedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor](./get_deletedtextcolor/). |
-| [set_DeletedTextEffect](./set_deletedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect](./get_deletedtexteffect/). |
-| [set_InsertCellColor](./set_insertcellcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertCellColor](./get_insertcellcolor/). |
-| [set_InsertedTextColor](./set_insertedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertedTextColor](./get_insertedtextcolor/). |
-| [set_InsertedTextEffect](./set_insertedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertedTextEffect](./get_insertedtexteffect/). |
+| [set_CommentColor](./set_commentcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for comments. Default value is [Red](../revisioncolor/). |
+| [set_DeleteCellColor](./set_deletecellcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for deleted cells [Deletion](../../aspose.words/revisiontype/). Default value is [Pink](../revisioncolor/). |
+| [set_DeletedTextColor](./set_deletedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for deleted content [Deletion](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |
+| [set_DeletedTextEffect](./set_deletedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Allows to specify the effect to be applied to the deleted content [Deletion](../../aspose.words/revisiontype/). Default value is [StrikeThrough](../revisiontexteffect/) |
+| [set_InsertCellColor](./set_insertcellcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for inserted cells [Insertion](../../aspose.words/revisiontype/). Default value is [Blue](../revisioncolor/). |
+| [set_InsertedTextColor](./set_insertedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for inserted content [Insertion](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |
+| [set_InsertedTextEffect](./set_insertedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Allows to specify the effect to be applied to the inserted content [Insertion](../../aspose.words/revisiontype/). Default value is [Underline](../revisiontexteffect/). |
 | [set_MeasurementUnit](./set_measurementunit/)(Aspose::Words::MeasurementUnits) | Allows to specify the measurement units for revision comments. Default value is [Centimeters](../../aspose.words/measurementunits/) |
-| [set_MovedFromTextColor](./set_movedfromtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedFromTextColor](./get_movedfromtextcolor/). |
-| [set_MovedFromTextEffect](./set_movedfromtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedFromTextEffect](./get_movedfromtexteffect/). |
-| [set_MovedToTextColor](./set_movedtotextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedToTextColor](./get_movedtotextcolor/). |
-| [set_MovedToTextEffect](./set_movedtotexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedToTextEffect](./get_movedtotexteffect/). |
-| [set_RevisedPropertiesColor](./set_revisedpropertiescolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesColor](./get_revisedpropertiescolor/). |
-| [set_RevisedPropertiesEffect](./set_revisedpropertieseffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect](./get_revisedpropertieseffect/). |
-| [set_RevisionBarsColor](./set_revisionbarscolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor](./get_revisionbarscolor/). |
-| [set_RevisionBarsPosition](./set_revisionbarsposition/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition](./get_revisionbarsposition/). |
-| [set_RevisionBarsWidth](./set_revisionbarswidth/)(float) | Setter for [Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth](./get_revisionbarswidth/). |
-| [set_ShowInBalloons](./set_showinballoons/)(Aspose::Words::Layout::ShowInBalloons) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons](./get_showinballoons/). |
-| [set_ShowOriginalRevision](./set_showoriginalrevision/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision](./get_showoriginalrevision/). |
-| [set_ShowRevisionBars](./set_showrevisionbars/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars](./get_showrevisionbars/). |
-| [set_ShowRevisionMarks](./set_showrevisionmarks/)(bool) | Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks](./get_showrevisionmarks/). |
-| static [Type](./type/)() |  |
-
+| [set_MovedFromTextColor](./set_movedfromtextcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for areas where content was moved from [Moving](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |
+| [set_MovedFromTextEffect](./set_movedfromtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Allows to specify the effect to be applied to the areas where content was moved from [Moving](../../aspose.words/revisiontype/). Default value is [DoubleStrikeThrough](../revisiontexteffect/) |
+| [set_MovedToTextColor](./set_movedtotextcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for areas where content was moved to [Moving](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |
+| [set_MovedToTextEffect](./set_movedtotexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Allows to specify the effect to be applied to the areas where content was moved to [Moving](../../aspose.words/revisiontype/). Default value is [DoubleUnderline](../revisiontexteffect/) |
+| [set_RevisedPropertiesColor](./set_revisedpropertiescolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for content with changes of formatting properties [FormatChange](../../aspose.words/revisiontype/) Default value is [NoHighlight](../revisioncolor/). |
+| [set_RevisedPropertiesEffect](./set_revisedpropertieseffect/)(Aspose::Words::Layout::RevisionTextEffect) | Allows to specify the effect for content areas with changes of formatting properties [FormatChange](../../aspose.words/revisiontype/) Default value is [None](../revisiontexteffect/) |
+| [set_RevisionBarsColor](./set_revisionbarscolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [Red](../revisioncolor/). |
+| [set_RevisionBarsPosition](./set_revisionbarsposition/)(Aspose::Words::Drawing::HorizontalAlignment) | Sets rendering position of revision bars. Default value is [Outside](../../aspose.words.drawing/horizontalalignment/). |
+| [set_RevisionBarsWidth](./set_revisionbarswidth/)(float) | Sets width of revision bars, points. |
+| [set_ShowInBalloons](./set_showinballoons/)(Aspose::Words::Layout::ShowInBalloons) | Allows to specify whether the revisions are rendered in the balloons. Default value is [None](../showinballoons/). |
+| [set_ShowOriginalRevision](./set_showoriginalrevision/)(bool) | Allows to specify whether the original text should be shown instead of revised one. Default value is **false**. |
+| [set_ShowRevisionBars](./set_showrevisionbars/)(bool) | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is **true**. |
+| [set_ShowRevisionMarks](./set_showrevisionmarks/)(bool) | Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**. |
 ## Examples
 
 
+Shows how to alter the appearance of revisions in a rendered output document.
 
-Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -89,7 +89,6 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Horizo
 
 doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

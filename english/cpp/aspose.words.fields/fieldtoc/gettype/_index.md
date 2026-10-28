@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldToc::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldToc::GetType() const override
 ```
 
 ## See Also

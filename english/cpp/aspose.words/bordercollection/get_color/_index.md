@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::get_Color method. Gets or sets the border color in C++.'
 type: docs
-weight: 5000
+weight: 19201
 url: /cpp/aspose.words/bordercollection/get_color/
 ---
 ## BorderCollection::get_Color method
@@ -22,12 +22,11 @@ System::Drawing::Color Aspose::Words::BorderCollection::get_Color()
 Returns the color of the first border in the collection.
 
 Sets the color of all borders in the collection excluding diagonal borders.
-
 ## Examples
 
 
+Shows how to create green wavy page border with a shadow.
 
-Shows how to create green wavy page border with a shadow. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
@@ -40,7 +39,6 @@ pageSetup->get_Borders()->set_Shadow(true);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorders.docx");
 ```
-
 ## See Also
 
 * Class [BorderCollection](../)

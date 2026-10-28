@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldnumpages/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldNumPages::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldNumPages::GetType() const override
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlPart class
 linktitle: CustomXmlPart
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlPart class. Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::CustomXmlPart class. Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.markup/customxmlpart/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/customxmlpart/
 ## CustomXmlPart class
 
 
-Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+Represents a Custom XML Data Storage Part (custom XML data within a package). 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlPart : public System::Object
@@ -22,25 +23,24 @@ class CustomXmlPart : public System::Object
 | --- | --- |
 | [Clone](./clone/)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [Data](./get_data/) value. |
 | [CustomXmlPart](./customxmlpart/)() |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Data](./get_data/)() const | Gets or sets the XML content of this Custom XML Data Storage Part. |
 | [get_DataChecksum](./get_datachecksum/)() | Specifies a cyclic redundancy check (CRC) checksum of the [Data](./get_data/) content. |
 | [get_Id](./get_id/)() const | Gets or sets the string that identifies this custom XML part within an OOXML document. |
 | [get_Schemas](./get_schemas/)() const | Specifies the set of XML schemas that are associated with this custom XML part. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Data](./set_data/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Data](./get_data/). |
-| [set_Id](./set_id/)(const System::String\&) | Setter for [Aspose::Words::Markup::CustomXmlPart::get_Id](./get_id/). |
-| static [Type](./type/)() |  |
+| [set_Data](./set_data/)(const System::ArrayPtr\<uint8_t\> \&) | Sets the XML content of this Custom XML Data Storage Part. |
+| [set_Id](./set_id/)(const System::String \&) | Sets the string that identifies this custom XML part within an OOXML document. |
 ## Remarks
 
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [CustomXmlParts](../../aspose.words/document/get_customxmlparts/) collection.
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -100,7 +100,6 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

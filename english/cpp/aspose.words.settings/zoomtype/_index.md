@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/zoomtype/
 Possible values for how large or small the document appears on the screen in Microsoft Word.
 
 ```cpp
-enum class ZoomType
+enum class ZoomType : int
 ```
 
 ### Values
@@ -21,17 +21,16 @@ enum class ZoomType
 | Name | Value | Description |
 | --- | --- | --- |
 | Custom | 0 | Zoom percentage is set explicitly. It is not recalculated automatically when control size changes. |
-| None | 0 | Indicates to use the explicit zoom percentage. Same as [Custom](./). |
 | FullPage | 1 | Zoom percentage is automatically recalculated to fit one full page. |
+| None | 0 | Indicates to use the explicit zoom percentage. Same as [Custom](./). |
 | PageWidth | 2 | Zoom percentage is automatically recalculated to fit page width. |
 | TextFit | 3 | Zoom percentage is automatically recalculated to fit text. |
-
 
 ## Examples
 
 
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 
-Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,8 +44,10 @@ ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```
-
 ## See Also
+
+* [ViewOptions](../viewoptions/)
+* [ZoomType](../viewoptions/get_zoomtype/)
 
 * Namespace [Aspose::Words::Settings](../)
 * Library [Aspose.Words for C++](../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ShadowFormat::set_Color method
 linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ShadowFormat::set_Color method. Setter for Aspose::Words::Drawing::ShadowFormat::get_Color in C++.'
+description: 'Aspose::Words::Drawing::ShadowFormat::set_Color method. Sets a Color object that represents the color for the shadow. The default value is Black in C++.'
 type: docs
 weight: 6334
 url: /cpp/aspose.words.drawing/shadowformat/set_color/
@@ -10,12 +10,39 @@ url: /cpp/aspose.words.drawing/shadowformat/set_color/
 ## ShadowFormat::set_Color method
 
 
-Setter for [Aspose::Words::Drawing::ShadowFormat::get_Color](../get_color/).
+Sets a **Color** object that represents the color for the shadow. The default value is **Black**.
 
 ```cpp
 void Aspose::Words::Drawing::ShadowFormat::set_Color(System::Drawing::Color value)
 ```
 
+## Examples
+
+
+Shows how to get shadow color.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+System::SharedPtr<Aspose::Words::Drawing::ShadowFormat> shadowFormat = shape->get_ShadowFormat();
+
+ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shadowFormat->get_Color().ToArgb());
+ASSERT_EQ(ShadowType::ShadowMixed, shadowFormat->get_Type());
+```
+
+Shows how to set a color with transparency.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+
+System::SharedPtr<Aspose::Words::Drawing::ShadowFormat> shadowFormat = shape->get_ShadowFormat();
+shadowFormat->set_Type(ShadowType::Shadow21);
+shadowFormat->set_Color(System::Drawing::Color::get_Red());
+shadowFormat->set_Transparency(0.8);
+
+doc->Save(get_ArtifactsDir() + u"Shape.ShadowFormatTransparency.docx");
+```
 ## See Also
 
 * Class [ShadowFormat](../)

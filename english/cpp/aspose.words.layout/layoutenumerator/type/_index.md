@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Layout::LayoutEnumerator class in C++.'
 type: docs
-weight: 1000
+weight: 23100
 url: /cpp/aspose.words.layout/layoutenumerator/type/
 ---
 ## LayoutEnumerator::Type method

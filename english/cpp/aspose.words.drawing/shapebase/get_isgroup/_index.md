@@ -4,7 +4,7 @@ linktitle: get_IsGroup
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsGroup method. Returns true if this is a group shape in C++.'
 type: docs
-weight: 27000
+weight: 61435
 url: /cpp/aspose.words.drawing/shapebase/get_isgroup/
 ---
 ## ShapeBase::get_IsGroup method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_isgroup/
 Returns **true** if this is a group shape.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsGroup()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsGroup()
 ```
 
 ## See Also

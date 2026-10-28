@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/add/
 Adds an item to the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlSchemaCollection::Add(const System::String &value)
+void Aspose::Words::Markup::CustomXmlSchemaCollection::Add(const System::String & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String\& | The item to add. |
-
+| value | const System::String \& | The item to add. |
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -66,7 +65,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

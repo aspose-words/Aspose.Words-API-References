@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/add/
 Adds a property to the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlPropertyCollection::Add(const System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty> &property)
+void Aspose::Words::Markup::CustomXmlPropertyCollection::Add(const System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty> & property)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\>\& | The property to add. |
-
+| property | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlProperty\> \& | The property to add. |
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -75,10 +74,8 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
-* Class [CustomXmlProperty](../../customxmlproperty/)
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

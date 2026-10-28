@@ -4,7 +4,7 @@ linktitle: get_Symbol
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartMarker::get_Symbol method. Gets chart marker symbol in C++.'
 type: docs
-weight: 4000
+weight: 6800
 url: /cpp/aspose.words.drawing.charts/chartmarker/get_symbol/
 ---
 ## ChartMarker::get_Symbol method
@@ -18,7 +18,6 @@ Aspose::Words::Drawing::Charts::MarkerSymbol Aspose::Words::Drawing::Charts::Cha
 
 ## See Also
 
-* Enum [MarkerSymbol](../../markersymbol/)
 * Class [ChartMarker](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

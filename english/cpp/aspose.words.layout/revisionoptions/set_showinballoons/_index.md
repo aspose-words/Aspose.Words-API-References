@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::RevisionOptions::set_ShowInBalloons method
 linktitle: set_ShowInBalloons
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::RevisionOptions::set_ShowInBalloons method. Setter for Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons in C++.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_ShowInBalloons method. Allows to specify whether the revisions are rendered in the balloons. Default value is None in C++.'
 type: docs
 weight: 38000
 url: /cpp/aspose.words.layout/revisionoptions/set_showinballoons/
@@ -10,15 +10,76 @@ url: /cpp/aspose.words.layout/revisionoptions/set_showinballoons/
 ## RevisionOptions::set_ShowInBalloons method
 
 
-Setter for [Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons](../get_showinballoons/).
+Allows to specify whether the revisions are rendered in the balloons. Default value is [None](../../showinballoons/).
 
 ```cpp
 void Aspose::Words::Layout::RevisionOptions::set_ShowInBalloons(Aspose::Words::Layout::ShowInBalloons value)
 ```
 
+## Remarks
+
+ Note that revisions are not rendered in balloons for [ShowInAnnotations](../../commentdisplaymode/). 
+## Examples
+
+
+Shows how to display revisions in balloons.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
+
+// By default, text that is a revision has a different color to differentiate it from the other non-revision text.
+// Set a revision option to show more details about each revision in a balloon on the page's right margin.
+doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowInBalloons(ShowInBalloons::FormatAndDelete);
+doc->Save(get_ArtifactsDir() + u"Revision.ShowRevisionBalloons.pdf");
+```
+
+Shows how to modify the appearance of revisions.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
+
+// Get the RevisionOptions object that controls the appearance of revisions.
+System::SharedPtr<Aspose::Words::Layout::RevisionOptions> revisionOptions = doc->get_LayoutOptions()->get_RevisionOptions();
+
+// Render insertion revisions in green and italic.
+revisionOptions->set_InsertedTextColor(RevisionColor::Green);
+revisionOptions->set_InsertedTextEffect(RevisionTextEffect::Italic);
+
+// Render deletion revisions in red and bold.
+revisionOptions->set_DeletedTextColor(RevisionColor::Red);
+revisionOptions->set_DeletedTextEffect(RevisionTextEffect::Bold);
+
+// The same text will appear twice in a movement revision:
+// once at the departure point and once at the arrival destination.
+// Render the text at the moved-from revision yellow with a double strike through
+// and double-underlined blue at the moved-to revision.
+revisionOptions->set_MovedFromTextColor(RevisionColor::Yellow);
+revisionOptions->set_MovedFromTextEffect(RevisionTextEffect::DoubleStrikeThrough);
+revisionOptions->set_MovedToTextColor(RevisionColor::ClassicBlue);
+revisionOptions->set_MovedToTextEffect(RevisionTextEffect::DoubleUnderline);
+
+// Render format revisions in dark red and bold.
+revisionOptions->set_RevisedPropertiesColor(RevisionColor::DarkRed);
+revisionOptions->set_RevisedPropertiesEffect(RevisionTextEffect::Bold);
+
+// Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
+revisionOptions->set_RevisionBarsColor(RevisionColor::DarkBlue);
+revisionOptions->set_RevisionBarsWidth(15.0f);
+
+// Show revision marks and original text.
+revisionOptions->set_ShowOriginalRevision(true);
+revisionOptions->set_ShowRevisionMarks(true);
+
+// Get movement, deletion, formatting revisions, and comments to show up in green balloons
+// on the right side of the page.
+revisionOptions->set_ShowInBalloons(ShowInBalloons::Format);
+revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
+
+// These features are only applicable to formats such as .pdf or .jpg.
+doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
+```
 ## See Also
 
-* Enum [ShowInBalloons](../../showinballoons/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

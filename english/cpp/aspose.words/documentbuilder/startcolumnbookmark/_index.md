@@ -13,13 +13,13 @@ url: /cpp/aspose.words/documentbuilder/startcolumnbookmark/
 Marks the current position in the document as a column bookmark start. The position must be in a table cell.
 
 ```cpp
-System::SharedPtr<Aspose::Words::BookmarkStart> Aspose::Words::DocumentBuilder::StartColumnBookmark(const System::String &bookmarkName)
+System::SharedPtr<Aspose::Words::BookmarkStart> Aspose::Words::DocumentBuilder::StartColumnBookmark(const System::String & bookmarkName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmarkName | const System::String\& | Name of the bookmark. |
+| bookmarkName | const System::String \& | Name of the bookmark. |
 
 ### ReturnValue
 
@@ -27,17 +27,16 @@ The bookmark start node that was just created.
 ## Remarks
 
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [StartColumnBookmark()](../) and [EndColumnBookmark()](../) with the same *bookmarkName* parameter.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [StartColumnBookmark()](./) and [EndColumnBookmark()](../endcolumnbookmark/) with the same bookmarkName parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 The actual position of the inserted [BookmarkStart](../../bookmarkstart/) node may differ from the current document builder position.
-
 ## Examples
 
 
+Shows how to create a column bookmark.
 
-Shows how to create a column bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,10 +79,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"Bookmarks.CreateColumnBookmark.docx");
 ```
-
 ## See Also
 
-* Class [BookmarkStart](../../bookmarkstart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

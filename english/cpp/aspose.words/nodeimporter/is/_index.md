@@ -13,7 +13,7 @@ url: /cpp/aspose.words/nodeimporter/is/
 
 
 ```cpp
-virtual bool Aspose::Words::NodeImporter::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::NodeImporter::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

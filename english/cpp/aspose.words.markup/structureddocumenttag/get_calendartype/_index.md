@@ -4,13 +4,13 @@ linktitle: get_CalendarType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_CalendarType method. Specifies the type of calendar for this SDT. Default is Default in C++.'
 type: docs
-weight: 8000
+weight: 65000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_calendartype/
 ---
 ## StructuredDocumentTag::get_CalendarType method
 
 
-Specifies the type of calendar for this **SDT**. Default is [Default](../../sdtcalendartype/)
+Specifies the type of calendar for this SDT. Default is [Default](../../sdtcalendartype/)
 
 ```cpp
 Aspose::Words::Markup::SdtCalendarType Aspose::Words::Markup::StructuredDocumentTag::get_CalendarType()
@@ -19,15 +19,14 @@ Aspose::Words::Markup::SdtCalendarType Aspose::Words::Markup::StructuredDocument
 ## Remarks
 
 
-Accessing this property will only work for [Date](../../sdttype/) SDT type.
+Accessing this property will only work for [Date](../../sdttype/) SDT type. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,10 +56,8 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
-* Enum [SdtCalendarType](../../sdtcalendartype/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

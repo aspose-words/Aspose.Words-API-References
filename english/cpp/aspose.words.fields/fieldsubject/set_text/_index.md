@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSubject::set_Text method
 linktitle: set_Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSubject::set_Text method. Setter for Aspose::Words::Fields::FieldSubject::get_Text in C++.'
+description: 'Aspose::Words::Fields::FieldSubject::set_Text method. Sets the text of the subject in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fieldsubject/set_text/
@@ -10,12 +10,44 @@ url: /cpp/aspose.words.fields/fieldsubject/set_text/
 ## FieldSubject::set_Text method
 
 
-Setter for [Aspose::Words::Fields::FieldSubject::get_Text](../get_text/).
+Sets the text of the subject.
 
 ```cpp
-void Aspose::Words::Fields::FieldSubject::set_Text(const System::String &value)
+void Aspose::Words::Fields::FieldSubject::set_Text(const System::String & value)
 ```
 
+## Examples
+
+
+Shows how to use the SUBJECT field.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Set a value for the document's "Subject" built-in property.
+doc->get_BuiltInDocumentProperties()->set_Subject(u"My subject");
+
+// Create a SUBJECT field to display the value of that built-in property.
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
+field->Update();
+
+ASSERT_EQ(u" SUBJECT ", field->GetFieldCode());
+ASSERT_EQ(u"My subject", field->get_Result());
+
+// If we give the SUBJECT field's Text property value and update it, the field will
+// overwrite the current value of the "Subject" built-in property with the value of its Text property,
+// and then display the new value.
+field->set_Text(u"My new subject");
+field->Update();
+
+ASSERT_EQ(u" SUBJECT  \"My new subject\"", field->GetFieldCode());
+ASSERT_EQ(u"My new subject", field->get_Result());
+
+ASSERT_EQ(u"My new subject", doc->get_BuiltInDocumentProperties()->get_Subject());
+
+doc->Save(get_ArtifactsDir() + u"Field.SUBJECT.docx");
+```
 ## See Also
 
 * Class [FieldSubject](../)

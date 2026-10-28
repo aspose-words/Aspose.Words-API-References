@@ -4,7 +4,7 @@ linktitle: get_CanHaveImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_CanHaveImage method. Returns true if the shape type allows the shape to have an image in C++.'
 type: docs
-weight: 12000
+weight: 61165
 url: /cpp/aspose.words.drawing/shapebase/get_canhaveimage/
 ---
 ## ShapeBase::get_CanHaveImage method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/shapebase/get_canhaveimage/
 Returns **true** if the shape type allows the shape to have an image.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_CanHaveImage()
+_Bool Aspose::Words::Drawing::ShapeBase::get_CanHaveImage()
 ```
 
 ## Remarks
 
 
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns **true** for all shapes except [GroupShape](../../groupshape/).
-
 ## Examples
 
 
+Shows how to insert and rotate an image.
 
-Shows how to insert and rotate an image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +39,6 @@ shape->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Rotate.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

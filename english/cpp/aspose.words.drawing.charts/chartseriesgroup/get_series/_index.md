@@ -4,7 +4,7 @@ linktitle: get_Series
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Series method. Gets a collection of series that belong to this series group in C++.'
 type: docs
-weight: 11000
+weight: 14847
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_series/
 ---
 ## ChartSeriesGroup::get_Series method
@@ -16,12 +16,11 @@ Gets a collection of series that belong to this series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Series()
 ```
 
-
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,10 +54,8 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
-* Class [ChartSeriesCollection](../../chartseriescollection/)
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

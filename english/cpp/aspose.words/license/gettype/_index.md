@@ -13,7 +13,7 @@ url: /cpp/aspose.words/license/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::License::GetType() const override
+const System::TypeInfo & Aspose::Words::License::GetType() const override
 ```
 
 ## See Also

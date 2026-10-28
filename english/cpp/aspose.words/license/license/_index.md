@@ -4,7 +4,7 @@ linktitle: License
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::License::License constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 4500
 url: /cpp/aspose.words/license/license/
 ---
 ## License::License constructor
@@ -16,12 +16,11 @@ Initializes a new instance of this class.
 Aspose::Words::License::License()
 ```
 
-
 ## Examples
 
 
+Shows how to initialize a license for Aspose.Words using a license file in the local file system.
 
-Shows how to initialize a license for Aspose.Words using a license file in the local file system. 
 ```cpp
 System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
 
@@ -40,7 +39,6 @@ System::IO::File::Copy(licenseFileName, licenseCopyFileName);
 // One of those locations will be the "bin" folder, which contains a copy of our license file.
 license->SetLicense(testLicenseFileName);
 ```
-
 ## See Also
 
 * Class [License](../)

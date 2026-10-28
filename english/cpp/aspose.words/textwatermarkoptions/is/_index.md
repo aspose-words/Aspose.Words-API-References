@@ -13,7 +13,7 @@ url: /cpp/aspose.words/textwatermarkoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::TextWatermarkOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::TextWatermarkOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FrameFormat::get_Width method. Gets the width of the specified frame, in points in C++.'
 type: docs
-weight: 13000
+weight: 28000
 url: /cpp/aspose.words/frameformat/get_width/
 ---
 ## FrameFormat::get_Width method
@@ -16,12 +16,11 @@ Gets the width of the specified frame, in points.
 double Aspose::Words::FrameFormat::get_Width()
 ```
 
-
 ## Examples
 
 
+Shows how to get information about formatting properties of paragraphs that are frames.
 
-Shows how to get information about formatting properties of paragraphs that are frames. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraph frame.docx"));
 
@@ -42,7 +41,6 @@ ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition()
 ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
-
 ## See Also
 
 * Class [FrameFormat](../)

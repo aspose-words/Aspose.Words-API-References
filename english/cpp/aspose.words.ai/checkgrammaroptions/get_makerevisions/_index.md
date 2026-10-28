@@ -4,7 +4,7 @@ linktitle: get_MakeRevisions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::CheckGrammarOptions::get_MakeRevisions method. Allows to specify either final or revised document to be returned with proofed text. Default value is false in C++.'
 type: docs
-weight: 4000
+weight: 7600
 url: /cpp/aspose.words.ai/checkgrammaroptions/get_makerevisions/
 ---
 ## CheckGrammarOptions::get_MakeRevisions method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/get_makerevisions/
 Allows to specify either final or revised document to be returned with proofed text. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::AI::CheckGrammarOptions::get_MakeRevisions() const
+_Bool Aspose::Words::AI::CheckGrammarOptions::get_MakeRevisions() const
 ```
 
 ## See Also

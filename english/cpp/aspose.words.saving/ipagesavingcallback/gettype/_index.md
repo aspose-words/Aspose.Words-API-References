@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/ipagesavingcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::IPageSavingCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::IPageSavingCallback::GetType() const override
 ```
 
 ## See Also

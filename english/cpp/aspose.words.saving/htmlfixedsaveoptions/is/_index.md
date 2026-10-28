@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::HtmlFixedSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

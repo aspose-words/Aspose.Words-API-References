@@ -4,7 +4,7 @@ linktitle: get_IsListItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_IsListItem method. True when the paragraph is an item in a bulleted or numbered list in C++.'
 type: docs
-weight: 16000
+weight: 44368
 url: /cpp/aspose.words/paragraphformat/get_islistitem/
 ---
 ## ParagraphFormat::get_IsListItem method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_islistitem/
 True when the paragraph is an item in a bulleted or numbered list.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_IsListItem()
+_Bool Aspose::Words::ParagraphFormat::get_IsListItem()
 ```
-
 
 ## Examples
 
 
+Shows how to nest a list inside another list.
 
-Shows how to nest a list inside another list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,7 +67,6 @@ builder->get_ParagraphFormat()->ClearFormatting();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

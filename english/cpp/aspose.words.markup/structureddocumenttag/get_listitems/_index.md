@@ -4,13 +4,13 @@ linktitle: get_ListItems
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_ListItems method. Gets SdtListItemCollection associated with this SDT in C++.'
 type: docs
-weight: 21000
+weight: 78000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_listitems/
 ---
 ## StructuredDocumentTag::get_ListItems method
 
 
-Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this **SDT**.
+Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this SDT.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Markup::SdtListItemCollection> Aspose::Words::Markup::StructuredDocumentTag::get_ListItems()
@@ -19,15 +19,14 @@ System::SharedPtr<Aspose::Words::Markup::SdtListItemCollection> Aspose::Words::M
 ## Remarks
 
 
-Accessing this property will only work for [ComboBox](../../sdttype/) or [DropDownList](../../sdttype/) SDT types.
+Accessing this property will only work for [ComboBox](../../sdttype/) or [DropDownList](../../sdttype/) SDT types. 
 
 For all other SDT types exception will occur.
-
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -81,10 +80,8 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
-* Class [SdtListItemCollection](../../sdtlistitemcollection/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

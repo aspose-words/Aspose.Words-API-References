@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mustachetag/is/
 
 
 ```cpp
-virtual bool Aspose::Words::MailMerging::MustacheTag::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::MailMerging::MustacheTag::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

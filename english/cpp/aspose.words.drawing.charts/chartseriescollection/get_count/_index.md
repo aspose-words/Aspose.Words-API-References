@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::get_Count method. Returns the number of ChartSeries in this collection in C++.'
 type: docs
-weight: 4000
+weight: 11000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/get_count/
 ---
 ## ChartSeriesCollection::get_Count method
@@ -16,12 +16,11 @@ Returns the number of [ChartSeries](../../chartseries/) in this collection.
 int32_t Aspose::Words::Drawing::Charts::ChartSeriesCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to add and remove series data in a chart.
 
-Shows how to add and remove series data in a chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +65,6 @@ ASSERT_FALSE(chartData->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspo
 // before we can begin working on a blank chart.
 chartData->Clear();
 ```
-
 ## See Also
 
 * Class [ChartSeriesCollection](../)

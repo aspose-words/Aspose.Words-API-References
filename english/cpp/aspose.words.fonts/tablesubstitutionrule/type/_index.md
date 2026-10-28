@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Fonts::TableSubstitutionRule class in C++.'
 type: docs
-weight: 1000
+weight: 12000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/type/
 ---
 ## TableSubstitutionRule::Type method

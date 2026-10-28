@@ -4,7 +4,7 @@ linktitle: get_ShowPercentage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowPercentage method. Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is false. Applies only to Pie charts in C++.'
 type: docs
-weight: 12000
+weight: 18266
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showpercentage/
 ---
 ## ChartDataLabelCollection::get_ShowPercentage method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showpercentag
 Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowPercentage()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowPercentage()
 ```
 
+## Remarks
 
+ Value defined for this property can be overridden for an individual data label with using the [ShowPercentage](../../chartdatalabel/get_showpercentage/) property. 
 ## Examples
 
 
+Shows how to work with data labels of a pie chart.
 
-Shows how to work with data labels of a pie chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +48,6 @@ dataLabels->set_Separator(u"; ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

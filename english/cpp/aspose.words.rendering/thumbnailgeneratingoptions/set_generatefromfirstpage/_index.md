@@ -2,7 +2,7 @@
 title: Aspose::Words::Rendering::ThumbnailGeneratingOptions::set_GenerateFromFirstPage method
 linktitle: set_GenerateFromFirstPage
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Rendering::ThumbnailGeneratingOptions::set_GenerateFromFirstPage method. Setter for Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage in C++.'
+description: 'Aspose::Words::Rendering::ThumbnailGeneratingOptions::set_GenerateFromFirstPage method. Specifies whether to generate thumbnail from first page of the document or first image in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/set_generatefromfirstpage/
@@ -10,12 +10,40 @@ url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/set_generatefromfirs
 ## ThumbnailGeneratingOptions::set_GenerateFromFirstPage method
 
 
-Setter for [Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage](../get_generatefromfirstpage/).
+Specifies whether to generate thumbnail from first page of the document or first image.
 
 ```cpp
 void Aspose::Words::Rendering::ThumbnailGeneratingOptions::set_GenerateFromFirstPage(bool value)
 ```
 
+## Remarks
+
+ Default is **true**, which means thumbnail will be generated from first page of the document. If value is **false** and there is no image in the document, thumbnail will be generated from first page of the document. 
+## Examples
+
+
+Shows how to update a document's thumbnail.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Hello world!");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+
+// There are two ways of setting a thumbnail image when saving a document to .epub.
+// 1 -  Use the document's first page:
+doc->UpdateThumbnail();
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstPage.epub");
+
+// 2 -  Use the first image found in the document:
+auto options = System::MakeObject<Aspose::Words::Rendering::ThumbnailGeneratingOptions>();
+options->set_ThumbnailSize(System::Drawing::Size(400, 400));
+options->set_GenerateFromFirstPage(false);
+
+doc->UpdateThumbnail(options);
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
+```
 ## See Also
 
 * Class [ThumbnailGeneratingOptions](../)

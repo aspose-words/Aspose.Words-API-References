@@ -2,7 +2,7 @@
 title: Aspose::Words::FileFormatInfo class
 linktitle: FileFormatInfo
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods. To learn more, visit the Detect File Format and Check Format Compatibility documentation article in C++.'
 type: docs
 weight: 27000
 url: /cpp/aspose.words/fileformatinfo/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/fileformatinfo/
 ## FileFormatInfo class
 
 
-Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods. To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/cpp/detect-file-format-and-check-format-compatibility/) documentation article.
+Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods. 
+To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/cpp/detect-file-format-and-check-format-compatibility/) documentation article.
 
 ```cpp
 class FileFormatInfo : public System::Object
@@ -20,24 +21,23 @@ class FileFormatInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Encoding](./get_encoding/)() const | Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents. |
 | [get_HasDigitalSignature](./get_hasdigitalsignature/)() const | Returns **true** if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not. |
 | [get_HasMacros](./get_hasmacros/)() const | Returns **true** if this document contains a VBA macros. |
 | [get_IsEncrypted](./get_isencrypted/)() const | Returns **true** if the document is encrypted and requires a password to open. |
 | [get_LoadFormat](./get_loadformat/)() const | Gets the detected document format. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
 
-You do not create instances of this class directly. Objects of this class are returned by [DetectFileFormat()](../) methods.
-
+You do not create instances of this class directly. Objects of this class are returned by [DetectFileFormat()](../fileformatutil/detectfileformat/) methods.
 ## Examples
 
 
+Shows how to use the FileFormatUtil class to detect the document format and encryption.
 
-Shows how to use the [FileFormatUtil](../fileformatutil/) class to detect the document format and encryption. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -55,8 +55,8 @@ ASSERT_EQ(u".odt", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat())
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
+Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
 
-Shows how to use the [FileFormatUtil](../fileformatutil/) class to detect the document format and presence of digital signatures. 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx");
@@ -77,7 +77,6 @@ ASSERT_TRUE(info->get_HasDigitalSignature());
 // We can load and access the signatures of a signed document in a collection like this.
 ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

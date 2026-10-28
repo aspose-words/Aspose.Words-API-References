@@ -4,7 +4,7 @@ linktitle: get_BarcodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldMergeBarcode::get_BarcodeType method. Gets the barcode type (QR, etc.) in C++.'
 type: docs
-weight: 4000
+weight: 19224
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_barcodetype/
 ---
 ## FieldMergeBarcode::get_BarcodeType method

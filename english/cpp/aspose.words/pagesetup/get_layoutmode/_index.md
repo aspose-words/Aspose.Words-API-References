@@ -4,7 +4,7 @@ linktitle: get_LayoutMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_LayoutMode method. Gets or sets the layout mode of this section in C++.'
 type: docs
-weight: 21000
+weight: 49433
 url: /cpp/aspose.words/pagesetup/get_layoutmode/
 ---
 ## PageSetup::get_LayoutMode method
@@ -16,12 +16,11 @@ Gets or sets the layout mode of this section.
 Aspose::Words::SectionLayoutMode Aspose::Words::PageSetup::get_LayoutMode()
 ```
 
-
 ## Examples
 
 
+Shows how to specify a for the number of characters that each line may have.
 
-Shows how to specify a for the number of characters that each line may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,8 +39,8 @@ builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CharactersPerLine.docx");
 ```
 
+Shows how to specify a limit for the number of lines that each page may have.
 
-Shows how to specify a limit for the number of lines that each page may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,10 +59,8 @@ for (int32_t i = 0; i < 30; i++)
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
-
 ## See Also
 
-* Enum [SectionLayoutMode](../../sectionlayoutmode/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

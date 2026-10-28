@@ -4,7 +4,7 @@ linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldArgumentBuilder::FieldArgumentBuilder constructor. Initializes an instance of the FieldArgumentBuilder class in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder::FieldArgumentBuilder constructor
@@ -16,12 +16,11 @@ Initializes an instance of the [FieldArgumentBuilder](../) class.
 Aspose::Words::Fields::FieldArgumentBuilder::FieldArgumentBuilder()
 ```
 
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -95,7 +94,6 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldArgumentBuilder](../)

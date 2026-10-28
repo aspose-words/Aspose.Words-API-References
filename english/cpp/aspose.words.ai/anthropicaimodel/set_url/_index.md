@@ -4,7 +4,7 @@ linktitle: set_Url
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::AnthropicAiModel::set_Url method. Sets a URL of the model. The default value is "https://api.anthropic.com/" in C++.'
 type: docs
-weight: 3500
+weight: 8000
 url: /cpp/aspose.words.ai/anthropicaimodel/set_url/
 ---
 ## AnthropicAiModel::set_Url method

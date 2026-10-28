@@ -4,7 +4,7 @@ linktitle: get_FrameFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_FrameFormat method. Provides access to the frame formatting properties in C++.'
 type: docs
-weight: 6000
+weight: 35000
 url: /cpp/aspose.words/paragraph/get_frameformat/
 ---
 ## Paragraph::get_FrameFormat method
@@ -16,12 +16,11 @@ Provides access to the frame formatting properties.
 System::SharedPtr<Aspose::Words::FrameFormat> Aspose::Words::Paragraph::get_FrameFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to get information about formatting properties of paragraphs that are frames.
 
-Shows how to get information about formatting properties of paragraphs that are frames. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraph frame.docx"));
 
@@ -42,10 +41,8 @@ ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition()
 ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
 ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
 ```
-
 ## See Also
 
-* Class [FrameFormat](../../frameformat/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

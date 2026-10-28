@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbidioutline/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldBidiOutline::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldBidiOutline::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

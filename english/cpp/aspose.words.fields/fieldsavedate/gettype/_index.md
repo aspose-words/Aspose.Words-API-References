@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldsavedate/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldSaveDate::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldSaveDate::GetType() const override
 ```
 
 ## See Also

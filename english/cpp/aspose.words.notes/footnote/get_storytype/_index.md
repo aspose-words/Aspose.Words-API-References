@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::get_StoryType method. Returns Footnotes or Endnotes in C++.'
 type: docs
-weight: 8000
+weight: 10875
 url: /cpp/aspose.words.notes/footnote/get_storytype/
 ---
 ## Footnote::get_StoryType method
@@ -16,12 +16,11 @@ Returns [Footnotes](../../../aspose.words/storytype/) or [Endnotes](../../../asp
 Aspose::Words::StoryType Aspose::Words::Notes::Footnote::get_StoryType() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert InlineStory nodes.
 
-Shows how to insert [InlineStory](../../../aspose.words/inlinestory/) nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ ASSERT_EQ(StoryType::Comments, comment->get_StoryType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
-
 ## See Also
 
-* Enum [StoryType](../../../aspose.words/storytype/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

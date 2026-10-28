@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method
 linktitle: set_HasVerticalBorder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method. Setter for Aspose::Words::Drawing::Charts::ChartDataTable::get_HasVerticalBorder in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method. Sets a flag indicating whether a vertical border of the data table is displayed. The default value is true in C++.'
 type: docs
 weight: 14000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/set_hasverticalborder/
@@ -10,12 +10,46 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/set_hasverticalborder/
 ## ChartDataTable::set_HasVerticalBorder method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasVerticalBorder](../get_hasverticalborder/).
+Sets a flag indicating whether a vertical border of the data table is displayed. The default value is **true**.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder(bool value)
 ```
 
+## Examples
+
+
+Shows how to show data table with chart series data.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> series = chart->get_Series();
+series->Clear();
+auto xValues = System::MakeArray<double>({2020, 2021, 2022, 2023});
+series->Add(u"Series1", xValues, System::MakeArray<double>({5, 11, 2, 7}));
+series->Add(u"Series2", xValues, System::MakeArray<double>({6, 5.5, 7, 7.8}));
+series->Add(u"Series3", xValues, System::MakeArray<double>({10, 8, 7, 9}));
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataTable> dataTable = chart->get_DataTable();
+dataTable->set_Show(true);
+
+dataTable->set_HasLegendKeys(false);
+dataTable->set_HasHorizontalBorder(false);
+dataTable->set_HasVerticalBorder(false);
+dataTable->set_HasOutlineBorder(false);
+
+dataTable->get_Font()->set_Italic(true);
+dataTable->get_Format()->get_Stroke()->set_Weight(1);
+dataTable->get_Format()->get_Stroke()->set_DashStyle(DashStyle::ShortDot);
+dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_DarkBlue());
+
+doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
+```
 ## See Also
 
 * Class [ChartDataTable](../)

@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XamlFlowSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be XamlFlow in C++.'
 type: docs
-weight: 6000
+weight: 8875
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_saveformat/
 ---
 ## XamlFlowSaveOptions::get_SaveFormat method
@@ -18,7 +18,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::XamlFlowSaveOptions::get_SaveFo
 
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

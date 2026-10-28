@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::Field::get_Format method. Gets a FieldFormat object that provides typed access to field''s formatting in C++.'
 type: docs
-weight: 6000
+weight: 28000
 url: /cpp/aspose.words.fields/field/get_format/
 ---
 ## Field::get_Format method
@@ -16,12 +16,11 @@ Gets a [FieldFormat](../../fieldformat/) object that provides typed access to fi
 System::SharedPtr<Aspose::Words::Fields::FieldFormat> Aspose::Words::Fields::Field::get_Format()
 ```
 
-
 ## Examples
 
 
+Shows how to format field results.
 
-Shows how to format field results. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,10 +81,8 @@ ASSERT_EQ(u"= 25 + 33  ", field->GetFieldCode());
 ASSERT_EQ(u"58", field->get_Result());
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 ```
-
 ## See Also
 
-* Class [FieldFormat](../../fieldformat/)
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

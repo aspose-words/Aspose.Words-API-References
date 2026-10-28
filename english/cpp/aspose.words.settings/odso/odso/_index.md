@@ -4,7 +4,7 @@ linktitle: Odso
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Odso constructor of Aspose::Words::Settings::Odso class in C++.'
 type: docs
-weight: 2000
+weight: 13091
 url: /cpp/aspose.words.settings/odso/odso/
 ---
 ## Odso::Odso constructor

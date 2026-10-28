@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontInfo::set_IsTrueType method
 linktitle: set_IsTrueType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontInfo::set_IsTrueType method. Setter for Aspose::Words::Fonts::FontInfo::get_IsTrueType in C++.'
+description: 'Aspose::Words::Fonts::FontInfo::set_IsTrueType method. Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true in C++.'
 type: docs
 weight: 16000
 url: /cpp/aspose.words.fonts/fontinfo/set_istruetype/
@@ -10,12 +10,30 @@ url: /cpp/aspose.words.fonts/fontinfo/set_istruetype/
 ## FontInfo::set_IsTrueType method
 
 
-Setter for [Aspose::Words::Fonts::FontInfo::get_IsTrueType](../get_istruetype/).
+Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is **true**.
 
 ```cpp
 void Aspose::Words::Fonts::FontInfo::set_IsTrueType(bool value)
 ```
 
+## Examples
+
+
+Shows how to print the details of what fonts are present in a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
+
+System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> allFonts = doc->get_FontInfos();
+
+// Print all the used and unused fonts in the document.
+for (int32_t i = 0; i < allFonts->get_Count(); i++)
+{
+    std::cout << System::String::Format(u"Font index #{0}", i) << std::endl;
+    std::cout << System::String::Format(u"\tName: {0}", allFonts->idx_get(i)->get_Name()) << std::endl;
+    std::cout << System::String::Format(u"\tIs {0}a trueType font", allFonts->idx_get(i)->get_IsTrueType() ? System::String(u"") : System::String(u"not ")) << std::endl;
+}
+```
 ## See Also
 
 * Class [FontInfo](../)

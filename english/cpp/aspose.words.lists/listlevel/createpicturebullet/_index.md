@@ -16,12 +16,14 @@ Creates picture bullet shape for the current list level.
 void Aspose::Words::Lists::ListLevel::CreatePictureBullet()
 ```
 
+## Remarks
 
+Please note, [NumberStyle](../get_numberstyle/) will be set to [Bullet](../../../aspose.words/numberstyle/) and [NumberFormat](../get_numberformat/) to "\xF0B7" to properly display picture bullet. Red cross image will be set as picture bullet image upon creating. To change it please use [ImageData](../get_imagedata/).
 ## Examples
 
 
+Shows how to set a custom image icon for list item labels.
 
-Shows how to set a custom image icon for list item labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,7 +48,6 @@ list->get_ListLevels()->idx_get(0)->DeletePictureBullet();
 
 ASSERT_TRUE(System::TestTools::IsNull(list->get_ListLevels()->idx_get(0)->get_ImageData()));
 ```
-
 ## See Also
 
 * Class [ListLevel](../)

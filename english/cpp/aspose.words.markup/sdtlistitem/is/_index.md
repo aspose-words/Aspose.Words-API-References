@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtlistitem/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Markup::SdtListItem::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Markup::SdtListItem::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

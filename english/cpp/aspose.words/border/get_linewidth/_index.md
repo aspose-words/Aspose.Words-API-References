@@ -4,7 +4,7 @@ linktitle: get_LineWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_LineWidth method. Gets or sets the border width in points in C++.'
 type: docs
-weight: 8000
+weight: 14600
 url: /cpp/aspose.words/border/get_linewidth/
 ---
 ## Border::get_LineWidth method
@@ -20,12 +20,11 @@ double Aspose::Words::Border::get_LineWidth()
 
 
 If you set line width greater than zero when line style is none, the line style is automatically changed to single line.
-
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +37,6 @@ builder->Write(u"Text surrounded by green border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

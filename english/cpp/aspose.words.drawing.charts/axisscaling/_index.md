@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::AxisScaling class
 linktitle: AxisScaling
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::AxisScaling class. Represents the scaling options of the axis. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::AxisScaling class. Represents the scaling options of the axis. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.drawing.charts/axisscaling/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/axisscaling/
 ## AxisScaling class
 
 
-Represents the scaling options of the axis. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents the scaling options of the axis. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class AxisScaling : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListSource
@@ -21,23 +22,22 @@ class AxisScaling : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 | Method | Description |
 | --- | --- |
 | [AxisScaling](./axisscaling/)() |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_LogBase](./get_logbase/)() const | Gets or sets the logarithmic base for a logarithmic axis. |
 | [get_Maximum](./get_maximum/)() | Gets or sets the maximum value of the axis. |
 | [get_Minimum](./get_minimum/)() | Gets or sets minimum value of the axis. |
 | [get_Type](./get_type/)() const | Gets or sets scaling type of the axis. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_LogBase](./set_logbase/)(double) | Setter for [Aspose::Words::Drawing::Charts::AxisScaling::get_LogBase](./get_logbase/). |
-| [set_Maximum](./set_maximum/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::AxisBound\>\&) | Setter for [Aspose::Words::Drawing::Charts::AxisScaling::get_Maximum](./get_maximum/). |
-| [set_Minimum](./set_minimum/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::AxisBound\>\&) | Setter for [Aspose::Words::Drawing::Charts::AxisScaling::get_Minimum](./get_minimum/). |
-| [set_Type](./set_type/)(Aspose::Words::Drawing::Charts::AxisScaleType) | Setter for [Aspose::Words::Drawing::Charts::AxisScaling::get_Type](./get_type/). |
-| static [Type](./type/)() |  |
-
+| [set_LogBase](./set_logbase/)(double) | Sets the logarithmic base for a logarithmic axis. |
+| [set_Maximum](./set_maximum/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::AxisBound\> \&) | Sets the maximum value of the axis. |
+| [set_Minimum](./set_minimum/)(const System::SharedPtr\<Aspose::Words::Drawing::Charts::AxisBound\> \&) | Sets minimum value of the axis. |
+| [set_Type](./set_type/)(Aspose::Words::Drawing::Charts::AxisScaleType) | Sets scaling type of the axis. |
 ## Examples
 
 
+Shows how to apply logarithmic scaling to a chart axis.
 
-Shows how to apply logarithmic scaling to a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +63,6 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisScaling.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

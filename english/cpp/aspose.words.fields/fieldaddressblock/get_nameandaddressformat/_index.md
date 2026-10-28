@@ -4,7 +4,7 @@ linktitle: get_NameAndAddressFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressFormat method. Gets or sets the name and address format in C++.'
 type: docs
-weight: 7000
+weight: 10858
 url: /cpp/aspose.words.fields/fieldaddressblock/get_nameandaddressformat/
 ---
 ## FieldAddressBlock::get_NameAndAddressFormat method
@@ -16,12 +16,11 @@ Gets or sets the name and address format.
 System::String Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an ADDRESSBLOCK field.
 
-Shows how to insert an ADDRESSBLOCK field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ field->set_LanguageId(System::Convert::ToString(System::MakeObject<System::Globa
 
 ASSERT_EQ(u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033", field->GetFieldCode());
 ```
-
 ## See Also
 
 * Class [FieldAddressBlock](../)

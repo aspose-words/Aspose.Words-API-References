@@ -4,7 +4,7 @@ linktitle: get_VerticalResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_VerticalResolution method. Gets or sets the vertical resolution for the generated images, in dots per inch in C++.'
 type: docs
-weight: 19000
+weight: 21477
 url: /cpp/aspose.words.saving/imagesaveoptions/get_verticalresolution/
 ---
 ## ImageSaveOptions::get_VerticalResolution method
@@ -22,12 +22,11 @@ float Aspose::Words::Saving::ImageSaveOptions::get_VerticalResolution() const
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
-
 ## Examples
 
 
+Shows how to edit the image while Aspose.Words converts a document to one.
 
-Shows how to edit the image while Aspose.Words converts a document to one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ options->set_Scale(96.f / 72.f);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 ```
-
 ## See Also
 
 * Class [ImageSaveOptions](../)

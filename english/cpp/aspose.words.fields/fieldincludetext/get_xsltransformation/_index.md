@@ -4,7 +4,7 @@ linktitle: get_XslTransformation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIncludeText::get_XslTransformation method. Gets the location of XSL Transformation to format XML data in C++.'
 type: docs
-weight: 10000
+weight: 12910
 url: /cpp/aspose.words.fields/fieldincludetext/get_xsltransformation/
 ---
 ## FieldIncludeText::get_XslTransformation method

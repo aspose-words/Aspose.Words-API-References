@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_pagesavingcallback/
 Allows to control how separate pages are saved when a document is exported to fixed page format.
 
 ```cpp
-void Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IPageSavingCallback> &value)
+void Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IPageSavingCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IPageSavingCallback](../../ipagesavingcallback/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_IsInsertRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsInsertRevision method. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 14000
+weight: 43000
 url: /cpp/aspose.words/paragraph/get_isinsertrevision/
 ---
 ## Paragraph::get_IsInsertRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_isinsertrevision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsInsertRevision()
+_Bool Aspose::Words::Paragraph::get_IsInsertRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to work with revision paragraphs.
 
-Shows how to work with revision paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Body> body = doc->get_FirstSection()->get_Body();
@@ -60,7 +59,6 @@ ASSERT_EQ(3, paragraphs->get_Count());
 ASSERT_EQ(0, para->get_Count());
 ASSERT_EQ(System::String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

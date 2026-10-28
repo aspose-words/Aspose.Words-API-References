@@ -4,7 +4,7 @@ linktitle: get_On
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_On method. Defines whether the path will be stroked in C++.'
 type: docs
-weight: 14000
+weight: 23720
 url: /cpp/aspose.words.drawing/stroke/get_on/
 ---
 ## Stroke::get_On method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.drawing/stroke/get_on/
 Defines whether the path will be stroked.
 
 ```cpp
-bool Aspose::Words::Drawing::Stroke::get_On()
+_Bool Aspose::Words::Drawing::Stroke::get_On()
 ```
 
 ## Remarks
 
 
 The default value for a [Shape](../../shape/) is **true**.
-
 ## Examples
 
 
+Shows how change stroke properties.
 
-Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-
 ## See Also
 
 * Class [Stroke](../)

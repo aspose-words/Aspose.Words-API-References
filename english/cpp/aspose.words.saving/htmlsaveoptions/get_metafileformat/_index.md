@@ -4,7 +4,7 @@ linktitle: get_MetafileFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_MetafileFormat method. Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is Png, meaning that metafiles are rendered to raster PNG images in C++.'
 type: docs
-weight: 40000
+weight: 49780
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_metafileformat/
 ---
 ## HtmlSaveOptions::get_MetafileFormat method
@@ -22,12 +22,11 @@ Aspose::Words::Saving::HtmlMetafileFormat Aspose::Words::Saving::HtmlSaveOptions
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
 Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
-
 ## Examples
 
 
+Shows how to convert SVG objects to a different format when saving HTML documents.
 
-Shows how to convert SVG objects to a different format when saving HTML documents. 
 ```cpp
 System::String html = u"<html>\r\n                    <svg xmlns='http://www.w3.org/2000/svg' width='500' height='40' viewBox='0 0 500 40'>\r\n                        <text x='0' y='35' font-family='Verdana' font-size='35'>Hello world!</text>\r\n                    </svg>\r\n                </html>";
 
@@ -66,10 +65,11 @@ switch (htmlMetafileFormat)
         break;
 }
 ```
-
 ## See Also
 
-* Enum [HtmlMetafileFormat](../../htmlmetafileformat/)
+* [ImageResolution](../get_imageresolution/)
+* [ScaleImageToShapeSize](../get_scaleimagetoshapesize/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

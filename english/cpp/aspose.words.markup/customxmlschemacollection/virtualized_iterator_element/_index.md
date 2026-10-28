@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/virtualized_iterator_ele
 
 
 ```cpp
-using Aspose::Words::Markup::CustomXmlSchemaCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+using Aspose::Words::Markup::CustomXmlSchemaCollection::virtualized_iterator_element = typename iterator_holder_type::virtualized_iterator_element
 ```
 
 ## See Also

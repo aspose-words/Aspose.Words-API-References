@@ -4,7 +4,7 @@ linktitle: get_RestartPageNumbering
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_RestartPageNumbering method. True if page numbering restarts at the beginning of the section in C++.'
 type: docs
-weight: 38000
+weight: 49790
 url: /cpp/aspose.words/pagesetup/get_restartpagenumbering/
 ---
 ## PageSetup::get_RestartPageNumbering method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words/pagesetup/get_restartpagenumbering/
 True if page numbering restarts at the beginning of the section.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_RestartPageNumbering()
+_Bool Aspose::Words::PageSetup::get_RestartPageNumbering()
 ```
 
+## Remarks
 
+ If set to **false**, the [RestartPageNumbering](./) property will override the [PageStartingNumber](../get_pagestartingnumber/) property so that page numbering can continue from the previous section. 
 ## Examples
 
 
+Shows how to set up page numbering in a section.
 
-Shows how to set up page numbering in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,7 +73,6 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

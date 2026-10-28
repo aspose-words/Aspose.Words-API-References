@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ShapeBase::set_LeftRelative method
 linktitle: set_LeftRelative
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ShapeBase::set_LeftRelative method. Setter for Aspose::Words::Drawing::ShapeBase::get_LeftRelative in C++.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_LeftRelative method. Sets the value that represents shape''s relative left position in percent in C++.'
 type: docs
 weight: 80500
 url: /cpp/aspose.words.drawing/shapebase/set_leftrelative/
@@ -10,12 +10,64 @@ url: /cpp/aspose.words.drawing/shapebase/set_leftrelative/
 ## ShapeBase::set_LeftRelative method
 
 
-Setter for [Aspose::Words::Drawing::ShapeBase::get_LeftRelative](../get_leftrelative/).
+Sets the value that represents shape's relative left position in percent.
 
 ```cpp
 void Aspose::Words::Drawing::ShapeBase::set_LeftRelative(float value)
 ```
 
+## Examples
+
+
+Shows how to set relative size and position.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Adding a simple shape with absolute size and position.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(100), static_cast<double>(40));
+// Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+shape->set_WrapType(WrapType::None);
+
+// Checking and setting the relative horizontal size.
+if (shape->get_RelativeHorizontalSize() == RelativeHorizontalSize::Default)
+{
+    // Setting the horizontal size binding to Margin.
+    shape->set_RelativeHorizontalSize(RelativeHorizontalSize::Margin);
+    // Setting the width to 50% of Margin width.
+    shape->set_WidthRelative(50);
+}
+
+// Checking and setting the relative vertical size.
+if (shape->get_RelativeVerticalSize() == RelativeVerticalSize::Default)
+{
+    // Setting the vertical size binding to Margin.
+    shape->set_RelativeVerticalSize(RelativeVerticalSize::Margin);
+    // Setting the heigh to 30% of Margin height.
+    shape->set_HeightRelative(30);
+}
+
+// Checking and setting the relative vertical position.
+if (shape->get_RelativeVerticalPosition() == RelativeVerticalPosition::Paragraph)
+{
+    // etting the position binding to TopMargin.
+    shape->set_RelativeVerticalPosition(RelativeVerticalPosition::TopMargin);
+    // Setting relative Top to 30% of TopMargin position.
+    shape->set_TopRelative(30);
+}
+
+// Checking and setting the relative horizontal position.
+if (shape->get_RelativeHorizontalPosition() == RelativeHorizontalPosition::Default)
+{
+    // Setting the position binding to RightMargin.
+    shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::RightMargin);
+    // The position relative value can be negative.
+    shape->set_LeftRelative(-260);
+}
+
+doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
+```
 ## See Also
 
 * Class [ShapeBase](../)

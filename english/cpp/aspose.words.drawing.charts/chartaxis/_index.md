@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartAxis class
 linktitle: ChartAxis
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartAxis class. Represents the axis options of the chart. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxis class. Represents the axis options of the chart. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartaxis/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/
 ## ChartAxis class
 
 
-Represents the axis options of the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Represents the axis options of the chart. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class ChartAxis : public Core::IDmlChartTitleHolder,
@@ -23,6 +24,9 @@ class ChartAxis : public Core::IDmlChartTitleHolder,
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AxisBetweenCategories](./get_axisbetweencategories/)() | Gets or sets a flag indicating whether the value axis crosses the category axis between categories. |
 | [get_BaseTimeUnit](./get_basetimeunit/)() | Returns or sets the smallest time unit that is represented on the time category axis. |
 | [get_CategoryType](./get_categorytype/)() | Gets or sets type of the category axis. |
@@ -49,33 +53,29 @@ class ChartAxis : public Core::IDmlChartTitleHolder,
 | [get_TickMarkSpacing](./get_tickmarkspacing/)() | Gets or sets the interval, at which tick marks are drawn. |
 | [get_Title](./get_title/)() | Provides access to the axis title properties. |
 | [get_Type](./get_type/)() const | Returns type of the axis. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AxisBetweenCategories](./set_axisbetweencategories/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories](./get_axisbetweencategories/). |
-| [set_BaseTimeUnit](./set_basetimeunit/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_BaseTimeUnit](./get_basetimeunit/). |
-| [set_CategoryType](./set_categorytype/)(Aspose::Words::Drawing::Charts::AxisCategoryType) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType](./get_categorytype/). |
-| [set_Crosses](./set_crosses/)(Aspose::Words::Drawing::Charts::AxisCrosses) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses](./get_crosses/). |
-| [set_CrossesAt](./set_crossesat/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CrossesAt](./get_crossesat/). |
-| [set_HasMajorGridlines](./set_hasmajorgridlines/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines](./get_hasmajorgridlines/). |
-| [set_HasMinorGridlines](./set_hasminorgridlines/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_HasMinorGridlines](./get_hasminorgridlines/). |
-| [set_Hidden](./set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden](./get_hidden/). |
-| [set_MajorTickMark](./set_majortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark](./get_majortickmark/). |
-| [set_MajorUnit](./set_majorunit/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnit](./get_majorunit/). |
-| [set_MajorUnitIsAuto](./set_majorunitisauto/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto](./get_majorunitisauto/). |
-| [set_MajorUnitScale](./set_majorunitscale/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale](./get_majorunitscale/). |
-| [set_MinorTickMark](./set_minortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorTickMark](./get_minortickmark/). |
-| [set_MinorUnit](./set_minorunit/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit](./get_minorunit/). |
-| [set_MinorUnitIsAuto](./set_minorunitisauto/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitIsAuto](./get_minorunitisauto/). |
-| [set_MinorUnitScale](./set_minorunitscale/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitScale](./get_minorunitscale/). |
-| [set_ReverseOrder](./set_reverseorder/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_ReverseOrder](./get_reverseorder/). |
-| [set_TickMarkSpacing](./set_tickmarkspacing/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing](./get_tickmarkspacing/). |
-| static [Type](./type/)() |  |
-
+| [set_AxisBetweenCategories](./set_axisbetweencategories/)(bool) | Sets a flag indicating whether the value axis crosses the category axis between categories. |
+| [set_BaseTimeUnit](./set_basetimeunit/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Sets the smallest time unit that is represented on the time category axis. |
+| [set_CategoryType](./set_categorytype/)(Aspose::Words::Drawing::Charts::AxisCategoryType) | Sets type of the category axis. |
+| [set_Crosses](./set_crosses/)(Aspose::Words::Drawing::Charts::AxisCrosses) | Specifies how this axis crosses the perpendicular axis. |
+| [set_CrossesAt](./set_crossesat/)(double) | Specifies where on the perpendicular axis the axis crosses. |
+| [set_HasMajorGridlines](./set_hasmajorgridlines/)(bool) | Sets a flag indicating whether the axis has major gridlines. |
+| [set_HasMinorGridlines](./set_hasminorgridlines/)(bool) | Sets a flag indicating whether the axis has minor gridlines. |
+| [set_Hidden](./set_hidden/)(bool) | Sets a flag indicating whether this axis is hidden or not. |
+| [set_MajorTickMark](./set_majortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Sets the major tick marks. |
+| [set_MajorUnit](./set_majorunit/)(double) | Sets the distance between major tick marks. |
+| [set_MajorUnitIsAuto](./set_majorunitisauto/)(bool) | Sets a flag indicating whether default distance between major tick marks shall be used. |
+| [set_MajorUnitScale](./set_majorunitscale/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Sets the scale value for major tick marks on the time category axis. |
+| [set_MinorTickMark](./set_minortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Sets the minor tick marks for the axis. |
+| [set_MinorUnit](./set_minorunit/)(double) | Sets the distance between minor tick marks. |
+| [set_MinorUnitIsAuto](./set_minorunitisauto/)(bool) | Sets a flag indicating whether default distance between minor tick marks shall be used. |
+| [set_MinorUnitScale](./set_minorunitscale/)(Aspose::Words::Drawing::Charts::AxisTimeUnit) | Sets the scale value for minor tick marks on the time category axis. |
+| [set_ReverseOrder](./set_reverseorder/)(bool) | Sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
+| [set_TickMarkSpacing](./set_tickmarkspacing/)(int32_t) | Sets the interval, at which tick marks are drawn. |
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -87,7 +87,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -125,7 +125,6 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/idocumentloadingcallback/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::IDocumentLoadingCallback::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::IDocumentLoadingCallback::GetType() const override
 ```
 
 ## See Also

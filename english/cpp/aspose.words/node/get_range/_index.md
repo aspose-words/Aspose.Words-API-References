@@ -4,7 +4,7 @@ linktitle: get_Range
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_Range method. Returns a Range object that represents the portion of a document that is contained in this node in C++.'
 type: docs
-weight: 12000
+weight: 33000
 url: /cpp/aspose.words/node/get_range/
 ---
 ## Node::get_Range method
@@ -16,12 +16,11 @@ Returns a [Range](../../range/) object that represents the portion of a document
 System::SharedPtr<Aspose::Words::Range> Aspose::Words::Node::get_Range()
 ```
 
-
 ## Examples
 
 
+Shows how to delete all the nodes from a range.
 
-Shows how to delete all the nodes from a range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,10 +39,8 @@ doc->get_Sections()->idx_get(0)->get_Range()->Delete();
 ASSERT_EQ(1, doc->get_Sections()->get_Count());
 ASSERT_EQ(u"Section 2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [Range](../../range/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

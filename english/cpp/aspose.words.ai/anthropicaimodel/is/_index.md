@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/anthropicaimodel/is/
 
 
 ```cpp
-virtual bool Aspose::Words::AI::AnthropicAiModel::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::AI::AnthropicAiModel::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::DigitalSignatures::DigitalSignatureCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::DigitalSignatures::DigitalSignatureCollection::GetType() const override
 ```
 
 ## See Also

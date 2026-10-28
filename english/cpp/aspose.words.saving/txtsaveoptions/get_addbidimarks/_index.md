@@ -2,26 +2,27 @@
 title: Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks method
 linktitle: get_AddBidiMarks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks method. Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. The default value is false in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks method. Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.The default value is false in C++.'
 type: docs
-weight: 3000
+weight: 10300
 url: /cpp/aspose.words.saving/txtsaveoptions/get_addbidimarks/
 ---
 ## TxtSaveOptions::get_AddBidiMarks method
 
 
-Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. The default value is **false**.
+Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
+
+The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks() const
+_Bool Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks() const
 ```
-
 
 ## Examples
 
 
+Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text.
 
-Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional [Run](../../../aspose.words/run/) in text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +58,6 @@ else
     ASSERT_FALSE(docText.Contains(u"\u200f"));
 }
 ```
-
 ## See Also
 
 * Class [TxtSaveOptions](../)

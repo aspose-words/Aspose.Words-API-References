@@ -20,12 +20,11 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Tables::Table>> Aspose::Words:
 ### ReturnValue
 
 An array of tables.
-
 ## Examples
 
 
+Shows how to iterate through all tables in the document and print the contents of each cell.
 
-Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
@@ -64,10 +63,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
     std::cout << System::String::Format(u"End of Table {0}\n", i) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [Table](../../table/)
 * Class [TableCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

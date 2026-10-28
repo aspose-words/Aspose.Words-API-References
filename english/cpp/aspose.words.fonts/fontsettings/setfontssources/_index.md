@@ -7,31 +7,30 @@ type: docs
 weight: 13000
 url: /cpp/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&) method
+## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \&) method
 
 
 Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SetFontsSources(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> &sources)
+void Aspose::Words::Fonts::FontSettings::SetFontsSources(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> & sources)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\& | An array of sources that contain TrueType fonts. |
+| sources | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \& | An array of sources that contain TrueType fonts. |
 ## Remarks
 
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
-
 ## Examples
 
 
+Shows how to add a font source to our existing font sources.
 
-Shows how to add a font source to our existing font sources. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,39 +90,35 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.AddFontSource.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
-
 ## See Also
 
-* Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
-## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&, const System::SharedPtr\<System::IO::Stream\>\&) method
+## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \&, const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SetFontsSources(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> &sources, const System::SharedPtr<System::IO::Stream> &cacheInputStream)
+void Aspose::Words::Fonts::FontSettings::SetFontsSources(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> & sources, const System::SharedPtr<System::IO::Stream> & cacheInputStream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sources | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\& | An array of sources that contain TrueType fonts. |
-| cacheInputStream | const System::SharedPtr\<System::IO::Stream\>\& | Input stream with saved font search cache. |
+| sources | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \& | An array of sources that contain TrueType fonts. |
+| cacheInputStream | const System::SharedPtr\<System::IO::Stream\> \& | Input stream with saved font search cache. |
 ## Remarks
 
 
-[Loading](../../../aspose.words.loading/) previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
+Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
 
 When saving and loading font search cache, fonts in the provided sources are identified via cache key. For the fonts in the [SystemFontSource](../../systemfontsource/) and [FolderFontSource](../../folderfontsource/) cache key is the path to the font file. For [MemoryFontSource](../../memoryfontsource/) and [StreamFontSource](../../streamfontsource/) cache key is defined in the [CacheKey](../../memoryfontsource/get_cachekey/) and [CacheKey](../../streamfontsource/get_cachekey/) properties respectively. For the [FileFontSource](../../filefontsource/) cache key is either [CacheKey](../../filefontsource/get_cachekey/) property or a file path if the [CacheKey](../../filefontsource/get_cachekey/) is **null**.
 
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved. Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the inaccurate font resolving by Aspose.Words.
-
 ## See Also
 
-* Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

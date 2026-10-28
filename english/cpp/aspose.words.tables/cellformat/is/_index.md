@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cellformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::CellFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::CellFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

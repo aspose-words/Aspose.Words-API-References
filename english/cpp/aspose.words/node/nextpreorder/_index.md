@@ -13,23 +13,22 @@ url: /cpp/aspose.words/node/nextpreorder/
 Gets next node according to the pre-order tree traversal algorithm.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::NextPreOrder(const System::SharedPtr<Aspose::Words::Node> &rootNode)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::NextPreOrder(const System::SharedPtr<Aspose::Words::Node> & rootNode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | const System::SharedPtr\<Aspose::Words::Node\>\& | The top node (limit) of traversal. |
+| rootNode | const System::SharedPtr\<Aspose::Words::Node\> \& | The top node (limit) of traversal. |
 
 ### ReturnValue
 
-Next node in pre-order order. Null if reached the *rootNode*.
-
+Next node in pre-order order. Null if reached the rootNode.
 ## Examples
 
 
+Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
 
-Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -61,10 +60,8 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::Shar
     return s->get_HasImage();
 }))));
 ```
-
 ## See Also
 
-* Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_DefaultFontName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName method. Gets or sets the default font name in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/get_defaultfontname/
 ---
 ## DefaultFontSubstitutionRule::get_DefaultFontName method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFon
 
 
 The default value is 'Times New Roman'.
-
 ## Examples
 
 
+Shows how to specify a default font.
 
-Shows how to specify a default font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,8 +60,8 @@ ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Fu
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontName.pdf");
 ```
 
+Shows how to set the default font substitution rule.
 
-Shows how to set the default font substitution rule. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -86,7 +85,6 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
-
 ## See Also
 
 * Class [DefaultFontSubstitutionRule](../)

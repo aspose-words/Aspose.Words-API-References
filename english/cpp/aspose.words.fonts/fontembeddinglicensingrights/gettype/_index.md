@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fonts::FontEmbeddingLicensingRights::GetType() const override
+const System::TypeInfo & Aspose::Words::Fonts::FontEmbeddingLicensingRights::GetType() const override
 ```
 
 ## See Also

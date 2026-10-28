@@ -2,7 +2,7 @@
 title: Aspose::Words::Lists::List::set_IsRestartAtEachSection method
 linktitle: set_IsRestartAtEachSection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Lists::List::set_IsRestartAtEachSection method. Setter for Aspose::Words::Lists::List::get_IsRestartAtEachSection in C++.'
+description: 'Aspose::Words::Lists::List::set_IsRestartAtEachSection method. Specifies whether list should be restarted at each section. Default value is false in C++.'
 type: docs
 weight: 16000
 url: /cpp/aspose.words.lists/list/set_isrestartateachsection/
@@ -10,12 +10,51 @@ url: /cpp/aspose.words.lists/list/set_isrestartateachsection/
 ## List::set_IsRestartAtEachSection method
 
 
-Setter for [Aspose::Words::Lists::List::get_IsRestartAtEachSection](../get_isrestartateachsection/).
+Specifies whether list should be restarted at each section. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Lists::List::set_IsRestartAtEachSection(bool value)
 ```
 
+## Remarks
+
+
+This option is supported only in RTF, DOC and DOCX document formats.
+
+This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/).
+## Examples
+
+
+Shows how to configure a list to restart numbering at each section.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+doc->get_Lists()->Add(ListTemplate::NumberDefault);
+
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
+list->set_IsRestartAtEachSection(restartListAtEachSection);
+
+// The "IsRestartAtEachSection" property will only be applicable when
+// the document's OOXML compliance level is to a standard that is newer than "OoxmlComplianceCore.Ecma376".
+auto options = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+options->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+
+builder->get_ListFormat()->set_List(list);
+
+builder->Writeln(u"List item 1");
+builder->Writeln(u"List item 2");
+builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->Writeln(u"List item 3");
+builder->Writeln(u"List item 4");
+
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx", options);
+
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx"));
+
+ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
+```
 ## See Also
 
 * Class [List](../)

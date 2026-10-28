@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Font::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Font::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

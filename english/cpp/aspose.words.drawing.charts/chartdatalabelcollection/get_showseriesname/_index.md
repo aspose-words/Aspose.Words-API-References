@@ -4,7 +4,7 @@ linktitle: get_ShowSeriesName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSeriesName method. Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. true to show the series name; false to hide. By default false in C++.'
 type: docs
-weight: 13000
+weight: 18283
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showseriesname/
 ---
 ## ChartDataLabelCollection::get_ShowSeriesName method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showseriesnam
 Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **true** to show the series name; **false** to hide. By default **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSeriesName()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowSeriesName()
 ```
 
+## Remarks
 
+ Value defined for this property can be overridden for an individual data label with using the [ShowSeriesName](../../chartdatalabel/get_showseriesname/) property. 
 ## Examples
 
 
+Shows how to work with data labels of a bubble chart.
 
-Shows how to work with data labels of a bubble chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +48,6 @@ dataLabels->set_Separator(u" & ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsBubbleChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

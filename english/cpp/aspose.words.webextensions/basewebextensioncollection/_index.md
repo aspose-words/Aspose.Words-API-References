@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection class
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class
 linktitle: BaseWebExtensionCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection class. Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class. Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections. To learn more, visit the Work with Office Add-ins documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/
 ## BaseWebExtensionCollection class
 
 
-Base class for [TaskPaneCollection](../taskpanecollection/), [WebExtensionBindingCollection](../webextensionbindingcollection/), [WebExtensionPropertyCollection](../webextensionpropertycollection/) and [WebExtensionReferenceCollection](../webextensionreferencecollection/) collections. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
+Base class for [TaskPaneCollection](../taskpanecollection/), [WebExtensionBindingCollection](../webextensionbindingcollection/), [WebExtensionPropertyCollection](../webextensionpropertycollection/) and [WebExtensionReferenceCollection](../webextensionreferencecollection/) collections. 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
 template<typename T>class BaseWebExtensionCollection : public System::Collections::Generic::IEnumerable<T>
@@ -26,23 +27,26 @@ template<typename T>class BaseWebExtensionCollection : public System::Collection
 | --- | --- |
 | [Add](./add/)(T) | Adds specified item to the collection. |
 | [BaseWebExtensionCollection](./basewebextensioncollection/)() |  |
+| [Clear](./clear/)() | Removes all elements from the collection. |
+| [GetEnumerator](./getenumerator/)() | Returns an enumerator that can iterate through a collection. |
+| [GetType](./gettype/)() const |  |
+| [Is](./is/)(const System::TypeInfo \&) const |  |
+| [Remove](./remove/)(int32_t) | Removes the item at the specified index from the collection. |
+| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) |  |
+| static [Type](./type/)() |  |
 | [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [Clear](./clear/)() | Removes all elements from the collection. |
-| [end](./end/)() |  |
 | [end](./end/)() const |  |
+| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator that can iterate through a collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
 | [idx_set](./idx_set/)(int32_t, T) | Gets or sets an item at the specified index. |
-| [Remove](./remove/)(int32_t) | Removes the item at the specified index from the collection. |
-| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
+| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const |  |
+| [virtualizeBeginIterator](./virtualizebeginiterator/)() |  |
+| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const |  |
+| [virtualizeEndIterator](./virtualizeenditerator/)() |  |
 ## Typedefs
 
 | Typedef | Description |
@@ -52,12 +56,11 @@ template<typename T>class BaseWebExtensionCollection : public System::Collection
 | [iterator_holder_type](./iterator_holder_type/) |  |
 | [virtualized_iterator](./virtualized_iterator/) |  |
 | [virtualized_iterator_element](./virtualized_iterator_element/) |  |
-
 ## Examples
 
 
+Shows how to work with a document's collection of web extensions.
 
-Shows how to work with a document's collection of web extensions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
@@ -79,7 +82,6 @@ doc->get_WebExtensionTaskPanes()->Remove(0);
 
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

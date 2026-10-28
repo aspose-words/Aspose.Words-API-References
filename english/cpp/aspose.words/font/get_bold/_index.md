@@ -4,7 +4,7 @@ linktitle: get_Bold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Bold method. True if the font is formatted as bold in C++.'
 type: docs
-weight: 6000
+weight: 59090
 url: /cpp/aspose.words/font/get_bold/
 ---
 ## Font::get_Bold method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/font/get_bold/
 True if the font is formatted as bold.
 
 ```cpp
-bool Aspose::Words::Font::get_Bold()
+_Bool Aspose::Words::Font::get_Bold()
 ```
-
 
 ## Examples
 
 
+Shows how to insert formatted text using DocumentBuilder.
 
-Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,6 @@ font->set_Underline(Underline::Dash);
 
 builder->Write(u"Hello world!");
 ```
-
 ## See Also
 
 * Class [Font](../)

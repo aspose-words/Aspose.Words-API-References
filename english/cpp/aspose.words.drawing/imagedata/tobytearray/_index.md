@@ -20,12 +20,11 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::ToByteArray()
 
 
 If the image is linked, downloads the image every time it is called.
-
 ## Examples
 
 
+Shows how to create an image file from a shape's raw image data.
 
-Shows how to create an image file from a shape's raw image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -45,7 +44,6 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
     }
 }
 ```
-
 ## See Also
 
 * Class [ImageData](../)

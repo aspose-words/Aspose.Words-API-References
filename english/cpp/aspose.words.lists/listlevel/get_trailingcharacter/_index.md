@@ -4,7 +4,7 @@ linktitle: get_TrailingCharacter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_TrailingCharacter method. Returns or sets the character inserted after the number for the list level in C++.'
 type: docs
-weight: 19000
+weight: 22969
 url: /cpp/aspose.words.lists/listlevel/get_trailingcharacter/
 ---
 ## ListLevel::get_TrailingCharacter method
@@ -16,12 +16,11 @@ Returns or sets the character inserted after the number for the list level.
 Aspose::Words::Lists::ListTrailingCharacter Aspose::Words::Lists::ListLevel::get_TrailingCharacter() const
 ```
 
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -73,10 +72,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
-* Enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

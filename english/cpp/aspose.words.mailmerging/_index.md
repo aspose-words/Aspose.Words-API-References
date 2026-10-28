@@ -8,18 +8,32 @@ weight: 13000
 url: /cpp/aspose.words.mailmerging/
 ---
 
-The **Aspose.Words.MailMerging** namespace contains classes of the "original" mail merge reporting engine.
+The Aspose.Words.MailMerging namespace contains classes of the "original" mail merge reporting engine.
 
+
+This reporting engine requires the document to be marked up with Microsoft Word mail merge fields, but supports more functionality than Microsoft Word's mail merge.
+
+The engine allows to quickly and easily populate a report template with data from various sources such as DataTable, DataSet, DataView, IDataReader or an array of values.
+
+The [MailMerge](./mailmerge/) object which provides access to the reporting functionality is available via the [Document.MailMerge](../aspose.words/document/get_mailmerge/) property.
+
+For the newer and more advanced reporting engine based on the LINQ method syntax see **Reporting**.
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Provides data for the **MergeField** event. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
-| [FieldMergingArgsBase](./fieldmergingargsbase/) | Base class for [FieldMergingArgs](./fieldmergingargs/) and [ImageFieldMergingArgs](./imagefieldmergingargs/). To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
-| [ImageFieldMergingArgs](./imagefieldmergingargs/) | Provides data for the [ImageFieldMerging()](./ifieldmergingcallback/imagefieldmerging/) event. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
-| [MailMerge](./mailmerge/) | Represents the mail merge functionality. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
-| [MailMergeRegionInfo](./mailmergeregioninfo/) | Contains information about a mail merge region. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
-| [MappedDataFieldCollection](./mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [FieldMergingArgs](./fieldmergingargs/) | Provides data for the MergeField event. 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [FieldMergingArgsBase](./fieldmergingargsbase/) | Base class for [FieldMergingArgs](./fieldmergingargs/) and [ImageFieldMergingArgs](./imagefieldmergingargs/). 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [ImageFieldMergingArgs](./imagefieldmergingargs/) | Provides data for the [ImageFieldMerging()](./ifieldmergingcallback/imagefieldmerging/) event. 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [MailMerge](./mailmerge/) | Represents the mail merge functionality. 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [MailMergeRegionInfo](./mailmergeregioninfo/) | Contains information about a mail merge region. 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
+| [MappedDataFieldCollection](./mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/cpp/mail-merge-and-reporting/) documentation article. |
 | [MustacheTag](./mustachetag/) | Represents "mustache" tag. |
 ## Interfaces
 

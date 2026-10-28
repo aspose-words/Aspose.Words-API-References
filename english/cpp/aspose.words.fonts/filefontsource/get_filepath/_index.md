@@ -4,7 +4,7 @@ linktitle: get_FilePath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FileFontSource::get_FilePath method. Path to the font file in C++.'
 type: docs
-weight: 4000
+weight: 10000
 url: /cpp/aspose.words.fonts/filefontsource/get_filepath/
 ---
 ## FileFontSource::get_FilePath method
@@ -16,12 +16,11 @@ Path to the font file.
 System::String Aspose::Words::Fonts::FileFontSource::get_FilePath() const
 ```
 
-
 ## Examples
 
 
+Shows how to use a font file in the local file system as a font source.
 
-Shows how to use a font file in the local file system as a font source. 
 ```cpp
 auto fileFontSource = System::MakeObject<Aspose::Words::Fonts::FileFontSource>(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", 0);
 
@@ -33,7 +32,6 @@ ASSERT_EQ(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", fileFontSource->get_
 ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
 ASSERT_EQ(0, fileFontSource->get_Priority());
 ```
-
 ## See Also
 
 * Class [FileFontSource](../)

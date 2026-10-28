@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentconverterplugin/
 Defines an interface for external converter plugin.
 
 ```cpp
-class IDocumentConverterPlugin : public virtual System::Object
+class IDocumentConverterPlugin : public System::Object
 ```
 
 ## Methods
@@ -23,7 +23,7 @@ class IDocumentConverterPlugin : public virtual System::Object
 | virtual [Convert](./convert/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>, System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Converts document using specified input output streams and save options. |
 | virtual [ConvertToImages](./converttoimages/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Converts pages from document from input stream to array of images. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
 ## See Also
 

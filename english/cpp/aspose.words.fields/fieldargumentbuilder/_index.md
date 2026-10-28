@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldArgumentBuilder class
 linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldArgumentBuilder class. Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldArgumentBuilder class. Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.fields/fieldargumentbuilder/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/fieldargumentbuilder/
 ## FieldArgumentBuilder class
 
 
-Builds a complex field argument consisting of fields, nodes, and plain text. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Builds a complex field argument consisting of fields, nodes, and plain text. 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldArgumentBuilder : public IFieldBuildingBlock
@@ -20,19 +21,18 @@ class FieldArgumentBuilder : public IFieldBuildingBlock
 
 | Method | Description |
 | --- | --- |
-| [AddField](./addfield/)(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) | Adds a field represented by a [FieldBuilder](../fieldbuilder/) to the argument. |
-| [AddNode](./addnode/)(const System::SharedPtr\<Aspose::Words::Inline\>\&) | Adds a node to the argument. |
-| [AddText](./addtext/)(const System::String\&) | Adds a plain text to the argument. |
+| [AddField](./addfield/)(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\> \&) | Adds a field represented by a [FieldBuilder](../fieldbuilder/) to the argument. |
+| [AddNode](./addnode/)(const System::SharedPtr\<Aspose::Words::Inline\> \&) | Adds a node to the argument. |
+| [AddText](./addtext/)(const System::String \&) | Adds a plain text to the argument. |
 | [FieldArgumentBuilder](./fieldargumentbuilder/)() | Initializes an instance of the [FieldArgumentBuilder](./) class. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -106,7 +106,6 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

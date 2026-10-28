@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldindex/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldIndex::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldIndex::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

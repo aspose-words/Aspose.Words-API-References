@@ -13,7 +13,7 @@ url: /cpp/aspose.words/editablerangestart/is/
 
 
 ```cpp
-virtual bool Aspose::Words::EditableRangeStart::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::EditableRangeStart::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

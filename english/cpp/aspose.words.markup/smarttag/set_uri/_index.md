@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::SmartTag::set_Uri method
 linktitle: set_Uri
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::SmartTag::set_Uri method. Setter for Aspose::Words::Markup::SmartTag::get_Uri in C++.'
+description: 'Aspose::Words::Markup::SmartTag::set_Uri method. Specifies the namespace URI of the smart tag in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.markup/smarttag/set_uri/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.markup/smarttag/set_uri/
 ## SmartTag::set_Uri method
 
 
-Setter for [Aspose::Words::Markup::SmartTag::get_Uri](../get_uri/).
+Specifies the namespace URI of the smart tag.
 
 ```cpp
-void Aspose::Words::Markup::SmartTag::set_Uri(const System::String &value)
+void Aspose::Words::Markup::SmartTag::set_Uri(const System::String & value)
 ```
 
+## Remarks
+
+
+Cannot be **null**.
+
+Default is empty string.
 ## See Also
 
 * Class [SmartTag](../)

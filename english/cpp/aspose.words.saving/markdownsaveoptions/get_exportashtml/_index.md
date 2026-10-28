@@ -4,7 +4,7 @@ linktitle: get_ExportAsHtml
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ExportAsHtml method. Allows to specify the elements to be exported to Markdown as raw HTML. Default value is None in C++.'
 type: docs
-weight: 2500
+weight: 10060
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/
 ---
 ## MarkdownSaveOptions::get_ExportAsHtml method
@@ -16,12 +16,11 @@ Allows to specify the elements to be exported to Markdown as raw HTML. Default v
 Aspose::Words::Saving::MarkdownExportAsHtml Aspose::Words::Saving::MarkdownSaveOptions::get_ExportAsHtml() const
 ```
 
-
 ## Examples
 
 
+Shows how to export a table to Markdown as raw HTML.
 
-Shows how to export a table to Markdown as raw HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,10 +40,8 @@ saveOptions->set_ExportAsHtml(MarkdownExportAsHtml::Tables);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
 ```
-
 ## See Also
 
-* Enum [MarkdownExportAsHtml](../../markdownexportashtml/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

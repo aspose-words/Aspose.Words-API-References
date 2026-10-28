@@ -4,7 +4,7 @@ linktitle: get_UnusedLists
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CleanupOptions::get_UnusedLists method. Specifies whether unused list and list definitions should be removed from document. Default value is true in C++.'
 type: docs
-weight: 5000
+weight: 8668
 url: /cpp/aspose.words/cleanupoptions/get_unusedlists/
 ---
 ## CleanupOptions::get_UnusedLists method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/cleanupoptions/get_unusedlists/
 Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::CleanupOptions::get_UnusedLists() const
+_Bool Aspose::Words::CleanupOptions::get_UnusedLists() const
 ```
-
 
 ## Examples
 
 
+Shows how to remove all unused custom styles from a document.
 
-Shows how to remove all unused custom styles from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -63,7 +62,6 @@ doc->Cleanup(cleanupOptions);
 
 ASSERT_EQ(2, doc->get_Styles()->get_Count());
 ```
-
 ## See Also
 
 * Class [CleanupOptions](../)

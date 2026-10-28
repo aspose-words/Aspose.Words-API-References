@@ -2,7 +2,7 @@
 title: Aspose::Words::Replacing::FindReplaceOptions::set_MatchCase method
 linktitle: set_MatchCase
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Replacing::FindReplaceOptions::set_MatchCase method. Setter for Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase in C++.'
+description: 'Aspose::Words::Replacing::FindReplaceOptions::set_MatchCase method. True indicates case-sensitive comparison, false indicates case-insensitive comparison in C++.'
 type: docs
 weight: 30000
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_matchcase/
@@ -10,12 +10,34 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/set_matchcase/
 ## FindReplaceOptions::set_MatchCase method
 
 
-Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase](../get_matchcase/).
+True indicates case-sensitive comparison, false indicates case-insensitive comparison.
 
 ```cpp
 void Aspose::Words::Replacing::FindReplaceOptions::set_MatchCase(bool value)
 ```
 
+## Examples
+
+
+Shows how to toggle case sensitivity when performing a find-and-replace operation.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Ruby bought a ruby necklace.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
+
+// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
+// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
+options->set_MatchCase(matchCase);
+
+doc->get_Range()->Replace(u"Ruby", u"Jade", options);
+
+ASSERT_EQ(matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
+```
 ## See Also
 
 * Class [FindReplaceOptions](../)

@@ -21,23 +21,22 @@ class Person : public System::Object
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override |  |
+| [GetHashCode](./gethashcode/)() const override |  |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Person](./person/)(const System::String \&, const System::String \&, const System::String \&) | Initialize a new instance of the [Person](./) class. |
+| static [Type](./type/)() |  |
 | [get_First](./get_first/)() const | Gets or sets the first name of a person. |
 | [get_Last](./get_last/)() const | Gets or sets the last name of a person. |
 | [get_Middle](./get_middle/)() const | Gets or sets the middle name of a person. |
-| [GetHashCode](./gethashcode/)() const override |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Person](./person/)(const System::String\&, const System::String\&, const System::String\&) | Initialize a new instance of the [Person](./) class. |
-| [set_First](./set_first/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Person::get_First](./get_first/). |
-| [set_Last](./set_last/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Person::get_Last](./get_last/). |
-| [set_Middle](./set_middle/)(const System::String\&) | Setter for [Aspose::Words::Bibliography::Person::get_Middle](./get_middle/). |
-| static [Type](./type/)() |  |
-
+| [set_First](./set_first/)(const System::String \&) | Sets the first name of a person. |
+| [set_Last](./set_last/)(const System::String \&) | Sets the last name of a person. |
+| [set_Middle](./set_middle/)(const System::String \&) | Sets the middle name of a person. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -130,7 +129,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

@@ -13,23 +13,22 @@ url: /cpp/aspose.words.drawing/oleformat/getoleentry/
 Gets OLE object data entry.
 
 ```cpp
-System::SharedPtr<System::IO::MemoryStream> Aspose::Words::Drawing::OleFormat::GetOleEntry(const System::String &oleEntryName)
+System::SharedPtr<System::IO::MemoryStream> Aspose::Words::Drawing::OleFormat::GetOleEntry(const System::String & oleEntryName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oleEntryName | const System::String\& | Case-sensitive name of the OLE data stream. |
+| oleEntryName | const System::String \& | Case-sensitive name of the OLE data stream. |
 
 ### ReturnValue
 
 An OLE data stream or **null**.
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,7 +74,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
     ASSERT_EQ(76, oleEntryBytes->get_Length());
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

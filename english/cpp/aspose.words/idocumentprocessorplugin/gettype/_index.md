@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::IDocumentProcessorPlugin::GetType() const override
+const System::TypeInfo & Aspose::Words::IDocumentProcessorPlugin::GetType() const override
 ```
 
 ## See Also

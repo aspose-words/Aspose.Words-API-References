@@ -4,7 +4,7 @@ linktitle: get_ScreenTip
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_ScreenTip method. Defines the text displayed when the mouse pointer moves over the shape in C++.'
 type: docs
-weight: 46000
+weight: 61780
 url: /cpp/aspose.words.drawing/shapebase/get_screentip/
 ---
 ## ShapeBase::get_ScreenTip method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Drawing::ShapeBase::get_ScreenTip()
 
 
 The default value is an empty string.
-
 ## Examples
 
 
+Shows how to insert a shape which contains an image, and is also a hyperlink.
 
-Shows how to insert a shape which contains an image, and is also a hyperlink. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ shape->set_ScreenTip(u"Aspose.Words Support Forums");
 // and take us to the hyperlink in the "HRef" property.
 doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

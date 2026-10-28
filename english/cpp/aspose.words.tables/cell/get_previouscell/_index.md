@@ -4,7 +4,7 @@ linktitle: get_PreviousCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_PreviousCell method. Gets the previous Cell node in C++.'
 type: docs
-weight: 12500
+weight: 26000
 url: /cpp/aspose.words.tables/cell/get_previouscell/
 ---
 ## Cell::get_PreviousCell method
@@ -16,12 +16,14 @@ Gets the previous [Cell](../) node.
 System::SharedPtr<Aspose::Words::Tables::Cell> Aspose::Words::Tables::Cell::get_PreviousCell()
 ```
 
+## Remarks
 
+ The method can be used when you need to have typed access to cells of a [Row](../../row/). If a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically traversed to get a cell contained within. 
 ## Examples
 
 
+Shows how to enumerate through all table cells.
 
-Shows how to enumerate through all table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -35,10 +37,8 @@ for (System::SharedPtr<Aspose::Words::Tables::Row> row = table->get_FirstRow(); 
     }
 }
 ```
-
 ## See Also
 
-* Class [Cell](../)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_StartArrowType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_StartArrowType method. Defines the arrowhead for the start of a stroke in C++.'
 type: docs
-weight: 17000
+weight: 23825
 url: /cpp/aspose.words.drawing/stroke/get_startarrowtype/
 ---
 ## Stroke::get_StartArrowType method
@@ -19,10 +19,9 @@ Aspose::Words::Drawing::ArrowType Aspose::Words::Drawing::Stroke::get_StartArrow
 ## Remarks
 
 
-The default value is [None](../../arrowtype/). 
+The default value is [None](../../arrowtype/).
 ## See Also
 
-* Enum [ArrowType](../../arrowtype/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

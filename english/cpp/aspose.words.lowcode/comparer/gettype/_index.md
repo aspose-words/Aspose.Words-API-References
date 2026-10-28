@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/comparer/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::Comparer::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::Comparer::GetType() const override
 ```
 
 ## See Also

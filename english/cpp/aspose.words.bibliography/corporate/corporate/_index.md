@@ -13,14 +13,13 @@ url: /cpp/aspose.words.bibliography/corporate/corporate/
 Initialize a new instance of the [Corporate](../) class.
 
 ```cpp
-Aspose::Words::Bibliography::Corporate::Corporate(const System::String &name)
+Aspose::Words::Bibliography::Corporate::Corporate(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The name of an organization. |
-
+| name | const System::String \& | The name of an organization. |
 ## See Also
 
 * Class [Corporate](../)

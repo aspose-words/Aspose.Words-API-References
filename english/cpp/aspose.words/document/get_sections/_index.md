@@ -4,7 +4,7 @@ linktitle: get_Sections
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_Sections method. Returns a collection that represents all sections in the document in C++.'
 type: docs
-weight: 48000
+weight: 140000
 url: /cpp/aspose.words/document/get_sections/
 ---
 ## Document::get_Sections method
@@ -16,12 +16,11 @@ Returns a collection that represents all sections in the document.
 System::SharedPtr<Aspose::Words::SectionCollection> Aspose::Words::Document::get_Sections()
 ```
 
-
 ## Examples
 
 
+Shows how to specify how a new section separates itself from the previous.
 
-Shows how to specify how a new section separates itself from the previous. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,8 +64,8 @@ ASSERT_EQ(SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetu
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetSectionStart.docx");
 ```
 
+Shows how to add and remove sections in a document.
 
-Shows how to add and remove sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -89,10 +88,8 @@ doc->get_Sections()->Add(newSection);
 
 ASSERT_EQ(u"Section 2\x000c" u"Section 2", doc->GetText().Trim());
 ```
-
 ## See Also
 
-* Class [SectionCollection](../../sectioncollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,15 +13,14 @@ url: /cpp/aspose.words/bordercollection/equals/
 Compares collections of borders.
 
 ```cpp
-bool Aspose::Words::BorderCollection::Equals(const System::SharedPtr<Aspose::Words::BorderCollection> &brColl)
+_Bool Aspose::Words::BorderCollection::Equals(const System::SharedPtr<Aspose::Words::BorderCollection> & brColl)
 ```
-
 
 ## Examples
 
 
+Shows how border collections can share elements.
 
-Shows how border collections can share elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,10 +58,8 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

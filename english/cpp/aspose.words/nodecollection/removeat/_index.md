@@ -20,12 +20,11 @@ void Aspose::Words::NodeCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
-
 ## Examples
 
 
+Shows how to add and remove sections in a document.
 
-Shows how to add and remove sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc->get_Sections()->Add(newSection);
 
 ASSERT_EQ(u"Section 2\x000c" u"Section 2", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [NodeCollection](../)

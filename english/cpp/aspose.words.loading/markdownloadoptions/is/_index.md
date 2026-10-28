@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/markdownloadoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::MarkdownLoadOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::MarkdownLoadOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

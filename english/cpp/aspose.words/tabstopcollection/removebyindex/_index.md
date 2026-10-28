@@ -20,12 +20,11 @@ void Aspose::Words::TabStopCollection::RemoveByIndex(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection of tab stops. |
-
 ## Examples
 
 
+Shows how to select a tab stop in a document by its index and remove it.
 
-Shows how to select a tab stop in a document by its index and remove it. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_TabStops();
@@ -42,7 +41,6 @@ ASSERT_EQ(1, tabStops->get_Count());
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.RemoveByIndex.docx");
 ```
-
 ## See Also
 
 * Class [TabStopCollection](../)

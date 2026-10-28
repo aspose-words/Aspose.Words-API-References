@@ -4,7 +4,7 @@ linktitle: get_Aliases
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Aliases method. Gets all aliases of this style. If style has no aliases then empty array of string is returned in C++.'
 type: docs
-weight: 3000
+weight: 22088
 url: /cpp/aspose.words/style/get_aliases/
 ---
 ## Style::get_Aliases method
@@ -16,12 +16,11 @@ Gets all aliases of this style. If style has no aliases then empty array of stri
 System::ArrayPtr<System::String> Aspose::Words::Style::get_Aliases()
 ```
 
-
 ## Examples
 
 
+Shows how to use style aliases.
 
-Shows how to use style aliases. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Style with alias.docx"));
 
@@ -44,7 +43,6 @@ builder->Write(u"Hello again!");
 
 ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_Style(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
-
 ## See Also
 
 * Class [Style](../)

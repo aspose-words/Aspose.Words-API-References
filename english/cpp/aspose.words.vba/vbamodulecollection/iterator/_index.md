@@ -13,7 +13,7 @@ url: /cpp/aspose.words.vba/vbamodulecollection/iterator/
 
 
 ```cpp
-using Aspose::Words::Vba::VbaModuleCollection::iterator =  typename iterator_holder_type::iterator
+using Aspose::Words::Vba::VbaModuleCollection::iterator = typename iterator_holder_type::iterator
 ```
 
 ## See Also

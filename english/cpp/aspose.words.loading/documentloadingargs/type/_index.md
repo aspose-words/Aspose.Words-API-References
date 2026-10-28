@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Loading::DocumentLoadingArgs class in C++.'
 type: docs
-weight: 1000
+weight: 5000
 url: /cpp/aspose.words.loading/documentloadingargs/type/
 ---
 ## DocumentLoadingArgs::Type method

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textbox/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::TextBox::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::TextBox::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -7,13 +7,13 @@ type: docs
 weight: 29000
 url: /cpp/aspose.words/paragraph/insertfield/
 ---
-## Paragraph::InsertField(Aspose::Words::Fields::FieldType, bool, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
+## Paragraph::InsertField(Aspose::Words::Fields::FieldType, bool, const System::SharedPtr\<Aspose::Words::Node\> \&, bool) method
 
 
 Inserts a field into this paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(Aspose::Words::Fields::FieldType fieldType, bool updateField, const System::SharedPtr<Aspose::Words::Node> &refNode, bool isAfter)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(Aspose::Words::Fields::FieldType fieldType, bool updateField, const System::SharedPtr<Aspose::Words::Node> & refNode, bool isAfter)
 ```
 
 
@@ -21,18 +21,17 @@ System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::Insert
 | --- | --- | --- |
 | fieldType | Aspose::Words::Fields::FieldType | The type of the field to insert. |
 | updateField | bool | Specifies whether to update the field immediately. |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\> \& | Reference node inside this paragraph (if refNode is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
-
 ## Examples
 
 
+Shows various ways of adding fields to a paragraph.
 
-Shows various ways of adding fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -66,40 +65,35 @@ ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Resul
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
-* Enum [FieldType](../../../aspose.words.fields/fieldtype/)
-* Class [Node](../../node/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::InsertField(const System::String\&, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
+## Paragraph::InsertField(const System::String \&, const System::SharedPtr\<Aspose::Words::Node\> \&, bool) method
 
 
 Inserts a field into this paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(const System::String &fieldCode, const System::SharedPtr<Aspose::Words::Node> &refNode, bool isAfter)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(const System::String & fieldCode, const System::SharedPtr<Aspose::Words::Node> & refNode, bool isAfter)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldCode | const System::String\& | The field code to insert (without curly braces). |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
+| fieldCode | const System::String \& | The field code to insert (without curly braces). |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\> \& | Reference node inside this paragraph (if refNode is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
-
 ## Examples
 
 
+Shows various ways of adding fields to a paragraph.
 
-Shows various ways of adding fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -133,40 +127,36 @@ ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Resul
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
-* Class [Node](../../node/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::InsertField(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
+## Paragraph::InsertField(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Node\> \&, bool) method
 
 
 Inserts a field into this paragraph.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(const System::String &fieldCode, const System::String &fieldValue, const System::SharedPtr<Aspose::Words::Node> &refNode, bool isAfter)
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::Paragraph::InsertField(const System::String & fieldCode, const System::String & fieldValue, const System::SharedPtr<Aspose::Words::Node> & refNode, bool isAfter)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldCode | const System::String\& | The field code to insert (without curly braces). |
-| fieldValue | const System::String\& | The field value to insert. Pass **null** for fields that do not have a value. |
-| refNode | const System::SharedPtr\<Aspose::Words::Node\>\& | Reference node inside this paragraph (if *refNode* is **null**, then appends to the end of the paragraph). |
+| fieldCode | const System::String \& | The field code to insert (without curly braces). |
+| fieldValue | const System::String \& | The field value to insert. Pass **null** for fields that do not have a value. |
+| refNode | const System::SharedPtr\<Aspose::Words::Node\> \& | Reference node inside this paragraph (if refNode is **null**, then appends to the end of the paragraph). |
 | isAfter | bool | Whether to insert the field after or before reference node. |
 
 ### ReturnValue
 
 A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
-
 ## Examples
 
 
+Shows various ways of adding fields to a paragraph.
 
-Shows various ways of adding fields to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -200,11 +190,8 @@ ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Resul
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
-
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
-* Class [Node](../../node/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

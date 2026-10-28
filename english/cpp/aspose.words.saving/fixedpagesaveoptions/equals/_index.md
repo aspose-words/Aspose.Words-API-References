@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/fixedpagesaveoptions/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-bool Aspose::Words::Saving::FixedPageSaveOptions::Equals(System::SharedPtr<System::Object> obj) override
+_Bool Aspose::Words::Saving::FixedPageSaveOptions::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

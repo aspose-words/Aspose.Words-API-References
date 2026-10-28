@@ -2,20 +2,77 @@
 title: Aspose::Words::Node::set_CustomNodeId method
 linktitle: set_CustomNodeId
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Node::set_CustomNodeId method. Setter for Aspose::Words::Node::get_CustomNodeId in C++.'
+description: 'Aspose::Words::Node::set_CustomNodeId method. Specifies custom node identifier in C++.'
 type: docs
-weight: 21000
+weight: 34000
 url: /cpp/aspose.words/node/set_customnodeid/
 ---
 ## Node::set_CustomNodeId method
 
 
-Setter for [Aspose::Words::Node::get_CustomNodeId](../get_customnodeid/).
+Specifies custom node identifier.
 
 ```cpp
 void Aspose::Words::Node::set_CustomNodeId(int32_t value)
 ```
 
+## Remarks
+
+
+Default is zero.
+
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
+
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
+## Examples
+
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// Add two runs and one shape as child nodes to the first paragraph of this document.
+auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world! "));
+
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Rectangle);
+shape->set_Width(200);
+shape->set_Height(200);
+// Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+shape->set_CustomNodeId(100);
+shape->set_WrapType(WrapType::Inline);
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
+
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello again!"));
+
+// Iterate through the paragraph's collection of immediate children,
+// and print any runs or shapes that we find within.
+System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
+
+ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+
+for (auto&& child : System::IterateOver(children))
+{
+    switch (child->get_NodeType())
+    {
+        case NodeType::Run:
+            std::cout << "Run contents:" << std::endl;
+            std::cout << System::String::Format(u"\t\"{0}\"", child->GetText().Trim()) << std::endl;
+            break;
+        case NodeType::Shape:
+        {
+            auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
+            std::cout << "Shape:" << std::endl;
+            std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
+            ASSERT_EQ(100, shape->get_CustomNodeId());
+            break;
+        }
+        default:
+            break;
+    }
+}
+```
 ## See Also
 
 * Class [Node](../)

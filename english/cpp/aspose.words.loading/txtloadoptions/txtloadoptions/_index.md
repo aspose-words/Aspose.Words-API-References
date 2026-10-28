@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::TxtLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 2000
+weight: 9112
 url: /cpp/aspose.words.loading/txtloadoptions/txtloadoptions/
 ---
 ## TxtLoadOptions::TxtLoadOptions constructor
@@ -16,12 +16,11 @@ Initializes a new instance of this class with default values.
 Aspose::Words::Loading::TxtLoadOptions::TxtLoadOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to read and display hyperlinks.
 
-Shows how to read and display hyperlinks. 
 ```cpp
 const System::String inputText = System::String(u"Some links in TXT:\n") + u"https://www.aspose.com/\n" + u"https://docs.aspose.com/words/net/\n";
 
@@ -45,7 +44,6 @@ const System::String inputText = System::String(u"Some links in TXT:\n") + u"htt
     ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result().Trim(), u"https://docs.aspose.com/words/net/");
 }
 ```
-
 ## See Also
 
 * Class [TxtLoadOptions](../)

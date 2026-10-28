@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::CommentRangeStart class in C++.'
 type: docs
-weight: 1000
+weight: 7250
 url: /cpp/aspose.words/commentrangestart/type/
 ---
 ## CommentRangeStart::Type method

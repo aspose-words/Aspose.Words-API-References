@@ -20,12 +20,11 @@ void Aspose::Words::Lists::ListFormat::RemoveNumbers()
 
 
 Calling this method is equivalent to setting the [List](../get_list/) property to **null**.
-
 ## Examples
 
 
+Shows how to create bulleted and numbered lists.
 
-Shows how to create bulleted and numbered lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -104,8 +103,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
+Shows how to remove list formatting from all paragraphs in the main text of a section.
 
-Shows how to remove list formatting from all paragraphs in the main text of a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -132,7 +131,6 @@ ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
 }))));
 ```
-
 ## See Also
 
 * Class [ListFormat](../)

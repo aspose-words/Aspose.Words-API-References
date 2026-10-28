@@ -4,7 +4,7 @@ linktitle: Footnote
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::Footnote constructor. Initializes an instance of the Footnote class in C++.'
 type: docs
-weight: 2000
+weight: 6334
 url: /cpp/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote::Footnote constructor
@@ -13,26 +13,25 @@ url: /cpp/aspose.words.notes/footnote/footnote/
 Initializes an instance of the [Footnote](../) class.
 
 ```cpp
-Aspose::Words::Notes::Footnote::Footnote(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, Aspose::Words::Notes::FootnoteType footnoteType)
+Aspose::Words::Notes::Footnote::Footnote(const System::SharedPtr<Aspose::Words::DocumentBase> & doc, Aspose::Words::Notes::FootnoteType footnoteType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 | footnoteType | Aspose::Words::Notes::FootnoteType | A [FootnoteType](../get_footnotetype/) value that specifies whether this is a footnote or endnote. |
 ## Remarks
 
 
 When [Footnote](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../../aspose.words/node/get_parentnode/) is **null**.
 
-To append [Footnote](../) to the document use[InsertAfter1()</see> or <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../) on the paragraph where you want the footnote inserted.
-
+To append [Footnote](../) to the document use[InsertAfter()](../../../aspose.words/compositenode/insertafter/) or [InsertBefore()](../../../aspose.words/compositenode/insertbefore/) on the paragraph where you want the footnote inserted.
 ## Examples
 
 
+Shows how to insert and customize footnotes.
 
-Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,11 +72,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
-* Enum [FootnoteType](../../footnotetype/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

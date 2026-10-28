@@ -4,7 +4,7 @@ linktitle: get_CurrentParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_CurrentParagraph method. Gets the paragraph that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 12000
+weight: 77000
 url: /cpp/aspose.words/documentbuilder/get_currentparagraph/
 ---
 ## DocumentBuilder::get_CurrentParagraph method
@@ -16,12 +16,14 @@ Gets the paragraph that is currently selected in this [DocumentBuilder](../).
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::DocumentBuilder::get_CurrentParagraph()
 ```
 
+## Remarks
 
+[CurrentNode](../get_currentnode/)
 ## Examples
 
 
+Shows how to move a document builder's cursor to different nodes in a document.
 
-Shows how to move a document builder's cursor to different nodes in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,10 +70,8 @@ builder->MoveToDocumentStart();
 
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

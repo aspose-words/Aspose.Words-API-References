@@ -16,9 +16,11 @@ Sets a value determining how colors are rendered.
 void Aspose::Words::Saving::FixedPageSaveOptions::set_ColorMode(Aspose::Words::Saving::ColorMode value)
 ```
 
+## Remarks
+
+The default value is [Normal](../../colormode/). 
 ## See Also
 
-* Enum [ColorMode](../../colormode/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

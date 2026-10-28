@@ -20,12 +20,11 @@ void Aspose::Words::Saving::ImageSaveOptions::set_Resolution(float value)
 
 
 This property has effect only when saving to raster image formats.
-
 ## Examples
 
 
+Shows how to specify a resolution while rendering a document to PNG.
 
-Shows how to specify a resolution while rendering a document to PNG. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.72dpi.png", options
 options->set_Resolution(300);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.300dpi.png", options);
 ```
-
 ## See Also
 
 * Class [ImageSaveOptions](../)

@@ -4,7 +4,7 @@ linktitle: get_OfficeVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_OfficeVersion method. Gets or sets the Office version for the digital signature. Default value is "12.0" in C++.'
 type: docs
-weight: 4667
+weight: 10160
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_officeversion/
 ---
 ## SignOptions::get_OfficeVersion method
@@ -16,12 +16,11 @@ Gets or sets the Office version for the digital signature. Default value is "12.
 System::String Aspose::Words::DigitalSignatures::SignOptions::get_OfficeVersion() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign a document with additional signing options.
 
-Shows how to sign a document with additional signing options. 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_WindowsVersion(u"10.0");
@@ -47,7 +46,6 @@ ASSERT_EQ(1024, signature->get_HorizontalResolution());
 ASSERT_EQ(768, signature->get_VerticalResolution());
 ASSERT_EQ(24, signature->get_ColorDepth());
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

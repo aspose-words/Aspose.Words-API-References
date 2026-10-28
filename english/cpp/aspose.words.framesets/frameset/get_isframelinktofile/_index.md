@@ -4,7 +4,7 @@ linktitle: get_IsFrameLinkToFile
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile method. Gets or sets a value indicating whether the web page or document file name specified in the FrameDefaultUrl property is an external resource the frame is linked with in C++.'
 type: docs
-weight: 5000
+weight: 7800
 url: /cpp/aspose.words.framesets/frameset/get_isframelinktofile/
 ---
 ## Frameset::get_IsFrameLinkToFile method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.framesets/frameset/get_isframelinktofile/
 Gets or sets a value indicating whether the web page or document file name specified in the [FrameDefaultUrl](../get_framedefaulturl/) property is an external resource the frame is linked with.
 
 ```cpp
-bool Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile()
+_Bool Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile()
 ```
-
 
 ## Examples
 
 
+Shows how to access frames on-page.
 
-Shows how to access frames on-page. 
 ```cpp
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
@@ -38,7 +37,6 @@ ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameL
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_FrameDefaultUrl(u"https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx");
 doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->set_IsFrameLinkToFile(false);
 ```
-
 ## See Also
 
 * Class [Frameset](../)

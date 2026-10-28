@@ -13,23 +13,28 @@ url: /cpp/aspose.words.tables/autofitbehavior/
 Determines how Aspose.Words resizes the table when you invoke the [AutoFit()](../table/autofit/) method.
 
 ```cpp
-enum class AutoFitBehavior
+enum class AutoFitBehavior : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AutoFitToContents | 0 | Aspose.Words enables the AutoFit option, removes the preferred width from the table and all cells and then updates the table layout. In the resulting table, cell widths are updated to fit the table contents. Most likely, the table will shrink. |
-| AutoFitToWindow | 1 | When you use this value, Aspose.Words enables the AutoFit option, sets the preferred width for the table to 100%, removes preferred widths from all cells and then updates the table layout. As a result, the table occupies all available width and the cell widths are updated to fit table contents. |
-| FixedColumnWidths | 2 | Aspose.Words disables the AutoFit option and removes the preferred with from the table. The widths of the cells remain as they are specified by their [Width](../cellformat/get_width/) properties. |
+| AutoFitToContents | 0 | Aspose.Words enables the AutoFit option, removes the preferred width from the table and all cells and then updates the table layout.
 
+In the resulting table, cell widths are updated to fit the table contents. Most likely, the table will shrink. |
+| AutoFitToWindow | 1 | When you use this value, Aspose.Words enables the AutoFit option, sets the preferred width for the table to 100%, removes preferred widths from all cells and then updates the table layout.
+
+As a result, the table occupies all available width and the cell widths are updated to fit table contents. |
+| FixedColumnWidths | 2 | Aspose.Words disables the AutoFit option and removes the preferred with from the table.
+
+The widths of the cells remain as they are specified by their [Width](../cellformat/get_width/) properties. |
 
 ## Examples
 
 
+Shows how to build a new table while applying a style.
 
-Shows how to build a new table while applying a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,8 +78,8 @@ builder->EndRow();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
+Shows how to build a formatted 2x2 table.
 
-Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -113,7 +118,6 @@ ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()-
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

@@ -4,7 +4,7 @@ linktitle: get_SectionStart
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_SectionStart method. Returns or sets the type of section break for the specified object in C++.'
 type: docs
-weight: 41000
+weight: 49853
 url: /cpp/aspose.words/pagesetup/get_sectionstart/
 ---
 ## PageSetup::get_SectionStart method
@@ -16,12 +16,11 @@ Returns or sets the type of section break for the specified object.
 Aspose::Words::SectionStart Aspose::Words::PageSetup::get_SectionStart()
 ```
 
-
 ## Examples
 
 
+Shows how to specify how a new section separates itself from the previous.
 
-Shows how to specify how a new section separates itself from the previous. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,8 +64,8 @@ ASSERT_EQ(SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetu
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetSectionStart.docx");
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -109,10 +108,8 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Enum [SectionStart](../../sectionstart/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

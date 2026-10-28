@@ -4,7 +4,7 @@ linktitle: get_Encoding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_Encoding method. Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null in C++.'
 type: docs
-weight: 6000
+weight: 20288
 url: /cpp/aspose.words.loading/loadoptions/get_encoding/
 ---
 ## LoadOptions::get_Encoding method
@@ -22,12 +22,11 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Loading::LoadOptions::g
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is **null**, then the system will try to automatically detect the encoding.
-
 ## Examples
 
 
+Shows how to set the encoding with which to open a document.
 
-Shows how to set the encoding with which to open a document. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_Encoding(System::Text::Encoding::get_ASCII());
@@ -37,7 +36,6 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English t
 
 ASSERT_TRUE(doc->ToString(SaveFormat::Text).Contains(u"This is a sample text in English."));
 ```
-
 ## See Also
 
 * Class [LoadOptions](../)

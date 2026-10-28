@@ -4,7 +4,7 @@ linktitle: get_SearchFromBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom method. Gets or sets whether to search from the bottom of the current page, rather from the top in C++.'
 type: docs
-weight: 6000
+weight: 10667
 url: /cpp/aspose.words.fields/fieldstyleref/get_searchfrombottom/
 ---
 ## FieldStyleRef::get_SearchFromBottom method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_searchfrombottom/
 Gets or sets whether to search from the bottom of the current page, rather from the top.
 
 ```cpp
-bool Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom()
+_Bool Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom()
 ```
-
 
 ## Examples
 
 
+Shows how to use STYLEREF fields.
 
-Shows how to use STYLEREF fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -85,7 +84,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
-
 ## See Also
 
 * Class [FieldStyleRef](../)

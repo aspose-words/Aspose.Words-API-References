@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::ImportFormatOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::ImportFormatOptions::GetType() const override
 ```
 
 ## See Also

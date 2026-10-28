@@ -4,13 +4,13 @@ linktitle: get_CurrentNode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_CurrentNode method. Gets the node that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 11000
+weight: 76000
 url: /cpp/aspose.words/documentbuilder/get_currentnode/
 ---
 ## DocumentBuilder::get_CurrentNode method
 
 
-Gets the node that is currently selected in this [DocumentBuilder](../).
+Gets the node that is currently selected in this DocumentBuilder.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::get_CurrentNode()
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::get_Curre
 [CurrentNode](./) is a cursor of [DocumentBuilder](../) and points to a [Node](../../node/) that is a direct child of a [Paragraph](../../paragraph/). Any insert operations you perform using [DocumentBuilder](../) will insert before the [CurrentNode](./).
 
 When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, [CurrentNode](./) returns **null**.
-
 ## Examples
 
 
+Shows how to move a document builder's cursor to different nodes in a document.
 
-Shows how to move a document builder's cursor to different nodes in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,10 +73,8 @@ builder->MoveToDocumentStart();
 
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

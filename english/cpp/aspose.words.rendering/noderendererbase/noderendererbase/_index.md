@@ -4,7 +4,7 @@ linktitle: NodeRendererBase
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use NodeRendererBase constructor of Aspose::Words::Rendering::NodeRendererBase class in C++.'
 type: docs
-weight: 2000
+weight: 10500
 url: /cpp/aspose.words.rendering/noderendererbase/noderendererbase/
 ---
 ## NodeRendererBase::NodeRendererBase constructor

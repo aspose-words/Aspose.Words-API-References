@@ -4,7 +4,7 @@ linktitle: get_SpaceAfter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumn::get_SpaceAfter method. Gets or sets the space between this column and the next column in points. Not required for the last column in C++.'
 type: docs
-weight: 2000
+weight: 5500
 url: /cpp/aspose.words/textcolumn/get_spaceafter/
 ---
 ## TextColumn::get_SpaceAfter method
@@ -16,12 +16,11 @@ Gets or sets the space between this column and the next column in points. Not re
 double Aspose::Words::TextColumn::get_SpaceAfter()
 ```
 
-
 ## Examples
 
 
+Shows how to create unevenly spaced columns.
 
-Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
-
 ## See Also
 
 * Class [TextColumn](../)

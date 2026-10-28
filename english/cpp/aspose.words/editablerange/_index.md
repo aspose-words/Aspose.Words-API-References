@@ -2,7 +2,7 @@
 title: Aspose::Words::EditableRange class
 linktitle: EditableRange
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::EditableRange class. Represents a single editable range. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::EditableRange class. Represents a single editable range. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words/editablerange/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/editablerange/
 ## EditableRange class
 
 
-Represents a single editable range. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
+Represents a single editable range. 
+To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class EditableRange : public System::Object
@@ -20,27 +21,26 @@ class EditableRange : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)() | Removes the editable range from the document. Does not remove content inside the editable range. |
+| static [Type](./type/)() |  |
 | [get_EditableRangeEnd](./get_editablerangeend/)() | Gets the node that represents the end of the editable range. |
 | [get_EditableRangeStart](./get_editablerangestart/)() const | Gets the node that represents the start of the editable range. |
 | [get_EditorGroup](./get_editorgroup/)() | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [get_Id](./get_id/)() | Gets the editable range identifier. |
 | [get_SingleUser](./get_singleuser/)() | Returns or sets the single user for editable range. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)() | Removes the editable range from the document. Does not remove content inside the editable range. |
-| [set_EditorGroup](./set_editorgroup/)(Aspose::Words::EditorType) | Setter for [Aspose::Words::EditableRange::get_EditorGroup](./get_editorgroup/). |
-| [set_SingleUser](./set_singleuser/)(const System::String\&) | Setter for [Aspose::Words::EditableRange::get_SingleUser](./get_singleuser/). |
-| static [Type](./type/)() |  |
+| [set_EditorGroup](./set_editorgroup/)(Aspose::Words::EditorType) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [set_SingleUser](./set_singleuser/)(const System::String \&) | Sets the single user for editable range. |
 ## Remarks
 
 
 [EditableRange](./) is a "facade" object that encapsulates two nodes [EditableRangeStart](./get_editablerangestart/) and [EditableRangeEnd](./get_editablerangeend/) in a document tree and allows to work with an editable range as a single object.
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -78,7 +78,6 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

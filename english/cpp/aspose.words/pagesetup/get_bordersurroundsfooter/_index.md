@@ -4,7 +4,7 @@ linktitle: get_BorderSurroundsFooter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_BorderSurroundsFooter method. Specifies whether the page border includes or excludes the footer in C++.'
 type: docs
-weight: 8000
+weight: 49132
 url: /cpp/aspose.words/pagesetup/get_bordersurroundsfooter/
 ---
 ## PageSetup::get_BorderSurroundsFooter method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words/pagesetup/get_bordersurroundsfooter/
 Specifies whether the page border includes or excludes the footer.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_BorderSurroundsFooter()
+_Bool Aspose::Words::PageSetup::get_BorderSurroundsFooter()
 ```
 
+## Remarks
 
+ Note, changing this property affects all sections in the document. 
 ## Examples
 
 
+Shows how to apply a border to the page and header/footer.
 
-Shows how to apply a border to the page and header/footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,7 +49,6 @@ pageSetup->set_BorderSurroundsFooter(false);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorder.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

@@ -4,7 +4,7 @@ linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use cbegin method of Aspose::Words::MailMerging::MappedDataFieldCollection class in C++.'
 type: docs
-weight: 4000
+weight: 16334
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/cbegin/
 ---
 ## MappedDataFieldCollection::cbegin method
@@ -13,12 +13,11 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/cbegin/
 
 
 ```cpp
-const_iterator Aspose::Words::MailMerging::MappedDataFieldCollection::cbegin() const noexcept
+const_iterator Aspose::Words::MailMerging::MappedDataFieldCollection::cbegin() const
 ```
 
 ## See Also
 
-* Typedef [const_iterator](../const_iterator/)
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

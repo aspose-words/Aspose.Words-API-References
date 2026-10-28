@@ -4,7 +4,7 @@ linktitle: get_IsListItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListFormat::get_IsListItem method. True when the paragraph has bulleted or numbered formatting applied to it in C++.'
 type: docs
-weight: 4000
+weight: 12334
 url: /cpp/aspose.words.lists/listformat/get_islistitem/
 ---
 ## ListFormat::get_IsListItem method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.lists/listformat/get_islistitem/
 True when the paragraph has bulleted or numbered formatting applied to it.
 
 ```cpp
-bool Aspose::Words::Lists::ListFormat::get_IsListItem()
+_Bool Aspose::Words::Lists::ListFormat::get_IsListItem()
 ```
-
 
 ## Examples
 
 
+Shows how to work with list levels.
 
-Shows how to work with list levels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,8 +67,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
+Shows how to output all paragraphs in a document that are list items.
 
-Shows how to output all paragraphs in a document that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +96,6 @@ for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph
     std::cout << System::String::Format(u"\t\"{0}\"", para->GetText().Trim()) << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [ListFormat](../)

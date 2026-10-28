@@ -4,7 +4,7 @@ linktitle: get_BindingType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_BindingType method. Specifies the binding type in C++.'
 type: docs
-weight: 4000
+weight: 7668
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_bindingtype/
 ---
 ## WebExtensionBinding::get_BindingType method
@@ -16,12 +16,11 @@ Specifies the binding type.
 Aspose::Words::WebExtensions::WebExtensionBindingType Aspose::Words::WebExtensions::WebExtensionBinding::get_BindingType() const
 ```
 
-
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -86,10 +85,8 @@ ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
-* Enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * Class [WebExtensionBinding](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

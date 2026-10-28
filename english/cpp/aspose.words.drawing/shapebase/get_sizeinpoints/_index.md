@@ -4,7 +4,7 @@ linktitle: get_SizeInPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_SizeInPoints method. Gets the size of the shape in points in C++.'
 type: docs
-weight: 49000
+weight: 61825
 url: /cpp/aspose.words.drawing/shapebase/get_sizeinpoints/
 ---
 ## ShapeBase::get_SizeInPoints method
@@ -16,12 +16,11 @@ Gets the size of the shape in points.
 System::Drawing::SizeF Aspose::Words::Drawing::ShapeBase::get_SizeInPoints()
 ```
 
-
 ## Examples
 
 
+Shows how to verify a shape's size and markup language.
 
-Shows how to verify a shape's size and markup language. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,7 +30,6 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(ge
 ASSERT_EQ(ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
 ASPOSE_ASSERT_EQ(System::Drawing::SizeF(static_cast<float>(300.0f), static_cast<float>(300.0f)), shape->get_SizeInPoints());
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

@@ -4,7 +4,7 @@ linktitle: get_DateTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_DateTime method. Gets the date and time that the comment was made in C++.'
 type: docs
-weight: 7000
+weight: 26000
 url: /cpp/aspose.words/comment/get_datetime/
 ---
 ## Comment::get_DateTime method
@@ -16,6 +16,9 @@ Gets the date and time that the comment was made.
 System::DateTime Aspose::Words::Comment::get_DateTime() const
 ```
 
+## Remarks
+
+ Default is **MinValue**
 ## See Also
 
 * Class [Comment](../)

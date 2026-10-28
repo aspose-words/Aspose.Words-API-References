@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Font method. Gets the character formatting of the style in C++.'
 type: docs
-weight: 8000
+weight: 22308
 url: /cpp/aspose.words/style/get_font/
 ---
 ## Style::get_Font method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Style::get_Font()
 
 
 For list styles this property returns **null**.
-
 ## Examples
 
 
+Shows how to create and apply a custom style.
 
-Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -61,8 +60,8 @@ ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -87,10 +86,8 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
-* Class [Font](../../font/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

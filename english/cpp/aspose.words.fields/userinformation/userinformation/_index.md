@@ -4,7 +4,7 @@ linktitle: UserInformation
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use UserInformation constructor of Aspose::Words::Fields::UserInformation class in C++.'
 type: docs
-weight: 3000
+weight: 8286
 url: /cpp/aspose.words.fields/userinformation/userinformation/
 ---
 ## UserInformation::UserInformation constructor

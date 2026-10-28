@@ -13,23 +13,22 @@ url: /cpp/aspose.words.fonts/fontinfocollection/contains/
 Determines whether the collection contains a font with the given name.
 
 ```cpp
-bool Aspose::Words::Fonts::FontInfoCollection::Contains(const System::String &name)
+_Bool Aspose::Words::Fonts::FontInfoCollection::Contains(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-insensitive name of the font to locate. |
+| name | const System::String \& | Case-insensitive name of the font to locate. |
 
 ### ReturnValue
 
 **true** if the item is found in the collection; otherwise, **false**.
-
 ## Examples
 
 
+Shows info about the fonts that are present in the blank document.
 
-Shows info about the fonts that are present in the blank document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -43,7 +42,6 @@ ASSERT_EQ(204, doc->get_FontInfos()->idx_get(u"Times New Roman")->get_Charset())
 ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Symbol"));
 ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Arial"));
 ```
-
 ## See Also
 
 * Class [FontInfoCollection](../)

@@ -7,29 +7,28 @@ type: docs
 weight: 19000
 url: /cpp/aspose.words.drawing/oleformat/save/
 ---
-## OleFormat::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
+## OleFormat::Save(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Saves the data of the embedded object into the specified stream.
 
 ```cpp
-void Aspose::Words::Drawing::OleFormat::Save(const System::SharedPtr<System::IO::Stream> &stream)
+void Aspose::Words::Drawing::OleFormat::Save(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | Where to save the object data. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | Where to save the object data. |
 ## Remarks
 
 
 It is the responsibility of the caller to dispose the stream.
-
 ## Examples
 
 
+Shows how to extract embedded OLE objects into files.
 
-Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -57,31 +56,33 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 // 2 -  Save it directly to a filename:
 oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
+## Exceptions
+
+* **InvalidOperationException** - Throws if you attempt to save a linked object.
 
 ## See Also
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## OleFormat::Save(const System::String\&) method
+## OleFormat::Save(const System::String \&) method
 
 
 Saves the data of the embedded object into a file with the specified name.
 
 ```cpp
-void Aspose::Words::Drawing::OleFormat::Save(const System::String &fileName)
+void Aspose::Words::Drawing::OleFormat::Save(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | Name of the file to save the OLE object data. |
-
+| fileName | const System::String \& | Name of the file to save the OLE object data. |
 ## Examples
 
 
+Shows how to extract embedded OLE objects into files.
 
-Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -109,19 +110,22 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 // 2 -  Save it directly to a filename:
 oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
+## Exceptions
+
+* **InvalidOperationException** - Throws if you attempt to save a linked object.
 
 ## See Also
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## OleFormat::Save(std::basic_ostream\<CharType, Traits\>\&) method
+## OleFormat::Save(std::basic_ostream\<CharType, Traits\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> void Aspose::Words::Drawing::OleFormat::Save(std::basic_ostream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> void Aspose::Words::Drawing::OleFormat::Save(std::basic_ostream<CharType, Traits> & stream)
 ```
 
 ## See Also

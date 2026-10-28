@@ -4,7 +4,7 @@ linktitle: get_HtmlVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion method. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml in C++.'
 type: docs
-weight: 35000
+weight: 49680
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_htmlversion/
 ---
 ## HtmlSaveOptions::get_HtmlVersion method
@@ -16,12 +16,11 @@ Specifies version of HTML standard that should be used when saving the document 
 Aspose::Words::Saving::HtmlVersion Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion() const
 ```
 
-
 ## Examples
 
 
+Shows how to save a document to a specific version of HTML.
 
-Shows how to save a document to a specific version of HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -49,8 +48,8 @@ switch (htmlVersion)
 }
 ```
 
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,10 +76,8 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<html>"));
 }
 ```
-
 ## See Also
 
-* Enum [HtmlVersion](../../htmlversion/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

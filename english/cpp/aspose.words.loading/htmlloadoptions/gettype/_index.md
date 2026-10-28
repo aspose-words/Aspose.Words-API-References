@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/htmlloadoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::HtmlLoadOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::HtmlLoadOptions::GetType() const override
 ```
 
 ## See Also

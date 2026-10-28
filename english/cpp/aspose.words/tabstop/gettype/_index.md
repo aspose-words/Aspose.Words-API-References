@@ -13,7 +13,7 @@ url: /cpp/aspose.words/tabstop/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::TabStop::GetType() const override
+const System::TypeInfo & Aspose::Words::TabStop::GetType() const override
 ```
 
 ## See Also

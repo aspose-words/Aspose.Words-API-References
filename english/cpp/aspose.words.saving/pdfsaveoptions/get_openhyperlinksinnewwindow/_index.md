@@ -4,7 +4,7 @@ linktitle: get_OpenHyperlinksInNewWindow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow method. Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser in C++.'
 type: docs
-weight: 24000
+weight: 36650
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions::get_OpenHyperlinksInNewWindow method
@@ -13,17 +13,17 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_openhyperlinksinnewwindow/
 Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
 
 ```cpp
-bool Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow() const
+_Bool Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow() const
 ```
 
 ## Remarks
 
 
-The default value is **false**. When this value is set to **true** hyperlinks are saved using JavaScript code. JavaScript code is **app.launchURL("URL", true);**, where **URL** is a hyperlink.
+ The default value is **false**. When this value is set to **true** hyperlinks are saved using JavaScript code. JavaScript code is **app.launchURL("URL", true);**, where **URL** is a hyperlink. 
 
-Note that if this option is set to **true** hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
+ Note that if this option is set to **true** hyperlinks can't work in some PDF readers e.g. Chrome, Firefox. 
 
-JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case. 
+JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case.
 ## See Also
 
 * Class [PdfSaveOptions](../)

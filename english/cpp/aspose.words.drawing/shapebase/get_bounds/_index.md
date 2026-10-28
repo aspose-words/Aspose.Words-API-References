@@ -4,7 +4,7 @@ linktitle: get_Bounds
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Bounds method. Gets or sets the location and size of the containing block of the shape in C++.'
 type: docs
-weight: 9000
+weight: 61120
 url: /cpp/aspose.words.drawing/shapebase/get_bounds/
 ---
 ## ShapeBase::get_Bounds method
@@ -18,18 +18,15 @@ System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::get_Bounds()
 
 ## Remarks
 
-
-Ignores aspect ratio lock upon setting.
-
+ Ignores aspect ratio lock upon setting. 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
-
 ## Examples
 
 
+Shows how to create and populate a group shape.
 
-Shows how to create and populate a group shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -113,8 +110,8 @@ builder->Write(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"Shape.GroupShape.docx");
 ```
 
+Shows how to verify shape containing block boundaries.
 
-Shows how to verify shape containing block boundaries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -169,7 +166,6 @@ ASPOSE_ASSERT_EQ(System::Drawing::RectangleF(static_cast<float>(250.0f), static_
 
 doc->Save(get_ArtifactsDir() + u"Shape.Bounds.docx");
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

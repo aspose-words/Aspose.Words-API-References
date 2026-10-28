@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyle::get_Borders method. Gets the collection of default cell borders for the conditional style in C++.'
 type: docs
-weight: 4000
+weight: 15182
 url: /cpp/aspose.words/conditionalstyle/get_borders/
 ---
 ## ConditionalStyle::get_Borders method
@@ -16,12 +16,11 @@ Gets the collection of default cell borders for the conditional style.
 System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::ConditionalStyle::get_Borders()
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,10 +85,8 @@ table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow |
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Class [BorderCollection](../../bordercollection/)
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

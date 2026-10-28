@@ -16,12 +16,14 @@ Adds a new series group of the specified series type to this collection.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::Add(Aspose::Words::Drawing::Charts::ChartSeriesType seriesType)
 ```
 
+## Remarks
 
+ Combo charts can contain series groups only of the following types: area, bar, column, line, pie, scatter, radar and stock types (except the corresponding 3D series types). 
 ## Examples
 
 
+Shows how to work with the secondary axis of chart.
 
-Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,11 +57,8 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
-
 ## See Also
 
-* Class [ChartSeriesGroup](../../chartseriesgroup/)
-* Enum [ChartSeriesType](../../chartseriestype/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldskipif/set_rightexpression/
 Sets the right part of the comparison expression.
 
 ```cpp
-void Aspose::Words::Fields::FieldSkipIf::set_RightExpression(const System::String &value)
+void Aspose::Words::Fields::FieldSkipIf::set_RightExpression(const System::String & value)
 ```
 
 ## See Also

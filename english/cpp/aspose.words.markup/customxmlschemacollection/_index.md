@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlSchemaCollection class
 linktitle: CustomXmlSchemaCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Markup::CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.markup/customxmlschemacollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/
 ## CustomXmlSchemaCollection class
 
 
-A collection of strings that represent XML schemas that are associated with a custom XML part. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+A collection of strings that represent XML schemas that are associated with a custom XML part. 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerable<System::String>
@@ -20,25 +21,25 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::String\&) | Adds an item to the collection. |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
+| [Add](./add/)(const System::String \&) | Adds an item to the collection. |
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [Clone](./clone/)() | Makes a deep clone of this object. |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets the element at the specified index. |
-| [idx_set](./idx_set/)(int32_t, const System::String\&) | Gets or sets the element at the specified index. |
-| [IndexOf](./indexof/)(const System::String\&) | Returns the zero-based index of the specified value in the collection. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::String\&) | Removes the specified value from the collection. |
+| [IndexOf](./indexof/)(const System::String \&) | Returns the zero-based index of the specified value in the collection. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| [Remove](./remove/)(const System::String \&) | Removes the specified value from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a value at the specified index. |
 | static [Type](./type/)() |  |
+| [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() const |  |
+| [end](./end/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets the element at the specified index. |
+| [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets the element at the specified index. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -56,12 +57,11 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 
 
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [Schemas](../customxmlpart/get_schemas/) property.
-
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -102,7 +102,6 @@ schemas->Clear();
 
 ASSERT_EQ(0, schemas->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

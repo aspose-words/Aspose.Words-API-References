@@ -8,18 +8,25 @@ weight: 23000
 url: /cpp/aspose.words.themes/
 ---
 
-The **Aspose.Words.Themes** namespace provides classes that allow to access theme information in Microsoft Word documents.
+The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents.
 
+
+A document theme can specify fonts and colors to be used in a document. Themes are supported in Word 2007 and higher.
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Theme](./theme/) | Represents document [Theme](./theme/), and provides access to main theme parts including [MajorFonts](./theme/get_majorfonts/), [MinorFonts](./theme/get_minorfonts/) and [Colors](./theme/get_colors/)To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
-| [ThemeColors](./themecolors/) | Represents the color scheme of the document theme which contains twelve colors. [ThemeColors](./themecolors/) object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink. |
-| [ThemeFonts](./themefonts/) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./themefonts/get_latin/), [EastAsian](./themefonts/get_eastasian/) and [ComplexScript](./themefonts/get_complexscript/). To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
+| [Theme](./theme/) | Represents document Theme, and provides access to main theme parts including [MajorFonts](./theme/get_majorfonts/), [MinorFonts](./theme/get_minorfonts/) and [Colors](./theme/get_colors/)
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
+| [ThemeColors](./themecolors/) | Represents the color scheme of the document theme which contains twelve colors.
+
+[ThemeColors](./themecolors/) object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink. |
+| [ThemeFonts](./themefonts/) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [Latin](./themefonts/get_latin/), [EastAsian](./themefonts/get_eastasian/) and [ComplexScript](./themefonts/get_complexscript/). 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
 ## Enums
 
 | Enum | Description |
 | --- | --- |
-| [ThemeColor](./themecolor/) | Specifies the theme colors for document themes. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
+| [ThemeColor](./themecolor/) | Specifies the theme colors for document themes. 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
 | [ThemeFont](./themefont/) | Specifies the types of theme font names for document themes. |

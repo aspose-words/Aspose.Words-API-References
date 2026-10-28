@@ -30,12 +30,12 @@ The child node that matches the criteria or **null** if no matching node is foun
 
 
 If index is out of range, a **null** is returned.
-
+ Note that markup nodes ([StructuredDocumentTag](../../nodetype/) and [SmartTag](../../nodetype/)) are traversed even when isDeep = **false** and [GetChild()](./) is invoked for non-markup node type. For example if the first run in a para is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [GetChild()](./)([Run](../../nodetype/), 0, **false**).
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -80,11 +80,8 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

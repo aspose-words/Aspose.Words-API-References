@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/replacingargs/set_replacement/
 Sets the replacement string.
 
 ```cpp
-void Aspose::Words::Replacing::ReplacingArgs::set_Replacement(const System::String &value)
+void Aspose::Words::Replacing::ReplacingArgs::set_Replacement(const System::String & value)
 ```
 
 ## See Also

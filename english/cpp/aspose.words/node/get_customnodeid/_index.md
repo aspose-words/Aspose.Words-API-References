@@ -4,7 +4,7 @@ linktitle: get_CustomNodeId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_CustomNodeId method. Specifies custom node identifier in C++.'
 type: docs
-weight: 5000
+weight: 24000
 url: /cpp/aspose.words/node/get_customnodeid/
 ---
 ## Node::get_CustomNodeId method
@@ -24,12 +24,11 @@ Default is zero.
 This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
 Important note, specified value is not saved to an output file and exists only during the node lifetime.
-
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,7 +73,6 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
 * Class [Node](../)

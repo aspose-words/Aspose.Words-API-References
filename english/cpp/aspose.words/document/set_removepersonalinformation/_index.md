@@ -2,20 +2,51 @@
 title: Aspose::Words::Document::set_RemovePersonalInformation method
 linktitle: set_RemovePersonalInformation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Document::set_RemovePersonalInformation method. Setter for Aspose::Words::Document::get_RemovePersonalInformation in C++.'
+description: 'Aspose::Words::Document::set_RemovePersonalInformation method. Sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document in C++.'
 type: docs
-weight: 84000
+weight: 166000
 url: /cpp/aspose.words/document/set_removepersonalinformation/
 ---
 ## Document::set_RemovePersonalInformation method
 
 
-Setter for [Aspose::Words::Document::get_RemovePersonalInformation](../get_removepersonalinformation/).
+Sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document.
 
 ```cpp
 void Aspose::Words::Document::set_RemovePersonalInformation(bool value)
 ```
 
+## Examples
+
+
+Shows how to enable the removal of personal information during a manual save.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert some content with personal information.
+doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
+doc->get_BuiltInDocumentProperties()->set_Company(u"Placeholder Inc.");
+
+doc->StartTrackRevisions(doc->get_BuiltInDocumentProperties()->get_Author(), System::DateTime::get_Now());
+builder->Write(u"Hello world!");
+doc->StopTrackRevisions();
+
+// This flag is equivalent to File -> Options -> Trust Center -> Trust Center Settings... ->
+// Privacy Options -> "Remove personal information from file properties on save" in Microsoft Word.
+doc->set_RemovePersonalInformation(saveWithoutPersonalInfo);
+
+// This option will not take effect during a save operation made using Aspose.Words.
+// Personal data will be removed from our document with the flag set when we save it manually using Microsoft Word.
+doc->Save(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
+doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx"));
+
+ASPOSE_ASSERT_EQ(saveWithoutPersonalInfo, doc->get_RemovePersonalInformation());
+ASSERT_EQ(u"John Doe", doc->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(u"Placeholder Inc.", doc->get_BuiltInDocumentProperties()->get_Company());
+ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
+```
 ## See Also
 
 * Class [Document](../)

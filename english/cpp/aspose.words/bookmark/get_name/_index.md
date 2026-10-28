@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bookmark::get_Name method. Gets or sets the name of the bookmark in C++.'
 type: docs
-weight: 7000
+weight: 11778
 url: /cpp/aspose.words/bookmark/get_name/
 ---
 ## Bookmark::get_Name method
@@ -16,12 +16,14 @@ Gets or sets the name of the bookmark.
 System::String Aspose::Words::Bookmark::get_Name()
 ```
 
+## Remarks
 
+ Note that if you change the name of a bookmark to a name that already exists in the document, no error will be given and only the first bookmark will be stored when you save the document. 
 ## Examples
 
 
+Shows how to insert a bookmark.
 
-Shows how to insert a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +41,6 @@ ASSERT_EQ(u"My Bookmark", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Nam
 
 doc->Save(get_ArtifactsDir() + u"Bookmarks.Insert.docx");
 ```
-
 ## See Also
 
 * Class [Bookmark](../)

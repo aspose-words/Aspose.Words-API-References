@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/idocumentsavingcallback/notify/
 This is called to notify of document saving progress.
 
 ```cpp
-virtual void Aspose::Words::Saving::IDocumentSavingCallback::Notify(System::SharedPtr<Aspose::Words::Saving::DocumentSavingArgs> args)=0
+virtual void Aspose::Words::Saving::IDocumentSavingCallback::Notify(System::SharedPtr<Aspose::Words::Saving::DocumentSavingArgs> args)
 ```
 
 
@@ -22,14 +22,12 @@ virtual void Aspose::Words::Saving::IDocumentSavingCallback::Notify(System::Shar
 | args | System::SharedPtr\<Aspose::Words::Saving::DocumentSavingArgs\> | An argument of the event. |
 ## Remarks
 
+ The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
 
-The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
-
-An exception should be threw from the progress callback for abortion and it should be caught in the consumer code.
+ An exception should be threw from the progress callback for abortion and it should be caught in the consumer code.
 
 ## See Also
 
-* Class [DocumentSavingArgs](../../documentsavingargs/)
 * Interface [IDocumentSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

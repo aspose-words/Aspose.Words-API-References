@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/chmloadoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Loading::ChmLoadOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Loading::ChmLoadOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

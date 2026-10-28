@@ -13,14 +13,16 @@ url: /cpp/aspose.words.fonts/fontsettings/savesearchcache/
 Saves the font search cache to the stream.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SaveSearchCache(const System::SharedPtr<System::IO::Stream> &outputStream)
+void Aspose::Words::Fonts::FontSettings::SaveSearchCache(const System::SharedPtr<System::IO::Stream> & outputStream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | Output stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\> \& | Output stream. |
+## Remarks
 
+ See [SetFontsSources()](../setfontssources/) method description for more info. 
 ## See Also
 
 * Class [FontSettings](../)

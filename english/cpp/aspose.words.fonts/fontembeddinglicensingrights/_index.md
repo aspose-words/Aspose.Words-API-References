@@ -20,18 +20,20 @@ class FontEmbeddingLicensingRights : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_BitmapEmbeddingOnly](./get_bitmapembeddingonly/)() const | Indicates the "Bitmap embedding only" restriction. |
 | [get_EmbeddingUsagePermissions](./get_embeddingusagepermissions/)() const | Usage permissions. |
 | [get_NoSubsetting](./get_nosubsetting/)() const | Indicates the "No subsetting" restriction. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
+## Remarks
 
+ To learn more, visit the [OpenType specification section](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fstype) on Microsoft Typography portal. 
 ## Examples
 
 
+Shows how to get license rights information for embedded fonts (FontInfo).
 
-Shows how to get license rights information for embedded fonts ([FontInfo](../fontinfo/)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -48,7 +50,6 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

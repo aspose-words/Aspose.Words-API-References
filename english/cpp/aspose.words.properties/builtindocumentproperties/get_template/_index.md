@@ -4,7 +4,7 @@ linktitle: get_Template
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Template method. Gets or sets the informational name of the document template in C++.'
 type: docs
-weight: 27000
+weight: 36792
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_template/
 ---
 ## BuiltInDocumentProperties::get_Template method
@@ -24,12 +24,11 @@ In Microsoft Word, this property is for informational purposes only and usually 
 Empty string means the document is attached to the Normal template.
 
 To get or set the actual name of the attached template, use the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property.
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -58,7 +57,6 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

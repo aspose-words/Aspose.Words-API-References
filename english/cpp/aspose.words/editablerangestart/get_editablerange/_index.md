@@ -4,7 +4,7 @@ linktitle: get_EditableRange
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::EditableRangeStart::get_EditableRange method. Gets the facade object that encapsulates this editable range start and end in C++.'
 type: docs
-weight: 3000
+weight: 7400
 url: /cpp/aspose.words/editablerangestart/get_editablerange/
 ---
 ## EditableRangeStart::get_EditableRange method
@@ -16,12 +16,11 @@ Gets the facade object that encapsulates this editable range start and end.
 System::SharedPtr<Aspose::Words::EditableRange> Aspose::Words::EditableRangeStart::get_EditableRange()
 ```
 
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -59,10 +58,8 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
-* Class [EditableRange](../../editablerange/)
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

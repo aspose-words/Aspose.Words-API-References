@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/oleformat/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::OleFormat::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::OleFormat::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

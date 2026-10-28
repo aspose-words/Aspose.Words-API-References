@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::CompositeNode class in C++.'
 type: docs
-weight: 1000
+weight: 24000
 url: /cpp/aspose.words/compositenode/type/
 ---
 ## CompositeNode::Type method

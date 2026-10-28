@@ -4,7 +4,7 @@ linktitle: get_ShowLeaderLines
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines method. Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 10000
+weight: 18232
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showleaderlines/
 ---
 ## ChartDataLabelCollection::get_ShowLeaderLines method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showleaderlin
 Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines()
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLin
 Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
 
 Value defined for this property can be overridden for an individual data label with using the [ShowLeaderLines](../../chartdatalabel/get_showleaderlines/) property.
-
 ## Examples
 
 
+Shows how to work with data labels of a pie chart.
 
-Shows how to work with data labels of a pie chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +51,6 @@ dataLabels->set_Separator(u"; ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

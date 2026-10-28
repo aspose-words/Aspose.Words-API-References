@@ -4,7 +4,7 @@ linktitle: get_FalseText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIf::get_FalseText method. Gets or sets the text displayed if the comparison expression is false in C++.'
 type: docs
-weight: 5000
+weight: 12400
 url: /cpp/aspose.words.fields/fieldif/get_falsetext/
 ---
 ## FieldIf::get_FalseText method
@@ -16,12 +16,11 @@ Gets or sets the text displayed if the comparison expression is **false**.
 System::String Aspose::Words::Fields::FieldIf::get_FalseText()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an IF field.
 
-Shows how to insert an IF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,7 +59,6 @@ ASSERT_EQ(u"True", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
-
 ## See Also
 
 * Class [FieldIf](../)

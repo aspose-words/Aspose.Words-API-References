@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/txtleadingspacesoptions/
 Specifies available options for leading space handling during import from [Text](../../aspose.words/loadformat/) file.
 
 ```cpp
-enum class TxtLeadingSpacesOptions
+enum class TxtLeadingSpacesOptions : int
 ```
 
 ### Values
@@ -21,15 +21,14 @@ enum class TxtLeadingSpacesOptions
 | Name | Value | Description |
 | --- | --- | --- |
 | ConvertToIndent | 0 | Leading spaces are removed and converted to left indent. |
-| Trim | 1 | Leading spaces are trimmed. |
 | Preserve | 2 | Leading spaces are preserved. |
-
+| Trim | 1 | Leading spaces are trimmed |
 
 ## Examples
 
 
+Shows how to trim whitespace when loading plaintext documents.
 
-Shows how to trim whitespace when loading plaintext documents. 
 ```cpp
 System::String textDoc = System::String(u"      Line 1 \n") + u"    Line 2   \n" + u" Line 3       ";
 
@@ -99,7 +98,6 @@ switch (txtTrailingSpacesOptions)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

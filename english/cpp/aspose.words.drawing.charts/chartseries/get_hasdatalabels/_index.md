@@ -4,7 +4,7 @@ linktitle: get_HasDataLabels
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_HasDataLabels method. Gets or sets a flag indicating whether data labels are displayed for the series in C++.'
 type: docs
-weight: 7000
+weight: 14739
 url: /cpp/aspose.words.drawing.charts/chartseries/get_hasdatalabels/
 ---
 ## ChartSeries::get_HasDataLabels method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/chartseries/get_hasdatalabels/
 Gets or sets a flag indicating whether data labels are displayed for the series.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartSeries::get_HasDataLabels() const
+_Bool Aspose::Words::Drawing::Charts::ChartSeries::get_HasDataLabels() const
 ```
-
 
 ## Examples
 
 
+Shows how to enable and configure data labels for a chart series.
 
-Shows how to enable and configure data labels for a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ dataLabels->get_Font()->set_Size(12);
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelNumberFormat.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeries](../)

@@ -4,24 +4,23 @@ linktitle: get_FontInfoSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_FontInfoSubstitution method. Settings related to font info substitution rule in C++.'
 type: docs
-weight: 4000
+weight: 12000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontinfosubstitution/
 ---
 ## FontSubstitutionSettings::get_FontInfoSubstitution method
 
 
-[Settings](../../../aspose.words.settings/) related to font info substitution rule.
+Settings related to font info substitution rule.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::Fonts::FontInfoSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_FontInfoSubstitution() const
 ```
 
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -50,10 +49,8 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
-* Class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

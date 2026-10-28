@@ -13,7 +13,7 @@ url: /cpp/aspose.words/warninginfo/is/
 
 
 ```cpp
-virtual bool Aspose::Words::WarningInfo::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::WarningInfo::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

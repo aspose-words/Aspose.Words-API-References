@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Settings::OdsoFieldMapDataCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Settings::OdsoFieldMapDataCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

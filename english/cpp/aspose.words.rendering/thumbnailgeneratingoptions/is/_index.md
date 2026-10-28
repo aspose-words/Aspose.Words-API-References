@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Rendering::ThumbnailGeneratingOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Rendering::ThumbnailGeneratingOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

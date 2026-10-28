@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::TextPath::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::TextPath::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

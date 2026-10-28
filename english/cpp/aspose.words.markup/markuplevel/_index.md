@@ -13,25 +13,24 @@ url: /cpp/aspose.words.markup/markuplevel/
 Specifies the level in the document tree where a particular [StructuredDocumentTag](../structureddocumenttag/) can occur.
 
 ```cpp
-enum class MarkupLevel
+enum class MarkupLevel : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unknown | 0 | Specifies the unknown or invalid value. |
-| Inline | 1 | The element occurs at the inline level (e.g. among as runs of text). |
 | Block | 2 | The element occurs at the block level (e.g. among tables and paragraphs). |
-| Row | 3 | The element occurs among rows in a table. |
 | Cell | 4 | The element occurs among cells in a row. |
-
+| Inline | 1 | The element occurs at the inline level (e.g. among as runs of text). |
+| Row | 3 | The element occurs among rows in a table. |
+| Unknown | 0 | Specifies the unknown or invalid value. |
 
 ## Examples
 
 
+Shows how to work with styles for content control elements.
 
-Shows how to work with styles for content control elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +62,6 @@ for (auto&& node : System::IterateOver(tags))
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

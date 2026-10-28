@@ -21,13 +21,12 @@ void Aspose::Words::Lists::ListFormat::ListIndent()
 
 This method changes the list level and applies formatting properties of the new level.
 
-In Word documents, lists may consist of up to nine levels. [List](../../list/) formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
-
+In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 ## Examples
 
 
+Shows how to create bulleted and numbered lists.
 
-Shows how to create bulleted and numbered lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -105,7 +104,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
-
 ## See Also
 
 * Class [ListFormat](../)

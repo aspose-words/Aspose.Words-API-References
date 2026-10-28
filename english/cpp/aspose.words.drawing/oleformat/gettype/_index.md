@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/oleformat/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::OleFormat::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::OleFormat::GetType() const override
 ```
 
 ## See Also

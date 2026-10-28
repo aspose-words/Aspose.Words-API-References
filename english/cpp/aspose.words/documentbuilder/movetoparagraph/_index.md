@@ -24,15 +24,14 @@ void Aspose::Words::DocumentBuilder::MoveToParagraph(int32_t paragraphIndex, int
 ## Remarks
 
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then *paragraphIndex* specified the index of the paragraph inside that header of that section.
+The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specified the index of the paragraph inside that header of that section.
 
-When *paragraphIndex* is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When *paragraphIndex* is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
-
+When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
 ## Examples
 
 
+Shows how to move a builder's cursor position to a specified paragraph.
 
-Shows how to move a builder's cursor position to a specified paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
@@ -52,7 +51,6 @@ builder->MoveToParagraph(2, 0);
 // Any new content that we add will be inserted at that point.
 builder->Writeln(u"This is a new third paragraph. ");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/converter/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::Converter::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::Converter::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

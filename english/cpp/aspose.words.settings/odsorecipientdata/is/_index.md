@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsorecipientdata/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Settings::OdsoRecipientData::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Settings::OdsoRecipientData::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/set_subfontbysize/
 ## CompatibilityOptions::set_SubFontBySize method
 
 
-Increase Priority Of [Font](../../../aspose.words/font/) Size During [Font](../../../aspose.words/font/) Substitution.
+Increase Priority Of Font Size During Font Substitution.
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::set_SubFontBySize(bool value)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::GradientStop::set_Position method
 linktitle: set_Position
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::GradientStop::set_Position method. Setter for Aspose::Words::Drawing::GradientStop::get_Position in C++.'
+description: 'Aspose::Words::Drawing::GradientStop::set_Position method. Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0 in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.drawing/gradientstop/set_position/
@@ -10,12 +10,63 @@ url: /cpp/aspose.words.drawing/gradientstop/set_position/
 ## GradientStop::set_Position method
 
 
-Setter for [Aspose::Words::Drawing::GradientStop::get_Position](../get_position/).
+Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 
 ```cpp
 void Aspose::Words::Drawing::GradientStop::set_Position(double value)
 ```
 
+## Examples
+
+
+Shows how to add gradient stops to the gradient fill.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(80), static_cast<double>(80));
+shape->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Green(), System::Drawing::Color::get_Red(), GradientStyle::Horizontal, GradientVariant::Variant2);
+
+// Get gradient stops collection.
+System::SharedPtr<Aspose::Words::Drawing::GradientStopCollection> gradientStops = shape->get_Fill()->get_GradientStops();
+
+// Change first gradient stop.
+gradientStops->idx_get(0)->set_Color(System::Drawing::Color::get_Aqua());
+gradientStops->idx_get(0)->set_Position(0.1);
+gradientStops->idx_get(0)->set_Transparency(0.25);
+
+// Add new gradient stop to the end of collection.
+auto gradientStop = System::MakeObject<Aspose::Words::Drawing::GradientStop>(System::Drawing::Color::get_Brown(), 0.5);
+gradientStops->Add(gradientStop);
+
+// Remove gradient stop at index 1.
+gradientStops->RemoveAt(1);
+// And insert new gradient stop at the same index 1.
+gradientStops->Insert(1, System::MakeObject<Aspose::Words::Drawing::GradientStop>(System::Drawing::Color::get_Chocolate(), 0.75, 0.3));
+
+// Remove last gradient stop in the collection.
+gradientStop = gradientStops->idx_get(2);
+gradientStops->Remove(gradientStop);
+
+ASSERT_EQ(2, gradientStops->get_Count());
+
+ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 0, 255, 255), gradientStops->idx_get(0)->get_BaseColor());
+ASSERT_EQ(System::Drawing::Color::get_Aqua().ToArgb(), gradientStops->idx_get(0)->get_Color().ToArgb());
+ASSERT_NEAR(0.1, gradientStops->idx_get(0)->get_Position(), 0.01);
+ASSERT_NEAR(0.25, gradientStops->idx_get(0)->get_Transparency(), 0.01);
+
+ASSERT_EQ(System::Drawing::Color::get_Chocolate().ToArgb(), gradientStops->idx_get(1)->get_Color().ToArgb());
+ASSERT_NEAR(0.75, gradientStops->idx_get(1)->get_Position(), 0.01);
+ASSERT_NEAR(0.3, gradientStops->idx_get(1)->get_Transparency(), 0.01);
+
+// Use the compliance option to define the shape using DML
+// if you want to get "GradientStops" property after the document saves.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
+
+doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
+```
 ## See Also
 
 * Class [GradientStop](../)

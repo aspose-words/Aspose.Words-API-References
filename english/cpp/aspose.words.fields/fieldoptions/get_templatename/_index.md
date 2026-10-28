@@ -4,7 +4,7 @@ linktitle: get_TemplateName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_TemplateName method. Gets or sets the file name of the template used by the document in C++.'
 type: docs
-weight: 19000
+weight: 24836
 url: /cpp/aspose.words.fields/fieldoptions/get_templatename/
 ---
 ## FieldOptions::get_TemplateName method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Fields::FieldOptions::get_TemplateName() const
 This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property is empty.
 
 If this property is empty, the default template file name **Normal.dotm** is used.
-
 ## Examples
 
 
+Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 
-Shows how to use a TEMPLATE field to display the local file system location of a document's template. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,6 @@ ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/textcolumncollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::TextColumnCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::TextColumnCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

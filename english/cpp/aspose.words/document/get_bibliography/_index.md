@@ -4,7 +4,7 @@ linktitle: get_Bibliography
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_Bibliography method. Gets the Bibliography object that represents the list of sources available in the document in C++.'
 type: docs
-weight: 14500
+weight: 104000
 url: /cpp/aspose.words/document/get_bibliography/
 ---
 ## Document::get_Bibliography method
@@ -16,12 +16,11 @@ Gets the [Bibliography](./) object that represents the list of sources available
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> Aspose::Words::Document::get_Bibliography()
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,10 +113,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Class [Bibliography](../../../aspose.words.bibliography/bibliography/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

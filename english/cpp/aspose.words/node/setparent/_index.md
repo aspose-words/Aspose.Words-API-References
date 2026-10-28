@@ -13,12 +13,11 @@ url: /cpp/aspose.words/node/setparent/
 
 
 ```cpp
-void Aspose::Words::Node::SetParent(const System::SharedPtr<Aspose::Words::Node> &parentNode)
+void Aspose::Words::Node::SetParent(const System::SharedPtr<Aspose::Words::Node> & parentNode)
 ```
 
 ## See Also
 
-* Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

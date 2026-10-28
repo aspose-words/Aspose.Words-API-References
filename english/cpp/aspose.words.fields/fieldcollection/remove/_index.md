@@ -13,19 +13,18 @@ url: /cpp/aspose.words.fields/fieldcollection/remove/
 Removes the specified field from this collection and from the document.
 
 ```cpp
-void Aspose::Words::Fields::FieldCollection::Remove(const System::SharedPtr<Aspose::Words::Fields::Field> &field)
+void Aspose::Words::Fields::FieldCollection::Remove(const System::SharedPtr<Aspose::Words::Fields::Field> & field)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | const System::SharedPtr\<Aspose::Words::Fields::Field\>\& | A field to remove. |
-
+| field | const System::SharedPtr\<Aspose::Words::Fields::Field\> \& | A field to remove. |
 ## Examples
 
 
+Shows how to remove fields from a field collection.
 
-Shows how to remove fields from a field collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,10 +59,8 @@ ASSERT_EQ(3, fields->get_Count());
 fields->Clear();
 ASSERT_EQ(0, fields->get_Count());
 ```
-
 ## See Also
 
-* Class [Field](../../field/)
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

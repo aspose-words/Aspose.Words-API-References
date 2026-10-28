@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Orientation method. Gets or sets the text orientation of the data labels of the entire series in C++.'
 type: docs
-weight: 5334
+weight: 18108
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_orientation/
 ---
 ## ChartDataLabelCollection::get_Orientation method
@@ -16,12 +16,14 @@ Gets or sets the text orientation of the data labels of the entire series.
 Aspose::Words::Drawing::ShapeTextOrientation Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Orientation()
 ```
 
+## Remarks
 
+ The default value is [Horizontal](../../../aspose.words.drawing/shapetextorientation/). 
 ## Examples
 
 
+Shows how to change orientation and rotation for data labels.
 
-Shows how to change orientation and rotation for data labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,10 +51,8 @@ dataLabels->idx_get(0)->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LabelOrientationRotation.docx");
 ```
-
 ## See Also
 
-* Enum [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

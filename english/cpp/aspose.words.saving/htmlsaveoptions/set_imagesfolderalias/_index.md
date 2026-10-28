@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias method
 linktitle: set_ImagesFolderAlias
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolderAlias in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias method. Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string in C++.'
 type: docs
 weight: 86000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_imagesfolderalias/
@@ -10,12 +10,47 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_imagesfolderalias/
 ## HtmlSaveOptions::set_ImagesFolderAlias method
 
 
-Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolderAlias](../get_imagesfolderalias/).
+Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 
 ```cpp
-void Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias(const System::String &value)
+void Aspose::Words::Saving::HtmlSaveOptions::set_ImagesFolderAlias(const System::String & value)
 ```
 
+## Remarks
+
+
+When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [ImagesFolder](../get_imagesfolder/) allows you to specify where the images will be saved and [ImagesFolderAlias](../get_imagesfolderalias/) allows to specify how the image URIs will be constructed.
+
+If [ImagesFolderAlias](../get_imagesfolderalias/) is not an empty string, then the image URI written to HTML will be ImagesFolderAlias + <image file name>.
+
+If [ImagesFolderAlias](../get_imagesfolderalias/) is an empty string, then the image URI written to HTML will be ImagesFolder + <image file name>.
+
+If [ImagesFolderAlias](../get_imagesfolderalias/) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
+
+Alternative way to specify the name of the folder to construct image URIs is to use [ResourceFolderAlias](../get_resourcefolderalias/).
+## Examples
+
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+options->set_CssStyleSheetType(CssStyleSheetType::External);
+options->set_ExportFontResources(true);
+options->set_ImageResolution(72);
+options->set_FontResourcesSubsettingSizeThreshold(0);
+options->set_FontsFolder(get_ArtifactsDir() + u"Fonts");
+options->set_ImagesFolder(get_ArtifactsDir() + u"Images");
+options->set_ResourceFolder(get_ArtifactsDir() + u"Resources");
+options->set_FontsFolderAlias(u"http://example.com/fonts");
+options->set_ImagesFolderAlias(u"http://example.com/images");
+options->set_ResourceFolderAlias(u"http://example.com/resources");
+options->set_ExportOriginalUrlForLinkedImages(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
+```
 ## See Also
 
 * Class [HtmlSaveOptions](../)

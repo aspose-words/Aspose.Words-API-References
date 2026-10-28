@@ -2,7 +2,7 @@
 title: Aspose::Words::DocumentVisitor class
 linktitle: DocumentVisitor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DocumentVisitor class. Base class for custom document visitors. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::DocumentVisitor class. Base class for custom document visitors. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
 type: docs
 weight: 23000
 url: /cpp/aspose.words/documentvisitor/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/documentvisitor/
 ## DocumentVisitor class
 
 
-Base class for custom document visitors. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
+Base class for custom document visitors. 
+To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 ```cpp
-class DocumentVisitor : public virtual System::Object
+class DocumentVisitor : public System::Object
 ```
 
 ## Methods
@@ -21,7 +22,7 @@ class DocumentVisitor : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
 | virtual [VisitAbsolutePositionTab](./visitabsolutepositiontab/)(System::SharedPtr\<Aspose::Words::AbsolutePositionTab\>) | Called when a [AbsolutePositionTab](../absolutepositiontab/) node is encountered in the document. |
 | virtual [VisitBodyEnd](./visitbodyend/)(System::SharedPtr\<Aspose::Words::Body\>) | Called when enumeration of the main text story in a section has ended. |
@@ -52,8 +53,8 @@ class DocumentVisitor : public virtual System::Object
 | virtual [VisitGroupShapeStart](./visitgroupshapestart/)(System::SharedPtr\<Aspose::Words::Drawing::GroupShape\>) | Called when enumeration of a group shape has started. |
 | virtual [VisitHeaderFooterEnd](./visitheaderfooterend/)(System::SharedPtr\<Aspose::Words::HeaderFooter\>) | Called when enumeration of a header or footer in a section has ended. |
 | virtual [VisitHeaderFooterStart](./visitheaderfooterstart/)(System::SharedPtr\<Aspose::Words::HeaderFooter\>) | Called when enumeration of a header or footer in a section has started. |
-| virtual [VisitOfficeMathEnd](./visitofficemathend/)(System::SharedPtr\<Aspose::Words::Math::OfficeMath\>) | Called when enumeration of a Office [Math](../../aspose.words.math/) object has ended. |
-| virtual [VisitOfficeMathStart](./visitofficemathstart/)(System::SharedPtr\<Aspose::Words::Math::OfficeMath\>) | Called when enumeration of a Office [Math](../../aspose.words.math/) object has started. |
+| virtual [VisitOfficeMathEnd](./visitofficemathend/)(System::SharedPtr\<Aspose::Words::Math::OfficeMath\>) | Called when enumeration of a Office Math object has ended. |
+| virtual [VisitOfficeMathStart](./visitofficemathstart/)(System::SharedPtr\<Aspose::Words::Math::OfficeMath\>) | Called when enumeration of a Office Math object has started. |
 | virtual [VisitParagraphEnd](./visitparagraphend/)(System::SharedPtr\<Aspose::Words::Paragraph\>) | Called when enumeration of a paragraph has ended. |
 | virtual [VisitParagraphStart](./visitparagraphstart/)(System::SharedPtr\<Aspose::Words::Paragraph\>) | Called when enumeration of a paragraph has started. |
 | virtual [VisitRowEnd](./visitrowend/)(System::SharedPtr\<Aspose::Words::Tables::Row\>) | Called when enumeration of a table row has ended. |
@@ -81,16 +82,14 @@ With [DocumentVisitor](./) you can define and execute custom operations that req
 For example, Aspose.Words uses [DocumentVisitor](./) internally for saving [Document](../document/) in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
 
 To use [DocumentVisitor](./):
-
 1. Create a class derived from [DocumentVisitor](./).
 1. Override and provide implementations for some or all of the VisitXXX methods to perform some custom operations.
 1. Call [Node.Accept](../node/accept/) on the [Node](../node/) that you want to start the enumeration from.
 
 
-
 [DocumentVisitor](./) provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
-For more information see the Visitor design pattern. 
+For more information see the Visitor design pattern.
 ## See Also
 
 * Namespace [Aspose::Words](../)

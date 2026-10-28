@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/pdfloadoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Loading::PdfLoadOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Loading::PdfLoadOptions::GetType() const override
 ```
 
 ## See Also

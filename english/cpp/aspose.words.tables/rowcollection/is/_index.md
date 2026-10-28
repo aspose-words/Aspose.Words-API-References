@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/rowcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Tables::RowCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Tables::RowCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

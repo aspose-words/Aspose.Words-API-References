@@ -4,7 +4,7 @@ linktitle: get_LockContents
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents method. When set to true, this property will prohibit a user from editing the contents of this structured document tag in C++.'
 type: docs
-weight: 12000
+weight: 27240
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontents/
 ---
 ## StructuredDocumentTagRangeStart::get_LockContents method
@@ -13,20 +13,20 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontents/
 When set to **true**, this property will prohibit a user from editing the contents of this structured document tag.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents() override
+_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents() override
 ```
-
 
 ## Examples
 
 
+Shows how to get the properties of multi-section structured document tags.
 
-Shows how to get the properties of multi-section structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 
 auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
@@ -47,7 +47,6 @@ std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
 std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
 std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTagRangeStart](../)

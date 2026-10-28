@@ -2,7 +2,7 @@
 title: Aspose::Words::StyleCollection class
 linktitle: StyleCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::StyleCollection class. A collection of Style objects that represent both the built-in and user-defined styles in a document. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::StyleCollection class. A collection of Style objects that represent both the built-in and user-defined styles in a document. To learn more, visit the Working with Styles and Themes documentation article in C++.'
 type: docs
 weight: 65000
 url: /cpp/aspose.words/stylecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/stylecollection/
 ## StyleCollection class
 
 
-A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document. To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
+A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document. 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article.
 
 ```cpp
 class StyleCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Style>>
@@ -20,26 +21,25 @@ class StyleCollection : public System::Collections::Generic::IEnumerable<System:
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(Aspose::Words::StyleType, const System::String\&) | Creates a new user defined style and adds it the collection. |
-| [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Copies a style into this collection. |
-| [ClearQuickStyleGallery](./clearquickstylegallery/)() | Removes all styles from the Quick [Style](../style/) Gallery panel. |
+| [Add](./add/)(Aspose::Words::StyleType, const System::String \&) | Creates a new user defined style and adds it the collection. |
+| [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Copies a style into this collection. |
+| [ClearQuickStyleGallery](./clearquickstylegallery/)() | Removes all styles from the Quick Style Gallery panel. |
+| [GetEnumerator](./getenumerator/)() override | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of styles in the collection. |
 | [get_DefaultFont](./get_defaultfont/)() | Gets document default text formatting. |
 | [get_DefaultParagraphFormat](./get_defaultparagraphformat/)() | Gets document default paragraph formatting. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
-| [GetEnumerator](./getenumerator/)() override | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
-| [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(const System::String\&) | Gets a style by name or alias. |
 | [idx_get](./idx_get/)(Aspose::Words::StyleIdentifier) | Gets a built-in style by its locale independent identifier. |
+| [idx_get](./idx_get/)(const System::String \&) | Gets a style by name or alias. |
 | [idx_get](./idx_get/)(int32_t) | Gets a style by index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,7 +64,6 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

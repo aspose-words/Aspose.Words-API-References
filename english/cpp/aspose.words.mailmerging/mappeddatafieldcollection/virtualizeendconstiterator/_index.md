@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::MailMerging::MappedDataFieldCollection::vi
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

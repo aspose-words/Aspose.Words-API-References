@@ -13,29 +13,28 @@ url: /cpp/aspose.words.drawing/relativehorizontalposition/
 Specifies to what the horizontal position of a shape or text frame is relative.
 
 ```cpp
-enum class RelativeHorizontalPosition
+enum class RelativeHorizontalPosition : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Margin | 0 | Specifies that the horizontal positioning shall be relative to the page margins. |
-| Page | 1 | The object is positioned relative to the left edge of the page. |
-| Column | 2 | The object is positioned relative to the left side of the column. |
 | Character | 3 | The object is positioned relative to the left side of the paragraph. |
-| LeftMargin | 4 | Specifies that the horizontal positioning shall be relative to the left margin of the page. |
-| RightMargin | 5 | Specifies that the horizontal positioning shall be relative to the right margin of the page. |
-| InsideMargin | 6 | Specifies that the horizontal positioning shall be relative to the inside margin of the current page (the left margin on odd pages, right on even pages). |
-| OutsideMargin | 7 | Specifies that the horizontal positioning shall be relative to the outside margin of the current page (the right margin on odd pages, left on even pages). |
+| Column | 2 | The object is positioned relative to the left side of the column. |
 | Default | 2 | Default value is [Column](./). |
-
+| InsideMargin | 6 | Specifies that the horizontal positioning shall be relative to the inside margin of the current page (the left margin on odd pages, right on even pages). |
+| LeftMargin | 4 | Specifies that the horizontal positioning shall be relative to the left margin of the page. |
+| Margin | 0 | Specifies that the horizontal positioning shall be relative to the page margins. |
+| OutsideMargin | 7 | Specifies that the horizontal positioning shall be relative to the outside margin of the current page (the right margin on odd pages, left on even pages). |
+| Page | 1 | The object is positioned relative to the left edge of the page. |
+| RightMargin | 5 | Specifies that the horizontal positioning shall be relative to the right margin of the page. |
 
 ## Examples
 
 
+Shows how to insert an image, and use it as a watermark.
 
-Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,8 +54,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
+Shows how to insert a floating image to the center of a page.
 
-Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,8 +71,9 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-
 ## See Also
+
+* [RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

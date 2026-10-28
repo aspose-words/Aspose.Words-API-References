@@ -4,7 +4,7 @@ linktitle: get_ExportRelativeFontSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize method. Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is false in C++.'
 type: docs
-weight: 25000
+weight: 49480
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportrelativefontsize/
 ---
 ## HtmlSaveOptions::get_ExportRelativeFontSize method
@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportrelativefontsize/
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize() const
 ```
 
 ## Remarks
 
 
-In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [ExportRelativeFontSize](./) property to **true**.
+In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [ExportRelativeFontSize](./) property to **true**. 
 
-**Aspose**[Words](../../../aspose.words/) document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. [Font](../../../aspose.words/font/) size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **%1.5em.** to the HTML.
+Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of Normal document style is taken as standard. For instance, if Normal has 12pt font and some text is 18pt then it will be output as 1.5em. to the HTML.
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [ExportRelativeFontSize](./) set to **true**.
-
 ## Examples
 
 
+Shows how to use relative font sizes when saving to .html.
 
-Shows how to use relative font sizes when saving to .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(System::String(u"<body style=\"font-family:'Times New Roman'; font-size:12pt\">") + u"<div>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Default font size, </span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:24pt\">" + u"<span>2x default font size,</span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:96pt\">" + u"<span>8x default font size</span>" + u"</p>" + u"</div>" + u"</body>"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

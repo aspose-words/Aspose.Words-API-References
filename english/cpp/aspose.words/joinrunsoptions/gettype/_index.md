@@ -13,7 +13,7 @@ url: /cpp/aspose.words/joinrunsoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::JoinRunsOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::JoinRunsOptions::GetType() const override
 ```
 
 ## See Also

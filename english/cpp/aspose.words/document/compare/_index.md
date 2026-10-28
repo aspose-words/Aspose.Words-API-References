@@ -7,31 +7,29 @@ type: docs
 weight: 8000
 url: /cpp/aspose.words/document/compare/
 ---
-## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method
+## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\> \&, const System::String \&, System::DateTime) method
 
 
 Compares this document with another document producing changes as number of edit and format revisions [Revision](../../revision/).
 
 ```cpp
-void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Document> &document, const System::String &author, System::DateTime dateTime)
+void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Document> & document, const System::String & author, System::DateTime dateTime)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | const System::SharedPtr\<Aspose::Words::Document\>\& | [Document](../) to compare. |
-| author | const System::String\& | Initials of the author to use for revisions. |
+| document | const System::SharedPtr\<Aspose::Words::Document\> \& | Document to compare. |
+| author | const System::String \& | Initials of the author to use for revisions. |
 | dateTime | System::DateTime | The date and time to use for revisions. |
 ## Remarks
-
-
 
 Documents must not have revisions before comparison.
 ## Examples
 
 
+Shows how to compare documents.
 
-Shows how to compare documents. 
 ```cpp
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(docOriginal);
@@ -60,28 +58,25 @@ docOriginal->get_Revisions()->AcceptAll();
 
 ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 ```
-
 ## See Also
 
 * Class [Document](../)
-* Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
+## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\> \&, const System::String \&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\> \&) method
 
 
 Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../revision/). Allows to specify comparison options using [CompareOptions](../../../aspose.words.comparing/compareoptions/).
 
 ```cpp
-void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Document> &document, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &options)
+void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Document> & document, const System::String & author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> & options)
 ```
-
 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -148,11 +143,8 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
-* Class [Document](../)
-* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Settings::OdsoRecipientDataCollection::vir
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

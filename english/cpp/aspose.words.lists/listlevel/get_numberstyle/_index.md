@@ -4,7 +4,7 @@ linktitle: get_NumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_NumberStyle method. Returns or sets the number style for this list level in C++.'
 type: docs
-weight: 14000
+weight: 22814
 url: /cpp/aspose.words.lists/listlevel/get_numberstyle/
 ---
 ## ListLevel::get_NumberStyle method
@@ -16,12 +16,11 @@ Returns or sets the number style for this list level.
 Aspose::Words::NumberStyle Aspose::Words::Lists::ListLevel::get_NumberStyle() const
 ```
 
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,8 +73,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 
+Shows advances ways of customizing list labels.
 
-Shows advances ways of customizing list labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -131,10 +130,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
-
 ## See Also
 
-* Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

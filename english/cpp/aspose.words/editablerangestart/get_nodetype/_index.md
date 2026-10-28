@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::EditableRangeStart::get_NodeType method. Returns EditableRangeStart in C++.'
 type: docs
-weight: 5000
+weight: 7800
 url: /cpp/aspose.words/editablerangestart/get_nodetype/
 ---
 ## EditableRangeStart::get_NodeType method
@@ -16,12 +16,11 @@ Returns [EditableRangeStart](../../nodetype/).
 Aspose::Words::NodeType Aspose::Words::EditableRangeStart::get_NodeType() const override
 ```
 
-
 ## Examples
 
 
+Shows how to work with an editable range.
 
-Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -59,10 +58,8 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
-
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

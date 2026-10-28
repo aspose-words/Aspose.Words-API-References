@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldrevnum/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldRevNum::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldRevNum::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

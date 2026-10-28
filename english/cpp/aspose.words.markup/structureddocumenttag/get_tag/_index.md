@@ -4,7 +4,7 @@ linktitle: get_Tag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Tag method. Specifies a tag associated with the current SDT node. Can not be null in C++.'
 type: docs
-weight: 31000
+weight: 88000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_tag/
 ---
 ## StructuredDocumentTag::get_Tag method
@@ -16,12 +16,14 @@ Specifies a tag associated with the current SDT node. Can not be **null**.
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_Tag() const override
 ```
 
+## Remarks
 
+ A tag is an arbitrary string which applications can associate with SDT in order to identify it without providing a visible friendly name.
 ## Examples
 
 
+Shows how to create a structured document tag in a plain text box and modify its appearance.
 
-Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +73,6 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

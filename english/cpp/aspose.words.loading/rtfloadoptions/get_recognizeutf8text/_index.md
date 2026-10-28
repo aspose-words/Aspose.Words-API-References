@@ -4,7 +4,7 @@ linktitle: get_RecognizeUtf8Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text method. When set to true, will try to detect UTF8 characters, they will be preserved during import in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.loading/rtfloadoptions/get_recognizeutf8text/
 ---
 ## RtfLoadOptions::get_RecognizeUtf8Text method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.loading/rtfloadoptions/get_recognizeutf8text/
 When set to **true**, will try to detect UTF8 characters, they will be preserved during import.
 
 ```cpp
-bool Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text() const
+_Bool Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text() const
 ```
 
 ## Remarks
 
 
 Default value is **false**.
-
 ## Examples
 
 
+Shows how to detect UTF-8 characters while loading an RTF document.
 
-Shows how to detect UTF-8 characters while loading an RTF document. 
 ```cpp
 // Create an "RtfLoadOptions" object to modify how we load an RTF document.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::RtfLoadOptions>();
@@ -39,7 +38,6 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"UTF-8 cha
 
 ASSERT_EQ((recognizeUtf8Text ? System::String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤" : System::String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤"), doc->get_FirstSection()->get_Body()->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [RtfLoadOptions](../)

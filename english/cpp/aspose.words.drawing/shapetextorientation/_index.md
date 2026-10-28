@@ -13,27 +13,26 @@ url: /cpp/aspose.words.drawing/shapetextorientation/
 Specifies orientation of text in shapes.
 
 ```cpp
-enum class ShapeTextOrientation
+enum class ShapeTextOrientation : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Horizontal | 0 | Text is arranged horizontally (lr-tb). |
 | Downward | 1 | Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl). |
+| Horizontal | 0 | Text is arranged horizontally (lr-tb). |
 | Upward | 2 | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
 | VerticalFarEast | 3 | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v). |
 | VerticalRotatedFarEast | 4 | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v). |
 | WordArtVertical | 5 | Text is vertical, with one letter on top of the other. |
 | WordArtVerticalRightToLeft | 6 | Text is vertical, with one letter on top of the other, then right to left horizontally. |
 
-
 ## Examples
 
 
+Shows how to change orientation and rotation for data labels.
 
-Shows how to change orientation and rotation for data labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ dataLabels->idx_get(0)->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LabelOrientationRotation.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

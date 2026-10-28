@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ShapeBase::set_BehindText method
 linktitle: set_BehindText
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ShapeBase::set_BehindText method. Setter for Aspose::Words::Drawing::ShapeBase::get_BehindText in C++.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_BehindText method. Specifies whether the shape is below or above text in C++.'
 type: docs
 weight: 66000
 url: /cpp/aspose.words.drawing/shapebase/set_behindtext/
@@ -10,12 +10,38 @@ url: /cpp/aspose.words.drawing/shapebase/set_behindtext/
 ## ShapeBase::set_BehindText method
 
 
-Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../get_behindtext/).
+Specifies whether the shape is below or above text.
 
 ```cpp
 void Aspose::Words::Drawing::ShapeBase::set_BehindText(bool value)
 ```
 
+## Remarks
+
+
+Has effect only for top level shapes.
+
+The default value is **false**.
+## Examples
+
+
+Shows how to insert a floating image to the center of a page.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+shape->set_WrapType(WrapType::None);
+shape->set_BehindText(true);
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(HorizontalAlignment::Center);
+shape->set_VerticalAlignment(VerticalAlignment::Center);
+
+doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
+```
 ## See Also
 
 * Class [ShapeBase](../)

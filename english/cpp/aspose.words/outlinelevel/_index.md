@@ -13,13 +13,14 @@ url: /cpp/aspose.words/outlinelevel/
 Specifies the outline level of a paragraph in the document.
 
 ```cpp
-enum class OutlineLevel
+enum class OutlineLevel : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| BodyText | 9 | The paragraph is at the level of the main text. |
 | Level1 | 0 | The paragraph is at the outline level 1 (topmost level). |
 | Level2 | 1 | The paragraph is at the outline level 2. |
 | Level3 | 2 | The paragraph is at the outline level 3. |
@@ -29,14 +30,12 @@ enum class OutlineLevel
 | Level7 | 6 | The paragraph is at the outline level 7. |
 | Level8 | 7 | The paragraph is at the outline level 8. |
 | Level9 | 8 | The paragraph is at the outline level 9. |
-| BodyText | 9 | The paragraph is at the level of the main text. |
-
 
 ## Examples
 
 
+Shows how to configure paragraph outline levels to create collapsible text.
 
-Shows how to configure paragraph outline levels to create collapsible text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,7 +63,6 @@ builder->Writeln(u"Paragraph at main text level.");
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphOutlineLevel.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

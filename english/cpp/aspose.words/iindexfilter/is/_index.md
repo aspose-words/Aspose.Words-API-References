@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iindexfilter/is/
 
 
 ```cpp
-virtual bool Aspose::Words::IIndexFilter::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::IIndexFilter::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

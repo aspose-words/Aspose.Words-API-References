@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shadowformat/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Drawing::ShadowFormat::GetType() const override
+const System::TypeInfo & Aspose::Words::Drawing::ShadowFormat::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Shadow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_Shadow method. Defines whether a shadow is applied to the text on a text path in C++.'
 type: docs
-weight: 12000
+weight: 23550
 url: /cpp/aspose.words.drawing/textpath/get_shadow/
 ---
 ## TextPath::get_Shadow method
@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/get_shadow/
 Defines whether a shadow is applied to the text on a text path.
 
 ```cpp
-bool Aspose::Words::Drawing::TextPath::get_Shadow()
+_Bool Aspose::Words::Drawing::TextPath::get_Shadow()
 ```
 
 ## Remarks
 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [TextPath](../)

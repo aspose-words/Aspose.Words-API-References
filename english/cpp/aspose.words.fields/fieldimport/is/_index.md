@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldimport/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::FieldImport::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::FieldImport::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -2,20 +2,53 @@
 title: Aspose::Words::Comment::set_Author method
 linktitle: set_Author
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Comment::set_Author method. Setter for Aspose::Words::Comment::get_Author in C++.'
+description: 'Aspose::Words::Comment::set_Author method. Sets the author name for a comment in C++.'
 type: docs
-weight: 18000
+weight: 35000
 url: /cpp/aspose.words/comment/set_author/
 ---
 ## Comment::set_Author method
 
 
-Setter for [Aspose::Words::Comment::get_Author](../get_author/).
+Sets the author name for a comment.
 
 ```cpp
-void Aspose::Words::Comment::set_Author(const System::String &value)
+void Aspose::Words::Comment::set_Author(const System::String & value)
 ```
 
+## Remarks
+
+
+Cannot be **null**.
+
+Default is empty string.
+## Examples
+
+
+Shows how to print all of a document's comments and their replies.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
+
+System::SharedPtr<Aspose::Words::NodeCollection> comments = doc->GetChildNodes(NodeType::Comment, true);
+
+// If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+// Print all top-level comments along with any replies they may have.
+for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Comment>>()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Comment>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Comment> c)>>([](System::SharedPtr<Aspose::Words::Comment> c) -> bool
+{
+    return c->get_Ancestor() == nullptr;
+})))->LINQ_ToList())
+{
+    std::cout << "Top-level comment:" << std::endl;
+    std::cout << System::String::Format(u"\t\"{0}\", by {1}", comment->GetText().Trim(), comment->get_Author()) << std::endl;
+    std::cout << System::String::Format(u"Has {0} replies", comment->get_Replies()->get_Count()) << std::endl;
+    for (auto&& commentReply : System::IterateOver<Aspose::Words::Comment>(comment->get_Replies()))
+    {
+        std::cout << System::String::Format(u"\t\"{0}\", by {1}", commentReply->GetText().Trim(), commentReply->get_Author()) << std::endl;
+    }
+    std::cout << std::endl;
+}
+```
 ## See Also
 
 * Class [Comment](../)

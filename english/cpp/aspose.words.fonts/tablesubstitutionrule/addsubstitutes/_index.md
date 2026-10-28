@@ -13,20 +13,19 @@ url: /cpp/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 Adds substitute font names for given original font name.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes(const System::String &originalFontName, const System::ArrayPtr<System::String> &substituteFontNames)
+void Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes(const System::String & originalFontName, const System::ArrayPtr<System::String> & substituteFontNames)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| originalFontName | const System::String\& | Original font name. |
-| substituteFontNames | const System::ArrayPtr\<System::String\>\& | List of alternative font names. |
-
+| originalFontName | const System::String \& | Original font name. |
+| substituteFontNames | const System::ArrayPtr\<System::String\> \& | List of alternative font names. |
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -79,8 +78,8 @@ ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubst
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
 
+Shows how to work with custom font substitution tables.
 
-Shows how to work with custom font substitution tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -133,7 +132,6 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)

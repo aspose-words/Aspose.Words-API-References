@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergercontext/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::MailMergerContext::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::MailMergerContext::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

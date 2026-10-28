@@ -4,7 +4,7 @@ linktitle: get_ToaCategories
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_ToaCategories method. Gets or sets the table of authorities categories in C++.'
 type: docs
-weight: 20000
+weight: 24877
 url: /cpp/aspose.words.fields/fieldoptions/get_toacategories/
 ---
 ## FieldOptions::get_ToaCategories method
@@ -16,12 +16,11 @@ Gets or sets the table of authorities categories.
 const System::SharedPtr<Aspose::Words::Fields::ToaCategories> & Aspose::Words::Fields::FieldOptions::get_ToaCategories() const
 ```
 
-
 ## Examples
 
 
+Shows how to specify a set of categories for TOA fields.
 
-Shows how to specify a set of categories for TOA fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,10 +61,8 @@ builder->InsertField(u"TA \\c 2 \\l \"entry 3\"");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.TOA.Categories.docx");
 ```
-
 ## See Also
 
-* Class [ToaCategories](../../toacategories/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

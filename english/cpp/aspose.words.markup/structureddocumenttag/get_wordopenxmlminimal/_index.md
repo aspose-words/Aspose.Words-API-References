@@ -4,7 +4,7 @@ linktitle: get_WordOpenXMLMinimal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_WordOpenXMLMinimal method. Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the WordOpenXML property, this method generates a stripped-down document that excludes any non-content-related parts in C++.'
 type: docs
-weight: 33500
+weight: 91000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_wordopenxmlminimal/
 ---
 ## StructuredDocumentTag::get_WordOpenXMLMinimal method
@@ -16,12 +16,11 @@ Gets a string that represents the XML contained within the node in the [FlatOpc]
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_WordOpenXMLMinimal()
 ```
 
-
 ## Examples
 
 
+Shows how to work with styles for content control elements.
 
-Shows how to work with styles for content control elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ for (auto&& node : System::IterateOver(tags))
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
 }
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

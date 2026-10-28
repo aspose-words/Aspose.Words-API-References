@@ -4,7 +4,7 @@ linktitle: RtfSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use RtfSaveOptions constructor of Aspose::Words::Saving::RtfSaveOptions class in C++.'
 type: docs
-weight: 2000
+weight: 8143
 url: /cpp/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/
 ---
 ## RtfSaveOptions::RtfSaveOptions constructor

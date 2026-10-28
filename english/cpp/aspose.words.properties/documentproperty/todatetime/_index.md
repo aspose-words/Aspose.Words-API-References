@@ -10,7 +10,7 @@ url: /cpp/aspose.words.properties/documentproperty/todatetime/
 ## DocumentProperty::ToDateTime method
 
 
-Returns the property value as **DateTime** in UTC.
+Returns the property value as DateTime in UTC.
 
 ```cpp
 System::DateTime Aspose::Words::Properties::DocumentProperty::ToDateTime()
@@ -22,12 +22,11 @@ System::DateTime Aspose::Words::Properties::DocumentProperty::ToDateTime()
 Throws an exception if the property type is not [DateTime](../../propertytype/).
 
 Microsoft Word stores only the date part (no time) for custom date properties.
-
 ## Examples
 
 
+Shows how to create a custom document property which contains a date and time.
 
-Shows how to create a custom document property which contains a date and time. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -36,8 +35,8 @@ System::DateTime authorizationDate = doc->get_CustomDocumentProperties()->idx_ge
 std::cout << System::String::Format(u"Document authorized on {0}", authorizationDate) << std::endl;
 ```
 
+Shows various type conversion methods of custom document properties.
 
-Shows various type conversion methods of custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -55,7 +54,6 @@ ASSERT_EQ(authDate, properties->idx_get(u"Authorized Date")->ToDateTime());
 ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
 ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

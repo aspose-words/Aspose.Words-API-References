@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xamlflowsaveoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::XamlFlowSaveOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::XamlFlowSaveOptions::GetType() const override
 ```
 
 ## See Also

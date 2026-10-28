@@ -4,7 +4,7 @@ linktitle: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::HeaderFooter::HeaderFooter constructor. Creates a new header or footer of the specified type in C++.'
 type: docs
-weight: 2000
+weight: 9500
 url: /cpp/aspose.words/headerfooter/headerfooter/
 ---
 ## HeaderFooter::HeaderFooter constructor
@@ -13,26 +13,25 @@ url: /cpp/aspose.words/headerfooter/headerfooter/
 Creates a new header or footer of the specified type.
 
 ```cpp
-Aspose::Words::HeaderFooter::HeaderFooter(const System::SharedPtr<Aspose::Words::DocumentBase> &doc, Aspose::Words::HeaderFooterType headerFooterType)
+Aspose::Words::HeaderFooter::HeaderFooter(const System::SharedPtr<Aspose::Words::DocumentBase> & doc, Aspose::Words::HeaderFooterType headerFooterType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\>\& | The owner document. |
+| doc | const System::SharedPtr\<Aspose::Words::DocumentBase\> \& | The owner document. |
 | headerFooterType | Aspose::Words::HeaderFooterType | A [HeaderFooterType](../get_headerfootertype/) value that specifies the type of the header or footer. |
 ## Remarks
 
 
 When [HeaderFooter](../) is created, it belongs to the specified document, but is not yet part of the document and [ParentNode](../../node/get_parentnode/) is **null**.
 
-To append [HeaderFooter](../) to a [Section](../../section/) use [InsertAfter1()</see>, <see cref="Aspose::Words::CompositeNode::InsertBefore</tt>1(System::SharedPtr<<tt>0\>, System::SharedPtr\<Aspose::Words::Node\>)">InsertBefore1()](../), or [HeadersFooters](../../section/get_headersfooters/) property and methods [Add()](../), [Insert()](../).
-
+To append [HeaderFooter](../) to a [Section](../../section/) use [InsertAfter()](../../compositenode/insertafter/), [InsertBefore()](../../compositenode/insertbefore/), or [HeadersFooters](../../section/get_headersfooters/) property and methods [Add()](../../nodecollection/add/), [Insert()](../../nodecollection/insert/).
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -62,11 +61,8 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../documentbase/)
-* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

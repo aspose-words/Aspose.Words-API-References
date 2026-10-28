@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisticklabels/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Drawing::Charts::AxisTickLabels::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Drawing::Charts::AxisTickLabels::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

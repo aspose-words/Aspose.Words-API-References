@@ -4,7 +4,7 @@ linktitle: Source
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::Source constructor. Initialize a new instance of the Source class in C++.'
 type: docs
-weight: 2000
+weight: 57018
 url: /cpp/aspose.words.bibliography/source/source/
 ---
 ## Source::Source constructor
@@ -13,20 +13,19 @@ url: /cpp/aspose.words.bibliography/source/source/
 Initialize a new instance of the [Source](../) class.
 
 ```cpp
-Aspose::Words::Bibliography::Source::Source(const System::String &tag, Aspose::Words::Bibliography::SourceType sourceType)
+Aspose::Words::Bibliography::Source::Source(const System::String & tag, Aspose::Words::Bibliography::SourceType sourceType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const System::String\& | The identifying tag name. |
+| tag | const System::String \& | The identifying tag name. |
 | sourceType | Aspose::Words::Bibliography::SourceType | The source type. |
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -119,10 +118,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Enum [SourceType](../../sourcetype/)
 * Class [Source](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

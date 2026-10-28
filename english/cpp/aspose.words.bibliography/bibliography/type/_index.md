@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::Bibliography::Bibliography class in C++.'
 type: docs
-weight: 1000
+weight: 5250
 url: /cpp/aspose.words.bibliography/bibliography/type/
 ---
 ## Bibliography::Type method

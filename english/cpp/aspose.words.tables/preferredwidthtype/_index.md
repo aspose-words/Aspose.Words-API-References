@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/preferredwidthtype/
 Specifies the unit of measurement for the preferred width of a table or cell.
 
 ```cpp
-enum class PreferredWidthType
+enum class PreferredWidthType : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class PreferredWidthType
 | Percent | 2 | Measure the current item width using a specified percentage. |
 | Points | 3 | Measure the current item width using a specified number of points (1/72 inch). |
 
-
 ## Examples
 
 
+Shows how to verify the preferred width type and value of a table cell.
 
-Shows how to verify the preferred width type and value of a table cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -39,8 +38,9 @@ System::SharedPtr<Aspose::Words::Tables::Cell> firstCell = table->get_FirstRow()
 ASSERT_EQ(PreferredWidthType::Percent, firstCell->get_CellFormat()->get_PreferredWidth()->get_Type());
 ASPOSE_ASSERT_EQ(11.16, firstCell->get_CellFormat()->get_PreferredWidth()->get_Value());
 ```
-
 ## See Also
+
+* [PreferredWidth](../preferredwidth/)
 
 * Namespace [Aspose::Words::Tables](../)
 * Library [Aspose.Words for C++](../../)

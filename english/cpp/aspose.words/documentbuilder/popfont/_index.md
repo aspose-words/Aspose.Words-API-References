@@ -16,12 +16,11 @@ Retrieves character formatting previously saved on the stack.
 void Aspose::Words::DocumentBuilder::PopFont()
 ```
 
-
 ## Examples
 
 
+Shows how to use a document builder's formatting stack.
 
-Shows how to use a document builder's formatting stack. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,8 +50,10 @@ builder->Write(u". We hope you enjoyed the example.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.PushPopFont.docx");
 ```
-
 ## See Also
+
+* [Font](../get_font/)
+* [PushFont](../pushfont/)
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)

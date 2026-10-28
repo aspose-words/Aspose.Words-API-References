@@ -4,7 +4,7 @@ linktitle: get_IsShiftJis
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSymbol::get_IsShiftJis method. Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character in C++.'
 type: docs
-weight: 7000
+weight: 10778
 url: /cpp/aspose.words.fields/fieldsymbol/get_isshiftjis/
 ---
 ## FieldSymbol::get_IsShiftJis method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldsymbol/get_isshiftjis/
 Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSymbol::get_IsShiftJis()
+_Bool Aspose::Words::Fields::FieldSymbol::get_IsShiftJis()
 ```
-
 
 ## Examples
 
 
+Shows how to use the SYMBOL field.
 
-Shows how to use the SYMBOL field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,7 +69,6 @@ builder->Write(u"Line 3");
 
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldSymbol](../)

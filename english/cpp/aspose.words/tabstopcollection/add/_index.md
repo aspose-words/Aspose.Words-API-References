@@ -7,29 +7,28 @@ type: docs
 weight: 2000
 url: /cpp/aspose.words/tabstopcollection/add/
 ---
-## TabStopCollection::Add(const System::SharedPtr\<Aspose::Words::TabStop\>\&) method
+## TabStopCollection::Add(const System::SharedPtr\<Aspose::Words::TabStop\> \&) method
 
 
 Adds or replaces a tab stop in the collection.
 
 ```cpp
-void Aspose::Words::TabStopCollection::Add(const System::SharedPtr<Aspose::Words::TabStop> &tabStop)
+void Aspose::Words::TabStopCollection::Add(const System::SharedPtr<Aspose::Words::TabStop> & tabStop)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabStop | const System::SharedPtr\<Aspose::Words::TabStop\>\& | A tab stop object to add. |
+| tabStop | const System::SharedPtr\<Aspose::Words::TabStop\> \& | A tab stop object to add. |
 ## Remarks
 
 
 If a tab stop already exists at the specified position, it is replaced.
-
 ## Examples
 
 
+Shows how to add custom tab stops to a document.
 
-Shows how to add custom tab stops to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
@@ -54,10 +53,8 @@ builder->Writeln(u"Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.AddTabStops.docx");
 ```
-
 ## See Also
 
-* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -80,12 +77,11 @@ void Aspose::Words::TabStopCollection::Add(double position, Aspose::Words::TabAl
 
 
 If a tab stop already exists at the specified position, it is replaced.
-
 ## Examples
 
 
+Shows how to add custom tab stops to a document.
 
-Shows how to add custom tab stops to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
@@ -110,11 +106,8 @@ builder->Writeln(u"Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.AddTabStops.docx");
 ```
-
 ## See Also
 
-* Enum [TabAlignment](../../tabalignment/)
-* Enum [TabLeader](../../tableader/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/pagesavingargs/set_pagefilename/
 Sets the file name where the document page will be saved to.
 
 ```cpp
-void Aspose::Words::Saving::PageSavingArgs::set_PageFileName(const System::String &value)
+void Aspose::Words::Saving::PageSavingArgs::set_PageFileName(const System::String & value)
 ```
 
+## Remarks
+
+ If not specified then page file name and path will be generated automatically using original file name. 
 ## See Also
 
 * Class [PageSavingArgs](../)

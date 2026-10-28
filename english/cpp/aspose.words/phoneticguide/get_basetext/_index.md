@@ -4,7 +4,7 @@ linktitle: get_BaseText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PhoneticGuide::get_BaseText method. Gets base text of the phonetic guide in C++.'
 type: docs
-weight: 2000
+weight: 7000
 url: /cpp/aspose.words/phoneticguide/get_basetext/
 ---
 ## PhoneticGuide::get_BaseText method
@@ -16,12 +16,11 @@ Gets base text of the phonetic guide.
 System::String Aspose::Words::PhoneticGuide::get_BaseText()
 ```
 
-
 ## Examples
 
 
+Shows how to get properties of the phonetic guide.
 
-Shows how to get properties of the phonetic guide. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Phonetic guide.docx"));
 
@@ -31,7 +30,6 @@ ASPOSE_ASSERT_EQ(true, runs->idx_get(0)->get_IsPhoneticGuide());
 ASSERT_EQ(u"base", runs->idx_get(0)->get_PhoneticGuide()->get_BaseText());
 ASSERT_EQ(u"ruby", runs->idx_get(0)->get_PhoneticGuide()->get_RubyText());
 ```
-
 ## See Also
 
 * Class [PhoneticGuide](../)

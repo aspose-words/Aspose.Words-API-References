@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_entrycategory/
 Sets the integral category for entries included in the table.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_EntryCategory(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_EntryCategory(const System::String & value)
 ```
 
 ## See Also

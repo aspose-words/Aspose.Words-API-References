@@ -4,7 +4,7 @@ linktitle: get_MajorUnitScale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale method. Returns or sets the scale value for major tick marks on the time category axis in C++.'
 type: docs
-weight: 15000
+weight: 31576
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunitscale/
 ---
 ## ChartAxis::get_MajorUnitScale method
@@ -16,12 +16,14 @@ Returns or sets the scale value for major tick marks on the time category axis.
 Aspose::Words::Drawing::Charts::AxisTimeUnit Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale()
 ```
 
+## Remarks
 
+ The property has effect only for time category axes. 
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -74,10 +76,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
-* Enum [AxisTimeUnit](../../axistimeunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

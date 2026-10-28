@@ -13,7 +13,7 @@ url: /cpp/aspose.words/signaturelineoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::SignatureLineOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::SignatureLineOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

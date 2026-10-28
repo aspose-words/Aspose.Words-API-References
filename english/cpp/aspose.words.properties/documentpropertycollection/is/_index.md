@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/documentpropertycollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Properties::DocumentPropertyCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Properties::DocumentPropertyCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

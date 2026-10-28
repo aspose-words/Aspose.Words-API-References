@@ -4,7 +4,7 @@ linktitle: get_BottomMargin
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_BottomMargin method. Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text in C++.'
 type: docs
-weight: 10000
+weight: 49198
 url: /cpp/aspose.words/pagesetup/get_bottommargin/
 ---
 ## PageSetup::get_BottomMargin method
@@ -16,12 +16,11 @@ Returns or sets the distance (in points) between the bottom edge of the page and
 double Aspose::Words::PageSetup::get_BottomMargin()
 ```
 
-
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ builder->Writeln(u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

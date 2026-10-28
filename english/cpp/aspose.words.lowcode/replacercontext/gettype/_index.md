@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/replacercontext/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::ReplacerContext::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::ReplacerContext::GetType() const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Color method. Gets or sets a Color object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 5000
+weight: 50000
 url: /cpp/aspose.words.drawing/fill/get_color/
 ---
 ## Fill::get_Color method
@@ -16,12 +16,14 @@ Gets or sets a Color object that represents the foreground color for the fill.
 System::Drawing::Color Aspose::Words::Drawing::Fill::get_Color()
 ```
 
+## Remarks
 
+ This property preserves the alpha component of the **Color**, unlike the [ForeColor](../get_forecolor/) property, which resets it to fully opaque color. 
 ## Examples
 
 
+Shows how to convert any of the fills back to solid fill.
 
-Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -42,7 +44,10 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
+## Deprecated
 
+
+This property is obsolete. Please, use ForeColor property instead.
 ## See Also
 
 * Class [Fill](../)

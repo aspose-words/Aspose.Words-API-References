@@ -18,7 +18,6 @@ virtualized_iterator * Aspose::Words::Vba::VbaReferenceCollection::virtualizeBeg
 
 ## See Also
 
-* Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

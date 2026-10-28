@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 Returns a **CultureInfo** object to be used during the field's update.
 
 ```cpp
-virtual System::SharedPtr<System::Globalization::CultureInfo> Aspose::Words::Fields::IFieldUpdateCultureProvider::GetCulture(System::String culture, System::SharedPtr<Aspose::Words::Fields::Field> field)=0
+virtual System::SharedPtr<System::Globalization::CultureInfo> Aspose::Words::Fields::IFieldUpdateCultureProvider::GetCulture(System::String culture, System::SharedPtr<Aspose::Words::Fields::Field> field)
 ```
 
 
@@ -25,10 +25,8 @@ virtual System::SharedPtr<System::Globalization::CultureInfo> Aspose::Words::Fie
 ### ReturnValue
 
 The culture object that should be used for the field's update.
-
 ## See Also
 
-* Class [Field](../../field/)
 * Interface [IFieldUpdateCultureProvider](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

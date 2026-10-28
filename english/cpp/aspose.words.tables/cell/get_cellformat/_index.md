@@ -4,7 +4,7 @@ linktitle: get_CellFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_CellFormat method. Provides access to the formatting properties of the cell in C++.'
 type: docs
-weight: 5000
+weight: 17000
 url: /cpp/aspose.words.tables/cell/get_cellformat/
 ---
 ## Cell::get_CellFormat method
@@ -16,12 +16,11 @@ Provides access to the formatting properties of the cell.
 System::SharedPtr<Aspose::Words::Tables::CellFormat> Aspose::Words::Tables::Cell::get_CellFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to modify the format of rows and cells in a table.
 
-Shows how to modify the format of rows and cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,8 +51,8 @@ cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::ge
 doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
 
+Shows how to modify formatting of a table cell.
 
-Shows how to modify formatting of a table cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -67,8 +66,8 @@ firstCell->get_CellFormat()->get_Shading()->set_ForegroundPatternColor(System::D
 doc->Save(get_ArtifactsDir() + u"Table.CellFormat.docx");
 ```
 
+Shows how to combine the rows from two tables into one.
 
-Shows how to combine the rows from two tables into one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -90,10 +89,8 @@ secondTable->Remove();
 
 doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
-
 ## See Also
 
-* Class [CellFormat](../../cellformat/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

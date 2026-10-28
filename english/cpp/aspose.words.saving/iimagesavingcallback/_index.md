@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/iimagesavingcallback/
 Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats.
 
 ```cpp
-class IImageSavingCallback : public virtual System::Object
+class IImageSavingCallback : public System::Object
 ```
 
 ## Methods
@@ -22,7 +22,7 @@ class IImageSavingCallback : public virtual System::Object
 | --- | --- |
 | [GetType](./gettype/)() const override |  |
 | virtual [ImageSaving](./imagesaving/)(System::SharedPtr\<Aspose::Words::Saving::ImageSavingArgs\>) | Called when Aspose.Words saves an image to HTML. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
 ## See Also
 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/heightrule/
 Specifies the rule for determining the height of an object.
 
 ```cpp
-enum class HeightRule
+enum class HeightRule : int
 ```
 
 ### Values
@@ -21,15 +21,14 @@ enum class HeightRule
 | Name | Value | Description |
 | --- | --- | --- |
 | AtLeast | 0 | The height will be at least the specified height in points. It will grow, if needed, to accommodate all text inside an object. |
-| Exactly | 1 | The height is specified exactly in points. Please note that if the text cannot fit inside the object of this height, it will appear truncated. |
 | Auto | 2 | The height will grow automatically to accommodate all text inside an object. |
-
+| Exactly | 1 | The height is specified exactly in points. Please note that if the text cannot fit inside the object of this height, it will appear truncated. |
 
 ## Examples
 
 
+Shows how to format rows with a document builder.
 
-Shows how to format rows with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +58,6 @@ ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->g
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

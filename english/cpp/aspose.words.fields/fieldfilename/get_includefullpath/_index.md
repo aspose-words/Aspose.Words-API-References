@@ -4,7 +4,7 @@ linktitle: get_IncludeFullPath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldFileName::get_IncludeFullPath method. Gets or sets whether to include the full file path name in C++.'
 type: docs
-weight: 2000
+weight: 4667
 url: /cpp/aspose.words.fields/fieldfilename/get_includefullpath/
 ---
 ## FieldFileName::get_IncludeFullPath method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldfilename/get_includefullpath/
 Gets or sets whether to include the full file path name.
 
 ```cpp
-bool Aspose::Words::Fields::FieldFileName::get_IncludeFullPath()
+_Bool Aspose::Words::Fields::FieldFileName::get_IncludeFullPath()
 ```
-
 
 ## Examples
 
 
+Shows how to use FieldOptions to override the default value for the FILENAME field.
 
-Shows how to use [FieldOptions](../../fieldoptions/) to override the default value for the FILENAME field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,7 +56,6 @@ ASSERT_EQ(u"FieldOptions.FILENAME.docx", field->get_Result());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + doc->get_FieldOptions()->get_FileName());
 ```
-
 ## See Also
 
 * Class [FieldFileName](../)

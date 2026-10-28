@@ -25,12 +25,11 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(Aspose::Words::Header
 
 
 If the header or footer of the specified type does not exist, creates it automatically.
-
 ## Examples
 
 
+Shows how to link headers and footers between sections.
 
-Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,10 +96,8 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
-
 ## See Also
 
-* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -121,12 +118,11 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(bool isLinkToPrevious
 
 
 If any of the headers or footers do not exist, creates them automatically.
-
 ## Examples
 
 
+Shows how to link headers and footers between sections.
 
-Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -193,7 +189,6 @@ ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->g
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
-
 ## See Also
 
 * Class [HeaderFooterCollection](../)

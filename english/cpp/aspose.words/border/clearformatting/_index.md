@@ -16,12 +16,14 @@ Resets border properties to default values.
 void Aspose::Words::Border::ClearFormatting()
 ```
 
+## Remarks
 
+ When border properties are reset to default values, the border is invisible. 
 ## Examples
 
 
+Shows how to remove borders from a paragraph.
 
-Shows how to remove borders from a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Borders.docx"));
 
@@ -48,7 +50,6 @@ ASSERT_FALSE(borders->idx_get(0)->get_IsVisible());
 
 doc->Save(get_ArtifactsDir() + u"Border.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

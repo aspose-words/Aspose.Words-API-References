@@ -4,7 +4,7 @@ linktitle: get_LineStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_LineStyle method. Gets or sets the border style in C++.'
 type: docs
-weight: 7000
+weight: 14500
 url: /cpp/aspose.words/border/get_linestyle/
 ---
 ## Border::get_LineStyle method
@@ -20,12 +20,11 @@ Aspose::Words::LineStyle Aspose::Words::Border::get_LineStyle()
 
 
 If you set line style to none, then line width is automatically changed to zero.
-
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,10 +37,8 @@ builder->Write(u"Text surrounded by green border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
-
 ## See Also
 
-* Enum [LineStyle](../../linestyle/)
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

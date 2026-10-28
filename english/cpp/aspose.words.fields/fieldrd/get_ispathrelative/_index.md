@@ -4,7 +4,7 @@ linktitle: get_IsPathRelative
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldRD::get_IsPathRelative method. Gets or sets whether the path is relative to the current document in C++.'
 type: docs
-weight: 3000
+weight: 5750
 url: /cpp/aspose.words.fields/fieldrd/get_ispathrelative/
 ---
 ## FieldRD::get_IsPathRelative method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldrd/get_ispathrelative/
 Gets or sets whether the path is relative to the current document.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
+_Bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
 ```
-
 
 ## Examples
 
 
+Shows to use the RD field to create a table of contents entries from headings in other documents.
 
-Shows to use the RD field to create a table of contents entries from headings in other documents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ referencedDoc->Save(get_ArtifactsDir() + u"ReferencedDocument.docx");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.RD.docx");
 ```
-
 ## See Also
 
 * Class [FieldRD](../)

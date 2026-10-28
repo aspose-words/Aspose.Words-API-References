@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/downsampleoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Saving::DownsampleOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Saving::DownsampleOptions::GetType() const override
 ```
 
 ## See Also

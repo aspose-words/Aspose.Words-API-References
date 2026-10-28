@@ -4,7 +4,7 @@ linktitle: get_BackTintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BackTintAndShade method. Gets or sets a double value that lightens or darkens the background color in C++.'
 type: docs
-weight: 4000
+weight: 48000
 url: /cpp/aspose.words.drawing/fill/get_backtintandshade/
 ---
 ## Fill::get_BackTintAndShade method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::Fill::get_BackTintAndShade()
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property.
 
 Zero (0) is neutral.
-
 ## Examples
 
 
+Shows how to set theme color for foreground/background shape color.
 
-Shows how to set theme color for foreground/background shape color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +45,9 @@ if (fill->get_BackTintAndShade() == 0)
 
 doc->Save(get_ArtifactsDir() + u"Shape.FillThemeColor.docx");
 ```
+## Exceptions
+
+* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
 
 ## See Also
 

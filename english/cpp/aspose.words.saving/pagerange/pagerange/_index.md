@@ -4,7 +4,7 @@ linktitle: PageRange
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PageRange::PageRange constructor. Creates a new page range object in C++.'
 type: docs
-weight: 2000
+weight: 5000
 url: /cpp/aspose.words.saving/pagerange/pagerange/
 ---
 ## PageRange::PageRange constructor
@@ -21,12 +21,14 @@ Aspose::Words::Saving::PageRange::PageRange(int32_t from, int32_t to)
 | --- | --- | --- |
 | from | int32_t | The starting page zero-based index. |
 | to | int32_t | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
+## Remarks
 
+**MaxValue** means the last page in the document. 
 ## Examples
 
 
+Shows how to extract pages based on exact page ranges.
 
-Shows how to extract pages based on exact page ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -36,7 +38,6 @@ auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeAr
 imageOptions->set_PageSet(pageSet);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
-
 ## See Also
 
 * Class [PageRange](../)

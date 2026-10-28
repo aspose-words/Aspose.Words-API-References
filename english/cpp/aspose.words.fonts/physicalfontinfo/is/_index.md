@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/physicalfontinfo/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fonts::PhysicalFontInfo::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fonts::PhysicalFontInfo::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_Orientation method. Returns or sets the orientation of the page in C++.'
 type: docs
-weight: 31000
+weight: 49643
 url: /cpp/aspose.words/pagesetup/get_orientation/
 ---
 ## PageSetup::get_Orientation method
@@ -20,12 +20,11 @@ Aspose::Words::Orientation Aspose::Words::PageSetup::get_Orientation()
 
 
 Changing [Orientation](./) swaps [PageWidth](../get_pagewidth/) and [PageHeight](../get_pageheight/).
-
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,8 +52,8 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,10 +71,8 @@ builder->Writeln(u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
-
 ## See Also
 
-* Enum [Orientation](../../orientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

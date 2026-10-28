@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/endnoteoptions/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Notes::EndnoteOptions::GetType() const override
+const System::TypeInfo & Aspose::Words::Notes::EndnoteOptions::GetType() const override
 ```
 
 ## See Also

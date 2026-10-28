@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pclsaveoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::PclSaveOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::PclSaveOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

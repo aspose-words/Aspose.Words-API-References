@@ -4,7 +4,7 @@ linktitle: get_Index
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataPoint::get_Index method. Index of the data point this object applies formatting to in C++.'
 type: docs
-weight: 6000
+weight: 10625
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_index/
 ---
 ## ChartDataPoint::get_Index method

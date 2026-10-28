@@ -4,24 +4,23 @@ linktitle: SdtListItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItem::SdtListItem constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 7000
 url: /cpp/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem::SdtListItem(const System::String\&, const System::String\&) constructor
+## SdtListItem::SdtListItem(const System::String \&) constructor
 
 
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String &displayText, const System::String &value)
+Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String & value)
 ```
-
 
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -75,27 +74,25 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Class [SdtListItem](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)
-## SdtListItem::SdtListItem(const System::String\&) constructor
+## SdtListItem::SdtListItem(const System::String \&, const System::String \&) constructor
 
 
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String &value)
+Aspose::Words::Markup::SdtListItem::SdtListItem(const System::String & displayText, const System::String & value)
 ```
-
 
 ## Examples
 
 
+Shows how to work with drop down-list structured document tags.
 
-Shows how to work with drop down-list structured document tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::DropDownList, MarkupLevel::Block);
@@ -149,7 +146,6 @@ listItems->Clear();
 
 ASSERT_EQ(0, listItems->get_Count());
 ```
-
 ## See Also
 
 * Class [SdtListItem](../)

@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPartCollection::idx_set method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 15000
+weight: 17889
 url: /cpp/aspose.words.markup/customxmlpartcollection/idx_set/
 ---
 ## CustomXmlPartCollection::idx_set method
@@ -13,19 +13,19 @@ url: /cpp/aspose.words.markup/customxmlpartcollection/idx_set/
 Gets or sets an item at the specified index.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlPartCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> &value)
+void Aspose::Words::Markup::CustomXmlPartCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the item. |
-
+| value | const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \& | The value to set. |
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,10 +85,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

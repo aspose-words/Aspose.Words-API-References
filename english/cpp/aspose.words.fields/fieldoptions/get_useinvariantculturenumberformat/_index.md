@@ -4,32 +4,31 @@ linktitle: get_UseInvariantCultureNumberFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat method. Gets or sets the value indicating that number format is parsed using invariant culture or not in C++.'
 type: docs
-weight: 21000
+weight: 24918
 url: /cpp/aspose.words.fields/fieldoptions/get_useinvariantculturenumberformat/
 ---
 ## FieldOptions::get_UseInvariantCultureNumberFormat method
 
 
-Gets or sets the value indicating that number format is parsed using invariant culture or not.
+Gets or sets the value indicating that number format is parsed using invariant culture or not
 
 ```cpp
-bool Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat() const
+_Bool Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat() const
 ```
 
 ## Remarks
 
 
-When this property is set to **true**, number format is taken from an invariant culture.
+ When this property is set to **true**, number format is taken from an invariant culture. 
 
-When this property is set to **false**, number format is taken from the current thread's culture.
+ When this property is set to **false**, number format is taken from the current thread's culture. 
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to format numbers according to the invariant culture.
 
-Shows how to format numbers according to the invariant culture. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ doc->get_FieldOptions()->set_UseInvariantCultureNumberFormat(true);
 field->Update();
 ASSERT_EQ((u"$1.234.567,89"), field->get_Result());
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

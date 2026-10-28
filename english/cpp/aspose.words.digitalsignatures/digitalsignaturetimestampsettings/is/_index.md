@@ -4,7 +4,7 @@ linktitle: Is
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Is method of Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings class in C++.'
 type: docs
-weight: 8000
+weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/is/
 ---
 ## DigitalSignatureTimestampSettings::Is method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/is/
 
 
 ```cpp
-virtual bool Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: MillimeterToPoint
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::MillimeterToPoint method. Converts millimeters to points in C++.'
 type: docs
-weight: 2000
+weight: 9000
 url: /cpp/aspose.words/convertutil/millimetertopoint/
 ---
 ## ConvertUtil::MillimeterToPoint method
@@ -20,12 +20,14 @@ static double Aspose::Words::ConvertUtil::MillimeterToPoint(double millimeters)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | millimeters | double | The value to convert. |
+## Remarks
 
+ 1 inch equals 25.4 millimeters. 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to specify page properties in millimeters.
 
-Shows how to specify page properties in millimeters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +49,6 @@ builder->Writeln(System::String::Format(u"This Text is {0} points from the left,
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndMillimeters.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

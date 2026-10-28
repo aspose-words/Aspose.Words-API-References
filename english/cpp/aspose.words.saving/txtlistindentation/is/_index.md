@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/txtlistindentation/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Saving::TxtListIndentation::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Saving::TxtListIndentation::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/ireplacingcallback/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Replacing::IReplacingCallback::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Replacing::IReplacingCallback::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inlinestory/is/
 
 
 ```cpp
-virtual bool Aspose::Words::InlineStory::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::InlineStory::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

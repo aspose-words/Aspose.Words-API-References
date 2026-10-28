@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldhyperlink/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Fields::FieldHyperlink::GetType() const override
+const System::TypeInfo & Aspose::Words::Fields::FieldHyperlink::GetType() const override
 ```
 
 ## See Also

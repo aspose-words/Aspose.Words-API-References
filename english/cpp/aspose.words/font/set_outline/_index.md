@@ -2,7 +2,7 @@
 title: Aspose::Words::Font::set_Outline method
 linktitle: set_Outline
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Font::set_Outline method. Setter for Aspose::Words::Font::get_Outline in C++.'
+description: 'Aspose::Words::Font::set_Outline method. True if the font is formatted as outline in C++.'
 type: docs
 weight: 84000
 url: /cpp/aspose.words/font/set_outline/
@@ -10,12 +10,31 @@ url: /cpp/aspose.words/font/set_outline/
 ## Font::set_Outline method
 
 
-Setter for [Aspose::Words::Font::get_Outline](../get_outline/).
+True if the font is formatted as outline.
 
 ```cpp
 void Aspose::Words::Font::set_Outline(bool value)
 ```
 
+## Examples
+
+
+Shows how to create a run of text formatted as outline.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Set the Outline flag to change the text's fill color to white and
+// leave a thin outline around each character in the original color of the text.
+builder->get_Font()->set_Outline(true);
+builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
+builder->get_Font()->set_Size(36);
+
+builder->Writeln(u"This text has an outline.");
+
+doc->Save(get_ArtifactsDir() + u"Font.Outline.docx");
+```
 ## See Also
 
 * Class [Font](../)

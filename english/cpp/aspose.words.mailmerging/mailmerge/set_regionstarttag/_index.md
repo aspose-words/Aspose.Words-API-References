@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/set_regionstarttag/
 Sets a mail merge region start tag.
 
 ```cpp
-void Aspose::Words::MailMerging::MailMerge::set_RegionStartTag(const System::String &value)
+void Aspose::Words::MailMerging::MailMerge::set_RegionStartTag(const System::String & value)
 ```
 
 ## See Also

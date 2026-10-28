@@ -13,38 +13,37 @@ url: /cpp/aspose.words/storytype/
 Text of a Word document is stored in stories. [StoryType](./) identifies a story.
 
 ```cpp
-enum class StoryType
+enum class StoryType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Default value. There is no such story in the document. |
-| MainText | 1 | Contains the main text of the document, represented by [Body](../body/). |
-| Footnotes | 2 | Contains footnote text, represented by [Footnote](../../aspose.words.notes/footnote/). |
-| Endnotes | 3 | Contains endnotes text, represented by [Footnote](../../aspose.words.notes/footnote/). |
 | Comments | 4 | Contains document comments (annotations), represented by [Comment](../comment/). |
-| Textbox | 5 | Contains shape or textbox text, represented by [Shape](../../aspose.words.drawing/shape/). |
-| EvenPagesHeader | 6 | Contains text of the even pages header, represented by [HeaderFooter](../headerfooter/). |
-| PrimaryHeader | 7 | Contains text of the primary header. When header is different for odd and even pages, contains text of the odd pages header. Represented by [HeaderFooter](../headerfooter/). |
-| EvenPagesFooter | 8 | Contains text of the even pages footer, represented by [HeaderFooter](../headerfooter/). |
-| PrimaryFooter | 9 | Contains text of the primary footer. When footer is different for odd and even pages, contains text of the odd pages footer. Represented by [HeaderFooter](../headerfooter/). |
-| FirstPageHeader | 10 | Contains text of the first page header, represented by [HeaderFooter](../headerfooter/). |
-| FirstPageFooter | 11 | Contains text of the first page footer, represented by [HeaderFooter](../headerfooter/). |
-| FootnoteSeparator | 12 | Contains the text of the footnote separator. |
-| FootnoteContinuationSeparator | 13 | Contains the text of the footnote continuation separator. |
-| FootnoteContinuationNotice | 14 | Contains the text of the footnote continuation notice separator. |
-| EndnoteSeparator | 15 | Contains the text of the endnote separator. |
-| EndnoteContinuationSeparator | 16 | Contains the text of the endnote continuation separator. |
 | EndnoteContinuationNotice | 17 | Contains the text of the endnote continuation notice separator. |
-
+| EndnoteContinuationSeparator | 16 | Contains the text of the endnote continuation separator. |
+| EndnoteSeparator | 15 | Contains the text of the endnote separator. |
+| Endnotes | 3 | Contains endnotes text, represented by [Footnote](../../aspose.words.notes/footnote/). |
+| EvenPagesFooter | 8 | Contains text of the even pages footer, represented by [HeaderFooter](../headerfooter/). |
+| EvenPagesHeader | 6 | Contains text of the even pages header, represented by [HeaderFooter](../headerfooter/). |
+| FirstPageFooter | 11 | Contains text of the first page footer, represented by [HeaderFooter](../headerfooter/). |
+| FirstPageHeader | 10 | Contains text of the first page header, represented by [HeaderFooter](../headerfooter/). |
+| FootnoteContinuationNotice | 14 | Contains the text of the footnote continuation notice separator. |
+| FootnoteContinuationSeparator | 13 | Contains the text of the footnote continuation separator. |
+| FootnoteSeparator | 12 | Contains the text of the footnote separator. |
+| Footnotes | 2 | Contains footnote text, represented by [Footnote](../../aspose.words.notes/footnote/). |
+| MainText | 1 | Contains the main text of the document, represented by [Body](../body/). |
+| None | 0 | Default value. There is no such story in the document. |
+| PrimaryFooter | 9 | Contains text of the primary footer. When footer is different for odd and even pages, contains text of the odd pages footer. Represented by [HeaderFooter](../headerfooter/). |
+| PrimaryHeader | 7 | Contains text of the primary header. When header is different for odd and even pages, contains text of the odd pages header. Represented by [HeaderFooter](../headerfooter/). |
+| Textbox | 5 | Contains shape or textbox text, represented by [Shape](../../aspose.words.drawing/shape/). |
 
 ## Examples
 
 
+Shows how to remove all shapes from a node.
 
-Shows how to remove all shapes from a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,7 +60,6 @@ doc->get_FirstSection()->get_Body()->DeleteShapes();
 
 ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

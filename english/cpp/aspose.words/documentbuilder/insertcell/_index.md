@@ -30,12 +30,11 @@ To start a new cell in the same row, call [InsertCell](./) again.
 To end a table row call [EndRow](../endrow/).
 
 Use the [CellFormat](../get_cellformat/) property to specify cell formatting.
-
 ## Examples
 
 
+Shows how to build a table with custom borders.
 
-Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -95,8 +94,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
+Shows how to use a document builder to create a table.
 
-Shows how to use a document builder to create a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -118,10 +117,8 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateTable.docx");
 ```
-
 ## See Also
 
-* Class [Cell](../../../aspose.words.tables/cell/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

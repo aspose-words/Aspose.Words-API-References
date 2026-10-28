@@ -16,17 +16,16 @@ Specifies whether the rule is enabled or not.
 void Aspose::Words::Fonts::FontConfigSubstitutionRule::set_Enabled(bool value) override
 ```
 
-
 ## Examples
 
 
+Shows operating system-dependent font config substitution.
 
-Shows operating system-dependent font config substitution. 
 ```cpp
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
 System::SharedPtr<Aspose::Words::Fonts::FontConfigSubstitutionRule> fontConfigSubstitution = fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution();
 
-bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S,
+bool isWindows = System::MakeArray<System::PlatformID>({System::PlatformID::Win32NT, System::PlatformID::Win32S, 
     System::PlatformID::Win32Windows, System::PlatformID::WinCE})->LINQ_Any(static_cast<System::Func<System::PlatformID, bool>>(static_cast<std::function<bool(System::PlatformID p)>>([](System::PlatformID p) -> bool
 {
     return System::Environment::get_OSVersion().get_Platform() == p;
@@ -54,7 +53,6 @@ if (isLinuxOrMac)
     fontConfigSubstitution->ResetCache();
 }
 ```
-
 ## See Also
 
 * Class [FontConfigSubstitutionRule](../)

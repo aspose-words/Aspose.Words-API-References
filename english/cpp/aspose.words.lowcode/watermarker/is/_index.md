@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/watermarker/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::Watermarker::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::Watermarker::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

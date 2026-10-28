@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautonumlgl/set_separatorcharacter/
 Sets the separator character to be used.
 
 ```cpp
-void Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter(const System::String &value)
+void Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter(const System::String & value)
 ```
 
 ## See Also

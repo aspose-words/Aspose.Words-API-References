@@ -4,7 +4,7 @@ linktitle: get_BaseForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BaseForeColor method. Gets a Color object that represents the base foreground color for the fill without any modifiers in C++.'
 type: docs
-weight: 4500
+weight: 49000
 url: /cpp/aspose.words.drawing/fill/get_baseforecolor/
 ---
 ## Fill::get_BaseForeColor method
@@ -16,12 +16,11 @@ Gets a Color object that represents the base foreground color for the fill witho
 System::Drawing::Color Aspose::Words::Drawing::Fill::get_BaseForeColor()
 ```
 
-
 ## Examples
 
 
+Shows how to get foreground color without modifiers.
 
-Shows how to get foreground color without modifiers. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -41,7 +40,6 @@ ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get
 ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_ForeColor().ToArgb());
 ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_BaseForeColor().ToArgb());
 ```
-
 ## See Also
 
 * Class [Fill](../)

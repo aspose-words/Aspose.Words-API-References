@@ -4,7 +4,7 @@ linktitle: get_CurrentShape
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSavingArgs::get_CurrentShape method. Gets the ShapeBase object corresponding to the shape or group shape that is about to be saved in C++.'
 type: docs
-weight: 2000
+weight: 9250
 url: /cpp/aspose.words.saving/imagesavingargs/get_currentshape/
 ---
 ## ImageSavingArgs::get_CurrentShape method
@@ -23,10 +23,9 @@ System::SharedPtr<Aspose::Words::Drawing::ShapeBase> Aspose::Words::Saving::Imag
 
 Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document. You can use the [CurrentShape](./) property to generate a "better" file name by examining shape properties such as [Title](../../../aspose.words.drawing/imagedata/get_title/) (Shape only), [SourceFullName](../../../aspose.words.drawing/imagedata/get_sourcefullname/) (Shape only) and [Name](../../../aspose.words.drawing/shapebase/get_name/). Of course you can build file names using any other properties or criteria but note that subsidiary file names must be unique within the export operation.
 
-Some images in the document can be unavailable. To check image availability use the [IsImageAvailable](../get_isimageavailable/) property. 
+Some images in the document can be unavailable. To check image availability use the [IsImageAvailable](../get_isimageavailable/) property.
 ## See Also
 
-* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

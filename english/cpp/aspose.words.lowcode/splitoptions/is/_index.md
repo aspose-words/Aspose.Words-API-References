@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/splitoptions/is/
 
 
 ```cpp
-virtual bool Aspose::Words::LowCode::SplitOptions::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::LowCode::SplitOptions::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -20,12 +20,14 @@ void Aspose::Words::DocumentBuilder::InsertBreak(Aspose::Words::BreakType breakT
 | Parameter | Type | Description |
 | --- | --- | --- |
 | breakType | Aspose::Words::BreakType | Specifies the type of the break to insert. |
+## Remarks
 
+ Use this method to insert paragraph, page, column, section or line break into the document. 
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -71,8 +73,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -99,10 +101,8 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
-* Enum [BreakType](../../breaktype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

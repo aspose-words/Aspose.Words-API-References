@@ -4,7 +4,7 @@ linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocSaveOptions::get_Password method. Gets/sets a password to encrypt document using RC4 encryption method in C++.'
 type: docs
-weight: 4000
+weight: 9500
 url: /cpp/aspose.words.saving/docsaveoptions/get_password/
 ---
 ## DocSaveOptions::get_Password method
@@ -20,12 +20,11 @@ System::String Aspose::Words::Saving::DocSaveOptions::get_Password() const
 
 
 In order to save document without encryption this property should be **null** or empty string.
-
 ## Examples
 
 
+Shows how to set save options for older Microsoft Word formats.
 
-Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSave
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [DocSaveOptions](../)

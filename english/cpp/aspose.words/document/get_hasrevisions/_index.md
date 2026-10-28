@@ -4,7 +4,7 @@ linktitle: get_HasRevisions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_HasRevisions method. Returns true if the document has any tracked changes in C++.'
 type: docs
-weight: 31000
+weight: 121000
 url: /cpp/aspose.words/document/get_hasrevisions/
 ---
 ## Document::get_HasRevisions method
@@ -13,15 +13,17 @@ url: /cpp/aspose.words/document/get_hasrevisions/
 Returns **true** if the document has any tracked changes.
 
 ```cpp
-bool Aspose::Words::Document::get_HasRevisions()
+_Bool Aspose::Words::Document::get_HasRevisions()
 ```
 
+## Remarks
 
+ This property is a shortcut for comparing [Count](../../revisioncollection/get_count/) to zero. 
 ## Examples
 
 
+Shows how to work with revisions in a document.
 
-Shows how to work with revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -97,7 +99,6 @@ doc->get_Revisions()->idx_get(1)->Reject();
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Document](../)

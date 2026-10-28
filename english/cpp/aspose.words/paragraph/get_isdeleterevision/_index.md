@@ -4,7 +4,7 @@ linktitle: get_IsDeleteRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsDeleteRevision method. Returns true if this object was deleted in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 7000
+weight: 36000
 url: /cpp/aspose.words/paragraph/get_isdeleterevision/
 ---
 ## Paragraph::get_IsDeleteRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraph/get_isdeleterevision/
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Paragraph::get_IsDeleteRevision()
+_Bool Aspose::Words::Paragraph::get_IsDeleteRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to work with revision paragraphs.
 
-Shows how to work with revision paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Body> body = doc->get_FirstSection()->get_Body();
@@ -60,7 +59,6 @@ ASSERT_EQ(3, paragraphs->get_Count());
 ASSERT_EQ(0, para->get_Count());
 ASSERT_EQ(System::String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.", doc->GetText().Trim());
 ```
-
 ## See Also
 
 * Class [Paragraph](../)

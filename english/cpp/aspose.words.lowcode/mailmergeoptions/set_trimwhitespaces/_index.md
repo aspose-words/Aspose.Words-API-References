@@ -16,6 +16,9 @@ Sets a value indicating whether trailing and leading whitespaces are trimmed fro
 void Aspose::Words::LowCode::MailMergeOptions::set_TrimWhitespaces(bool value)
 ```
 
+## Remarks
+
+ The default value is **true**. 
 ## See Also
 
 * Class [MailMergeOptions](../)

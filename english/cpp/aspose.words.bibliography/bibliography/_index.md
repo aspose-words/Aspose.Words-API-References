@@ -20,18 +20,17 @@ class Bibliography : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_BibliographyStyle](./get_bibliographystyle/)() const | Gets a string that represents the name of the active style to use for a bibliography. |
 | [get_Sources](./get_sources/)() const | Gets a collection that represents all the sources contained in a bibliography. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_BibliographyStyle](./set_bibliographystyle/)(const System::String\&) | Sets a string that represents the name of the active style to use for a bibliography. |
-| static [Type](./type/)() |  |
-
+| [set_BibliographyStyle](./set_bibliographystyle/)(const System::String \&) | Sets a string that represents the name of the active style to use for a bibliography. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -124,7 +123,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

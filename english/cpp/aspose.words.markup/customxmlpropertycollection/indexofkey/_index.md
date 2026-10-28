@@ -13,23 +13,22 @@ url: /cpp/aspose.words.markup/customxmlpropertycollection/indexofkey/
 Returns the zero-based index of the specified property in the collection.
 
 ```cpp
-int32_t Aspose::Words::Markup::CustomXmlPropertyCollection::IndexOfKey(const System::String &name)
+int32_t Aspose::Words::Markup::CustomXmlPropertyCollection::IndexOfKey(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-sensitive name of the property. |
+| name | const System::String \& | The case-sensitive name of the property. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
-
 ## Examples
 
 
+Shows how to work with smart tag properties to get in depth information about smart tags.
 
-Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -79,7 +78,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [CustomXmlPropertyCollection](../)

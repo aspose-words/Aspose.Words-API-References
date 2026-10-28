@@ -4,32 +4,31 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get method. Gets or a sets a bookmark outline level by the bookmark name in C++.'
 type: docs
-weight: 13000
+weight: 18778
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/idx_get/
 ---
-## BookmarksOutlineLevelCollection::idx_get(const System::String\&) method
+## BookmarksOutlineLevelCollection::idx_get(const System::String \&) method
 
 
 Gets or a sets a bookmark outline level by the bookmark name.
 
 ```cpp
-int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(const System::String &name)
+int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-insensitive name of the bookmark. |
+| name | const System::String \& | Case-insensitive name of the bookmark. |
 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +79,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)
@@ -103,12 +101,11 @@ int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(int32_t 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -159,7 +156,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

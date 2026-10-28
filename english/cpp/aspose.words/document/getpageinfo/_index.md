@@ -20,22 +20,19 @@ System::SharedPtr<Aspose::Words::Rendering::PageInfo> Aspose::Words::Document::G
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageIndex | int32_t | The 0-based page index. |
-
 ## Examples
 
 
+Shows how to check whether the page is in color or not.
 
-Shows how to check whether the page is in color or not. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Check that the first page of the document is not colored.
 ASSERT_FALSE(doc->GetPageInfo(0)->get_Colored());
 ```
-
 ## See Also
 
-* Class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

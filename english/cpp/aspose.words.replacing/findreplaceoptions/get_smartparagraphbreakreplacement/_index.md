@@ -2,26 +2,30 @@
 title: Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement method
 linktitle: get_SmartParagraphBreakReplacement
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement method. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. The default value is false in C++.'
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement method. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.The default value is false in C++.'
 type: docs
-weight: 16000
+weight: 20859
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions::get_SmartParagraphBreakReplacement method
 
 
-Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. The default value is **false**.
+Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
+
+The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement() const
+_Bool Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement() const
 ```
 
+## Remarks
 
+ This option allows to replace paragraph break when there is no next sibling paragraph to which all child nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced. 
 ## Examples
 
 
+Shows how to remove paragraph from a table cell with a nested table.
 
-Shows how to remove paragraph from a table cell with a nested table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,7 +49,6 @@ doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::R
 
 doc->Save(get_ArtifactsDir() + u"Table.RemoveParagraphTextAndMark.docx");
 ```
-
 ## See Also
 
 * Class [FindReplaceOptions](../)

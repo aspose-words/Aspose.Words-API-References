@@ -23,13 +23,12 @@ A copy of the current font sources.
 ## Remarks
 
 
-The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [SetFontsSources()](../) method.
-
+The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [SetFontsSources()](../setfontssources/) method.
 ## Examples
 
 
+Shows how to add a font source to our existing font sources.
 
-Shows how to add a font source to our existing font sources. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -89,10 +88,8 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.AddFontSource.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
-
 ## See Also
 
-* Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

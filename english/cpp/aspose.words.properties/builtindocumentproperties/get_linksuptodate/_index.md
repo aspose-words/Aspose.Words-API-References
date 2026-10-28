@@ -4,7 +4,7 @@ linktitle: get_LinksUpToDate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LinksUpToDate method. Indicates whether hyperlinks in a document are up-to-date in C++.'
 type: docs
-weight: 19000
+weight: 36532
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_linksuptodate/
 ---
 ## BuiltInDocumentProperties::get_LinksUpToDate method
@@ -13,13 +13,13 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/get_linksuptodate/
 Indicates whether hyperlinks in a document are up-to-date.
 
 ```cpp
-bool Aspose::Words::Properties::BuiltInDocumentProperties::get_LinksUpToDate()
+_Bool Aspose::Words::Properties::BuiltInDocumentProperties::get_LinksUpToDate()
 ```
 
 ## Remarks
 
 
-Aspose.Words does not update this property. 
+Aspose.Words does not update this property.
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

@@ -4,7 +4,7 @@ linktitle: get_EntryCategory
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToa::get_EntryCategory method. Gets the integral category for entries included in the table in C++.'
 type: docs
-weight: 3000
+weight: 13252
 url: /cpp/aspose.words.fields/fieldtoa/get_entrycategory/
 ---
 ## FieldToa::get_EntryCategory method

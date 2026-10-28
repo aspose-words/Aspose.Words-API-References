@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::idx_get method. Retrieves a Border object by border type in C++.'
 type: docs
-weight: 18000
+weight: 19934
 url: /cpp/aspose.words/bordercollection/idx_get/
 ---
 ## BorderCollection::idx_get(Aspose::Words::BorderType) method
@@ -24,12 +24,11 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 
 
 Note that not all borders are present for different document elements. This method throws an exception if you request a border not applicable to the current object.
-
 ## Examples
 
 
+Shows how to decorate text with borders and shading.
 
-Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,11 +48,8 @@ shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 builder->Write(u"This paragraph is formatted with a double border and shading.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
-
 ## See Also
 
-* Class [Border](../../border/)
-* Enum [BorderType](../../bordertype/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -70,12 +66,11 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the border to retrieve. |
-
 ## Examples
 
 
+Shows how border collections can share elements.
 
-Shows how border collections can share elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -113,10 +108,8 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 ```
-
 ## See Also
 
-* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

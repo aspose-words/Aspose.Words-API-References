@@ -16,12 +16,11 @@ Removes all properties from the collection.
 void Aspose::Words::Properties::DocumentPropertyCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's custom properties.
 
-Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -76,7 +75,6 @@ properties->Clear();
 
 ASSERT_EQ(0, properties->get_Count());
 ```
-
 ## See Also
 
 * Class [DocumentPropertyCollection](../)

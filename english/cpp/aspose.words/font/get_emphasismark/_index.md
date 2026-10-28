@@ -4,7 +4,7 @@ linktitle: get_EmphasisMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_EmphasisMark method. Gets or sets the emphasis mark applied to this formatting in C++.'
 type: docs
-weight: 13000
+weight: 59216
 url: /cpp/aspose.words/font/get_emphasismark/
 ---
 ## Font::get_EmphasisMark method
@@ -16,12 +16,11 @@ Gets or sets the emphasis mark applied to this formatting.
 Aspose::Words::EmphasisMark Aspose::Words::Font::get_EmphasisMark()
 ```
 
-
 ## Examples
 
 
+Shows how to add additional character rendered above/below the glyph-character.
 
-Shows how to add additional character rendered above/below the glyph-character. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -36,10 +35,8 @@ builder->Write(u"Simple text");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Fonts.SetEmphasisMark.docx");
 ```
-
 ## See Also
 
-* Enum [EmphasisMark](../../emphasismark/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

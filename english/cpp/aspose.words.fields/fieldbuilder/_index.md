@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldBuilder class
 linktitle: FieldBuilder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldBuilder class. Builds a field from field code tokens (arguments and switches). To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldBuilder class. Builds a field from field code tokens (arguments and switches). To learn more, visit the Working with Fields documentation article in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.fields/fieldbuilder/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.fields/fieldbuilder/
 ## FieldBuilder class
 
 
-Builds a field from field code tokens (arguments and switches). To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Builds a field from field code tokens (arguments and switches). 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldBuilder : public IFieldBuildingBlock
@@ -20,27 +21,26 @@ class FieldBuilder : public IFieldBuildingBlock
 
 | Method | Description |
 | --- | --- |
-| [AddArgument](./addargument/)(const System::String\&) | Adds a field's argument. |
-| [AddArgument](./addargument/)(int32_t) | Adds a field's argument. |
+| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\> \&) | Adds a field's argument represented by [FieldArgumentBuilder](../fieldargumentbuilder/) to the field's code. |
+| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\> \&) | Adds a child field represented by another [FieldBuilder](./) to the field's code. |
+| [AddArgument](./addargument/)(const System::String \&) | Adds a field's argument. |
 | [AddArgument](./addargument/)(double) | Adds a field's argument. |
-| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) | Adds a child field represented by another [FieldBuilder](./) to the field's code. |
-| [AddArgument](./addargument/)(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) | Adds a field's argument represented by [FieldArgumentBuilder](../fieldargumentbuilder/) to the field's code. |
-| [AddSwitch](./addswitch/)(const System::String\&) | Adds a field's switch. |
-| [AddSwitch](./addswitch/)(const System::String\&, const System::String\&) | Adds a field's switch. |
-| [AddSwitch](./addswitch/)(const System::String\&, int32_t) | Adds a field's switch. |
-| [AddSwitch](./addswitch/)(const System::String\&, double) | Adds a field's switch. |
-| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Inline\>\&) | Builds and inserts a field into the document before the specified inline node. |
-| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) | Builds and inserts a field into the document to the end of the specified paragraph. |
+| [AddArgument](./addargument/)(int32_t) | Adds a field's argument. |
+| [AddSwitch](./addswitch/)(const System::String \&) | Adds a field's switch. |
+| [AddSwitch](./addswitch/)(const System::String \&, const System::String \&) | Adds a field's switch. |
+| [AddSwitch](./addswitch/)(const System::String \&, double) | Adds a field's switch. |
+| [AddSwitch](./addswitch/)(const System::String \&, int32_t) | Adds a field's switch. |
+| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Inline\> \&) | Builds and inserts a field into the document before the specified inline node. |
+| [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Paragraph\> \&) | Builds and inserts a field into the document to the end of the specified paragraph. |
 | [FieldBuilder](./fieldbuilder/)(Aspose::Words::Fields::FieldType) | Initializes an instance of the [FieldBuilder](./) class. |
 | [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -114,7 +114,6 @@ ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

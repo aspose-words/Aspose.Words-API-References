@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Properties::BuiltInDocumentProperties::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Properties::BuiltInDocumentProperties::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_ResizeVertically
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIncludePicture::get_ResizeVertically method. Gets or sets whether to resize the picture vertically from the source in C++.'
 type: docs
-weight: 5000
+weight: 8715
 url: /cpp/aspose.words.fields/fieldincludepicture/get_resizevertically/
 ---
 ## FieldIncludePicture::get_ResizeVertically method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldincludepicture/get_resizevertically/
 Gets or sets whether to resize the picture vertically from the source.
 
 ```cpp
-bool Aspose::Words::Fields::FieldIncludePicture::get_ResizeVertically()
+_Bool Aspose::Words::Fields::FieldIncludePicture::get_ResizeVertically()
 ```
-
 
 ## Examples
 
 
+Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 
-Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetField
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
-
 ## See Also
 
 * Class [FieldIncludePicture](../)

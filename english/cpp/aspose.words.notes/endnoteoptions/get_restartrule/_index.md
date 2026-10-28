@@ -4,7 +4,7 @@ linktitle: get_RestartRule
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::EndnoteOptions::get_RestartRule method. Determines when automatic numbering restarts in C++.'
 type: docs
-weight: 4000
+weight: 7668
 url: /cpp/aspose.words.notes/endnoteoptions/get_restartrule/
 ---
 ## EndnoteOptions::get_RestartRule method
@@ -20,12 +20,11 @@ Aspose::Words::Notes::FootnoteNumberingRule Aspose::Words::Notes::EndnoteOptions
 
 
 Not all values are applicable to endnotes. To ascertain which values are applicable see [FootnoteNumberingRule](../../footnotenumberingrule/).
-
 ## Examples
 
 
+Shows how to restart footnote/endnote numbering at certain places in the document.
 
-Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
-
 ## See Also
 
-* Enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

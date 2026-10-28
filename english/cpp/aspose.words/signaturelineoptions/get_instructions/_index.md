@@ -4,24 +4,23 @@ linktitle: get_Instructions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::SignatureLineOptions::get_Instructions method. Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string in C++.'
 type: docs
-weight: 6000
+weight: 11600
 url: /cpp/aspose.words/signaturelineoptions/get_instructions/
 ---
 ## SignatureLineOptions::get_Instructions method
 
 
-Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string**.
+Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string.
 
 ```cpp
 System::String Aspose::Words::SignatureLineOptions::get_Instructions() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign a document with a personal certificate and a signature line.
 
-Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,7 +61,6 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
-
 ## See Also
 
 * Class [SignatureLineOptions](../)

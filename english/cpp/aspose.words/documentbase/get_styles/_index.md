@@ -4,7 +4,7 @@ linktitle: get_Styles
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_Styles method. Returns a collection of styles defined in the document in C++.'
 type: docs
-weight: 9000
+weight: 13834
 url: /cpp/aspose.words/documentbase/get_styles/
 ---
 ## DocumentBase::get_Styles method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::StyleCollection> Aspose::Words::DocumentBase::g
 
 
 For more information see the description of the [StyleCollection](../../stylecollection/) class.
-
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,8 +46,8 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 }
 ```
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,10 +72,8 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
-* Class [StyleCollection](../../stylecollection/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

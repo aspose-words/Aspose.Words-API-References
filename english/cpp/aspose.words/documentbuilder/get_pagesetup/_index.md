@@ -4,7 +4,7 @@ linktitle: get_PageSetup
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_PageSetup method. Returns an object that represents current page setup and section properties in C++.'
 type: docs
-weight: 23000
+weight: 88000
 url: /cpp/aspose.words/documentbuilder/get_pagesetup/
 ---
 ## DocumentBuilder::get_PageSetup method
@@ -16,12 +16,11 @@ Returns an object that represents current page setup and section properties.
 System::SharedPtr<Aspose::Words::PageSetup> Aspose::Words::DocumentBuilder::get_PageSetup()
 ```
 
-
 ## Examples
 
 
+Shows how to apply and revert page setup settings to sections in a document.
 
-Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ builder->Writeln(u"This is the second section, which is in default Letter paper 
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-
 ## See Also
 
-* Class [PageSetup](../../pagesetup/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

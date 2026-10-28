@@ -4,7 +4,7 @@ linktitle: get_ListFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_ListFormat method. Returns an object that represents current list formatting properties in C++.'
 type: docs
-weight: 22000
+weight: 87000
 url: /cpp/aspose.words/documentbuilder/get_listformat/
 ---
 ## DocumentBuilder::get_ListFormat method
@@ -16,12 +16,11 @@ Returns an object that represents current list formatting properties.
 System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::DocumentBuilder::get_ListFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to create bulleted and numbered lists.
 
-Shows how to create bulleted and numbered lists. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -99,10 +98,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
-
 ## See Also
 
-* Class [ListFormat](../../../aspose.words.lists/listformat/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

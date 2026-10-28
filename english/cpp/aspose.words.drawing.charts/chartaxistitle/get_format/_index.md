@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Format method. Provides access to fill and line formatting of the axis title in C++.'
 type: docs
-weight: 3000
+weight: 8168
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_format/
 ---
 ## ChartAxisTitle::get_Format method
@@ -16,12 +16,11 @@ Provides access to fill and line formatting of the axis title.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Format()
 ```
 
-
 ## Examples
 
 
+Shows how to use chart formating.
 
-Shows how to use chart formating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +55,8 @@ chart->get_Legend()->get_Format()->get_Fill()->Solid(System::Drawing::Color::get
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartFormat.docx");
 ```
-
 ## See Also
 
-* Class [ChartFormat](../../chartformat/)
 * Class [ChartAxisTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

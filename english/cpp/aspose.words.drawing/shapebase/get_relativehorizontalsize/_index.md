@@ -4,7 +4,7 @@ linktitle: get_RelativeHorizontalSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalSize method. Gets or sets the value of shape''s relative size in horizontal direction in C++.'
 type: docs
-weight: 42500
+weight: 61705
 url: /cpp/aspose.words.drawing/shapebase/get_relativehorizontalsize/
 ---
 ## ShapeBase::get_RelativeHorizontalSize method
@@ -22,12 +22,11 @@ Aspose::Words::Drawing::RelativeHorizontalSize Aspose::Words::Drawing::ShapeBase
 The default value is [RelativeHorizontalSize](../../relativehorizontalsize/).
 
 Has effect only if [WidthRelative](../get_widthrelative/) is set.
-
 ## Examples
 
 
+Shows how to set relative size and position.
 
-Shows how to set relative size and position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,10 +74,8 @@ if (shape->get_RelativeHorizontalPosition() == RelativeHorizontalPosition::Defau
 
 doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
 ```
-
 ## See Also
 
-* Enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

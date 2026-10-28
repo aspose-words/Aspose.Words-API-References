@@ -4,7 +4,7 @@ linktitle: get_ExportCompactSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize method. Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is false in C++.'
 type: docs
-weight: 3000
+weight: 8429
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportcompactsize/
 ---
 ## RtfSaveOptions::get_ExportCompactSize method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportcompactsize/
 Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize() const
+_Bool Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize() const
 ```
 
 ## Remarks
 
 
 If the document that you want to convert to RTF using Aspose.Words does not contain right-to-left text in languages like Arabic, then you can set this option to **true** to reduce the size of the resulting RTF.
-
 ## Examples
 
 
+Shows how to save a document to .rtf with custom options.
 
-Shows how to save a document to .rtf with custom options. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -46,7 +45,6 @@ options->set_ExportImagesForOldReaders(exportImagesForOldReaders);
 
 doc->Save(get_ArtifactsDir() + u"RtfSaveOptions.ExportImages.rtf", options);
 ```
-
 ## See Also
 
 * Class [RtfSaveOptions](../)

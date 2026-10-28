@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergedatasource/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::LowCode::MailMergeDataSource::GetType() const override
+const System::TypeInfo & Aspose::Words::LowCode::MailMergeDataSource::GetType() const override
 ```
 
 ## See Also

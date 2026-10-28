@@ -4,7 +4,7 @@ linktitle: get_AbbreviatedCaseNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber method. Gets or sets the abbreviated case number of a source in C++.'
 type: docs
-weight: 3000
+weight: 57054
 url: /cpp/aspose.words.bibliography/source/get_abbreviatedcasenumber/
 ---
 ## Source::get_AbbreviatedCaseNumber method
@@ -16,12 +16,11 @@ Gets or sets the abbreviated case number of a source.
 System::String Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber() const
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,7 +113,6 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
 * Class [Source](../)

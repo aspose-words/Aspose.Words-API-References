@@ -13,24 +13,23 @@ url: /cpp/aspose.words.saving/exportheadersfootersmode/
 Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 
 ```cpp
-enum class ExportHeadersFootersMode
+enum class ExportHeadersFootersMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| FirstPageHeaderFooterPerSection | 3 | First page header and footer are exported at the beginning and the end of each section. |
+| FirstSectionHeaderLastSectionFooter | 2 | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
 | None | 0 | Headers and footers are not exported. |
 | PerSection | 1 | Primary headers and footers are exported at the beginning and the end of each section. |
-| FirstSectionHeaderLastSectionFooter | 2 | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
-| FirstPageHeaderFooterPerSection | 3 | First page header and footer are exported at the beginning and the end of each section. |
-
 
 ## Examples
 
 
+Shows how to omit headers/footers when saving a document to HTML.
 
-Shows how to omit headers/footers when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -51,8 +50,9 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
-
 ## See Also
+
+* [ExportHeadersFootersMode](../htmlsaveoptions/get_exportheadersfootersmode/)
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

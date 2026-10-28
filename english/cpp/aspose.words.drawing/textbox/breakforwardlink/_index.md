@@ -16,12 +16,14 @@ Breaks the link to the next [TextBox](../).
 void Aspose::Words::Drawing::TextBox::BreakForwardLink()
 ```
 
+## Remarks
 
+[BreakForwardLink](./) doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and [BreakForwardLink](./) at the 2-nd textbox will create two sequences 1-2, 3-4. 
 ## Examples
 
 
+Shows how to link text boxes.
 
-Shows how to link text boxes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,7 +84,6 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
-
 ## See Also
 
 * Class [TextBox](../)

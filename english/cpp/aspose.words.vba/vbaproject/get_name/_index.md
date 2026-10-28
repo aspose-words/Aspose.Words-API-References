@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaProject::get_Name method. Gets or sets VBA project name in C++.'
 type: docs
-weight: 7000
+weight: 10390
 url: /cpp/aspose.words.vba/vbaproject/get_name/
 ---
 ## VbaProject::get_Name method
@@ -16,12 +16,11 @@ Gets or sets VBA project name.
 System::String Aspose::Words::Vba::VbaProject::get_Name() const
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's VBA project information.
 
-Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -46,8 +45,8 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
 
+Shows how to create a VBA project using macros.
 
-Shows how to create a VBA project using macros. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -67,7 +66,6 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 
 doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
-
 ## See Also
 
 * Class [VbaProject](../)

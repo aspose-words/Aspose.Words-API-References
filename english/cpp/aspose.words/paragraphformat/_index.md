@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat class
 linktitle: ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat class. Represents all the formatting for a paragraph. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::ParagraphFormat class. Represents all the formatting for a paragraph. To learn more, visit the Working with Paragraphs documentation article in C++.'
 type: docs
 weight: 49000
 url: /cpp/aspose.words/paragraphformat/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words/paragraphformat/
 ## ParagraphFormat class
 
 
-Represents all the formatting for a paragraph. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
+Represents all the formatting for a paragraph. 
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article.
 
 ```cpp
 class ParagraphFormat : public IBorderAttrSource,
@@ -22,18 +23,23 @@ class ParagraphFormat : public IBorderAttrSource,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default paragraph formatting. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment for the paragraph. |
 | [get_BaselineAlignment](./get_baselinealignment/)() | Gets or sets fonts vertical position on a line. |
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a right-to-left paragraph. |
 | [get_Borders](./get_borders/)() | Gets collection of borders of the paragraph. |
-| [get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/)() | Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/)() | Gets or sets the value (in characters) for the first-line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent. |
 | [get_CharacterUnitLeftIndent](./get_characterunitleftindent/)() | Gets or sets the left indent value (in characters) for the specified paragraphs. |
 | [get_CharacterUnitRightIndent](./get_characterunitrightindent/)() | Gets or sets the right indent value (in characters) for the specified paragraphs. |
 | [get_DropCapPosition](./get_dropcapposition/)() | Gets or sets the position for a drop cap text. |
 | [get_FarEastLineBreakControl](./get_fareastlinebreakcontrol/)() | Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
-| [get_FirstLineIndent](./get_firstlineindent/)() | Gets or sets the value (in points) for a first line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [get_FirstLineIndent](./get_firstlineindent/)() | Gets or sets the value (in points) for a first line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent. |
 | [get_HangingPunctuation](./get_hangingpunctuation/)() | Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph. |
 | [get_IsHeading](./get_isheading/)() | True when the paragraph style is one of the built-in Heading styles. |
 | [get_IsListItem](./get_islistitem/)() | True when the paragraph is an item in a bulleted or numbered list. |
@@ -42,9 +48,9 @@ class ParagraphFormat : public IBorderAttrSource,
 | [get_LeftIndent](./get_leftindent/)() | Gets or sets the value (in points) that represents the left indent for paragraph. |
 | [get_LineSpacing](./get_linespacing/)() | Gets or sets the line spacing (in points) for the paragraph. |
 | [get_LineSpacingRule](./get_linespacingrule/)() | Gets or sets the line spacing for the paragraph. |
-| [get_LinesToDrop](./get_linestodrop/)() | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [get_LineUnitAfter](./get_lineunitafter/)() | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [get_LineUnitBefore](./get_lineunitbefore/)() | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
+| [get_LinesToDrop](./get_linestodrop/)() | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [get_MirrorIndents](./get_mirrorindents/)() | Gets or sets a flag indicating whether the left and right indents are of the same width. |
 | [get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/)() | When **true**, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
 | [get_OutlineLevel](./get_outlinelevel/)() | Specifies the outline level of the paragraph in the document. |
@@ -64,52 +70,50 @@ class ParagraphFormat : public IBorderAttrSource,
 | [get_TabStops](./get_tabstops/)() | Gets the collection of custom tab stops defined for this object. |
 | [get_WidowControl](./get_widowcontrol/)() | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
 | [get_WordWrap](./get_wordwrap/)() | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AddSpaceBetweenFarEastAndAlpha](./set_addspacebetweenfareastandalpha/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/). |
-| [set_AddSpaceBetweenFarEastAndDigit](./set_addspacebetweenfareastanddigit/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/). |
-| [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_Alignment](./get_alignment/). |
-| [set_BaselineAlignment](./set_baselinealignment/)(Aspose::Words::BaselineAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_BaselineAlignment](./get_baselinealignment/). |
-| [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_Bidi](./get_bidi/). |
-| [set_CharacterUnitFirstLineIndent](./set_characterunitfirstlineindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/). |
-| [set_CharacterUnitLeftIndent](./set_characterunitleftindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitLeftIndent](./get_characterunitleftindent/). |
-| [set_CharacterUnitRightIndent](./set_characterunitrightindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent](./get_characterunitrightindent/). |
-| [set_DropCapPosition](./set_dropcapposition/)(Aspose::Words::DropCapPosition) | Setter for [Aspose::Words::ParagraphFormat::get_DropCapPosition](./get_dropcapposition/). |
-| [set_FarEastLineBreakControl](./set_fareastlinebreakcontrol/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl](./get_fareastlinebreakcontrol/). |
-| [set_FirstLineIndent](./set_firstlineindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_FirstLineIndent](./get_firstlineindent/). |
-| [set_HangingPunctuation](./set_hangingpunctuation/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_HangingPunctuation](./get_hangingpunctuation/). |
-| [set_KeepTogether](./set_keeptogether/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_KeepTogether](./get_keeptogether/). |
-| [set_KeepWithNext](./set_keepwithnext/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_KeepWithNext](./get_keepwithnext/). |
-| [set_LeftIndent](./set_leftindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LeftIndent](./get_leftindent/). |
-| [set_LineSpacing](./set_linespacing/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineSpacing](./get_linespacing/). |
-| [set_LineSpacingRule](./set_linespacingrule/)(Aspose::Words::LineSpacingRule) | Setter for [Aspose::Words::ParagraphFormat::get_LineSpacingRule](./get_linespacingrule/). |
-| [set_LinesToDrop](./set_linestodrop/)(int32_t) | Setter for [Aspose::Words::ParagraphFormat::get_LinesToDrop](./get_linestodrop/). |
-| [set_LineUnitAfter](./set_lineunitafter/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitAfter](./get_lineunitafter/). |
-| [set_LineUnitBefore](./set_lineunitbefore/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitBefore](./get_lineunitbefore/). |
-| [set_MirrorIndents](./set_mirrorindents/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_MirrorIndents](./get_mirrorindents/). |
-| [set_NoSpaceBetweenParagraphsOfSameStyle](./set_nospacebetweenparagraphsofsamestyle/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/). |
-| [set_OutlineLevel](./set_outlinelevel/)(Aspose::Words::OutlineLevel) | Setter for [Aspose::Words::ParagraphFormat::get_OutlineLevel](./get_outlinelevel/). |
-| [set_PageBreakBefore](./set_pagebreakbefore/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_PageBreakBefore](./get_pagebreakbefore/). |
-| [set_RightIndent](./set_rightindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_RightIndent](./get_rightindent/). |
-| [set_SnapToGrid](./set_snaptogrid/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SnapToGrid](./get_snaptogrid/). |
-| [set_SpaceAfter](./set_spaceafter/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_SpaceAfter](./get_spaceafter/). |
-| [set_SpaceAfterAuto](./set_spaceafterauto/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SpaceAfterAuto](./get_spaceafterauto/). |
-| [set_SpaceBefore](./set_spacebefore/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_SpaceBefore](./get_spacebefore/). |
-| [set_SpaceBeforeAuto](./set_spacebeforeauto/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto](./get_spacebeforeauto/). |
-| [set_Style](./set_style/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Setter for [Aspose::Words::ParagraphFormat::get_Style](./get_style/). |
-| [set_StyleIdentifier](./set_styleidentifier/)(Aspose::Words::StyleIdentifier) | Setter for [Aspose::Words::ParagraphFormat::get_StyleIdentifier](./get_styleidentifier/). |
-| [set_StyleName](./set_stylename/)(const System::String\&) | Setter for [Aspose::Words::ParagraphFormat::get_StyleName](./get_stylename/). |
-| [set_SuppressAutoHyphens](./set_suppressautohyphens/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens](./get_suppressautohyphens/). |
-| [set_SuppressLineNumbers](./set_suppresslinenumbers/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_SuppressLineNumbers](./get_suppresslinenumbers/). |
-| [set_WidowControl](./set_widowcontrol/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_WidowControl](./get_widowcontrol/). |
-| [set_WordWrap](./set_wordwrap/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_WordWrap](./get_wordwrap/). |
-| static [Type](./type/)() |  |
-
+| [set_AddSpaceBetweenFarEastAndAlpha](./set_addspacebetweenfareastandalpha/)(bool) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
+| [set_AddSpaceBetweenFarEastAndDigit](./set_addspacebetweenfareastanddigit/)(bool) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
+| [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Sets text alignment for the paragraph. |
+| [set_BaselineAlignment](./set_baselinealignment/)(Aspose::Words::BaselineAlignment) | Sets fonts vertical position on a line. |
+| [set_Bidi](./set_bidi/)(bool) | Sets whether this is a right-to-left paragraph. |
+| [set_CharacterUnitFirstLineIndent](./set_characterunitfirstlineindent/)(double) | Sets the value (in characters) for the first-line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [set_CharacterUnitLeftIndent](./set_characterunitleftindent/)(double) | Sets the left indent value (in characters) for the specified paragraphs. |
+| [set_CharacterUnitRightIndent](./set_characterunitrightindent/)(double) | Sets the right indent value (in characters) for the specified paragraphs. |
+| [set_DropCapPosition](./set_dropcapposition/)(Aspose::Words::DropCapPosition) | Sets the position for a drop cap text. |
+| [set_FarEastLineBreakControl](./set_fareastlinebreakcontrol/)(bool) | Sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
+| [set_FirstLineIndent](./set_firstlineindent/)(double) | Sets the value (in points) for a first line or hanging indent. 
+Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [set_HangingPunctuation](./set_hangingpunctuation/)(bool) | Sets a flag indicating whether hanging punctuation is enabled for the current paragraph. |
+| [set_KeepTogether](./set_keeptogether/)(bool) | True if all lines in the paragraph are to remain on the same page. |
+| [set_KeepWithNext](./set_keepwithnext/)(bool) | True if the paragraph is to remains on the same page as the paragraph that follows it. |
+| [set_LeftIndent](./set_leftindent/)(double) | Sets the value (in points) that represents the left indent for paragraph. |
+| [set_LineSpacing](./set_linespacing/)(double) | Sets the line spacing (in points) for the paragraph. |
+| [set_LineSpacingRule](./set_linespacingrule/)(Aspose::Words::LineSpacingRule) | Sets the line spacing for the paragraph. |
+| [set_LineUnitAfter](./set_lineunitafter/)(double) | Sets the amount of spacing (in gridlines) after the paragraphs. |
+| [set_LineUnitBefore](./set_lineunitbefore/)(double) | Sets the amount of spacing (in gridlines) before the paragraphs. |
+| [set_LinesToDrop](./set_linestodrop/)(int32_t) | Sets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [set_MirrorIndents](./set_mirrorindents/)(bool) | Sets a flag indicating whether the left and right indents are of the same width. |
+| [set_NoSpaceBetweenParagraphsOfSameStyle](./set_nospacebetweenparagraphsofsamestyle/)(bool) | When **true**, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
+| [set_OutlineLevel](./set_outlinelevel/)(Aspose::Words::OutlineLevel) | Specifies the outline level of the paragraph in the document. |
+| [set_PageBreakBefore](./set_pagebreakbefore/)(bool) | True if a page break is forced before the paragraph. |
+| [set_RightIndent](./set_rightindent/)(double) | Sets the value (in points) that represents the right indent for paragraph. |
+| [set_SnapToGrid](./set_snaptogrid/)(bool) | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
+| [set_SpaceAfter](./set_spaceafter/)(double) | Sets the amount of spacing (in points) after the paragraph. |
+| [set_SpaceAfterAuto](./set_spaceafterauto/)(bool) | True if the amount of spacing after the paragraph is set automatically. |
+| [set_SpaceBefore](./set_spacebefore/)(double) | Sets the amount of spacing (in points) before the paragraph. |
+| [set_SpaceBeforeAuto](./set_spacebeforeauto/)(bool) | True if the amount of spacing before the paragraph is set automatically. |
+| [set_Style](./set_style/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Sets the paragraph style applied to this formatting. |
+| [set_StyleIdentifier](./set_styleidentifier/)(Aspose::Words::StyleIdentifier) | Sets the locale independent style identifier of the paragraph style applied to this formatting. |
+| [set_StyleName](./set_stylename/)(const System::String \&) | Sets the name of the paragraph style applied to this formatting. |
+| [set_SuppressAutoHyphens](./set_suppressautohyphens/)(bool) | Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings. |
+| [set_SuppressLineNumbers](./set_suppresslinenumbers/)(bool) | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
+| [set_WidowControl](./set_widowcontrol/)(bool) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
+| [set_WordWrap](./set_wordwrap/)(bool) | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
 ## Examples
 
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -152,7 +156,6 @@ ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisscaletype/
 Specifies the possible scale types for an axis.
 
 ```cpp
-enum class AxisScaleType
+enum class AxisScaleType : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class AxisScaleType
 | Linear | 0 | Linear scaling. |
 | Logarithmic | 1 | Logarithmic scaling. |
 
-
 ## Examples
 
 
+Shows how to apply logarithmic scaling to a chart axis.
 
-Shows how to apply logarithmic scaling to a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +53,6 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisScaling.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

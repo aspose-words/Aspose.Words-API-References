@@ -13,19 +13,18 @@ url: /cpp/aspose.words.bibliography/personcollection/remove/
 Removes the person from the collection.
 
 ```cpp
-bool Aspose::Words::Bibliography::PersonCollection::Remove(const System::SharedPtr<Aspose::Words::Bibliography::Person> &person)
+_Bool Aspose::Words::Bibliography::PersonCollection::Remove(const System::SharedPtr<Aspose::Words::Bibliography::Person> & person)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| person | const System::SharedPtr\<Aspose::Words::Bibliography::Person\>\& | The person to remove from the collection. |
-
+| person | const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \& | The person to remove from the collection. |
 ## Examples
 
 
+Shows how to work with person collection.
 
-Shows how to work with person collection. 
 ```cpp
 // Create a new person collection.
 auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>();
@@ -50,10 +49,8 @@ ASSERT_EQ(1, persons->get_Count());
 persons->Clear();
 ASSERT_EQ(0, persons->get_Count());
 ```
-
 ## See Also
 
-* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

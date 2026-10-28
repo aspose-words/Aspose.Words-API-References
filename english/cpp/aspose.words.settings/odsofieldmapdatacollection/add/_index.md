@@ -13,17 +13,15 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/add/
 Adds an object to the end of this collection.
 
 ```cpp
-int32_t Aspose::Words::Settings::OdsoFieldMapDataCollection::Add(const System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData> &value)
+int32_t Aspose::Words::Settings::OdsoFieldMapDataCollection::Add(const System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData> & value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoFieldMapData\>\& | The object to add. Cannot be **null**. |
-
+| value | const System::SharedPtr\<Aspose::Words::Settings::OdsoFieldMapData\> \& | The object to add. Cannot be **null**. |
 ## See Also
 
-* Class [OdsoFieldMapData](../../odsofieldmapdata/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

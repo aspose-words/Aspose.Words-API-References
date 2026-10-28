@@ -16,12 +16,11 @@ Returns a user-friendly string that displays the value of this object.
 System::String Aspose::Words::Tables::PreferredWidth::ToString() const override
 ```
 
-
 ## Examples
 
 
+Shows how to set a preferred width for table cells.
 
-Shows how to set a preferred width for table cells. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,7 +52,6 @@ builder->Writeln(u"Automatically sized cell.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ```
-
 ## See Also
 
 * Class [PreferredWidth](../)

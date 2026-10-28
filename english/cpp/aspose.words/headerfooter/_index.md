@@ -2,7 +2,7 @@
 title: Aspose::Words::HeaderFooter class
 linktitle: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::HeaderFooter class. Represents a container for the header or footer text of a section. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::HeaderFooter class. Represents a container for the header or footer text of a section. To learn more, visit the Working with Headers and Footers documentation article in C++.'
 type: docs
 weight: 31000
 url: /cpp/aspose.words/headerfooter/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/headerfooter/
 ## HeaderFooter class
 
 
-Represents a container for the header or footer text of a section. To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/cpp/working-with-headers-and-footers/) documentation article.
+Represents a container for the header or footer text of a section. 
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/cpp/working-with-headers-and-footers/) documentation article.
 
 ```cpp
-class HeaderFooter : public Aspose::Words::Story
+class HeaderFooter : public Story
 ```
 
 ## Methods
@@ -23,64 +24,79 @@ class HeaderFooter : public Aspose::Words::Story
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the header. |
 | [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the header. |
-| [AppendChild](../compositenode/appendchild/)(T) |  |
-| [AppendParagraph](../story/appendparagraph/)(const System::String\&) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object. |
-| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
-| [DeleteShapes](../story/deleteshapes/)() | Deletes all shapes from the text of this story. |
-| [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
-| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
-| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
-| [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_FirstParagraph](../story/get_firstparagraph/)() override | Gets the first paragraph in the story. |
-| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [GetType](./gettype/)() const override |  |
+| [HeaderFooter](./headerfooter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, Aspose::Words::HeaderFooterType) | Creates a new header or footer of the specified type. |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [get_HeaderFooterType](./get_headerfootertype/)() | Gets the type of this header/footer. |
-| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsHeader](./get_isheader/)() | True if this [HeaderFooter](./) object is a header. |
 | [get_IsLinkedToPrevious](./get_islinkedtoprevious/)() | True if this header or footer is linked to the corresponding header or footer in the previous section. |
-| [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
-| [get_LastParagraph](../story/get_lastparagraph/)() override | Gets the last paragraph in the story. |
-| [get_NextNode](../node/get_nextnode/)() const |  |
-| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [HeaderFooter](../nodetype/). |
-| [get_Paragraphs](../story/get_paragraphs/)() override | Gets a collection of paragraphs that are immediate children of the story. |
-| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentSection](./get_parentsection/)() | Gets the parent section of this story. |
-| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
-| [get_PrevNode](../node/get_prevnode/)() const |  |
-| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
+| [set_IsLinkedToPrevious](./set_islinkedtoprevious/)(bool) | True if this header or footer is linked to the corresponding header or footer in the previous section. |
+| [AppendParagraph](../story/appendparagraph/)(const System::String \&) | A shortcut method that creates a [Paragraph](../paragraph/) object with optional text and appends it to the end of this object. |
+| [DeleteShapes](../story/deleteshapes/)() | Deletes all shapes from the text of this story. |
+| [GetType](../story/gettype/)() const override |  |
+| [Is](../story/is/)(const System::TypeInfo \&) const override |  |
+| static [Type](../story/type/)() |  |
+| [get_FirstParagraph](../story/get_firstparagraph/)() override | Gets the first paragraph in the story. |
+| [get_LastParagraph](../story/get_lastparagraph/)() override | Gets the last paragraph in the story. |
+| [get_Paragraphs](../story/get_paragraphs/)() override | Gets a collection of paragraphs that are immediate children of the story. |
 | [get_StoryType](../story/get_storytype/)() override | Gets the type of this story. |
 | [get_Tables](../story/get_tables/)() override | Gets a collection of tables that are immediate children of the story. |
-| [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
-| [GetAncestorOf](../node/getancestorof/)() |  |
+| virtual [AcceptEnd](../compositenode/acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor. |
+| virtual [AcceptStart](../compositenode/acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor. |
+| [AppendChild](../compositenode/appendchild/)(T) | Adds the specified node to the end of the list of child nodes for this node. |
 | [GetChild](../compositenode/getchild/)(Aspose::Words::NodeType, int32_t, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
-| [GetType](./gettype/)() const override |  |
-| [HeaderFooter](./headerfooter/)(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::HeaderFooterType) | Creates a new header or footer of the specified type. |
-| [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [InsertBefore](../compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets next node according to the pre-order tree traversal algorithm. |
-| static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
-| [PrependChild](../compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [Remove](../node/remove/)() | Removes itself from the parent. |
+| [GetType](../compositenode/gettype/)() const override |  |
+| [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](../compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](../compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately before the specified reference node. |
+| [Is](../compositenode/is/)(const System::TypeInfo \&) const override |  |
+| [PrependChild](../compositenode/prependchild/)(T) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../compositenode/removechild/)(T) |  |
+| [RemoveChild](../compositenode/removechild/)(T) | Removes the specified child node. |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [SelectNodes](../compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../node/) that matches the XPath expression. |
-| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
-| [set_IsLinkedToPrevious](./set_islinkedtoprevious/)(bool) | Setter for [Aspose::Words::HeaderFooter::get_IsLinkedToPrevious](./get_islinkedtoprevious/). |
-| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
+| [SelectNodes](../compositenode/selectnodes/)(const System::String \&) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String \&) | Selects the first [Node](../node/) that matches the XPath expression. |
+| static [Type](../compositenode/type/)() |  |
+| [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
+| [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
+| [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
+| [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
+| [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
+| virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
+| [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
+| [GetAncestorOf](../node/getancestorof/)() |  |
+| virtual [GetText](../node/gettext/)() | Gets the text of this node and of all its children. |
+| [GetType](../node/gettype/)() const override |  |
+| [Is](../node/is/)(const System::TypeInfo \&) const override |  |
+| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
+| static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
+| [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../node/remove/)() | Removes itself from the parent. |
+| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](./type/)() |  |
+| [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
+| static [Type](../node/type/)() |  |
+| [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
+| virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
+| virtual [get_IsComposite](../node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
+| [get_NextNode](../node/get_nextnode/)() const |  |
+| [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
+| virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
+| [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
+| [get_PrevNode](../node/get_prevnode/)() const |  |
+| [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
+| [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
+| [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
+| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
+| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
 
@@ -91,12 +107,11 @@ class HeaderFooter : public Aspose::Words::Story
 If [Section](../section/) does not have a [HeaderFooter](./) of a specific type or the [HeaderFooter](./) has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
 
 When [HeaderFooter](./) contains at least one [Paragraph](../paragraph/), it is no longer considered linked to previous in Microsoft Word.
-
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -127,8 +142,8 @@ ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
 
+Shows how to delete all footers from a document.
 
-Shows how to delete all footers from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
@@ -169,8 +184,8 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.RemoveFooters.docx");
 ```
 
+Shows how to replace text in a document's footer.
 
-Shows how to replace text in a document's footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
@@ -186,7 +201,6 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", System::String::Format
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
-
 ## See Also
 
 * Class [Story](../story/)

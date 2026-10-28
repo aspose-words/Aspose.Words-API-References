@@ -4,32 +4,32 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set method. Gets or a sets a bookmark outline level by the bookmark name in C++.'
 type: docs
-weight: 14000
+weight: 18889
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/idx_set/
 ---
-## BookmarksOutlineLevelCollection::idx_set(const System::String\&, int32_t) method
+## BookmarksOutlineLevelCollection::idx_set(const System::String \&, int32_t) method
 
 
 Gets or a sets a bookmark outline level by the bookmark name.
 
 ```cpp
-void Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set(const System::String &name, int32_t value)
+void Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set(const System::String & name, int32_t value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | Case-insensitive name of the bookmark. |
+| name | const System::String \& | Case-insensitive name of the bookmark. |
+| value | int32_t | The value to set. |
 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,7 +80,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)
@@ -99,16 +98,16 @@ void Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_set(int32_t ind
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the bookmark. |
+| value | int32_t | The value to set. |
 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
-
 ## Examples
 
 
+Shows how to set outline levels for bookmarks.
 
-Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -159,7 +158,6 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
-
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/contributor/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Bibliography::Contributor::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Bibliography::Contributor::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

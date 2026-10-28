@@ -4,7 +4,7 @@ linktitle: MergeFieldImageDimension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension constructor. Creates an image dimension instance with the given value in points in C++.'
 type: docs
-weight: 2000
+weight: 6200
 url: /cpp/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension::MergeFieldImageDimension(double) constructor
@@ -20,7 +20,9 @@ Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension(double
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The value. |
+## Remarks
 
+ You should use a negative value to indicate that the original value of the corresponding image dimension should be applied. 
 ## See Also
 
 * Class [MergeFieldImageDimension](../)
@@ -40,10 +42,11 @@ Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension(double
 | --- | --- | --- |
 | value | double | The value. |
 | unit | Aspose::Words::Fields::MergeFieldImageDimensionUnit | The unit. |
+## Remarks
 
+ You should use a negative value to indicate that the original value of the corresponding image dimension should be applied. 
 ## See Also
 
-* Enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * Class [MergeFieldImageDimension](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

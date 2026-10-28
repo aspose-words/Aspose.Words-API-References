@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldKeywords::set_Text method
 linktitle: set_Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldKeywords::set_Text method. Setter for Aspose::Words::Fields::FieldKeywords::get_Text in C++.'
+description: 'Aspose::Words::Fields::FieldKeywords::set_Text method. Sets the text of the keywords in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fieldkeywords/set_text/
@@ -10,12 +10,42 @@ url: /cpp/aspose.words.fields/fieldkeywords/set_text/
 ## FieldKeywords::set_Text method
 
 
-Setter for [Aspose::Words::Fields::FieldKeywords::get_Text](../get_text/).
+Sets the text of the keywords.
 
 ```cpp
-void Aspose::Words::Fields::FieldKeywords::set_Text(const System::String &value)
+void Aspose::Words::Fields::FieldKeywords::set_Text(const System::String & value)
 ```
 
+## Examples
+
+
+Shows to insert a KEYWORDS field.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Add some keywords, also referred to as "tags" in File Explorer.
+doc->get_BuiltInDocumentProperties()->set_Keywords(u"Keyword1, Keyword2");
+
+// The KEYWORDS field displays the value of this property.
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
+field->Update();
+
+ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());
+ASSERT_EQ((u"Keyword1, Keyword2"), field->get_Result());
+
+// Setting a value for the field's Text property,
+// and then updating the field will also overwrite the corresponding built-in property with the new value.
+field->set_Text(u"OverridingKeyword");
+field->Update();
+
+ASSERT_EQ(u" KEYWORDS  OverridingKeyword", field->GetFieldCode());
+ASSERT_EQ(u"OverridingKeyword", field->get_Result());
+ASSERT_EQ(u"OverridingKeyword", doc->get_BuiltInDocumentProperties()->get_Keywords());
+
+doc->Save(get_ArtifactsDir() + u"Field.KEYWORDS.docx");
+```
 ## See Also
 
 * Class [FieldKeywords](../)

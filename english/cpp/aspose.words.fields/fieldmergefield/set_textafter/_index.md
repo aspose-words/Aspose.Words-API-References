@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergefield/set_textafter/
 Sets the text to be inserted after the field if the field is not blank.
 
 ```cpp
-void Aspose::Words::Fields::FieldMergeField::set_TextAfter(const System::String &value)
+void Aspose::Words::Fields::FieldMergeField::set_TextAfter(const System::String & value)
 ```
 
 ## See Also

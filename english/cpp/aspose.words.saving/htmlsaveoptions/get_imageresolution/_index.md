@@ -2,15 +2,15 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution method
 linktitle: get_ImageResolution
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution method. Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is %96 dpi in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution method. Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is 96 dpi in C++.'
 type: docs
-weight: 36000
+weight: 49700
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_imageresolution/
 ---
 ## HtmlSaveOptions::get_ImageResolution method
 
 
-Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is **%96 dpi**.
+Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is **96 dpi**.
 
 ```cpp
 int32_t Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution()
@@ -20,12 +20,11 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution()
 
 
 This property effects raster images when [ScaleImageToShapeSize](../get_scaleimagetoshapesize/) is **true** and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
-
 ## Examples
 
 
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
-Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -44,8 +43,9 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
-
 ## See Also
+
+* [ScaleImageToShapeSize](../get_scaleimagetoshapesize/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

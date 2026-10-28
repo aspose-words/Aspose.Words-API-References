@@ -2,7 +2,7 @@
 title: Aspose::Words::Lists::ListCollection class
 linktitle: ListCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Lists::ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Lists::ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document. To learn more, visit the Working with Lists documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.lists/listcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.lists/listcollection/
 ## ListCollection class
 
 
-Stores and manages formatting of bulleted and numbered lists used in a document. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
+Stores and manages formatting of bulleted and numbered lists used in a document. 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Lists::List>>
@@ -21,23 +22,23 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Lists::ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Style\>\&) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
-| [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Lists::List\> \&) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
 | [AddSingleLevelList](./addsinglelevellist/)(Aspose::Words::Lists::ListTemplate) | Creates a new single level list based on the predefined template and adds it to the list collection in the document. |
-| [begin](./begin/)() |  |
+| [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate lists in the document. |
+| [GetListByListId](./getlistbylistid/)(int32_t) | Gets a list by a list identifier. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| static [Type](./type/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() |  |
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the count of numbered and bulleted lists in the document. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
-| [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate lists in the document. |
-| [GetListByListId](./getlistbylistid/)(int32_t) | Gets a list by a list identifier. |
-| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a list by index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
 | [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
 | [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
@@ -58,25 +59,24 @@ A list in a Microsoft Word document is a set of list formatting properties. The 
 
 You do not create objects of this class. There is always only one [ListCollection](./) object per document and it is accessible via the [Lists](../../aspose.words/documentbase/get_lists/) property.
 
-To create a new list based on a predefined list template or based on a list style, use the [Add()](../) method.
+To create a new list based on a predefined list template or based on a list style, use the [Add()](./add/) method.
 
-To create a new list with formatting identical to an existing list, use the [AddCopy()](../) method.
+To create a new list with formatting identical to an existing list, use the [AddCopy()](./addcopy/) method.
 
 To make a paragraph bulleted or numbered, you need to apply list formatting to a paragraph by assigning a [List](../list/) object to the [List](../listformat/get_list/) property of [ListFormat](../listformat/).
 
 To remove list formatting from a paragraph, use the [RemoveNumbers](../listformat/removenumbers/) method.
 
-If you know a bit about WordprocessingML, then you might know it defines separate concepts for "list" and "list definition". This exactly corresponds to how list formatting is stored in a Microsoft Word document at the low level. [List](../list/) definition is like a "schema" and list is like an instance of a list definition.
+If you know a bit about WordprocessingML, then you might know it defines separate concepts for "list" and "list definition". This exactly corresponds to how list formatting is stored in a Microsoft Word document at the low level. List definition is like a "schema" and list is like an instance of a list definition.
 
 To simplify programming model, Aspose.Words hides the distinction between list and list definition in much the same way like Microsoft Word hides this in its user interface. This allows you to concentrate more on how you want your document to look like, rather than building low-level objects to satisfy requirements of the Microsoft Word file format.
 
-It is not possible to delete lists once they are created in the current version of [Aspose.Words](../../aspose.words/). This is similar to Microsoft Word where user does not have explicit control over list definitions.
-
+It is not possible to delete lists once they are created in the current version of Aspose.Words. This is similar to Microsoft Word where user does not have explicit control over list definitions.
 ## Examples
 
 
+Shows how to work with list levels.
 
-Shows how to work with list levels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -123,8 +123,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
+Shows how to restart numbering in a list by copying a list.
 
-Shows how to restart numbering in a list by copying a list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -161,7 +161,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

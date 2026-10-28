@@ -4,7 +4,7 @@ linktitle: get_CurrentStructuredDocumentTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_CurrentStructuredDocumentTag method. Gets the structured document tag that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 15000
+weight: 80000
 url: /cpp/aspose.words/documentbuilder/get_currentstructureddocumenttag/
 ---
 ## DocumentBuilder::get_CurrentStructuredDocumentTag method
@@ -16,12 +16,11 @@ Gets the structured document tag that is currently selected in this [DocumentBui
 System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag> Aspose::Words::DocumentBuilder::get_CurrentStructuredDocumentTag()
 ```
 
-
 ## Examples
 
 
+Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
-Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,10 +45,8 @@ builder->get_CurrentStructuredDocumentTag()->set_Color(System::Drawing::Color::g
 
 doc->Save(get_ArtifactsDir() + u"Document.MoveToStructuredDocumentTag.docx");
 ```
-
 ## See Also
 
-* Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

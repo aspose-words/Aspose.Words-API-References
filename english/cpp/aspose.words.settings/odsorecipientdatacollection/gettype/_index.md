@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsorecipientdatacollection/gettype/
 
 
 ```cpp
-virtual const System::TypeInfo & Aspose::Words::Settings::OdsoRecipientDataCollection::GetType() const override
+const System::TypeInfo & Aspose::Words::Settings::OdsoRecipientDataCollection::GetType() const override
 ```
 
 ## See Also

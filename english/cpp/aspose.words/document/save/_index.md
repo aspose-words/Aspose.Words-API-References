@@ -7,30 +7,29 @@ type: docs
 weight: 72000
 url: /cpp/aspose.words/document/save/
 ---
-## Document::Save(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) method
+## Document::Save(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) method
 
 
 Saves the document to a stream using the specified format.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::SharedPtr<System::IO::Stream> &stream, Aspose::Words::SaveFormat saveFormat)
+System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::SharedPtr<System::IO::Stream> & stream, Aspose::Words::SaveFormat saveFormat)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream where to save the document. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | Stream where to save the document. |
 | saveFormat | Aspose::Words::SaveFormat | The format in which to save the document. |
 
 ### ReturnValue
 
 Additional information that you can optionally use.
-
 ## Examples
 
 
+Shows how to save a document to an image via stream, and then read the image from that stream.
 
-Shows how to save a document to an image via stream, and then read the image from that stream. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,8 +41,8 @@ builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
 builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 ```
 
+Shows how to save a document to a stream.
 
-Shows how to save a document to a stream. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -55,136 +54,122 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
     ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
 }
 ```
-
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+## Document::Save(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
 
 
 Saves the document to a stream using the specified save options.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::SharedPtr<System::IO::Stream> &stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::SharedPtr<System::IO::Stream> & stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | Stream where to save the document. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be **null**. If this is **null**, the document will be saved in the binary DOC format. |
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | Stream where to save the document. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \& | Specifies the options that control how the document is saved. Can be **null**. If this is **null**, the document will be saved in the binary DOC format. |
 
 ### ReturnValue
 
 Additional information that you can optionally use.
-
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(const System::String\&) method
+## Document::Save(const System::String \&) method
 
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String &fileName)
+System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| fileName | const System::String \& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 
 ### ReturnValue
 
 Additional information that you can optionally use.
-
 ## Examples
 
 
+Shows how to open a document and convert it to .PDF.
 
-Shows how to open a document and convert it to .PDF. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
-
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(const System::String\&, Aspose::Words::SaveFormat) method
+## Document::Save(const System::String \&, Aspose::Words::SaveFormat) method
 
 
 Saves the document to a file in the specified format.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String &fileName, Aspose::Words::SaveFormat saveFormat)
+System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String & fileName, Aspose::Words::SaveFormat saveFormat)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| fileName | const System::String \& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 | saveFormat | Aspose::Words::SaveFormat | The format in which to save the document. |
 
 ### ReturnValue
 
 Additional information that you can optionally use.
-
 ## Examples
 
 
+Shows how to convert from DOCX to HTML format.
 
-Shows how to convert from DOCX to HTML format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", SaveFormat::Html);
 ```
-
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+## Document::Save(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
 
 
 Saves the document to a file using the specified save options.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String &fileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(const System::String & fileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the document is saved. Can be **null**. |
+| fileName | const System::String \& | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \& | Specifies the options that control how the document is saved. Can be **null**. |
 
 ### ReturnValue
 
 Additional information that you can optionally use.
-
 ## Examples
 
 
+Shows how to improve the quality of a rendered document with SaveOptions.
 
-Shows how to improve the quality of a rendered document with SaveOptions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -202,8 +187,8 @@ options->set_UseHighQualityRendering(true);
 doc->Save(get_ArtifactsDir() + u"Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
+Shows how to render one page from a document to a JPEG image.
 
-Shows how to render one page from a document to a JPEG image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -228,8 +213,8 @@ options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
 ```
 
+Shows how to render every page of a document to a separate TIFF image.
 
-Shows how to render every page of a document to a separate TIFF image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -258,8 +243,8 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
 }
 ```
 
+Shows how to configure compression while saving a document as a JPEG.
 
-Shows how to configure compression while saving a document as a JPEG. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -278,43 +263,36 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighCompression.jp
 imageOptions->set_JpegQuality(100);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 ```
-
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(std::basic_ostream\<CharType, Traits\>\&, Aspose::Words::SaveFormat) method
+## Document::Save(std::basic_ostream\<CharType, Traits\> \&, Aspose::Words::SaveFormat) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, Aspose::Words::SaveFormat saveFormat)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> & stream, Aspose::Words::SaveFormat saveFormat)
 ```
 
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Save(std::basic_ostream\<CharType, Traits\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
+## Document::Save(std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
 
 
 
 
 ```cpp
-template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> &stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
+template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> & stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
 ```
 
 ## See Also
 
-* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
-* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Fields::DropDownItemCollection::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Fields::DropDownItemCollection::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

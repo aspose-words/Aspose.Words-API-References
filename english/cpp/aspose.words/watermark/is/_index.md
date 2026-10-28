@@ -13,7 +13,7 @@ url: /cpp/aspose.words/watermark/is/
 
 
 ```cpp
-virtual bool Aspose::Words::Watermark::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::Watermark::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

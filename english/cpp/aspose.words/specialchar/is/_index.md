@@ -13,7 +13,7 @@ url: /cpp/aspose.words/specialchar/is/
 
 
 ```cpp
-virtual bool Aspose::Words::SpecialChar::Is(const System::TypeInfo &target) const override
+_Bool Aspose::Words::SpecialChar::Is(const System::TypeInfo & target) const override
 ```
 
 ## See Also

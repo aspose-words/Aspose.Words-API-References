@@ -4,7 +4,7 @@ linktitle: get_HasImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Shape::get_HasImage method. Returns true if the shape has image bytes or links an image in C++.'
 type: docs
-weight: 10000
+weight: 41000
 url: /cpp/aspose.words.drawing/shape/get_hasimage/
 ---
 ## Shape::get_HasImage method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/shape/get_hasimage/
 Returns **true** if the shape has image bytes or links an image.
 
 ```cpp
-bool Aspose::Words::Drawing::Shape::get_HasImage()
+_Bool Aspose::Words::Drawing::Shape::get_HasImage()
 ```
-
 
 ## Examples
 
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
 
-Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -48,8 +47,8 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 }
 ```
 
+Shows how to delete all shapes with images from a document.
 
-Shows how to delete all shapes with images from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
@@ -72,7 +71,6 @@ ASSERT_EQ(0, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape
     return s->get_HasImage();
 }))));
 ```
-
 ## See Also
 
 * Class [Shape](../)

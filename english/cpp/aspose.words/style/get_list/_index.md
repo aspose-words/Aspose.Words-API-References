@@ -4,7 +4,7 @@ linktitle: get_List
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_List method. Gets the list that defines formatting of this list style in C++.'
 type: docs
-weight: 12000
+weight: 22484
 url: /cpp/aspose.words/style/get_list/
 ---
 ## Style::get_List method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Style::get_List()
 
 
 This property is only valid for list styles. For other style types this property returns **null**.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -79,10 +78,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
-* Class [List](../../../aspose.words.lists/list/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

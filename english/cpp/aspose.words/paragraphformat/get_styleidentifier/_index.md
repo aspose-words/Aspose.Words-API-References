@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_StyleIdentifier method. Gets or sets the locale independent style identifier of the paragraph style applied to this formatting in C++.'
 type: docs
-weight: 36000
+weight: 44846
 url: /cpp/aspose.words/paragraphformat/get_styleidentifier/
 ---
 ## ParagraphFormat::get_StyleIdentifier method
@@ -16,12 +16,11 @@ Gets or sets the locale independent style identifier of the paragraph style appl
 Aspose::Words::StyleIdentifier Aspose::Words::ParagraphFormat::get_StyleIdentifier()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,10 +65,8 @@ builder->Writeln(u"Heading 3.3");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
-
 ## See Also
 
-* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

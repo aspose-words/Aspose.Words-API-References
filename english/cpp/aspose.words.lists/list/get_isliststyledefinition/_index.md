@@ -4,7 +4,7 @@ linktitle: get_IsListStyleDefinition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_IsListStyleDefinition method. Returns true if this list is a definition of a list style in C++.'
 type: docs
-weight: 5000
+weight: 15300
 url: /cpp/aspose.words.lists/list/get_isliststyledefinition/
 ---
 ## List::get_IsListStyleDefinition method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/get_isliststyledefinition/
 Returns **true** if this list is a definition of a list style.
 
 ```cpp
-bool Aspose::Words::Lists::List::get_IsListStyleDefinition()
+_Bool Aspose::Words::Lists::List::get_IsListStyleDefinition()
 ```
 
 ## Remarks
@@ -24,12 +24,11 @@ When this property is **true**, the [Style](../get_style/) property returns the 
 By modifying properties of a list that defines a list style, you modify the properties of the list style.
 
 A list that is a definition of a list style cannot be applied directly to paragraphs to make them numbered.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -83,7 +82,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
 * Class [List](../)

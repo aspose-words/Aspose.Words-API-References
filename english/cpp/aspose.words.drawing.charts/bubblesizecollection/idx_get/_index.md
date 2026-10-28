@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::BubbleSizeCollection::idx_get method. Gets or sets the bubble size value at the specified index in C++.'
 type: docs
-weight: 5000
+weight: 7668
 url: /cpp/aspose.words.drawing.charts/bubblesizecollection/idx_get/
 ---
 ## BubbleSizeCollection::idx_get method

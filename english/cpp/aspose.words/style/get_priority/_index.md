@@ -4,7 +4,7 @@ linktitle: get_Priority
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Priority method. Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane in C++.'
 type: docs
-weight: 16334
+weight: 22742
 url: /cpp/aspose.words/style/get_priority/
 ---
 ## Style::get_Priority method
@@ -16,12 +16,11 @@ Gets/sets the integer value that represents the priority for sorting the styles 
 int32_t Aspose::Words::Style::get_Priority() const
 ```
 
-
 ## Examples
 
 
+Shows how to prioritize and hide a style.
 
-Shows how to prioritize and hide a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Style> styleTitle = doc->get_Styles()->idx_get(StyleIdentifier::Subtitle);
@@ -43,7 +42,6 @@ if (styleTitle->get_SemiHidden())
 
 doc->Save(get_ArtifactsDir() + u"Styles.StylePriority.docx");
 ```
-
 ## See Also
 
 * Class [Style](../)

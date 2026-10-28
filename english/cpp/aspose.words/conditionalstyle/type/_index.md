@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use Type method of Aspose::Words::ConditionalStyle class in C++.'
 type: docs
-weight: 1000
+weight: 15091
 url: /cpp/aspose.words/conditionalstyle/type/
 ---
 ## ConditionalStyle::Type method

@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Body::get_NodeType method. Returns Body in C++.'
 type: docs
-weight: 5000
+weight: 10000
 url: /cpp/aspose.words/body/get_nodetype/
 ---
 ## Body::get_NodeType method
@@ -16,12 +16,11 @@ Returns [Body](../../nodetype/).
 Aspose::Words::NodeType Aspose::Words::Body::get_NodeType() const override
 ```
 
-
 ## Examples
 
 
+Shows how to iterate through the children of a composite node.
 
-Shows how to iterate through the children of a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,10 +62,8 @@ for (auto&& node : System::IterateOver(section))
     }
 }
 ```
-
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

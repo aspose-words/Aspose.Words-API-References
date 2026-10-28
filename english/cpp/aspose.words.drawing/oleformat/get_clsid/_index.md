@@ -4,7 +4,7 @@ linktitle: get_Clsid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_Clsid method. Gets the CLSID of the OLE object in C++.'
 type: docs
-weight: 3000
+weight: 19201
 url: /cpp/aspose.words.drawing/oleformat/get_clsid/
 ---
 ## OleFormat::get_Clsid method
@@ -16,12 +16,11 @@ Gets the CLSID of the OLE object.
 System::Guid Aspose::Words::Drawing::OleFormat::get_Clsid()
 ```
 
-
 ## Examples
 
 
+Shows how to access an OLE control embedded in a document and its child controls.
 
-Shows how to access an OLE control embedded in a document and its child controls. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE ActiveX controls.docm"));
 
@@ -46,7 +45,6 @@ ASSERT_EQ(u"0", oleControlCollection->idx_get(1)->get_Value());
 ASSERT_EQ(u"Delphi", oleControlCollection->idx_get(2)->get_Caption());
 ASSERT_EQ(u"0", oleControlCollection->idx_get(2)->get_Value());
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

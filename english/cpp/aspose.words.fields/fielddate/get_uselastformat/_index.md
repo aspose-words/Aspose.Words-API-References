@@ -4,7 +4,7 @@ linktitle: get_UseLastFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDate::get_UseLastFormat method. Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field in C++.'
 type: docs
-weight: 2000
+weight: 7334
 url: /cpp/aspose.words.fields/fielddate/get_uselastformat/
 ---
 ## FieldDate::get_UseLastFormat method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fielddate/get_uselastformat/
 Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field.
 
 ```cpp
-bool Aspose::Words::Fields::FieldDate::get_UseLastFormat()
+_Bool Aspose::Words::Fields::FieldDate::get_UseLastFormat()
 ```
-
 
 ## Examples
 
 
+Shows how to use DATE fields to display dates according to different kinds of calendars.
 
-Shows how to use DATE fields to display dates according to different kinds of calendars. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +55,6 @@ builder->Writeln();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.DATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDate](../)

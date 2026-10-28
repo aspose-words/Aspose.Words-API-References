@@ -4,7 +4,7 @@ linktitle: get_SourceType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_SourceType method. Gets or sets the source type of a source in C++.'
 type: docs
-weight: 42000
+weight: 57756
 url: /cpp/aspose.words.bibliography/source/get_sourcetype/
 ---
 ## Source::get_SourceType method
@@ -16,12 +16,11 @@ Gets or sets the source type of a source.
 Aspose::Words::Bibliography::SourceType Aspose::Words::Bibliography::Source::get_SourceType() const
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
@@ -114,10 +113,8 @@ ASSERT_EQ(u"Roxanne", person->get_First());
 ASSERT_EQ(u"Brielle", person->get_Middle());
 ASSERT_EQ(u"Tejeda", person->get_Last());
 ```
-
 ## See Also
 
-* Enum [SourceType](../../sourcetype/)
 * Class [Source](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

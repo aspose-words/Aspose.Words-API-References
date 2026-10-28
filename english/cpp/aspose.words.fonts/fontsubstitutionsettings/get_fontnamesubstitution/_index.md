@@ -4,24 +4,23 @@ linktitle: get_FontNameSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_FontNameSubstitution method. Settings related to font name substitution rule in C++.'
 type: docs
-weight: 5000
+weight: 13000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontnamesubstitution/
 ---
 ## FontSubstitutionSettings::get_FontNameSubstitution method
 
 
-[Settings](../../../aspose.words.settings/) related to font name substitution rule.
+Settings related to font name substitution rule.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::Fonts::FontNameSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_FontNameSubstitution() const
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's system font source and set font substitutes.
 
-Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -73,10 +72,8 @@ ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources(
 ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
-
 ## See Also
 
-* Class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
