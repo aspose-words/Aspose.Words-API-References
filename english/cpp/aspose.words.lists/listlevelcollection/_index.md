@@ -25,12 +25,12 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
 | [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of levels in this list. |
 | [idx_get](./idx_get/)(int32_t) | Gets a list level by index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Gets a list level by index. |

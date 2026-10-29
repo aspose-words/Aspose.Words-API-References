@@ -7,20 +7,6 @@ type: docs
 weight: 12250
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/begin/
 ---
-## ChartSeriesGroupCollection::begin() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin() const
-```
-
-## See Also
-
-* Class [ChartSeriesGroupCollection](../)
-* Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words for C++](../../../)
 ## ChartSeriesGroupCollection::begin() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin
 
 ```cpp
 iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin()
+```
+
+## See Also
+
+* Class [ChartSeriesGroupCollection](../)
+* Namespace [Aspose::Words::Drawing::Charts](../../)
+* Library [Aspose.Words for C++](../../../)
+## ChartSeriesGroupCollection::begin() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::begin() const
 ```
 
 ## See Also

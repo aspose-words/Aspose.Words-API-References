@@ -7,20 +7,6 @@ type: docs
 weight: 17556
 url: /cpp/aspose.words.markup/customxmlschemacollection/end/
 ---
-## CustomXmlSchemaCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::end() const
-```
-
-## See Also
-
-* Class [CustomXmlSchemaCollection](../)
-* Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words for C++](../../../)
 ## CustomXmlSchemaCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::end() const
 
 ```cpp
 iterator Aspose::Words::Markup::CustomXmlSchemaCollection::end()
+```
+
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words for C++](../../../)
+## CustomXmlSchemaCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::end() const
 ```
 
 ## See Also

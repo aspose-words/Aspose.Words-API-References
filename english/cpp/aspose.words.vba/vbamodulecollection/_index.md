@@ -26,12 +26,12 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \&) | Removes the specified module from the collection. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() |  |
 | [end](./end/)() const |  |
+| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Returns the number of VBA modules in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Retrieves a [VbaModule](../vbamodule/) object by name, or Null if not found. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [VbaModule](../vbamodule/) object by index. |

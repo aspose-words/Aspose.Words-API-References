@@ -7,20 +7,6 @@ type: docs
 weight: 14556
 url: /cpp/aspose.words.lists/listcollection/end/
 ---
-## ListCollection::end() method
-
-
-
-
-```cpp
-iterator Aspose::Words::Lists::ListCollection::end()
-```
-
-## See Also
-
-* Class [ListCollection](../)
-* Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words for C++](../../../)
 ## ListCollection::end() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::Lists::ListCollection::end()
 
 ```cpp
 const_iterator Aspose::Words::Lists::ListCollection::end() const
+```
+
+## See Also
+
+* Class [ListCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words for C++](../../../)
+## ListCollection::end() method
+
+
+
+
+```cpp
+iterator Aspose::Words::Lists::ListCollection::end()
 ```
 
 ## See Also

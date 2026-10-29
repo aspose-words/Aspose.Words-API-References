@@ -7,20 +7,6 @@ type: docs
 weight: 12223
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/begin/
 ---
-## DigitalSignatureCollection::begin() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin() const
-```
-
-## See Also
-
-* Class [DigitalSignatureCollection](../)
-* Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureCollection::begin() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::beg
 
 ```cpp
 iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin()
+```
+
+## See Also
+
+* Class [DigitalSignatureCollection](../)
+* Namespace [Aspose::Words::DigitalSignatures](../../)
+* Library [Aspose.Words for C++](../../../)
+## DigitalSignatureCollection::begin() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::DigitalSignatures::DigitalSignatureCollection::begin() const
 ```
 
 ## See Also

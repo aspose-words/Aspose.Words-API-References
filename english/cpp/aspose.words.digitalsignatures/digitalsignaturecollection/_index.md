@@ -26,8 +26,8 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() |  |

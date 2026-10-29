@@ -7,20 +7,6 @@ type: docs
 weight: 10625
 url: /cpp/aspose.words/revisiongroupcollection/end/
 ---
-## RevisionGroupCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::RevisionGroupCollection::end() const
-```
-
-## See Also
-
-* Class [RevisionGroupCollection](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
 ## RevisionGroupCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::RevisionGroupCollection::end() const
 
 ```cpp
 iterator Aspose::Words::RevisionGroupCollection::end()
+```
+
+## See Also
+
+* Class [RevisionGroupCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## RevisionGroupCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::RevisionGroupCollection::end() const
 ```
 
 ## See Also

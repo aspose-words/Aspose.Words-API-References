@@ -30,8 +30,8 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() const |  |

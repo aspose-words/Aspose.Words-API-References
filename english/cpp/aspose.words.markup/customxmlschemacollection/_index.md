@@ -31,12 +31,12 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 | [Remove](./remove/)(const System::String \&) | Removes the specified value from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a value at the specified index. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
 | [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the element at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets the element at the specified index. |

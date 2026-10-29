@@ -28,12 +28,12 @@ class SdtListItemCollection : public System::Collections::Generic::IEnumerable<S
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a list item at the specified index. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
 | [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets number of items in the collection. |
 | [get_SelectedValue](./get_selectedvalue/)() | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [SdtListItem](../sdtlistitem/) object given its zero-based index in the collection. |

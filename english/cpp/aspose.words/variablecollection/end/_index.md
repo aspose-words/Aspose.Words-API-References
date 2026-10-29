@@ -7,20 +7,6 @@ type: docs
 weight: 17556
 url: /cpp/aspose.words/variablecollection/end/
 ---
-## VariableCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::VariableCollection::end() const
-```
-
-## See Also
-
-* Class [VariableCollection](../)
-* Namespace [Aspose::Words](../../)
-* Library [Aspose.Words for C++](../../../)
 ## VariableCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::VariableCollection::end() const
 
 ```cpp
 iterator Aspose::Words::VariableCollection::end()
+```
+
+## See Also
+
+* Class [VariableCollection](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
+## VariableCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::VariableCollection::end() const
 ```
 
 ## See Also

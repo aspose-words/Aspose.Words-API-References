@@ -34,8 +34,8 @@ template<typename T>class BaseWebExtensionCollection : public System::Collection
 | [Remove](./remove/)(int32_t) | Removes the item at the specified index from the collection. |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) |  |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() const |  |

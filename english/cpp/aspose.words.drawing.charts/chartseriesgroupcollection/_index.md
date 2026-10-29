@@ -26,8 +26,8 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() |  |

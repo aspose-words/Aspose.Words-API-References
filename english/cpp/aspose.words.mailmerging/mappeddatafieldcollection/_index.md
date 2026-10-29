@@ -30,8 +30,8 @@ class MappedDataFieldCollection : public System::Collections::Generic::IEnumerab
 | [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::String \&) | Removes a field mapping. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() |  |

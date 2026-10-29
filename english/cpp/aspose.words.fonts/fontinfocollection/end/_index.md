@@ -7,20 +7,6 @@ type: docs
 weight: 14455
 url: /cpp/aspose.words.fonts/fontinfocollection/end/
 ---
-## FontInfoCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Fonts::FontInfoCollection::end() const
-```
-
-## See Also
-
-* Class [FontInfoCollection](../)
-* Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words for C++](../../../)
 ## FontInfoCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Fonts::FontInfoCollection::end() const
 
 ```cpp
 iterator Aspose::Words::Fonts::FontInfoCollection::end()
+```
+
+## See Also
+
+* Class [FontInfoCollection](../)
+* Namespace [Aspose::Words::Fonts](../../)
+* Library [Aspose.Words for C++](../../../)
+## FontInfoCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Fonts::FontInfoCollection::end() const
 ```
 
 ## See Also

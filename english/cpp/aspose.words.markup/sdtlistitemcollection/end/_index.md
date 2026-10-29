@@ -7,20 +7,6 @@ type: docs
 weight: 14556
 url: /cpp/aspose.words.markup/sdtlistitemcollection/end/
 ---
-## SdtListItemCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Markup::SdtListItemCollection::end() const
-```
-
-## See Also
-
-* Class [SdtListItemCollection](../)
-* Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words for C++](../../../)
 ## SdtListItemCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Markup::SdtListItemCollection::end() const
 
 ```cpp
 iterator Aspose::Words::Markup::SdtListItemCollection::end()
+```
+
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words for C++](../../../)
+## SdtListItemCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Markup::SdtListItemCollection::end() const
 ```
 
 ## See Also

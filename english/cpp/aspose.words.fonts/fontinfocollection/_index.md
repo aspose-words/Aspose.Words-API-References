@@ -30,8 +30,8 @@ class FontInfoCollection : public System::Collections::Generic::IEnumerable<Syst
 | [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
 | [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [get_EmbedSystemFonts](./get_embedsystemfonts/)() const | Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
 

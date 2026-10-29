@@ -7,20 +7,6 @@ type: docs
 weight: 13223
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/begin/
 ---
-## BaseWebExtensionCollection::begin() method
-
-
-
-
-```cpp
-iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begin()
-```
-
-## See Also
-
-* Class [BaseWebExtensionCollection](../)
-* Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words for C++](../../../)
 ## BaseWebExtensionCollection::begin() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begin()
 
 ```cpp
 const_iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begin() const
+```
+
+## See Also
+
+* Class [BaseWebExtensionCollection](../)
+* Namespace [Aspose::Words::WebExtensions](../../)
+* Library [Aspose.Words for C++](../../../)
+## BaseWebExtensionCollection::begin() method
+
+
+
+
+```cpp
+iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begin()
 ```
 
 ## See Also

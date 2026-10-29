@@ -7,20 +7,6 @@ type: docs
 weight: 11250
 url: /cpp/aspose.words.vba/vbamodulecollection/begin/
 ---
-## VbaModuleCollection::begin() method
-
-
-
-
-```cpp
-iterator Aspose::Words::Vba::VbaModuleCollection::begin()
-```
-
-## See Also
-
-* Class [VbaModuleCollection](../)
-* Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words for C++](../../../)
 ## VbaModuleCollection::begin() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::Vba::VbaModuleCollection::begin()
 
 ```cpp
 const_iterator Aspose::Words::Vba::VbaModuleCollection::begin() const
+```
+
+## See Also
+
+* Class [VbaModuleCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words for C++](../../../)
+## VbaModuleCollection::begin() method
+
+
+
+
+```cpp
+iterator Aspose::Words::Vba::VbaModuleCollection::begin()
 ```
 
 ## See Also

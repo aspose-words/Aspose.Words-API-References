@@ -7,20 +7,6 @@ type: docs
 weight: 17223
 url: /cpp/aspose.words.markup/customxmlschemacollection/begin/
 ---
-## CustomXmlSchemaCollection::begin() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin() const
-```
-
-## See Also
-
-* Class [CustomXmlSchemaCollection](../)
-* Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words for C++](../../../)
 ## CustomXmlSchemaCollection::begin() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin() const
 
 ```cpp
 iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin()
+```
+
+## See Also
+
+* Class [CustomXmlSchemaCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words for C++](../../../)
+## CustomXmlSchemaCollection::begin() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin() const
 ```
 
 ## See Also

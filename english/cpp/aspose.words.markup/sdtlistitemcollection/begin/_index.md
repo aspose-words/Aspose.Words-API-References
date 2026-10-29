@@ -7,20 +7,6 @@ type: docs
 weight: 14223
 url: /cpp/aspose.words.markup/sdtlistitemcollection/begin/
 ---
-## SdtListItemCollection::begin() method
-
-
-
-
-```cpp
-iterator Aspose::Words::Markup::SdtListItemCollection::begin()
-```
-
-## See Also
-
-* Class [SdtListItemCollection](../)
-* Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words for C++](../../../)
 ## SdtListItemCollection::begin() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::Markup::SdtListItemCollection::begin()
 
 ```cpp
 const_iterator Aspose::Words::Markup::SdtListItemCollection::begin() const
+```
+
+## See Also
+
+* Class [SdtListItemCollection](../)
+* Namespace [Aspose::Words::Markup](../../)
+* Library [Aspose.Words for C++](../../../)
+## SdtListItemCollection::begin() method
+
+
+
+
+```cpp
+iterator Aspose::Words::Markup::SdtListItemCollection::begin()
 ```
 
 ## See Also

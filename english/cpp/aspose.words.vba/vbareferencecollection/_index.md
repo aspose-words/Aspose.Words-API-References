@@ -30,8 +30,8 @@ class VbaReferenceCollection : public System::Collections::Generic::IEnumerable<
 | [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
 | [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Returns the number of VBA references in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets [VbaReference](../vbareference/) object at the specified index. |
 | [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |

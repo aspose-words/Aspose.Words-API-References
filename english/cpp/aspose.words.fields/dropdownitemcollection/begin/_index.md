@@ -7,20 +7,6 @@ type: docs
 weight: 18223
 url: /cpp/aspose.words.fields/dropdownitemcollection/begin/
 ---
-## DropDownItemCollection::begin() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const
-```
-
-## See Also
-
-* Class [DropDownItemCollection](../)
-* Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words for C++](../../../)
 ## DropDownItemCollection::begin() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const
 
 ```cpp
 iterator Aspose::Words::Fields::DropDownItemCollection::begin()
+```
+
+## See Also
+
+* Class [DropDownItemCollection](../)
+* Namespace [Aspose::Words::Fields](../../)
+* Library [Aspose.Words for C++](../../../)
+## DropDownItemCollection::begin() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Fields::DropDownItemCollection::begin() const
 ```
 
 ## See Also

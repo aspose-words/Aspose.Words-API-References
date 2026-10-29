@@ -7,20 +7,6 @@ type: docs
 weight: 16223
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/begin/
 ---
-## MappedDataFieldCollection::begin() method
-
-
-
-
-```cpp
-iterator Aspose::Words::MailMerging::MappedDataFieldCollection::begin()
-```
-
-## See Also
-
-* Class [MappedDataFieldCollection](../)
-* Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words for C++](../../../)
 ## MappedDataFieldCollection::begin() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::MailMerging::MappedDataFieldCollection::begin()
 
 ```cpp
 const_iterator Aspose::Words::MailMerging::MappedDataFieldCollection::begin() const
+```
+
+## See Also
+
+* Class [MappedDataFieldCollection](../)
+* Namespace [Aspose::Words::MailMerging](../../)
+* Library [Aspose.Words for C++](../../../)
+## MappedDataFieldCollection::begin() method
+
+
+
+
+```cpp
+iterator Aspose::Words::MailMerging::MappedDataFieldCollection::begin()
 ```
 
 ## See Also

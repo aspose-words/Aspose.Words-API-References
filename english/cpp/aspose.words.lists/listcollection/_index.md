@@ -34,8 +34,8 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
-| [end](./end/)() |  |
 | [end](./end/)() const |  |
+| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Gets the count of numbered and bulleted lists in the document. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [idx_get](./idx_get/)(int32_t) | Gets a list by index. |

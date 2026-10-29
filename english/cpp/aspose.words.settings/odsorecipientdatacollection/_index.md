@@ -29,8 +29,8 @@ class OdsoRecipientDataCollection : public System::Collections::Generic::IEnumer
 | [OdsoRecipientDataCollection](./odsorecipientdatacollection/)() |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes the element at the specified index. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
 | [begin](./begin/)() const |  |
+| [begin](./begin/)() |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() const |  |

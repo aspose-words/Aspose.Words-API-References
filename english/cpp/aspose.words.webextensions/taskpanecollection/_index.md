@@ -34,8 +34,8 @@ class TaskPaneCollection : public BaseWebExtensionCollection<System::SharedPtr<A
 | [Remove](../basewebextensioncollection/remove/)(int32_t) | Removes the item at the specified index from the collection. |
 | [SetTemplateWeakPtr](../basewebextensioncollection/settemplateweakptr/)(uint32_t) |  |
 | static [Type](../basewebextensioncollection/type/)() |  |
-| [begin](../basewebextensioncollection/begin/)() |  |
 | [begin](../basewebextensioncollection/begin/)() const |  |
+| [begin](../basewebextensioncollection/begin/)() |  |
 | [cbegin](../basewebextensioncollection/cbegin/)() const |  |
 | [cend](../basewebextensioncollection/cend/)() const |  |
 | [end](../basewebextensioncollection/end/)() const |  |

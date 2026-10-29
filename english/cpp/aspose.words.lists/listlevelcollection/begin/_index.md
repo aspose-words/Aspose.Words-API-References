@@ -7,20 +7,6 @@ type: docs
 weight: 11223
 url: /cpp/aspose.words.lists/listlevelcollection/begin/
 ---
-## ListLevelCollection::begin() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Lists::ListLevelCollection::begin() const
-```
-
-## See Also
-
-* Class [ListLevelCollection](../)
-* Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words for C++](../../../)
 ## ListLevelCollection::begin() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Lists::ListLevelCollection::begin() const
 
 ```cpp
 iterator Aspose::Words::Lists::ListLevelCollection::begin()
+```
+
+## See Also
+
+* Class [ListLevelCollection](../)
+* Namespace [Aspose::Words::Lists](../../)
+* Library [Aspose.Words for C++](../../../)
+## ListLevelCollection::begin() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Lists::ListLevelCollection::begin() const
 ```
 
 ## See Also

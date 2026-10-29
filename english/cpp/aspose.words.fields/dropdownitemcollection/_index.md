@@ -33,8 +33,8 @@ class DropDownItemCollection : public System::Collections::Generic::IEnumerable<
 | [Remove](./remove/)(const System::String \&) | Removes the specified value from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a value at the specified index. |
 | static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
 | [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
 | [cbegin](./cbegin/)() const |  |
 | [cend](./cend/)() const |  |
 | [end](./end/)() const |  |

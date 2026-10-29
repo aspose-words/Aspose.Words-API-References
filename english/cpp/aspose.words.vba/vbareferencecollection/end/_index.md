@@ -7,20 +7,6 @@ type: docs
 weight: 11625
 url: /cpp/aspose.words.vba/vbareferencecollection/end/
 ---
-## VbaReferenceCollection::end() const method
-
-
-
-
-```cpp
-const_iterator Aspose::Words::Vba::VbaReferenceCollection::end() const
-```
-
-## See Also
-
-* Class [VbaReferenceCollection](../)
-* Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words for C++](../../../)
 ## VbaReferenceCollection::end() method
 
 
@@ -28,6 +14,20 @@ const_iterator Aspose::Words::Vba::VbaReferenceCollection::end() const
 
 ```cpp
 iterator Aspose::Words::Vba::VbaReferenceCollection::end()
+```
+
+## See Also
+
+* Class [VbaReferenceCollection](../)
+* Namespace [Aspose::Words::Vba](../../)
+* Library [Aspose.Words for C++](../../../)
+## VbaReferenceCollection::end() const method
+
+
+
+
+```cpp
+const_iterator Aspose::Words::Vba::VbaReferenceCollection::end() const
 ```
 
 ## See Also

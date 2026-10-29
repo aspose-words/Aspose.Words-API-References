@@ -7,20 +7,6 @@ type: docs
 weight: 15223
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/begin/
 ---
-## OdsoRecipientDataCollection::begin() method
-
-
-
-
-```cpp
-iterator Aspose::Words::Settings::OdsoRecipientDataCollection::begin()
-```
-
-## See Also
-
-* Class [OdsoRecipientDataCollection](../)
-* Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words for C++](../../../)
 ## OdsoRecipientDataCollection::begin() const method
 
 
@@ -28,6 +14,20 @@ iterator Aspose::Words::Settings::OdsoRecipientDataCollection::begin()
 
 ```cpp
 const_iterator Aspose::Words::Settings::OdsoRecipientDataCollection::begin() const
+```
+
+## See Also
+
+* Class [OdsoRecipientDataCollection](../)
+* Namespace [Aspose::Words::Settings](../../)
+* Library [Aspose.Words for C++](../../../)
+## OdsoRecipientDataCollection::begin() method
+
+
+
+
+```cpp
+iterator Aspose::Words::Settings::OdsoRecipientDataCollection::begin()
 ```
 
 ## See Also
